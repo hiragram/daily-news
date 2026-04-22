@@ -1,14 +1,14 @@
 {
   "date": "2026-04-22",
-  "windowLabel": "2026-04-21 15:36:51 JST - 2026-04-22 15:36:51 JST",
-  "archiveTitle": "ClaudeDevs updates and Pro-plan signals",
-  "archiveSummary": "ClaudeDevs の公式投稿2件と、Claude Code の Pro plan 実験まわりの関係者シグナルを整理。",
-  "latestSummary": "ClaudeDevs がキャッシュ可視化ダッシュボードと session recap を告知し、Anthropic 関係者から Pro plan 実験の補足が出た一方、公式ブログと Claude Code release の新規更新はなかった日次レポート。",
+  "windowLabel": "2026-04-21 15:45:46 JST - 2026-04-22 15:45:46 JST",
+  "archiveTitle": "ClaudeDevs updates and Claude Code v2.1.117",
+  "archiveSummary": "ClaudeDevs の公式投稿2件と Claude Code v2.1.117、Pro plan 実験まわりの重要シグナルを整理。",
+  "latestSummary": "ClaudeDevs の公式更新2件に加え、Claude Code v2.1.117 が公開され、Anthropic 関係者から Pro plan 実験の補足も出た日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeDevs</strong> が24時間内に2件の公式投稿を行い、Claude Developer Console のキャッシュ可視化ダッシュボードと Claude Code の session recap 表示を告知した。",
-    "<strong>@TheAmolAvasare</strong> は、Claude Code / Pro plan の変更は新規 prosumer signup の約2%だけを対象にした小規模テストだと説明し、誤解を招いた landing page と docs の変更は差し戻したと述べた。",
-    "<strong>@amorriscode</strong> は Claude Code Desktop の side chat、<strong>@noahzweben</strong> は Desktop の <code>/remote-control</code> 対応を案内し、Desktop 体験の継続的な拡張シグナルが見えた。",
-    "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、Anthropic 公式ブログ群、<code>anthropics/claude-code</code> Releases には、この24時間窓に入る新規更新はなかった。"
+    "GitHub CLI で確認したところ、Claude Code <code>v2.1.117</code> が <strong>2026-04-22 09:04 JST</strong> に公開され、この24時間窓に入っていた。",
+    "<strong>@TheAmolAvasare</strong> は、Claude Code / Pro plan の変更が新規 prosumer signup の約2%だけを対象にした小規模テストで、誤って更新された landing page と docs は差し戻したと説明した。",
+    "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、Anthropic 公式ブログ群、Claude Blog には、この24時間窓に入る新規記事はなかった。"
   ],
   "officialNews": [
     {
@@ -39,10 +39,6 @@
     {
       "label": "0件",
       "body": "Anthropic の <strong>Engineering / Research / News</strong> と <strong>Claude Blog</strong> に、この24時間窓の新規記事はなかった。"
-    },
-    {
-      "label": "0件",
-      "body": "<code>anthropics/claude-code</code> Releases に、この24時間窓の新規 release はなかった。"
     }
   ],
   "signals": [
@@ -100,8 +96,62 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub Releases を確認したが、この24時間窓に入る新規 release はなかった。最新の visible release は <code>v2.1.114</code>（2026-04-18 10:34 JST）で、今回の集計窓の外にある。",
+      "headline": "1件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.117</code> が 2026-04-22 09:04 JST に公開されていた。release note 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.117",
+          "publishedAt": "2026-04-22 09:04 JST",
+          "summary": "GitHub CLI で確認した公式 release。本文の全 bullet を和訳して分類。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>CLAUDE_CODE_FORK_SUBAGENT=1</code> を設定すると、external build でも forked subagent を有効化できるようになった。",
+                "agent frontmatter の <code>mcpServers</code> が、<code>--agent</code> 経由の main-thread agent session でも読み込まれるようになった。",
+                "<code>/resume</code> コマンドで、古くて大きい session を再読込する前に要約する提案が出るようになり、既存の <code>--resume</code> と挙動が揃った。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/model</code> が改善され、project が別 model を pin していても選択結果が再起動後まで保持されるようになった。起動ヘッダーにも、active model が project または managed-settings の pin 由来かどうかが表示される。",
+                "local MCP server と claude.ai MCP server を両方設定している場合の起動が高速化された。接続の並列化がデフォルトになったため。",
+                "すでに install 済みの plugin に対して <code>plugin install</code> を実行した場合、単に \"already installed\" で止まらず、不足している依存関係も install するようになった。",
+                "plugin の依存関係エラーが \"not installed\" と install 方法のヒントつきで表示されるようになり、<code>claude plugin marketplace add</code> も設定済み marketplace から不足依存を自動解決するようになった。",
+                "managed-settings の <code>blockedMarketplaces</code> と <code>strictKnownMarketplaces</code> が、plugin の install / update / refresh / autoupdate でも強制されるようになった。",
+                "Advisor Tool（experimental）の dialog に experimental ラベル、learn-more link、有効時の起動通知が追加された。また session や <code>/compact</code> が \"Advisor tool result content could not be processed\" エラーで毎回詰まる問題もあわせて解消された。",
+                "<code>cleanupPeriodDays</code> の retention sweep 対象が、<code>~/.claude/tasks/</code>、<code>~/.claude/shell-snapshots/</code>、<code>~/.claude/backups/</code> にも広がった。",
+                "OpenTelemetry では、<code>user_prompt</code> event に slash command 用の <code>command_name</code> と <code>command_source</code> が含まれるようになり、<code>cost.usage</code>、<code>token.usage</code>、<code>api_request</code>、<code>api_error</code> には、対応 model で <code>effort</code> 属性が付くようになった。custom / MCP command 名は <code>OTEL_LOG_TOOL_DETAILS=1</code> がない限り伏せられる。",
+                "macOS / Linux の native build では、<code>Glob</code> と <code>Grep</code> tool が埋め込みの <code>bfs</code> と <code>ugrep</code> に置き換えられ、Bash tool 経由で使われるようになった。別 tool round-trip が不要になり検索が高速化される。Windows と npm install build は従来どおり。",
+                "Windows では <code>where.exe</code> の executable lookup を process 単位で cache するようになり、subprocess 起動が高速化された。",
+                "Pro / Max subscriber が Opus 4.6 と Sonnet 4.6 を使う場合の default effort が、<code>medium</code> から <code>high</code> に変更された。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "Plain-CLI の OAuth session で access token が session 中に失効すると \"Please run /login\" で止まっていた問題を修正し、401 を受けた際に token を反応的に refresh するようになった。",
+                "<code>WebFetch</code> が非常に大きい HTML page で hang する問題を修正し、HTML-to-markdown 変換前に入力を切り詰めるようになった。",
+                "proxy が HTTP 204 No Content を返したときの crash を修正し、<code>TypeError</code> ではなく明確な error を出すようになった。",
+                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> 環境変数つきで起動した場合に、その token が失効すると <code>/login</code> が効かなかった問題を修正した。",
+                "prompt input の undo（<code>Ctrl+_</code>）が入力直後に効かず、各 undo step で 1 state 飛ばしていた問題を修正した。",
+                "Bun 上で動作しているとき、remote API request に対して <code>NO_PROXY</code> が尊重されない問題を修正した。",
+                "slow connection 上で key 名がまとまって届くと、escape / return が誤って発火することがある稀な問題を修正した。",
+                "SDK の <code>reload_plugins</code> が user MCP server をすべて serial に再接続していた問題を修正した。",
+                "Bedrock application-inference-profile request が、thinking disabled の Opus 4.7 backend で 400 になる問題を修正した。",
+                "MCP の <code>elicitation/create</code> request が、print / SDK mode で server 接続完了タイミングとぶつかると自動 cancel される問題を修正した。",
+                "main agent と異なる model を使う subagent が、file read を誤って malware warning 扱いする問題を修正した。",
+                "background task があると idle re-render loop が起き、Linux 上で memory growth が増える問題を修正した。",
+                "VSCode の \"Manage Plugins\" panel が、大きい marketplace を複数設定したときに壊れる問題を修正した。",
+                "Opus 4.7 session で <code>/context</code> の percent 表示が膨らみ、auto-compact が早く走りすぎる問題を修正した。Claude Code が Opus 4.7 の native 1M ではなく 200K context window 前提で計算していたのが原因。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
+          "urlLabel": "v2.1.117 を見る"
+        }
+      ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
@@ -110,7 +160,7 @@
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。",
     "同一スレッド内の補足返信は、独立した新情報があるものだけ採用。",
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "24時間窓の外にある公式記事と Claude Code release は一覧から除外。"
+    "24時間窓の外にある公式記事と release は一覧から除外。"
   ],
   "sources": [
     {
@@ -156,6 +206,10 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Release v2.1.117",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117"
     },
     {
       "title": "Claude Code Releases",
