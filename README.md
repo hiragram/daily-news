@@ -4,8 +4,10 @@ This directory is a GitHub Pages-ready static site.
 
 ## Files
 
-- `index.html`: the published report page
-- `assets/styles.css`: page styles
+- `index.html`: the site homepage and latest issue entry point
+- `reports/index.html`: archive page
+- `reports/YYYY-MM-DD/index.html`: daily permalink pages
+- `assets/styles.css`: shared page styles
 
 ## Publish to GitHub Pages
 
@@ -20,6 +22,10 @@ This directory is a GitHub Pages-ready static site.
 The site will then be available at:
 
 - `https://hiragram.github.io/daily-news/`
+
+Daily permalinks will look like:
+
+- `https://hiragram.github.io/daily-news/reports/2026-04-22/`
 
 If you later rename the repo to `hiragram.github.io`, it can live at:
 
