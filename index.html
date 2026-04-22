@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Claude News</title>
+    <meta
+      name="description"
+      content="Claude関連ニュースを毎日まとめるニュースレター風レポート"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Daily Claude News</p>
+        <h1>Claude Daily Brief</h1>
+        <p class="hero-copy">
+          Claude関連の公式発表、実装シグナル、リリース状況を短く読める形でまとめた
+          Webレポートです。
+        </p>
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">調査窓</span>
+            <strong>2026-04-21 08:32:41 JST - 2026-04-22 08:32:41 JST</strong>
+          </div>
+          <div>
+            <span class="meta-label">公開版</span>
+            <strong>GitHub Pages 向け静的HTML</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="report-grid">
+        <section class="card summary-card">
+          <div class="section-head">
+            <p class="section-kicker">Top Lines</p>
+            <h2>要点</h2>
+          </div>
+          <ul class="summary-list">
+            <li>
+              <strong>@ClaudeDevs</strong> が24時間内に2件の公式投稿を実施。新しいキャッシュ可視化ダッシュボードと
+              Claude Code の recap 改善を告知。
+            </li>
+            <li>
+              <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、Anthropic公式ブログ群、
+              Claude Blog には新規公式記事なし。
+            </li>
+            <li>
+              Anthropic関係者の返信では、Claude Code Desktop の side chat、worktree/root 修正、
+              symlink 対応などの実装シグナルが確認された。
+            </li>
+            <li>
+              Claude Code の新規リリースは <strong>0件</strong>。最新表示の <code>v2.1.116</code> は窓外。
+            </li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <p class="section-kicker">Official</p>
+            <h2>公式ニュース</h2>
+          </div>
+
+          <article class="story primary">
+            <div class="story-meta">
+              <span class="pill pill-official">Official</span>
+              <time datetime="2026-04-22T07:00:00+09:00">2026-04-22 07:00 JST</time>
+            </div>
+            <h3>Claude Developer Console にキャッシュ可視化ダッシュボードを追加</h3>
+            <p>
+              キャッシュ利用状況を見て、コストと TTFT を最適化しやすくする新しいダッシュボードを告知。
+            </p>
+            <a href="https://x.com/ClaudeDevs/status/2046710816884625509">投稿を見る</a>
+          </article>
+
+          <article class="story">
+            <div class="story-meta">
+              <span class="pill pill-official">Official</span>
+              <time datetime="2026-04-22T00:36:00+09:00">2026-04-22 00:36 JST</time>
+            </div>
+            <h3>Claude Code が離席後の recap 表示に対応</h3>
+            <p>
+              ターミナル版 Claude Code で、フォーカスを外して戻ったときに recap を表示する改善を告知。
+            </p>
+            <a href="https://x.com/ClaudeDevs/status/2046613932518023259">投稿を見る</a>
+          </article>
+
+          <div class="zero-state">
+            <div>
+              <span class="meta-label">0件</span>
+              <p><strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規本投稿は確認できず。</p>
+            </div>
+            <div>
+              <span class="meta-label">0件</span>
+              <p>Anthropic公式ページと Claude Blog の新規記事もなし。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <p class="section-kicker">Signals</p>
+            <h2>実装・運用シグナル</h2>
+          </div>
+
+          <div class="story-list">
+            <article class="story compact">
+              <div class="story-meta">
+                <span class="pill pill-medium">Medium</span>
+                <time datetime="2026-04-22T02:30:53+09:00">2026-04-22 02:30 JST</time>
+              </div>
+              <h3>@amorriscode</h3>
+              <p>Claude Code Desktop の side chat を <code>/btw</code> または <code>Cmd+;</code> で使えると案内。</p>
+              <a href="https://x.com/amorriscode/status/2046642845466190247">投稿を見る</a>
+            </article>
+
+            <article class="story compact">
+              <div class="story-meta">
+                <span class="pill pill-medium">Medium</span>
+                <time datetime="2026-04-21T22:10:16+09:00">2026-04-21 22:10 JST</time>
+              </div>
+              <h3>@felixrieseberg</h3>
+              <p>次回リリースで壊れた symlink があっても Claude が動くようにする修正を予告。</p>
+              <a href="https://x.com/felixrieseberg/status/2046577258538627449">投稿を見る</a>
+            </article>
+
+            <article class="story compact">
+              <div class="story-meta">
+                <span class="pill pill-medium">Medium</span>
+                <time datetime="2026-04-21T17:41:10+09:00">2026-04-21 17:41 JST</time>
+              </div>
+              <h3>@amorriscode</h3>
+              <p>worktree ではなく root を編集しようとする挙動について、当日または翌日の改善を示唆。</p>
+              <a href="https://x.com/amorriscode/status/2046509536820011262">投稿を見る</a>
+            </article>
+
+            <article class="story compact">
+              <div class="story-meta">
+                <span class="pill pill-medium">Medium</span>
+                <time datetime="2026-04-21T13:45:40+09:00">2026-04-21 13:45 JST</time>
+              </div>
+              <h3>@bcherny</h3>
+              <p>トークン消費増加に合わせて、購読者向けレート制限を引き上げたと説明。</p>
+              <a href="https://x.com/bcherny/status/2046450271715561751">投稿を見る</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <p class="section-kicker">Releases</p>
+            <h2>新規ブログ / リリース</h2>
+          </div>
+          <div class="split-panels">
+            <div class="mini-panel">
+              <span class="meta-label">ブログ</span>
+              <p><strong>0件</strong></p>
+              <p>Engineering / Research / News / Claude Blog の新規記事なし。</p>
+            </div>
+            <div class="mini-panel">
+              <span class="meta-label">Claude Code リリース</span>
+              <p><strong>0件</strong></p>
+              <p>
+                最新表示は <code>v2.1.116</code> だが、公開時刻は
+                2026-04-21 07:18 JST で調査窓外。
+              </p>
+              <a href="https://github.com/anthropics/claude-code/releases">Releases を見る</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-head">
+            <p class="section-kicker">Notes</p>
+            <h2>ノイズ・除外</h2>
+          </div>
+          <ul class="plain-list">
+            <li>個人雑談や製品情報を含まない短い返信は除外。</li>
+            <li>同じ話題を補足する返信は圧縮。</li>
+            <li>一般ユーザーの不満投稿は、新情報がない限り主報告から除外。</li>
+            <li>窓外の公式記事と既存リリースは一覧から除外。</li>
+          </ul>
+        </section>
+
+        <section class="card sources-card">
+          <div class="section-head">
+            <p class="section-kicker">Sources</p>
+            <h2>ソース</h2>
+          </div>
+          <ul class="source-list">
+            <li><a href="https://x.com/ClaudeDevs/status/2046710816884625509">ClaudeDevs: cache dashboard</a></li>
+            <li><a href="https://x.com/ClaudeDevs/status/2046613932518023259">ClaudeDevs: recap update</a></li>
+            <li><a href="https://x.com/amorriscode/status/2046642845466190247">amorriscode: side chat</a></li>
+            <li><a href="https://x.com/felixrieseberg/status/2046577258538627449">felixrieseberg: broken symlink fix</a></li>
+            <li><a href="https://x.com/amorriscode/status/2046509536820011262">amorriscode: worktree/root fix</a></li>
+            <li><a href="https://x.com/bcherny/status/2046450271715561751">bcherny: rate limit note</a></li>
+            <li><a href="https://www.anthropic.com/engineering">Anthropic Engineering</a></li>
+            <li><a href="https://www.anthropic.com/research">Anthropic Research</a></li>
+            <li><a href="https://www.anthropic.com/news">Anthropic News</a></li>
+            <li><a href="https://claude.com/blog">Claude Blog</a></li>
+            <li><a href="https://github.com/anthropics/claude-code/releases">Claude Code Releases</a></li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
