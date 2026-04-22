@@ -88,7 +88,14 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.117",
-      "body": "GitHub Releases 上で 2026-04-22 09:04 JST に公開。詳細なノートはページ読み込みの都合で展開できなかったが、新しい最新リリースとして確認できた。",
+      "body": "GitHub Releases 上で 2026-04-22 09:04 JST に公開。主な変更点を release note から抽出。",
+      "details": [
+        "<code>CLAUDE_CODE_FORK_SUBAGENT=1</code> を設定すると、external builds でも forked subagents を有効化できる。",
+        "Agent frontmatter の <code>mcpServers</code> が <code>--agent</code> 経由の main-thread session でも読み込まれるようになった。",
+        "<code>/model</code> の選択が再起動をまたいで保持され、project pin がある場合も起動時ヘッダーに反映される。",
+        "native macOS / Linux build では <code>Glob</code> と <code>Grep</code> が埋め込み <code>bfs</code> / <code>ugrep</code> に置き換わり、検索が高速化された。",
+        "Opus 4.7 の <code>/context</code> 表示と auto-compact が 200K 前提で早すぎた問題など、複数の不具合修正が入っている。"
+      ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }

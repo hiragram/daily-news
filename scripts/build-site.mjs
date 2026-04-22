@@ -161,6 +161,13 @@ ${report.releasePanels
               <span class="meta-label">${escapeHtml(item.title)}</span>
               <p><strong>${escapeHtml(item.headline)}</strong></p>
               <p>${rawHtml(item.body)}</p>
+              ${
+                item.details?.length
+                  ? `<ul class="mini-list">
+${item.details.map((detail) => `                <li>${rawHtml(detail)}</li>`).join("\n")}
+              </ul>`
+                  : ""
+              }
               ${item.url ? `<a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>` : ""}
             </div>`
   )

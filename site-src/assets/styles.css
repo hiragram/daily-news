@@ -255,6 +255,16 @@ code {
   line-height: 1.65;
 }
 
+.mini-list {
+  margin: 0.75rem 0 0.9rem;
+  padding-left: 1.2rem;
+}
+
+.mini-list li {
+  margin: 0.45rem 0;
+  line-height: 1.55;
+}
+
 .sources-card {
   background: linear-gradient(180deg, #f4f7fb, #fbfdff);
 }
