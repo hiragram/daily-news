@@ -48,6 +48,7 @@ For release note extraction:
 
 5. Include only releases whose publish time or publish date falls inside the requested window.
    If only a date is available and no time is shown, state that the inclusion is based on the visible publication date.
+   If two or more releases fall inside the window, keep all of them and order them newest first.
 
 6. Treat the GitHub release page and release note page as the source of truth.
    If GitHub shows draft or prerelease markers, report them explicitly.
@@ -75,7 +76,7 @@ If the newest release is older than the requested window, stop there unless the 
 Keep the output compact and easy to scan.
 
 - State the exact time window used, with concrete timestamps
-- If there is a new release, provide:
+- If there is a new release, provide one entry per in-window release:
   - version
   - local date or datetime
   - prerelease status if relevant
@@ -95,6 +96,7 @@ Keep the output compact and easy to scan.
   - `修正`
 - Do not collapse the tail of the list into vague text like `ほか複数の修正`
 - If a bullet is visible on the release page, include it somewhere in the final structured output
+- When multiple releases appear in the requested window, preserve them as separate releases instead of merging their notes into one flat list
 
 ## Example Invocation
 

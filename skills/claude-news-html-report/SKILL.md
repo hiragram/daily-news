@@ -134,7 +134,16 @@ node scripts/build-site.mjs
   - `ブログ`
   - `Claude Code リリース`
 - Use `headline: "0件"` when there is no new item
-- For Claude Code releases, prefer `sections` over a flat `details` list when the release page has multiple bullets
+- For Claude Code releases, use `releases` when one or more in-window releases exist
+- Keep the releases in newest-first order
+- Each release entry should carry its own:
+  - `version`
+  - `publishedAt`
+  - `summary`
+  - `sections` or `details`
+  - `url` and `urlLabel` when available
+- For a single release, still prefer the `releases` array so the shape stays stable
+- Within each release entry, prefer `sections` over a flat `details` list when the release page has multiple bullets
 - The target section titles are:
   - `新機能`
   - `変更`
@@ -142,6 +151,7 @@ node scripts/build-site.mjs
 - Translate each release-note bullet into Japanese one by one
 - Do not summarize a long release as `ほか複数の修正`
 - If the release page shows a bullet, include that bullet in one of the release sections
+- If two or more Claude Code versions shipped inside the window, include all of them rather than collapsing to the latest one
 
 ### `exclusions`
 

@@ -298,6 +298,31 @@ code {
   margin: 0.9rem 0 1rem;
 }
 
+.release-entries {
+  display: grid;
+  gap: 16px;
+  margin: 1rem 0;
+}
+
+.release-entry {
+  padding-top: 0.95rem;
+  border-top: 1px solid rgba(60, 48, 34, 0.12);
+}
+
+.release-entry:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.release-entry h4 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.release-entry-meta {
+  margin-bottom: 0.55rem;
+}
+
 .release-section h4 {
   margin: 0 0 0.55rem;
   font-size: 1rem;

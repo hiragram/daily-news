@@ -166,6 +166,58 @@ ${body}
         </section>`;
 }
 
+function renderReleaseSections(sections = []) {
+  if (!sections.length) {
+    return "";
+  }
+
+  return `<div class="release-sections">
+${sections
+  .map(
+    (section) => `                <section class="release-section">
+                  <h4>${escapeHtml(section.title)}</h4>
+                  <ul class="mini-list">
+${section.items.map((detail) => `                    <li>${rawHtml(detail)}</li>`).join("\n")}
+                  </ul>
+                </section>`
+  )
+  .join("\n")}
+              </div>`;
+}
+
+function renderReleaseDetails(details = []) {
+  if (!details.length) {
+    return "";
+  }
+
+  return `<ul class="mini-list">
+${details.map((detail) => `                <li>${rawHtml(detail)}</li>`).join("\n")}
+              </ul>`;
+}
+
+function renderReleaseEntries(releases = []) {
+  if (!releases.length) {
+    return "";
+  }
+
+  return `<div class="release-entries">
+${releases
+  .map(
+    (release) => `                <article class="release-entry">
+                  <div class="story-meta release-entry-meta">
+                    <h4>${escapeHtml(release.version)}</h4>
+                    <span>${escapeHtml(release.publishedAt)}</span>
+                  </div>
+                  <p>${rawHtml(release.summary)}</p>
+                  ${renderReleaseDetails(release.details)}
+                  ${renderReleaseSections(release.sections)}
+                  ${release.url ? `<a href="${escapeHtml(release.url)}">${escapeHtml(release.urlLabel)}</a>` : ""}
+                </article>`
+  )
+  .join("\n")}
+              </div>`;
+}
+
 function renderReportPage(report, siteMeta) {
   const officialHtml = [
     `          <div class="tweet-list">
@@ -194,29 +246,9 @@ ${report.releasePanels
               <span class="meta-label">${escapeHtml(item.title)}</span>
               <p><strong>${escapeHtml(item.headline)}</strong></p>
               <p>${rawHtml(item.body)}</p>
-              ${
-                item.details?.length
-                  ? `<ul class="mini-list">
-${item.details.map((detail) => `                <li>${rawHtml(detail)}</li>`).join("\n")}
-              </ul>`
-                  : ""
-              }
-              ${
-                item.sections?.length
-                  ? `<div class="release-sections">
-${item.sections
-  .map(
-    (section) => `                <section class="release-section">
-                  <h4>${escapeHtml(section.title)}</h4>
-                  <ul class="mini-list">
-${section.items.map((detail) => `                    <li>${rawHtml(detail)}</li>`).join("\n")}
-                  </ul>
-                </section>`
-  )
-  .join("\n")}
-              </div>`
-                  : ""
-              }
+              ${renderReleaseDetails(item.details)}
+              ${renderReleaseSections(item.sections)}
+              ${renderReleaseEntries(item.releases)}
               ${item.url ? `<a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>` : ""}
             </div>`
   )
