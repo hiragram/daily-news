@@ -179,6 +179,11 @@ code {
   gap: 14px;
 }
 
+.tweet-list {
+  display: grid;
+  gap: 14px;
+}
+
 .story {
   padding: 18px;
   border: 1px solid var(--line);
@@ -189,6 +194,23 @@ code {
 .story.primary {
   background: linear-gradient(180deg, #fff4ef, #fffaf6);
   border-color: rgba(170, 61, 26, 0.18);
+}
+
+.tweet-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: linear-gradient(180deg, #fffdf8, #fbf7ef);
+  overflow: hidden;
+}
+
+.tweet-card.primary {
+  background: linear-gradient(180deg, #fff4ef, #fffaf6);
+  border-color: rgba(170, 61, 26, 0.18);
+}
+
+.tweet-card .twitter-tweet {
+  margin: 10px auto 0 !important;
 }
 
 .story.compact {

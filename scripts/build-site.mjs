@@ -61,6 +61,7 @@ function pageTemplate({ title, description, stylesheetPath, body }) {
       rel="stylesheet"
     />
     <link rel="stylesheet" href="${escapeHtml(stylesheetPath)}" />
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="page-shell">
@@ -125,6 +126,18 @@ function renderStory(item, variant = "") {
           </article>`;
 }
 
+function renderTweetEmbed(item) {
+  return `          <article class="tweet-card${item.primary ? " primary" : ""}">
+            <div class="story-meta">
+              <span class="pill pill-official">${escapeHtml(item.label)}</span>
+              <time datetime="${escapeHtml(item.datetime)}">${escapeHtml(item.displayTime)}</time>
+            </div>
+            <blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-lang="ja">
+              <a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>
+            </blockquote>
+          </article>`;
+}
+
 function renderSection(titleKicker, title, body) {
   return `        <section class="card">
           <div class="section-head">
@@ -137,7 +150,9 @@ ${body}
 
 function renderReportPage(report, siteMeta) {
   const officialHtml = [
-    ...report.officialNews.map((item) => renderStory(item, item.primary ? "primary" : "")),
+    `          <div class="tweet-list">
+${report.officialNews.map((item) => renderTweetEmbed(item)).join("\n")}
+          </div>`,
     `          <div class="zero-state">
 ${report.officialZeroStates
   .map(
@@ -208,7 +223,7 @@ ${report.summaryBullets.map((item) => `            <li>${rawHtml(item)}</li>`).j
 
       <main class="report-grid">
 ${renderSection("Top Lines", "要点", summaryHtml)}
-${renderSection("Official", "公式ニュース", officialHtml)}
+${renderSection("Official", "公式X", officialHtml)}
 ${renderSection("Signals", "実装・運用シグナル", signalsHtml)}
 ${renderSection("Releases", "新規ブログ / リリース", releaseHtml)}
 ${renderSection("Notes", "ノイズ・除外", exclusionsHtml)}
