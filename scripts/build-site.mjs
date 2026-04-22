@@ -132,9 +132,13 @@ function renderTweetEmbed(item) {
               <span class="pill pill-official">${escapeHtml(item.label)}</span>
               <time datetime="${escapeHtml(item.datetime)}">${escapeHtml(item.displayTime)}</time>
             </div>
-            <blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-lang="ja">
-              <a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>
-            </blockquote>
+            <h3>${escapeHtml(item.title)}</h3>
+            <p>${rawHtml(item.summary)}</p>
+            <div class="tweet-embed">
+              <blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-lang="ja">
+                <a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>
+              </blockquote>
+            </div>
           </article>`;
 }
 
