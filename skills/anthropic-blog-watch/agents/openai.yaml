@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anthropic Blog Watch"
+  short_description: "Check Anthropic official blogs and news pages for newly published articles"
+  default_prompt: "Use $Anthropic Blog Watch to check Anthropic's official Engineering, Research, News, and Claude blog pages for new articles in the last 24 hours."

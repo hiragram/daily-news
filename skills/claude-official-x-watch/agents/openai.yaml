@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Official X Watch"
+  short_description: "Fetch recent Claude news from official Anthropic and Claude X accounts"
+  default_prompt: "Use $Claude Official X Watch to fetch recent Claude-related posts from @AnthropicAI, @ClaudeAI, and @ClaudeDevs with X MCP."

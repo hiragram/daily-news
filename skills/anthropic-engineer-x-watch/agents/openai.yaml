@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anthropic Engineer X Watch"
+  short_description: "Scan curated Anthropic engineer accounts on X for recent relevant posts"
+  default_prompt: "Use $Anthropic Engineer X Watch to gather important recent posts from the curated Anthropic engineer account list on X with Computer Use."

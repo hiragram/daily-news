@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude Code Release Watch"
+  short_description: "Check the official Claude Code GitHub releases page for new releases and notes"
+  default_prompt: "Use $Claude Code Release Watch to check the official Claude Code GitHub releases page for any new release in the last 24 hours and summarize the release notes."

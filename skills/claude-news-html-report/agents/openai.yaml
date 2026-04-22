@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude News HTML Report"
+  short_description: "Generate schema-valid JSON for the Daily Claude News website"
+  default_prompt: "Use $Claude News HTML Report to turn the Claude watch outputs into a JSON report that conforms to site-src/schema/report.schema.json, then validate it and rebuild the site if needed."

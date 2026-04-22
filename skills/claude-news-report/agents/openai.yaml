@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude News Report"
+  short_description: "Turn multiple Claude watch outputs into one stable final report"
+  default_prompt: "Use $Claude News Report to turn the outputs of the Claude X, engineer X, blog, and release watch skills into one integrated final report with stable sections and clear prioritization."
