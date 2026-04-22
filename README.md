@@ -18,6 +18,19 @@ Do not edit files in `site/` directly.
 
 ## Local workflow
 
+Preview locally:
+
+```bash
+npm run local
+```
+
+Then open:
+
+- `http://localhost:8000/`
+- `http://localhost:8000/reports/2026-04-22/`
+
+Or run steps separately:
+
 1. Validate content with `node scripts/validate-content.mjs`
 2. Build the site with `node scripts/build-site.mjs`
 

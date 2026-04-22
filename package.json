@@ -1,0 +1,9 @@
+{
+  "name": "daily-news",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-content.mjs",
+    "build": "node scripts/build-site.mjs",
+    "local": "node scripts/build-site.mjs && python3 -m http.server 8000 -d site"
+  }
+}
