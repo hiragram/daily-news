@@ -46,6 +46,18 @@ function rawHtml(value) {
   return value ?? "";
 }
 
+function toTwitterEmbedUrl(url) {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === "x.com" || parsed.hostname === "www.x.com") {
+      parsed.hostname = "twitter.com";
+    }
+    return parsed.toString();
+  } catch {
+    return url;
+  }
+}
+
 function pageTemplate({ title, description, stylesheetPath, body }) {
   return `<!DOCTYPE html>
 <html lang="ja">
@@ -61,12 +73,12 @@ function pageTemplate({ title, description, stylesheetPath, body }) {
       rel="stylesheet"
     />
     <link rel="stylesheet" href="${escapeHtml(stylesheetPath)}" />
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="page-shell">
 ${body}
     </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>
 `;
@@ -127,6 +139,7 @@ function renderStory(item, variant = "") {
 }
 
 function renderTweetEmbed(item) {
+  const embedUrl = toTwitterEmbedUrl(item.url);
   return `          <article class="tweet-card${item.primary ? " primary" : ""}">
             <div class="story-meta">
               <span class="pill pill-official">${escapeHtml(item.label)}</span>
@@ -136,7 +149,7 @@ function renderTweetEmbed(item) {
             <p>${rawHtml(item.summary)}</p>
             <div class="tweet-embed">
               <blockquote class="twitter-tweet" data-dnt="true" data-theme="light" data-lang="ja">
-                <a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>
+                <a href="${escapeHtml(embedUrl)}">${escapeHtml(item.urlLabel)}</a>
               </blockquote>
             </div>
           </article>`;
