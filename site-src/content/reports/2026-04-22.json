@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-22",
+  "windowLabel": "2026-04-21 08:32:41 JST - 2026-04-22 08:32:41 JST",
+  "archiveTitle": "ClaudeDevs updates and Claude Code signals",
+  "archiveSummary": "キャッシュ可視化ダッシュボード、recap 表示改善、Desktop 周辺の実装シグナル。",
+  "latestSummary": "公式投稿2件に加えて、Claude Code Desktop とターミナル版まわりの改善予告をまとめた日次レポート。",
+  "summaryBullets": [
+    "<strong>@ClaudeDevs</strong> が24時間内に2件の公式投稿を実施。新しいキャッシュ可視化ダッシュボードと Claude Code の recap 改善を告知。",
+    "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、Anthropic公式ブログ群、Claude Blog には新規公式記事なし。",
+    "Anthropic関係者の返信では、Claude Code Desktop の side chat、worktree/root 修正、symlink 対応などの実装シグナルが確認された。",
+    "Claude Code の新規リリースは <strong>0件</strong>。最新表示の <code>v2.1.116</code> は窓外。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-04-22T07:00:00+09:00",
+      "displayTime": "2026-04-22 07:00 JST",
+      "title": "Claude Developer Console にキャッシュ可視化ダッシュボードを追加",
+      "summary": "キャッシュ利用状況を見て、コストと TTFT を最適化しやすくする新しいダッシュボードを告知。",
+      "url": "https://x.com/ClaudeDevs/status/2046710816884625509",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-22T00:36:00+09:00",
+      "displayTime": "2026-04-22 00:36 JST",
+      "title": "Claude Code が離席後の recap 表示に対応",
+      "summary": "ターミナル版 Claude Code で、フォーカスを外して戻ったときに recap を表示する改善を告知。",
+      "url": "https://x.com/ClaudeDevs/status/2046613932518023259",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規本投稿は確認できず。"
+    },
+    {
+      "label": "0件",
+      "body": "Anthropic公式ページと Claude Blog の新規記事もなし。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Medium",
+      "datetime": "2026-04-22T02:30:53+09:00",
+      "displayTime": "2026-04-22 02:30 JST",
+      "title": "@amorriscode",
+      "summary": "Claude Code Desktop の side chat を <code>/btw</code> または <code>Cmd+;</code> で使えると案内。",
+      "url": "https://x.com/amorriscode/status/2046642845466190247",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-21T22:10:16+09:00",
+      "displayTime": "2026-04-21 22:10 JST",
+      "title": "@felixrieseberg",
+      "summary": "次回リリースで壊れた symlink があっても Claude が動くようにする修正を予告。",
+      "url": "https://x.com/felixrieseberg/status/2046577258538627449",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-21T17:41:10+09:00",
+      "displayTime": "2026-04-21 17:41 JST",
+      "title": "@amorriscode",
+      "summary": "worktree ではなく root を編集しようとする挙動について、当日または翌日の改善を示唆。",
+      "url": "https://x.com/amorriscode/status/2046509536820011262",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-21T13:45:40+09:00",
+      "displayTime": "2026-04-21 13:45 JST",
+      "title": "@bcherny",
+      "summary": "トークン消費増加に合わせて、購読者向けレート制限を引き上げたと説明。",
+      "url": "https://x.com/bcherny/status/2046450271715561751",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "Engineering / Research / News / Claude Blog の新規記事なし。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "最新表示は <code>v2.1.116</code> だが、公開時刻は 2026-04-21 07:18 JST で調査窓外。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "個人雑談や製品情報を含まない短い返信は除外。",
+    "同じ話題を補足する返信は圧縮。",
+    "一般ユーザーの不満投稿は、新情報がない限り主報告から除外。",
+    "窓外の公式記事と既存リリースは一覧から除外。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeDevs: cache dashboard",
+      "url": "https://x.com/ClaudeDevs/status/2046710816884625509"
+    },
+    {
+      "title": "ClaudeDevs: recap update",
+      "url": "https://x.com/ClaudeDevs/status/2046613932518023259"
+    },
+    {
+      "title": "amorriscode: side chat",
+      "url": "https://x.com/amorriscode/status/2046642845466190247"
+    },
+    {
+      "title": "felixrieseberg: broken symlink fix",
+      "url": "https://x.com/felixrieseberg/status/2046577258538627449"
+    },
+    {
+      "title": "amorriscode: worktree/root fix",
+      "url": "https://x.com/amorriscode/status/2046509536820011262"
+    },
+    {
+      "title": "bcherny: rate limit note",
+      "url": "https://x.com/bcherny/status/2046450271715561751"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
