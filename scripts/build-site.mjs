@@ -1,12 +1,24 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..");
 const sourceDir = path.join(rootDir, "site-src");
 const outputDir = path.join(rootDir, "site");
+
+function runValidation() {
+  const result = spawnSync("node", [path.join(rootDir, "scripts", "validate-content.mjs")], {
+    cwd: rootDir,
+    stdio: "inherit",
+  });
+
+  if (result.status !== 0) {
+    process.exit(result.status ?? 1);
+  }
+}
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -295,6 +307,8 @@ function copyDirectory(source, target) {
 }
 
 function build() {
+  runValidation();
+
   const siteMeta = readJson(path.join(sourceDir, "content", "site.json"));
   const reportsDir = path.join(sourceDir, "content", "reports");
   const reports = fs
@@ -327,16 +341,19 @@ Do not edit files in \`site/\` directly.
 ## Source of truth
 
 - \`site-src/assets/styles.css\`: shared site styles
+- \`site-src/schema/*.schema.json\`: JSON schema definitions
 - \`site-src/content/site.json\`: site-level metadata
 - \`site-src/content/reports/*.json\`: daily report data
+- \`scripts/validate-content.mjs\`: schema validation
 - \`scripts/build-site.mjs\`: renderer
 
 ## Publish to GitHub Pages
 
-1. Build the site with \`node scripts/build-site.mjs\`
-2. Push the contents of \`site/\` into the root of \`hiragram/daily-news\`
-3. In GitHub, open \`Settings > Pages\`
-4. Set:
+1. Validate content with \`node scripts/validate-content.mjs\`
+2. Build the site with \`node scripts/build-site.mjs\`
+3. Push the contents of \`site/\` into the root of \`hiragram/daily-news\`
+4. In GitHub, open \`Settings > Pages\`
+5. Set:
    - Source: \`Deploy from a branch\`
    - Branch: \`main\`
    - Folder: \`/ (root)\`

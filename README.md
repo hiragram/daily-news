@@ -6,16 +6,19 @@ Do not edit files in `site/` directly.
 ## Source of truth
 
 - `site-src/assets/styles.css`: shared site styles
+- `site-src/schema/*.schema.json`: JSON schema definitions
 - `site-src/content/site.json`: site-level metadata
 - `site-src/content/reports/*.json`: daily report data
+- `scripts/validate-content.mjs`: schema validation
 - `scripts/build-site.mjs`: renderer
 
 ## Publish to GitHub Pages
 
-1. Build the site with `node scripts/build-site.mjs`
-2. Push the contents of `site/` into the root of `hiragram/daily-news`
-3. In GitHub, open `Settings > Pages`
-4. Set:
+1. Validate content with `node scripts/validate-content.mjs`
+2. Build the site with `node scripts/build-site.mjs`
+3. Push the contents of `site/` into the root of `hiragram/daily-news`
+4. In GitHub, open `Settings > Pages`
+5. Set:
    - Source: `Deploy from a branch`
    - Branch: `main`
    - Folder: `/ (root)`
