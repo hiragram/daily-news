@@ -201,6 +201,22 @@ ${item.details.map((detail) => `                <li>${rawHtml(detail)}</li>`).jo
               </ul>`
                   : ""
               }
+              ${
+                item.sections?.length
+                  ? `<div class="release-sections">
+${item.sections
+  .map(
+    (section) => `                <section class="release-section">
+                  <h4>${escapeHtml(section.title)}</h4>
+                  <ul class="mini-list">
+${section.items.map((detail) => `                    <li>${rawHtml(detail)}</li>`).join("\n")}
+                  </ul>
+                </section>`
+  )
+  .join("\n")}
+              </div>`
+                  : ""
+              }
               ${item.url ? `<a href="${escapeHtml(item.url)}">${escapeHtml(item.urlLabel)}</a>` : ""}
             </div>`
   )

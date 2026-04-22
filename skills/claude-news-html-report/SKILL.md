@@ -134,6 +134,14 @@ node scripts/build-site.mjs
   - `ブログ`
   - `Claude Code リリース`
 - Use `headline: "0件"` when there is no new item
+- For Claude Code releases, prefer `sections` over a flat `details` list when the release page has multiple bullets
+- The target section titles are:
+  - `新機能`
+  - `変更`
+  - `修正`
+- Translate each release-note bullet into Japanese one by one
+- Do not summarize a long release as `ほか複数の修正`
+- If the release page shows a bullet, include that bullet in one of the release sections
 
 ### `exclusions`
 

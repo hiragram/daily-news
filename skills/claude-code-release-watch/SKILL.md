@@ -38,8 +38,13 @@ If the user specifies a different range, compute that exact window instead. In t
 4. Open the individual release page when needed.
    Use it to capture:
 - exact release title
-- fuller release notes
+- full release notes
 - clearer publish metadata
+
+For release note extraction:
+- read the complete `What's changed` list on the release detail page
+- do not stop at a short excerpt if the page exposes a fuller list
+- preserve the full set of visible changes for in-window releases
 
 5. Include only releases whose publish time or publish date falls inside the requested window.
    If only a date is available and no time is shown, state that the inclusion is based on the visible publication date.
@@ -74,7 +79,7 @@ Keep the output compact and easy to scan.
   - version
   - local date or datetime
   - prerelease status if relevant
-  - short summary of notable changes
+  - complete list of visible changes from the release page
   - link
 - If there are no new releases, say `0件`
 
@@ -84,6 +89,12 @@ Keep the output compact and easy to scan.
 - Use the `web` tool rather than browser automation
 - Prefer GitHub release metadata over third-party reporting
 - Avoid long quotations; summarize in your own words
+- When preparing website data, classify the release-note items into:
+  - `新機能`
+  - `変更`
+  - `修正`
+- Do not collapse the tail of the list into vague text like `ほか複数の修正`
+- If a bullet is visible on the release page, include it somewhere in the final structured output
 
 ## Example Invocation
 

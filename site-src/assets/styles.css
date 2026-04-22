@@ -288,6 +288,18 @@ code {
   line-height: 1.55;
 }
 
+.release-sections {
+  display: grid;
+  gap: 14px;
+  margin: 0.9rem 0 1rem;
+}
+
+.release-section h4 {
+  margin: 0 0 0.55rem;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
 .sources-card {
   background: linear-gradient(180deg, #f4f7fb, #fbfdff);
 }
