@@ -140,9 +140,10 @@ function renderStory(item, variant = "") {
 
 function renderTweetEmbed(item) {
   const embedUrl = toTwitterEmbedUrl(item.url);
+  const pillClass = item.label === "Official" ? "pill-official" : "pill-medium";
   return `          <article class="tweet-card${item.primary ? " primary" : ""}">
             <div class="story-meta">
-              <span class="pill pill-official">${escapeHtml(item.label)}</span>
+              <span class="pill ${pillClass}">${escapeHtml(item.label)}</span>
               <time datetime="${escapeHtml(item.datetime)}">${escapeHtml(item.displayTime)}</time>
             </div>
             <h3>${escapeHtml(item.title)}</h3>
@@ -182,8 +183,8 @@ ${report.officialZeroStates
           </div>`,
   ].join("\n\n");
 
-  const signalsHtml = `          <div class="story-list">
-${report.signals.map((item) => renderStory(item, "compact")).join("\n")}
+  const signalsHtml = `          <div class="tweet-list">
+${report.signals.map((item) => renderTweetEmbed(item)).join("\n")}
           </div>`;
 
   const releaseHtml = `          <div class="split-panels">
