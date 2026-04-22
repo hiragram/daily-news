@@ -1,0 +1,252 @@
+{
+  "date": "2026-04-23",
+  "windowLabel": "2026-04-22 07:00:54 JST - 2026-04-23 07:00:54 JST",
+  "archiveTitle": "Ultrareview, economics research, and Claude Code v2.1.117",
+  "archiveSummary": "Claude の公式告知4件、Anthropic Research 2本、Claude Code v2.1.117 を整理。",
+  "latestSummary": "Claude Code の `/ultrareview` 研究プレビュー、Claude Cowork のインタラクティブ図表、Anthropic Research の新作2本、Claude Code v2.1.117 をまとめた日次レポート。",
+  "summaryBullets": [
+    "<strong>@ClaudeDevs</strong> は、クラウド側の bug-hunting agents を走らせる <code>/ultrareview</code> を research preview として公開し、同日に prompt caching の可視化ダッシュボードも告知した。",
+    "<strong>@ClaudeAI</strong> は Claude Cowork でインタラクティブな chart / diagram を beta 提供開始したと案内した。",
+    "<strong>@AnthropicAI</strong> は Economic Research の新作として、<strong>Anthropic Economic Index Survey</strong> の告知記事と、<strong>81,000 人調査の経済面分析</strong> を公開した。",
+    "GitHub Releases では Claude Code <code>v2.1.117</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T05:19:22+09:00",
+      "displayTime": "2026-04-23 05:19 JST",
+      "title": "Claude Cowork がインタラクティブな図表とダイアグラムに対応",
+      "summary": "Claude Cowork で interactive charts と diagrams が使えるようになり、beta として全有料プランへ展開していると案内した。",
+      "url": "https://x.com/claudeai/status/2047047633416397076",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T02:36:07+09:00",
+      "displayTime": "2026-04-23 02:36 JST",
+      "title": "Anthropic が 81,000 人調査の経済面分析を公開",
+      "summary": "Anthropic Research の新作として、81,000 人の自由回答をもとに AI に対する経済的な期待と不安を掘り下げた記事を案内した。",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T02:07:51+09:00",
+      "displayTime": "2026-04-23 02:07 JST",
+      "title": "Claude Code に `/ultrareview` の research preview が追加",
+      "summary": "クラウド上の bug-hunting agents を走らせて findings を CLI / Desktop に返す <code>/ultrareview</code> を公開し、Pro / Max には 2026-05-05 まで 3 回の無料レビュー枠があると告知した。",
+      "url": "https://x.com/ClaudeDevs/status/2046999435239133246",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-22T07:00:59+09:00",
+      "displayTime": "2026-04-22 07:00 JST",
+      "title": "Claude Developer Console に cache usage dashboard を追加",
+      "summary": "prompt caching の visibility を高め、コストと TTFT の最適化をしやすくする新しい dashboard を告知した。",
+      "url": "https://x.com/ClaudeDevs/status/2046710816884625509",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "Anthropic の <strong>Engineering</strong> と <strong>News</strong>、<strong>Claude Blog</strong> には、この24時間窓に入る新規記事はなかった。"
+    },
+    {
+      "label": "0件",
+      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の上記4件以外に、この24時間窓で追加の本投稿は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-04-22T07:55:59+09:00",
+      "displayTime": "2026-04-22 07:55 JST",
+      "title": "@TheAmolAvasare",
+      "summary": "Claude Code / Pro plan の変更は新規 prosumer signup の約2%だけを対象にした小規模テストで、既存の Pro / Max subscriber には影響しないと説明した。",
+      "url": "https://x.com/TheAmolAvasare/status/2046724659039932830",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-22T11:51:30+09:00",
+      "displayTime": "2026-04-22 11:51 JST",
+      "title": "@TheAmolAvasare",
+      "summary": "2% テストだけなのに landing page と docs が更新されていた件は混乱を招いたため、両方とも差し戻したと補足した。",
+      "url": "https://x.com/TheAmolAvasare/status/2046783926920978681",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-23T00:38:59+09:00",
+      "displayTime": "2026-04-23 00:38 JST",
+      "title": "@noahzweben",
+      "summary": "Agent SDK の session store adapters が公開され、S3 / Redis / Postgres など外部ストレージに transcript をミラーして別ホストで resume できるようになったと案内した。",
+      "url": "https://x.com/noahzweben/status/2046977073009557939",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-22T14:28:27+09:00",
+      "displayTime": "2026-04-22 14:28 JST",
+      "title": "@noahzweben",
+      "summary": "Claude Code Desktop で <code>/remote-control</code> が使えるようになったと返信で案内した。",
+      "url": "https://x.com/noahzweben/status/2046823423712907331",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-22T08:05:21+09:00",
+      "displayTime": "2026-04-22 08:05 JST",
+      "title": "@helloitsaustin",
+      "summary": "大量の一時ファイルを作る session で問題が出る場合は、<code>clean up</code> コマンドや古い session の削除で session disk を整理してほしいと案内した。",
+      "url": "https://x.com/helloitsaustin/status/2046727015651586360",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "Anthropic Research の <strong>Economic Research</strong> に 2026-04-22 公開の記事が2本あった。公開時刻は見えないため、掲載判定は visible publication date ベース。",
+      "details": [
+        "「Announcing the Anthropic Economic Index Survey」: Claude ユーザーへの継続的な月次 survey を始め、AI が仕事・採用・生産性に与える変化を定点観測する新シリーズを告知。",
+        "「What 81,000 people told us about the economics of AI」: 81,000 人調査をもとに、AI への期待や不安を経済面から整理した Economic Research 記事を公開。"
+      ],
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Research を見る"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub Releases で <code>v2.1.117</code> が 2026-04-22 09:04 JST に公開されていた。release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.117",
+          "publishedAt": "2026-04-22 09:04 JST",
+          "summary": "GitHub release page の <code>What's changed</code> 全項目を和訳して分類。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>CLAUDE_CODE_FORK_SUBAGENT=1</code> を設定すると、external build でも forked subagents を有効化できるようになった。",
+                "agent frontmatter の <code>mcpServers</code> が、<code>--agent</code> 経由の main-thread agent session でも読み込まれるようになった。",
+                "<code>/resume</code> コマンドで、古く大きい session を再読込する前に summarize を提案するようになり、既存の <code>--resume</code> と挙動が揃った。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/model</code> が改善され、project が別 model を pin していても選択結果が再起動後まで保持され、起動ヘッダーに active model が project 由来か managed-settings pin 由来かも表示されるようになった。",
+                "local MCP server と claude.ai MCP server を両方設定している場合の起動が高速化された。接続の並列化がデフォルトになったため。",
+                "すでに install 済みの plugin に対して <code>plugin install</code> を実行した場合も、足りない dependency を追加で install するようになった。",
+                "plugin dependency error が \"not installed\" と install ヒント付きで表示されるようになり、<code>claude plugin marketplace add</code> も設定済み marketplace から不足 dependency を自動解決するようになった。",
+                "managed-settings の <code>blockedMarketplaces</code> と <code>strictKnownMarketplaces</code> が、plugin の install / update / refresh / autoupdate にも適用されるようになった。",
+                "Advisor Tool（experimental）の dialog に experimental ラベル、learn-more link、有効時の起動通知が追加された。また session や <code>/compact</code> が \"Advisor tool result content could not be processed\" で詰まる問題も同時に解消された。",
+                "<code>cleanupPeriodDays</code> の retention sweep 対象が、<code>~/.claude/tasks/</code>、<code>~/.claude/shell-snapshots/</code>、<code>~/.claude/backups/</code> にも広がった。",
+                "OpenTelemetry では、<code>user_prompt</code> event に slash command 用の <code>command_name</code> と <code>command_source</code> が追加され、<code>cost.usage</code>、<code>token.usage</code>、<code>api_request</code>、<code>api_error</code> には対応 model で <code>effort</code> 属性が付くようになった。custom / MCP command 名は <code>OTEL_LOG_TOOL_DETAILS=1</code> がない限り伏せられる。",
+                "macOS / Linux の native build では、<code>Glob</code> と <code>Grep</code> tool が埋め込みの <code>bfs</code> と <code>ugrep</code> に置き換わり、Bash tool 経由でより高速に検索できるようになった。Windows と npm install build は従来どおり。",
+                "Windows では <code>where.exe</code> の executable lookup を process 単位で cache するようになり、subprocess 起動が高速化された。",
+                "Pro / Max subscriber が Opus 4.6 と Sonnet 4.6 を使う場合の default effort が、<code>medium</code> から <code>high</code> に変わった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "Plain-CLI の OAuth session で access token が session 中に失効すると \"Please run /login\" で止まっていた問題を修正し、401 受信時に token を反応的に refresh するようになった。",
+                "<code>WebFetch</code> が非常に大きい HTML page で hang する問題を修正し、HTML-to-markdown 変換前に入力を切り詰めるようになった。",
+                "proxy が HTTP 204 No Content を返したときの crash を修正し、<code>TypeError</code> ではなく明確な error を出すようになった。",
+                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> 環境変数つきで起動した場合に、その token が失効すると <code>/login</code> が効かなかった問題を修正した。",
+                "prompt input の undo（<code>Ctrl+_</code>）が入力直後に効かず、各 undo step で 1 state 飛ばしていた問題を修正した。",
+                "Bun 上で動作しているとき、remote API request に対して <code>NO_PROXY</code> が尊重されない問題を修正した。",
+                "slow connection 上で key 名がまとまって届くと、escape / return が誤って発火することがある稀な問題を修正した。",
+                "SDK の <code>reload_plugins</code> が user MCP server をすべて serial に再接続していた問題を修正した。",
+                "Bedrock application-inference-profile request が、thinking disabled の Opus 4.7 backend で 400 になる問題を修正した。",
+                "MCP の <code>elicitation/create</code> request が、print / SDK mode で server 接続完了タイミングとぶつかると自動 cancel される問題を修正した。",
+                "main agent と異なる model を使う subagent が、file read を誤って malware warning 扱いする問題を修正した。",
+                "background task があると idle re-render loop が起き、Linux 上で memory growth が増える問題を修正した。",
+                "VSCode の \"Manage Plugins\" panel が、大きい marketplace を複数設定したときに壊れる問題を修正した。",
+                "Opus 4.7 session で <code>/context</code> の percent 表示が膨らみ、auto-compact が早く走りすぎる問題を修正した。Claude Code が Opus 4.7 の native 1M ではなく 200K context window 前提で計算していたのが原因。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
+          "urlLabel": "v2.1.117 を見る"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
+    "同一スレッド内の補足返信は、新しい事実があるものだけ採用。",
+    "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。",
+    "24時間窓の外にあるブログ記事と release は一覧から除外。"
+  ],
+  "sources": [
+    {
+      "title": "Claude: interactive charts and diagrams in Cowork",
+      "url": "https://x.com/claudeai/status/2047047633416397076"
+    },
+    {
+      "title": "AnthropicAI: 81k economics post",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017"
+    },
+    {
+      "title": "ClaudeDevs: ultrareview",
+      "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
+    },
+    {
+      "title": "ClaudeDevs: cache dashboard",
+      "url": "https://x.com/ClaudeDevs/status/2046710816884625509"
+    },
+    {
+      "title": "Amol Avasare: 2% test clarification",
+      "url": "https://x.com/TheAmolAvasare/status/2046724659039932830"
+    },
+    {
+      "title": "Amol Avasare: reverted landing page and docs changes",
+      "url": "https://x.com/TheAmolAvasare/status/2046783926920978681"
+    },
+    {
+      "title": "Noah Zweben: session store adapters",
+      "url": "https://x.com/noahzweben/status/2046977073009557939"
+    },
+    {
+      "title": "Noah Zweben: remote-control",
+      "url": "https://x.com/noahzweben/status/2046823423712907331"
+    },
+    {
+      "title": "Austin Lau: clean up command guidance",
+      "url": "https://x.com/helloitsaustin/status/2046727015651586360"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Release v2.1.117",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
