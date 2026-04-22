@@ -12,6 +12,7 @@ Default target accounts:
 - `@DarioAmodei`
 - `@meag_han_c`
 - `@felixrieseberg`
+- `@TheAmolAvasare`
 - `@adocomplete`
 - `@sidbid`
 - `@dickson_tsai`
@@ -19,11 +20,18 @@ Default target accounts:
 - `@AmandaAskell`
 - `@dmwlff`
 - `@amorriscode`
+- `@nateparrott`
+- `@henrythe9ths`
 - `@mikeyk`
 - `@jarredsumner`
 - `@The_Whole_Daisy`
 - `@trq212`
 - `@alexalbert__`
+- `@RobertJBye`
+- `@helloitsaustin`
+- `@noahzweben`
+- `@jackclarkSF`
+- `@katelyn_lesse`
 - `@_catwu`
 
 Default time window:
@@ -57,7 +65,7 @@ If the user specifies a different range, compute that exact window instead. In t
 3. Use one combined search query as the default retrieval path:
 
 ```text
-from:bcherny OR from:DarioAmodei OR from:meag_han_c OR from:felixrieseberg OR from:adocomplete OR from:sidbid OR from:dickson_tsai OR from:janleike OR from:AmandaAskell OR from:dmwlff OR from:amorriscode OR from:mikeyk OR from:jarredsumner OR from:The_Whole_Daisy OR from:trq212 OR from:alexalbert__ OR from:_catwu
+from:bcherny OR from:DarioAmodei OR from:meag_han_c OR from:felixrieseberg OR from:TheAmolAvasare OR from:adocomplete OR from:sidbid OR from:dickson_tsai OR from:janleike OR from:AmandaAskell OR from:dmwlff OR from:amorriscode OR from:nateparrott OR from:henrythe9ths OR from:mikeyk OR from:jarredsumner OR from:The_Whole_Daisy OR from:trq212 OR from:alexalbert__ OR from:RobertJBye OR from:helloitsaustin OR from:noahzweben OR from:jackclarkSF OR from:katelyn_lesse OR from:_catwu
 ```
 
 4. Pass the exact UTC time window into the MCP call whenever possible.
@@ -96,6 +104,7 @@ If the parent context is unclear from the reply alone, request tweet expansions 
 - `https://x.com/DarioAmodei`
 - `https://x.com/meag_han_c`
 - `https://x.com/felixrieseberg`
+- `https://x.com/TheAmolAvasare`
 - `https://x.com/adocomplete`
 - `https://x.com/sidbid`
 - `https://x.com/dickson_tsai`
@@ -103,11 +112,18 @@ If the parent context is unclear from the reply alone, request tweet expansions 
 - `https://x.com/AmandaAskell`
 - `https://x.com/dmwlff`
 - `https://x.com/amorriscode`
+- `https://x.com/nateparrott`
+- `https://x.com/henrythe9ths`
 - `https://x.com/mikeyk`
 - `https://x.com/jarredsumner`
 - `https://x.com/The_Whole_Daisy`
 - `https://x.com/trq212`
 - `https://x.com/alexalbert__`
+- `https://x.com/RobertJBye`
+- `https://x.com/helloitsaustin`
+- `https://x.com/noahzweben`
+- `https://x.com/jackclarkSF`
+- `https://x.com/katelyn_lesse`
 - `https://x.com/_catwu`
 
 ## Selection Guidance
