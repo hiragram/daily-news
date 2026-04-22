@@ -159,8 +159,8 @@ function renderTweetEmbed(item) {
 function renderSection(titleKicker, title, body) {
   return `        <section class="card">
           <div class="section-head">
-            <p class="section-kicker">${escapeHtml(titleKicker)}</p>
             <h2>${escapeHtml(title)}</h2>
+            <p class="section-kicker">${escapeHtml(titleKicker)}</p>
           </div>
 ${body}
         </section>`;
@@ -223,10 +223,6 @@ ${section.items.map((detail) => `                    <li>${rawHtml(detail)}</li>
   .join("\n")}
           </div>`;
 
-  const exclusionsHtml = `          <ul class="plain-list">
-${report.exclusions.map((item) => `            <li>${escapeHtml(item)}</li>`).join("\n")}
-          </ul>`;
-
   const sourcesHtml = `          <ul class="source-list">
 ${report.sources
   .map((item) => `            <li><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></li>`)
@@ -258,9 +254,8 @@ ${report.summaryBullets.map((item) => `            <li>${rawHtml(item)}</li>`).j
       <main class="report-grid">
 ${renderSection("Top Lines", "要点", summaryHtml)}
 ${renderSection("Official", "公式X", officialHtml)}
-${renderSection("Signals", "実装・運用シグナル", signalsHtml)}
+${renderSection("Anthropic Devs", "Anthropicメンバーのポスト", signalsHtml)}
 ${renderSection("Releases", "新規ブログ / リリース", releaseHtml)}
-${renderSection("Notes", "ノイズ・除外", exclusionsHtml)}
 ${renderSection("Sources", "ソース", sourcesHtml).replace('<section class="card">', '<section class="card sources-card">')}
       </main>`,
   });
