@@ -34,6 +34,8 @@ The primary deliverable is valid JSON for the site generator.
 
 1. Gather the outputs from the upstream watch skills first.
    Do not invent items that were not observed in the upstream results.
+   For Claude Code releases specifically, treat the upstream `$Claude Code Release Watch` output from outside-the-sandbox `gh` as the only source of truth.
+   Do not re-check Claude Code releases with `web` or Computer Use / Chrome from this skill.
 
 2. Determine the issue date.
    By default, use the report date in the user's local timezone.
@@ -135,6 +137,7 @@ node scripts/build-site.mjs
   - `Claude Code リリース`
 - Use `headline: "0件"` when there is no new item
 - For Claude Code releases, use `releases` when one or more in-window releases exist
+- For Claude Code releases, prefer outside-the-sandbox `gh` metadata from `$Claude Code Release Watch` over any GitHub web snapshot
 - Keep the releases in newest-first order
 - Each release entry should carry its own:
   - `version`

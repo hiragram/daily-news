@@ -7,8 +7,9 @@ description: "Use this skill when the user wants recent Claude Code release note
 
 Use this skill when the task is to check Claude Code's official release notes on GitHub.
 
-Prefer the GitHub CLI for release metadata and release-note bodies when `gh` is available and authenticated.
-Use the web path only as a fallback when `gh` is unavailable or clearly incomplete.
+Always use the GitHub CLI for release metadata and release-note bodies.
+For this repo's automation workflow, run `gh` outside the sandbox because sandboxed network access can return stale or incomplete GitHub results.
+Do not fall back to `web`, browser automation, or Chrome inspection for Claude Code releases.
 
 Default target page:
 - `https://github.com/anthropics/claude-code/releases`
@@ -18,8 +19,9 @@ Default time window:
 
 ## Workflow
 
-1. Use `gh` as the default retrieval path when available.
-   Prefer GitHub CLI output over summaries or mirrors because it exposes exact publish timestamps and full release bodies more reliably than the rendered web page.
+1. Use `gh` as the required retrieval path.
+   Prefer GitHub CLI output because it exposes exact publish timestamps and full release bodies more reliably than rendered GitHub web pages.
+   In this automation, `gh` must be executed outside the sandbox.
 
    Default commands:
 
@@ -28,7 +30,8 @@ gh release list -R anthropics/claude-code --limit 10
 gh release view -R anthropics/claude-code <tag> --json tagName,name,isDraft,isPrerelease,publishedAt,url,body
 ```
 
-   If `gh` is unavailable, unauthenticated, or returns incomplete data, fall back to the official GitHub Releases web pages.
+   If sandboxed `gh` fails, rerun it outside the sandbox.
+   If outside-the-sandbox `gh` is unavailable, unauthenticated, or incomplete, stop and report the block instead of falling back to `web` or browser inspection.
 
 2. Compute the exact time window when needed.
    Use shell commands for concrete UTC timestamps:
@@ -40,18 +43,16 @@ date -u -v-24H +%Y-%m-%dT%H:%M:%SZ
 
 If the user specifies a different range, compute that exact window instead. In the response, show timestamps in the user's local timezone when possible.
 
-3. Inspect the newest release entries.
-   If using `gh`, start from `gh release list`.
-   If using the fallback path, open the releases page and inspect the newest release entries.
+3. Inspect the newest release entries from `gh release list`.
    Capture for each candidate release:
 - version tag
 - publish date or datetime
 - release URL
-- visible summary or notes excerpt
+- release metadata from GitHub CLI
 
 4. Open the individual release detail when needed.
-   Prefer `gh release view` for this step.
-   Use it to capture:
+   Use `gh release view` for this step.
+   Capture:
 - exact release title
 - full release notes
 - clearer publish metadata
@@ -65,9 +66,9 @@ For release note extraction:
    If only a date is available and no time is shown, state that the inclusion is based on the visible publication date.
    If two or more releases fall inside the window, keep all of them and order them newest first.
 
-6. Treat GitHub release metadata as the source of truth.
-   Prefer `gh release view` fields such as `publishedAt`, `isDraft`, and `isPrerelease`.
-   If you had to use the web fallback, treat the official release page and release note page as the source of truth there.
+6. Treat GitHub CLI release metadata as the source of truth.
+   Use `gh release view` fields such as `publishedAt`, `isDraft`, and `isPrerelease`.
+   Do not override `gh` with what a cached or stale web page appears to show.
 
 7. If no in-window releases exist, say so explicitly.
 
@@ -82,8 +83,8 @@ If the newest release is older than the requested window, stop there unless the 
 
 ## Retrieval Notes
 
-- Prefer `gh` over page scraping whenever possible
-- Prefer the official GitHub releases page and release detail pages only when `gh` is unavailable or insufficient
+- Always use `gh` outside the sandbox for this workflow
+- Do not use page scraping, `web`, or Computer Use / Chrome as fallback paths for Claude Code releases
 - If GitHub shows both relative and absolute times, prefer the absolute timestamp
 - Keep quotes short; summarize the notes in your own words
 - If the release notes are long, extract only the main user-facing changes
@@ -104,8 +105,8 @@ Keep the output compact and easy to scan.
 ## Defaults
 
 - Prefer Japanese if the user is writing in Japanese
-- Prefer `gh` for release retrieval
-- Fall back to `web` rather than browser automation when `gh` cannot provide the needed data
+- Always run `gh` outside the sandbox for release retrieval in this repo's automation
+- If `gh` cannot provide the needed data outside the sandbox, report the failure instead of falling back
 - Prefer GitHub release metadata over third-party reporting
 - Avoid long quotations; summarize in your own words
 - When preparing website data, classify the release-note items into:
