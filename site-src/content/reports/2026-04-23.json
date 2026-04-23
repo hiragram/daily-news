@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "windowLabel": "2026-04-22 13:02:11 JST - 2026-04-23 13:02:11 JST",
+  "windowLabel": "2026-04-22 14:03:46 JST - 2026-04-23 14:03:46 JST",
   "archiveTitle": "MCP blog post, economic survey, and Claude Code v2.1.118",
   "archiveSummary": "MCP公式ブログ、Economic Research 2本、Claude Code v2.1.118、SDK関連 signal を整理。",
   "latestSummary": "Claude の MCP ブログ新作、Anthropic Economic Index Survey、81,000人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
@@ -107,7 +107,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub の公式 release page で <code>v2.1.118</code> が 2026-04-23 09:42 JST に公開されていることを確認した。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.118</code> が 2026-04-23 09:42 JST に公開されていた。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.118",
