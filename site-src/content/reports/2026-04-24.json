@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 05:00:19 JST - 2026-04-24 05:00:19 JST",
-  "archiveTitle": "Connectors, memory beta, and Claude Code v2.1.118",
-  "archiveSummary": "Claude apps connectors、Managed Agents memory beta、Claude Code postmortem と v2.1.118 を整理。",
+  "windowLabel": "2026-04-23 06:02:03 JST - 2026-04-24 06:02:03 JST",
+  "archiveTitle": "Connectors, memory beta, and Claude Code postmortem",
+  "archiveSummary": "Claude apps connectors 拡張、Managed Agents memory beta、Claude Code postmortem と v2.1.118 を整理。",
   "latestSummary": "Claude apps の日常向け connectors 拡張、Claude Managed Agents の built-in memory public beta、Claude Code 品質 postmortem、/schedule と deep links などの signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeAI</strong> は everyday-life connectors の追加を告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の拡張記事を公開した。",
-    "<strong>Claude Blog</strong> では <em>Built-in memory for Claude Managed Agents</em> も新規公開され、public beta として、filesystem ベースで export や API 管理ができる cross-session memory を案内した。",
-    "<strong>@ClaudeDevs</strong> と Anthropic Engineering は Claude Code の品質低下に関する postmortem を公開し、原因 3 件を特定して <code>v2.1.116+</code> で修正済み、全 subscriber の usage limits を reset したと案内した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> での可視化改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>Claude Blog</strong> では <em>Built-in memory for Claude Managed Agents</em> も 2026-04-23 付で公開され、public beta として cross-session memory、API 経由の export / 管理、共有 store を案内した。",
+    "<strong>@ClaudeDevs</strong> と Anthropic Engineering は Claude Code の品質低下に関する postmortem を公開し、原因 3 件を特定して <code>v2.1.116+</code> で修正済み、subscriber の usage limits を reset したと案内した。",
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -26,7 +26,7 @@
       "datetime": "2026-04-24T02:44:48+09:00",
       "displayTime": "2026-04-24 02:44 JST",
       "title": "ClaudeDevs が Claude Code 品質 postmortem を公開",
-      "summary": "過去 1 か月に報告された Claude Code の品質低下について 3 つの原因を特定して postmortem を公開し、すべて <code>v2.1.116+</code> で修正済みで、全 subscriber の usage limits を reset したと案内した。",
+      "summary": "過去 1 か月に報告された Claude Code の品質低下について 3 つの原因を特定して postmortem を公開し、すべて <code>v2.1.116+</code> で修正済みで、subscriber の usage limits を reset したと案内した。",
       "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -40,22 +40,12 @@
       "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
       "urlLabel": "投稿を見る",
       "primary": true
-    },
-    {
-      "label": "Official",
-      "datetime": "2026-04-23T05:19:22+09:00",
-      "displayTime": "2026-04-23 05:19 JST",
-      "title": "Claude Cowork の interactive charts / diagrams beta を案内",
-      "summary": "Claude Cowork で interactive charts と diagrams が使えるようになり、beta として全有料プランで利用できると案内した。",
-      "url": "https://x.com/claudeai/status/2047047633416397076",
-      "urlLabel": "投稿を見る",
-      "primary": true
     }
   ],
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong> からこの24時間窓に入る新規本投稿は確認できなかった。"
+      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong> からこの24時間窓に入る新規本投稿は確認できなかった。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> も上記 3 件以外の追加本投稿はなかった。"
     },
     {
       "label": "0件",
@@ -74,6 +64,15 @@
     },
     {
       "label": "High",
+      "datetime": "2026-04-24T02:30:28+09:00",
+      "displayTime": "2026-04-24 02:30 JST",
+      "title": "@felixrieseberg",
+      "summary": "<code>claude://</code> deep links で Chat / Cowork / Code の新規 session を事前入力つきで開けるようになり、外部 app からの \"Open in Claude\" 導線や workflow composition に使えると案内した。",
+      "url": "https://x.com/felixrieseberg/status/2047367515500659128",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
       "datetime": "2026-04-24T02:17:28+09:00",
       "displayTime": "2026-04-24 02:17 JST",
       "title": "@noahzweben",
@@ -83,19 +82,10 @@
     },
     {
       "label": "High",
-      "datetime": "2026-04-24T02:30:28+09:00",
-      "displayTime": "2026-04-24 02:30 JST",
-      "title": "@felixrieseberg",
-      "summary": "<code>claude://</code> deep links で Chat / Cowork / Code の新規 session を事前入力つきで開けるようになり、外部 app からの \"Open in Claude\" 連携や workflow composition に使えると案内した。",
-      "url": "https://x.com/felixrieseberg/status/2047367515500659128",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
       "datetime": "2026-04-23T23:48:03+09:00",
       "displayTime": "2026-04-23 23:48 JST",
       "title": "@dmwlff",
-      "summary": "Claude Code 2.1.117 以降は Grep / Glob 専用 tool をやめて Bash ベースに寄せ、より速く自然な挙動にしたと説明した。続く返信では、permission system が Claude の使う shell command のうち read-only なものを判定できるとも補足した。",
+      "summary": "Claude Code 2.1.117 以降は Grep / Glob 専用 tool をやめて Bash ベースに寄せ、より自然で速い挙動にしたと説明した。続く返信では permission system が Claude の使う shell command のうち read-only なものを認識できるとも補足した。",
       "url": "https://x.com/dmwlff/status/2047326639701524867",
       "urlLabel": "投稿を見る"
     }
@@ -184,7 +174,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "publish date が <strong>2026-04-22</strong> の公式記事は、このローカル 24 時間窓では新着件数に含めず、同期間の再告知や関連投稿は公式 X 側で扱った。",
+    "2026-04-23 06:02 JST より前の公式 X 投稿や blog publish date は、このローカル 24 時間窓には含めていない。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
   "sources": [
@@ -201,20 +191,16 @@
       "url": "https://x.com/ClaudeDevs/status/2047086372666921217"
     },
     {
-      "title": "Claude: interactive charts and diagrams in Cowork",
-      "url": "https://x.com/claudeai/status/2047047633416397076"
-    },
-    {
       "title": "Boris Cherny: /usage visibility and Opus 4.7 follow-up",
       "url": "https://x.com/bcherny/status/2047376975506059474"
     },
     {
-      "title": "Noah Zweben: one-time schedule tasks",
-      "url": "https://x.com/noahzweben/status/2047364243310416044"
-    },
-    {
       "title": "Felix Rieseberg: claude deep links",
       "url": "https://x.com/felixrieseberg/status/2047367515500659128"
+    },
+    {
+      "title": "Noah Zweben: one-time schedule tasks",
+      "url": "https://x.com/noahzweben/status/2047364243310416044"
     },
     {
       "title": "Adam Wolff: Bash search and read-only permissions follow-up",
