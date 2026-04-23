@@ -1,13 +1,14 @@
 {
   "date": "2026-04-23",
-  "windowLabel": "2026-04-22 11:03:45 JST - 2026-04-23 11:03:45 JST",
-  "archiveTitle": "MCP blog post, interactive charts, and Claude Code v2.1.118",
-  "archiveSummary": "MCP公式ブログ、Claude Cowork図表、Economic Research 2本、Claude Code v2.1.118 を整理。",
-  "latestSummary": "Claude の MCP ブログ新作、Claude Cowork のインタラクティブ図表、Economic Research 2本、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-22 12:01:16 JST - 2026-04-23 12:01:16 JST",
+  "archiveTitle": "MCP blog post, economic survey, and Claude Code v2.1.118",
+  "archiveSummary": "MCP公式ブログ、Economic Research 2本、Claude Code v2.1.118、SDK関連 signal を整理。",
+  "latestSummary": "Claude の MCP ブログ新作、Anthropic Economic Index Survey、81,000人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeDevs</strong> は、MCP で本番システムに届く agent の設計指針をまとめた新しい Claude blog 記事と、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
     "<strong>@ClaudeAI</strong> は Claude Cowork でインタラクティブな chart / diagram を beta として有料プランへ展開開始した。",
     "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は、Anthropic Economic Index Survey の開始と、81,000 人調査の経済面分析を同日に公開した。",
+    "Anthropic 関係者の投稿では、Agent SDK の session store adapters 公開と、Claude Code 2.1.117 以降の検索系 tool が Bash ベースへ寄った変更の補足が出た。",
     "GitHub Releases では Claude Code <code>v2.1.118</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
@@ -64,24 +65,6 @@
   "signals": [
     {
       "label": "High",
-      "datetime": "2026-04-22T11:51:30+09:00",
-      "displayTime": "2026-04-22 11:51 JST",
-      "title": "@TheAmolAvasare",
-      "summary": "2% の新規 prosumer signup だけを対象にしたテストなのに landing page と docs が更新されていた件は混乱を招いたため、両方とも差し戻したと補足した。",
-      "url": "https://x.com/TheAmolAvasare/status/2046783926920978681",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
-      "datetime": "2026-04-22T07:55:59+09:00",
-      "displayTime": "2026-04-22 07:55 JST",
-      "title": "@TheAmolAvasare",
-      "summary": "Claude Code / Pro plan の変更は新規 prosumer signup の約2%だけを対象にした小規模テストで、既存の Pro / Max subscriber には影響しないと説明した。",
-      "url": "https://x.com/TheAmolAvasare/status/2046724659039932830",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
       "datetime": "2026-04-23T00:38:59+09:00",
       "displayTime": "2026-04-23 00:38 JST",
       "title": "@noahzweben",
@@ -90,7 +73,7 @@
       "urlLabel": "投稿を見る"
     },
     {
-      "label": "Medium",
+      "label": "High",
       "datetime": "2026-04-23T09:10:36+09:00",
       "displayTime": "2026-04-23 09:10 JST",
       "title": "@dmwlff",
@@ -177,7 +160,7 @@
                 "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
                 "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
                 "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
-                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修正した。"
+                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修元した。"
               ]
             }
           ],
@@ -211,14 +194,6 @@
     {
       "title": "ClaudeDevs: ultrareview",
       "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
-    },
-    {
-      "title": "Amol Avasare: 2% test clarification",
-      "url": "https://x.com/TheAmolAvasare/status/2046724659039932830"
-    },
-    {
-      "title": "Amol Avasare: reverted landing page and docs changes",
-      "url": "https://x.com/TheAmolAvasare/status/2046783926920978681"
     },
     {
       "title": "Noah Zweben: session store adapters",
