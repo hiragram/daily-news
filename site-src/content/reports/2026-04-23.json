@@ -1,14 +1,14 @@
 {
   "date": "2026-04-23",
   "windowLabel": "2026-04-22 11:03:45 JST - 2026-04-23 11:03:45 JST",
-  "archiveTitle": "MCP blog post, interactive charts, and Claude Code v2.1.117",
-  "archiveSummary": "MCP公式ブログ、Claude Cowork図表、Economic Research 2本、Claude Code v2.1.117 を整理。",
-  "latestSummary": "Claude の MCP ブログ新作、Claude Cowork のインタラクティブ図表、Economic Research 2本、Claude Code v2.1.117 の全項目和訳をまとめた日次レポート。",
+  "archiveTitle": "MCP blog post, interactive charts, and Claude Code v2.1.118",
+  "archiveSummary": "MCP公式ブログ、Claude Cowork図表、Economic Research 2本、Claude Code v2.1.118 を整理。",
+  "latestSummary": "Claude の MCP ブログ新作、Claude Cowork のインタラクティブ図表、Economic Research 2本、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeDevs</strong> は、MCP で本番システムに届く agent の設計指針をまとめた新しい Claude blog 記事と、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
     "<strong>@ClaudeAI</strong> は Claude Cowork でインタラクティブな chart / diagram を beta として有料プランへ展開開始した。",
     "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は、Anthropic Economic Index Survey の開始と、81,000 人調査の経済面分析を同日に公開した。",
-    "GitHub Releases では Claude Code <code>v2.1.117</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "GitHub Releases では Claude Code <code>v2.1.118</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -124,59 +124,65 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub Releases で <code>v2.1.117</code> が 2026-04-22 09:04 JST に公開されていた。release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub Releases で <code>v2.1.118</code> が 2026-04-23 09:42 JST に公開されていた。release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
-          "version": "v2.1.117",
-          "publishedAt": "2026-04-22 09:04 JST",
+          "version": "v2.1.118",
+          "publishedAt": "2026-04-23 09:42 JST",
           "summary": "GitHub release page の <code>What's changed</code> 全項目を和訳して分類。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>CLAUDE_CODE_FORK_SUBAGENT=1</code> を設定すると、external build でも forked subagents を有効化できるようになった。",
-                "agent frontmatter の <code>mcpServers</code> が、<code>--agent</code> 経由の main-thread agent session でも読み込まれるようになった。",
-                "<code>/resume</code> コマンドで、古く大きい session を再読込する前に summarize を提案するようになり、既存の <code>--resume</code> と挙動が揃った。"
+                "vim の visual mode（<code>v</code>）と visual-line mode（<code>V</code>）が追加され、選択、operator、visual feedback が使えるようになった。",
+                "<code>/theme</code> から名前付き custom theme を作成して切り替えられるようになり、<code>~/.claude/themes/</code> の JSON 手編集や plugin の <code>themes/</code> 配布にも対応した。",
+                "Hooks から <code>type: \"mcp_tool\"</code> で MCP tool を直接呼び出せるようになった。",
+                "<code>DISABLE_UPDATES</code> 環境変数が追加され、手動の <code>claude update</code> を含むすべての update 経路を完全に無効化できるようになった。<code>DISABLE_AUTOUPDATER</code> より厳しい。",
+                "auto mode の opt-in prompt に「Don't ask again」オプションが追加された。",
+                "<code>claude plugin tag</code> が追加され、version validation つきで plugin 用 release git tag を作れるようになった。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "<code>/model</code> が改善され、project が別 model を pin していても選択結果が再起動後まで保持され、起動ヘッダーに active model が project 由来か managed-settings pin 由来かも表示されるようになった。",
-                "local MCP server と claude.ai MCP server を両方設定している場合の起動が高速化された。接続の並列化がデフォルトになったため。",
-                "すでに install 済みの plugin に対して <code>plugin install</code> を実行した場合も、足りない dependency を追加で install するようになった。",
-                "plugin dependency error が \"not installed\" と install ヒント付きで表示されるようになり、<code>claude plugin marketplace add</code> も設定済み marketplace から不足 dependency を自動解決するようになった。",
-                "managed-settings の <code>blockedMarketplaces</code> と <code>strictKnownMarketplaces</code> が、plugin の install / update / refresh / autoupdate にも適用されるようになった。",
-                "Advisor Tool（experimental）の dialog に experimental ラベル、learn-more link、有効時の起動通知が追加された。また session や <code>/compact</code> が \"Advisor tool result content could not be processed\" で詰まる問題も同時に解消された。",
-                "<code>cleanupPeriodDays</code> の retention sweep 対象が、<code>~/.claude/tasks/</code>、<code>~/.claude/shell-snapshots/</code>、<code>~/.claude/backups/</code> にも広がった。",
-                "OpenTelemetry では、<code>user_prompt</code> event に slash command 用の <code>command_name</code> と <code>command_source</code> が追加され、<code>cost.usage</code>、<code>token.usage</code>、<code>api_request</code>、<code>api_error</code> には対応 model で <code>effort</code> 属性が付くようになった。custom / MCP command 名は <code>OTEL_LOG_TOOL_DETAILS=1</code> がない限り伏せられる。",
-                "macOS / Linux の native build では、<code>Glob</code> と <code>Grep</code> tool が埋め込みの <code>bfs</code> と <code>ugrep</code> に置き換わり、Bash tool 経由でより高速に検索できるようになった。Windows と npm install build は従来どおり。",
-                "Windows では <code>where.exe</code> の executable lookup を process 単位で cache するようになり、subprocess 起動が高速化された。",
-                "Pro / Max subscriber が Opus 4.6 と Sonnet 4.6 を使う場合の default effort が、<code>medium</code> から <code>high</code> に変わった。"
+                "<code>/cost</code> と <code>/stats</code> は <code>/usage</code> に統合された。どちらも relevant tab を開く typing shortcut としては引き続き使える。",
+                "Windows 上の WSL は、<code>wslInheritsWindowsSettings</code> policy key により Windows 側の managed settings を継承できるようになった。",
+                "auto mode は <code>autoMode.allow</code>、<code>autoMode.soft_deny</code>、<code>autoMode.environment</code> に <code>\"$defaults\"</code> を含めると、built-in list を置き換えずに custom rule を追加できるようになった。",
+                "<code>--continue</code> / <code>--resume</code> は、<code>/add-dir</code> で現在ディレクトリを追加した session も見つけられるようになった。",
+                "<code>/color</code> は、Remote Control 接続時に session accent color を claude.ai/code に同期するようになった。",
+                "<code>/model</code> picker は、custom <code>ANTHROPIC_BASE_URL</code> gateway 使用時に <code>ANTHROPIC_DEFAULT_*_MODEL_NAME</code> / <code>_DESCRIPTION</code> override を尊重するようになった。",
+                "別 plugin の version constraint により auto-update を skip した場合、その skip が <code>/doctor</code> と <code>/plugin</code> の Errors tab に表示されるようになった。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "Plain-CLI の OAuth session で access token が session 中に失効すると \"Please run /login\" で止まっていた問題を修正し、401 受信時に token を反応的に refresh するようになった。",
-                "<code>WebFetch</code> が非常に大きい HTML page で hang する問題を修正し、HTML-to-markdown 変換前に入力を切り詰めるようになった。",
-                "proxy が HTTP 204 No Content を返したときの crash を修正し、<code>TypeError</code> ではなく明確な error を出すようになった。",
-                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> 環境変数つきで起動した場合に、その token が失効すると <code>/login</code> が効かなかった問題を修正した。",
-                "prompt input の undo（<code>Ctrl+_</code>）が入力直後に効かず、各 undo step で 1 state 飛ばしていた問題を修正した。",
-                "Bun 上で動作しているとき、remote API request に対して <code>NO_PROXY</code> が尊重されない問題を修正した。",
-                "slow connection 上で key 名がまとまって届くと、escape / return が誤って発火することがある稀な問題を修正した。",
-                "SDK の <code>reload_plugins</code> が user MCP server をすべて serial に再接続していた問題を修正した。",
-                "Bedrock application-inference-profile request が、thinking disabled の Opus 4.7 backend で 400 になる問題を修正した。",
-                "MCP の <code>elicitation/create</code> request が、print / SDK mode で server 接続完了タイミングとぶつかると自動 cancel される問題を修正した。",
-                "main agent と異なる model を使う subagent が、file read を誤って malware warning 扱いする問題を修正した。",
-                "background task があると idle re-render loop が起き、Linux 上で memory growth が増える問題を修正した。",
-                "VSCode の \"Manage Plugins\" panel が、大きい marketplace を複数設定したときに壊れる問題を修正した。",
-                "Opus 4.7 session で <code>/context</code> の percent 表示が膨らみ、auto-compact が早く走りすぎる問題を修正した。Claude Code が Opus 4.7 の native 1M ではなく 200K context window 前提で計算していたのが原因。"
+                "<code>/mcp</code> menu で、<code>headersHelper</code> つき server の OAuth Authenticate / Re-authenticate action が隠れていた問題と、custom header つき HTTP/SSE MCP server が一時的な 401 のあと「needs authentication」のまま詰まる問題を修正した。",
+                "OAuth token response に <code>expires_in</code> がない MCP server で、毎時再認証が必要になっていた問題を修正した。",
+                "MCP の step-up authorization で、server の <code>insufficient_scope</code> 403 が現在 token にすでにある scope を指していても、再同意 prompt を出さず silent refresh してしまう問題を修正した。",
+                "MCP server の OAuth flow が timeout / cancel されたときの unhandled promise rejection を修正した。",
+                "競合時に MCP OAuth refresh が cross-process lock なしで進んでいた問題を修正した。",
+                "macOS keychain race により、並行する MCP token refresh が freshly-refreshed OAuth token を上書きし、予期せぬ \"Please run /login\" prompt を出す問題を修正した。",
+                "server が local expiry より前に token を revoke した場合に OAuth token refresh が失敗する問題を修正した。",
+                "Linux / Windows で credential save crash が起きると <code>~/.claude/.credentials.json</code> を壊す問題を修正した。",
+                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> つきで起動した session で <code>/login</code> が効かなかった問題を修正し、env token を消して disk credentials が効くようにした。",
+                "\"new messages\" scroll pill と <code>/plugin</code> badge の unreadable text を修正した。",
+                "<code>--dangerously-skip-permissions</code> 実行時に、plan acceptance dialog が「bypass permissions」ではなく「auto mode」を案内していた問題を修正した。",
+                "agent-type hooks が <code>Stop</code> / <code>SubagentStop</code> 以外の event 用設定で \"Messages are required for agent hooks\" に失敗する問題を修正した。",
+                "<code>prompt</code> hooks が、agent-hook verifier subagent の tool call でも再発火する問題を修正した。",
+                "<code>/fork</code> が fork ごとに親 conversation 全文を disk に書いていた問題を修正し、pointer を書いて read 時 hydrate する方式に変えた。",
+                "Alt+K / Alt+X / Alt+^ / Alt+_ で keyboard input が固まる問題を修正した。",
+                "remote session 接続時に local の <code>model</code> setting を <code>~/.claude/settings.json</code> 上書きしてしまう問題を修正した。",
+                "先頭が <code>/</code> の file path を貼り付けると typeahead が \"No commands match\" error を出す問題を修正した。",
+                "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
+                "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
+                "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
+                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
-          "urlLabel": "v2.1.117 を見る"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+          "urlLabel": "v2.1.118 を見る"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -255,8 +261,8 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude Code Release v2.1.117",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117"
+      "title": "Claude Code Release v2.1.118",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118"
     },
     {
       "title": "Claude Code Releases",
