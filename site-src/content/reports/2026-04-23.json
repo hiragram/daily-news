@@ -1,14 +1,14 @@
 {
   "date": "2026-04-23",
-  "windowLabel": "2026-04-22 19:01:30 JST - 2026-04-23 19:01:30 JST",
-  "archiveTitle": "MCP production blog, economic survey, and Claude Code v2.1.118",
-  "archiveSummary": "MCP公式ブログ、Economic Research 2本、Claude Code v2.1.118、SDK関連 signal を整理。",
-  "latestSummary": "Claude の MCP 本番運用ブログ、Anthropic Economic Index Survey と 81,000 人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-22 20:02:48 JST - 2026-04-23 20:02:48 JST",
+  "archiveTitle": "MCP production blog, economic research, and Claude Code v2.1.118",
+  "archiveSummary": "MCP 本番運用ブログ、Economic Research 2本、Claude Code v2.1.118、SDK / search 周辺 signal を整理。",
+  "latestSummary": "Claude の MCP 本番運用ブログ、Anthropic Economic Research 2本、Claude Code v2.1.118 の全項目和訳、SDK / search 周辺の signal をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeDevs</strong> は、MCP で本番システムに届く agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
+    "<strong>@ClaudeDevs</strong> は MCP で本番システムに届く agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
     "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内した。",
     "Anthropic の公式サイトでは、<strong>Anthropic Economic Index Survey</strong> の開始告知と、81,000 人調査を経済面から分析した Economic Research 記事 2 本が 2026-04-22 付で追加された。",
-    "GitHub Releases では Claude Code <code>v2.1.118</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -44,7 +44,7 @@
       "label": "Official",
       "datetime": "2026-04-23T02:07:51+09:00",
       "displayTime": "2026-04-23 02:07 JST",
-      "title": "Claude Code に `/ultrareview` の research preview が追加",
+      "title": "Claude Code に /ultrareview の research preview が追加",
       "summary": "クラウド上の bug-hunting agents を走らせて findings を CLI / Desktop に返す <code>/ultrareview</code> を公開し、Pro / Max には 2026-05-05 まで 3 回の無料レビュー枠があると告知した。",
       "url": "https://x.com/ClaudeDevs/status/2046999435239133246",
       "urlLabel": "投稿を見る",
@@ -64,15 +64,6 @@
   "signals": [
     {
       "label": "High",
-      "datetime": "2026-04-23T00:38:59+09:00",
-      "displayTime": "2026-04-23 00:38 JST",
-      "title": "@noahzweben",
-      "summary": "Agent SDK の session store adapters が公開され、S3 / Redis / Postgres など外部ストレージに transcript をミラーして別ホストで resume できるようになったと案内した。",
-      "url": "https://x.com/noahzweben/status/2046977073009557939",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
       "datetime": "2026-04-23T09:10:36+09:00",
       "displayTime": "2026-04-23 09:10 JST",
       "title": "@dmwlff",
@@ -81,11 +72,20 @@
       "urlLabel": "投稿を見る"
     },
     {
+      "label": "High",
+      "datetime": "2026-04-23T00:38:59+09:00",
+      "displayTime": "2026-04-23 00:38 JST",
+      "title": "@noahzweben",
+      "summary": "Agent SDK の session store adapters が公開され、S3 / Redis / Postgres など外部ストレージに transcript をミラーして別ホストで resume できるようになったと案内した。",
+      "url": "https://x.com/noahzweben/status/2046977073009557939",
+      "urlLabel": "投稿を見る"
+    },
+    {
       "label": "Medium",
       "datetime": "2026-04-23T02:29:11+09:00",
       "displayTime": "2026-04-23 02:29 JST",
       "title": "@bcherny",
-      "summary": "Claude Code が 2026 Webby Awards の受賞対象になったと伝え、ユーザーの継続的なフィードバックに謝意を示した。",
+      "summary": "Claude Code が 2026 Webby Awards の Best Product or Service を受賞したと伝え、ユーザーの継続的なフィードバックに謝意を示した。",
       "url": "https://x.com/bcherny/status/2047004804283773321",
       "urlLabel": "投稿を見る"
     }
@@ -94,7 +94,7 @@
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "この24時間窓では Claude Blog に 1 本、Anthropic Research に 2 本の新規記事があった。記事一覧は日付のみ表示のため、掲載判定は visible publication date ベース。",
+      "body": "この24時間窓では Claude Blog に 1 本、Anthropic Research に 2 本の新規記事があった。一覧ページはいずれも公開日のみ表示のため、掲載判定は visible publication date ベース。",
       "details": [
         "「Building agents that reach production systems with MCP」: agent を外部システムへ接続する際の direct API / CLI / MCP の使い分けと、本番で MCP に収束しやすい理由、server/client 設計パターンを整理した Claude blog の新記事。",
         "「Announcing the Anthropic Economic Index Survey」: Anthropic Interviewer を使った月次 survey を開始し、Claude ユーザーの仕事・生産性・採用への影響認識を継続観測する計画を告知した。",
@@ -195,12 +195,12 @@
       "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
     },
     {
-      "title": "Noah Zweben: session store adapters",
-      "url": "https://x.com/noahzweben/status/2046977073009557939"
-    },
-    {
       "title": "Adam Wolff: grep and glob change note",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
+    },
+    {
+      "title": "Noah Zweben: session store adapters",
+      "url": "https://x.com/noahzweben/status/2046977073009557939"
     },
     {
       "title": "Boris Cherny: Claude Code won a Webby",
