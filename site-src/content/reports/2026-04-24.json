@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 07:02:15 JST - 2026-04-24 07:02:15 JST",
+  "windowLabel": "2026-04-23 08:03:24 JST - 2026-04-24 08:03:24 JST",
   "archiveTitle": "Managed agent memory, connectors, and Claude Code postmortem",
   "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem と v2.1.118 を整理。",
   "latestSummary": "Claude Managed Agents の built-in memory public beta、Claude apps の日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule と deep links などの signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
@@ -40,22 +40,12 @@
       "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
       "urlLabel": "投稿を見る",
       "primary": true
-    },
-    {
-      "label": "Official",
-      "datetime": "2026-04-23T07:53:18+09:00",
-      "displayTime": "2026-04-23 07:53 JST",
-      "title": "ClaudeDevs が MCP ベースの本番接続ガイドを案内",
-      "summary": "direct API / CLI / MCP の使い分け、MCP server 設計、context-efficient client、skills との組み合わせ方を整理した Claude Blog 記事を告知した。記事ページの visible date は <code>2026-04-22</code> だったため、ブログ面では今回の 24 時間窓から除外している。",
-      "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
-      "urlLabel": "投稿を見る",
-      "primary": true
     }
   ],
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong> からこの24時間窓に入る新規本投稿は確認できなかった。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> も上記 4 件以外の新しい主要告知はなかった。"
+      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong> からこの24時間窓に入る新規本投稿は確認できなかった。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> も上記 3 件以外の新しい主要告知はなかった。"
     },
     {
       "label": "0件",
@@ -184,7 +174,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 07:02 JST より前の公式 X 投稿や blog publish date は、このローカル 24 時間窓には含めていない。",
+    "2026-04-23 08:03 JST より前の公式 X 投稿や blog publish date は、このローカル 24 時間窓には含めていない。",
     "Claude Blog の <em>Building agents that reach production systems with MCP</em> は記事ページの visible date が <code>2026-04-22</code> のため、今回のブログ面からは除外した。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
@@ -204,10 +194,6 @@
     {
       "title": "ClaudeDevs: Claude Code quality postmortem",
       "url": "https://x.com/ClaudeDevs/status/2047371123185287223"
-    },
-    {
-      "title": "ClaudeDevs: MCP production systems blog",
-      "url": "https://x.com/ClaudeDevs/status/2047086372666921217"
     },
     {
       "title": "Boris Cherny: /usage visibility and Opus 4.7 follow-up",
