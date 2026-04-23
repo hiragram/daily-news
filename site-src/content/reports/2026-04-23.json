@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "windowLabel": "2026-04-22 16:01:19 JST - 2026-04-23 16:01:19 JST",
+  "windowLabel": "2026-04-22 17:03:11 JST - 2026-04-23 17:03:11 JST",
   "archiveTitle": "MCP production blog, economic survey, and Claude Code v2.1.118",
   "archiveSummary": "MCP公式ブログ、Economic Research 2本、Claude Code v2.1.118、SDK関連 signal を整理。",
   "latestSummary": "Claude の MCP 本番運用ブログ、Anthropic Economic Index Survey と 81,000 人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
@@ -78,6 +78,15 @@
       "title": "@dmwlff",
       "summary": "Claude Code 2.1.117 以降は Grep / Glob の専用 tool を呼ばず、Bash ベースでより速く検索する挙動になったと補足した。",
       "url": "https://x.com/dmwlff/status/2047105823890166170",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-23T02:29:11+09:00",
+      "displayTime": "2026-04-23 02:29 JST",
+      "title": "@bcherny",
+      "summary": "Claude Code が 2026 Webby Awards の受賞対象になったと伝え、ユーザーの継続的なフィードバックに謝意を示した。",
+      "url": "https://x.com/bcherny/status/2047004804283773321",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -192,6 +201,10 @@
     {
       "title": "Adam Wolff: grep and glob change note",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
+    },
+    {
+      "title": "Boris Cherny: Claude Code won a Webby",
+      "url": "https://x.com/bcherny/status/2047004804283773321"
     },
     {
       "title": "Claude Blog: Building agents that reach production systems with MCP",
