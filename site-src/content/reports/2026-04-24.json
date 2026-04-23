@@ -1,22 +1,32 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 02:01:46 JST - 2026-04-24 02:01:46 JST",
-  "archiveTitle": "ClaudeDevs updates, Cowork beta, and Claude Code v2.1.118",
-  "archiveSummary": "ClaudeDevs の告知 2 件、Cowork 図表 beta、Claude Code v2.1.118 の全項目和訳を整理。",
-  "latestSummary": "ClaudeDevs の MCP / ultrareview 告知、Claude Cowork の interactive charts / diagrams beta、Claude Code v2.1.118 の release notes 全項目和訳、MCP vs CLI と検索系挙動の signal をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 03:02:56 JST - 2026-04-24 03:02:56 JST",
+  "archiveTitle": "Postmortem, new connectors, and Claude Code v2.1.118",
+  "archiveSummary": "ClaudeDevs の postmortem、Claude Blog の新しい connectors 記事、Claude Code v2.1.118 の全項目和訳を整理。",
+  "latestSummary": "ClaudeDevs の品質 postmortem と MCP 記事、Claude Blog の everyday-life connectors、新しい `/schedule` one-time tasks や `claude://` deep links の signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeDevs</strong> は MCP で本番システムにつなぐ agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
-    "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内し、<strong>@AnthropicAI</strong> は 81,000 人調査の経済分析記事を再告知した。",
-    "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
-    "Anthropic 関係者からは、MCP と CLI / Skills / Plugins の整理や、grep / glob を Bash ベースに寄せた理由と権限判定の補足が signal として確認できた。"
+    "<strong>@ClaudeDevs</strong> は、品質低下報告の原因 3 件を特定して <code>v2.1.116+</code> で修正済みとする postmortem を公開し、全 subscriber の usage limits を reset したと案内した。",
+    "<strong>Claude Blog</strong> では <em>New connectors in Claude for everyday life</em> が <strong>2026-04-23</strong> 付けで公開され、AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app connectors の追加を告知した。",
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、MCP と CLI / Skills / Plugins の整理、Grep / Glob を Bash に寄せた背景が signal として確認できた。",
+    "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release notes の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した."
   ],
   "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-04-24T02:44:48+09:00",
+      "displayTime": "2026-04-24 02:44 JST",
+      "title": "ClaudeDevs が Claude Code 品質 postmortem を公開",
+      "summary": "過去 1 か月に報告された Claude Code の品質低下について 3 つの原因を特定して postmortem を公開し、すべて <code>v2.1.116+</code> で修正済みで、全 subscriber の usage limits を reset したと案内した。",
+      "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
     {
       "label": "Official",
       "datetime": "2026-04-23T07:53:18+09:00",
       "displayTime": "2026-04-23 07:53 JST",
       "title": "ClaudeDevs が MCP ベースの本番接続ガイドを案内",
-      "summary": "Claude blog 記事への導線として、direct API / CLI / MCP の使い分け、本番環境では MCP に収束しやすい理由、server/client 設計パターンをまとめたと告知した。",
+      "summary": "direct API / CLI / MCP の使い分け、MCP server 設計、context-efficient client、skills との組み合わせ方を整理した Claude Blog 記事を告知した。",
       "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -25,28 +35,9 @@
       "label": "Official",
       "datetime": "2026-04-23T05:19:22+09:00",
       "displayTime": "2026-04-23 05:19 JST",
-      "title": "Claude Cowork がインタラクティブな図表とダイアグラムに対応",
-      "summary": "Claude Cowork で interactive charts と diagrams が使えるようになり、beta として全有料プランへ展開していると案内した。",
+      "title": "Claude Cowork の interactive charts / diagrams beta を案内",
+      "summary": "Claude Cowork で interactive charts と diagrams が使えるようになり、beta として全有料プランで利用できると案内した。",
       "url": "https://x.com/claudeai/status/2047047633416397076",
-      "urlLabel": "投稿を見る",
-      "primary": true
-    },
-    {
-      "label": "Official",
-      "datetime": "2026-04-23T02:36:07+09:00",
-      "displayTime": "2026-04-23 02:36 JST",
-      "title": "AnthropicAI が 81,000 人調査の経済分析を再告知",
-      "summary": "81,000 人の自由回答を経済面から分析した Research 記事を取り上げ、AI への期待と job displacement への懸念を掘り下げた新研究を案内した。",
-      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Official",
-      "datetime": "2026-04-23T02:07:51+09:00",
-      "displayTime": "2026-04-23 02:07 JST",
-      "title": "Claude Code に /ultrareview の research preview が追加",
-      "summary": "クラウド上の bug-hunting agents を走らせて findings を CLI / Desktop に返す <code>/ultrareview</code> を公開し、Pro / Max には 2026-05-05 まで 3 回の無料レビュー枠があると告知した。",
-      "url": "https://x.com/ClaudeDevs/status/2046999435239133246",
       "urlLabel": "投稿を見る",
       "primary": true
     }
@@ -54,47 +45,61 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "Anthropic の <strong>Engineering / Research / News</strong> と <strong>Claude Blog</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。"
+      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong> からこの24時間窓に入る新規本投稿は確認できなかった。"
     },
     {
       "label": "0件",
-      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の上記4件以外に、この24時間窓で追加の本投稿は確認できなかった。"
+      "body": "Anthropic の <strong>Engineering / Research / News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Claude Blog</strong> では <em>New connectors in Claude for everyday life</em> の 1 件のみ確認した。"
     }
   ],
   "signals": [
     {
       "label": "High",
+      "datetime": "2026-04-24T02:17:28+09:00",
+      "displayTime": "2026-04-24 02:17 JST",
+      "title": "@noahzweben",
+      "summary": "CLI と Routines UI の両方から <code>/schedule</code> で one-time task を登録できるようになり、「1 週間後に feature flag を掃除する」「2 日後に launch report を作る」といった予約実行が可能になったと案内した。",
+      "url": "https://x.com/noahzweben/status/2047364243310416044",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-24T02:30:28+09:00",
+      "displayTime": "2026-04-24 02:30 JST",
+      "title": "@felixrieseberg",
+      "summary": "<code>claude://</code> deep links で Chat / Cowork / Code の新規 session を事前入力つきで開けるようになり、外部 app からの \"Open in Claude\" 連携や workflow composition に使えると案内した。",
+      "url": "https://x.com/felixrieseberg/status/2047367515500659128",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
       "datetime": "2026-04-24T00:41:00+09:00",
       "displayTime": "2026-04-24 00:41 JST",
       "title": "@henrythe9ths",
-      "summary": "MCP と CLI、Skills と Plugins の違いに迷う人向けに、4 チームと直接仕事した立場から pros / cons、使い分け、組み合わせ方を整理した guide を first comment に置いたと案内した。",
+      "summary": "MCP と CLI、Skills と Plugins の違いで混乱する開発者向けに、4 つの方式の pros / cons、使い分け、組み合わせ方を整理した guide を公開した。",
       "url": "https://x.com/henrythe9ths/status/2047339965537735029",
       "urlLabel": "投稿を見る"
     },
     {
       "label": "High",
-      "datetime": "2026-04-23T23:48:03+09:00",
-      "displayTime": "2026-04-23 23:48 JST",
+      "datetime": "2026-04-23T09:10:36+09:00",
+      "displayTime": "2026-04-23 09:10 JST",
       "title": "@dmwlff",
-      "summary": "Claude Code は Grep / Glob 専用 tool より find / grep を Bash ベースで扱う方が Claude に自然でシンプルだと補足し、permission system は read-only な command を判定できると説明した。",
-      "url": "https://x.com/dmwlff/status/2047326639701524867",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Medium",
-      "datetime": "2026-04-23T02:29:11+09:00",
-      "displayTime": "2026-04-23 02:29 JST",
-      "title": "@bcherny",
-      "summary": "Claude Code が 2026 Webby Awards の Best Product or Service を受賞したと伝え、ユーザーと顧客からの継続的なフィードバックに謝意を示した。",
-      "url": "https://x.com/bcherny/status/2047004804283773321",
+      "summary": "Claude Code 2.1.117 以降は Grep / Glob 専用 tool をやめて Bash ベースに寄せ、より速く自然な挙動にしたと説明した。続く返信では、permission system が read-only な shell command を判定できるとも補足した。",
+      "url": "https://x.com/dmwlff/status/2047105823890166170",
       "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "Engineering / Research / News / Claude Blog の一覧と記事ページを確認したが、この24時間窓に publish date ベースで入る新規記事はなかった。公式Xからの再告知はあったが、ブログ新着件数には含めていない。"
+      "headline": "1件",
+      "body": "Claude Blog に <em>New connectors in Claude for everyday life</em> が 2026-04-23 付けで公開された。日常向け app connectors の追加と、会話中に適切な connector を提案する新しい表示挙動を案内している。",
+      "details": [
+        "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator などへの接続追加を告知。"
+      ],
+      "url": "https://claude.com/blog/connectors-for-everyday-life",
+      "urlLabel": "記事を見る"
     },
     {
       "title": "Claude Code リリース",
@@ -166,11 +171,15 @@
   ],
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "同一スレッド内の補足返信は、新しい事実があるものだけ採用。",
-    "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。",
-    "publish date が 24 時間窓の外にある公式ブログ記事は、公式Xで再告知されていてもブログ新着件数には含めていない。"
+    "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
+    "publish date が 24 時間窓の外にある公式記事や release は、再告知や関連返信があっても新着件数には含めていない。",
+    "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
   "sources": [
+    {
+      "title": "ClaudeDevs: Claude Code quality postmortem",
+      "url": "https://x.com/ClaudeDevs/status/2047371123185287223"
+    },
     {
       "title": "ClaudeDevs: MCP production systems blog",
       "url": "https://x.com/ClaudeDevs/status/2047086372666921217"
@@ -180,28 +189,24 @@
       "url": "https://x.com/claudeai/status/2047047633416397076"
     },
     {
-      "title": "AnthropicAI: 81k economics post",
-      "url": "https://x.com/AnthropicAI/status/2047006548149289017"
+      "title": "Noah Zweben: one-time schedule tasks",
+      "url": "https://x.com/noahzweben/status/2047364243310416044"
     },
     {
-      "title": "ClaudeDevs: ultrareview",
-      "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
+      "title": "Felix Rieseberg: claude deep links",
+      "url": "https://x.com/felixrieseberg/status/2047367515500659128"
     },
     {
       "title": "Henry Shi: MCPs vs CLIs, Skills vs Plugins",
       "url": "https://x.com/henrythe9ths/status/2047339965537735029"
     },
     {
-      "title": "Adam Wolff: grep and glob change note",
+      "title": "Adam Wolff: Grep and Glob removal note",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
     },
     {
-      "title": "Adam Wolff: bash permissions follow-up",
+      "title": "Adam Wolff: read-only bash permissions follow-up",
       "url": "https://x.com/dmwlff/status/2047326639701524867"
-    },
-    {
-      "title": "Boris Cherny: Claude Code won a Webby",
-      "url": "https://x.com/bcherny/status/2047004804283773321"
     },
     {
       "title": "Anthropic Engineering",
@@ -220,12 +225,12 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Building agents that reach production systems with MCP",
-      "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
+      "title": "New connectors in Claude for everyday life",
+      "url": "https://claude.com/blog/connectors-for-everyday-life"
     },
     {
-      "title": "What 81,000 people told us about the economics of AI",
-      "url": "https://www.anthropic.com/research/81k-economics"
+      "title": "Building agents that reach production systems with MCP",
+      "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
     },
     {
       "title": "Claude Code Release v2.1.118",
