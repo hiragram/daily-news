@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 00:03:12 JST - 2026-04-24 00:03:12 JST",
-  "archiveTitle": "ClaudeDevs updates, Cowork diagrams, and Claude Code v2.1.118",
-  "archiveSummary": "ClaudeDevs の告知 2 件、Claude Cowork の図表機能、Claude Code v2.1.118 の全項目和訳を整理。",
-  "latestSummary": "ClaudeDevs の MCP / ultrareview 告知、Claude Cowork の interactive charts / diagrams beta、Claude Code v2.1.118 の release notes 全項目和訳、SDK / search 周辺 signal をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 01:03:10 JST - 2026-04-24 01:03:10 JST",
+  "archiveTitle": "ClaudeDevs updates, Cowork beta, and Claude Code v2.1.118",
+  "archiveSummary": "ClaudeDevs の告知 2 件、Cowork 図表 beta、Claude Code v2.1.118 の全項目和訳を整理。",
+  "latestSummary": "ClaudeDevs の MCP / ultrareview 告知、Claude Cowork の interactive charts / diagrams beta、Claude Code v2.1.118 の release notes 全項目和訳、MCP vs CLI と検索系挙動の signal をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeDevs</strong> は MCP で本番システムにつなぐ agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
-    "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内し、<strong>@AnthropicAI</strong> は 81,000 人調査の経済分析記事を紹介した。",
+    "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内し、<strong>@AnthropicAI</strong> は 81,000 人調査の経済分析記事を再告知した。",
     "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
-    "Anthropic 関係者からは、Claude Code の検索系挙動が Bash ベースに寄った補足と、Agent SDK の session store adapters 公開が signal として確認できた。"
+    "Anthropic 関係者からは、MCP と CLI / Skills / Plugins の整理や、grep / glob を Bash ベースに寄せた理由と権限判定の補足が signal として確認できた。"
   ],
   "officialNews": [
     {
@@ -64,20 +64,20 @@
   "signals": [
     {
       "label": "High",
-      "datetime": "2026-04-23T00:10:36+09:00",
-      "displayTime": "2026-04-23 00:10 JST",
-      "title": "@dmwlff",
-      "summary": "Claude Code 2.1.117 以降は Grep / Glob の専用 tool を呼ばず Bash ベースで検索するようになり、follow-up reply では read-only command を permission system が判定できるため、より自然でシンプルだと補足した。",
-      "url": "https://x.com/dmwlff/status/2047105823890166170",
+      "datetime": "2026-04-24T00:41:00+09:00",
+      "displayTime": "2026-04-24 00:41 JST",
+      "title": "@henrythe9ths",
+      "summary": "MCP と CLI、Skills と Plugins の違いに迷う人向けに、4 チームと直接仕事した立場から pros / cons、使い分け、組み合わせ方を整理した guide を first comment に置いたと案内した。",
+      "url": "https://x.com/henrythe9ths/status/2047339965537735029",
       "urlLabel": "投稿を見る"
     },
     {
       "label": "High",
-      "datetime": "2026-04-23T00:38:59+09:00",
-      "displayTime": "2026-04-23 00:38 JST",
-      "title": "@noahzweben",
-      "summary": "Agent SDK の session store adapters が公開され、S3 / Redis / Postgres など外部ストレージに transcript をミラーして、別ホストで resume できるようになったと案内した。",
-      "url": "https://x.com/noahzweben/status/2046977073009557939",
+      "datetime": "2026-04-23T23:48:03+09:00",
+      "displayTime": "2026-04-23 23:48 JST",
+      "title": "@dmwlff",
+      "summary": "Claude Code は Grep / Glob 専用 tool より find / grep を Bash ベースで扱う方が Claude に自然でシンプルだと補足し、permission system は read-only な command を判定できると説明した。",
+      "url": "https://x.com/dmwlff/status/2047326639701524867",
       "urlLabel": "投稿を見る"
     },
     {
@@ -114,7 +114,7 @@
                 "Hooks から <code>type: \"mcp_tool\"</code> で MCP tool を直接呼び出せるようになった。",
                 "<code>DISABLE_UPDATES</code> 環境変数が追加され、手動の <code>claude update</code> を含むすべての update 経路を完全に無効化できるようになった。<code>DISABLE_AUTOUPDATER</code> より厳しい。",
                 "auto mode の opt-in prompt に「Don't ask again」オプションが追加された。",
-                "<code>claude plugin tag</code> が追加され、version validation つきで plugin 用 release git tag を作れるようになった."
+                "<code>claude plugin tag</code> が追加され、version validation つきで plugin 用 release git tag を作れるようになった。"
               ]
             },
             {
@@ -188,16 +188,16 @@
       "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
     },
     {
+      "title": "Henry Shi: MCPs vs CLIs, Skills vs Plugins",
+      "url": "https://x.com/henrythe9ths/status/2047339965537735029"
+    },
+    {
       "title": "Adam Wolff: grep and glob change note",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
     },
     {
       "title": "Adam Wolff: bash permissions follow-up",
       "url": "https://x.com/dmwlff/status/2047326639701524867"
-    },
-    {
-      "title": "Noah Zweben: session store adapters",
-      "url": "https://x.com/noahzweben/status/2046977073009557939"
     },
     {
       "title": "Boris Cherny: Claude Code won a Webby",
@@ -222,10 +222,6 @@
     {
       "title": "Building agents that reach production systems with MCP",
       "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
-    },
-    {
-      "title": "Announcing the Anthropic Economic Index Survey",
-      "url": "https://www.anthropic.com/research/economic-index-survey-announcement"
     },
     {
       "title": "What 81,000 people told us about the economics of AI",
