@@ -1,14 +1,13 @@
 {
   "date": "2026-04-23",
-  "windowLabel": "2026-04-22 14:03:46 JST - 2026-04-23 14:03:46 JST",
-  "archiveTitle": "MCP blog post, economic survey, and Claude Code v2.1.118",
+  "windowLabel": "2026-04-22 15:02:44 JST - 2026-04-23 15:02:44 JST",
+  "archiveTitle": "MCP production blog, economic survey, and Claude Code v2.1.118",
   "archiveSummary": "MCP公式ブログ、Economic Research 2本、Claude Code v2.1.118、SDK関連 signal を整理。",
-  "latestSummary": "Claude の MCP ブログ新作、Anthropic Economic Index Survey、81,000人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
+  "latestSummary": "Claude の MCP 本番運用ブログ、Anthropic Economic Index Survey と 81,000 人調査の続報、Claude Code v2.1.118 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeDevs</strong> は、MCP で本番システムに届く agent の設計指針をまとめた新しい Claude blog 記事と、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
-    "<strong>@ClaudeAI</strong> は Claude Cowork でインタラクティブな chart / diagram を beta として有料プランへ展開開始した。",
-    "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は、Anthropic Economic Index Survey の開始と、81,000 人調査の経済面分析を同日に公開した。",
-    "Anthropic 関係者の投稿では、Agent SDK の session store adapters 公開と、Claude Code 2.1.117 以降の検索系 tool が Bash ベースへ寄った変更の補足が出た。",
+    "<strong>@ClaudeDevs</strong> は、MCP で本番システムに届く agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
+    "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内した。",
+    "Anthropic の公式サイトでは、<strong>Anthropic Economic Index Survey</strong> の開始告知と、81,000 人調査を経済面から分析した Economic Research 記事 2 本が 2026-04-22 付で追加された。",
     "GitHub Releases では Claude Code <code>v2.1.118</code> がこの24時間窓に入り、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
@@ -80,26 +79,17 @@
       "summary": "Claude Code 2.1.117 以降は Grep / Glob の専用 tool を呼ばず、Bash ベースでより速く検索する挙動になったと補足した。",
       "url": "https://x.com/dmwlff/status/2047105823890166170",
       "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Medium",
-      "datetime": "2026-04-22T14:28:27+09:00",
-      "displayTime": "2026-04-22 14:28 JST",
-      "title": "@noahzweben",
-      "summary": "Claude Code Desktop で <code>/remote-control</code> が使えるようになったと返信で案内した。",
-      "url": "https://x.com/noahzweben/status/2046823423712907331",
-      "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "この24時間窓では Claude Blog に 1 本、Anthropic Research に 2 本の新規記事があった。公開時刻は見えないため、掲載判定は visible publication date ベース。",
+      "body": "この24時間窓では Claude Blog に 1 本、Anthropic Research に 2 本の新規記事があった。記事一覧は日付のみ表示のため、掲載判定は visible publication date ベース。",
       "details": [
-        "「Building agents that reach production systems with MCP」: direct API / CLI / MCP の使い分け、remote MCP server 設計、context-efficient client、skills との組み合わせ方を整理した Claude blog の新記事。",
-        "「Announcing the Anthropic Economic Index Survey」: Claude ユーザーへの月次 survey を始め、仕事・採用・生産性の変化を定点観測する新シリーズを告知。",
-        "「What 81,000 people told us about the economics of AI」: 81,000 人調査をもとに、AI にさらされやすい職種ほど job displacement への懸念が強く、低賃金層と高賃金層で productivity gain が大きい傾向を報告した。"
+        "「Building agents that reach production systems with MCP」: agent を外部システムへ接続する際の direct API / CLI / MCP の使い分けと、本番で MCP に収束しやすい理由、server/client 設計パターンを整理した Claude blog の新記事。",
+        "「Announcing the Anthropic Economic Index Survey」: Anthropic Interviewer を使った月次 survey を開始し、Claude ユーザーの仕事・生産性・採用への影響認識を継続観測する計画を告知した。",
+        "「What 81,000 people told us about the economics of AI」: 81,000 人調査を分析し、AI にさらされやすい職種ほど job displacement への懸念が高く、高賃金層と低賃金層で productivity gain が大きい傾向を報告した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Blog を見る"
@@ -160,7 +150,7 @@
                 "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
                 "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
                 "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
-                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修元した。"
+                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修正した。"
               ]
             }
           ],
@@ -176,7 +166,7 @@
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実があるものだけ採用。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。",
-    "24時間窓の外にあるブログ記事と release は一覧から除外。"
+    "24時間窓の外にあるブログ記事、reply、release は一覧から除外。"
   ],
   "sources": [
     {
@@ -202,10 +192,6 @@
     {
       "title": "Adam Wolff: grep and glob change note",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
-    },
-    {
-      "title": "Noah Zweben: remote-control",
-      "url": "https://x.com/noahzweben/status/2046823423712907331"
     },
     {
       "title": "Claude Blog: Building agents that reach production systems with MCP",
