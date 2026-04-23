@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 04:01:21 JST - 2026-04-24 03:59:00 JST",
-  "archiveTitle": "Connectors, postmortem, and Claude Code v2.1.118",
-  "archiveSummary": "Claude apps connectors、Claude Code postmortem、主要 signal、v2.1.118 の全項目和訳を整理。",
-  "latestSummary": "Claude apps 向け everyday-life connectors、Claude Code 品質 postmortem、/schedule one-time tasks と claude:// deep links などの signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 05:00:19 JST - 2026-04-24 05:00:19 JST",
+  "archiveTitle": "Connectors, memory beta, and Claude Code v2.1.118",
+  "archiveSummary": "Claude apps connectors、Managed Agents memory beta、Claude Code postmortem と v2.1.118 を整理。",
+  "latestSummary": "Claude apps の日常向け connectors 拡張、Claude Managed Agents の built-in memory public beta、Claude Code 品質 postmortem、/schedule と deep links などの signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeAI</strong> は everyday-life connectors の追加を告知し、<strong>Claude Blog</strong> でも AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の拡張記事を公開した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の品質低下報告に関する postmortem を公開し、原因 3 件を特定して <code>v2.1.116+</code> で修正済み、全 subscriber の usage limits を reset したと案内した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> での可視化改善予定、Bash ベース検索と read-only command 判定などの signal が確認できた。",
-    "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release notes の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>@ClaudeAI</strong> は everyday-life connectors の追加を告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の拡張記事を公開した。",
+    "<strong>Claude Blog</strong> では <em>Built-in memory for Claude Managed Agents</em> も新規公開され、public beta として、filesystem ベースで export や API 管理ができる cross-session memory を案内した。",
+    "<strong>@ClaudeDevs</strong> と Anthropic Engineering は Claude Code の品質低下に関する postmortem を公開し、原因 3 件を特定して <code>v2.1.116+</code> で修正済み、全 subscriber の usage limits を reset したと案内した。",
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> での可視化改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-04-24T03:35:02+09:00",
       "displayTime": "2026-04-24 03:35 JST",
       "title": "Claude が everyday-life connectors の拡張を告知",
-      "summary": "仕事向け以外のアプリにも Claude apps の接続先を広げ、TripAdvisor、Booking.com、Resy、Instacart、Spotify、Audible、AllTrails、Thumbtack、TurboTax などに対応したと案内した。",
+      "summary": "仕事向け以外のアプリにも Claude apps の接続先を広げ、TripAdvisor、Booking.com、Resy、Instacart、Spotify、Audible、AllTrails、Thumbtack、Intuit TurboTax などに対応したと案内した。",
       "url": "https://x.com/claudeai/status/2047383764347572389",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -59,7 +59,7 @@
     },
     {
       "label": "0件",
-      "body": "Anthropic の <strong>Research</strong> と <strong>News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Engineering</strong> では postmortem、<strong>Claude Blog</strong> では everyday-life connectors の新記事を確認した。"
+      "body": "Anthropic の <strong>Research</strong> と <strong>News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Engineering</strong> では postmortem、<strong>Claude Blog</strong> では connectors と Managed Agents memory の新記事を確認した。"
     }
   ],
   "signals": [
@@ -103,14 +103,15 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em>、Engineering に <em>An update on recent Claude Code quality reports</em> が追加された。Engineering 一覧は日付を明示していないが、記事内容の April 23 記述と URL slug をもとにこの窓の更新として扱った。",
+      "headline": "3件",
+      "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em> と <em>Built-in memory for Claude Managed Agents</em>、Engineering に <em>An update on recent Claude Code quality reports</em> が追加された。Research と News には新規記事はなかった。",
       "details": [
         "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
-        "2026-04-23: <em>An update on recent Claude Code quality reports</em>。default reasoning effort を <code>high</code> から <code>medium</code> に下げた判断、idle session 後に thinking を毎ターン消してしまう cache 周りの bug、verbosity を抑える system prompt 変更の 3 件が品質低下の原因だったと説明し、いずれも修正済みで subscriber の usage limits を reset したと報告した."
+        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、監査ログ、共有 store、権限スコープ管理に対応したと案内した。",
+        "2026-04-23: <em>An update on recent Claude Code quality reports</em>。default reasoning effort を <code>high</code> から <code>medium</code> に下げた判断、idle session 後に thinking を毎ターン消してしまう cache 周りの bug、verbosity を抑える system prompt 変更の 3 件が品質低下の原因だったと説明し、いずれも修正済みで subscriber の usage limits を reset したと報告した。"
       ],
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "urlLabel": "記事を見る"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Blog を見る"
     },
     {
       "title": "Claude Code リリース",
@@ -183,7 +184,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "publish date が <strong>2026-04-22</strong> としか読めない公式記事は、このローカル 24 時間窓では新着件数に含めず、同期間の再告知や関連投稿は公式 X 側で扱った。",
+    "publish date が <strong>2026-04-22</strong> の公式記事は、このローカル 24 時間窓では新着件数に含めず、同期間の再告知や関連投稿は公式 X 側で扱った。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
   "sources": [
@@ -222,6 +223,10 @@
     {
       "title": "Claude Blog: New connectors in Claude for everyday life",
       "url": "https://claude.com/blog/connectors-for-everyday-life"
+    },
+    {
+      "title": "Claude Blog: Built-in memory for Claude Managed Agents",
+      "url": "https://claude.com/blog/claude-managed-agents-memory"
     },
     {
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
