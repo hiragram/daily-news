@@ -1,0 +1,243 @@
+{
+  "date": "2026-04-24",
+  "windowLabel": "2026-04-23 00:03:12 JST - 2026-04-24 00:03:12 JST",
+  "archiveTitle": "ClaudeDevs updates, Cowork diagrams, and Claude Code v2.1.118",
+  "archiveSummary": "ClaudeDevs の告知 2 件、Claude Cowork の図表機能、Claude Code v2.1.118 の全項目和訳を整理。",
+  "latestSummary": "ClaudeDevs の MCP / ultrareview 告知、Claude Cowork の interactive charts / diagrams beta、Claude Code v2.1.118 の release notes 全項目和訳、SDK / search 周辺 signal をまとめた日次レポート。",
+  "summaryBullets": [
+    "<strong>@ClaudeDevs</strong> は MCP で本番システムにつなぐ agent 設計ガイドと、cloud 上の bug-hunting agents を走らせる <code>/ultrareview</code> の research preview を告知した。",
+    "<strong>@ClaudeAI</strong> は Claude Cowork の interactive charts / diagrams beta を全有料プラン向けに案内し、<strong>@AnthropicAI</strong> は 81,000 人調査の経済分析記事を紹介した。",
+    "GitHub Releases では Claude Code <code>v2.1.118</code> が <strong>2026-04-23 09:42 JST</strong> に公開され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+    "Anthropic 関係者からは、Claude Code の検索系挙動が Bash ベースに寄った補足と、Agent SDK の session store adapters 公開が signal として確認できた。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T07:53:18+09:00",
+      "displayTime": "2026-04-23 07:53 JST",
+      "title": "ClaudeDevs が MCP ベースの本番接続ガイドを案内",
+      "summary": "Claude blog 記事への導線として、direct API / CLI / MCP の使い分け、本番環境では MCP に収束しやすい理由、server/client 設計パターンをまとめたと告知した。",
+      "url": "https://x.com/ClaudeDevs/status/2047086372666921217",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T05:19:22+09:00",
+      "displayTime": "2026-04-23 05:19 JST",
+      "title": "Claude Cowork がインタラクティブな図表とダイアグラムに対応",
+      "summary": "Claude Cowork で interactive charts と diagrams が使えるようになり、beta として全有料プランへ展開していると案内した。",
+      "url": "https://x.com/claudeai/status/2047047633416397076",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T02:36:07+09:00",
+      "displayTime": "2026-04-23 02:36 JST",
+      "title": "AnthropicAI が 81,000 人調査の経済分析を再告知",
+      "summary": "81,000 人の自由回答を経済面から分析した Research 記事を取り上げ、AI への期待と job displacement への懸念を掘り下げた新研究を案内した。",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-23T02:07:51+09:00",
+      "displayTime": "2026-04-23 02:07 JST",
+      "title": "Claude Code に /ultrareview の research preview が追加",
+      "summary": "クラウド上の bug-hunting agents を走らせて findings を CLI / Desktop に返す <code>/ultrareview</code> を公開し、Pro / Max には 2026-05-05 まで 3 回の無料レビュー枠があると告知した。",
+      "url": "https://x.com/ClaudeDevs/status/2046999435239133246",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "Anthropic の <strong>Engineering / Research / News</strong> と <strong>Claude Blog</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。"
+    },
+    {
+      "label": "0件",
+      "body": "監視対象の公式Xでは、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の上記4件以外に、この24時間窓で追加の本投稿は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-04-23T00:10:36+09:00",
+      "displayTime": "2026-04-23 00:10 JST",
+      "title": "@dmwlff",
+      "summary": "Claude Code 2.1.117 以降は Grep / Glob の専用 tool を呼ばず Bash ベースで検索するようになり、follow-up reply では read-only command を permission system が判定できるため、より自然でシンプルだと補足した。",
+      "url": "https://x.com/dmwlff/status/2047105823890166170",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-23T00:38:59+09:00",
+      "displayTime": "2026-04-23 00:38 JST",
+      "title": "@noahzweben",
+      "summary": "Agent SDK の session store adapters が公開され、S3 / Redis / Postgres など外部ストレージに transcript をミラーして、別ホストで resume できるようになったと案内した。",
+      "url": "https://x.com/noahzweben/status/2046977073009557939",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-23T02:29:11+09:00",
+      "displayTime": "2026-04-23 02:29 JST",
+      "title": "@bcherny",
+      "summary": "Claude Code が 2026 Webby Awards の Best Product or Service を受賞したと伝え、ユーザーと顧客からの継続的なフィードバックに謝意を示した。",
+      "url": "https://x.com/bcherny/status/2047004804283773321",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "Engineering / Research / News / Claude Blog の一覧と記事ページを確認したが、この24時間窓に publish date ベースで入る新規記事はなかった。公式Xからの再告知はあったが、ブログ新着件数には含めていない。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.118</code> が 2026-04-23 09:42 JST に公開されていた。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.118",
+          "publishedAt": "2026-04-23 09:42 JST",
+          "summary": "GitHub release page の <code>What's changed</code> 全項目を和訳して分類。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "vim の visual mode（<code>v</code>）と visual-line mode（<code>V</code>）が追加され、選択、operator、visual feedback が使えるようになった。",
+                "<code>/theme</code> から名前付き custom theme を作成して切り替えられるようになり、<code>~/.claude/themes/</code> の JSON 手編集や plugin の <code>themes/</code> 配布にも対応した。",
+                "Hooks から <code>type: \"mcp_tool\"</code> で MCP tool を直接呼び出せるようになった。",
+                "<code>DISABLE_UPDATES</code> 環境変数が追加され、手動の <code>claude update</code> を含むすべての update 経路を完全に無効化できるようになった。<code>DISABLE_AUTOUPDATER</code> より厳しい。",
+                "auto mode の opt-in prompt に「Don't ask again」オプションが追加された。",
+                "<code>claude plugin tag</code> が追加され、version validation つきで plugin 用 release git tag を作れるようになった."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/cost</code> と <code>/stats</code> は <code>/usage</code> に統合された。どちらも relevant tab を開く typing shortcut としては引き続き使える。",
+                "Windows 上の WSL は、<code>wslInheritsWindowsSettings</code> policy key により Windows 側の managed settings を継承できるようになった。",
+                "auto mode は <code>autoMode.allow</code>、<code>autoMode.soft_deny</code>、<code>autoMode.environment</code> に <code>\"$defaults\"</code> を含めると、built-in list を置き換えずに custom rule を追加できるようになった。",
+                "<code>--continue</code> / <code>--resume</code> は、<code>/add-dir</code> で現在ディレクトリを追加した session も見つけられるようになった。",
+                "<code>/color</code> は、Remote Control 接続時に session accent color を claude.ai/code に同期するようになった。",
+                "<code>/model</code> picker は、custom <code>ANTHROPIC_BASE_URL</code> gateway 使用時に <code>ANTHROPIC_DEFAULT_*_MODEL_NAME</code> / <code>_DESCRIPTION</code> override を尊重するようになった。",
+                "別 plugin の version constraint により auto-update を skip した場合、その skip が <code>/doctor</code> と <code>/plugin</code> の Errors tab に表示されるようになった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>/mcp</code> menu で、<code>headersHelper</code> つき server の OAuth Authenticate / Re-authenticate action が隠れていた問題と、custom header つき HTTP/SSE MCP server が一時的な 401 のあと「needs authentication」のまま詰まる問題を修正した。",
+                "OAuth token response に <code>expires_in</code> がない MCP server で、毎時再認証が必要になっていた問題を修正した。",
+                "MCP の step-up authorization で、server の <code>insufficient_scope</code> 403 が現在 token にすでにある scope を指していても、再同意 prompt を出さず silent refresh してしまう問題を修正した。",
+                "MCP server の OAuth flow が timeout / cancel されたときの unhandled promise rejection を修正した。",
+                "競合時に MCP OAuth refresh が cross-process lock なしで進んでいた問題を修正した。",
+                "macOS keychain race により、並行する MCP token refresh が freshly-refreshed OAuth token を上書きし、予期せぬ \"Please run /login\" prompt を出す問題を修正した。",
+                "server が local expiry より前に token を revoke した場合に OAuth token refresh が失敗する問題を修正した。",
+                "Linux / Windows で credential save crash が起きると <code>~/.claude/.credentials.json</code> を壊す問題を修正した。",
+                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> つきで起動した session で <code>/login</code> が効かなかった問題を修正し、env token を消して disk credentials が効くようにした。",
+                "\"new messages\" scroll pill と <code>/plugin</code> badge の unreadable text を修正した。",
+                "<code>--dangerously-skip-permissions</code> 実行時に、plan acceptance dialog が「bypass permissions」ではなく「auto mode」を案内していた問題を修正した。",
+                "agent-type hooks が <code>Stop</code> / <code>SubagentStop</code> 以外の event 用設定で \"Messages are required for agent hooks\" に失敗する問題を修正した。",
+                "<code>prompt</code> hooks が、agent-hook verifier subagent の tool call でも再発火する問題を修正した。",
+                "<code>/fork</code> が fork ごとに親 conversation 全文を disk に書いていた問題を修正し、pointer を書いて read 時 hydrate する方式に変えた。",
+                "Alt+K / Alt+X / Alt+^ / Alt+_ で keyboard input が固まる問題を修正した。",
+                "remote session 接続時に local の <code>model</code> setting を <code>~/.claude/settings.json</code> 上書きしてしまう問題を修正した。",
+                "先頭が <code>/</code> の file path を貼り付けると typeahead が \"No commands match\" error を出す問題を修正した。",
+                "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
+                "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
+                "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
+                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+          "urlLabel": "v2.1.118 を見る"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
+    "同一スレッド内の補足返信は、新しい事実があるものだけ採用。",
+    "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。",
+    "publish date が 24 時間窓の外にある公式ブログ記事は、公式Xで再告知されていてもブログ新着件数には含めていない。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeDevs: MCP production systems blog",
+      "url": "https://x.com/ClaudeDevs/status/2047086372666921217"
+    },
+    {
+      "title": "Claude: interactive charts and diagrams in Cowork",
+      "url": "https://x.com/claudeai/status/2047047633416397076"
+    },
+    {
+      "title": "AnthropicAI: 81k economics post",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017"
+    },
+    {
+      "title": "ClaudeDevs: ultrareview",
+      "url": "https://x.com/ClaudeDevs/status/2046999435239133246"
+    },
+    {
+      "title": "Adam Wolff: grep and glob change note",
+      "url": "https://x.com/dmwlff/status/2047105823890166170"
+    },
+    {
+      "title": "Adam Wolff: bash permissions follow-up",
+      "url": "https://x.com/dmwlff/status/2047326639701524867"
+    },
+    {
+      "title": "Noah Zweben: session store adapters",
+      "url": "https://x.com/noahzweben/status/2046977073009557939"
+    },
+    {
+      "title": "Boris Cherny: Claude Code won a Webby",
+      "url": "https://x.com/bcherny/status/2047004804283773321"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Building agents that reach production systems with MCP",
+      "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
+    },
+    {
+      "title": "Announcing the Anthropic Economic Index Survey",
+      "url": "https://www.anthropic.com/research/economic-index-survey-announcement"
+    },
+    {
+      "title": "What 81,000 people told us about the economics of AI",
+      "url": "https://www.anthropic.com/research/81k-economics"
+    },
+    {
+      "title": "Claude Code Release v2.1.118",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
