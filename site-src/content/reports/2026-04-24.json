@@ -1,21 +1,21 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 08:03:24 JST - 2026-04-24 08:03:24 JST",
-  "archiveTitle": "Managed agent memory, connectors, and Claude Code postmortem",
-  "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem と v2.1.118 を整理。",
-  "latestSummary": "Claude Managed Agents の built-in memory public beta、Claude apps の日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule と deep links などの signal、Claude Code v2.1.118 の release notes 全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 09:01:51 JST - 2026-04-24 09:01:51 JST",
+  "archiveTitle": "Managed agent memory, new connectors, and Claude Code releases",
+  "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.118 / v2.1.119 を整理。",
+  "latestSummary": "Claude Managed Agents の built-in memory public beta、Claude apps の日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule や deep links などの signal、Claude Code v2.1.118 / v2.1.119 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store、監査ログを案内した。",
-    "<strong>@ClaudeAI</strong> は everyday-life connectors の追加も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の拡張と、会話中に適切な connector を提案する体験改善を公開した。",
+    "<strong>@ClaudeAI</strong> は everyday-life connectors の拡張も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の追加と、会話中に適切な connector を提案する体験改善を公開した。",
     "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では reasoning effort 変更、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> と <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
       "label": "Official",
       "datetime": "2026-04-24T06:06:21+09:00",
       "displayTime": "2026-04-24 06:06 JST",
-      "title": "Claude が Managed Agents 向け built-in memory public beta を告知",
+      "title": "Claude Managed Agents の built-in memory が public beta に",
       "summary": "Claude Managed Agents が session をまたいで学習できる built-in memory を public beta で提供開始し、filesystem ベース memory、API 経由の export / 管理、共有 store による運用を案内した。",
       "url": "https://x.com/claudeai/status/2047421844311949513",
       "urlLabel": "投稿を見る",
@@ -76,7 +76,7 @@
       "datetime": "2026-04-24T02:17:28+09:00",
       "displayTime": "2026-04-24 02:17 JST",
       "title": "@noahzweben",
-      "summary": "CLI と Routines UI の両方から <code>/schedule</code> で one-time task を登録できるようになり、reply では数週間先でも設定できると補足した。feature flag cleanup や launch report などの予約実行を例示している。",
+      "summary": "CLI と Routines UI の両方から <code>/schedule</code> で one-time task を登録できるようになり、feature flag cleanup や launch report などの予約実行を例示した。reply では数週間先でも設定できると補足している。",
       "url": "https://x.com/noahzweben/status/2047364243310416044",
       "urlLabel": "投稿を見る"
     },
@@ -86,7 +86,7 @@
       "displayTime": "2026-04-23 23:48 JST",
       "title": "@dmwlff",
       "summary": "Claude Code 2.1.117 以降は Grep / Glob 専用 tool をやめて Bash ベースに寄せ、より自然で速い挙動にしたと説明した。続く返信では permission system が find / grep などの read-only shell command を認識できるとも補足した。",
-      "url": "https://x.com/dmwlff/status/2047326639701524867",
+      "url": "https://x.com/dmwlff/status/2047105823890166170",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -105,13 +105,88 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.118</code> が 2026-04-23 09:42 JST に公開されていた。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "headline": "2件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この24時間窓には <code>v2.1.118</code> と <code>v2.1.119</code> の 2 リリースが入っていた。両 release の <code>What's changed</code> 全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
+        {
+          "version": "v2.1.119",
+          "publishedAt": "2026-04-24 08:24 JST",
+          "summary": "設定永続化、custom PR URL、Managed Agents / plugin 周辺の改善、UI と MCP / plugin / SDK まわりの修正をまとめた更新。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/config</code> の設定（theme、editor mode、verbose など）が <code>~/.claude/settings.json</code> に永続化され、project / local / policy の override 優先順位にも参加するようになった。",
+                "footer の PR badge を github.com ではなく任意の code-review URL に向けられる <code>prUrlTemplate</code> 設定が追加された。",
+                "起動ロゴ内の作業ディレクトリ表示を隠す <code>CLAUDE_CODE_HIDE_CWD</code> 環境変数が追加された。",
+                "<code>--from-pr</code> が GitLab merge request、Bitbucket pull request、GitHub Enterprise の PR URL も受け付けるようになった。",
+                "permission mode で PowerShell tool command も Bash と同様に auto-approve できるようになった。",
+                "Hooks の <code>PostToolUse</code> / <code>PostToolUseFailure</code> 入力に <code>duration_ms</code>（permission prompt と PreToolUse hook を除く実行時間）が追加された。",
+                "OpenTelemetry の <code>tool_result</code> と <code>tool_decision</code> event に <code>tool_use_id</code> が追加され、<code>tool_result</code> には <code>tool_input_size_bytes</code> も追加された。",
+                "status line の stdin JSON に <code>effort.level</code> と <code>thinking.enabled</code> が含まれるようになった。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>--print</code> mode が agent frontmatter の <code>tools:</code> と <code>disallowedTools:</code> を尊重し、interactive mode と挙動が揃った。",
+                "<code>--agent &lt;name&gt;</code> が built-in agent の定義にある <code>permissionMode</code> を尊重するようになった。",
+                "subagent と SDK の MCP server 再構成は、serial ではなく parallel に接続するようになった。",
+                "他 plugin の version constraint で pin されている plugin も、条件を満たす最も高い git tag へ auto-update するようになった。",
+                "vim mode では INSERT 中の Esc で queued message を input へ戻さず、割り込みたいときはもう一度 Esc を押す方式になった。",
+                "slash command の候補表示で、query に一致した文字がハイライトされるようになった。",
+                "slash command picker は長い説明を切り捨てず 2 行目に折り返すようになった。",
+                "出力中の <code>owner/repo#N</code> 省略記法は、常に github.com ではなく現在の git remote host を使うようになった。",
+                "Vertex AI では unsupported beta header error を避けるため tool search がデフォルト無効になり、必要なら <code>ENABLE_TOOL_SEARCH</code> で opt-in する方式になった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "Security: <code>blockedMarketplaces</code> が <code>hostPattern</code> と <code>pathPattern</code> を正しく強制できていなかった問題を修正した。",
+                "Windows 系クリップボードや Xcode console 由来の CRLF 貼り付けで、各行の間に余計な空行が入る問題を修正した。",
+                "kitty keyboard protocol sequence を bracketed paste 内で使う terminal で、複数行 paste 時に改行が失われる問題を修正した。",
+                "native macOS / Linux build で Bash tool を permission により拒否したとき、Glob と Grep tool まで消えてしまう問題を修正した。",
+                "fullscreen mode で上にスクロールしている最中に tool が完了すると、毎回最下部へ snap back する問題を修正した。",
+                "MCP HTTP connection で、OAuth discovery request に non-JSON body を返す server に対し <code>Invalid OAuth error response</code> で失敗する問題を修正した。",
+                "画像添付つき message で Rewind overlay が <code>(no prompt)</code> と表示される問題を修正した。",
+                "auto mode が plan mode を conflicting な <code>Execute immediately</code> 指示で上書きしてしまう問題を修正した。",
+                "レスポンス payload を返さない async <code>PostToolUse</code> hook が、session transcript に空エントリを書き込む問題を修正した。",
+                "subagent task notification が queue 内で orphaned になると spinner が消えない問題を修正した。",
+                "絶対 path を含む slash command 内で <code>@</code>-file の Tab completion を使うと、prompt 全体を置き換えてしまう問題を修正した。",
+                "macOS Terminal.app で Docker や SSH 経由起動したとき、起動直後の prompt に余計な <code>p</code> 文字が出る問題を修正した。",
+                "HTTP / SSE / WebSocket MCP server の <code>headers</code> 内にある <code>${ENV_VAR}</code> placeholder が request 前に展開されない問題を修正した。",
+                "<code>--client-secret</code> で保存した MCP OAuth client secret が、<code>client_secret_post</code> を要求する server の token exchange 時に送信されない問題を修正した。",
+                "<code>/skills</code> で Enter を押すと dialog を閉じるだけで、<code>/&lt;skill-name&gt;</code> を prompt に補完しない問題を修正した。",
+                "<code>/agents</code> detail view で、subagent から使えない built-in tool が <code>Unrecognized</code> と誤表示される問題を修正した。",
+                "plugin cache が不完全な Windows 環境で、plugin 由来の MCP server が spawn しない問題を修正した。",
+                "<code>/export</code> が、その conversation 実際の model ではなく current default model を表示していた問題を修正した。",
+                "verbose output 設定が再起動後に保持されない問題を修正した。",
+                "<code>/usage</code> の progress bar が <code>Resets ...</code> ラベルと重なってしまう問題を修正した。",
+                "optional field が空のままの <code>${user_config.*}</code> 参照を含む plugin MCP server が失敗する問題を修正した。",
+                "文末が数字で終わる list item で、その数字だけが次行へ折り返される問題を修正した。",
+                "<code>/plan</code> と <code>/plan open</code> が、plan mode へ入る際に既存 plan に作用しない問題を修正した。",
+                "auto-compaction 前に呼ばれた skill が、次の user message に対して再実行されてしまう問題を修正した。",
+                "<code>/reload-plugins</code> と <code>/doctor</code> が、disabled plugin の load error まで報告してしまう問題を修正した。",
+                "<code>isolation: \"worktree\"</code> を使う Agent tool が、以前の session から stale worktree を再利用してしまう問題を修正した。",
+                "disabled な MCP server が <code>/status</code> で <code>failed</code> と表示される問題を修正した。",
+                "<code>TaskList</code> が task を arbitrary filesystem order で返し、ID 順になっていなかった問題を修正した。",
+                "<code>gh</code> 出力内の PR title に <code>rate limit</code> が含まれるだけで、誤って <code>GitHub API rate limit exceeded</code> ヒントを出す問題を修正した。",
+                "SDK / bridge の <code>read_file</code> が、成長中ファイルに対する size cap を正しく強制できていなかった問題を修正した。",
+                "git worktree で作業中に PR が session へ紐づかない問題を修正した。",
+                "高優先 scope により上書きされた MCP server entry に対して <code>/doctor</code> が warning を出す問題を修正した。",
+                "Windows で <code>cmd /c</code> wrapper が必要だという false positive の MCP config warning を削除した。",
+                "[VSCode] microphone permission prompt 表示中の macOS で、voice dictation の最初の録音が空になる問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+          "urlLabel": "v2.1.119 を見る"
+        },
         {
           "version": "v2.1.118",
           "publishedAt": "2026-04-23 09:42 JST",
-          "summary": "GitHub release page の <code>What's changed</code> 全項目を和訳して分類。",
+          "summary": "visual mode、custom theme、MCP / OAuth 周辺改善と多数の修正を含む更新。",
           "sections": [
             {
               "title": "新機能",
@@ -139,23 +214,23 @@
             {
               "title": "修正",
               "items": [
-                "<code>/mcp</code> menu で、<code>headersHelper</code> つき server の OAuth Authenticate / Re-authenticate action が隠れていた問題と、custom header つき HTTP/SSE MCP server が一時的な 401 のあと「needs authentication」のまま詰まる問題を修正した。",
+                "<code>/mcp</code> menu で、<code>headersHelper</code> つき server の OAuth Authenticate / Re-authenticate action が隠れていた問題と、custom header つき HTTP / SSE MCP server が一時的な 401 のあと <code>needs authentication</code> のまま詰まる問題を修正した。",
                 "OAuth token response に <code>expires_in</code> がない MCP server で、毎時再認証が必要になっていた問題を修正した。",
                 "MCP の step-up authorization で、server の <code>insufficient_scope</code> 403 が現在 token にすでにある scope を指していても、再同意 prompt を出さず silent refresh してしまう問題を修正した。",
                 "MCP server の OAuth flow が timeout / cancel されたときの unhandled promise rejection を修正した。",
                 "競合時に MCP OAuth refresh が cross-process lock なしで進んでいた問題を修正した。",
-                "macOS keychain race により、並行する MCP token refresh が freshly-refreshed OAuth token を上書きし、予期せぬ \"Please run /login\" prompt を出す問題を修正した。",
+                "macOS keychain race により、並行する MCP token refresh が freshly-refreshed OAuth token を上書きし、予期せぬ <code>Please run /login</code> prompt を出す問題を修正した。",
                 "server が local expiry より前に token を revoke した場合に OAuth token refresh が失敗する問題を修正した。",
                 "Linux / Windows で credential save crash が起きると <code>~/.claude/.credentials.json</code> を壊す問題を修正した。",
                 "<code>CLAUDE_CODE_OAUTH_TOKEN</code> つきで起動した session で <code>/login</code> が効かなかった問題を修正し、env token を消して disk credentials が効くようにした。",
-                "\"new messages\" scroll pill と <code>/plugin</code> badge の unreadable text を修正した。",
-                "<code>--dangerously-skip-permissions</code> 実行時に、plan acceptance dialog が「bypass permissions」ではなく「auto mode」を案内していた問題を修正した。",
-                "agent-type hooks が <code>Stop</code> / <code>SubagentStop</code> 以外の event 用設定で \"Messages are required for agent hooks\" に失敗する問題を修正した。",
+                "<code>new messages</code> scroll pill と <code>/plugin</code> badge の unreadable text を修正した。",
+                "<code>--dangerously-skip-permissions</code> 実行時に、plan acceptance dialog が <code>bypass permissions</code> ではなく <code>auto mode</code> を案内していた問題を修正した。",
+                "agent-type hooks が <code>Stop</code> / <code>SubagentStop</code> 以外の event 用設定で <code>Messages are required for agent hooks</code> に失敗する問題を修正した。",
                 "<code>prompt</code> hooks が、agent-hook verifier subagent の tool call でも再発火する問題を修正した。",
                 "<code>/fork</code> が fork ごとに親 conversation 全文を disk に書いていた問題を修正し、pointer を書いて read 時 hydrate する方式に変えた。",
                 "Alt+K / Alt+X / Alt+^ / Alt+_ で keyboard input が固まる問題を修正した。",
                 "remote session 接続時に local の <code>model</code> setting を <code>~/.claude/settings.json</code> 上書きしてしまう問題を修正した。",
-                "先頭が <code>/</code> の file path を貼り付けると typeahead が \"No commands match\" error を出す問題を修正した。",
+                "先頭が <code>/</code> の file path を貼り付けると typeahead が <code>No commands match</code> error を出す問題を修正した。",
                 "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
                 "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
                 "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
@@ -174,8 +249,8 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 08:03 JST より前の公式 X 投稿や blog publish date は、このローカル 24 時間窓には含めていない。",
-    "Claude Blog の <em>Building agents that reach production systems with MCP</em> は記事ページの visible date が <code>2026-04-22</code> のため、今回のブログ面からは除外した。",
+    "2026-04-23 09:01:51 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "Claude Blog の <em>Building agents that reach production systems with MCP</em> と Anthropic Research の 2026-04-22 記事 2 本は、前日レポート対象のため今回の本体一覧から除外した。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
   "sources": [
@@ -209,7 +284,7 @@
     },
     {
       "title": "Adam Wolff: Bash search and read-only permissions follow-up",
-      "url": "https://x.com/dmwlff/status/2047326639701524867"
+      "url": "https://x.com/dmwlff/status/2047105823890166170"
     },
     {
       "title": "Claude Blog: New connectors in Claude for everyday life",
@@ -218,10 +293,6 @@
     {
       "title": "Claude Blog: Built-in memory for Claude Managed Agents",
       "url": "https://claude.com/blog/claude-managed-agents-memory"
-    },
-    {
-      "title": "Claude Blog: Building agents that reach production systems with MCP",
-      "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp"
     },
     {
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
@@ -242,6 +313,10 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Release v2.1.119",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119"
     },
     {
       "title": "Claude Code Release v2.1.118",
