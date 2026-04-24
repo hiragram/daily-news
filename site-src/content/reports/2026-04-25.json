@@ -1,13 +1,13 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 01:02:00 JST - 2026-04-25 01:02:00 JST",
+  "windowLabel": "2026-04-24 02:02:04 JST - 2026-04-25 02:02:04 JST",
   "archiveTitle": "Election safeguards, NEC, and Claude Code v2.1.119",
   "archiveSummary": "選挙 safeguards、NEC 提携、Managed Agents memory、Claude Code v2.1.119 を整理。",
   "latestSummary": "Anthropic の election safeguards と NEC 提携、Claude の Managed Agents memory / connectors 拡張、Claude Code v2.1.119 の全項目和訳、関連エンジニアの運用 signal をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で 2 本更新され、<strong>An update on our election safeguards</strong> では Claude の政治的中立性評価、選挙 misuse 対策、TurboVote バナー、web search を使った最新情報補強を整理し、<strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> では約 30,000 人規模の NEC Group への Claude 展開と日本市場向けの業種特化 AI 製品共同開発を明らかにした。",
     "<strong>@ClaudeAI</strong> は <strong>Claude Managed Agents</strong> の built-in memory public beta と everyday-life connectors 拡張を告知し、session をまたぐ memory、API / filesystem ベース管理、AllTrails や Uber などの日常系 app 連携、全プラン対応と mobile beta を案内した。<strong>@ClaudeDevs</strong> は Claude Code 品質 postmortem を共有し、<strong>v2.1.116+</strong> ですでに修正済みで subscriber の usage limits を reset したと告知した。",
-    "<strong>@bcherny</strong>、<strong>@trq212</strong>、<strong>@felixrieseberg</strong>、<strong>@noahzweben</strong> からは、weekly usage window、<code>/usage</code> 可視性、compaction latency、<code>claude://</code> deep links、<code>/schedule</code> one-time / recurring に関する運用 signal が出た。",
+    "<strong>@amorriscode</strong>、<strong>@bcherny</strong>、<strong>@trq212</strong>、<strong>@felixrieseberg</strong>、<strong>@noahzweben</strong> からは、desktop app の Files pane、weekly usage window、<code>/usage</code> 可視性、compaction latency、<code>claude://</code> deep links、<code>/schedule</code> one-time / recurring に関する運用 signal が出た。",
     "GitHub Releases の <code>v2.1.119</code> はこの24時間窓に入り、<code>What's changed</code> の全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
@@ -73,6 +73,15 @@
     }
   ],
   "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-04-25T01:50:32+09:00",
+      "displayTime": "2026-04-25 01:50 JST",
+      "title": "@amorriscode",
+      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> を使って file の browse / view / edit がしやすくなったと案内し、desktop での file-centric workflow を補足した。",
+      "url": "https://x.com/amorriscode/status/2047719852509659358",
+      "urlLabel": "投稿を見る"
+    },
     {
       "label": "Medium",
       "datetime": "2026-04-24T15:34:02+09:00",
@@ -219,7 +228,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一イベントを伝える重複告知は 1 件に正規化し、Managed Agents memory に関する <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の重複投稿、関連する quote / repost は main list から外した。",
-    "visible publication date が <strong>2026-04-23</strong> の Claude Blog 2 本と Engineering 1 本は、今回のローカル 24 時間窓が <strong>2026-04-24 01:02:00 JST</strong> 開始のため除外した。",
+    "visible publication date が <strong>2026-04-23</strong> の Claude Blog 2 本と Engineering 1 本は、今回のローカル 24 時間窓が <strong>2026-04-24 02:02:04 JST</strong> 開始のため除外した。",
     "新しい事実や仕様補足がない engineer reply は採用していない。"
   ],
   "sources": [
@@ -242,6 +251,10 @@
     {
       "title": "Anthropic News: Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
       "url": "https://www.anthropic.com/news/anthropic-nec"
+    },
+    {
+      "title": "Anthony Morris: Claude Code desktop files pane",
+      "url": "https://x.com/amorriscode/status/2047719852509659358"
     },
     {
       "title": "Boris Cherny: weekly usage windows are individualized",
