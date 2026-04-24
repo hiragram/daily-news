@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 09:01:51 JST - 2026-04-24 09:01:51 JST",
-  "archiveTitle": "Managed agent memory, new connectors, and Claude Code releases",
-  "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.118 / v2.1.119 を整理。",
-  "latestSummary": "Claude Managed Agents の built-in memory public beta、Claude apps の日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule や deep links などの signal、Claude Code v2.1.118 / v2.1.119 の全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 10:02:18 JST - 2026-04-24 10:02:18 JST",
+  "archiveTitle": "Managed agent memory, new connectors, and Claude Code v2.1.119",
+  "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.119 を整理。",
+  "latestSummary": "Claude Managed Agents の built-in memory beta、日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule と deep links、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store、監査ログを案内した。",
+    "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store による運用を案内した。",
     "<strong>@ClaudeAI</strong> は everyday-life connectors の拡張も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の追加と、会話中に適切な connector を提案する体験改善を公開した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では reasoning effort 変更、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.118</code> と <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では default reasoning effort、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。",
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -96,17 +96,17 @@
       "headline": "3件",
       "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em> と <em>Built-in memory for Claude Managed Agents</em> の 2 本を確認した。Anthropic Engineering の <em>An update on recent Claude Code quality reports</em> も公式X経由でこの窓に案内されており、Research と News には新規記事はなかった。",
       "details": [
-        "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
-        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、監査ログ、共有 store、権限スコープ管理に対応したと案内した。",
-        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort を <code>high</code> から <code>medium</code> に下げた判断、idle session 後に thinking を毎ターン消してしまう cache 周りの bug、verbosity を抑える system prompt 変更の 3 件が品質低下の原因だったと説明し、いずれも修正済みで subscriber の usage limits を reset したと報告した。"
+        "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit TurboTax、Resy、Spotify、Thumbtack、TripAdvisor などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
+        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、共有 store、メモリ保持の制御に対応したと案内した。",
+        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort を下げた判断、idle session 後に thinking を毎ターン消してしまう cache 周りの bug、verbosity を抑える system prompt 変更の 3 件が品質低下の原因だったと説明し、いずれも修正済みで subscriber の usage limits を reset したと報告した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Blog を見る"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この24時間窓には <code>v2.1.118</code> と <code>v2.1.119</code> の 2 リリースが入っていた。両 release の <code>What's changed</code> 全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "headline": "1件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この24時間窓には <code>v2.1.119</code> が入っていた。<code>What's changed</code> 全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
@@ -182,64 +182,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
           "urlLabel": "v2.1.119 を見る"
-        },
-        {
-          "version": "v2.1.118",
-          "publishedAt": "2026-04-23 09:42 JST",
-          "summary": "visual mode、custom theme、MCP / OAuth 周辺改善と多数の修正を含む更新。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "vim の visual mode（<code>v</code>）と visual-line mode（<code>V</code>）が追加され、選択、operator、visual feedback が使えるようになった。",
-                "<code>/theme</code> から名前付き custom theme を作成して切り替えられるようになり、<code>~/.claude/themes/</code> の JSON 手編集や plugin の <code>themes/</code> 配布にも対応した。",
-                "Hooks から <code>type: \"mcp_tool\"</code> で MCP tool を直接呼び出せるようになった。",
-                "<code>DISABLE_UPDATES</code> 環境変数が追加され、手動の <code>claude update</code> を含むすべての update 経路を完全に無効化できるようになった。<code>DISABLE_AUTOUPDATER</code> より厳しい。",
-                "auto mode の opt-in prompt に「Don't ask again」オプションが追加された。",
-                "<code>claude plugin tag</code> が追加され、version validation つきで plugin 用 release git tag を作れるようになった。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "<code>/cost</code> と <code>/stats</code> は <code>/usage</code> に統合された。どちらも relevant tab を開く typing shortcut としては引き続き使える。",
-                "Windows 上の WSL は、<code>wslInheritsWindowsSettings</code> policy key により Windows 側の managed settings を継承できるようになった。",
-                "auto mode は <code>autoMode.allow</code>、<code>autoMode.soft_deny</code>、<code>autoMode.environment</code> に <code>\"$defaults\"</code> を含めると、built-in list を置き換えずに custom rule を追加できるようになった。",
-                "<code>--continue</code> / <code>--resume</code> は、<code>/add-dir</code> で現在ディレクトリを追加した session も見つけられるようになった。",
-                "<code>/color</code> は、Remote Control 接続時に session accent color を claude.ai/code に同期するようになった。",
-                "<code>/model</code> picker は、custom <code>ANTHROPIC_BASE_URL</code> gateway 使用時に <code>ANTHROPIC_DEFAULT_*_MODEL_NAME</code> / <code>_DESCRIPTION</code> override を尊重するようになった。",
-                "別 plugin の version constraint により auto-update を skip した場合、その skip が <code>/doctor</code> と <code>/plugin</code> の Errors tab に表示されるようになった。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "<code>/mcp</code> menu で、<code>headersHelper</code> つき server の OAuth Authenticate / Re-authenticate action が隠れていた問題と、custom header つき HTTP / SSE MCP server が一時的な 401 のあと <code>needs authentication</code> のまま詰まる問題を修正した。",
-                "OAuth token response に <code>expires_in</code> がない MCP server で、毎時再認証が必要になっていた問題を修正した。",
-                "MCP の step-up authorization で、server の <code>insufficient_scope</code> 403 が現在 token にすでにある scope を指していても、再同意 prompt を出さず silent refresh してしまう問題を修正した。",
-                "MCP server の OAuth flow が timeout / cancel されたときの unhandled promise rejection を修正した。",
-                "競合時に MCP OAuth refresh が cross-process lock なしで進んでいた問題を修正した。",
-                "macOS keychain race により、並行する MCP token refresh が freshly-refreshed OAuth token を上書きし、予期せぬ <code>Please run /login</code> prompt を出す問題を修正した。",
-                "server が local expiry より前に token を revoke した場合に OAuth token refresh が失敗する問題を修正した。",
-                "Linux / Windows で credential save crash が起きると <code>~/.claude/.credentials.json</code> を壊す問題を修正した。",
-                "<code>CLAUDE_CODE_OAUTH_TOKEN</code> つきで起動した session で <code>/login</code> が効かなかった問題を修正し、env token を消して disk credentials が効くようにした。",
-                "<code>new messages</code> scroll pill と <code>/plugin</code> badge の unreadable text を修正した。",
-                "<code>--dangerously-skip-permissions</code> 実行時に、plan acceptance dialog が <code>bypass permissions</code> ではなく <code>auto mode</code> を案内していた問題を修正した。",
-                "agent-type hooks が <code>Stop</code> / <code>SubagentStop</code> 以外の event 用設定で <code>Messages are required for agent hooks</code> に失敗する問題を修正した。",
-                "<code>prompt</code> hooks が、agent-hook verifier subagent の tool call でも再発火する問題を修正した。",
-                "<code>/fork</code> が fork ごとに親 conversation 全文を disk に書いていた問題を修正し、pointer を書いて read 時 hydrate する方式に変えた。",
-                "Alt+K / Alt+X / Alt+^ / Alt+_ で keyboard input が固まる問題を修正した。",
-                "remote session 接続時に local の <code>model</code> setting を <code>~/.claude/settings.json</code> 上書きしてしまう問題を修正した。",
-                "先頭が <code>/</code> の file path を貼り付けると typeahead が <code>No commands match</code> error を出す問題を修正した。",
-                "すでに install 済みの plugin に対する <code>plugin install</code> が、誤った version で入っている dependency を再解決しない問題を修正した。",
-                "invalid path や fd exhaustion 時の file watcher 由来 unhandled error を修正した。",
-                "JWT refresh 中の一時的な CCR initialization blip で、Remote Control session が archived される問題を修正した。",
-                "<code>SendMessage</code> で resume した subagent が、spawn 時に指定した explicit <code>cwd</code> を復元しない問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
-          "urlLabel": "v2.1.118 を見る"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -249,8 +191,8 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 09:01:51 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
-    "Claude Blog の <em>Building agents that reach production systems with MCP</em> と Anthropic Research の 2026-04-22 記事 2 本は、前日レポート対象のため今回の本体一覧から除外した。",
+    "2026-04-23 10:02:18 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "Claude Code <code>v2.1.118</code> は 2026-04-23 09:42 JST 公開のため、この24時間窓からは外れる。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
   "sources": [
@@ -259,11 +201,7 @@
       "url": "https://x.com/claudeai/status/2047421844311949513"
     },
     {
-      "title": "ClaudeDevs: Managed Agents memory public beta",
-      "url": "https://x.com/ClaudeDevs/status/2047424063543681240"
-    },
-    {
-      "title": "Claude: new everyday-life connectors",
+      "title": "Claude: new connectors for everyday life",
       "url": "https://x.com/claudeai/status/2047383764347572389"
     },
     {
@@ -271,20 +209,24 @@
       "url": "https://x.com/ClaudeDevs/status/2047371123185287223"
     },
     {
-      "title": "Boris Cherny: /usage visibility and Opus 4.7 follow-up",
+      "title": "Boris Cherny: usage visibility and Opus 4.7 follow-up",
       "url": "https://x.com/bcherny/status/2047376975506059474"
     },
     {
-      "title": "Felix Rieseberg: claude deep links",
+      "title": "Felix Rieseberg: claude:// deep links",
       "url": "https://x.com/felixrieseberg/status/2047367515500659128"
     },
     {
-      "title": "Noah Zweben: one-time schedule tasks",
+      "title": "Noah Zweben: one-time /schedule tasks",
       "url": "https://x.com/noahzweben/status/2047364243310416044"
     },
     {
-      "title": "Adam Wolff: Bash search and read-only permissions follow-up",
+      "title": "Adam Wolff: Bash-based search and permissions",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
+    },
+    {
+      "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem"
     },
     {
       "title": "Claude Blog: New connectors in Claude for everyday life",
@@ -293,10 +235,6 @@
     {
       "title": "Claude Blog: Built-in memory for Claude Managed Agents",
       "url": "https://claude.com/blog/claude-managed-agents-memory"
-    },
-    {
-      "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem"
     },
     {
       "title": "Anthropic Engineering",
@@ -317,10 +255,6 @@
     {
       "title": "Claude Code Release v2.1.119",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119"
-    },
-    {
-      "title": "Claude Code Release v2.1.118",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118"
     },
     {
       "title": "Claude Code Releases",
