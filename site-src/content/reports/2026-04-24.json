@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 11:02:29 JST - 2026-04-24 11:02:29 JST",
+  "windowLabel": "2026-04-23 12:03:16 JST - 2026-04-24 12:03:16 JST",
   "archiveTitle": "Managed agent memory, new connectors, and Claude Code v2.1.119",
   "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.119 を整理。",
   "latestSummary": "Claude Managed Agents の built-in memory beta、日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule と deep links、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
@@ -191,7 +191,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 11:02:29 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "2026-04-23 12:03:16 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
     "Claude Code <code>v2.1.118</code> は 2026-04-23 09:42 JST 公開のため、この24時間窓からは外れる。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
