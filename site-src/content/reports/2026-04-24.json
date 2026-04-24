@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 12:03:16 JST - 2026-04-24 12:03:16 JST",
-  "archiveTitle": "Managed agent memory, new connectors, and Claude Code v2.1.119",
+  "windowLabel": "2026-04-23 13:02:53 JST - 2026-04-24 13:02:53 JST",
+  "archiveTitle": "Managed agents memory, everyday connectors, and Claude Code v2.1.119",
   "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.119 を整理。",
-  "latestSummary": "Claude Managed Agents の built-in memory beta、日常向け connectors 拡張、Claude Code 品質 postmortem、/schedule と deep links、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
+  "latestSummary": "Claude Managed Agents の built-in memory beta、日常向け connectors 拡張、Claude Code quality postmortem、/schedule と deep links、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store による運用を案内した。",
-    "<strong>@ClaudeAI</strong> は everyday-life connectors の拡張も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax など日常向け app 連携の追加と、会話中に適切な connector を提案する体験改善を公開した。",
+    "<strong>@ClaudeAI</strong> は everyday-life connectors の拡張も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax、Uber など日常向け app 連携の追加と、会話中に適切な connector を提案する体験改善を公開した。",
     "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では default reasoning effort、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time tasks、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "Anthropic 関係者からは、<code>/schedule</code> の one-time task と recurring loop、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -26,7 +26,7 @@
       "datetime": "2026-04-24T03:35:02+09:00",
       "displayTime": "2026-04-24 03:35 JST",
       "title": "Claude が everyday-life connectors の拡張を告知",
-      "summary": "仕事向け以外のアプリにも Claude apps の接続先を広げ、TripAdvisor、Booking.com、Resy、Instacart、Spotify、Audible、AllTrails、Thumbtack、Intuit TurboTax などに対応したと案内した。",
+      "summary": "仕事向け以外のアプリにも Claude apps の接続先を広げ、TripAdvisor、Booking.com、Resy、Instacart、Spotify、Audible、AllTrails、Thumbtack、Intuit TurboTax、Uber、Uber Eats などに対応したと案内した。",
       "url": "https://x.com/claudeai/status/2047383764347572389",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -49,7 +49,7 @@
     },
     {
       "label": "0件",
-      "body": "Anthropic の <strong>Research</strong> と <strong>News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Claude Blog</strong> では 2026-04-23 付の新規記事 2 本を確認し、<strong>Engineering</strong> の postmortem 記事はページ上に明示 publish date がないため、公式Xでの案内時刻も併記して扱った。"
+      "body": "Anthropic の <strong>Research</strong> と <strong>News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Claude Blog</strong> では 2026-04-23 付の新規記事 2 本を確認し、<strong>Engineering</strong> の postmortem 記事は一覧上に publish date が見えないため、公式Xでの案内時刻も併記して扱った。"
     }
   ],
   "signals": [
@@ -58,7 +58,7 @@
       "datetime": "2026-04-24T03:08:04+09:00",
       "displayTime": "2026-04-24 03:08 JST",
       "title": "@bcherny",
-      "summary": "quality postmortem の補足として <code>/usage</code> で usage limit の内訳を確認できること、今後は plugins / skills / custom agents 由来の消費も含めて可視性を改善していくこと、加えて Opus 4.7 in Claude Code の別件報告も調査中だと述べた。",
+      "summary": "quality postmortem の補足として <code>/usage</code> で usage limit の消費元を確認できること、今後は plugins / skills / custom agents 由来の消費も含めて可視性を改善していくこと、加えて Opus 4.7 in Claude Code の別件報告も調査中だと述べた。",
       "url": "https://x.com/bcherny/status/2047376975506059474",
       "urlLabel": "投稿を見る"
     },
@@ -76,7 +76,7 @@
       "datetime": "2026-04-24T02:17:28+09:00",
       "displayTime": "2026-04-24 02:17 JST",
       "title": "@noahzweben",
-      "summary": "CLI と Routines UI の両方から <code>/schedule</code> で one-time task を登録できるようになり、feature flag cleanup や launch report などの予約実行を例示した。reply では数週間先でも設定できると補足している。",
+      "summary": "CLI と Routines UI の両方から <code>/schedule</code> で one-time task を登録できるようになり、reply では数週間先の予定や recurring loop も扱えると補足した。",
       "url": "https://x.com/noahzweben/status/2047364243310416044",
       "urlLabel": "投稿を見る"
     },
@@ -96,9 +96,9 @@
       "headline": "3件",
       "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em> と <em>Built-in memory for Claude Managed Agents</em> の 2 本を確認した。Anthropic Engineering の <em>An update on recent Claude Code quality reports</em> も公式X経由でこの窓に案内されており、Research と News には新規記事はなかった。",
       "details": [
-        "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit TurboTax、Resy、Spotify、Thumbtack、TripAdvisor などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
-        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、共有 store、メモリ保持の制御に対応したと案内した。",
-        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort を下げた判断、idle session 後に thinking を毎ターン消してしまう cache 周りの bug、verbosity を抑える system prompt 変更の 3 件が品質低下の原因だったと説明し、いずれも修正済みで subscriber の usage limits を reset したと報告した。"
+        "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
+        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、共有 store、監査ログ、権限制御に対応したと案内した。",
+        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort の引き下げ、idle session 後に reasoning を毎ターン落としていた cache 周りの bug、verbosity を抑える system prompt の 3 件が品質低下の原因で、いずれも April 20 までに修正済みだと説明した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Blog を見る"
@@ -106,47 +106,48 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この24時間窓には <code>v2.1.119</code> が入っていた。<code>What's changed</code> 全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.119</code> が 2026-04-24 08:24 JST に公開されていた。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
           "publishedAt": "2026-04-24 08:24 JST",
-          "summary": "設定永続化、custom PR URL、Managed Agents / plugin 周辺の改善、UI と MCP / plugin / SDK まわりの修正をまとめた更新。",
+          "summary": "GitHub release page の <code>What's changed</code> 全 51 項目を和訳して分類。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>/config</code> の設定（theme、editor mode、verbose など）が <code>~/.claude/settings.json</code> に永続化され、project / local / policy の override 優先順位にも参加するようになった。",
-                "footer の PR badge を github.com ではなく任意の code-review URL に向けられる <code>prUrlTemplate</code> 設定が追加された。",
+                "<code>/config</code> の設定（theme、editor mode、verbose など）が <code>~/.claude/settings.json</code> に永続化され、project / local / policy の override 優先順位にも従うようになった。",
+                "footer の PR badge を github.com ではなく独自のコードレビュー URL に向けられる <code>prUrlTemplate</code> 設定が追加された。",
                 "起動ロゴ内の作業ディレクトリ表示を隠す <code>CLAUDE_CODE_HIDE_CWD</code> 環境変数が追加された。",
                 "<code>--from-pr</code> が GitLab merge request、Bitbucket pull request、GitHub Enterprise の PR URL も受け付けるようになった。",
-                "permission mode で PowerShell tool command も Bash と同様に auto-approve できるようになった。",
-                "Hooks の <code>PostToolUse</code> / <code>PostToolUseFailure</code> 入力に <code>duration_ms</code>（permission prompt と PreToolUse hook を除く実行時間）が追加された。",
-                "OpenTelemetry の <code>tool_result</code> と <code>tool_decision</code> event に <code>tool_use_id</code> が追加され、<code>tool_result</code> には <code>tool_input_size_bytes</code> も追加された。",
-                "status line の stdin JSON に <code>effort.level</code> と <code>thinking.enabled</code> が含まれるようになった。"
+                "<code>--print</code> mode が agent 定義の <code>tools:</code> と <code>disallowedTools:</code> frontmatter を尊重し、interactive mode と同じ挙動になった。",
+                "<code>--agent &lt;name&gt;</code> が built-in agent 定義の <code>permissionMode</code> を尊重するようになった。",
+                "PowerShell tool command も permission mode 下で Bash と同様に auto-approve できるようになった。",
+                "Hooks の <code>PostToolUse</code> と <code>PostToolUseFailure</code> の入力に <code>duration_ms</code>（permission prompt と PreToolUse hook を除く tool 実行時間）が追加された。",
+                "Subagent と SDK の MCP server 再設定時に、server 接続が serial ではなく parallel で行われるようになった。",
+                "別 plugin の version constraint で pin されている plugin も、条件を満たす git tag のうち最も高い version へ auto-update されるようになった。",
+                "slash command suggestion で、query に一致した文字が highlight されるようになった。",
+                "Status line の stdin JSON に <code>effort.level</code> と <code>thinking.enabled</code> が含まれるようになった。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "<code>--print</code> mode が agent frontmatter の <code>tools:</code> と <code>disallowedTools:</code> を尊重し、interactive mode と挙動が揃った。",
-                "<code>--agent &lt;name&gt;</code> が built-in agent の定義にある <code>permissionMode</code> を尊重するようになった。",
-                "subagent と SDK の MCP server 再構成は、serial ではなく parallel に接続するようになった。",
-                "他 plugin の version constraint で pin されている plugin も、条件を満たす最も高い git tag へ auto-update するようになった。",
-                "vim mode では INSERT 中の Esc で queued message を input へ戻さず、割り込みたいときはもう一度 Esc を押す方式になった。",
-                "slash command の候補表示で、query に一致した文字がハイライトされるようになった。",
-                "slash command picker は長い説明を切り捨てず 2 行目に折り返すようになった。",
-                "出力中の <code>owner/repo#N</code> 省略記法は、常に github.com ではなく現在の git remote host を使うようになった。",
-                "Vertex AI では unsupported beta header error を避けるため tool search がデフォルト無効になり、必要なら <code>ENABLE_TOOL_SEARCH</code> で opt-in する方式になった。"
+                "Vim mode では INSERT 中に Esc を押しても queue 済み message を input に引き戻さなくなり、interrupt したい場合はもう一度 Esc を押す方式に変わった。",
+                "slash command picker は長い description を切り捨てず、2 行目へ折り返して表示するようになった。",
+                "出力中の <code>owner/repo#N</code> shorthand link は常に github.com を指すのではなく、git remote の host を使うようになった。",
+                "Security まわりでは <code>blockedMarketplaces</code> が <code>hostPattern</code> と <code>pathPattern</code> を正しく強制するようになった。",
+                "OpenTelemetry の <code>tool_result</code> と <code>tool_decision</code> event に <code>tool_use_id</code> が追加され、<code>tool_result</code> には <code>tool_input_size_bytes</code> も追加された。",
+                "Vertex AI では unsupported beta header error を避けるため、tool search が default で無効化され、必要なら <code>ENABLE_TOOL_SEARCH</code> で opt-in する方式になった。",
+                "Windows では、MCP config に対する false positive な <code>\"Windows requires 'cmd /c' wrapper\"</code> warning が削除された。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "Security: <code>blockedMarketplaces</code> が <code>hostPattern</code> と <code>pathPattern</code> を正しく強制できていなかった問題を修正した。",
-                "Windows 系クリップボードや Xcode console 由来の CRLF 貼り付けで、各行の間に余計な空行が入る問題を修正した。",
-                "kitty keyboard protocol sequence を bracketed paste 内で使う terminal で、複数行 paste 時に改行が失われる問題を修正した。",
-                "native macOS / Linux build で Bash tool を permission により拒否したとき、Glob と Grep tool まで消えてしまう問題を修正した。",
+                "Windows の clipboard や Xcode console 由来の CRLF 内容を貼り付けると、各行の間に余計な空行が入る問題を修正した。",
+                "kitty keyboard protocol sequence を bracketed paste 内で使う terminal で、複数行 paste 時の改行が失われる問題を修正した。",
+                "native macOS / Linux build で Bash tool が permission により拒否されたとき、Glob と Grep tool まで消えてしまう問題を修正した。",
                 "fullscreen mode で上にスクロールしている最中に tool が完了すると、毎回最下部へ snap back する問題を修正した。",
                 "MCP HTTP connection で、OAuth discovery request に non-JSON body を返す server に対し <code>Invalid OAuth error response</code> で失敗する問題を修正した。",
                 "画像添付つき message で Rewind overlay が <code>(no prompt)</code> と表示される問題を修正した。",
@@ -175,7 +176,6 @@
                 "SDK / bridge の <code>read_file</code> が、成長中ファイルに対する size cap を正しく強制できていなかった問題を修正した。",
                 "git worktree で作業中に PR が session へ紐づかない問題を修正した。",
                 "高優先 scope により上書きされた MCP server entry に対して <code>/doctor</code> が warning を出す問題を修正した。",
-                "Windows で <code>cmd /c</code> wrapper が必要だという false positive の MCP config warning を削除した。",
                 "[VSCode] microphone permission prompt 表示中の macOS で、voice dictation の最初の録音が空になる問題を修正した。"
               ]
             }
@@ -191,7 +191,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 12:03:16 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "2026-04-23 13:02:53 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
     "Claude Code <code>v2.1.118</code> は 2026-04-23 09:42 JST 公開のため、この24時間窓からは外れる。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
@@ -217,24 +217,28 @@
       "url": "https://x.com/felixrieseberg/status/2047367515500659128"
     },
     {
-      "title": "Noah Zweben: one-time /schedule tasks",
+      "title": "Noah Zweben: one-time schedule tasks",
       "url": "https://x.com/noahzweben/status/2047364243310416044"
+    },
+    {
+      "title": "Noah Zweben: schedule can recur as a loop",
+      "url": "https://x.com/noahzweben/status/2047520576672338227"
+    },
+    {
+      "title": "Noah Zweben: schedule can be weeks out",
+      "url": "https://x.com/noahzweben/status/2047370445113192504"
     },
     {
       "title": "Adam Wolff: Bash-based search and permissions",
       "url": "https://x.com/dmwlff/status/2047105823890166170"
     },
     {
+      "title": "Adam Wolff: read-only bash commands can be recognized",
+      "url": "https://x.com/dmwlff/status/2047334797618675957"
+    },
+    {
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem"
-    },
-    {
-      "title": "Claude Blog: New connectors in Claude for everyday life",
-      "url": "https://claude.com/blog/connectors-for-everyday-life"
-    },
-    {
-      "title": "Claude Blog: Built-in memory for Claude Managed Agents",
-      "url": "https://claude.com/blog/claude-managed-agents-memory"
     },
     {
       "title": "Anthropic Engineering",
@@ -251,6 +255,14 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: New connectors in Claude for everyday life",
+      "url": "https://claude.com/blog/connectors-for-everyday-life"
+    },
+    {
+      "title": "Claude Blog: Built-in memory for Claude Managed Agents",
+      "url": "https://claude.com/blog/claude-managed-agents-memory"
     },
     {
       "title": "Claude Code Release v2.1.119",
