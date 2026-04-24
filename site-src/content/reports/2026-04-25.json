@@ -1,13 +1,13 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 03:02:33 JST - 2026-04-25 03:02:33 JST",
-  "archiveTitle": "Project Deal, safeguards, and Claude Code v2.1.119",
-  "archiveSummary": "Project Deal、選挙 safeguards、NEC 提携、Claude memory/connectors、Claude Code v2.1.119 を整理。",
-  "latestSummary": "Anthropic の Project Deal・election safeguards・NEC 提携、Claude の Managed Agents memory / everyday-life connectors、Claude Code v2.1.119 の全項目和訳、関連エンジニアの運用 signal をまとめた日次レポート。",
+  "windowLabel": "2026-04-24 04:03:16 JST - 2026-04-25 04:03:16 JST",
+  "archiveTitle": "Project Deal, Managed Agents memory, and Claude Code v2.1.119",
+  "archiveSummary": "Project Deal、Managed Agents memory、選挙 safeguards、NEC 提携、Claude Code v2.1.119 を整理。",
+  "latestSummary": "Anthropic の Project Deal・election safeguards・NEC 提携、Claude / ClaudeDevs の Managed Agents memory 告知、Claude Code v2.1.119 の全項目和訳、関連エンジニアの運用 signal をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@AnthropicAI</strong> は <strong>Project Deal</strong> を告知し、Anthropic Research は <strong>2026-04-24</strong> 付で、社内フリマを Claude 同士に代理交渉させる実験で <strong>186 件 / 約 4,000 ドル</strong> の取引が成立し、より強いモデルの方が交渉成績で優位だったと報告した。",
+    "<strong>@AnthropicAI</strong> は <strong>Project Deal</strong> を告知し、Anthropic Research は <strong>2026-04-24</strong> 付で、社内フリマを Claude 同士に代理交渉させる実験で <strong>186 件 / 約 4,000 ドル</strong> の取引が成立し、Opus 系エージェントの方が Haiku 系より良い交渉結果を出したと報告した。",
+    "<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の built-in memory public beta を案内した。公式 blog 記事の visible publication date は <strong>2026-04-23</strong> で今回の窓外だが、X 告知は今回の窓内に入っている。",
     "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で 2 本更新され、<strong>An update on our election safeguards</strong> では TurboVote バナー、選挙 misuse 対策、web search による最新情報補強を整理し、<strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> では約 30,000 人規模の NEC Group への Claude 展開と日本市場向け共同開発を明らかにした。",
-    "<strong>@ClaudeAI</strong> は <strong>Claude Managed Agents</strong> の built-in memory public beta と everyday-life connectors 拡張を告知した。非公式 signal では <strong>@amorriscode</strong> の desktop Files pane、<strong>@noahzweben</strong> の GitHub Issue 起点 Routines、<strong>@bcherny</strong> の <code>/usage</code> 可視性と個別 weekly window、<strong>@trq212</strong> の compaction latency 調査が確認できた。",
     "GitHub Releases の <code>v2.1.119</code> はこの24時間窓に入り、<code>What's changed</code> の全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
@@ -23,21 +23,21 @@
     },
     {
       "label": "Official",
-      "datetime": "2026-04-24T06:06:21+09:00",
-      "displayTime": "2026-04-24 06:06 JST",
-      "title": "Claude Managed Agents の built-in memory が public beta に",
-      "summary": "Claude Managed Agents が session をまたいで学習できる built-in memory を public beta で提供開始し、memory を file として export して API で管理できること、shared store・scoped permissions・audit log を備えることを案内した。",
-      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "datetime": "2026-04-24T06:15:10+09:00",
+      "displayTime": "2026-04-24 06:15 JST",
+      "title": "ClaudeDevs が Managed Agents memory beta を告知",
+      "summary": "Claude Platform 上の Claude Managed Agents で memory が public beta になり、agent が session をまたいで学習・改善できるようになったと開発者向けに案内した。",
+      "url": "https://x.com/ClaudeDevs/status/2047424063543681240",
       "urlLabel": "投稿を見る",
       "primary": true
     },
     {
       "label": "Official",
-      "datetime": "2026-04-24T03:35:02+09:00",
-      "displayTime": "2026-04-24 03:35 JST",
-      "title": "Claude が everyday-life connectors の拡張を告知",
-      "summary": "Claude が仕事向け以外の app 連携を拡張し、AllTrails、Audible、Booking.com、Instacart、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、Tripadvisor、Uber、Uber Eats、Viator などを会話の中で使えるようになったと案内した。",
-      "url": "https://x.com/claudeai/status/2047383764347572389",
+      "datetime": "2026-04-24T06:06:21+09:00",
+      "displayTime": "2026-04-24 06:06 JST",
+      "title": "Claude Managed Agents の built-in memory が public beta に",
+      "summary": "Claude Managed Agents が session をまたいで学習できる built-in memory を public beta で提供開始し、memory layer により performance と flexibility の両立を狙うと案内した。",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
       "urlLabel": "投稿を見る",
       "primary": true
     },
@@ -56,7 +56,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic が NEC と日本市場向け戦略提携を発表",
-      "summary": "Anthropic News は visible publication date ベースで、NEC が約 30,000 人の NEC Group 従業員へ Claude を展開し、日本市場向けに finance、manufacturing、local government、cybersecurity を起点とする業種特化 AI 製品を共同開発すると案内した。",
+      "summary": "Anthropic News は visible publication date ベースで、NEC が約 30,000 人の NEC Group 従業員へ Claude を展開し、日本市場向けに finance、manufacturing、local government を起点とする業種特化 AI 製品を共同開発すると案内した。",
       "url": "https://www.anthropic.com/news/anthropic-nec",
       "urlLabel": "記事を見る",
       "primary": true
@@ -65,11 +65,11 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式Xでは、この24時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 2 件だった。<strong>@ClaudeDevs</strong> は前回窓で扱った quality postmortem 以降、この窓に入る新しい主要告知を確認できなかった。"
+      "body": "監視対象の公式Xでは、この24時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件だった。前回窓で扱った <strong>connectors</strong> 告知は <strong>2026-04-24 03:35 JST</strong> のため今回は窓外。"
     },
     {
       "label": "0件",
-      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の memory / connectors 記事は <strong>2026-04-23</strong> 公開で今回の窓外だった。"
+      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の memory 記事は <strong>2026-04-23</strong> 公開で今回の窓外。"
     }
   ],
   "signals": [
@@ -78,7 +78,7 @@
       "datetime": "2026-04-25T02:17:17+09:00",
       "displayTime": "2026-04-25 02:17 JST",
       "title": "@noahzweben",
-      "summary": "Routines を GitHub Issue 作成トリガーで起動できることを案内した。別 reply では <code>/schedule</code> で recurring loop も使えると補足しており、Claude Code の定期実行ユースケースが広がっている。",
+      "summary": "Routines を GitHub Issue 作成トリガーで起動できることを案内した。関連 reply では <code>/schedule</code> で recurring loop も使えると補足しており、Claude Code の定期実行ユースケースが広がっている。",
       "url": "https://x.com/noahzweben/status/2047726586536091952",
       "urlLabel": "投稿を見る"
     },
@@ -89,6 +89,15 @@
       "title": "@amorriscode",
       "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> を使って file の browse / view / edit がしやすくなったと案内し、desktop での file-centric workflow を補足した。",
       "url": "https://x.com/amorriscode/status/2047719852509659358",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-24T11:22:10+09:00",
+      "displayTime": "2026-04-24 11:22 JST",
+      "title": "@katelyn_lesse",
+      "summary": "Managed Agents memory public beta について、developer が memory を API で管理でき、必要なら export や移行もできると補足した。",
+      "url": "https://x.com/katelyn_lesse/status/2047501321297854498",
       "urlLabel": "投稿を見る"
     },
     {
@@ -108,15 +117,6 @@
       "summary": "subscriber ごとの weekly usage window は各自の利用状況に応じた個別ウィンドウで動いており、reset 時刻は一律ではないと補足した。",
       "url": "https://x.com/bcherny/status/2047556491125895243",
       "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
-      "datetime": "2026-04-24T03:08:04+09:00",
-      "displayTime": "2026-04-24 03:08 JST",
-      "title": "@bcherny",
-      "summary": "quality postmortem の補足として <code>/usage</code> で usage limit の消費元を確認できること、今後は plugins / skills / custom agents 由来の消費も含めて可視性を改善していくこと、加えて Opus 4.7 in Claude Code の別件報告も調査中だと述べた。",
-      "url": "https://x.com/bcherny/status/2047376975506059474",
-      "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
@@ -125,9 +125,9 @@
       "headline": "3件",
       "body": "この24時間窓で公式サイトに visible publication date ベースで入った新規記事は、Anthropic Research の <em>Project Deal</em> と Anthropic News の <em>An update on our election safeguards</em>、<em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em> の 3 件だった。Engineering と Claude Blog の visible publication date はすべて窓外だった。",
       "details": [
-        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人の参加者で 186 件・総額 4,000 ドル超の取引が成立した。Opus 4.5 が Haiku 4.5 より平均成績で優位だったことも報告している。",
+        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人の参加者で 186 件・総額 4,000 ドル超の取引が成立した。Opus 系エージェントの方が Haiku 系より平均成績で優位だったことも報告している。",
         "2026-04-24 公開日ベース: <em>An update on our election safeguards</em>。Claude の政治的中立性評価、選挙関連 misuse を防ぐ classifier と threat intelligence、TurboVote への election banner、web search を使った最新情報補強を整理した。",
-        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、日本市場向けの finance / manufacturing / local government / cybersecurity 起点の業種特化 AI 製品共同開発、Claude / Claude Code / Claude Cowork の導入を案内した。"
+        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、日本市場向けの finance / manufacturing / local government 起点の業種特化 AI 製品共同開発を案内した。"
       ],
       "url": "https://www.anthropic.com/research",
       "urlLabel": "Research / News を見る"
@@ -219,8 +219,8 @@
   ],
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を参照しつつ main summary では 1 つのイベントとして扱った。",
-    "Claude Blog の <strong>New connectors in Claude for everyday life</strong> と <strong>Built-in memory for Claude Managed Agents</strong> は visible publication date が <strong>2026-04-23</strong> のため、今回のローカル 24 時間窓では blog panel から除外した。",
+    "同一イベントを伝える重複告知は 1 件に正規化し、Managed Agents memory は公式 X 2 件と blog 記事を参照しつつ main summary では 1 つのテーマとして扱った。",
+    "Claude Blog の <strong>Built-in memory for Claude Managed Agents</strong> と <strong>New connectors in Claude for everyday life</strong> は visible publication date が <strong>2026-04-23</strong> のため、今回のローカル 24 時間窓では blog panel から除外した。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。"
   ],
   "sources": [
@@ -233,12 +233,12 @@
       "url": "https://www.anthropic.com/features/project-deal"
     },
     {
-      "title": "Claude: Managed Agents memory public beta",
-      "url": "https://x.com/claudeai/status/2047421844311949513"
+      "title": "ClaudeDevs: Managed Agents memory beta",
+      "url": "https://x.com/ClaudeDevs/status/2047424063543681240"
     },
     {
-      "title": "Claude: everyday-life connectors",
-      "url": "https://x.com/claudeai/status/2047383764347572389"
+      "title": "Claude: Managed Agents memory public beta",
+      "url": "https://x.com/claudeai/status/2047421844311949513"
     },
     {
       "title": "Anthropic News: An update on our election safeguards",
@@ -257,12 +257,16 @@
       "url": "https://x.com/noahzweben/status/2047726586536091952"
     },
     {
-      "title": "Boris Cherny: weekly usage windows are individualized",
-      "url": "https://x.com/bcherny/status/2047556491125895243"
+      "title": "Noah Zweben: recurring loop via /schedule",
+      "url": "https://x.com/noahzweben/status/2047520576672338227"
     },
     {
-      "title": "Boris Cherny: usage visibility and Opus 4.7 follow-up",
-      "url": "https://x.com/bcherny/status/2047376975506059474"
+      "title": "Katelyn Lesse: Managed Agents memory control and export",
+      "url": "https://x.com/katelyn_lesse/status/2047501321297854498"
+    },
+    {
+      "title": "Boris Cherny: weekly usage windows are individualized",
+      "url": "https://x.com/bcherny/status/2047556491125895243"
     },
     {
       "title": "Thariq: compaction latency follow-up",
