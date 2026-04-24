@@ -1,14 +1,14 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 13:02:53 JST - 2026-04-24 13:02:53 JST",
-  "archiveTitle": "Managed agents memory, everyday connectors, and Claude Code v2.1.119",
-  "archiveSummary": "Managed Agents memory beta、日常向け connectors 拡張、Claude Code postmortem、v2.1.119 を整理。",
-  "latestSummary": "Claude Managed Agents の built-in memory beta、日常向け connectors 拡張、Claude Code quality postmortem、/schedule と deep links、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-23 14:00:18 JST - 2026-04-24 14:00:18 JST",
+  "archiveTitle": "Managed agents memory, NEC partnership, and Claude Code v2.1.119",
+  "archiveSummary": "Managed Agents memory beta、NEC 提携、everyday connectors、Claude Code v2.1.119 を整理。",
+  "latestSummary": "Claude Managed Agents の built-in memory beta、NEC との提携発表、everyday-life connectors 拡張、Claude Code quality postmortem、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store による運用を案内した。",
+    "<strong>@ClaudeAI</strong> は Claude Managed Agents の <strong>built-in memory</strong> public beta を告知し、<strong>Claude Blog</strong> では filesystem ベース memory、API 経由の export / 管理、共有 store、監査ログによる運用を案内した。",
     "<strong>@ClaudeAI</strong> は everyday-life connectors の拡張も告知し、<strong>Claude Blog</strong> では AllTrails、Instacart、Audible、TripAdvisor、TurboTax、Uber など日常向け app 連携の追加と、会話中に適切な connector を提案する体験改善を公開した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では default reasoning effort、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。",
-    "Anthropic 関係者からは、<code>/schedule</code> の one-time task と recurring loop、<code>claude://</code> deep links、<code>/usage</code> の可視性改善予定、Bash ベース検索と read-only command 判定などの signal が確認でき、GitHub Releases では <code>v2.1.119</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>Anthropic News</strong> では <strong>2026-04-24</strong> 付で NEC との戦略提携を公開し、日本市場向けの業種特化 AI 製品開発と、約 30,000 人規模の NEC Group での Claude 導入計画を明らかにした。",
+    "<strong>@ClaudeDevs</strong> は Claude Code の品質低下に関する postmortem を公開し、Anthropic Engineering では default reasoning effort、idle session 後の thinking 消失 bug、verbosity 抑制 prompt の 3 件が原因で、いずれも <code>v2.1.116+</code> で修正済みだと説明した。GitHub Releases の <code>v2.1.119</code> は全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-04-24T06:06:21+09:00",
       "displayTime": "2026-04-24 06:06 JST",
       "title": "Claude Managed Agents の built-in memory が public beta に",
-      "summary": "Claude Managed Agents が session をまたいで学習できる built-in memory を public beta で提供開始し、filesystem ベース memory、API 経由の export / 管理、共有 store による運用を案内した。",
+      "summary": "Claude Managed Agents が session をまたいで学習できる built-in memory を public beta で提供開始し、filesystem ベース memory、API 経由の export / 管理、共有 store、詳細な audit log を案内した。",
       "url": "https://x.com/claudeai/status/2047421844311949513",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -40,6 +40,16 @@
       "url": "https://x.com/ClaudeDevs/status/2047371123185287223",
       "urlLabel": "投稿を見る",
       "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-24T00:00:00+09:00",
+      "displayTime": "2026-04-24 公開日ベース",
+      "title": "Anthropic が NEC と日本市場向け戦略提携を発表",
+      "summary": "Anthropic News は visible publication date ベースで、NEC が約 30,000 人の NEC Group 従業員へ Claude を展開し、日本市場向けに finance、manufacturing、local government などを起点とする業種特化 AI 製品を共同開発すると案内した。",
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "urlLabel": "記事を見る",
+      "primary": true
     }
   ],
   "officialZeroStates": [
@@ -49,7 +59,7 @@
     },
     {
       "label": "0件",
-      "body": "Anthropic の <strong>Research</strong> と <strong>News</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Claude Blog</strong> では 2026-04-23 付の新規記事 2 本を確認し、<strong>Engineering</strong> の postmortem 記事は一覧上に publish date が見えないため、公式Xでの案内時刻も併記して扱った。"
+      "body": "Anthropic の <strong>Research</strong> には、この24時間窓に publish date ベースで入る新規記事は確認できなかった。<strong>Claude Blog</strong> では 2026-04-23 付の新規記事 2 本、<strong>Engineering</strong> では quality postmortem、<strong>News</strong> では 2026-04-24 付の NEC 提携記事を確認した。"
     }
   ],
   "signals": [
@@ -93,12 +103,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em> と <em>Built-in memory for Claude Managed Agents</em> の 2 本を確認した。Anthropic Engineering の <em>An update on recent Claude Code quality reports</em> も公式X経由でこの窓に案内されており、Research と News には新規記事はなかった。",
+      "headline": "4件",
+      "body": "この24時間窓では Claude Blog に <em>New connectors in Claude for everyday life</em> と <em>Built-in memory for Claude Managed Agents</em> の 2 本、Anthropic Engineering に <em>An update on recent Claude Code quality reports</em>、Anthropic News に <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em> の 1 本を確認した。Research に新規記事はなかった。",
       "details": [
         "2026-04-23: <em>New connectors in Claude for everyday life</em>。AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator などへの接続追加と、会話中に適切な connector を提案する体験改善を案内した。",
-        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、共有 store、監査ログ、権限制御に対応したと案内した。",
-        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort の引き下げ、idle session 後に reasoning を毎ターン落としていた cache 周りの bug、verbosity を抑える system prompt の 3 件が品質低下の原因で、いずれも April 20 までに修正済みだと説明した。"
+        "2026-04-23: <em>Built-in memory for Claude Managed Agents</em>。Managed Agents に filesystem ベースの memory layer を public beta で追加し、session をまたぐ学習、API 経由の export / 管理、共有 store、audit log、権限制御に対応したと案内した。",
+        "2026-04-24 02:44 JST に公式Xから案内: <em>An update on recent Claude Code quality reports</em>。default reasoning effort の引き下げ、idle session 後に reasoning を毎ターン落としていた cache 周りの bug、verbosity を抑える system prompt の 3 件が品質低下の原因で、いずれも April 20 までに修正済みだと説明した。",
+        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、日本市場向けの finance / manufacturing / local government 起点の業種特化 AI 製品共同開発を案内した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Blog を見る"
@@ -106,7 +117,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.119</code> が 2026-04-24 08:24 JST に公開されていた。<code>What's changed</code> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.119</code> が 2026-04-24 08:24 JST に公開されていた。<code>What's changed</code> の全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
@@ -191,7 +202,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 13:02:53 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "2026-04-23 14:00:18 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
     "Claude Code <code>v2.1.118</code> は 2026-04-23 09:42 JST 公開のため、この24時間窓からは外れる。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
@@ -234,11 +245,15 @@
     },
     {
       "title": "Adam Wolff: read-only bash commands can be recognized",
-      "url": "https://x.com/dmwlff/status/2047334797618675957"
+      "url": "https://x.com/dmwlff/status/2047326639701524867"
     },
     {
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+    },
+    {
+      "title": "Anthropic News: Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "url": "https://www.anthropic.com/news/anthropic-nec"
     },
     {
       "title": "Anthropic Engineering",
