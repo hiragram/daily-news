@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "windowLabel": "2026-04-23 18:02:55 JST - 2026-04-24 18:02:55 JST",
+  "windowLabel": "2026-04-23 19:01:51 JST - 2026-04-24 19:01:51 JST",
   "archiveTitle": "Managed agents memory, NEC partnership, and Claude Code v2.1.119",
   "archiveSummary": "Managed Agents memory beta、NEC 提携、everyday connectors、Claude Code v2.1.119 を整理。",
   "latestSummary": "Claude Managed Agents の built-in memory beta、NEC との提携発表、everyday-life connectors 拡張、Claude Code quality postmortem、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
@@ -114,7 +114,7 @@
       "displayTime": "2026-04-23 23:48 JST",
       "title": "@dmwlff",
       "summary": "Claude Code 2.1.117 以降は Grep / Glob 専用 tool をやめて Bash ベースに寄せ、より自然で速い挙動にしたと説明した。続く返信では permission system が find / grep などの read-only shell command を認識できるとも補足した。",
-      "url": "https://x.com/dmwlff/status/2047105823890166170",
+      "url": "https://x.com/dmwlff/status/2047326639701524867",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -220,7 +220,7 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一スレッド内の補足返信は、新しい事実や仕様補足があるものだけ採用。",
-    "2026-04-23 18:02:55 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
+    "2026-04-23 19:01:51 JST より前の公式 X 投稿や visible publish date は、このローカル 24 時間窓には含めていない。",
     "Claude Code <code>v2.1.118</code> は 2026-04-23 09:42 JST 公開のため、この24時間窓からは外れる。",
     "一般ユーザーの推測や苦情投稿は、Anthropic 関係者が新情報を返していないものを除外。"
   ],
@@ -267,11 +267,11 @@
     },
     {
       "title": "Adam Wolff: Bash-based search and permissions",
-      "url": "https://x.com/dmwlff/status/2047105823890166170"
+      "url": "https://x.com/dmwlff/status/2047326639701524867"
     },
     {
       "title": "Adam Wolff: read-only bash commands can be recognized",
-      "url": "https://x.com/dmwlff/status/2047326639701524867"
+      "url": "https://x.com/dmwlff/status/2047334797618675957"
     },
     {
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
