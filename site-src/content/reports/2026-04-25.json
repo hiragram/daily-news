@@ -1,14 +1,14 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 11:02:30 JST - 2026-04-25 11:02:30 JST",
-  "archiveTitle": "Project Deal and NEC partnership",
+  "windowLabel": "2026-04-24 12:01:30 JST - 2026-04-25 12:01:30 JST",
+  "archiveTitle": "Project Deal, web refresh, and NEC partnership",
   "archiveSummary": "Project Deal、Claude Code refresh、election safeguards、NEC 提携、engineer signal を整理。",
-  "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、Managed Agents memory beta などをまとめた日次レポート。",
+  "latestSummary": "Anthropic の Project Deal、Claude Code web / mobile refresh、election safeguards、NEC 提携、OpenTable / Resy MCP の示唆、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@AnthropicAI</strong> と Anthropic Research は <strong>Project Deal</strong> を告知し、Claude が従業員の代理で売買交渉する社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、routines view 更新、応答速度と信頼性改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
+    "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は <strong>Project Deal</strong> を告知し、Claude が従業員の代理で売買交渉する社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
+    "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、更新された routines view、応答速度と信頼性改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
     "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、2026 年米中間選挙向け safeguards と NEC Group 約 30,000 人規模への Claude 展開を示した。",
-    "Engineer signal では <strong>Managed Agents memory</strong> の public beta、GitHub Issue 起点の <strong>Routines</strong>、Claude Code desktop の files pane / transcript file link / pane resize まわりの改善、compaction の long tail と retry 可視化課題が出た。"
+    "Engineer signal では <strong>GitHub Issue 起点の Routines</strong>、Claude Code desktop の files pane 周辺改善、compaction の retry 可視化課題、weekly usage window の個別運用、<strong>OpenTable / Resy 向け MCP server を開発中</strong> という示唆が出た。GitHub Releases ではこの 24 時間窓に新規 Claude Code release はなかった。"
   ],
   "officialNews": [
     {
@@ -26,9 +26,19 @@
       "datetime": "2026-04-25T02:24:20+09:00",
       "displayTime": "2026-04-25 02:24 JST",
       "title": "Anthropic が Project Deal を告知",
-      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。記事では 69 人の参加者、186 件の成立取引、総額 4,000 ドル超、Opus 4.5 系が Haiku 4.5 系より有利だったことが報告されている。",
+      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。",
       "url": "https://x.com/AnthropicAI/status/2047728360818696302",
       "urlLabel": "投稿を見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-04-24T00:00:00+09:00",
+      "displayTime": "2026-04-24 公開日ベース",
+      "title": "Anthropic Research が Project Deal の結果を公開",
+      "summary": "Research 記事では、San Francisco オフィスの社員 <strong>69 人</strong> に Claude を代理人として割り当てた社内マーケット実験で <strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
+      "url": "https://www.anthropic.com/features/project-deal",
+      "urlLabel": "記事を見る",
       "primary": true
     },
     {
@@ -46,7 +56,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic が NEC との戦略提携を発表",
-      "summary": "Anthropic News は visible publication date ベースで、NEC Group 約 30,000 人への Claude 展開、NEC の Japan-based global partner 化、finance / manufacturing / local government 向けの業種特化 AI 製品共同開発、Claude Code の内製活用を案内した。",
+      "summary": "Anthropic News は visible publication date ベースで、NEC Group 約 <strong>30,000 人</strong> への Claude 展開、NEC の Japan-based global partner 化、finance / manufacturing / local government 向けの業種特化 AI 製品共同開発、Claude Code 活用を案内した。",
       "url": "https://www.anthropic.com/news/anthropic-nec",
       "urlLabel": "記事を見る",
       "primary": true
@@ -77,7 +87,7 @@
       "datetime": "2026-04-25T01:50:32+09:00",
       "displayTime": "2026-04-25 01:50 JST",
       "title": "@amorriscode",
-      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> により file の browse / view / edit がしやすくなったと案内した。続く replies では transcript file link、pane resize、arrow-key history、diff からの file open、comment box 改善予定にも触れた。",
+      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> により file の browse / view / edit がしやすくなったと案内した。続く replies では transcript file link、pane resize、arrow-key history、plan comment box 修正予定にも触れた。",
       "url": "https://x.com/amorriscode/status/2047719852509659358",
       "urlLabel": "投稿を見る"
     },
@@ -100,12 +110,12 @@
       "urlLabel": "投稿を見る"
     },
     {
-      "label": "High",
-      "datetime": "2026-04-24T11:22:10+09:00",
-      "displayTime": "2026-04-24 11:22 JST",
-      "title": "@katelyn_lesse",
-      "summary": "Claude Managed Agents の memory が public beta に入ったと案内した。agents が session をまたいで学習でき、memory は file として保持されるため API から管理・export でき、developers が保持内容を制御できると説明している。",
-      "url": "https://x.com/katelyn_lesse/status/2047501321297854498",
+      "label": "Medium",
+      "datetime": "2026-04-25T09:50:57+09:00",
+      "displayTime": "2026-04-25 09:50 JST",
+      "title": "@RobertJBye",
+      "summary": "OpenTable と Resy 向け MCP server が必要だという投稿に対し <strong>\"Working on it\"</strong> と返信した。公式発表ではないが、食事予約系 connector / MCP 対応を進めている示唆として扱える。",
+      "url": "https://x.com/RobertJBye/status/2047840754769469799",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -125,7 +135,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 11:02 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 12:01 JST</strong> より前だった。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
@@ -175,8 +185,8 @@
       "url": "https://x.com/bcherny/status/2047556491125895243"
     },
     {
-      "title": "Katelyn Lesse: Managed Agents memory public beta",
-      "url": "https://x.com/katelyn_lesse/status/2047501321297854498"
+      "title": "Robert Bye: OpenTable and Resy MCP reply",
+      "url": "https://x.com/RobertJBye/status/2047840754769469799"
     },
     {
       "title": "Claude Code release v2.1.119",
