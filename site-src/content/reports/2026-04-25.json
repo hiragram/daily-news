@@ -1,14 +1,14 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 08:02:59 JST - 2026-04-25 08:02:59 JST",
-  "archiveTitle": "Project Deal, NEC, and v2.1.119",
-  "archiveSummary": "Project Deal、Claude Code web/mobile refresh、選挙 safeguards、NEC 提携、v2.1.119 を整理。",
-  "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、Claude Code v2.1.119 の全項目和訳をまとめた日次レポート。",
+  "windowLabel": "2026-04-24 09:03:00 JST - 2026-04-25 09:03:00 JST",
+  "archiveTitle": "Project Deal and Claude Code refresh",
+  "archiveSummary": "Project Deal、web/mobile refresh、election safeguards、NEC 提携を整理。",
+  "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、engineer signal をまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@AnthropicAI</strong> は <strong>Project Deal</strong> を告知し、Anthropic Research は <strong>2026-04-24</strong> 付記事で、Claude が社内マーケットで従業員の代理交渉を行う実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立したと報告した。",
-    "<strong>@ClaudeDevs</strong> は <strong>Claude Code on the web and mobile</strong> の刷新を案内し、sessions sidebar、drag-and-drop layout、routines view の更新、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を紹介した。",
-    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、選挙関連 safeguard 強化と NEC Group 約 30,000 人規模への Claude 展開を明らかにした。",
-    "GitHub Releases の <code>v2.1.119</code> は今回窓内で、<code>What's changed</code> の全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>@AnthropicAI</strong> は <strong>Project Deal</strong> を告知し、Anthropic Research の記事では Claude が社内マーケットで従業員の代理交渉を行う実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立したと報告した。",
+    "<strong>@ClaudeDevs</strong> は <strong>Claude Code on the web and mobile</strong> の刷新を告知し、新しい sessions sidebar、drag-and-drop layout、routines view 更新、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を案内した。",
+    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、選挙関連 safeguards 強化と NEC Group 約 30,000 人規模への Claude 展開を示した。",
+    "engineer 側では <strong>@trq212</strong> が compaction の長い tail と retry 非表示 UI を認め、<strong>@noahzweben</strong> が GitHub Issue 起点 routines を案内し、<strong>@amorriscode</strong> と <strong>@bcherny</strong> が desktop file pane 改善と weekly usage window の仕様補足を出した。Claude Code の最新 release <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で、今回窓の開始前だった。"
   ],
   "officialNews": [
     {
@@ -26,7 +26,7 @@
       "datetime": "2026-04-25T02:24:20+09:00",
       "displayTime": "2026-04-25 02:24 JST",
       "title": "Anthropic が Project Deal を告知",
-      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。研究記事では 69 人の参加者、186 件の成立取引、総額 4,000 ドル超、Opus 系エージェントが Haiku 系より良い交渉結果を出したことが報告されている。",
+      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。研究記事では 69 人の参加者、186 件の成立取引、総額 4,000 ドル超、Opus 系エージェントが Haiku 系より良い条件を引き出したことが報告されている。",
       "url": "https://x.com/AnthropicAI/status/2047728360818696302",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -55,20 +55,29 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件、<strong>@ClaudeAI</strong> 0 件だった。公式アカウントからこれ以外の主要な新規本投稿は確認できなかった。"
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件、<strong>@ClaudeAI</strong> 0 件だった。これ以外の主要な新規本投稿は確認できなかった。"
     },
     {
       "label": "0件",
-      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> で、今回の窓外。"
+      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> で今回窓外。"
     }
   ],
   "signals": [
     {
       "label": "High",
+      "datetime": "2026-04-25T08:17:51+09:00",
+      "displayTime": "2026-04-25 08:17 JST",
+      "title": "@trq212",
+      "summary": "compaction 遅延の follow-up として、compaction の約 1% が 3.6 分超に達する long tail があり、処理自体の遅さと request drop 後の retry が混在していると説明した。さらに compact UI が retry を表示していないため修正が必要だと述べた。",
+      "url": "https://x.com/trq212/status/2047817325345402991",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
       "datetime": "2026-04-25T02:17:17+09:00",
       "displayTime": "2026-04-25 02:17 JST",
       "title": "@noahzweben",
-      "summary": "Routines を GitHub Issue 作成トリガーで起動できるようになったと案内した。Claude Code の auto-triage や issue 起点の運用フローをそのまま routine 化できることを示している。",
+      "summary": "Routines を GitHub Issue 作成トリガーで起動できるようになったと案内した。reply では <code>/schedule</code> から recurring loop も使えると補足しており、issue 起点の auto-triage や routine 化を直接つなげられる。",
       "url": "https://x.com/noahzweben/status/2047726586536091952",
       "urlLabel": "投稿を見る"
     },
@@ -77,8 +86,17 @@
       "datetime": "2026-04-25T01:50:32+09:00",
       "displayTime": "2026-04-25 01:50 JST",
       "title": "@amorriscode",
-      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> を使って file の browse / view / edit がしやすくなったと案内した。続く reply では local session 前提で integrated terminal は未搭載、<code>@</code> で file mention 可能、arrow key 対応 PR 承認済み、diff からの file open や syntax highlighting 崩れなどの改善も進めていると補足した。",
+      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> により file の browse / view / edit がしやすくなったと案内した。続く replies では file mention、pane resize、arrow-key history、image open、diff からの file open などの改善や修正予定にも言及した。",
       "url": "https://x.com/amorriscode/status/2047719852509659358",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-24T15:01:23+09:00",
+      "displayTime": "2026-04-24 15:01 JST",
+      "title": "@bcherny",
+      "summary": "subscriber ごとの weekly usage window は各自の利用状況に応じた個別ウィンドウで動いており、reset 時刻は一律ではないと補足した。usage 表示や limit 運用に関するサポート文脈での仕様説明といえる。",
+      "url": "https://x.com/bcherny/status/2047556491125895243",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -88,7 +106,7 @@
       "headline": "3件",
       "body": "この 24 時間窓で公式サイトに visible publication date ベースで入った新規記事は、Anthropic Research の <em>Project Deal: our Claude-run marketplace experiment</em> と Anthropic News の <em>An update on our election safeguards</em>、<em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em> の 3 件だった。Engineering と Claude Blog の visible publication date は窓外だった。",
       "details": [
-        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人の参加者で 186 件・総額 4,000 ドル超の取引が成立した。Opus 系エージェントの方が Haiku 系より平均成績で優位だったことも報告している。",
+        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人の参加者で 186 件・総額 4,000 ドル超の取引が成立した。Opus 系エージェントの方が Haiku 系より良い条件を引き出したことも報告している。",
         "2026-04-24 公開日ベース: <em>An update on our election safeguards</em>。Claude の政治的中立性評価、選挙関連 misuse を防ぐ classifier と threat intelligence、TurboVote への election banner、web search を使った最新情報補強を整理した。",
         "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、日本市場向けの finance / manufacturing / local government 起点の業種特化 AI 製品共同開発を案内した。"
       ],
@@ -97,84 +115,10 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.119</code> が 2026-04-24 08:24 JST に公開されていた。<code>What's changed</code> の全 51 項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
-      "releases": [
-        {
-          "version": "v2.1.119",
-          "publishedAt": "2026-04-24 08:24 JST",
-          "summary": "GitHub release page の <code>What's changed</code> 全 51 項目を和訳して分類。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "<code>/config</code> の設定（theme、editor mode、verbose など）が <code>~/.claude/settings.json</code> に永続化され、project / local / policy の override 優先順位にも従うようになった。",
-                "footer の PR badge を github.com ではなく独自のコードレビュー URL に向けられる <code>prUrlTemplate</code> 設定が追加された。",
-                "起動ロゴ内の作業ディレクトリ表示を隠す <code>CLAUDE_CODE_HIDE_CWD</code> 環境変数が追加された。",
-                "<code>--from-pr</code> が GitLab merge request、Bitbucket pull request、GitHub Enterprise の PR URL も受け付けるようになった。",
-                "<code>--print</code> mode が agent 定義の <code>tools:</code> と <code>disallowedTools:</code> frontmatter を尊重し、interactive mode と同じ挙動になった。",
-                "<code>--agent &lt;name&gt;</code> が built-in agent 定義の <code>permissionMode</code> を尊重するようになった。",
-                "PowerShell tool command も permission mode 下で Bash と同様に auto-approve できるようになった。",
-                "Hooks の <code>PostToolUse</code> と <code>PostToolUseFailure</code> の入力に <code>duration_ms</code>（permission prompt と PreToolUse hook を除く tool 実行時間）が追加された。",
-                "Subagent と SDK の MCP server 再設定時に、server 接続が serial ではなく parallel で行われるようになった。",
-                "別 plugin の version constraint で pin されている plugin も、条件を満たす git tag のうち最も高い version へ auto-update されるようになった。",
-                "slash command suggestion で、query に一致した文字が highlight されるようになった。",
-                "Status line の stdin JSON に <code>effort.level</code> と <code>thinking.enabled</code> が含まれるようになった。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "Vim mode では INSERT 中に Esc を押しても queue 済み message を input に引き戻さなくなり、interrupt したい場合はもう一度 Esc を押す方式に変わった。",
-                "slash command picker は長い description を切り捨てず、2 行目へ折り返して表示するようになった。",
-                "出力中の <code>owner/repo#N</code> shorthand link は常に github.com を指すのではなく、git remote の host を使うようになった。",
-                "Security まわりでは <code>blockedMarketplaces</code> が <code>hostPattern</code> と <code>pathPattern</code> を正しく強制するようになった。",
-                "OpenTelemetry の <code>tool_result</code> と <code>tool_decision</code> event に <code>tool_use_id</code> が追加され、<code>tool_result</code> には <code>tool_input_size_bytes</code> も追加された。",
-                "Vertex AI では unsupported beta header error を避けるため、tool search が default で無効化され、必要なら <code>ENABLE_TOOL_SEARCH</code> で opt-in する方式になった。",
-                "Windows では、MCP config に対する false positive な <code>\"Windows requires 'cmd /c' wrapper\"</code> warning が削除された。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "Windows の clipboard や Xcode console 由来の CRLF 内容を貼り付けると、各行の間に余計な空行が入る問題を修正した。",
-                "kitty keyboard protocol sequence を bracketed paste 内で使う terminal で、複数行 paste 時の改行が失われる問題を修正した。",
-                "native macOS / Linux build で Bash tool が permission により拒否されたとき、Glob と Grep tool まで消えてしまう問題を修正した。",
-                "fullscreen mode で上にスクロールしている最中に tool が完了すると、毎回最下部へ snap back する問題を修正した。",
-                "MCP HTTP connection で、OAuth discovery request に non-JSON body を返す server に対し <code>Invalid OAuth error response</code> で失敗する問題を修正した。",
-                "画像添付つき message で Rewind overlay が <code>(no prompt)</code> と表示される問題を修正した。",
-                "auto mode が plan mode を conflicting な <code>Execute immediately</code> 指示で上書きしてしまう問題を修正した。",
-                "レスポンス payload を返さない async <code>PostToolUse</code> hook が、session transcript に空エントリを書き込む問題を修正した。",
-                "subagent task notification が queue 内で orphaned になると spinner が消えない問題を修正した。",
-                "絶対 path を含む slash command 内で <code>@</code>-file の Tab completion を使うと、prompt 全体を置き換えてしまう問題を修正した。",
-                "macOS Terminal.app で Docker や SSH 経由起動したとき、起動直後の prompt に余計な <code>p</code> 文字が出る問題を修正した。",
-                "HTTP / SSE / WebSocket MCP server の <code>headers</code> 内にある <code>${ENV_VAR}</code> placeholder が request 前に展開されない問題を修正した。",
-                "<code>--client-secret</code> で保存した MCP OAuth client secret が、<code>client_secret_post</code> を要求する server の token exchange 時に送信されない問題を修正した。",
-                "<code>/skills</code> で Enter を押すと dialog を閉じるだけで、<code>/&lt;skill-name&gt;</code> を prompt に補完しない問題を修正した。",
-                "<code>/agents</code> detail view で、subagent から使えない built-in tool が <code>Unrecognized</code> と誤表示される問題を修正した。",
-                "plugin cache が不完全な Windows 環境で、plugin 由来の MCP server が spawn しない問題を修正した。",
-                "<code>/export</code> が、その conversation 実際の model ではなく current default model を表示していた問題を修正した。",
-                "verbose output 設定が再起動後に保持されない問題を修正した。",
-                "<code>/usage</code> の progress bar が <code>Resets ...</code> ラベルと重なってしまう問題を修正した。",
-                "optional field が空のままの <code>${user_config.*}</code> 参照を含む plugin MCP server が失敗する問題を修正した。",
-                "文末が数字で終わる list item で、その数字だけが次行へ折り返される問題を修正した。",
-                "<code>/plan</code> と <code>/plan open</code> が、plan mode へ入る際に既存 plan に作用しない問題を修正した。",
-                "auto-compaction 前に呼ばれた skill が、次の user message に対して再実行されてしまう問題を修正した。",
-                "<code>/reload-plugins</code> と <code>/doctor</code> が、disabled plugin の load error まで報告してしまう問題を修正した。",
-                "Agent tool の <code>isolation: \"worktree\"</code> が、以前の session から stale worktree を再利用してしまう問題を修正した。",
-                "disabled な MCP server が <code>/status</code> で <code>failed</code> と表示される問題を修正した。",
-                "<code>TaskList</code> が task を arbitrary filesystem order で返し、ID 順になっていなかった問題を修正した。",
-                "<code>gh</code> 出力内の PR title に <code>rate limit</code> が含まれるだけで、誤って <code>GitHub API rate limit exceeded</code> ヒントを出す問題を修正した。",
-                "SDK / bridge の <code>read_file</code> が、成長中ファイルに対する size cap を正しく強制できていなかった問題を修正した。",
-                "git worktree で作業中に PR が session へ紐づかない問題を修正した。",
-                "高優先 scope により上書きされた MCP server entry に対して <code>/doctor</code> が warning を出す問題を修正した。",
-                "[VSCode] microphone permission prompt 表示中の macOS で、voice dictation の最初の録音が空になる問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-          "urlLabel": "v2.1.119 を見る"
-        }
+      "headline": "0件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で、今回の監視窓 <strong>2026-04-24 09:03 JST</strong> 開始より前だった。この 24 時間窓に新しい Claude Code release はなかった。",
+      "details": [
+        "確認対象の最新 release は <code>v2.1.119</code>（2026-04-23T23:24:19Z 公開）で、今回の window には含めていない。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
@@ -184,7 +128,8 @@
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
     "Claude Blog の <strong>Built-in memory for Claude Managed Agents</strong> と <strong>New connectors in Claude for everyday life</strong> は visible publication date が <strong>2026-04-23</strong> のため、今回のローカル 24 時間窓では blog panel から除外した。",
-    "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。"
+    "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
+    "Claude Code <code>v2.1.119</code> の full release notes は取得済みだが、公開時刻が今回 window の開始前なので本日の release panel には載せていない。"
   ],
   "sources": [
     {
@@ -208,12 +153,20 @@
       "url": "https://www.anthropic.com/news/anthropic-nec"
     },
     {
-      "title": "Anthony Morris: Claude Code desktop files pane",
-      "url": "https://x.com/amorriscode/status/2047719852509659358"
+      "title": "Thariq: compaction retries and long tail",
+      "url": "https://x.com/trq212/status/2047817325345402991"
     },
     {
       "title": "Noah Zweben: GitHub Issue-triggered routines",
       "url": "https://x.com/noahzweben/status/2047726586536091952"
+    },
+    {
+      "title": "Anthony Morris: Claude Code desktop files pane",
+      "url": "https://x.com/amorriscode/status/2047719852509659358"
+    },
+    {
+      "title": "Boris Cherny: weekly usage windows are individualized",
+      "url": "https://x.com/bcherny/status/2047556491125895243"
     },
     {
       "title": "Claude Code release v2.1.119",
