@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 18:02:11 JST - 2026-04-25 18:02:11 JST",
+  "windowLabel": "2026-04-24 19:02:30 JST - 2026-04-25 19:02:30 JST",
   "archiveTitle": "Project Deal, Claude Code refresh, and NEC",
   "archiveSummary": "Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、engineer signal を整理。",
   "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、GitHub Issue-triggered Routines や desktop app 改善 signal、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
@@ -126,7 +126,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 18:02 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 19:02 JST</strong> より前だった。",
       "details": [
         "GitHub CLI で最新 release の全文 <code>What's changed</code> を取得して確認したが、窓内に入る新規 version はなかったため本日分パネルには掲載していない。"
       ],
@@ -139,7 +139,7 @@
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
     "Claude Blog の visible publication date は最新でも <strong>2026-04-23</strong> だったため、blog panel には追加していない。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 18:02 JST</strong> より前のため release panel には含めていない."
+    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 19:02 JST</strong> より前のため release panel には含めていない."
   ],
   "sources": [
     {
