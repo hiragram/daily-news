@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 14:02:24 JST - 2026-04-25 14:02:24 JST",
+  "windowLabel": "2026-04-24 15:03:28 JST - 2026-04-25 15:03:28 JST",
   "archiveTitle": "Project Deal, web refresh, and NEC partnership",
   "archiveSummary": "Project Deal、Claude Code refresh、election safeguards、NEC 提携、engineer signal を整理。",
   "latestSummary": "Anthropic の Project Deal、Claude Code web / mobile refresh、election safeguards、NEC 提携、OpenTable / Resy MCP の示唆、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
@@ -8,7 +8,7 @@
     "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は <strong>Project Deal</strong> を告知し、Claude が従業員の代理で売買交渉する社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
     "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、更新された routines view、応答速度と信頼性改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
     "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、2026 年米中間選挙向け safeguards と NEC Group 約 30,000 人規模への Claude 展開を示した。",
-    "Engineer signal では <strong>GitHub Issue 起点の Routines</strong>、Claude Code desktop の files pane 周辺改善、compaction の retry 可視化課題、weekly usage window の個別運用、<strong>OpenTable / Resy 向け MCP server を開発中</strong> という示唆が出た。GitHub Releases ではこの 24 時間窓に新規 Claude Code release はなかった。"
+    "Engineer signal では <strong>GitHub Issue 起点の Routines</strong>、Claude Code desktop の files pane 周辺改善、compaction の retry 可視化課題、<strong>OpenTable / Resy 向け MCP server を開発中</strong> という示唆が出た。GitHub Releases ではこの 24 時間窓に新規 Claude Code release はなかった。"
   ],
   "officialNews": [
     {
@@ -102,15 +102,6 @@
     },
     {
       "label": "Medium",
-      "datetime": "2026-04-24T15:01:23+09:00",
-      "displayTime": "2026-04-24 15:01 JST",
-      "title": "@bcherny",
-      "summary": "subscriber ごとの weekly usage window は各自の利用状況に応じた個別ウィンドウで動いており、reset 時刻は一律ではないと補足した。usage 表示や limit 運用に関する仕様説明といえる。",
-      "url": "https://x.com/bcherny/status/2047556491125895243",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Medium",
       "datetime": "2026-04-25T09:50:57+09:00",
       "displayTime": "2026-04-25 09:50 JST",
       "title": "@RobertJBye",
@@ -135,7 +126,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 14:02 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 15:03 JST</strong> より前だった。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
@@ -145,7 +136,7 @@
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
     "Claude Blog の visible publication date は最新でも <strong>2026-04-23</strong> だったため、blog panel には追加していない。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓外だったため release panel には含めていない。"
+    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 15:03 JST</strong> より前のため release panel には含めていない。"
   ],
   "sources": [
     {
@@ -179,10 +170,6 @@
     {
       "title": "Thariq: compaction retries and long tail",
       "url": "https://x.com/trq212/status/2047817325345402991"
-    },
-    {
-      "title": "Boris Cherny: weekly usage windows are individualized",
-      "url": "https://x.com/bcherny/status/2047556491125895243"
     },
     {
       "title": "Robert Bye: OpenTable and Resy MCP reply",
