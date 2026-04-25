@@ -1,14 +1,14 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 10:03:08 JST - 2026-04-25 10:03:08 JST",
-  "archiveTitle": "Project Deal and Claude Code 2.1.120",
-  "archiveSummary": "Project Deal、Claude Code 2.1.120、election safeguards、NEC 提携を整理。",
-  "latestSummary": "Anthropic の Project Deal、Claude Code 2.1.120、election safeguards、NEC 提携、engineer signal をまとめた日次レポート。",
+  "windowLabel": "2026-04-24 11:02:30 JST - 2026-04-25 11:02:30 JST",
+  "archiveTitle": "Project Deal and NEC partnership",
+  "archiveSummary": "Project Deal、Claude Code refresh、election safeguards、NEC 提携、engineer signal を整理。",
+  "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、Managed Agents memory beta などをまとめた日次レポート。",
   "summaryBullets": [
-    "<strong>@AnthropicAI</strong> は <strong>Project Deal</strong> を告知し、研究記事では Claude が従業員の代理交渉を行う社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立したと報告した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、routines view 更新、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
-    "<strong>Claude Code v2.1.120</strong> が <strong>2026-04-25 09:14 JST</strong> に公開され、Windows で Git Bash 非依存化、<code>claude ultrareview</code> 追加、<code>${CLAUDE_EFFORT}</code> / <code>AI_AGENT</code> 対応、connector 起動高速化、<code>find</code> の file descriptor leak 修正などが入った。",
-    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、選挙関連 safeguards 強化と NEC Group 約 30,000 人規模への Claude 展開を示した。"
+    "<strong>@AnthropicAI</strong> と Anthropic Research は <strong>Project Deal</strong> を告知し、Claude が従業員の代理で売買交渉する社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
+    "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、routines view 更新、応答速度と信頼性改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
+    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、2026 年米中間選挙向け safeguards と NEC Group 約 30,000 人規模への Claude 展開を示した。",
+    "Engineer signal では <strong>Managed Agents memory</strong> の public beta、GitHub Issue 起点の <strong>Routines</strong>、Claude Code desktop の files pane / transcript file link / pane resize まわりの改善、compaction の long tail と retry 可視化課題が出た。"
   ],
   "officialNews": [
     {
@@ -26,7 +26,7 @@
       "datetime": "2026-04-25T02:24:20+09:00",
       "displayTime": "2026-04-25 02:24 JST",
       "title": "Anthropic が Project Deal を告知",
-      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。研究記事では 69 人の参加者、186 件の成立取引、総額 4,000 ドル超、Opus 4.5 系エージェントが Haiku 4.5 系より良い条件を引き出したことが報告されている。",
+      "summary": "Anthropic Research の <strong>Project Deal</strong> を公式 X で案内し、Claude が従業員の代理で売買交渉する社内マーケット実験を紹介した。記事では 69 人の参加者、186 件の成立取引、総額 4,000 ドル超、Opus 4.5 系が Haiku 4.5 系より有利だったことが報告されている。",
       "url": "https://x.com/AnthropicAI/status/2047728360818696302",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -36,7 +36,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic が election safeguards の現状を更新",
-      "summary": "Anthropic News は visible publication date ベースで、Claude の政治的中立性評価、選挙関連の misuse を防ぐ評価と運用、米中間選挙を含む主要選挙に向けた対応方針を整理した。",
+      "summary": "Anthropic News は visible publication date ベースで、Claude の政治的中立性評価、選挙関連 misuse を防ぐ評価と運用、米中間選挙向け TurboVote banner、選挙関連質問での web search trigger 評価を整理した。",
       "url": "https://www.anthropic.com/news/election-safeguards-update",
       "urlLabel": "記事を見る",
       "primary": true
@@ -45,8 +45,8 @@
       "label": "Official",
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
-      "title": "Anthropic が NEC と日本市場向け戦略提携を発表",
-      "summary": "Anthropic News は visible publication date ベースで、NEC が約 30,000 人の NEC Group 従業員へ Claude を展開し、日本市場向けに finance、manufacturing、local government 起点の業種特化 AI 製品を共同開発すると案内した。",
+      "title": "Anthropic が NEC との戦略提携を発表",
+      "summary": "Anthropic News は visible publication date ベースで、NEC Group 約 30,000 人への Claude 展開、NEC の Japan-based global partner 化、finance / manufacturing / local government 向けの業種特化 AI 製品共同開発、Claude Code の内製活用を案内した。",
       "url": "https://www.anthropic.com/news/anthropic-nec",
       "urlLabel": "記事を見る",
       "primary": true
@@ -59,19 +59,10 @@
     },
     {
       "label": "0件",
-      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> で今回窓外。"
+      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> だった。"
     }
   ],
   "signals": [
-    {
-      "label": "High",
-      "datetime": "2026-04-25T10:02:55+09:00",
-      "displayTime": "2026-04-25 10:02 JST",
-      "title": "@dmwlff",
-      "summary": "2.1.117 以降の変更で runaway file descriptor leak が起きた報告を受け、<strong>2.1.120</strong> で mitigations を入れたと説明した。加えて API / docs / help 更新の告知不足を認め、SDK 向けに欲しい情報のフィードバックも求めている。",
-      "url": "https://x.com/dmwlff/status/2047843767429022174",
-      "urlLabel": "投稿を見る"
-    },
     {
       "label": "High",
       "datetime": "2026-04-25T08:17:51+09:00",
@@ -79,6 +70,15 @@
       "title": "@trq212",
       "summary": "compaction の約 1% が 3.6 分超に達する long tail があり、処理自体の遅さと request drop 後の retry が混在していると説明した。compact UI が retry を表示していないため修正が必要だとも述べた。",
       "url": "https://x.com/trq212/status/2047817325345402991",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-25T01:50:32+09:00",
+      "displayTime": "2026-04-25 01:50 JST",
+      "title": "@amorriscode",
+      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> により file の browse / view / edit がしやすくなったと案内した。続く replies では transcript file link、pane resize、arrow-key history、diff からの file open、comment box 改善予定にも触れた。",
+      "url": "https://x.com/amorriscode/status/2047719852509659358",
       "urlLabel": "投稿を見る"
     },
     {
@@ -91,21 +91,21 @@
       "urlLabel": "投稿を見る"
     },
     {
-      "label": "High",
-      "datetime": "2026-04-25T01:50:32+09:00",
-      "displayTime": "2026-04-25 01:50 JST",
-      "title": "@amorriscode",
-      "summary": "Claude Code desktop app では Files pane picker や <code>CMD+Shift+F</code> により file の browse / view / edit がしやすくなったと案内した。続く replies では file mention、pane resize、arrow-key history、diff からの file open、comment box や image open まわりの改善予定にも触れた。",
-      "url": "https://x.com/amorriscode/status/2047719852509659358",
-      "urlLabel": "投稿を見る"
-    },
-    {
       "label": "Medium",
       "datetime": "2026-04-24T15:01:23+09:00",
       "displayTime": "2026-04-24 15:01 JST",
       "title": "@bcherny",
       "summary": "subscriber ごとの weekly usage window は各自の利用状況に応じた個別ウィンドウで動いており、reset 時刻は一律ではないと補足した。usage 表示や limit 運用に関する仕様説明といえる。",
       "url": "https://x.com/bcherny/status/2047556491125895243",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-24T11:22:10+09:00",
+      "displayTime": "2026-04-24 11:22 JST",
+      "title": "@katelyn_lesse",
+      "summary": "Claude Managed Agents の memory が public beta に入ったと案内した。agents が session をまたいで学習でき、memory は file として保持されるため API から管理・export でき、developers が保持内容を制御できると説明している。",
+      "url": "https://x.com/katelyn_lesse/status/2047501321297854498",
       "urlLabel": "投稿を見る"
     }
   ],
@@ -115,65 +115,17 @@
       "headline": "3件",
       "body": "この 24 時間窓で公式サイトに visible publication date ベースで入った新規記事は、Anthropic Research の <em>Project Deal: our Claude-run marketplace experiment</em> と Anthropic News の <em>An update on our election safeguards</em>、<em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em> の 3 件だった。Engineering と Claude Blog の visible publication date は窓外だった。",
       "details": [
-        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人の参加者で 186 件・総額 4,000 ドル超の取引が成立した。Opus 4.5 系の方が Haiku 4.5 系より良い条件を引き出したことも報告している。",
-        "2026-04-24 公開日ベース: <em>An update on our election safeguards</em>。Claude の政治的中立性評価、選挙関連 misuse を防ぐ評価と運用、主要選挙に向けた safeguards の現状を整理した。",
-        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、日本市場向けの finance / manufacturing / local government 起点の業種特化 AI 製品共同開発を案内した。"
+        "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人で 186 件・総額 4,000 ドル超の取引が成立した。混在実験では Opus 4.5 系が Haiku 4.5 系より良い条件を引き出した。",
+        "2026-04-24 公開日ベース: <em>An update on our election safeguards</em>。Claude の政治的中立性評価、選挙関連 misuse 対策、TurboVote への election banner、米中間選挙関連質問での web search trigger 評価を整理した。",
+        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、finance / manufacturing / local government 向け AI 製品共同開発、Claude Code 活用を案内した。"
       ],
       "url": "https://www.anthropic.com/research",
       "urlLabel": "Research / News を見る"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、<code>v2.1.120</code> が <strong>2026-04-25 09:14 JST</strong> に公開されていた。Windows で Git Bash 非依存化、<code>claude ultrareview</code> 追加、connector 未認証時の起動高速化、auto mode 表示修正、<code>find</code> の file descriptor leak 修正などが含まれる。",
-      "releases": [
-        {
-          "version": "v2.1.120",
-          "publishedAt": "2026-04-25 09:14 JST",
-          "summary": "Windows で Git Bash がなくても PowerShell で動くようになり、CI / script 向け <code>claude ultrareview</code> を追加。skills の <code>${CLAUDE_EFFORT}</code> 参照、<code>AI_AGENT</code> 環境変数、connector 起動高速化、複数の UI / MCP / telemetry 修正も入った。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "Windows では Git for Windows（Git Bash）がなくても動作するようになり、未導入時は shell tool に PowerShell を使うようになった。",
-                "<code>claude ultrareview [target]</code> サブコマンドを追加し、CI や script から <code>/ultrareview</code> を非対話で実行できるようになった。標準出力へ findings を出し、<code>--json</code> で生出力、成功時は終了コード 0、失敗時は 1 を返す。",
-                "Skills の内容から現在の effort level を <code>${CLAUDE_EFFORT}</code> で参照できるようになった。",
-                "subprocess に <code>AI_AGENT</code> 環境変数を設定し、<code>gh</code> が Claude Code 起点のトラフィックだと識別できるようになった。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "desktop app や skills / agents をすでに導入済みなら、それらの導入を勧める spinner tips を表示しないようにした。",
-                "terminal が scroll event ではなく arrow key を送る場合、<code>PgUp</code> / <code>PgDn</code> で scroll できるヒントを表示するようにした。",
-                "claude.ai connector を多数設定していても未認証のものが多い場合、session start を高速化した。",
-                "auto mode の denial message から configuration docs へ直接リンクするようにした。",
-                "<code>claude plugin validate</code> が <code>marketplace.json</code> の top-level <code>$schema</code> / <code>version</code> / <code>description</code> と、<code>plugin.json</code> の <code>$schema</code> を受け付けるようになった。",
-                "auto mode の auto-compact 表示を、誤解を招く token 値ではなく <code>auto</code>（小文字、token count なし）に変更した。",
-                "[VSCode] <code>/usage</code> は plain-text session cost を返す代わりに、native の Account & Usage dialog を開くようになった。",
-                "[VSCode] Voice dictation が <code>~/.claude/settings.json</code> の <code>language</code> 設定を尊重するようになった。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "stdio MCP tool call 中に Esc を押すと server connection 全体が閉じる問題を修正した（2.1.105 での regression）。",
-                "<code>claude --resume</code> で起動したあと、<code>/rewind</code> などの interactive overlay が keyboard input に反応しない問題を修正した。",
-                "non-fullscreen mode で terminal の scrollback が重複する問題を修正した。対象は resize、dialog dismiss、long session など。",
-                "<code>DISABLE_TELEMETRY</code> / <code>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC</code> が API / enterprise user の usage metrics telemetry を抑止しない問題を修正した。",
-                "pipe と redirect を両方含む multi-line bash command で、auto mode が誤って <code>Dangerous rm operation</code> permission prompt を出す問題を修正した。",
-                "fullscreen mode で長い selection menu が terminal 下端で切れる問題を修正し、scroll 中も focused option が画面内に残るようにした。",
-                "fullscreen で <code>+N lines</code> をクリックしたとき、Write tool output が展開ではなく折りたたまれる問題を修正した。",
-                "slash command picker が入力中に跳ねる問題を修正し、blue highlight は contiguous substring の一致だけに改善した。",
-                "<code>/plugin</code> marketplace で、1 件でも未認識 source format の entry があると全体が読み込めない問題を修正した。未認識 entry は表示しつつ、install 時に update を促すようになった。",
-                "Bash tool の <code>find</code> が大規模 directory tree で open file descriptor を使い果たし、host 全体の crash を招く問題を修正した（macOS / Linux native build）。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
-          "urlLabel": "Release notes を見る"
-        }
-      ],
+      "headline": "0件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 11:02 JST</strong> より前だった。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
@@ -181,9 +133,9 @@
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
-    "Claude Blog の <strong>New connectors in Claude for everyday life</strong> と <strong>Built-in memory for Claude Managed Agents</strong> は visible publication date が <strong>2026-04-23</strong> のため、今回のローカル 24 時間窓では blog panel から除外した。",
+    "Claude Blog の visible publication date は最新でも <strong>2026-04-23</strong> だったため、blog panel には追加していない。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
-    "Claude Code release notes は GitHub CLI を source of truth とし、窓内だった <code>v2.1.120</code> の visible bullet をすべて和訳して panel に残した。"
+    "Claude Code release notes は GitHub CLI を source of truth とし、最新の <code>v2.1.119</code> は窓外のため release panel から除外した。"
   ],
   "sources": [
     {
@@ -207,28 +159,28 @@
       "url": "https://www.anthropic.com/news/anthropic-nec"
     },
     {
-      "title": "Adam Wolff: 2.1.120 mitigations for file descriptor leak",
-      "url": "https://x.com/dmwlff/status/2047843767429022174"
-    },
-    {
-      "title": "Thariq: compaction retries and long tail",
-      "url": "https://x.com/trq212/status/2047817325345402991"
+      "title": "Anthony Morris: Claude Code desktop files pane",
+      "url": "https://x.com/amorriscode/status/2047719852509659358"
     },
     {
       "title": "Noah Zweben: GitHub Issue-triggered routines",
       "url": "https://x.com/noahzweben/status/2047726586536091952"
     },
     {
-      "title": "Anthony Morris: Claude Code desktop files pane",
-      "url": "https://x.com/amorriscode/status/2047719852509659358"
+      "title": "Thariq: compaction retries and long tail",
+      "url": "https://x.com/trq212/status/2047817325345402991"
     },
     {
       "title": "Boris Cherny: weekly usage windows are individualized",
       "url": "https://x.com/bcherny/status/2047556491125895243"
     },
     {
-      "title": "Claude Code release v2.1.120",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120"
+      "title": "Katelyn Lesse: Managed Agents memory public beta",
+      "url": "https://x.com/katelyn_lesse/status/2047501321297854498"
+    },
+    {
+      "title": "Claude Code release v2.1.119",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119"
     }
   ]
 }
