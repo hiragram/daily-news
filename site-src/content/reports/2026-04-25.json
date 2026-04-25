@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 20:03:21 JST - 2026-04-25 20:03:21 JST",
+  "windowLabel": "2026-04-24 21:03:25 JST - 2026-04-25 21:03:25 JST",
   "archiveTitle": "Project Deal, Claude Code refresh, and NEC",
   "archiveSummary": "Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、engineer signal を整理。",
   "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、GitHub Issue-triggered Routines や desktop app 改善 signal、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
@@ -126,9 +126,74 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 20:03 JST</strong> より前だった。",
-      "details": [
-        "GitHub CLI で最新 release の全文 <code>What's changed</code> を取得し、全 51 項目を確認した。今回は窓内に入る新規 version がないため、<strong>新機能 / 変更 / 修正</strong> の和訳一覧は本日分パネルには掲載していない。"
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 21:03 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "<code>/config</code> の設定（theme、editor mode、verbose など）が <code>~/.claude/settings.json</code> に永続化され、project / local / policy の override 優先順位にも従うようになった。",
+            "footer の PR badge を github.com ではなく独自のコードレビュー URL に向けられる <code>prUrlTemplate</code> 設定が追加された。",
+            "起動ロゴ内の作業ディレクトリ表示を隠す <code>CLAUDE_CODE_HIDE_CWD</code> 環境変数が追加された。",
+            "<code>--from-pr</code> が GitLab merge request、Bitbucket pull request、GitHub Enterprise の PR URL も受け付けるようになった。",
+            "<code>--print</code> mode が agent 定義の <code>tools:</code> と <code>disallowedTools:</code> frontmatter を尊重し、interactive mode と同じ挙動になった。",
+            "<code>--agent &lt;name&gt;</code> が built-in agent 定義の <code>permissionMode</code> を尊重するようになった。",
+            "PowerShell tool command も permission mode 下で Bash と同様に auto-approve できるようになった。",
+            "Hooks の <code>PostToolUse</code> と <code>PostToolUseFailure</code> の入力に <code>duration_ms</code>（permission prompt と PreToolUse hook を除く tool 実行時間）が追加された。",
+            "Subagent と SDK の MCP server 再設定時に、server 接続が serial ではなく parallel で行われるようになった。",
+            "別 plugin の version constraint で pin されている plugin も、条件を満たす git tag のうち最も高い version へ auto-update されるようになった。",
+            "slash command suggestion で、query に一致した文字が highlight されるようになった。",
+            "Status line の stdin JSON に <code>effort.level</code> と <code>thinking.enabled</code> が含まれるようになった。"
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "Vim mode では INSERT 中に Esc を押しても queue 済み message を input に引き戻さなくなり、interrupt したい場合はもう一度 Esc を押す方式に変わった。",
+            "slash command picker は長い description を切り捨てず、2 行目へ折り返して表示するようになった。",
+            "出力中の <code>owner/repo#N</code> shorthand link は常に github.com を指すのではなく、git remote の host を使うようになった。",
+            "Security まわりでは <code>blockedMarketplaces</code> が <code>hostPattern</code> と <code>pathPattern</code> を正しく強制するようになった。",
+            "OpenTelemetry の <code>tool_result</code> と <code>tool_decision</code> event に <code>tool_use_id</code> が追加され、<code>tool_result</code> には <code>tool_input_size_bytes</code> も追加された。",
+            "Vertex AI では unsupported beta header error を避けるため、tool search が default で無効化され、必要なら <code>ENABLE_TOOL_SEARCH</code> で opt-in する方式になった。",
+            "Windows では、MCP config に対する false positive な <code>\"Windows requires 'cmd /c' wrapper\"</code> warning が削除された。"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "Windows の clipboard や Xcode console 由来の CRLF 内容を貼り付けると、各行の間に余計な空行が入る問題を修正した。",
+            "kitty keyboard protocol sequence を bracketed paste 内で使う terminal で、複数行 paste 時の改行が失われる問題を修正した。",
+            "native macOS / Linux build で Bash tool が permission により拒否されたとき、Glob と Grep tool まで消えてしまう問題を修正した。",
+            "fullscreen mode で上にスクロールしている最中に tool が完了すると、毎回最下部へ snap back する問題を修正した。",
+            "MCP HTTP connection で、OAuth discovery request に non-JSON body を返す server に対し <code>Invalid OAuth error response</code> で失敗する問題を修正した。",
+            "画像添付つき message で Rewind overlay が <code>(no prompt)</code> と表示される問題を修正した。",
+            "auto mode が plan mode を conflicting な <code>Execute immediately</code> 指示で上書きしてしまう問題を修正した。",
+            "レスポンス payload を返さない async <code>PostToolUse</code> hook が、session transcript に空エントリを書き込む問題を修正した。",
+            "subagent task notification が queue 内で orphaned になると spinner が消えない問題を修正した。",
+            "絶対 path を含む slash command 内で <code>@</code>-file の Tab completion を使うと、prompt 全体を置き換えてしまう問題を修正した。",
+            "macOS Terminal.app で Docker や SSH 経由起動したとき、起動直後の prompt に余計な <code>p</code> 文字が出る問題を修正した。",
+            "HTTP / SSE / WebSocket MCP server の <code>headers</code> 内にある <code>${ENV_VAR}</code> placeholder が request 前に展開されない問題を修正した。",
+            "<code>--client-secret</code> で保存した MCP OAuth client secret が、<code>client_secret_post</code> を要求する server の token exchange 時に送信されない問題を修正した。",
+            "<code>/skills</code> で Enter を押すと dialog を閉じるだけで、<code>/&lt;skill-name&gt;</code> を prompt に補完しない問題を修正した。",
+            "<code>/agents</code> detail view で、subagent から使えない built-in tool が <code>Unrecognized</code> と誤表示される問題を修正した。",
+            "plugin cache が不完全な Windows 環境で、plugin 由来の MCP server が spawn しない問題を修正した。",
+            "<code>/export</code> が、その conversation 実際の model ではなく current default model を表示していた問題を修正した。",
+            "verbose output 設定が再起動後に保持されない問題を修正した。",
+            "<code>/usage</code> の progress bar が <code>Resets ...</code> ラベルと重なってしまう問題を修正した。",
+            "optional field が空のままの <code>${user_config.*}</code> 参照を含む plugin MCP server が失敗する問題を修正した。",
+            "文末が数字で終わる list item で、その数字だけが次行へ折り返される問題を修正した。",
+            "<code>/plan</code> と <code>/plan open</code> が、plan mode へ入る際に既存 plan に作用しない問題を修正した。",
+            "auto-compaction 前に呼ばれた skill が、次の user message に対して再実行されてしまう問題を修正した。",
+            "<code>/reload-plugins</code> と <code>/doctor</code> が、disabled plugin の load error まで報告してしまう問題を修正した。",
+            "<code>isolation: \"worktree\"</code> を使う Agent tool が、以前の session から stale worktree を再利用してしまう問題を修正した。",
+            "disabled な MCP server が <code>/status</code> で <code>failed</code> と表示される問題を修正した。",
+            "<code>TaskList</code> が task を arbitrary filesystem order で返し、ID 順になっていなかった問題を修正した。",
+            "<code>gh</code> 出力内の PR title に <code>rate limit</code> が含まれるだけで、誤って <code>GitHub API rate limit exceeded</code> ヒントを出す問題を修正した。",
+            "SDK / bridge の <code>read_file</code> が、成長中ファイルに対する size cap を正しく強制できていなかった問題を修正した。",
+            "git worktree で作業中に PR が session へ紐づかない問題を修正した。",
+            "高優先 scope により上書きされた MCP server entry に対して <code>/doctor</code> が warning を出す問題を修正した。",
+            "[VSCode] microphone permission prompt 表示中の macOS で、voice dictation の最初の録音が空になる問題を修正した。"
+          ]
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
@@ -139,7 +204,7 @@
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
     "Claude Blog の visible publication date は最新でも <strong>2026-04-23</strong> だったため、blog panel には追加していない。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 20:03 JST</strong> より前のため release panel には含めていない。"
+    "Claude Code release notes は GitHub CLI で全文取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 21:03 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
   ],
   "sources": [
     {
