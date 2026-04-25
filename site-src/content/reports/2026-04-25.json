@@ -1,14 +1,14 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 16:01:29 JST - 2026-04-25 16:01:29 JST",
-  "archiveTitle": "Project Deal, web refresh, and NEC partnership",
-  "archiveSummary": "Project Deal、Claude Code refresh、election safeguards、NEC 提携、engineer signal を整理。",
-  "latestSummary": "Anthropic の Project Deal、Claude Code web / mobile refresh、election safeguards、NEC 提携、OpenTable / Resy MCP の示唆、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
+  "windowLabel": "2026-04-24 17:02:28 JST - 2026-04-25 17:02:28 JST",
+  "archiveTitle": "Project Deal, web/mobile refresh, and NEC partnership",
+  "archiveSummary": "Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、engineer signal を整理。",
+  "latestSummary": "Anthropic の Project Deal、Claude Code web/mobile refresh、election safeguards、NEC 提携、GitHub Issue-triggered Routines や desktop 改善 signal、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
   "summaryBullets": [
     "<strong>@AnthropicAI</strong> と <strong>Anthropic Research</strong> は <strong>Project Deal</strong> を告知し、Claude が従業員の代理で売買交渉する社内マーケット実験で <strong>69 人</strong>、<strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
-    "<strong>@ClaudeDevs</strong> は Claude Code の web / mobile refresh を案内し、新しい sessions sidebar、drag-and-drop layout、更新された routines view、応答速度と信頼性改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
-    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</strong> を公開し、2026 年米中間選挙向け safeguards と NEC Group 約 30,000 人規模への Claude 展開を示した。",
-    "Engineer signal では <strong>GitHub Issue 起点の Routines</strong>、Claude Code desktop の files pane 周辺改善、compaction の retry 可視化課題、<strong>OpenTable / Resy 向け MCP server を開発中</strong> という示唆が出た。GitHub Releases ではこの 24 時間窓に新規 Claude Code release はなかった。"
+    "<strong>@ClaudeDevs</strong> は Claude Code on the web and mobile の refresh を案内し、新しい sessions sidebar、drag-and-drop layout、刷新された routines view、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を告知した。",
+    "<strong>Anthropic News</strong> は <strong>2026-04-24</strong> 付で <strong>An update on our election safeguards</strong> と <strong>Anthropic and NEC partner to build AI-native engineering at scale in Japan</strong> を公開し、2026 年米中間選挙向け safeguards と NEC Group 約 30,000 人規模への Claude 展開を示した。",
+    "Engineer signal では <strong>GitHub Issue 起点の Routines</strong>、Claude Code desktop の Files pane 周辺改善、compaction retry 可視化の課題、<strong>OpenTable / Resy 向け MCP server を開発中</strong> という示唆が出た。GitHub Releases ではこの 24 時間窓に新規 Claude Code release はなかった。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-04-25T05:23:49+09:00",
       "displayTime": "2026-04-25 05:23 JST",
       "title": "ClaudeDevs が Claude Code web / mobile refresh を告知",
-      "summary": "Claude Code on the web and mobile を刷新し、新しい sessions sidebar、drag-and-drop layout、更新された routines view、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を案内した。",
+      "summary": "Claude Code on the web and mobile を刷新し、新しい sessions sidebar、drag-and-drop layout、刷新された routines view、応答速度と信頼性の改善、<code>claude --teleport</code> による web / mobile から CLI への継続作業を案内した。",
       "url": "https://x.com/ClaudeDevs/status/2047773528121049488",
       "urlLabel": "投稿を見る",
       "primary": true
@@ -36,7 +36,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic Research が Project Deal の結果を公開",
-      "summary": "Research 記事では、San Francisco オフィスの社員 <strong>69 人</strong> に Claude を代理人として割り当てた社内マーケット実験で <strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より有利だったと報告した。",
+      "summary": "Research 記事では、San Francisco オフィスの社員 <strong>69 人</strong> に Claude を代理人として割り当てた社内マーケット実験で <strong>186 件</strong>、<strong>総額 4,000 ドル超</strong> の取引が成立し、Opus 4.5 系が Haiku 4.5 系より良い条件を引き出したと報告した。",
       "url": "https://www.anthropic.com/features/project-deal",
       "urlLabel": "記事を見る",
       "primary": true
@@ -46,7 +46,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic が election safeguards の現状を更新",
-      "summary": "Anthropic News は visible publication date ベースで、Claude の政治的中立性評価、選挙関連 misuse を防ぐ評価と運用、米中間選挙向け safeguards を整理した。",
+      "summary": "Anthropic News は visible publication date ベースで、Claude の政治的中立性評価、選挙関連 misuse を防ぐ評価と運用、2026 年米中間選挙へ向けた safeguards を整理した。",
       "url": "https://www.anthropic.com/news/election-safeguards-update",
       "urlLabel": "記事を見る",
       "primary": true
@@ -56,7 +56,7 @@
       "datetime": "2026-04-24T00:00:00+09:00",
       "displayTime": "2026-04-24 公開日ベース",
       "title": "Anthropic が NEC との戦略提携を発表",
-      "summary": "Anthropic News は visible publication date ベースで、NEC Group 約 <strong>30,000 人</strong> への Claude 展開、NEC の Japan-based global partner 化、finance / manufacturing / local government 向けの業種特化 AI 製品共同開発、Claude Code 活用を案内した。",
+      "summary": "Anthropic News は visible publication date ベースで、NEC Group 約 <strong>30,000 人</strong> への Claude 展開、NEC の Japan-based global partner 化、finance / manufacturing / government 向け AI 製品共同開発、Claude Code 活用を案内した。",
       "url": "https://www.anthropic.com/news/anthropic-nec",
       "urlLabel": "記事を見る",
       "primary": true
@@ -69,7 +69,7 @@
     },
     {
       "label": "0件",
-      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> には visible publication date ベースで新規記事を確認できなかった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> だった。"
+      "body": "公式サイトでは <strong>Research</strong> 1 件と <strong>News</strong> 2 件が窓内だった一方、<strong>Engineering</strong> と <strong>Claude Blog</strong> は visible publication date が窓外だった。Claude Blog の最新 visible publication date は <strong>2026-04-23</strong> だった。"
     }
   ],
   "signals": [
@@ -96,7 +96,7 @@
       "datetime": "2026-04-25T02:17:17+09:00",
       "displayTime": "2026-04-25 02:17 JST",
       "title": "@noahzweben",
-      "summary": "Routines を GitHub Issue 作成トリガーで起動できるようになったと案内した。関連 reply では <code>/schedule</code> による recurring loop も使えると補足しており、issue 起点の auto-triage を routine 化に直接つなげられる。",
+      "summary": "Routines を GitHub Issue 作成トリガーで起動できるようになったと案内した。auto-triage を issue 起点で routine 化する導線として扱える。",
       "url": "https://x.com/noahzweben/status/2047726586536091952",
       "urlLabel": "投稿を見る"
     },
@@ -114,11 +114,11 @@
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "この 24 時間窓で公式サイトに visible publication date ベースで入った新規記事は、Anthropic Research の <em>Project Deal: our Claude-run marketplace experiment</em> と Anthropic News の <em>An update on our election safeguards</em>、<em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em> の 3 件だった。Engineering と Claude Blog の visible publication date は窓外だった。",
+      "body": "この 24 時間窓で公式サイトに visible publication date ベースで入った新規記事は、Anthropic Research の <em>Project Deal: our Claude-run marketplace experiment</em> と Anthropic News の <em>An update on our election safeguards</em>、<em>Anthropic and NEC partner to build AI-native engineering at scale in Japan</em> の 3 件だった。Engineering と Claude Blog の visible publication date は窓外だった。",
       "details": [
         "2026-04-24 公開日ベース: <em>Project Deal: our Claude-run marketplace experiment</em>。Anthropic 社内で Claude 同士に売買交渉を任せる実験を行い、69 人で 186 件・総額 4,000 ドル超の取引が成立した。混在実験では Opus 4.5 系が Haiku 4.5 系より良い条件を引き出した。",
         "2026-04-24 公開日ベース: <em>An update on our election safeguards</em>。Claude の政治的中立性評価と選挙関連 misuse 対策を、2026 年の主要選挙に向けてどう強化しているか整理した。",
-        "2026-04-24 公開日ベース: <em>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、finance / manufacturing / local government 向け AI 製品共同開発、Claude Code 活用を案内した。"
+        "2026-04-24 公開日ベース: <em>Anthropic and NEC partner to build AI-native engineering at scale in Japan</em>。NEC Group 約 30,000 人への Claude 展開、NEC の初の Japan-based global partner 化、finance / manufacturing / government 向け AI 製品共同開発、Claude Code 活用を案内した。"
       ],
       "url": "https://www.anthropic.com/research",
       "urlLabel": "Research / News を見る"
@@ -126,7 +126,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 16:01 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 17:02 JST</strong> より前だった。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
@@ -136,7 +136,7 @@
     "同一イベントを伝える重複告知は 1 件に正規化し、Project Deal は公式 X と Research 記事を main summary で統合した。",
     "Claude Blog の visible publication date は最新でも <strong>2026-04-23</strong> だったため、blog panel には追加していない。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 16:01 JST</strong> より前のため release panel には含めていない。"
+    "Claude Code release notes は GitHub CLI で全文取得して確認したが、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-24 17:02 JST</strong> より前のため release panel には含めていない。"
   ],
   "sources": [
     {
@@ -156,7 +156,7 @@
       "url": "https://www.anthropic.com/news/election-safeguards-update"
     },
     {
-      "title": "Anthropic News: Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+      "title": "Anthropic News: Anthropic and NEC partner to build AI-native engineering at scale in Japan",
       "url": "https://www.anthropic.com/news/anthropic-nec"
     },
     {
@@ -174,6 +174,18 @@
     {
       "title": "Robert Bye: OpenTable and Resy MCP reply",
       "url": "https://x.com/RobertJBye/status/2047840754769469799"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
     },
     {
       "title": "Claude Code release v2.1.119",
