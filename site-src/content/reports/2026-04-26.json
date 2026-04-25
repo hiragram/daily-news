@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "windowLabel": "2026-04-25 03:02:27 JST - 2026-04-26 03:02:27 JST",
+  "windowLabel": "2026-04-25 04:02:55 JST - 2026-04-26 04:02:55 JST",
   "archiveTitle": "Claude Code web refresh, rollback, and desktop fixes",
   "archiveSummary": "Claude Code web/mobile refresh、desktop rollback signal、UI fixes、MCP hint を整理。",
   "latestSummary": "ClaudeDevs の web/mobile refresh、startup crash に伴う 2.1.119 への rollback signal、desktop app の修正予定 replies、OpenTable / Resy 向け MCP hint、そして直近 24 時間に新規 Claude Code release や公式 blog 記事がなかったことをまとめた日次レポート。",
@@ -25,7 +25,7 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@ClaudeDevs</strong> 1 件、<strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件だった。<strong>@AnthropicAI</strong> の <em>Project Deal</em> 告知は <strong>2026-04-25 02:24 JST</strong> で、今回の窓開始 <strong>2026-04-25 03:02 JST</strong> より前だった。"
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@ClaudeDevs</strong> 1 件、<strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件だった。<strong>@AnthropicAI</strong> の <em>Project Deal</em> 告知は <strong>2026-04-25 02:24 JST</strong> で、今回の窓開始 <strong>2026-04-25 04:02 JST</strong> より前だった。"
     },
     {
       "label": "0件",
@@ -77,8 +77,8 @@
       "body": "この 24 時間窓では公式サイトに visible publication date ベースで入る新規記事は確認できなかった。Engineering、Research、News、Claude Blog の各一覧を確認したが、最新 visible publication date はいずれも窓開始より前だった。",
       "details": [
         "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em> だった。",
-        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 03:02 JST</strong> より前だった。",
-        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 03:02 JST</strong> より前だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 04:02 JST</strong> より前だった。",
+        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 04:02 JST</strong> より前だった。",
         "Claude Blog の最新 visible publication date は <em>Apr 23, 2026</em> だった。"
       ],
       "url": "https://www.anthropic.com/news",
@@ -87,7 +87,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 03:02 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 04:02 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
@@ -173,7 +173,7 @@
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 03:02 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
+    "Claude Code release notes は GitHub CLI で全文取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 04:02 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
   ],
   "sources": [
     {
