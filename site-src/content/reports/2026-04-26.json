@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "windowLabel": "2026-04-25 01:02:50 JST - 2026-04-26 01:02:50 JST",
+  "windowLabel": "2026-04-25 02:02:05 JST - 2026-04-26 02:02:05 JST",
   "archiveTitle": "Project Deal, Claude Code refresh, and desktop fixes",
   "archiveSummary": "Project Deal、Claude Code web/mobile refresh、desktop app 改善、rollback signal を整理。",
   "latestSummary": "Anthropic の Project Deal と Claude Code web/mobile refresh、desktop app の file 操作改善や compaction 可視化、startup crash rollback signal、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
@@ -96,8 +96,8 @@
       "body": "この 24 時間窓では公式サイトに visible publication date ベースで入る新規記事は確認できなかった。Engineering、Research、News、Claude Blog の各一覧を確認したが、最新 visible publication date はいずれも窓開始より前だった。",
       "details": [
         "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em> だった。",
-        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> だが、今回の窓開始 <strong>2026-04-25 01:02 JST</strong> より前だった。",
-        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> だが、今回の窓開始 <strong>2026-04-25 01:02 JST</strong> より前だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> だが、今回の窓開始 <strong>2026-04-25 02:02 JST</strong> より前だった。",
+        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> だが、今回の窓開始 <strong>2026-04-25 02:02 JST</strong> より前だった。",
         "Claude Blog の最新 visible publication date は <em>Apr 23, 2026</em> だった。"
       ],
       "url": "https://www.anthropic.com/news",
@@ -106,7 +106,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 01:02 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 02:02 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
@@ -193,7 +193,7 @@
     "同一イベントを伝える重複告知は 1 件に正規化し、ClaudeDevs thread は先頭投稿へ集約した。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
-    "Claude Code release notes は GitHub CLI で全文取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 01:02 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
+    "Claude Code release notes は GitHub CLI で全文取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 02:02 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
   ],
   "sources": [
     {
