@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "windowLabel": "2026-04-24 12:01:30 JST - 2026-04-25 12:01:30 JST",
+  "windowLabel": "2026-04-24 13:01:21 JST - 2026-04-25 13:01:21 JST",
   "archiveTitle": "Project Deal, web refresh, and NEC partnership",
   "archiveSummary": "Project Deal、Claude Code refresh、election safeguards、NEC 提携、engineer signal を整理。",
   "latestSummary": "Anthropic の Project Deal、Claude Code web / mobile refresh、election safeguards、NEC 提携、OpenTable / Resy MCP の示唆、そして直近24時間に Claude Code release がなかったことをまとめた日次レポート。",
@@ -135,7 +135,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 12:01 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新は <code>v2.1.119</code> だが、公開時刻は <strong>2026-04-24 08:24 JST</strong> で今回の窓開始 <strong>2026-04-24 13:01 JST</strong> より前だった。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
