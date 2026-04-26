@@ -1,12 +1,12 @@
 {
   "date": "2026-04-26",
-  "windowLabel": "2026-04-25 08:02:39 JST - 2026-04-26 08:02:39 JST",
+  "windowLabel": "2026-04-25 10:13:46 JST - 2026-04-26 10:13:46 JST",
   "archiveTitle": "Rollback signal, sidebar rebuild, and quiet official channels",
-  "archiveSummary": "Claude Code rollback signal、sidebar rebuild、MCP hint、公式新着0件を整理。",
-  "latestSummary": "Claude Code desktop app の startup crash に伴う 2.1.119 への rollback signal、sidebar 再構築と compaction retry 可視化まわりの engineer signal、OpenTable / Resy 向け MCP hint、そして直近24時間で公式X・公式ブログ・Claude Code release の新着がなかったことをまとめた日次レポート。",
+  "archiveSummary": "Claude Code rollback signal、sidebar rebuild、公式新着0件を整理。",
+  "latestSummary": "Claude Code desktop app の startup crash に伴う 2.1.119 への rollback signal、desktop sidebar 再構築の示唆、そして直近24時間で公式X・公式ブログ・Claude Code release の新着がなかったことをまとめた日次レポート。",
   "summaryBullets": [
-    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> では、この 24 時間窓に入る新規本投稿は確認できなかった。直近の <strong>@ClaudeDevs</strong> の web / mobile refresh 告知は <strong>2026-04-25 05:23 JST</strong> で、今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だった。",
-    "Engineer signal では、<strong>startup crash に伴う 2.1.119 への rollback</strong>、desktop app sidebar 再構築の示唆、compaction retry 可視化の課題、<strong>OpenTable / Resy 向け MCP server を開発中</strong> の示唆が出た。",
+    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> では、この 24 時間窓に入る新規本投稿は確認できなかった。直近の <strong>@ClaudeDevs</strong> の web / mobile refresh 告知は <strong>2026-04-25 05:23 JST</strong> で、今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だった。",
+    "Engineer signal では、<strong>startup crash に伴う 2.1.119 への rollback</strong> と、desktop app sidebar を再構築しているという示唆が残った。前回窓で入っていた compaction retry 可視化と OpenTable / Resy MCP の返信は、今回の窓開始より前だった。",
     "公式サイトの <strong>Engineering / Research / News / Claude Blog</strong> は、この 24 時間窓に visible publication date ベースの新規記事がなかった。",
     "GitHub Releases でも窓内の新規 Claude Code release は 0 件だったが、依頼に沿って最新 <code>v2.1.119</code> の <code>What's changed</code> 全 51 項目を GitHub CLI で完全取得し、<strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
@@ -14,7 +14,7 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。直近の <strong>@ClaudeDevs</strong> 投稿は <strong>2026-04-25 05:23 JST</strong> で、今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だった。"
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。直近の <strong>@ClaudeDevs</strong> 投稿は <strong>2026-04-25 05:23 JST</strong> で、今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だった。"
     },
     {
       "label": "0件",
@@ -39,24 +39,6 @@
       "summary": "desktop app の worktree visibility 改善要望に対し、sidebar を価値最大化のために再構築していると返信した。公開 roadmap ではないが、desktop navigation / context UI を見直している signal として扱える。",
       "url": "https://x.com/amorriscode/status/2048102184567623928",
       "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
-      "datetime": "2026-04-25T09:50:57+09:00",
-      "displayTime": "2026-04-25 09:50 JST",
-      "title": "@RobertJBye",
-      "summary": "OpenTable と Resy 向け MCP server が必要だという投稿に対し <strong>\"Working on it\"</strong> と返信した。公式発表ではないが、食事予約系 connector / MCP 対応を進めている示唆として扱える。",
-      "url": "https://x.com/RobertJBye/status/2047840754769469799",
-      "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "High",
-      "datetime": "2026-04-25T08:17:51+09:00",
-      "displayTime": "2026-04-25 08:17 JST",
-      "title": "@trq212",
-      "summary": "compaction の約 1% が 3.6 分超に達する long tail があり、処理自体の遅さと request drop 後の retry が混在していると説明した。compact UI が retry を表示していないため修正が必要だとも述べた。",
-      "url": "https://x.com/trq212/status/2047817325345402991",
-      "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
@@ -66,8 +48,8 @@
       "body": "この 24 時間窓では公式サイトに visible publication date ベースで入る新規記事は確認できなかった。Engineering、Research、News、Claude Blog の各一覧を確認したが、最新 visible publication date はいずれも窓開始より前だった。",
       "details": [
         "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em> だった。",
-        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だった。",
-        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だった。",
+        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em> で、今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だった。",
         "Claude Blog の最新 visible publication date は <em>Apr 23, 2026</em> だった。"
       ],
       "url": "https://www.anthropic.com/news",
@@ -76,7 +58,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は完全取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
+      "body": "GitHub CLI の release metadata と release body を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だったが、依頼に沿って <code>What's changed</code> 全 51 項目は完全取得し、<strong>新機能 / 変更 / 修正</strong> に分けて下記へ和訳した。",
       "releases": [
         {
           "version": "v2.1.119",
@@ -162,7 +144,7 @@
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
-    "Claude Code release notes は GitHub CLI で完全取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 08:02 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
+    "Claude Code release notes は GitHub CLI で完全取得して確認し、最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-25 10:13 JST</strong> より前だったため、release 件数には数えず参考訳として併記した。"
   ],
   "sources": [
     {
@@ -188,14 +170,6 @@
     {
       "title": "Anthony Morris: rebuilding the sidebar reply",
       "url": "https://x.com/amorriscode/status/2048102184567623928"
-    },
-    {
-      "title": "Robert Bye: OpenTable and Resy MCP reply",
-      "url": "https://x.com/RobertJBye/status/2047840754769469799"
-    },
-    {
-      "title": "Thariq: compaction retries and long tail",
-      "url": "https://x.com/trq212/status/2047817325345402991"
     },
     {
       "title": "Claude Code releases",
