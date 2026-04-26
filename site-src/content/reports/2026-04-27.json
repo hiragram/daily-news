@@ -1,0 +1,120 @@
+{
+  "date": "2026-04-27",
+  "windowLabel": "2026-04-26 08:24:17 JST - 2026-04-27 08:24:17 JST",
+  "archiveTitle": "HERMES.md billing bug refund and quiet official channels",
+  "archiveSummary": "Claude Code の HERMES.md 検出バグによる返金対応、Desktop app の admin 制御 / partial compact 言及、公式新着 0 件をまとめた。",
+  "latestSummary": "Claude Code の <code>HERMES.md</code> 第三者 harness 検出バグで一晩に $200 を消費したユーザーへの返金 + クレジット補填を <strong>@trq212</strong> が告知した一方、公式 X / 公式ブログ / Claude Code release は窓内に新規がなかったことを整理した日次レポート。",
+  "summaryBullets": [
+    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> では、この 24 時間窓に入る新規本投稿は確認できなかった。",
+    "Engineer signal では、<strong>@trq212 (Thariq)</strong> が Claude Code の <code>HERMES.md</code> 第三者 harness 検出と git status のシステムプロンプト取り込みのバグを認め、影響ユーザーへの返金 + 1 ヶ月分クレジット補填を案内した。",
+    "<strong>@amorriscode</strong> は Claude Code desktop app の auto mode が admin 側で無効化可能であることと、partial compact 機能の追加意向を返信で示した。",
+    "公式サイトの <strong>Engineering / Research / News / Claude Blog</strong> と <strong>GitHub Releases</strong> はいずれも、この 24 時間窓に visible publication date / publish time が入る新規アイテムが 0 件だった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
+    },
+    {
+      "label": "0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-22</strong>、News が <strong>2026-04-24</strong>、Claude Blog が <strong>2026-04-23</strong> だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-04-27T05:12:51+09:00",
+      "displayTime": "2026-04-27 05:12 JST",
+      "title": "@trq212",
+      "summary": "Claude Code が <code>HERMES.md</code> を 3rd-party harness 由来として検出し git status をシステムプロンプトへ取り込んでしまうバグで、一晩に $200 を消費したユーザーが発生した件を認めた。影響ユーザーへ <strong>個別連絡 + 返金 + さらに 1 ヶ月分クレジット（このケースでは追加 $200）</strong>を提供すると説明した。",
+      "url": "https://x.com/trq212/status/2048495545375990245",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-26T23:54:49+09:00",
+      "displayTime": "2026-04-26 23:54 JST",
+      "title": "@amorriscode",
+      "summary": "Claude Code desktop app の auto mode について、機能としては存在するが <strong>admin 側で無効化可能</strong>である旨を返信した。同じ会話で partial compact 機能の追加要望に対しては <strong>「問題なく追加できる」</strong>と応答しており、desktop app 側の管理 / 文脈管理機能のロードマップ signal となる。",
+      "url": "https://x.com/amorriscode/status/2048415508316525027",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-04-27T02:52:51+09:00",
+      "displayTime": "2026-04-27 02:52 JST",
+      "title": "@jackclarkSF",
+      "summary": "週次の Import AI を今週は休刊し、<strong>AI 進歩に関する大型エッセイ</strong>を次号に出すと予告した。5 月の Oxford 講演の前哨にあたる内容になる旨を別 reply で補足している。製品 signal ではないが、Anthropic 共同創業者の発信動向として記録。",
+      "url": "https://x.com/jackclarkSF/status/2048460312505094169",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この 24 時間窓では公式サイトに visible publication date ベースで入る新規記事は確認できなかった。Engineering、Research、News、Claude Blog の各一覧を確認したが、最新 visible publication date はいずれも窓開始より前だった。",
+      "details": [
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>（<strong>An update on recent Claude Code quality reports</strong>）だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 22, 2026</em> だった。",
+        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em>（<strong>An update on our election safeguards</strong> ほか）だった。",
+        "Claude Blog の最新 visible publication date は <em>Apr 23, 2026</em>（<strong>New connectors in Claude for everyday life</strong> ほか）だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-26 08:24 JST</strong> より前だった。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.119</code>（<strong>2026-04-24 08:24 JST</strong>）。",
+        "次点は <code>v2.1.118</code>（<strong>2026-04-23 09:42 JST</strong>）で、いずれも窓開始より前だった。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論、フライトシム雑談など）は除外。",
+    "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
+    "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で確認し、最新 <code>v2.1.119</code> は窓外公開だったため release 件数に数えていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Thariq: HERMES.md detection bug refund",
+      "url": "https://x.com/trq212/status/2048495545375990245"
+    },
+    {
+      "title": "Anthony Morris: desktop auto mode admin toggle",
+      "url": "https://x.com/amorriscode/status/2048415508316525027"
+    },
+    {
+      "title": "Jack Clark: Import AI skipping this week",
+      "url": "https://x.com/jackclarkSF/status/2048460312505094169"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
