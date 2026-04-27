@@ -1,24 +1,35 @@
 {
   "date": "2026-04-28",
-  "windowLabel": "2026-04-27 04:37:15 JST - 2026-04-28 04:37:15 JST",
-  "archiveTitle": "Quiet Sunday: HERMES.md fix follow-up and zero official posts",
-  "archiveSummary": "Claude Code の HERMES.md バグ謝罪フォロー、公式 X / 公式ブログ / Claude Code release 0 件をまとめた。",
-  "latestSummary": "公式 X / 公式ブログ / Claude Code release が直近 24 時間で全て 0 件のまま、Anthropic engineer 個人アカウントから入った Claude Code 関連 signal は前日からの継続のみだった日次レポート。",
+  "windowLabel": "2026-04-27 08:37:15 JST - 2026-04-28 08:37:15 JST",
+  "archiveTitle": "Anthropic Sydney office opens; quiet on X and releases",
+  "archiveSummary": "Anthropic がシドニー事務所を開設し ANZ GM を発表。公式 X / Claude Code release は窓内 0 件、engineer signal は HERMES.md フォロー継続。",
+  "latestSummary": "Anthropic が Theo Hourmouzis をオーストラリア / ニュージーランド GM に指名し、シドニー事務所を正式開所した公式 News が窓内に 1 件入った一方、公式 X、Claude Code release は窓内 0 件。Anthropic engineer signal は前日 <code>HERMES.md</code> 検出バグの返金対応の継続が中心となった。",
   "summaryBullets": [
+    "公式 News に <strong>Anthropic Sydney 事務所開所と ANZ GM 任命</strong>（2026-04-27 公開）が入り、APAC 拠点拡張の第一弾として記録した。",
     "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> では、この 24 時間窓に入る新規本投稿は 0 件だった。",
-    "Engineer signal は前日から継続している <strong>@trq212</strong> の <code>HERMES.md</code> 第三者 harness 検出バグに関する <strong>返金 + 1 ヶ月分クレジット</strong>対応の謝罪投稿が窓内に残った。",
-    "<strong>@amorriscode</strong> の Claude Code desktop app に関する admin 制御 / partial compact 機能要望への回答も窓内に残り、desktop app の管理 / 文脈管理 UI ロードマップ signal として記録した。",
-    "公式サイトの <strong>Engineering / Research / News / Claude Blog</strong> と <strong>GitHub Releases</strong> はいずれも、この 24 時間窓内の visible publication date / publish time が 0 件だった。"
+    "Engineer signal は <strong>@trq212</strong> による <code>HERMES.md</code> 第三者 harness 検出バグの返金 + 1 ヶ月分クレジット対応がフォローされ、<strong>@amorriscode</strong> の Claude Code desktop app の admin 制御 / partial compact 言及も窓内に残った。",
+    "<strong>GitHub Releases</strong> は窓内に新規 Claude Code release なし。最新 <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で窓開始 <strong>2026-04-27 08:37 JST</strong> より前だった。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "News",
+      "datetime": "2026-04-27T17:00:00+09:00",
+      "displayTime": "2026-04-27 JST",
+      "title": "Anthropic がシドニー事務所を開所、Theo Hourmouzis を ANZ GM に任命",
+      "summary": "<strong>Anthropic</strong> がオーストラリア / ニュージーランド地域の GM に <strong>Theo Hourmouzis</strong> を起用し、<strong>シドニー事務所</strong>を正式に開所したと発表した。APAC 拠点拡張の signal として扱える。発表時刻は公式ページに具体的な hour / minute 指定がないため、ローカル日付ベースの掲載とした。",
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+      "urlLabel": "公式発表を読む",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
       "label": "0件",
       "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
     },
     {
-      "label": "0件",
-      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-22</strong>、News が <strong>2026-04-24</strong>、Claude Blog が <strong>2026-04-23</strong> だった。"
+      "label": "Engineering / Research / Claude Blog 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> の visible publication date が窓内に入る新規記事を確認できなかった。News のみ <strong>2026-04-27</strong> に新規 1 件があった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-22</strong>、Claude Blog が <strong>2026-04-23</strong> だった。"
     }
   ],
   "signals": [
@@ -53,12 +64,12 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "この 24 時間窓では公式サイトに visible publication date ベースで入る新規記事は確認できなかった。Engineering、Research、News、Claude Blog の各一覧を確認したが、最新 visible publication date はいずれも窓開始より前だった。",
+      "headline": "News 1件 / Engineering・Research・Claude Blog 0件",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>News</strong> に窓内 1 件（シドニー事務所開所）があった。Engineering、Research、Claude Blog は窓内に新規記事なし。",
       "details": [
+        "Anthropic News は <em>Apr 27, 2026</em> に <strong>Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office</strong> が公開された。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>（<strong>An update on recent Claude Code quality reports</strong>）だった。",
         "Anthropic Research の最新 visible publication date は <em>Apr 22, 2026</em> だった。",
-        "Anthropic News の最新 visible publication date は <em>Apr 24, 2026</em>（<strong>An update on our election safeguards</strong> ほか）だった。",
         "Claude Blog の最新 visible publication date は <em>Apr 23, 2026</em>（<strong>New connectors in Claude for everyday life</strong> ほか）だった。"
       ],
       "url": "https://www.anthropic.com/news",
@@ -67,7 +78,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-27 04:37 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-27 08:37 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.119</code>（<strong>2026-04-24 08:24 JST</strong>）。",
         "次点は <code>v2.1.118</code>（<strong>2026-04-23 09:42 JST</strong>）で、いずれも窓開始より前だった。",
@@ -78,12 +89,16 @@
     }
   ],
   "exclusions": [
-    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論、フライトシム雑談など）は除外。",
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論など）は除外。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
     "Claude Code release notes は GitHub CLI で確認し、最新 <code>v2.1.119</code> は窓外公開だったため release 件数に数えていない。"
   ],
   "sources": [
+    {
+      "title": "Anthropic News: Sydney office and ANZ GM",
+      "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
+    },
     {
       "title": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering"
