@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "windowLabel": "2026-04-26 16:37:15 JST - 2026-04-27 16:37:15 JST",
+  "windowLabel": "2026-04-26 20:37:13 JST - 2026-04-27 20:37:13 JST",
   "archiveTitle": "HERMES.md billing bug refund and quiet official channels",
   "archiveSummary": "Claude Code の HERMES.md 検出バグによる返金対応、Desktop app の admin 制御 / partial compact 言及、公式新着 0 件をまとめた。",
   "latestSummary": "Claude Code の <code>HERMES.md</code> 第三者 harness 検出バグで一晩に $200 を消費したユーザーへの返金 + クレジット補填を <strong>@trq212</strong> が告知した一方、公式 X / 公式ブログ / Claude Code release は窓内に新規がなかったことを整理した日次レポート。",
@@ -67,7 +67,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-26 16:37 JST</strong> より前だった。",
+      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-26 20:37 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.119</code>（<strong>2026-04-24 08:24 JST</strong>）。",
         "次点は <code>v2.1.118</code>（<strong>2026-04-23 09:42 JST</strong>）で、いずれも窓開始より前だった。",
