@@ -1,14 +1,14 @@
 {
   "date": "2026-04-28",
-  "windowLabel": "2026-04-27 08:37:15 JST - 2026-04-28 08:37:15 JST",
-  "archiveTitle": "Anthropic Sydney office opens; quiet on X and releases",
-  "archiveSummary": "Anthropic がシドニー事務所を開設し ANZ GM を発表。公式 X / Claude Code release は窓内 0 件、engineer signal は HERMES.md フォロー継続。",
-  "latestSummary": "Anthropic が Theo Hourmouzis をオーストラリア / ニュージーランド GM に指名し、シドニー事務所を正式開所した公式 News が窓内に 1 件入った一方、公式 X、Claude Code release は窓内 0 件。Anthropic engineer signal は前日 <code>HERMES.md</code> 検出バグの返金対応の継続が中心となった。",
+  "windowLabel": "2026-04-27 12:37:17 JST - 2026-04-28 12:37:17 JST",
+  "archiveTitle": "Claude Code v2.1.121 ships; Sydney office, support-doc apology",
+  "archiveSummary": "Claude Code v2.1.121 リリース、Anthropic Sydney 事務所開所、Opus Pro 提供の旧 support 記事訂正をまとめた。",
+  "latestSummary": "Claude Code <code>v2.1.121</code> が窓内に公開され、新機能 / 変更 / 修正の合計 39 項目を完全取得した。あわせて Anthropic シドニー事務所開所と、Pro プランの Opus 提供開始を反映していなかった旧 support 記事に関する <strong>@trq212</strong> の訂正・謝罪が窓内に入った。",
   "summaryBullets": [
-    "公式 News に <strong>Anthropic Sydney 事務所開所と ANZ GM 任命</strong>（2026-04-27 公開）が入り、APAC 拠点拡張の第一弾として記録した。",
-    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> では、この 24 時間窓に入る新規本投稿は 0 件だった。",
-    "Engineer signal は <strong>@trq212</strong> による <code>HERMES.md</code> 第三者 harness 検出バグの返金 + 1 ヶ月分クレジット対応がフォローされ、<strong>@amorriscode</strong> の Claude Code desktop app の admin 制御 / partial compact 言及も窓内に残った。",
-    "<strong>GitHub Releases</strong> は窓内に新規 Claude Code release なし。最新 <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で窓開始 <strong>2026-04-27 08:37 JST</strong> より前だった。"
+    "<strong>Claude Code <code>v2.1.121</code></strong>（<strong>2026-04-28 09:31 JST</strong> 公開）が窓内に入り、<strong>新機能 16 / 変更 4 / 修正 19 = 計 39 項目</strong>を <code>What's changed</code> から完全取得し和訳した。",
+    "公式 News では <strong>Anthropic Sydney 事務所開所</strong>（2026-04-27 公開）が引き続き直近 24 時間に該当し、APAC 拠点拡張の signal として残った。",
+    "Engineer signal で <strong>@trq212</strong> が、Opus 4.5 を Pro プランへ展開した <strong>2026-01</strong> 以降も <code>support.claude.com</code> の Claude Code Model Configuration 記事が更新されておらず混乱を招いた件を認め、wayback リンク付きで訂正・謝罪した。",
+    "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）は窓内に新規本投稿 0 件、公式サイトの Engineering / Research / Claude Blog も窓内に新規記事 0 件だった。"
   ],
   "officialNews": [
     {
@@ -35,6 +35,15 @@
   "signals": [
     {
       "label": "High",
+      "datetime": "2026-04-28T08:46:11+09:00",
+      "displayTime": "2026-04-28 08:46 JST",
+      "title": "@trq212",
+      "summary": "<code>support.claude.com</code> の <strong>Claude Code Model Configuration</strong> ヘルプ記事が、<strong>2026-01 の Opus 4.5 を Pro プランへ展開</strong>した時点で更新されないまま放置されていた件を認め、wayback の旧版リンクを添えて訂正と謝罪を行った。Opus 提供範囲をめぐる外部混乱への ops 対応 signal。",
+      "url": "https://x.com/trq212/status/2048911582047224172",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
       "datetime": "2026-04-27T05:12:51+09:00",
       "displayTime": "2026-04-27 05:12 JST",
       "title": "@trq212",
@@ -50,22 +59,13 @@
       "summary": "Claude Code desktop app の auto mode について、機能としては存在するが <strong>admin 側で無効化可能</strong>である旨を返信した。同じ会話で partial compact 機能の追加要望に対しては <strong>「問題なく追加できる」</strong>と応答しており、desktop app 側の管理 / 文脈管理機能のロードマップ signal となる。",
       "url": "https://x.com/amorriscode/status/2048415508316525027",
       "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Low",
-      "datetime": "2026-04-27T02:52:51+09:00",
-      "displayTime": "2026-04-27 02:52 JST",
-      "title": "@jackclarkSF",
-      "summary": "週次の Import AI を今週は休刊し、<strong>AI 進歩に関する大型エッセイ</strong>を次号に出すと予告した。5 月の Oxford 講演の前哨にあたる内容になる旨を別 reply で補足している。製品 signal ではないが、Anthropic 共同創業者の発信動向として記録。",
-      "url": "https://x.com/jackclarkSF/status/2048460312505094169",
-      "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
       "headline": "News 1件 / Engineering・Research・Claude Blog 0件",
-      "body": "公式サイトの visible publication date を確認したところ、<strong>News</strong> に窓内 1 件（シドニー事務所開所）があった。Engineering、Research、Claude Blog は窓内に新規記事なし。",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>News</strong> に窓内 1 件（シドニー事務所開所）が引き続き該当した。Engineering、Research、Claude Blog は窓内に新規記事なし。",
       "details": [
         "Anthropic News は <em>Apr 27, 2026</em> に <strong>Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office</strong> が公開された。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>（<strong>An update on recent Claude Code quality reports</strong>）だった。",
@@ -77,24 +77,92 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI の release metadata を基準に確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.119</code> は <strong>2026-04-24 08:24 JST</strong> 公開で今回の窓開始 <strong>2026-04-27 08:37 JST</strong> より前だった。",
-      "details": [
-        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.119</code>（<strong>2026-04-24 08:24 JST</strong>）。",
-        "次点は <code>v2.1.118</code>（<strong>2026-04-23 09:42 JST</strong>）で、いずれも窓開始より前だった。",
-        "Draft / prerelease の窓内公開も確認できなかった。"
+      "headline": "v2.1.121",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.121</code> が <strong>2026-04-28 09:31 JST</strong> 公開で窓内に該当した。<code>What's changed</code> 全 39 項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。<code>v2.1.120</code> はリリースリストに現れず、<code>v2.1.119</code> から <code>v2.1.121</code> へ番号が飛んでいる。",
+      "releases": [
+        {
+          "version": "v2.1.121",
+          "publishedAt": "2026-04-28 09:31 JST",
+          "summary": "<code>What's changed</code> の bullet を新機能 16 / 変更 4 / 修正 19 = 計 39 項目に分類し、原文の意図を保ったまま和訳した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "MCP server 設定に <code>alwaysLoad</code> オプションを追加。<code>true</code> にするとそのサーバの全 tool が tool-search の遅延ロード対象から外れ、常時利用可能になる。",
+                "孤立した auto-installed plugin 依存を削除する <code>claude plugin prune</code> を追加。<code>plugin uninstall --prune</code> でも同様に cascade 削除される。",
+                "<code>/skills</code> に type-to-filter の検索ボックスを追加し、長いリストでもスクロールせず skill を絞り込めるようにした。",
+                "PostToolUse hook が <code>hookSpecificOutput.updatedToolOutput</code> を介して全 tool の出力を置き換えられるようになった（従来は MCP のみ）。",
+                "fullscreen mode で、上にスクロールして過去出力を読んでいる最中に prompt へ入力しても自動で最下部へ戻らないようにした。",
+                "ターミナル幅を超えたダイアログを fullscreen / 非 fullscreen の双方で、矢印キー、PgUp/PgDn、Home/End、マウスホイールでスクロール可能にした。",
+                "fullscreen mode で複数行に折り返された URL のどの行をクリックしても URL 全体が開けるようにした。",
+                "SDK と <code>claude -p</code> の非対話セッションでも <code>CLAUDE_CODE_FORK_SUBAGENT=1</code> が効くようにした。",
+                "<code>--dangerously-skip-permissions</code> 利用時、<code>.claude/skills/</code>、<code>.claude/agents/</code>、<code>.claude/commands/</code> への書き込みでは確認プロンプトを出さないようにした。",
+                "<code>/terminal-setup</code> が iTerm2 の <strong>「Applications in terminal may access clipboard」</strong>設定を有効化し、tmux 越しでも <code>/copy</code> が動作するようにした。",
+                "MCP server が起動時に一過性エラーで失敗した場合、<strong>最大 3 回</strong>自動再試行する（従来は disconnected のままになっていた）。",
+                "ターミナルタブのセッションタイトルを設定中の <code>language</code> に従って生成するようにした。",
+                "claude.ai connector で同一 upstream URL のものは重複排除して表示するようにした。",
+                "Vertex AI で X.509 証明書ベースの Workload Identity Federation（mTLS ADC）に対応した。",
+                "SDK の <code>mcp_authenticate</code> がカスタムスキーム完了用の <code>redirectUri</code> と claude.ai connector に対応した。",
+                "OpenTelemetry の LLM request span に <code>stop_reason</code>、<code>gen_ai.response.finish_reasons</code>、および <code>user_system_prompt</code>（<code>OTEL_LOG_USER_PROMPTS</code> で gating）を追加した。",
+                "[VSCode] Claude Code 側の language 設定がない場合、Voice dictation が <code>accessibility.voice.speechLanguage</code> 設定を尊重するようにした。",
+                "[VSCode] <code>/context</code> がネイティブのトークン使用量ダイアログを開くようになった。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "リリースノート splash から <strong>Recent Activity</strong> パネルを削除し、アップグレード後の起動を高速化した。",
+                "LSP diagnostic summary をクリック / Ctrl+O で展開できるようにし、展開ヒントも表示するようにした。",
+                "<code>find</code> 実行時の Bash tool の peak file descriptor 使用量を、大規模ディレクトリツリーでも抑えるようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "1 セッションで多数の画像を扱った際に発生していた、メモリが GB 単位で青天井に増える（unbounded RSS）問題を修正した。",
+                "transcript 履歴が大きいマシンで <code>/usage</code> が最大約 2GB のメモリをリークする問題を修正した。",
+                "進捗イベントを発しないまま長時間走った tool が失敗するときのメモリリークを修正した。",
+                "Claude を起動したディレクトリがセッション中に削除 / 移動されると Bash tool が永続的に使えなくなる問題を修正した。",
+                "外部ビルドの <code>--resume</code> が起動時に crash する問題を修正した。",
+                "shutdown 不全で transcript の 1 行が壊れた大きなセッションで <code>--resume</code> が失敗していた問題を修正。壊れた行を skip するように変更した。",
+                "Bedrock の application inference profile ARN 利用時に <code>thinking.type.enabled is not supported</code> エラーが出る問題を修正した。",
+                "Microsoft 365 MCP OAuth が、重複・未対応の <code>prompt</code> パラメータで失敗する問題を修正した。",
+                "tmux、GNOME Terminal、Windows Terminal、Konsole の非 fullscreen mode で <code>Ctrl+L</code> や redraw 時に scrollback が複製される問題を修正した。",
+                "起動時に connector 一覧取得が一過性 auth エラーで失敗すると、claude.ai MCP connector が黙って消えてしまう問題を修正した。",
+                "リモートセッションでの built-in tool に対する <strong>「Always allow」</strong>ルールが worker 再起動で消えてしまう問題を修正した。",
+                "ネイティブビルドで <code>managed-settings.json</code> 経由に設定された <code>NO_PROXY</code> が、すべての HTTP client で尊重されない問題を修正した。",
+                "managed settings の承認プロンプトを承認しても session が抜けてしまう問題を修正し、設定を適用してそのまま継続するようにした。",
+                "OAuth トークンが古くなったあと <code>/usage</code> が <strong>rate limited</strong> を返してしまう問題を、自動で refresh するように修正した。",
+                "<code>settings.json</code> 内の不正な legacy enum 値が、設定ファイル全体を無効化していた問題を修正した。",
+                "no-flicker mode を off にしているとき <code>/usage</code> ダイアログ内容が clip される問題を修正した。",
+                "fullscreen renderer を off にしている状態で <code>/focus</code> が <strong>Unknown command</strong> と表示する問題を、有効化方法を説明する形に修正した。",
+                "embedded の grep / find / rg シェルラッパーが、実行中のバイナリがセッション中に削除されると失敗する問題を、インストール済み tool への fallback で修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
+          "urlLabel": "v2.1.121 の release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
     }
   ],
   "exclusions": [
-    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論など）は除外。",
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論、emoji だけの reply など）は除外。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
-    "Claude Code release notes は GitHub CLI で確認し、最新 <code>v2.1.119</code> は窓外公開だったため release 件数に数えていない。"
+    "リリースノート上に存在しない <code>v2.1.120</code> は、release 一覧に entry がないため番号飛びとして言及するに留めた。"
   ],
   "sources": [
+    {
+      "title": "Claude Code v2.1.121 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
     {
       "title": "Anthropic News: Sydney office and ANZ GM",
       "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand"
@@ -116,20 +184,16 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Thariq: outdated Claude Code Model Configuration support article",
+      "url": "https://x.com/trq212/status/2048911582047224172"
+    },
+    {
       "title": "Thariq: HERMES.md detection bug refund",
       "url": "https://x.com/trq212/status/2048495545375990245"
     },
     {
       "title": "Anthony Morris: desktop auto mode admin toggle",
       "url": "https://x.com/amorriscode/status/2048415508316525027"
-    },
-    {
-      "title": "Jack Clark: Import AI skipping this week",
-      "url": "https://x.com/jackclarkSF/status/2048460312505094169"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
     }
   ]
 }
