@@ -1,0 +1,218 @@
+{
+  "date": "2026-04-29",
+  "windowLabel": "2026-04-28 16:51:11 JST - 2026-04-29 16:51:11 JST",
+  "archiveTitle": "Creative Work launch, blog post, and Claude Code v2.1.122/v2.1.123",
+  "archiveSummary": "Claude for Creative Work 公式発表、Claude Blog の Claude Code オンボーディング記事、Claude Code v2.1.122 と hotfix v2.1.123 のリリースをまとめた。",
+  "latestSummary": "Anthropic が <strong>Claude for Creative Work</strong> を公式 News で発表し、Claude Blog では <strong>Claude Code を新人開発者として迎え入れる</strong>記事が公開された。Claude Code は窓内に <code>v2.1.122</code> と OAuth 401 ループ修正の hotfix <code>v2.1.123</code> が連続でリリースされ、合わせて <strong>新機能 6 / 修正 13 = 計 19 項目</strong>を完全取得し和訳した。Anthropic engineer の signal は <strong>@trq212</strong> による Claude Code の大規模バグフィードバック収集と <strong>@amorriscode</strong> のサイトワイドアウトレージ告知が中心。",
+  "summaryBullets": [
+    "<strong>Claude Code <code>v2.1.122</code></strong>（<strong>2026-04-29 07:05 JST</strong>）と <strong><code>v2.1.123</code></strong>（<strong>2026-04-29 12:29 JST</strong>）が窓内に連続公開され、<code>What's changed</code> 計 19 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+    "公式 News に <strong>Claude for Creative Work</strong>（2026-04-28）、Claude Blog に <strong>Onboarding Claude Code like a new developer</strong>（2026-04-28）が新規公開された。",
+    "Engineer signal は <strong>@trq212</strong> が Claude Code の <strong>「white whale」バグ収集スレッド</strong>を立て、巨大ファイル書き込み中のハング、レンダラーの不具合、no-flicker renderer 改善、CLAUDE_CODE_FORK_SUBAGENT などの議論を多数返信。<strong>@amorriscode</strong> は 2026-04-29 04:11 JST 頃の <strong>Anthropic サイトワイドアウトレージ</strong>からの復旧開始を案内した。",
+    "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）は窓内に新規本投稿 0 件だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "News",
+      "datetime": "2026-04-28T17:00:00+09:00",
+      "displayTime": "2026-04-28 JST",
+      "title": "Claude for Creative Work を公開",
+      "summary": "Anthropic が <strong>Claude for Creative Work</strong> を公式 News で発表した。クリエイティブ用途を想定した利用パターンとワークフローの整備を示す signal で、同日に Claude Blog で公開された Claude Code のオンボーディング記事と並ぶ製品メッセージとなる。発表時刻は公式ページに具体的な hour / minute の指定がなく、ローカル日付ベースの掲載とした。",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "urlLabel": "公式発表を読む",
+      "primary": true
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-04-28T17:00:00+09:00",
+      "displayTime": "2026-04-28 JST",
+      "title": "Onboarding Claude Code like a new developer",
+      "summary": "Claude Blog に <strong>17 年分の開発経験から学んだ、Claude Code を新人開発者のようにオンボードするコツ</strong>と題した記事が公開された。コードベースのセットアップ、ドキュメント整備、振る舞いの矯正など実務的な adoption ガイダンスにあたる。",
+      "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development",
+      "urlLabel": "Blog を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
+    },
+    {
+      "label": "Engineering / Research 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong> の visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-22</strong> だった。News と Claude Blog はそれぞれ <strong>2026-04-28</strong> に新規 1 件があった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-04-29T06:08:07+09:00",
+      "displayTime": "2026-04-29 06:08 JST",
+      "title": "@trq212",
+      "summary": "Claude Code の <strong>「white whale」バグ収集スレッド</strong>を立てた。<strong>巨大ファイル書き込み中の擬似ハング</strong>を見つけたと述べ、no-flicker renderer をデフォルト化するための継続改善と、その他多数の papercut 修正に取り組んでいることを示した。スレッド配下では rewind バグ、画像コンテキスト、<code>/usage</code> エラー、<code>/tui fullscreen</code> renderer 試用案内などへ多数返信し、リアルタイムでフィードバックを team report にまとめている旨も明かした。",
+      "url": "https://x.com/trq212/status/2049234228290961690",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
+      "datetime": "2026-04-29T04:10:00+09:00",
+      "displayTime": "2026-04-29 04:10 JST",
+      "title": "@amorriscode",
+      "summary": "Anthropic で <strong>サイトワイドのアウトレージ</strong>が発生し、復旧を開始したと案内した。<strong>@bcherny</strong> 宛のリプライでも同趣旨を返信しており、Claude / Claude Code のユーザーに影響が及んだ ops インシデント signal となる。",
+      "url": "https://x.com/amorriscode/status/2049204500951375961",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-04-28T22:27:45+09:00",
+      "displayTime": "2026-04-28 22:27 JST",
+      "title": "@dmwlff",
+      "summary": "Forked Subagent の新ドキュメントを共有し、<code>CLAUDE_CODE_FORK_SUBAGENT=1</code> での実験を促した。<strong><code>v2.1.121</code> 以降、<code>-p</code>（<code>--print</code>）モードでも Forked Subagent が動作する</strong>と明言し、cache 共有を含む forked subagent の挙動を整理した。",
+      "url": "https://x.com/dmwlff/status/2049118373494329735",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-04-29T00:25:00+09:00",
+      "displayTime": "2026-04-29 00:25 JST",
+      "title": "@henrythe9ths",
+      "summary": "<strong>Anthropic 共同創業者</strong>の直下に IC（MTS）として加わったことを告知し、Substack で意思決定の経緯を公開した。CTO 級の人物が frontier lab の IC に転じる直近の事例（Workday / You.com / Instagram / Box / Super.com など）を列挙しており、talent flow の signal として記録。",
+      "url": "https://x.com/henrythe9ths/status/2049148130059292743",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "News 1件 / Blog 1件 / Engineering・Research 0件",
+      "body": "公式サイトの visible publication date を確認したところ、News と Claude Blog の各 1 件が窓内に入った。Engineering、Research は窓内に新規記事なし。",
+      "details": [
+        "Anthropic News は <em>Apr 28, 2026</em> に <strong>Claude for Creative Work</strong> が公開された。",
+        "Claude Blog は <em>Apr 28, 2026</em> に <strong>Onboarding Claude Code like a new developer: Lessons from 17 years of development</strong> が公開された。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 22, 2026</em> だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.122 / v2.1.123",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）と hotfix <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）が窓内に該当した。<code>v2.1.121</code> は前日掲載済みで本窓では数えていない。両 release の <code>What's changed</code> 全 19 項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.123",
+          "publishedAt": "2026-04-29 12:29 JST",
+          "summary": "<code>What's changed</code> は単項目の hotfix。OAuth 401 ループ修正のみ。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "<code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> 設定時に OAuth 認証が <strong>401 retry loop</strong> に陥る問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
+          "urlLabel": "v2.1.123 の release notes"
+        },
+        {
+          "version": "v2.1.122",
+          "publishedAt": "2026-04-29 07:05 JST",
+          "summary": "<code>What's changed</code> 全 18 項目を新機能 6 / 修正 12 に分類し、原文の意図を保ったまま和訳した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Bedrock の service tier（<code>default</code>、<code>flex</code>、<code>priority</code>）を選ぶための環境変数 <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> を追加。<code>X-Amzn-Bedrock-Service-Tier</code> ヘッダとして送信される。",
+                "<code>/resume</code> の検索ボックスに PR URL（GitHub / GitHub Enterprise / GitLab / Bitbucket）を貼り付けると、その PR を生成したセッションを見つけられるようにした。",
+                "<code>/mcp</code> で、同一 URL の手動追加 server に隠された claude.ai connector を <strong>重複排除のヒント付きで表示</strong>するようにした。",
+                "ブラウザサインインフロー後も MCP server が未認可のままのときに <code>/mcp</code> が出すメッセージを明確化した。",
+                "OpenTelemetry: <code>api_request</code> / <code>api_error</code> log event の数値属性を文字列ではなく <strong>number として emit</strong> するようにした。",
+                "OpenTelemetry: <code>@</code>-mention の解決を表す <code>claude_code.at_mention</code> log event を追加した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "rewind した timeline 由来のエントリを含むセッションから <code>/branch</code> で fork すると <strong>「tool_use ids were found without tool_result blocks」</strong>で失敗していた問題を修正した。",
+                "Bedrock application inference profile ARN 利用時に <code>/model</code> が <strong>Effort オプションを表示せず</strong>、ARN 側にも <code>output_config.effort</code> が渡らない問題を修正した。",
+                "Vertex AI / Bedrock のセッションタイトル生成などの structured-output クエリで <code>invalid_request_error: output_config: Extra inputs are not permitted</code> が返る問題を修正した。",
+                "プロキシゲートウェイ経由のユーザーで Vertex AI <code>count_tokens</code> エンドポイントが 400 を返す問題を修正した。",
+                "<code>spinnerTipsOverride.excludeDefault</code> が時間ベースの spinner tip を抑制できていなかった問題を修正した。",
+                "ToolSearch がノンブロッキングモードでセッション開始後に接続した MCP tool を取りこぼす問題を修正した。",
+                "bash モードでの <code>!exit</code> / <code>!quit</code> がシェルコマンドではなく CLI 自体を終了させていた問題を修正した。",
+                "新しいモデルへ送る画像が、正しい上限である 2000px ではなく <strong>2576px</strong> にリサイズされていた問題を修正した。",
+                "remote control セッションのアイドル状態が <strong>毎秒 2 回</strong>再描画され、<code>tmux -CC</code> の制御パイプを溢れさせてターミナルが止まる問題を修正した。",
+                "古い view preference によって、一部セッションでアシスタントメッセージが空白に見える問題を修正した。",
+                "<code>settings.json</code> 内の hooks エントリが malformed でも、ファイル全体を無効化せず該当箇所のみ無視するようにした。",
+                "ボイスモード: ターミナルが Caps Lock をキーイベントとして配信しないため、Caps Lock に bind した keybinding に対しては <strong>明示的なエラー</strong>を表示するようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+          "urlLabel": "v2.1.122 の release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論、Lego・キーキャップなどの趣味投稿）は除外。",
+    "Thariq の long bug-feedback thread 配下の細かい個別 reply（DM 依頼、type-of-task 確認など）は、新規事実を含むものだけ親 thread に集約して扱った。",
+    "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 2 件（<code>v2.1.122</code> / <code>v2.1.123</code>）を全項目和訳した。<code>v2.1.121</code> は前日掲載分のため再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code v2.1.123 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123"
+    },
+    {
+      "title": "Claude Code v2.1.122 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic News: Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work"
+    },
+    {
+      "title": "Claude Blog: Onboarding Claude Code like a new developer",
+      "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Thariq: Claude Code white-whale bug feedback thread",
+      "url": "https://x.com/trq212/status/2049234228290961690"
+    },
+    {
+      "title": "Anthony Morris: site-wide outage recovery",
+      "url": "https://x.com/amorriscode/status/2049204500951375961"
+    },
+    {
+      "title": "Adam Wolff: Forked Subagent docs and -p support",
+      "url": "https://x.com/dmwlff/status/2049118373494329735"
+    },
+    {
+      "title": "Henry Shi: joined Anthropic as MTS",
+      "url": "https://x.com/henrythe9ths/status/2049148130059292743"
+    }
+  ]
+}
