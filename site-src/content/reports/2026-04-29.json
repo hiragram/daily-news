@@ -1,14 +1,14 @@
 {
   "date": "2026-04-29",
-  "windowLabel": "2026-04-28 16:51:11 JST - 2026-04-29 16:51:11 JST",
-  "archiveTitle": "Creative Work launch, blog post, and Claude Code v2.1.122/v2.1.123",
-  "archiveSummary": "Claude for Creative Work 公式発表、Claude Blog の Claude Code オンボーディング記事、Claude Code v2.1.122 と hotfix v2.1.123 のリリースをまとめた。",
-  "latestSummary": "Anthropic が <strong>Claude for Creative Work</strong> を公式 News で発表し、Claude Blog では <strong>Claude Code を新人開発者として迎え入れる</strong>記事が公開された。Claude Code は窓内に <code>v2.1.122</code> と OAuth 401 ループ修正の hotfix <code>v2.1.123</code> が連続でリリースされ、合わせて <strong>新機能 6 / 修正 13 = 計 19 項目</strong>を完全取得し和訳した。Anthropic engineer の signal は <strong>@trq212</strong> による Claude Code の大規模バグフィードバック収集と <strong>@amorriscode</strong> のサイトワイドアウトレージ告知が中心。",
+  "windowLabel": "2026-04-28 20:28:10 JST - 2026-04-29 20:28:10 JST",
+  "archiveTitle": "Creative Work launch wave, push notifications, 50+ stability fixes, v2.1.122/123",
+  "archiveSummary": "Claude for Creative Work と多数の創作系 connector launch、Claude Code モバイル push 通知、過去4リリースで50+の安定性/性能改善、Claude Code v2.1.122 / v2.1.123 をまとめた。",
+  "latestSummary": "Anthropic が <strong>Claude for Creative Work</strong> 発表に合わせて Blender / Autodesk Fusion / Adobe Creative Cloud / Ableton / Splice / Canva Affinity / SketchUp / Resolume の connector を一斉公開し、Blender Development Fund に patron として参加した。Claude Code は <strong>モバイル push 通知</strong>に対応し、過去 4 リリースで <strong>50+ の安定性 / 性能 fix</strong>をまとめたスレッドが公式 ClaudeDevs から流れた。リリースは <code>v2.1.122</code> と OAuth 401 hotfix <code>v2.1.123</code> の合計 19 項目を完全和訳し、Anthropic engineer signal は <strong>@trq212</strong> の white whale バグ収集と <strong>@amorriscode</strong> のサイトワイドアウトレージ告知が中心。",
   "summaryBullets": [
-    "<strong>Claude Code <code>v2.1.122</code></strong>（<strong>2026-04-29 07:05 JST</strong>）と <strong><code>v2.1.123</code></strong>（<strong>2026-04-29 12:29 JST</strong>）が窓内に連続公開され、<code>What's changed</code> 計 19 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
-    "公式 News に <strong>Claude for Creative Work</strong>（2026-04-28）、Claude Blog に <strong>Onboarding Claude Code like a new developer</strong>（2026-04-28）が新規公開された。",
-    "Engineer signal は <strong>@trq212</strong> が Claude Code の <strong>「white whale」バグ収集スレッド</strong>を立て、巨大ファイル書き込み中のハング、レンダラーの不具合、no-flicker renderer 改善、CLAUDE_CODE_FORK_SUBAGENT などの議論を多数返信。<strong>@amorriscode</strong> は 2026-04-29 04:11 JST 頃の <strong>Anthropic サイトワイドアウトレージ</strong>からの復旧開始を案内した。",
-    "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）は窓内に新規本投稿 0 件だった。"
+    "<strong>@claudeai</strong> が <strong>Blender / Autodesk Fusion</strong> ほか <strong>Adobe Creative Cloud / Ableton / Splice / Canva Affinity / SketchUp / Resolume</strong> connector の一斉 launch を告知し、<strong>Blender Development Fund</strong> に patron として参加すると発表した。",
+    "<strong>@ClaudeDevs</strong> が Claude Code の <strong>モバイル push 通知</strong>機能（<code>/remote-control</code> + Claude モバイルアプリ）と、<strong>直近 4 リリースで 50+ の安定性 / 性能 fix</strong> をまとめた 6 投稿のスレッドを公開した。",
+    "<strong>Claude Code <code>v2.1.122</code></strong>（<strong>2026-04-29 07:05 JST</strong>）と hotfix <strong><code>v2.1.123</code></strong>（<strong>2026-04-29 12:29 JST</strong>）が窓内に連続公開され、<code>What's changed</code> 計 19 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+    "公式 News に <strong>Claude for Creative Work</strong>（2026-04-28）、Claude Blog に <strong>Onboarding Claude Code like a new developer</strong>（2026-04-28）が掲載済み。Engineer signal では <strong>@trq212</strong> の Claude Code white whale バグ収集スレッドと <strong>@amorriscode</strong> のサイトワイドアウトレージ告知 / 復旧案内が記録された。"
   ],
   "officialNews": [
     {
@@ -16,10 +16,37 @@
       "datetime": "2026-04-28T17:00:00+09:00",
       "displayTime": "2026-04-28 JST",
       "title": "Claude for Creative Work を公開",
-      "summary": "Anthropic が <strong>Claude for Creative Work</strong> を公式 News で発表した。クリエイティブ用途を想定した利用パターンとワークフローの整備を示す signal で、同日に Claude Blog で公開された Claude Code のオンボーディング記事と並ぶ製品メッセージとなる。発表時刻は公式ページに具体的な hour / minute の指定がなく、ローカル日付ベースの掲載とした。",
+      "summary": "Anthropic が <strong>Claude for Creative Work</strong> を公式 News で発表した。クリエイティブ用途を想定した利用パターンとワークフローの整備を示す signal で、後述の連携 connector の同時 launch を伴う。発表時刻はページに具体的な hour / minute がなく、ローカル日付ベースの掲載とした。",
       "url": "https://www.anthropic.com/news/claude-for-creative-work",
       "urlLabel": "公式発表を読む",
       "primary": true
+    },
+    {
+      "label": "@claudeai",
+      "datetime": "2026-04-29T00:07:21+09:00",
+      "displayTime": "2026-04-29 00:07 JST",
+      "title": "Blender / Autodesk Fusion / Adobe ほかクリエイティブ系 connector を一斉 launch",
+      "summary": "<strong>@claudeai</strong> が Claude for Creative Work の同時 launch として、<strong>Blender</strong>（シーンのデバッグ / 新ツール作成 / 全オブジェクト一括編集）と <strong>Autodesk Fusion</strong>（会話による 3D モデル作成 / 編集）の connector をデモ付きで公開した。さらに <strong>Adobe Creative Cloud、Ableton、Splice、Canva Affinity、SketchUp、Resolume</strong> も同日 launch されると告知し、<strong>Blender Development Fund</strong> に patron として参加して open-source 開発を支援すると述べた。",
+      "url": "https://x.com/claudeai/status/2049143438281445811",
+      "urlLabel": "@claudeai の発表スレッド"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-04-29T00:52:43+09:00",
+      "displayTime": "2026-04-29 00:52 JST",
+      "title": "Claude Code がモバイル push 通知に対応",
+      "summary": "<strong>@ClaudeDevs</strong> が、長時間 task の完了時や Claude が入力を必要とした時に <strong>スマートフォンへ push 通知</strong>を送る機能を発表した。利用には Claude モバイルアプリのインストール、<code>/remote-control</code> でのペアリング、<code>/config</code> から <strong>「Push when Claude decides」</strong>を有効化する手順を案内。ターミナルから離れていても完了を知らせる ops 改善 signal となる。",
+      "url": "https://x.com/ClaudeDevs/status/2049154855143649315",
+      "urlLabel": "@ClaudeDevs の発表"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-04-29T05:44:27+09:00",
+      "displayTime": "2026-04-29 05:44 JST",
+      "title": "Claude Code 直近 4 リリースで 50+ の安定性 / 性能 fix",
+      "summary": "<strong>@ClaudeDevs</strong> が直近 4 リリースで <strong>50 件以上の stability / performance fix</strong> を行ったとまとめた 6 投稿スレッドを公開。要点は <strong>(1)</strong> 大規模セッションで <code>/resume</code> を最大 67% 高速化し、<code>/branch</code> の 50MB 上限撤廃、unclean shutdown への耐性強化。<strong>(2)</strong> macOS keychain / 401 トークンリフレッシュなど auth 系を 12 件修正し midtask の <code>Please run /login</code> を解消。<strong>(3)</strong> Linux のバックグラウンド task の re-render ループによる RAM 食いを修正し、MCP server を並列接続で起動高速化。<strong>(4)</strong> 巨大ページでの WebFetch ストール、proxy 204 のセッションクラッシュ、並列リクエストの cache-control レースによる API 400 を解消。<strong>(5)</strong> Windows / Xcode からの貼り付けで改行が維持され、リサイズ時の scrollback 重複や fullscreen のスクロールスナップを修正。",
+      "url": "https://x.com/ClaudeDevs/status/2049228273813750030",
+      "urlLabel": "@ClaudeDevs のスレッド"
     },
     {
       "label": "Blog",
@@ -34,7 +61,7 @@
   "officialZeroStates": [
     {
       "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
+      "body": "<strong>@AnthropicAI</strong> はこの 24 時間窓内に新規本投稿が確認できなかった。"
     },
     {
       "label": "Engineering / Research 0件",
@@ -47,7 +74,7 @@
       "datetime": "2026-04-29T06:08:07+09:00",
       "displayTime": "2026-04-29 06:08 JST",
       "title": "@trq212",
-      "summary": "Claude Code の <strong>「white whale」バグ収集スレッド</strong>を立てた。<strong>巨大ファイル書き込み中の擬似ハング</strong>を見つけたと述べ、no-flicker renderer をデフォルト化するための継続改善と、その他多数の papercut 修正に取り組んでいることを示した。スレッド配下では rewind バグ、画像コンテキスト、<code>/usage</code> エラー、<code>/tui fullscreen</code> renderer 試用案内などへ多数返信し、リアルタイムでフィードバックを team report にまとめている旨も明かした。",
+      "summary": "Claude Code の <strong>「white whale」バグ収集スレッド</strong>を立てた。<strong>巨大ファイル書き込み中の擬似ハング</strong>を見つけたと述べ、no-flicker renderer をデフォルト化するための継続改善と多数の papercut 修正に取り組んでいることを示した。スレッド配下では rewind バグ、画像コンテキスト、<code>/usage</code> エラー、<code>/tui fullscreen</code> renderer 試用案内などへ多数返信し、リアルタイムでフィードバックを team report にまとめている旨も明かした。",
       "url": "https://x.com/trq212/status/2049234228290961690",
       "urlLabel": "投稿を見る"
     },
@@ -96,7 +123,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.122 / v2.1.123",
-      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）と hotfix <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）が窓内に該当した。<code>v2.1.121</code> は前日掲載済みで本窓では数えていない。両 release の <code>What's changed</code> 全 19 項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）と hotfix <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）が窓内に該当した。<code>v2.1.121</code> は前日掲載済みのため再掲しない。両 release の <code>What's changed</code> 全 19 項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
       "releases": [
         {
           "version": "v2.1.123",
@@ -156,7 +183,7 @@
     }
   ],
   "exclusions": [
-    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / Zig 周りの議論、Lego・キーキャップなどの趣味投稿）は除外。",
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（キーキャップ趣味、Lego、Bun / Zig 議論）は除外。",
     "Thariq の long bug-feedback thread 配下の細かい個別 reply（DM 依頼、type-of-task 確認など）は、新規事実を含むものだけ親 thread に集約して扱った。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
     "Claude Code release notes は GitHub CLI で完全取得し、窓内 2 件（<code>v2.1.122</code> / <code>v2.1.123</code>）を全項目和訳した。<code>v2.1.121</code> は前日掲載分のため再掲しない。"
@@ -181,6 +208,18 @@
     {
       "title": "Claude Blog: Onboarding Claude Code like a new developer",
       "url": "https://claude.com/blog/onboarding-claude-code-like-a-new-developer-lessons-from-17-years-of-development"
+    },
+    {
+      "title": "@claudeai: Blender / Autodesk Fusion connector launch",
+      "url": "https://x.com/claudeai/status/2049143438281445811"
+    },
+    {
+      "title": "@ClaudeDevs: mobile push notifications",
+      "url": "https://x.com/ClaudeDevs/status/2049154855143649315"
+    },
+    {
+      "title": "@ClaudeDevs: 50+ stability fixes thread",
+      "url": "https://x.com/ClaudeDevs/status/2049228273813750030"
     },
     {
       "title": "Anthropic Engineering",
