@@ -1,0 +1,186 @@
+{
+  "date": "2026-04-30",
+  "windowLabel": "2026-04-29 17:45:16 JST - 2026-04-30 17:45:00 JST",
+  "archiveTitle": "BioMysteryBench, Hackathon winners, Claude API skill expansion",
+  "archiveSummary": "Anthropic が BioMysteryBench を公開、Built with Opus 4.7 Hackathon 受賞作を発表、Claude API skill が CodeRabbit / JetBrains / Resolve AI / Warp へ拡大したことをまとめた。",
+  "latestSummary": "Anthropic が <strong>BioMysteryBench</strong> による Claude のバイオインフォマティクス研究力評価を公開し、専門家が詰まった 23 問のうち約 30% を最新モデルが解いたと報告した。<strong>Built with Opus 4.7 Claude Code Hackathon</strong> の受賞 5 作品（Gold MedKit / Silver Wrench Board / Bronze Maieutic / Most Creative Virtual Puppet Theater / Best Managed Agents ARIA / Keep Thinking MaestrIA）が発表され、Claude Blog にも <strong>Claude Cowork のエンタープライズ展開</strong>、<strong>Claude API skill の他社ツール対応</strong>、<strong>Product development in the agentic era</strong> の 3 記事が掲載された。Claude Code release は窓内に新規なし。",
+  "summaryBullets": [
+    "<strong>@AnthropicAI</strong> が新規バイオインフォマティクス eval <strong>BioMysteryBench</strong> を Science Blog で公開。専門家が解けなかった 23 問中、最新モデルが約 <strong>30%</strong> を解き、残りも大半をカバーしたと報告した。",
+    "<strong>Built with Opus 4.7 Claude Code Hackathon</strong> の受賞作 6 件（MedKit、Wrench Board、Maieutic、Virtual Puppet Theater、ARIA、MaestrIA）を <strong>@claudeai</strong> と <strong>@ClaudeDevs</strong> がそれぞれスレッドで紹介し、Managed Agents / 永続メモリ / MCP tools / sandboxed 実行などの組み合わせを示した。",
+    "<strong>Claude API skill</strong>（<code>/claude-api migrate</code>、<code>/claude-api managed-agents-onboard</code>）が <strong>CodeRabbit / JetBrains / Resolve AI / Warp</strong> に組み込まれ、Claude Code 以外の開発ツールでも利用可能になったと <strong>@ClaudeDevs</strong> および Claude Blog が告知した。",
+    "Claude Blog はこの 24 時間で 3 件（<strong>Deploying Claude across the enterprise with Claude Cowork</strong>、<strong>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</strong>、<strong>Product development in the agentic era</strong>）を公開し、Cowork のエンタープライズ展開と agentic era の開発論を打ち出した。"
+  ],
+  "officialNews": [
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-04-30T07:59:19+09:00",
+      "displayTime": "2026-04-30 07:59 JST",
+      "title": "BioMysteryBench で Claude のバイオインフォマティクス研究力を評価",
+      "summary": "<strong>@AnthropicAI</strong> が Science Blog の新作として、実データを使った <strong>99 問のバイオインフォマティクス課題</strong>に Claude を取り組ませ、専門家パネルと比較した結果を公開した。<strong>23 問は専門家でも解けなかった</strong>が、最新モデルはそのうち約 <strong>30%</strong> を解き、残りの大半もカバー。新規 eval <strong>BioMysteryBench</strong> はオープンエンドな研究課題への創造的解法を測る目的で設計されている。",
+      "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "urlLabel": "Research を読む",
+      "primary": true
+    },
+    {
+      "label": "@claudeai",
+      "datetime": "2026-04-30T01:19:10+09:00",
+      "displayTime": "2026-04-30 01:19 JST",
+      "title": "Built with Opus 4.7 Claude Code Hackathon 受賞作を発表",
+      "summary": "<strong>@claudeai</strong> と <strong>@ClaudeDevs</strong> が <strong>cerebral_valley</strong> 共催の <strong>Built with Opus 4.7 Claude Code Hackathon</strong>（参加者 500 名）の受賞作を発表。<strong>Gold</strong> は Bedirhan Keskin の <em>MedKit</em>（音声ベースの臨床シミュレータ）、<strong>Silver</strong> は Alexis Chapellier の <em>Wrench Board</em>（基板修理診断、4 層メモリと約 36 tools の Managed Agent）、<strong>Bronze</strong> は Paula Vasquez-Henriquez の <em>Maieutic</em>（書く前に説明させる教育用コーディングツール）。<strong>Most Creative</strong> は Rene Hangstrup Møller の <em>Virtual Puppet Theater</em>、<strong>Best Use of Managed Agents</strong> は Idriss Benguezzou & Adam Hnaien の <em>ARIA</em>（17 MCP tools と sandboxed Python の保守システム）、<strong>Keep Thinking 賞</strong>は Benjamin Torralbo の <em>MaestrIA</em>（家電修理 + 価格検証 + WhatsApp 連絡の二段 Managed Agent）。",
+      "url": "https://x.com/claudeai/status/2049523899918934384",
+      "urlLabel": "@claudeai のスレッド"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-04-30T04:45:25+09:00",
+      "displayTime": "2026-04-30 04:45 JST",
+      "title": "Claude Code 内蔵 Claude API skill が CodeRabbit / JetBrains / Resolve AI / Warp に対応",
+      "summary": "<strong>@ClaudeDevs</strong> が、Claude Code 内蔵の <strong>Claude API skill</strong> を解説する 5 投稿スレッドを公開した。<code>/claude-api migrate</code> でコードベースを Opus 4.7 など新モデル向けに更新でき、<code>/claude-api managed-agents-onboard</code> で Managed Agent 設定を支援する。<strong>「prompt caching を Claude API に追加」</strong>のような自然言語要求でも skill がトリガーされ、ベストプラクティスを自動適用する。skill は完全 OSS で 7 言語の SDK と CLI を網羅し、<strong>CodeRabbit、JetBrains、Resolve AI、Warp</strong> へ同時にバンドルされた。",
+      "url": "https://x.com/ClaudeDevs/status/2049575802568839648",
+      "urlLabel": "@ClaudeDevs のスレッド"
+    },
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-04-30T04:46:46+09:00",
+      "displayTime": "2026-04-30 04:46 JST",
+      "title": "Anthropic Fellows research が introspection adapters を公開",
+      "summary": "<strong>@AnthropicAI</strong> が、訓練中に学習した挙動（<strong>misalignment の可能性を含む</strong>）を言語モデルに自己報告させる新ツール <strong>introspection adapters</strong> を Anthropic Fellows research として共有した。",
+      "url": "https://x.com/AnthropicAI/status/2049576143653929153",
+      "urlLabel": "@AnthropicAI の投稿"
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-04-29T17:00:00+09:00",
+      "displayTime": "2026-04-29 JST",
+      "title": "Claude Blog に Cowork、Claude API skill、agentic era 開発論の 3 記事",
+      "summary": "Claude Blog が同日に 3 記事を公開した。<strong>Deploying Claude across the enterprise with Claude Cowork</strong> はエンタープライズ展開ガイド、<strong>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</strong> は skill 拡張の概要（3 月に Claude Code で初出後、開発者向けツールへ展開）、<strong>Product development in the agentic era</strong> は agentic time 代における製品開発論。",
+      "url": "https://claude.com/blog/claude-api-skill",
+      "urlLabel": "Claude API skill 記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering / News 0件",
+      "body": "公式サイトでは <strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> の visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、News が <strong>2026-04-28</strong>（Claude for Creative Work）だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Medium",
+      "datetime": "2026-04-30T00:50:55+09:00",
+      "displayTime": "2026-04-30 00:50 JST",
+      "title": "@helloitsaustin",
+      "summary": "Anthropic 成長マーケティングチームの <strong>Austin Lau</strong> が、自身の業務での Claude 活用法を 6 投稿スレッドで公開した。<strong>(1)</strong> chat を thinking partner として使い metric / segmentation / framing を整える、<strong>(2)</strong> Cowork + scheduled task + MCP で週次レポート自動化、<strong>(3)</strong> Claude Code でアプリレビュー集計の自前ダッシュボードや API 連携を非エンジニアが構築、<strong>(4)</strong> skills でチームの institutional knowledge をパッケージ化し chat / Cowork / Claude Code に展開、<strong>(5)</strong> Claude Design でランディングページのアイデアを可視化してから design チームと協働。Claude を growth marketing で使う実例として記録。",
+      "url": "https://x.com/helloitsaustin/status/2049516788715827569",
+      "urlLabel": "Austin Lau のスレッド"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-04-30T16:04:59+09:00",
+      "displayTime": "2026-04-30 16:04 JST",
+      "title": "@amorriscode",
+      "summary": "<strong>@walls_jason1</strong> から報告された Claude Code Desktop の挙動について <strong>@trq212</strong> 経由で確認を引き取り、調査する旨を回答した。前日の white whale バグ収集スレッドのフォローが続いている signal。",
+      "url": "https://x.com/amorriscode/status/2049746690903773585",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Research 1件 / Blog 3件",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Research</strong> に 1 件、<strong>Claude Blog</strong> に 3 件が窓内に入った。Engineering と News は窓内に新規記事なし。",
+      "details": [
+        "Anthropic Research は <em>Apr 29, 2026</em> に <strong>Evaluating Claude's bioinformatics research capabilities with BioMysteryBench</strong> が公開された。",
+        "Claude Blog は <em>Apr 29, 2026</em> に <strong>Deploying Claude across the enterprise with Claude Cowork</strong>、<strong>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</strong>、<strong>Product development in the agentic era</strong> の 3 記事を公開した。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> で窓外。",
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（Claude for Creative Work）で、ローカル日付ベースの掲載が前日扱いとなり今回の窓開始 <strong>2026-04-29 17:45 JST</strong> より前のため officialNews には積まなかった。"
+      ],
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-29 17:45 JST</strong> より前だった。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
+        "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun / socket リファクタの議論、ビジネスカード談義、靴メーカー比較ジョークなど）は除外。",
+    "Hackathon の優勝作詳細は @claudeai 側のスレッドを officialNews 1 件に集約し、@ClaudeDevs 側の重複紹介スレッドは sources に併記した。",
+    "公式 News（Anthropic 公式サイト）は窓内の visible publication date が確認できなかったため officialNews には積まず、release panel の details で扱った。",
+    "Claude Code release notes は GitHub CLI で確認し、窓内の新規 release は 0 件だったため再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Research: BioMysteryBench",
+      "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench"
+    },
+    {
+      "title": "@AnthropicAI: BioMysteryBench announcement",
+      "url": "https://x.com/AnthropicAI/status/2049624600741560340"
+    },
+    {
+      "title": "@AnthropicAI: introspection adapters",
+      "url": "https://x.com/AnthropicAI/status/2049576143653929153"
+    },
+    {
+      "title": "Claude Blog: Deploying Claude Cowork to enterprise",
+      "url": "https://claude.com/blog/new-guide-deploying-claude-across-the-enterprise-with-claude-cowork"
+    },
+    {
+      "title": "Claude Blog: Claude API skill in CodeRabbit, JetBrains, Resolve AI, Warp",
+      "url": "https://claude.com/blog/claude-api-skill"
+    },
+    {
+      "title": "Claude Blog: Product development in the agentic era",
+      "url": "https://claude.com/blog/product-development-in-the-agentic-era"
+    },
+    {
+      "title": "@claudeai: Built with Opus 4.7 Hackathon winners",
+      "url": "https://x.com/claudeai/status/2049523899918934384"
+    },
+    {
+      "title": "@ClaudeDevs: Hackathon winner showcase",
+      "url": "https://x.com/ClaudeDevs/status/2049644696260235413"
+    },
+    {
+      "title": "@ClaudeDevs: Claude API skill thread",
+      "url": "https://x.com/ClaudeDevs/status/2049575802568839648"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Austin Lau: AI-native growth marketing thread",
+      "url": "https://x.com/helloitsaustin/status/2049516788715827569"
+    },
+    {
+      "title": "Anthony Morris: Desktop bug followup",
+      "url": "https://x.com/amorriscode/status/2049746690903773585"
+    }
+  ]
+}
