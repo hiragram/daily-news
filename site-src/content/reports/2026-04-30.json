@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "windowLabel": "2026-04-29 20:28:12 JST - 2026-04-30 20:28:00 JST",
+  "windowLabel": "2026-04-29 20:37:07 JST - 2026-04-30 20:37:00 JST",
   "archiveTitle": "BioMysteryBench, Hackathon winners, Claude API skill expansion",
   "archiveSummary": "Anthropic が BioMysteryBench を公開、Built with Opus 4.7 Hackathon 受賞作を発表、Claude API skill が CodeRabbit / JetBrains / Resolve AI / Warp へ拡大したことをまとめた。",
   "latestSummary": "Anthropic が <strong>BioMysteryBench</strong> による Claude のバイオインフォマティクス研究力評価を公開し、専門家が詰まった 23 問のうち約 30% を最新モデルが解いたと報告した。<strong>Built with Opus 4.7 Claude Code Hackathon</strong> の受賞 5 作品（Gold MedKit / Silver Wrench Board / Bronze Maieutic / Most Creative Virtual Puppet Theater / Best Managed Agents ARIA / Keep Thinking MaestrIA）が発表され、Claude Blog にも <strong>Claude Cowork のエンタープライズ展開</strong>、<strong>Claude API skill の他社ツール対応</strong>、<strong>Product development in the agentic era</strong> の 3 記事が掲載された。Claude Code release は窓内に新規なし。",
@@ -93,7 +93,7 @@
         "Anthropic Research は <em>Apr 29, 2026</em> に <strong>Evaluating Claude's bioinformatics research capabilities with BioMysteryBench</strong> が公開された。",
         "Claude Blog は <em>Apr 29, 2026</em> に <strong>Deploying Claude across the enterprise with Claude Cowork</strong>、<strong>Claude API skill now in CodeRabbit, JetBrains, Resolve AI, and Warp</strong>、<strong>Product development in the agentic era</strong> の 3 記事を公開した。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> で窓外。",
-        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（Claude for Creative Work）で、ローカル日付ベースの掲載が前日扱いとなり今回の窓開始 <strong>2026-04-29 20:28 JST</strong> より前のため officialNews には積まなかった。"
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（Claude for Creative Work）で、ローカル日付ベースの掲載が前日扱いとなり今回の窓開始 <strong>2026-04-29 20:37 JST</strong> より前のため officialNews には積まなかった。"
       ],
       "url": "https://www.anthropic.com/research",
       "urlLabel": "公式サイトを確認"
@@ -101,7 +101,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-29 20:28 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-29 20:37 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
         "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
