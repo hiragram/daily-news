@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-01",
+  "windowLabel": "2026-04-30 00:28:12 JST - 2026-05-01 00:28:00 JST",
+  "archiveTitle": "Quiet day: Hackathon thread reshare, no new release or blog",
+  "archiveSummary": "Hackathon 受賞作の @ClaudeDevs リシェアと前日の signal 余韻が中心。Claude Code release / 公式ブログ / Engineering / Research に窓内の新規追加はなし。",
+  "latestSummary": "前日に発表された <strong>Built with Opus 4.7 Claude Code Hackathon</strong> 受賞作を <strong>@ClaudeDevs</strong> がショート動画つきの簡潔スレッドで再紹介した以外、公式 X / 公式ブログ / Engineering / Research / Claude Code release に窓内の新規追加はなかった。Engineer signal は <strong>@trq212</strong> の white whale バグ追跡フォローと <strong>@amorriscode</strong> の Desktop バグ調査引き取りが続いた。",
+  "summaryBullets": [
+    "<strong>@ClaudeDevs</strong> が Built with Opus 4.7 Hackathon 受賞作 6 件（MedKit / Wrench Board / Maieutic / Virtual Puppet Theater / ARIA / MaestrIA）を、ショート動画つき 1 行コピーで再紹介した。",
+    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong> は窓内に新規本投稿なし。<strong>@ClaudeDevs</strong> は上記 hackathon 再紹介スレッドのみ。",
+    "公式サイトの <strong>News / Engineering / Research / Claude Blog</strong> はいずれも窓内に新規記事なし。最新 visible publication date は News が <strong>2026-04-28</strong>、Research / Claude Blog が <strong>2026-04-29</strong>、Engineering が <strong>2026-04-23</strong>。",
+    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で窓開始 <strong>2026-04-30 00:28 JST</strong> より前だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-04-30T09:19:10+09:00",
+      "displayTime": "2026-04-30 09:19 JST",
+      "title": "Built with Opus 4.7 Hackathon 受賞作 6 件をショート動画スレッドで再紹介",
+      "summary": "<strong>@ClaudeDevs</strong> が前日 <strong>@claudeai</strong> 側で告知された Hackathon 受賞作を、各 1 行コピー + 動画リンクの 7 投稿スレッドで再紹介した。<strong>Gold MedKit</strong>（Managed Agent が患者を演じ採点まで担当）、<strong>Silver Wrench Board</strong>（4 層メモリ + 約 36 tools の Managed Agent が回路図を読み診断手順を board へ描画）、<strong>Bronze Maieutic</strong>（コードを書く前に学生に仕様を書かせ、diff の説明能力を可視化）、<strong>Most Creative Virtual Puppet Theater</strong>（2 つの Claude が人形を演じ、THREE.js プリミティブから小道具を生成）、<strong>Best Use of Managed Agents ARIA</strong>（17 MCP tools と sandboxed Python で劣化率を計算）、<strong>Keep Thinking 賞 MaestrIA</strong>（async price validator の SSE と WhatsApp 連絡を担う 2 つの Managed Agent）。",
+      "url": "https://x.com/ClaudeDevs/status/2049644696260235413",
+      "urlLabel": "@ClaudeDevs のスレッド",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件だった。<strong>@ClaudeDevs</strong> は前日告知済み Hackathon 受賞作の再紹介スレッド 1 件のみ。"
+    },
+    {
+      "label": "Engineering / Research / News / Blog 0件",
+      "body": "公式サイトでは <strong>News</strong>、<strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News が <strong>2026-04-28</strong>（<em>Claude for Creative Work</em>）、Research が <strong>2026-04-29</strong>（<em>BioMysteryBench</em>）、Claude Blog が <strong>2026-04-29</strong>（Cowork / Claude API skill / agentic era の 3 記事）、Engineering が <strong>2026-04-23</strong> だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Medium",
+      "datetime": "2026-04-30T16:04:59+09:00",
+      "displayTime": "2026-04-30 16:04 JST",
+      "title": "@amorriscode",
+      "summary": "<strong>@trq212</strong> 経由で <strong>@walls_jason1</strong> から報告された Claude Code Desktop の挙動バグについて引き取りを表明し、自身では未確認だが調査する旨を回答した。前日 white whale スレッドの個別フォローが翌日まで継続している。",
+      "url": "https://x.com/amorriscode/status/2049746690903773585",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-04-30T07:17:40+09:00",
+      "displayTime": "2026-04-30 07:17 JST",
+      "title": "@trq212",
+      "summary": "<strong>@walls_jason1</strong> から報告された Claude Code Desktop 上の挙動バグを <strong>@amorriscode</strong> に引き継ぐ宣言。Claude Code Desktop / CLI 間の責任分担と、前日 white whale スレッドのトリアージが継続している signal。",
+      "url": "https://x.com/trq212/status/2049614120581046558",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式サイトの visible publication date を確認したが、窓内に入る新規記事は News / Engineering / Research / Claude Blog いずれも 0 件だった。",
+      "details": [
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（<strong>Claude for Creative Work</strong>）。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 29, 2026</em>（<strong>BioMysteryBench</strong>）。",
+        "Claude Blog の最新 visible publication date は <em>Apr 29, 2026</em>（Cowork / Claude API skill / agentic era）。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 00:28 JST</strong> より前だった。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
+        "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun の HTTP/3 サーバ開発、ビジネスカード談義、Tumblr 回顧など）は除外。",
+    "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
+    "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で確認し、窓内の新規 release は 0 件だったため再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "@ClaudeDevs: Built with Opus 4.7 Hackathon winner showcase",
+      "url": "https://x.com/ClaudeDevs/status/2049644696260235413"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Thariq: hand-off of Desktop bug to amorriscode",
+      "url": "https://x.com/trq212/status/2049614120581046558"
+    },
+    {
+      "title": "Anthony Morris: Desktop bug followup",
+      "url": "https://x.com/amorriscode/status/2049746690903773585"
+    }
+  ]
+}
