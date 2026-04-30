@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "windowLabel": "2026-04-30 00:28:12 JST - 2026-05-01 00:28:00 JST",
+  "windowLabel": "2026-04-30 00:37:10 JST - 2026-05-01 00:37:00 JST",
   "archiveTitle": "Quiet day: Hackathon thread reshare, no new release or blog",
   "archiveSummary": "Hackathon 受賞作の @ClaudeDevs リシェアと前日の signal 余韻が中心。Claude Code release / 公式ブログ / Engineering / Research に窓内の新規追加はなし。",
   "latestSummary": "前日に発表された <strong>Built with Opus 4.7 Claude Code Hackathon</strong> 受賞作を <strong>@ClaudeDevs</strong> がショート動画つきの簡潔スレッドで再紹介した以外、公式 X / 公式ブログ / Engineering / Research / Claude Code release に窓内の新規追加はなかった。Engineer signal は <strong>@trq212</strong> の white whale バグ追跡フォローと <strong>@amorriscode</strong> の Desktop バグ調査引き取りが続いた。",
@@ -8,7 +8,7 @@
     "<strong>@ClaudeDevs</strong> が Built with Opus 4.7 Hackathon 受賞作 6 件（MedKit / Wrench Board / Maieutic / Virtual Puppet Theater / ARIA / MaestrIA）を、ショート動画つき 1 行コピーで再紹介した。",
     "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong> は窓内に新規本投稿なし。<strong>@ClaudeDevs</strong> は上記 hackathon 再紹介スレッドのみ。",
     "公式サイトの <strong>News / Engineering / Research / Claude Blog</strong> はいずれも窓内に新規記事なし。最新 visible publication date は News が <strong>2026-04-28</strong>、Research / Claude Blog が <strong>2026-04-29</strong>、Engineering が <strong>2026-04-23</strong>。",
-    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で窓開始 <strong>2026-04-30 00:28 JST</strong> より前だった。"
+    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で窓開始 <strong>2026-04-30 00:37 JST</strong> より前だった。"
   ],
   "officialNews": [
     {
@@ -69,7 +69,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 00:28 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 00:37 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
         "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
