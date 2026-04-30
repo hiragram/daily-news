@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "windowLabel": "2026-04-30 04:37:06 JST - 2026-05-01 04:37:00 JST",
+  "windowLabel": "2026-04-30 08:28:11 JST - 2026-05-01 08:28:00 JST",
   "archiveTitle": "Claude Security public beta, personal guidance study, Mythos Preview signal",
   "archiveSummary": "Claude Security の public beta 開放、Claude の personal guidance 利用に関する大規模調査、Lessons from building Claude Code（Prompt caching）など Claude Blog 3 記事が公開された。",
   "latestSummary": "Anthropic が Claude Enterprise 向けに <strong>Claude Security</strong> の public beta を開始し、<strong>@AnthropicAI</strong> は 1M 件の会話を分析した <strong>How people ask Claude for personal guidance</strong> 研究を公開した。研究では <strong>sycophancy 軽減</strong>のため Opus 4.7 / 新たに登場した <strong>Mythos Preview</strong> を訓練し、Opus 4.6 比でリレーションシップ用途の sycophancy を半減、Mythos Preview ではさらに半減と報告。Claude Blog には <strong>Prompt caching is everything</strong>（Lessons from building Claude Code）と Kepler のケーススタディも掲載された。",
@@ -58,6 +58,15 @@
   "signals": [
     {
       "label": "High",
+      "datetime": "2026-05-01T06:29:34+09:00",
+      "displayTime": "2026-05-01 06:29 JST",
+      "title": "@_catwu",
+      "summary": "Claude Code 開発リードの <strong>cat wu</strong> が、<strong>Claude Security public beta</strong> が <strong>Claude Code on the web</strong> に内蔵されたと告知した。リポジトリを指定すると検証済みの脆弱性検出と修正提案がコードを書く同じ場所で完結すると説明。Claude Code on the web と Claude Security の統合 signal となる。",
+      "url": "https://x.com/_catwu/status/2049964403177689130",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "High",
       "datetime": "2026-05-01T04:03:27+09:00",
       "displayTime": "2026-05-01 04:03 JST",
       "title": "Mythos Preview の登場（@AnthropicAI）",
@@ -78,11 +87,11 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Research 1件 / Blog 3件",
-      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Research</strong> に 1 件、<strong>Claude Blog</strong> に 3 件が窓内に入った。Engineering と News は窓内に新規記事なし。",
+      "headline": "Research 1件 / Blog 4件",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Research</strong> に 1 件、<strong>Claude Blog</strong> に 4 件が窓内に入った。Engineering と News は窓内に新規記事なし。",
       "details": [
         "Anthropic Research は <em>Apr 30, 2026</em> に <strong>How people ask Claude for personal guidance</strong> が公開された。",
-        "Claude Blog は <em>Apr 30, 2026</em> に <strong>Claude Security is now in public beta</strong>、<strong>Lessons from building Claude Code: Prompt caching is everything</strong>、<strong>How Kepler built verifiable AI for financial services with Claude</strong> の 3 記事を公開した。",
+        "Claude Blog は <em>Apr 30, 2026</em> に <strong>Claude Security is now in public beta</strong>、<strong>Lessons from building Claude Code: Prompt caching is everything</strong>、<strong>How Kepler built verifiable AI for financial services with Claude</strong>、<strong>Building AI agents for the enterprise</strong> の 4 記事を公開した。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>。",
         "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（Claude for Creative Work）。"
       ],
@@ -92,7 +101,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 04:37 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 08:28 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
         "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
@@ -136,6 +145,14 @@
     {
       "title": "Claude Blog: How Kepler built verifiable AI",
       "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude"
+    },
+    {
+      "title": "Claude Blog: Building AI agents for the enterprise",
+      "url": "https://claude.com/blog/building-ai-agents-for-the-enterprise"
+    },
+    {
+      "title": "@_catwu: Claude Security in Claude Code on the web",
+      "url": "https://x.com/_catwu/status/2049964403177689130"
     },
     {
       "title": "Claude Code releases",
