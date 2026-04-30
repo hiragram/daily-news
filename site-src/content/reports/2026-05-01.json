@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "windowLabel": "2026-04-30 08:28:11 JST - 2026-05-01 08:28:00 JST",
+  "windowLabel": "2026-04-30 08:37:05 JST - 2026-05-01 08:37:00 JST",
   "archiveTitle": "Claude Security public beta, personal guidance study, Mythos Preview signal",
   "archiveSummary": "Claude Security の public beta 開放、Claude の personal guidance 利用に関する大規模調査、Lessons from building Claude Code（Prompt caching）など Claude Blog 3 記事が公開された。",
   "latestSummary": "Anthropic が Claude Enterprise 向けに <strong>Claude Security</strong> の public beta を開始し、<strong>@AnthropicAI</strong> は 1M 件の会話を分析した <strong>How people ask Claude for personal guidance</strong> 研究を公開した。研究では <strong>sycophancy 軽減</strong>のため Opus 4.7 / 新たに登場した <strong>Mythos Preview</strong> を訓練し、Opus 4.6 比でリレーションシップ用途の sycophancy を半減、Mythos Preview ではさらに半減と報告。Claude Blog には <strong>Prompt caching is everything</strong>（Lessons from building Claude Code）と Kepler のケーススタディも掲載された。",
@@ -101,7 +101,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 08:28 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 08:37 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
         "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
