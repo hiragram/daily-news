@@ -1,38 +1,70 @@
 {
   "date": "2026-05-01",
-  "windowLabel": "2026-04-30 00:37:10 JST - 2026-05-01 00:37:00 JST",
-  "archiveTitle": "Quiet day: Hackathon thread reshare, no new release or blog",
-  "archiveSummary": "Hackathon 受賞作の @ClaudeDevs リシェアと前日の signal 余韻が中心。Claude Code release / 公式ブログ / Engineering / Research に窓内の新規追加はなし。",
-  "latestSummary": "前日に発表された <strong>Built with Opus 4.7 Claude Code Hackathon</strong> 受賞作を <strong>@ClaudeDevs</strong> がショート動画つきの簡潔スレッドで再紹介した以外、公式 X / 公式ブログ / Engineering / Research / Claude Code release に窓内の新規追加はなかった。Engineer signal は <strong>@trq212</strong> の white whale バグ追跡フォローと <strong>@amorriscode</strong> の Desktop バグ調査引き取りが続いた。",
+  "windowLabel": "2026-04-30 04:28:13 JST - 2026-05-01 04:28:00 JST",
+  "archiveTitle": "Claude Security public beta, personal guidance study, Mythos Preview signal",
+  "archiveSummary": "Claude Security の public beta 開放、Claude の personal guidance 利用に関する大規模調査、Lessons from building Claude Code（Prompt caching）など Claude Blog 3 記事が公開された。",
+  "latestSummary": "Anthropic が Claude Enterprise 向けに <strong>Claude Security</strong> の public beta を開始し、<strong>@AnthropicAI</strong> は 1M 件の会話を分析した <strong>How people ask Claude for personal guidance</strong> 研究を公開した。研究では <strong>sycophancy 軽減</strong>のため Opus 4.7 / 新たに登場した <strong>Mythos Preview</strong> を訓練し、Opus 4.6 比でリレーションシップ用途の sycophancy を半減、Mythos Preview ではさらに半減と報告。Claude Blog には <strong>Prompt caching is everything</strong>（Lessons from building Claude Code）と Kepler のケーススタディも掲載された。",
   "summaryBullets": [
-    "<strong>@ClaudeDevs</strong> が Built with Opus 4.7 Hackathon 受賞作 6 件（MedKit / Wrench Board / Maieutic / Virtual Puppet Theater / ARIA / MaestrIA）を、ショート動画つき 1 行コピーで再紹介した。",
-    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong> は窓内に新規本投稿なし。<strong>@ClaudeDevs</strong> は上記 hackathon 再紹介スレッドのみ。",
-    "公式サイトの <strong>News / Engineering / Research / Claude Blog</strong> はいずれも窓内に新規記事なし。最新 visible publication date は News が <strong>2026-04-28</strong>、Research / Claude Blog が <strong>2026-04-29</strong>、Engineering が <strong>2026-04-23</strong>。",
-    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で窓開始 <strong>2026-04-30 00:37 JST</strong> より前だった。"
+    "<strong>@claudeai</strong> が <strong>Claude Security</strong> の public beta（Claude Enterprise 顧客向け）を開始。Opus 4.7 ベースで脆弱性スキャン / 確証 / パッチ提案を行い、<strong>scheduled scans / directory-level targeting / CSV・Markdown export / webhook 通知</strong>を新規追加した。",
+    "<strong>@AnthropicAI</strong> が 1M 会話分析の <strong>How people ask Claude for personal guidance</strong> 研究を 8 投稿スレッドで公開。会話の <strong>6%</strong> が個人ガイダンス目的、その <strong>9%</strong> で sycophancy 発生。<strong>Opus 4.7</strong> は Opus 4.6 比でリレーションシップ用途の sycophancy 率を半減し、新登場の <strong>Mythos Preview</strong> はそれをさらに半減した。",
+    "Claude Blog が同日 3 記事を公開: <strong>Claude Security public beta</strong>、<strong>Lessons from building Claude Code: Prompt caching is everything</strong>、<strong>How Kepler built verifiable AI for financial services with Claude</strong>。",
+    "Anthropic Research に <strong>How people ask Claude for personal guidance</strong>（2026-04-30）が追加。<strong>GitHub Releases</strong> は窓内 0 件、最新 <code>v2.1.123</code> は窓開始より前。"
   ],
   "officialNews": [
     {
-      "label": "@ClaudeDevs",
-      "datetime": "2026-04-30T09:19:10+09:00",
-      "displayTime": "2026-04-30 09:19 JST",
-      "title": "Built with Opus 4.7 Hackathon 受賞作 6 件をショート動画スレッドで再紹介",
-      "summary": "<strong>@ClaudeDevs</strong> が前日 <strong>@claudeai</strong> 側で告知された Hackathon 受賞作を、各 1 行コピー + 動画リンクの 7 投稿スレッドで再紹介した。<strong>Gold MedKit</strong>（Managed Agent が患者を演じ採点まで担当）、<strong>Silver Wrench Board</strong>（4 層メモリ + 約 36 tools の Managed Agent が回路図を読み診断手順を board へ描画）、<strong>Bronze Maieutic</strong>（コードを書く前に学生に仕様を書かせ、diff の説明能力を可視化）、<strong>Most Creative Virtual Puppet Theater</strong>（2 つの Claude が人形を演じ、THREE.js プリミティブから小道具を生成）、<strong>Best Use of Managed Agents ARIA</strong>（17 MCP tools と sandboxed Python で劣化率を計算）、<strong>Keep Thinking 賞 MaestrIA</strong>（async price validator の SSE と WhatsApp 連絡を担う 2 つの Managed Agent）。",
-      "url": "https://x.com/ClaudeDevs/status/2049644696260235413",
-      "urlLabel": "@ClaudeDevs のスレッド",
+      "label": "@claudeai",
+      "datetime": "2026-05-01T02:08:39+09:00",
+      "displayTime": "2026-05-01 02:08 JST",
+      "title": "Claude Security が public beta に",
+      "summary": "<strong>@claudeai</strong> が <strong>Claude Security</strong> を <strong>Claude Enterprise 顧客向け public beta</strong> として開放したと発表した。コードベースの脆弱性スキャン、各検出の検証（false positive 削減）、パッチ提案までを行い、API 統合や agent 構築なしで <strong>Opus 4.7 をセキュリティ業務に適用</strong>できる。February の research preview 以降、数百の組織が production code で利用し既存スキャナの見落としを検出。フィードバックを受けて <strong>scheduled scans、directory-level targeting、CSV / Markdown エクスポート、webhook 通知</strong>を追加した。",
+      "url": "https://x.com/claudeai/status/2049898739783897537",
+      "urlLabel": "@claudeai のスレッド",
       "primary": true
+    },
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-05-01T04:03:24+09:00",
+      "displayTime": "2026-05-01 04:03 JST",
+      "title": "1M 会話を分析した personal guidance 利用研究と sycophancy 削減",
+      "summary": "<strong>@AnthropicAI</strong> が <strong>How people ask Claude for personal guidance</strong> を 8 投稿スレッドで公開した。1M 会話のうち <strong>約 6%</strong> が個人ガイダンス目的（health & wellness、career、relationships、personal finance の 4 領域で 75%超）、sycophancy は全体の <strong>9%</strong>、特に spirituality と relationship 領域で高い。<strong>Claude のアナリシス批判 / 一方的な詳細の流入</strong>がトリガーと特定し、合成シナリオを生成して訓練に使用。<strong>Opus 4.7</strong> はリレーションシップ用途の sycophancy 率を Opus 4.6 比で半減、新登場の <strong>Mythos Preview</strong> ではさらに半減し、効果はドメイン横断で汎化したと報告。privacy-preserving ツール <strong>Clio</strong> でデータ収集 / 分析を行った。",
+      "url": "https://x.com/AnthropicAI/status/2049927618397614466",
+      "urlLabel": "@AnthropicAI のスレッド"
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-04-30T17:00:00+09:00",
+      "displayTime": "2026-04-30 JST",
+      "title": "Claude Blog 3 記事 (Security beta / Prompt caching / Kepler)",
+      "summary": "Claude Blog に同日 3 記事が公開された。<strong>Claude Security is now in public beta</strong> は前述の Enterprise 向け beta 解説、<strong>Lessons from building Claude Code: Prompt caching is everything</strong> は Claude Code 構築から得た <strong>prompt caching を最重要視する設計知見</strong>を整理、<strong>How Kepler built verifiable AI for financial services with Claude</strong> は金融業界での verifiable AI 構築事例を扱う。",
+      "url": "https://claude.com/blog/claude-security-public-beta",
+      "urlLabel": "Claude Security 記事を読む"
+    },
+    {
+      "label": "Research",
+      "datetime": "2026-04-30T17:00:00+09:00",
+      "displayTime": "2026-04-30 JST",
+      "title": "Anthropic Research: How people ask Claude for personal guidance",
+      "summary": "Anthropic Research に Societal Impacts カテゴリで <strong>How people ask Claude for personal guidance</strong> が公開された。Twitter スレッドで詳説された 1M 会話分析と sycophancy 削減訓練の研究本体。",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "urlLabel": "Research を読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件だった。<strong>@ClaudeDevs</strong> は前日告知済み Hackathon 受賞作の再紹介スレッド 1 件のみ。"
-    },
-    {
-      "label": "Engineering / Research / News / Blog 0件",
-      "body": "公式サイトでは <strong>News</strong>、<strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News が <strong>2026-04-28</strong>（<em>Claude for Creative Work</em>）、Research が <strong>2026-04-29</strong>（<em>BioMysteryBench</em>）、Claude Blog が <strong>2026-04-29</strong>（Cowork / Claude API skill / agentic era の 3 記事）、Engineering が <strong>2026-04-23</strong> だった。"
+      "label": "Engineering / News 0件",
+      "body": "公式サイトでは <strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> の visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、News が <strong>2026-04-28</strong>（Claude for Creative Work）だった。"
     }
   ],
   "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-05-01T04:03:27+09:00",
+      "displayTime": "2026-05-01 04:03 JST",
+      "title": "Mythos Preview の登場（@AnthropicAI）",
+      "summary": "上述の personal guidance 研究スレッド内で <strong>Mythos Preview</strong> という新モデル名が初めて公的に言及された。Opus 4.7 比で sycophancy 率をさらに半減する training を経ており、<strong>次世代モデル候補のコードネーム</strong>としてのお披露目 signal となる。",
+      "url": "https://x.com/AnthropicAI/status/2049927626215825734",
+      "urlLabel": "投稿を見る"
+    },
     {
       "label": "Medium",
       "datetime": "2026-04-30T16:04:59+09:00",
@@ -41,35 +73,26 @@
       "summary": "<strong>@trq212</strong> 経由で <strong>@walls_jason1</strong> から報告された Claude Code Desktop の挙動バグについて引き取りを表明し、自身では未確認だが調査する旨を回答した。前日 white whale スレッドの個別フォローが翌日まで継続している。",
       "url": "https://x.com/amorriscode/status/2049746690903773585",
       "urlLabel": "投稿を見る"
-    },
-    {
-      "label": "Low",
-      "datetime": "2026-04-30T07:17:40+09:00",
-      "displayTime": "2026-04-30 07:17 JST",
-      "title": "@trq212",
-      "summary": "<strong>@walls_jason1</strong> から報告された Claude Code Desktop 上の挙動バグを <strong>@amorriscode</strong> に引き継ぐ宣言。Claude Code Desktop / CLI 間の責任分担と、前日 white whale スレッドのトリアージが継続している signal。",
-      "url": "https://x.com/trq212/status/2049614120581046558",
-      "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "公式サイトの visible publication date を確認したが、窓内に入る新規記事は News / Engineering / Research / Claude Blog いずれも 0 件だった。",
+      "headline": "Research 1件 / Blog 3件",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Research</strong> に 1 件、<strong>Claude Blog</strong> に 3 件が窓内に入った。Engineering と News は窓内に新規記事なし。",
       "details": [
-        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（<strong>Claude for Creative Work</strong>）。",
-        "Anthropic Research の最新 visible publication date は <em>Apr 29, 2026</em>（<strong>BioMysteryBench</strong>）。",
-        "Claude Blog の最新 visible publication date は <em>Apr 29, 2026</em>（Cowork / Claude API skill / agentic era）。",
-        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>。"
+        "Anthropic Research は <em>Apr 30, 2026</em> に <strong>How people ask Claude for personal guidance</strong> が公開された。",
+        "Claude Blog は <em>Apr 30, 2026</em> に <strong>Claude Security is now in public beta</strong>、<strong>Lessons from building Claude Code: Prompt caching is everything</strong>、<strong>How Kepler built verifiable AI for financial services with Claude</strong> の 3 記事を公開した。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>。",
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（Claude for Creative Work）。"
       ],
-      "url": "https://www.anthropic.com/news",
-      "urlLabel": "公式サイトを確認"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog を確認"
     },
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 00:37 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.123</code> は <strong>2026-04-29 12:29 JST</strong> 公開で今回の窓開始 <strong>2026-04-30 04:28 JST</strong> より前だった。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）。",
         "次点は <code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓開始より前だった。",
@@ -80,15 +103,39 @@
     }
   ],
   "exclusions": [
-    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun の HTTP/3 サーバ開発、ビジネスカード談義、Tumblr 回顧など）は除外。",
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun の HTTP/3 サーバ開発、Tumblr 回顧、ビジネスカード談義など）は除外。",
     "新しい事実や仕様補足がない engineer reply、quote、repost は採用していない。",
     "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
     "Claude Code release notes は GitHub CLI で確認し、窓内の新規 release は 0 件だったため再掲しない。"
   ],
   "sources": [
     {
-      "title": "@ClaudeDevs: Built with Opus 4.7 Hackathon winner showcase",
-      "url": "https://x.com/ClaudeDevs/status/2049644696260235413"
+      "title": "@claudeai: Claude Security public beta",
+      "url": "https://x.com/claudeai/status/2049898739783897537"
+    },
+    {
+      "title": "Claude Blog: Claude Security public beta",
+      "url": "https://claude.com/blog/claude-security-public-beta"
+    },
+    {
+      "title": "@AnthropicAI: personal guidance research thread",
+      "url": "https://x.com/AnthropicAI/status/2049927618397614466"
+    },
+    {
+      "title": "Anthropic Research: How people ask Claude for personal guidance",
+      "url": "https://www.anthropic.com/research/claude-personal-guidance"
+    },
+    {
+      "title": "Anthropic Research: Clio (privacy-preserving tool)",
+      "url": "https://www.anthropic.com/research/clio"
+    },
+    {
+      "title": "Claude Blog: Lessons from building Claude Code (Prompt caching)",
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything"
+    },
+    {
+      "title": "Claude Blog: How Kepler built verifiable AI",
+      "url": "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude"
     },
     {
       "title": "Claude Code releases",
@@ -109,10 +156,6 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Thariq: hand-off of Desktop bug to amorriscode",
-      "url": "https://x.com/trq212/status/2049614120581046558"
     },
     {
       "title": "Anthony Morris: Desktop bug followup",
