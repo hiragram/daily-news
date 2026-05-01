@@ -1,0 +1,107 @@
+{
+  "date": "2026-05-02",
+  "windowLabel": "2026-05-01 00:28:15 JST - 2026-05-02 00:28:00 JST",
+  "archiveTitle": "Quiet aftermath: Security beta, Code on the web, no new release/blog",
+  "archiveSummary": "Claude Code <code>v2.1.126</code> と Claude Security の Code on the web 内蔵、personal guidance 研究のフォローが中心。窓内の新規 release / blog / Engineering / News はなし。",
+  "latestSummary": "前日に集中した <strong>Claude Security public beta</strong>、<strong>Claude Code <code>v2.1.126</code></strong>、<strong>How people ask Claude for personal guidance</strong> 研究、<strong>Mythos Preview</strong> 言及などのフォローが続く一日となった。新規 Claude Code release は窓内 0 件、公式ブログ / Engineering / News / Research も窓内に新規記事なし。",
+  "summaryBullets": [
+    "<strong>@_catwu</strong> の <strong>Claude Code on the web に Claude Security を統合</strong>した告知（窓開始 8 分前の <strong>2026-04-30 23:59 JST</strong> 直後にあたる <strong>2026-05-01 06:29 JST</strong>）が窓内に入り、Code on the web と Security の統合 signal として記録した。",
+    "<strong>@trq212</strong> が <strong>CAISconf</strong> 登壇を <strong>@AnthropicAI</strong> 共催で告知（<strong>2026-05-02 00:13 JST</strong>）。",
+    "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）はこの 24 時間窓に入る新規本投稿が 0 件だった。前日告知の Claude Security beta / personal guidance 研究は窓開始より前。",
+    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で窓開始 <strong>2026-05-01 00:28 JST</strong> より後だが、これは前日 04:37 JST の窓を境界とした前日掲載済みのため再掲しない。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。前日告知済みの Claude Security beta スレッドや personal guidance 研究スレッドは窓開始より前。"
+    },
+    {
+      "label": "Engineering / News / Research / Blog 0件",
+      "body": "公式サイトでは <strong>News</strong>、<strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News が <strong>2026-04-28</strong>、Engineering が <strong>2026-04-23</strong>、Research と Claude Blog が <strong>2026-04-30</strong> だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Medium",
+      "datetime": "2026-05-01T06:29:34+09:00",
+      "displayTime": "2026-05-01 06:29 JST",
+      "title": "@_catwu",
+      "summary": "Claude Code 開発リードの <strong>cat wu</strong> が、<strong>Claude Security public beta</strong> を <strong>Claude Code on the web</strong> に内蔵したと告知した。リポジトリを指定すると検証済みの脆弱性検出と修正提案がコードを書く同じ場所で完結する。Code on the web と Security の統合 signal を継続して記録した。",
+      "url": "https://x.com/_catwu/status/2049964403177689130",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-05-02T00:13:26+09:00",
+      "displayTime": "2026-05-02 00:13 JST",
+      "title": "@trq212",
+      "summary": "<strong>Thariq</strong> が <strong>@CAISconf</strong>（Center for AI Safety 関連カンファレンス）登壇を <strong>@AnthropicAI</strong> 共催で告知した。Claude Code の責任者級が外部 AI safety カンファレンスに登壇する露出 signal として記録。",
+      "url": "https://x.com/trq212/status/2050232133705437652",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式サイトの visible publication date を確認したが、窓内に入る新規記事は News / Engineering / Research / Claude Blog いずれも 0 件だった。",
+      "details": [
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（<strong>Claude for Creative Work</strong>）。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）。",
+        "Claude Blog の最新 visible publication date は <em>Apr 30, 2026</em>（Cowork / Claude API skill / Prompt caching / Kepler / Building AI agents の 4-5 記事）。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em>。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で前日 <strong>2026-05-01</strong> 分の日次 JSON に掲載済み。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.126</code>（<strong>2026-05-01 11:05 JST</strong>）で前日掲載分。",
+        "次点は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）、<code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓外。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（Bun の HTTP/3 サーバ開発、Cockney 隠語、ロンドンのカフェ、internet fiction メタ言及など）は除外。",
+    "前日掲載済みの Claude Security beta、personal guidance 研究、Hackathon 受賞作スレッドは再掲しない。",
+    "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で確認し、窓内の新規 release は 0 件だったため再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "@_catwu: Claude Security in Claude Code on the web",
+      "url": "https://x.com/_catwu/status/2049964403177689130"
+    },
+    {
+      "title": "Thariq: CAISconf appearance",
+      "url": "https://x.com/trq212/status/2050232133705437652"
+    }
+  ]
+}
