@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "windowLabel": "2026-05-01 00:28:15 JST - 2026-05-02 00:28:00 JST",
+  "windowLabel": "2026-05-01 00:37:05 JST - 2026-05-02 00:37:00 JST",
   "archiveTitle": "Quiet aftermath: Security beta, Code on the web, no new release/blog",
   "archiveSummary": "Claude Code <code>v2.1.126</code> と Claude Security の Code on the web 内蔵、personal guidance 研究のフォローが中心。窓内の新規 release / blog / Engineering / News はなし。",
   "latestSummary": "前日に集中した <strong>Claude Security public beta</strong>、<strong>Claude Code <code>v2.1.126</code></strong>、<strong>How people ask Claude for personal guidance</strong> 研究、<strong>Mythos Preview</strong> 言及などのフォローが続く一日となった。新規 Claude Code release は窓内 0 件、公式ブログ / Engineering / News / Research も窓内に新規記事なし。",
@@ -8,7 +8,7 @@
     "<strong>@_catwu</strong> の <strong>Claude Code on the web に Claude Security を統合</strong>した告知（窓開始 8 分前の <strong>2026-04-30 23:59 JST</strong> 直後にあたる <strong>2026-05-01 06:29 JST</strong>）が窓内に入り、Code on the web と Security の統合 signal として記録した。",
     "<strong>@trq212</strong> が <strong>CAISconf</strong> 登壇を <strong>@AnthropicAI</strong> 共催で告知（<strong>2026-05-02 00:13 JST</strong>）。",
     "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）はこの 24 時間窓に入る新規本投稿が 0 件だった。前日告知の Claude Security beta / personal guidance 研究は窓開始より前。",
-    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で窓開始 <strong>2026-05-01 00:28 JST</strong> より後だが、これは前日 04:37 JST の窓を境界とした前日掲載済みのため再掲しない。"
+    "<strong>GitHub Releases</strong> も窓内 0 件。最新 <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で窓開始 <strong>2026-05-01 00:37 JST</strong> より後だが、これは前日 04:37 JST の窓を境界とした前日掲載済みのため再掲しない。"
   ],
   "officialNews": [],
   "officialZeroStates": [
