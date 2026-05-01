@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "windowLabel": "2026-04-30 12:28:12 JST - 2026-05-01 12:28:00 JST",
+  "windowLabel": "2026-04-30 12:37:05 JST - 2026-05-01 12:37:00 JST",
   "archiveTitle": "Claude Code v2.1.126, Security beta in Code on web, personal guidance study",
   "archiveSummary": "Claude Code <code>v2.1.126</code> が窓内に公開（v2.1.124/125 は欠番）。Claude Security の Claude Code on the web 統合、1M会話分析の personal guidance 研究、Mythos Preview 言及などをまとめた。",
   "latestSummary": "Claude Code <strong>v2.1.126</strong> が窓内にリリースされ、<code>What's changed</code> 計 33 項目を完全取得し新機能 / 修正に分けて全件和訳した。<strong>@_catwu</strong> が <strong>Claude Code on the web</strong> への <strong>Claude Security</strong> 内蔵を告知し、<strong>@AnthropicAI</strong> は 1M 会話分析の <strong>How people ask Claude for personal guidance</strong> 研究で <strong>Opus 4.7 / Mythos Preview</strong> による sycophancy 削減成果を報告した。Claude Blog にも 4 記事（Security beta / Prompt caching / Kepler / enterprise agents）が掲載された。",
