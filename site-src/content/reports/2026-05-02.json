@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "windowLabel": "2026-05-01 04:37:05 JST - 2026-05-02 04:37:00 JST",
+  "windowLabel": "2026-05-01 08:28:16 JST - 2026-05-02 08:28:00 JST",
   "archiveTitle": "Code with Claude conf next week, Forked Subagent paused, non-tech PM blog",
   "archiveSummary": "@claudeai が Code with Claude developer conference の来週開催を告知、@dmwlff が Forked Subagent 実験の一時停止を発表、Claude Blog に非エンジニア PM の Claude Code 事例が追加された。",
   "latestSummary": "<strong>@claudeai</strong> が来週開催の <strong>Code with Claude</strong> developer conference を告知、<strong>@dmwlff</strong>（Adam Wolff）は <strong>Forked Subagent 実験を一時停止</strong>し効率化を再検討中と発表、Claude Blog には非エンジニア PM が <strong>Claude Code で 6 週間でストレス管理アプリ</strong>をリリースした事例が掲載された。Claude Code release は窓内 0 件。",
@@ -87,7 +87,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で今回の窓開始 <strong>2026-05-01 04:37 JST</strong> より後だが、前日 <strong>2026-05-01</strong> 分の日次 JSON に掲載済み。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で今回の窓開始 <strong>2026-05-01 08:28 JST</strong> より後だが、前日 <strong>2026-05-01</strong> 分の日次 JSON に掲載済み。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.126</code>（<strong>2026-05-01 11:05 JST</strong>）で前日掲載分。",
         "次点は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）、<code>v2.1.122</code>（<strong>2026-04-29 07:05 JST</strong>）でいずれも窓外。",
