@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "windowLabel": "2026-05-02 00:28:19 JST - 2026-05-03 00:28:00 JST",
+  "windowLabel": "2026-05-02 00:37:04 JST - 2026-05-03 00:37:00 JST",
   "archiveTitle": "Quiet weekend: harness experiments and mobile UI fixes continue",
   "archiveSummary": "Code with Claude conf 来週開催、CLAUDE_CODE_SIMPLE / FORK_SUBAGENT 一時停止、Robert Bye の mobile UI fixes フォローが中心。新規 release / blog なし。",
   "latestSummary": "前日告知された <strong>Code with Claude</strong> developer conference の来週開催、<strong>CLAUDE_CODE_FORK_SUBAGENT</strong> 実験の一時停止と <strong>CLAUDE_CODE_SIMPLE=1</strong> という最小 harness 試作、Robert Bye の <strong>金曜午後 Claude モバイルアプリ UI/UX 修正</strong>宣言とそのフォロー返信が続く一日となった。Claude Code release は窓内 0 件、公式 News / Engineering / Research / Claude Blog も窓内に新規記事なし。",
