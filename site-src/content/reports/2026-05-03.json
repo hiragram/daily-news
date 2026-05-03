@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "windowLabel": "2026-05-02 08:37:05 JST - 2026-05-03 08:37:00 JST",
+  "windowLabel": "2026-05-02 12:28:23 JST - 2026-05-03 12:28:00 JST",
   "archiveTitle": "Quiet weekend: harness experiments and mobile UI fixes continue",
   "archiveSummary": "Code with Claude conf 来週開催、CLAUDE_CODE_SIMPLE / FORK_SUBAGENT 一時停止、Robert Bye の mobile UI fixes フォローが中心。新規 release / blog なし。",
   "latestSummary": "前日告知された <strong>Code with Claude</strong> developer conference の来週開催、<strong>CLAUDE_CODE_FORK_SUBAGENT</strong> 実験の一時停止と <strong>CLAUDE_CODE_SIMPLE=1</strong> という最小 harness 試作、Robert Bye の <strong>金曜午後 Claude モバイルアプリ UI/UX 修正</strong>宣言とそのフォロー返信が続く一日となった。Claude Code release は窓内 0 件、公式 News / Engineering / Research / Claude Blog も窓内に新規記事なし。",
@@ -38,6 +38,15 @@
       "title": "@trq212",
       "summary": "<strong>Thariq</strong> が <strong>CLAUDE_CODE_SIMPLE=1</strong> という新 opt-in 環境変数を案内した。Claude Code チームによる <strong>最も簡素な harness</strong> の試作で、必須ではないが触ってみてほしいと述べた。harness 設計を再検討中の signal が継続。",
       "url": "https://x.com/trq212/status/2050391489612747186",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-05-03T07:06:17+09:00",
+      "displayTime": "2026-05-03 07:06 JST",
+      "title": "@adocomplete",
+      "summary": "<strong>Ado</strong>（Anthropic デザイン関係者）が <strong>「GitHub が日に日に使えなくなってきている。誰か待望の代替を作っている人はいないか」</strong>と投稿し、リプライで <strong>「agents が持ち込む activity 量に対して何か新しいものが必要」</strong>と補足。コーディング agent が常駐する世界で従来の forge UX が辛くなっている、という developer infrastructure signal として記録。",
+      "url": "https://x.com/adocomplete/status/2050698416074989609",
       "urlLabel": "投稿を見る"
     },
     {
@@ -99,6 +108,10 @@
     {
       "title": "Adam Wolff: Forked Subagent paused",
       "url": "https://x.com/dmwlff/status/2050254633067778322"
+    },
+    {
+      "title": "Ado: GitHub usability complaint and agent-era forge alternative",
+      "url": "https://x.com/adocomplete/status/2050698416074989609"
     },
     {
       "title": "@claudeai: Code with Claude conference (前日)",
