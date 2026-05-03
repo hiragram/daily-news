@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-04",
+  "windowLabel": "2026-05-03 00:28:31 JST - 2026-05-04 00:28:00 JST",
+  "archiveTitle": "Quiet Sunday: Bun auto-fix pipeline, /loop reminder",
+  "archiveSummary": "@jarredsumner が Bun の GitHub issues を Claude で自動修正する pipeline を披露、Claude Code 内蔵の <code>/loop</code> も再周知された。新規 release / blog なし。",
+  "latestSummary": "<strong>@jarredsumner</strong>（Bun 作者）が <strong>Bun の GitHub issues を Claude で自動修正する pipeline</strong>を披露し、Opus 4.7 / 4.6 / 4.5 で実用的、help ticket からの自動バグ修正にも応用できると述べた。Claude Code 内蔵の <code>/loop &lt;prompt&gt;</code> 機能（先月リリース）も再周知された。新規 Claude Code release / 公式 blog / News / Engineering / Research は窓内 0 件。",
+  "summaryBullets": [
+    "<strong>@jarredsumner</strong> が <strong>Bun の GitHub issues を Claude で自動修正する pipeline</strong>を披露し、<strong>「3 年前の自分にこれを言っても信じない」</strong>と述懐。<strong>VC-backed OSS</strong> や <strong>help ticket を抱える企業</strong>で同等の pipeline が <strong>Opus 4.7 / 4.6 / 4.5</strong> で実用的と続けた。",
+    "同スレッド内で <strong>Claude Code 内蔵の <code>/loop &lt;prompt&gt;</code></strong> が <strong>「team が 1〜2 か月前に shipped」</strong>と再周知された。",
+    "<strong>@adocomplete</strong> の前日 <strong>「GitHub の代替が必要、agent 時代の forge UX 議論」</strong>スレッドが続き、Gitlab はそのままでは agent 量に耐えないとの補足が入った。",
+    "監視対象の公式 X（<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong>）はこの 24 時間窓に新規本投稿 0 件。<strong>GitHub Releases</strong> も 0 件。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。<strong>Code with Claude</strong> developer conference（来週開催）は前日告知済み。"
+    },
+    {
+      "label": "Engineering / News / Research / Blog 0件",
+      "body": "公式サイトでは <strong>News</strong>、<strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News が <strong>2026-04-28</strong>、Research が <strong>2026-04-30</strong>、Claude Blog が <strong>2026-05-01</strong>、Engineering が <strong>2026-04-08</strong> だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-05-03T21:30:23+09:00",
+      "displayTime": "2026-05-03 21:30 JST",
+      "title": "@jarredsumner",
+      "summary": "<strong>Jarred Sumner</strong>（Bun 作者）が <strong>「Bun の GitHub issues が Claude で自動修正される」</strong>スレッドを投稿し、<strong>「3 年前の自分にそう言っても信じなかった」</strong>と述懐。続く返信で <strong>「自分の業務の大半が、Claude が出してきた PR を慎重に review してマージするか選ぶ作業」</strong>になっていると明かし、<strong>VC-backed OSS</strong> や <strong>help ticket 大量保有企業</strong>でも同等パイプラインが <strong>Opus 4.7 / 4.6 / 4.5</strong> で実用的と述べた。Claude Code を OSS 開発のメインループに据えた事例 signal。",
+      "url": "https://x.com/jarredsumner/status/2050915875755311126",
+      "urlLabel": "投稿スレッドを見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-05-03T22:02:10+09:00",
+      "displayTime": "2026-05-03 22:02 JST",
+      "title": "@jarredsumner",
+      "summary": "上記 thread への返信で、<strong>Claude Code 内蔵の <code>/loop &lt;prompt&gt;</code> が「team が 1〜2 か月前に shipped」</strong>と再周知。help ticket 自動消化やバッチ処理への利用を示唆する signal。",
+      "url": "https://x.com/jarredsumner/status/2050923875308064983",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-05-03T07:06:17+09:00",
+      "displayTime": "2026-05-03 07:06 JST",
+      "title": "@adocomplete",
+      "summary": "<strong>Ado</strong>（Anthropic デザイン関係者）が <strong>「GitHub が日に日に使えなくなってきている。誰か待望の代替を作っている人はいないか」</strong>と投稿し、リプライで <strong>「agents が持ち込む activity 量に対して何か新しいものが必要」「Gitlab も良い製品だが現状では足りない」</strong>と補足。コーディング agent が常駐する時代の forge UX に対する不満 signal が継続中。",
+      "url": "https://x.com/adocomplete/status/2050698416074989609",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-05-03T14:35:57+09:00",
+      "displayTime": "2026-05-03 14:35 JST",
+      "title": "@RobertJBye",
+      "summary": "<strong>Robert Bye</strong> が <strong>「AI を使いこなせて事業センスがあるデザイナーは tech で最も影響力のある人材になる」</strong>と表明。続く返信で <strong>「ピクセルだけ動かすデザイナーは、ただコードを書くだけのエンジニアや PRD と standup だけの PM と同じくらい用なしになる」</strong>と踏み込み、デザイナー × AI のキャリア論として記録。",
+      "url": "https://x.com/RobertJBye/status/2050958539041153312",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式サイトの visible publication date を確認したが、窓内に入る新規記事は News / Engineering / Research / Claude Blog いずれも 0 件だった。",
+      "details": [
+        "Anthropic News の最新 visible publication date は <em>Apr 28, 2026</em>（<strong>Claude for Creative Work</strong>）。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）。",
+        "Claude Blog の最新 visible publication date は <em>May 1, 2026</em>（<strong>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</strong>）。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em>（<strong>Scaling Managed Agents</strong>）。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog を確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で前日 <strong>2026-05-01</strong> 分の日次 JSON に掲載済み。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.126</code>（<strong>2026-05-01 11:05 JST</strong>）。",
+        "次点は <code>v2.1.123</code>（<strong>2026-04-29 12:29 JST</strong>）でいずれも窓外。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（F1 / IMAX、Apple TV、Florida のスコールなど）は除外。",
+    "Bun 内部実装に関する技術 reply（typed array pinning、SIMD JSON、glibc 動的リンクなど）は Claude / Anthropic 関連 signal ではないため除外。",
+    "公式サイトの visible publication date が窓外だった記事は、sources と zero-state の根拠には使うが officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で確認し、窓内の新規 release は 0 件だったため再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "Jarred Sumner: Bun GitHub issues auto-fix pipeline",
+      "url": "https://x.com/jarredsumner/status/2050915875755311126"
+    },
+    {
+      "title": "Jarred Sumner: /loop reminder",
+      "url": "https://x.com/jarredsumner/status/2050923875308064983"
+    },
+    {
+      "title": "Ado: GitHub usability complaint and agent-era forge alternative",
+      "url": "https://x.com/adocomplete/status/2050698416074989609"
+    },
+    {
+      "title": "Robert Bye: designers + AI career take",
+      "url": "https://x.com/RobertJBye/status/2050958539041153312"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    }
+  ]
+}
