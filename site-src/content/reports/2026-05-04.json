@@ -1,6 +1,6 @@
 {
   "date": "2026-05-04",
-  "windowLabel": "2026-05-03 12:28:21 JST - 2026-05-04 12:28:00 JST",
+  "windowLabel": "2026-05-03 16:28:24 JST - 2026-05-04 16:28:00 JST",
   "archiveTitle": "Quiet Sunday: Bun auto-fix pipeline, /loop reminder",
   "archiveSummary": "@jarredsumner が Bun の GitHub issues を Claude で自動修正する pipeline を披露、Claude Code 内蔵の <code>/loop</code> も再周知された。新規 release / blog なし。",
   "latestSummary": "<strong>@jarredsumner</strong>（Bun 作者）が <strong>Bun の GitHub issues を Claude で自動修正する pipeline</strong>を披露し、Opus 4.7 / 4.6 / 4.5 で実用的、help ticket からの自動バグ修正にも応用できると述べた。Claude Code 内蔵の <code>/loop &lt;prompt&gt;</code> 機能（先月リリース）も再周知された。新規 Claude Code release / 公式 blog / News / Engineering / Research は窓内 0 件。",
