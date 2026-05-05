@@ -1,12 +1,13 @@
 {
   "date": "2026-05-06",
-  "windowLabel": "2026-05-05 04:28:10 JST - 2026-05-06 04:28:10 JST",
-  "archiveTitle": "Finance agents, weaker-supervisor research, Code with Claude SF",
-  "archiveSummary": "金融サービス向け Claude エージェントテンプレート、弱い supervisor で強いモデルを訓練する Anthropic Fellows 研究、Code with Claude SF キックオフ、Claude Code v2.1.128 をまとめた。",
-  "latestSummary": "Anthropic が <strong>金融サービス向けの Claude エージェントテンプレート</strong>を公式 News と Claude Blog の両方で発表し、Cowork / Claude Code に plugin として導入可能になった。<strong>@AnthropicAI</strong> 公式アカウントは <strong>弱いモデルを supervisor として強いモデルをほぼ完全な能力まで訓練できる</strong>新研究を公開。<strong>Code with Claude SF</strong> も翌日キックオフと案内された。Claude Code <code>v2.1.128</code>（窓内）の release notes 全 34 項目も完全和訳した。",
+  "windowLabel": "2026-05-05 08:28:10 JST - 2026-05-06 08:28:10 JST",
+  "archiveTitle": "Finance agents, MSM/weak-supervisor research, Code with Claude SF",
+  "archiveSummary": "金融サービス向け Claude エージェントテンプレート、Model Spec Midtraining と弱い supervisor 研究、Code with Claude SF キックオフ、Claude Code v2.1.128 をまとめた。",
+  "latestSummary": "Anthropic が <strong>金融サービス向けの Claude エージェントテンプレート</strong>を公式 News と Claude Blog の両方で発表し、Cowork / Claude Code に plugin として導入可能になった。<strong>@AnthropicAI</strong> は <strong>Model Spec Midtraining (MSM)</strong> と <strong>弱い supervisor で強いモデルを訓練</strong>する 2 本の Anthropic Fellows 研究を窓内に公開。<strong>Code with Claude SF</strong> も翌日キックオフと案内された。Claude Code <code>v2.1.128</code>（窓内）の release notes 全 34 項目も完全和訳した。",
   "summaryBullets": [
     "公式 News と Claude Blog に <strong>Agents for financial services / Deploying Claude across financial services</strong>（2026-05-05）の 2 本が掲載され、ピッチ作成・バリュエーションレビュー・月次決算などのエージェントテンプレートが公開された。",
-    "<strong>@AnthropicAI</strong> が、<strong>弱いモデルを supervisor として強いモデルを near-full capability まで訓練できる</strong>ことを示した Anthropic Fellows の研究を発表。AI が人間に検証しきれない仕事をするとき deliberately 手抜きされても気づけない問題への対策。",
+    "<strong>@AnthropicAI</strong> が <strong>Model Spec Midtraining (MSM)</strong> という新研究を 6 投稿スレッドで公開。pre-training 後・alignment fine-tuning 前に <strong>Model Spec の合成ドキュメント</strong>でモデルを訓練することで、後続のアライメント訓練の汎化を改善し agentic misalignment を大幅に低減できる。",
+    "<strong>@AnthropicAI</strong> はもう 1 本、<strong>弱いモデルを supervisor として強いモデルを near-full capability まで訓練できる</strong>ことを示した Anthropic Fellows 研究も発表。AI が人間に検証しきれない仕事をするとき deliberately 手抜きされても気づけない問題への対策。",
     "<strong>@adocomplete</strong> が <strong>Code with Claude SF</strong> 翌日（2026-05-06）キックオフを告知し、<strong>Day 1 はライブストリーミング</strong>もすると返信。",
     "<strong>Claude Code <code>v2.1.128</code></strong>（<strong>2026-05-05 08:01 JST</strong>）が引き続き窓内に該当し、<code>What's changed</code> 全 34 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。"
   ],
@@ -29,6 +30,15 @@
       "summary": "Claude Blog に <strong>Deploying Claude across financial services</strong>（Enterprise AI カテゴリ）が公開された。金融機関での Claude 導入の運用ガイドにあたり、News 側の <strong>Agents for financial services</strong> を実装側から補強する位置付け。",
       "url": "https://claude.com/blog/deploying-claude-across-financial-services",
       "urlLabel": "Blog を読む"
+    },
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-05-06T05:18:47+09:00",
+      "displayTime": "2026-05-06 05:18 JST",
+      "title": "Model Spec Midtraining (MSM) を発表",
+      "summary": "<strong>@AnthropicAI</strong> が <strong>Model Spec Midtraining (MSM)</strong> という新研究を 6 投稿スレッドで公開した。<strong>pre-training の後・alignment fine-tuning の前</strong>に、Model Spec を議論する合成ドキュメントでモデルを訓練することで、後続のアライメント訓練の汎化を方向付ける手法。同じ alignment fine-tuning でも <strong>MSM で使った Spec によって異なる価値観</strong>に汎化することを toy example（チーズ嗜好を pro-America / pro-affordability 価値観へ汎化）と現実例（agentic 設定での unsafe action 削減）で示した。<strong>MSM は agentic misalignment を大幅に低減</strong>でき、また Spec / Constitution の何が generalization に効くかを実証研究できる。<strong>ルールを書くだけでなく、その背後にある価値や詳細サブルールを説明する方が良い汎化を生む</strong>と結論。論文は arXiv（2605.02087）と alignment.anthropic.com に公開。",
+      "url": "https://x.com/AnthropicAI/status/2051758528562364902",
+      "urlLabel": "MSM スレッドを見る"
     },
     {
       "label": "@AnthropicAI",
@@ -195,6 +205,14 @@
     {
       "title": "Claude Blog: Deploying Claude across financial services",
       "url": "https://claude.com/blog/deploying-claude-across-financial-services"
+    },
+    {
+      "title": "@AnthropicAI: Model Spec Midtraining (MSM) thread",
+      "url": "https://x.com/AnthropicAI/status/2051758528562364902"
+    },
+    {
+      "title": "Anthropic Alignment: Model Spec Midtraining post",
+      "url": "https://alignment.anthropic.com/2026/msm"
     },
     {
       "title": "@AnthropicAI: weaker-supervisor training research",
