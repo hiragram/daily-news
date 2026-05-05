@@ -1,14 +1,14 @@
 {
   "date": "2026-05-06",
-  "windowLabel": "2026-05-05 00:28:12 JST - 2026-05-06 00:28:12 JST",
-  "archiveTitle": "Finance agent templates and Claude Code v2.1.128",
-  "archiveSummary": "金融サービス向けの Claude エージェントテンプレート発表、Claude Code v2.1.128、keyless auth フォローと Jack Clark の RSI essay をまとめた。",
-  "latestSummary": "Anthropic が <strong>金融サービス向けの Claude エージェントテンプレート</strong>を公式 News と @claudeai で発表し、Cowork / Claude Code に plugin として導入可能になった。Claude Code は <code>v2.1.128</code>（窓内）の release notes 全 34 項目を完全和訳し、引き続き keyless auth と Jack Clark の Import AI 455 essay も窓内 signal として残った。",
+  "windowLabel": "2026-05-05 04:28:10 JST - 2026-05-06 04:28:10 JST",
+  "archiveTitle": "Finance agents, weaker-supervisor research, Code with Claude SF",
+  "archiveSummary": "金融サービス向け Claude エージェントテンプレート、弱い supervisor で強いモデルを訓練する Anthropic Fellows 研究、Code with Claude SF キックオフ、Claude Code v2.1.128 をまとめた。",
+  "latestSummary": "Anthropic が <strong>金融サービス向けの Claude エージェントテンプレート</strong>を公式 News と Claude Blog の両方で発表し、Cowork / Claude Code に plugin として導入可能になった。<strong>@AnthropicAI</strong> 公式アカウントは <strong>弱いモデルを supervisor として強いモデルをほぼ完全な能力まで訓練できる</strong>新研究を公開。<strong>Code with Claude SF</strong> も翌日キックオフと案内された。Claude Code <code>v2.1.128</code>（窓内）の release notes 全 34 項目も完全和訳した。",
   "summaryBullets": [
-    "公式 News に <strong>Agents for financial services</strong>（2026-05-05）が掲載され、ピッチ作成・バリュエーションレビュー・月次決算などをカバーするエージェントテンプレートが公開された。",
-    "<strong>@claudeai</strong> が同テンプレートを <strong>Cowork / Claude Code の plugin</strong> として install できること、cookbook を使えば <strong>Managed Agents</strong> として本番運用も可能なことを告知した。",
-    "<strong>Claude Code <code>v2.1.128</code></strong>（<strong>2026-05-05 08:01 JST</strong>）が引き続き窓内に該当し、<code>What's changed</code> 全 34 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。",
-    "<strong>@ClaudeDevs</strong> の keyless auth（Workload Identity Federation）告知と、<strong>@jackclarkSF</strong> の Import AI 455（recursive self-improvement 60% by 2028）も窓内に残った。"
+    "公式 News と Claude Blog に <strong>Agents for financial services / Deploying Claude across financial services</strong>（2026-05-05）の 2 本が掲載され、ピッチ作成・バリュエーションレビュー・月次決算などのエージェントテンプレートが公開された。",
+    "<strong>@AnthropicAI</strong> が、<strong>弱いモデルを supervisor として強いモデルを near-full capability まで訓練できる</strong>ことを示した Anthropic Fellows の研究を発表。AI が人間に検証しきれない仕事をするとき deliberately 手抜きされても気づけない問題への対策。",
+    "<strong>@adocomplete</strong> が <strong>Code with Claude SF</strong> 翌日（2026-05-06）キックオフを告知し、<strong>Day 1 はライブストリーミング</strong>もすると返信。",
+    "<strong>Claude Code <code>v2.1.128</code></strong>（<strong>2026-05-05 08:01 JST</strong>）が引き続き窓内に該当し、<code>What's changed</code> 全 34 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。"
   ],
   "officialNews": [
     {
@@ -20,6 +20,24 @@
       "url": "https://www.anthropic.com/news/finance-agents",
       "urlLabel": "公式発表を読む",
       "primary": true
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-05-05T17:00:00+09:00",
+      "displayTime": "2026-05-05 JST",
+      "title": "Deploying Claude across financial services（Claude Blog）",
+      "summary": "Claude Blog に <strong>Deploying Claude across financial services</strong>（Enterprise AI カテゴリ）が公開された。金融機関での Claude 導入の運用ガイドにあたり、News 側の <strong>Agents for financial services</strong> を実装側から補強する位置付け。",
+      "url": "https://claude.com/blog/deploying-claude-across-financial-services",
+      "urlLabel": "Blog を読む"
+    },
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-05-06T02:38:58+09:00",
+      "displayTime": "2026-05-06 02:38 JST",
+      "title": "弱い supervisor で強いモデルを near-full capability まで訓練",
+      "summary": "<strong>@AnthropicAI</strong> が、AI が人間に完全には検証しきれない仕事をするようになると <strong>能力ある モデルが意図的に手を抜いても気づけなくなる</strong>という懸念に対する Anthropic Fellows の新研究を発表した。<strong>弱いモデルを supervisor として強いモデルを near-full capability まで訓練</strong>できることを示しており、<strong>@emilaryd</strong> の元スレッドへの引用形式で公開された。",
+      "url": "https://x.com/AnthropicAI/status/2051718308702081047",
+      "urlLabel": "@AnthropicAI の投稿"
     },
     {
       "label": "@claudeai",
@@ -42,17 +60,22 @@
   ],
   "officialZeroStates": [
     {
-      "label": "0件",
-      "body": "<strong>@AnthropicAI</strong> はこの 24 時間窓内に新規本投稿が確認できなかった。"
-    },
-    {
-      "label": "Engineering / Research / Claude Blog 0件",
-      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> の visible publication date が窓内に入る新規記事を確認できなかった。News のみ <strong>2026-05-05</strong> に新規 1 件があった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong>、Claude Blog が <strong>2026-05-01</strong> だった。"
+      "label": "Engineering / Research 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong> の visible publication date が窓内に入る新規記事を確認できなかった。News と Claude Blog はそれぞれ <strong>2026-05-05</strong> に金融サービス関連の新規 1 件があった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong> だった。"
     }
   ],
   "signals": [
     {
       "label": "High",
+      "datetime": "2026-05-06T03:06:26+09:00",
+      "displayTime": "2026-05-06 03:06 JST",
+      "title": "@adocomplete",
+      "summary": "<strong>Code with Claude SF が翌日（2026-05-06）キックオフ</strong>であると告知。返信で <strong>Day 1 はライブストリーミングされる</strong>ことも明言した。Anthropic の旗艦開発者イベントの開幕 signal として記録。",
+      "url": "https://x.com/adocomplete/status/2051725221296775437",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Medium",
       "datetime": "2026-05-04T23:47:28+09:00",
       "displayTime": "2026-05-04 23:47 JST",
       "title": "@jackclarkSF",
@@ -61,25 +84,25 @@
       "urlLabel": "essay スレッドを見る"
     },
     {
-      "label": "Medium",
-      "datetime": "2026-05-05T06:15:06+09:00",
-      "displayTime": "2026-05-05 06:15 JST",
-      "title": "@trq212",
-      "summary": "Claude Code のスクロール改善に取り組んでいると述べ、<strong>@ballingt</strong> を CC しつつ報告者の terminal / OS を確認した。fullscreen renderer 周りの継続改善 signal として記録。",
-      "url": "https://x.com/trq212/status/2051410313996857560",
+      "label": "Low",
+      "datetime": "2026-05-06T02:14:05+09:00",
+      "displayTime": "2026-05-06 02:14 JST",
+      "title": "@AmandaAskell",
+      "summary": "<strong>「Claude がデザインした衣装で Met Gala に行く」</strong>を人生の goal リストに追加したと冗談混じりに投稿した。Anthropic の researcher による軽めの communications signal として記録。",
+      "url": "https://x.com/AmandaAskell/status/2051712044454555841",
       "urlLabel": "投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "News 1件 / Engineering・Research・Claude Blog 0件",
-      "body": "公式サイトの visible publication date を確認したところ、News に窓内 1 件（金融向け Claude エージェント発表）が入った。Engineering、Research、Claude Blog は窓内に新規記事なし。",
+      "headline": "News 1件 / Blog 1件 / Engineering・Research 0件",
+      "body": "公式サイトの visible publication date を確認したところ、News と Claude Blog にそれぞれ窓内 1 件ずつ入った。Engineering、Research は窓内に新規記事なし。",
       "details": [
         "Anthropic News は <em>May 5, 2026</em> に <strong>Agents for financial services</strong> が公開された。",
+        "Claude Blog は <em>May 5, 2026</em> に <strong>Deploying Claude across financial services</strong> が公開された（金融サービスでの Claude 導入運用ガイド）。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> だった。",
-        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）だった。",
-        "Claude Blog の最新 visible publication date は <em>May 1, 2026</em>（<strong>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</strong>）だった。"
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）だった。"
       ],
       "url": "https://www.anthropic.com/news",
       "urlLabel": "公式サイトを確認"
@@ -170,8 +193,24 @@
       "url": "https://www.anthropic.com/news/finance-agents"
     },
     {
+      "title": "Claude Blog: Deploying Claude across financial services",
+      "url": "https://claude.com/blog/deploying-claude-across-financial-services"
+    },
+    {
+      "title": "@AnthropicAI: weaker-supervisor training research",
+      "url": "https://x.com/AnthropicAI/status/2051718308702081047"
+    },
+    {
       "title": "@claudeai: Finance agent templates thread",
       "url": "https://x.com/claudeai/status/2051679629488865498"
+    },
+    {
+      "title": "@adocomplete: Code with Claude SF kickoff",
+      "url": "https://x.com/adocomplete/status/2051725221296775437"
+    },
+    {
+      "title": "@AmandaAskell: Met Gala life goal",
+      "url": "https://x.com/AmandaAskell/status/2051712044454555841"
     },
     {
       "title": "@ClaudeDevs: Claude Platform keyless auth",
@@ -200,10 +239,6 @@
     {
       "title": "Jack Clark: Import AI 455 essay on RSI",
       "url": "https://x.com/jackclarkSF/status/2051312759594471886"
-    },
-    {
-      "title": "Thariq: scrolling improvements",
-      "url": "https://x.com/trq212/status/2051410313996857560"
     }
   ]
 }
