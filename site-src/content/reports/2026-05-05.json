@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "windowLabel": "2026-05-04 11:12:09 JST - 2026-05-05 11:12:09 JST",
+  "windowLabel": "2026-05-04 12:28:10 JST - 2026-05-05 12:28:10 JST",
   "archiveTitle": "Enterprise AI services JV, keyless auth, Claude Code v2.1.128",
   "archiveSummary": "Anthropic + Blackstone / Hellman & Friedman / Goldman Sachs の新エンタープライズ AI 合弁、Claude Platform の keyless auth、Claude Code v2.1.128、Jack Clark の RSI essay をまとめた。",
   "latestSummary": "Anthropic が <strong>Blackstone・Hellman & Friedman・Goldman Sachs</strong> と組んだ新エンタープライズ AI サービス会社の設立を公式 News で発表し、Claude Platform は <strong>Workload Identity Federation 経由の keyless auth</strong> に対応した。Claude Code は <code>v2.1.128</code> が窓内に公開され、新機能 11 / 修正 23 = 計 34 項目を完全和訳した。Engineer signal は <strong>@jackclarkSF</strong> による <strong>recursive self-improvement 60% by 2028</strong> の Import AI 455 essay が中心。",
