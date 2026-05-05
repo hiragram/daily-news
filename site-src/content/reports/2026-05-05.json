@@ -1,0 +1,209 @@
+{
+  "date": "2026-05-05",
+  "windowLabel": "2026-05-04 11:12:09 JST - 2026-05-05 11:12:09 JST",
+  "archiveTitle": "Enterprise AI services JV, keyless auth, Claude Code v2.1.128",
+  "archiveSummary": "Anthropic + Blackstone / Hellman & Friedman / Goldman Sachs の新エンタープライズ AI 合弁、Claude Platform の keyless auth、Claude Code v2.1.128、Jack Clark の RSI essay をまとめた。",
+  "latestSummary": "Anthropic が <strong>Blackstone・Hellman & Friedman・Goldman Sachs</strong> と組んだ新エンタープライズ AI サービス会社の設立を公式 News で発表し、Claude Platform は <strong>Workload Identity Federation 経由の keyless auth</strong> に対応した。Claude Code は <code>v2.1.128</code> が窓内に公開され、新機能 11 / 修正 23 = 計 34 項目を完全和訳した。Engineer signal は <strong>@jackclarkSF</strong> による <strong>recursive self-improvement 60% by 2028</strong> の Import AI 455 essay が中心。",
+  "summaryBullets": [
+    "公式 News に <strong>Anthropic + Blackstone / Hellman & Friedman / Goldman Sachs</strong> による新しいエンタープライズ AI サービス会社の設立発表（2026-05-04）。",
+    "<strong>@ClaudeDevs</strong> が Claude Platform の <strong>keyless auth</strong>（CLI ブラウザ認証 + AWS / GCP / Azure / 任意 OIDC の Workload Identity Federation）を発表。",
+    "<strong>Claude Code <code>v2.1.128</code></strong>（<strong>2026-05-05 08:01 JST</strong>）が窓内に公開され、<code>What's changed</code> 全 34 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。<code>v2.1.124</code> / <code>v2.1.125</code> / <code>v2.1.127</code> は番号飛びでリスト未掲載。",
+    "Engineer signal は <strong>@jackclarkSF</strong> が Import AI 455 で <strong>RSI（recursive self-improvement）が 2028 年末までに起こる確率 60%</strong>と論じる大型 essay を公開し、CORE-Bench / MLE-Bench / PostTrainBench の進捗図を例示した。"
+  ],
+  "officialNews": [
+    {
+      "label": "News",
+      "datetime": "2026-05-04T17:00:00+09:00",
+      "displayTime": "2026-05-04 JST",
+      "title": "Anthropic + Blackstone / Hellman & Friedman / Goldman Sachs で新エンタープライズ AI サービス会社を設立",
+      "summary": "Anthropic が <strong>Blackstone</strong>、<strong>Hellman & Friedman</strong>、<strong>Goldman Sachs</strong> と共同で新たな <strong>エンタープライズ AI サービス会社</strong>を立ち上げると公式 News で発表した。具体的な事業範囲は公式ページ参照。発表時刻はページに hour / minute 指定がないため、ローカル日付ベースの掲載とした。",
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+      "urlLabel": "公式発表を読む",
+      "primary": true
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-05T05:09:08+09:00",
+      "displayTime": "2026-05-05 05:09 JST",
+      "title": "Claude Platform に keyless auth（Workload Identity Federation）を導入",
+      "summary": "<strong>@ClaudeDevs</strong> が、API キー管理に関する顧客の懸念に応える形で <strong>Claude Platform の keyless auth</strong> を発表した。CLI でブラウザ経由の認証ができるほか、ワークロードは <strong>AWS / GCP / Azure / 任意の OIDC token provider</strong> から発行された short-lived identity token で認証できるようになる。詳細は公式ドキュメントの Workload Identity Federation ページに記載。",
+      "url": "https://x.com/ClaudeDevs/status/2051393709619732758",
+      "urlLabel": "@ClaudeDevs の発表"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong> はこの 24 時間窓内に新規本投稿が確認できなかった。"
+    },
+    {
+      "label": "Engineering / Research / Claude Blog 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> の visible publication date が窓内に入る新規記事を確認できなかった。News のみ <strong>2026-05-04</strong> に新規 1 件があった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong>、Claude Blog が <strong>2026-05-01</strong> だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-05-04T23:47:28+09:00",
+      "displayTime": "2026-05-04 23:47 JST",
+      "title": "@jackclarkSF",
+      "summary": "Import AI 455 として大型 essay を公開し、数百の公開データソースを精査した結果として <strong>recursive self-improvement（AI が AI 自身を構築する状況）が 2028 年末までに起こる確率を 60%</strong>と見積もった。CORE-Bench、MLE-Bench、PostTrainBench などの進捗図を引き、AI R&D の各レゾリューションで「up and to the right」のトレンドが揃って観測されると論じている。Anthropic 共同創業者の長期見通し signal として記録。",
+      "url": "https://x.com/jackclarkSF/status/2051312759594471886",
+      "urlLabel": "essay スレッドを見る"
+    },
+    {
+      "label": "Medium",
+      "datetime": "2026-05-05T06:15:06+09:00",
+      "displayTime": "2026-05-05 06:15 JST",
+      "title": "@trq212",
+      "summary": "Claude Code のスクロール改善に取り組んでいると述べ、<strong>@ballingt</strong> を CC しつつ報告者の terminal / OS を確認した。fullscreen renderer 周りの継続改善 signal として記録。",
+      "url": "https://x.com/trq212/status/2051410313996857560",
+      "urlLabel": "投稿を見る"
+    },
+    {
+      "label": "Low",
+      "datetime": "2026-05-05T08:55:04+09:00",
+      "displayTime": "2026-05-05 08:55 JST",
+      "title": "@jarredsumner",
+      "summary": "Bun リポジトリで <strong>Robobun</strong> が数か月にわたり最大コントリビューターになっていることに言及し、<strong>「テストが正しく、main で fail し、修正が正しい」</strong>限り PR の一部しかマージしなくても十分価値があるとコメント。AI 生成 PR の運用 signal として記録（Anthropic 製品の文脈ではないが Anthropic engineer 監視リスト由来のため signals として控えめに掲載）。",
+      "url": "https://x.com/jarredsumner/status/2051450571060867148",
+      "urlLabel": "投稿を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "News 1件 / Engineering・Research・Claude Blog 0件",
+      "body": "公式サイトの visible publication date を確認したところ、News に窓内 1 件（エンタープライズ AI 合弁発表）が入った。Engineering、Research、Claude Blog は窓内に新規記事なし。",
+      "details": [
+        "Anthropic News は <em>May 4, 2026</em> に <strong>Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs</strong> が公開された。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）だった。",
+        "Claude Blog の最新 visible publication date は <em>May 1, 2026</em>（<strong>How a non-technical project manager built and shipped a stress management app with Claude Code in six weeks</strong>）だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.128",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.128</code>（<strong>2026-05-05 08:01 JST</strong>）が窓内に該当した。<code>v2.1.126</code> は <strong>2026-05-01 11:05 JST</strong> 公開で窓外。リリース一覧に <code>v2.1.124</code>、<code>v2.1.125</code>、<code>v2.1.127</code> は entry が無く番号飛びとなっている。<code>What's changed</code> 全 34 項目を <strong>新機能 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.128",
+          "publishedAt": "2026-05-05 08:01 JST",
+          "summary": "<code>What's changed</code> 全 34 項目を新機能 11 / 修正 23 に分類し、原文の意図を保ったまま和訳した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/color</code> を引数なしで実行すると <strong>セッションカラーをランダム選択</strong>するようになった。",
+                "<code>/mcp</code> が接続中サーバの tool 数を表示し、<strong>tool 0 個で接続したサーバ</strong>には flag を立てるようにした。",
+                "<code>--plugin-dir</code> がディレクトリだけでなく <strong><code>.zip</code> プラグインアーカイブ</strong>も受け付けるようになった。",
+                "<code>--channels</code> がコンソール（API キー）認証でも動作するようになった。<strong>managed settings を持つ console org は <code>channelsEnabled: true</code></strong> を設定する必要がある。",
+                "<code>/model</code> ピッカーを更新。<strong>重複する Opus 4.7 エントリを集約</strong>し、現在の Opus は <code>Opus 4.7</code> ではなく単に <code>Opus</code> として表示するようにした。",
+                "サブプロセス（Bash、hooks、MCP、LSP）が <code>OTEL_*</code> 環境変数を継承しないようにした。Bash tool 経由で起動した OTEL 計装アプリが CLI 自身の OTLP エンドポイントを拾わなくなる。",
+                "MCP: <code>workspace</code> を予約サーバ名にし、同名の既存サーバは警告とともに skip するようにした。",
+                "MCP サーバの再接続時に毎回フル tool 名リストで会話を flooding しないようにし、<strong>再アナウンスは server prefix 別に summary 化</strong>するようにした。",
+                "SDK ホストが Bash 権限プロンプト用に <strong><code>localSettings</code> 永続候補</strong>を受け取れるようになり、<strong>「Always allow」</strong>が <code>.claude/settings.local.json</code> に書き込まれるようになった。",
+                "<code>EnterWorktree</code> がドキュメント通り <strong>ローカル HEAD から</strong>新ブランチを作成するようになり（従来は <code>origin/&lt;default-branch&gt;</code>）、未 push のコミットが落ちなくなった。",
+                "Auto mode: 分類器がアクションを評価できないときのエラーに <strong>retry / <code>/compact</code> / <code>--debug</code> 実行のヒント</strong>を含めるようにした。",
+                "Headless <code>--output-format stream-json</code>: <code>init.plugin_errors</code> に依存性 demotion だけでなく <strong><code>--plugin-dir</code> ロード失敗</strong>も含めるようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "新しいプロンプト送信時に focus mode が直前の応答を一瞬暗転させる問題を修正。",
+                "Kitty などの OSC 9 を通知として解釈する terminal で、<code>/exit</code> の度に <strong>「4;0;」デスクトップ通知</strong>が出る問題を修正。",
+                "Remote Control がレート制限時に <strong>「Opening your options…」の空メッセージ</strong>のみ表示してしまう問題を修正し、適切な upsell オプションを示すようにした。",
+                "ドラッグ&ドロップでの画像アップロードが画像読み取り失敗時に <strong>「Pasting text…」</strong>のままハングする問題を修正。",
+                "<strong>10 MB 超</strong>の大きな入力を <code>claude -p</code> へ stdin で渡したときの crash loop を修正。",
+                "fullscreen mode で複数行に折り返した長い URL の <strong>各行をクリックできない</strong>問題を修正。",
+                "<code>--plugin-dir</code> 経由で読み込んだ plugin が <code>/plugin</code> Components パネルで <strong>「Marketplace 'inline' not found」</strong>と表示される問題を修正。",
+                "MCP tool 結果で server が structured content と content blocks の両方を返したときに <strong>画像が drop される</strong>問題を修正。",
+                "list 内の fenced code block を copy-paste すると <strong>先頭の whitespace まで clipboard に入る</strong>問題を修正。",
+                "<code>/config</code> での tab ナビゲーションが focus を失う問題を修正し、tab ヘッダがフォーカスを保持して矢印 / Esc が動くようにした。",
+                "OSC 8 ハイパーリンク非対応 terminal で markdown リンクラベルが消える問題を修正。<strong><code>label (url)</code></strong> 形式で表示するようにした。",
+                "1M コンテキストモデルで autocompact ウィンドウが小さいセッションが、実際の API 上限に達する前に <strong>「Prompt is too long」で誤ブロック</strong>される問題を修正。",
+                "並列 shell tool 呼び出しで、read-only コマンド（grep / git diff / ls）の失敗が <strong>兄弟コール全部をキャンセル</strong>してしまう問題を修正。",
+                "effort をサポートしないモデルで banner が <strong>「with X effort」</strong>と表示される問題を修正。",
+                "サードパーティ provider 上で <code>/fast</code> が無関係な skill にあいまい一致してしまう問題を修正し、<strong>「not available」</strong>と表示するようにした。",
+                "Bedrock のデフォルトモデルが <strong>region に応じた prefix ではなく <code>global.*</code></strong> に解決される問題を修正。",
+                "vim mode: NORMAL モードでの <code>Space</code> がカーソルを右へ動かすようになった（標準 vi/vim 挙動に一致）。",
+                "ターミナルプログレス表示（OSC 9;4）が tool 呼び出し間でちらついて消える問題を修正し、<strong>turn を通じて表示維持</strong>するようにした。",
+                "再開セッションの最後が compact 境界のとき、引数なしの <code>/rename</code> が失敗する問題を修正。",
+                "<code>--resume</code> / <code>--continue</code> 後に前セッションの <strong>「remote-control is active」ステータス</strong>が残る問題を修正。",
+                "削除済みキャッシュディレクトリを指す古い <code>installed_plugins.json</code> エントリが PATH を汚染する問題を修正。",
+                "<code>CLAUDE_CODE_SHELL_PREFIX</code> 設定下で空白やシェルメタ文字を含む引数を渡したとき、MCP stdio サーバが受け取る引数が壊れる問題を修正。",
+                "サブエージェントの進捗 summary が prompt cache を外していた問題を修正（<strong><code>cache_creation</code> が約 3 分の 1 に</strong>）。",
+                "<code>/plugin update</code> が npm 由来 plugin の新バージョンを検出しない問題を修正。",
+                "サブエージェントの transcript が静止しているときも summary が繰り返し発火する問題を修正し、<strong>idle サブエージェントのトークンコスト</strong>に上限を設けた。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+          "urlLabel": "v2.1.128 の release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題（雑談、emoji だけの reply）は除外。",
+    "Jack Clark の essay 配下の対個別反論 reply は essay 親 thread に集約して扱った。",
+    "Bun / Robobun の話題は Anthropic 製品ではないが、AI 生成 PR の運用 signal として 1 件のみ Low ラベルで掲載。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 1 件（<code>v2.1.128</code>）を全項目和訳した。<code>v2.1.124</code> / <code>v2.1.125</code> / <code>v2.1.127</code> は release 一覧に entry が無く番号飛びとして言及するに留めた。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code v2.1.128 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic News: Enterprise AI services company",
+      "url": "https://www.anthropic.com/news/enterprise-ai-services-company"
+    },
+    {
+      "title": "@ClaudeDevs: Claude Platform keyless auth",
+      "url": "https://x.com/ClaudeDevs/status/2051393709619732758"
+    },
+    {
+      "title": "Workload Identity Federation docs",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/workload-identity-federation"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Jack Clark: Import AI 455 essay on RSI",
+      "url": "https://x.com/jackclarkSF/status/2051312759594471886"
+    },
+    {
+      "title": "Thariq: scrolling improvements",
+      "url": "https://x.com/trq212/status/2051410313996857560"
+    },
+    {
+      "title": "Jarred Sumner: Robobun PR ops",
+      "url": "https://x.com/jarredsumner/status/2051450571060867148"
+    }
+  ]
+}
