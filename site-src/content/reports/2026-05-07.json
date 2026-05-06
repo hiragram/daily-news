@@ -1,0 +1,249 @@
+{
+  "date": "2026-05-07",
+  "windowLabel": "2026-05-06 08:28:31 JST - 2026-05-07 08:28:31 JST",
+  "archiveTitle": "Code with Claude SF: SpaceX compute, Managed Agents dreaming, Claude Code v2.1.129–132",
+  "archiveSummary": "Code with Claude SF キックオフに合わせ、SpaceX 計算契約と usage limit 倍増、Managed Agents の dreaming/outcomes/multiagent orchestration 公開、Claude Code v2.1.129/131/132 の 3 連続リリースをまとめた。",
+  "latestSummary": "Code with Claude SF キーノートで Anthropic が <strong>SpaceX Colossus 1 で 300 MW の追加計算契約</strong>を発表し、<strong>Claude Code の 5 時間レート上限を Pro/Max/Team で倍増</strong>、Pro/Max のピーク時間帯減量を撤廃、Opus API レート上限も大幅引き上げ。Managed Agents には <strong>multiagent orchestration / outcomes / dreaming / webhooks</strong> が追加された。Claude Code は窓内に <code>v2.1.129</code> / <code>v2.1.131</code> / <code>v2.1.132</code> の 3 連続リリースで合計 <strong>新機能 9 / 修正 38 = 47 項目</strong>を全件和訳した。",
+  "summaryBullets": [
+    "<strong>Anthropic + SpaceX 契約</strong>：<strong>Colossus 1 データセンター</strong>の全計算リソースを Anthropic が利用、月内に <strong>300 MW 追加</strong>。",
+    "<strong>Claude Code usage limits 倍増</strong>（Pro / Max / Team / seat-based Enterprise の 5 時間レート）、Pro/Max でピーク時間帯減量撤廃、Opus API レート大幅引き上げ。",
+    "<strong>Claude Managed Agents</strong> に <strong>multiagent orchestration（並列 sub-agent 委譲）</strong>、<strong>outcomes（rubric ベース自己改善ループ + grader sub-agent）</strong>、<strong>dreaming（過去セッションを背景プロセスで反芻し memory を curate / skill 追加 / 古いものを削除）</strong>、<strong>webhooks</strong> を公開。",
+    "Claude Code <code>v2.1.129</code>（<strong>2026-05-06 10:40 JST</strong>）/ <code>v2.1.131</code>（<strong>16:47 JST</strong>）/ <code>v2.1.132</code>（<strong>2026-05-07 07:08 JST</strong>）が窓内に連続リリース。<code>What's changed</code> 計 47 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した（<code>v2.1.130</code> は番号飛び）。"
+  ],
+  "officialNews": [
+    {
+      "label": "News",
+      "datetime": "2026-05-07T01:19:29+09:00",
+      "displayTime": "2026-05-07 01:19 JST",
+      "title": "SpaceX 計算契約と usage limit 引き上げを発表",
+      "summary": "公式 News <strong>Higher usage limits for Claude and a compute deal with SpaceX</strong> を発表。<strong>SpaceX Colossus 1 データセンターの全計算容量を Anthropic が利用</strong>、月内に 300 MW 追加。これに伴い <strong>(1) Claude Code の 5 時間レート上限を Pro / Max / Team / seat-based Enterprise で倍増</strong>、<strong>(2) Pro / Max のピーク時間帯レート減量を撤廃</strong>、<strong>(3) Opus モデルの API レート上限を大幅引き上げ</strong>。",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
+      "urlLabel": "公式発表を読む",
+      "primary": true
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-05-07T01:46:08+09:00",
+      "displayTime": "2026-05-07 01:46 JST",
+      "title": "Claude Managed Agents に dreaming / outcomes / multiagent / webhooks",
+      "summary": "Code with Claude SF にて Claude Managed Agents の新機能 4 種を発表。<strong>multiagent orchestration</strong>（lead agent が specialists を並列委譲、各 sub-agent は独自 context window だが container / filesystem を共有）、<strong>outcomes</strong>（rubric を書くと grader sub-agent が出力を採点し agent が反復改善、完了時に webhook 通知）、<strong>dreaming（research preview）</strong>（背景プロセスが過去セッションを反芻し memory を curate / skill 追加 / 古いものを削除）、<strong>webhooks</strong>（SSE 開きっぱなし / polling 不要）。Outcomes / multiagent / webhooks は public beta、dreaming は research preview。",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "urlLabel": "Blog を読む"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-07T00:58:41+09:00",
+      "displayTime": "2026-05-07 00:58 JST",
+      "title": "Code with Claude SF キーノート開幕（ライブ配信）",
+      "summary": "<strong>Code with Claude</strong> がライブ配信で開幕。Day 1 アジェンダは <strong>9:00 Keynote / 10:30 What's new in Claude Code / 11:15 Building on Claude at GitHub scale / 12:00 Get to production faster with Managed Agents / 13:00 共同創業者 Dario & Daniela Amodei × CPO Ami Vora / 13:50 @bcherny & @jarredsumner の Claude Code ライブビルド</strong>（すべて PT）。",
+      "url": "https://x.com/ClaudeDevs/status/2052055459272761661",
+      "urlLabel": "アジェンダ投稿"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering / Research 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong> の visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong> だった。News と Claude Blog は窓内それぞれ 1 件あり。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "High",
+      "datetime": "2026-05-07T01:53:46+09:00",
+      "displayTime": "2026-05-07 01:53 JST",
+      "title": "@ClaudeDevs: Managed Agents 詳細スレッド",
+      "summary": "Managed Agents の各機能を技術的に詳述したスレッド。<strong>multiagent orchestration</strong> は specialized sub-agents への task 委譲、各 sub-agent は独立 context window だが container + filesystem を共有。<strong>outcomes loop</strong> は rubric で task 完了を定義し dedicated grader sub-agent が次イテレーション用の feedback を返す。<strong>webhooks</strong> は workspace 設定で SSE / polling 不要に。<strong>dreaming</strong> はセッション内で agents が memory に書き込み、background process が複数セッションを反映して memory を編集 / skill 追加 / stale 削除する。<code>/claude-api</code> skill から試せる。",
+      "url": "https://x.com/ClaudeDevs/status/2052069321355182447",
+      "urlLabel": "詳解スレッド"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "News 1件 / Blog 1件 / Engineering・Research 0件",
+      "body": "公式サイトの visible publication date を確認したところ、News と Claude Blog にそれぞれ窓内 1 件ずつ入った。Engineering、Research は窓内に新規記事なし。",
+      "details": [
+        "Anthropic News は <em>May 6, 2026</em>（JST 5/7 早朝）に <strong>Higher usage limits for Claude and a compute deal with SpaceX</strong> が公開された。",
+        "Claude Blog は <em>May 6, 2026</em> に <strong>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</strong> が公開された。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em>（<strong>How people ask Claude for personal guidance</strong>）だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.129 / v2.1.131 / v2.1.132",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.129</code>（<strong>2026-05-06 10:40 JST</strong>）、<code>v2.1.131</code>（<strong>2026-05-06 16:47 JST</strong>）、<code>v2.1.132</code>（<strong>2026-05-07 07:08 JST</strong>）の 3 リリースが窓内に該当した。<code>v2.1.130</code> は release 一覧に entry が無く番号飛び。各 release の <code>What's changed</code> 計 47 項目を <strong>新機能 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.132",
+          "publishedAt": "2026-05-07 07:08 JST",
+          "summary": "<code>What's changed</code> 全 26 項目を新機能 4 / 修正 22 に分類。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Bash tool のサブプロセス環境変数に <code>CLAUDE_CODE_SESSION_ID</code> を追加（hooks に渡される <code>session_id</code> と一致）。",
+                "<code>CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1</code> 環境変数を追加。fullscreen の alternate-screen レンダラーを opt-out して terminal の native scrollback に会話を残せる。",
+                "Ctrl+V 画像ペーストの読み取り中に footer に「<strong>Pasting…</strong>」ヒントを表示するようにした。",
+                "<code>/tui fullscreen</code> 起動 banner を更新し、レンダラーの追加メリット（メモリ削減 / マウスサポート / 選択時の auto-copy）を説明するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "外部 SIGINT（IDE の stop ボタンや <code>kill -INT</code>）でグレースフルシャットダウンが走らない問題を修正。terminal モードを復元し、<code>--resume</code> ヒントを表示するようにした。",
+                "native build でターミナルが閉じられた / SSH がセッション中に切断された場合の uncaught exception を修正。",
+                "tool error truncation で絵文字が分割されたとき <code>--resume</code> が <code>no low surrogate in string</code> で失敗する問題を修正。事前に壊れたセッションも load 時にサニタイズ。",
+                "<code>-p --continue</code> / <code>--resume</code> で plan-mode セッションを再開すると <code>--permission-mode</code> フラグが無視され、同一セッション内で <code>ExitPlanMode</code> 後 plan mode が再適用されない問題を修正。",
+                "ノート PC のスリープ復帰や Ctrl+Z / <code>fg</code> 後、次のキーストローク / ストリーム出力まで fullscreen が空白になる問題を修正。",
+                "Ctrl+E / A / K / U / 矢印キー操作で、Indic conjunct や ZWJ 絵文字が行をまたぐとき cursor が grapheme の途中に着地する問題を修正。",
+                "Vim operators が NFD 分解された accented 文字を含むテキストを破壊する問題を修正。",
+                "<code>/</code> で始まるテキストを paste すると入力が黙って消える / unknown-command 応答が出る問題を修正。",
+                "focus イベントや mouse-tracking レポートが bracketed paste と交錯して prompt に余計なエスケープシーケンスが入る問題を修正。",
+                "Cursor / VS Code 1.92–1.104 で xterm.js のバグによりマウスホイールスクロールが速すぎる問題を修正。",
+                "JetBrains IDE 2025.2 ターミナルでの scroll-wheel 挙動（spurious arrow keys / 逆方向 / 暴走加速）を修正。",
+                "Linux/X11 で <code>/usage</code> の Ctrl+S（stats スクショの clipboard コピー）がハングする問題を修正。",
+                "Windows Terminal で <code>/terminal-setup</code> が Shift+Enter ネイティブ対応にもかかわらず矛盾するエラーを出していた問題を修正。",
+                "<code>/effort</code> ピッカーが <code>CLAUDE_CODE_EFFORT_LEVEL</code> 環境変数の override を反映しない問題を修正。",
+                "<code>/status</code> が一部ユーザーで間違ったデフォルトモデルを表示する問題を修正。",
+                "スラッシュコマンド autocomplete ポップアップが ~3–5 件で頭打ちになっていた問題を修正し、ターミナル高さに応じてスケールするようにした。",
+                "Statusline の <code>context_window</code> トークン数が現在の文脈使用量ではなく <strong>セッション累積</strong>を表示していた問題を修正。",
+                "macOS ターミナル（iTerm2 / Terminal.app デフォルト）で「Option as Meta」が無効のとき、Alt+T（thinking toggle）が動かない問題を修正。",
+                "<code>claude agents</code> から background セッションを再オープン後、Windows でキーボード入力が dead になる問題を修正。",
+                "stdio MCP server が非プロトコルデータを stdout に書くと <strong>10GB 超の RSS まで青天井</strong>に増える問題を修正。",
+                "接続成功後 <code>tools/list</code> に失敗した MCP サーバが silently 0 tools と表示されていた問題を修正し、1 度リトライしたうえで <code>/mcp</code> に <strong>「connected · tools fetch failed」</strong>と表示するようにした。",
+                "未認可の claude.ai MCP connector が <strong>「failed」</strong>ではなく <strong>「needs auth」</strong>と表示されるよう修正。headless <code>-p</code> モードが non-transient 4xx 接続失敗をリトライしてしまう問題も修正。",
+                "スラッシュコマンドダイアログ / <code>/login</code> / <code>/upgrade</code> / <code>/extra-usage</code> ダイアログのスペーシング・視覚的整合性を改善。",
+                "<code>ENABLE_PROMPT_CACHING_1H</code> が設定されているとき Bedrock / Vertex が 400 エラーを返す問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132",
+          "urlLabel": "v2.1.132 release notes"
+        },
+        {
+          "version": "v2.1.131",
+          "publishedAt": "2026-05-06 16:47 JST",
+          "summary": "<code>What's changed</code> は 2 項目（修正のみ）。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "VS Code 拡張が Windows でアクティベーションに失敗していた問題を修正（同梱 SDK の <code>createRequire</code> polyfill バグによる hardcoded build path）。",
+                "Mantle endpoint 認証が <code>x-api-key</code> ヘッダ欠落で失敗する問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131",
+          "urlLabel": "v2.1.131 release notes"
+        },
+        {
+          "version": "v2.1.129",
+          "publishedAt": "2026-05-06 10:40 JST",
+          "summary": "<code>What's changed</code> 全 19 項目を新機能 5 / 変更 5 / 修正 14 ぶんに分類した（注：「変更」は既存挙動の戻し / オプション切替系）。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>--plugin-url &lt;url&gt;</code> フラグを追加。URL から <code>.zip</code> プラグインアーカイブを取得して当該セッションで使えるようになった。",
+                "<code>CLAUDE_CODE_FORCE_SYNC_OUTPUT=1</code> 環境変数を追加。自動検出が外す terminal（Emacs <code>eat</code> など）でも synchronized output を強制有効化できる。",
+                "<code>CLAUDE_CODE_PACKAGE_MANAGER_AUTO_UPDATE</code> を追加。Homebrew / WinGet インストール時にバックグラウンドでアップグレードコマンドを実行し、再起動を促す。",
+                "プラグインマニフェスト：<code>themes</code> と <code>monitors</code> は <code>\"experimental\": { ... }</code> 配下で宣言する形に変更（top-level 宣言も動くが <code>claude plugin validate</code> が警告）。",
+                "<code>skillOverrides</code> 設定が動作するようになった：<code>off</code> はモデルと <code>/</code> 双方から非表示、<code>user-invocable-only</code> はモデルからのみ非表示、<code>name-only</code> は description を畳む。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/model</code> ピッカー用の Gateway <code>/v1/models</code> 探索を <code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1</code> による <strong>opt-in</strong> に変更（2.1.126–2.1.128 では自動だった）。",
+                "Ctrl+R 履歴ピッカーをデフォルトで <strong>全プロジェクトの全 prompt を検索</strong>する pre-2.1.124 挙動に戻した。Ctrl+S で現プロジェクト / セッションに絞り込み。",
+                "サードパーティ deployment（Bedrock / Vertex / Foundry / <code>ANTHROPIC_BASE_URL</code> ゲートウェイ）に対し、first-party Anthropic surface を指す spinner tip を表示しないようにした。",
+                "<code>claude_code.pull_request.count</code> OTel メトリックが、shell コマンド経由だけでなく <strong>MCP tool 経由で作成された PR / MR もカウント</strong>するようにした。",
+                "ポリシー拒否のエラーメッセージに <strong>API Request ID を含めて</strong>サポート時のデバッグを容易にした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "未認識の 400 ステータスコード時、API エラーが下位エラーメッセージではなく raw JSON を表示する問題を修正。",
+                "<code>/clear</code> 後にターミナルタブのタイトルがリセットされない問題を修正。",
+                "<code>/rename</code> のセッションタイトルチップが、permission / 他ダイアログ表示中に消えてしまう問題を修正。",
+                "サブエージェント実行中、prompt 下のエージェントパネルが隠れる問題を修正（2.1.122 リグレッション）。",
+                "外部エディタハンドオフ（Ctrl+G）が prompt 上の会話履歴を空白にする問題を修正。",
+                "<code>/context</code> がレンダリングされた ASCII visualization grid を会話に dump して呼び出しごとに約 1.6k トークン浪費する問題を修正。",
+                "<code>/agents</code> Library リストの矢印キーナビゲーションで、ハイライトされた agent がビューポート外に出る問題を修正。",
+                "<code>/branch</code> 成功メッセージに <code>/resume</code> 用の新ブランチ session id を含めるよう修正。",
+                "fullscreen で keycap / ZWJ / skin-tone 絵文字を含む太字ヘッダーが末尾文字を失う問題を修正。",
+                "保存された OAuth 資格情報に <code>user:inference</code> スコープがない enterprise / team ユーザーで server-managed settings ポリシーが適用されない問題を修正。",
+                "スリープ復帰後の OAuth refresh レースで全実行中セッションが logout される問題を修正。",
+                "1 時間 prompt キャッシュ TTL が silently 5 分に降格される問題を修正。",
+                "<code>/clear</code> や compaction 後に <code>/effort</code> / <code>/model</code> を変更すると、誤って cache-miss 警告が出る問題を修正。",
+                "<code>Bash(mkdir *)</code>、<code>Bash(touch *)</code> など allow ルールが、プロジェクト内パスに対して honoring されない問題を修正。",
+                "<code>deniedMcpServers</code> パターンの <code>*://</code> スキームワイルドカードが mixed-case ホスト名にマッチしない問題を修正。",
+                "voice mode の <code>--debug</code> 時、無害な WebSocket 警告が error として log 出力される問題を修正。",
+                "[VSCode] <code>/clear</code> が会話コンテキストと表示中 transcript をクリアしない問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129",
+          "urlLabel": "v2.1.129 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "Code with Claude SF の各セッション speaker への祝辞・絵文字のみの community 反応は除外。",
+    "Bun / Robobun / Zig 周りの議論など Anthropic 製品と無関係な engineer 雑談は除外。",
+    "<code>v2.1.130</code> は release 一覧に entry が無く番号飛びとして言及するに留めた。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code v2.1.132 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.132"
+    },
+    {
+      "title": "Claude Code v2.1.131 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131"
+    },
+    {
+      "title": "Claude Code v2.1.129 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.129"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic News: SpaceX compute and higher limits",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex"
+    },
+    {
+      "title": "Claude Blog: New in Claude Managed Agents",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents"
+    },
+    {
+      "title": "@ClaudeDevs: Code with Claude live agenda",
+      "url": "https://x.com/ClaudeDevs/status/2052055459272761661"
+    },
+    {
+      "title": "@ClaudeDevs: Managed Agents details thread",
+      "url": "https://x.com/ClaudeDevs/status/2052069321355182447"
+    },
+    {
+      "title": "@ClaudeDevs: usage limit increases",
+      "url": "https://x.com/ClaudeDevs/status/2052064938840228237"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    }
+  ]
+}
