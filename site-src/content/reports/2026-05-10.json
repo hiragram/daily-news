@@ -1,0 +1,193 @@
+{
+  "date": "2026-05-10",
+  "windowLabel": "2026-05-09 00:37:18 JST - 2026-05-10 00:37:18 JST",
+  "archiveTitle": "Claude Code v2.1.136/137/138: large stability batch and Windows hotfix",
+  "archiveSummary": "Claude Code が窓内に v2.1.136 / v2.1.137 / v2.1.138 を連続リリース。v2.1.136 は約 50 項目の大型 stability batch、137 は VSCode Windows hotfix、138 は internal-only。公式 X はクレジット切れで取得不可。",
+  "latestSummary": "公式 News / Blog / Engineering / Research に窓内の新規記事はなく、Claude Code の連続リリース <code>v2.1.136</code>（新機能 2 / 修正 約 50 = 大型 stability batch）、<code>v2.1.137</code>（VSCode Windows hotfix）、<code>v2.1.138</code>（internal-only）が窓内のすべて。x_mcp はアカウントクレジット切れで公式 X / engineer X は今回取得できず、ゼロ件として記録した。",
+  "summaryBullets": [
+    "<strong>Claude Code <code>v2.1.136</code></strong>（<strong>2026-05-09 03:39 JST</strong>）が窓内最大のリリース。auto mode の <code>hard_deny</code> 追加と OpenTelemetry 用 feedback survey 再有効化フラグの 2 新機能、加えて MCP / OAuth / TUI / プラグイン / IDE 拡張など計約 50 項目の修正をまとめた大型安定化リリース。",
+    "<strong>Claude Code <code>v2.1.137</code></strong>（<strong>2026-05-09 09:11 JST</strong>）は <strong>VSCode 拡張が Windows でアクティベーションに失敗する問題</strong>のみの hotfix。",
+    "<strong>Claude Code <code>v2.1.138</code></strong>（<strong>2026-05-09 15:33 JST</strong>）は公開差分が <code>Internal fixes</code> のみ。",
+    "<strong>x_mcp</strong> がアカウントクレジット切れで、公式 X（@AnthropicAI / @ClaudeAI / @ClaudeDevs）と Anthropic engineer 個人アカウントは今回取得不可。窓内ゼロ件として記録。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "0件",
+      "body": "<strong>x_mcp</strong> がアカウントクレジット切れ（HTTP 402）で、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> と Anthropic engineer 個人アカウントの投稿はこの 24 時間窓では取得できなかった。便宜上ゼロ件として記録するが、実際には新規投稿があった可能性がある点に留意。"
+    },
+    {
+      "label": "Engineering / Research / News / Claude Blog 0件",
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News / Claude Blog が <strong>2026-05-06</strong>、Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong> だった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式サイトの visible publication date を確認したところ、Engineering / Research / News / Claude Blog のいずれも窓内に新規記事はなかった。",
+      "details": [
+        "Anthropic News の最新 visible publication date は <em>May 6, 2026</em>（<strong>Higher usage limits for Claude and a compute deal with SpaceX</strong>）だった。",
+        "Claude Blog の最新 visible publication date は <em>May 6, 2026</em>（<strong>New in Claude Managed Agents</strong>）だった。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 23, 2026</em> だった。",
+        "Anthropic Research の最新 visible publication date は <em>Apr 30, 2026</em> だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.136 / v2.1.137 / v2.1.138",
+      "body": "GitHub CLI で確認したところ、<code>v2.1.136</code>（<strong>2026-05-09 03:39 JST</strong>）、<code>v2.1.137</code>（<strong>2026-05-09 09:11 JST</strong>）、<code>v2.1.138</code>（<strong>2026-05-09 15:33 JST</strong>）の 3 リリースが窓内に該当した。<code>v2.1.134</code> / <code>v2.1.135</code> は release 一覧に entry が無く番号飛び。各 release の <code>What's changed</code> を <strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.138",
+          "publishedAt": "2026-05-09 15:33 JST",
+          "summary": "公開 release notes は <code>Internal fixes</code> のみ。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "Internal fixes（公開 release notes には詳細が記載されていない内部修正）。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
+          "urlLabel": "v2.1.138 release notes"
+        },
+        {
+          "version": "v2.1.137",
+          "publishedAt": "2026-05-09 09:11 JST",
+          "summary": "VSCode 拡張の Windows アクティベーション失敗のみの hotfix。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "[VSCode] 拡張が Windows でアクティベーションに失敗する問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
+          "urlLabel": "v2.1.137 release notes"
+        },
+        {
+          "version": "v2.1.136",
+          "publishedAt": "2026-05-09 03:39 JST",
+          "summary": "<code>What's changed</code> 全項目を新機能 2 / 変更 2 / 修正 約 47 に分類。MCP / OAuth / TUI / プラグイン / IDE 拡張にまたがる大型安定化リリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> を追加。OpenTelemetry でレスポンスを収集するエンタープライズで <strong>セッション品質サーベイを再有効化</strong>できる。",
+                "<code>settings.autoMode.hard_deny</code> を追加。auto mode の分類器ルールが <strong>ユーザー意図や allow 例外に関わらず無条件にブロック</strong>するよう指定できる。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "スラッシュコマンドダイアログの視覚的整合性を改善：footer ヒント / ダイアログスペーシング / 矢印キースタイルを統一し、<strong>ロード中もダイアログ枠が即時表示</strong>されるようにした（従来は遅れてポップイン）。",
+                "<code>--worktree</code> が既存・古い worktree と衝突したときのエラーメッセージを改善し、プラグインマーケットプレイスの削除キーを <code>r</code>（retry と衝突）から <strong><code>d</code></strong>（他箇所の delete と一致）に変更。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "VSCode 拡張 / JetBrains プラグイン / Agent SDK で <code>/clear</code> 後に <strong><code>.mcp.json</code> 設定の MCP server / プラグイン / claude.ai connector が silently 消える</strong>問題を修正。",
+                "並行する資格情報書き込みが新しくローテートされた OAuth トークンを上書きして再ログインを強制するレアな login loop を修正。",
+                "複数の MCP server が同時に refresh すると <strong>OAuth refresh トークンが失われる</strong>問題を修正（複数のリモート MCP server を持つユーザーが日次再認証を要求されなくなる）。",
+                "extended thinking が tool 呼び出し後に redacted thinking block を emit したときの API 400 エラーを修正。",
+                "プロジェクトパスにアンダースコアを含むセッションを <code>--resume</code> / <code>--continue</code> が見つけられない問題を修正。",
+                "matching する <code>Edit(...)</code> allow ルールがあるときに plan mode がファイル書き込みをブロックしない問題を修正。",
+                "WSL2 で xclip / wl-paste が画像データを読めない場合、<strong>PowerShell フォールバック</strong>経由で Windows clipboard からの画像 paste を可能にした。",
+                "実行中セッションがまだ使っているバージョンをキャッシュクリーンアップが削除すると、プラグインの <code>Stop</code> / <code>UserPromptSubmit</code> hook が失敗する問題を修正。",
+                "bash コマンド出力と markdown コードブロックで色が誤った位置に出る問題を修正。",
+                "ReasonML 差分が word-diff 境界で <strong>「undefined」テキスト</strong>のアーティファクトとして壊れて表示される問題を修正。",
+                "worktree 削除後、worktree 終了ダイアログが <strong>誤ったディレクトリ</strong>に未コミットファイルがあると警告する問題を修正。",
+                "git 管理外の小さなディレクトリで、セッション中に作成されたファイルを <code>@</code> ファイルピッカーがマッチしない問題を修正。",
+                "<strong>100 件以上</strong>のエントリを含むディレクトリで <code>@</code> メンションのファイルピッカーがファイルを見つけられない問題を修正。",
+                "fullscreen mode で出力が truncate された失敗 tool 呼び出しが click-to-expand できない問題を修正。",
+                "Ctrl+G で外部エディタを開いた後、persistent extended-key モードのターミナルで <strong>Backspace と Ctrl+Backspace が入れ替わる</strong>問題を修正。",
+                "<code>/usage</code> の週次リセットが <strong>カレンダー日付ではなく時刻</strong>を表示する問題を修正。",
+                "CJK ターミナルで welcome banner の省略記号がカラム overflow を起こす問題を修正。",
+                "セッション履歴に malformed な input フィールドの tool 呼び出しが含まれるときの <code>/insights</code> クラッシュを修正。",
+                "ツールの collapsibility 分類がセッション中に変わったときの renderer クラッシュを修正。",
+                "<code>plugin.json</code> の <code>skills</code> エントリがプラグインのデフォルト <code>skills/</code> ディレクトリを隠す問題を修正し、ファイルパスを listing するときは silent failure ではなくエラーを表示するようにした。",
+                "IDE shell-integration ロックファイルが <code>CLAUDE_CONFIG_DIR</code> を尊重しない問題を修正。",
+                "ストリーミング中にコピーしたターミナル出力に末尾空白が残る問題を修正。",
+                "プラグインの uninstall / enable / disable が slug を case-insensitive にマッチしない問題を修正。",
+                "サロゲートペア文字列で tool error truncation マーカーが負の数を表示する問題を修正。",
+                "<code>CLAUDE_ENV_FILE</code> の SessionStart hook で設定された環境変数が <code>/resume</code> / <code>/clear</code> 後に古くなる問題を修正。",
+                "<code>/branch</code> が貼り付けられた複数行名を multi-line セッションタイトルとして保存する問題を修正。",
+                "カラム境界の折り返しテキストの 2 行目に余計な先頭空白が出る問題を修正。",
+                "<code>/install-github-app</code> / <code>/desktop</code> / <code>/resume</code> / <code>/web-setup</code> ダイアログが Esc で閉じない問題を修正。",
+                "<code>/doctor</code> の MCP スキーマエラーが欠落フィールド名やソースファイルパスを示さない問題を修正。",
+                "Bash 権限プロンプトがユーザー向けの説明ではなく内部パーサ診断を表示する問題を修正。",
+                "空白を含むプラグインスラッシュコマンド（例 <code>/myplugin review</code>）が namespaced 形式に解決されない問題を修正。",
+                "<code>AskUserQuestion</code> が配列で渡された multi-select 回答を捨ててしまう問題を修正。",
+                "<code>/clear &lt;name&gt;</code> がクリアしたセッションを <code>/resume</code> 用にラベル付けしない問題を修正。",
+                "<code>CronList</code> 出力が修飾子と scheduled prompt を欠落させる問題を修正。",
+                "fullscreen mode の「Jump to bottom」オーバーレイが CJK 文字に色アーティファクトを残す問題を修正。",
+                "ストリーミング中、ワイドな markdown 表がターミナル scrollback に古い枠付きレンダリングを残す問題を修正。",
+                "pasted-text プレースホルダ付きの長い prompt が auto-truncate されたとき、貼り付けテキストが silently drop される問題を修正。",
+                "失敗した changelog refresh の後、<code>/release-notes</code> が古いバージョンに固まる問題を修正。",
+                "ターミナルに収まらない数の MCP server があるとき <code>/mcp</code> サーバ一覧がスクロールしない問題を修正。",
+                "最初のスラッシュコマンド後、入力途中のスラッシュコマンドオートコンプリートが効かない問題を修正。",
+                "<code>autoScrollEnabled: false</code> でも下端へスクロールすると auto-follow が再有効化される問題を修正。",
+                "プロンプト候補が空入力で Enter を押したときに自動送信される問題を修正（Tab / 矢印で受け付けるように）。",
+                "キーボードショートカットヒントが <code>keybindings.json</code> でリバインドされたキーを反映しない問題を修正。",
+                "<code>/settings</code> での言語変更が、確認後 Esc で revert される問題を修正。",
+                "<code>/terminal-setup</code> が部分プレフィックスではなく完全名一致でしかオートコンプリートに出ない問題を修正。",
+                "<code>AskUserQuestion</code> ダイアログ上の「Chat about this」が質問テキストを消去する問題を修正。",
+                "サーバが content blocks を返したときに MCP tool 結果が見えない問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
+          "urlLabel": "v2.1.136 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "x_mcp がクレジット切れで、公式 X / engineer X の投稿は今回ゼロ件として扱った（実際には新規投稿が存在する可能性がある）。",
+    "<code>v2.1.134</code> / <code>v2.1.135</code> は release 一覧に entry が無く番号飛びとして言及するに留めた。",
+    "<code>v2.1.138</code> は公開 release notes に <code>Internal fixes</code> としか記載がないため詳細は再掲しない。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code v2.1.138 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138"
+    },
+    {
+      "title": "Claude Code v2.1.137 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137"
+    },
+    {
+      "title": "Claude Code v2.1.136 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    }
+  ]
+}
