@@ -1,9 +1,9 @@
 {
   "date": "2026-05-11",
-  "windowLabel": "2026-05-10 00:37:17 JST - 2026-05-11 00:37:17 JST",
+  "windowLabel": "2026-05-10 08:37:16 JST - 2026-05-11 08:37:16 JST",
   "archiveTitle": "Quiet Sunday: zero across all Anthropic surfaces",
   "archiveSummary": "公式 X / 公式ブログ / News / Engineering / Research / Claude Code release のいずれもこの 24 時間窓に新規 0 件。",
-  "latestSummary": "監視対象すべてが窓内ゼロ件の静かな週末。最新 Claude Code <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で本窓開始 <strong>2026-05-10 00:37 JST</strong> より前のため再掲しない。",
+  "latestSummary": "監視対象すべてが窓内ゼロ件の静かな週末。最新 Claude Code <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で本窓開始 <strong>2026-05-10 08:37 JST</strong> より前のため再掲しない。",
   "summaryBullets": [
     "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> はこの 24 時間窓に新規本投稿 0 件。",
     "公式サイトの <strong>News / Claude Blog / Engineering / Research</strong> はいずれも窓内に visible publication date が入る新規記事なし。",
@@ -39,7 +39,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で窓開始 <strong>2026-05-10 00:37 JST</strong> より前。",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で窓開始 <strong>2026-05-10 08:37 JST</strong> より前。",
       "details": [
         "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.138</code>（<strong>2026-05-09 15:33 JST</strong>）。",
         "次点は <code>v2.1.137</code>（<strong>2026-05-09 09:11 JST</strong>）で、いずれも窓開始より前だった。",
