@@ -1,32 +1,56 @@
 {
   "date": "2026-05-12",
-  "windowLabel": "2026-05-11 00:37:14 JST - 2026-05-12 00:37:14 JST",
-  "archiveTitle": "Quiet day: zero across all Anthropic surfaces",
-  "archiveSummary": "公式 X / 公式ブログ / News / Engineering / Research / Claude Code release のいずれもこの 24 時間窓に新規 0 件。",
-  "latestSummary": "監視対象すべてが窓内ゼロ件の静かな日。最新 Claude Code <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で本窓開始 <strong>2026-05-11 00:37 JST</strong> より前のため再掲しない。",
+  "windowLabel": "2026-05-11 04:37:15 JST - 2026-05-12 04:37:15 JST",
+  "archiveTitle": "Claude Platform on AWS GA, Constitution audiobook, Claude Code v2.1.139",
+  "archiveSummary": "AWS 上で Claude Platform が GA、Claude's Constitution が Amanda Askell ら朗読のオーディオブック化、Claude Code v2.1.139 を 50+ 項目で和訳。",
+  "latestSummary": "Claude Platform が AWS 上で GA となり、Managed Agents や context management、pre-built tools など全機能が AWS 認証 / 請求 / IAM の枠で利用可能に。Anthropic は <strong>Claude's Constitution のオーディオブック</strong>を著者 Amanda Askell・Joe Carlsmith による朗読で公開。Claude Code は <code>v2.1.139</code> がリリースされ、agent view と <code>/goal</code> コマンドなど多数の新機能と修正を含む 50+ 項目を全件和訳した。",
   "summaryBullets": [
-    "監視対象の <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> はこの 24 時間窓に新規本投稿 0 件。",
-    "公式サイトの <strong>News / Claude Blog / Engineering / Research</strong> はいずれも窓内に visible publication date が入る新規記事なし。",
-    "<strong>GitHub Releases</strong> も窓内に新規 Claude Code release なし。最新 <code>v2.1.138</code> は窓外公開のため再掲しない。",
-    "Anthropic engineer 個人アカウント（X）にも Claude / Anthropic 製品に関する新規 signal は今回観測されなかった。"
+    "<strong>Claude Platform on AWS が GA</strong>。Managed Agents、advisor strategy、code execution、web search 等を含む native Claude API 全機能が AWS 上で利用可能、新機能も同日リリース。",
+    "<strong>Claude's Constitution</strong> がオーディオブック化。著者 <strong>Amanda Askell</strong> と <strong>Joe Carlsmith</strong> が朗読し、執筆過程と背景哲学に関する Q&A も収録。",
+    "<strong>Claude Code <code>v2.1.139</code></strong>（<strong>2026-05-12 03:43 JST</strong>）が窓内にリリース。<code>agent view</code>（Research Preview）と <code>/goal</code> コマンド、<code>/scroll-speed</code>、transcript view ナビゲーション、hook の <code>continueOnBlock</code> など含む 50+ 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。"
   ],
-  "officialNews": [],
-  "officialZeroStates": [
+  "officialNews": [
     {
-      "label": "0件",
-      "body": "監視対象の公式 X では、この 24 時間窓に入る新規本投稿は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
+      "label": "@claudeai",
+      "datetime": "2026-05-12T01:03:26+09:00",
+      "displayTime": "2026-05-12 01:03 JST",
+      "title": "Claude Platform on AWS が GA",
+      "summary": "<strong>@claudeai</strong> が <strong>Claude Platform on AWS の一般提供開始</strong>を発表。AWS 顧客は <strong>AWS 認証 / 請求 / commitment retirement のまま</strong>、Claude API 全機能（Managed Agents、advisor strategy、code execution、web search 等）を利用可能。サービスは Anthropic が運用し、<strong>新機能も native Claude API と同日リリース</strong>される。Bedrock 経由の Claude も引き続き提供（こちらは AWS が data processor）。",
+      "url": "https://x.com/claudeai/status/2053868592286822443",
+      "urlLabel": "@claudeai の発表",
+      "primary": true
     },
     {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-12T02:39:56+09:00",
+      "displayTime": "2026-05-12 02:39 JST",
+      "title": "Claude Platform on AWS の技術詳細",
+      "summary": "<strong>@ClaudeDevs</strong> が技術側の補足。2023 年から Bedrock で Claude モデルを提供してきたが、<strong>Claude Platform on AWS では Platform 全機能（context management / prompt caching、pre-built tools、Claude Managed Agents 含む）</strong>が AWS で使えるようになる。認証は <strong>AWS マネージドの API Gateway 経由</strong>で、価格 / レート上限は native Claude API と同じ。",
+      "url": "https://x.com/ClaudeDevs/status/2053892878167072914",
+      "urlLabel": "@ClaudeDevs の技術解説"
+    },
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-05-12T01:56:01+09:00",
+      "displayTime": "2026-05-12 01:56 JST",
+      "title": "Claude's Constitution のオーディオブック公開",
+      "summary": "<strong>@AnthropicAI</strong> が、Claude's Constitution の <strong>オーディオブック版</strong>を公開。著者である <strong>Amanda Askell</strong> と <strong>Joe Carlsmith</strong> が朗読し、執筆過程、ドキュメントを形作った哲学、モデルがより能力を持つにつれてどう変わりうるかについての <strong>Q&A</strong> も収録。",
+      "url": "https://x.com/AnthropicAI/status/2053881827396653207",
+      "urlLabel": "Constitution audiobook"
+    }
+  ],
+  "officialZeroStates": [
+    {
       "label": "Engineering / Research / News / Claude Blog 0件",
-      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は News / Claude Blog が <strong>2026-05-06</strong>、Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong> だった。"
+      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった（Claude Platform on AWS と Constitution audiobook は X 公式アカウント発の告知のため officialNews 側に掲載）。最新 visible publication date は News / Claude Blog が <strong>2026-05-06</strong>、Engineering が <strong>2026-04-23</strong>、Research が <strong>2026-04-30</strong> だった。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "公式サイトの visible publication date を確認したところ、Engineering / Research / News / Claude Blog のいずれも窓内に新規記事はなかった。",
+      "headline": "0件（X で複数発表）",
+      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内に新規記事は確認できなかった。Anthropic 公式 X からは Claude Platform on AWS GA と Constitution audiobook の発表が連続した（officialNews 参照）。",
       "details": [
         "Anthropic News の最新 visible publication date は <em>May 6, 2026</em>（<strong>Higher usage limits for Claude and a compute deal with SpaceX</strong>）だった。",
         "Claude Blog の最新 visible publication date は <em>May 6, 2026</em>（<strong>New in Claude Managed Agents</strong>）だった。",
@@ -38,12 +62,78 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.138</code> は <strong>2026-05-09 15:33 JST</strong> 公開で窓開始 <strong>2026-05-11 00:37 JST</strong> より前。",
-      "details": [
-        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.138</code>（<strong>2026-05-09 15:33 JST</strong>）。",
-        "次点は <code>v2.1.137</code>（<strong>2026-05-09 09:11 JST</strong>）で、いずれも窓開始より前だった。",
-        "Draft / prerelease の窓内公開も確認できなかった。"
+      "headline": "v2.1.139",
+      "body": "GitHub CLI で確認したところ、Claude Code <code>v2.1.139</code>（<strong>2026-05-12 03:43 JST</strong>）が窓内に該当した。<code>What's changed</code> 全項目を <strong>新機能 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.139",
+          "publishedAt": "2026-05-12 03:43 JST",
+          "summary": "<code>What's changed</code> 全項目を新機能 17 / 修正 約 30 に分類。agent view と <code>/goal</code> の 2 大新機能を含む。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<strong>agent view（Research Preview）</strong>を追加。全 Claude Code セッション（実行中 / ユーザー待ち / 完了）を 1 リストで表示。<code>claude agents</code> で起動。<a href=\"https://code.claude.com/docs/en/agent-view\">ドキュメント</a>参照。",
+                "<strong><code>/goal</code> コマンド</strong>を追加。完了条件を設定すると、Claude がターンをまたいで条件達成まで作業を続ける。interactive / <code>-p</code> / Remote Control で動作し、経過時間 / ターン数 / トークン数を <strong>ライブのオーバーレイパネル</strong>で表示。",
+                "<code>/scroll-speed</code> コマンドを追加。マウスホイールスクロール速度を <strong>ライブプレビュー付き</strong>で調整できる。",
+                "<code>claude plugin details &lt;name&gt;</code> を追加。プラグインのコンポーネント一覧と <strong>セッション当たり予測トークンコスト</strong>を表示。",
+                "transcript view のナビゲーション追加：<code>?</code> でキーボードショートカット表示、<code>{</code> / <code>}</code> でユーザープロンプト間をジャンプ、<code>v</code> でショートカットパネル切替。",
+                "hook の <code>args: string[]</code> フィールド（exec form）を追加。コマンドを <strong>shell を介さず</strong>直接 spawn し、パスプレースホルダにクオートが不要になる。",
+                "<code>PostToolUse</code> hook 用に <code>continueOnBlock</code> 設定オプションを追加。<code>true</code> にすると hook の拒否理由を Claude にフィードバックしつつターンを継続できる。",
+                "MCP stdio サーバが環境変数に <code>CLAUDE_PROJECT_DIR</code> を受け取れるようにし（hooks と整合）、プラグイン設定が commands 内で <code>${CLAUDE_PROJECT_DIR}</code> を参照できるようにした。",
+                "Compaction プロンプトを更新し、モデルに <strong>機密ユーザー指示の保持</strong>を要求するようにした。",
+                "<code>/mcp</code> の Reconnect が <code>.mcp.json</code> の編集を <strong>再起動なしで反映</strong>し、再接続失敗時には HTTP ステータスと URL を表示するようにした。",
+                "<code>/context all</code> の skill 別トークン推定が <strong>モデルのトークナイザーを反映</strong>し、丸めた値で表示するようにした。",
+                "<code>claude plugin install &lt;name&gt;@&lt;marketplace&gt;</code> が、プラグイン未発見と報告する前に <strong>マーケットプレイスを自動更新してリトライ</strong>するようにした。",
+                "<code>/plugin</code> のインストール済みプラグイン詳細で、hook イベント名と MCP サーバ名をクリーンに表示するようにした。",
+                "<code>/context</code> がプラグイン由来 skill に対し <strong>提供元プラグイン名</strong>を表示するようにした。",
+                "Remote MCP サーバの再接続リトライ（一過性エラー時）を <strong>全ユーザーで有効化</strong>。",
+                "サブエージェント発の API リクエストに <code>x-claude-code-agent-id</code> / <code>x-claude-code-parent-agent-id</code> ヘッダを付与し、<code>claude_code.llm_request</code> OTEL span に <code>agent_id</code> / <code>parent_agent_id</code> 属性を追加。",
+                "<code>ANTHROPIC_API_KEY</code> / <code>apiKeyHelper</code> / <code>ANTHROPIC_AUTH_TOKEN</code> が設定されているとき、Claude.ai ログインが併存していても <strong>Remote Control、<code>/schedule</code>、claude.ai MCP connector、通知設定を無効化</strong>するようにした（これらを使うには API キーを unset する必要）。",
+                "[VSCode] Cmd/Ctrl+Shift+T で最後に閉じたセッションタブを再オープン（<code>claudeCode.enableReopenClosedSessionShortcut</code> で設定可）。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>forceRemoteSettingsRefresh</code> ポリシー設定と期限切れ資格情報の組合せで <code>claude auth login</code> / <code>logout</code> / <code>status</code> が回復不能にブロックされる deadlock を修正。",
+                "<code>autoAllowBashIfSandboxed</code> が <code>$VAR</code> / <code>$(cmd)</code> などのシェル展開を含むコマンドを自動承認しない問題を修正。",
+                "hook がターミナルに書き込むと画面上のインタラクティブプロンプトが壊れる問題を修正。hook はターミナルアクセスなしで実行されるように。",
+                "HTTP/SSE MCP サーバが非プロトコルデータを stream するとメモリが青天井に増える問題を修正。レスポンスボディは <strong>SSE フレーム当たり 16 MB に cap</strong>。",
+                "<code>Skill(name *)</code> 権限ルールのワイルドカード形が <code>Bash(ls *)</code> と同様に <strong>prefix match</strong> として動作するように修正。",
+                "シンボリックリンクされた <code>~/.claude/settings.json</code> への編集が hot-reload に検出されない問題を修正。",
+                "マーケットプレイス key とマニフェスト name が異なる場合、プラグイン詳細のロードが失敗する問題を修正。",
+                "<code>/model</code> ピッカーの「Default」行が <code>ANTHROPIC_DEFAULT_OPUS_MODEL</code> / <code>ANTHROPIC_DEFAULT_SONNET_MODEL</code> オーバーライドを反映しない問題を修正。",
+                "レスポンス完了 5 分後に <strong>「stream idle timeout」</strong>が誤発生する問題を修正（stream キャンセル時の watchdog timer が消えていなかった）。",
+                "10+ の MCP サーバを設定し、かつキャッシュディレクトリが書き込み不可なときの silent な <code>exit 1</code> を修正。エラーメッセージに原因を含めるように。",
+                "タブ名 / リストポインタ / ダイアログの select 行にタイピングカーソルが点滅する問題を修正。",
+                "transcript view の letter ショートカットがマウスクリック後動かなくなる問題を修正。",
+                "Bash モードの上矢印履歴が最初のエントリを繰り返して進行中のドラフトを上書きする問題を修正。",
+                "複数画像のペースト / ドロップで最後の 1 枚しか挿入されない問題を修正。",
+                "ダークテーマで読みにくい dark navy のハイパーリンクが、アクティブテーマに合わせて色調整されるよう修正。",
+                "サードパーティユーザーがモデルを <code>opus</code> エイリアスに設定すると <code>/model</code> ピッカーに重複する「Current model」行が出る問題を修正。",
+                "PAYG のサードパーティプロバイダーで、legacy Opus picker entry がデフォルトと同じモデルに解決される問題を修正。",
+                "Cursor / VS Code 1.92–1.104 のマウスホイールスクロール速度を修正。トラックパッドは安定速度に、マウスホイールは notch あたり ~3 行を維持。",
+                "Windows Terminal と VS Code で背景セッションにアタッチ中のスクロール挙動を修正。",
+                "切断されたサーバの MCP リソースが <code>@server:</code> オートコンプリートに残る問題を修正。",
+                "二ファイル diff スニペットが truncate された行数を 1 多く報告する問題を修正。",
+                "Grep 結果が Windows ドライブレターパスを相対化しない問題、count モードが単一ファイルパスで誤った合計を出す問題を修正。",
+                "ボーダー内テキストが CJK / 絵文字の visual cell 幅誤算でオーバーフローする問題を修正。",
+                "fuzzy-match のハイライトが絵文字 / astral-plane 文字をペアの途中で分割する問題を修正。",
+                "正規表現メタ文字を含む skill 引数名で引数置換が壊れる問題を修正。",
+                "ほぼ満タンの fractional セルで ProgressBar が full block を描く問題を修正。",
+                "fetch in flight 中に最後の subscriber が抜けると task polling と <code>fs.watch</code> が復活してしまう問題を修正。",
+                "マニフェスト name とソース識別子が異なる場合、プラグイン依存解決で古い件数が残る問題を修正。",
+                "セッションにパース不能なタイムスタンプが含まれると Insights の Time-of-Day チャートが歪む問題を修正。",
+                "cmd / super / win 修飾キーのみのキーバインドがパース不能とフラグされる問題を修正。",
+                "<code>--print</code> モードで <code>claude_code.active_time.total</code> OpenTelemetry メトリックが emit されない問題を修正。",
+                "<code>claude plugin update</code> がマーケットプレイス内のプラグイン間シンボリックリンクを保持しない問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
+          "urlLabel": "v2.1.139 release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
@@ -51,12 +141,28 @@
   ],
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "Claude Code release notes は GitHub CLI で確認し、窓内 0 件のため和訳対象なし。"
+    "<code>v2.1.139</code> のリリースノートは Claude Code 公式 GitHub Releases から完全取得し全件和訳した。"
   ],
   "sources": [
     {
+      "title": "Claude Code v2.1.139 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139"
+    },
+    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "@claudeai: Claude Platform on AWS GA",
+      "url": "https://x.com/claudeai/status/2053868592286822443"
+    },
+    {
+      "title": "@ClaudeDevs: Claude Platform on AWS details",
+      "url": "https://x.com/ClaudeDevs/status/2053892878167072914"
+    },
+    {
+      "title": "@AnthropicAI: Constitution audiobook",
+      "url": "https://x.com/AnthropicAI/status/2053881827396653207"
     },
     {
       "title": "Anthropic Engineering",
