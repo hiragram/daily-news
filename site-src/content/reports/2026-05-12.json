@@ -1,11 +1,12 @@
 {
   "date": "2026-05-12",
-  "windowLabel": "2026-05-11 04:37:15 JST - 2026-05-12 04:37:15 JST",
-  "archiveTitle": "Claude Platform on AWS GA, Constitution audiobook, Claude Code v2.1.139",
-  "archiveSummary": "AWS 上で Claude Platform が GA、Claude's Constitution が Amanda Askell ら朗読のオーディオブック化、Claude Code v2.1.139 を 50+ 項目で和訳。",
-  "latestSummary": "Claude Platform が AWS 上で GA となり、Managed Agents や context management、pre-built tools など全機能が AWS 認証 / 請求 / IAM の枠で利用可能に。Anthropic は <strong>Claude's Constitution のオーディオブック</strong>を著者 Amanda Askell・Joe Carlsmith による朗読で公開。Claude Code は <code>v2.1.139</code> がリリースされ、agent view と <code>/goal</code> コマンドなど多数の新機能と修正を含む 50+ 項目を全件和訳した。",
+  "windowLabel": "2026-05-11 08:37:16 JST - 2026-05-12 08:37:16 JST",
+  "archiveTitle": "Claude Platform on AWS GA, agent view, Constitution audiobook, v2.1.139",
+  "archiveSummary": "AWS 上で Claude Platform が GA、Claude Code に agent view（Research Preview）追加、Constitution オーディオブック、Claude Code v2.1.139 を 50+ 項目で和訳。",
+  "latestSummary": "Claude Platform が AWS 上で GA、Claude Code に <strong>agent view（Research Preview）</strong>が追加され複数セッションの一覧 / 並列ディスパッチが可能に、Anthropic は <strong>Claude's Constitution のオーディオブック</strong>を著者朗読で公開。Claude Code は <code>v2.1.139</code> がリリースされ、agent view と <code>/goal</code> コマンドなど多数の新機能と修正を含む 50+ 項目を全件和訳した。",
   "summaryBullets": [
     "<strong>Claude Platform on AWS が GA</strong>。Managed Agents、advisor strategy、code execution、web search 等を含む native Claude API 全機能が AWS 上で利用可能、新機能も同日リリース。",
+    "<strong>Claude Code に agent view が登場</strong>（Research Preview）。<code>claude agents</code> で起動し、実行中 / ユーザー待ち / 完了の全セッションを 1 リストで表示、インラインリプライで unblock 可能。",
     "<strong>Claude's Constitution</strong> がオーディオブック化。著者 <strong>Amanda Askell</strong> と <strong>Joe Carlsmith</strong> が朗読し、執筆過程と背景哲学に関する Q&A も収録。",
     "<strong>Claude Code <code>v2.1.139</code></strong>（<strong>2026-05-12 03:43 JST</strong>）が窓内にリリース。<code>agent view</code>（Research Preview）と <code>/goal</code> コマンド、<code>/scroll-speed</code>、transcript view ナビゲーション、hook の <code>continueOnBlock</code> など含む 50+ 項目を <strong>新機能 / 修正</strong> に分けて全件和訳した。"
   ],
@@ -28,6 +29,15 @@
       "summary": "<strong>@ClaudeDevs</strong> が技術側の補足。2023 年から Bedrock で Claude モデルを提供してきたが、<strong>Claude Platform on AWS では Platform 全機能（context management / prompt caching、pre-built tools、Claude Managed Agents 含む）</strong>が AWS で使えるようになる。認証は <strong>AWS マネージドの API Gateway 経由</strong>で、価格 / レート上限は native Claude API と同じ。",
       "url": "https://x.com/ClaudeDevs/status/2053892878167072914",
       "urlLabel": "@ClaudeDevs の技術解説"
+    },
+    {
+      "label": "@claudeai",
+      "datetime": "2026-05-12T05:50:53+09:00",
+      "displayTime": "2026-05-12 05:50 JST",
+      "title": "Claude Code に agent view を追加（Research Preview）",
+      "summary": "<strong>@claudeai</strong> と <strong>@ClaudeDevs</strong> が Claude Code の新機能 <strong>agent view</strong>（Research Preview）を発表。<code>claude agents</code> を実行すると、<strong>実行中 / ユーザー待ち / 完了</strong>の全セッションが 1 リストで一覧でき、ターミナルタブを占有せず複数セッションを並列ディスパッチできる。インラインリプライで unblock し、必要なときだけ transcript を開ける設計。<strong>有料プラン全種で利用可能</strong>。",
+      "url": "https://x.com/claudeai/status/2053940934736228454",
+      "urlLabel": "@claudeai の発表"
     },
     {
       "label": "@AnthropicAI",
@@ -163,6 +173,14 @@
     {
       "title": "@AnthropicAI: Constitution audiobook",
       "url": "https://x.com/AnthropicAI/status/2053881827396653207"
+    },
+    {
+      "title": "@claudeai: Claude Code agent view",
+      "url": "https://x.com/claudeai/status/2053940934736228454"
+    },
+    {
+      "title": "@ClaudeDevs: agent view details",
+      "url": "https://x.com/ClaudeDevs/status/2053944194386051128"
     },
     {
       "title": "Anthropic Engineering",
