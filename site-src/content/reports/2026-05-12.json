@@ -1,6 +1,6 @@
 {
   "date": "2026-05-12",
-  "windowLabel": "2026-05-11 12:37:15 JST - 2026-05-12 12:37:15 JST",
+  "windowLabel": "2026-05-11 16:37:17 JST - 2026-05-12 16:37:17 JST",
   "archiveTitle": "Claude Platform on AWS GA, agent view, Constitution audiobook, v2.1.139",
   "archiveSummary": "AWS 上で Claude Platform が GA、Claude Code に agent view（Research Preview）追加、Constitution オーディオブック、Claude Code v2.1.139 を 50+ 項目で和訳。",
   "latestSummary": "Claude Platform が AWS 上で GA、Claude Code に <strong>agent view（Research Preview）</strong>が追加され複数セッションの一覧 / 並列ディスパッチが可能に、Anthropic は <strong>Claude's Constitution のオーディオブック</strong>を著者朗読で公開。Claude Code は <code>v2.1.139</code> がリリースされ、agent view と <code>/goal</code> コマンドなど多数の新機能と修正を含む 50+ 項目を全件和訳した。",
