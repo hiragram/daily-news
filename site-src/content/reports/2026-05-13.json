@@ -1,13 +1,13 @@
 {
   "date": "2026-05-13",
-  "windowLabel": "2026-05-12 04:37:30 JST - 2026-05-13 04:37:30 JST",
-  "archiveTitle": "Fast mode for Opus 4.7 (research preview), agent view follow-up",
-  "archiveSummary": "Claude Opus 4.7 の Fast mode が API と Claude Code で研究プレビュー公開（木曜にデフォルト化）。agent view と Code with Claude のミニコンピューター工作集も話題。",
-  "latestSummary": "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>。Claude Code は本日から opt-in で、<strong>木曜にデフォルト化</strong>される。Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも同時に研究プレビュー利用可能。前 24h の Claude Platform on AWS GA / agent view / Constitution audiobook は窓外となり、Claude Code 窓内リリースも 0 件。",
+  "windowLabel": "2026-05-12 08:39:14 JST - 2026-05-13 08:39:14 JST",
+  "archiveTitle": "Fast mode for Opus 4.7 (research preview) and Claude Code v2.1.140",
+  "archiveSummary": "Claude Opus 4.7 の Fast mode が API と Claude Code で研究プレビュー公開（木曜にデフォルト化）。Claude Code v2.1.140 で Agent tool の case-insensitive マッチや /goal のハング修正など。",
+  "latestSummary": "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>。Claude Code は本日から opt-in で、<strong>木曜にデフォルト化</strong>される。Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも同時に研究プレビュー利用可能。Claude Code は窓内に <code>v2.1.140</code> がリリースされ、Agent tool の <code>subagent_type</code> の大文字小文字 / 区切り無視マッチや <code>/goal</code> のハング修正など 13 項目を全件和訳した。",
   "summaryBullets": [
     "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>（@ClaudeDevs 発表）。Claude Code は本日 opt-in、<strong>木曜（2026-05-14）にデフォルト化</strong>。",
     "Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも Opus 4.7 Fast mode を研究プレビューで利用可能。API ユーザーは waitlist 経由。",
-    "<strong>Claude Code は窓内に新規 release 0 件</strong>。最新 <code>v2.1.139</code> は <strong>2026-05-12 03:43 JST</strong> 公開で窓開始 <strong>2026-05-12 04:37 JST</strong> より前。",
+    "<strong>Claude Code <code>v2.1.140</code></strong>（<strong>2026-05-13 06:09 JST</strong>）が窓内にリリース。Agent tool の <code>subagent_type</code> マッチ改善、エージェントカラーパレット更新、<code>/goal</code> のハング修正、<code>/loop</code> の余分な wakeup 修正、Windows での event-loop 停止修正など全 13 項目を全件和訳した。",
     "公式 News / Engineering / Research / Claude Blog はいずれも窓内に新規記事なし。@claudeai は Code with Claude SF 配布の小型コンピューターで作られたミニプロジェクト集を community signal として共有。"
   ],
   "officialNews": [
@@ -55,12 +55,46 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.139</code> は <strong>2026-05-12 03:43 JST</strong> 公開で窓開始 <strong>2026-05-12 04:37 JST</strong> より前。",
-      "details": [
-        "<code>gh release list -R anthropics/claude-code</code> の最新 entry は <code>v2.1.139</code>（<strong>2026-05-12 03:43 JST</strong>）。",
-        "次点は <code>v2.1.138</code>（<strong>2026-05-09 15:33 JST</strong>）で、いずれも窓開始より前だった。",
-        "Draft / prerelease の窓内公開も確認できなかった。"
+      "headline": "v2.1.140",
+      "body": "GitHub CLI で確認したところ、<code>v2.1.140</code>（<strong>2026-05-13 06:09 JST</strong>）が窓内に該当した。<code>What's changed</code> 全 13 項目を <strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.140",
+          "publishedAt": "2026-05-13 06:09 JST",
+          "summary": "<code>What's changed</code> 全 13 項目を新機能 2 / 変更 1 / 修正 10 に分類。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Agent tool の <code>subagent_type</code> マッチを <strong>大文字小文字 / 区切り文字に依存しない</strong>形に拡張（例：<code>\"Code Reviewer\"</code> が <code>code-reviewer</code> に解決される）。",
+                "プラグインで、<code>plugin.json</code> が対応キーを設定しているためにデフォルトのコンポーネントフォルダ（例 <code>commands/</code>）が silently 無視されている場合、<strong><code>/doctor</code> / <code>claude plugin list</code> / <code>/plugin</code> で警告を表示</strong>するようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "エージェントのカラーパレットを更新。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>disableAllHooks</code> または <code>allowManagedHooksOnly</code> 設定下で <code>/goal</code> が無言でハングする問題を修正。インジケータが止まらないまま放置される代わりに <strong>明確なメッセージ</strong>を表示するようにした。",
+                "settings hot-reload の regression を修正：シンボリックリンクされた設定ファイルで誤った change event 帰属と spurious な <code>ConfigChange</code> hook が発火する問題。",
+                "<code>claude --bg</code> がバックグラウンドサービスのアイドル終了直前に「<strong>connection dropped mid-request</strong>」で失敗する問題を修正。",
+                "エンタープライズエンドポイントセキュリティ環境でバックグラウンドサービスの起動が失敗する問題を、起動猶予時間を延ばして修正。",
+                "リモート managed settings が 401 でリトライしない問題を修正。<strong>force-refresh したトークンで 1 回リトライ</strong>するようにした。",
+                "管理対象の <code>extraKnownMarketplaces</code> 自動更新ポリシーが <code>known_marketplaces.json</code> に永続化されない問題を修正。",
+                "<code>/loop</code> が、完了通知を出すバックグラウンドタスクに対しても <strong>余分な wakeup を予約</strong>してポーリングしてしまう問題を修正。",
+                "Windows で <code>gh</code> など不存在の実行ファイルに対し、毎回同期的に <code>where.exe</code> を spawn することで起きていた <strong>event-loop の周期的なストール</strong>を修正。",
+                "<code>Read</code> tool 呼び出しで <code>offset</code> が空白パディングや <code>+</code> プレフィックスを含む文字列のときに validation 失敗する問題を修正。",
+                "ターミナルがフォーカスを失った際に、ネイティブターミナルカーソルが入力キャレット位置に留まらない問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
+          "urlLabel": "v2.1.140 release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Releases を見る"
@@ -68,10 +102,18 @@
   ],
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "Claude Code release notes は GitHub CLI で確認し、窓内 0 件のため和訳対象なし。<code>v2.1.139</code> は前日掲載分のため再掲しない。",
+    "<code>v2.1.140</code> のリリースノートは Claude Code 公式 GitHub Releases から完全取得し全件和訳した。<code>v2.1.139</code> は前日掲載分のため再掲しない。",
     "Code with Claude の cardputer ミニ工作集は Anthropic 公式発だが製品 signal ではないため signals に軽量掲載した。"
   ],
   "sources": [
+    {
+      "title": "Claude Code v2.1.140 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
     {
       "title": "@ClaudeDevs: Fast mode for Claude Opus 4.7 (research preview)",
       "url": "https://x.com/ClaudeDevs/status/2054266327771275435"
@@ -79,10 +121,6 @@
     {
       "title": "@claudeai: Code with Claude cardputer projects",
       "url": "https://x.com/claudeai/status/2054257324278132893"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
       "title": "Anthropic Engineering",
