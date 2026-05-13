@@ -1,16 +1,26 @@
 {
   "date": "2026-05-13",
-  "windowLabel": "2026-05-12 08:39:14 JST - 2026-05-13 08:39:14 JST",
-  "archiveTitle": "Fast mode for Opus 4.7 (research preview) and Claude Code v2.1.140",
-  "archiveSummary": "Claude Opus 4.7 の Fast mode が API と Claude Code で研究プレビュー公開（木曜にデフォルト化）。Claude Code v2.1.140 で Agent tool の case-insensitive マッチや /goal のハング修正など。",
-  "latestSummary": "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>。Claude Code は本日から opt-in で、<strong>木曜にデフォルト化</strong>される。Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも同時に研究プレビュー利用可能。Claude Code は窓内に <code>v2.1.140</code> がリリースされ、Agent tool の <code>subagent_type</code> の大文字小文字 / 区切り無視マッチや <code>/goal</code> のハング修正など 13 項目を全件和訳した。",
+  "windowLabel": "2026-05-12 12:37:19 JST - 2026-05-13 12:37:19 JST",
+  "archiveTitle": "Fast mode Opus 4.7, /goal long-running thread, v2.1.140",
+  "archiveSummary": "Claude Opus 4.7 の Fast mode が研究プレビュー公開、@ClaudeDevs が /goal を Ralph loop として詳説、Claude Code v2.1.140 を 13 項目で和訳。",
+  "latestSummary": "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>。Claude Code は本日から opt-in で、<strong>木曜にデフォルト化</strong>される。<strong>@ClaudeDevs</strong> は <strong><code>/goal</code> を Ralph loop として実装</strong>した詳細スレッドを公開し、<code>/loop</code> / <code>/schedule</code> / stop hook / auto mode と組み合わせた long-running ワークフローを案内。Claude Code は窓内に <code>v2.1.140</code> がリリースされ 13 項目を全件和訳した。",
   "summaryBullets": [
-    "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>（@ClaudeDevs 発表）。Claude Code は本日 opt-in、<strong>木曜（2026-05-14）にデフォルト化</strong>。",
-    "Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも Opus 4.7 Fast mode を研究プレビューで利用可能。API ユーザーは waitlist 経由。",
+    "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>（@ClaudeDevs 発表）。Claude Code は本日 opt-in、<strong>木曜（2026-05-14）にデフォルト化</strong>。Cursor / Emergent Labs / Factory AI / v0 / Warp / Windsurf でも研究プレビュー、API は waitlist。",
+    "<strong>@ClaudeDevs が <code>/goal</code> の解説スレッド</strong>を投稿。<strong>Ralph loop</strong> として実装され、Claude が停止しようとする度に transcript に対し条件評価し、未達なら継続、達成なら「Goal achieved」サマリ。<code>/loop</code>（反復実行）、<code>/schedule</code>（cron 実行）、stop hook（プログラム的に完了制御）、auto mode（待ち時間排除）と組み合わせた long-running 運用を案内。",
     "<strong>Claude Code <code>v2.1.140</code></strong>（<strong>2026-05-13 06:09 JST</strong>）が窓内にリリース。Agent tool の <code>subagent_type</code> マッチ改善、エージェントカラーパレット更新、<code>/goal</code> のハング修正、<code>/loop</code> の余分な wakeup 修正、Windows での event-loop 停止修正など全 13 項目を全件和訳した。",
     "公式 News / Engineering / Research / Claude Blog はいずれも窓内に新規記事なし。@claudeai は Code with Claude SF 配布の小型コンピューターで作られたミニプロジェクト集を community signal として共有。"
   ],
   "officialNews": [
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-13T09:00:28+09:00",
+      "displayTime": "2026-05-13 09:00 JST",
+      "title": "<code>/goal</code> を Ralph loop として詳説",
+      "summary": "<strong>@ClaudeDevs</strong> が、最近リリースした <code>/goal</code> コマンドの実装詳細を 7 投稿スレッドで公開。例：<code>/goal all tests in test/auth pass and the lint step is clean</code>。これは <strong>Ralph loop</strong> として実装され、Claude が停止しようとする度に <strong>transcript に対しユーザー条件を評価</strong>し、未達なら継続、達成なら「Goal achieved」サマリを返す。あわせて <strong><code>/loop</code></strong>（反復実行：iterative refactor / cleanup / backlog 消化）、<strong><code>/schedule</code></strong>（cron：夜間テスト / 朝のトリアージ / 週次クリーンアップ）、<strong>stop hook</strong>（テスト実行や CI エンドポイント呼び出しで完了制御）、<strong>auto mode</strong>（CLI で <code>shift+tab</code>、desktop はモードセレクタ。ユーザー待ちで止まらないようにする）と組み合わせた long-running 運用を案内。",
+      "url": "https://x.com/ClaudeDevs/status/2054351031279186040",
+      "urlLabel": "/goal スレッド",
+      "primary": true
+    },
     {
       "label": "@ClaudeDevs",
       "datetime": "2026-05-13T03:23:53+09:00",
@@ -18,8 +28,7 @@
       "title": "Claude Opus 4.7 Fast mode を研究プレビュー公開",
       "summary": "<strong>@ClaudeDevs</strong> が <strong>Fast mode for Claude Opus 4.7</strong> を API と Claude Code 上で <strong>研究プレビュー公開</strong>と発表。Claude Code では本日から <strong>opt-in</strong> で利用でき、<strong>木曜（2026-05-14）にはデフォルト化</strong>される。Cursor、Emergent Labs、Factory AI、v0、Warp、Windsurf でも同時に研究プレビューで使える。API ユーザー向けには waitlist が公開された。",
       "url": "https://x.com/ClaudeDevs/status/2054266327771275435",
-      "urlLabel": "@ClaudeDevs のスレッド",
-      "primary": true
+      "urlLabel": "@ClaudeDevs のスレッド"
     }
   ],
   "officialZeroStates": [
@@ -113,6 +122,10 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "@ClaudeDevs: /goal Ralph loop thread",
+      "url": "https://x.com/ClaudeDevs/status/2054351031279186040"
     },
     {
       "title": "@ClaudeDevs: Fast mode for Claude Opus 4.7 (research preview)",
