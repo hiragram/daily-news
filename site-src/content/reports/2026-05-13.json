@@ -1,6 +1,6 @@
 {
   "date": "2026-05-13",
-  "windowLabel": "2026-05-12 16:37:16 JST - 2026-05-13 16:37:16 JST",
+  "windowLabel": "2026-05-12 20:37:18 JST - 2026-05-13 20:37:18 JST",
   "archiveTitle": "Fast mode Opus 4.7, /goal long-running thread, v2.1.140",
   "archiveSummary": "Claude Opus 4.7 の Fast mode が研究プレビュー公開、@ClaudeDevs が /goal を Ralph loop として詳説、Claude Code v2.1.140 を 13 項目で和訳。",
   "latestSummary": "<strong>Fast mode for Claude Opus 4.7</strong> が API と Claude Code で <strong>研究プレビュー公開</strong>。Claude Code は本日から opt-in で、<strong>木曜にデフォルト化</strong>される。<strong>@ClaudeDevs</strong> は <strong><code>/goal</code> を Ralph loop として実装</strong>した詳細スレッドを公開し、<code>/loop</code> / <code>/schedule</code> / stop hook / auto mode と組み合わせた long-running ワークフローを案内。Claude Code は窓内に <code>v2.1.140</code> がリリースされ 13 項目を全件和訳した。",
