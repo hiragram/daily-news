@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "windowLabel": "2026-05-13 16:37:18 JST - 2026-05-14 16:37:18 JST",
+  "windowLabel": "2026-05-13 20:37:18 JST - 2026-05-14 20:37:18 JST",
   "archiveTitle": "Small Business, programmatic credit, +50% weekly, Claude Code v2.1.141",
   "archiveSummary": "Claude for Small Business 公開、プログラム的使用専用の月次クレジット制度を 6/15 導入予告、Claude Code 週次上限 50% 引き上げ（〜7/13）、Claude Code v2.1.141 を 60+ 項目で和訳。",
   "latestSummary": "公式 News に <strong>Claude for Small Business</strong> 掲載、<strong>2026-06-15 からプログラム的使用専用月次クレジット</strong>導入予告（SDK / <code>claude -p</code> / GitHub Actions / Conductor、OpenClaw 等が対象、Pro $20 〜 Max 20x $200）、<strong>Claude Code 週次上限を即時 50% 増（〜2026-07-13）</strong>。Claude Code は窓内に <strong><code>v2.1.141</code></strong>（<strong>2026-05-14 08:19 JST</strong>）がリリースされ、<code>terminalSequence</code> hook、<code>claude agents --cwd</code>、Rewind の Summarize、auto mode 説明改善ほか 60+ 項目を全件和訳した。",
