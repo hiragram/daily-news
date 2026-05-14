@@ -1,16 +1,17 @@
 {
   "date": "2026-05-15",
-  "windowLabel": "2026-05-14 04:37:18 JST - 2026-05-15 04:37:18 JST",
-  "archiveTitle": "Gates $200M, US-China AI paper, Small Business, programmatic credit, v2.1.141",
-  "archiveSummary": "Gates Foundation $200M、米中 AI 競争ペーパー、Claude for Small Business、プログラム的使用専用月次クレジット制度（6/15）、Claude Code 週次上限 50% 増、v2.1.141 を 60+ 項目で和訳。",
-  "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Gates Foundation と $200M パートナーシップ</strong>と、続けて <strong>US-China AI 競争に関するポジションペーパー</strong>を発表（米国と民主主義連合の frontier AI 優位を維持する条件を論じる）。前 24h からの <strong>Claude for Small Business</strong>、<strong>プログラム的使用専用月次クレジット制度</strong>（6/15 開始）、<strong>Claude Code 週次上限 50% 増</strong>（〜7/13）、<strong>Claude Code <code>v2.1.141</code></strong>（60+ 項目和訳）も窓内継続。",
+  "windowLabel": "2026-05-14 08:37:16 JST - 2026-05-15 08:37:16 JST",
+  "archiveTitle": "Gates $200M, US-China paper, Fast mode Opus 4.7 default, v2.1.142",
+  "archiveSummary": "Gates Foundation $200M、米中 AI 競争ペーパー、Claude Code v2.1.142 で Fast mode が Opus 4.7 デフォルト化、@ClaudeDevs の prompt cache pre-warming tip、前 24h の各種発表も継続。",
+  "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Gates Foundation $200M パートナーシップ</strong>と <strong>米中 AI 競争ポジションペーパー</strong>を発表。<strong>Claude Code <code>v2.1.142</code></strong>（<strong>2026-05-15 07:55 JST</strong>）が窓内にリリースされ <strong>Fast mode が Opus 4.6 から Opus 4.7 デフォルトに切替</strong>、<code>claude agents</code> 多数フラグ追加、SKILL.md ルート skill 認識、LSP server 詳細表示、daemon クロックジャンプ検出など 25 項目を全件和訳。<strong>@ClaudeDevs</strong> は API の <strong>prompt cache pre-warming tip</strong> を共有。",
   "summaryBullets": [
     "<strong>@AnthropicAI</strong>: <strong>Gates Foundation と $200M パートナーシップ</strong>を発表。<strong>global health / life sciences / education / agriculture / economic mobility</strong> のプログラム向けに、グラント / Claude クレジット / 技術支援を提供。",
     "<strong>@AnthropicAI</strong>: <strong>米中 AI 競争に関する論文</strong>を公開。米国と民主主義連合が <strong>frontier AI で現在リードしている</strong>と認識し、そのリードを維持するために必要なことを論じる。",
     "公式 News に <strong>Claude for Small Business</strong>（2026-05-13）が掲載された。",
     "<strong>@ClaudeDevs</strong>: <strong>2026-06-15 から有料プランにプログラム的使用専用の月次クレジット</strong>を導入。Pro $20 / Max 5x $100 / Max 20x $200 / Team Standard $20/seat / Team Premium $100/seat / Enterprise はシートタイプによる。対象は <strong>Claude Agent SDK / <code>claude -p</code> / Claude Code GitHub Actions / Agent SDK 製サードパーティアプリ（Conductor、OpenClaw など）</strong>。クレジット使い切り後は usage credits（API 料金）で継続するか pause を選択。月次リセット、繰越なし。6/8 メールでクレジット claim、6/15 から有効。",
     "<strong>@ClaudeDevs</strong>: <strong>Claude Code 週次上限を 50% 即時引き上げ</strong>（Pro / Max / Team / seat-based Enterprise）。<strong>2026-07-13 18:00 PDT</strong> まで。CLI / IDE 拡張 / desktop / web 全てに適用、opt-in 不要、先週の <strong>5 時間上限 2 倍と stack</strong>。",
-    "Claude Code は <strong><code>v2.1.141</code></strong>（<strong>2026-05-14 08:19 JST</strong>）が窓内リリース。<code>terminalSequence</code> hook、<code>claude agents --cwd &lt;path&gt;</code>、<code>/feedback</code> の直近 24h / 7d セッション同梱、Rewind の <strong>「Summarize up to here」</strong>、auto mode の <code>permissions.ask</code> 由来説明、background agent のパーミッションモード保持、スピナーの 10 秒後アンバー警告、MCP / Remote Control / Bedrock / 第三者プロバイダ周りの大量修正など計 60+ 項目を全件和訳した。"
+    "Claude Code <strong><code>v2.1.142</code></strong>（<strong>2026-05-15 07:55 JST</strong>）が窓内リリース。<strong>Fast mode が Opus 4.6 から Opus 4.7 デフォルト</strong>に切替（<code>CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE=1</code> で旧仕様 pin 可能）。<code>claude agents</code> に <code>--add-dir</code> / <code>--settings</code> / <code>--mcp-config</code> / <code>--plugin-dir</code> / <code>--permission-mode</code> / <code>--model</code> / <code>--effort</code> / <code>--dangerously-skip-permissions</code> フラグ追加、root-level <code>SKILL.md</code> プラグインを skill として認識、LSP server 詳細表示、<code>MCP_TOOL_TIMEOUT</code> 反映、macOS sleep/wake のクロックジャンプ検出など 25 項目を全件和訳。",
+    "<strong>@ClaudeDevs</strong>: API で長プロンプトの time-to-first-token を縮める <strong>prompt cache pre-warming tip</strong> を共有。<strong>システムプロンプトを user prompt より前に送って cache に書き込み、出力生成は skip</strong>。後続の実 user request が warm cache にヒットする。"
   ],
   "officialNews": [
     {
@@ -93,93 +94,56 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.141",
-      "body": "GitHub CLI で確認したところ、<code>v2.1.141</code>（<strong>2026-05-14 08:19 JST</strong>）が窓内に該当した。<code>What's changed</code> 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
+      "headline": "v2.1.142",
+      "body": "GitHub CLI で確認したところ、<code>v2.1.142</code>（<strong>2026-05-15 07:55 JST</strong>）が窓内に該当した。<code>What's changed</code> 全 25 項目を <strong>新機能 / 変更 / 修正</strong> に分けて以下に和訳した。",
       "releases": [
         {
-          "version": "v2.1.141",
-          "publishedAt": "2026-05-14 08:19 JST",
-          "summary": "<code>What's changed</code> 全項目を新機能 6 / 変更 6 / 修正 約 48 に分類。",
+          "version": "v2.1.142",
+          "publishedAt": "2026-05-15 07:55 JST",
+          "summary": "<code>What's changed</code> 全 25 項目を新機能 5 / 変更 4 / 修正 16 に分類。Fast mode の Opus 4.7 デフォルト化が目玉。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "hook の JSON 出力に <code>terminalSequence</code> フィールドを追加。<strong>制御ターミナルなしでもデスクトップ通知 / ウィンドウタイトル / ベル</strong>を発行できる。",
-                "<code>CLAUDE_CODE_PLUGIN_PREFER_HTTPS</code> を追加。GitHub SSH 鍵がない環境向けに GitHub プラグインソースを <strong>SSH ではなく HTTPS で clone</strong> する。",
-                "workload identity federation 用に <code>ANTHROPIC_WORKSPACE_ID</code> 環境変数を追加。federation rule が複数ワークスペースをカバーするとき <strong>発行トークンを特定ワークスペースにスコープ</strong>する。",
-                "<code>claude agents --cwd &lt;path&gt;</code> を追加し、セッション一覧をディレクトリでフィルタできるようにした。",
-                "<code>/feedback</code> が <strong>直近 24 時間 / 7 日のセッション</strong>を含められるようになり、現セッションを超える問題報告ができる。",
-                "Rewind メニューに <strong>「Summarize up to here」</strong>を追加。最近のターンを残したまま過去のコンテキストを圧縮できる。"
+                "<code>claude agents</code> に <strong>dispatched バックグラウンドセッションを設定するフラグ群</strong>を追加：<code>--add-dir</code>、<code>--settings</code>、<code>--mcp-config</code>、<code>--plugin-dir</code>、<code>--permission-mode</code>、<code>--model</code>、<code>--effort</code>、<code>--dangerously-skip-permissions</code>。",
+                "<strong>Fast mode を Opus 4.7 デフォルトに切替</strong>（従来は Opus 4.6）。<code>CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE=1</code> で Fast mode を Opus 4.6 に pin できる。",
+                "<strong>root-level に <code>SKILL.md</code> を持ち <code>skills/</code> サブディレクトリを持たないプラグイン</strong>を skill として表面化するようにした。",
+                "<code>/plugin</code> 詳細ペインと <code>claude plugin details</code> がプラグイン提供の <strong>LSP server</strong> を表示するようになった。",
+                "<code>/web-setup</code> が、既存 GitHub App 接続を置き換える前に <strong>警告</strong>を表示するようにした。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "Auto mode の権限ダイアログが、<strong><code>permissions.ask</code> ルールが原因でプロンプトが出た場合に説明</strong>を表示するようになった。",
-                "IDE 接続時のファイル編集権限プロンプトで <strong>「view diff in your IDE」</strong>オプションを復活。",
-                "<code>/bg</code> や <code>←←</code> で起動したバックグラウンドエージェントが、デフォルトに戻さず <strong>現在のパーミッションモードを保持</strong>するようにした。",
-                "<code>claude agents</code>: 作業は終わったが背景シェルが残っているエージェントを <strong>Working から Completed</strong> へ移すようにした。",
-                "長い thinking 期間中のスピナーを改善。<strong>10 秒経過後にアンバー</strong>へ色変えして Claude がまだ作業中であることを示す。",
-                "プラグインメニューのナビゲーション改善：<code>→</code> / Tab でタブ切替、<code>↑</code> でタブストリップへ、fullscreen ではタブヘッダと検索ボックスがクリッカブル。"
+                "Reactive compaction を改善：最初の summarize 試行が <strong>元リクエストのオーバーフローサイズから seeds</strong> するようにし、ほぼフルコンテキストでの retry の無駄を避ける。",
+                "Hook 設定エラーを改善：<code>SessionStart</code> / <code>Setup</code> / <code>SubagentStart</code> に prompt-type または agent-type hook を設定すると、<strong>「use a command-type hook instead」</strong>の明確なエラーを出すようにした。",
+                "Usage Policy 拒否メッセージから古い <code>/model claude-sonnet-4-20250514</code> 提案を削除。",
+                "<code>claude --bg --dangerously-skip-permissions</code> が retire / wake をまたいで保持されるようにした。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "<code>ANTHROPIC_SMALL_FAST_MODEL</code> オーバーライド未設定時、Bedrock / Vertex / Foundry / gateway でバックグラウンド side-query が利用不能な Haiku モデル ID を送る問題を修正（main-loop モデルにフォールバック）。",
-                "Windows で daemon pipe key file がロックまたは読めないとき <code>claude daemon status</code> / <code>/doctor</code> が opaque に失敗する問題を修正（下層エラーを表示）。",
-                "フラグを追加するラッパー経由で起動したとき <code>claude agents</code> がダッシュボードではなく agent-type リストを表示する問題を修正。",
-                "<code>claude agents</code> でクラッシュ済みセッションを開いたとき、作業ディレクトリが削除されていると redundant な dispatch が発火する問題を修正。",
-                "カスタム <code>ANTHROPIC_BASE_URL</code> gateway 上のバックグラウンドジョブが auto-named されない問題を修正（Haiku モデル未設定時は namer がメインモデルを使用）。",
-                "あるセッションで <code>/model</code> を変更すると並行する他セッションの <strong>autocompact しきい値も silently 変わる</strong>問題を修正。",
-                "tool-permission プロンプトを開いたままパーミッションモードを切り替えても、新設定でその tool が許可されるときに自動 dismiss されない問題を修正。",
-                "permission / dialog プロンプトが開いているときに Enter を押すと、入力ボックスのテキストまで submit してしまう問題を修正。",
-                "<code>EnterWorktree</code> で作業ディレクトリが変わった後、hook が存在しない <code>transcript_path</code> を受け取る問題を修正。",
-                "セル折り返しのある markdown 表が、枠付きグリッドではなく縦の key-value レイアウトにフォールバックする 2.1.136 リグレッションを修正。",
-                "キャンセルされたプロンプトが入力ボックスに auto-restore されたとき、上矢印履歴から重複削除されない問題を修正。",
-                "応答前に Ctrl+C / Esc でキャンセルしたプロンプトが上矢印履歴から drop される問題を修正。",
-                "vim の INSERT / VISUAL モード中に Ctrl+C で実行中ターンを中断できない問題を修正。",
-                "<code>enter</code> を <code>chat:newline</code> に rebind しているとき、代替 <code>chat:submit</code> キーバインド（<code>meta+enter</code> / <code>ctrl+enter</code> など）が動かない問題を修正。",
-                "出力スタイル設定時にプロンプト候補が silently 無効化される問題を修正。",
-                "ターン完了メッセージで <code>spinnerVerbs</code> 設定が尊重されない問題を修正。",
-                "<code>AskUserQuestion</code> ポップアップが直前のチャット最終行を隠す問題を修正。",
-                "Web Search のステータスが、検索エラー時に <strong>「Did 0 searches」</strong>と誤表示される問題を修正。",
-                "複数行 statusline 出力で、行がターミナル幅を超えると行が落ちる / 壊れる問題を修正。",
-                "light-ansi テーマで diff の context 行が <strong>明背景に見えない白</strong>で描かれていた問題を黒へ修正。",
-                "エラーオーバーレイが minified バンドルソースを dump して元エラーを隠す問題を修正。",
-                "feedback サーベイの評価桁を打った後 Enter で submit されず、評価ではなく chat メッセージとして submit される問題を修正。",
-                "agent パネルで選択中のサブエージェント上で <code>x</code> を押すと、エージェントを停止せずプロンプトに <code>x</code> が入力される問題を修正。",
-                "ユーザーの最初のプロンプト前に plugin monitor 通知からセッションタイトルが派生してしまう問題を修正。",
-                "collapsed な read / search グループの下で <strong>「Allowed by PermissionRequest hook」</strong>が tool 呼び出しごとに繰り返される問題を修正。",
-                "<code>/tui</code> が走行中のバックグラウンドシェルやサブエージェントを silently drop する問題を修正（完了待ちを促すように）。",
-                "Bedrock / Vertex / Foundry など第三者プロバイダで welcome banner が <strong>「API Usage Billing」</strong>と表示される問題を修正（プロバイダ名を表示）。",
-                "fullscreen の短いターミナルで <code>/mcp</code> サーバ一覧がフォーカス中サーバを可視範囲に保たない問題を修正。",
-                "<code>/feedback</code> バンドルの redaction が、セッション ID などクオート値で無効な JSON を生成する問題を修正。",
-                "desktop / 第三者プロバイダのセッションがホストの managed-settings から <code>apiKeyHelper</code> / <code>ANTHROPIC_AUTH_TOKEN</code> を誤って継承する問題を修正。",
-                "logger 初期化前に発火した analytics イベントが silently drop される問題を修正。",
-                "プラグインのマーケットプレイス <code>ref</code> が upstream で消えても <code>sha</code> が pin されている場合に <code>claude plugin install</code> が失敗する問題を修正。",
-                "<code>.mcp.json</code> で MCP server を宣言しているプラグインの詳細ペインが MCP サーバ 0 件と表示する問題を修正。",
-                "config 変数未設定のプラグイン MCP サーバが汎用接続失敗ではなく <strong>「config issue」メッセージ + 修正ヒント</strong>を表示するように修正。malformed な <code>.mcp.json</code> エントリが他の MCP サーバを巻き添えにしない。",
-                "POSIX シェルパラメータ展開（例 <code>${var%pattern}</code>）を含む MCP サーバ設定が、誤って <strong>環境変数欠落</strong>とフラグされる問題を修正。",
-                "MCP HTTP / SSE サーバが接続時に 403 を返したとき「failed」ではなく <strong>「needs auth」</strong>と表示するよう修正。",
-                "optional server-events stream の再接続失敗で remote MCP サーバが不要に切断される問題を修正（tool 呼び出しは POST で継続）。",
-                "worker セッショントークンがセッション中に rotate されたとき、Remote Control MCP connector が全て 401 で失敗する問題を修正。",
-                "Remote Control がサーバから stale token 拒否を受けた際、信頼済みデバイスを <strong><code>/login</code> ループではなく自動 re-enroll</strong> するよう修正。",
-                "SDK / headless モード + beta tracing 有効時、初期の OTel span が silently drop されるレースを修正。",
-                "カスタム <code>voice:pushToTalk</code> キーバインドや <code>\"space\": null</code> の unbind が silently 無視される問題を修正。",
-                "Windows の Alt+V 画像 paste で、クリップボードにスクリーンショットがあるのに「<strong>no image found</strong>」と報告される問題を修正。",
-                "Linux で glibc と musl の両方のプラットフォームパッケージがインストールされているときに SDK が <strong>「Claude Code native binary not found」</strong>になる問題を修正。",
-                "Bedrock: ambient AWS 資格情報が解決できるときに <code>awsCredentialExport</code> がスキップされていたのを、設定されていれば常時実行するよう修正（クロスアカウント認証）。",
-                "[VSCode] チャット内マイクが、マイクが無音しか発しないときフィードバックなしだったのを <strong>「No audio detected」</strong>と表示するよう修正。",
-                "[VSCode] Voice mode: WSL エラーが WSLg ユーザー向けに <code>sox libsox-fmt-pulse</code> のインストールを提案するように。",
-                "<code>claude agents</code>: pre-warmed バックグラウンドワーカーが unhealthy のとき、セッション起動が失敗せずフレッシュ起動にフォールバック。",
-                "<code>claude agents</code>: フレッシュ REPL を背景に送って残った <strong>空のプレースホルダーセッション</strong>を表示しないようにし、他にエージェントがない状態で <code>←</code> から入った時はオンボーディングテキストを表示。",
-                "<code>←</code> から残った空のアイドルバックグラウンドセッションを、デーモンが <strong>5 分後に自動 retire</strong> するようにした。"
+                "<code>MCP_TOOL_TIMEOUT</code> が remote HTTP / SSE MCP サーバの per-request fetch timeout を引き上げず、設定値に関わらず tool 呼び出しが <strong>60 秒で cap</strong> されていた問題を修正。",
+                "バックグラウンドセッションが既存の git worktree を認識せず、<code>EnterWorktree</code> が重複作成を拒否する一方で Edit がブロックされる問題を修正。",
+                "macOS の sleep / wake 後にバックグラウンドセッションが消え、daemon 再接続が失敗する問題を修正。<strong>daemon がクロックジャンプを idle 時間経過ではなく検出</strong>するように。",
+                "バイナリアップグレード（例 <code>brew upgrade</code>）後に daemon がクリーンに exit せず、dispatched エージェントが削除済みパスで <strong>crash-loop</strong> する問題を修正。",
+                "Claude-in-Chrome 拡張が共有タブなしで接続されているとき、バックグラウンドエージェントが crash-loop する問題を修正。",
+                "アタッチした <code>claude agents</code> セッションでリンククリックが効かない問題を修正。アタッチ中はバックグラウンドワーカーの headless ブラウザ shim が適用されないように。",
+                "<code>claude agents</code> の <strong>「v to open in editor」</strong>がシェルの <code>$EDITOR</code> / <code>$VISUAL</code> ではなく daemon デフォルトエディタを使っていた問題を修正。",
+                "ネットワークドライブ作業ディレクトリで Windows の <code>claude agents</code> が deadlock する問題、起動中の Ctrl+C が効かない問題を修正。",
+                "Apple Terminal など 256 色のみの terminal から <code>claude agents</code> セッションにアタッチしたときの背景色 bleed を修正。",
+                "セッションタイトルが最初のメッセージがリンクのとき URL から派生していた問題を修正。",
+                "リモートクライアントからの redundant な <code>set_model</code> リクエストが transcript に重複 <code>/model</code> breadcrumb を注入する問題を修正。",
+                "<code>skills: [\"./\"]</code> を使うプラグインで偽の <strong>「path escapes plugin directory」</strong>エラーが出る問題を修正。",
+                "インストール metadata が無いとき、プラグインキャッシュクリーンアップが <strong>アクティブなプラグインバージョンディレクトリを削除</strong>してしまう問題を修正。",
+                "<code>/plugin</code> browse ペインが新規公開プラグインで <strong>「0 installs」</strong>と表示する問題を修正。",
+                "プラグイン advisory が、デフォルトフォルダを shadow する <code>plugin.json</code> キーを全て命名しない問題を修正。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
-          "urlLabel": "v2.1.141 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+          "urlLabel": "v2.1.142 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -188,13 +152,17 @@
   ],
   "exclusions": [
     "Anthropic 関係者の私的投稿や Claude / Anthropic と無関係な話題は除外。",
-    "<code>v2.1.141</code> のリリースノートは Claude Code 公式 GitHub Releases から完全取得し全件和訳した。<code>v2.1.140</code> は窓外（前日掲載済）のため再掲しない。",
+    "<code>v2.1.142</code> のリリースノートは Claude Code 公式 GitHub Releases から完全取得し全件和訳した。<code>v2.1.141</code> は窓外（前日掲載済）のため再掲しない。",
     "Code with Claude の cardputer ミニ工作集は Anthropic 公式発だが製品 signal ではないため signals に軽量掲載した。"
   ],
   "sources": [
     {
-      "title": "Claude Code v2.1.141 release",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141"
+      "title": "Claude Code v2.1.142 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142"
+    },
+    {
+      "title": "@ClaudeDevs: prompt cache pre-warming tip",
+      "url": "https://x.com/ClaudeDevs/status/2055069548672631218"
     },
     {
       "title": "Claude Code releases",
