@@ -1,17 +1,27 @@
 {
   "date": "2026-05-15",
-  "windowLabel": "2026-05-14 00:37:22 JST - 2026-05-15 00:37:22 JST",
-  "archiveTitle": "Gates Foundation $200M, Small Business, programmatic credit, v2.1.141",
-  "archiveSummary": "Gates Foundation との $200M パートナーシップ発表、Claude for Small Business、プログラム的使用専用月次クレジット制度（6/15）、Claude Code 週次上限 50% 増、v2.1.141 を 60+ 項目で和訳。",
-  "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Gates Foundation と $200M（グラント・Claude クレジット・技術支援）パートナーシップ</strong>を発表。global health / life sciences / education / agriculture / economic mobility のプログラムが対象。前 24h からの公式 News <strong>Claude for Small Business</strong>、<strong>プログラム的使用専用月次クレジット制度</strong>（6/15 開始）、<strong>Claude Code 週次上限 50% 増</strong>（〜7/13）、<strong>Claude Code <code>v2.1.141</code></strong>（60+ 項目和訳）も窓内継続。",
+  "windowLabel": "2026-05-14 04:37:18 JST - 2026-05-15 04:37:18 JST",
+  "archiveTitle": "Gates $200M, US-China AI paper, Small Business, programmatic credit, v2.1.141",
+  "archiveSummary": "Gates Foundation $200M、米中 AI 競争ペーパー、Claude for Small Business、プログラム的使用専用月次クレジット制度（6/15）、Claude Code 週次上限 50% 増、v2.1.141 を 60+ 項目で和訳。",
+  "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Gates Foundation と $200M パートナーシップ</strong>と、続けて <strong>US-China AI 競争に関するポジションペーパー</strong>を発表（米国と民主主義連合の frontier AI 優位を維持する条件を論じる）。前 24h からの <strong>Claude for Small Business</strong>、<strong>プログラム的使用専用月次クレジット制度</strong>（6/15 開始）、<strong>Claude Code 週次上限 50% 増</strong>（〜7/13）、<strong>Claude Code <code>v2.1.141</code></strong>（60+ 項目和訳）も窓内継続。",
   "summaryBullets": [
     "<strong>@AnthropicAI</strong>: <strong>Gates Foundation と $200M パートナーシップ</strong>を発表。<strong>global health / life sciences / education / agriculture / economic mobility</strong> のプログラム向けに、グラント / Claude クレジット / 技術支援を提供。",
+    "<strong>@AnthropicAI</strong>: <strong>米中 AI 競争に関する論文</strong>を公開。米国と民主主義連合が <strong>frontier AI で現在リードしている</strong>と認識し、そのリードを維持するために必要なことを論じる。",
     "公式 News に <strong>Claude for Small Business</strong>（2026-05-13）が掲載された。",
     "<strong>@ClaudeDevs</strong>: <strong>2026-06-15 から有料プランにプログラム的使用専用の月次クレジット</strong>を導入。Pro $20 / Max 5x $100 / Max 20x $200 / Team Standard $20/seat / Team Premium $100/seat / Enterprise はシートタイプによる。対象は <strong>Claude Agent SDK / <code>claude -p</code> / Claude Code GitHub Actions / Agent SDK 製サードパーティアプリ（Conductor、OpenClaw など）</strong>。クレジット使い切り後は usage credits（API 料金）で継続するか pause を選択。月次リセット、繰越なし。6/8 メールでクレジット claim、6/15 から有効。",
     "<strong>@ClaudeDevs</strong>: <strong>Claude Code 週次上限を 50% 即時引き上げ</strong>（Pro / Max / Team / seat-based Enterprise）。<strong>2026-07-13 18:00 PDT</strong> まで。CLI / IDE 拡張 / desktop / web 全てに適用、opt-in 不要、先週の <strong>5 時間上限 2 倍と stack</strong>。",
     "Claude Code は <strong><code>v2.1.141</code></strong>（<strong>2026-05-14 08:19 JST</strong>）が窓内リリース。<code>terminalSequence</code> hook、<code>claude agents --cwd &lt;path&gt;</code>、<code>/feedback</code> の直近 24h / 7d セッション同梱、Rewind の <strong>「Summarize up to here」</strong>、auto mode の <code>permissions.ask</code> 由来説明、background agent のパーミッションモード保持、スピナーの 10 秒後アンバー警告、MCP / Remote Control / Bedrock / 第三者プロバイダ周りの大量修正など計 60+ 項目を全件和訳した。"
   ],
   "officialNews": [
+    {
+      "label": "@AnthropicAI",
+      "datetime": "2026-05-15T03:09:21+09:00",
+      "displayTime": "2026-05-15 03:09 JST",
+      "title": "米中 AI 競争に関するポジションペーパーを公開",
+      "summary": "<strong>@AnthropicAI</strong> が、<strong>米中 AI 競争に関する論文</strong>を公開。米国と民主主義連合が <strong>frontier AI で現在リードしている</strong>と前提し、そのリードを維持するために必要なことを論じる。",
+      "url": "https://x.com/AnthropicAI/status/2054987444664377374",
+      "urlLabel": "@AnthropicAI の発表"
+    },
     {
       "label": "@AnthropicAI",
       "datetime": "2026-05-15T00:08:23+09:00",
@@ -197,6 +207,10 @@
     {
       "title": "@AnthropicAI: Gates Foundation $200M partnership",
       "url": "https://x.com/AnthropicAI/status/2054941901900611787"
+    },
+    {
+      "title": "@AnthropicAI: US-China AI competition paper",
+      "url": "https://x.com/AnthropicAI/status/2054987444664377374"
     },
     {
       "title": "Anthropic News: Claude for Small Business",
