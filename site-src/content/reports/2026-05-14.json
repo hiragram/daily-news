@@ -1,6 +1,6 @@
 {
   "date": "2026-05-14",
-  "windowLabel": "2026-05-13 08:37:16 JST - 2026-05-14 08:37:16 JST",
+  "windowLabel": "2026-05-13 12:37:17 JST - 2026-05-14 12:37:17 JST",
   "archiveTitle": "Small Business, programmatic credit, +50% weekly, Claude Code v2.1.141",
   "archiveSummary": "Claude for Small Business 公開、プログラム的使用専用の月次クレジット制度を 6/15 導入予告、Claude Code 週次上限 50% 引き上げ（〜7/13）、Claude Code v2.1.141 を 60+ 項目で和訳。",
   "latestSummary": "公式 News に <strong>Claude for Small Business</strong> 掲載、<strong>2026-06-15 からプログラム的使用専用月次クレジット</strong>導入予告（SDK / <code>claude -p</code> / GitHub Actions / Conductor、OpenClaw 等が対象、Pro $20 〜 Max 20x $200）、<strong>Claude Code 週次上限を即時 50% 増（〜2026-07-13）</strong>。Claude Code は窓内に <strong><code>v2.1.141</code></strong>（<strong>2026-05-14 08:19 JST</strong>）がリリースされ、<code>terminalSequence</code> hook、<code>claude agents --cwd</code>、Rewind の Summarize、auto mode 説明改善ほか 60+ 項目を全件和訳した。",
@@ -38,15 +38,6 @@
       "summary": "<strong>@ClaudeDevs</strong> が、<strong>Claude Code 週次上限を即時 50% 引き上げ</strong>と発表。Pro / Max / Team / seat-based Enterprise が対象、<strong>2026-07-13 18:00 PDT</strong> まで。<strong>CLI / IDE 拡張 / desktop / web 全てに適用</strong>、opt-in 不要、アカウントに即時反映済み。先週発表の <strong>5 時間上限 2 倍と stack</strong> される。",
       "url": "https://x.com/ClaudeDevs/status/2054639777685934564",
       "urlLabel": "@ClaudeDevs の発表"
-    },
-    {
-      "label": "@ClaudeDevs",
-      "datetime": "2026-05-13T09:00:28+09:00",
-      "displayTime": "2026-05-13 09:00 JST",
-      "title": "<code>/goal</code> を Ralph loop として詳説",
-      "summary": "<strong>@ClaudeDevs</strong> が、最近リリースした <code>/goal</code> コマンドの実装詳細を 7 投稿スレッドで公開。例：<code>/goal all tests in test/auth pass and the lint step is clean</code>。これは <strong>Ralph loop</strong> として実装され、Claude が停止しようとする度に <strong>transcript に対しユーザー条件を評価</strong>し、未達なら継続、達成なら「Goal achieved」サマリを返す。あわせて <strong><code>/loop</code></strong>（反復実行：iterative refactor / cleanup / backlog 消化）、<strong><code>/schedule</code></strong>（cron：夜間テスト / 朝のトリアージ / 週次クリーンアップ）、<strong>stop hook</strong>（テスト実行や CI エンドポイント呼び出しで完了制御）、<strong>auto mode</strong>（CLI で <code>shift+tab</code>、desktop はモードセレクタ。ユーザー待ちで止まらないようにする）と組み合わせた long-running 運用を案内。",
-      "url": "https://x.com/ClaudeDevs/status/2054351031279186040",
-      "urlLabel": "/goal スレッド"
     }
   ],
   "officialZeroStates": [
@@ -70,7 +61,7 @@
     {
       "title": "ブログ",
       "headline": "0件（X で複数発表）",
-      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、News に <strong>Claude for Small Business</strong>（2026-05-13）が新規掲載された。他のセクションは窓内に新規記事なし。Anthropic 公式 X からはプログラム的使用専用クレジット、Claude Code 週次上限 50% 増、<code>/goal</code> の Ralph loop 解説などが続いた（officialNews 参照）。",
+      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、News に <strong>Claude for Small Business</strong>（2026-05-13）が新規掲載された。他のセクションは窓内に新規記事なし。Anthropic 公式 X からはプログラム的使用専用クレジット制度（6/15 開始）と Claude Code 週次上限 50% 増の発表が続いた（officialNews 参照）。",
       "details": [
         "Anthropic News は <em>May 13, 2026</em> に <strong>Claude for Small Business</strong> が新規掲載された。",
         "Claude Blog の最新 visible publication date は <em>May 6, 2026</em>（<strong>New in Claude Managed Agents</strong>）だった。",
@@ -200,10 +191,6 @@
     {
       "title": "@ClaudeDevs: Claude Code weekly limits +50% through Jul 13",
       "url": "https://x.com/ClaudeDevs/status/2054639777685934564"
-    },
-    {
-      "title": "@ClaudeDevs: /goal Ralph loop thread",
-      "url": "https://x.com/ClaudeDevs/status/2054351031279186040"
     },
     {
       "title": "@claudeai: Code with Claude cardputer projects",
