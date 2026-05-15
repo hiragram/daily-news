@@ -1,6 +1,6 @@
 {
   "date": "2026-05-15",
-  "windowLabel": "2026-05-14 08:37:16 JST - 2026-05-15 08:37:16 JST",
+  "windowLabel": "2026-05-14 12:37:27 JST - 2026-05-15 12:37:27 JST",
   "archiveTitle": "Gates $200M, US-China paper, Fast mode Opus 4.7 default, v2.1.142",
   "archiveSummary": "Gates Foundation $200M、米中 AI 競争ペーパー、Claude Code v2.1.142 で Fast mode が Opus 4.7 デフォルト化、@ClaudeDevs の prompt cache pre-warming tip、前 24h の各種発表も継続。",
   "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Gates Foundation $200M パートナーシップ</strong>と <strong>米中 AI 競争ポジションペーパー</strong>を発表。<strong>Claude Code <code>v2.1.142</code></strong>（<strong>2026-05-15 07:55 JST</strong>）が窓内にリリースされ <strong>Fast mode が Opus 4.6 から Opus 4.7 デフォルトに切替</strong>、<code>claude agents</code> 多数フラグ追加、SKILL.md ルート skill 認識、LSP server 詳細表示、daemon クロックジャンプ検出など 25 項目を全件和訳。<strong>@ClaudeDevs</strong> は API の <strong>prompt cache pre-warming tip</strong> を共有。",
