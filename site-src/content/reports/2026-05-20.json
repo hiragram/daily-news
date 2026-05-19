@@ -1,0 +1,189 @@
+{
+  "date": "2026-05-20",
+  "windowLabel": "2026-05-19 03:01:29 JST - 2026-05-20 03:01:29 JST",
+  "archiveTitle": "KPMG alliance, Managed Agents sandboxes, v2.1.144",
+  "archiveSummary": "Anthropic は KPMG との提携拡大を発表し、Claude Blog では Managed Agents に self-hosted sandboxes と MCP tunnels を追加。Claude Code は v2.1.144 を公開し、/resume、usage credits への改称、background session 周りの大量修正を展開した。",
+  "latestSummary": "<strong>Anthropic News</strong> は <strong>KPMG と Claude の全社提携拡大</strong>を公開し、<strong>Claude Blog</strong> は <strong>Managed Agents</strong> に <strong>self-hosted sandboxes</strong> と <strong>MCP tunnels</strong> を追加。<strong>Claude Code <code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）は <code>/resume</code>、plugin 更新日時表示、usage credits への改称、background session まわりの大量修正を含む <strong>52 項目</strong>を公開した。",
+  "summaryBullets": [
+    "<strong>Anthropic News</strong>: <strong>KPMG</strong> が Claude を <strong>Digital Gateway</strong> に組み込み、<strong>276,000 人超の社員</strong>へ展開するグローバル提携を発表。<strong>Cowork</strong>、<strong>Managed Agents</strong>、<strong>Claude Code</strong> を税務・法務・PE 向け業務やモダナイゼーションに広げる。",
+    "<strong>Claude Blog</strong>: <strong>Claude Managed Agents</strong> に <strong>self-hosted sandboxes</strong>（public beta）と <strong>MCP tunnels</strong>（research preview）を追加。agent orchestration は Anthropic 側に残しつつ、tool 実行と private MCP 接続を企業 perimeter 内へ寄せられる。",
+    "Anthropic <strong>Engineering</strong> と <strong>Research</strong> は、visible publication date ベースで窓内新規記事なし。今回の公式サイト更新は <strong>News 1件</strong> と <strong>Claude Blog 1件</strong> が中心だった。",
+    "Claude Code <strong><code>v2.1.144</code></strong> は <strong>新機能 6 / 変更 10 / 修正 36</strong>。<code>/resume</code> の background session 対応、<code>extra usage</code> から <code>usage credits</code> への改称、background session / MCP / terminal rendering / plugin 周りの修正が主な内容。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-05-19T00:00:00+09:00",
+      "displayTime": "2026-05-19 JST",
+      "title": "KPMG が Claude を全社・顧客業務へ広げる提携を発表",
+      "summary": "Anthropic News に <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> が掲載。<strong>Digital Gateway</strong> に Claude を埋め込み、<strong>276,000 人超の社員</strong>へ展開し、税務・法務・private equity・cybersecurity を含む業務で <strong>Cowork</strong>、<strong>Managed Agents</strong>、<strong>Claude Code</strong> を使う方針を示した。",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "urlLabel": "KPMG 提携の発表",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-19T00:00:00+09:00",
+      "displayTime": "2026-05-19 JST",
+      "title": "Claude Managed Agents に self-hosted sandboxes と MCP tunnels を追加",
+      "summary": "Claude Blog に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> が掲載。<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> で、tool 実行や private MCP server 接続を企業の security boundary 内で扱いやすくする更新。",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "urlLabel": "Managed Agents 更新の発表"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering",
+      "body": "Anthropic Engineering の最新 visible publication date は <strong>Apr 8, 2026</strong> で、窓内新規記事は確認できなかった。"
+    },
+    {
+      "label": "Research",
+      "body": "Anthropic Research の最新 visible publication date は <strong>May 14, 2026</strong> で、窓内新規記事は確認できなかった。"
+    },
+    {
+      "label": "X / Engineer signals",
+      "body": "公開取得できた primary-source では、公式サイト掲載分や GitHub Releases を超える追加の確定情報は採用しなかった。Anthropic 関係者個人アカウント由来の窓内主要シグナルも今回の最終報告には入れていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "News 1件 / Claude Blog 1件 / そのほか 0件",
+      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内では <strong>Anthropic News の <em>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</em></strong>（<strong>May 19, 2026</strong>）と、<strong>Claude Blog の <em>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</em></strong>（<strong>May 19, 2026</strong>）が新規だった。Engineering と Research は窓内新規記事なし。",
+      "details": [
+        "Anthropic News は <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> を <em>May 19, 2026</em> で掲載した。",
+        "Claude Blog は <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を <em>May 19, 2026</em> で掲載し、<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> と案内した。",
+        "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em>（<strong>Scaling Managed Agents: Decoupling the brain from the hands</strong>）だった。",
+        "Anthropic Research の最新 visible publication date は <em>May 14, 2026</em>（<strong>2028: Two scenarios for global AI leadership</strong>）だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.144",
+      "body": "GitHub CLI で確認したところ、<code>v2.1.144</code>（<strong>2026-05-19 09:48 JST</strong>）が窓内に該当した。<code>What's changed</code> の <strong>52 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.144",
+          "publishedAt": "2026-05-19 09:48 JST",
+          "summary": "<code>What's changed</code> 全 52 項目を新機能 6 / 変更 10 / 修正 36 に分類。<code>/resume</code> 追加、usage credits への改称、background session 系の大量修正が中心。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<strong><code>/resume</code></strong> を background session でサポート。<code>claude --bg</code> や agent view で始めた session が interactive session と並んで表示され、<code>bg</code> マークが付く。",
+                "background subagent 完了通知に <strong>経過時間</strong>（例: <code>Agent completed · 3h 2m 5s</code>）を表示するようにした。",
+                "<code>/plugin</code> の browse / discover pane で、<strong>plugin の最終更新日時</strong> を表示するようにした。",
+                "<code>claude agents</code> / <code>--bg</code> の拒否メッセージが、generic な文言ではなく <strong>どの gate</strong>（non-TTY、環境変数、設定）が原因かを明示するようになった。",
+                "<code>claude --bg --name &lt;label&gt;</code> 実行後の確認メッセージに、<strong>付与した名前</strong> を表示するようにした。",
+                "post-survey の follow-up hint を、dismiss 以外の回答後は <strong>毎回 context-aware な文言</strong> で出すようにし、<code>/feedback</code> で追加共有しやすくした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/model</code> は <strong>現在の session のみ</strong> を変更する挙動に変更。新規 session の default は model picker で <code>d</code> を押して設定する。",
+                "CLI 全体で <strong><code>extra usage</code> を <code>usage credits</code></strong> に改称。<code>/extra-usage</code> は <code>/usage-credits</code> に変わり、旧名も引き続き使える。",
+                "VS Code での terminal rendering glitch を、<strong>spinner animation の色数削減</strong>で軽減した。",
+                "検索中の <strong>無駄な tool error</strong> を減らした。<code>head</code> / <code>tail</code> の file view も read-before-edit 判定を満たすようにし、<code>egrep</code> / <code>fgrep</code> / <code>git grep</code> / <code>git diff</code> の <code>no matches</code>（exit code 1）を失敗扱いしない。",
+                "<code>/bg</code> と <code>←</code> detach 後も、<code>/add-dir</code> で追加した directory を保持するようにした。",
+                "<code>claude agents</code> で Ctrl+R による background session の rename が、<strong>attach 済み session の banner</strong> にも即時反映されるようにした。",
+                "background session の worktree isolation guard を、<strong>non-git VCS</strong> かつ <code>WorktreeCreate</code> hook を使うケースにも適用するようにした。",
+                "plugin marketplace の add / update が <strong><code>CLAUDE_CODE_PLUGIN_PREFER_HTTPS</code></strong> を尊重するようになった。",
+                "<code>/doctor</code> が command hook に <code>command</code> field が無いとき、<strong>exec-form の例</strong>を表示するようになった。",
+                "SDK / headless MCP startup を改善し、<strong>pre-wait を startup と重ねる</strong>ようにして、遅い MCP server では first turn まで最大 2 秒速くした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>api.anthropic.com</code> に到達できないとき（captive portal、firewall、VPN など）に startup が最大 75 秒ハングしていた問題を修正し、side-channel API call は <strong>15 秒で timeout</strong> するようにした。",
+                "window resize event を取り逃したあと（例: VS Code の split-pane divider を drag）に terminal 出力が崩れる問題を修正し、Ctrl+L なしで <strong>次 frame で self-heal</strong> するようにした。",
+                "非常に長い session で stale / garbled glyph が蓄積し、terminal resize や restart まで解消しない progressive な表示崩れを修正。",
+                "Full Disk Access 保護下の folder に project があると、macOS background session が <code>exit 1 before init</code> で crash する <strong>2.1.143 の regression</strong> を修正。",
+                "拡張子と実体が合わない画像ファイル（例: HTML を <code>.png</code> 保存）を読むと conversation が unrecoverable になる問題を修正し、<strong>text fallback</strong> するようにした。",
+                "worktree に入った直後や一部 background session で <code>/branch</code> が <code>No conversation to branch</code> で失敗する問題を修正。",
+                "<code>AskUserQuestion</code> の notes field で Escape を押すと answer selection に戻らず turn 自体が abort される問題を修正。",
+                "IDE model picker や startup 後の <code>applyFlagSettings</code> で model を変えても適用されない問題を修正。",
+                "resume した session が、元の model ではなく別 session の <code>/model</code> 選択を拾ってしまう問題を修正。",
+                "Bedrock / Vertex 利用者が <code>/model</code> picker から <strong><code>Opus (1M context)</code></strong> を選べない <strong>v2.1.129 の regression</strong> を修正。",
+                "<code>forceLoginMethod</code> と <code>forceLoginOrgUUID</code> が設定された user で、remote-session login が <code>Can't access this organization</code> で失敗する問題を修正。",
+                "pagination された <code>tools/list</code> response を返す MCP server で、<strong>1 ページ目しか取れず tool が silently drop</strong> される問題を修正。",
+                "unsupported MIME type（例: SVG）の MCP image が conversation を壊す問題を修正し、<strong>disk に保存して tool result で参照</strong> するようにした。",
+                "skill directory 内で build を走らせると file descriptor が枯渇する問題を修正し、<strong>非 <code>.md</code> file では skill reload を起こさない</strong> ようにした。",
+                "session title が user の最初の prompt ではなく plugin monitor 出力から生成されてしまう問題を修正。",
+                "headless mode で Skill tool が permission error になる <strong>v2.1.141 の regression</strong> を修正。",
+                "自分の settings で有効化した plugin が fresh machine の初回 load 後に <code>not cached</code> error を出す問題を修正し、project の <code>.claude/settings.json</code> だけで有効な plugin には実行可能な <code>claude plugin install</code> hint を出すようにした。",
+                "<code>.mcp.json</code> を parse できないとき（例: VS Code 形式の <code>\"servers\"</code> を使っていて <code>\"mcpServers\"</code> でない）に <code>claude mcp list</code> が silently no servers を返す問題を修正し、<strong>configuration error を表示</strong>するようにした。",
+                "custom <code>ANTHROPIC_BASE_URL</code> 環境や Bedrock Mantle で、background side-query が Haiku を使えず失敗する問題を修正し、<strong>first-party API key があるか Haiku model 未設定時に正しく fallback</strong> するようにした。",
+                "Windows の attach 済み background session で scroll できない問題を修正し、PgUp / PgDn、mouse wheel、Ctrl+O transcript navigation が動作するようにした。",
+                "background session に attach 中に terminal を閉じると crash する問題を修正。",
+                "<code>! &lt;cmd&gt;</code> の exec session で Ctrl+C が効かない問題を修正し、attach 中に実行 command を interrupt できるようにした。",
+                "agent view で completion 後も shell-command row が Working 配下に残り、completed row で Enter を押すと output expiry 後に再実行される問題を修正。",
+                "Windows で <code>claude agents</code> 中に <code>←</code> を押すと list が keyboard input に反応しなくなる問題を修正。",
+                "Windows Terminal で CJK content を含む Agent View の pane 切替時に、左端に ghost character が出る問題を修正。",
+                "既に in-place 編集していた session を detach した直後に、<code>background session hasn't isolated its changes yet</code> と出て Edit / Write が拒否される問題を修正。",
+                "停止済み background session に対する <code>claude respawn &lt;id&gt;</code> が <code>running</code> ではなく <code>stopped</code> と表示する問題を修正。",
+                "background session から fork した session が <code>/resume</code> picker に出ない問題を修正。",
+                "background service が応答しないと、<code>claude agents</code> から session を開く操作や <code>claude logs &lt;id&gt;</code> が hang する問題を修正し、<strong>10 秒 timeout と recovery hint</strong> を出すようにした。",
+                "subagent が spawn した background Bash task が process 終了後も SDK task panel で <code>Running</code> のまま残る問題を修正。",
+                "completed / stopped background session が一時的に wake に失敗しただけで、永続的に startup crash 扱いされる問題を修正。",
+                "attach 済み <code>claude agents</code> session で markdown link が plain text 表示になり、clickable hyperlink にならない問題を修正。",
+                "custom <code>spinnerVerbs</code> が post-turn duration message に適用され、<code>Worked for 5s</code> のような built-in past tense を壊していた問題を修正。",
+                "<code>/plugin</code> が enable / disable / uninstall 後に Installed list へ戻らない問題を修正。",
+                "skill listing の truncation を startup notification として出していた挙動を修正し、詳細は <code>/doctor</code> で確認する形にした。",
+                "稀な pre-response stream stall からの復旧を改善し、遅い non-streaming fallback に落ちる前に <strong>streaming を 1 回 retry</strong> するようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+          "urlLabel": "v2.1.144 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "<strong>Anthropic acquires Stainless</strong> は visible publication date が <strong>May 18, 2026</strong> のため、今回の <strong>2026-05-19 03:01 JST - 2026-05-20 03:01 JST</strong> の窓から外れるとして除外した。",
+    "Engineering / Research の既存記事は直近だと <strong>Apr 8, 2026</strong> と <strong>May 14, 2026</strong> で、窓内新規ではないため除外した。",
+    "公式 X / エンジニア X については、今回の最終 JSON には <strong>一次ソースで確定できた公式ページ・公式リリースと重複しない新情報のみ</strong> を採用する方針を取り、未確証のものは落とした。",
+    "<code>v2.1.144</code> の release notes は Claude Code 公式 GitHub Releases から完全取得し、見えている <strong>52 項目</strong> をすべて和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic News: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.144 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144"
+    }
+  ]
+}
