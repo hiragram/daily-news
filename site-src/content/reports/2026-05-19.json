@@ -1,19 +1,30 @@
 {
   "date": "2026-05-19",
-  "windowLabel": "2026-05-18 15:32:24 JST - 2026-05-19 15:32:24 JST",
-  "archiveTitle": "Stainless acquisition, Claude Design token limits, v2.1.144",
-  "archiveSummary": "Anthropic が Stainless 買収を発表し、Claude Design は全プランで token limit 倍増。Claude Code は v2.1.144 を公開し、/resume や usage credits への名称変更、背景セッション周りの大量修正が入った。",
-  "latestSummary": "<strong>@AnthropicAI</strong> が <strong>Stainless 買収</strong>を発表。<strong>@claudeai</strong> は <strong>Claude Design の token limit を全プランで倍増</strong>、<strong>@ClaudeDevs</strong> は <strong>prompt cache diagnostics</strong> と <strong>Fast mode の Opus 4.7 デフォルト化</strong>を告知。<strong>Claude Code <code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）は <code>/resume</code>、usage credits への名称変更、background session まわりの多数修正を含む <strong>52 項目</strong>を公開。",
+  "windowLabel": "2026-05-18 21:03:11 JST - 2026-05-19 21:03:11 JST",
+  "archiveTitle": "Managed Agents sandboxes, Stainless acquisition, v2.1.144",
+  "archiveSummary": "Claude Managed Agents に self-hosted sandboxes と MCP tunnels が追加され、Anthropic は Stainless 買収を発表。Claude Code は v2.1.144 を公開し、/resume や usage credits への名称変更、background session 周りの大量修正が入った。",
+  "latestSummary": "<strong>@claudeai</strong> が <strong>Claude Managed Agents</strong> に <strong>self-hosted sandboxes（public beta）</strong> と <strong>MCP tunnels（research preview）</strong> を投入。<strong>@AnthropicAI</strong> は <strong>Stainless 買収</strong>を発表し、<strong>@ClaudeDevs</strong> は <strong>usage credits</strong> への改称、<strong>prompt cache diagnostics</strong>、<strong>Fast mode の Opus 4.7 デフォルト化</strong>を告知。<strong>Claude Code <code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）は <code>/resume</code>、plugin 更新日時表示、background session 周りの大量修正を含む <strong>52 項目</strong>を公開。",
   "summaryBullets": [
+    "<strong>@claudeai</strong>: <strong>Claude Managed Agents</strong> に <strong>self-hosted sandboxes（public beta）</strong> と <strong>MCP tunnels（research preview）</strong> を追加。agent を自社 perimeter 内で動かしつつ、Claude Platform から MCP 経由で社内システムへ安全に接続しやすくする更新。",
     "<strong>@AnthropicAI</strong>: <strong>Stainless を買収</strong>。Anthropic SDK を初期から支えてきた SDK / CLI / MCP server 基盤を内製側に取り込み、<strong>Claude の agent connectivity と developer experience</strong> を強化する狙い。",
     "<strong>@claudeai</strong>: <strong>Claude Design の token limit を全プランで倍増</strong>。より大きなデザイン作業を回せることを公式に訴求。",
     "<strong>@ClaudeDevs</strong>: <strong>Prompt cache diagnostics</strong> が Claude Console に入り、cache miss 時に <strong>どの prompt 部分が変わったか</strong> と <strong>余分に消費した token 数</strong> を可視化。",
     "<strong>@ClaudeDevs</strong>: <strong>Fast mode が Claude Code で Opus 4.7 デフォルト</strong>になったと告知。",
     "<strong>@ClaudeDevs</strong>: Claude 全体で <strong>extra usage</strong> を <strong>usage credits</strong> に改称したと案内。既存の spending limits、auto-reload 設定、購入済み credits はそのまま引き継がれる。",
     "Claude Code <strong><code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）が窓内リリース。<strong><code>/resume</code></strong>、plugin 更新日時表示、background subagent 完了時間表示などを追加し、<strong>background sessions / MCP / terminal rendering / plugin / Windows</strong> 周りを中心に 52 項目を全件和訳した。",
-    "<strong>Anthropic News</strong> に <strong>Anthropic acquires Stainless</strong>（<strong>May 18, 2026</strong>）が掲載。<strong>Engineering / Research / Claude Blog</strong> は visible publication date ベースで窓内新規なし。"
+    "<strong>公式サイト</strong> では <strong>Anthropic News</strong> に <strong>Anthropic acquires Stainless</strong>（<strong>May 18, 2026</strong>）、<strong>Claude Blog</strong> に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong>（<strong>May 19, 2026</strong>）が新規掲載。<strong>Engineering / Research</strong> は visible publication date ベースで窓内新規なし。"
   ],
   "officialNews": [
+    {
+      "label": "@claudeai",
+      "datetime": "2026-05-19T16:57:49+09:00",
+      "displayTime": "2026-05-19 16:57 JST",
+      "title": "Claude Managed Agents に self-hosted sandboxes と MCP tunnels を追加",
+      "summary": "<strong>@claudeai</strong> が、<strong>Claude Managed Agents</strong> に <strong>self-hosted sandboxes</strong>（public beta）と <strong>MCP tunnels</strong>（research preview）を投入したと発表。agent を <strong>自社の security controls が効く perimeter 内</strong>で動かしつつ、Claude Platform から社内データやツールへ接続しやすくする位置づけ。",
+      "url": "https://x.com/claudeai/status/2056645485696315581",
+      "urlLabel": "@claudeai の発表",
+      "primary": true
+    },
     {
       "label": "@ClaudeDevs",
       "datetime": "2026-05-19T10:14:24+09:00",
@@ -57,8 +68,16 @@
       "title": "Stainless 買収を発表",
       "summary": "<strong>@AnthropicAI</strong> が、Anthropic SDK を初期から支えてきた <strong>Stainless の買収</strong>を発表。<strong>SDK / CLI / MCP server tooling</strong> を取り込み、<strong>Claude の agent connectivity と developer experience</strong> を強化する狙い。公式 News にも同日掲載。",
       "url": "https://x.com/AnthropicAI/status/2056419620643541012",
-      "urlLabel": "@AnthropicAI の発表",
-      "primary": true
+      "urlLabel": "@AnthropicAI の発表"
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-19T00:00:00+09:00",
+      "displayTime": "2026-05-19 JST",
+      "title": "Claude Managed Agents の self-hosted sandboxes / MCP tunnels を公開",
+      "summary": "Claude Blog に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> が掲載。<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> で、Claude Platform 上の agent が社内ネットワークや private MCP server に届きやすくなる内容。",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "urlLabel": "公式ブログを読む"
     },
     {
       "label": "News",
@@ -72,12 +91,12 @@
   ],
   "officialZeroStates": [
     {
-      "label": "Engineering / Research / Claude Blog 0件",
-      "body": "公式サイトでは <strong>Engineering</strong>、<strong>Research</strong>、<strong>Claude Blog</strong> のいずれも visible publication date が窓内に入る新規記事を確認できなかった。News は <strong>2026-05-18</strong> の <strong>Anthropic acquires Stainless</strong> が新規掲載。最新 visible publication date は Claude Blog が <strong>2026-05-06</strong>、Engineering が <strong>2026-04-08</strong>、Research が <strong>2026-05-14</strong> だった。"
+      "label": "Engineering / Research 0件",
+      "body": "公式サイトでは <strong>Engineering</strong> と <strong>Research</strong> の visible publication date が窓内に入る新規記事を確認できなかった。最新 visible publication date は Engineering が <strong>2026-04-08</strong>、Research が <strong>2026-05-14</strong> だった。Claude Blog は <strong>2026-05-19</strong> に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を新規掲載した。"
     },
     {
-      "label": "@ClaudeAI official blog repostのみ",
-      "body": "<strong>@claudeai</strong> からは <strong>Claude Design token limit 倍増</strong> と <strong>Code with Claude London 告知</strong> を確認したが、Claude Blog 本体の visible publication date は窓内更新なし。<strong>Claude Code 大規模コードベース運用ブログ</strong>への X 導線投稿はあったが、記事自体は窓前公開。"
+      "label": "旧記事 repost は新着扱いせず",
+      "body": "<strong>@ClaudeDevs</strong> の <strong>Claude Code 大規模コードベース運用ブログ</strong>への導線投稿と、<strong>@claudeai</strong> の <strong>Code with Claude London</strong> 告知は確認したが、前者の記事本体は窓前公開、後者は event 告知のため新着ブログ / 主要ニュースには数えなかった。"
     }
   ],
   "signals": [
@@ -103,11 +122,11 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "News 1件 / そのほか 0件",
-      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内で新規だったのは <strong>Anthropic News の <em>Anthropic acquires Stainless</em></strong>（<strong>May 18, 2026</strong>）のみ。Claude Blog、Engineering、Research は窓内新規記事なし。X 側では Claude Design token limit 倍増、Claude Console の prompt cache diagnostics、Fast mode の Opus 4.7 デフォルト化などの公式告知が続いた。",
+      "headline": "News 1件 / Claude Blog 1件 / そのほか 0件",
+      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内では <strong>Anthropic News の <em>Anthropic acquires Stainless</em></strong>（<strong>May 18, 2026</strong>）と、<strong>Claude Blog の <em>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</em></strong>（<strong>May 19, 2026</strong>）が新規だった。Engineering と Research は窓内新規記事なし。X 側では Claude Design token limit 倍増、Claude Console の prompt cache diagnostics、Fast mode の Opus 4.7 デフォルト化などの公式告知も続いた。",
       "details": [
         "Anthropic News は <strong>Anthropic acquires Stainless</strong> を <em>May 18, 2026</em> で掲載した。",
-        "Claude Blog の最新 visible publication date は <em>May 6, 2026</em>（<strong>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</strong>）だった。",
+        "Claude Blog は <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を <em>May 19, 2026</em> で掲載し、<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> と案内した。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em>（<strong>Scaling Managed Agents: Decoupling the brain from the hands</strong>）だった。",
         "Anthropic Research の最新 visible publication date は <em>May 14, 2026</em>（<strong>2028: Two scenarios for global AI leadership</strong>）だった。"
       ],
@@ -207,6 +226,14 @@
     "Claude Code 大規模コードベース運用ブログへの X 投稿は窓内だが、記事公開自体は窓前のためブログ新着には数えなかった。"
   ],
   "sources": [
+    {
+      "title": "@claudeai: self-hosted sandboxes and MCP tunnels",
+      "url": "https://x.com/claudeai/status/2056645485696315581"
+    },
+    {
+      "title": "Claude Blog: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates"
+    },
     {
       "title": "Anthropic News: Anthropic acquires Stainless",
       "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
