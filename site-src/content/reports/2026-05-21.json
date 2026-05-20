@@ -1,0 +1,223 @@
+{
+  "date": "2026-05-21",
+  "windowLabel": "2026-05-20 03:03:14 JST - 2026-05-21 03:03:14 JST",
+  "archiveTitle": "HTML article, official X posts, v2.1.145",
+  "archiveSummary": "Claude Blog の HTML 記事、公式 X 3件、Claude Code v2.1.145 の 20 項目和訳をまとめた。",
+  "latestSummary": "<strong>Claude Blog</strong> は <strong>HTML 出力</strong>の記事を公開し、公式 X では <strong>frontier AI 対話</strong>、<strong>computer/browser use の実運用</strong>、<strong>Devin 事例</strong>が共有された。<strong>Claude Code <code>v2.1.145</code></strong> は <strong>20 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "summaryBullets": [
+    "<strong>Claude Blog</strong>: <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> を公開。Claude Code チームが <strong>Markdown の代わりに HTML</strong> を使い、よりリッチで読みやすく共有しやすい output を作る実務を説明した。",
+    "<strong>公式 X</strong>: <strong>@AnthropicAI</strong> は frontier AI の価値形成に関する対話拡大を案内し、<strong>@ClaudeDevs</strong> は computer/browser use の production 運用 blog を告知、<strong>@claudeai</strong> は Devin を支える Claude 活用事例を紹介した。",
+    "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は <code>/usage</code> UI の recent revamp に言及し、<strong>@katelyn_lesse</strong> は Managed Agents の execution と tool 接続を enterprise perimeter 内へ戻せる点を補足した。",
+    "<strong>Claude Code <code>v2.1.145</code></strong> は <strong>20 項目</strong>を公開し、<code>claude agents --json</code>、plugin install 前プレビュー、hook / OTEL / status JSON 拡張と、権限・UI・Windows 系修正が中心だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-20T00:00:00+09:00",
+      "displayTime": "2026-05-20 JST",
+      "title": "Claude Code チームの HTML 出力運用を解説",
+      "summary": "Claude Blog に <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> が掲載された。<strong>HTML は Markdown より情報密度が高く、読みやすく、共有しやすい</strong>として、spec・report・diagram を HTML で組み立てる実務を紹介している。",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "urlLabel": "HTML 出力の記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-05-20T08:30:55+09:00",
+      "displayTime": "2026-05-20 08:30 JST",
+      "title": "@AnthropicAI が frontier AI をめぐる対話拡大を告知",
+      "summary": "Anthropic は scholar・philosopher・clergy・ethicist と進めている対話を案内し、<strong>Claude の価値形成や Claude's constitution に関わる論点</strong>を広い視点から扱う方針を共有した。",
+      "url": "https://x.com/AnthropicAI/status/2056880308851708233",
+      "urlLabel": "@AnthropicAI の投稿"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-05-20T05:32:13+09:00",
+      "displayTime": "2026-05-20 05:32 JST",
+      "title": "@ClaudeDevs が computer/browser use の best practices 記事を告知",
+      "summary": "ClaudeDevs は <strong>click accuracy</strong>、<strong>thinking effort</strong>、<strong>long session の context 管理</strong>、<strong>demonstration の replay</strong> を挙げ、computer use を production で安定運用するポイントを紹介した。",
+      "url": "https://x.com/ClaudeDevs/status/2056835339193561170",
+      "urlLabel": "@ClaudeDevs の投稿"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-05-20T03:34:33+09:00",
+      "displayTime": "2026-05-20 03:34 JST",
+      "title": "@claudeai が Devin を支える Claude 活用事例を紹介",
+      "summary": "Claude は Cognition / Devin を率いる Scott Wu を取り上げ、<strong>Claude を基盤にした AI software engineer</strong> の顧客事例として紹介した。新機能発表ではないが、Claude の実運用ユースケースとして確認できた。",
+      "url": "https://x.com/claudeai/status/2056805728774402428",
+      "urlLabel": "@claudeai の投稿"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering",
+      "body": "Anthropic Engineering の最新 visible publication date は <strong>Apr 8, 2026</strong> で、窓内新規記事は確認できなかった。"
+    },
+    {
+      "label": "Anthropic Research / News",
+      "body": "Anthropic Research の最新 visible publication date は <strong>May 14, 2026</strong>、Anthropic News の最新 visible publication date は <strong>May 19, 2026</strong> で、<strong>2026-05-20 03:03 JST 以降</strong>の新規公開は visible date ベースでは確認できなかった。"
+    },
+    {
+      "label": "Claude Blog",
+      "body": "Claude Blog では <strong>May 20, 2026</strong> の新規記事は <strong>HTML 出力記事 1 件</strong>のみで、<strong>May 19</strong> 表示の Managed Agents 更新は今回の 24 時間窓では窓外として扱った。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-20T16:26:00+09:00",
+      "displayTime": "2026-05-20 16:26 JST",
+      "title": "@bcherny が /usage UI の recent revamp に言及",
+      "summary": "利用上限の減りが速いという user の問いに対し、<strong><code>/usage</code> で何が token を消費しているか見られる</strong>、かつ <strong>recently revamped UI</strong> で確認しやすくしたと説明した。Claude Code 側の usage 可視化改善を示す追加 signal。",
+      "url": "https://x.com/bcherny/status/2056999867331834218",
+      "urlLabel": "@bcherny の返信"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-20T18:44:28+09:00",
+      "displayTime": "2026-05-20 18:44 JST",
+      "title": "@adocomplete が computer/browser use 記事を強く推薦",
+      "summary": "adocomplete は <strong>Claude が狙った場所を click しない問題</strong>に触れつつ、今回の blog post には少なくとも 2 つ以上の改善ヒントがあると述べた。公式投稿より踏み込んだ現場目線の補足だった。",
+      "url": "https://x.com/adocomplete/status/2057034715534676458",
+      "urlLabel": "@adocomplete の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-20T23:54:27+09:00",
+      "displayTime": "2026-05-20 23:54 JST",
+      "title": "@katelyn_lesse が Managed Agents の security/perimeter 面を補足",
+      "summary": "katelyn_lesse は <strong>execution と tools を enterprise perimeter 内へ戻せる</strong>点を今回の更新の核心として説明し、<strong>agent-in-a-box は secure でも scale もしない</strong>という立場を明示した。",
+      "url": "https://x.com/katelyn_lesse/status/2057112722681086122",
+      "urlLabel": "@katelyn_lesse の投稿"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ / 公式 X",
+      "headline": "Claude Blog 1件 / 公式 X 3件",
+      "body": "公式サイトと公式 X を確認したところ、この 24 時間窓で確実に窓内と判定できた公式情報は <strong>Claude Blog の HTML 出力記事 1 件</strong>と、<strong>@AnthropicAI / @ClaudeDevs / @claudeai</strong> の投稿 3 件だった。Anthropic News / Research / Engineering は visible publication date ベースでは窓内新規なし。",
+      "details": [
+        "Claude Blog は <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> を <em>May 20, 2026</em> で掲載した。",
+        "記事本文では、<strong>HTML は Markdown より情報密度が高く、読みやすく、共有しやすい</strong>とし、table / CSS / SVG / interactive controls / responsive layout を活用した artifact 作成を勧めている。",
+        "@AnthropicAI は <strong>Widening the conversation on frontier AI</strong> の公開に合わせ、Claude の価値形成に関わる対話の広がりを告知した。",
+        "@ClaudeDevs は <strong>computer and browser use の production 運用ノウハウ</strong>をまとめた既存 blog を再告知した。",
+        "@claudeai は <strong>Devin を支える Claude</strong> の事例紹介を投稿したが、これは新機能告知ではなく顧客事例寄りの内容だった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog を見る"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.145",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に該当する Claude Code release は <code>v2.1.145</code>（<strong>2026-05-20 06:31 JST</strong>）のみだった。<code>What's changed</code> の <strong>20 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.145",
+          "publishedAt": "2026-05-20 06:31 JST",
+          "summary": "<code>What's changed</code> 全 20 項目を <strong>新機能 7 / 変更 1 / 修正 12</strong> に分類。<code>claude agents --json</code>、plugin install 前プレビュー、hook / OTEL / status JSON 拡張と、権限・UI・Windows 系修正が中心。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>claude agents --json</code> を追加し、live な Claude session 一覧を JSON で出力して script、status bar、session picker から使えるようにした。",
+                "<code>claude_code.tool</code> の OTEL span に <code>agent_id</code> と <code>parent_agent_id</code> を追加し、background subagent の span が dispatch 元 Agent tool span の配下に正しく入るようにした。",
+                "status line の JSON input が、検出できたときに GitHub repo と PR 情報を含むようになった。",
+                "<code>/plugin</code> の Discover / Browse 画面で、install 前に plugin の command、agent、skill、hook、MCP/LSP server を確認できるようにした。",
+                "<code>claude agents</code> の terminal tab title に awaiting-input 件数を表示し、別 window へ切り替えていても agent の対応待ちが分かるようにした。",
+                "fullscreen mode の slash command / <code>@</code>-mention suggestion list が mouse hover と click に対応した。",
+                "Stop / SubagentStop hook input に <code>background_tasks</code> と <code>session_crons</code> field を追加した。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Read tool は whole-file 読み込みが token limit を超える場合、hard error ではなく <strong>先頭ページの切り詰め表示と <code>PARTIAL view</code> notice</strong> を返すようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "allowlist 外の環境変数へ bare variable assignment する Bash command が自動承認される <strong>permission prompt の迂回</strong>を修正した。",
+                "required argument を省略した MCP prompt slash command が raw な server validation error を出していた問題を修正し、<strong>不足引数名と想定 usage</strong> を示すようにした。",
+                "terminal を resize / refocus した後、keypress まで spinner と elapsed-time 表示が固まる問題を修正した。",
+                "default の Windows PowerShell 5.1 で cross-project resume hint が失敗する問題を修正し、Windows では command separator に <code>;</code> を使うようにした。",
+                "agent view の reply pane で voice push-to-talk が動かない問題を修正した。",
+                "複数 task を同時に作ると task list がランダム順で描画される問題を修正した。",
+                "marketplace が既に install 済みでも stale な <code>Failed to install Anthropic marketplace</code> banner が出続ける問題を修正した。",
+                "<code>gh pr create</code> など PR 状態を変える command の直後に footer の PR badge が即時更新されない問題を修正した。",
+                "non-ASCII 名の teammate を持つ Agent Teams で、header encoding が不正になって全 API call が失敗する問題を修正した。",
+                "Classic Projects を使う repo で deprecated な <code>projectCards</code> GraphQL query を叩いて <code>/review</code> が失敗する問題を修正した。",
+                "<code>claude plugin validate</code> が <code>skills:</code> に file path を指しても検出できない問題を修正し、<strong>親 directory を示す error</strong> を出すようにした。",
+                "<code>context: fork</code> を使う skill が自分自身を繰り返し再呼び出しして無限 loop になる問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+          "urlLabel": "v2.1.145 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "<strong>May 19, 2026</strong> 表示のみが確認できた Anthropic News / Claude Blog 記事は、今回の窓が <strong>2026-05-20 03:03 JST</strong> 開始のため窓外として扱った。",
+    "@ClaudeDevs の blog への追加入力返信、Code with Claude London の現地写真投稿、support reply、歓迎投稿、個人的雑談は確認したが、主要ニュースからは除外した。",
+    "Claude Code release は GitHub CLI で確認し、<code>v2.1.145</code> の visible な 20 項目をすべて和訳して分類した。窓外の <code>v2.1.144</code> は今回の report 本文には含めていない。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Using Claude Code: The unreasonable effectiveness of HTML",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.145",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145"
+    },
+    {
+      "title": "@AnthropicAI: Widening the conversation on frontier AI",
+      "url": "https://x.com/AnthropicAI/status/2056880308851708233"
+    },
+    {
+      "title": "@ClaudeDevs: Best practices for computer and browser use with Claude",
+      "url": "https://x.com/ClaudeDevs/status/2056835339193561170"
+    },
+    {
+      "title": "@claudeai: Scott Wu / Devin",
+      "url": "https://x.com/claudeai/status/2056805728774402428"
+    },
+    {
+      "title": "@bcherny: /usage UI mention",
+      "url": "https://x.com/bcherny/status/2056999867331834218"
+    },
+    {
+      "title": "@adocomplete: computer use recommendation",
+      "url": "https://x.com/adocomplete/status/2057034715534676458"
+    },
+    {
+      "title": "@katelyn_lesse: Managed Agents perimeter note",
+      "url": "https://x.com/katelyn_lesse/status/2057112722681086122"
+    }
+  ]
+}
