@@ -1,16 +1,35 @@
 {
   "date": "2026-05-20",
-  "windowLabel": "2026-05-19 03:01:29 JST - 2026-05-20 03:01:29 JST",
-  "archiveTitle": "KPMG alliance, Managed Agents sandboxes, v2.1.144",
-  "archiveSummary": "Anthropic は KPMG との提携拡大を発表し、Claude Blog では Managed Agents に self-hosted sandboxes と MCP tunnels を追加。Claude Code は v2.1.144 を公開し、/resume、usage credits への改称、background session 周りの大量修正を展開した。",
-  "latestSummary": "<strong>Anthropic News</strong> は <strong>KPMG と Claude の全社提携拡大</strong>を公開し、<strong>Claude Blog</strong> は <strong>Managed Agents</strong> に <strong>self-hosted sandboxes</strong> と <strong>MCP tunnels</strong> を追加。<strong>Claude Code <code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）は <code>/resume</code>、plugin 更新日時表示、usage credits への改称、background session まわりの大量修正を含む <strong>52 項目</strong>を公開した。",
+  "windowLabel": "2026-05-19 09:02:56 JST - 2026-05-20 09:02:56 JST",
+  "archiveTitle": "AI dialogue, HTML outputs, v2.1.145+144",
+  "archiveSummary": "Anthropic は frontier AI 対話拡大と KPMG 展開を公表し、Claude Blog には HTML 出力記事と Managed Agents 更新、Claude Code は v2.1.145 と v2.1.144 の 2 本が入った。",
+  "latestSummary": "<strong>Anthropic News</strong> は <strong>frontier AI の対話拡大</strong> と <strong>KPMG 提携拡大</strong>を掲載し、<strong>Claude Blog</strong> は <strong>Claude Code の HTML 出力記事</strong>と <strong>Managed Agents の self-hosted sandboxes / MCP tunnels</strong> を公開。<strong>Claude Code <code>v2.1.145</code></strong>（<strong>2026-05-20 06:31 JST</strong>）と <strong><code>v2.1.144</code></strong>（<strong>2026-05-19 09:48 JST</strong>）の <strong>72 項目</strong>を全件和訳した。",
   "summaryBullets": [
-    "<strong>Anthropic News</strong>: <strong>KPMG</strong> が Claude を <strong>Digital Gateway</strong> に組み込み、<strong>276,000 人超の社員</strong>へ展開するグローバル提携を発表。<strong>Cowork</strong>、<strong>Managed Agents</strong>、<strong>Claude Code</strong> を税務・法務・PE 向け業務やモダナイゼーションに広げる。",
-    "<strong>Claude Blog</strong>: <strong>Claude Managed Agents</strong> に <strong>self-hosted sandboxes</strong>（public beta）と <strong>MCP tunnels</strong>（research preview）を追加。agent orchestration は Anthropic 側に残しつつ、tool 実行と private MCP 接続を企業 perimeter 内へ寄せられる。",
-    "Anthropic <strong>Engineering</strong> と <strong>Research</strong> は、visible publication date ベースで窓内新規記事なし。今回の公式サイト更新は <strong>News 1件</strong> と <strong>Claude Blog 1件</strong> が中心だった。",
-    "Claude Code <strong><code>v2.1.144</code></strong> は <strong>新機能 6 / 変更 10 / 修正 36</strong>。<code>/resume</code> の background session 対応、<code>extra usage</code> から <code>usage credits</code> への改称、background session / MCP / terminal rendering / plugin 周りの修正が主な内容。"
+    "<strong>Anthropic News</strong>: <strong>Widening the conversation on frontier AI</strong> を掲載。Anthropic は <strong>15 を超える宗教・文化横断グループ</strong>の scholar / clergy / philosopher / ethicist との対話を進め、<strong>Claude's constitution</strong> や AI の moral formation 研究に活かす方針を示した。",
+    "<strong>Anthropic News</strong>: <strong>KPMG</strong> が Claude を <strong>Digital Gateway</strong> に組み込み、<strong>276,000 人超の社員</strong>へ展開する提携拡大を継続訴求。<strong>Cowork</strong>、<strong>Managed Agents</strong>、<strong>Claude Code</strong> を税務・法務・private equity・cybersecurity 向け業務へ広げる。",
+    "<strong>Claude Blog</strong>: <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> を公開。Claude Code チームは <strong>Markdown より HTML を優先</strong>し、より読みやすく共有しやすい output を作る実務を紹介。加えて <strong>Managed Agents</strong> には <strong>self-hosted sandboxes</strong>（public beta）と <strong>MCP tunnels</strong>（research preview）を追加した。",
+    "<strong>@ClaudeDevs</strong> は Claude 全体で <strong><code>extra usage</code> を <code>usage credits</code></strong> に改称。Claude Code は <strong><code>v2.1.145</code></strong> と <strong><code>v2.1.144</code></strong> の 2 本が窓内に入り、<strong>新機能 13 / 変更 11 / 修正 48</strong> の計 <strong>72 項目</strong>を完全和訳した。"
   ],
   "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-20T00:00:00+09:00",
+      "displayTime": "2026-05-20 JST",
+      "title": "Claude Code チームの HTML 出力運用を解説",
+      "summary": "Claude Blog に <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> が掲載。Claude Code チームが <strong>Markdown ではなく HTML</strong> を使って、よりリッチで読みやすく共有しやすい output を作る理由と実務を説明している。",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "urlLabel": "HTML 出力の記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-05-19T00:00:00+09:00",
+      "displayTime": "2026-05-19 JST",
+      "title": "frontier AI をめぐる対話拡大の取り組みを公開",
+      "summary": "Anthropic News に <strong>Widening the conversation on frontier AI</strong> が掲載。<strong>15 を超える宗教・文化横断グループ</strong>の scholar / clergy / philosopher / ethicist と対話し、<strong>Claude's constitution</strong> や AI の moral formation を考える研究に反映していく方針を示した。",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "urlLabel": "Anthropic News を読む"
+    },
     {
       "label": "Anthropic News",
       "datetime": "2026-05-19T00:00:00+09:00",
@@ -18,8 +37,7 @@
       "title": "KPMG が Claude を全社・顧客業務へ広げる提携を発表",
       "summary": "Anthropic News に <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> が掲載。<strong>Digital Gateway</strong> に Claude を埋め込み、<strong>276,000 人超の社員</strong>へ展開し、税務・法務・private equity・cybersecurity を含む業務で <strong>Cowork</strong>、<strong>Managed Agents</strong>、<strong>Claude Code</strong> を使う方針を示した。",
       "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "urlLabel": "KPMG 提携の発表",
-      "primary": true
+      "urlLabel": "KPMG 提携の発表"
     },
     {
       "label": "Claude Blog",
@@ -29,6 +47,15 @@
       "summary": "Claude Blog に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> が掲載。<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> で、tool 実行や private MCP server 接続を企業の security boundary 内で扱いやすくする更新。",
       "url": "https://claude.com/blog/claude-managed-agents-updates",
       "urlLabel": "Managed Agents 更新の発表"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-19T10:14:24+09:00",
+      "displayTime": "2026-05-19 10:14 JST",
+      "title": "Claude 全体で extra usage を usage credits に改称",
+      "summary": "<strong>@ClaudeDevs</strong> が、Claude 全体で <strong>extra usage</strong> を <strong>usage credits</strong> に改称したと告知。<strong>spending limits</strong>、<strong>auto-reload settings</strong>、購入済み credits は <strong>そのまま維持</strong>される。",
+      "url": "https://x.com/ClaudeDevs/status/2056543965672083966",
+      "urlLabel": "@ClaudeDevs の発表"
     }
   ],
   "officialZeroStates": [
@@ -38,33 +65,78 @@
     },
     {
       "label": "Research",
-      "body": "Anthropic Research の最新 visible publication date は <strong>May 14, 2026</strong> で、窓内新規記事は確認できなかった。"
+      "body": "Anthropic Research の最新 visible publication date は <strong>May 8, 2026</strong> で、窓内新規記事は確認できなかった。"
     },
     {
       "label": "X / Engineer signals",
-      "body": "公開取得できた primary-source では、公式サイト掲載分や GitHub Releases を超える追加の確定情報は採用しなかった。Anthropic 関係者個人アカウント由来の窓内主要シグナルも今回の最終報告には入れていない。"
+      "body": "Anthropic 関係者個人アカウント群は確認したが、conference 現地投稿、既存記事の増幅、個別サポート reply を除くと、公式サイト掲載分や GitHub Releases を超える追加の高信頼 signal は今回の最終報告に採用しなかった。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "News 1件 / Claude Blog 1件 / そのほか 0件",
-      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内では <strong>Anthropic News の <em>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</em></strong>（<strong>May 19, 2026</strong>）と、<strong>Claude Blog の <em>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</em></strong>（<strong>May 19, 2026</strong>）が新規だった。Engineering と Research は窓内新規記事なし。",
+      "headline": "News 2件 / Claude Blog 2件 / そのほか 0件",
+      "body": "公式サイト（News / Claude Blog / Engineering / Research）の visible publication date を確認したところ、窓内では <strong>Anthropic News の <em>Widening the conversation on frontier AI</em></strong> と <strong><em>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</em></strong>（ともに <strong>May 19, 2026</strong>）、<strong>Claude Blog の <em>Using Claude Code: The unreasonable effectiveness of HTML</em></strong>（<strong>May 20, 2026</strong>）と <strong><em>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</em></strong>（<strong>May 19, 2026</strong>）が新規だった。Engineering と Research は窓内新規記事なし。",
       "details": [
-        "Anthropic News は <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> を <em>May 19, 2026</em> で掲載した。",
-        "Claude Blog は <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を <em>May 19, 2026</em> で掲載し、<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> と案内した。",
+        "Anthropic News は <strong>Widening the conversation on frontier AI</strong> と <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> をともに <em>May 19, 2026</em> で掲載した。",
+        "Claude Blog は <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> を <em>May 20, 2026</em>、<strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を <em>May 19, 2026</em> で掲載した。",
+        "Managed Agents 更新では <strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> と案内された。",
         "Anthropic Engineering の最新 visible publication date は <em>Apr 8, 2026</em>（<strong>Scaling Managed Agents: Decoupling the brain from the hands</strong>）だった。",
-        "Anthropic Research の最新 visible publication date は <em>May 14, 2026</em>（<strong>2028: Two scenarios for global AI leadership</strong>）だった。"
+        "Anthropic Research の最新 visible publication date は <em>May 8, 2026</em>（<strong>Teaching Claude why</strong>）だった。"
       ],
-      "url": "https://www.anthropic.com/news",
+      "url": "https://claude.com/blog",
       "urlLabel": "公式サイトを確認"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.144",
-      "body": "GitHub CLI で確認したところ、<code>v2.1.144</code>（<strong>2026-05-19 09:48 JST</strong>）が窓内に該当した。<code>What's changed</code> の <strong>52 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "headline": "v2.1.145 / v2.1.144",
+      "body": "GitHub CLI で確認したところ、窓内には <code>v2.1.145</code>（<strong>2026-05-20 06:31 JST</strong>）と <code>v2.1.144</code>（<strong>2026-05-19 09:48 JST</strong>）の 2 本が該当した。<code>What's changed</code> の <strong>計 72 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
       "releases": [
+        {
+          "version": "v2.1.145",
+          "publishedAt": "2026-05-20 06:31 JST",
+          "summary": "<code>What's changed</code> 全 20 項目を新機能 7 / 変更 1 / 修正 12 に分類。<code>claude agents --json</code>、plugin install 前プレビュー、hook / OTEL / status JSON 拡張と権限・UI・Windows 系修正が中心。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>claude agents --json</code> を追加し、live な Claude session 一覧を JSON で出せるようにした。<strong>tmux-resurrect</strong>、status bar、session picker などの scripting に使える。",
+                "<code>claude_code.tool</code> の OTEL span に <code>agent_id</code> と <code>parent_agent_id</code> を追加し、background subagent の trace が <strong>dispatch 元の Agent tool span</strong> 配下に正しくネストされるようにした。",
+                "status line 用の JSON input に、検出できた場合は <strong>GitHub repo と PR 情報</strong> を含めるようにした。",
+                "<code>/plugin</code> の Discover / Browse 画面で、install 前に <strong>plugin の command、agent、skill、hook、MCP / LSP server</strong> を見られるようにした。",
+                "<code>claude agents</code> の terminal tab title に <strong>awaiting-input count</strong> を表示し、別 window にいても agent が入力待ちか分かるようにした。",
+                "slash command と <code>@</code>-mention の suggestion list が、fullscreen mode で <strong>mouse hover / click</strong> に対応した。",
+                "<code>Stop</code> と <code>SubagentStop</code> hook の input に <code>background_tasks</code> と <code>session_crons</code> field を追加した。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Read tool は whole-file 読み取りが token limit を超えるとき、hard error ではなく <strong>先頭ページを切り詰めた <code>PARTIAL view</code></strong> を返すように改善した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "Bash command 内で allowlist 外の環境変数へ <strong>bare variable assignment</strong> するだけで自動承認されていた permission-prompt bypass を修正。",
+                "MCP prompt slash command で必須引数を省いたとき、raw な server validation error を出していた問題を修正し、<strong>不足している引数名</strong> と期待される usage を表示するようにした。",
+                "terminal resize や refocus のあと、spinner と elapsed-time 表示が keypress まで固まる問題を修正。",
+                "cross-project resume hint が Windows の既定 PowerShell 5.1 で失敗する問題を修正し、Windows では command separator に <code>;</code> を使うようにした。",
+                "agent view の reply pane で <strong>voice push-to-talk</strong> が動かない問題を修正。",
+                "複数 task を一度に作ると task list が <strong>ランダム順</strong>で描画される問題を修正。",
+                "Anthropic marketplace が既に install 済みでも stale な <strong>\"Failed to install Anthropic marketplace\"</strong> banner が残る問題を修正。",
+                "<code>gh pr create</code> など PR 状態を変える command のあと、footer の <strong>PR badge</strong> が即時更新されない問題を修正。",
+                "Agent Teams の teammate 名に non-ASCII 文字が入ると <strong>header encoding が不正</strong>で API call が全失敗する問題を修正。",
+                "<code>/review</code> が deprecated な <code>projectCards</code> GraphQL query を使い、Classic Projects を持つ repo で error になる問題を修正。",
+                "<code>claude plugin validate</code> が <code>skills:</code> の参照先として file を指しても見逃していた問題を修正し、<strong>親 directory を使うように案内</strong>するようにした。",
+                "<code>context: fork</code> を使う skill が、実行されずに <strong>自分自身を繰り返し再起動</strong>する無限ループを修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+          "urlLabel": "v2.1.145 release notes"
+        },
         {
           "version": "v2.1.144",
           "publishedAt": "2026-05-19 09:48 JST",
@@ -147,10 +219,10 @@
     }
   ],
   "exclusions": [
-    "<strong>Anthropic acquires Stainless</strong> は visible publication date が <strong>May 18, 2026</strong> のため、今回の <strong>2026-05-19 03:01 JST - 2026-05-20 03:01 JST</strong> の窓から外れるとして除外した。",
-    "Engineering / Research の既存記事は直近だと <strong>Apr 8, 2026</strong> と <strong>May 14, 2026</strong> で、窓内新規ではないため除外した。",
-    "公式 X / エンジニア X については、今回の最終 JSON には <strong>一次ソースで確定できた公式ページ・公式リリースと重複しない新情報のみ</strong> を採用する方針を取り、未確証のものは落とした。",
-    "<code>v2.1.144</code> の release notes は Claude Code 公式 GitHub Releases から完全取得し、見えている <strong>52 項目</strong> をすべて和訳して分類した。"
+    "@ClaudeDevs の <strong>Computer use turns Claude into an agent...</strong> 投稿は、新規 blog 公開ではなく既存の computer / browser use ガイドへの導線と判断し、主要新着には数えなかった。",
+    "@claudeai の Scott Wu / Cognition 紹介、Code with Claude London 現地投稿、@ClaudeDevs の Andrej 歓迎引用は確認したが、製品更新や新規公開物ではないため主要ニュースから除外した。",
+    "Anthropic 関係者の reply-only サポートや Bun / Rust など Claude / Anthropic の主要更新と直接関係しない話題は除外した。",
+    "<code>v2.1.145</code> と <code>v2.1.144</code> の release notes は Claude Code 公式 GitHub Releases から完全取得し、見えている <strong>72 項目</strong>をすべて和訳して分類した。"
   ],
   "sources": [
     {
@@ -166,6 +238,10 @@
       "url": "https://www.anthropic.com/news"
     },
     {
+      "title": "Anthropic News: Widening the conversation on frontier AI",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai"
+    },
+    {
       "title": "Anthropic News: KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
       "url": "https://www.anthropic.com/news/anthropic-kpmg"
     },
@@ -174,12 +250,24 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Claude Blog: Using Claude Code: The unreasonable effectiveness of HTML",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html"
+    },
+    {
       "title": "Claude Blog: New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
       "url": "https://claude.com/blog/claude-managed-agents-updates"
     },
     {
+      "title": "@ClaudeDevs: usage credits rename",
+      "url": "https://x.com/ClaudeDevs/status/2056543965672083966"
+    },
+    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.145 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145"
     },
     {
       "title": "Claude Code v2.1.144 release notes",
