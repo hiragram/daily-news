@@ -1,6 +1,6 @@
 {
   "date": "2026-05-20",
-  "windowLabel": "2026-05-19 15:02:54 JST - 2026-05-20 15:02:54 JST",
+  "windowLabel": "2026-05-19 21:01:18 JST - 2026-05-20 21:01:18 JST",
   "archiveTitle": "HTML outputs, frontier AI, v2.1.145+144",
   "archiveSummary": "Claude Blog は HTML 出力記事と Managed Agents 更新、Anthropic News は frontier AI 対話拡大と KPMG 提携拡大、Claude Code は v2.1.145 / v2.1.144 の 70 項目を公開した。",
   "latestSummary": "<strong>Claude Blog</strong> は <strong>HTML 出力記事</strong> と <strong>Managed Agents の self-hosted sandboxes / MCP tunnels</strong> を掲載し、<strong>Anthropic News</strong> は <strong>frontier AI の対話拡大</strong> と <strong>KPMG への Claude 展開</strong>を公表。<strong>Claude Code <code>v2.1.145</code></strong> と <strong><code>v2.1.144</code></strong> の <strong>70 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
@@ -8,7 +8,7 @@
     "<strong>Claude Blog</strong>: <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> を公開。Claude Code チームは <strong>Markdown より HTML</strong> を使い、よりリッチで読みやすく共有しやすい output を作る実務を解説した。",
     "<strong>Claude Blog</strong>: <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> を公開。<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> で、tool 実行環境と private MCP 接続を enterprise の security boundary 内へ寄せる。",
     "<strong>Anthropic News</strong>: <strong>Widening the conversation on frontier AI</strong> と <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> を掲載。Claude の価値形成をめぐる対話拡大と、<strong>276,000 人超</strong>への Claude 展開が今回の中心だった。",
-    "<strong>@ClaudeDevs</strong> は Claude 全体で <strong><code>extra usage</code> を <code>usage credits</code></strong> に改称。<strong>Claude Code <code>v2.1.145</code></strong> と <strong><code>v2.1.144</code></strong> は合計 <strong>70 項目</strong>を公開し、background sessions、plugin、MCP、terminal、Windows 周りの改善が厚い。"
+    "<strong>Claude Code <code>v2.1.145</code></strong> と <strong><code>v2.1.144</code></strong> は合計 <strong>70 項目</strong>を公開し、background sessions、plugin、MCP、terminal、Windows 周りの改善が厚い。"
   ],
   "officialNews": [
     {
@@ -47,15 +47,6 @@
       "summary": "Claude Blog に <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> が掲載。<strong>tool 実行 sandbox</strong> と <strong>private MCP server への接続</strong>を enterprise の perimeter 内で扱えるようにし、<strong>self-hosted sandboxes は public beta</strong>、<strong>MCP tunnels は research preview</strong> と案内している。",
       "url": "https://claude.com/blog/claude-managed-agents-updates",
       "urlLabel": "Managed Agents 更新の記事を読む"
-    },
-    {
-      "label": "@ClaudeDevs",
-      "datetime": "2026-05-19T10:14:24+09:00",
-      "displayTime": "2026-05-19 10:14 JST",
-      "title": "Claude 全体で extra usage を usage credits に改称",
-      "summary": "<strong>@ClaudeDevs</strong> が、Claude 全体で <strong>extra usage</strong> を <strong>usage credits</strong> に改称したと告知。<strong>spending limits</strong>、<strong>auto-reload settings</strong>、購入済み credits は <strong>そのまま維持</strong>される。",
-      "url": "https://x.com/ClaudeDevs/status/2056543965672083966",
-      "urlLabel": "@ClaudeDevs の発表"
     }
   ],
   "officialZeroStates": [
@@ -69,7 +60,7 @@
     },
     {
       "label": "X / Engineer signals",
-      "body": "Anthropic 関係者個人アカウント群は確認したが、conference 現地投稿、歓迎投稿、個別サポート reply、Bun / Rust などの周辺議論を除くと、公式サイト掲載分や GitHub Releases を超える追加の高信頼 signal は今回の最終報告に採用しなかった。"
+      "body": "公式 X と Anthropic 関係者個人アカウント群は確認したが、<strong>Problem Solvers の顧客紹介</strong>、<strong>Code with Claude London の現地投稿</strong>、<strong>旧ブログへの導線</strong>、<strong>個別サポート reply</strong> を除くと、公式サイト掲載分や GitHub Releases を超える追加の高信頼 signal は今回の最終報告に採用しなかった。"
     }
   ],
   "signals": [],
@@ -204,7 +195,7 @@
                 "subagent が spawn した background Bash task が process 終了後も SDK task panel で <code>Running</code> のまま残る問題を修正した。",
                 "completed / stopped background session が一時的に wake に失敗しただけで永続的に startup crash 扱いされる問題を修正した。",
                 "attach 済み <code>claude agents</code> session で markdown link が plain text 表示になり、clickable hyperlink にならない問題を修正した。",
-                "custom <code>spinnerVerbs</code> が post-turn duration message に適用され、<code>Worked for 5s</code> のような built-in past tense を壊していた問題を修正した。"
+                "custom <code>spinnerVerbs</code> が post-turn duration message に適用され、<code>Worked for 5s</code> のような built-in past tense を壊していた問題を修正した."
               ]
             }
           ],
@@ -217,8 +208,7 @@
     }
   ],
   "exclusions": [
-    "@ClaudeDevs の <strong>Computer use turns Claude into an agent...</strong> 投稿は、新規 blog 公開ではなく <strong>May 13, 2026</strong> 公開の既存記事への導線と判断し、主要新着には数えなかった。",
-    "@claudeai の <strong>Problem Solvers</strong> / Scott Wu 紹介、Code with Claude London 現地投稿、@ClaudeDevs の Andrej 歓迎引用は確認したが、製品更新や新規公開物ではないため主要ニュースから除外した。",
+    "@claudeai の <strong>Problem Solvers</strong> / Scott Wu 紹介、@ClaudeDevs の <strong>Computer use turns Claude into an agent...</strong> 投稿、Code with Claude London 現地投稿、Andrej 歓迎引用は確認したが、<strong>新規 product launch や新規記事公開</strong>ではないため主要ニュースから除外した。",
     "Anthropic 関係者個人アカウントの conference 写真、歓迎投稿、support reply、Bun / Rust など Claude / Anthropic の主要更新と直接関係しない話題は除外した。",
     "<code>v2.1.145</code> と <code>v2.1.144</code> の release notes は Claude Code 公式 GitHub Releases から完全取得し、見えている <strong>70 項目</strong>をすべて和訳して分類した。"
   ],
@@ -256,19 +246,31 @@
       "url": "https://claude.com/blog/claude-managed-agents-updates"
     },
     {
-      "title": "@ClaudeDevs: usage credits rename",
-      "url": "https://x.com/ClaudeDevs/status/2056543965672083966"
+      "title": "@AnthropicAI: Widening the conversation on frontier AI",
+      "url": "https://x.com/AnthropicAI/status/2056880308851708233"
     },
     {
-      "title": "Claude Code releases",
+      "title": "@claudeai: Problem Solvers with Scott Wu",
+      "url": "https://x.com/claudeai/status/2056805728774402428"
+    },
+    {
+      "title": "@ClaudeDevs: Managed Agents security improvements",
+      "url": "https://x.com/ClaudeDevs/status/2056740346529468717"
+    },
+    {
+      "title": "@ClaudeDevs: Computer use reliability blog post",
+      "url": "https://x.com/ClaudeDevs/status/2056835339193561170"
+    },
+    {
+      "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.145 release notes",
+      "title": "Claude Code v2.1.145",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145"
     },
     {
-      "title": "Claude Code v2.1.144 release notes",
+      "title": "Claude Code v2.1.144",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144"
     }
   ]
