@@ -1,68 +1,93 @@
 {
   "date": "2026-05-21",
-  "windowLabel": "2026-05-20 15:01:56 JST - 2026-05-21 15:01:56 JST",
-  "archiveTitle": "Claude Code v2.1.146, official 0件",
-  "archiveSummary": "公式 X と公式ブログは窓内 0 件で、Claude Code v2.1.146 と 3 件の engineer signal が今回の中心だった。",
-  "latestSummary": "公式 X と公式サイトはこの 24 時間窓で新規 0 件だった一方、<strong>Claude Code <code>v2.1.146</code></strong> が公開され、<strong>/code-review</strong> への改名、<strong>AskUserQuestion</strong> の扱い見直し、Windows / MCP / updater 周りの修正を含む <strong>16 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "windowLabel": "2026-05-20 21:03:03 JST - 2026-05-21 21:03:03 JST",
+  "archiveTitle": "Claude Blog 2 posts, v2.1.146",
+  "archiveSummary": "Claude Blog の新規 2 本と Claude Code v2.1.146 が今回の中心で、公式 X と News / Engineering / Research は窓内 0 件だった。",
+  "latestSummary": "<strong>Claude Blog</strong> は <strong>HTML output の実務</strong> と <strong>Claude Cowork の営業運用事例</strong>を新規公開し、<strong>Claude Code <code>v2.1.146</code></strong> は <strong>16 項目</strong>を公開した。公式 X と Anthropic News / Engineering / Research はこの 24 時間窓で新規 0 件だった。",
   "summaryBullets": [
+    "<strong>Claude Blog</strong>: <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> と <strong>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</strong> の 2 本を <strong>May 20, 2026</strong> 付で掲載した。",
     "<strong>Claude Code <code>v2.1.146</code></strong>: <strong>2026-05-21 10:51 JST</strong> に公開。<strong>16 項目</strong>を <strong>新機能 1 / 変更 3 / 修正 12</strong> に分けて全件和訳した。",
-    "<strong>Official X</strong>: <strong>@AnthropicAI / @ClaudeAI / @ClaudeDevs</strong> は authored post ベースで窓内新規 0 件だった。新しい一次発信は確認できなかった。",
-    "<strong>公式サイト</strong>: <strong>Anthropic News / Engineering / Research / Claude Blog</strong> の visible publication date を確認したが、窓内新規記事は 0 件だった。最新 visible date は Claude Blog / News が <strong>May 19, 2026</strong>、Research が <strong>May 14, 2026</strong>、Engineering が <strong>Apr 8, 2026</strong>。",
-    "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は <code>/usage</code> UI の recent revamp に言及し、<strong>@adocomplete</strong> は computer/browser use 記事の実運用ヒントを強調、<strong>@katelyn_lesse</strong> は Managed Agents の enterprise perimeter 内実行を改めて押し出した。"
+    "<strong>Engineer signal</strong>: <strong>@jarredsumner</strong> は Claude Code を Bun の Rust port 上で数日運用し、<strong>目立つ差はなく stability / memory usage が改善</strong>したと述べた。<strong>@katelyn_lesse</strong> は Managed Agents の enterprise perimeter 内実行を改めて強調した。",
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI / @ClaudeAI / @ClaudeDevs</strong> の authored post と <strong>Anthropic News / Engineering / Research</strong> の窓内新規公開は確認できなかった。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-20T00:00:00+09:00",
+      "displayTime": "2026-05-20 JST",
+      "title": "Claude Code チームが HTML 出力の実務を解説",
+      "summary": "Claude Blog に <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> が掲載。Claude Code チームが、<strong>Markdown より HTML を使うと output をよりリッチで読みやすく共有しやすくできる</strong>として、spec・report・diagram を HTML で作る実務を解説した。",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "urlLabel": "HTML 出力の記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-20T00:00:00+09:00",
+      "displayTime": "2026-05-20 JST",
+      "title": "Claude Cowork で 4,000 アカウントを回す営業運用事例を公開",
+      "summary": "Claude Blog に <strong>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</strong> が掲載。Anthropic の営業責任者が、<strong>customer brief</strong>、<strong>weekly forecast</strong>、<strong>4,000 account の overnight scoring</strong> を Claude Cowork で回す運用を紹介した。",
+      "url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+      "urlLabel": "Claude Cowork 活用事例を読む"
+    }
+  ],
   "officialZeroStates": [
     {
       "label": "Official X",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を authored post ベースで確認したが、<strong>2026-05-20 15:01 JST - 2026-05-21 15:01 JST</strong> の窓内新規投稿は確認できなかった。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を authored post ベースで確認したが、<strong>2026-05-20 21:03 JST - 2026-05-21 21:03 JST</strong> の窓内新規投稿は確認できなかった。"
     },
     {
-      "label": "Claude Blog / News",
-      "body": "<strong>Claude Blog</strong> と <strong>Anthropic News</strong> の最新 visible publication date はどちらも <strong>May 19, 2026</strong> で、今回の窓内に入る新規記事は確認できなかった。"
+      "label": "Anthropic News",
+      "body": "<strong>Anthropic News</strong> の最新 visible publication date は <strong>May 19, 2026</strong> で、窓内新規記事は確認できなかった。"
     },
     {
-      "label": "Engineering / Research",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 8, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible publication date は <strong>May 14, 2026</strong> で、窓内新規記事は確認できなかった。"
+      "label": "Engineering",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 8, 2026</strong> で、窓内新規記事は確認できなかった。"
+    },
+    {
+      "label": "Research",
+      "body": "<strong>Anthropic Research</strong> の最新 visible publication date は <strong>May 14, 2026</strong> で、窓内新規記事は確認できなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-05-20T16:26:00+09:00",
-      "displayTime": "2026-05-20 16:26 JST",
-      "title": "@bcherny が /usage UI の recent revamp に言及",
-      "summary": "Claude Code limits の減りが速いという user の問いに対し、<strong><code>/usage</code> で何が token を使っているか確認できる</strong>、さらに <strong>recently revamped UI</strong> で見やすくなったと説明した。usage 可視化を改善済みだと示す support 系 signal。",
-      "url": "https://x.com/bcherny/status/2056999867331834218",
-      "urlLabel": "@bcherny の返信"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-05-20T18:44:28+09:00",
-      "displayTime": "2026-05-20 18:44 JST",
-      "title": "@adocomplete が computer/browser use 記事の実戦的ヒントを強調",
-      "summary": "<strong>@adocomplete</strong> は、Claude が狙った場所を click しない問題に自分も当たったと述べつつ、<strong>computer and browser use の公式記事には少なくとも 2 つ以上の改善ヒントがある</strong>と推薦した。公式記事より一歩踏み込んだ現場目線の補足。",
-      "url": "https://x.com/adocomplete/status/2057034715534676458",
-      "urlLabel": "@adocomplete の投稿"
+      "datetime": "2026-05-21T11:02:42+09:00",
+      "displayTime": "2026-05-21 11:02 JST",
+      "title": "@jarredsumner が Claude Code を Bun の Rust port 上で数日運用したと報告",
+      "summary": "<strong>@jarredsumner</strong> は Claude Code を Bun の Rust port 上で数日動かし、<strong>目立つ違いはない</strong>としつつ、続く投稿で <strong>stability と memory usage の改善</strong>、さらに <strong>全 platform で test suite を通した</strong>と補足した。Claude Code の実運用互換性を示す signal。",
+      "url": "https://x.com/jarredsumner/status/2057280896231936258",
+      "urlLabel": "@jarredsumner の投稿"
     },
     {
       "label": "Engineer X",
       "datetime": "2026-05-20T23:54:27+09:00",
       "displayTime": "2026-05-20 23:54 JST",
       "title": "@katelyn_lesse が Managed Agents の enterprise perimeter 内実行を補足",
-      "summary": "<strong>@katelyn_lesse</strong> は、Claude Managed Agents でこれまでの enterprise blocker は <strong>execution と tools が perimeter 内に置けなかったこと</strong>だと説明し、<strong>brain stays managed, you spawn the hands</strong> という整理で self-hosted sandboxes と MCP tunnels の価値を補足した。",
+      "summary": "<strong>@katelyn_lesse</strong> は、Claude Managed Agents の enterprise blocker は <strong>execution と tools が perimeter 内に置けなかったこと</strong>だと説明し、<strong>brain stays managed, you spawn the hands</strong> という整理で self-hosted sandboxes と MCP tunnels の価値を補足した。",
       "url": "https://x.com/katelyn_lesse/status/2057112722681086122",
       "urlLabel": "@katelyn_lesse の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-21T13:14:44+09:00",
+      "displayTime": "2026-05-21 13:14 JST",
+      "title": "@amorriscode が diff view の不具合切り分けを継続",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code の diff bar が出ないという user 報告に対し、<strong>uncommitted changes は表示されるはず</strong>だとしたうえで、<strong>git repo かどうか</strong>を確認して切り分けを続けた。coding UI の不具合を個別に追っている support signal。",
+      "url": "https://x.com/amorriscode/status/2057314120442204630",
+      "urlLabel": "@amorriscode の返信"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "公式サイト 0件 / Official X 0件",
-      "body": "公式サイト（Claude Blog / Anthropic News / Engineering / Research）と公式 X（@AnthropicAI / @ClaudeAI / @ClaudeDevs）を確認したところ、この窓内では <strong>新規の公式記事・authored post ともに 0 件</strong>だった。visible publication date ベースの最新は Claude Blog / News が <strong>May 19, 2026</strong>、Research が <strong>May 14, 2026</strong>、Engineering が <strong>Apr 8, 2026</strong>。",
+      "headline": "Claude Blog 2件 / Official X 0件 / News 0件",
+      "body": "公式サイト（Claude Blog / Anthropic News / Engineering / Research）と公式 X（@AnthropicAI / @ClaudeAI / @ClaudeDevs）を確認したところ、この窓内で新規に確認できた公式公開は <strong>Claude Blog の 2 本</strong>だけだった。Anthropic News / Engineering / Research は visible publication date ベースで窓内新規 0 件、公式 X も authored post ベースで 0 件だった。",
       "details": [
-        "Claude Blog の先頭記事は <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong>（<em>May 19, 2026</em>）で、窓外だった。",
-        "Anthropic News の最新 visible publication date も <em>May 19, 2026</em> で、<strong>Widening the conversation on frontier AI</strong> と <strong>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</strong> が最新だった。",
-        "Anthropic Research の最新 visible publication date は <em>May 14, 2026</em>、Anthropic Engineering は <em>Apr 8, 2026</em> で、窓内新規記事は確認できなかった。",
+        "Claude Blog は <strong>Using Claude Code: The unreasonable effectiveness of HTML</strong> と <strong>How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book</strong> をともに <em>May 20, 2026</em> で掲載した。",
+        "HTML 記事は、Claude Code チームが <strong>Markdown より HTML を好む理由</strong>として、情報密度、読みやすさ、共有しやすさ、interactive document 化を挙げている。",
+        "Claude Cowork 記事は、Anthropic の営業責任者が <strong>customer brief</strong>、<strong>weekly forecast</strong>、<strong>4,000 account の overnight scoring</strong> を Claude Cowork に委任する運用を紹介している。",
+        "Anthropic News の最新 visible publication date は <em>May 19, 2026</em>、Research は <em>May 14, 2026</em>、Engineering は <em>Apr 8, 2026</em> で、窓内新規記事は確認できなかった。",
         "公式 X は authored post ベースで <strong>0件</strong>だった。repost や reply を除く新規一次発信は確認できなかった。"
       ],
       "url": "https://claude.com/blog",
@@ -106,7 +131,7 @@
                 "Agent SDK 経由で実行した streaming session の終了時に、<strong>uncaught exception</strong> が起きる問題を修正した。",
                 "managed settings の <code>forceLoginOrgUUID</code> と <code>forceLoginMethod</code> が、<strong>third-party provider / API-key session に対して効いていなかった問題</strong>を修正した。",
                 "GNOME Terminal で <strong>右クリック paste と middle-click paste</strong> が text を挿入しない問題を修正した。",
-                "multi-agent session で <code>CLAUDE_CODE_SUBAGENT_MODEL</code> が <strong>child process に渡らない問題</strong>を修正した."
+                "multi-agent session で <code>CLAUDE_CODE_SUBAGENT_MODEL</code> が <strong>child process に渡らない問題</strong>を修正した。"
               ]
             }
           ],
@@ -119,14 +144,22 @@
     }
   ],
   "exclusions": [
-    "Claude Blog / Anthropic News の最新 visible publication date は <strong>May 19, 2026</strong> で、今回の窓開始 <strong>2026-05-20 15:01 JST</strong> より前のため、新規記事としては扱っていない。",
-    "公式 X では repost や reply は見えたが、<strong>新規 authored post</strong> は確認できなかったため、主要ニュースには含めていない。",
-    "Anthropic 関係者個人アカウントの event 告知、一般雑談、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。"
+    "Claude Blog の新規 2 本は visible publication date が <strong>May 20, 2026</strong> とだけ表示されており、正確な publish time は出ていないため、<strong>visible date ベース</strong>で今回の窓内記事として扱った。",
+    "Anthropic 関係者個人アカウントの event 告知、一般雑談、Bun 自体の進捗、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。",
+    "Claude Code の release notes は GitHub Releases から完全取得し、見えている <strong>16 項目</strong>をすべて和訳して分類した。"
   ],
   "sources": [
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Using Claude Code: The unreasonable effectiveness of HTML",
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html"
+    },
+    {
+      "title": "Claude Blog: How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book",
+      "url": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book"
     },
     {
       "title": "Anthropic News",
@@ -149,16 +182,16 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146"
     },
     {
-      "title": "@bcherny: /usage UI mention",
-      "url": "https://x.com/bcherny/status/2056999867331834218"
-    },
-    {
-      "title": "@adocomplete: computer/browser use post recommendation",
-      "url": "https://x.com/adocomplete/status/2057034715534676458"
+      "title": "@jarredsumner: Claude Code on Bun Rust port",
+      "url": "https://x.com/jarredsumner/status/2057280896231936258"
     },
     {
       "title": "@katelyn_lesse: Managed Agents perimeter note",
       "url": "https://x.com/katelyn_lesse/status/2057112722681086122"
+    },
+    {
+      "title": "@amorriscode: diff view troubleshooting",
+      "url": "https://x.com/amorriscode/status/2057314120442204630"
     }
   ]
 }
