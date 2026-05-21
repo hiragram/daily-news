@@ -1,0 +1,210 @@
+{
+  "date": "2026-05-22",
+  "windowLabel": "2026-05-21 03:01:35 JST - 2026-05-22 03:01:35 JST",
+  "archiveTitle": "Compliance API partners, Opus cyber, v2.1.146",
+  "archiveSummary": "Claude Blog の新規 2 本、@claudeai の Claude Design 投稿、Claude Code v2.1.146 が今回の中心だった。",
+  "latestSummary": "<strong>Claude Blog</strong> は <strong>Compliance API の 28 連携</strong> と <strong>Opus の cybersecurity 活用事例</strong>を新規公開し、<strong>@claudeai</strong> は <strong>Claude Design</strong> の作例募集スレッドを投稿した。<strong>Claude Code <code>v2.1.146</code></strong> は引き続きこの 24 時間窓に入り、<strong>16 項目</strong>を全件和訳した。",
+  "summaryBullets": [
+    "<strong>Claude Blog</strong>: <strong>Claude now works with more security and compliance tools</strong> と <strong>How our partners are putting Opus to work for cybersecurity</strong> をともに <strong>May 21, 2026</strong> 付で公開した。",
+    "<strong>Claude Enterprise / Platform</strong>: Compliance API 経由で <strong>28 の security / compliance integration</strong> を追加し、conversation content と activity events を既存の governance / DLP / SIEM / identity 基盤へ流し込めるようにした。",
+    "<strong>Claude Security / Opus</strong>: Wiz、Palo Alto Networks、Accenture などの partner 事例として、<strong>continuous pentesting</strong>、<strong>finding-to-fix の短縮</strong>、<strong>governed production deployment</strong> をまとめた。",
+    "<strong>@claudeai</strong>: <strong>Claude Design</strong> の作例を募るスレッドを投稿し、作例を順に quote して showcase した。",
+    "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は次版 Claude Code の <code>/usage</code> breakdown を予告し、<strong>Skills / Agents / MCPs / Plugins ごとの token 内訳</strong>と <strong>day/week filter</strong>、さらに <strong>MCP support 追加</strong>を reply で補足した。",
+    "<strong>Claude Code <code>v2.1.146</code></strong>: <strong>2026-05-21 10:51 JST</strong> 公開。<strong>16 項目</strong>を <strong>新機能 1 / 変更 3 / 修正 12</strong> に分けて全件和訳した。",
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI / @ClaudeDevs</strong> の authored post と <strong>Anthropic News / Engineering / Research</strong> の窓内新規公開は確認できなかった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-21T00:00:00+09:00",
+      "displayTime": "2026-05-21 JST",
+      "title": "Claude Enterprise / Platform に security・compliance 連携を 28 件追加",
+      "summary": "Claude Blog に <strong>Claude now works with more security and compliance tools</strong> が掲載。<strong>Claude Compliance API</strong> を通じて、<strong>Claude Enterprise の conversation content</strong> と <strong>Claude Enterprise / Claude Platform の activity events</strong> を既存の DLP / SASE / SIEM / identity / AI observability 基盤へ流し込めるようにし、<strong>28 の security / compliance provider</strong> 連携を追加した。",
+      "url": "https://claude.com/blog/compliance-api-security-partners",
+      "urlLabel": "security / compliance 連携の記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-21T00:00:00+09:00",
+      "displayTime": "2026-05-21 JST",
+      "title": "Opus を使った cybersecurity partner 事例を公開",
+      "summary": "Claude Blog に <strong>How our partners are putting Opus to work for cybersecurity</strong> が掲載。<strong>Wiz</strong>、<strong>Palo Alto Networks</strong>、<strong>Accenture</strong>、<strong>CrowdStrike</strong>、<strong>PwC</strong> などの活用例として、<strong>continuous pentesting</strong>、<strong>validated findings の大量発見</strong>、<strong>remediation の高速化</strong>、<strong>governed production deployment</strong> を整理している。",
+      "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+      "urlLabel": "cybersecurity 事例の記事を読む"
+    },
+    {
+      "label": "@claudeai",
+      "datetime": "2026-05-22T00:43:32+09:00",
+      "displayTime": "2026-05-22 00:43 JST",
+      "title": "Claude Design の作例募集スレッドを投稿",
+      "summary": "<strong>@claudeai</strong> が <strong>Claude Design</strong> について <strong>\"Tinkering, prototyping, and seeing what happens\"</strong> と投稿し、続く self-reply で user 作例を quote して showcase した。公式の大きい製品発表ではないが、<strong>Claude Design の利用促進</strong>として窓内の authored post 1 件を確認できた。",
+      "url": "https://x.com/claudeai/status/2057487463518548073",
+      "urlLabel": "@claudeai の投稿"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI 0件",
+      "body": "<strong>@AnthropicAI</strong> を authored post ベースで確認したが、<strong>2026-05-21 03:01 JST - 2026-05-22 03:01 JST</strong> の窓内新規投稿は確認できなかった。"
+    },
+    {
+      "label": "@ClaudeDevs 0件",
+      "body": "<strong>@ClaudeDevs</strong> は窓内に repost を 1 件確認したが、<strong>新規の authored post</strong> は確認できなかった。"
+    },
+    {
+      "label": "Anthropic News / Engineering / Research 0件",
+      "body": "<strong>Anthropic News</strong> の最新 visible publication date は <strong>May 19, 2026</strong>、<strong>Engineering</strong> は <strong>Apr 8, 2026</strong>、<strong>Research</strong> は <strong>May 14, 2026</strong> で、いずれも窓内新規記事は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-22T00:01:28+09:00",
+      "displayTime": "2026-05-22 00:01 JST",
+      "title": "@bcherny が次版 Claude Code の /usage breakdown を予告",
+      "summary": "<strong>@bcherny</strong> は次版 Claude Code で <code>/usage</code> を使うと、<strong>Skills / Agents / MCPs / Plugins ごとの token 使用量内訳</strong>を見られると告知した。続く reply では、<strong>全 session 集計を day/week 単位で切れる</strong>こと、<strong>下流 token も適切な skill / plugin / MCP に帰属</strong>させること、さらに <strong>MCP support をその日に追加した</strong>ことを補足した。",
+      "url": "https://x.com/bcherny/status/2057476878110261587",
+      "urlLabel": "@bcherny の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-21T11:02:42+09:00",
+      "displayTime": "2026-05-21 11:02 JST",
+      "title": "@jarredsumner が Claude Code を Bun の Rust port 上で数日運用したと報告",
+      "summary": "<strong>@jarredsumner</strong> は Claude Code を Bun の Rust port 上で数日動かし、<strong>目立つ差はない</strong>としたうえで、続く thread で <strong>stability と memory usage の改善</strong>、<strong>全 platform で test suite を通した</strong>ことを補足した。Claude Code の実運用互換性を示す signal。",
+      "url": "https://x.com/jarredsumner/status/2057280896231936258",
+      "urlLabel": "@jarredsumner の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-21T13:14:44+09:00",
+      "displayTime": "2026-05-21 13:14 JST",
+      "title": "@amorriscode が diff view 不具合の切り分けを継続",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code の diff bar が出ないという user 報告に対し、<strong>uncommitted changes は表示されるはず</strong>だとしたうえで、<strong>git repo かどうか</strong>を確認して切り分けを続けた。前後の reply でも feedback を受けて DM・再現確認を進めており、coding UI の support signal と見られる。",
+      "url": "https://x.com/amorriscode/status/2057314120442204630",
+      "urlLabel": "@amorriscode の返信"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Claude Blog 2件 / Official X 1件 / News 0件",
+      "body": "公式サイト（Claude Blog / Anthropic News / Engineering / Research）と公式 X（@AnthropicAI / @ClaudeAI / @ClaudeDevs）を確認したところ、この窓内で新規に確認できた公式公開は <strong>Claude Blog 2 本</strong>と、<strong>@claudeai の Claude Design 投稿 1 件</strong>だった。Anthropic News / Engineering / Research は visible publication date ベースで窓内新規 0 件、@AnthropicAI / @ClaudeDevs の authored post も 0 件だった。",
+      "details": [
+        "Claude Blog は <strong>Claude now works with more security and compliance tools</strong> を <em>May 21, 2026</em> で掲載し、<strong>Claude Compliance API</strong> と <strong>28 の security / compliance integration</strong> を案内した。",
+        "同じく Claude Blog は <strong>How our partners are putting Opus to work for cybersecurity</strong> を <em>May 21, 2026</em> で掲載し、<strong>Wiz</strong>、<strong>Palo Alto Networks</strong>、<strong>Accenture</strong> などの partner 実績をまとめた。",
+        "<strong>@claudeai</strong> は <strong>Claude Design</strong> の作例募集スレッドを投稿し、続く self-reply で user 作品を quote して showcase した。",
+        "Anthropic News の最新 visible publication date は <em>May 19, 2026</em>、Research は <em>May 14, 2026</em>、Engineering は <em>Apr 8, 2026</em> で、窓内新規記事は確認できなかった。",
+        "@ClaudeDevs は repost のみで、<strong>authored post 0件</strong>だった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog を確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.146",
+      "body": "GitHub CLI で確認したところ、窓内には <code>v2.1.146</code>（<strong>2026-05-21 10:51 JST</strong>）の 1 本だけが該当した。<code>What's changed</code> の <strong>16 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.146",
+          "publishedAt": "2026-05-21 10:51 JST",
+          "summary": "<code>What's changed</code> 全 16 項目を <strong>新機能 1 / 変更 3 / 修正 12</strong> に分類。<strong><code>/code-review</code></strong> への改名、<strong>AskUserQuestion</strong> の扱い見直し、Windows / MCP pagination / updater / multi-agent 周りの修正が中心。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/simplify</code> を <code>/code-review</code> に改名し、<code>/code-review high</code> のように <strong>effort level を付けて呼べる</strong>ようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Auto mode は、user または skill が明示的に依存している場合、<strong><code>AskUserQuestion</code> を抑止しない</strong>ようにした。",
+                "auto-updater の信頼性を改善し、version check と download は <strong>一時的な network failure を即失敗にせず retry</strong> するようにした。",
+                "大きい file edit に対する <strong>diff rendering performance</strong> を改善した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>pwsh</code> を winget や Microsoft Store から入れた Windows 環境で、PowerShell tool が <code>command line is invalid</code> で失敗する <strong>v2.1.124 の regression</strong> を修正した。",
+                "pagination する MCP server で <code>resources/list</code>、<code>resources/templates/list</code>、<code>prompts/list</code> が <strong>2 ページ目以降を落としていた問題</strong>を修正した。",
+                "Windows Terminal の attached background session で、Claude streaming 中に <strong>full-screen strobing</strong> が起きる問題を修正した。",
+                "update に失敗したとき、auto-updater の status line に <strong>現在の version が表示されない問題</strong>を修正した。",
+                "Windows で background-job worktree を削除する際に、<strong>NTFS junction を辿って main repo 側まで消しに行く危険</strong>があった問題を修正した。",
+                "<code>/background</code> が、typed input が skill または custom slash command だけの session を <strong>拒否してしまう問題</strong>を修正した。",
+                "background 化した session が、既に <strong>don't ask again</strong> で許可済みの tool permission を再度聞いてしまう問題を修正した。",
+                "<code>/theme</code> の color editor と <strong>New custom theme</strong> dialog が <code>Esc</code> に反応しない問題を修正した。",
+                "Agent SDK 経由で実行した streaming session の終了時に、<strong>uncaught exception</strong> が起きる問題を修正した。",
+                "managed settings の <code>forceLoginOrgUUID</code> と <code>forceLoginMethod</code> が、<strong>third-party provider / API-key session に対して効いていなかった問題</strong>を修正した。",
+                "GNOME Terminal で <strong>右クリック paste と middle-click paste</strong> が text を挿入しない問題を修正した。",
+                "multi-agent session で <code>CLAUDE_CODE_SUBAGENT_MODEL</code> が <strong>child process に渡らない問題</strong>を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
+          "urlLabel": "v2.1.146 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "Claude Blog の 2 本は visible publication date が <strong>May 21, 2026</strong> とだけ表示されており、正確な publish time は出ていないため、<strong>visible date ベース</strong>で今回の窓内記事として扱った。",
+    "@claudeai の Claude Design スレッドに続く self-reply 群は、同一イベントの showcase thread として 1 件にまとめた。",
+    "@ClaudeDevs の repost、Anthropic 関係者個人アカウントの一般雑談、event 告知、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。",
+    "Claude Code の release notes は GitHub Releases から完全取得し、見えている <strong>16 項目</strong>をすべて和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Claude now works with more security and compliance tools",
+      "url": "https://claude.com/blog/compliance-api-security-partners"
+    },
+    {
+      "title": "Claude Blog: How our partners are putting Opus to work for cybersecurity",
+      "url": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.146",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146"
+    },
+    {
+      "title": "@claudeai: Claude Design showcase thread",
+      "url": "https://x.com/claudeai/status/2057487463518548073"
+    },
+    {
+      "title": "@bcherny: Claude Code /usage breakdown",
+      "url": "https://x.com/bcherny/status/2057476878110261587"
+    },
+    {
+      "title": "@jarredsumner: Claude Code on Bun Rust port",
+      "url": "https://x.com/jarredsumner/status/2057280896231936258"
+    },
+    {
+      "title": "@amorriscode: diff view troubleshooting",
+      "url": "https://x.com/amorriscode/status/2057314120442204630"
+    }
+  ]
+}
