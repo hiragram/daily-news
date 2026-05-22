@@ -1,0 +1,223 @@
+{
+  "date": "2026-05-23",
+  "windowLabel": "2026-05-22 03:04:00 JST - 2026-05-23 03:04:00 JST",
+  "archiveTitle": "Finance workflow, Claude desktop signals, v2.1.148 / v2.1.147",
+  "archiveSummary": "@claudeai の customer-story 投稿、Claude Blog の finance workflow 記事、bcherny / amorriscode の desktop 周辺 signal、Claude Code v2.1.148 / v2.1.147 が中心だった。",
+  "latestSummary": "<strong>@claudeai</strong> は <strong>Genspark CTO の customer-story 動画</strong>を投稿し、<strong>Claude Blog</strong> は <strong>Anthropic finance team が Claude / Claude Cowork / Claude for Excel をどう使っているか</strong>を公開した。<strong>@bcherny</strong> は <strong>Claude Code 学習コンテンツの裾野拡大</strong>に言及し、<strong>@amorriscode</strong> は <strong>Claude Code Desktop の side chat / chapter 的ナビゲーション</strong>と改善中の UX を補足。<strong>Claude Code</strong> はこの窓内で <strong><code>v2.1.148</code></strong> と <strong><code>v2.1.147</code></strong> の 2 release を出し、release notes を <strong>全件和訳</strong>して <strong>新機能 / 変更 / 修正</strong> に分類した。",
+  "summaryBullets": [
+    "<strong>@claudeai</strong>: <strong>Genspark CTO Kay Zhu</strong> の customer-story 動画を投稿し、<strong>Claude を基盤にした all-in-one AI workspace</strong> を紹介した。窓内の公式 X authored post はこれが中心だった。",
+    "<strong>Claude Blog</strong>: <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> を <strong>May 22, 2026</strong> で公開。<strong>Claude Cowork</strong> と <strong>Claude for Excel</strong> を使って、board deck / monthly review / model diagnostics の narrative consistency を保ちつつ、<strong>週 10-20 時間</strong>を高付加価値業務へ戻していると説明した。",
+    "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は <strong>Claude Code を学ぶ無料コース <code>zero2claude</code></strong> を引用し、<strong>Claude Code の基礎をより多くの人に accessible に教えること</strong>への支持を表明した。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop の side chats を自由に移動できる UI</strong> を示した前夜の投稿に続き、<strong>desktop quickstart</strong>、<strong>message を chapter 的に pin する使い方</strong>、<strong>performance / memory / queueing UI</strong> を詰めていることを reply で補足した。",
+    "<strong>Claude Code <code>v2.1.148</code></strong>: <strong>2026-05-22 10:16 JST</strong> に公開。<strong>修正 1 項目</strong>で、<strong>Bash tool が毎回 <code>exit code 127</code> を返す regression</strong> を直した。",
+    "<strong>Claude Code <code>v2.1.147</code></strong>: <strong>2026-05-22 05:39 JST</strong> に公開。<strong>33 項目</strong>を <strong>新機能 2 / 変更 4 / 修正 27</strong> に分けて全件和訳した。",
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI / @ClaudeDevs</strong> の authored post と <strong>Anthropic News / Engineering / Research</strong> の窓内新規公開は確認できなかった。"
+  ],
+  "officialNews": [
+    {
+      "label": "@claudeai",
+      "datetime": "2026-05-23T01:01:37+09:00",
+      "displayTime": "2026-05-23 01:01 JST",
+      "title": "Genspark CTO の customer-story 動画を投稿",
+      "summary": "<strong>@claudeai</strong> が、<strong>Genspark CTO の Kay Zhu</strong> を取り上げた customer-story 動画を投稿し、<strong>Claude を基盤にした all-in-one AI workspace</strong> を紹介した。大きい新製品発表ではないが、窓内の公式 X authored post として確認できた 1 件。",
+      "url": "https://x.com/claudeai/status/2057854403558653983",
+      "urlLabel": "@claudeai の投稿",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-05-22T00:00:00+09:00",
+      "displayTime": "2026-05-22 JST",
+      "title": "Anthropic finance team の Claude 活用事例を公開",
+      "summary": "Claude Blog に <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> が掲載。<strong>Alice Fong</strong> が、<strong>Claude Cowork</strong> と <strong>Claude for Excel</strong> を使って board deck の narrative consistency、monthly review の初稿作成、financial model の診断を回し、<strong>週 10-20 時間</strong>を judgment-heavy な仕事へ戻していると説明した。",
+      "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+      "urlLabel": "公式ブログを読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI 0件",
+      "body": "<strong>@AnthropicAI</strong> を authored post ベースで確認したが、<strong>2026-05-22 03:04 JST - 2026-05-23 03:04 JST</strong> の窓内新規投稿は確認できなかった。"
+    },
+    {
+      "label": "@ClaudeDevs 0件",
+      "body": "<strong>@ClaudeDevs</strong> を authored post ベースで確認したが、窓内で主要更新として拾うべき新規投稿は確認できなかった。"
+    },
+    {
+      "label": "Anthropic News 0件",
+      "body": "<strong>Anthropic News</strong> の最新 visible publication date は <strong>May 19, 2026</strong> で、窓内新規記事は確認できなかった。"
+    },
+    {
+      "label": "Engineering / Research 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 8, 2026</strong>、<strong>Research</strong> は <strong>May 14, 2026</strong> で、いずれも窓内新規記事は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-23T02:30:05+09:00",
+      "displayTime": "2026-05-23 02:30 JST",
+      "title": "@bcherny が Claude Code 学習の裾野拡大を支持",
+      "summary": "<strong>@bcherny</strong> は、<strong>Claude Code をゼロから production shipping まで教える無料コース <code>zero2claude</code></strong> を quote し、<strong>Claude Code の basics を more accessible に教えること</strong>、まだ agent を使っていない層へ裾野を広げることへの支持を表明した。直後の reply では、<strong><code>/statusline</code></strong> で usage を表示できることも補足した。",
+      "url": "https://x.com/bcherny/status/2057876668501434603",
+      "urlLabel": "@bcherny の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-22T05:39:35+09:00",
+      "displayTime": "2026-05-22 05:39 JST",
+      "title": "@amorriscode が Claude Code Desktop の side chat UX を補足",
+      "summary": "<strong>@amorriscode</strong> は <strong>side chats を自由に動かせる Claude Code Desktop UI</strong> を示した投稿に続き、self-reply で <strong>desktop quickstart</strong> を案内した。さらに reply では、<strong>chat を chapter 的に pin して navigation できる</strong>こと、<strong>performance / memory / bugs</strong> をこの 1 週間かなり詰めていること、<strong>queueing UI は fixing 中</strong>であることも述べた。",
+      "url": "https://x.com/amorriscode/status/2057561969583088061",
+      "urlLabel": "@amorriscode の投稿"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official X 1件 / Claude Blog 1件 / News 0件",
+      "body": "公式サイト（Claude Blog / Anthropic News / Engineering / Research）と公式 X（@AnthropicAI / @ClaudeAI / @ClaudeDevs）を確認したところ、この窓内で新規に確認できた公式公開は <strong>@claudeai の authored post 1 件</strong>と、<strong>Claude Blog の finance workflow 記事 1 件</strong>だった。Anthropic News と Engineering / Research は visible publication date ベースで窓内新規 0 件だった。",
+      "details": [
+        "@claudeai は <strong>Genspark CTO Kay Zhu</strong> の customer-story 動画を 1 件投稿した。",
+        "Claude Blog は <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> を <em>May 22, 2026</em> で掲載した。",
+        "@AnthropicAI と @ClaudeDevs は、repost や reply を除く authored post ベースで <strong>0件</strong>だった。",
+        "Anthropic News の最新 visible publication date は <strong>May 19, 2026</strong>、Research は <strong>May 14, 2026</strong>、Engineering は <strong>Apr 8, 2026</strong> で、窓内新規記事は確認できなかった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.148 / v2.1.147",
+      "body": "GitHub CLI で確認したところ、窓内には <code>v2.1.148</code>（<strong>2026-05-22 10:16 JST</strong>）と <code>v2.1.147</code>（<strong>2026-05-22 05:39 JST</strong>）の 2 本が入っていた。<code>What's changed</code> の bullet を <strong>全件取得</strong>し、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて <strong>すべて和訳</strong>した。",
+      "releases": [
+        {
+          "version": "v2.1.148",
+          "publishedAt": "2026-05-22 10:16 JST",
+          "summary": "<code>What's changed</code> は 1 項目で、<strong>修正 1</strong>。<strong>v2.1.147 で入った regression</strong> により、一部 user の Bash tool が毎回 <code>exit code 127</code> を返していた問題を修正した。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "一部 user で Bash tool が <strong>すべての command に対して <code>exit code 127</code> を返していた問題</strong>を修正した。これは <strong>v2.1.147 で入った regression</strong> だった。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
+          "urlLabel": "v2.1.148 release notes"
+        },
+        {
+          "version": "v2.1.147",
+          "publishedAt": "2026-05-22 05:39 JST",
+          "summary": "<code>What's changed</code> 全 33 項目を <strong>新機能 2 / 変更 4 / 修正 27</strong> に分類。<strong>pinned background session</strong>、<strong><code>/code-review</code></strong>、<strong>auto-updater</strong>、<strong>diff rendering</strong>、Windows / PowerShell / MCP pagination / plugin / background 周りの修正が中心。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<strong>Pin した background session</strong> は idle 中も生き続け、Claude Code update を適用するときは <strong>その場で再起動</strong>され、memory pressure 時も <strong>pin されていない session より後に落とされる</strong>ようになった。",
+                "<code>/simplify</code> を <code>/code-review</code> に改名した。<code>/code-review high</code> のように <strong>effort level を指定して correctness bug を報告</strong>でき、<code>--comment</code> を付けると <strong>GitHub PR に inline comment を投稿</strong>できるようになった。従来の cleanup-and-fix 挙動は削除された。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "auto-updater を改善し、<strong>一時的な network failure を retry</strong>し、失敗時には <strong>より具体的な error category と OS error code</strong> を表示し、さらに <strong>update 失敗時でも現在 version を見せる</strong>ようにした。",
+                "<strong>大きい file edit の diff rendering performance</strong> を改善した。",
+                "prompt history は、<strong>連続した重複 entry を記録しない</strong>ようになった。arrow-up で同じ prompt を呼び出して再送しても、history にもう 1 件積まれなくなった。",
+                "auto mode が、user または skill が明示的に依存している <strong><code>AskUserQuestion</code></strong> を抑止しないようにした。auto-mode classifier は <strong>user の回答自体も intent signal</strong> として見るようになった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "managed settings の <code>forceLoginOrgUUID</code> と <code>forceLoginMethod</code> が、<strong>third-party provider / API-key session に対して強制されていなかった問題</strong>を修正した。",
+                "<code>!</code> command の output 内の <code>&</code> が <code>&amp;</code> と表示され、<strong><code>gcloud auth login</code> のような URL を copy-paste しづらくしていた問題</strong>を修正した。",
+                "headless / SDK mode で、<strong>未知の slash command が無言で何もしない問題</strong>を修正し、error message を出すようにした。",
+                "<code>/help</code> が、<strong>壊れた tab header</strong> を描画したり、fullscreen でない小さい terminal だと <strong>1 page に 1 command しか出さない問題</strong>を修正した。",
+                "shell snapshot が、名前の先頭が単一 underscore の user function を落としてしまい、<strong>それを参照する alias が壊れる問題</strong>を修正した。",
+                "<code>tools:</code> frontmatter に複数の <code>Agent(...)</code> type を宣言した plugin agent で、<strong>最後の 1 件以外が落ちていた問題</strong>を修正した。",
+                "<code>PowerShell(git push*)</code> のような hook <code>if</code> condition が <strong>一切 match せず、<code>PowerShell(*)</code> しか効かなかった問題</strong>を修正した。",
+                "PowerShell tool が、<strong>default formatter に依存する command の output を落としていた問題</strong>を修正した。",
+                "Windows で PowerShell script invocation に対して <strong>\"Yes, and don't ask again\"</strong> を選んでも、<strong>次回以降に実際には match しない rule を書いていた問題</strong>を修正した。",
+                "<code>pwsh</code> を winget や Microsoft Store から入れた Windows 環境で、<strong>PowerShell tool が exit code 1 で失敗する問題</strong>を修正した。",
+                "<code>/effort</code> を開いたとき、slider が <strong>現在の effort ではない level</strong> から始まる問題を修正した。",
+                "pagination する MCP server で、<strong>page 2 以降の resources / templates / prompts が落ちる問題</strong>を修正した。",
+                "Windows Terminal の attached background session で、Claude streaming 中に <strong>full-screen strobing</strong> が起きる問題を修正した。",
+                "Windows で background-job worktree を削除する際に、<strong>NTFS junction を辿って main repo 側へ入ってしまう問題</strong>を修正した。",
+                "<code>/background</code> が、typed input が skill または custom slash command だけの session を <strong>拒否してしまう問題</strong>を修正した。",
+                "<code>/theme</code> の <strong>New custom theme</strong> dialog と color editor が <code>Esc</code> に反応しない問題を修正した。",
+                "Agent SDK 経由で実行した streaming session の終了時に、<strong>uncaught exception</strong> が起きる問題を修正した。",
+                "Windows で scroll が settle するのを待つときに、<strong>まれに hang する問題</strong>を修正した。",
+                "Windows の agent view list で、background session result に <strong>全角 CJK 文字</strong> が含まれると row が stale になったり二重表示されたりする問題を修正した。",
+                "paste した text が agent に <strong>実データではなく <code>[Pasted text #N]</code> placeholder</strong> として渡される問題を修正した。",
+                "<code>claude plugin details</code> と <code>/plugin</code> で、plugin manifest の path が default directory と重なると <strong>component count が二重計上される問題</strong>を修正した。",
+                "background 化した session が、既に <strong>\"don't ask again\"</strong> で許可済みの tool permission を再度聞いてしまう問題を修正した。",
+                "GNOME Terminal で <strong>右クリック paste と middle-click paste</strong> が text を挿入しない問題を修正した。",
+                "<code>CLAUDE_CODE_SUBAGENT_MODEL</code> が、agent team から spawn された teammate process に <strong>適用されない問題</strong>を修正した。",
+                "slash command の直後に tab または newline が来ると、<strong>未知の command と誤判定される問題</strong>を修正した。",
+                "<code>/plugin</code>、<code>/status</code>、<code>/mobile</code>、<code>/sandbox</code>、<code>/permissions</code> menu の <strong>spacing / layout glitch</strong> を複数修正した。",
+                "stripped image に対して model が <strong>既に存在しない media を何度も再読しようとする問題</strong>を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
+          "urlLabel": "v2.1.147 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "@amorriscode の複数 reply は、同一イベントの Claude Code Desktop UX 補足として 1 件にまとめた。",
+    "@bcherny の <code>/statusline</code> reply は、<code>zero2claude</code> quote post の補足情報として signal 1 件に統合した。",
+    "Anthropic 関係者個人アカウントの一般雑談、event 感想、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。",
+    "Claude Code の release notes は GitHub Releases から <strong>v2.1.148</strong> と <strong>v2.1.147</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+      "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.148",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148"
+    },
+    {
+      "title": "Claude Code v2.1.147",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147"
+    },
+    {
+      "title": "@claudeai: Genspark CTO customer story",
+      "url": "https://x.com/claudeai/status/2057854403558653983"
+    },
+    {
+      "title": "@bcherny: Claude Code basics should be accessible",
+      "url": "https://x.com/bcherny/status/2057876668501434603"
+    },
+    {
+      "title": "@amorriscode: side chats desktop UI",
+      "url": "https://x.com/amorriscode/status/2057561969583088061"
+    }
+  ]
+}
