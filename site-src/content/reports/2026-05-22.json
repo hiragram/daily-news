@@ -1,16 +1,16 @@
 {
   "date": "2026-05-22",
-  "windowLabel": "2026-05-21 09:02:00 JST - 2026-05-22 09:02:00 JST",
-  "archiveTitle": "Design thread, security blogs, v2.1.147",
-  "archiveSummary": "Claude Blog の新規 2 本、@claudeai の Claude Design thread、Claude Code v2.1.147 / v2.1.146 の 2 release が今回の中心だった。",
-  "latestSummary": "<strong>Claude Blog</strong> は <strong>security / compliance</strong> と <strong>Opus の cybersecurity 活用</strong>の 2 本を掲載し、<strong>@claudeai</strong> は <strong>Claude Design</strong> の showcase thread を投稿した。<strong>Claude Code</strong> はこの 24 時間窓で <strong><code>v2.1.147</code></strong> と <strong><code>v2.1.146</code></strong> の 2 release を出し、release note をそれぞれ完全取得して全件和訳した。",
+  "windowLabel": "2026-05-21 15:01:45 JST - 2026-05-22 15:01:45 JST",
+  "archiveTitle": "Security blogs, design thread, v2.1.148",
+  "archiveSummary": "Claude Blog 2 本、@claudeai の Claude Design thread、Claude Code v2.1.148 / v2.1.147 が今回の中心だった。",
+  "latestSummary": "<strong>Claude Blog</strong> は <strong>security / compliance</strong> と <strong>Opus の cybersecurity 活用</strong>の 2 本を掲載し、<strong>@claudeai</strong> は <strong>Claude Design</strong> の showcase thread を投稿した。<strong>Claude Code</strong> はこの 24 時間窓で <strong><code>v2.1.148</code></strong> と <strong><code>v2.1.147</code></strong> の 2 release を出し、release note を両方とも完全取得して全件和訳した。",
   "summaryBullets": [
-    "<strong>Claude Blog</strong>: <strong>Claude now works with more security and compliance tools</strong> と <strong>How our partners are putting Opus to work for cybersecurity</strong> をともに <strong>May 21, 2026</strong> 付で公開した。",
-    "<strong>@claudeai</strong>: <strong>Claude Design</strong> の作例募集 thread を投稿し、続く self-reply で user 作例を quote して showcase した。",
+    "<strong>Claude Blog</strong>: <strong>Claude now works with more security and compliance tools</strong> と <strong>How our partners are putting Opus to work for cybersecurity</strong> をともに <strong>May 21, 2026</strong> 付で掲載した。",
+    "<strong>@claudeai</strong>: <strong>Claude Design</strong> の showcase thread を投稿し、続く self-reply で user 作例を quote して並べた。",
     "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は次版 Claude Code の <code>/usage</code> breakdown を予告し、<strong>Skills / Agents / MCPs / Plugins ごとの token 内訳</strong>、<strong>day/week filter</strong>、<strong>MCP support</strong> を補足した。",
-    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は Claude Code Desktop の <strong>side chats を自由に動かせる UI</strong> を動画付きで紹介した。<strong>@jarredsumner</strong> は Claude Code を Bun の Rust port 上で数日運用して <strong>stability / memory usage 改善</strong>を報告した。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は Claude Code Desktop の <strong>side chats を自由に動かせる UI</strong> を動画付きで紹介し、reply で <strong>Desktop quickstart</strong>、<strong>chapter 的に pin できる使い方</strong>、<strong>performance / bugs を詰めている</strong>ことも補足した。",
+    "<strong>Claude Code <code>v2.1.148</code></strong>: <strong>2026-05-22 10:16 JST</strong> 公開。<strong>修正 1 項目</strong>を和訳し、<strong>Bash tool が常に exit code 127 を返す regression</strong> の修正を確認した。",
     "<strong>Claude Code <code>v2.1.147</code></strong>: <strong>2026-05-22 05:39 JST</strong> 公開。<strong>33 項目</strong>を <strong>新機能 2 / 変更 4 / 修正 27</strong> に分けて全件和訳した。",
-    "<strong>Claude Code <code>v2.1.146</code></strong>: <strong>2026-05-21 10:51 JST</strong> 公開。<strong>16 項目</strong>を <strong>新機能 1 / 変更 3 / 修正 12</strong> に分けて全件和訳した。",
     "<strong>Official zero state</strong>: <strong>@AnthropicAI / @ClaudeDevs</strong> の authored post と <strong>Anthropic News / Engineering / Research</strong> の窓内新規公開は確認できなかった。"
   ],
   "officialNews": [
@@ -46,7 +46,7 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI 0件",
-      "body": "<strong>@AnthropicAI</strong> を authored post ベースで確認したが、<strong>2026-05-21 09:02 JST - 2026-05-22 09:02 JST</strong> の窓内新規投稿は確認できなかった。"
+      "body": "<strong>@AnthropicAI</strong> を authored post ベースで確認したが、<strong>2026-05-21 15:01 JST - 2026-05-22 15:01 JST</strong> の窓内新規投稿は確認できなかった。"
     },
     {
       "label": "@ClaudeDevs 0件",
@@ -72,18 +72,9 @@
       "datetime": "2026-05-22T05:39:35+09:00",
       "displayTime": "2026-05-22 05:39 JST",
       "title": "@amorriscode が side chats を自由配置できる Desktop UI を紹介",
-      "summary": "<strong>@amorriscode</strong> は <strong>\"btw you can move your side chats any where you like\"</strong> と投稿し、Claude Code Desktop 上で <strong>side chats の配置を動かせる UI</strong> を動画付きで紹介した。大きい発表ではないが、<strong>Desktop の並列作業 UX</strong> に関する product signal と見られる。",
+      "summary": "<strong>@amorriscode</strong> は <strong>\"btw you can move your side chats any where you like\"</strong> と投稿し、Claude Code Desktop 上で <strong>side chats の配置を動かせる UI</strong> を動画付きで紹介した。続く self-reply では <strong>Desktop quickstart</strong> を案内し、reply では <strong>messages を chapter 的に pin できる</strong>ことや <strong>performance / memory / bugs をこの 1 週間かなり詰めている</strong>ことも補足した。",
       "url": "https://x.com/amorriscode/status/2057561969583088061",
       "urlLabel": "@amorriscode の投稿"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-05-21T11:02:42+09:00",
-      "displayTime": "2026-05-21 11:02 JST",
-      "title": "@jarredsumner が Claude Code を Bun の Rust port 上で数日運用したと報告",
-      "summary": "<strong>@jarredsumner</strong> は Claude Code を Bun の Rust port 上で数日動かし、<strong>目立つ差はない</strong>としたうえで、続く thread で <strong>stability と memory usage の改善</strong>、<strong>全 platform で test suite を通した</strong>ことを補足した。Claude Code の実運用互換性を示す signal。",
-      "url": "https://x.com/jarredsumner/status/2057280896231936258",
-      "urlLabel": "@jarredsumner の投稿"
     }
   ],
   "releasePanels": [
@@ -103,9 +94,24 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.147 / v2.1.146",
-      "body": "GitHub CLI で確認したところ、この窓内には <code>v2.1.147</code>（<strong>2026-05-22 05:39 JST</strong>）と <code>v2.1.146</code>（<strong>2026-05-21 10:51 JST</strong>）の 2 本が該当した。両方の <code>What's changed</code> を完全取得し、各 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "headline": "v2.1.148 / v2.1.147",
+      "body": "GitHub CLI で確認したところ、この窓内には <code>v2.1.148</code>（<strong>2026-05-22 10:16 JST</strong>）と <code>v2.1.147</code>（<strong>2026-05-22 05:39 JST</strong>）の 2 本が該当した。両方の <code>What's changed</code> を完全取得し、各 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
       "releases": [
+        {
+          "version": "v2.1.148",
+          "publishedAt": "2026-05-22 10:16 JST",
+          "summary": "<code>What's changed</code> 全 1 項目を <strong>修正 1</strong> として掲載。<strong>v2.1.147 で混入した Bash tool の exit code 127 regression</strong> を直した小さい follow-up release。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "一部 user 環境で <strong>Bash tool がすべての command に対して exit code 127 を返してしまう問題</strong>を修正した（<code>v2.1.147</code> で入った regression）。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
+          "urlLabel": "v2.1.148 release notes"
+        },
         {
           "version": "v2.1.147",
           "publishedAt": "2026-05-22 05:39 JST",
@@ -162,46 +168,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
           "urlLabel": "v2.1.147 release notes"
-        },
-        {
-          "version": "v2.1.146",
-          "publishedAt": "2026-05-21 10:51 JST",
-          "summary": "<code>What's changed</code> 全 16 項目を <strong>新機能 1 / 変更 3 / 修正 12</strong> に分類。<strong><code>/code-review</code></strong> への改名、<strong>AskUserQuestion</strong> の扱い見直し、Windows / MCP pagination / updater / multi-agent 周りの修正が中心。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "<code>/simplify</code> を <code>/code-review</code> に改名し、<code>/code-review high</code> のように <strong>effort level を付けて呼べる</strong>ようにした。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "Auto mode は、user または skill が明示的に依存している場合、<strong><code>AskUserQuestion</code> を抑止しない</strong>ようにした。",
-                "auto-updater の信頼性を改善し、version check と download は <strong>一時的な network failure を即失敗にせず retry</strong> するようにした。",
-                "大きい file edit に対する <strong>diff rendering performance</strong> を改善した。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "<code>pwsh</code> を winget や Microsoft Store から入れた Windows 環境で、PowerShell tool が <code>command line is invalid</code> で失敗する <strong>v2.1.124 の regression</strong> を修正した。",
-                "pagination する MCP server で <code>resources/list</code>、<code>resources/templates/list</code>、<code>prompts/list</code> が <strong>2 ページ目以降を落としていた問題</strong>を修正した。",
-                "Windows Terminal の attached background session で、Claude streaming 中に <strong>full-screen strobing</strong> が起きる問題を修正した。",
-                "update に失敗したとき、auto-updater の status line に <strong>現在の version が表示されない問題</strong>を修正した。",
-                "Windows で background-job worktree を削除する際に、<strong>NTFS junction を辿って main repo 側まで消しに行く危険</strong>があった問題を修正した。",
-                "<code>/background</code> が、typed input が skill または custom slash command だけの session を <strong>拒否してしまう問題</strong>を修正した。",
-                "background 化した session が、既に <strong>don't ask again</strong> で許可済みの tool permission を再度聞いてしまう問題を修正した。",
-                "<code>/theme</code> の color editor と <strong>New custom theme</strong> dialog が <code>Esc</code> に反応しない問題を修正した。",
-                "Agent SDK 経由で実行した streaming session の終了時に、<strong>uncaught exception</strong> が起きる問題を修正した。",
-                "managed settings の <code>forceLoginOrgUUID</code> と <code>forceLoginMethod</code> が、<strong>third-party provider / API-key session に対して効いていなかった問題</strong>を修正した。",
-                "GNOME Terminal で <strong>右クリック paste と middle-click paste</strong> が text を挿入しない問題を修正した。",
-                "multi-agent session で <code>CLAUDE_CODE_SUBAGENT_MODEL</code> が <strong>child process に渡らない問題</strong>を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
-          "urlLabel": "v2.1.146 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -212,7 +178,7 @@
     "Claude Blog の 2 本は article page 上の visible publication date が <strong>May 21, 2026</strong> とだけ表示されており、正確な publish time は出ていないため、<strong>visible date ベース</strong>で今回の窓内記事として扱った。",
     "@claudeai の self-reply 群は、同一イベントの showcase thread として 1 件にまとめた。",
     "@ClaudeDevs の低文脈 reply / repost、Anthropic 関係者個人アカウントの一般雑談、event 告知、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。",
-    "Claude Code の release notes は GitHub Releases から <strong>v2.1.147</strong> と <strong>v2.1.146</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
+    "Claude Code の release notes は GitHub Releases から <strong>v2.1.148</strong> と <strong>v2.1.147</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
   ],
   "sources": [
     {
@@ -244,12 +210,12 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.147",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147"
+      "title": "Claude Code v2.1.148",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148"
     },
     {
-      "title": "Claude Code v2.1.146",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146"
+      "title": "Claude Code v2.1.147",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147"
     },
     {
       "title": "@claudeai: Claude Design showcase thread",
@@ -262,10 +228,6 @@
     {
       "title": "@amorriscode: side chats desktop UI",
       "url": "https://x.com/amorriscode/status/2057561969583088061"
-    },
-    {
-      "title": "@jarredsumner: Claude Code on Bun Rust port",
-      "url": "https://x.com/jarredsumner/status/2057280896231936258"
     }
   ]
 }
