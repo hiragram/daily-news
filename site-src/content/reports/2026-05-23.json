@@ -1,28 +1,27 @@
 {
   "date": "2026-05-23",
-  "windowLabel": "2026-05-22 09:02:09 JST - 2026-05-23 09:02:09 JST",
-  "archiveTitle": "Glasswing, auto mode Pro, v2.1.149",
-  "archiveSummary": "Project Glasswing の初期アップデート、ClaudeDevs の auto mode 拡張、Claude Code v2.1.149 / v2.1.148 が今回の中心だった。",
-  "latestSummary": "<strong>Anthropic</strong> は <strong>Project Glasswing の初期アップデート</strong>を公開し、<strong>1万件超の high / critical vulnerability</strong> を見つけたと説明した。<strong>@ClaudeDevs</strong> は <strong>auto mode を Pro plan に拡大</strong>し、<strong>Sonnet 4.6</strong> 対応も加えた。<strong>Claude Code</strong> はこの 24 時間窓で <strong><code>v2.1.149</code></strong> と <strong><code>v2.1.148</code></strong> を公開し、release notes を <strong>全件和訳</strong>して <strong>新機能 / 変更 / 修正</strong> に分類した。",
+  "windowLabel": "2026-05-22 15:02:18 JST - 2026-05-23 15:02:18 JST",
+  "archiveTitle": "Finance blog, Glasswing, v2.1.150",
+  "archiveSummary": "Claude Blog の新規記事、Project Glasswing、Claude Code v2.1.150 / v2.1.149 を反映した更新版です。",
+  "latestSummary": "<strong>Claude Blog</strong> は <strong>Anthropic の finance team による Claude 活用記事</strong>を新規公開し、<strong>Anthropic</strong> は引き続き <strong>Project Glasswing の初期アップデート</strong>を告知した。<strong>@ClaudeDevs</strong> は <strong>auto mode の Pro plan 拡大</strong>と <strong>Sonnet 4.6 対応</strong>を案内し、<strong>Claude Code</strong> はこの 24 時間窓で <strong><code>v2.1.150</code></strong> と <strong><code>v2.1.149</code></strong> を公開した。release notes は <strong>全 27 項目</strong>を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official site</strong>: <strong>Project Glasswing: An initial update</strong> が <strong>May 22, 2026</strong> の visible publication date で公開され、Anthropic は partner とともに <strong>1万件超の high / critical vulnerability</strong> を見つけたと説明した。",
-    "<strong>@ClaudeDevs</strong>: <strong>auto mode</strong> が <strong>Pro plan</strong> で使えるようになり、対応 model に <strong>Sonnet 4.6</strong> が追加された。投稿直後の self-reply では、最新版への update も案内した。",
-    "<strong>@claudeai</strong>: <strong>Genspark CTO Kay Zhu</strong> の customer-story 動画を投稿し、<strong>Claude を基盤にした all-in-one AI workspace</strong> を紹介した。",
-    "<strong>Engineer signal</strong>: <strong>@RobertJBye</strong> は <strong>Claude voice mode の visual / performance improvements</strong> を出したと投稿し、<strong>@amorriscode</strong> は <strong>Claude Code Desktop で session を別 window に pop out</strong> できる UI と split-view 操作を補足した。",
-    "<strong>Engineer signal</strong>: <strong>@bcherny</strong> は <strong>Claude Code の basics を accessible に教える無料コース <code>zero2claude</code></strong> を支持し、reply で <strong><code>/statusline</code></strong> による usage 表示も案内した。",
+    "<strong>Claude Blog</strong>: <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> が <strong>May 22, 2026</strong> 付で公開され、finance team が <strong>board memo</strong>、<strong>planning</strong>、<strong>narrative synthesis</strong> に Claude をどう使うかを紹介した。",
+    "<strong>Official site / X</strong>: <strong>Project Glasswing: An initial update</strong> は今回の窓でも主要な公式更新で、<strong>@AnthropicAI</strong> は partner とともに <strong>1万件超の high / critical vulnerability</strong> を見つけた点を改めて告知した。",
+    "<strong>@ClaudeDevs</strong>: <strong>auto mode</strong> が <strong>Pro plan</strong> でも使えるようになり、対応 model に <strong>Sonnet 4.6</strong> が追加された。",
+    "<strong>Engineer signal</strong>: <strong>@RobertJBye</strong> は <strong>Claude voice mode の visual / performance improvements</strong> を告知し、<strong>@amorriscode</strong> は <strong>Claude Code Desktop の pop-out window</strong>、<strong>split view</strong>、<strong>in-app changelog 予定</strong>を補足した。",
+    "<strong>Claude Code <code>v2.1.150</code></strong>: <strong>2026-05-23 13:03 JST</strong> に公開。<strong>変更 1 項目</strong>で、<strong>internal infrastructure improvements</strong> のみだった。",
     "<strong>Claude Code <code>v2.1.149</code></strong>: <strong>2026-05-23 07:09 JST</strong> に公開。<strong>26 項目</strong>を <strong>新機能 3 / 変更 2 / 修正 21</strong> に分けて全件和訳した。",
-    "<strong>Claude Code <code>v2.1.148</code></strong>: <strong>2026-05-22 10:16 JST</strong> に公開。<strong>修正 1 項目</strong>で、<strong>Bash tool が常に <code>exit code 127</code> を返す regression</strong> を修正した。",
-    "<strong>Official zero state</strong>: <strong>Claude Blog</strong> と <strong>Anthropic Engineering</strong> の窓内新規公開は確認できなかった。"
+    "<strong>Official zero state</strong>: <strong>Anthropic Engineering</strong> の窓内新規公開は確認できず、News / Research も <strong>Project Glasswing</strong> 以外の追加記事は見当たらなかった。"
   ],
   "officialNews": [
     {
-      "label": "@ClaudeDevs",
-      "datetime": "2026-05-23T07:08:47+09:00",
-      "displayTime": "2026-05-23 07:08 JST",
-      "title": "auto mode を Pro plan に拡大し Sonnet 4.6 に対応",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>auto mode</strong> が <strong>Pro plan</strong> でも使えるようになり、対応 model に <strong>Sonnet 4.6</strong> を追加したと投稿した。same-thread の self-reply では、<strong><code>claude update</code></strong> または Claude desktop app の update も案内している。",
-      "url": "https://x.com/ClaudeDevs/status/2057946803685974482",
-      "urlLabel": "@ClaudeDevs の投稿",
+      "label": "Claude Blog",
+      "datetime": "2026-05-22T00:00:00+09:00",
+      "displayTime": "2026-05-22 JST",
+      "title": "Anthropic の finance team が Claude で数字の物語を組み立てる実務を公開",
+      "summary": "Claude Blog に <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> が掲載された。Anthropic の finance team が、<strong>board memo</strong>、<strong>headcount / planning の整理</strong>、<strong>数字の背後にある narrative の言語化</strong>に Claude をどう組み込んでいるかを解説している。",
+      "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+      "urlLabel": "finance team の活用記事を読む",
       "primary": true
     },
     {
@@ -33,6 +32,15 @@
       "summary": "<strong>Anthropic Research / News</strong> に <strong>Project Glasswing: An initial update</strong> が掲載された。visible publication date は <strong>May 22, 2026</strong>。Anthropic は partner とともに <strong>essential software</strong> で <strong>1万件超の high- or critical-severity vulnerability</strong> を見つけ、今後は <strong>Claude Mythos Preview 級の model が見つける脆弱性の量に industry が適応する必要がある</strong>と説明した。",
       "url": "https://www.anthropic.com/research/glasswing-initial-update",
       "urlLabel": "公式記事を読む"
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-05-23T07:08:47+09:00",
+      "displayTime": "2026-05-23 07:08 JST",
+      "title": "auto mode を Pro plan に拡大し Sonnet 4.6 に対応",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>auto mode</strong> が <strong>Pro plan</strong> でも使えるようになり、対応 model に <strong>Sonnet 4.6</strong> を追加したと投稿した。same-thread の self-reply では、<strong><code>claude update</code></strong> または Claude desktop app の update も案内している。",
+      "url": "https://x.com/ClaudeDevs/status/2057946803685974482",
+      "urlLabel": "@ClaudeDevs の投稿"
     },
     {
       "label": "@AnthropicAI",
@@ -55,16 +63,12 @@
   ],
   "officialZeroStates": [
     {
-      "label": "Claude Blog 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible publication date は <strong>May 19, 2026</strong> で、<strong>2026-05-22 09:02 JST - 2026-05-23 09:02 JST</strong> の窓内新規記事は確認できなかった。"
-    },
-    {
       "label": "Anthropic Engineering 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> で、featured article も <strong>Published Apr 23, 2026</strong> だった。窓内新規公開は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> で、featured article も <strong>Published Apr 23, 2026</strong> のままだった。<strong>2026-05-22 15:02 JST - 2026-05-23 15:02 JST</strong> の窓内新規公開は確認できなかった。"
     },
     {
       "label": "追加の official site updates 0件",
-      "body": "<strong>Anthropic News / Research</strong> では <strong>Project Glasswing: An initial update</strong> の掲載を確認したが、同じ 24 時間窓でそれ以外の新規 official article は確認できなかった。"
+      "body": "<strong>Anthropic News / Research</strong> では <strong>Project Glasswing: An initial update</strong> を確認し、<strong>Claude Blog</strong> では finance team 記事を確認したが、それ以外の窓内新規 official article は見当たらなかった。"
     }
   ],
   "signals": [
@@ -73,7 +77,7 @@
       "datetime": "2026-05-23T07:42:47+09:00",
       "displayTime": "2026-05-23 07:42 JST",
       "title": "@RobertJBye が Claude voice mode の visual / performance improvements を告知",
-      "summary": "<strong>@RobertJBye</strong> は、<strong>Claude の voice mode</strong> に <strong>visual と performance の改善を多数 ship した</strong>と投稿し、動画付きでデモした。Claude app 側の UX 改善 signal として窓内で最も直接的だった。",
+      "summary": "<strong>@RobertJBye</strong> は、<strong>Claude の voice mode</strong> に <strong>visual と performance の改善を多数 ship した</strong>と投稿し、動画付きでデモした。Claude app 側の UX 改善 signal として、この窓で最も直接的だった。",
       "url": "https://x.com/RobertJBye/status/2057955358979870784",
       "urlLabel": "@RobertJBye の投稿"
     },
@@ -81,8 +85,8 @@
       "label": "Engineer X",
       "datetime": "2026-05-23T07:26:50+09:00",
       "displayTime": "2026-05-23 07:26 JST",
-      "title": "@amorriscode が Claude Code Desktop の pop-out window を紹介",
-      "summary": "<strong>@amorriscode</strong> は <strong>session を別 window に pop out</strong> できる Claude Code Desktop UI を動画付きで投稿した。続く reply では、<strong>latest version の Claude Code Desktop</strong> で使えること、<strong>Option+Click / right click から split view</strong> できること、<strong>まだ full announce 前の beta</strong> であることも補足した。",
+      "title": "@amorriscode が Claude Code Desktop の pop-out window と split view を紹介",
+      "summary": "<strong>@amorriscode</strong> は <strong>session を別 window に pop out</strong> できる Claude Code Desktop UI を動画付きで投稿した。続く reply では、<strong>latest version の Claude Code Desktop</strong> で使えること、<strong>Option+Click / right click から split view</strong> できること、<strong>まだ full announce 前の beta</strong> であること、さらに <strong>in-app changelog を近く追加する予定</strong>も補足した。",
       "url": "https://x.com/amorriscode/status/2057951346599551484",
       "urlLabel": "@amorriscode の投稿"
     },
@@ -99,22 +103,37 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Official 4件 / Claude Blog 0件 / Engineering 0件",
-      "body": "公式サイト（Claude Blog / Anthropic News / Research / Engineering）と公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）を確認したところ、この窓内で新規に確認できた主な official update は <strong>Project Glasswing の初期アップデート</strong>、<strong>@ClaudeDevs の auto mode 拡張</strong>、<strong>@claudeai の customer-story 投稿</strong>だった。<strong>Claude Blog</strong> と <strong>Anthropic Engineering</strong> は窓内新規 0 件だった。",
+      "headline": "Official 5件 / Engineering 0件",
+      "body": "公式サイト（Claude Blog / Anthropic News / Research / Engineering）と公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）を確認したところ、この窓内で新規に確認できた主な official update は <strong>finance team の Claude 活用記事</strong>、<strong>Project Glasswing の初期アップデート</strong>、<strong>@ClaudeDevs の auto mode 拡張</strong>だった。<strong>Anthropic Engineering</strong> は窓内新規 0 件だった。",
       "details": [
-        "<strong>@ClaudeDevs</strong> は <strong>auto mode の Pro plan 提供</strong>と <strong>Sonnet 4.6 対応</strong>を告知した。",
-        "<strong>Anthropic Research / News</strong> は <strong>Project Glasswing: An initial update</strong> を <em>May 22, 2026</em> の visible publication date で掲載し、<strong>@AnthropicAI</strong> も同テーマを X で告知した。",
-        "<strong>@claudeai</strong> は <strong>Genspark CTO Kay Zhu</strong> の customer-story 動画を 1 件投稿した。",
-        "<strong>Claude Blog</strong> の最新 visible publication date は <strong>May 19, 2026</strong>、<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> で、窓内新規公開は確認できなかった。"
+        "<strong>Claude Blog</strong> は <strong>How Anthropic's finance team uses Claude to shape the narrative behind the numbers</strong> を <em>May 22, 2026</em> の visible publication date で掲載した。",
+        "<strong>Anthropic Research / News</strong> は <strong>Project Glasswing: An initial update</strong> を掲載し、<strong>@AnthropicAI</strong> も同テーマを X で告知した。",
+        "<strong>@ClaudeDevs</strong> は <strong>auto mode の Pro plan 提供</strong>と <strong>Sonnet 4.6 対応</strong>を告知し、<strong>@claudeai</strong> は <strong>Genspark CTO Kay Zhu</strong> の customer-story 動画を投稿した。",
+        "<strong>Anthropic Engineering</strong> の最新 dated article は <em>Apr 8, 2026</em> で、窓内新規公開は確認できなかった。"
       ],
-      "url": "https://www.anthropic.com/news",
+      "url": "https://claude.com/blog",
       "urlLabel": "公式サイトを確認"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.149 / v2.1.148",
-      "body": "GitHub CLI で確認したところ、窓内には <code>v2.1.149</code>（<strong>2026-05-23 07:09 JST</strong>）と <code>v2.1.148</code>（<strong>2026-05-22 10:16 JST</strong>）の 2 本が入っていた。<code>What's changed</code> の bullet を <strong>全件取得</strong>し、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて <strong>すべて和訳</strong>した。",
+      "headline": "v2.1.150 / v2.1.149",
+      "body": "GitHub CLI で確認したところ、窓内には <code>v2.1.150</code>（<strong>2026-05-23 13:03 JST</strong>）と <code>v2.1.149</code>（<strong>2026-05-23 07:09 JST</strong>）の 2 本が入っていた。<code>What's changed</code> の bullet を <strong>全件取得</strong>し、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて <strong>すべて和訳</strong>した。",
       "releases": [
+        {
+          "version": "v2.1.150",
+          "publishedAt": "2026-05-23 13:03 JST",
+          "summary": "<code>What's changed</code> は 1 項目で、<strong>新機能 0 / 変更 1 / 修正 0</strong>。<strong>internal infrastructure improvements</strong> のみで、release note 上は <strong>user-facing changes なし</strong>と明記されていた。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "<strong>internal infrastructure improvements</strong> を行った。release note 上では <strong>user-facing changes はない</strong>とされている。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+          "urlLabel": "v2.1.150 release notes"
+        },
         {
           "version": "v2.1.149",
           "publishedAt": "2026-05-23 07:09 JST",
@@ -158,27 +177,12 @@
                 "input が欠けた malformed な PowerShell / History tool call が、transcript collapsing で <strong>read と誤分類される問題</strong>を修正した。",
                 "claude.ai または Claude mobile app から <strong>Remote Control session の名前を変更</strong>しても、<strong><code>claude --resume</code></strong> 用の local session name が更新されない問題を修正した。",
                 "送信直後の prompt が、up-arrow history に <strong>まれに 2 回出る race</strong> を修正した。",
-                "fullscreen mode で <strong>\"Jump to bottom\" pill</strong> を tap しても、すぐ dismiss されない問題を修正した."
+                "fullscreen mode で <strong>\"Jump to bottom\" pill</strong> を tap しても、すぐ dismiss されない問題を修正した。"
               ]
             }
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
           "urlLabel": "v2.1.149 release notes"
-        },
-        {
-          "version": "v2.1.148",
-          "publishedAt": "2026-05-22 10:16 JST",
-          "summary": "<code>What's changed</code> は 1 項目で、<strong>修正 1</strong>。<strong>v2.1.147 で入った regression</strong> により、一部 user の Bash tool が毎回 <code>exit code 127</code> を返していた問題を修正した。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "一部 user で Bash tool が <strong>すべての command に対して <code>exit code 127</code> を返していた問題</strong>を修正した。これは <strong>v2.1.147 で入った regression</strong> だった。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
-          "urlLabel": "v2.1.148 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -188,13 +192,18 @@
   "exclusions": [
     "@ClaudeDevs、@AnthropicAI、@amorriscode の self-reply は、同一イベントの補足として親投稿に統合した。",
     "Anthropic Research と News の両方に出ていた <strong>Project Glasswing: An initial update</strong> は、同一 official article として 1 件の canonical item に寄せた。",
+    "Claude Blog の finance team 記事と Research / News の Glasswing 記事は、listing 上の <strong>visible publication date</strong> は確認できたが、正確な publish time は見えないため、<strong>visible date ベース</strong>で今回の窓内記事として扱った。",
     "Anthropic 関係者個人アカウントの一般雑談、event 感想、採用告知、Claude / Anthropic の主要更新と直接結び付かない投稿は主要 signal から除外した。",
-    "Claude Code の release notes は GitHub Releases から <strong>v2.1.149</strong> と <strong>v2.1.148</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
+    "Claude Code の release notes は GitHub Releases から <strong>v2.1.150</strong> と <strong>v2.1.149</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
   ],
   "sources": [
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: How Anthropic's finance team uses Claude to shape the narrative behind the numbers",
+      "url": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers"
     },
     {
       "title": "Anthropic News",
@@ -217,12 +226,12 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.149",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149"
+      "title": "Claude Code v2.1.150",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150"
     },
     {
-      "title": "Claude Code v2.1.148",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148"
+      "title": "Claude Code v2.1.149",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149"
     },
     {
       "title": "@ClaudeDevs: auto mode updates",
