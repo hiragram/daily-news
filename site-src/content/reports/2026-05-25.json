@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-25",
+  "windowLabel": "2026-05-24 03:01:49 JST - 2026-05-25 03:01:49 JST",
+  "archiveTitle": "Auto mode signals, desktop feedback, release lull",
+  "archiveSummary": "公式更新 0 件。Claude Code の auto mode 運用と Desktop 改善要望の signal があり、release は窓内 0 件だった。",
+  "latestSummary": "この 24 時間では <strong>公式 X / official article ともに新規 0 件</strong>だった。一方で <strong>@amorriscode</strong> は <strong>auto mode</strong> を Claude Code 活用の最大の tip として改めて勧め、<strong>@trq212</strong> は <strong>\"please save me money\" prompt</strong> による cost-saving cleanup の実例を共有した。さらに <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> が <strong>minor edits と review</strong> で VS Code を置き換えるために必要な改善点を募った。<strong>Claude Code release</strong> は窓内 0 件だった。",
+  "summaryBullets": [
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件で、<strong>Claude Blog / Anthropic Engineering / Research / News</strong> にも新しい visible publication date の記事は確認できなかった。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>auto mode</strong> を Claude Code 活用の最大の tip と位置付け、<strong>permission prompt を減らして parallel session を回しやすくする</strong>使い方を改めて勧めた。関連 reply では <strong>bypass permissions は危険で auto mode の方が安全</strong>、<strong><code>/usage</code></strong> で skills / plugins / MCP ごとの使用量を見られる、<strong><code>/goal</code> / <code>/loop</code> / <code>/schedule</code></strong> も使えると補足した。",
+    "<strong>Engineer signal</strong>: <strong>@trq212</strong> は <strong>\"please save me money\" prompt</strong> で不要サービス cleanup が進む様子を共有し、reply で <strong>zero review / approval の自動実行ではなく explicit approval は必要だった</strong>と明確化した。Claude Code を cost-saving / ops cleanup に使う具体例として有意な signal。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> が <strong>minor edits と change review</strong> で VS Code を置き換えるには何が必要かを質問した。続くやり取りでは、<strong>diff と plans へのコメント</strong>はすでに可能で、<strong>任意ファイルへの選択ベースのコメント</strong>や review workflow が次の改善候補として浮かんだ。",
+    "<strong>Claude Code release</strong>: GitHub CLI で確認した窓内 release は <strong>0 件</strong>。最新の <code>v2.1.150</code> は <strong>2026-05-23 13:03 JST</strong> 公開で、今回の窓開始 <strong>2026-05-24 03:01 JST</strong> より前だった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Official X 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> を <strong>2026-05-24 03:01:49 JST - 2026-05-25 03:01:49 JST</strong> で確認したが、窓内新規 main post は確認できなかった。reply と repost は主要 official update には数えていない。"
+    },
+    {
+      "label": "Official articles 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-24T21:05:42+09:00",
+      "displayTime": "2026-05-24 21:05 JST",
+      "title": "@amorriscode が auto mode を Claude Code 活用の最大の tip として推奨",
+      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code で最も大きい tip は auto mode を使うこと</strong>だと投稿した。<strong>permission prompt がなくなり</strong>、1 つの session を走らせながら別 session を並行で進める <strong>multi-clauding</strong> の基盤になると説明している。関連 reply では、<strong>bypass permissions は危険になり得る一方、auto mode はより安全な自律化手段</strong>であること、<strong><code>/usage</code></strong> で skills / plugins / MCP ごとの usage breakdown を確認できること、<strong><code>/goal</code> / <code>/loop</code> / <code>/schedule</code></strong> も Claude Code が対応していることを補足した。",
+      "url": "https://x.com/amorriscode/status/2058519809214607704",
+      "urlLabel": "@amorriscode の投稿",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-24T11:42:06+09:00",
+      "displayTime": "2026-05-24 11:42 JST",
+      "title": "@trq212 が cost-saving prompt の実行例を共有",
+      "summary": "<strong>@trq212</strong> は <strong>\"please save me money\" prompt</strong> を流すと実際にコスト削減作業が進むと投稿し、不要サービス cleanup のスクリーンショットを共有した。thread では、これは <strong>old startup の leftover services</strong> を整理していた文脈で、第三者が懸念した <strong>zero review / approval</strong> ではなく <strong>explicit approval が必要だった</strong>と明確化している。Claude Code を運用コスト見直しに使う実例として重要。",
+      "url": "https://x.com/trq212/status/2058377974882210096",
+      "urlLabel": "@trq212 の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-24T11:55:25+09:00",
+      "displayTime": "2026-05-24 11:55 JST",
+      "title": "@amorriscode が Claude Code Desktop の review workflow 改善要求を募集",
+      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code Desktop</strong> が <strong>minor edits と reviewing changes</strong> で VS Code を置き換えるには何が必要かを質問した。reply では、<strong>plans へのコメント</strong>や <strong>diff 上でのフィードバック</strong>はすでにできること、次の改善候補として <strong>任意ファイル上での text selection と comment workflow</strong> が求められていることが見えた。desktop UX の改善優先度を直接集めている signal。",
+      "url": "https://x.com/amorriscode/status/2058381324314902591",
+      "urlLabel": "@amorriscode の投稿"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official X 0件 / official articles 0件",
+      "body": "公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）と公式サイト（Claude Blog / Anthropic Engineering / Research / News）を確認したが、この窓では新規 official update を確認できなかった。確認できた主な動きは、Anthropic 関係者個人アカウントによる <strong>auto mode の実運用 tips</strong>、<strong>cost-saving prompt</strong> の実例共有、<strong>Claude Code Desktop の review workflow 改善要求</strong>だった。",
+      "details": [
+        "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件だった。",
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong> のままだった。",
+        "<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> で、今回の窓に入る新規公開は確認できなかった。",
+        "<strong>@amorriscode</strong> と <strong>@trq212</strong> に、Claude Code の運用 / desktop / workflow に関する個人 signal があった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.150</code> は <strong>2026-05-23 13:03 JST</strong> 公開で、窓開始 <strong>2026-05-24 03:01 JST</strong> より前だったため、今回の完全取得・和訳対象は 0 件。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code --limit 10</code> の最新 entry は <code>v2.1.150</code>（<strong>2026-05-23 13:03 JST</strong>）だった。",
+        "次点は <code>v2.1.149</code>（<strong>2026-05-23 07:09 JST</strong>）で、いずれも窓開始より前だった。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Releases を見る"
+    }
+  ],
+  "exclusions": [
+    "@amorriscode の bug triage reply や /permissions / Desktop / usage に関する細かな補足は、同一テーマの補強情報として主要 signal に統合した。",
+    "@trq212 thread の雑談 reply や Bun rewrite など Claude Code と直接関係しない post は主要 signal から除外した。",
+    "@RobertJBye の <strong>\"Claude Code + Simulator\"</strong> reply は light signal だが、より情報量の多い auto mode / desktop workflow / cost-saving prompt を優先して main summary から外した。",
+    "公式サイトの visible publication date が窓外だった既存記事は zero-state の根拠としてのみ使い、officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で確認したが、窓内 release 0 件のため <strong>新機能 / 変更 / 修正</strong> に分けて和訳する対象はなかった。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.150",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150"
+    },
+    {
+      "title": "Anthony Morris: auto mode tip",
+      "url": "https://x.com/amorriscode/status/2058519809214607704"
+    },
+    {
+      "title": "Anthony Morris: desktop review workflow feedback request",
+      "url": "https://x.com/amorriscode/status/2058381324314902591"
+    },
+    {
+      "title": "Daniel San: Claude Code Desktop windows per session",
+      "url": "https://x.com/dani_avila7/status/2058329630923264356"
+    },
+    {
+      "title": "Thariq: please save me money prompt",
+      "url": "https://x.com/trq212/status/2058377974882210096"
+    },
+    {
+      "title": "Thariq: explicit approval clarification",
+      "url": "https://x.com/trq212/status/2058384270175985746"
+    }
+  ]
+}
