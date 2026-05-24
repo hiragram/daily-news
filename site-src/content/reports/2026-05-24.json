@@ -1,34 +1,44 @@
 {
   "date": "2026-05-24",
-  "windowLabel": "2026-05-23 15:01:50 JST - 2026-05-24 15:01:50 JST",
-  "archiveTitle": "Quiet officials, desktop signals, v2.1.150",
-  "archiveSummary": "公式新着0件、Claude Code Desktopのsignal、Claude Code v2.1.150を反映しました。",
-  "latestSummary": "この 24 時間では <strong>公式 X / official article ともに新規 0 件</strong>だった一方、<strong>Claude Code Desktop</strong> まわりでは <strong>@amorriscode</strong> の改善 reply 群と <strong>@RobertJBye</strong> の <strong>Claude Code + Simulator</strong> 言及が出た。<strong>Claude Code</strong> は窓内で <strong><code>v2.1.150</code></strong> を公開し、release notes の全項目を <strong>新機能 / 変更 / 修正</strong> で整理して和訳した。",
+  "windowLabel": "2026-05-23 21:02:42 JST - 2026-05-24 21:02:42 JST",
+  "archiveTitle": "Quiet officials, desktop feedback, release lull",
+  "archiveSummary": "公式新着 0 件、Claude Code Desktop 改善 feedback と cost-saving prompt の signal、release は窓内 0 件。",
+  "latestSummary": "この 24 時間では <strong>公式 X / official article ともに新規 0 件</strong>だった一方、<strong>@trq212</strong> は <strong>\"please save me money\" prompt</strong> が実際に動く様子を共有し、<strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> が minor edit / review まで置き換えるための要件を募集した。<strong>Claude Code release</strong> は窓内 0 件で、最新の <code>v2.1.150</code> は窓開始前だった。",
   "summaryBullets": [
-    "<strong>Official zero state</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件で、<strong>Claude Blog / Anthropic Engineering / Research / News</strong> も新しい公開日付の記事は確認できなかった。",
-    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> を改めて勧め、<strong>app が minor edit / change review まで VS Code を置き換えるには何が必要か</strong> を尋ねた。別 reply では <strong>collapsible / multiple</strong> にできる改善も示唆した。",
-    "<strong>Engineer signal</strong>: <strong>@RobertJBye</strong> は design tool の問いに対し <strong>\"Claude Code + Simulator\"</strong> と返し、Claude Code を実運用ツールチェーンとして挙げた。",
-    "<strong>Claude Code <code>v2.1.150</code></strong>: <strong>2026-05-23 13:03 JST</strong> に公開。release note は <strong>1 項目</strong>で、<strong>internal infrastructure improvements</strong> のみだった。"
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件で、<strong>Claude Blog / Anthropic Engineering / Research / News</strong> にも新しい visible publication date の記事は確認できなかった。",
+    "<strong>Engineer signal</strong>: <strong>@trq212</strong> は <strong>\"please save me money\" prompt</strong> でコスト削減作業が走る様子を共有し、reply で <strong>zero review / approval ではなく explicit approval は必要だった</strong>と補足した。Claude Code を cost-saving / ops cleanup に実運用している signal。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> について、<strong>minor edits と change review で VS Code を置き換えるには何が必要か</strong> を尋ね、desktop UX の改善余地を直接集め始めた。",
+    "<strong>Engineer signal</strong>: <strong>@RobertJBye</strong> は design tool の問いに対し <strong>\"Claude Code + Simulator\"</strong> と返し、Claude Code を実務ツールチェーンとして挙げた。",
+    "<strong>Claude Code release</strong>: GitHub CLI で確認した窓内 release は <strong>0 件</strong>。最新の <code>v2.1.150</code> は <strong>2026-05-23 13:03 JST</strong> 公開で、この窓の開始 <strong>2026-05-23 21:02 JST</strong> より前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
     {
       "label": "Official X 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> を <strong>2026-05-23 15:01:50 JST - 2026-05-24 15:01:50 JST</strong> で確認したが、窓内新規 main post は確認できなかった。reply と repost は主要 official update には数えていない。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> を <strong>2026-05-23 21:02:42 JST - 2026-05-24 21:02:42 JST</strong> で確認したが、窓内新規 main post は確認できなかった。reply と repost は主要 official update には数えていない。"
     },
     {
       "label": "Official articles 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong> のままで、<strong>Anthropic Engineering</strong> も今回の 24 時間窓に入る新規公開は確認できなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 8, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-05-23T16:59:56+09:00",
-      "displayTime": "2026-05-23 16:59 JST",
-      "title": "@amorriscode が Claude Code Desktop を改めて勧め、app 改善点も募集",
-      "summary": "<strong>@amorriscode</strong> は、terminal 体験への不満に対して <strong>\"have you given Claude Code on desktop a shot?\"</strong> と reply した。さらに別 thread では、<strong>Claude Code Desktop app</strong> が minor edit や change review まで <strong>VS Code を置き換えるには何が必要か</strong> を尋ねており、<strong>collapsible / multiple</strong> にできる改善も reply で示した。Desktop UX を継続的に詰めている signal として確認できる。",
-      "url": "https://x.com/amorriscode/status/2058095571152629901",
+      "datetime": "2026-05-24T11:42:06+09:00",
+      "displayTime": "2026-05-24 11:42 JST",
+      "title": "@trq212 が cost-saving prompt の実行例を共有",
+      "summary": "<strong>@trq212</strong> は <strong>\"every now and then I remember you can run the 'please save me money' prompt and it will actually work\"</strong> と投稿し、不要サービスの cleanup でコスト削減が進む様子を共有した。続く reply では、第三者が懸念した <strong>zero review / approval での自動実行</strong>を否定し、<strong>explicit approval は必要だった</strong>と補足している。Claude Code を実システムの運用コスト見直しに使う具体例として有意な signal。",
+      "url": "https://x.com/trq212/status/2058377974882210096",
+      "urlLabel": "@trq212 の投稿"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-05-24T11:55:25+09:00",
+      "displayTime": "2026-05-24 11:55 JST",
+      "title": "@amorriscode が Claude Code Desktop の改善要求を募集",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code Desktop が session ごとに新しい window を開く構成を紹介した外部 post への reply で、<strong>minor edits と change review で VS Code を置き換えるには app に何が必要か</strong> を質問した。desktop app を terminal 代替へ押し広げるため、具体的な UX / review workflow の改善点を集め始めた signal として確認できる。",
+      "url": "https://x.com/amorriscode/status/2058381324314902591",
       "urlLabel": "@amorriscode の投稿"
     },
     {
@@ -36,7 +46,7 @@
       "datetime": "2026-05-24T07:06:43+09:00",
       "displayTime": "2026-05-24 07:06 JST",
       "title": "@RobertJBye が design tool の問いに「Claude Code + Simulator」と回答",
-      "summary": "<strong>@RobertJBye</strong> は、2026 年時点の go-to design tool を尋ねる post に対し、短く <strong>\"Claude Code + Simulator\"</strong> と reply した。詳説ではないが、Claude Code を日常的な product / UI 制作フローの中核ツールとして扱っている signal として確認できる。",
+      "summary": "<strong>@RobertJBye</strong> は、2026 年時点の go-to design tool を尋ねる post に対し、短く <strong>\"Claude Code + Simulator\"</strong> と reply した。詳しい設計論ではないが、Claude Code を日常の product / UI 制作フローの中核ツールとして扱っている signal として残す価値がある。",
       "url": "https://x.com/RobertJBye/status/2058308669968920950",
       "urlLabel": "@RobertJBye の投稿"
     }
@@ -45,46 +55,33 @@
     {
       "title": "ブログ",
       "headline": "Official X 0件 / official articles 0件",
-      "body": "公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）と公式サイト（Claude Blog / Anthropic Engineering / Research / News）を確認したが、この窓では新規 official update を確認できなかった。確認できた動きは、Anthropic 関係者個人アカウントによる <strong>Claude Code Desktop</strong> まわりの改善示唆と、<strong>Claude Code + Simulator</strong> という実務ツール利用 signal だった。",
+      "body": "公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）と公式サイト（Claude Blog / Anthropic Engineering / Research / News）を確認したが、この窓では新規 official update を確認できなかった。確認できた主な動きは、Anthropic 関係者個人アカウントによる <strong>Claude Code Desktop</strong> 改善要求の収集、<strong>cost-saving prompt</strong> の実運用例、<strong>Claude Code + Simulator</strong> という実務ツール利用 signal だった。",
       "details": [
         "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件だった。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong> のままだった。",
-        "<strong>Anthropic Engineering</strong> でも、今回の窓に入る新規公開は確認できなかった。",
-        "<strong>@amorriscode</strong> は desktop app の継続改善を示唆し、<strong>@RobertJBye</strong> は <strong>Claude Code + Simulator</strong> を実務ツールとして挙げた。"
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong> のままだった。",
+        "<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 8, 2026</strong> で、今回の窓に入る新規公開は確認できなかった。",
+        "<strong>@trq212</strong>、<strong>@amorriscode</strong>、<strong>@RobertJBye</strong> に Claude Code の運用 / desktop / workflow に関する個人 signal があった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "公式サイトを確認"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.150",
-      "body": "GitHub CLI で確認したところ、この窓内に入る Claude Code release は <code>v2.1.150</code>（<strong>2026-05-23 13:03 JST</strong>）の 1 本だった。release notes の <code>What's changed</code> を <strong>完全取得</strong>し、見えている bullet を <strong>新機能 / 変更 / 修正</strong> に分けて <strong>全項目和訳</strong>した。",
-      "releases": [
-        {
-          "version": "v2.1.150",
-          "publishedAt": "2026-05-23 13:03 JST",
-          "summary": "<code>What's changed</code> は 1 項目で、<strong>新機能 0 / 変更 1 / 修正 0</strong>。<strong>internal infrastructure improvements</strong> のみで、release note 上は <strong>user-facing changes なし</strong>と明記されていた。",
-          "sections": [
-            {
-              "title": "変更",
-              "items": [
-                "<strong>internal infrastructure improvements</strong> を行った。release note 上では <strong>user-facing changes はない</strong>とされている。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
-          "urlLabel": "v2.1.150 release notes"
-        }
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に公開された Claude Code release はなかった。最新の <code>v2.1.150</code> は <strong>2026-05-23 13:03 JST</strong> 公開で窓開始 <strong>2026-05-23 21:02 JST</strong> より前だったため、今回の和訳対象は 0 件。",
+      "details": [
+        "<code>gh release list -R anthropics/claude-code --limit 10</code> の最新 entry は <code>v2.1.150</code>（<strong>2026-05-23 13:03 JST</strong>）だった。",
+        "次点は <code>v2.1.149</code>（<strong>2026-05-23 07:09 JST</strong>）で、いずれも窓開始より前だった。",
+        "Draft / prerelease の窓内公開も確認できなかった。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "Claude Code Releases"
+      "urlLabel": "Releases を見る"
     }
   ],
   "exclusions": [
-    "@amorriscode の desktop 関連 reply は、同じ改善テーマの補足として 1 件の signal に統合した。",
-    "@RobertJBye の <strong>\"Claude Code + Simulator\"</strong> reply は短文だが、Claude Code の実務ツール利用を直接示すため残し、それ以外の一般雑談 reply は除外した。",
-    "監視対象エンジニアの repost、Claude / Anthropic の主要更新と直接結び付かない一般雑談、他社製品中心のやり取りは主要 signal から除外した。",
-    "Claude Code の release notes は GitHub Releases から <strong>v2.1.150</strong> を完全取得し、見えている bullet をすべて和訳して分類した。"
+    "@trq212 の thread に付いた一般雑談 reply や old startup 文脈の補足、@amorriscode / @RobertJBye の Claude と直接関係ない短文 reply は主要 signal から除外した。",
+    "公式サイトの visible publication date が窓外だった既存記事は zero-state の根拠としてのみ使い、officialNews には追加していない。",
+    "Claude Code release notes は GitHub CLI で完全確認したが、窓内 0 件のため全項目和訳対象はなかった。"
   ],
   "sources": [
     {
@@ -104,7 +101,7 @@
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Claude Code Releases",
+      "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
@@ -112,19 +109,23 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150"
     },
     {
-      "title": "@amorriscode: Claude Code Desktop on desktop",
-      "url": "https://x.com/amorriscode/status/2058095571152629901"
+      "title": "Thariq: please save me money prompt",
+      "url": "https://x.com/trq212/status/2058377974882210096"
     },
     {
-      "title": "@amorriscode: app feedback for minor edits and review",
+      "title": "Thariq: explicit approval clarification",
+      "url": "https://x.com/trq212/status/2058384270175985746"
+    },
+    {
+      "title": "Anthony Morris: desktop app feedback request",
       "url": "https://x.com/amorriscode/status/2058381324314902591"
     },
     {
-      "title": "@amorriscode: collapsible and multiple",
-      "url": "https://x.com/amorriscode/status/2058215027472269431"
+      "title": "Daniel San: Claude Code Desktop windows per session",
+      "url": "https://x.com/dani_avila7/status/2058329630923264356"
     },
     {
-      "title": "@RobertJBye: Claude Code + Simulator",
+      "title": "Robert Bye: Claude Code + Simulator",
       "url": "https://x.com/RobertJBye/status/2058308669968920950"
     }
   ]
