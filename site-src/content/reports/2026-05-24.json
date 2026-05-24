@@ -1,12 +1,12 @@
 {
   "date": "2026-05-24",
-  "windowLabel": "2026-05-23 09:02:30 JST - 2026-05-24 09:02:30 JST",
+  "windowLabel": "2026-05-23 15:01:50 JST - 2026-05-24 15:01:50 JST",
   "archiveTitle": "Quiet officials, desktop signals, v2.1.150",
   "archiveSummary": "公式新着0件、Claude Code Desktopのsignal、Claude Code v2.1.150を反映しました。",
-  "latestSummary": "この 24 時間では <strong>公式 X / official article ともに新規 0 件</strong>だった一方、<strong>Claude Code Desktop</strong> まわりでは <strong>@amorriscode</strong> の改善示唆と <strong>@RobertJBye</strong> の <strong>Claude Code + Simulator</strong> 言及が出た。<strong>Claude Code</strong> は窓内で <strong><code>v2.1.150</code></strong> を公開し、release notes の全項目を和訳した。",
+  "latestSummary": "この 24 時間では <strong>公式 X / official article ともに新規 0 件</strong>だった一方、<strong>Claude Code Desktop</strong> まわりでは <strong>@amorriscode</strong> の改善 reply 群と <strong>@RobertJBye</strong> の <strong>Claude Code + Simulator</strong> 言及が出た。<strong>Claude Code</strong> は窓内で <strong><code>v2.1.150</code></strong> を公開し、release notes の全項目を <strong>新機能 / 変更 / 修正</strong> で整理して和訳した。",
   "summaryBullets": [
-    "<strong>Official zero state</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規投稿は確認できず、<strong>Claude Blog / Anthropic Engineering / Research / News</strong> も新しい日付の公開はなかった。",
-    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> の利用を促しつつ、thread reply で <strong>in-app changelog を soon</strong> と予告し、別 reply で <strong>pop-out 範囲の修正</strong> も示唆した。",
+    "<strong>Official zero state</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件で、<strong>Claude Blog / Anthropic Engineering / Research / News</strong> も新しい公開日付の記事は確認できなかった。",
+    "<strong>Engineer signal</strong>: <strong>@amorriscode</strong> は <strong>Claude Code Desktop</strong> を改めて勧め、<strong>app が minor edit / change review まで VS Code を置き換えるには何が必要か</strong> を尋ねた。別 reply では <strong>collapsible / multiple</strong> にできる改善も示唆した。",
     "<strong>Engineer signal</strong>: <strong>@RobertJBye</strong> は design tool の問いに対し <strong>\"Claude Code + Simulator\"</strong> と返し、Claude Code を実運用ツールチェーンとして挙げた。",
     "<strong>Claude Code <code>v2.1.150</code></strong>: <strong>2026-05-23 13:03 JST</strong> に公開。release note は <strong>1 項目</strong>で、<strong>internal infrastructure improvements</strong> のみだった。"
   ],
@@ -14,11 +14,11 @@
   "officialZeroStates": [
     {
       "label": "Official X 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> を <strong>2026-05-23 09:02:30 JST - 2026-05-24 09:02:30 JST</strong> で確認したが、窓内新規投稿は確認できなかった。前回 issue で扱った投稿はこの窓の開始より前だった。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> を <strong>2026-05-23 15:01:50 JST - 2026-05-24 15:01:50 JST</strong> で確認したが、窓内新規 main post は確認できなかった。reply と repost は主要 official update には数えていない。"
     },
     {
       "label": "Official articles 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 22, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date も <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> のままで、今回の 24 時間窓に入る新規公開は確認できなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong> のままで、<strong>Anthropic Engineering</strong> も今回の 24 時間窓に入る新規公開は確認できなかった。"
     }
   ],
   "signals": [
@@ -26,8 +26,8 @@
       "label": "Engineer X",
       "datetime": "2026-05-23T16:59:56+09:00",
       "displayTime": "2026-05-23 16:59 JST",
-      "title": "@amorriscode が Claude Code Desktop を改めて勧め、in-app changelog 追加も予告",
-      "summary": "<strong>@amorriscode</strong> は、terminal 体験への不満に対して <strong>\"have you given Claude Code on desktop a shot?\"</strong> と reply し、同じ desktop 改善 thread では <strong>in-app changelog を soon</strong> と案内した。別 reply では、chat panel 以外も pop out したいという要望に対し <strong>\"yeah will fix this soon\"</strong> と返しており、Desktop UI の継続改善 signal と読める。",
+      "title": "@amorriscode が Claude Code Desktop を改めて勧め、app 改善点も募集",
+      "summary": "<strong>@amorriscode</strong> は、terminal 体験への不満に対して <strong>\"have you given Claude Code on desktop a shot?\"</strong> と reply した。さらに別 thread では、<strong>Claude Code Desktop app</strong> が minor edit や change review まで <strong>VS Code を置き換えるには何が必要か</strong> を尋ねており、<strong>collapsible / multiple</strong> にできる改善も reply で示した。Desktop UX を継続的に詰めている signal として確認できる。",
       "url": "https://x.com/amorriscode/status/2058095571152629901",
       "urlLabel": "@amorriscode の投稿"
     },
@@ -45,11 +45,11 @@
     {
       "title": "ブログ",
       "headline": "Official X 0件 / official articles 0件",
-      "body": "公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）と公式サイト（Claude Blog / Anthropic Engineering / Research / News）を確認したが、この窓では新規 official update を確認できなかった。確認できた動きは、Anthropic 関係者個人アカウントによる <strong>Claude Code Desktop</strong> まわりの補足と、<strong>Claude Code + Simulator</strong> という実務ツール利用 signal だった。",
+      "body": "公式 X（@AnthropicAI / @claudeai / @ClaudeDevs）と公式サイト（Claude Blog / Anthropic Engineering / Research / News）を確認したが、この窓では新規 official update を確認できなかった。確認できた動きは、Anthropic 関係者個人アカウントによる <strong>Claude Code Desktop</strong> まわりの改善示唆と、<strong>Claude Code + Simulator</strong> という実務ツール利用 signal だった。",
       "details": [
-        "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規投稿は 0 件だった。",
-        "<strong>Claude Blog</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> の最新 visible date はいずれも <strong>May 22, 2026</strong> のままだった。",
-        "<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 8, 2026</strong> のままで、窓内新規公開は確認できなかった。",
+        "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の窓内新規 main post は 0 件だった。",
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 22, 2026</strong> のままだった。",
+        "<strong>Anthropic Engineering</strong> でも、今回の窓に入る新規公開は確認できなかった。",
         "<strong>@amorriscode</strong> は desktop app の継続改善を示唆し、<strong>@RobertJBye</strong> は <strong>Claude Code + Simulator</strong> を実務ツールとして挙げた。"
       ],
       "url": "https://claude.com/blog",
@@ -116,12 +116,12 @@
       "url": "https://x.com/amorriscode/status/2058095571152629901"
     },
     {
-      "title": "@amorriscode: in-app changelog soon",
-      "url": "https://x.com/amorriscode/status/2058062381490823423"
+      "title": "@amorriscode: app feedback for minor edits and review",
+      "url": "https://x.com/amorriscode/status/2058381324314902591"
     },
     {
-      "title": "@amorriscode: pop-out request will be fixed",
-      "url": "https://x.com/amorriscode/status/2058062455214150054"
+      "title": "@amorriscode: collapsible and multiple",
+      "url": "https://x.com/amorriscode/status/2058215027472269431"
     },
     {
       "title": "@RobertJBye: Claude Code + Simulator",
