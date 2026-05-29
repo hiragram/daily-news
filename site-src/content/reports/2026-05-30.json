@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-30",
+  "windowLabel": "2026-05-29 03:02:24 JST - 2026-05-30 03:02:24 JST",
+  "archiveTitle": "Claude Code hotfix, quiet blogs",
+  "archiveSummary": "公式記事 0 件、X 監視は degraded、Claude Code は v2.1.156 hotfix 1 件。",
+  "latestSummary": "この 24 時間では <strong>Anthropic / Claude の公式記事は新規 0 件</strong>で、<strong>X 監視は spend cap 到達で degraded</strong> している。確定できた主な更新は <strong>Claude Code v2.1.156</strong> のみで、<strong>Opus 4.8 使用時に thinking block が改変され API error になる問題</strong> を修正した。直前の <strong>v2.1.154</strong> は <strong>2026-05-29 03:00 JST</strong> 公開で、今回の窓開始より約 90 秒前だった。",
+  "summaryBullets": [
+    "<strong>Official zero state</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> を確認したが、この 24 時間窓に入る新しい visible publication date の記事は確認できなかった。",
+    "<strong>X watch degraded</strong>: <strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> と Anthropic 関連 engineer 監視は、<strong>x_mcp</strong> の <strong>SpendCapReached</strong> により recent search が blocked され、reset date は <strong>2026-06-15</strong> と返った。",
+    "<strong>Claude Code release</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.156</strong> の 1 件で、公開時刻は <strong>2026-05-29 10:42 JST</strong>。内容は <strong>Opus 4.8 利用時の API error 修正</strong> の hotfix だった。",
+    "<strong>Boundary call</strong>: 直前の <strong>v2.1.154</strong> は <strong>2026-05-29 03:00:55 JST</strong> 公開で、今回の窓開始 <strong>2026-05-29 03:02:24 JST</strong> より前だったため、完全取得・和訳対象から外した。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Official X coverage degraded",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の 24 時間取得は <strong>x_mcp</strong> の <strong>SpendCapReached</strong> で blocked され、API は <strong>2026-06-15</strong> まで再開しないと返した。今回の official 判定は公式サイトの visible publication date を source of truth にしている。"
+    },
+    {
+      "label": "Engineer X coverage degraded",
+      "body": "Anthropic 関連 engineer / researcher 監視も同じく <strong>x_mcp</strong> の spend cap 到達で recent search が使えず、窓内の安定した signal 判定ができなかったため <strong>signals</strong> は空配列にしている。"
+    },
+    {
+      "label": "Official articles 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official articles 0件 / X degraded",
+      "body": "公式サイトではこの窓に入る新規 article を確認できなかった。<strong>X watch</strong> は API の spend cap 到達で degraded しているため、今回のサイト反映は一次ソースの official page と GitHub release metadata を優先して構成している。",
+      "details": [
+        "<strong>Claude Blog</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>May 28, 2026</strong> だった。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> の最新 dated article は <strong>Apr 23, 2026</strong> だった。",
+        "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> および Anthropic engineer watch は、<strong>x_mcp</strong> の <strong>SpendCapReached</strong> により recent search が blocked された。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.156</strong> の 1 件だった。これは <strong>Opus 4.8</strong> 使用時に <strong>thinking block</strong> が改変され、<strong>API error</strong> を引き起こしていた問題を修正する hotfix。直前の <strong>v2.1.154</strong> は <strong>2026-05-29 03:00:55 JST</strong> で、今回の窓開始より前だった。",
+      "releases": [
+        {
+          "version": "v2.1.156",
+          "publishedAt": "2026-05-29 10:42 JST",
+          "summary": "Opus 4.8 利用時に thinking block が改変され API error になる不具合を修正した hotfix。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "Opus 4.8 使用時に thinking block が改変され、API error を引き起こしていた問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
+          "urlLabel": "v2.1.156 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "Anthropic / Claude の公式 X と engineer X は watch 対象として確認を試みたが、<strong>x_mcp</strong> の spend cap 到達で exact recent search ができず、安定した 24 時間内判定ができない X 投稿は main story から除外した。",
+    "signals は engineer watch が degraded のため空配列とし、今回の main story は公式サイトの visible publication date と GitHub release metadata のみで構成した。",
+    "Claude Code <strong>v2.1.154</strong> は <strong>2026-05-29 03:00:55 JST</strong> 公開で、今回の窓開始 <strong>2026-05-29 03:02:24 JST</strong> より前だったため、完全取得・和訳対象から除外した。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.156</strong> の全 bullet を <strong>新機能 / 変更 / 修正</strong> の分類に沿って和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.156",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156"
+    },
+    {
+      "title": "Claude Code v2.1.154",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154"
+    }
+  ]
+}
