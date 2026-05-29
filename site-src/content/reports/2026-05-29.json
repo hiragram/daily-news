@@ -1,0 +1,211 @@
+{
+  "date": "2026-05-29",
+  "windowLabel": "2026-05-28 15:57:42 JST - 2026-05-29 15:57:42 JST",
+  "archiveTitle": "Opus 4.8, Series H, rapid releases",
+  "archiveSummary": "Opus 4.8 と Series H を公式発表。Claude Code は v2.1.156 / v2.1.154 を公開、X 監視は一部 degraded。",
+  "latestSummary": "この 24 時間では <strong>Anthropic News に 2 件の公式発表</strong>があり、<strong>Claude Opus 4.8</strong> と <strong>Series H の $65B 調達</strong>が公開された。加えて <strong>Claude Code</strong> は <strong>v2.1.156</strong> と <strong>v2.1.154</strong> を公開し、Opus 4.8 対応、dynamic workflows、auto mode 周辺の改善と多数の修正をまとめて出した。<strong>X API は spend cap 到達で一部監視が degraded</strong> しており、今回の official news は一次ソースの article / release metadata を優先して構成している。",
+  "summaryBullets": [
+    "<strong>Official news</strong>: <strong>Anthropic News</strong> に <strong>May 28, 2026</strong> 公開の記事が 2 件あり、<strong>Claude Opus 4.8</strong> と <strong>Series H の $65B 調達・$965B valuation</strong> が発表された。",
+    "<strong>Claude Code releases</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.156</strong>（<strong>2026-05-29 10:42 JST</strong>）と <strong>v2.1.154</strong>（<strong>2026-05-29 03:00 JST</strong>）の 2 件だった。",
+    "<strong>Release highlights</strong>: <strong>v2.1.154</strong> は <strong>Opus 4.8</strong>、<strong>dynamic workflows</strong>、<strong>Opus 4.8 fast mode の低価格化</strong>、<strong>background agents / plugins / Chrome / MCP</strong> まわりの変更をまとめて投入し、加えて auto mode・background session・worktree・UI・VS Code 連携などへ多数の修正を入れた。",
+    "<strong>Hotfix</strong>: <strong>v2.1.156</strong> は <strong>Opus 4.8 使用時に thinking block が改変され API error になる問題</strong> を修正した。",
+    "<strong>X watch degraded</strong>: <strong>x_mcp</strong> の recent search は <strong>SpendCapReached</strong> でブロックされ、reset date は <strong>2026-06-15</strong> と返った。公開プロフィール snapshot は補助確認に使えたが、安定した timestamp / canonical status URL が取れない投稿は JSON 本体の確定ニュースには載せていない。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official article",
+      "datetime": "2026-05-28T00:00:00+09:00",
+      "displayTime": "2026-05-28 JST",
+      "title": "Anthropic が Claude Opus 4.8 を公開",
+      "summary": "<strong>Anthropic News</strong> の <strong>May 28, 2026</strong> 公開記事。<strong>Claude Opus 4.8</strong> は Opus 4.7 をベースに、<strong>判断の鋭さ</strong>、<strong>自分の進捗に対する正直さ</strong>、<strong>長時間の自律作業</strong> を改善したとしている。記事内では同時公開の周辺機能として、<strong>Claude Code の dynamic workflows</strong>、<strong>claude.ai の effort control</strong>、<strong>Opus 4.8 fast mode の価格改定</strong> も案内された。時刻は記事ページの visible publication date ベース。",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "urlLabel": "Anthropic News を開く",
+      "primary": true
+    },
+    {
+      "label": "Official article",
+      "datetime": "2026-05-28T00:00:00+09:00",
+      "displayTime": "2026-05-28 JST",
+      "title": "Anthropic が Series H で $65B 調達、評価額は $965B",
+      "summary": "<strong>Anthropic News</strong> の <strong>May 28, 2026</strong> 公開記事。<strong>$65 billion</strong> の Series H 調達を発表し、<strong>post-money valuation は $965 billion</strong>。本文では、<strong>run-rate revenue が今月 $47B を超えた</strong>こと、資金の用途を <strong>safety / interpretability research の前進</strong>、<strong>Claude 需要に応じる compute 拡張</strong>、<strong>顧客向け製品と提携の拡大</strong> と説明している。時刻は記事ページの visible publication date ベース。",
+      "url": "https://www.anthropic.com/news/series-h",
+      "urlLabel": "Anthropic News を開く"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Official X coverage degraded",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@claudeai</strong>、<strong>@ClaudeDevs</strong> の 24 時間取得は <strong>x_mcp</strong> の <strong>SpendCapReached</strong> でブロックされ、API は <strong>2026-06-15</strong> まで blocked と返した。公開プロフィール snapshot は補助確認したが、<strong>@AnthropicAI</strong> / <strong>@claudeai</strong> の recent post は安定した timestamp と canonical status URL を取得できなかったため、今回の officialNews は記事ページを source of truth として構成した。"
+    },
+    {
+      "label": "ClaudeDevs 0件",
+      "body": "公開プロフィール snapshot では <strong>@ClaudeDevs hasn’t posted</strong> と表示され、窓内に扱うべき developer-account の新規公式 post は確認できなかった。"
+    },
+    {
+      "label": "No new Engineering / Research / Claude Blog posts",
+      "body": "<strong>Anthropic Engineering</strong> の最新 dated article は <strong>May 25, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date は <strong>May 26, 2026</strong>、<strong>Anthropic Research</strong> は今回の 24 時間窓に入る visible publication date の新規記事を確認できなかった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official articles 2件 / Official X degraded",
+      "body": "この窓の確定 official update は、<strong>Anthropic News</strong> に掲載された <strong>Claude Opus 4.8</strong> と <strong>Series H 調達</strong> の 2 本だった。<strong>X watch</strong> は API の spend cap 到達で degraded しており、公開プロフィール snapshot だけでは十分な timestamp / canonical URL を確保できない投稿があったため、今回のサイト反映は一次ソースの article page を優先した。",
+      "details": [
+        "<strong>Introducing Claude Opus 4.8</strong> は <strong>May 28, 2026</strong> 公開で、モデル改善に加えて <strong>dynamic workflows</strong>、<strong>effort control</strong>、<strong>fast mode pricing</strong> もまとめて案内した。",
+        "<strong>Anthropic raises $65B in Series H funding at $965B post-money valuation</strong> は <strong>May 28, 2026</strong> 公開で、<strong>run-rate revenue $47B</strong>、研究・compute・製品拡大への投資方針を記した。",
+        "<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> には今回の窓に入る visible publication date の新規記事は確認できなかった。",
+        "<strong>x_mcp</strong> の official / engineer watch は <strong>SpendCapReached</strong> で recent search に失敗したため、X 由来の軽微な signal は main story から除外した。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News を見る"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.156</strong> と <strong>v2.1.154</strong> の 2 件だった。<strong>v2.1.154</strong> は Opus 4.8、dynamic workflows、fast mode pricing、background agents、plugin discovery、Chrome 選択、MCP 表示改善などをまとめて投入し、<strong>v2.1.156</strong> は Opus 4.8 の thinking block 改変による API error を hotfix した。",
+      "releases": [
+        {
+          "version": "v2.1.156",
+          "publishedAt": "2026-05-29 10:42 JST",
+          "summary": "Opus 4.8 利用時に thinking block が改変され API error になる不具合を修正した hotfix。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "Opus 4.8 使用時に thinking block が改変され、API error を引き起こしていた問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
+          "urlLabel": "v2.1.156 release notes"
+        },
+        {
+          "version": "v2.1.154",
+          "publishedAt": "2026-05-29 03:00 JST",
+          "summary": "Opus 4.8 対応、dynamic workflows、fast mode pricing 改定、plugin / MCP / background agent 周辺の拡張と多数の修正を含む大規模アップデート。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Opus 4.8 が追加され、最難関タスク向けに high effort がデフォルト化され、必要に応じて <code>/effort xhigh</code> を使えるようになった。",
+                "dynamic workflows を導入し、Claude に workflow 作成を依頼すると、バックグラウンドで数十〜数百の agent を束ねて大規模で複雑な作業を進められるようになった。実行状況は <code>/workflows</code> で確認できる。",
+                "Opus 4.8 の fast mode が、従来より大幅に安い価格で利用可能になり、標準料金の 2 倍で 2.5 倍の速度を出せるようになった。",
+                "<code>claude agents</code> で <code>! &lt;command&gt;</code> を入力すると、アタッチ / デタッチ可能なバックグラウンド session として shell command を実行できるようになった。<code>claude --bg --exec '&lt;command&gt;'</code> でも利用可能。",
+                "Claude in Chrome で <code>/chrome</code> → <strong>Select browser…</strong>、または複数 browser 接続時の chat 内選択によって、接続先 browser を選べるようになった。",
+                "plugin が <code>plugin.json</code> または marketplace entry で <code>defaultEnabled: false</code> を宣言できるようになり、<code>/plugin</code> または <code>claude plugin enable</code> で明示的に有効化できるようになった。",
+                "<code>/claude-api</code> skill に Claude Opus 4.8 のサポートと 4.7 から 4.8 への移行ガイダンスが追加された。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "lean system prompt が、Haiku・Sonnet・Opus 4.7 以前を除く全モデルでデフォルトになった。",
+                "Claude が multiple-choice question prompt を、本当に自分で判断できない場合にだけ使い、十分な文脈があるときは自律的に進めるようになった。",
+                "<code>/simplify</code> はフルの <code>/code-review --fix</code> ではなく、再利用・単純化・効率・抽象度に絞った cleanup-only review を実行し、その修正を適用する挙動に変わった。",
+                "<code>/effort</code> スライダーのラベルが、分かりやすさのため <strong>Speed</strong>/<strong>Intelligence</strong> から <strong>Faster</strong>/<strong>Smarter</strong> に改名された。",
+                "<code>claude agents</code> で <code>/logout</code> を実行すると、バックグラウンド session に送るのではなく、ログアウトする動作に変わった。",
+                "agent view を開く <code>←←</code> が Bedrock、Vertex、Foundry、telemetry 無効時でも動作するようになった。",
+                "streaming tool execution が、telemetry 無効時や Bedrock / Vertex / Foundry でも常時有効になり、feature flag 不要になった。",
+                "stdio MCP server の subprocess に <code>CLAUDE_CODE_SESSION_ID</code> と <code>CLAUDECODE=1</code> が環境変数として渡されるようになった。",
+                "<code>claude mcp list</code> / <code>get</code> が、未承認の <code>.mcp.json</code> server を自動承認せず、<strong>⏸ Pending approval</strong> と表示するようになった。",
+                "<code>/remote-control</code> の autocomplete が、Remote Control 接続中には <strong>Disconnect Remote Control</strong> を表示するようになった。",
+                "<code>CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE</code> は deprecated となり、<strong>2026-06-01</strong> に削除予定になった。Opus 4.6 の fast mode は <code>/model claude-opus-4-6[1m]</code> の後に <code>/fast on</code> を使う案内へ変わった。",
+                "auto mode classifier の data exfiltration 検知、特に repository contents の bulk transfer に対する検知能力が改善された。",
+                "ショートカット help panel から古い <strong>&amp; for background</strong> ヒントが削除された。",
+                "[VSCode] auto mode は mode picker に表示するために bypass-permissions 設定を要求しなくなり、新 session 画面では初回有効時に dismissable notice を表示するようになった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>HOME</code> に末尾スラッシュがあるとき、<code>rm -rf $HOME</code> が危険パスとして block されない問題を修正。",
+                "同一 session 内で、sandboxed / unsandboxed の Bash command で <code>$TMPDIR</code> が異なる directory に解決されていた問題を修正。",
+                "Claude Code theme と terminal background が合わないとき、<code>claude agents</code> の highlight 行テキストが読みにくくなる問題を修正。",
+                "background-agent completion notification が、一部の 1M context model で premature な <strong>out of context</strong> 挙動を引き起こす問題を修正。",
+                "scheduled <code>/command</code> 発火時に、background-session classifier が user goal を失う問題を修正。",
+                "Claude Code update 後に pinned background session が毎分 respawn し、agent-start notification の連発と idle 時の process churn を起こす問題を修正。",
+                "<strong>blocked</strong> / <strong>running</strong> / <strong>working</strong> のまま残った background session が、idle grace period 後に retire されない問題を修正。",
+                "background session の subagent が worktree isolation guard を迂回し、shared checkout に書き込めてしまう問題を修正。",
+                "daemon 終了後に孤立した <code>claude --bg-pty-host</code> process が macOS で 100% CPU を消費し続ける問題を修正。",
+                "option dialog の divider より下に表示された option で、number key shortcut が効かない問題を修正。",
+                "subagent 起動や linked worktree 内からの <code>EnterWorktree</code> 実行時に、<code>worktree.baseRef: \"head\"</code> が current worktree ではなく main checkout の HEAD に解決される問題を修正。",
+                "前行が terminal 幅ぴったりで終わったとき、折り返し行の先頭に不要な空白が入る問題を修正。",
+                "thinking spinner の色数を抑えることで、VS Code 上で断続的に terminal rendering が壊れる問題を修正。",
+                "plan-mode prompt が貼り付け画像やテキストで始まると、plan file 名に <code>[Image #N]</code> や <code>[Pasted text #N]</code> が混入する問題を修正。",
+                "短い ANSI 色付き行にも <strong>ctrl+o to expand</strong> ヒントが出る phantom expand/click affordance を修正。",
+                "managed settings 内の不正な <code>allowedMcpServers</code> / <code>deniedMcpServers</code> entry が 1 件あるだけで、managed-settings policy 全体が破棄される問題を修正し、不正 entry は <code>claude doctor</code> warning 付きで drop するようにした。",
+                "<code>CLAUDE_CODE_ALWAYS_ENABLE_EFFORT</code> が設定されているとき、effort parameter 非対応 model で API 400 error が出る問題を修正。",
+                "Windows で <code>claude.exe</code> 使用中の update failure が generic error になり、他 session を閉じて再試行すべきだと伝わらない問題を修正。",
+                "workflow だけが走っているときでも、prompt 下の task panel に不要で選択不能な <strong>main</strong> 行が出る問題を修正。",
+                "MCP server の tool 名や説明が長い / 複数行のとき、<code>/mcp tools list</code> と tool detail の表示が崩れる問題を修正。",
+                "API の従量課金 user で fast mode 有効時、<code>/model</code> picker の Default option に fast mode pricing が表示されない問題を修正。",
+                "safety classifier が reasoning 中に output token を使い切ったとき、auto mode が <strong>could not evaluate this action</strong> で誤って action を block する問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
+          "urlLabel": "v2.1.154 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "Anthropic / Claude の公式 X と engineer X は watch 対象として確認を試みたが、<strong>x_mcp</strong> の spend cap 到達で exact recent search ができず、公開 snapshot から timestamp を安定取得できない投稿は main story から除外した。",
+    "公開プロフィール snapshot で拾えた X 投稿テキストのうち、安定した 24 時間内判定ができないものは source list に残しても officialNews / signals には昇格させていない。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 2 release の bullet をすべて <strong>新機能 / 変更 / 修正</strong> に分類して和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.156",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156"
+    },
+    {
+      "title": "Claude Code v2.1.154",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154"
+    },
+    {
+      "title": "AnthropicAI profile",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI profile",
+      "url": "https://x.com/claudeai"
+    },
+    {
+      "title": "ClaudeDevs profile",
+      "url": "https://x.com/ClaudeDevs"
+    }
+  ]
+}
