@@ -1,0 +1,200 @@
+{
+  "date": "2026-05-31",
+  "windowLabel": "2026-05-30 03:01:27 JST - 2026-05-31 03:01:27 JST",
+  "archiveTitle": "ClaudeDevs post, dictation, v2.1.158",
+  "archiveSummary": "ClaudeDevs の公式 X 1 件、engineer signal 2 件、Claude Code は v2.1.158 / v2.1.157。",
+  "latestSummary": "この 24 時間では <strong>公式ブログ記事は新規 0 件</strong>だった一方、<strong>ClaudeDevs</strong> が <strong>Opus 4.8 の mid-conversation system instructions と auto-caching</strong> を案内した。engineer 側では <strong>Claude アプリの dictation 改善</strong> と <strong>Claude が既存 session 検索や task spawn を行える旨の補足</strong> があり、<strong>Claude Code</strong> は <strong>v2.1.158</strong> と <strong>v2.1.157</strong> を公開した。",
+  "summaryBullets": [
+    "<strong>Official X</strong>: <strong>@ClaudeDevs</strong> が <strong>2026-05-30 03:46 JST</strong> に、<strong>Opus 4.8</strong> で会話途中に system instructions を追加しても prompt cache を壊さないことを案内した。",
+    "<strong>Official articles 0件</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> を確認したが、この 24 時間窓に入る新しい visible publication date の記事は確認できなかった。",
+    "<strong>Engineer signals</strong>: <strong>Robert Bye</strong> は Claude アプリの <strong>long press to send</strong> による dictation 改善を紹介し、<strong>Anthony Morris</strong> は Claude が既に <strong>new tasks の spawn</strong> と <strong>existing sessions の検索</strong> を行えると補足した。",
+    "<strong>Claude Code releases</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.158</strong>（<strong>2026-05-30 11:42 JST</strong>）と <strong>v2.1.157</strong>（<strong>2026-05-30 05:20 JST</strong>）の 2 件だった。",
+    "<strong>Release highlights</strong>: <strong>v2.1.158</strong> は <strong>Auto mode</strong> を <strong>Bedrock / Vertex / Foundry 上の Opus 4.7 / 4.8</strong> に広げ、<strong>v2.1.157</strong> は <strong>plugin 自動読込</strong>、<strong>agent / worktree / telemetry</strong> 改善、<strong>長い会話の性能改善</strong>、多数の <strong>UI / IDE / terminal 修正</strong> を含んだ。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-05-30T03:46:48+09:00",
+      "displayTime": "2026-05-30 03:46 JST",
+      "title": "ClaudeDevs が Opus 4.8 の mid-conversation system instructions と auto-caching を案内",
+      "summary": "<strong>@ClaudeDevs</strong> の thread 冒頭投稿。<strong>Opus 4.8</strong> では会話の途中で <strong>system instructions</strong> を追加しても <strong>prompt cache</strong> を壊さず、より多くの cache hit によって <strong>API request のコストとレイテンシ</strong> を下げられると説明した。続く返信では automatic caching と mid-conversation system prompt updates の docs も案内している。",
+      "url": "https://x.com/ClaudeDevs/status/2060432688281251998",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI は 0件",
+      "body": "<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> を同じ 24 時間窓で確認したが、窓内の新規投稿は 0 件だった。公式 X の新規項目は <strong>@ClaudeDevs</strong> の thread のみ。"
+    },
+    {
+      "label": "Official articles 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-31T01:34:14+09:00",
+      "displayTime": "2026-05-31 01:34 JST",
+      "title": "Robert Bye が Claude アプリの dictation 改善を紹介",
+      "summary": "<strong>@RobertJBye</strong> は <strong>Long press to send</strong> が Claude の dictation に入ったと紹介し、音声で考えをそのまま吐き出してから Claude に整理させる使い方を推した。reply では voice 利用や Android 対応、検索改善要望への反応も続いており、モバイル体験の改善 signal と読める。",
+      "url": "https://x.com/RobertJBye/status/2060761714711310674",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-30T12:05:00+09:00",
+      "displayTime": "2026-05-30 12:05 JST",
+      "title": "Anthony Morris が Claude の task spawn と session search を補足",
+      "summary": "<strong>@amorriscode</strong> は reply で、Claude には以前から <strong>new tasks を spawn する能力</strong> があり、<strong>existing sessions を検索</strong> することもできると説明した。さらに、関連する追加 functionality の PR をいくつか持っているとも述べており、Claude Desktop / agent 操作の今後の拡張を示す低レベル signal になっている。",
+      "url": "https://x.com/amorriscode/status/2060558062440567291",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official X 1件 / Official articles 0件",
+      "body": "この窓の official update は、<strong>@ClaudeDevs</strong> による <strong>Opus 4.8 の mid-conversation system instructions と auto-caching</strong> の thread が 1 件だった。いっぽうで <strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> には窓内の新規記事はなかった。",
+      "details": [
+        "<strong>@ClaudeDevs</strong> は <strong>2026-05-30 03:46 JST</strong> に、会話途中の system-role message 追加と prompt cache 維持を説明し、automatic caching と mid-conversation system messages の docs へ誘導した。",
+        "<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> は同窓内で新規投稿 0 件だった。",
+        "<strong>Robert Bye</strong> は <strong>long press to send</strong> による dictation 追加を紹介し、<strong>Anthony Morris</strong> は Claude が task spawn と session search を行えると補足した。",
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.158</strong> と <strong>v2.1.157</strong> の 2 件だった。<strong>v2.1.158</strong> は Auto mode の提供先拡大に絞った小規模 release で、<strong>v2.1.157</strong> は plugin 初期化、agent / worktree の扱い、telemetry、UI、IDE、terminal まわりを広く更新した。",
+      "releases": [
+        {
+          "version": "v2.1.158",
+          "publishedAt": "2026-05-30 11:42 JST",
+          "summary": "Auto mode を Bedrock、Vertex、Foundry 上の Opus 4.7 / 4.8 でも opt-in で使えるようにしたアップデート。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Auto mode が、<strong>Bedrock</strong>、<strong>Vertex</strong>、<strong>Foundry</strong> 上の <strong>Opus 4.7</strong> と <strong>Opus 4.8</strong> でも利用可能になった。利用するには <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code> を設定する必要がある。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
+          "urlLabel": "v2.1.158 release notes"
+        },
+        {
+          "version": "v2.1.157",
+          "publishedAt": "2026-05-30 05:20 JST",
+          "summary": "plugin 読み込みの簡素化、agent / worktree / telemetry 改善、長い会話の性能改善、多数の UI・IDE・terminal 修正を含むアップデート。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>.claude/skills</code> ディレクトリ内の plugin を marketplace なしで自動読込するようになった。",
+                "<code>.claude/skills</code> 配下に新しい plugin をひな形付きで作る <code>claude plugin init &lt;name&gt;</code> が追加された。",
+                "<code>/plugin</code> 引数の autocomplete に、subcommand、インストール済み plugin 名、既知 marketplace の plugin が追加された。",
+                "<code>claude agents</code> で dispatch した session でも <code>settings.json</code> の <code>agent</code> フィールドが尊重され、<code>--agent &lt;name&gt;</code> で上書きできるようになった。",
+                "<code>EnterWorktree</code> が session の途中でも Claude 管理 worktree 間を切り替えられるようになった。",
+                "<code>OTEL_LOG_TOOL_DETAILS=1</code> 時の <code>tool_decision</code> telemetry event に、bash command や MCP / skill 名を含む <code>tool_parameters</code> が追加された。",
+                "<code>/config</code> に、プロンプト中の <code>workflow</code> という単語で dynamic workflow が起動するのを止める <strong>Workflow keyword trigger</strong> 設定が追加された。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Claude が管理する worktree は agent 終了時に unlock されたまま残るようになり、<code>git worktree remove</code> や <code>prune</code> で片付けやすくなった。",
+                "長い会話や resume 後の会話の性能が、冗長な message-rendering 再計算を除去したことで改善された。",
+                "<code>/terminal-setup</code> は VS Code / Cursor / Windsurf の統合 terminal で文字化けを防ぐため、GPU acceleration を無効化するようになった。",
+                "<strong>Feature of the Week</strong> の credit claim 状態は、プロンプト上部の 1 行ではなく status area の notification として表示されるようになった。",
+                "<code>claude agents</code> の dispatch 入力欄での slash-command autocomplete は、前方一致ではなく部分一致するようになった。",
+                "起動時の <strong>bash commands will be sandboxed</strong> バナーは削除され、sandbox 状態は <code>/status</code> と command block 時だけで確認する形に変わった。",
+                "起動時の <strong>/ide for ...</strong> ヒント toast は削除された。",
+                "workflow trigger keyword を入力した直後に backspace を押すと、1 文字削除ではなく <code>alt+w</code> と同様に workflow request 自体を閉じる挙動に変わった。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "paste、MCP、dialog から添付した zero-byte / 破損画像が、text placeholder ではなく request crash を引き起こしていた問題を修正。",
+                "desktop app、IDE extension、SDK 利用時に auto mode や bypass-permissions mode でも sandbox network permission prompt が出ていた問題を修正。",
+                "待機中の subagent やリークした background shell が残っていると、完了済みの <code>claude agents</code> session が retire されない問題を修正。",
+                "<code>claude agents</code> で遅い <strong>opening...</strong> 中に Esc を押しても cancel されず、一覧が無反応になる問題を修正。",
+                "<code>.claude/worktrees/</code> 配下の background agent worktree が、30 日の job retention sweep 後に orphan される問題を修正。",
+                "sleep / wake 後に再接続された background session が、model に正しい日付を伝えない問題を修正。",
+                "<code>claude agents</code> の copy-on-select が、<code>set-clipboard on</code> の tmux 内で system clipboard に届かない問題を修正。これは <code>2.1.153</code> の regression だった。",
+                "前回の Claude Code process 終了時に実行中だった background subagent を、<code>--resume</code> が報告しない問題を修正。",
+                "fullscreen mode で <code>--resume</code> session picker を閉じたあと、terminal 上に picker の内容が残る問題を修正。",
+                "<code>--worktree</code> および <code>--worktree --tmux</code> が、現在の linked worktree ではなく canonical repo root に戻ってしまう問題を修正。",
+                "<code>/model</code> picker が、既に family 内で最新の model を選んでいるのに <strong>Newer version available</strong> と誤表示する問題を修正し、pinned-model 行には raw ID ではなく model 説明を表示するようにした。",
+                "fullscreen mode の in-progress message に literal な markdown 記号（backtick や asterisk）が見えてしまう問題を修正。",
+                "起動時の managed-settings security dialog を承認したあと terminal が固まる問題を修正。",
+                "terminal UI の redraw 後に、まれに scrollback に duplicate line が出る問題を修正。",
+                "VS Code、Cursor、Windsurf の統合 terminal で、右クリック paste が clipboard を二重貼り付けする問題を修正。",
+                "WSL で画像 paste（<code>alt+v</code>）、Windows 11 の screenshot paste を修正し、Windows Explorer からの画像 drag-and-drop を追加した。",
+                "[IDE] background subagent 実行中に Stop を押しても実際には停止しない問題を修正。",
+                "[VSCode] Opus 4.8 で fast mode indicator が表示されない問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
+          "urlLabel": "v2.1.157 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "engineer watch は reply を含めて多数の投稿を確認したが、個人的な雑談や Claude / Anthropic と無関係な話題、単なる反応だけの投稿は main signal から外した。",
+    "公式サイトの blog / news / research / engineering は visible publication date を確認したが、この 24 時間窓に入る新規記事がなかったため officialNews には入れていない。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.158</strong> と <strong>v2.1.157</strong> の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分類して和訳した."
+  ],
+  "sources": [
+    {
+      "title": "ClaudeDevs thread",
+      "url": "https://x.com/ClaudeDevs/status/2060432688281251998"
+    },
+    {
+      "title": "Robert Bye on Claude dictation",
+      "url": "https://x.com/RobertJBye/status/2060761714711310674"
+    },
+    {
+      "title": "Anthony Morris on task spawn and session search",
+      "url": "https://x.com/amorriscode/status/2060558062440567291"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.158",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158"
+    },
+    {
+      "title": "Claude Code v2.1.157",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157"
+    }
+  ]
+}
