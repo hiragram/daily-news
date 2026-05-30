@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "windowLabel": "2026-05-29 15:02:13 JST - 2026-05-30 15:02:13 JST",
+  "windowLabel": "2026-05-29 21:02:55 JST - 2026-05-30 21:02:55 JST",
   "archiveTitle": "Claude Code v2.1.158 landed",
   "archiveSummary": "公式記事 0 件、X 監視は degraded、Claude Code は v2.1.158 と v2.1.157。",
   "latestSummary": "この 24 時間では <strong>Anthropic / Claude の公式記事は新規 0 件</strong>で、<strong>X 監視は spend cap 到達で degraded</strong> している。一方で <strong>Claude Code</strong> は <strong>v2.1.158</strong> と <strong>v2.1.157</strong> を公開し、<strong>Auto mode の提供先拡大</strong>、<strong>plugin 読み込みの簡素化</strong>、<strong>agent / worktree / telemetry の改善</strong>、および <strong>多数の UI・安定性修正</strong> が入った。",
