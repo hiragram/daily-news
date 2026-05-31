@@ -1,0 +1,155 @@
+{
+  "date": "2026-06-01",
+  "windowLabel": "2026-05-31 03:02:36 JST - 2026-06-01 03:02:36 JST",
+  "archiveTitle": "Official 0, signals 3, release 0",
+  "archiveSummary": "公式発表 0 件、engineer signal 3 件、Claude Code release 0 件。",
+  "latestSummary": "この 24 時間では <strong>公式 X と公式ブログの新規公開は 0 件</strong>だった一方、engineer 側では <strong>Claude macOS アプリの dictation 操作補足</strong>、<strong>Code タブ copy/paste 改行バグの修正方針</strong>、<strong>Claude Code の write failure 挙動に関する補足</strong> が出た。<strong>Claude Code</strong> の新規 release はなく、最新の <strong>v2.1.158</strong> は窓外だった。",
+  "summaryBullets": [
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を 24 時間窓で確認したが、窓内の新規 main post は 0 件だった。",
+    "<strong>Official articles 0件</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> を確認したが、この 24 時間窓に入る新規記事はなかった。",
+    "<strong>Engineer signals</strong>: <strong>Robert Bye</strong> は Claude の dictation で <strong>mic ボタンをタップすれば押しっぱなし不要で録音できる</strong> と補足し、<strong>Anthony Morris</strong> は macOS アプリの Code タブ copy/paste 改行バグを修正すると応答し、<strong>Jarred Sumner</strong> は Claude Code の write failure が <strong>未読部分への書き込み防止ガード</strong> に由来する場合があると説明した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release まで確認したが、窓内に publish された新規 release はなかった。最新は <strong>v2.1.158</strong>（<strong>2026-05-30 11:42 JST</strong>）で、今回の集計開始より前だった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を同じ 24 時間窓で確認したが、窓内の新規 main post は 0 件だった。reply と repost は既定どおり集計から外している。"
+    },
+    {
+      "label": "Official articles 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-31T08:23:28+09:00",
+      "displayTime": "2026-05-31 08:23 JST",
+      "title": "Robert Bye が Claude の dictation 操作を補足",
+      "summary": "<strong>@RobertJBye</strong> は、長押し録音をロックしたいという要望に対し、<strong>mic ボタンをタップすればその動作になる</strong> と reply した。Claude モバイル体験の入力導線について、押しっぱなし前提ではないことを示す小さいが有用な product signal といえる。",
+      "url": "https://x.com/RobertJBye/status/2060864700511031776",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-31T20:09:59+09:00",
+      "displayTime": "2026-05-31 20:09 JST",
+      "title": "Anthony Morris が Claude macOS アプリの copy/paste 改行バグ修正を明言",
+      "summary": "<strong>@amorriscode</strong> は、Claude macOS アプリの <strong>Code</strong> タブでコピーしたテキストを貼り付けると改行が二重化する不具合報告に対し、<strong>確認して修正する</strong> と返信した。軽微だが実使用に直結する app quality signal になっている。",
+      "url": "https://x.com/amorriscode/status/2061042503974060115",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-31T10:54:54+09:00",
+      "displayTime": "2026-05-31 10:54 JST",
+      "title": "Jarred Sumner が Claude Code の write failure 挙動を補足",
+      "summary": "<strong>@jarredsumner</strong> は reply で、Claude Code の write failure は <strong>まだ読んでいないファイル部分への書き込みを防ぐためのガード</strong> だと説明し、必要性の再検討余地はあるが少なくとも <strong>エラーメッセージ改善は必要</strong> だと述べた。続く thread では <strong>zsh</strong> や <strong>mtime / atime を妨げる filesystem</strong> も確認しており、最近の現場寄り troubleshooting signal になっている。",
+      "url": "https://x.com/jarredsumner/status/2060902809927872830",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official X 0件 / Official articles 0件",
+      "body": "この窓では official update は確認できなかった。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は 0 件で、<strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にも窓内の新規記事はなかった。一方で engineer 側では Claude アプリの入力導線、macOS アプリ不具合、Claude Code の write failure 説明に関する signal が出ている。",
+      "details": [
+        "<strong>Official X</strong> は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> すべて 0 件だった。",
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。",
+        "<strong>Robert Bye</strong> は dictation の操作方法を補足し、<strong>Anthony Morris</strong> は macOS アプリの Code タブ copy/paste 改行バグ修正を約束し、<strong>Jarred Sumner</strong> は Claude Code の write failure と周辺要因を説明した。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で最新 release まで確認したが、この 24 時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.158</strong> は <strong>2026-05-30 11:42 JST</strong> 公開で、今回の集計開始 <strong>2026-05-31 03:02 JST</strong> より前だったため対象外にしている。",
+      "details": [
+        "GitHub CLI の source of truth では、最新 release は <strong>v2.1.158</strong>（<strong>2026-05-30 11:42 JST</strong>）だった。",
+        "<strong>v2.1.158</strong> の release note 本文は完全取得し、visible bullet は 1 項目だった。",
+        "その 1 項目は <strong>新機能</strong> に分類され、<strong>Auto mode が Bedrock、Vertex、Foundry 上の Opus 4.7 と Opus 4.8 でも利用可能になり、利用には <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code> の設定が必要</strong> という内容だった。"
+      ],
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "Auto mode が、<strong>Bedrock</strong>、<strong>Vertex</strong>、<strong>Foundry</strong> 上の <strong>Opus 4.7</strong> と <strong>Opus 4.8</strong> でも利用可能になった。利用するには <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code> を設定する必要がある。"
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "<strong>v2.1.158</strong> の visible release note に、<strong>変更</strong> として独立した bullet はなかった。"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "<strong>v2.1.158</strong> の visible release note に、<strong>修正</strong> として独立した bullet はなかった。"
+          ]
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "engineer watch では reply を含めて複数の投稿を確認したが、個人的な雑談、採用告知への一般反応、Claude / Anthropic と直接関係しない話題は main signal から外した。",
+    "公式サイトの blog / news / research / engineering は visible publication date を確認したが、この 24 時間窓に入る新規記事がなかったため <strong>officialNews</strong> には入れていない。",
+    "Claude Code release notes は GitHub CLI で完全取得したが、最新 <strong>v2.1.158</strong> は窓外公開だったため、本日の release panel は <strong>0件</strong> とした。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI profile",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI profile",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs profile",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "Robert Bye on Claude dictation controls",
+      "url": "https://x.com/RobertJBye/status/2060864700511031776"
+    },
+    {
+      "title": "Anthony Morris on macOS copy paste bug",
+      "url": "https://x.com/amorriscode/status/2061042503974060115"
+    },
+    {
+      "title": "Jarred Sumner on Claude Code write failures",
+      "url": "https://x.com/jarredsumner/status/2060902809927872830"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.158",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158"
+    }
+  ]
+}
