@@ -1,0 +1,230 @@
+{
+  "date": "2026-06-02",
+  "windowLabel": "2026-06-01 03:02:07 JST - 2026-06-02 03:02:07 JST",
+  "archiveTitle": "Official 2, signals 5, release 1",
+  "archiveSummary": "公式発表 2 件、engineer signal 5 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>Anthropic が SEC に対する S-1 ドラフト提出を公表</strong>し、<strong>ClaudeDevs は Pro / Max の rate limit リセットと Claude Code の過剰 parallel subagent 問題の修正</strong>を案内した。engineer 側では <strong>Dynamic Workflows</strong>、<strong>trigger word の回避策と変更予定</strong>、<strong>Enterprise での workflows / xhigh 利用可否</strong>、<strong>CC Desktop の export / 修正対応</strong>に関する signal が出た。Claude Code の新規 release は <strong>v2.1.159</strong> の 1 件で、内容は <strong>内部インフラ改善のみ</strong> だった。",
+  "summaryBullets": [
+    "<strong>Official news 1件</strong>: <strong>Anthropic News</strong> に <strong>Anthropic confidentially submits draft S-1 to the SEC</strong> が追加され、Anthropic は SEC 審査完了後に IPO を進める選択肢を持つための S-1 ドラフトを秘密裏に提出したと公表した。",
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は上記 S-1 提出を告知し、<strong>@ClaudeDevs</strong> は <strong>Pro / Max</strong> の 5 時間・週次 rate limit をリセットし、<strong>一部 Claude Code session が過剰に parallel subagent を起動して usage を早く消費していた問題を修正した</strong>と案内した。",
+    "<strong>Engineer signals</strong>: <strong>Sid</strong> は <strong>Dynamic Workflows</strong> の有用性と token cost 感を共有し、別 reply では <strong>/config</strong> での無効化と trigger word の変更予定を明言した。<strong>Thariq</strong> は Enterprise でも workflows と xhigh は使えると返し、<strong>Anthony Morris</strong> は <strong>CC Desktop</strong> の transcript export 追加に前向きな反応を示し、別 thread では一部修正済みで残りも対応中だと述べた。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件で、visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> のみだった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official announcement",
+      "datetime": "2026-06-02T01:00:42+09:00",
+      "displayTime": "2026-06-02 01:00 JST",
+      "title": "Anthropic が SEC への S-1 ドラフト提出を公表",
+      "summary": "<strong>Anthropic News</strong> の新規記事 <strong>Anthropic confidentially submits draft S-1 to the SEC</strong> で、Anthropic は普通株の IPO に向けた <strong>S-1 registration statement の draft</strong> を米 SEC に秘密裏に提出したと公表した。記事本文では、<strong>SEC review 完了後に IPO を進める選択肢を得るための手続き</strong>であり、株数や価格は未定だと説明している。<strong>@AnthropicAI</strong> も同内容を公式 X で告知した。",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "urlLabel": "Anthropic News で見る",
+      "primary": true
+    },
+    {
+      "label": "Official product update",
+      "datetime": "2026-06-02T02:35:01+09:00",
+      "displayTime": "2026-06-02 02:35 JST",
+      "title": "ClaudeDevs が Pro / Max の rate limit リセットと parallel subagent 問題修正を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Pro / Max</strong> ユーザー向けに <strong>5 時間・週次 rate limit</strong> をリセットしたと告知した。あわせて、<strong>一部 Claude Code session が過剰な parallel subagent を起動し、想定より早く usage を消費していた問題</strong>を修正したと説明しており、利用量まわりの即時対応として重要度が高い。",
+      "url": "https://x.com/ClaudeDevs/status/2061501787769893055",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI は 0件",
+      "body": "<strong>@ClaudeAI</strong> を同じ 24 時間窓で確認したが、窓内の新規 main post は確認できなかった。reply と repost は既定どおり集計から外している。"
+    },
+    {
+      "label": "Claude Blog / Engineering / Research は 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。<strong>Anthropic News</strong> だけは <strong>Jun 1, 2026</strong> の新規記事が 1 件あった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T12:36:41+09:00",
+      "displayTime": "2026-06-01 12:36 JST",
+      "title": "Sid が Dynamic Workflows の実運用感を共有",
+      "summary": "<strong>@sidbid</strong> は <strong>Dynamic Workflows</strong> を強く勧め、使い始めると手放せないと述べたうえで、<strong>実行コストは高い</strong> が workflow を小さくするよう Claude に頼めば token usage の感覚をつかみやすいと補足した。最近の運用ノートとして価値がある。",
+      "url": "https://x.com/sidbid/status/2061290813876011429",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T14:12:27+09:00",
+      "displayTime": "2026-06-01 14:12 JST",
+      "title": "Sid が trigger word の一時回避策と変更予定を明言",
+      "summary": "<strong>@sidbid</strong> は reply で、現行挙動は <strong>/config</strong> から無効化でき、さらに <strong>trigger word 自体も近いうちに変更する予定</strong> だと述べた。usage を無駄に消費しうる切替条件まわりで、短期の回避策と近い将来の改善方針が同時に示された。",
+      "url": "https://x.com/sidbid/status/2061314915223421219",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T23:25:06+09:00",
+      "displayTime": "2026-06-01 23:25 JST",
+      "title": "Thariq が Claude Code Enterprise でも workflows と xhigh は使えると返答",
+      "summary": "<strong>@trq212</strong> は、Claude Code の Enterprise subscriber で <strong>workflows</strong> と <strong>xhigh</strong> が使えないのではという質問に対し、<strong>\"they definitely are! does it not work for you?\"</strong> と reply した。公式告知ではないが、Enterprise 環境でも利用可能という現場ベースの補足として意味がある。",
+      "url": "https://x.com/trq212/status/2061453992702705754",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T05:14:52+09:00",
+      "displayTime": "2026-06-01 05:14 JST",
+      "title": "Anthony Morris が CC Desktop への transcript export 系機能追加に前向きな反応",
+      "summary": "<strong>@amorriscode</strong> は、OpenAI Codex Desktop で失われた <strong>Copy as Markdown</strong> のような transcript export 体験を惜しむ投稿に対し、<strong>CC desktop にも追加したい</strong> と返信した。正式な実装約束ではないが、会話エクスポートまわりの UX 改善候補として明確な反応が出ている。",
+      "url": "https://x.com/amorriscode/status/2061179625095782815",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T14:25:39+09:00",
+      "displayTime": "2026-06-01 14:25 JST",
+      "title": "Anthony Morris が CC Desktop の一部修正済みと継続対応を共有",
+      "summary": "<strong>@amorriscode</strong> は Claude desktop への不具合・改善要望スレッドで、<strong>一部はすでに修正済み</strong> で、残りも順次対応していくと返信した。デスクトップ版の品質改善が継続中であることを示す短い進捗共有と読める。",
+      "url": "https://x.com/amorriscode/status/2061318236189442416",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official 2件 / signals 5件",
+      "body": "この窓では official update が 2 件あった。<strong>Anthropic</strong> は <strong>SEC への S-1 ドラフト提出</strong>を公表し、<strong>ClaudeDevs</strong> は <strong>Pro / Max</strong> の rate limit リセットと <strong>Claude Code の過剰 parallel subagent 問題の修正</strong>を案内した。一方で engineer 側では <strong>Dynamic Workflows</strong> の実運用感、<strong>trigger word</strong> の回避策と変更予定、<strong>Enterprise での workflows / xhigh</strong>、<strong>CC Desktop</strong> の export / fix 対応に関する signal が出ている。",
+      "details": [
+        "<strong>Anthropic News</strong> には <strong>Jun 1, 2026</strong> 付の新規記事 <strong>Anthropic confidentially submits draft S-1 to the SEC</strong> が追加され、<strong>@AnthropicAI</strong> も同内容を X で告知した。",
+        "<strong>@ClaudeDevs</strong> は <strong>2026-06-02 02:35 JST</strong> に、<strong>Pro / Max</strong> の 5 時間・週次 rate limit のリセットと、<strong>Claude Code session が過剰に parallel subagent を起動して usage を早く消費していた問題</strong>の修正を案内した。",
+        "<strong>Sid</strong> は Dynamic Workflows の token cost と使いどころを共有し、別 reply では <strong>/config</strong> からの無効化と trigger word 変更予定を明言した。<strong>Thariq</strong> は Enterprise での workflows / xhigh 利用可否に肯定的に返し、<strong>Anthony Morris</strong> は <strong>CC Desktop</strong> の transcript export 追加に前向きで、別 thread では一部修正済みだと述べた。"
+      ],
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "urlLabel": "公式サイトを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.159",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.159</strong> の 1 件だった。公開時刻は <strong>2026-06-01 04:42 JST</strong> で、release note の visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> のみだった。ユーザー向け機能追加や修正の列挙はなく、内部基盤の更新だけを伝える小規模 release と読める。",
+      "details": [
+        "GitHub CLI の source of truth では、窓内の Claude Code release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件だった。",
+        "<strong>v2.1.159</strong> の release note 本文は完全取得し、visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> 1 項目だった。",
+        "この bullet は <strong>変更</strong> に分類し、和訳すると <strong>内部インフラを改善した。ユーザー向けの変更はない</strong> という内容になる。"
+      ],
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "<strong>v2.1.159</strong> の visible release note に、<strong>新機能</strong> として独立した bullet はなかった。"
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "内部インフラを改善した。<strong>ユーザー向けの変更はない</strong>。"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "<strong>v2.1.159</strong> の visible release note に、<strong>修正</strong> として独立した bullet はなかった。"
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "version": "v2.1.159",
+          "publishedAt": "2026-06-01 04:42 JST",
+          "summary": "内部インフラ改善のみを含む小規模アップデートで、ユーザー向け変更はない。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<strong>v2.1.159</strong> の visible release note に、<strong>新機能</strong> として独立した bullet はなかった。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "内部インフラを改善した。<strong>ユーザー向けの変更はない</strong>。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<strong>v2.1.159</strong> の visible release note に、<strong>修正</strong> として独立した bullet はなかった。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+          "urlLabel": "v2.1.159 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "engineer watch では Anthropic 関連アカウントの reply も確認したが、個人的な雑談、採用告知、Claude / Anthropic と直接関係しない話題は main signal から外した。",
+    "公式サイトでは <strong>Anthropic News</strong> に新規記事が 1 件あった一方、<strong>Claude Blog</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にはこの 24 時間窓に入る新規記事がなかったため、それらは zero state にまとめた。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.159</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic News: S-1 draft filing",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec"
+    },
+    {
+      "title": "AnthropicAI on S-1 draft filing",
+      "url": "https://x.com/AnthropicAI/status/2061478052257841495"
+    },
+    {
+      "title": "ClaudeDevs on rate limit reset and parallel subagent fix",
+      "url": "https://x.com/ClaudeDevs/status/2061501787769893055"
+    },
+    {
+      "title": "Sid on Dynamic Workflows",
+      "url": "https://x.com/sidbid/status/2061290813876011429"
+    },
+    {
+      "title": "Sid on trigger word config and upcoming change",
+      "url": "https://x.com/sidbid/status/2061314915223421219"
+    },
+    {
+      "title": "Thariq on Enterprise workflows and xhigh",
+      "url": "https://x.com/trq212/status/2061453992702705754"
+    },
+    {
+      "title": "Anthony Morris on CC desktop export ideas",
+      "url": "https://x.com/amorriscode/status/2061179625095782815"
+    },
+    {
+      "title": "Anthony Morris on CC desktop fixes in progress",
+      "url": "https://x.com/amorriscode/status/2061318236189442416"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.159",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159"
+    }
+  ]
+}
