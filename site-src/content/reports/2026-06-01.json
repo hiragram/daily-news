@@ -1,44 +1,53 @@
 {
   "date": "2026-06-01",
-  "windowLabel": "2026-05-31 09:01:18 JST - 2026-06-01 09:01:18 JST",
-  "archiveTitle": "Official 0, signals 2, release 1",
-  "archiveSummary": "公式発表 0 件、engineer signal 2 件、Claude Code release 1 件。",
-  "latestSummary": "この 24 時間では <strong>公式 X と公式ブログの新規公開は 0 件</strong>だった一方、engineer 側では <strong>Claude macOS アプリの copy/paste 改行バグ修正方針</strong> と <strong>Claude Code の write failure 挙動に関する補足</strong> が見えた。加えて <strong>Claude Code v2.1.159</strong> が公開され、release note は <strong>internal infrastructure improvements（ユーザー向け変更なし）</strong> の 1 項目だった。",
+  "windowLabel": "2026-05-31 15:01:42 JST - 2026-06-01 15:01:42 JST",
+  "archiveTitle": "Official 0, signals 3, release 1",
+  "archiveSummary": "公式発表 0 件、engineer signal 3 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>公式 X と公式ブログの新規公開は 0 件</strong>だった一方、engineer 側では <strong>Dynamic Workflows の実運用メモ</strong>、<strong>/config で無効化できる trigger word と近い将来の変更予告</strong>、<strong>Claude macOS アプリの copy/paste 改行バグ修正方針</strong> が見えた。加えて <strong>Claude Code v2.1.159</strong> が公開され、release note は <strong>内部インフラ改善のみでユーザー向け変更なし</strong> の 1 項目だった。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の公開タイムラインを確認したが、この 24 時間窓に入る新規 main post は確認できなかった。",
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を X MCP で確認したが、この 24 時間窓に入る新規投稿は 0 件だった。",
     "<strong>Official articles 0件</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> を確認したが、この 24 時間窓に入る新規記事はなかった。",
-    "<strong>Engineer signals</strong>: <strong>Anthony Morris</strong> は Claude macOS アプリの <strong>Code</strong> タブ copy/paste 改行バグを修正すると返し、<strong>Jarred Sumner</strong> は Claude Code の write failure が <strong>未読部分への書き込み防止ガード</strong> に由来することが多いと補足した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件で、release note の visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> のみだった。"
+    "<strong>Engineer signals</strong>: <strong>Sid</strong> は <strong>Dynamic Workflows</strong> を強く推しつつ token cost の重さも補足し、別 reply では <strong>/config</strong> で現行 trigger word を無効化でき、近いうちに trigger word 自体も変えると述べた。<strong>Anthony Morris</strong> は Claude macOS アプリの <strong>Code</strong> タブ copy/paste 改行バグを修正すると応答した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件で、visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> のみだった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の公開タイムラインを同じ 24 時間窓で確認したが、窓内の新規 main post は確認できなかった。<strong>@AnthropicAI</strong> の最新 visible post は <strong>2026-05-29</strong> で、<strong>@ClaudeDevs</strong> は公開プロフィール上で新規 post を出していなかった。reply と repost は既定どおり集計から外している。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を同じ 24 時間窓で検索したが、窓内の新規 main post は確認できなかった。reply と repost は既定どおり集計から外している。"
     },
     {
       "label": "Official articles 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Apr 17, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 8, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-05-31T20:09:00+09:00",
-      "displayTime": "2026-05-31 20:09 JST",
-      "title": "Anthony Morris が Claude macOS アプリの copy/paste 改行バグ修正を明言",
-      "summary": "<strong>@amorriscode</strong> は、Claude macOS アプリの <strong>Code</strong> タブでコピーしたテキストを貼り付けると改行が二重化する不具合報告に対し、<strong>will take a look and fix, sorry</strong> と返信した。軽微だが実使用に直結する app quality signal といえる。",
-      "url": "https://x.com/amorriscode/status/2061042503974060115",
+      "datetime": "2026-06-01T12:36:41+09:00",
+      "displayTime": "2026-06-01 12:36 JST",
+      "title": "Sid が Dynamic Workflows の実運用感を共有",
+      "summary": "<strong>@sidbid</strong> は <strong>Dynamic Workflows</strong> を強く勧め、使い始めると手放せないと述べたうえで、<strong>実行コストは高い</strong> が workflow を小さくするよう Claude に頼めば token usage の感覚をつかみやすいと補足した。新機能紹介というより、最近の実運用ノートとして価値がある。",
+      "url": "https://x.com/sidbid/status/2061290813876011429",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-05-31T10:54:00+09:00",
-      "displayTime": "2026-05-31 10:54 JST",
-      "title": "Jarred Sumner が Claude Code の write failure 挙動を補足",
-      "summary": "<strong>@jarredsumner</strong> は reply で、Claude Code の write failure は <strong>まだ読んでいないファイル部分への書き込みを防ぐためのガード</strong> であることが多いと説明し、必要性の再検討余地はあるが少なくとも <strong>エラーメッセージ改善は必要</strong> だと述べた。最近の現場寄り troubleshooting signal になっている。",
-      "url": "https://x.com/jarredsumner/status/2060902809927872830",
+      "datetime": "2026-06-01T14:12:27+09:00",
+      "displayTime": "2026-06-01 14:12 JST",
+      "title": "Sid が trigger word の一時回避策と今後の変更予定を明言",
+      "summary": "<strong>@sidbid</strong> は reply で、現行挙動は <strong>/config</strong> から無効化でき、さらに <strong>trigger word 自体も近いうちに変更する予定</strong> だと述べた。usage を無駄に消費しうる切替条件まわりで、短期の回避策と近い将来の改善方針が同時に示された。",
+      "url": "https://x.com/sidbid/status/2061314915223421219",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-05-31T20:09:59+09:00",
+      "displayTime": "2026-05-31 20:09 JST",
+      "title": "Anthony Morris が Claude macOS アプリの copy/paste 改行バグ修正を明言",
+      "summary": "<strong>@amorriscode</strong> は、Claude macOS アプリの <strong>Code</strong> タブでコピーしたテキストを貼り付けると改行が二重化する不具合報告に対し、<strong>will take a look and fix, sorry</strong> と返信した。軽微だが実使用に直結する app quality signal といえる。",
+      "url": "https://x.com/amorriscode/status/2061042503974060115",
       "urlLabel": "X で見る"
     }
   ],
@@ -46,11 +55,11 @@
     {
       "title": "ブログ",
       "headline": "Official X 0件 / Official articles 0件",
-      "body": "この窓では official update は確認できなかった。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は 0 件で、<strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にも窓内の新規記事はなかった。一方で engineer 側では Claude macOS アプリ不具合と Claude Code の write failure 説明に関する signal が出ている。",
+      "body": "この窓では official update は確認できなかった。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は 0 件で、<strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にも窓内の新規記事はなかった。一方で engineer 側では <strong>Dynamic Workflows</strong> の実運用メモ、<strong>trigger word</strong> の一時回避策、Claude macOS アプリ不具合対応の signal が出ている。",
       "details": [
         "<strong>Official X</strong> は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> すべて 0 件だった。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Apr 17, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 22, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 8, 2026</strong> だった。",
-        "<strong>Anthony Morris</strong> は macOS アプリの Code タブ copy/paste 改行バグ修正を約束し、<strong>Jarred Sumner</strong> は Claude Code の write failure が未読部分保護に由来することが多いと補足した。"
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。",
+        "<strong>Sid</strong> は Dynamic Workflows のコスト感と縮小のコツを共有し、別 reply では <strong>/config</strong> での回避と trigger word 変更予定を明かした。<strong>Anthony Morris</strong> は macOS アプリの copy/paste 改行バグ修正を約束した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "公式サイトを確認"
@@ -62,7 +71,7 @@
       "details": [
         "GitHub CLI の source of truth では、窓内の Claude Code release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件だった。",
         "<strong>v2.1.159</strong> の release note 本文は完全取得し、visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> 1 項目だった。",
-        "この bullet は <strong>変更</strong> に分類し、和訳すると <strong>内部インフラの改善。ユーザー向けの変更はない</strong> という内容になる。"
+        "この bullet は <strong>変更</strong> に分類し、和訳すると <strong>内部インフラを改善した。ユーザー向けの変更はない</strong> という内容になる。"
       ],
       "sections": [
         {
@@ -118,7 +127,7 @@
     }
   ],
   "exclusions": [
-    "engineer watch では Anthropic 関連アカウントを広く確認したが、公開閲覧で新規日時まで安定して取れたもののうち、Claude / Anthropic と直接関係しない話題は main signal から外した。",
+    "engineer watch では Anthropic 関連アカウントの reply も確認したが、個人的な雑談、採用告知、Claude / Anthropic と直接関係しない話題は main signal から外した。",
     "公式サイトの blog / news / research / engineering は visible publication date を確認したが、この 24 時間窓に入る新規記事がなかったため <strong>officialNews</strong> には入れていない。",
     "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.159</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
@@ -136,12 +145,16 @@
       "url": "https://x.com/ClaudeDevs"
     },
     {
-      "title": "Anthony Morris on macOS copy paste bug",
-      "url": "https://x.com/amorriscode/status/2061042503974060115"
+      "title": "Sid on Dynamic Workflows",
+      "url": "https://x.com/sidbid/status/2061290813876011429"
     },
     {
-      "title": "Jarred Sumner on Claude Code write failures",
-      "url": "https://x.com/jarredsumner/status/2060902809927872830"
+      "title": "Sid on trigger word config and upcoming change",
+      "url": "https://x.com/sidbid/status/2061314915223421219"
+    },
+    {
+      "title": "Anthony Morris on macOS copy paste bug",
+      "url": "https://x.com/amorriscode/status/2061042503974060115"
     },
     {
       "title": "Claude Blog",
