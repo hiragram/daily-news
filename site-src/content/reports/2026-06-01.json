@@ -1,13 +1,13 @@
 {
   "date": "2026-06-01",
-  "windowLabel": "2026-05-31 15:01:42 JST - 2026-06-01 15:01:42 JST",
-  "archiveTitle": "Official 0, signals 3, release 1",
-  "archiveSummary": "公式発表 0 件、engineer signal 3 件、Claude Code release 1 件。",
-  "latestSummary": "この 24 時間では <strong>公式 X と公式ブログの新規公開は 0 件</strong>だった一方、engineer 側では <strong>Dynamic Workflows の実運用メモ</strong>、<strong>/config で無効化できる trigger word と近い将来の変更予告</strong>、<strong>Claude macOS アプリの copy/paste 改行バグ修正方針</strong> が見えた。加えて <strong>Claude Code v2.1.159</strong> が公開され、release note は <strong>内部インフラ改善のみでユーザー向け変更なし</strong> の 1 項目だった。",
+  "windowLabel": "2026-05-31 21:01:35 JST - 2026-06-01 21:01:35 JST",
+  "archiveTitle": "Official 0, signals 4, release 1",
+  "archiveSummary": "公式発表 0 件、engineer signal 4 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>公式 X と公式ブログの新規公開は 0 件</strong>だった一方、engineer 側では <strong>Dynamic Workflows の実運用メモ</strong>、<strong>/config で無効化できる trigger word と近い将来の変更予告</strong>、<strong>Claude Code desktop のエクスポート機能追加示唆</strong>、<strong>desktop 改善の進捗共有</strong> が見えた。加えて <strong>Claude Code v2.1.159</strong> が公開され、release note は <strong>内部インフラ改善のみでユーザー向け変更なし</strong> の 1 項目だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を X MCP で確認したが、この 24 時間窓に入る新規投稿は 0 件だった。",
     "<strong>Official articles 0件</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> を確認したが、この 24 時間窓に入る新規記事はなかった。",
-    "<strong>Engineer signals</strong>: <strong>Sid</strong> は <strong>Dynamic Workflows</strong> を強く推しつつ token cost の重さも補足し、別 reply では <strong>/config</strong> で現行 trigger word を無効化でき、近いうちに trigger word 自体も変えると述べた。<strong>Anthony Morris</strong> は Claude macOS アプリの <strong>Code</strong> タブ copy/paste 改行バグを修正すると応答した。",
+    "<strong>Engineer signals</strong>: <strong>Sid</strong> は <strong>Dynamic Workflows</strong> の実運用感と token cost を共有し、別 reply では <strong>/config</strong> での回避と trigger word 変更予定を明言した。<strong>Anthony Morris</strong> は <strong>CC Desktop</strong> に transcript export 系機能を追加したいと応じ、別 thread では一部修正済みで残りも対応を進めると述べた。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.159</strong>（<strong>2026-06-01 04:42 JST</strong>）の 1 件で、visible bullet は <strong>Internal infrastructure improvements (no user-facing changes)</strong> のみだった。"
   ],
   "officialNews": [],
@@ -18,7 +18,7 @@
     },
     {
       "label": "Official articles 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> で、いずれも今回の 24 時間窓に入る新規公開は確認できなかった。"
     }
   ],
   "signals": [
@@ -43,11 +43,20 @@
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-05-31T20:09:59+09:00",
-      "displayTime": "2026-05-31 20:09 JST",
-      "title": "Anthony Morris が Claude macOS アプリの copy/paste 改行バグ修正を明言",
-      "summary": "<strong>@amorriscode</strong> は、Claude macOS アプリの <strong>Code</strong> タブでコピーしたテキストを貼り付けると改行が二重化する不具合報告に対し、<strong>will take a look and fix, sorry</strong> と返信した。軽微だが実使用に直結する app quality signal といえる。",
-      "url": "https://x.com/amorriscode/status/2061042503974060115",
+      "datetime": "2026-06-01T05:14:52+09:00",
+      "displayTime": "2026-06-01 05:14 JST",
+      "title": "Anthony Morris が CC Desktop への transcript export 系機能追加に前向きな反応",
+      "summary": "<strong>@amorriscode</strong> は、OpenAI Codex Desktop で失われた <strong>Copy as Markdown</strong> のような transcript export 体験を惜しむ投稿に対し、<strong>CC desktop にも追加したい</strong> と返信した。正式な実装約束ではないが、会話エクスポートまわりの UX 改善候補として明確な反応が出ている。",
+      "url": "https://x.com/amorriscode/status/2061179625095782815",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-01T14:25:39+09:00",
+      "displayTime": "2026-06-01 14:25 JST",
+      "title": "Anthony Morris が CC Desktop の一部修正済みと継続対応を共有",
+      "summary": "<strong>@amorriscode</strong> は Claude desktop への不具合・改善要望スレッドで、<strong>一部はすでに修正済み</strong> で、残りも順次対応していくと返信した。デスクトップ版の品質改善が継続中であることを示す短い進捗共有と読める。",
+      "url": "https://x.com/amorriscode/status/2061318236189442416",
       "urlLabel": "X で見る"
     }
   ],
@@ -55,11 +64,11 @@
     {
       "title": "ブログ",
       "headline": "Official X 0件 / Official articles 0件",
-      "body": "この窓では official update は確認できなかった。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は 0 件で、<strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にも窓内の新規記事はなかった。一方で engineer 側では <strong>Dynamic Workflows</strong> の実運用メモ、<strong>trigger word</strong> の一時回避策、Claude macOS アプリ不具合対応の signal が出ている。",
+      "body": "この窓では official update は確認できなかった。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は 0 件で、<strong>Claude Blog</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic Engineering</strong> にも窓内の新規記事はなかった。一方で engineer 側では <strong>Dynamic Workflows</strong> の実運用メモ、<strong>trigger word</strong> の一時回避策、<strong>CC Desktop</strong> の export / fix signal が出ている。",
       "details": [
         "<strong>Official X</strong> は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> すべて 0 件だった。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 19, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。",
-        "<strong>Sid</strong> は Dynamic Workflows のコスト感と縮小のコツを共有し、別 reply では <strong>/config</strong> での回避と trigger word 変更予定を明かした。<strong>Anthony Morris</strong> は macOS アプリの copy/paste 改行バグ修正を約束した。"
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>May 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>May 28, 2026</strong>、<strong>Anthropic Research</strong> は <strong>May 27, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。",
+        "<strong>Sid</strong> は Dynamic Workflows のコスト感と縮小のコツを共有し、別 reply では <strong>/config</strong> での回避と trigger word 変更予定を明かした。<strong>Anthony Morris</strong> は <strong>CC Desktop</strong> の transcript export 追加に前向きな反応を示し、別 thread では一部修正済みで残りも対応中だと述べた。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "公式サイトを確認"
@@ -153,8 +162,12 @@
       "url": "https://x.com/sidbid/status/2061314915223421219"
     },
     {
-      "title": "Anthony Morris on macOS copy paste bug",
-      "url": "https://x.com/amorriscode/status/2061042503974060115"
+      "title": "Anthony Morris on CC desktop export ideas",
+      "url": "https://x.com/amorriscode/status/2061179625095782815"
+    },
+    {
+      "title": "Anthony Morris on CC desktop fixes in progress",
+      "url": "https://x.com/amorriscode/status/2061318236189442416"
     },
     {
       "title": "Claude Blog",
