@@ -1,6 +1,6 @@
 {
   "date": "2026-06-02",
-  "windowLabel": "2026-06-01 15:02:18 JST - 2026-06-02 15:02:18 JST",
+  "windowLabel": "2026-06-01 21:02:13 JST - 2026-06-02 21:02:13 JST",
   "archiveTitle": "Official 2, signals 5, release 1",
   "archiveSummary": "公式発表 2 件、engineer signal 5 件、Claude Code release 1 件。",
   "latestSummary": "この 24 時間では <strong>Anthropic が SEC への S-1 ドラフト提出を公表</strong>し、<strong>ClaudeDevs は Pro / Max の rate limit リセットと Claude Code の過剰 parallel subagent 問題の修正</strong>を案内した。engineer 側では <strong>Enterprise での workflows / xhigh</strong>、<strong>Claude を追う社内プロンプト共有</strong>、<strong>CC Desktop の settings 消失調査</strong>、<strong>Opus 4.8 / Haiku fallback 問題の fix 予告</strong>が見えた。加えて <strong>Claude Code v2.1.160</strong> が公開され、書き込み前プロンプト追加、<strong>workflow → ultracode</strong> への trigger keyword 変更、background / Windows / agents 周りの広範囲な修正が入った。",
