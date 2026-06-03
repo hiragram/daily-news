@@ -1,43 +1,23 @@
 {
   "date": "2026-06-03",
-  "windowLabel": "2026-06-02 09:02:10 JST - 2026-06-03 09:02:10 JST",
-  "archiveTitle": "Official 5, blog 2, releases 2",
-  "archiveSummary": "公式 5 件、Claude Blog 2 件、Claude Code release 2 件。",
-  "latestSummary": "この 24 時間では <strong>Anthropic が Project Glasswing の拡大</strong>を発表し、<strong>Claude Blog</strong> には <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が窓内に入った。<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>自己チェックの組み込み方</strong>、<strong>/fork の挙動変更</strong>を連続投稿し、engineer 側では <strong>workflow misfire</strong>、<strong>remote-control diff pane regression</strong>、<strong>Haiku fallback / model inheritance</strong> への応答が続いた。加えて <strong>Claude Code</strong> は <strong>v2.1.160</strong> と <strong>v2.1.161</strong> を公開し、<strong>ultracode への改名</strong>、各種 safety guard、telemetry / agents / terminal の改善と多数の修正が入った。",
+  "windowLabel": "2026-06-02 15:02:30 JST - 2026-06-03 15:02:30 JST",
+  "archiveTitle": "Official 4, blog 2, release 1",
+  "archiveSummary": "公式 4 件、Claude Blog 2 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>@ClaudeDevs</strong> が <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック運用</strong>、<strong>/fork の background agent 化</strong>を連投し、<strong>Claude Blog</strong> には <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が入った。engineer 側では <strong>workflows / ultracode</strong> を巡る実運用の補足が続き、<strong>Claude Code v2.1.161</strong> は telemetry label、parallel tool call、agents / MCP / fullscreen 周りの改善と多数の修正を含んで公開された。",
   "summaryBullets": [
-    "<strong>Official news 1件</strong>: <strong>Anthropic News</strong> の <strong>Expanding Project Glasswing</strong> は、<strong>Claude Mythos Preview</strong> を使うセキュリティ協業を <strong>約 150 の追加組織</strong>へ広げ、対象が <strong>15 か国超</strong>に広がると説明した。",
-    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Legora</strong> を題材にした <strong>Problem Solvers</strong> 動画を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code に自己チェックを組み込む方法</strong>、<strong>/fork</strong> の新挙動を案内した。",
-    "<strong>Claude Blog 2件</strong>: <strong>Running an AI-native engineering org</strong> は <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を運営原則として整理した。<strong>A harness for every task</strong> は <strong>dynamic workflows</strong> が Claude Code に <strong>その場で multi-agent harness を書かせてオーケストレーションする</strong>仕組みだと説明した。",
-    "<strong>Engineer signals 6件</strong>: <strong>Jarred Sumner</strong> は <strong>Haiku fallback</strong> 関連の fix merge 済みと <strong>model 継承</strong>の既定挙動を説明し、<strong>Anthony Morris</strong> は <strong>remote-control diff pane</strong> と <strong>workflow 誤発火による usage 消費</strong>の調査に入った。<strong>Thariq</strong> は <strong>workflows</strong> を Claude Code の大きな能力拡張だと述べ、のちに trigger word が <strong>ultra code</strong> へ変わったと補足した。",
-    "<strong>Claude Code releases 2件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.160</strong>（<strong>2026-06-02 11:10 JST</strong>）と <strong>v2.1.161</strong>（<strong>2026-06-03 06:58 JST</strong>）の 2 件で、visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
+    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Legora</strong> を題材にした <strong>Problem Solvers</strong> 動画を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code に manual check を組み込む方法</strong>、<strong>/fork</strong> の新挙動を案内した。",
+    "<strong>Claude Blog 2件</strong>: <strong>Running an AI-native engineering org</strong> は <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を新しい運営原則として整理した。<strong>A harness for every task</strong> は、Claude Code が <strong>その場で multi-agent harness を書いて orchestrate する</strong> dynamic workflows の考え方と典型パターンを解説した。",
+    "<strong>Engineer signals 5件</strong>: <strong>Thariq</strong> と <strong>Sid</strong> は <strong>workflows</strong> が Claude Code の使い方を変えたと強調し、<strong>ultracode</strong> trigger、token 消費、durability、<strong>Sonnet</strong> の使い所を補足した。<strong>Jarred Sumner</strong> は large project を parallel workflow として分解する発想、<strong>Anthony Morris</strong> は <strong>remote-control diff pane regression</strong> と <strong>UX / perf</strong> 改善の継続を示した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.161</strong>（<strong>2026-06-03 06:58 JST</strong>）の 1 件で、visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
     {
-      "label": "Official announcement",
-      "datetime": "2026-06-02T22:05:25+09:00",
-      "displayTime": "2026-06-02 22:05 JST",
-      "title": "Anthropic が Project Glasswing の拡大を発表",
-      "summary": "<strong>Anthropic News</strong> の新規記事 <strong>Expanding Project Glasswing</strong> は、<strong>Claude Mythos Preview</strong> を使うセキュリティ協業を <strong>約 150 の追加組織</strong>へ広げ、対象が <strong>15 か国超</strong>に及ぶと説明した。本文では、初期 cohort が <strong>10,000 件超</strong>の high / critical severity flaw を見つけたこと、今後は <strong>critical infrastructure</strong>、<strong>open-source maintainer</strong>、<strong>vendor</strong> をより広く支援し、<strong>Claude Security</strong> や trusted security team 向けツール提供も進める方針を示している。<strong>@AnthropicAI</strong> も同内容を X で告知した。",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-      "urlLabel": "Anthropic News で見る",
-      "primary": true
-    },
-    {
-      "label": "Official post",
-      "datetime": "2026-06-03T00:17:28+09:00",
-      "displayTime": "2026-06-03 00:17 JST",
-      "title": "ClaudeAI が Legora を題材にした Problem Solvers 動画を公開",
-      "summary": "<strong>@ClaudeAI</strong> は、<strong>Legora</strong> の共同創業者兼 CEO である <strong>Max Junestrand</strong> を取り上げた <strong>Problem Solvers</strong> 動画を投稿した。post では、<strong>every new model release raises the tide</strong> という Legora 側の見立てを紹介し、<strong>Claude</strong> を使った legal workflow の具体例として位置づけている。新機能告知ではないが、Claude の顧客事例・市場訴求として公式発信に含める価値がある。",
-      "url": "https://x.com/claudeai/status/2061829558999912680",
-      "urlLabel": "X で見る"
-    },
-    {
       "label": "Official product update",
-      "datetime": "2026-06-03T03:27:21+09:00",
-      "displayTime": "2026-06-03 03:27 JST",
-      "title": "ClaudeDevs が Claude Platform CLI の追加を案内",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Platform</strong> の各 API endpoint を terminal から直接たたける <strong>ant CLI</strong> を追加したと投稿した。main post では <strong>Messages API</strong> 呼び出し、<strong>Claude Managed Agents</strong> の立ち上げ、結果の shell 連携、そして <strong>Claude Code</strong> から <strong>claude-api skill</strong> 経由で扱えることを打ち出している。",
-      "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
+      "datetime": "2026-06-03T08:05:46+09:00",
+      "displayTime": "2026-06-03 08:05 JST",
+      "title": "ClaudeDevs が /fork を background agent 化し /branch を分離",
+      "summary": "<strong>@ClaudeDevs</strong> は、<code>/fork</code> が今後は <strong>現在の system prompt / tools / history / model / prompt cache を引き継いだ background agent</strong> として動き、結果だけを元 session に返す形になったと説明した。従来の <strong>transcript を複製して別 session を手で進める</strong>挙動は <code>/branch</code> に移った。",
+      "url": "https://x.com/ClaudeDevs/status/2061947411141169494",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -45,107 +25,112 @@
       "label": "Official product update",
       "datetime": "2026-06-03T04:59:06+09:00",
       "displayTime": "2026-06-03 04:59 JST",
-      "title": "ClaudeDevs が Claude Code に自己チェックを組み込む使い方を紹介",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code に手動チェック手順を encode して自分で feedback loop を閉じさせる</strong>使い方を短いデモ付きで紹介した。厳密な新機能発表ではないが、Claude Code の運用ノウハウとして実務的な価値が高い。",
+      "title": "ClaudeDevs が Claude Code の自己チェック運用を紹介",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Code が結果を返す前に <strong>自分で manual check を実行して feedback loop を閉じる</strong>やり方を動画で案内した。単なる tips ではなく、<strong>verification を prompt / workflow に encode する</strong>実践例として価値が高い。",
       "url": "https://x.com/ClaudeDevs/status/2061900434722496604",
       "urlLabel": "X で見る"
     },
     {
       "label": "Official product update",
-      "datetime": "2026-06-03T08:05:46+09:00",
-      "displayTime": "2026-06-03 08:05 JST",
-      "title": "ClaudeDevs が /fork の新挙動と /branch への役割分離を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、<code>/fork</code> が <strong>現在の system prompt・tools・history・model・prompt cache をそのまま持つ background agent</strong> を起動し、結果を元 session に返す形へ変わったと説明した。従来の transcript 複製型の挙動は <code>/branch</code> に移り、用途が明確に分離された。",
-      "url": "https://x.com/ClaudeDevs/status/2061947411141169494",
+      "datetime": "2026-06-03T03:27:21+09:00",
+      "displayTime": "2026-06-03 03:27 JST",
+      "title": "ClaudeDevs が Claude Platform CLI の追加を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Platform</strong> の API endpoint を terminal から直接呼べる <strong>ant CLI</strong> を追加したと投稿した。<strong>Messages API</strong>、<strong>Claude Managed Agents</strong>、shell への結果パイプ、さらに <strong>Claude Code から claude-api skill 経由で扱える</strong>点を打ち出している。",
+      "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official post",
+      "datetime": "2026-06-03T00:17:28+09:00",
+      "displayTime": "2026-06-03 00:17 JST",
+      "title": "ClaudeAI が Legora を題材にした Problem Solvers 動画を公開",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Legora</strong> の共同創業者兼 CEO である <strong>Max Junestrand</strong> を取り上げた <strong>Problem Solvers</strong> 動画を投稿した。新機能告知ではないが、<strong>Claude を使った legal workflow の顧客事例</strong>として公式発信に含める価値がある。",
+      "url": "https://x.com/claudeai/status/2061829558999912680",
       "urlLabel": "X で見る"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering / Research は 0件",
-      "body": "<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> の visible publication date を確認したが、今回の 24 時間窓に入る新規公開はなかった。公式サイト側で窓内に入った新規記事は <strong>Anthropic News</strong> の <strong>Expanding Project Glasswing</strong> と、<strong>Claude Blog</strong> の <strong>Running an AI-native engineering org</strong> / <strong>A harness for every task: dynamic workflows in Claude Code</strong> だった。"
+      "label": "@AnthropicAI の Claude関連告知は 0件",
+      "body": "<strong>@AnthropicAI</strong> の窓内 main post は確認したが、<strong>Claude / Claude Code の product update</strong> ではなかったため main story には含めていない。Claude 関連の official X は今回は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が中心だった。"
+    },
+    {
+      "label": "Anthropic News / Engineering / Research は 0件",
+      "body": "<strong>Anthropic News</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> の各公式ページを確認したが、今回の 24 時間窓に入る新規公開は確認できなかった。<strong>Claude Blog</strong> は <strong>June 2, 2026</strong> と <strong>June 3, 2026</strong> の記事が 2 本あった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-06-02T12:05:49+09:00",
-      "displayTime": "2026-06-02 12:05 JST",
-      "title": "Jarred Sumner が Haiku fallback 問題の fix 済みを示唆",
-      "summary": "<strong>@jarredsumner</strong> は、<strong>dynamic workflows</strong> で期待した model ではなく <strong>Haiku</strong> が使われる不具合報告に対し、<strong>fix はすでに merge 済みで翌日の release に入るはず</strong>だと返信した。後続の <strong>v2.1.160</strong> を読む上でも relevant な signal。",
-      "url": "https://x.com/jarredsumner/status/2061645433844449640",
+      "datetime": "2026-06-03T05:27:20+09:00",
+      "displayTime": "2026-06-03 05:27 JST",
+      "title": "Thariq が workflows を Claude Code 最大級の能力拡張だと強調",
+      "summary": "<strong>@trq212</strong> は、<strong>workflows are the biggest upgrade to Claude Code’s capabilities since skills and subagents</strong> と述べ、<strong>@sidbid</strong> と best practices や non-technical task まで掘ったと説明した。reply では <strong>Claude Blog</strong> 版への導線も付けており、今回の blog 記事群を現場側から増幅する signal になっている。",
+      "url": "https://x.com/trq212/status/2061907538741006796",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-06-02T14:19:59+09:00",
-      "displayTime": "2026-06-02 14:19 JST",
-      "title": "Jarred Sumner が model 継承と Haiku fallback の挙動を説明",
-      "summary": "<strong>@jarredsumner</strong> は、<strong>Ultracode</strong> 実行時に <strong>Haiku 4.5</strong> が使われたという報告に対し、まず <strong>Claude が Haiku を選ぶことがある</strong>と返し、その後 <strong>既定では model を継承する</strong>ので今回のケースでは Claude 側が Haiku を選んだのだと補足した。挙動説明として残す価値がある。",
-      "url": "https://x.com/jarredsumner/status/2061685894265057412",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-06-02T23:13:12+09:00",
-      "displayTime": "2026-06-02 23:13 JST",
-      "title": "Anthony Morris が remote-control 時の diff pane regression を確認開始",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code Desktop</strong> の <strong>remote session</strong> で diff pane が動かないのではという報告に対し、まず <strong>cloud sessions か remote control か</strong> を確認し、その後 <strong>regression を調べる</strong>と返した。desktop remote workflow の既知 issue 候補として見ておく価値がある。",
-      "url": "https://x.com/amorriscode/status/2061814703656144960",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-06-02T23:48:54+09:00",
-      "displayTime": "2026-06-02 23:48 JST",
-      "title": "Anthony Morris が workflow 誤発火による usage 消費報告の調査に入った",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code が look something up の依頼で workflow を勝手に起動し usage を大きく消費した</strong>という報告に対し、<code>/feedback</code> と user ID の送付を依頼した。翌日の <strong>workflow → ultracode</strong> 改名とも文脈がつながる現場 signal。",
-      "url": "https://x.com/amorriscode/status/2061822369216528541",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-06-03T05:27:20+09:00",
-      "displayTime": "2026-06-03 05:27 JST",
-      "title": "Thariq が workflows を Claude Code の大きな能力拡張だと強調",
-      "summary": "<strong>@trq212</strong> は、<strong>workflows are the biggest upgrade to Claude Code's capabilities since skills and subagents</strong> と投稿し、<strong>@sidbid</strong> と一緒に best practices や non-technical task への広がりを掘ったと説明した。Claude Blog の <strong>A harness for every task</strong> を現場側から増幅する signal。",
-      "url": "https://x.com/trq212/status/2061907538741006796",
+      "datetime": "2026-06-03T06:06:57+09:00",
+      "displayTime": "2026-06-03 06:06 JST",
+      "title": "Sid が workflows は Claude Code の使い方を変えると述べた",
+      "summary": "<strong>@sidbid</strong> は、<strong>Workflows have changed the way I use Claude Code</strong> と投稿し、reply では <strong>expensive to run だが workflow を小さくして試せる</strong>と補足した。導入ハードルと token cost の両方を現場感覚で説明する短い signal。",
+      "url": "https://x.com/sidbid/status/2061917509595591100",
       "urlLabel": "X で見る"
     },
     {
       "label": "Engineer signal",
       "datetime": "2026-06-03T06:38:26+09:00",
       "displayTime": "2026-06-03 06:38 JST",
-      "title": "Thariq が trigger word は ultra code に変わったと補足",
-      "summary": "<strong>@trq212</strong> は、prompt に <strong>workflow</strong> という単語が入るだけで起動して困るという声に対し、<strong>the trigger word is now ultra code</strong> と返信した。直後の <strong>v2.1.160</strong> release note にある <strong>workflow → ultracode</strong> 改名を、X 上でも裏づける短い補足になっている。",
+      "title": "Thariq が ultracode trigger と workflow の実運用注意点を補足",
+      "summary": "<strong>@trq212</strong> は、<strong>workflow</strong> 単語の誤発火報告に対して <strong>trigger word is now ultra code</strong> と返し、別 reply では durability を <strong>roughly as durable as “/resume”ing every subagent</strong> と説明した。さらに <strong>Sonnet is definitely plenty for many of the steps in a workflow</strong> とも補足しており、運用上の重要な細部がまとまっている。",
       "url": "https://x.com/trq212/status/2061925433441227090",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T09:38:54+09:00",
+      "displayTime": "2026-06-03 09:38 JST",
+      "title": "Jarred Sumner が large project を parallel workflow として捉える発想を共有",
+      "summary": "<strong>@jarredsumner</strong> は、large project を見たときに <strong>how do I structure this into workflows with as many parallel Claude’s as possible</strong> と考えるようになったと投稿し、reply で <strong>multithreaded code のように serial queueing → fan-out → post-processing</strong> と捉えると説明した。別 reply では <strong>ultracode</strong> の利用、<strong>how’s the workflow going</strong> で進捗を聞く方法、<strong>spot check + adversarial review</strong> にも触れている。",
+      "url": "https://x.com/jarredsumner/status/2061970846844121184",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-02T23:18:26+09:00",
+      "displayTime": "2026-06-02 23:18 JST",
+      "title": "Anthony Morris が remote-control diff pane regression と UX / perf 改善を継続確認",
+      "summary": "<strong>@amorriscode</strong> は、<strong>remote-control session</strong> で diff pane が動かない報告に対して <strong>regressed here</strong> と返し、別 thread では <strong>workflows visualization</strong> の要望に <strong>support workflows today</strong> としつつ改善余地を認めた。さらに <strong>ux / perf stuff</strong> を認識して改善中だとも述べている。",
+      "url": "https://x.com/amorriscode/status/2061814703656144960",
       "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Official 5件 / Claude Blog 2件",
-      "body": "この窓では official update が連続していた。<strong>Anthropic</strong> は <strong>Project Glasswing</strong> をおよそ <strong>150 の追加組織</strong>へ拡張すると発表し、<strong>@ClaudeAI</strong> は <strong>Legora</strong> を題材にした <strong>Problem Solvers</strong> 動画を公開した。<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>自己チェックの組み込み</strong>、<strong>/fork と /branch の役割分離</strong>を連投し、<strong>Claude Blog</strong> では <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が窓内に入った。",
+      "headline": "Official 4件 / Claude Blog 2件",
+      "body": "この窓では official X が連続していた。<strong>@ClaudeAI</strong> は <strong>Legora</strong> 事例の動画を出し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック</strong>、<strong>/fork と /branch の役割分離</strong>を案内した。加えて <strong>Claude Blog</strong> では <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が visible publication date ベースで窓内に入った。",
       "details": [
-        "<strong>Anthropic News</strong> の <strong>Expanding Project Glasswing</strong> は、初期 partner が見つけた <strong>10,000 件超</strong>の high / critical severity flaw を踏まえ、<strong>15 か国超</strong>・<strong>約 150 組織</strong>への拡張を告知した。<strong>@AnthropicAI</strong> の X post も同内容だった。",
-        "<strong>Claude Blog</strong> の <strong>Running an AI-native engineering org</strong> は、Claude Code / Claude Cowork チームの運営原則として <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を明示している。",
-        "<strong>Claude Blog</strong> の <strong>A harness for every task: dynamic workflows in Claude Code</strong> は、Claude Code が <strong>その場で multi-agent harness を書き、orchestrate する</strong>仕組みだと説明している。記事ページで見える publish 表示は <strong>June 2, 2026</strong> のみで時刻は無いため、今回は visible publication date ベースで窓内扱いとした。",
-        "<strong>@ClaudeDevs</strong> の main post では、<strong>ant CLI</strong>、<strong>self-check の運用ノウハウ</strong>、<strong>/fork の background agent 化</strong>が順に案内された。従来の <code>/fork</code> の transcript 複製型挙動は <code>/branch</code> へ移っている。"
+        "<strong>Running an AI-native engineering org</strong>（<strong>June 3, 2026</strong>）は、Claude Code / Claude Cowork チームの新しい基本原則として <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を整理した。",
+        "<strong>A harness for every task: dynamic workflows in Claude Code</strong>（<strong>June 2, 2026</strong>）は、Claude Code が <strong>その場で custom multi-agent harness を書き、複雑な task に合わせて orchestration する</strong>仕組みと、<strong>classify-and-act</strong>、<strong>fan-out-and-synthesize</strong>、<strong>adversarial verification</strong> などの典型パターンを説明した。今回の窓では記事ページに見える <strong>publication date</strong> ベースで採用している。",
+        "<strong>@ClaudeDevs</strong> の main post 群では、<strong>ant CLI</strong>、<strong>manual check の encode</strong>、<code>/fork</code> の background agent 化が順に案内された。<code>/branch</code> は旧来の transcript 複製型ワークフローを引き継ぐ。",
+        "<strong>@AnthropicAI</strong> の窓内 post はあったが <strong>White House の AI executive order</strong> に対する支持表明で、Claude / Claude Code の product update ではないため main story から外した。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog を見る"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.160</strong> と <strong>v2.1.161</strong> の 2 件だった。<strong>v2.1.160</strong> は <strong>workflow</strong> trigger の <strong>ultracode</strong> への改名、安全ガード、background / Windows / agents 周りの大規模修正が中心で、<strong>v2.1.161</strong> は telemetry label、parallel tool call 振る舞い、connector / agents UI、fullscreen clipboard、MCP secret redaction などを含むフォローアップ release だった。",
+      "headline": "v2.1.161",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.161</strong> の 1 件だった。公開時刻は <strong>2026-06-03 06:58 JST</strong>。主な内容は、<strong>OTEL label の追加</strong>、<strong>parallel tool call</strong> や <strong>agents / MCP / fullscreen</strong> の改善、そして telemetry・background・MCP secret redaction・worktree まわりの多数の修正だった。",
       "releases": [
         {
           "version": "v2.1.161",
           "publishedAt": "2026-06-03 06:58 JST",
-          "summary": "OTEL label、agents / mcp / fullscreen / parallel tool calls の改善と、telemetry・background・MCP secret redaction・worktree などの多数の修正を含むアップデート。",
+          "summary": "OTEL label、agents / MCP / fullscreen / parallel tool calls の改善と、telemetry・background・MCP secret redaction・worktree などの多数の修正を含むアップデート。",
           "sections": [
             {
               "title": "新機能",
@@ -162,7 +147,7 @@
                 "fullscreen mode の clipboard は、Linux で利用可能なら <code>wl-copy</code> / <code>xclip</code> / <code>xsel</code> を使うようにし、clipboard と PRIMARY selection の両方へコピーするようにした。middle-click paste 用の <strong>hold {key} for native selection</strong> ヒントも terminal ごとに正しい key を表示する。",
                 "layout engine の JIT compilation profile を安定化し、terminal rendering 性能を改善した。",
                 "大きな file write を描画するときの性能を改善した。",
-                "[VSCode] glyph が崩れる問題への対処として、terminal GPU acceleration を無効化するか <code>/terminal-setup</code> を実行する tip を追加した。"
+                "[VSCode] glyph が崩れる問題への対処として、terminal GPU acceleration を無効化するか <code>/terminal-setup</code> を実行する tip を追加した."
               ]
             },
             {
@@ -187,58 +172,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
           "urlLabel": "v2.1.161 release notes"
-        },
-        {
-          "version": "v2.1.160",
-          "publishedAt": "2026-06-02 11:10 JST",
-          "summary": "書き込み前の安全ガード追加、workflow trigger の ultracode への改名、background / Windows / agents 周りの多数の修正を含むアップデート。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "<strong>v2.1.160</strong> の visible release note に、<strong>新機能</strong> として独立した bullet はなかった。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "shell の startup file（<code>.zshenv</code>、<code>.zlogin</code>、<code>.bash_login</code>）や <code>~/.config/git/</code> に書き込む前に確認プロンプトを出すようにした。意図しないコマンド実行につながる書き込みを防ぐため。",
-                "<code>acceptEdits</code> モードで、コード実行権限を与える build-tool 設定ファイル（<code>.npmrc</code>、<code>.yarnrc*</code>、<code>bunfig.toml</code>、<code>.bazelrc</code>、<code>.pre-commit-config.yaml</code>、<code>.devcontainer/</code> など）へ書き込む前に確認を求めるようにした。",
-                "ファイルを <code>grep</code> で確認したあと、編集前に別途 <code>Read</code> を挟まなくてもよくした。単一ファイルに対する <code>grep</code> / <code>egrep</code> / <code>fgrep</code> が read-before-edit チェックを満たすようになった。",
-                "<code>claude agents</code> で、しばらく使っていなかった background agent session を開く処理を高速化した。",
-                "auto mode classifier のレイテンシを改善した。定型操作での reasoning を減らし、<strong>could not evaluate this action</strong> ブロックが出る確率を下げた。",
-                "background session の teardown（<code>claude rm</code> / <code>stop</code>、idle reap）を改善した。実行中の shell subprocess にまず <code>SIGTERM</code> を送り、その後で <code>SIGKILL</code> を送るため cleanup handler が走りやすくなった。",
-                "<code>CLAUDE_CODE_OPUS_4_6_FAST_MODE_OVERRIDE</code> を削除した。この environment variable は今後 no-op になる。",
-                "startup 時に出していた JetBrains plugin の install suggestion を削除した。",
-                "dynamic workflow の trigger keyword を <strong>workflow</strong> から <strong>ultracode</strong> に変更した。今後 <strong>workflow</strong> という単語では trigger されず、通常の言い回しで workflow を頼むことは引き続き可能。trigger keyword は prompt input 上で紫色にハイライトされる。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "WSL で copy-on-select が Windows の clipboard に書き込まれない問題を修正した。OSC 52 ではなく、MobaXterm などが対応している PowerShell 連携を使うようにした。",
-                "<code>claude agents</code> から完了済み session を復元した際に chat history が落ち、元の prompt を再実行してしまう問題を修正した。",
-                "overnight retire 後に再アタッチした background session が会話履歴を失い、元の prompt を再実行してしまう問題を修正した。",
-                "負荷の高いマシンで background daemon の cold start 中に <code>claude --bg</code> が <strong>socket missing</strong> で失敗することがある問題を修正した。",
-                "Windows で background session を起動した directory が、background daemon 終了まで <code>claude rm</code> 後も削除できない問題を修正した。",
-                "作業を再開した background agent が agents list で <strong>Completed</strong> に表示されてしまう問題を修正した。",
-                "session list に戻るたび auto-updater が再チェックして <code>claude agents</code> が数秒固まる問題を修正した。",
-                "Windows で host CPU 負荷が高いと、background session や agent view にアタッチした際に Esc、矢印キー、通常入力が反応しなくなる問題を修正した。",
-                "background agent が terminal sync-output marker を未対応端末（Apple Terminal、tmux）へ出力してしまい、実行中 agent に入ると描画崩れが起きる問題を修正した。",
-                "agents list から session を開いた直後、mouse wheel が transcript ではなく prompt history を scroll してしまう問題を修正した。",
-                "<code>claude agents</code> view で CJK IME の変換ウィンドウが input caret ではなく画面左下に出る問題を修正した。",
-                "hyperlink 対応 Windows terminal で、有効な <code>file:///C:/...</code> link が壊れた path に書き換えられる問題を修正した。",
-                "project directory や branch 名に non-ASCII 文字や special character が入っていると voice mode が接続できない問題を修正した。",
-                "third-party provider（Bedrock / Vertex / Foundry）で auto mode が使えないとき、誤って model を blame していた message を修正し、正しく <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in を案内するようにした。",
-                "<code>/effort ultracode</code> が、model が xhigh を実行できない場合に dynamic workflows 設定のせいだと誤案内していた問題を修正した。xhigh 非対応 model では ultracode 自体を提案しないようにした。",
-                "SDK や他 host 経由で実行しているときに、model-not-found error が適用できない <code>--model</code> flag を案内していた問題を修正した。",
-                "brief mode をオフにして brief mode の session を再開すると、Claude の過去 reply が scrollback から消える問題を修正した。",
-                "vim mode の <code>p</code> が、<code>v$</code> で yank した register を cursor 位置ではなく次行に paste してしまう問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
-          "urlLabel": "v2.1.160 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -247,20 +180,12 @@
   ],
   "exclusions": [
     "engineer watch では Anthropic 関連 account の reply も確認したが、個人的な雑談、イベント参加表明、Claude / Anthropic と直接関係しない話題は main signal から外した。",
-    "<strong>@AnthropicAI</strong> の <strong>2026-06-03 06:35 JST</strong> の post は <strong>White House の AI executive order</strong> への支持表明で、Claude / Claude Code の product update ではないため main story からは外した。",
-    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.160</strong> と <strong>v2.1.161</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
+    "<strong>@AnthropicAI</strong> の <strong>2026-06-03 06:35 JST</strong> の post は <strong>White House の AI executive order</strong> への支持表明で、Claude / Claude Code の product update ではないため main story から外した。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.161</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
   ],
   "sources": [
     {
-      "title": "Anthropic News: Expanding Project Glasswing",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing"
-    },
-    {
-      "title": "AnthropicAI on Project Glasswing",
-      "url": "https://x.com/AnthropicAI/status/2061796327986454883"
-    },
-    {
-      "title": "ClaudeAI on Legora and Problem Solvers",
+      "title": "ClaudeAI on Legora Problem Solvers",
       "url": "https://x.com/claudeai/status/2061829558999912680"
     },
     {
@@ -268,11 +193,11 @@
       "url": "https://x.com/ClaudeDevs/status/2061877343078244459"
     },
     {
-      "title": "ClaudeDevs on self-check loops",
+      "title": "ClaudeDevs on self-checking Claude Code",
       "url": "https://x.com/ClaudeDevs/status/2061900434722496604"
     },
     {
-      "title": "ClaudeDevs on /fork update",
+      "title": "ClaudeDevs on /fork and /branch",
       "url": "https://x.com/ClaudeDevs/status/2061947411141169494"
     },
     {
@@ -280,8 +205,28 @@
       "url": "https://claude.com/blog/running-an-ai-native-engineering-org"
     },
     {
-      "title": "Claude Blog: A harness for every task: dynamic workflows in Claude Code",
+      "title": "Claude Blog: A harness for every task",
       "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code"
+    },
+    {
+      "title": "Thariq on workflows",
+      "url": "https://x.com/trq212/status/2061907538741006796"
+    },
+    {
+      "title": "Sid on workflows",
+      "url": "https://x.com/sidbid/status/2061917509595591100"
+    },
+    {
+      "title": "Thariq on ultracode trigger",
+      "url": "https://x.com/trq212/status/2061925433441227090"
+    },
+    {
+      "title": "Jarred on structuring projects into workflows",
+      "url": "https://x.com/jarredsumner/status/2061970846844121184"
+    },
+    {
+      "title": "Anthony Morris on remote-control regression",
+      "url": "https://x.com/amorriscode/status/2061814703656144960"
     },
     {
       "title": "Anthropic Engineering",
@@ -292,44 +237,16 @@
       "url": "https://www.anthropic.com/research"
     },
     {
-      "title": "Jarred Sumner on merged fix for Haiku fallback",
-      "url": "https://x.com/jarredsumner/status/2061645433844449640"
+      "title": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Jarred Sumner on model inheritance and Haiku choice",
-      "url": "https://x.com/jarredsumner/status/2061685894265057412"
-    },
-    {
-      "title": "Anthony Morris on remote-control diff pane regression",
-      "url": "https://x.com/amorriscode/status/2061814703656144960"
-    },
-    {
-      "title": "Anthony Morris on workflow misfire investigation",
-      "url": "https://x.com/amorriscode/status/2061822369216528541"
-    },
-    {
-      "title": "Thariq on workflows as a major Claude Code upgrade",
-      "url": "https://x.com/trq212/status/2061907538741006796"
-    },
-    {
-      "title": "Thariq on the new ultra code trigger word",
-      "url": "https://x.com/trq212/status/2061925433441227090"
-    },
-    {
-      "title": "AnthropicAI on the AI executive order",
-      "url": "https://x.com/AnthropicAI/status/2061924580222968183"
-    },
-    {
-      "title": "Claude Code releases",
+      "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.161",
+      "title": "Claude Code v2.1.161 release",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161"
-    },
-    {
-      "title": "Claude Code v2.1.160",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160"
     }
   ]
 }
