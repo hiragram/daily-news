@@ -1,0 +1,274 @@
+{
+  "date": "2026-06-04",
+  "windowLabel": "2026-06-03 03:01 JST - 2026-06-04 03:01 JST",
+  "archiveTitle": "Official 4, articles 5, release 1",
+  "archiveSummary": "公式 X 4 件、公式記事 5 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>@ClaudeDevs</strong> が <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック</strong>、<strong>/fork の background agent 化</strong>を案内し、<strong>@ClaudeAI</strong> は <strong>Ben James</strong> との creator spotlight を出した。公式サイトでは <strong>Claude Blog</strong> 3 本と <strong>Anthropic News / Research</strong> の 2 本が増え、engineer 側では <strong>workflows</strong>、<strong>overnight /goal</strong>、<strong>UX / perf</strong> を巡る実運用の補足が続いた。<strong>Claude Code v2.1.161</strong> は telemetry label、parallel tool call、agents / MCP / fullscreen の改善と多数の修正を含んで公開された。",
+  "summaryBullets": [
+    "<strong>Official X 4件</strong>: <strong>@ClaudeDevs</strong> は <strong>ant CLI</strong>、<strong>manual check の encode</strong>、<code>/fork</code> の background agent 化を案内し、<strong>@ClaudeAI</strong> は <strong>Ben James</strong> との creator spotlight を投稿した。<strong>@AnthropicAI</strong> の窓内 main post はあったが、Claude / Claude Code の product update ではなかった。",
+    "<strong>Official articles 5件</strong>: <strong>Claude Blog</strong> では <strong>How Anthropic enables self-service data analytics with Claude</strong>、<strong>Lessons from building Claude Code: How we use skills</strong>、<strong>Running an AI-native engineering org</strong> が並び、<strong>Anthropic News / Research</strong> では <strong>Services Track and Partner Hub</strong> と <strong>AI-enabled cyber threats</strong> が公開された。",
+    "<strong>Engineer signals 5件</strong>: <strong>Thariq</strong> と <strong>Sid</strong> は <strong>workflows</strong> を Claude Code の大きな転換点として語り、<strong>Jarred Sumner</strong> は large project を <strong>parallel Claude</strong> へ分解する発想を共有した。<strong>Ado</strong> は overnight <code>/goal</code> 運用を見せ、<strong>Anthony Morris</strong> は workflows の visualization と UX / perf の改善余地に触れた。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.161</strong>（<strong>2026-06-03 06:58 JST</strong>）の 1 件で、visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official post",
+      "datetime": "2026-06-04T02:09:06+09:00",
+      "displayTime": "2026-06-04 02:09 JST",
+      "title": "ClaudeAI が Ben James との creator spotlight を公開",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Ben James</strong> と、ものづくり、創造性、そして <strong>\"silly ideas matter\"</strong> という姿勢について話した creator spotlight を投稿した。新機能告知ではないが、Claude の周辺カルチャーを公式に押し出す発信として扱える。",
+      "url": "https://x.com/claudeai/status/2062220040934449596",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official product update",
+      "datetime": "2026-06-03T08:05:46+09:00",
+      "displayTime": "2026-06-03 08:05 JST",
+      "title": "ClaudeDevs が /fork を background agent 化し /branch を分離",
+      "summary": "<strong>@ClaudeDevs</strong> は、<code>/fork</code> が今後は <strong>現在の system prompt / tools / history / model / prompt cache を引き継いだ background agent</strong> として動き、結果だけを元 session に返す形になったと説明した。従来の transcript 複製型の挙動は <code>/branch</code> に移った。",
+      "url": "https://x.com/ClaudeDevs/status/2061947411141169494",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official product update",
+      "datetime": "2026-06-03T04:59:06+09:00",
+      "displayTime": "2026-06-03 04:59 JST",
+      "title": "ClaudeDevs が Claude Code の自己チェック運用を紹介",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Code が結果を返す前に <strong>自分で manual check を実行して feedback loop を閉じる</strong>やり方を動画で案内した。verification を prompt や workflow に埋め込む運用例として価値が高い。",
+      "url": "https://x.com/ClaudeDevs/status/2061900434722496604",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official product update",
+      "datetime": "2026-06-03T03:27:21+09:00",
+      "displayTime": "2026-06-03 03:27 JST",
+      "title": "ClaudeDevs が Claude Platform CLI の追加を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Platform</strong> の API endpoint を terminal から直接呼べる <strong>ant CLI</strong> を追加したと投稿した。<strong>Messages API</strong>、<strong>Claude Managed Agents</strong>、shell への結果パイプ、さらに <strong>Claude Code から claude-api skill 経由で扱える</strong>点を打ち出している。",
+      "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "AnthropicAI の窓内 main post は 1件、Claude 関連の product update は 0件",
+      "body": "<strong>@AnthropicAI</strong> の窓内 main post は <strong>White House の AI executive order</strong> 支持表明 1 件だった。公式アカウントの動き自体はあったが、Claude / Claude Code の新機能や運用変更ではないため main story から外した。"
+    },
+    {
+      "label": "Anthropic Engineering は 0件、Research 1件、News 2件、Claude Blog 3件",
+      "body": "<strong>Anthropic Engineering</strong> に新規公開はなかった。一方で <strong>Anthropic Research</strong> には <strong>Jun 3, 2026</strong> の <strong>AI-enabled cyber threats</strong>、<strong>Anthropic News</strong> には同記事と <strong>Services Track and Partner Hub</strong>、<strong>Claude Blog</strong> には <strong>June 3, 2026</strong> 付けの 3 本が見えた。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T12:52:00+09:00",
+      "displayTime": "2026-06-03 12:52 JST",
+      "title": "Ado が overnight /goal 運用を公開",
+      "summary": "<strong>@adocomplete</strong> は、Claude に <strong>open-ended overnight /goal</strong> を渡して寝ている間に build させる運用を共有した。手元 PC の update や interruption を気にしつつも、<strong>離席中に継続実行させる</strong>使い方が自然になってきたことを示している。",
+      "url": "https://x.com/adocomplete/status/2062019442692006170",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T13:19:23+09:00",
+      "displayTime": "2026-06-03 13:19 JST",
+      "title": "Anthony Morris が Claude Code の UX / perf 改善を継続中と説明",
+      "summary": "<strong>@amorriscode</strong> は、SemiAnalysis に対する reply で <strong>UX / perf</strong> に改善余地が多いことを認めつつ、継続的に手を入れていると述べた。別 reply では <strong>workflows 自体はすでにサポートしているが visualization が弱い</strong>とも触れており、今後の磨き込みポイントが見える。",
+      "url": "https://x.com/amorriscode/status/2062026336257163281",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T09:44:50+09:00",
+      "displayTime": "2026-06-03 09:44 JST",
+      "title": "Jarred Sumner が大規模作業を parallel Claude へ分解する発想を共有",
+      "summary": "<strong>@jarredsumner</strong> は、large project を見るときに <strong>\"as many parallel Claude’s as possible\"</strong> で workflow 化して考えるようになったと投稿した。続く thread では、<strong>remote control と workflows</strong> がここ半年で日常の engineering work を最も変えたとも述べ、並列 fan-out と serial post-processing の mental model を説明した。",
+      "url": "https://x.com/jarredsumner/status/2061970846844121184",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T06:06:57+09:00",
+      "displayTime": "2026-06-03 06:06 JST",
+      "title": "Sid が workflows で Claude Code の使い方が変わったと強調",
+      "summary": "<strong>@sidbid</strong> は、<strong>workflows have changed the way I use Claude Code</strong> と投稿した。続く reply では <strong>expensive だが workflow を小さくさせれば試しやすい</strong>とも補足しており、普及フェーズの実運用感が出ている。",
+      "url": "https://x.com/sidbid/status/2061917509595591100",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-03T05:27:20+09:00",
+      "displayTime": "2026-06-03 05:27 JST",
+      "title": "Thariq が workflows を Claude Code の大きな能力向上と位置付けた",
+      "summary": "<strong>@trq212</strong> は、<strong>workflows</strong> が <strong>skills と subagents 以来で最大の capability upgrade</strong> だと述べた。thread では <strong>Sonnet で足りる step が多い</strong>、<strong>determinism が agent teams より fit しやすい</strong>、そして trigger word が <strong>ultra code</strong> になったといった補足も出している。",
+      "url": "https://x.com/trq212/status/2061907538741006796",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Official 4件 / 公式記事 5件",
+      "body": "この窓では official X 4 件に加えて、公式サイト側も新規公開が多かった。<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>自己チェック運用</strong>、<strong>/fork と /branch の役割分離</strong>を案内し、<strong>@ClaudeAI</strong> は creator spotlight を出した。記事側では <strong>Claude Blog</strong> 3 本、<strong>Anthropic News</strong> 2 本、うち <strong>AI-enabled cyber threats</strong> は <strong>Research</strong> にも重複掲載されている。",
+      "details": [
+        "<strong>How Anthropic enables self-service data analytics with Claude</strong>（<strong>June 3, 2026</strong>）は、warehouse へ agent を直結するだけでは false precision を生みやすく、<strong>曖昧な business question を最新の data model / entity に正しく写像すること</strong>が self-service analytics の中核だと整理した。",
+        "<strong>Lessons from building Claude Code: How we use skills</strong>（<strong>June 3, 2026</strong>）は、Anthropic 内で <strong>hundreds of skills</strong> を運用して得た知見をまとめ、<strong>9 categories</strong> の分類、<strong>verification skills が最も measurable impact を持った</strong>という実感、そして plugin marketplace を含む配布方針を説明した。",
+        "<strong>Running an AI-native engineering org</strong>（<strong>June 3, 2026</strong>）は、agentic coding を前提にした組織運営として <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> へプロセスを寄せたことを整理した。",
+        "<strong>Introducing the Services Track and Partner Hub of the Claude Partner Network</strong>（<strong>Jun 3, 2026</strong>）は、Claude 導入支援 partner 向けに <strong>Select / Preferred / Global Premier</strong> の tier を設け、顧客が実績ある firms を見つけやすくする <strong>Partner Hub</strong> を公開した。",
+        "<strong>What we learned mapping a year’s worth of AI-enabled cyber threats</strong>（<strong>Jun 3, 2026</strong>）は、<strong>832 件の malicious cyber account</strong> を MITRE ATT&amp;CK に照らして分析し、AI が攻撃の後半工程や自律化を強め、既存フレームワークだけでは捉えきれない面があるとまとめた。<strong>Anthropic News</strong> と <strong>Anthropic Research</strong> の両方に掲載されている。",
+        "<strong>@AnthropicAI</strong> の窓内 post は <strong>White House の AI executive order</strong> 支持表明のみで、Claude / Claude Code の product update ではなかったため official main story には含めていない。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog を見る"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.161",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.161</strong> の 1 件だった。公開時刻は <strong>2026-06-03 06:58 JST</strong>。主な内容は、<strong>OTEL label の追加</strong>、<strong>parallel tool call</strong> や <strong>agents / MCP / fullscreen</strong> の改善、そして telemetry・background・MCP secret redaction・worktree 周りの多数の修正だった。",
+      "releases": [
+        {
+          "version": "v2.1.161",
+          "publishedAt": "2026-06-03 06:58 JST",
+          "summary": "OTEL label、agents / MCP / fullscreen / parallel tool calls の改善と、telemetry・background・MCP secret redaction・worktree などの多数の修正を含むアップデート。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>OTEL_RESOURCE_ATTRIBUTES</code> の値を metric datapoint の label に含めるようにし、team や repo などの custom dimension で usage metrics を切り分けられるようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>claude agents</code> の行表示で、work が fan-out されているときは detail の前に <code>done/total</code> を出すようにし、peek では最も長く走っている項目を見せるようにした。",
+                "<code>/mcp</code> で、まだ sign-in していない claude.ai connector は <strong>Show unused connectors</strong> 行の下に折りたたむようにした。",
+                "parallel tool call で Bash command が 1 つ失敗しても、同じ batch 内の他 call を cancel しないようにした。各 tool が独立して結果を返す。",
+                "fullscreen mode では、Linux で利用可能なら <code>wl-copy</code> / <code>xclip</code> / <code>xsel</code> を使って clipboard と PRIMARY selection の両方へコピーするようにし、<strong>hold {key} for native selection</strong> ヒントも terminal ごとに正しい key を表示するようにした。",
+                "layout engine の JIT compilation profile を安定化し、terminal rendering 性能を改善した。",
+                "大きな file write を描画するときの性能を改善した。",
+                "[VSCode] glyph が崩れる問題への対処として、terminal GPU acceleration を無効化するか <code>/terminal-setup</code> を実行する tip を追加した."
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>/effort</code> dialog、workflow animation、prompt keyword shimmer が <strong>Reduce motion</strong> 設定を尊重していなかった問題を修正した。",
+                "managed settings の <code>forceLoginOrgUUID</code> / <code>forceLoginMethod</code> policy が、org pin と同時に third-party provider session（Bedrock、Vertex、Foundry、Mantle）まで block してしまう問題を修正した。これは <code>2.1.146</code> の regression だった。",
+                "background subagent の output が、<code>--output-format text</code> または <code>json</code> 利用時の <code>claude -p</code> stdout を壊していた問題を修正した。",
+                "<code>/usage-credits</code> が Team / Enterprise admin に対して usage settings page へ案内すべきところで、re-login を始めてしまう問題を修正した。",
+                "<code>/autofix-pr</code> が、session が git worktree や別 repository の中にあると <strong>cannot run on the default branch</strong> と誤報する問題を修正した。",
+                "現在 directory が git worktree でない場合（たとえば jj workspace）に、<code>--resume</code> picker が current directory の session を表示しない問題を修正した。",
+                "Windows で、bash を明示的に呼ぶ hook（例: <code>/usr/bin/bash script.sh</code>）が <strong>command not found</strong> や <strong>cannot execute binary file</strong> で失敗する問題を修正した。",
+                "OpenTelemetry の log event（<code>user_prompt</code>、<code>api_request</code>、<code>tool_result</code>、<code>tool_decision</code>）が、telemetry 初期化完了前に出ると黙って落ちる問題を修正した。",
+                "<code>claude mcp</code> の list / get / add が secret を terminal に出してしまう問題を修正した。<code>${VAR}</code> 参照は展開せず、credential header と URL secret は redact する。",
+                "background session で <code>isolation: \"worktree\"</code> を使って起動した Workflow agent が、自分の worktree 内 file を編集できない問題を修正した。",
+                "<code>claude agents</code> から dispatch した background session が、<code>settings.json</code> ではなく daemon 側 environment の stale model で起動する問題を修正した。",
+                "session resume 後に Write tool result を描画すると crash することがある問題を修正した。",
+                "completed subagent が、result finalize 中の error で running 表示のまま stuck する問題を修正した。",
+                "<code>CLAUDE_CODE_TMPDIR</code> が深い path のとき、<code>$TMPDIR</code> 配下に Unix socket を bind する tool で <code>EADDRINUSE</code> error が出る問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
+          "urlLabel": "v2.1.161 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "engineer watch では Anthropic 関連 account の reply も確認したが、個人的な雑談、AI 一般論、Claude / Anthropic と直接関係しない話題は main signal から外した。",
+    "<strong>@AnthropicAI</strong> の <strong>2026-06-03 06:35 JST</strong> の post は <strong>White House の AI executive order</strong> への支持表明で、Claude / Claude Code の product update ではないため main story から外した。",
+    "公式記事は visible publication date ベースで窓判定したため、<strong>June 2, 2026</strong> やそれ以前の日付しか見えない記事は今回は採用していない。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.161</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した."
+  ],
+  "sources": [
+    {
+      "title": "ClaudeAI creator spotlight with Ben James",
+      "url": "https://x.com/claudeai/status/2062220040934449596"
+    },
+    {
+      "title": "ClaudeDevs on /fork and /branch",
+      "url": "https://x.com/ClaudeDevs/status/2061947411141169494"
+    },
+    {
+      "title": "ClaudeDevs on self-checking Claude Code",
+      "url": "https://x.com/ClaudeDevs/status/2061900434722496604"
+    },
+    {
+      "title": "ClaudeDevs on Claude Platform CLI",
+      "url": "https://x.com/ClaudeDevs/status/2061877343078244459"
+    },
+    {
+      "title": "AnthropicAI on White House AI executive order",
+      "url": "https://x.com/AnthropicAI/status/2061924580222968183"
+    },
+    {
+      "title": "Ado on overnight /goal",
+      "url": "https://x.com/adocomplete/status/2062019442692006170"
+    },
+    {
+      "title": "Anthony Morris on Claude Code UX and performance",
+      "url": "https://x.com/amorriscode/status/2062026336257163281"
+    },
+    {
+      "title": "Jarred Sumner on parallel Claude workflows",
+      "url": "https://x.com/jarredsumner/status/2061970846844121184"
+    },
+    {
+      "title": "Sid on workflows",
+      "url": "https://x.com/sidbid/status/2061917509595591100"
+    },
+    {
+      "title": "Thariq on workflows",
+      "url": "https://x.com/trq212/status/2061907538741006796"
+    },
+    {
+      "title": "Claude Blog: How Anthropic enables self-service data analytics with Claude",
+      "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"
+    },
+    {
+      "title": "Claude Blog: Lessons from building Claude Code: How we use skills",
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"
+    },
+    {
+      "title": "Claude Blog: Running an AI-native engineering org",
+      "url": "https://claude.com/blog/running-an-ai-native-engineering-org"
+    },
+    {
+      "title": "Anthropic News: Services Track and Partner Hub",
+      "url": "https://www.anthropic.com/news/services-track-partner-hub"
+    },
+    {
+      "title": "Anthropic News: AI-enabled cyber threats report",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code release notes v2.1.161",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
