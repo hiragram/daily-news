@@ -1,12 +1,12 @@
 {
   "date": "2026-06-03",
-  "windowLabel": "2026-06-02 15:02:30 JST - 2026-06-03 15:02:30 JST",
-  "archiveTitle": "Official 4, blog 2, release 1",
-  "archiveSummary": "公式 4 件、Claude Blog 2 件、Claude Code release 1 件。",
-  "latestSummary": "この 24 時間では <strong>@ClaudeDevs</strong> が <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック運用</strong>、<strong>/fork の background agent 化</strong>を連投し、<strong>Claude Blog</strong> には <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が入った。engineer 側では <strong>workflows / ultracode</strong> を巡る実運用の補足が続き、<strong>Claude Code v2.1.161</strong> は telemetry label、parallel tool call、agents / MCP / fullscreen 周りの改善と多数の修正を含んで公開された。",
+  "windowLabel": "2026-06-02 21:03:33 JST - 2026-06-03 21:03:33 JST",
+  "archiveTitle": "Official 5, articles 4, release 1",
+  "archiveSummary": "公式 X 5 件、公式記事 4 件、Claude Code release 1 件。",
+  "latestSummary": "この 24 時間では <strong>@ClaudeDevs</strong> が <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック運用</strong>、<strong>/fork の background agent 化</strong>を連投し、<strong>@AnthropicAI</strong> は <strong>Project Glasswing</strong> の拡大を案内した。公式サイトでは <strong>Claude Blog</strong> 2 本に加え、<strong>Anthropic News / Research</strong> に <strong>Glasswing</strong> と <strong>AI-enabled cyber threats</strong> の記事が入り、engineer 側では <strong>workflows / ultracode</strong> を巡る実運用の補足が続いた。<strong>Claude Code v2.1.161</strong> は telemetry label、parallel tool call、agents / MCP / fullscreen 周りの改善と多数の修正を含んで公開された。",
   "summaryBullets": [
-    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Legora</strong> を題材にした <strong>Problem Solvers</strong> 動画を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code に manual check を組み込む方法</strong>、<strong>/fork</strong> の新挙動を案内した。",
-    "<strong>Claude Blog 2件</strong>: <strong>Running an AI-native engineering org</strong> は <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を新しい運営原則として整理した。<strong>A harness for every task</strong> は、Claude Code が <strong>その場で multi-agent harness を書いて orchestrate する</strong> dynamic workflows の考え方と典型パターンを解説した。",
+    "<strong>Official X 5件</strong>: <strong>@ClaudeAI</strong> は <strong>Legora</strong> を題材にした <strong>Problem Solvers</strong> 動画を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code に manual check を組み込む方法</strong>、<strong>/fork</strong> の新挙動を案内した。<strong>@AnthropicAI</strong> は <strong>Project Glasswing</strong> の提供先を約 150 組織へ広げると告知した。",
+    "<strong>Official articles 4件</strong>: <strong>Running an AI-native engineering org</strong> は <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を新しい運営原則として整理した。<strong>A harness for every task</strong> は、Claude Code が <strong>その場で multi-agent harness を書いて orchestrate する</strong> dynamic workflows の考え方と典型パターンを解説した。Anthropic 側では <strong>Expanding Project Glasswing</strong> と <strong>What we learned mapping a year’s worth of AI-enabled cyber threats</strong> が追加された。",
     "<strong>Engineer signals 5件</strong>: <strong>Thariq</strong> と <strong>Sid</strong> は <strong>workflows</strong> が Claude Code の使い方を変えたと強調し、<strong>ultracode</strong> trigger、token 消費、durability、<strong>Sonnet</strong> の使い所を補足した。<strong>Jarred Sumner</strong> は large project を parallel workflow として分解する発想、<strong>Anthony Morris</strong> は <strong>remote-control diff pane regression</strong> と <strong>UX / perf</strong> 改善の継続を示した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.161</strong>（<strong>2026-06-03 06:58 JST</strong>）の 1 件で、visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
   ],
@@ -47,16 +47,25 @@
       "summary": "<strong>@ClaudeAI</strong> は、<strong>Legora</strong> の共同創業者兼 CEO である <strong>Max Junestrand</strong> を取り上げた <strong>Problem Solvers</strong> 動画を投稿した。新機能告知ではないが、<strong>Claude を使った legal workflow の顧客事例</strong>として公式発信に含める価値がある。",
       "url": "https://x.com/claudeai/status/2061829558999912680",
       "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official announcement",
+      "datetime": "2026-06-02T22:05:25+09:00",
+      "displayTime": "2026-06-02 22:05 JST",
+      "title": "AnthropicAI が Project Glasswing の拡大を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、<strong>Project Glasswing</strong> で <strong>Claude Mythos Preview</strong> へのアクセスを約 <strong>150 の追加組織</strong>に拡大したと投稿した。対象は <strong>15 か国超</strong>にまたがり、重要インフラやオープンソース保守組織を含む。Claude のサイバー防御用途を広げる公式シグナルとして重要度が高い。",
+      "url": "https://x.com/AnthropicAI/status/2061796327986454883",
+      "urlLabel": "X で見る"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI の Claude関連告知は 0件",
-      "body": "<strong>@AnthropicAI</strong> の窓内 main post は確認したが、<strong>Claude / Claude Code の product update</strong> ではなかったため main story には含めていない。Claude 関連の official X は今回は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が中心だった。"
+      "label": "AnthropicAI の main post は 2件、うち Claude 関連は 1件",
+      "body": "<strong>@AnthropicAI</strong> の窓内 main post は <strong>Project Glasswing</strong> 拡大と <strong>White House の AI executive order</strong> 支持表明の 2 件だった。このうち Claude / Anthropic product に直接ひもづく main story には <strong>Glasswing</strong> のみを採用した。"
     },
     {
-      "label": "Anthropic News / Engineering / Research は 0件",
-      "body": "<strong>Anthropic News</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> の各公式ページを確認したが、今回の 24 時間窓に入る新規公開は確認できなかった。<strong>Claude Blog</strong> は <strong>June 2, 2026</strong> と <strong>June 3, 2026</strong> の記事が 2 本あった。"
+      "label": "Anthropic Engineering は 0件",
+      "body": "<strong>Anthropic Engineering</strong> に新規公開はなかった。一方で <strong>Claude Blog</strong> は <strong>June 2, 2026</strong> と <strong>June 3, 2026</strong> の 2 本、<strong>Anthropic News</strong> には <strong>Jun 2, 2026</strong> の <strong>Expanding Project Glasswing</strong> と <strong>Jun 3, 2026</strong> の <strong>AI-enabled cyber threats</strong> が見えた。後者は <strong>Anthropic Research</strong> にも重複掲載されているため 1 件として扱った。"
     }
   ],
   "signals": [
@@ -111,11 +120,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Official 4件 / Claude Blog 2件",
-      "body": "この窓では official X が連続していた。<strong>@ClaudeAI</strong> は <strong>Legora</strong> 事例の動画を出し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック</strong>、<strong>/fork と /branch の役割分離</strong>を案内した。加えて <strong>Claude Blog</strong> では <strong>AI-native engineering org</strong> と <strong>dynamic workflows</strong> の 2 本が visible publication date ベースで窓内に入った。",
+      "headline": "Official 5件 / 公式記事 4件",
+      "body": "この窓では official X と公式記事の両方が多かった。<strong>@ClaudeAI</strong> は <strong>Legora</strong> 事例の動画を出し、<strong>@ClaudeDevs</strong> は <strong>Claude Platform CLI</strong>、<strong>Claude Code の自己チェック</strong>、<strong>/fork と /branch の役割分離</strong>を案内した。<strong>@AnthropicAI</strong> は <strong>Project Glasswing</strong> の拡大を告知し、公式サイト側では <strong>Claude Blog</strong> 2 本に加えて <strong>Anthropic News / Research</strong> に <strong>Glasswing</strong> と <strong>AI-enabled cyber threats</strong> の記事が visible publication date ベースで入った。",
       "details": [
         "<strong>Running an AI-native engineering org</strong>（<strong>June 3, 2026</strong>）は、Claude Code / Claude Cowork チームの新しい基本原則として <strong>just-in-time planning</strong>、<strong>ask Claude first</strong>、<strong>human review where expertise matters</strong> を整理した。",
         "<strong>A harness for every task: dynamic workflows in Claude Code</strong>（<strong>June 2, 2026</strong>）は、Claude Code が <strong>その場で custom multi-agent harness を書き、複雑な task に合わせて orchestration する</strong>仕組みと、<strong>classify-and-act</strong>、<strong>fan-out-and-synthesize</strong>、<strong>adversarial verification</strong> などの典型パターンを説明した。今回の窓では記事ページに見える <strong>publication date</strong> ベースで採用している。",
+        "<strong>Expanding Project Glasswing</strong>（<strong>Jun 2, 2026</strong>）は、<strong>Claude Mythos Preview</strong> を使う防御向けパートナーを約 <strong>150 組織</strong>へ広げ、重要インフラや open-source maintainer まで対象を拡張したと説明した。",
+        "<strong>What we learned mapping a year’s worth of AI-enabled cyber threats</strong>（<strong>Jun 3, 2026</strong>）は、<strong>832 件の malicious cyber account</strong> の分析から、AI が攻撃の後半工程まで threat level を押し上げ、既存の MITRE ATT&amp;CK だけでは捉えきれない面があると整理した。<strong>Anthropic News</strong> と <strong>Anthropic Research</strong> の両方に掲載されている。",
         "<strong>@ClaudeDevs</strong> の main post 群では、<strong>ant CLI</strong>、<strong>manual check の encode</strong>、<code>/fork</code> の background agent 化が順に案内された。<code>/branch</code> は旧来の transcript 複製型ワークフローを引き継ぐ。",
         "<strong>@AnthropicAI</strong> の窓内 post はあったが <strong>White House の AI executive order</strong> に対する支持表明で、Claude / Claude Code の product update ではないため main story から外した。"
       ],
@@ -181,9 +192,14 @@
   "exclusions": [
     "engineer watch では Anthropic 関連 account の reply も確認したが、個人的な雑談、イベント参加表明、Claude / Anthropic と直接関係しない話題は main signal から外した。",
     "<strong>@AnthropicAI</strong> の <strong>2026-06-03 06:35 JST</strong> の post は <strong>White House の AI executive order</strong> への支持表明で、Claude / Claude Code の product update ではないため main story から外した。",
+    "公式記事は visible publication date ベースで窓判定した。<strong>What we learned mapping a year’s worth of AI-enabled cyber threats</strong> は <strong>Anthropic News</strong> と <strong>Anthropic Research</strong> に重複掲載されているため 1 件として扱った。",
     "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.161</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
   ],
   "sources": [
+    {
+      "title": "AnthropicAI on Project Glasswing expansion",
+      "url": "https://x.com/AnthropicAI/status/2061796327986454883"
+    },
     {
       "title": "ClaudeAI on Legora Problem Solvers",
       "url": "https://x.com/claudeai/status/2061829558999912680"
@@ -207,6 +223,14 @@
     {
       "title": "Claude Blog: A harness for every task",
       "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code"
+    },
+    {
+      "title": "Anthropic News: Expanding Project Glasswing",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing"
+    },
+    {
+      "title": "Anthropic News: AI-enabled cyber threats report",
+      "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
     },
     {
       "title": "Thariq on workflows",
