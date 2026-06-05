@@ -1,14 +1,14 @@
 {
   "date": "2026-06-05",
-  "windowLabel": "2026-06-04 09:00:46 JST - 2026-06-05 09:00:46 JST",
-  "archiveTitle": "Official 2, articles 0, release 1",
-  "archiveSummary": "公式 X 2 件、公式記事 0 件、Claude Code release 1 件。",
-  "latestSummary": "この 24 時間では <strong>@AnthropicAI</strong> が <strong>recursive self-improvement</strong> を告知し、<strong>@ClaudeAI</strong> は <strong>Lovable</strong> の Anton Osika を spotlight した。公式記事は 0 件で、<strong>Claude Code v2.1.163</strong> は plugin・managed settings・hooks を広げつつ、CLI と agents 周りの不具合をまとめて修正した。",
+  "windowLabel": "2026-06-04 15:02:41 JST - 2026-06-05 15:02:41 JST",
+  "archiveTitle": "Official 2, articles 0, releases 2",
+  "archiveSummary": "公式 X 2 件、公式記事 0 件、Claude Code release 2 件。",
+  "latestSummary": "この 24 時間では <strong>@AnthropicAI</strong> が <strong>recursive self-improvement</strong> の論考を告知し、<strong>@ClaudeAI</strong> は <strong>Lovable</strong> の Anton Osika を spotlight した。公式記事は 0 件で、<strong>Claude Code</strong> は <strong>v2.1.165</strong> と <strong>v2.1.163</strong> の 2 本が連続公開され、後者では plugin・managed settings・hooks・agents 周りの更新と多数の修正が入った。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は Claude が AI 開発を加速しているという <strong>recursive self-improvement</strong> の論考を案内し、<strong>@ClaudeAI</strong> は <strong>Lovable</strong> の Anton Osika を builder / founder spotlight として紹介した。<strong>@ClaudeDevs</strong> の新規投稿はこの窓では確認されなかった。",
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は Claude が AI 開発を加速しているという <strong>recursive self-improvement</strong> の論考を案内し、<strong>@ClaudeAI</strong> は <strong>Lovable</strong> の Anton Osika を builder / founder spotlight として紹介した。<strong>@ClaudeDevs</strong> の新規 main post はこの窓では確認されなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各一覧を確認したが、この調査窓に visible publication date が入る新規記事は見当たらなかった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@alexalbert__</strong> は <strong>merged code の 80% 超</strong> を Claude が書いていると補足し、<strong>@jarredsumner</strong> は Claude Code internal build での <strong>Bun の Rust port</strong> を共有した。<strong>@_catwu</strong> は <strong>Claude Code の model performance</strong> を担当する PM 採用を告知した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.163</strong>（<strong>2026-06-05 06:52 JST</strong>）の 1 件で、visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
+    "<strong>Engineer signals 3件</strong>: <strong>@alexalbert__</strong> は <strong>merged code の 80% 超</strong> を Claude が書いていると補足し、<strong>@_catwu</strong> は <strong>Claude Code の model performance</strong> を担当する PM 採用を告知した。<strong>@amorriscode</strong> は desktop app の prompt 編集不具合について <strong>fix went in today</strong> と返信し、直近修正の存在を示した。",
+    "<strong>Claude Code releases 2件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.165</strong>（<strong>2026-06-05 14:45 JST</strong>）と <strong>v2.1.163</strong>（<strong>2026-06-05 06:52 JST</strong>）で、visible bullet を各 version ごとに <strong>新機能 / 変更 / 修正</strong> へ分けて全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -53,22 +53,22 @@
       "primary": true
     },
     {
-      "label": "Engineer signal",
-      "datetime": "2026-06-04T13:45:18+09:00",
-      "displayTime": "2026-06-04 13:45 JST",
-      "title": "Jarred Sumner が Claude Code 内部で Bun の Rust port を試験導入",
-      "summary": "<strong>@jarredsumner</strong> は、<strong>Bun の Rust port</strong> を Claude Code の internal build へ前夜から載せて試しており、1 日時点では大きな問題報告がないと述べた。続く reply では、workflow を使って <strong>Node v24 semantics から v26 への移行</strong> を進めていることにも触れている。",
-      "url": "https://x.com/jarredsumner/status/2062395246248599598",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
       "label": "Hiring signal",
       "datetime": "2026-06-05T07:15:29+09:00",
       "displayTime": "2026-06-05 07:15 JST",
       "title": "catwu が Claude Code model performance 担当 PM の採用を告知",
       "summary": "<strong>@_catwu</strong> は、<strong>Claude Code</strong> で <strong>model performance</strong> にフォーカスする PM の募集を告知した。agentic evals の経験と、research のアイデアを core product に統合する役割が明示されており、Claude Code の評価・性能改善を継続強化している signal と読める。",
       "url": "https://x.com/_catwu/status/2062659533047259212",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-06-05T14:07:43+09:00",
+      "displayTime": "2026-06-05 14:07 JST",
+      "title": "Anthony Morris が desktop app の prompt 編集不具合に修正投入を示唆",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code desktop app で <strong>prompt の途中や先頭を編集できない</strong> という報告 thread に対し、<strong>fix went in today</strong> と返信した。main launch ではないが、desktop app の入力まわりに直近修正が入ったことを示す運用 signal として扱える。",
+      "url": "https://x.com/amorriscode/status/2062763273104056798",
       "urlLabel": "X で見る"
     }
   ],
@@ -86,9 +86,24 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.163",
-      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.163</strong> の 1 件だった。公開時刻は <strong>2026-06-05 06:52 JST</strong>。managed settings、plugins、hooks、skills の拡張を入れつつ、<code>claude -p</code>、Bash、managed permissions、agents view、desktop app まわりの不具合を広く直している。",
+      "headline": "v2.1.165 / v2.1.163",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.165</strong> と <strong>v2.1.163</strong> の 2 件だった。公開時刻はそれぞれ <strong>2026-06-05 14:45 JST</strong> と <strong>2026-06-05 06:52 JST</strong>。<strong>v2.1.165</strong> は bug fixes と reliability improvements のみを短く案内し、<strong>v2.1.163</strong> では managed settings、plugins、hooks、skills、agents view、desktop app まわりの更新と不具合修正がまとまっている。",
       "releases": [
+        {
+          "version": "v2.1.165",
+          "publishedAt": "2026-06-05 14:45 JST",
+          "summary": "短い patch release で、visible note は bug fixes と reliability improvements の 1 行のみだった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "バグ修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
+          "urlLabel": "v2.1.165 release notes"
+        },
         {
           "version": "v2.1.163",
           "publishedAt": "2026-06-05 06:52 JST",
@@ -111,7 +126,7 @@
                 "background agent session は裏で新しい Claude Code version へ更新されるようになり、update 後に session を開く際の cold restart 待ちをなくした。",
                 "<code>/</code> menu に出る built-in command と skills の説明文を、より分かりやすい内容にした。",
                 "subscription の切り替え提案は toast ではなく startup announcement の slot に表示するようにした。",
-                "state-grouped view から <code>claude agents</code> を dispatch すると、agent view を開いた directory で session が始まるようにした."
+                "state-grouped view から <code>claude agents</code> を dispatch すると、agent view を開いた directory で session が始まるようにした。"
               ]
             },
             {
@@ -143,8 +158,8 @@
   "exclusions": [
     "engineer watch では monitored account の reply も確認したが、個人的な雑談、一般的な賛辞、直接の製品情報を含まないやり取り、単発の採用 repost は main signal から外した。",
     "公式記事の対象は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> に限定し、今回の窓では visible publication date が <strong>Jun 4, 2026</strong> または <strong>Jun 5, 2026</strong> の新規記事がなかったため 0 件とした。",
-    "<strong>@AnthropicAI</strong> の <strong>8x as much code written</strong> は recursive self-improvement 投稿への reply だったため、official X 本体ではなく engineer signal 側の補足文脈として扱った。",
-    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.163</strong> の visible bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
+    "<strong>@AnthropicAI</strong> の thread reply（<strong>8x as much code written</strong>、speedup correction など）は official-account skill の default に合わせて main post 扱いせず、必要な文脈は engineer signal と exclusion 側でのみ参照した。",
+    "Claude Code release notes は GitHub CLI で完全取得し、窓内 release だった <strong>v2.1.165</strong> と <strong>v2.1.163</strong> の visible bullet を version ごとに <strong>新機能 / 変更 / 修正</strong> へ分けて全項目を和訳した。"
   ],
   "sources": [
     {
@@ -164,12 +179,12 @@
       "url": "https://x.com/alexalbert__/status/2062580571214389510"
     },
     {
-      "title": "Jarred Sumner on Bun Rust port in Claude Code",
-      "url": "https://x.com/jarredsumner/status/2062395246248599598"
-    },
-    {
       "title": "catwu hiring for Claude Code model performance PM",
       "url": "https://x.com/_catwu/status/2062659533047259212"
+    },
+    {
+      "title": "Anthony Morris on desktop prompt editing fix",
+      "url": "https://x.com/amorriscode/status/2062763273104056798"
     },
     {
       "title": "Anthropic Engineering listing",
@@ -186,6 +201,10 @@
     {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code release v2.1.165",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165"
     },
     {
       "title": "Claude Code release v2.1.163",
