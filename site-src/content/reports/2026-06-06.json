@@ -1,14 +1,14 @@
 {
   "date": "2026-06-06",
-  "windowLabel": "2026-06-05 09:01:51 JST - 2026-06-06 09:01:51 JST",
-  "archiveTitle": "Official 2, articles 3, releases 1",
-  "archiveSummary": "公式 X 2 件、公式記事 3 件、Claude Code release 1 件。",
-  "latestSummary": "この 24 時間では <strong>@ClaudeAI</strong> が <strong>Claude Cowork</strong> の利用枠倍増を案内し、<strong>@AnthropicAI</strong> は <strong>Making Claude a chemist</strong> を告知した。公式記事は <strong>Research 1 件</strong> と <strong>Claude Blog 2 件</strong> が増え、<strong>Claude Code</strong> の窓内 release は <strong>v2.1.165</strong> の 1 件だった。",
+  "windowLabel": "2026-06-05 15:01:10 JST - 2026-06-06 15:01:10 JST",
+  "archiveTitle": "Official 2, articles 3, releases 2",
+  "archiveSummary": "公式 X 2 件、公式記事 3 件、Claude Code release 2 件。",
+  "latestSummary": "この 24 時間では <strong>@ClaudeAI</strong> が <strong>Claude Cowork</strong> の利用枠倍増を案内し、<strong>@AnthropicAI</strong> は <strong>Making Claude a chemist</strong> を告知した。公式記事は <strong>Research 1 件</strong> と <strong>Claude Blog 2 件</strong> が増え、<strong>Claude Code</strong> は <strong>v2.1.167</strong> と <strong>v2.1.166</strong> の 2 本が公開された。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Cowork</strong> の利用上限を今後 1 か月間倍増すると告知し、<strong>@AnthropicAI</strong> は <strong>Making Claude a chemist</strong> を案内した。<strong>@ClaudeDevs</strong> の新規 main post はこの窓では確認されなかった。",
-    "<strong>Official articles 3件</strong>: <strong>Anthropic Research</strong> に <strong>Making Claude a chemist</strong>、<strong>Claude Blog</strong> に <strong>The Claude Cowork product guide</strong> と <strong>How one Anthropic seller rebuilt his team's workflows with Claude Code</strong> が visible publication date <strong>June 5, 2026</strong> で並んだ。",
-    "<strong>Engineer signals 3件</strong>: <strong>@bcherny</strong> は Cowork が向く業務を具体化し、<strong>@trq212</strong> は earlier incident が <strong>infrastructure outage</strong> であり <strong>inference bug</strong> ではないと説明した。<strong>@amorriscode</strong> は <strong>Opus 4.7 / 4.8</strong> の不具合修正に着手し、その後 resolved を通知した。",
-    "<strong>Claude Code releases 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.165</strong>（<strong>2026-06-05 14:45 JST</strong>）のみだった。release note は短く、visible bullet の全項目を <strong>修正</strong> として和訳した。"
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は今後 1 か月の <strong>Claude Cowork</strong> 利用枠倍増を案内し、<strong>@AnthropicAI</strong> は <strong>Making Claude a chemist</strong> を紹介した。<strong>@ClaudeDevs</strong> の新規 main post はこの窓では確認されなかった。",
+    "<strong>Official articles 3件</strong>: <strong>Anthropic Research</strong> に <strong>Making Claude a chemist</strong>、<strong>Claude Blog</strong> に <strong>The Claude Cowork product guide</strong> と <strong>How one Anthropic seller rebuilt his team's workflows with Claude Code</strong> が visible publication date <strong>Jun 5 / June 5, 2026</strong> で並んだ。",
+    "<strong>Engineer signals 4件</strong>: <strong>@bcherny</strong> は Cowork の具体的な使いどころを補足し、<strong>@trq212</strong> は earlier incident が <strong>infrastructure outage</strong> であり <strong>inference bug</strong> ではないと説明した。<strong>@amorriscode</strong> は <strong>Opus 4.7 / 4.8</strong> 障害の修正対応と解消を通知し、別 thread では external login blocker 向け変更を近く出すと示した。",
+    "<strong>Claude Code releases 2件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.167</strong>（<strong>2026-06-06 10:33 JST</strong>）と <strong>v2.1.166</strong>（<strong>2026-06-06 09:55 JST</strong>）だった。visible bullet を各 version ごとに <strong>新機能 / 変更 / 修正</strong> へ分けて全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-06-06T07:01:15+09:00",
       "displayTime": "2026-06-06 07:01 JST",
       "title": "ClaudeAI が Claude Cowork の利用枠倍増を告知",
-      "summary": "<strong>@ClaudeAI</strong> は、今後 1 か月は <strong>Claude Cowork</strong> の usage limits を倍増し、より大きく複雑な task を委任できると案内した。個別機能追加ではないが、knowledge-work agent の実運用枠を広げる公式施策として重要度が高い。",
+      "summary": "<strong>@ClaudeAI</strong> は、今後 1 か月は <strong>Claude Cowork</strong> の usage limits を倍増し、より大きく複雑な task を委任できると案内した。knowledge-work agent の実運用枠を広げる公式施策として重要度が高い。",
       "url": "https://x.com/claudeai/status/2063018337567670285",
       "urlLabel": "X で見る",
       "primary": true
@@ -58,7 +58,7 @@
       "datetime": "2026-06-06T07:03:42+09:00",
       "displayTime": "2026-06-06 07:03 JST",
       "title": "Thariq が earlier incident は infra outage と説明",
-      "summary": "<strong>@trq212</strong> は、当日の customer-data leak 疑惑 thread に対し、問題は <strong>infrastructure outage</strong> であって <strong>inference bug</strong> ではなく、現時点で customer data leak の evidence は見ていないと説明した。公的発表ではないが、障害の性質を補足する運用 signal として重要度が高い。",
+      "summary": "<strong>@trq212</strong> は、当日の customer-data leak 疑惑 thread に対し、問題は <strong>infrastructure outage</strong> であって <strong>inference bug</strong> ではなく、現時点で customer data leak の evidence は見ていないと説明した。障害の性質を補足する運用 signal として重要度が高い。",
       "url": "https://x.com/trq212/status/2063018954201915491",
       "urlLabel": "X で見る",
       "primary": true
@@ -68,10 +68,19 @@
       "datetime": "2026-06-06T00:55:23+09:00",
       "displayTime": "2026-06-06 00:55 JST",
       "title": "Anthony Morris が Opus 4.7 / 4.8 障害の修正対応を告知",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Opus 4.7</strong> と <strong>Opus 4.8</strong> の問題に対して <strong>working on a fix</strong> と投稿し、その後別 post で issue resolved を案内した。モデル品質または可用性の当日対応が進み、短時間で収束したことを示す signal として扱える。",
+      "summary": "<strong>@amorriscode</strong> は、<strong>Opus 4.7</strong> と <strong>Opus 4.8</strong> の問題に対して <strong>working on a fix</strong> と投稿し、その後別 post で issue resolved を案内した。モデル品質または可用性の当日対応が短時間で収束したことを示す signal として扱える。",
       "url": "https://x.com/amorriscode/status/2062926263921377364",
       "urlLabel": "X で見る",
       "primary": true
+    },
+    {
+      "label": "Roadmap signal",
+      "datetime": "2026-06-06T00:04:23+09:00",
+      "displayTime": "2026-06-06 00:04 JST",
+      "title": "Anthony Morris が external login blocker 向け変更を近く出すと返信",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code app で <strong>@clerk</strong> や <strong>@authkit</strong> の external login flow が詰まるという report に対し、<strong>We're going to ship changes for this very soon</strong> と返信した。main announcement ではないが、app browser / auth 周辺の改善が近いことを示す product signal と読める。",
+      "url": "https://x.com/amorriscode/status/2062913431427285215",
+      "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
@@ -80,21 +89,21 @@
       "headline": "Research 1件 / Claude Blog 2件",
       "body": "この窓で visible publication date が入った公式記事は計 3 本だった。<strong>Anthropic Research</strong> では chemistry 向け研究の初回 white paper、<strong>Claude Blog</strong> では <strong>Claude Cowork</strong> の product guide と、Anthropic GTM チームの <strong>Claude Code</strong> 活用事例が並んだ。",
       "details": [
-        "<strong>Making Claude a chemist</strong>（<strong>Jun 5, 2026</strong>、Anthropic Research）は、Anthropic chemist と外部 chemist の協業として、<strong>Opus 4.7</strong> が NMR spectrum の予測や structure elucidation で専用ソフトに迫る、あるいは上回る結果を示したとまとめている。",
-        "<strong>The Claude Cowork product guide</strong>（<strong>June 5, 2026</strong>、Claude Blog）は、Claude Cowork の workflow、権限モデル、local file / connected apps / scheduled tasks、knowledge-work 向け plugin の使いどころを整理した導入ガイドになっている。",
-        "<strong>How one Anthropic seller rebuilt his team's workflows with Claude Code</strong>（<strong>June 5, 2026</strong>、Claude Blog）は、Jared Sires が <strong>Claude Code</strong> で Gmail 下書き補助や営業向け automation を作り、社内 sales workflow を plugin として展開した事例を紹介している。"
+        "<strong>Making Claude a chemist</strong>（<strong>Jun 5, 2026</strong>、Anthropic Research）は、Anthropic chemist と外部 chemist の協業として、<strong>Opus 4.7</strong> が NMR spectrum の予測や structure elucidation で専用ソフトに匹敵、または上回る結果を示したとまとめている。",
+        "<strong>The Claude Cowork product guide</strong>（<strong>June 5, 2026</strong>、Claude Blog）は、Claude Cowork の workflow、権限モデル、local file / connected apps / scheduled tasks、plugins の使いどころを整理した導入ガイドになっている。",
+        "<strong>How one Anthropic seller rebuilt his team's workflows with Claude Code</strong>（<strong>June 5, 2026</strong>、Claude Blog）は、Jared Sires が <strong>Claude Code</strong> で Gmail 下書き補助や営業向け automation を作り、社内 sales workflow を <strong>Claude Cowork plugin</strong> として展開した事例を紹介している。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog を見る"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.165",
-      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.165</strong> の 1 件だけだった。公開時刻は <strong>2026-06-05 14:45 JST</strong>。前回 report で窓内だった <strong>v2.1.163</strong> は、今回の 24 時間窓では開始時刻より前のため対象外になった。",
+      "headline": "v2.1.167 / v2.1.166",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.167</strong> と <strong>v2.1.166</strong> の 2 件だった。公開時刻はそれぞれ <strong>2026-06-06 10:33 JST</strong> と <strong>2026-06-06 09:55 JST</strong>。<strong>v2.1.167</strong> は短い patch release で、<strong>v2.1.166</strong> では fallback model、deny rule glob、cross-session messaging hardening、thinking toggle、interactive update UX、agent / terminal / managed settings まわりの更新と多数の修正が入った。",
       "releases": [
         {
-          "version": "v2.1.165",
-          "publishedAt": "2026-06-05 14:45 JST",
+          "version": "v2.1.167",
+          "publishedAt": "2026-06-06 10:33 JST",
           "summary": "短い patch release で、visible note は bug fixes と reliability improvements の 1 行のみだった。",
           "sections": [
             {
@@ -104,8 +113,53 @@
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
-          "urlLabel": "v2.1.165 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
+          "urlLabel": "v2.1.167 release notes"
+        },
+        {
+          "version": "v2.1.166",
+          "publishedAt": "2026-06-06 09:55 JST",
+          "summary": "fallback model、tool deny rules、cross-session messaging、thinking toggle、interactive update UX、agent / terminal / managed settings まわりの機能追加と改善に加え、多数の不具合修正がまとまって入った。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "primary model が overloaded または unavailable なときに、順番に最大 3 つの fallback model を試せる <code>fallbackModel</code> 設定を追加し、<code>--fallback-model</code> も interactive session に適用するようにした。",
+                "deny rule の tool-name 位置で glob pattern を使えるようにした。<code>\"*\"</code> は全 tools を拒否し、allow rule では non-MCP glob を拒否し、deny rule の unknown tool name は起動時 warning にした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "他の Claude session から <code>SendMessage</code> 経由で中継された message は user authority を持たないように harden し、受信側は relayed permission request を拒否し、auto mode でも block するようにした。",
+                "<code>MAX_THINKING_TOKENS=0</code>、<code>--thinking disabled</code>、model ごとの thinking toggle で、Claude API 上で既定で think する model の thinking を無効化できるようにした（3P provider は変更なし）。",
+                "Claude Code は API が unexpected non-retryable error を返したとき、fallback model で 1 回だけ turn を retry するようにした。一方で auth、rate-limit、request-size、transport error は即時 surface する。",
+                "<code>claude update</code> は download 前に target version を告知するようになり、silent に見えないようにした。",
+                "<code>claude agents</code> では、list に URL を入力すると、その URL を最初の prompt に含む session へ filter できるようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "unprocessable な image を session に送ったときに recurring していた <code>image could not be processed</code> error と、余分な token 消費を修正した。",
+                "worker registration の起動時に短い backend disruption が起きた場合、remote session が permanently stuck する問題を修正した。",
+                "JetBrains IDE terminal（IntelliJ、PyCharm、WebStorm など）の 2026.1+ で flickering する問題を、synchronized output を有効にして修正した。",
+                "Kitty keyboard protocol を使う terminal（WezTerm、Ghostty、kitty）で、<code>Shift+ä → Ä</code> のような Shift+non-ASCII 文字が落ちる問題を修正した。",
+                "Windows で killed process の child が output pipe を保持していると、PowerShell command validation が time budget を大きく超えて hang することがある問題を修正した。",
+                "macOS で daemon が死んだあとに接続中だった orphaned <code>claude --bg-pty-host</code> process が 100% CPU で回り続ける問題を修正した。",
+                "<code>/voice</code> 切り替え後に stale auth check を消すため <code>/login</code> が必要になっていた問題を修正した。",
+                "managed settings に invalid entry が 1 つあるだけで、残りの valid policy enforcement まで silently disable される問題を修正した。",
+                "<code>allowedMcpServers</code> / <code>deniedMcpServers</code> predicate が <code>${VAR}</code> reference を使うと match しない問題を修正した。",
+                "git worktree に入った background agent session を <code>claude agents</code> から再オープンすると <code>No conversation found</code> で crash-loop する問題を修正した。",
+                "Ctrl+O transcript view の streaming 中に thinking text が重複表示される問題を修正した。",
+                "remote session 内で <code>/doctor</code> を実行すると、<code>Not inside a remote session</code> failed check が矛盾して表示される問題を修正した。",
+                "<code>claude agents</code> の dispatch / reply input で multiline prompt を打つと、cursor が 1 行目末尾に張り付く問題を修正した。",
+                "Unicode 非対応 terminal で task list の background agent row の間に blank line が入る問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
+          "urlLabel": "v2.1.166 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -113,10 +167,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post のみを対象にし、reply と repost は default 設定どおり main summary から外した。",
-    "engineer watch では関連 reply も確認したが、雑談、個人的なやり取り、製品情報を含まない短い反応、単なる quote/repost は signal から外した。",
+    "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。",
+    "engineer watch では monitored account の reply も確認したが、個人的な雑談、一般的な賛辞、製品情報を含まない短い反応、単なる quote / repost は signal から外した。",
     "公式記事は publish time が見えず <strong>visible publication date</strong> のみ判定できる場合があるため、<strong>Jun 5 / June 5, 2026</strong> 表示の Anthropic Research / Claude Blog 記事は date ベースでこの窓に採用している。",
-    "Claude Code release notes は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.165</strong> のみと判定した。<strong>v2.1.163</strong> は <strong>2026-06-05 06:52 JST</strong> 公開で、今回の窓開始 <strong>2026-06-05 09:01:51 JST</strong> より前のため除外した。"
+    "Claude Code release notes は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.167</strong> と <strong>v2.1.166</strong> の 2 件だけと判定した。<strong>v2.1.165</strong> は <strong>2026-06-05 14:45 JST</strong> 公開で、今回の窓開始 <strong>2026-06-05 15:01:10 JST</strong> より前のため除外した。"
   ],
   "sources": [
     {
@@ -164,12 +218,20 @@
       "url": "https://x.com/amorriscode/status/2062967230967550464"
     },
     {
+      "title": "Anthony Morris on shipping auth-related changes soon",
+      "url": "https://x.com/amorriscode/status/2062913431427285215"
+    },
+    {
       "title": "Claude status",
       "url": "https://status.claude.com/"
     },
     {
-      "title": "Claude Code release v2.1.165",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165"
+      "title": "Claude Code release v2.1.167",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167"
+    },
+    {
+      "title": "Claude Code release v2.1.166",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166"
     }
   ]
 }
