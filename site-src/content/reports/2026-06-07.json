@@ -1,14 +1,14 @@
 {
   "date": "2026-06-07",
-  "windowLabel": "2026-06-06 15:03:22 JST - 2026-06-07 15:03:22 JST",
+  "windowLabel": "2026-06-06 21:02:24 JST - 2026-06-07 21:02:24 JST",
   "archiveTitle": "Signals 3, release 1, official 0",
   "archiveSummary": "公式更新は0件、エンジニア signal 3 件、Claude Code release 1 件。",
-  "latestSummary": "この24時間では <strong>公式X</strong> と <strong>公式ブログ</strong> の新着はなく、Anthropic メンバーからは <strong>Claude apps / workflows 改善</strong>、<strong>browser / computer use</strong>、<strong>custom groups の自動分類</strong> に関する signal が出た。<strong>Claude Code</strong> は <strong>v2.1.168</strong> を公開し、release note は <strong>bug fixes and reliability improvements</strong> の 1 項目だった。",
+  "latestSummary": "この24時間では <strong>公式X</strong> と <strong>公式ブログ</strong> の新着はなく、Anthropic メンバーからは <strong>Claude Design の不具合報告を team に共有</strong>、<strong>design 担当へのタグ付け歓迎</strong>、<strong>Claude Code workflows / apps 改善継続</strong> の signal が出た。<strong>Claude Code</strong> は <strong>v2.1.168</strong> を公開し、release note の全項目は <strong>修正</strong> の 1 件だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を直近 24 時間窓で確認したが、新規投稿は見つからなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この窓に入る新規記事はなかった。直近表示は <strong>Research が Jun 5, 2026</strong>、<strong>News が Jun 3, 2026</strong>、<strong>Engineering が Apr 23, 2026</strong>、<strong>Claude Blog が Jun 5, 2026</strong> だった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@sidbid</strong> は Claude Code workflow への反応として <strong>apps will only get better</strong> と返信し、<strong>@amorriscode</strong> は <strong>browser / computer use</strong> 対応を明言したうえで、<strong>custom groups</strong> に prompt を与えて Claude が自動分類する案を示した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.168</strong>（<strong>2026-06-07 08:41 JST</strong>）のみだった。release note の visible bullet は 1 項目で、<strong>修正</strong> に全量和訳して収録した。"
+    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は Claude Design の不具合報告を <strong>sharing with the team</strong> と応答し、続けて design 担当へのタグ付けも歓迎した。<strong>@sidbid</strong> は Claude Code workflows に対して <strong>apps will only get better</strong> と返信した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.168</strong>（<strong>2026-06-07 08:41 JST</strong>）のみだった。release note の visible bullet は 1 項目で、<strong>新機能</strong> と <strong>変更</strong> は 0 件、<strong>修正</strong> に全量和訳して収録した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -23,32 +23,32 @@
   ],
   "signals": [
     {
+      "label": "Support signal",
+      "datetime": "2026-06-07T08:09:29+09:00",
+      "displayTime": "2026-06-07 08:09 JST",
+      "title": "Anthony Morris が Claude Design の不具合報告を team に共有",
+      "summary": "<strong>@amorriscode</strong> は、Claude Design で design variations が途中停止して <code>show_html</code> 呼び出しで終わるという既存バグ報告に対して <strong>sharing with the team</strong> と返信した。公開 reply として、design 系不具合が認識され、内部共有に回ったことを示す support signal と見てよい。",
+      "url": "https://x.com/amorriscode/status/2063397897279049878",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
       "label": "Workflow signal",
       "datetime": "2026-06-07T00:25:57+09:00",
       "displayTime": "2026-06-07 00:25 JST",
       "title": "Sid が Claude Code workflow に対して apps 改善を示唆",
-      "summary": "<strong>@sidbid</strong> は、Miles Brundage の <strong>Claude Code workflow</strong> 評価に対して <strong>Glad you're enjoying workflows. The apps will only get better!</strong> と返信した。workflow 自体の継続改善と、apps 系統の統合・改善余地を示す軽い product signal と見てよい。",
+      "summary": "<strong>@sidbid</strong> は、Miles Brundage の <strong>Claude Code workflow</strong> 評価に対して <strong>Glad you're enjoying workflows. The apps will only get better!</strong> と返信した。workflow 体験を維持しつつ、apps 系統の改善が続くことを示す軽い product signal と見てよい。",
       "url": "https://x.com/sidbid/status/2063281243731718172",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Capability signal",
-      "datetime": "2026-06-06T16:57:00+09:00",
-      "displayTime": "2026-06-06 16:57 JST",
-      "title": "Anthony Morris が Cowork の browser / computer use 対応を明言",
-      "summary": "<strong>@amorriscode</strong> は、Claude Cowork の実行経路を問う reply に対して <strong>We support browser and computer use!</strong> と回答した。Cowork が単なる検索や要約ではなく、browser / computer use を伴う実行能力を持つことを示す signal になっている。",
-      "url": "https://x.com/amorriscode/status/2063168263966912695",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "UX signal",
-      "datetime": "2026-06-06T16:52:33+09:00",
-      "displayTime": "2026-06-06 16:52 JST",
-      "title": "Anthony Morris が custom groups への自動分類案を共有",
-      "summary": "<strong>@amorriscode</strong> は、session grouping の要望に対して、現状は <strong>custom groups</strong> が最有力であり、将来的には各 group に prompt を持たせて <strong>Claude will classify for you</strong> と述べた。session 整理 UX に自動分類を入れる方向性の示唆として有用。",
-      "url": "https://x.com/amorriscode/status/2063167144544940418",
+      "label": "Support signal",
+      "datetime": "2026-06-07T18:08:49+09:00",
+      "displayTime": "2026-06-07 18:08 JST",
+      "title": "Anthony Morris が Claude Design 担当へのタグ付けを歓迎",
+      "summary": "<strong>@amorriscode</strong> は、同じ Claude Design の不具合報告スレッドで <strong>Happy to be tagged!</strong> と返信し、design 関連の報告で自分や関係者をタグ付けしてよいと示した。サポート窓口と triage 導線が比較的オープンであることを示す補助 signal になっている。",
+      "url": "https://x.com/amorriscode/status/2063548722999681404",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -77,6 +77,18 @@
           "summary": "短い patch release で、visible note は bug fixes and reliability improvements の 1 項目のみだった。",
           "sections": [
             {
+              "title": "新機能",
+              "items": [
+                "該当項目なし。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "該当項目なし。"
+              ]
+            },
+            {
               "title": "修正",
               "items": [
                 "不具合修正と信頼性改善を行った。"
@@ -94,8 +106,8 @@
   "exclusions": [
     "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。",
     "engineer watch では monitored account の投稿を広く確認したが、個人的な雑談、採用あいさつ、ハードウェア趣味、製品情報を含まない短い反応は signal から外した。",
-    "公式記事は visible publication date がすべて今回の窓開始 <strong>2026-06-06 15:03:22 JST</strong> より前で、新規記事はなかったため一覧から除外した。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.168</strong> のみと判定した。<strong>v2.1.167</strong> は <strong>2026-06-06 10:33 JST</strong> 公開で、今回の窓開始より前のため除外した。"
+    "公式記事は visible publication date がすべて今回の窓開始 <strong>2026-06-06 21:02:24 JST</strong> より前で、新規記事はなかったため一覧から除外した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.168</strong> のみと判定した。<strong>v2.1.167</strong> と <strong>v2.1.166</strong> はともに <strong>2026-06-06 21:02:24 JST</strong> より前の公開だったため除外した。"
   ],
   "sources": [
     {
@@ -115,20 +127,24 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Anthony Morris on sharing Claude Design issue with the team",
+      "url": "https://x.com/amorriscode/status/2063397897279049878"
+    },
+    {
+      "title": "Anthony Morris on tagging for Claude Design issue reports",
+      "url": "https://x.com/amorriscode/status/2063548722999681404"
+    },
+    {
+      "title": "Rawwhul Claude Design bug report thread",
+      "url": "https://x.com/threatner_/status/2061110226691244414"
+    },
+    {
       "title": "Sid on Claude Code workflows and apps",
       "url": "https://x.com/sidbid/status/2063281243731718172"
     },
     {
       "title": "Miles Brundage on Claude Code workflow",
       "url": "https://x.com/Miles_Brundage/status/2063114151321592297"
-    },
-    {
-      "title": "Anthony Morris on browser and computer use support",
-      "url": "https://x.com/amorriscode/status/2063168263966912695"
-    },
-    {
-      "title": "Anthony Morris on custom groups classification",
-      "url": "https://x.com/amorriscode/status/2063167144544940418"
     },
     {
       "title": "Claude Code releases",
