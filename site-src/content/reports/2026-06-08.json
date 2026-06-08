@@ -1,34 +1,44 @@
 {
   "date": "2026-06-08",
-  "windowLabel": "2026-06-07 09:02:52 JST - 2026-06-08 09:02:52 JST",
-  "archiveTitle": "Signals 1, release 1, official 0",
-  "archiveSummary": "公式更新は0件、エンジニア signal 1 件、Claude Code release 1 件。",
-  "latestSummary": "この24時間では <strong>公式X</strong> と <strong>公式ブログ</strong> の新着はなく、Anthropic メンバーからは <strong>Claude Design の不具合報告で担当者タグ付け歓迎</strong> の support signal が 1 件出た。<strong>Claude Code</strong> は <strong>v2.1.168</strong> を公開し、release note の全項目は <strong>修正</strong> の 1 件だった。",
+  "windowLabel": "2026-06-07 15:01:27 JST - 2026-06-08 15:01:26 JST",
+  "archiveTitle": "Signals 2, release 1, official 0",
+  "archiveSummary": "公式更新は0件、エンジニア signal 2件、Claude Code release 1件。",
+  "latestSummary": "この24時間では <strong>公式X</strong> と <strong>公式ブログ/ニュース</strong> の新着はなく、Anthropic メンバーからは <strong>Boris Cherny の長時間 Opus 運用 tips</strong> と <strong>Anthony Morris の Claude Code changelog / desktop feature 補足</strong> が出た。<strong>Claude Code</strong> は <strong>v2.1.168</strong> を公開し、release note の全項目は <strong>修正</strong> の 1 件だった。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を直近 24 時間窓で確認したが、新規投稿は見つからなかった。",
-    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この窓に入る新規記事はなかった。直近表示は <strong>Research が Jun 5, 2026</strong>、<strong>News が Jun 3, 2026</strong>、<strong>Engineering が Apr 23, 2026</strong>、<strong>Claude Blog が May 19, 2026</strong> だった。",
-    "<strong>Engineer signals 1件</strong>: <strong>@amorriscode</strong> は Claude Design の不具合報告スレッドで <strong>Happy to be tagged!</strong> と返信し、design 関連の報告で担当者をタグ付けしてよいと明示した。",
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を直近24時間窓で確認したが、新規投稿は見つからなかった。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この窓に入る新規記事はなかった。最新表示は <strong>Engineering が Apr 23, 2026</strong>、<strong>Research が Jun 5, 2026</strong>、<strong>News が Jun 3, 2026</strong>、<strong>Claude Blog が Jun 5, 2026</strong> だった。",
+    "<strong>Engineer signals 2件</strong>: <strong>@bcherny</strong> は Opus を長時間自律実行させる実務 tips を共有し、follow-up reply で <strong>/usage</strong> の確認、<strong>workflow</strong> の利用、<strong>self-verification + browser E2E</strong> を勧めた。<strong>@amorriscode</strong> は Claude Code Desktop の changelog がすでに app 内で公開済みだと説明し、より多く投稿する意向も示した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で確認した窓内 release は <strong>v2.1.168</strong>（<strong>2026-06-07 08:41 JST</strong>）のみだった。release note の visible bullet は 1 項目で、<strong>新機能</strong> と <strong>変更</strong> は 0 件、<strong>修正</strong> に全量和訳して収録した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
     {
       "label": "公式 X の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を対象に main post を確認したが、この 24 時間窓では新規投稿は見つからなかった。公式 X 側の増分はゼロだった。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を対象に main post を確認したが、この24時間窓では新規投稿は見つからなかった。公式 X 側の増分はゼロだった。"
     },
     {
       "label": "公式記事の新規追加は 0件",
-      "body": "<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、今回の窓に入る新規記事はなかった。直近表示は <strong>Research が Jun 5, 2026</strong>、<strong>News が Jun 3, 2026</strong>、<strong>Engineering が Apr 23, 2026</strong>、<strong>Claude Blog が May 19, 2026</strong> だった。"
+      "body": "<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、今回の窓に入る新規記事はなかった。最新表示は <strong>Engineering が Apr 23, 2026</strong>、<strong>Research が Jun 5, 2026</strong>、<strong>News が Jun 3, 2026</strong>、<strong>Claude Blog が Jun 5, 2026</strong> だった。"
     }
   ],
   "signals": [
     {
-      "label": "Support signal",
-      "datetime": "2026-06-07T18:08:49+09:00",
-      "displayTime": "2026-06-07 18:08 JST",
-      "title": "Anthony Morris が Claude Design 担当へのタグ付けを歓迎",
-      "summary": "<strong>@amorriscode</strong> は、Claude Design の不具合報告スレッドで <strong>Happy to be tagged!</strong> と返信し、design 関連の報告で自分や関係者をタグ付けしてよいと示した。サポート窓口と triage 導線が比較的オープンであることを示す support signal と見てよい。",
-      "url": "https://x.com/amorriscode/status/2063548722999681404",
+      "label": "Workflow signal",
+      "datetime": "2026-06-08T10:16:33+09:00",
+      "displayTime": "2026-06-08 10:16 JST",
+      "title": "Boris Cherny が長時間 Opus 運用の実務 tips を共有",
+      "summary": "<strong>@bcherny</strong> は、<strong>Opus が long-running work に強い</strong>という benchmark を踏まえ、数時間から数日スパンの自律実行に向く運用 tips を共有した。follow-up では <strong>/usage</strong> で token 消費内訳を確認できること、<strong>workflow</strong> を使わせること、<strong>self-verification</strong> と browser E2E を組み合わせること、長時間 session でも <strong>Opus 4.8 では context rot を強く感じない</strong> という見立てを示した。",
+      "url": "https://x.com/bcherny/status/2063792263067754658",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Desktop signal",
+      "datetime": "2026-06-08T12:39:51+09:00",
+      "displayTime": "2026-06-08 12:39 JST",
+      "title": "Anthony Morris が Claude Code Desktop の changelog 公開状況を補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code Desktop で <strong>session を新しい window で開ける機能</strong> が見つかったという利用者の指摘に対し、<strong>in-app changelog はすでに静かに公開済み</strong> であり、<strong>日本から戻ったらより多く投稿する</strong> と返信した。desktop feature の告知導線と changelog の存在を明示した signal と見てよい。",
+      "url": "https://x.com/amorriscode/status/2063858523042406737",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -37,11 +47,11 @@
     {
       "title": "ブログ",
       "headline": "0件",
-      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> のいずれにも、この 24 時間窓に入る新規記事はなかった。",
+      "body": "公式サイトの visible publication date を確認したところ、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> のいずれにも、この24時間窓に入る新規記事はなかった。",
       "details": [
-        "<strong>Anthropic Research</strong> の最新 visible publication date は <strong>Jun 5, 2026</strong> の <strong>Making Claude a chemist</strong> だった。",
-        "<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 3, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong> だった。",
-        "<strong>Claude Blog</strong> の visible newest article は <strong>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</strong> で、表示日は <strong>May 19, 2026</strong> だった。"
+        "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
+        "<strong>Anthropic Research</strong> の最新 visible publication date は <strong>Jun 5, 2026</strong> の <strong>Making Claude a chemist</strong>、<strong>Anthropic News</strong> は <strong>Jun 3, 2026</strong> だった。",
+        "<strong>Claude Blog</strong> の newest visible article は <strong>How one Anthropic seller rebuilt his team's workflows with Claude Code</strong> と <strong>The Claude Cowork product guide</strong> で、表示日はどちらも <strong>Jun 5, 2026</strong> だった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "公式記事一覧を見る"
@@ -49,12 +59,12 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.168",
-      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.168</strong> の 1 件のみだった。公開時刻は <strong>2026-06-07 08:41 JST</strong>。release note の visible bullet は 1 項目で、内容は bug fixes and reliability improvements の短い patch release だった。",
+      "body": "GitHub CLI で確認した窓内 release は <strong>v2.1.168</strong> の1件のみだった。公開時刻は <strong>2026-06-07 08:41 JST</strong>。release note の visible bullet は1項目で、短い patch release だった。",
       "releases": [
         {
           "version": "v2.1.168",
           "publishedAt": "2026-06-07 08:41 JST",
-          "summary": "短い patch release で、visible note は bug fixes and reliability improvements の 1 項目のみだった。",
+          "summary": "短い patch release で、visible note は bug fixes and reliability improvements の1項目のみだった。",
           "sections": [
             {
               "title": "新機能",
@@ -85,9 +95,9 @@
   ],
   "exclusions": [
     "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。",
-    "engineer watch では monitored account の投稿を広く確認したが、個人的な雑談、採用あいさつ、ハードウェア趣味、製品情報を含まない短い反応は signal から外した。",
-    "前日レポートに含まれていた <strong>@amorriscode</strong> の team 共有返信と <strong>@sidbid</strong> の workflow 返信は、ともに今回の窓開始 <strong>2026-06-07 09:02:52 JST</strong> より前だったため除外した。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.168</strong> のみと判定した。<strong>v2.1.167</strong> と <strong>v2.1.166</strong> はともに <strong>2026-06-07 09:02:52 JST</strong> より前の公開だったため除外した。"
+    "engineer watch では monitored account の投稿を広く確認したが、旅行写真、個人的な雑談、F1 への反応、AI製品情報を含まない短いやり取りは signal から外した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.168</strong> のみと判定した。<strong>v2.1.167</strong> と <strong>v2.1.166</strong> はどちらも窓開始の <strong>2026-06-07 15:01:27 JST</strong> より前の公開だったため除外した。",
+    "Claude Blog の最新 visible article 群は <strong>Jun 5, 2026</strong> で、今回の24時間窓には入らなかったため panel は <strong>0件</strong> とした。"
   ],
   "sources": [
     {
@@ -107,12 +117,32 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Anthony Morris on tagging for Claude Design issue reports",
-      "url": "https://x.com/amorriscode/status/2063548722999681404"
+      "title": "Boris Cherny on long-running Opus workflows",
+      "url": "https://x.com/bcherny/status/2063792263067754658"
     },
     {
-      "title": "Rawwhul Claude Design bug report thread",
-      "url": "https://x.com/threatner_/status/2061110226691244414"
+      "title": "Boris Cherny on /usage breakdown",
+      "url": "https://x.com/bcherny/status/2063831004004127133"
+    },
+    {
+      "title": "Boris Cherny on self-verification and browser E2E",
+      "url": "https://x.com/bcherny/status/2063793737365696576"
+    },
+    {
+      "title": "Boris Cherny on Opus 4.8 and context rot",
+      "url": "https://x.com/bcherny/status/2063830798374162791"
+    },
+    {
+      "title": "Anthony Morris on in-app changelog",
+      "url": "https://x.com/amorriscode/status/2063820319744561385"
+    },
+    {
+      "title": "Anthony Morris on posting more changelog updates",
+      "url": "https://x.com/amorriscode/status/2063858523042406737"
+    },
+    {
+      "title": "Stefan Olson on Claude Code Desktop session window feature",
+      "url": "https://x.com/stefanolson/status/2063792426402341292"
     },
     {
       "title": "Claude Code releases",
