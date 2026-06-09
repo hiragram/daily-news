@@ -1,26 +1,16 @@
 {
   "date": "2026-06-09",
-  "windowLabel": "2026-06-08 15:03:11 JST - 2026-06-09 15:03:10 JST",
-  "archiveTitle": "Official 5, signals 3, release 1",
-  "archiveSummary": "公式更新5件、エンジニア signal 3件、Claude Code release 1件。",
-  "latestSummary": "この24時間では <strong>ClaudeDevs</strong> が Claude Code 一般公開1周年の振り返り動画を案内し、<strong>@ClaudeAI</strong> は <strong>Code with Claude Tokyo</strong> の最終告知を投稿した。公式サイトでは <strong>biology 向け agent 基盤</strong>、<strong>connector observability</strong>、<strong>Apple Foundation Models framework 向け Claude 連携</strong> の新着が出た。Anthropic メンバーからは <strong>Boris Cherny の長時間 Opus 運用 tips</strong>、<strong>Sid の dynamic workflows 評価</strong>、<strong>Anthony Morris の desktop changelog 補足</strong> が見つかり、<strong>Claude Code v2.1.169</strong> では <strong>safe mode</strong>、<strong>/cd</strong>、多数の Windows/MCP/agent 修正が入った。",
+  "windowLabel": "2026-06-08 21:03:14 JST - 2026-06-09 21:03:14 JST",
+  "archiveTitle": "Official 4, signals 2, release 1",
+  "archiveSummary": "公式更新4件、エンジニア signal 2件、Claude Code release 1件。",
+  "latestSummary": "この24時間では <strong>@ClaudeAI</strong> が <strong>Code with Claude Tokyo</strong> の最終告知を出し、<strong>@ClaudeDevs</strong> は <strong>connector observability dashboard</strong> と <strong>Claude Code GA 1周年の振り返り動画</strong> を案内した。<strong>@AnthropicAI</strong> は biology 向け agent 基盤の新記事を告知し、エンジニア側では <strong>Boris Cherny</strong> と <strong>Sid</strong> が auto mode / dynamic workflows の運用感を共有した。<strong>Claude Code v2.1.169</strong> では <strong>safe mode</strong>、<strong>/cd</strong>、多数の reliability 修正が入った。",
   "summaryBullets": [
-    "<strong>Official channels 5件</strong>: 公式 X と公式記事を重複排除して集約すると、<strong>Claude Code 1周年の振り返り動画</strong>、<strong>Code with Claude Tokyo の最終告知</strong>、<strong>biology 向け agent 基盤の研究記事</strong>、<strong>connector observability と in-app submission</strong>、<strong>Apple Foundation Models framework 向け Claude 連携</strong> の5件が新規イベントだった。",
-    "<strong>Official X raw posts 4件</strong>: <strong>@ClaudeDevs</strong> は <strong>1周年動画</strong> と <strong>connector observability dashboard</strong> を投稿し、<strong>@AnthropicAI</strong> は <strong>Paving the way for agents in biology</strong> を案内、<strong>@ClaudeAI</strong> は <strong>Code with Claude Tokyo</strong> の最終告知を出した。",
-    "<strong>Engineer signals 3件</strong>: <strong>@bcherny</strong> は Opus を数時間から数日スパンで自律実行させる tips と、<strong>/usage</strong>、<strong>self-verification + browser E2E</strong>、<strong>Opus 4.8 では context rot を強く感じない</strong> という補足を出した。<strong>@sidbid</strong> は dynamic workflows を <strong>codebase-wide bug sweep</strong> の最短経路と評価し、<strong>@amorriscode</strong> は Claude Code Desktop の changelog が app 内にあると補足した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認したところ、<strong>v2.1.169</strong> が <strong>2026-06-09 06:57 JST</strong> に公開された。<strong>新機能</strong> では <strong>--safe-mode</strong>、<strong>/cd</strong>、<strong>disableBundledSkills</strong> が追加され、<strong>修正</strong> では enterprise managed MCP policies、Windows の起動/更新系、background agents、remote session まわりに広く手が入った。"
+    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Code with Claude Tokyo</strong> の最終告知を投稿し、<strong>@ClaudeDevs</strong> は <strong>connector observability dashboard</strong> と <strong>Claude Code 1周年の振り返り動画</strong> を公開、<strong>@AnthropicAI</strong> は <strong>agents in biology</strong> の新記事を案内した。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> を確認したが、window 内に入ることを時刻付きで確認できる新規記事はなかった。<strong>Research</strong> と <strong>Claude Blog</strong> には <strong>Jun 8, 2026</strong> の visible publication date がある記事が残っていたが、今回の window 開始が <strong>2026-06-08 21:03 JST</strong> のため、時刻不明の記事は保守的に除外した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@bcherny</strong> は Claude Code GA 1周年動画の補足として、<strong>auto mode を plan mode より使う理由</strong>、<strong>routines が先回りでバグを潰すこと</strong>、<strong>phone 中心の運用</strong> を共有した。<strong>@sidbid</strong> は <strong>dynamic workflows</strong> を codebase-wide bug sweep の最短経路と評価し、verification loop を閉じれば performance / security にも使えると述べた。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で確認したところ、<strong>v2.1.169</strong> が <strong>2026-06-09 06:57 JST</strong> に公開された。release note 本文は完全取得し、visible bullet を <strong>新機能</strong>、<strong>変更</strong>、<strong>修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
-    {
-      "label": "Official X",
-      "datetime": "2026-06-09T02:12:25+09:00",
-      "displayTime": "2026-06-09 02:12 JST",
-      "title": "ClaudeDevs が Claude Code 一般公開1周年の振り返り動画を案内",
-      "summary": "<strong>@ClaudeDevs</strong> は、Claude Code の最初の demo が Slack で 2 reactions しか付かなかったことを振り返りつつ、一般公開から 1 年後の現在地を <strong>@bcherny</strong> と <strong>@_catwu</strong> が語る動画を共有した。投稿文では <strong>verification best practices</strong>、<strong>auto mode を作った理由</strong>、<strong>routines and loops</strong>、<strong>what's next</strong> を主題として挙げている。",
-      "url": "https://x.com/ClaudeDevs/status/2064032814392352816",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
     {
       "label": "Official X",
       "datetime": "2026-06-09T09:14:39+09:00",
@@ -32,50 +22,50 @@
       "primary": true
     },
     {
-      "label": "Research",
-      "datetime": "2026-06-08T12:00:00+09:00",
-      "displayTime": "2026-06-08 公開日ベース",
-      "title": "Anthropic Research が biology 向け agent 基盤の課題を整理",
-      "summary": "<strong>Paving the way for agents in biology</strong> は、biological data infrastructure が agent にとって扱いにくく、最先端モデルでも NCBI Virus からの sequence retrieval が安定しないと指摘した。<strong>gget virus</strong> のような <strong>deterministic retrieval layer</strong> を足すと accuracy がほぼ 100% まで上がるとして、biology 側の基盤を <strong>agent-friendly</strong> に設計し直す必要性を示している。",
-      "url": "https://www.anthropic.com/research/agents-in-biology",
-      "urlLabel": "記事を読む",
+      "label": "Official X",
+      "datetime": "2026-06-09T04:51:19+09:00",
+      "displayTime": "2026-06-09 04:51 JST",
+      "title": "ClaudeDevs が connector observability dashboard を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、connector 開発者向けに <strong>observability dashboard</strong> を追加したと告知した。投稿では、third-party 開発者が <strong>MCP</strong> 経由で Claude に自分の tools / data を持ち込める connector の運用可視化が入った点を強調している。",
+      "url": "https://x.com/ClaudeDevs/status/2064072801062121906",
+      "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Claude Blog",
-      "datetime": "2026-06-08T12:00:00+09:00",
-      "displayTime": "2026-06-08 公開日ベース",
-      "title": "Claude Blog が connector observability と in-app submission を公開",
-      "summary": "<strong>Observability for developers building connectors</strong> は、published connector 向け dashboard で <strong>active users</strong>、<strong>tool calls</strong>、<strong>directory rank</strong>、<strong>error rates</strong>、<strong>latency</strong> を確認できるようになったと説明した。あわせて MCP server を <strong>Claude 内から directory に申請</strong> できるようになり、Team / Enterprise 向け public beta として提供を始めた。",
-      "url": "https://claude.com/blog/observability-for-developers-building-connectors",
-      "urlLabel": "記事を読む",
+      "label": "Official X",
+      "datetime": "2026-06-09T03:39:56+09:00",
+      "displayTime": "2026-06-09 03:39 JST",
+      "title": "AnthropicAI が biology 向け agent 基盤の新記事を案内",
+      "summary": "<strong>@AnthropicAI</strong> は新しい Science Blog として <strong>Paving the way for agents in biology</strong> を紹介した。biology database は coding より agent に不向きだという問題設定と、<strong>deterministic retrieval layer</strong> を足す必要性を短文で要約している。",
+      "url": "https://x.com/AnthropicAI/status/2064054837294354677",
+      "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Claude Blog",
-      "datetime": "2026-06-08T12:00:00+09:00",
-      "displayTime": "2026-06-08 公開日ベース",
-      "title": "Claude Blog が Apple Foundation Models framework 向け Claude 連携を公開",
-      "summary": "<strong>Building intelligent apps for Apple platforms with Claude in the Foundation Models framework</strong> は、Swift package を通じて Apple の on-device Foundation Models から、より複雑な reasoning や code generation が必要な場面を Claude に handoff できるようにすると説明した。記事では <strong>typed Swift values</strong> を使った入力整形、tool calls を含む応答の streaming、<strong>iOS 27 / macOS 27</strong> などへの対応予定を案内している。",
-      "url": "https://claude.com/blog/claude-for-foundation-models",
-      "urlLabel": "記事を読む",
+      "label": "Official X",
+      "datetime": "2026-06-09T02:12:25+09:00",
+      "displayTime": "2026-06-09 02:12 JST",
+      "title": "ClaudeDevs が Claude Code 一般公開1周年の振り返り動画を共有",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Code の最初の demo が Slack で 2 reactions しか付かなかったことを振り返りつつ、一般公開から 1 年後の現在地を <strong>@bcherny</strong> と <strong>@_catwu</strong> が語る動画を共有した。投稿文では <strong>verification best practices</strong>、<strong>auto mode を作った理由</strong>、<strong>routines and loops</strong>、<strong>what's next</strong> を主題として挙げている。",
+      "url": "https://x.com/ClaudeDevs/status/2064032814392352816",
+      "urlLabel": "X で見る",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Engineering / News の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> の visible publication date を確認したが、この 24 時間窓に入る新規記事はなかった。最新表示は <strong>Engineering が Apr 23, 2026</strong>、<strong>News が Jun 3, 2026</strong> だった。"
+      "label": "公式記事の新規追加は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 3, 2026</strong> だった。<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> には <strong>Jun 8, 2026</strong> の visible publication date がある記事を確認したが、今回の window は <strong>2026-06-08 21:03 JST</strong> 開始で exact publish time を確認できなかったため、時刻不明の記事は保守的に今回の集計から外した。"
     }
   ],
   "signals": [
     {
       "label": "Workflow signal",
-      "datetime": "2026-06-08T10:16:33+09:00",
-      "displayTime": "2026-06-08 10:16 JST",
-      "title": "Boris Cherny が Opus 長時間運用の tips を共有",
-      "summary": "<strong>@bcherny</strong> は、Opus が <strong>long-running work</strong> に強いという benchmark を踏まえ、数時間から数日スパンで自律実行させるための tips を共有した。reply では <strong>/usage</strong> で token 消費の内訳を確認できること、<strong>self-verification + dynamic workflows + browser E2E</strong> を組み合わせること、<strong>Opus 4.8 では context rot を強く感じない</strong> という見立ても示した。",
-      "url": "https://x.com/bcherny/status/2063792263067754658",
+      "datetime": "2026-06-09T02:20:18+09:00",
+      "displayTime": "2026-06-09 02:20 JST",
+      "title": "Boris Cherny が Claude Code 1周年動画の補足を投稿",
+      "summary": "<strong>@bcherny</strong> は、Claude Code を最初に社内 demo した時点では反応が薄かったが、1 年後には <strong>auto mode を plan mode より多用していること</strong>、<strong>routines がバグを先回りで潰すこと</strong>、<strong>多くの coding を phone から行っていること</strong> まで語れるようになったと投稿した。公式動画の補足として、現場の運用感が最も濃い post のひとつ。",
+      "url": "https://x.com/bcherny/status/2064034799711588805",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -88,27 +78,17 @@
       "url": "https://x.com/sidbid/status/2063984905361703396",
       "urlLabel": "X で見る",
       "primary": true
-    },
-    {
-      "label": "Desktop signal",
-      "datetime": "2026-06-08T12:08:02+09:00",
-      "displayTime": "2026-06-08 12:08 JST",
-      "title": "Anthony Morris が Claude Code Desktop の changelog 導線を補足",
-      "summary": "<strong>@amorriscode</strong> は、Claude Code Desktop で session を新しい window で開ける機能が見つかったという投稿に対し、<strong>changelog は app 内で常時公開している</strong> と返信した。続く reply では <strong>静かな公開だったこと</strong> と <strong>日本から戻ったらより多く投稿する</strong> 方針も明かし、desktop feature の告知導線を補足した。",
-      "url": "https://x.com/amorriscode/status/2063820319744561385",
-      "urlLabel": "X で見る",
-      "primary": true
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "公式サイトの visible publication date を確認したところ、この 24 時間窓では <strong>Anthropic Research</strong> に 1 件、<strong>Claude Blog</strong> に 2 件の新規記事があった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> の新規追加はなかった。",
+      "headline": "0件",
+      "body": "公式サイトを確認したところ、<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には window 内の新規記事はなかった。<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> には <strong>Jun 8, 2026</strong> の記事が見えていたが、今回の集計 window は <strong>2026-06-08 21:03 JST</strong> 開始で exact publish time を取得できなかったため、last 24 hours の新規追加としては採用しなかった。",
       "details": [
-        "<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> 付で <strong>Paving the way for agents in biology</strong> を公開し、biology 向け data infrastructure を agent-friendly にする必要性と deterministic retrieval layer の重要性を論じた。",
-        "<strong>Claude Blog</strong> は <strong>June 8, 2026</strong> 付で <strong>Observability for developers building connectors</strong> と <strong>Building intelligent apps for Apple platforms with Claude in the Foundation Models framework</strong> を公開した。",
-        "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 3, 2026</strong> で、いずれも今回の窓外だった。"
+        "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 3, 2026</strong> だった。",
+        "<strong>Anthropic Research</strong> の <strong>Paving the way for agents in biology</strong> と、<strong>Claude Blog</strong> の <strong>Observability for developers building connectors</strong> / <strong>Building intelligent apps for Apple platforms with Claude in the Foundation Models framework</strong> はいずれも <strong>Jun 8, 2026</strong> 表示だったが、記事ページ上で時刻までは確認できなかった。",
+        "そのため今回は、<strong>date-only metadata を理由に partial-day window へ誤って含めない</strong> 方針を取り、公式記事の新規件数は <strong>0件</strong> とした。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "公式記事一覧を見る"
@@ -121,14 +101,14 @@
         {
           "version": "v2.1.169",
           "publishedAt": "2026-06-09 06:57 JST",
-          "summary": "<strong>safe mode</strong>、<strong>/cd</strong>、<strong>disableBundledSkills</strong> を追加しつつ、enterprise managed MCP policies、background sessions、Windows / macOS の UI・起動系、remote session まわりの不具合を広く修正した。",
+          "summary": "<strong>safe mode</strong>、<strong>/cd</strong>、<strong>disableBundledSkills</strong> を追加しつつ、enterprise managed MCP policies、background sessions、Windows / macOS の起動系、remote session まわりの不具合を広く修正した。",
           "sections": [
             {
               "title": "新機能",
               "items": [
                 "<code>--safe-mode</code> フラグと <code>CLAUDE_CODE_SAFE_MODE</code> 環境変数を追加し、トラブルシュート用に <code>CLAUDE.md</code>、plugins、skills、hooks、MCP servers などのカスタマイズをすべて無効化して Claude Code を起動できるようにした。",
                 "<code>/cd</code> コマンドを追加し、session 中でも prompt cache を壊さずに新しい working directory へ移動できるようにした。",
-                "<code>disableBundledSkills</code> 設定と <code>CLAUDE_CODE_DISABLE_BUNDLED_SKILLS</code> 環境変数を追加し、bundled skills、workflows、組み込み slash commands を model から隠せるようにした。"
+                "<code>disableBundledSkills</code> 設定と <code>CLAUDE_CODE_DISABLE_BUNDLED_SKILLS</code> 環境変数を追加し、bundled skills、workflows、組み込み slash commands を model から隠せるようにした."
               ]
             },
             {
@@ -145,7 +125,7 @@
                 "<code>CLAUDE.md is too long</code> 警告の threshold を model の context window に応じて伸縮させるようにした。",
                 "slash-command menu の skill tags の color contrast を改善した。",
                 "payment method を未設定の Apple / Google 課金 subscriber が promo credit を claim する際、どこで支払い方法を追加すべきかを説明するようにした。",
-                "複数 concurrent session 実行時に <code>claude agents</code> を勧める tip を追加した。"
+                "複数 concurrent session 実行時に <code>claude agents</code> を勧める tip を追加した."
               ]
             },
             {
@@ -165,7 +145,7 @@
                 "Windows で MCPB plugin cache が誤って invalidation され、不要な再展開が走る問題を修正した。",
                 "plugin の <code>.in_use</code> PID lock file が無制限に蓄積する問題を修正し、crash 後に残った stale marker を 1 日 1 回掃除するようにした。",
                 "untrusted project settings が trust confirmation なしで OTEL client-certificate path を設定できてしまう問題を修正した。",
-                "Windows の auto-updater が、<code>claude.exe</code> を他 process が掴んでいるとき、同一 session 中に何度も retry し続ける問題を修正した。"
+                "Windows の auto-updater が、<code>claude.exe</code> を他 process が掴んでいるとき、同一 session 中に何度も retry し続ける問題を修正した."
               ]
             }
           ],
@@ -178,11 +158,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。<strong>@ClaudeAI</strong> はこの窓の後半に <strong>Code with Claude Tokyo</strong> の main post を 1 件出しており、前回生成版との差分として取り込んだ。",
+    "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。",
     "engineer watch では monitored account の投稿を広く確認したが、WWDC 現地写真、個人的な雑談、製品情報を含まない短い反応、関連の薄い reply は signal から外した。",
-    "公式 channel の重複は 1 イベント 1 件に正規化したため、<strong>connector observability</strong> と <strong>agents in biology</strong> は X 投稿と記事の両方があったが、officialNews では canonical な記事側を採用した。",
-    "公式記事の一部は visible publish time がなく日付のみだったため、<strong>June 8, 2026</strong> の visible publication date を基準に今回の窓へ含めた。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.169</strong> のみと判定した。<strong>v2.1.168</strong> は <strong>2026-06-07 08:41 JST</strong> 公開で、窓開始の <strong>2026-06-08 15:03:11 JST</strong> より前だったため除外した。"
+    "Anthropic Research と Claude Blog には <strong>Jun 8, 2026</strong> 表示の記事があったが、今回の 24 時間窓は <strong>2026-06-08 21:03 JST</strong> 開始で exact publish time を確認できなかったため、date-only article は保守的に除外した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.169</strong> のみと判定した。<strong>v2.1.168</strong> は <strong>2026-06-07 08:41 JST</strong> 公開で、窓開始より前だったため除外した。"
   ],
   "sources": [
     {
@@ -206,16 +185,12 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
-      "url": "https://claude.com/blog/claude-for-foundation-models"
-    },
-    {
-      "title": "Observability for developers building connectors",
+      "title": "Connector Observability and In-App Directory Submission",
       "url": "https://claude.com/blog/observability-for-developers-building-connectors"
     },
     {
-      "title": "ClaudeDevs on one year of Claude Code GA",
-      "url": "https://x.com/ClaudeDevs/status/2064032814392352816"
+      "title": "Claude support for Apple's Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models"
     },
     {
       "title": "ClaudeAI on Code with Claude Tokyo",
@@ -230,32 +205,16 @@
       "url": "https://x.com/AnthropicAI/status/2064054837294354677"
     },
     {
-      "title": "Boris Cherny on long-running Opus workflows",
-      "url": "https://x.com/bcherny/status/2063792263067754658"
+      "title": "ClaudeDevs on one year of Claude Code GA",
+      "url": "https://x.com/ClaudeDevs/status/2064032814392352816"
     },
     {
-      "title": "Boris Cherny on self-verification and browser E2E",
-      "url": "https://x.com/bcherny/status/2063793737365696576"
-    },
-    {
-      "title": "Boris Cherny on /usage breakdown",
-      "url": "https://x.com/bcherny/status/2063831004004127133"
-    },
-    {
-      "title": "Boris Cherny on context rot with Opus 4.8",
-      "url": "https://x.com/bcherny/status/2063830798374162791"
+      "title": "Boris Cherny on one year after Claude Code GA",
+      "url": "https://x.com/bcherny/status/2064034799711588805"
     },
     {
       "title": "Sid on dynamic workflows for bug sweeps",
       "url": "https://x.com/sidbid/status/2063984905361703396"
-    },
-    {
-      "title": "Anthony Morris on in-app changelog",
-      "url": "https://x.com/amorriscode/status/2063820319744561385"
-    },
-    {
-      "title": "Anthony Morris on posting more changelog updates",
-      "url": "https://x.com/amorriscode/status/2063858523042406737"
     },
     {
       "title": "Claude Code releases",
