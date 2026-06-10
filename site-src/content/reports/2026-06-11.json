@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-11",
+  "windowLabel": "2026-06-10 03:00:41 JST - 2026-06-11 03:00:41 JST",
+  "archiveTitle": "Build Day follow-up, Managed Agents post",
+  "archiveSummary": "公式更新1件、公式記事1件、engineer signal 1件、Claude Code release 0件。",
+  "latestSummary": "この24時間では <strong>@ClaudeDevs</strong> が <strong>Claude Fable 5 Build Day</strong> の応募締切を改めて案内し、<strong>Claude Blog</strong> には <strong>Claude Managed Agents</strong> の設計思想と本番運用上の位置づけを説明する新記事が visible publication date <strong>Jun 10, 2026</strong> で追加された。エンジニア側では <strong>Boris Cherny</strong> が <strong>Fable 5</strong> を Claude Code の現場感として高く評価した一方、<strong>Claude Code</strong> の新規 release はこの窓では確認されなかった。",
+  "summaryBullets": [
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> が <strong>Claude Fable 5 Build Day</strong> の応募締切 <strong>June 12</strong> を再告知し、San Francisco 開催の developer event を再度前面に出した。",
+    "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> に <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> が <strong>Jun 10, 2026</strong> 表示で追加された。Managed Agents を、Claude Code / Agent SDK の延長線上で本番 agent 基盤へ持ち込む設計として説明している。",
+    "<strong>Engineer signals 1件</strong>: <strong>@bcherny</strong> は <strong>Fable 5</strong> を <strong>Opus 4.5 以来で最大の前進</strong> と表現し、Claude が coding agent から <strong>thought and design partner</strong> に近づいたと述べた。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で確認したところ、この 24 時間窓に新しい Claude Code release はなかった。最新の <strong>v2.1.170</strong> は <strong>2026-06-10 02:23 JST</strong> 公開で、今回の window 開始より前だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-06-10T06:04:04+09:00",
+      "displayTime": "2026-06-10 06:04 JST",
+      "title": "ClaudeDevs が Claude Fable 5 Build Day の応募締切を再告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Fable 5 Build Day</strong> の参加枠が限られており、<strong>応募締切が June 12</strong> だと改めて案内した。San Francisco で <strong>Claude Code</strong> を使ってプロトタイプを作る developer event の追告知で、launch 後の community activation を示す公式 post。",
+      "url": "https://x.com/ClaudeDevs/status/2064453498213912738",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI と @AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@ClaudeAI</strong> の直近の launch post と <strong>v2.1.170</strong> 対応告知は今回の window 開始前だった。<strong>@AnthropicAI</strong> についても、window 内の新しい Claude 関連 main post は確認できなかった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 9, 2026</strong> で、いずれも今回の窓より前だった。"
+    },
+    {
+      "label": "Claude Blog の新規記事は date-only 判定",
+      "body": "<strong>Claude Blog</strong> の新記事は article page 上で <strong>June 10, 2026</strong> の日付表示までは確認できたが、秒精度の publish time は見えていない。そのため、今回は <strong>visible publication date が window 内に入る</strong> ことを根拠に採用している。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Workflow signal",
+      "datetime": "2026-06-10T04:35:06+09:00",
+      "displayTime": "2026-06-10 04:35 JST",
+      "title": "Boris Cherny が Fable 5 は Opus 4.5 以来で最大の前進だと投稿",
+      "summary": "<strong>@bcherny</strong> は、<strong>Fable 5</strong> を <strong>Opus 4.5 以来で最大の step up</strong> だと述べ、Claude が coding agent から <strong>thought and design partner</strong> に近づいたと説明した。Claude Code の現場利用者から見た model quality の質的変化を示す signal。",
+      "url": "https://x.com/bcherny/status/2064431111154053187",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "<strong>Claude Blog</strong> では <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> が <strong>Jun 10, 2026</strong> 表示で追加されていた。記事は、Claude Code と Agent SDK で培った harness を本番運用向けの managed infrastructure と結びつけ、<strong>agent harness と sandbox を分離する構成</strong> や <strong>sessions / environments / agents</strong> の責務を整理している。",
+      "details": [
+        "記事は、production agent に必要な <strong>hosting and scaling</strong>、<strong>session persistence</strong>、<strong>filesystem / execution isolation</strong>、<strong>credentials</strong>、<strong>observability</strong> を、prototype から launch へ進む際の主要課題として列挙している。",
+        "<strong>Managed Agents</strong> は <strong>\"decoupling the brain from the hands\"</strong> という設計で、Claude を呼ぶ harness と code を実行する sandbox を分離し、session log を軸に再開性と検証性を持たせる構成だと説明している。",
+        "また、Claude Code の harness と Claude Agent SDK の延長線上で、<strong>model intelligence に合わせて harness 自体も進化させる</strong> ことが、運用負荷の削減と品質維持につながるという立場を示している。"
+      ],
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "urlLabel": "記事を読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に新しい Claude Code release はなかった。最新 release は <strong>v2.1.170</strong> で、公開時刻は <strong>2026-06-10 02:23 JST</strong> だったため、今回の window 開始 <strong>2026-06-10 03:00 JST</strong> より前に出ている。",
+      "details": [
+        "Claude Code release の確認は <strong>GitHub CLI</strong> を source of truth とし、<strong>anthropics/claude-code</strong> の releases を参照した。",
+        "window 内 release は <strong>0件</strong> だったため、今回は <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> の release section は生成していない。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は default 設定どおり main post を優先し、reply と repost は除外した。",
+    "engineer watch では monitored account の短い雑談、Claude 関連の新情報を増やさない祝辞、関連の薄い reply は signal から外した。",
+    "Claude Blog の新記事は article page 上で時刻が見えないため、<strong>Jun 10, 2026</strong> の visible publication date ベースで採用した。",
+    "Claude Code release は GitHub CLI で確認し、今回の窓に入る release は <strong>0件</strong> と判定した。最新の <strong>v2.1.170</strong> は <strong>2026-06-10 02:23 JST</strong> 公開で窓外だった。",
+    "X MCP は <strong>SpendCapReached</strong> を返したため、X の取得は公開検索 snippet と <strong>cdn.syndication.twimg.com</strong> の tweet payload fallback を併用した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "The evolution of agentic surfaces: building with Claude Managed Agents",
+      "url": "https://claude.com/blog/building-with-claude-managed-agents"
+    },
+    {
+      "title": "ClaudeDevs on Claude Fable 5 Build Day applications",
+      "url": "https://x.com/ClaudeDevs/status/2064453498213912738"
+    },
+    {
+      "title": "Boris Cherny on Fable 5 as the biggest step up since Opus 4.5",
+      "url": "https://x.com/bcherny/status/2064431111154053187"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.170",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170"
+    }
+  ]
+}
