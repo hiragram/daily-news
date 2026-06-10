@@ -1,13 +1,13 @@
 {
   "date": "2026-06-10",
-  "windowLabel": "2026-06-09 03:01:58 JST - 2026-06-10 03:01:58 JST",
-  "archiveTitle": "Fable 5 launch, 2 releases, signals 3",
-  "archiveSummary": "Fable 5 ローンチ、公式更新7件、signal 3件、Claude Code release 2件。",
-  "latestSummary": "この24時間では <strong>Anthropic / Claude</strong> が <strong>Claude Fable 5 / Claude Mythos 5</strong> を正式発表し、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> も導入導線と開発チーム内の使い方を連続投稿した。公式サイトでは <strong>Anthropic News</strong> に同名の記事が <strong>2026-06-09</strong> 公開として追加された。<strong>Claude Code</strong> はこの窓で <strong>v2.1.169</strong> と <strong>v2.1.170</strong> を公開し、前者で safe mode や <code>/cd</code> を追加、後者で <strong>Fable 5 対応</strong> と transcript 保存不具合の hotfix を入れた。",
+  "windowLabel": "2026-06-09 09:02:09 JST - 2026-06-10 09:02:09 JST",
+  "archiveTitle": "Fable 5 launch, articles 2, releases 2",
+  "archiveSummary": "Fable 5 ローンチ、公式記事2件、signal 3件、Claude Code release 2件。",
+  "latestSummary": "この24時間では <strong>Claude Fable 5 / Claude Mythos 5</strong> の launch が中心で、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が導入導線とチーム運用の変化を連続投稿した。公式サイトでは <strong>Anthropic News</strong> に launch 記事、<strong>Claude Blog</strong> に <strong>Managed Agents の scheduled deployments / vault 環境変数</strong> の新記事が追加された。<strong>Claude Code</strong> は <strong>v2.1.169</strong> と <strong>v2.1.170</strong> を公開し、前者で safe mode や <code>/cd</code> を追加、後者で <strong>Fable 5 対応</strong> と transcript 保存不具合の hotfix を入れた。",
   "summaryBullets": [
-    "<strong>Official X 6件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Fable 5</strong> の正式発表を出し、<strong>@ClaudeDevs</strong> は <strong>Claude Code / Platform での始め方</strong> と <strong>Claude Code チーム内での使い方の変化</strong> を連投した。従来分として <strong>Code with Claude Tokyo</strong>、<strong>connector observability dashboard</strong>、<strong>agents in biology</strong> の投稿も window 内に残った。",
-    "<strong>Official articles 1件</strong>: <strong>Anthropic News</strong> に <strong>Claude Fable 5 and Claude Mythos 5</strong> が <strong>Jun 9, 2026</strong> 公開として追加された。hardest knowledge work と coding problems 向けの次世代モデル告知で、今回の公式記事側の中核 update だった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@bcherny</strong> は <strong>Fable 5 が Claude Code と Cowork で利用可能</strong> になり、より少ない steer で高品質な coding と self-verification ができると説明した。<strong>@DarioAmodei</strong> は <strong>Q&amp;A → tasks → responsibilities / loops</strong> という利用形態の進化を強調し、<strong>@TheAmolAvasare</strong> は <strong>subscription への 14 日間同梱</strong>、<strong>classifier block による一般提供</strong>、<strong>capacity 制約</strong> を詳述した。",
+    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Fable 5</strong> の正式発表を出し、<strong>@ClaudeDevs</strong> は <strong>Claude Code / Platform での始め方</strong> と <strong>Claude Code チーム内での使い方の変化</strong> を連投した。window の下限側には <strong>Code with Claude Tokyo</strong> の最終告知も残った。",
+    "<strong>Official articles 2件</strong>: <strong>Anthropic News</strong> に <strong>Claude Fable 5 and Claude Mythos 5</strong>、<strong>Claude Blog</strong> に <strong>New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults</strong> がいずれも <strong>Jun 9, 2026</strong> 公開として追加された。",
+    "<strong>Engineer signals 3件</strong>: <strong>@bcherny</strong> は <strong>Fable 5 が Claude Code と Cowork で大きな前進</strong> だと述べ、<strong>@DarioAmodei</strong> は <strong>Q&amp;A から responsibilities / loops へ</strong> という利用形態の進化を強調し、<strong>@TheAmolAvasare</strong> は <strong>subscription 同梱</strong>、<strong>classifier block</strong>、<strong>capacity 制約</strong> を詳述した。",
     "<strong>Claude Code release 2件</strong>: GitHub CLI で確認したところ、window 内の release は <strong>v2.1.169</strong>（<strong>2026-06-09 06:57 JST</strong>）と <strong>v2.1.170</strong>（<strong>2026-06-10 02:23 JST</strong>）の 2 件だった。release note 本文は完全取得し、visible bullet を <strong>新機能</strong>、<strong>変更</strong>、<strong>修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
@@ -46,9 +46,19 @@
       "datetime": "2026-06-09T00:00:00+09:00",
       "displayTime": "2026-06-09 JST",
       "title": "Anthropic が Claude Fable 5 と Claude Mythos 5 を発表",
-      "summary": "<strong>Anthropic News</strong> の <strong>Jun 9, 2026</strong> 公開記事。<strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> を、<strong>hardest knowledge work and coding problems</strong> 向けの次世代モデルとして案内している。window が partial-day でも、visible publication date が <strong>Jun 9, 2026</strong> で今回の窓内に収まるため採用した。時刻は記事ページの visible publication date ベース。",
+      "summary": "<strong>Anthropic News</strong> の <strong>Jun 9, 2026</strong> 公開記事。<strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> を、<strong>hardest knowledge work and coding problems</strong> 向けの次世代モデルとして案内している。今回の partial-day window では visible publication date が <strong>Jun 9, 2026</strong> で窓内に収まるため採用した。時刻は記事ページの visible publication date ベース。",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "urlLabel": "Anthropic News を開く",
+      "primary": true
+    },
+    {
+      "label": "Official article",
+      "datetime": "2026-06-09T00:00:00+09:00",
+      "displayTime": "2026-06-09 JST",
+      "title": "Claude Blog が Managed Agents の scheduled deployments / vault 環境変数を公開",
+      "summary": "<strong>Claude Blog</strong> の <strong>Jun 9, 2026</strong> 公開記事。<strong>Claude Managed Agents</strong> に <strong>scheduled deployments</strong> と <strong>vaults への environment variables</strong> を追加し、定期実行と CLI / 外部サービスの安全な認証連携を public beta として提供開始した。時刻は visible publication date ベース。",
+      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "urlLabel": "Claude Blog を開く",
       "primary": true
     },
     {
@@ -56,33 +66,19 @@
       "datetime": "2026-06-09T09:14:39+09:00",
       "displayTime": "2026-06-09 09:14 JST",
       "title": "ClaudeAI が Code with Claude Tokyo の最終告知を投稿",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>\"Final stop: Tokyo.\"</strong> として <strong>Code with Claude Tokyo</strong> の登録導線を共有し、Claude を開発する各チームから直接話を聞けると案内した。大型ローンチ日の前段にあたるが、今回の 24 時間窓にはまだ含まれている。",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>\"Final stop: Tokyo.\"</strong> として <strong>Code with Claude Tokyo</strong> の登録導線を共有し、Claude を開発する各チームから直接話を聞けると案内した。大型 launch 当日の前段にあたるが、今回の 24 時間窓にも残る developer event の公式告知。",
       "url": "https://x.com/claudeai/status/2064139073590104402",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Official X",
-      "datetime": "2026-06-09T04:51:19+09:00",
-      "displayTime": "2026-06-09 04:51 JST",
-      "title": "ClaudeDevs が connector observability dashboard を案内",
-      "summary": "<strong>@ClaudeDevs</strong> は、connector 開発者向けに <strong>observability dashboard</strong> を追加したと告知した。third-party 開発者が <strong>MCP</strong> 経由で Claude に持ち込んだ tools / data の可視化強化という位置づけ。",
-      "url": "https://x.com/ClaudeDevs/status/2064072801062121906",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Official X",
-      "datetime": "2026-06-09T03:39:56+09:00",
-      "displayTime": "2026-06-09 03:39 JST",
-      "title": "AnthropicAI が biology 向け agent 基盤の記事を案内",
-      "summary": "<strong>@AnthropicAI</strong> は新しい Science Blog として <strong>Paving the way for agents in biology</strong> を紹介した。biology database が agent に不向きな構造であることと、<strong>deterministic retrieval layer</strong> の必要性を短く要約している。",
-      "url": "https://x.com/AnthropicAI/status/2064054837294354677",
       "urlLabel": "X で見る"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "公式記事の追加は Anthropic News の 1件のみ",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 8, 2026</strong> で、今回の 24 時間窓で新規に増えたことを visible publication date から確認できた記事は <strong>Anthropic News</strong> の <strong>Claude Fable 5 and Claude Mythos 5</strong> のみだった。"
+      "label": "Anthropic Engineering と Anthropic Research の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の先頭記事 <strong>Paving the way for agents in biology</strong> は <strong>Jun 8, 2026</strong> 表示で、今回の window 開始 <strong>2026-06-09 09:02:09 JST</strong> より前だった。"
+    },
+    {
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "X MCP は <strong>SpendCapReached</strong> で追加照会できなかったが、公開検索で確認できた範囲では、今回の窓内に新しい <strong>@AnthropicAI</strong> の main post は見当たらなかった。official X の中心は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の Fable 5 関連投稿だった。"
     }
   ],
   "signals": [
@@ -91,17 +87,17 @@
       "datetime": "2026-06-10T02:42:06+09:00",
       "displayTime": "2026-06-10 02:42 JST",
       "title": "Boris Cherny が Fable 5 は Claude Code と Cowork で大きな前進だと説明",
-      "summary": "<strong>@bcherny</strong> は、<strong>Fable 5</strong> が <strong>Claude Code</strong> と <strong>Cowork</strong> で使えるようになり、<strong>less prompts and steers</strong>、<strong>more efficient token use</strong>、<strong>better code quality</strong>、<strong>better tool use</strong>、<strong>more intelligent self-verification</strong>、<strong>longer-running work</strong> を実現すると述べた。公式投稿より実運用寄りの観点で価値を説明している。",
+      "summary": "<strong>@bcherny</strong> は、<strong>Fable 5 is now available in Claude Code and Cowork</strong> として、新モデルは coding において <strong>by a wide margin</strong> の改善であり、より少ない steer で高品質な実装と self-verification ができると説明した。launch 直後の現場評価として重要な signal。",
       "url": "https://x.com/bcherny/status/2064402671898075579",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Strategy signal",
+      "label": "Workflow signal",
       "datetime": "2026-06-10T02:00:30+09:00",
       "displayTime": "2026-06-10 02:00 JST",
       "title": "Dario Amodei が Fable 5 により AI 利用が tasks から responsibilities へ進むと説明",
-      "summary": "<strong>@DarioAmodei</strong> は、<strong>Q&amp;A</strong> から <strong>tasks</strong> へ移った後、Fable 5 によって第三の時代として <strong>responsibilities / loops</strong> に進むと述べた。 crash report を都度調べさせるのではなく、Claude が継続的に監視して問題を起こさせない役割を持つ、という framing は Fable 5 の使い方をよく表している。",
+      "summary": "<strong>@DarioAmodei</strong> は、AI の使い方が <strong>Q&amp;A</strong> から <strong>tasks</strong>、さらに <strong>responsibilities / loops</strong> へ移っていくと述べ、<strong>Claude Fable 5</strong> がその転換点を押し進めると説明した。モデル能力の上昇が workflow 設計まで含めて変化を起こしている、という経営レベルの signal。",
       "url": "https://x.com/DarioAmodei/status/2064392202504310900",
       "urlLabel": "X で見る",
       "primary": true
@@ -111,7 +107,7 @@
       "datetime": "2026-06-10T02:05:55+09:00",
       "displayTime": "2026-06-10 02:05 JST",
       "title": "Amol Avasare が Fable 5 の safety と subscription rollout を詳述",
-      "summary": "<strong>@TheAmolAvasare</strong> は、<strong>Fable 5</strong> は <strong>cyber / bio</strong> に classifier block をかけた一般提供向け設定であり、厳しいケースでは <strong>Opus 4.8</strong> へ routing されると説明した。加えて、<strong>Pro / Max / Team / seat-based Enterprise</strong> にはまず <strong>June 22 までの 14 日間</strong> subscription limits 内で提供し、その後は capacity 次第で延長を判断すると明言した。",
+      "summary": "<strong>@TheAmolAvasare</strong> は、<strong>Claude Fable 5</strong> が subscription に <strong>14 日間</strong> 含まれること、<strong>classifier block</strong> によって一般提供を成立させていること、そして launch 初期には <strong>capacity constraints</strong> がありうることを詳しく説明した。pricing / access ではなく運用条件の signal として有用。",
       "url": "https://x.com/TheAmolAvasare/status/2064393567360160237",
       "urlLabel": "X で見る",
       "primary": true
@@ -120,16 +116,14 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Official articles 1件",
-      "body": "公式サイトを確認したところ、この 24 時間窓で visible publication date から新規と判断できた article は <strong>Anthropic News</strong> の <strong>Claude Fable 5 and Claude Mythos 5</strong> の 1 件だった。<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> には <strong>Jun 8, 2026</strong> の記事が残っていたが、今回の窓開始は <strong>2026-06-09 03:01 JST</strong> なので新規追加ではない。",
+      "headline": "Official articles 2件",
+      "body": "公式サイトを確認したところ、この 24 時間窓で visible publication date から新規と判断できた article は <strong>Anthropic News</strong> の <strong>Claude Fable 5 and Claude Mythos 5</strong> と、<strong>Claude Blog</strong> の <strong>New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults</strong> の 2 件だった。",
       "details": [
         "<strong>Anthropic News</strong> の先頭に <strong>Jun 9, 2026</strong> 公開の <strong>Claude Fable 5 and Claude Mythos 5</strong> が追加されていた。",
+        "<strong>Claude Blog</strong> に <strong>Jun 9, 2026</strong> 公開の <strong>New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults</strong> が追加され、scheduled deployments と vault environment variables の public beta を案内していた。",
         "<strong>Anthropic Research</strong> の先頭記事は <strong>Paving the way for agents in biology</strong> で表示日は <strong>Jun 8, 2026</strong> だった。",
-        "<strong>Claude Blog</strong> の先頭記事は <strong>Building intelligent apps for Apple platforms with Claude in the Foundation Models framework</strong> で表示日は <strong>June 8, 2026</strong> だった。",
         "<strong>Anthropic Engineering</strong> の最新 visible publication date は引き続き <strong>Apr 23, 2026</strong> だった。"
-      ],
-      "url": "https://www.anthropic.com/news",
-      "urlLabel": "Anthropic News を見る"
+      ]
     },
     {
       "title": "Claude Code リリース",
@@ -225,9 +219,9 @@
   "exclusions": [
     "official X は main post のみを対象にし、reply と repost は default 設定どおり official summary から外した。",
     "engineer watch では monitored account の投稿を広く確認したが、短い祝辞、launch に意味を足さない一言投稿、個人的な雑談、製品情報を含まない reply は signal から外した。",
-    "Anthropic Research と Claude Blog の最新記事はいずれも <strong>Jun 8, 2026</strong> 表示で、今回の窓開始 <strong>2026-06-09 03:01:58 JST</strong> より前のため新規記事から除外した。",
+    "Anthropic Research の最新記事は <strong>Jun 8, 2026</strong> 表示で、今回の窓開始 <strong>2026-06-09 09:02:09 JST</strong> より前のため新規記事から除外した。",
     "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.169</strong> と <strong>v2.1.170</strong> の 2 件のみと判定した。<strong>v2.1.168</strong> は <strong>2026-06-07 08:41 JST</strong> 公開で、窓開始より前だったため除外した。",
-    "X MCP は初回検索では結果を返したが、その後の追加照会では <strong>SpendCapReached</strong> が返り、追加の深掘りは一次取得済みの main posts と公式 Web / GitHub source を優先した。"
+    "X MCP は追加照会時に <strong>SpendCapReached</strong> を返したため、X の深掘りは同日取得済みの対象 URL と公開検索で確認できる範囲を優先した。"
   ],
   "sources": [
     {
@@ -251,6 +245,10 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "New in Claude Managed Agents: run agents on a schedule and store environment variables in vaults",
+      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents"
+    },
+    {
       "title": "ClaudeAI on Claude Fable 5",
       "url": "https://x.com/claudeai/status/2064394146916229443"
     },
@@ -265,14 +263,6 @@
     {
       "title": "ClaudeAI on Code with Claude Tokyo",
       "url": "https://x.com/claudeai/status/2064139073590104402"
-    },
-    {
-      "title": "ClaudeDevs on connector observability dashboard",
-      "url": "https://x.com/ClaudeDevs/status/2064072801062121906"
-    },
-    {
-      "title": "AnthropicAI on agents in biology",
-      "url": "https://x.com/AnthropicAI/status/2064054837294354677"
     },
     {
       "title": "Boris Cherny on Fable 5 in Claude Code and Cowork",
