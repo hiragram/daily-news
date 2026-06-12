@@ -1,14 +1,14 @@
 {
   "date": "2026-06-12",
-  "windowLabel": "2026-06-11 02:58:00 JST - 2026-06-12 02:58:00 JST",
-  "archiveTitle": "Claude Corps, safeguards, 2 releases",
-  "archiveSummary": "公式更新5件、公式記事1件、engineer signal 3件、Claude Code release 2件。",
-  "latestSummary": "この24時間では <strong>@AnthropicAI</strong> が <strong>Claude Corps</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Managed Agents</strong> の scheduled deployments / environment variables と <strong>Fable 5 safeguards</strong> の visible fallback を案内した。公式サイトでは <strong>Anthropic News</strong> に <strong>Introducing Claude Corps</strong> が追加され、<strong>Claude Code</strong> は <strong>v2.1.172</strong> と <strong>v2.1.173</strong> の 2 release が引き続きこの window に入った。",
+  "windowLabel": "2026-06-11 09:02:17 JST - 2026-06-12 09:02:17 JST",
+  "archiveTitle": "Claude Corps, DXC, Managed Agents, 1 release",
+  "archiveSummary": "公式更新5件、公式記事2件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "この24時間では <strong>@ClaudeDevs</strong> が <strong>Claude Managed Agents</strong> の scheduled deployments / environment variables と <strong>Fable 5</strong> safeguards の visible fallback を案内し、<strong>@AnthropicAI</strong> は <strong>Claude Corps</strong> を告知した。公式サイトでは <strong>Anthropic News</strong> に <strong>Introducing Claude Corps</strong> と <strong>DXC will integrate Claude...</strong> が <strong>Jun 11, 2026</strong> 表示で並び、<strong>Claude Code</strong> はこの窓では <strong>v2.1.173</strong> のみが新規 release だった。",
   "summaryBullets": [
-    "<strong>Official X 4件</strong>: <strong>@AnthropicAI</strong> は <strong>Claude Corps</strong> と <strong>Policy on the AI Exponential</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Managed Agents</strong> の scheduled deployments / environment variables と <strong>Fable 5</strong> safeguards の visible fallback を案内した。",
-    "<strong>Official article 1件</strong>: <strong>Anthropic News</strong> に <strong>Introducing Claude Corps</strong> が <strong>Jun 11, 2026</strong> 表示で追加され、Claude を使える 1,000 人規模の fellowship と nonprofit 向け配置計画を説明した。",
-    "<strong>Engineer signals 3件</strong>: <strong>@trq212</strong> は <strong>Fable</strong> で launch 動画を code-driven に編集した workflow と token cost を共有し、<strong>@amorriscode</strong> は <strong>advisor strategy with Fable as advisor</strong> の eval を推奨、<strong>@felixrieseberg</strong> は Claude で hardware 制御 UI を短時間で組めたと報告した。",
-    "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.172</strong> と <strong>v2.1.173</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した."
+    "<strong>Official X 3件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の <strong>scheduled deployments</strong> と <strong>vault credentials の environment variables</strong> を告知し、続いて <strong>Fable 5</strong> の flagged request が <strong>Opus 4.8</strong> へ visibly fall back する safeguard 可視化を案内した。<strong>@AnthropicAI</strong> は <strong>Claude Corps</strong> を告知した。",
+    "<strong>Official articles 2件</strong>: <strong>Anthropic News</strong> に <strong>Introducing Claude Corps</strong> と <strong>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</strong> が <strong>Jun 11, 2026</strong> 表示で追加され、nonprofit 向け fellowship と regulated industries への Claude 展開を説明した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@sidbid</strong> は <strong>Fable</strong> で大きな task を回すなら smaller workflows と <strong>Opus</strong> を組み合わせる構成を勧め、<strong>@trq212</strong> は launch 動画制作で <strong>約100ドルの Fable usage</strong> と <strong>約10ドルの transcription/cutting</strong> という費用感を共有した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.173</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -36,19 +36,29 @@
       "datetime": "2026-06-11T14:56:30+09:00",
       "displayTime": "2026-06-11 14:56 JST",
       "title": "ClaudeDevs が Fable 5 の safeguard fallback 可視化を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>frontier LLM development</strong> 向けの <strong>Fable 5 safeguards</strong> を見える形に変えていくと案内した。投稿の見えている本文では、<strong>flagged request は Opus 4.8 に visibly fall back する</strong> と明記されており、cyber / bio と同じ guardrail を user-facing に出す運用へ寄せている。",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Fable 5 safeguards</strong> を user-visible にしていくと案内した。投稿の見えている本文では、<strong>flagged request は Opus 4.8 に visibly fall back する</strong> と明記されており、cyber / bio と同じ guardrail を user-facing に出す運用へ寄せている。",
       "url": "https://x.com/ClaudeDevs/status/2064949876463645026",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Official X",
-      "datetime": "2026-06-11T03:55:03+09:00",
-      "displayTime": "2026-06-11 03:55 JST",
-      "title": "AnthropicAI が Policy on the AI Exponential を告知",
-      "summary": "<strong>@AnthropicAI</strong> は、Dario Amodei の新しい essay と合わせて <strong>three new initiatives</strong> を打ち出し、AI の進展速度に policy 側が追いつくための枠組みを案内した。Claude 直接の product launch ではないが、frontier model governance と deployment rule の方向性を示す公式 post として重要。",
-      "url": "https://x.com/AnthropicAI/status/2064783418844762489",
-      "urlLabel": "X で見る",
+      "label": "Official site",
+      "datetime": "2026-06-11T12:00:00+09:00",
+      "displayTime": "2026-06-11",
+      "title": "Anthropic News が Introducing Claude Corps を公開",
+      "summary": "<strong>Introducing Claude Corps</strong> は、<strong>1,000 fellows</strong> を育成して <strong>400 nonprofits</strong> 超へ 12 か月の full-time fellowship として配置する計画を説明している。Anthropic は <strong>initial $150m</strong> をコミットし、<strong>CodePath</strong> と <strong>Social Finance</strong> と組んで training、employment、measurement を分担する。",
+      "url": "https://www.anthropic.com/news/claude-corps",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-06-11T12:00:00+09:00",
+      "displayTime": "2026-06-11",
+      "title": "Anthropic News が DXC とのグローバル提携を公開",
+      "summary": "<strong>DXC will integrate Claude...</strong> は、DXC が <strong>Claude-certified forward-deployed engineers</strong> を大規模育成し、banks、airlines、insurers、government agencies などの mission-critical systems に Claude を持ち込む multi-year alliance を説明している。DXC は自社の <strong>OASIS</strong> で Claude を default foundation model とし、<strong>95%超の code</strong> を Claude で書いたと述べている。",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
+      "urlLabel": "記事を読む",
       "primary": true
     }
   ],
@@ -59,41 +69,31 @@
     },
     {
       "label": "Claude Blog と Anthropic Engineering / Research の新規記事は 0件",
-      "body": "<strong>Claude Blog</strong> の先頭 visible publication date は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> で、今回の window では新規 article を採用しなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible publication date は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> で、いずれも今回の window に新規 article はなかった。"
     },
     {
-      "label": "公式サイト記事は Claude Corps のみ採用",
-      "body": "<strong>Anthropic News</strong> の <strong>Introducing Claude Corps</strong> は <strong>Jun 11, 2026</strong> の visible publication date があり窓内と判断した。一方で <strong>Jun 10</strong> 表示の記事群は、date-only で publish time が見えないため今回は前日分との重複を避けて main summary から外した。"
+      "label": "一部の公式投稿は relevance 基準で main summary から外した",
+      "body": "<strong>@AnthropicAI</strong> の <strong>Policy on the AI Exponential</strong> と <strong>@ClaudeDevs</strong> の <strong>/goooooal</strong> 投稿は window 内に見えたが、新しい Claude product fact を増やしていないため main summary では採用しなかった。"
     }
   ],
   "signals": [
     {
       "label": "Workflow signal",
-      "datetime": "2026-06-11T06:45:49+09:00",
-      "displayTime": "2026-06-11 06:45 JST",
-      "title": "Thariq が Fable に launch 動画編集を任せた workflow を公開",
-      "summary": "<strong>@trq212</strong> は、<strong>Fable</strong> が transcription services、<strong>ffmpeg</strong>、<strong>Figma MCP</strong>、<strong>Remotion UI</strong> を使って launch 動画を組み立て、<strong>video editor には触れなかった</strong> と投稿した。続く reply では、費用感は <strong>約100ドル相当の Fable usage</strong> で大半が UI iteration、transcription と cut は <strong>約10ドル</strong> だったと説明している。",
-      "url": "https://x.com/trq212/status/2064826394589442448",
+      "datetime": "2026-06-12T08:26:37+09:00",
+      "displayTime": "2026-06-12 08:26 JST",
+      "title": "Sid が Fable task を smaller workflows と Opus で分ける構成を勧めた",
+      "summary": "<strong>@sidbid</strong> は、<strong>Fable</strong> で大きい task を回すなら <strong>smaller workflows</strong> に分割し、必要に応じて <strong>Fable を orchestrator</strong>、<strong>Opus を information gathering</strong> に使うとよいと reply で助言した。Claude app / Fable の実運用上の cost と品質のバランス感を示す短いが具体的な運用ヒント。",
+      "url": "https://x.com/sidbid/status/2065214147613401215",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Strategy signal",
-      "datetime": "2026-06-11T10:08:29+09:00",
-      "displayTime": "2026-06-11 10:08 JST",
-      "title": "Andrew Morris が advisor strategy with Fable as advisor の eval を推奨",
-      "summary": "<strong>@amorriscode</strong> は、Messages API ベースの既存実装なら <strong>advisor strategy</strong> で <strong>Fable</strong> を advisor に置く構成が <strong>evaling extremely well</strong> で、cost を抑えつつ mythos-class model への access を広げやすいと案内した。launch 後の実践的な migration hint として有用。",
-      "url": "https://x.com/amorriscode/status/2064877397548360063",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Build signal",
-      "datetime": "2026-06-11T07:39:13+09:00",
-      "displayTime": "2026-06-11 07:39 JST",
-      "title": "Felix Rieseberg が Claude で espresso machine 用の display を短時間実装",
-      "summary": "<strong>@felixrieseberg</strong> は、3 時間ほどで espresso machine 用の display / controller を作れたとして、<strong>hardware について Claude に相談すると想像より安く簡単だ</strong> と投稿した。Claude の coding / hardware prototyping 方面の実利用 signal。",
-      "url": "https://x.com/felixrieseberg/status/2064839830077579682",
+      "label": "Cost signal",
+      "datetime": "2026-06-11T11:48:10+09:00",
+      "displayTime": "2026-06-11 11:48 JST",
+      "title": "Thariq が Fable の動画編集コスト感を共有",
+      "summary": "<strong>@trq212</strong> は、launch 動画編集にかかった費用感として <strong>約100ドルの Fable usage</strong> を挙げ、その大半は <strong>UI iteration</strong>、<strong>transcription と cutting は約10ドル</strong> だったと説明した。1 回やればもっと token efficient にでき、<strong>MAX</strong> subscription でも十分回せるだろうと述べている。",
+      "url": "https://x.com/trq212/status/2064902482757874100",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -101,19 +101,19 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "<strong>Anthropic News</strong> では <strong>Introducing Claude Corps</strong> が <strong>Jun 11, 2026</strong> 表示で追加されていた。Claude を nonprofit 現場へ広げる fellowship として、training、配置、資金規模、host organization 側の受け皿をまとめている。",
+      "headline": "2件",
+      "body": "今回の公式サイト更新はどちらも <strong>Anthropic News</strong> 側で、<strong>Introducing Claude Corps</strong> と <strong>DXC will integrate Claude...</strong> がともに <strong>Jun 11, 2026</strong> 表示で追加されていた。前者は nonprofit 向け fellowship、後者は regulated industries 向けの大規模導入提携が主題。",
       "details": [
-        "<strong>Introducing Claude Corps</strong> は、<strong>1,000 fellows</strong> に Claude の使い方を教え、<strong>400 nonprofits</strong> 以上へ 12 か月の full-time fellowship として配置する構想を説明している。",
-        "Anthropic はこの program に <strong>initial $150m</strong> をコミットし、<strong>CodePath</strong> と <strong>Social Finance</strong> と組んで training、employment、measurement を分担する。"
+        "<strong>Introducing Claude Corps</strong> は、Claude を nonprofit 現場へ広げるために <strong>1,000 fellows</strong> を訓練し、<strong>400 nonprofits</strong> 超へ配置する 12 か月プログラムを説明している。",
+        "<strong>DXC will integrate Claude...</strong> は、DXC が <strong>tens of thousands</strong> の Claude-certified engineers を育成し、banking、airlines、insurance、government を含む高規制領域の運用システムへ Claude を持ち込む計画を説明している。"
       ],
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "urlLabel": "記事を読む"
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓には <strong>v2.1.172</strong> と <strong>v2.1.173</strong> の 2 release が入っていた。<strong>v2.1.172</strong> は sub-agents、plugin browser、Bedrock region、OTEL metric など広範囲の追加と修正、<strong>v2.1.173</strong> は Fable 5 の model name 正規化と Windows sandbox warning の hotfix が中心だった。",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に入る Claude Code release は <strong>v2.1.173</strong> のみだった。内容は <strong>Fable 5</strong> の model name 正規化と、Windows の sandbox startup warning を直す hotfix が中心。",
       "releases": [
         {
           "version": "v2.1.173",
@@ -136,66 +136,12 @@
               "title": "修正",
               "items": [
                 "<strong>Fable 5</strong> の model name に <code>[1m]</code> suffix が付いている場合でも正規化できるようにし、Fable 5 はデフォルトで 1M context を含むため、その suffix を自動で取り除くようにした。",
-                "sandbox を settings で有効にしている Windows 環境で、起動時に誤って <code>sandbox dependencies missing</code> warning が出る問題を修正した."
+                "sandbox を settings で有効にしている Windows 環境で、起動時に誤って <code>sandbox dependencies missing</code> warning が出る問題を修正した。"
               ]
             }
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
           "urlLabel": "v2.1.173 release notes"
-        },
-        {
-          "version": "v2.1.172",
-          "publishedAt": "2026-06-11 05:44 JST",
-          "summary": "sub-agent の多段 spawn、Bedrock region 解決、plugin browser 改善、OTEL metric 追加に加え、background sessions、model picker、availableModels、Windows / VS Code 表示、long conversation performance まわりを広く更新した release。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "sub-agent がさらに自分自身の sub-agent を spawn できるようにし、最大 5 階層までの nested agent を許可した。",
-                "Amazon Bedrock で <code>AWS_REGION</code> が未設定のとき、<code>~/.aws</code> config files から region を読むようにし、AWS SDK の precedence に合わせた。<code>/status</code> では region の取得元も表示する。",
-                "<code>/plugin</code> で marketplace の plugins を閲覧するときに search bar を追加した。",
-                "<code>claude_code.lines_of_code.count</code> OTEL metric に <code>model</code> attribute を追加した。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "Windows console で完全対応していない環境では mouse tracking を無効化した。",
-                "長い conversation での performance を改善し、冗長な message normalization を外し、streaming 中に tool-use state が変わっていない場合は message history 全体の transform を避けるようにした。",
-                "idle 時の CPU usage を削減し、<code>/goal</code> status chip が idle 中に 5Hz で terminal を再描画しないようにしたほか、subagents 並列実行中の UI re-render も減らした。",
-                "Claude in Chrome の tool loading を改善し、browser tools を 1 個ずつではなく 1 回の batched call で読むようにした。",
-                "non-interactive な Usage Policy refusal message を改善し、新しい session を始めるか model を変える案内を出すようにした。",
-                "<code>/code-review</code> で <code>ultra</code> option を claude.ai 非ログイン時でも見えるようにし、cloud review には claude.ai account が必要だと説明するようにした。",
-                "Remote Control footer indicator を <code>/rc active</code> に短縮し、狭い terminal では非表示にした。",
-                "remote session では pending loop が container を維持しないため、<code>/loop</code> を積極表示しないようにした。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "1M context の usage credits を持たない session が永続的に stuck する問題を修正し、standard context limit の下まで自動 compact するようにした。",
-                "conversation に複数画像があると、<code>an image in the conversation could not be processed and was removed</code> error が繰り返し出る問題を修正した。",
-                "worker が reply したあとも agents view で session が最大 30 秒間 <strong>Working</strong> と busy spinner のまま残る問題を修正した。",
-                "pre-warmed worker に dispatch された background agents が、別 directory の project settings（<code>.mcp.json</code> の approvals や trust）を読んでしまう可能性を修正した。",
-                "daemon auto-update 後に、古い version で started された background session へ attach すると <code>EAUTH</code> で失敗する問題を修正した。",
-                "nested agent を spawned した background sub-agent を stop したあとも、その sub-agent が agent panel 上で <strong>active</strong> のまま残る問題を修正した。",
-                "<code>claude agents</code> の dispatch input で <code>/model</code> suggestions に誤った slash prefix が付き、org で disabled な models まで見えていた問題を修正した。",
-                "<code>availableModels</code> restrictions が subagent model overrides、agent dispatch model picker、advisor model に適用されていなかった問題を修正した。",
-                "<code>availableModels</code> allowlist に <code>claude-opus-4-8</code> のような version-specific ID を使うと、<code>/model</code> picker の Opus / Sonnet 1M rows が隠れてしまう問題を修正した。",
-                "Bedrock の <code>/model</code> picker が provider に存在しない models を提示し、選択時に session model を silent に切り替え、selection marker が複数 row で点灯する問題を修正した。",
-                "<code>ANTHROPIC_DEFAULT_OPUS_MODEL</code> がすでに 1M suffix を含むとき、model ID に <code>[1M][1m]</code> のような重複 suffix が付く問題を修正した。",
-                "entitled user の plan mode で <code>opusplan</code> setting に 1M context が付かない問題を修正し、<code>opusplan[1m]</code> workaround でも plan mode へ正しく Opus を切り替えるようにした。",
-                "<code>WebFetch(domain:*.example.com)</code> wildcard rule が subdomain に一度も match しない問題と、<code>Read(secrets-*/config.json)</code> のような mid-pattern wildcard を含む file permission rule が startup 時に reject される問題を修正した。",
-                "subagent の chat tab を開いているのに、Up arrow prompt history が main agent 側の prompts を出してしまう問題を修正した。",
-                "remote session で mounted team memory stores（<code>CLAUDE_MEMORY_STORES</code>）を memory recall が見つけられない問題を修正した。",
-                "prompt strings や comments にたまたま <code>Date.now()</code> や <code>Math.random()</code> と書かれているだけの scripts を workflow validation が reject してしまう問題を修正した。",
-                "<code>/plugin</code> marketplace list で、長い plugin list から戻ると cursor が消え、plugin browser から Esc すると誤った tab に戻る問題を修正した。",
-                "[VSCode] PowerShell tool calls が raw JSON のまま表示され、proper command display / permission dialog にならない問題を修正し、表示する shell output から ANSI escape codes も除去した."
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
-          "urlLabel": "v2.1.172 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -204,10 +150,10 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
-    "engineer watch では短い挨拶、雑談 reply、情報量のない event photo は signal から外した。",
+    "engineer watch では雑談 reply、挨拶、event photo、公式発表の単純な言い換えは signal から外した。",
     "ClaudeDevs の safeguard post は公開 payload でも本文末尾が切れていたため、summary では見えている範囲の事実だけを採用した。",
-    "Claude Blog の最新 visible publication date は <strong>Jun 10, 2026</strong> だったが、publish time が見えない date-only 記事は今回の window では前日分との重複を避けて採用しなかった。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.172</strong> と <strong>v2.1.173</strong> の 2 件と判定した。<strong>v2.1.170</strong> は <strong>2026-06-10 02:23 JST</strong> 公開で窓外だった."
+    "official site の記事は visible publication date が <strong>Jun 11, 2026</strong> とだけ表示され、時刻は見えていないため、スキル方針どおり date-only で窓内採用した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.173</strong> の 1 件と判定した。<strong>v2.1.172</strong> の公開時刻は <strong>2026-06-11 05:44 JST</strong> で、今回の窓の開始 <strong>2026-06-11 09:02 JST</strong> より前だった。"
   ],
   "sources": [
     {
@@ -227,6 +173,10 @@
       "url": "https://www.anthropic.com/news/claude-corps"
     },
     {
+      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
+      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
+    },
+    {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
     },
@@ -243,31 +193,19 @@
       "url": "https://x.com/ClaudeDevs/status/2064949876463645026"
     },
     {
-      "title": "AnthropicAI on Policy on the AI Exponential",
-      "url": "https://x.com/AnthropicAI/status/2064783418844762489"
+      "title": "Sid on using smaller Fable workflows with Opus",
+      "url": "https://x.com/sidbid/status/2065214147613401215"
     },
     {
-      "title": "Thariq on editing the launch video with Fable",
-      "url": "https://x.com/trq212/status/2064826394589442448"
+      "title": "Thariq on Fable video editing costs",
+      "url": "https://x.com/trq212/status/2064902482757874100"
     },
     {
-      "title": "Andrew Morris on advisor strategy with Fable as advisor",
-      "url": "https://x.com/amorriscode/status/2064877397548360063"
-    },
-    {
-      "title": "Felix Rieseberg on building hardware with Claude",
-      "url": "https://x.com/felixrieseberg/status/2064839830077579682"
-    },
-    {
-      "title": "Claude Code releases",
+      "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code release v2.1.172",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172"
-    },
-    {
-      "title": "Claude Code release v2.1.173",
+      "title": "Claude Code v2.1.173 release notes",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173"
     }
   ]
