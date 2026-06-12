@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "windowLabel": "2026-06-11 15:01:57 JST - 2026-06-12 15:01:57 JST",
+  "windowLabel": "2026-06-11 21:01:28 JST - 2026-06-12 21:01:28 JST",
   "archiveTitle": "Claude Corps, DXC, 2 releases",
   "archiveSummary": "公式更新4件、公式記事2件、engineer signal 3件、Claude Code release 2件。",
   "latestSummary": "この24時間では <strong>@ClaudeDevs</strong> が <strong>Claude Managed Agents</strong> の scheduled deployments と environment variables を告知し、<strong>@AnthropicAI</strong> は <strong>Claude Corps</strong> を発表した。公式サイトでは <strong>Anthropic News</strong> に <strong>Introducing Claude Corps</strong> と <strong>DXC will integrate Claude...</strong> が <strong>Jun 11, 2026</strong> 表示で並び、<strong>Claude Code</strong> はこの窓では <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 release が新規公開された。",
@@ -189,7 +189,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
     "engineer watch では雑談 reply、挨拶、personal photo、公式発表の単純な言い換えは signal から外した。",
     "official site の記事は visible publication date が <strong>Jun 11, 2026</strong> とだけ表示され、時刻は見えていないため、スキル方針どおり date-only で窓内採用した。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 件と判定した。<strong>v2.1.173</strong> の公開時刻は <strong>2026-06-11 14:41 JST</strong> で、今回の窓の開始 <strong>2026-06-11 15:01 JST</strong> より前だった。"
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 件と判定した。<strong>v2.1.173</strong> の公開時刻は <strong>2026-06-11 14:41 JST</strong> で、今回の窓の開始 <strong>2026-06-11 21:01 JST</strong> より前だった。"
   ],
   "sources": [
     {
