@@ -1,22 +1,32 @@
 {
   "date": "2026-06-13",
-  "windowLabel": "2026-06-12 02:59:39 JST - 2026-06-13 02:59:39 JST",
-  "archiveTitle": "Public Record, Fable thread, 2 releases",
-  "archiveSummary": "公式更新2件、公式記事1件、engineer signal 4件、Claude Code release 2件。",
-  "latestSummary": "この24時間では <strong>@ClaudeAI</strong> が <strong>Claude Fable 5</strong> の community showcase thread を出し、<strong>Anthropic News</strong> には <strong>Results from the first Anthropic Public Record</strong> が追加された。engineer 側では <strong>@alexalbert__</strong> が <strong>Fable の可読性を上げる prompt snippet</strong> を共有し、<strong>Claude Code</strong> は <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 release がこの窓に入った。",
+  "windowLabel": "2026-06-12 09:02:51 JST - 2026-06-13 09:02:51 JST",
+  "archiveTitle": "2 official posts, 2 articles, 3 releases",
+  "archiveSummary": "公式更新4件、engineer signal 2件、Claude Code release 3件。",
+  "latestSummary": "この24時間では <strong>@ClaudeDevs</strong> が <strong>Managed Agents の self-hosted sandbox provider guides</strong> 追加を告知し、<strong>Anthropic News</strong> には <strong>Anthropic Public Record</strong> と <strong>TCS 提携</strong> の 2 本が出た。engineer 側では <strong>Alex Albert</strong> が <strong>Fable の可読性向上 prompt</strong> と将来修正の方向を共有し、<strong>Claude Code</strong> は <strong>v2.1.174</strong> から <strong>v2.1.176</strong> まで 3 release がこの窓に入った。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Fable 5</strong> の community showcase thread を投稿し、Yosemite の procedural world、glass liquid UI、wooden house、paper-legs character、goldfish-feeding app、shader demo などの作例を一気に紹介した。",
-    "<strong>Official articles 1件</strong>: <strong>Anthropic News</strong> に <strong>Results from the first Anthropic Public Record</strong> が <strong>Jun 12, 2026</strong> 表示で追加され、約 <strong>52,000人</strong> の米国調査から AI への期待・不安・規制支持をまとめた。",
-    "<strong>Engineer signals 4件</strong>: <strong>@sidbid</strong> は大きな Fable task を <strong>smaller workflows</strong> と <strong>Opus for information gathering</strong> に分ける構成を勧め、<strong>@jarredsumner</strong> は <strong>big PRs</strong> に <strong>Claude Code workflows + Fable</strong> が効くと述べ、<strong>@amorriscode</strong> は multi-computer session 識別の改善を <strong>hope to address soon</strong> と返答し、<strong>@alexalbert__</strong> は <strong>Fable が長い agentic conversation で冗長になるときの prompt snippet</strong> を共有した。",
-    "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.174</strong> と <strong>v2.1.175</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Fable 5</strong> の community showcase thread を投稿し、<strong>@ClaudeDevs</strong> は <strong>Managed Agents</strong> 向け self-hosted sandbox guide を <strong>BlaxelAI / E2B / Google Cloud / Namespace / Superserve</strong> まで拡張した。",
+    "<strong>Official articles 2件</strong>: <strong>Anthropic News</strong> に <strong>Results from the first Anthropic Public Record</strong> と <strong>TCS and Anthropic partner to bring Claude to regulated industries</strong> がともに <strong>Jun 12, 2026</strong> 表示で追加された。",
+    "<strong>Engineer signals 2件</strong>: <strong>@alexalbert__</strong> は <strong>Fable の説明を平易にする prompt snippet</strong> を出し、続く reply で <strong>prompt 側と将来モデル側の修正を進めている</strong> と補足した。<strong>@amorriscode</strong> は <strong>複数 PC 間で session の出所が分かりにくい</strong> という要望に <strong>hope to address soon</strong> と返答した。",
+    "<strong>Claude Code release 3件</strong>: GitHub CLI で <strong>v2.1.176</strong>、<strong>v2.1.175</strong>、<strong>v2.1.174</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-06-13T03:00:33+09:00",
+      "displayTime": "2026-06-13 03:00 JST",
+      "title": "ClaudeDevs が Managed Agents 向け self-hosted sandbox guide 拡充を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Managed Agents</strong> が自前インフラまたは任意の provider 上の sandbox で動かせると案内し、<strong>BlaxelAI</strong>、<strong>E2B</strong>、<strong>Google Cloud</strong>、<strong>Namespace Labs</strong>、<strong>Superserve AI</strong> 向けの新しい guide を追加したと投稿した。Managed Agents の本番運用先を選ぶ材料が増えた更新。",
+      "url": "https://x.com/ClaudeDevs/status/2065494480837583297",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
     {
       "label": "Official X",
       "datetime": "2026-06-13T00:30:21+09:00",
       "displayTime": "2026-06-13 00:30 JST",
       "title": "ClaudeAI が Claude Fable 5 の community showcase thread を投稿",
-      "summary": "<strong>@ClaudeAI</strong> は、<strong>Claude Fable 5 has been out for a couple of days</strong> として 1 本の thread を立て、ユーザー制作例を連続で quote した。Yosemite の衛星画像 + NASA 標高データを使った world、CSS の glass liquid UI、wooden house、paper-legs physics、goldfish-feeding app、stormy ocean shader など、<strong>Fable 5 の表現幅</strong> を community 実例で見せる showcase post になっている。",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Claude Fable 5 has been out for a couple of days</strong> として community 作例を連続で quote した。Yosemite の procedural world、glass liquid UI、wooden house、paper-legs physics、goldfish-feeding app、stormy ocean shader など、<strong>Fable 5 の表現幅</strong> を一連の showcase として見せている。",
       "url": "https://x.com/claudeai/status/2065456678909227064",
       "urlLabel": "X で見る",
       "primary": true
@@ -26,8 +36,18 @@
       "datetime": "2026-06-12T12:00:00+09:00",
       "displayTime": "2026-06-12",
       "title": "Anthropic News が Results from the first Anthropic Public Record を公開",
-      "summary": "<strong>Results from the first Anthropic Public Record</strong> は、<strong>51,993人</strong> の米国オンライン調査を使って AI への期待・不安・規制観をまとめた記事。<strong>病気治療</strong> が最上位の期待、<strong>job loss</strong> が最上位の不安、<strong>71%</strong> が政府の AI 規制関与を支持、<strong>15%</strong> しか AI 企業を信頼していないという結果を前面に出している。",
+      "summary": "<strong>Results from the first Anthropic Public Record</strong> は、<strong>51,993人</strong> の米国調査をもとに AI への期待・不安・規制観を整理した記事。<strong>病気治療</strong> が最上位の期待、<strong>job loss</strong> が最上位の不安、<strong>71%</strong> が政府の AI 関与を支持、<strong>15%</strong> しか AI 企業を信頼していないという結果を前面に出している。",
       "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-06-12T12:00:00+09:00",
+      "displayTime": "2026-06-12",
+      "title": "Anthropic が TCS と regulated industries 向け提携を発表",
+      "summary": "<strong>TCS and Anthropic partner to bring Claude to regulated industries</strong> では、<strong>TCS</strong> が <strong>56か国の 50,000人</strong> の従業員へ Claude を展開し、金融、医療、公共部門など規制産業向けに Claude ベースの製品と導入支援を進めると発表した。TCS の banking product team が <strong>Claude Code</strong> を使う点や、industry-specific な <strong>skills / plugins</strong> を追加する計画も明記されている。",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership",
       "urlLabel": "記事を読む",
       "primary": true
     }
@@ -35,35 +55,25 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> からこの window 内に新しい main post は確認できなかった。今回の公式 X signal は <strong>@ClaudeAI</strong> の Fable showcase が中心だった。"
-    },
-    {
-      "label": "@ClaudeDevs の新規 fact-heavy post は 0件",
-      "body": "<strong>@ClaudeDevs</strong> ではこの window 内に <strong>/goooooal</strong> の短い post はあったが、新しい product fact や rollout detail は増えていないため officialNews には入れなかった。"
+      "body": "<strong>@AnthropicAI</strong> からこの window 内に新しい main post は確認できなかった。今回の公式 X signal は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> に集中している。"
     },
     {
       "label": "Claude Blog と Anthropic Engineering / Research の新規記事は 0件",
-      "body": "<strong>Claude Blog</strong> の最新 visible publication date は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> で、いずれも今回の window に新規 article はなかった。"
+      "body": "<strong>Claude Blog</strong> の最新 visible publication date は <strong>June 8, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> で、いずれも今回の window に新規 article はなかった。"
+    },
+    {
+      "label": "公式 X の追加 reply は main item 化していない",
+      "body": "<strong>@ClaudeDevs</strong> の follow-up reply には docs link があるが、新しい告知事実は main post で足りているため、公式ニュースは thread の起点 post を代表として採用した。"
     }
   ],
   "signals": [
     {
-      "label": "Workflow signal",
-      "datetime": "2026-06-12T08:26:37+09:00",
-      "displayTime": "2026-06-12 08:26 JST",
-      "title": "Sid が Fable task を smaller workflows と Opus に分ける構成を勧めた",
-      "summary": "<strong>@sidbid</strong> は、Fable で大きい task を回すなら <strong>smaller workflows</strong> に切り、必要に応じて <strong>Fable を orchestrator</strong>、<strong>Opus を information gathering tasks</strong> に使うとよいと reply で助言した。Claude app / Fable の実運用で cost と品質を両立させる構成ヒントとして有用。",
-      "url": "https://x.com/sidbid/status/2065214147613401215",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Usage signal",
-      "datetime": "2026-06-12T07:42:50+09:00",
-      "displayTime": "2026-06-12 07:42 JST",
-      "title": "Jarred Sumner が big PRs で Claude Code workflows と Fable が有効だと述べた",
-      "summary": "<strong>@jarredsumner</strong> は、<strong>big PRs</strong> に対して <strong>workflows in claude code works well for big PRs with fable</strong> と reply した。長い変更を一発で流すより workflow 化して扱う構成が実務で機能していることを示す現場寄りの signal。",
-      "url": "https://x.com/jarredsumner/status/2065203132221821188",
+      "label": "Prompting signal",
+      "datetime": "2026-06-13T02:55:35+09:00",
+      "displayTime": "2026-06-13 02:55 JST",
+      "title": "Alex Albert が Fable の説明を読みやすくする prompt snippet と将来修正方針を共有",
+      "summary": "<strong>@alexalbert__</strong> は、<strong>Fable feels superhuman at working over long agentic conversations</strong> としつつ、説明が追いづらくなることがあるとして <strong>write clearly and drop any jargon</strong> を狙う prompt snippet を共有した。続く reply では、これは当座の回避策であり、<strong>prompt 側と future models 側の修正を進めている</strong> と補足している。",
+      "url": "https://x.com/alexalbert__/status/2065493229760565758",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -71,19 +81,9 @@
       "label": "Roadmap signal",
       "datetime": "2026-06-12T10:15:11+09:00",
       "displayTime": "2026-06-12 10:15 JST",
-      "title": "Anthony Morris が multi-computer session 識別の改善要望に前向きに反応",
-      "summary": "<strong>@amorriscode</strong> は、複数の computer 間で Claude session を切り替えるときに <strong>どの machine の session か判別しづらい</strong> という要望に対し、<strong>Good feedback</strong>、<strong>hope to address soon</strong> と返信した。desktop / synced sessions の UX 改善を近いうちに検討していることを示す小さいが具体的な signal。",
+      "title": "Anthony Morris が複数 PC 間の session 識別改善を近く扱いたいと返答",
+      "summary": "<strong>@amorriscode</strong> は、複数の computer 間で Claude session を切り替えるときに <strong>どの machine の session か判別しづらい</strong> という要望に対し、<strong>Good feedback</strong>、<strong>Something we hope to address soon!</strong> と返信した。desktop / synced sessions の識別 UX を近いうちに改善したい意向を示す小さいが具体的な signal。",
       "url": "https://x.com/amorriscode/status/2065241471108968839",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Prompting signal",
-      "datetime": "2026-06-13T02:55:35+09:00",
-      "displayTime": "2026-06-13 02:55 JST",
-      "title": "Alex Albert が Fable の説明を読みやすくする prompt snippet を共有",
-      "summary": "<strong>@alexalbert__</strong> は、<strong>Fable feels superhuman at working over long agentic conversations</strong> としつつ、説明が追いづらくなることがあるとして、<strong>write clearly and drop any jargon</strong> を狙う prompt snippet を共有した。続く self-reply では公式の <strong>Prompting Claude Fable 5</strong> guide 該当節への link も貼っている。",
-      "url": "https://x.com/alexalbert__/status/2065493229760565758",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -91,19 +91,66 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "今回の公式サイト更新は <strong>Anthropic News</strong> の <strong>Results from the first Anthropic Public Record</strong> 1 件だけだった。Claude Blog、Anthropic Engineering、Anthropic Research にはこの 24 時間窓で新規 article はなかった。",
+      "headline": "2件",
+      "body": "今回の公式サイト更新は <strong>Anthropic News</strong> の <strong>Anthropic Public Record</strong> と <strong>TCS 提携</strong> の 2 件だった。<strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> にはこの 24 時間窓で新規 article はなかった。",
       "details": [
-        "<strong>Results from the first Anthropic Public Record</strong> は、約 <strong>52,000人</strong> の米国調査をもとに、AI への希望では <strong>病気治療</strong>、不安では <strong>job loss</strong> が最上位で、<strong>71%</strong> が政府の関与を支持し、<strong>15%</strong> しか AI 企業を信頼していないという結果を整理している。"
+        "<strong>Results from the first Anthropic Public Record</strong> は、約 <strong>52,000人</strong> の米国調査をもとに、AI への希望では <strong>病気治療</strong>、不安では <strong>job loss</strong> が最上位で、<strong>71%</strong> が政府の関与を支持し、<strong>15%</strong> しか AI 企業を信頼していないという結果を整理している。",
+        "<strong>TCS and Anthropic partner to bring Claude to regulated industries</strong> は、<strong>TCS</strong> が <strong>56か国 50,000人</strong> へ Claude を展開し、規制産業向けに Claude ベースの実装・運用を進める提携で、<strong>Claude Code</strong> を banking / IT operations に使うことや industry-specific な <strong>skills / plugins</strong> の追加計画まで触れている。"
       ],
       "url": "https://www.anthropic.com/news",
       "urlLabel": "Anthropic News"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に入る Claude Code release は <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 件だった。<strong>v2.1.175</strong> は managed <code>availableModels</code> を Default model にも強制する setting 追加、<strong>v2.1.174</strong> は fullscreen、<code>/model</code> picker、background sessions、VS Code usage attribution など広範囲の改善と修正が中心。",
+      "headline": "3件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に入る Claude Code release は <strong>v2.1.176</strong>、<strong>v2.1.175</strong>、<strong>v2.1.174</strong> の 3 件だった。<strong>v2.1.176</strong> は session language、footer badge regex、Remote Control、background sessions まわりの改善と多数の修正、<strong>v2.1.175</strong> は managed <code>availableModels</code> 制約の強化、<strong>v2.1.174</strong> は fullscreen、<code>/model</code> picker、VS Code usage attribution、background sessions など広範囲の修正が中心。",
       "releases": [
+        {
+          "version": "v2.1.176",
+          "publishedAt": "2026-06-13 06:53 JST",
+          "summary": "session title の言語自動化、footer badge regex、Bedrock credential caching 改善、Remote Control / background sessions / Windows / Linux / tmux まわりの多数の修正を含む release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "footer 行に regex マッチした link badge を出すための <code>footerLinksRegexes</code> setting を追加した。user settings と managed settings のどちらからでも設定できる。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "session title を会話の言語で自動生成するようにした。特定言語に固定したい場合は <code>language</code> setting を使う。",
+                "<code>awsCredentialExport</code> から取得した Bedrock credential の caching を改善し、固定 1 時間ではなく credential の <code>Expiration</code> まで保持するようにした。",
+                "background session で、auto-update をまたいで開きっぱなしだった window から reply を送れないときの案内を分かりやすくし、<code>claude daemon status</code> が version skew の挙動を説明するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>availableModels</code> の強制を修正し、alias model の選択が <code>ANTHROPIC_DEFAULT_*_MODEL</code> 環境変数経由で block 済み model へ迂回できないようにした。さらに <code>/fast</code> が allowlist 外 model へ切り替わる場合は toggle を拒否するようにした。",
+                "Opus 4.8 が有効でない organization で Fable 5 の auto mode が失敗する問題を修正し、classifier が利用可能な最適な Opus model に fallback するようにした。",
+                "Read/Edit/Write tool path に対する hook の <code>if</code> condition を修正し、<code>Edit(src/**)</code>、<code>Read(~/.ssh/**)</code>、<code>Read(.env)</code> のような documented pattern が正しく match するようにした。",
+                "Linux sandbox で <code>.claude/settings.json</code> が絶対パスを向く symlink のとき起動に失敗する問題を修正した。",
+                "SSH 越しの tmux 内で <code>/copy</code> や mouse selection の copy が system clipboard に届かない問題と、tmux 3.2 未満で paste buffer が読み込まれない問題を修正した。",
+                "web/mobile から Remote Control 接続したときに session の model が黙って切り替わる問題を修正した。",
+                "Remote Control の disconnect 通知が人間向け理由ではなく数値コードだけを出していた問題と、接続失敗時に conversation transcript へ重複行を追加する問題を修正した。",
+                "別 account に sign in したときに Remote Control session が切断されない問題を修正した。",
+                "<code>/cd</code> や worktree 移動後も session が前の directory の git branch を表示し続ける問題を修正した。",
+                "<code>claude agents</code> で 1 つの window から戻る操作をすると、同じ session に接続している別 window まで detach される問題を修正した。",
+                "<code>/bg</code> を turn の途中で実行して、その後に続きが何もない場合でも backgrounded session がずっと <strong>Working</strong> 表示になる問題を修正した。",
+                "scheduled wakeup 中や blocked 中に開かれた PR が <code>claude agents</code> の PR URL 検索に出てこない問題を修正した。",
+                "Windows で agents view の input に text cursor が表示されない問題を修正した。",
+                "<code>claude --bg -cn &lt;name&gt;</code> が session name を初期化しない問題を修正した。",
+                "background session の persisted state に残る Windows network path を respawn 前に neutralize するよう修正した。",
+                "破損した state file による malformed resume ID を background-session respawn が拒否できず失敗する問題を修正した。",
+                "<code>~/.claude/daemon</code> に ReadOnly attribute が付いた Windows 環境で background-service daemon が起動しない問題を修正した。",
+                "cloud session を長時間 idle のままにした後で claim すると <strong>Could not resolve authentication method</strong> で失敗する問題を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+          "urlLabel": "v2.1.176 release notes"
+        },
         {
           "version": "v2.1.175",
           "publishedAt": "2026-06-12 13:23 JST",
@@ -134,7 +181,7 @@
         {
           "version": "v2.1.174",
           "publishedAt": "2026-06-12 10:16 JST",
-          "summary": "fullscreen の scroll 設定、<code>/model</code> picker、background sessions、Bedrock GovCloud、skill hot-reload、Workflow attribution、VS Code usage attribution などをまたぐ改善と修正を含む release。",
+          "summary": "fullscreen、<code>/model</code> picker、Bedrock GovCloud、background sessions、skill hot-reload、Workflow attribution、VS Code usage attribution などをまたぐ改善と修正を含む release。",
           "sections": [
             {
               "title": "新機能",
@@ -175,10 +222,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
-    "engineer watch では雑談 reply、personal chatter、公式発表の単純な言い換えは signal から外した。",
-    "official site の記事は visible publication date が <strong>Jun 12, 2026</strong> とだけ表示され、時刻は見えていないため、スキル方針どおり date-only で窓内採用した。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.174</strong> と <strong>v2.1.175</strong> の 2 件と判定した。<strong>v2.1.173</strong> の公開時刻は <strong>2026-06-11 14:41 JST</strong> で、今回の窓の開始 <strong>2026-06-12 02:59 JST</strong> より前だった。"
+    "official X は main post を優先し、thread 内の quote-only reply や repost は default 設定どおり除外した。",
+    "engineer watch では personal chatter、文脈が薄い短文 reply、Claude の新情報を増やさない repost / quote は signal から外した。",
+    "official site の 2 記事は visible publication date が <strong>Jun 12, 2026</strong> とだけ表示され、時刻は見えていないため、スキル方針どおり date-only で窓内採用した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.174</strong>、<strong>v2.1.175</strong>、<strong>v2.1.176</strong> の 3 件と判定した。<strong>v2.1.173</strong> の公開時刻は <strong>2026-06-11 14:41 JST</strong> で、今回の窓の開始 <strong>2026-06-12 09:02 JST</strong> より前だった。"
   ],
   "sources": [
     {
@@ -198,6 +245,10 @@
       "url": "https://www.anthropic.com/news/anthropic-public-record"
     },
     {
+      "title": "TCS and Anthropic partner to bring Claude to regulated industries",
+      "url": "https://www.anthropic.com/news/tcs-anthropic-partnership"
+    },
+    {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
     },
@@ -206,20 +257,8 @@
       "url": "https://x.com/claudeai/status/2065456678909227064"
     },
     {
-      "title": "ClaudeDevs /goooooal post",
-      "url": "https://x.com/ClaudeDevs/status/2065192057535373473"
-    },
-    {
-      "title": "Sid on using smaller Fable workflows with Opus",
-      "url": "https://x.com/sidbid/status/2065214147613401215"
-    },
-    {
-      "title": "Jarred Sumner on workflows for big PRs",
-      "url": "https://x.com/jarredsumner/status/2065203132221821188"
-    },
-    {
-      "title": "Anthony Morris on multi-computer session UX",
-      "url": "https://x.com/amorriscode/status/2065241471108968839"
+      "title": "ClaudeDevs on self-hosted Managed Agents sandbox guides",
+      "url": "https://x.com/ClaudeDevs/status/2065494480837583297"
     },
     {
       "title": "Alex Albert on prompting Claude Fable 5 clearly",
@@ -230,16 +269,24 @@
       "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5#readability-when-communicating-with-the-user"
     },
     {
+      "title": "Anthony Morris on multi-computer session UX",
+      "url": "https://x.com/amorriscode/status/2065241471108968839"
+    },
+    {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.174 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174"
+      "title": "Claude Code v2.1.176 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176"
     },
     {
       "title": "Claude Code v2.1.175 release notes",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175"
+    },
+    {
+      "title": "Claude Code v2.1.174 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174"
     }
   ]
 }
