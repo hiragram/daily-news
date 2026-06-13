@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "windowLabel": "2026-06-12 15:01:58 JST - 2026-06-13 15:01:58 JST",
+  "windowLabel": "2026-06-12 21:02:10 JST - 2026-06-13 21:02:10 JST",
   "archiveTitle": "Fable 5 halted, 3 articles, 2 releases",
   "archiveSummary": "公式更新8件、engineer signal 2件、Claude Code release 2件。",
   "latestSummary": "この24時間では <strong>Anthropic</strong> が <strong>Fable 5 / Mythos 5 の停止命令</strong> を公表し、<strong>ClaudeDevs</strong> は <strong>全ユーザーの5時間・週次 rate limit reset</strong> を告知した。公式サイトでは <strong>Anthropic News</strong> に <strong>停止声明</strong>、<strong>Anthropic Public Record</strong>、<strong>TCS 提携</strong> の3本が並び、<strong>Claude Code</strong> は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> がこの窓に入った。",
@@ -208,7 +208,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
     "engineer watch では personal chatter、無関係な sports / joke 投稿、文脈の薄い短文 reply は signal から外した。",
     "official site の 3 記事はいずれも visible publication date が <strong>Jun 12, 2026</strong> とだけ表示され、時刻は見えていないため、スキル方針どおり date-only で窓内採用した。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件と判定した。<strong>v2.1.175</strong> の公開時刻は <strong>2026-06-12 13:23 JST</strong> で、今回の窓の開始 <strong>2026-06-12 15:01 JST</strong> より前だった。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件と判定した。<strong>v2.1.175</strong> の公開時刻は <strong>2026-06-12 13:23 JST</strong> で、今回の窓の開始 <strong>2026-06-12 21:02 JST</strong> より前だった。",
     "<strong>v2.1.177</strong> は GitHub Releases 上の body が空欄だったため、visible bullet を要約せず <strong>body なし</strong> として扱った。"
   ],
   "sources": [
