@@ -1,0 +1,217 @@
+{
+  "date": "2026-06-14",
+  "windowLabel": "2026-06-13 03:02:07 JST - 2026-06-14 03:02:07 JST",
+  "archiveTitle": "Fable suspension, limits reset, 2 releases",
+  "archiveSummary": "公式更新3件、engineer signal 2件、Claude Code release 2件。",
+  "latestSummary": "この24時間では <strong>Anthropic</strong> が <strong>Fable 5 / Mythos 5 停止</strong> を公式声明と X で案内し、<strong>ClaudeDevs</strong> は <strong>fallback model</strong> と <strong>rate limit reset</strong> を告知した。公式サイトの新規記事はなく、<strong>Claude Code</strong> は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> がこの窓に入った。",
+  "summaryBullets": [
+    "<strong>Official X 3件</strong>: <strong>@AnthropicAI</strong> は <strong>Fable 5 / Mythos 5 の停止</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>新規 session の fallback model</strong> と <strong>5-hour / weekly rate limits の reset</strong> を案内した。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> の visible publication date は最新でも <strong>Jun 12, 2026</strong> で、<strong>Claude Blog</strong> は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は <strong>Routines の thread が sidebar を spam するので opt-in 化する</strong> と返答し、<strong>grouped by projects の recency sorting 変更は直す</strong> と述べた。",
+    "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得した。<strong>v2.1.177</strong> は body なし、<strong>v2.1.176</strong> は visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-06-13T09:50:03+09:00",
+      "displayTime": "2026-06-13 09:50 JST",
+      "title": "AnthropicAI が Fable 5 / Mythos 5 の停止を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、米政府の export control directive により <strong>Fable 5</strong> と <strong>Mythos 5</strong> へのアクセスを停止すると投稿した。詳細は同日の公式声明で補われており、<strong>foreign national を対象とする命令の結果として全顧客向けに両モデルを無効化する</strong> と説明している。",
+      "url": "https://x.com/AnthropicAI/status/2065597531644743999",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-13T09:51:41+09:00",
+      "displayTime": "2026-06-13 09:51 JST",
+      "title": "ClaudeDevs が停止後の fallback model を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Fable 5</strong> 停止後は <strong>new sessions が selected default model または Opus 4.8</strong> で動くと説明した。停止告知そのものではなく、Claude 製品上の実利用への影響を補足する developer 向け公式 post。",
+      "url": "https://x.com/ClaudeDevs/status/2065597942602531163",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-13T11:24:00+09:00",
+      "displayTime": "2026-06-13 11:24 JST",
+      "title": "ClaudeDevs が全ユーザーの 5-hour / weekly rate limits reset を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>5-hour</strong> と <strong>weekly</strong> の rate limits を <strong>all users</strong> 向けに reset したと投稿した。Fable 5 停止後の移行負荷を和らげる運用対応として読むのが自然な短報。",
+      "url": "https://x.com/ClaudeDevs/status/2065621176735646006",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>@ClaudeAI</strong> からこの window 内に新しい main post は確認できなかった。公式な product update は今回も <strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> 側が中心だった。"
+    },
+    {
+      "label": "Anthropic News / Claude Blog / Engineering / Research の新規記事は 0件",
+      "body": "<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> で、今回の window に新規 article はなかった。"
+    },
+    {
+      "label": "公式 X の reply / repost は main item から外した",
+      "body": "<strong>@ClaudeDevs</strong> の Build Day 継続案内 reply と <strong>@ClaudeAI</strong> の repost は window 内にあったが、既存事実の補足または増幅にとどまるため main summary では採用していない。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Product signal",
+      "datetime": "2026-06-13T13:45:22+09:00",
+      "displayTime": "2026-06-13 13:45 JST",
+      "title": "Anthony Morris が Routines の threads を opt-in 化すると返答",
+      "summary": "<strong>@amorriscode</strong> は、<strong>Routines</strong> の threads が sidebar を spam するというフィードバックに対し、<strong>complaints があったので opt in にする</strong> と reply した。Claude app の thread surface を控えめに戻す UI 調整の signal。",
+      "url": "https://x.com/amorriscode/status/2065656752964874538",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Bugfix signal",
+      "datetime": "2026-06-13T13:44:53+09:00",
+      "displayTime": "2026-06-13 13:44 JST",
+      "title": "Anthony Morris が grouped-by-projects の sorting 変更を修正すると返答",
+      "summary": "<strong>@amorriscode</strong> は、project grouping 下で <strong>recency sorting により project 自体が動いて追いづらい</strong> という報告に対し、<strong>shouldn’t have changed</strong>、<strong>will fix</strong> と返答した。比較的すぐ直す前提の小さな UX regression signal。",
+      "url": "https://x.com/amorriscode/status/2065656632420569200",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この 24 時間窓では <strong>Anthropic News</strong>、<strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> のいずれにも新規公開記事は確認できなかった。",
+      "details": [
+        "<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 12, 2026</strong> で、今回の window 開始日 <strong>2026-06-13</strong> より前だった。",
+        "<strong>Claude Blog</strong> の最新 visible publication date は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI で確認したところ、この 24 時間窓に入る Claude Code release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件だった。<strong>v2.1.177</strong> は release body が空欄で assets のみ、<strong>v2.1.176</strong> は session title、footer badge regex、Bedrock credential caching、background sessions、Remote Control まわりの変更と多数の修正を含む。",
+      "releases": [
+        {
+          "version": "v2.1.177",
+          "publishedAt": "2026-06-13 10:25 JST",
+          "summary": "GitHub Releases では <strong>v2.1.177</strong> が公開されているが、<strong>release body は空欄</strong> で、visible な変更 bullet はなかった。配布 assets と checksum のみが付いている release。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
+          "urlLabel": "v2.1.177 release notes"
+        },
+        {
+          "version": "v2.1.176",
+          "publishedAt": "2026-06-13 06:53 JST",
+          "summary": "session title の言語自動化、footer badge regex、Bedrock credential caching 改善、background sessions の案内改善、Remote Control / Linux / Windows / tmux まわりの多数の修正を含む release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "footer 行に regex で一致した link badge を出すための <code>footerLinksRegexes</code> setting を追加した。user settings と managed settings のどちらからでも設定できる。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "session title を会話の言語で自動生成するようにした。特定言語に固定したい場合は <code>language</code> setting を使う。",
+                "<code>awsCredentialExport</code> から取得した Bedrock credential の caching を改善し、固定 1 時間ではなく credential の <code>Expiration</code> まで保持するようにした。",
+                "background sessions で、auto-update をまたいで開きっぱなしだった window から reply を送れないときの案内を分かりやすくし、<code>claude daemon status</code> が version-skew の挙動を説明するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>availableModels</code> の強制を修正し、alias model の選択が <code>ANTHROPIC_DEFAULT_*_MODEL</code> 環境変数経由で block 済み model へ迂回できないようにした。さらに <code>/fast</code> が allowlist 外 model へ切り替わる場合は toggle を拒否するようにした。",
+                "Opus 4.8 が有効でない organization で Fable 5 の auto mode が失敗する問題を修正し、classifier が利用可能な最適な Opus model に fallback するようにした。",
+                "Read / Edit / Write tool path に対する hook の <code>if</code> condition を修正し、<code>Edit(src/**)</code>、<code>Read(~/.ssh/**)</code>、<code>Read(.env)</code> のような documented pattern が正しく match するようにした。",
+                "Linux sandbox で <code>.claude/settings.json</code> が絶対パスを向く symlink のとき起動に失敗する問題を修正した。",
+                "SSH 越しの tmux 内で <code>/copy</code> や mouse selection の copy が system clipboard に届かない問題と、tmux 3.2 未満で paste buffer が読み込まれない問題を修正した。",
+                "web / mobile から Remote Control 接続したときに session の model が黙って切り替わる問題を修正した。",
+                "Remote Control の disconnect 通知が人間向け理由ではなく数値コードだけを出していた問題と、接続失敗時に conversation transcript へ重複行を追加する問題を修正した。",
+                "別 account に sign in したときに Remote Control session が切断されない問題を修正した。",
+                "<code>/cd</code> や worktree 移動後も session が前の directory の git branch を表示し続ける問題を修正した。",
+                "<code>claude agents</code> で 1 つの window から戻る操作をすると、同じ session に接続している別 window まで detach される問題を修正した。",
+                "<code>/bg</code> を turn の途中で実行して、その後に続きが何もない場合でも backgrounded session がずっと <strong>Working</strong> 表示になる問題を修正した。",
+                "scheduled wakeup 中や blocked 中に開かれた PR が <code>claude agents</code> の PR URL 検索に出てこない問題を修正した。",
+                "Windows で agents view の input に text cursor が表示されない問題を修正した。",
+                "<code>claude --bg -cn &lt;name&gt;</code> が session name を初期化しない問題を修正した。",
+                "background session の persisted state に残る Windows network path を respawn 前に neutralize するよう修正した。",
+                "破損した state file による malformed resume ID があると background-session respawn が失敗する問題を修正した。",
+                "<code>~/.claude/daemon</code> に ReadOnly attribute が付いた Windows 環境で background-service daemon が起動しない問題を修正した。",
+                "cloud session を長時間 idle のままにした後で claim すると <strong>Could not resolve authentication method</strong> で失敗する問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+          "urlLabel": "v2.1.176 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
+    "engineer watch では personal chatter、文脈の薄い短文 reply、無関係な雑談は signal から外した。",
+    "official site は visible publication date ベースで確認し、<strong>Jun 12, 2026</strong> 以前の掲載しか見えなかったため今回の window では 0 件とした。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件と判定した。<strong>v2.1.175</strong> の公開時刻は <strong>2026-06-12 13:23 JST</strong> で、今回の窓の開始 <strong>2026-06-13 03:02 JST</strong> より前だった。",
+    "<strong>v2.1.177</strong> は GitHub Releases 上の body が空欄だったため、visible bullet を要約せず <strong>body なし</strong> として扱った。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/fable-mythos-access"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "AnthropicAI on suspending access to Fable 5 and Mythos 5",
+      "url": "https://x.com/AnthropicAI/status/2065597531644743999"
+    },
+    {
+      "title": "ClaudeDevs on fallback models after Fable 5 suspension",
+      "url": "https://x.com/ClaudeDevs/status/2065597942602531163"
+    },
+    {
+      "title": "ClaudeDevs on rate limit reset",
+      "url": "https://x.com/ClaudeDevs/status/2065621176735646006"
+    },
+    {
+      "title": "Anthony Morris on Routines threads becoming opt-in",
+      "url": "https://x.com/amorriscode/status/2065656752964874538"
+    },
+    {
+      "title": "Anthony Morris on fixing grouped-by-projects recency sorting",
+      "url": "https://x.com/amorriscode/status/2065656632420569200"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.177 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177"
+    },
+    {
+      "title": "Claude Code v2.1.176 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176"
+    }
+  ]
+}
