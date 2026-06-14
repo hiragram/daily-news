@@ -1,13 +1,13 @@
 {
   "date": "2026-06-14",
-  "windowLabel": "2026-06-13 03:02:07 JST - 2026-06-14 03:02:07 JST",
+  "windowLabel": "2026-06-13 09:02:11 JST - 2026-06-14 09:02:11 JST",
   "archiveTitle": "Fable suspension, limits reset, 2 releases",
-  "archiveSummary": "公式更新3件、engineer signal 2件、Claude Code release 2件。",
-  "latestSummary": "この24時間では <strong>Anthropic</strong> が <strong>Fable 5 / Mythos 5 停止</strong> を公式声明と X で案内し、<strong>ClaudeDevs</strong> は <strong>fallback model</strong> と <strong>rate limit reset</strong> を告知した。公式サイトの新規記事はなく、<strong>Claude Code</strong> は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> がこの窓に入った。",
+  "archiveSummary": "公式更新3件、engineer signal 3件、Claude Code release 2件。",
+  "latestSummary": "この24時間では <strong>Anthropic</strong> が <strong>Fable 5 / Mythos 5 停止</strong> を X で告知し、<strong>ClaudeDevs</strong> は <strong>fallback model</strong> と <strong>rate limit reset</strong> を案内した。公式サイトの新規記事はなく、engineer 側では <strong>Claude Desktop / Code の steering と thread UI</strong> に関する小さな修正方針が見え、<strong>Claude Code</strong> は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> がこの窓に入った。",
   "summaryBullets": [
     "<strong>Official X 3件</strong>: <strong>@AnthropicAI</strong> は <strong>Fable 5 / Mythos 5 の停止</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>新規 session の fallback model</strong> と <strong>5-hour / weekly rate limits の reset</strong> を案内した。",
-    "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> の visible publication date は最新でも <strong>Jun 12, 2026</strong> で、<strong>Claude Blog</strong> は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。",
-    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は <strong>Routines の thread が sidebar を spam するので opt-in 化する</strong> と返答し、<strong>grouped by projects の recency sorting 変更は直す</strong> と述べた。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 10, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。",
+    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は <strong>Routines thread の opt-in 化</strong>、<strong>grouped-by-projects sorting の修正</strong>、<strong>Claude Code desktop の steering rollout</strong> を順次示した。",
     "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得した。<strong>v2.1.177</strong> は body なし、<strong>v2.1.176</strong> は visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
@@ -16,7 +16,7 @@
       "datetime": "2026-06-13T09:50:03+09:00",
       "displayTime": "2026-06-13 09:50 JST",
       "title": "AnthropicAI が Fable 5 / Mythos 5 の停止を告知",
-      "summary": "<strong>@AnthropicAI</strong> は、米政府の export control directive により <strong>Fable 5</strong> と <strong>Mythos 5</strong> へのアクセスを停止すると投稿した。詳細は同日の公式声明で補われており、<strong>foreign national を対象とする命令の結果として全顧客向けに両モデルを無効化する</strong> と説明している。",
+      "summary": "<strong>@AnthropicAI</strong> は、米政府の export control directive により <strong>Fable 5</strong> と <strong>Mythos 5</strong> へのアクセスを停止すると投稿した。MCP 上の本文は末尾が切れているが、同日の公式声明では <strong>foreign national を対象とする命令の結果として全顧客向けに両モデルを無効化する</strong> と説明している。",
       "url": "https://x.com/AnthropicAI/status/2065597531644743999",
       "urlLabel": "X で見る",
       "primary": true
@@ -45,7 +45,7 @@
   "officialZeroStates": [
     {
       "label": "@ClaudeAI の新規 main post は 0件",
-      "body": "<strong>@ClaudeAI</strong> からこの window 内に新しい main post は確認できなかった。公式な product update は今回も <strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> 側が中心だった。"
+      "body": "<strong>@ClaudeAI</strong> からこの window 内に新しい main post は確認できなかった。window 内にあったのは <strong>@ClaudeDevs</strong> 投稿の repost で、独自の新情報は増えていない。"
     },
     {
       "label": "Anthropic News / Claude Blog / Engineering / Research の新規記事は 0件",
@@ -74,6 +74,16 @@
       "title": "Anthony Morris が grouped-by-projects の sorting 変更を修正すると返答",
       "summary": "<strong>@amorriscode</strong> は、project grouping 下で <strong>recency sorting により project 自体が動いて追いづらい</strong> という報告に対し、<strong>shouldn’t have changed</strong>、<strong>will fix</strong> と返答した。比較的すぐ直す前提の小さな UX regression signal。",
       "url": "https://x.com/amorriscode/status/2065656632420569200",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Feature rollout signal",
+      "datetime": "2026-06-14T07:39:42+09:00",
+      "displayTime": "2026-06-14 07:39 JST",
+      "title": "Anthony Morris が Claude Code desktop の steering をまもなく rollout すると示唆",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code desktop で steering を求める利用者への reply で、<strong>steering behind a gate を短期 rollout する</strong> と述べた。正式アナウンスではないが、desktop 側の操作系が近く広がることを示す product signal。",
+      "url": "https://x.com/amorriscode/status/2065927115594510799",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -157,7 +167,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり除外した。",
     "engineer watch では personal chatter、文脈の薄い短文 reply、無関係な雑談は signal から外した。",
     "official site は visible publication date ベースで確認し、<strong>Jun 12, 2026</strong> 以前の掲載しか見えなかったため今回の window では 0 件とした。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件と判定した。<strong>v2.1.175</strong> の公開時刻は <strong>2026-06-12 13:23 JST</strong> で、今回の窓の開始 <strong>2026-06-13 03:02 JST</strong> より前だった。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.177</strong> と <strong>v2.1.176</strong> の 2 件と判定した。<strong>v2.1.175</strong> の公開時刻は <strong>2026-06-12 13:23 JST</strong> で、今回の窓の開始 <strong>2026-06-13 09:02 JST</strong> より前だった。",
     "<strong>v2.1.177</strong> は GitHub Releases 上の body が空欄だったため、visible bullet を要約せず <strong>body なし</strong> として扱った。"
   ],
   "sources": [
@@ -200,6 +210,10 @@
     {
       "title": "Anthony Morris on fixing grouped-by-projects recency sorting",
       "url": "https://x.com/amorriscode/status/2065656632420569200"
+    },
+    {
+      "title": "Anthony Morris on steering rollout",
+      "url": "https://x.com/amorriscode/status/2065927115594510799"
     },
     {
       "title": "Claude Code Releases",
