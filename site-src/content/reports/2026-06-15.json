@@ -1,14 +1,14 @@
 {
   "date": "2026-06-15",
-  "windowLabel": "2026-06-14 03:02:16 JST - 2026-06-15 03:02:16 JST",
-  "archiveTitle": "No fresh official posts, one desktop rollout signal",
-  "archiveSummary": "公式更新0件、engineer signal 1件、Claude Code release 0件。",
-  "latestSummary": "この24時間では <strong>公式X</strong>、<strong>Anthropic公式ブログ群</strong>、<strong>Claude Code release</strong> に新規項目はなかった。いっぽう <strong>@amorriscode</strong> は <strong>Claude Code desktop の steering rollout</strong> が近いことを reply で示した。",
+  "windowLabel": "2026-06-14 09:02:36 JST - 2026-06-15 09:02:36 JST",
+  "archiveTitle": "No fresh Claude updates in the last 24 hours",
+  "archiveSummary": "公式更新0件、engineer signal 0件、Claude Code release 0件。",
+  "latestSummary": "この24時間では <strong>公式X</strong>、<strong>Anthropic公式ブログ群</strong>、<strong>Anthropic関係者X</strong>、<strong>Claude Code release</strong> のいずれにも新規の Claude 関連更新は確認できなかった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post で、この window に入る新規投稿は確認できなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> に <strong>Jun 12, 2026</strong> より新しい visible publication date はなく、<strong>Claude Blog</strong> の先頭も <strong>Jun 10, 2026</strong> のままだった。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示。",
-    "<strong>Engineer signals 1件</strong>: <strong>@amorriscode</strong> は <strong>Claude Code desktop の steering</strong> を <strong>shortly rollout</strong> すると reply し、desktop 側の操作フロー拡張が近いことを示した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を完全確認したが、最新の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong>、本文付き最新の <strong>v2.1.176</strong> は <strong>2026-06-13 06:53 JST</strong> 公開で、今回の window 開始 <strong>2026-06-14 03:02 JST</strong> より前だった。本文は完全取得し、<strong>v2.1.176</strong> の全 bullets を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。"
+    "<strong>Engineer signals 0件</strong>: Anthropic 関係者アカウント群の in-window 投稿は数件あったが、祝辞、一般的な OSS 運用談義、サッカー観戦コメントなどで、Claude / Anthropic 製品の新情報に当たるものはなかった。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を完全確認したが、最新の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong>、本文付き最新の <strong>v2.1.176</strong> は <strong>2026-06-13 06:53 JST</strong> 公開で、今回の window 開始 <strong>2026-06-14 09:02 JST</strong> より前だった。本文は完全取得し、<strong>v2.1.176</strong> の全 bullets を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -22,21 +22,10 @@
     },
     {
       "label": "Claude Code release の新規公開は 0件",
-      "body": "GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得したが、公開時刻はそれぞれ <strong>2026-06-13 10:25 JST</strong>、<strong>2026-06-13 06:53 JST</strong> で、今回の窓の開始 <strong>2026-06-14 03:02 JST</strong> より前だった。"
+      "body": "GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得したが、公開時刻はそれぞれ <strong>2026-06-13 10:25 JST</strong>、<strong>2026-06-13 06:53 JST</strong> で、今回の窓の開始 <strong>2026-06-14 09:02 JST</strong> より前だった。"
     }
   ],
-  "signals": [
-    {
-      "label": "Feature rollout signal",
-      "datetime": "2026-06-14T07:39:42+09:00",
-      "displayTime": "2026-06-14 07:39 JST",
-      "title": "Anthony Morris が Claude Code desktop の steering rollout を短期予告",
-      "summary": "<strong>@amorriscode</strong> は、Claude Code desktop で steering を求める声への reply で、<strong>steering behind a gate</strong> があり <strong>shortly rollout</strong> すると述べた。正式アナウンスではないが、desktop 側の操作フロー拡張が近いことを示す signal。",
-      "url": "https://x.com/amorriscode/status/2065927115594510799",
-      "urlLabel": "X で見る",
-      "primary": true
-    }
-  ],
+  "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
@@ -92,7 +81,7 @@
             "background session の persisted state に残る Windows network path を respawn 前に neutralize するよう修正した。",
             "破損した state file による malformed resume ID があると background-session respawn が失敗する問題を修正した。",
             "<code>~/.claude/daemon</code> に ReadOnly attribute が付いた Windows 環境で background-service daemon が起動しない問題を修正した。",
-            "cloud session を長時間 idle のままにした後で claim すると <strong>Could not resolve authentication method</strong> で失敗する問題を修正した."
+            "cloud session を長時間 idle のままにした後で claim すると <strong>Could not resolve authentication method</strong> で失敗する問題を修正した。"
           ]
         }
       ],
@@ -102,7 +91,7 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では personal chatter、sports 投稿、Claude / Anthropic と無関係な reply は signal から外した。",
+    "engineer watch では祝辞、一般的な OSS 運用談義、サッカー観戦コメントなど、Claude / Anthropic の新情報に当たらない投稿は signal から外した。",
     "公式サイトは visible publication date ベースで確認し、今回の window に入る新規記事が見えなかったため 0 件とした。",
     "Claude Code release は GitHub CLI で完全取得したが、<strong>v2.1.177</strong> と <strong>v2.1.176</strong> はどちらも今回の 24 時間窓より前なので panel の headline は <strong>0件</strong> とした。"
   ],
@@ -122,10 +111,6 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Anthony Morris on steering rollout",
-      "url": "https://x.com/amorriscode/status/2065927115594510799"
     },
     {
       "title": "Claude Code Releases",
