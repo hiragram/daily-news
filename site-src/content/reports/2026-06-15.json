@@ -1,14 +1,14 @@
 {
   "date": "2026-06-15",
-  "windowLabel": "2026-06-14 09:02:36 JST - 2026-06-15 09:02:36 JST",
+  "windowLabel": "2026-06-14 15:00:42 JST - 2026-06-15 15:00:42 JST",
   "archiveTitle": "No fresh Claude updates in the last 24 hours",
   "archiveSummary": "公式更新0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "この24時間では <strong>公式X</strong>、<strong>Anthropic公式ブログ群</strong>、<strong>Anthropic関係者X</strong>、<strong>Claude Code release</strong> のいずれにも新規の Claude 関連更新は確認できなかった。",
+  "latestSummary": "2026-06-14 15:00 JST から 2026-06-15 15:00 JST の24時間では、<strong>公式X</strong>、<strong>Anthropic公式ブログ群</strong>、<strong>Anthropic関係者X</strong>、<strong>Claude Code release</strong> のいずれにも新規の Claude 関連更新は確認できなかった。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post で、この window に入る新規投稿は確認できなかった。",
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を MCP で確認したが、この window に入る新規 main post はなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> に <strong>Jun 12, 2026</strong> より新しい visible publication date はなく、<strong>Claude Blog</strong> の先頭も <strong>Jun 10, 2026</strong> のままだった。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示。",
-    "<strong>Engineer signals 0件</strong>: Anthropic 関係者アカウント群の in-window 投稿は数件あったが、祝辞、一般的な OSS 運用談義、サッカー観戦コメントなどで、Claude / Anthropic 製品の新情報に当たるものはなかった。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を完全確認したが、最新の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong>、本文付き最新の <strong>v2.1.176</strong> は <strong>2026-06-13 06:53 JST</strong> 公開で、今回の window 開始 <strong>2026-06-14 09:02 JST</strong> より前だった。本文は完全取得し、<strong>v2.1.176</strong> の全 bullets を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。"
+    "<strong>Engineer signals 0件</strong>: Anthropic 関係者アカウント群の in-window 投稿は <strong>@amorriscode</strong> の短い reply 3件と <strong>@jackclarkSF</strong> の祝辞 reply 1件のみで、Claude / Anthropic 製品の新情報に当たるものはなかった。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を完全確認したが、最新の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong>、本文付き最新の <strong>v2.1.176</strong> は <strong>2026-06-13 06:53 JST</strong> 公開で、今回の window 開始 <strong>2026-06-14 15:00 JST</strong> より前だった。本文は完全取得し、<strong>v2.1.176</strong> の全 bullets を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -22,7 +22,7 @@
     },
     {
       "label": "Claude Code release の新規公開は 0件",
-      "body": "GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得したが、公開時刻はそれぞれ <strong>2026-06-13 10:25 JST</strong>、<strong>2026-06-13 06:53 JST</strong> で、今回の窓の開始 <strong>2026-06-14 09:02 JST</strong> より前だった。"
+      "body": "GitHub CLI で <strong>v2.1.177</strong> と <strong>v2.1.176</strong> を完全取得したが、公開時刻はそれぞれ <strong>2026-06-13 10:25 JST</strong>、<strong>2026-06-13 06:53 JST</strong> で、今回の窓の開始 <strong>2026-06-14 15:00 JST</strong> より前だった。"
     }
   ],
   "signals": [],
@@ -91,11 +91,31 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では祝辞、一般的な OSS 運用談義、サッカー観戦コメントなど、Claude / Anthropic の新情報に当たらない投稿は signal から外した。",
+    "engineer watch では <strong>@amorriscode</strong> と <strong>@jackclarkSF</strong> の in-window reply を確認したが、祝辞や一般会話のみで Claude / Anthropic の新情報に当たらないため signal から外した。",
     "公式サイトは visible publication date ベースで確認し、今回の window に入る新規記事が見えなかったため 0 件とした。",
     "Claude Code release は GitHub CLI で完全取得したが、<strong>v2.1.177</strong> と <strong>v2.1.176</strong> はどちらも今回の 24 時間窓より前なので panel の headline は <strong>0件</strong> とした。"
   ],
   "sources": [
+    {
+      "title": "AnthropicAI on X",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI on X",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs on X",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "amorriscode on X",
+      "url": "https://x.com/amorriscode"
+    },
+    {
+      "title": "jackclarkSF on X",
+      "url": "https://x.com/jackclarkSF"
+    },
     {
       "title": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering"
