@@ -1,9 +1,9 @@
 {
   "date": "2026-06-16",
-  "windowLabel": "2026-06-15 09:03:05 JST - 2026-06-16 09:03:05 JST",
+  "windowLabel": "2026-06-15 15:02:38 JST - 2026-06-16 15:02:38 JST",
   "archiveTitle": "Hackathon winners and Claude Code v2.1.178",
   "archiveSummary": "公式更新1件、公式X0件、engineer signal 3件、Claude Code release 1件。",
-  "latestSummary": "2026-06-15 09:03 JST から 2026-06-16 09:03 JST の 24 時間では、<strong>公式X</strong> に新規 main post はなかったが、<strong>Claude Blog</strong> に <strong>Built with Opus 4.7 Claude Code hackathon</strong> の受賞者紹介記事が出た。加えて <strong>Claude Code</strong> は <strong>v2.1.178</strong> を公開し、permission rules、nested <code>.claude</code>、Remote Control、subagent、background sessions など広い範囲に更新が入った。",
+  "latestSummary": "2026-06-15 15:02 JST から 2026-06-16 15:02 JST の 24 時間では、<strong>公式X</strong> に新規 main post はなかったが、<strong>Claude Blog</strong> に <strong>Built with Opus 4.7 Claude Code hackathon</strong> の受賞者紹介記事が出た。加えて <strong>Claude Code</strong> は <strong>v2.1.178</strong> を公開し、permission rules、nested <code>.claude</code>、Remote Control、subagent、background sessions など広い範囲に更新が入った。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を MCP で確認したが、この window に入る新規 main post はなかった。",
     "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> に <strong>Meet the winners of Built with Opus 4.7 Claude Code hackathon</strong> が <strong>Jun 15, 2026</strong> 表示で追加された。<strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示のままだった。",
@@ -136,7 +136,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
     "engineer watch では <strong>@adocomplete</strong> の祝辞 post や、<strong>@RobertJBye</strong> / <strong>@jackclarkSF</strong> などの Claude / Anthropic の新情報が薄い雑談・短文 reply は signal から外した。",
     "公式サイト記事は visible publication date ベースで確認し、<strong>Claude Blog</strong> の新規記事だけを採用した。article page に時刻は見えないため、date-only 表示に合わせて <strong>2026-06-15</strong> として扱った。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.178</strong> のみと判定した。次点の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong> 公開で、今回の窓の開始 <strong>2026-06-15 09:03 JST</strong> より前だった。"
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.178</strong> のみと判定した。次点の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong> 公開で、今回の窓の開始 <strong>2026-06-15 15:02 JST</strong> より前だった。"
   ],
   "sources": [
     {
