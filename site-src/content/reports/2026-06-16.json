@@ -1,54 +1,33 @@
 {
   "date": "2026-06-16",
-  "windowLabel": "2026-06-15 15:02:38 JST - 2026-06-16 15:02:38 JST",
-  "archiveTitle": "Hackathon winners and Claude Code v2.1.178",
-  "archiveSummary": "公式更新1件、公式X0件、engineer signal 3件、Claude Code release 1件。",
-  "latestSummary": "2026-06-15 15:02 JST から 2026-06-16 15:02 JST の 24 時間では、<strong>公式X</strong> に新規 main post はなかったが、<strong>Claude Blog</strong> に <strong>Built with Opus 4.7 Claude Code hackathon</strong> の受賞者紹介記事が出た。加えて <strong>Claude Code</strong> は <strong>v2.1.178</strong> を公開し、permission rules、nested <code>.claude</code>、Remote Control、subagent、background sessions など広い範囲に更新が入った。",
+  "windowLabel": "2026-06-15 21:02:13 JST - 2026-06-16 21:02:13 JST",
+  "archiveTitle": "Claude Code v2.1.178 and Opus 4.8 UI clarification",
+  "archiveSummary": "公式更新0件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-06-15 21:02 JST から 2026-06-16 21:02 JST の24時間では、<strong>公式X</strong> に新規 main post はなく、<strong>Anthropic公式ブログ群</strong> も窓内で時刻付き確認できる新規記事はなかった。いっぽう <strong>@amorriscode</strong> は <strong>Opus 4.8 の context 表示は UI の分かりにくさだ</strong> と補足し、<strong>Claude Code</strong> は <strong>v2.1.178</strong> を公開して permission rules、nested <code>.claude</code>、Remote Control、subagent、background session など広い範囲を更新した。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を MCP で確認したが、この window に入る新規 main post はなかった。",
-    "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> に <strong>Meet the winners of Built with Opus 4.7 Claude Code hackathon</strong> が <strong>Jun 15, 2026</strong> 表示で追加された。<strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示のままだった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は <strong>Remote Control の server mode 導線</strong> を案内し、その後の別 thread では <strong>Opus 4.8 は 1M context / More models の Opus 4.8 は 256k</strong> と明言して UI の分かりにくさを修正すると述べた。<strong>@jarredsumner</strong> は custom git clone 実装で <strong>2x - 3x</strong> 高速化できる見込みを示したうえで、試作 PR を公開した。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示のままだった。<strong>Claude Blog</strong> には <strong>Jun 15, 2026</strong> 表示の記事があるが、article/listing とも時刻が見えず、今回の window 開始 <strong>2026-06-15 21:02 JST</strong> より後と断定できないため保守的に除外した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は <strong>Opus 4.8 は 1M context / More models の Opus 4.8 は 256k</strong> と補足し、続く reply で <strong>UI をもっと分かりやすく直す</strong> と述べた。<strong>@jarredsumner</strong> は custom git clone 実装の試作 PR を公開した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.178</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
   ],
-  "officialNews": [
-    {
-      "label": "Official site",
-      "datetime": "2026-06-15T12:00:00+09:00",
-      "displayTime": "2026-06-15",
-      "title": "Claude Blog が Built with Opus 4.7 Claude Code hackathon の受賞者紹介を公開",
-      "summary": "<strong>Meet the winners of Built with Opus 4.7 Claude Code hackathon</strong> は、医療研修、電子機器修理、CS 教育、インタラクティブ体験、住宅修繕、工場保守などの領域で受賞したプロジェクトを紹介している。本文では <strong>Claude Managed Agents</strong> や <strong>Claude Code の multi-agent mode</strong>、音声中心の開発フローなど、受賞者が実際にどう Claude を使ったかまで具体的に触れている。",
-      "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon",
-      "urlLabel": "記事を読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この window に入る新規 main post はなかった。今回の公式増分は X ではなく <strong>Claude Blog</strong> 側の 1 記事だけだった。"
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この window に入る新規 main post はなかった。公式増分は X では確認できていない。"
     },
     {
-      "label": "Anthropic News と Engineering / Research の新規記事は 0件",
-      "body": "<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示で、今回の窓に入る新規 article はなかった。"
+      "label": "Anthropic公式記事の窓内採用は 0件",
+      "body": "<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示だった。<strong>Claude Blog</strong> には <strong>Jun 15, 2026</strong> の記事が見えるが、時刻が出ていないため、開始時刻が <strong>2026-06-15 21:02 JST</strong> の今回 window では保守的に採用しなかった。"
     }
   ],
   "signals": [
-    {
-      "label": "Workflow signal",
-      "datetime": "2026-06-15T17:23:46+09:00",
-      "displayTime": "2026-06-15 17:23 JST",
-      "title": "Anthony Morris が Remote Control の server mode 導線を案内",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code を server mode で起動</strong> すると <strong>desktop / mobile app の env picker</strong> から新規 session を開けると reply し、<strong>Remote Control docs</strong> の該当節を案内した。新機能発表ではないが、現行ワークフローの具体的な運用ガイダンスとして有用。",
-      "url": "https://x.com/amorriscode/status/2066436492277559304",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
     {
       "label": "Product clarification",
       "datetime": "2026-06-16T07:52:56+09:00",
       "displayTime": "2026-06-16 07:52 JST",
       "title": "Anthony Morris が Opus 4.8 の context 表示を補足し UI 修正を予告",
-      "summary": "<strong>@amorriscode</strong> は、Claude Desktop app 上の表示について <strong>Opus 4.8 は 1M context</strong>、<strong>More models の Opus 4.8 は 256k context</strong> だと明言し、<strong>Will make this more clear</strong> と返信した。続く reply では <strong>we’ll fix the UI so it’s more clear</strong> とも述べており、context 表示の混乱が UI 側の問題であることを示している。",
+      "summary": "<strong>@amorriscode</strong> は、Claude app 上の表示について <strong>Opus 4.8 は 1M context</strong>、<strong>More models の Opus 4.8 は 256k context</strong> だと明言し、<strong>Will make this more clear</strong> と返信した。続く reply でも <strong>we’ll fix the UI so it’s more clear</strong> と述べており、context 表示の混乱が UI 側の問題であることを示している。",
       "url": "https://x.com/amorriscode/status/2066655224883023909",
       "urlLabel": "X で見る",
       "primary": true
@@ -58,7 +37,7 @@
       "datetime": "2026-06-16T06:50:53+09:00",
       "displayTime": "2026-06-16 06:50 JST",
       "title": "Jarred Sumner が高速 git clone 試作 PR を公開",
-      "summary": "<strong>@jarredsumner</strong> は、この window 前半に述べていた <strong>2x - 3x</strong> の clone 高速化見込みに続き、hidden な <strong>bun git-clone</strong> 実装の PR を投稿した。Anthropic や Claude Code の正式機能ではないが、大規模 repo 取得を速くする方向で実コードが進んでいることを示す engineer-level signal。",
+      "summary": "<strong>@jarredsumner</strong> は hidden な <strong>bun git-clone</strong> 実装の PR を投稿した。前段の議論では <strong>2x - 3x</strong> の clone 高速化余地にも触れており、Anthropic や Claude Code の正式機能ではないが、大規模 repo 取得を速くする方向で実コードが進んでいることを示す engineer-level signal。",
       "url": "https://x.com/jarredsumner/status/2066639607157170658",
       "urlLabel": "X で見る",
       "primary": true
@@ -67,11 +46,11 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "この 24 時間窓の公式記事更新は <strong>Claude Blog</strong> の 1 件で、<strong>Meet the winners of Built with Opus 4.7 Claude Code hackathon</strong> が <strong>Jun 15, 2026</strong> 表示で追加されていた。記事は受賞作の紹介に加え、<strong>Managed Agents</strong>、<strong>multi-agent mode</strong>、音声入力中心の開発など、実運用での Claude 活用法も具体的に伝えている。",
+      "headline": "0件",
+      "body": "この24時間窓では <strong>Anthropic News</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> に新規公開記事は確認できなかった。<strong>Claude Blog</strong> には <strong>Jun 15, 2026</strong> 表示の新しい記事があるが、時刻が見えず、今回の window 開始 <strong>2026-06-15 21:02 JST</strong> より後と断定できないため保守的に 0 件扱いにした。",
       "details": [
-        "<strong>Claude Blog</strong> に <strong>Meet the winners of Built with Opus 4.7 Claude Code hackathon</strong> が追加された。",
-        "<strong>Anthropic News</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> には今回の window に入る visible publication date の新規記事はなかった。"
+        "<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。",
+        "<strong>Claude Blog</strong> には <strong>Meet the winners of the Built with Opus 4.7 Claude Code hackathon</strong> が <strong>Jun 15, 2026</strong> 表示で載っているが、exact publish time を確認できなかった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -79,7 +58,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.178",
-      "body": "GitHub CLI で確認したところ、この 24 時間窓に入る Claude Code release は <strong>v2.1.178</strong> の 1 件だった。公開時刻は <strong>2026-06-16 06:35 JST</strong>。permission rules の粒度向上、nested <code>.claude</code> directory の扱い、auto mode / Remote Control / <code>/doctor</code> / subagent / background session 周辺の改善と、多数の修正が含まれる。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.178</strong> の 1 件だった。公開時刻は <strong>2026-06-16 06:35 JST</strong>。permission rules の粒度向上、nested <code>.claude</code> 構成、auto mode / Remote Control / <code>/doctor</code> / subagent / background session 周辺の改善と、多数の修正が含まれる。",
       "releases": [
         {
           "version": "v2.1.178",
@@ -134,9 +113,9 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では <strong>@adocomplete</strong> の祝辞 post や、<strong>@RobertJBye</strong> / <strong>@jackclarkSF</strong> などの Claude / Anthropic の新情報が薄い雑談・短文 reply は signal から外した。",
-    "公式サイト記事は visible publication date ベースで確認し、<strong>Claude Blog</strong> の新規記事だけを採用した。article page に時刻は見えないため、date-only 表示に合わせて <strong>2026-06-15</strong> として扱った。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.178</strong> のみと判定した。次点の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong> 公開で、今回の窓の開始 <strong>2026-06-15 15:02 JST</strong> より前だった。"
+    "engineer watch では <strong>@adocomplete</strong> の祝辞 post や、<strong>@amorriscode</strong> の短い相づち reply、<strong>@RobertJBye</strong> などの Claude / Anthropic の新情報が薄い投稿は signal から外した。",
+    "公式サイト記事は visible publication date ベースで確認したが、<strong>Claude Blog</strong> の <strong>Jun 15, 2026</strong> 記事は exact publish time を確認できず、今回の window 開始 <strong>2026-06-15 21:02 JST</strong> より後と断定できないため保守的に除外した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.178</strong> のみと判定した。次点の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong> 公開で、今回の窓の開始より前だった。"
   ],
   "sources": [
     {
@@ -152,20 +131,12 @@
       "url": "https://x.com/ClaudeDevs"
     },
     {
-      "title": "Anthony Morris on Remote Control server mode",
-      "url": "https://x.com/amorriscode/status/2066436492277559304"
-    },
-    {
       "title": "Anthony Morris on Opus 4.8 context clarification",
       "url": "https://x.com/amorriscode/status/2066655224883023909"
     },
     {
-      "title": "Anthony Morris on clarifying the UI",
+      "title": "Anthony Morris on fixing the UI clarity",
       "url": "https://x.com/amorriscode/status/2066667981745357086"
-    },
-    {
-      "title": "Jarred Sumner on faster git clone experiments",
-      "url": "https://x.com/jarredsumner/status/2066484103952908653"
     },
     {
       "title": "Jarred Sumner on bun git-clone PR",
@@ -186,10 +157,6 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Meet the winners of Built with Opus 4.7 Claude Code hackathon",
-      "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon"
     },
     {
       "title": "Claude Code Releases",
