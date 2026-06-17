@@ -1,22 +1,32 @@
 {
   "date": "2026-06-17",
-  "windowLabel": "2026-06-16 03:02:40 JST - 2026-06-17 03:02:40 JST",
-  "archiveTitle": "ClaudeDevs Managed Agents post and Claude Code v2.1.178",
-  "archiveSummary": "公式更新1件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-06-16 03:02 JST から 2026-06-17 03:02 JST の24時間では、<strong>@ClaudeDevs</strong> が <strong>Claude Managed Agents</strong> の新しい紹介投稿を出し、<strong>@amorriscode</strong> は <strong>Opus 4.8 の context 表示は UI 側の分かりにくさだ</strong> と補足した。<strong>Anthropic公式ブログ群</strong> に新規記事はなく、<strong>Claude Code</strong> は <strong>v2.1.178</strong> を公開して permission rules、nested <code>.claude</code>、Remote Control、subagent、background session などを更新した。",
+  "windowLabel": "2026-06-16 09:00:00 JST - 2026-06-17 09:00:00 JST",
+  "archiveTitle": "Claude Code expertise research and v2.1.179",
+  "archiveSummary": "公式更新2件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-06-16 09:00 JST から 2026-06-17 09:00 JST の24時間では、<strong>AnthropicAI</strong> が <strong>Claude Code の利用実態を扱う新しい Economic Research</strong> を案内し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の既存ブログ記事を再告知した。<strong>Claude Code</strong> は <strong>v2.1.179</strong> を公開し、mid-stream connection drops、WSL2 scroll、remote session 表示などの不具合を修正した。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> が <strong>Claude Managed Agents</strong> の Applied AI ブログ記事を紹介し、production 運用で解く課題として credential、sandboxing、observability などを挙げた。<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規 main post は 0 件だった。",
-    "<strong>Official articles 0件</strong>: <strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> が最新表示のままで、<strong>Claude Blog</strong> 先頭も <strong>Jun 15, 2026</strong> 表示から増えていなかった。",
-    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は <strong>Opus 4.8 は 1M context / More models の Opus 4.8 は 256k</strong> と補足し、続く reply でも <strong>UI をより明確に直す</strong> と述べた。<strong>@adocomplete</strong> は <strong>Built with Opus 4.7 Claude Code hackathon</strong> の受賞者紹介を共有した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.178</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。"
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Agentic coding and persistent returns to expertise</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の production 運用ブログを再掲した。<strong>@ClaudeAI</strong> の新規 main post は 0 件だった。",
+    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> に <strong>Jun 16, 2026</strong> 付で <strong>Agentic coding and persistent returns to expertise</strong> が追加され、約 <strong>400,000</strong> の Claude Code session をもとに、domain expertise と task success、task value 上昇、debugging 比率低下を整理した。",
+    "<strong>Engineer signals 1件</strong>: <strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で、<strong>default は 1M context のままで label が不足しているだけ</strong> と補足し、その後 <strong>feedback を改善項目として取り込む</strong> と返信した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.179</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 0件</strong>、<strong>変更 1件</strong>、<strong>修正 8件</strong> だった。"
   ],
   "officialNews": [
+    {
+      "label": "Official site",
+      "datetime": "2026-06-16T12:00:00+09:00",
+      "displayTime": "2026-06-16",
+      "title": "Anthropic Research が Claude Code 利用実態の新レポートを公開",
+      "summary": "<strong>Agentic coding and persistent returns to expertise</strong> は、約 <strong>400,000</strong> の Claude Code session を分析し、<strong>人が何をするかを決め、Claude がどう実行するかを担う</strong> 分業、<strong>domain expertise が成功率を押し上げる</strong> こと、そして 2025 年 10 月から 2026 年 4 月にかけて <strong>task value が平均約 25%</strong> 上がったことを示した。<strong>@AnthropicAI</strong> の main post も同じ研究を告知している。",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
     {
       "label": "Official X",
       "datetime": "2026-06-17T01:51:22+09:00",
       "displayTime": "2026-06-17 01:51 JST",
-      "title": "ClaudeDevs が Claude Managed Agents の導入ブログを再告知",
-      "summary": "<strong>@ClaudeDevs</strong> は Applied AI team の新しい案内として、<strong>Claude Managed Agents</strong> を production に載せる際の課題と解決対象を紹介した。post 本文では <strong>credentials</strong>、<strong>sandboxing</strong>、<strong>observability</strong> などを挙げ、公式ブログ <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> へ誘導している。",
+      "title": "ClaudeDevs が Claude Managed Agents の運用ブログを再告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、Applied AI team のブログ <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> を再紹介し、production で agents を動かす際の論点として <strong>credentials</strong>、<strong>sandboxing</strong>、<strong>observability</strong> などを挙げた。新機能発表ではないが、公式チャネルからの継続的な導入訴求として拾える。",
       "url": "https://x.com/ClaudeDevs/status/2066926619714007115",
       "urlLabel": "X で見る",
       "primary": true
@@ -24,32 +34,26 @@
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> を確認したが、この window に入る新規 main post はなかった。公式Xの増分は <strong>@ClaudeDevs</strong> の 1 件のみだった。"
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>@ClaudeAI</strong> を確認したが、この window に入る新規 main post はなかった。今回の公式 X 増分は <strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> の 2 件だった。"
     },
     {
-      "label": "Anthropic公式記事の窓内採用は 0件",
-      "body": "<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 15, 2026</strong> が最新表示だった。今回の 24 時間窓に publish date が入る新規記事は確認できていない。"
+      "label": "Anthropic Engineering / News / Claude Blog の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+    },
+    {
+      "label": "@AnthropicAI の thread は研究記事と同一 event として集約",
+      "body": "<strong>@AnthropicAI</strong> の main post と続きの thread は、いずれも <strong>Agentic coding and persistent returns to expertise</strong> の要点紹介だったため、official news では article を canonical item に寄せて重複要約を避けた。"
     }
   ],
   "signals": [
     {
       "label": "Product clarification",
-      "datetime": "2026-06-16T07:52:56+09:00",
-      "displayTime": "2026-06-16 07:52 JST",
-      "title": "Anthony Morris が Opus 4.8 の context 表示を補足し UI 修正を予告",
-      "summary": "<strong>@amorriscode</strong> は、Claude app 上の表示について <strong>Opus 4.8 は 1M context</strong>、<strong>More models の Opus 4.8 は 256k context</strong> だと明言し、<strong>Will make this more clear</strong> と返信した。続く reply でも <strong>we’ll fix the UI so it’s more clear</strong> と述べており、context 表示の混乱が UI 側の問題であることを示している。",
-      "url": "https://x.com/amorriscode/status/2066655224883023909",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Community signal",
-      "datetime": "2026-06-16T09:00:43+09:00",
-      "displayTime": "2026-06-16 09:00 JST",
-      "title": "Ado が Claude Code hackathon の受賞者紹介を共有",
-      "summary": "<strong>@adocomplete</strong> は <strong>Built with Opus 4.7 Claude Code hackathon</strong> の受賞者を祝福し、thread の reply で公式ブログ記事 <strong>Meet the winners of the Built with Opus 4.7 Claude Code hackathon</strong> を案内した。新製品発表ではないが、Claude Code の developer community 施策を補強する signal。",
-      "url": "https://x.com/adocomplete/status/2066672280240021888",
+      "datetime": "2026-06-16T12:20:49+09:00",
+      "displayTime": "2026-06-16 12:20 JST",
+      "title": "Anthony Morris が Claude Code Desktop の context 表示と UX 改善を補足",
+      "summary": "<strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で、<strong>default は 1M context のままで、表示ラベルが分かりにくいだけ</strong> と説明した。さらに同日夕方の reply で <strong>Thanks for all the feedback! Will make sure this gets captured and improved.</strong> と述べており、Desktop UX の明確化と改善継続を示す signal になっている。",
+      "url": "https://x.com/amorriscode/status/2066722637347529205",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -57,65 +61,54 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "この24時間窓では <strong>Anthropic News</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> のいずれにも新規公開記事は確認できなかった。<strong>ClaudeDevs</strong> の X 投稿はあったが、リンク先は既存の <strong>June 10, 2026</strong> 記事だった。",
+      "headline": "1件",
+      "body": "この24時間窓で visible publication date ベースの新規公式記事として確認できたのは、<strong>Anthropic Research</strong> の <strong>Agentic coding and persistent returns to expertise</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には window 内の新規記事はなかった。",
       "details": [
-        "<strong>Anthropic News</strong> の最新 visible publication date は <strong>Jun 12, 2026</strong>、<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 8, 2026</strong> のままだった。",
-        "<strong>Claude Blog</strong> の先頭は <strong>Meet the winners of the Built with Opus 4.7 Claude Code hackathon</strong> の <strong>Jun 15, 2026</strong> 表示で、今回 window に入る新規記事は増えていない。"
+        "<strong>Anthropic Research</strong>: <strong>Jun 16, 2026</strong> 表示で <strong>Agentic coding and persistent returns to expertise</strong> を掲載。Claude Code の約 <strong>400,000</strong> session を分析し、domain expertise、success rate、task value の推移を整理した。",
+        "<strong>Anthropic Engineering</strong> の featured article <strong>How we contain Claude across products</strong> は article page で <strong>Published May 25, 2026</strong> と確認でき、今回の窓外だった。",
+        "<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示で、今回は増分なしだった。"
       ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog"
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Anthropic Research"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.178",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.178</strong> の 1 件だった。公開時刻は <strong>2026-06-16 06:35 JST</strong>。permission rules の粒度向上、nested <code>.claude</code> 構成、auto mode / Remote Control / <code>/doctor</code> / subagent / background session 周辺の改善と、多数の修正が含まれる。",
+      "headline": "v2.1.179",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.179</strong> の 1 件だった。公開時刻は <strong>2026-06-17 05:22 JST</strong>。今回は新機能追加はなく、remote session を中心に UI / reliability / Linux / Windows 周辺の修正が並んだ。",
       "releases": [
         {
-          "version": "v2.1.178",
-          "publishedAt": "2026-06-16 06:35 JST",
-          "summary": "permission rules の表現力を広げ、nested <code>.claude</code> 構成や auto mode、Remote Control、<code>/doctor</code>、subagent、background session などを横断して改善と修正を入れた release。",
+          "version": "v2.1.179",
+          "publishedAt": "2026-06-17 05:22 JST",
+          "summary": "mid-stream connection drops、WSL2 scroll、survey 入力誤認、subagent transcript、remote session background task 表示などを修正し、remote session の plugin loading performance も改善したメンテナンス release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "permission rules に <code>Tool(param:value)</code> 構文を追加し、入力 parameter 単位で tool を match できるようにした。<code>*</code> wildcard も使え、たとえば <code>Agent(model:opus)</code> で Opus subagent を block できる。",
-                "nested な <code>.claude/skills</code> directory 内の skill も、その配下の file を作業しているときに読み込むようにした。名前衝突時は nested skill を <code>&lt;dir&gt;:&lt;name&gt;</code> 表記にして両方を使えるようにした。",
-                "nested な <code>.claude/</code> directory がある場合、agent・workflow・output-style は working directory に最も近い定義を優先するようにした。project-scope workflow save も最も近い既存の <code>.claude/workflows/</code> を対象にする。"
+                "新機能の追加はなかった。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "auto mode を改善し、subagent spawn を起動前に classifier で評価するようにした。これにより、review なしで blocked action を subagent が要求できていた隙間を塞いだ。",
-                "<code>/doctor</code> を改善し、全 section で一貫した flat tree layout、より分かりやすい section status icon、強調された command name を表示するようにした。",
-                "skill listing の truncation warning を改善し、どれだけの skill description が影響を受けているか件数を表示するようにした。",
-                "workflow prompt keyword の挙動を変更し、purple shimmer highlight を使いつつ、<strong>run a workflow</strong> や <strong>workflow:</strong> のような明示的な phrase のときだけ trigger するようにした。",
-                "Remote Control の error message を改善し、connection failure 時は footer に持続表示の赤い <code>/rc failed</code> indicator を出し、<strong>not yet enabled</strong> error では gate、check failure、stale entitlement、org policy のどれが原因か説明するようにした。",
-                "<code>/bug</code> は description を入れないと送信できないようにし、model refusal の文面を GitHub issue title に流用しないようにした."
+                "remote session での plugin loading performance を改善した。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "親 process から stale な websocket / OAuth file-descriptor environment variable を継承したときに CLI が out-of-memory crash する問題を修正した。",
-                "Claude in Chrome で、OAuth token の account と Claude Code login の account が異なると silently 接続失敗する問題を修正した。",
-                "nested <code>.claude/skills</code> 由来で directory-qualified name を持つ skill が、non-interactive run の permission prompt に block される問題を修正した。",
-                "subagent まわりの複数不具合を修正した。subagent transcript で tool result と live progress を見られるようにし、終了直前に送った message が落ちる問題を直し、実行中 subagent を background 化しても最初から再起動しないようにした。",
-                "daemon を <code>ANTHROPIC_BASE_URL</code> と <code>ANTHROPIC_AUTH_TOKEN</code> 付き shell から起動した場合に、<code>claude agents</code> worker が <code>401 Invalid bearer token</code> で失敗する問題を修正した。",
-                "compaction が <code>--fallback-model</code> を尊重しない問題を修正し、overload や model availability error 時には configured fallback model chain へ落ちるようにした。",
-                "session 外で credential を refresh した後も、stale な cached request configuration のせいで model request が auth error を出し続ける問題を修正した。",
-                "turn 完了後に <code>/bg</code> や <code>←←</code> で作った background session が agents list で永遠に <strong>Working</strong> 表示になる問題を修正した。",
-                "<code>CLAUDE_CODE_PLUGIN_KEEP_MARKETPLACE_ON_FAILURE=1</code> によって fresh marketplace install の clone が妨げられる問題を修正した。",
-                "subagent の <code>disallowedTools</code> で、MCP server-level spec（<code>mcp__server</code>、<code>mcp__server__*</code>、<code>mcp__*</code>）が silently 無視される問題を修正した。",
-                "vim mode の undo を修正し、<code>u</code> が quick succession の command をまとめず、NORMAL / VISUAL-mode command を 1 つずつ巻き戻すようにした。",
-                "<code>claude agents</code> で、<code>vscode://</code> のような custom URI scheme を持つ statusline link が click しても開かない問題を修正した。",
-                "[VSCode] CJK IME candidate window を Esc で閉じたときに、実行中の Claude task まで cancel される問題を修正した。"
+                "mid-stream で connection が落ちたとき、partial response を生の error にせず保持するようにし、spinner が <code>running tool</code> で止まる問題を修正した。",
+                "Windows Terminal / VS Code 上の WSL2 で mouse-wheel scrolling が効かない問題を修正した（2.1.172 で入った regression）。",
+                "Linux で sandbox の <code>denyRead</code> / <code>allowRead</code> glob が巨大 directory tree に当たると Bash tool description が肥大化し、session が実質 unusable になる問題を修正した。",
+                "turn 完了直後に feedback survey へ 1 桁の reply を返すと、それが即座に session rating として記録されてしまう問題を修正した。",
+                "welcome screen に複数の promotional banner が積み重なって表示される問題を修正し、1 session あたり最大 1 つだけ promo を出すようにした。",
+                "<code>Ctrl+O</code> で subagent を見ているときに、その subagent の transcript が表示されない問題を修正した。",
+                "subagent/footer panel を見たあとに prompt input を click しても focus が戻らない問題を修正した。",
+                "remote session の background task が turn 間で <strong>still running</strong> のまま張り付いて見える問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
-          "urlLabel": "v2.1.178 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
+          "urlLabel": "v2.1.179 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -123,15 +116,19 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では <strong>@amorriscode</strong> の短い相づち reply、<strong>@RobertJBye</strong> などの Claude / Anthropic の新情報が薄い投稿、<strong>@jarredsumner</strong> の bun clone 話題のように Claude 直接性が弱い投稿は signal から外した。",
-    "公式サイト記事は visible publication date ベースで確認し、今回の window に入る新規記事が見えなかったため 0 件とした。",
-    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.178</strong> のみと判定した。次点の <strong>v2.1.177</strong> は <strong>2026-06-13 10:25 JST</strong> 公開で、今回の窓の開始より前だった。"
+    "official X は main post を優先し、thread の続き・reply・repost は default 設定どおり main item から外した。",
+    "engineer watch では monitored account の personal chatter、Claude / Anthropic の新情報を含まない短い reply、関連の薄い quote post は signal から外した。",
+    "Anthropic Research の新記事は visible publication date が今回 window に入るため採用した一方、<strong>Anthropic Engineering</strong> の featured article は article page の <strong>Published May 25, 2026</strong> を確認して窓外扱いにした。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.179</strong> のみと判定した。前版 <strong>v2.1.178</strong> は <strong>2026-06-16 06:35 JST</strong> 公開で、今回 window の開始より前だった。"
   ],
   "sources": [
     {
       "title": "AnthropicAI on X",
       "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "AnthropicAI on Claude Code expertise research",
+      "url": "https://x.com/AnthropicAI/status/2066969532380721386"
     },
     {
       "title": "ClaudeAI on X",
@@ -146,52 +143,52 @@
       "url": "https://x.com/ClaudeDevs/status/2066926619714007115"
     },
     {
-      "title": "Anthony Morris on Opus 4.8 context clarification",
-      "url": "https://x.com/amorriscode/status/2066655224883023909"
-    },
-    {
-      "title": "Anthony Morris on fixing the UI clarity",
-      "url": "https://x.com/amorriscode/status/2066667981745357086"
-    },
-    {
-      "title": "Ado on Claude Code hackathon winners",
-      "url": "https://x.com/adocomplete/status/2066672280240021888"
-    },
-    {
-      "title": "Ado linking the Claude Code hackathon winners post",
-      "url": "https://x.com/adocomplete/status/2066672281829683623"
-    },
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
+      "title": "Anthropic Research listing",
       "url": "https://www.anthropic.com/research"
     },
     {
-      "title": "Anthropic News",
+      "title": "Anthropic Research: Agentic coding and persistent returns to expertise",
+      "url": "https://www.anthropic.com/research/claude-code-expertise"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Engineering: How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+    },
+    {
+      "title": "Anthropic News listing",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Claude Blog",
+      "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude blog: Managed Agents",
+      "title": "Claude blog: The evolution of agentic surfaces: building with Claude Managed Agents",
       "url": "https://claude.com/blog/building-with-claude-managed-agents"
     },
     {
-      "title": "Claude blog: Built with Opus 4.7 hackathon winners",
-      "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon"
+      "title": "Anthony Morris on context labeling",
+      "url": "https://x.com/amorriscode/status/2066722637347529205"
+    },
+    {
+      "title": "Anthony Morris on capturing the UX feedback",
+      "url": "https://x.com/amorriscode/status/2066820836238213491"
+    },
+    {
+      "title": "Claude Code Desktop UX feedback thread",
+      "url": "https://x.com/x0HuaHua/status/2063119115242676269"
     },
     {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.178 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178"
+      "title": "Claude Code v2.1.179 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179"
     }
   ]
 }
