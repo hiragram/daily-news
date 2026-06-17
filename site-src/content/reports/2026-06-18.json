@@ -1,0 +1,192 @@
+{
+  "date": "2026-06-18",
+  "windowLabel": "2026-06-17 03:01:56 JST - 2026-06-18 03:01:56 JST",
+  "archiveTitle": "Seoul partnerships, Build Day demos, and Claude Code v2.1.179",
+  "archiveSummary": "公式更新3件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-06-17 03:01 JST から 2026-06-18 03:01 JST の24時間では、<strong>Anthropic News</strong> が <strong>韓国での新拠点と Claude 導入事例</strong> を公開し、<strong>@AnthropicAI</strong> は <strong>Claude Code の利用実態研究</strong> を案内、<strong>@ClaudeDevs</strong> は <strong>Claude Build Day</strong> の winning demos thread を投稿した。engineer 側では <strong>@bcherny</strong> が <strong>Claude Code + advanced model + verifier</strong> の loop を示唆し、<strong>Claude Code</strong> は <strong>v2.1.179</strong> を公開して remote session と UI 周辺を中心に修正した。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Claude Code の約 400,000 session</strong> を分析した Economic Research を案内し、<strong>@ClaudeDevs</strong> は <strong>SF の Claude Build Day</strong> で選ばれた winning demos thread を公開した。<strong>@ClaudeAI</strong> の新規 main post は 0 件だった。",
+    "<strong>Official articles 1件</strong>: <strong>Anthropic News</strong> に <strong>Jun 17, 2026</strong> 表示で <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> が追加され、<strong>NAVER</strong>、<strong>Nexon</strong>、<strong>Samsung SDS</strong> などでの <strong>Claude Code / Claude Cowork</strong> 展開を紹介した。",
+    "<strong>Engineer signals 1件</strong>: <strong>@bcherny</strong> は、コード生成の比率がさらに上がる前提で、<strong>Claude Code + advanced model + verifier</strong> を loop させて bottleneck を潰す運用像を reply で共有した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.179</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 0件</strong>、<strong>変更 1件</strong>、<strong>修正 8件</strong> だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official site",
+      "datetime": "2026-06-17T12:00:00+09:00",
+      "displayTime": "2026-06-17",
+      "title": "Anthropic News が韓国での新拠点開設と Claude 導入事例を公開",
+      "summary": "<strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> は、<strong>Seoul office</strong> 開設とあわせて、<strong>NAVER</strong> が engineering 全体に <strong>Claude Code</strong> を展開し、<strong>Samsung SDS</strong> が <strong>Claude Cowork</strong> と <strong>Claude Code</strong> を Samsung Electronics 向けに拡大していることなど、韓国での enterprise / startup / research 連携をまとめた。article page は日付のみ表示のため、採用は visible publication date ベース。",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-17T04:41:53+09:00",
+      "displayTime": "2026-06-17 04:41 JST",
+      "title": "AnthropicAI が Claude Code の利用実態を追う新研究を案内",
+      "summary": "<strong>@AnthropicAI</strong> は、<strong>Claude Code を誰が何に使っているか</strong>、<strong>task value がどう変化しているか</strong>、<strong>domain expertise が success にどう効くか</strong> を問う Economic Research を案内した。main post 自体は短い告知だが、前日の research article をこの window 内に公式 X で告知した形になる。",
+      "url": "https://x.com/AnthropicAI/status/2066969532380721386",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-18T02:27:29+09:00",
+      "displayTime": "2026-06-18 02:27 JST",
+      "title": "ClaudeDevs が Claude Build Day の winning demos thread を公開",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Build Day</strong> に参加した <strong>300 builders</strong> の成果をまとめ、winning demos を thread で案内した。新機能発表ではないが、Claude developer ecosystem の最新 showcase として公式増分に含める。",
+      "url": "https://x.com/ClaudeDevs/status/2067298098553254211",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>@ClaudeAI</strong> を確認したが、この window に入る新規 main post はなかった。今回の公式 X 増分は <strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> の 2 件だった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / Claude Blog の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 16, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 15, 2026</strong> 表示のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+    },
+    {
+      "label": "Engineer watch で採用したのは @bcherny の 1件のみ",
+      "body": "監視対象アカウント群を確認したが、この window では <strong>@bcherny</strong> の verifier loop に関する reply 以外は、Claude / Anthropic の新情報として採用するほど強い signal はなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineering signal",
+      "datetime": "2026-06-18T00:46:44+09:00",
+      "displayTime": "2026-06-18 00:46 JST",
+      "title": "Boris Cherny が Claude Code と verifier を組み合わせる運用像を共有",
+      "summary": "<strong>@bcherny</strong> は、モデルがより大きな割合の task で正しい code を生成できる時代に入りつつあるとして、<strong>Claude Code + advanced model + a verifier</strong> を loop させ、必要なら <strong>model に task を与える / task を生成させる</strong> 形で bottleneck を除去していく考え方を述べた。roadmap の約束ではないが、Anthropic engineer が見ている運用設計の方向性を示す signal。",
+      "url": "https://x.com/bcherny/status/2067272742253232211",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "この24時間窓で visible publication date ベースの新規公式記事として確認できたのは、<strong>Anthropic News</strong> の <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> には window 内の新規記事はなかった。",
+      "details": [
+        "<strong>Anthropic News</strong>: <strong>Jun 17, 2026</strong> 表示で <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> を掲載。<strong>NAVER</strong> での engineering 全体への <strong>Claude Code</strong> 展開、<strong>Samsung SDS</strong> による <strong>Claude Cowork</strong> / <strong>Claude Code</strong> 拡大、<strong>NAIRL</strong> 研究者向け Claude 提供などをまとめた。",
+        "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> のままだった。",
+        "<strong>Anthropic Research</strong> の先頭は <strong>Jun 16, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示で、今回は増分なしだった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.179",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.179</strong> の 1 件だった。公開時刻は <strong>2026-06-17 05:22 JST</strong>。今回は新機能追加はなく、remote session、focus、WSL2 scrolling、Linux sandbox glob、feedback survey、promo banner まわりの修正が中心だった。",
+      "releases": [
+        {
+          "version": "v2.1.179",
+          "publishedAt": "2026-06-17 05:22 JST",
+          "summary": "remote session の plugin loading performance を改善しつつ、partial response 保持、WSL2 scrolling、Linux sandbox glob、feedback survey、promo banner、subagent transcript / focus、background task 表示を修正したメンテナンス release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "新機能の追加はなかった。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "remote session での plugin loading performance を改善した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "mid-stream で connection が落ちたとき、partial response を raw error にせず保持し、spinner が <code>running tool</code> で止まる問題を修正した。",
+                "Windows Terminal / VS Code 上の WSL2 で mouse-wheel scrolling が効かない問題を修正した（2.1.172 で入った regression）。",
+                "Linux で sandbox の <code>denyRead</code> / <code>allowRead</code> glob が巨大 directory tree に当たると Bash tool description が肥大化し、session が実質 unusable になる問題を修正した。",
+                "turn 完了直後に feedback survey へ 1 桁の reply を返すと、それが即座に session rating として記録される問題を修正した。",
+                "welcome screen に複数の promotional banner が積み重なって表示される問題を修正し、1 session あたり最大 1 つだけ promo を出すようにした。",
+                "<code>Ctrl+O</code> で subagent を見ているときに、その subagent の transcript が表示されない問題を修正した。",
+                "subagent / footer panel を見たあとに prompt input を click しても focus が戻らない問題を修正した。",
+                "remote session の background task が turn 間で <strong>still running</strong> のまま張り付いて見える問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
+          "urlLabel": "v2.1.179 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、thread の続きや reply は default 設定どおり main item から外した。",
+    "engineer watch では <strong>@trq212</strong> の Slack HTML preview 話題やその他の雑談 / 軽い reply を確認したが、Claude / Anthropic の新情報としては弱いため signal から外した。",
+    "Anthropic News の新記事は article page に時刻がなく、<strong>Jun 17, 2026</strong> の visible publication date ベースで採用した。いっぽう <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> には今回 window 内と判断できる新規記事はなかった。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.179</strong> のみと判定した。前版 <strong>v2.1.178</strong> は <strong>2026-06-16 06:35 JST</strong> 公開で、今回 window の開始より前だった。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on X",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "AnthropicAI on Claude Code expertise research",
+      "url": "https://x.com/AnthropicAI/status/2066969532380721386"
+    },
+    {
+      "title": "ClaudeAI on X",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs on X",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "ClaudeDevs on Claude Build Day winners",
+      "url": "https://x.com/ClaudeDevs/status/2067298098553254211"
+    },
+    {
+      "title": "Boris Cherny on Claude Code verifier loops",
+      "url": "https://x.com/bcherny/status/2067272742253232211"
+    },
+    {
+      "title": "rahul on code generation review model",
+      "url": "https://x.com/rahulgs/status/2067257255825686880"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic News: Seoul office and Korean AI ecosystem partnerships",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.179 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179"
+    }
+  ]
+}
