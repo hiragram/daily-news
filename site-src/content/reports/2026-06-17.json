@@ -1,13 +1,13 @@
 {
   "date": "2026-06-17",
-  "windowLabel": "2026-06-16 09:00:00 JST - 2026-06-17 09:00:00 JST",
-  "archiveTitle": "Claude Code expertise research and v2.1.179",
+  "windowLabel": "2026-06-16 14:59:00 JST - 2026-06-17 14:59:00 JST",
+  "archiveTitle": "Claude Code expertise report and v2.1.179",
   "archiveSummary": "公式更新2件、engineer signal 1件、Claude Code release 1件。",
-  "latestSummary": "2026-06-16 09:00 JST から 2026-06-17 09:00 JST の24時間では、<strong>AnthropicAI</strong> が <strong>Claude Code の利用実態を扱う新しい Economic Research</strong> を案内し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の既存ブログ記事を再告知した。<strong>Claude Code</strong> は <strong>v2.1.179</strong> を公開し、mid-stream connection drops、WSL2 scroll、remote session 表示などの不具合を修正した。",
+  "latestSummary": "2026-06-16 14:59 JST から 2026-06-17 14:59 JST の24時間では、<strong>AnthropicAI</strong> が <strong>Claude Code の利用実態を分析した新しい Economic Research</strong> を案内し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の導入ブログを再告知した。<strong>Claude Code</strong> は <strong>v2.1.179</strong> を公開し、connection drop、WSL2 scroll、remote session background task などの不具合を修正した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Agentic coding and persistent returns to expertise</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の production 運用ブログを再掲した。<strong>@ClaudeAI</strong> の新規 main post は 0 件だった。",
-    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> に <strong>Jun 16, 2026</strong> 付で <strong>Agentic coding and persistent returns to expertise</strong> が追加され、約 <strong>400,000</strong> の Claude Code session をもとに、domain expertise と task success、task value 上昇、debugging 比率低下を整理した。",
-    "<strong>Engineer signals 1件</strong>: <strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で、<strong>default は 1M context のままで label が不足しているだけ</strong> と補足し、その後 <strong>feedback を改善項目として取り込む</strong> と返信した。",
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Agentic coding and persistent returns to expertise</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> の production 運用ブログを再告知した。<strong>@ClaudeAI</strong> の新規 main post は 0 件だった。",
+    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> に <strong>Jun 16, 2026</strong> 表示で <strong>Agentic coding and persistent returns to expertise</strong> が追加され、約 <strong>400,000</strong> の Claude Code session をもとに、domain expertise と success rate、task value 上昇、debugging 比率低下を整理した。",
+    "<strong>Engineer signals 1件</strong>: <strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で、<strong>Thanks for all the feedback! Will make sure this gets captured and improved.</strong> と返信し、Desktop UX feedback を改善項目として取り込む方針を示した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.179</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 0件</strong>、<strong>変更 1件</strong>、<strong>修正 8件</strong> だった。"
   ],
   "officialNews": [
@@ -16,7 +16,7 @@
       "datetime": "2026-06-16T12:00:00+09:00",
       "displayTime": "2026-06-16",
       "title": "Anthropic Research が Claude Code 利用実態の新レポートを公開",
-      "summary": "<strong>Agentic coding and persistent returns to expertise</strong> は、約 <strong>400,000</strong> の Claude Code session を分析し、<strong>人が何をするかを決め、Claude がどう実行するかを担う</strong> 分業、<strong>domain expertise が成功率を押し上げる</strong> こと、そして 2025 年 10 月から 2026 年 4 月にかけて <strong>task value が平均約 25%</strong> 上がったことを示した。<strong>@AnthropicAI</strong> の main post も同じ研究を告知している。",
+      "summary": "<strong>Agentic coding and persistent returns to expertise</strong> は、約 <strong>400,000</strong> の Claude Code session を分析し、<strong>人が何をするかを決め、Claude がどう実行するかを担う</strong> 分業、<strong>domain expertise が成功率を押し上げる</strong> こと、そして 2025 年 10 月から 2026 年 4 月にかけて <strong>平均 task value が約 27%</strong> 上がったことを示した。article page には時刻がないため、採用は visible publication date ベース。",
       "url": "https://www.anthropic.com/research/claude-code-expertise",
       "urlLabel": "記事を読む",
       "primary": true
@@ -25,8 +25,8 @@
       "label": "Official X",
       "datetime": "2026-06-17T01:51:22+09:00",
       "displayTime": "2026-06-17 01:51 JST",
-      "title": "ClaudeDevs が Claude Managed Agents の運用ブログを再告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、Applied AI team のブログ <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> を再紹介し、production で agents を動かす際の論点として <strong>credentials</strong>、<strong>sandboxing</strong>、<strong>observability</strong> などを挙げた。新機能発表ではないが、公式チャネルからの継続的な導入訴求として拾える。",
+      "title": "ClaudeDevs が Claude Managed Agents の導入ブログを再告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、Applied AI team のブログ <strong>The evolution of agentic surfaces: building with Claude Managed Agents</strong> を再紹介し、production で agents を動かす際の論点として <strong>credentials</strong>、<strong>sandboxing</strong>、<strong>observability</strong> などを挙げた。新しい blog publish ではなく、既存記事の再告知として扱う。",
       "url": "https://x.com/ClaudeDevs/status/2066926619714007115",
       "urlLabel": "X で見る",
       "primary": true
@@ -39,21 +39,21 @@
     },
     {
       "label": "Anthropic Engineering / News / Claude Blog の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
     },
     {
       "label": "@AnthropicAI の thread は研究記事と同一 event として集約",
-      "body": "<strong>@AnthropicAI</strong> の main post と続きの thread は、いずれも <strong>Agentic coding and persistent returns to expertise</strong> の要点紹介だったため、official news では article を canonical item に寄せて重複要約を避けた。"
+      "body": "<strong>@AnthropicAI</strong> は main post に続けて thread で success rate、task value、expertise gap などを補足したが、いずれも <strong>Agentic coding and persistent returns to expertise</strong> の要点紹介だったため、official news では article を canonical item に寄せて重複要約を避けた。"
     }
   ],
   "signals": [
     {
       "label": "Product clarification",
-      "datetime": "2026-06-16T12:20:49+09:00",
-      "displayTime": "2026-06-16 12:20 JST",
-      "title": "Anthony Morris が Claude Code Desktop の context 表示と UX 改善を補足",
-      "summary": "<strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で、<strong>default は 1M context のままで、表示ラベルが分かりにくいだけ</strong> と説明した。さらに同日夕方の reply で <strong>Thanks for all the feedback! Will make sure this gets captured and improved.</strong> と述べており、Desktop UX の明確化と改善継続を示す signal になっている。",
-      "url": "https://x.com/amorriscode/status/2066722637347529205",
+      "datetime": "2026-06-16T18:51:01+09:00",
+      "displayTime": "2026-06-16 18:51 JST",
+      "title": "Anthony Morris が Claude Code Desktop の UX feedback 反映を明言",
+      "summary": "<strong>@amorriscode</strong> は Claude Code Desktop UX feedback thread で <strong>Thanks for all the feedback! Will make sure this gets captured and improved.</strong> と返信した。具体的な新機能発表ではないが、background tasks、connectors、skills 周辺の Desktop UX feedback を改善 backlog に取り込む signal として扱える。",
+      "url": "https://x.com/amorriscode/status/2066820836238213491",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -65,7 +65,7 @@
       "body": "この24時間窓で visible publication date ベースの新規公式記事として確認できたのは、<strong>Anthropic Research</strong> の <strong>Agentic coding and persistent returns to expertise</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には window 内の新規記事はなかった。",
       "details": [
         "<strong>Anthropic Research</strong>: <strong>Jun 16, 2026</strong> 表示で <strong>Agentic coding and persistent returns to expertise</strong> を掲載。Claude Code の約 <strong>400,000</strong> session を分析し、domain expertise、success rate、task value の推移を整理した。",
-        "<strong>Anthropic Engineering</strong> の featured article <strong>How we contain Claude across products</strong> は article page で <strong>Published May 25, 2026</strong> と確認でき、今回の窓外だった。",
+        "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> のままだった。",
         "<strong>Anthropic News</strong> の先頭は <strong>Jun 12, 2026</strong>、<strong>Claude Blog</strong> の先頭は <strong>Jun 15, 2026</strong> 表示で、今回は増分なしだった。"
       ],
       "url": "https://www.anthropic.com/research",
@@ -74,12 +74,12 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.179",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.179</strong> の 1 件だった。公開時刻は <strong>2026-06-17 05:22 JST</strong>。今回は新機能追加はなく、remote session を中心に UI / reliability / Linux / Windows 周辺の修正が並んだ。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.179</strong> の 1 件だった。公開時刻は <strong>2026-06-17 05:22 JST</strong>。今回は新機能追加はなく、remote session を含む reliability と input / focus / Linux / Windows 周辺の修正が中心だった。",
       "releases": [
         {
           "version": "v2.1.179",
           "publishedAt": "2026-06-17 05:22 JST",
-          "summary": "mid-stream connection drops、WSL2 scroll、survey 入力誤認、subagent transcript、remote session background task 表示などを修正し、remote session の plugin loading performance も改善したメンテナンス release。",
+          "summary": "partial response 保持、WSL2 scrolling、Linux sandbox glob、feedback survey、promo banner、subagent transcript / focus、remote session background task などを修正し、remote session の plugin loading performance も改善したメンテナンス release。",
           "sections": [
             {
               "title": "新機能",
@@ -96,13 +96,13 @@
             {
               "title": "修正",
               "items": [
-                "mid-stream で connection が落ちたとき、partial response を生の error にせず保持するようにし、spinner が <code>running tool</code> で止まる問題を修正した。",
+                "mid-stream で connection が落ちたとき、partial response を raw error にせず保持し、spinner が <code>running tool</code> で止まる問題を修正した。",
                 "Windows Terminal / VS Code 上の WSL2 で mouse-wheel scrolling が効かない問題を修正した（2.1.172 で入った regression）。",
                 "Linux で sandbox の <code>denyRead</code> / <code>allowRead</code> glob が巨大 directory tree に当たると Bash tool description が肥大化し、session が実質 unusable になる問題を修正した。",
-                "turn 完了直後に feedback survey へ 1 桁の reply を返すと、それが即座に session rating として記録されてしまう問題を修正した。",
+                "turn 完了直後に feedback survey へ 1 桁の reply を返すと、それが即座に session rating として記録される問題を修正した。",
                 "welcome screen に複数の promotional banner が積み重なって表示される問題を修正し、1 session あたり最大 1 つだけ promo を出すようにした。",
                 "<code>Ctrl+O</code> で subagent を見ているときに、その subagent の transcript が表示されない問題を修正した。",
-                "subagent/footer panel を見たあとに prompt input を click しても focus が戻らない問題を修正した。",
+                "subagent / footer panel を見たあとに prompt input を click しても focus が戻らない問題を修正した。",
                 "remote session の background task が turn 間で <strong>still running</strong> のまま張り付いて見える問題を修正した。"
               ]
             }
@@ -116,9 +116,9 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、thread の続き・reply・repost は default 設定どおり main item から外した。",
-    "engineer watch では monitored account の personal chatter、Claude / Anthropic の新情報を含まない短い reply、関連の薄い quote post は signal から外した。",
-    "Anthropic Research の新記事は visible publication date が今回 window に入るため採用した一方、<strong>Anthropic Engineering</strong> の featured article は article page の <strong>Published May 25, 2026</strong> を確認して窓外扱いにした。",
+    "official X は main post を優先し、<strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> の thread 続き / reply は default 設定どおり main item から外した。",
+    "engineer watch では <strong>@trq212</strong> の Slack HTML preview 話題、<strong>@jackclarkSF</strong> の個人ニュースへの reply、<strong>@jarredsumner</strong> の Node compatibility reply など、Claude / Anthropic の新情報が薄い投稿は signal から外した。",
+    "Anthropic Research の新記事は article page に時刻がなく、<strong>Jun 16, 2026</strong> の visible publication date ベースで採用した。いっぽう <strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には今回 window 内と判断できる新規記事はなかった。",
     "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.179</strong> のみと判定した。前版 <strong>v2.1.178</strong> は <strong>2026-06-16 06:35 JST</strong> 公開で、今回 window の開始より前だった。"
   ],
   "sources": [
@@ -155,10 +155,6 @@
       "url": "https://www.anthropic.com/engineering"
     },
     {
-      "title": "Anthropic Engineering: How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
-    },
-    {
       "title": "Anthropic News listing",
       "url": "https://www.anthropic.com/news"
     },
@@ -169,10 +165,6 @@
     {
       "title": "Claude blog: The evolution of agentic surfaces: building with Claude Managed Agents",
       "url": "https://claude.com/blog/building-with-claude-managed-agents"
-    },
-    {
-      "title": "Anthony Morris on context labeling",
-      "url": "https://x.com/amorriscode/status/2066722637347529205"
     },
     {
       "title": "Anthony Morris on capturing the UX feedback",
