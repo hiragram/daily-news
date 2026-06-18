@@ -1,13 +1,13 @@
 {
   "date": "2026-06-18",
-  "windowLabel": "2026-06-17 15:03:21 JST - 2026-06-18 15:03:21 JST",
-  "archiveTitle": "Claude Design, Seoul, and v2.1.181",
-  "archiveSummary": "公式更新6件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-06-17 15:03 JST から 2026-06-18 15:03 JST の24時間では、<strong>Anthropic News</strong> が <strong>韓国での新拠点と Claude 導入拡大</strong> を公開し、<strong>Claude Blog</strong> は <strong>Build Day winners</strong>、<strong>Claude Design</strong>、<strong>Workload Identity Federation</strong> の新着3本を公開した。公式Xでは <strong>@ClaudeAI</strong> が <strong>Claude Design</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Build Day</strong> thread を投稿した。さらに <strong>Claude Code</strong> は <strong>v2.1.181</strong> を公開し、<strong>/config key=value</strong>、<strong>Apple Events opt-in</strong>、<strong>presence file</strong> を追加しつつ、起動、MCP、subagent、clipboard、OAuth 周辺の不具合を広く修正した。",
+  "windowLabel": "2026-06-17 21:01:56 JST - 2026-06-18 21:01:56 JST",
+  "archiveTitle": "Claude Design sync, Seoul, and v2.1.181",
+  "archiveSummary": "公式更新7件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-06-17 21:01 JST から 2026-06-18 21:01 JST の24時間では、<strong>Anthropic News</strong> が <strong>韓国での新拠点と Claude 導入拡大</strong> を公開し、<strong>Claude Blog</strong> は <strong>Build Day winners</strong>、<strong>Claude Design</strong>、<strong>Workload Identity Federation</strong> の新着3本を公開した。公式Xでは <strong>@ClaudeAI</strong> が <strong>Claude Design</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Build Day</strong> thread に加えて <strong>/design-sync</strong> を含む Claude Design と Claude Code の双方向同期を補足した。さらに <strong>Claude Code</strong> は <strong>v2.1.181</strong> を公開し、<strong>/config key=value</strong>、<strong>Apple Events opt-in</strong>、<strong>presence file</strong> を追加しつつ、起動、MCP、subagent、clipboard、OAuth 周辺の不具合を広く修正した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Design</strong> の June update を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Build Day</strong> の winning demos thread を公開した。今回は <strong>@AnthropicAI</strong> の window 内 main post は確認できなかった。",
+    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Design</strong> の June update を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Build Day</strong> の winning demos thread を投稿したうえで、別ポストで <strong>/design-sync</strong> を使う <strong>Claude Code</strong> との双方向同期も補足した。今回は <strong>@AnthropicAI</strong> の window 内 main post は確認できなかった。",
     "<strong>Official articles 4件</strong>: <strong>Anthropic News</strong> に韓国での新拠点・提携記事が1本、<strong>Claude Blog</strong> に <strong>Build Day winners</strong>、<strong>Claude Design</strong>、<strong>Workload Identity Federation</strong> の3本が追加された。",
-    "<strong>Engineer signals 2件</strong>: <strong>@nateparrott</strong> は <strong>Claude Design June Update</strong> thread で <strong>/design-sync</strong> と <strong>Claude Code</strong> 双方向連携、design system adherence、streaming design output を説明し、<strong>@bcherny</strong> は <strong>Claude Code + advanced model + verifier</strong> を loop させる運用像を reply で共有した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@nateparrott</strong> は <strong>Claude Design June Update</strong> thread で <strong>/design-sync</strong> と <strong>Claude Code</strong> 双方向連携、design system adherence、streaming design output を説明し、<strong>@bcherny</strong> は <strong>Claude Code + an advanced model + a verifier</strong> を loop させる運用像を reply で共有した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.181</strong> を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 3件</strong>、<strong>変更 7件</strong>、<strong>修正 29件</strong> だった。"
   ],
   "officialNews": [
@@ -46,7 +46,7 @@
       "datetime": "2026-06-17T12:00:00+09:00",
       "displayTime": "2026-06-17",
       "title": "Claude Blog が Workload Identity Federation の一般提供開始を公開",
-      "summary": "<strong>Secure access to the Claude Platform with Workload Identity Federation</strong> は、static API key の代わりに <strong>short-lived</strong> で scope 付きの credentials を request 時に発行する仕組みを説明し、<strong>OIDC-compliant identity provider</strong>、<strong>service accounts</strong>、Admin API、<strong>Claude Code</strong> を含む全 Claude API endpoint 対応を案内した。",
+      "summary": "<strong>Secure access to the Claude Platform with Workload Identity Federation</strong> は、static API key の代わりに <strong>short-lived</strong> で scope 付きの credentials を request 時に発行する仕組みを説明し、<strong>OIDC-compliant identity provider</strong>、<strong>service accounts</strong>、Admin API、<strong>Claude Code</strong> を含む全 Claude API endpoint 対応を案内した。article page は日付のみ表示のため、採用は visible publication date ベース。",
       "url": "https://claude.com/blog/workload-identity-federation",
       "urlLabel": "記事を読む",
       "primary": true
@@ -70,16 +70,26 @@
       "url": "https://x.com/ClaudeDevs/status/2067298098553254211",
       "urlLabel": "X で見る",
       "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-18T08:40:26+09:00",
+      "displayTime": "2026-06-18 08:40 JST",
+      "title": "ClaudeDevs が Claude Design と Claude Code の双方向同期を補足",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Design と Claude Code が双方向に sync することを改めて案内し、<strong>/design-sync</strong> で design system を repo に取り込み既存 component に沿って実装できること、逆に code 側の成果を Claude Design に戻して canvas 上で編集し続けられることを強調した。",
+      "url": "https://x.com/ClaudeDevs/status/2067391951725629941",
+      "urlLabel": "X で見る",
+      "primary": true
     }
   ],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> を確認したが、この window に入る新規 main post は確認できなかった。公式 X の増分は <strong>@ClaudeAI</strong> の Claude Design 告知と <strong>@ClaudeDevs</strong> の Build Day thread の 2 件だった。"
+      "body": "<strong>@AnthropicAI</strong> を確認したが、この window に入る新規 main post は確認できなかった。公式 X の増分は <strong>@ClaudeAI</strong> の Claude Design 告知と <strong>@ClaudeDevs</strong> の 2 投稿だった。"
     },
     {
       "label": "Anthropic Engineering / Research の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 16, 2026</strong> のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の先頭は <strong>Jun 16, 2026</strong> 表示のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
     },
     {
       "label": "Engineer watch は採用2件、残りは低情報量として除外",
@@ -197,7 +207,7 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、<strong>@ClaudeAI</strong> の thread 続きと <strong>@ClaudeDevs</strong> の受賞作 reply 群は default 設定どおり main item から外した。",
+    "official X は main post を優先し、<strong>@ClaudeAI</strong> の thread 続きと <strong>@ClaudeDevs</strong> の Build Day thread 内 reply 群は default 設定どおり main item から外した。",
     "engineer watch では <strong>@nateparrott</strong> の Claude Design thread と <strong>@bcherny</strong> の verifier reply を採用し、それ以外の雑談や低情報量の reply、個人的投稿は signal から外した。",
     "Anthropic News と Claude Blog の記事は article page に時刻がなく、<strong>Jun 17, 2026</strong> の visible publication date ベースで採用した。いっぽう <strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には今回 window 内と判断できる新規記事はなかった。",
     "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.181</strong> のみと判定した。前版 <strong>v2.1.179</strong> は <strong>2026-06-17 05:22 JST</strong> 公開で、今回 window の開始より前だった。"
@@ -222,6 +232,10 @@
     {
       "title": "ClaudeDevs on Claude Build Day winners",
       "url": "https://x.com/ClaudeDevs/status/2067298098553254211"
+    },
+    {
+      "title": "ClaudeDevs on Claude Design sync",
+      "url": "https://x.com/ClaudeDevs/status/2067391951725629941"
     },
     {
       "title": "Nate Parrott on Claude Design June Update",
