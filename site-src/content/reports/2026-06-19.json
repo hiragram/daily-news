@@ -1,14 +1,14 @@
 {
   "date": "2026-06-19",
-  "windowLabel": "2026-06-18 08:59:28 JST - 2026-06-19 08:59:28 JST",
-  "archiveTitle": "Artifacts launch and Project Fetch update",
-  "archiveSummary": "公式更新7件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-06-18 08:59 JST から 2026-06-19 08:59 JST の24時間では、<strong>Claude Blog</strong> が <strong>Claude Code Artifacts</strong> を公開し、<strong>Anthropic Research</strong> は <strong>Project Fetch: Phase two</strong> を掲載した。公式Xでは <strong>@ClaudeAI</strong> が Artifacts を、<strong>@ClaudeDevs</strong> が <strong>Enterprise-Managed Auth extension to MCP</strong> を、<strong>@AnthropicAI</strong> が <strong>Project Fetch</strong> を案内した。engineer 側では <strong>Mike Krieger</strong>、<strong>Robert Bye</strong>、<strong>catwu</strong> が Artifacts の具体的な使いどころを補足した。いっぽう <strong>Claude Code</strong> の新しい release はこの窓にはなく、最新の <strong>v2.1.181</strong> は開始前の <strong>2026-06-18 07:07 JST</strong> 公開だった。",
+  "windowLabel": "2026-06-18 15:03:01 JST - 2026-06-19 15:03:01 JST",
+  "archiveTitle": "Artifacts, Fetch, and v2.1.183",
+  "archiveSummary": "公式更新8件、engineer signal 5件、Claude Code release 1件。",
+  "latestSummary": "2026-06-18 15:03 JST から 2026-06-19 15:03 JST の24時間では、<strong>Claude Blog</strong> が <strong>Claude Code Artifacts</strong>、<strong>Claude Code の steering methods</strong>、<strong>MCP connector の enterprise-managed authorization</strong> を公開し、<strong>Anthropic Research</strong> は <strong>Project Fetch: Phase two</strong> を掲載した。公式 X では <strong>@ClaudeAI</strong> が Artifacts を、<strong>@ClaudeDevs</strong> が <strong>Enterprise-Managed Auth extension to MCP</strong> と usage-limit 障害の修正を、<strong>@AnthropicAI</strong> が <strong>Project Fetch</strong> を案内した。さらに <strong>Claude Code</strong> は <strong>v2.1.183</strong> を公開し、安全ガード、model deprecation warning、<code>attribution.sessionUrl</code>、<code>/config --help</code>、subagent・MCP・tmux・Windows Terminal まわりの修正をまとめて投入した。",
   "summaryBullets": [
-    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Code Artifacts</strong> を beta として告知し、<strong>@ClaudeDevs</strong> は <strong>Enterprise-Managed Auth extension to MCP</strong> で connector 認可を org 単位で一元管理できるようになったと案内した。<strong>@AnthropicAI</strong> は <strong>Project Fetch: Phase two</strong> を紹介し、<strong>Opus 4.7</strong> が昨年の最速 human team より約 <strong>20倍</strong> 速かったと強調した。",
+    "<strong>Official X 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Code Artifacts</strong> を beta として告知し、<strong>@ClaudeDevs</strong> は <strong>Enterprise-Managed Auth extension to MCP</strong> の追加と、一部 <strong>Max / Pro</strong> user に誤った weekly usage limit が表示された障害の修正を告知した。<strong>@AnthropicAI</strong> は <strong>Project Fetch: Phase two</strong> を紹介した。",
     "<strong>Official articles 4件</strong>: <strong>Anthropic Research</strong> に <strong>Project Fetch: Phase two</strong>、<strong>Claude Blog</strong> に <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: skills, hooks, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> が並んだ。",
-    "<strong>Engineer signals 3件</strong>: <strong>Mike Krieger</strong> は Artifacts が Claude の work と reasoning を視覚化するのに有効だと述べ、<strong>Robert Bye</strong> は PM 向けの interactive dashboard や live data linked document に向くと整理し、<strong>catwu</strong> は architecture change・data analysis・prototype 共有の実運用で役立っていると共有した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release notes を完全取得して確認したが、最新の <strong>v2.1.181</strong> は <strong>2026-06-18 07:07 JST</strong> 公開で今回 window の開始より前だった。したがって今回の新規 release は <strong>0件</strong>。"
+    "<strong>Engineer signals 5件</strong>: <strong>Mike Krieger</strong>、<strong>Boris Cherny</strong>、<strong>catwu</strong>、<strong>Robert Bye</strong>、<strong>Thariq</strong> が Artifacts の visual explanation、team sharing、PM workflow、internal deployment、今後の <strong>Pro / Max</strong> 展開見込みを補足した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.183</strong> の release notes を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 2件</strong>、<strong>変更 4件</strong>、<strong>修正 10件</strong> だった。"
   ],
   "officialNews": [
     {
@@ -80,6 +80,16 @@
       "url": "https://x.com/claudeai/status/2067671912038240487",
       "urlLabel": "X で見る",
       "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-19T11:50:28+09:00",
+      "displayTime": "2026-06-19 11:50 JST",
+      "title": "ClaudeDevs が Claude Code の usage-limit 障害修正を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、同日早くに <strong>Claude Code Max / Pro user の約 3%</strong> で誤った weekly usage limit が表示され、一部では message 送信まで block される bug が発生したと説明した。現在は修正済みで、影響を受けた user には <strong>5-hour limit</strong> と <strong>weekly limit</strong> を reset すると案内している。",
+      "url": "https://x.com/ClaudeDevs/status/2067802163498352929",
+      "urlLabel": "X で見る",
+      "primary": true
     }
   ],
   "officialZeroStates": [
@@ -92,12 +102,8 @@
       "body": "<strong>Anthropic News</strong> の先頭は引き続き <strong>Jun 17, 2026</strong> 表示で、今回の窓に入る新規記事は確認できなかった。"
     },
     {
-      "label": "公式Xの main post は Artifacts / MCP auth / Project Fetch が中心",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したところ、今回の新規 main post は <strong>Project Fetch</strong>、<strong>Artifacts</strong>、<strong>Enterprise-Managed Auth extension to MCP</strong> にほぼ集約されていた。reply や quote 続きは canonical item に寄せて重複要約を避けた。"
-    },
-    {
-      "label": "Claude Code の新規 release は 0件",
-      "body": "GitHub CLI で最新 release notes まで確認したが、最新の <strong>v2.1.181</strong> は <strong>2026-06-18 07:07 JST</strong> 公開で、今回 window の開始 <strong>2026-06-18 08:59 JST</strong> より前だった。"
+      "label": "公式 X の main post は Artifacts / MCP auth / usage fix / Project Fetch が中心",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したところ、今回の新規 main post は <strong>Project Fetch</strong>、<strong>Artifacts</strong>、<strong>Enterprise-Managed Auth extension to MCP</strong>、usage-limit 障害修正に集約されていた。reply や quote 続きは canonical item に寄せて重複要約を避けた。"
     }
   ],
   "signals": [
@@ -113,11 +119,11 @@
     },
     {
       "label": "Workflow signal",
-      "datetime": "2026-06-19T04:09:42+09:00",
-      "displayTime": "2026-06-19 04:09 JST",
-      "title": "Robert Bye が PM 向けの Artifacts 活用像を共有",
-      "summary": "<strong>@RobertJBye</strong> は、Artifacts は product team 全体に有効だが、特に <strong>PM 向けには shareable interactive dashboard</strong>、<strong>wireframe demo</strong>、<strong>research summary</strong>、そして <strong>interactive で live data linked な document</strong> を作れる点が game changer だと書いた。feature の想定利用者が engineering 以外にも広がることを示す signal になっている。",
-      "url": "https://x.com/RobertJBye/status/2067753670591299741",
+      "datetime": "2026-06-19T05:05:24+09:00",
+      "displayTime": "2026-06-19 05:05 JST",
+      "title": "Boris Cherny が Artifacts を使う具体例を列挙",
+      "summary": "<strong>@bcherny</strong> は、Artifacts を <strong>tricky code の visual explanation</strong>、<strong>system diagram</strong>、<strong>animation option preview</strong>、<strong>data analysis</strong>、<strong>dashboard</strong> の共有に日常的に使っていると投稿した。単なる launch reaction ではなく、Claude Code から生成した成果物が team collaboration の中心に入っていることを示す signal になっている。",
+      "url": "https://x.com/bcherny/status/2067700226669060207",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -128,6 +134,26 @@
       "title": "catwu が Artifacts の社内利用例を共有",
       "summary": "<strong>@_catwu</strong> は、Claude Team / Enterprise では <strong>Claude Code から HTML artifact を deploy して teammates に共有</strong> でき、社内では <strong>architecture changes</strong>、<strong>data analyses</strong>、<strong>new prototypes</strong> の共有方法として既に働き方を変え始めていると述べた。feature の現実的な adoption pattern を示す補足になっている。",
       "url": "https://x.com/_catwu/status/2067674836726694200",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Workflow signal",
+      "datetime": "2026-06-19T08:37:46+09:00",
+      "displayTime": "2026-06-19 08:37 JST",
+      "title": "Robert Bye が PM 向けの Artifacts 活用像を共有",
+      "summary": "<strong>@RobertJBye</strong> は、Artifacts は product team 全体に有効だが、特に <strong>PM 向けには shareable interactive dashboards</strong>、<strong>wireframe demos</strong>、<strong>research summaries</strong>、そして <strong>live data linked documents</strong> を作れる点が game changer だと書いた。feature の想定利用者が engineering 以外にも広がることを示す signal になっている。",
+      "url": "https://x.com/RobertJBye/status/2067753670591299741",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Rollout signal",
+      "datetime": "2026-06-19T03:54:52+09:00",
+      "displayTime": "2026-06-19 03:54 JST",
+      "title": "Thariq が Artifacts の共有権限と今後の plan を補足",
+      "summary": "<strong>@trq212</strong> は、Claude Code で生成した HTML artifacts を team や他の Claude と共有できると説明したうえで、まずは <strong>teams</strong> 向けに社内共有から始め、今後は <strong>Pro</strong> と <strong>MAX</strong> plan にも coming soon だと補足した。official launch post より踏み込んだ rollout signal として重要。",
+      "url": "https://x.com/trq212/status/2067682475611242546",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -148,20 +174,60 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI で最新 release notes まで完全取得して確認したが、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.181</strong> は <strong>2026-06-18 07:07 JST</strong> 公開で、今回の window 開始 <strong>2026-06-18 08:59 JST</strong> より前だった。",
-      "details": [
-        "確認対象の最新 release は <strong>v2.1.181</strong> で、release body は完全取得済み。分類結果は <strong>新機能 3件</strong>、<strong>変更 7件</strong>、<strong>修正 29件</strong> だったが、今回は新規 release としては計上しない。"
+      "headline": "v2.1.183",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.183</strong> の 1 件だった。公開時刻は <strong>2026-06-19 10:20 JST</strong>。今回は auto mode の destructive command guard を強化し、deprecated model warning、<code>attribution.sessionUrl</code>、<code>/config --help</code> を追加したうえで、subagent、MCP、tmux、scheduled task、focus mode、Windows Terminal などの不具合を修正した。",
+      "releases": [
+        {
+          "version": "v2.1.183",
+          "publishedAt": "2026-06-19 10:20 JST",
+          "summary": "auto mode の safety guard を強化し、deprecated model warning、<code>attribution.sessionUrl</code>、<code>/config --help</code> を追加したうえで、subagent、MCP auth、tmux teammate、scheduled task、focus mode、Windows Terminal まわりの不具合をまとめて修正した release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>attribution.sessionUrl</code> 設定を追加し、web と Remote Control session で commit や PR から claude.ai の session link を省略できるようにした。",
+                "<code>/config --help</code> を追加し、<code>/config key=value</code> で使える shorthand key 一覧を表示できるようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "auto mode の安全性を改善し、local work の破棄を頼まれていない場合は <code>git reset --hard</code>、<code>git checkout -- .</code>、<code>git clean -fd</code>、<code>git stash drop</code> を block するようにした。また、この session で agent が作っていない commit に対する <code>git commit --amend</code> を block し、<code>terraform destroy</code> / <code>pulumi destroy</code> / <code>cdk destroy</code> は指定された stack を明示的に頼まれた場合だけ許可するようにした。",
+                "request した model が deprecated か、自動的に新しい model へ更新される場合に warning を出すようにした。warning は print mode（<code>-p</code>）では stderr に表示され、agent frontmatter で設定した model も対象に含めるようになった。",
+                "<code>/config</code> の toggle 操作を変更し、Enter と Space のどちらでも選択中の設定を切り替えられるようにし、Esc は revert ではなく save-and-close するようにした。",
+                "起動時ロゴ下の <strong>setup issues</strong> 行を削除し、設定問題は <code>/doctor</code> または <code>--debug</code> で確認する方式に変えた。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>thinking.disabled.display: Extra inputs are not permitted</code> という 400 error が subagent spawn や session-title generation で出る問題を修正した。",
+                "subagent で WebSearch が空結果を返してしまう問題を修正した。",
+                "vim mode で native cursor を有効にして history を移動したあと、terminal cursor が prompt より上に取り残される問題を修正した。",
+                "Windows Terminal で nested subagent が多いと fullscreen TUI が壊れ、statusline が画面中央に出たり spinner 行が重複したり text が結合されたりする問題を修正した。",
+                "model が thinking block だけ返したときに、visible output がないまま turn が silently complete してしまう問題を修正し、Claude が 1 回だけ再 prompt するようにした。",
+                "複数 plugin を有効にしていると user-level skill が slash-command autocomplete に重複表示される問題を修正した。",
+                "認証が必要な MCP server が headless / SDK mode で auth-stub tool を model に露出してしまう問題を修正した。",
+                "shell の rc file 初期化が遅い環境で tmux teammate pane の起動に失敗し、agent spawn 中に打った keystroke が leader prompt ではなく新しい tmux pane 側へ漏れる問題を修正した。",
+                "teammate が開始した background task が、その teammate の turn 完了時に kill される問題を修正した。",
+                "scheduled task と webhook trigger delivery が keyboard input として扱われ、auto mode で pending action の承認や session title の設定までできてしまう問題を修正した。これらは task notification として分類されるようになった。",
+                "focus mode で各 response の下に <strong>Ran N PostToolUse hooks</strong> の timing line が表示される問題を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
+          "urlLabel": "v2.1.183 release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、<strong>@ClaudeAI</strong> の Artifacts thread 続き、<strong>@ClaudeDevs</strong> の Artifacts quote post、<strong>@AnthropicAI</strong> の follow-up reply は canonical item に寄せて main summary から外した。",
-    "engineer watch では Artifacts の実運用や使いどころを補足する投稿を採用し、それ以外の conference 告知、短い相づち reply、個人的雑談、Claude / Anthropic の新情報として弱い投稿は signal から外した。",
+    "official X は main post を優先し、<strong>@ClaudeAI</strong> の Artifacts thread 続きと <strong>@ClaudeDevs</strong> の Artifacts quote post は canonical item に寄せて main summary から外した。",
+    "engineer watch では Artifacts の実運用、利用者層、共有モデル、plan rollout を補足する投稿を採用し、それ以外の conference 告知、短い相づち reply、個人的雑談、Claude / Anthropic の新情報として弱い投稿は signal から外した。",
     "Anthropic Research と Claude Blog の article page は時刻を出さないため、<strong>Jun 18, 2026</strong> の visible publication date ベースで window 内記事として採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には今回 window 内と判断できる新規記事はなかった。",
-    "Claude Code release は GitHub CLI で完全取得し、最新の <strong>v2.1.181</strong> が <strong>2026-06-18 07:07 JST</strong> 公開であることを確認したが、今回 window の開始前だったため <strong>0件</strong> とした。"
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.183</strong> のみと判定した。前版 <strong>v2.1.181</strong> は <strong>2026-06-18 07:07 JST</strong> 公開で、今回 window の開始より前だった。"
   ],
   "sources": [
     {
@@ -189,16 +255,28 @@
       "url": "https://x.com/ClaudeDevs/status/2067655887662272723"
     },
     {
+      "title": "ClaudeDevs on Claude Code usage-limit fix",
+      "url": "https://x.com/ClaudeDevs/status/2067802163498352929"
+    },
+    {
       "title": "Mike Krieger on Claude Code Artifacts",
       "url": "https://x.com/mikeyk/status/2067674333502427620"
+    },
+    {
+      "title": "Boris Cherny on Claude Code Artifacts",
+      "url": "https://x.com/bcherny/status/2067700226669060207"
+    },
+    {
+      "title": "catwu on Claude Code Artifacts",
+      "url": "https://x.com/_catwu/status/2067674836726694200"
     },
     {
       "title": "Robert Bye on Claude Code Artifacts",
       "url": "https://x.com/RobertJBye/status/2067753670591299741"
     },
     {
-      "title": "catwu on Claude Code Artifacts",
-      "url": "https://x.com/_catwu/status/2067674836726694200"
+      "title": "Thariq on Claude Code Artifacts",
+      "url": "https://x.com/trq212/status/2067682475611242546"
     },
     {
       "title": "Anthropic Engineering listing",
@@ -237,8 +315,8 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.181 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181"
+      "title": "Claude Code v2.1.183 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183"
     }
   ]
 }
