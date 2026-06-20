@@ -1,14 +1,14 @@
 {
   "date": "2026-06-20",
-  "windowLabel": "2026-06-19 15:02:15 JST - 2026-06-20 15:02:15 JST",
+  "windowLabel": "2026-06-19 21:03:14 JST - 2026-06-20 21:03:14 JST",
   "archiveTitle": "Usage reset and engineer signals",
   "archiveSummary": "公式更新1件、engineer signal 3件、公式記事とreleaseは0件。",
-  "latestSummary": "2026-06-19 15:02 JST から 2026-06-20 15:02 JST の24時間では、公式チャネルの新規 main post は <strong>@ClaudeDevs</strong> による全プラン向け usage limit reset の案内 1 件のみだった。公式サイトの新規記事と Claude Code の新規 release はなく、engineer 側では <strong>Boris Cherny</strong> の Claude Code 実例 2 件と、<strong>Anthony Morris</strong> の steering 関連の短い rollout 示唆 1 件を確認した。",
+  "latestSummary": "2026-06-19 21:03 JST から 2026-06-20 21:03 JST の24時間では、公式チャネルの新規 main post は <strong>@ClaudeDevs</strong> による全プラン向け usage limit reset の案内 1 件のみだった。公式サイトの新規記事と Claude Code の新規 release はなく、engineer 側では <strong>Boris Cherny</strong> の Claude Code 実例 2 件と、<strong>Anthony Morris</strong> の steering 関連の短い rollout 示唆 1 件を確認した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は、前日の usage-limit 障害対応の続報として、<strong>全プラン</strong> を対象に <strong>5-hour limit</strong> と <strong>weekly limit</strong> を reset したと告知した。今回の窓では <strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
     "<strong>Engineer signals 3件</strong>: <strong>Boris Cherny</strong> が Claude Code の exploratory research 用途と日常 workflow 用途をそれぞれ 1 件ずつ共有し、<strong>Anthony Morris</strong> は Claude Code app の <strong>steering</strong> が coming soon だと短く示唆した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で確認した最新 release は引き続き <strong>v2.1.183</strong> だが、公開時刻は <strong>2026-06-19 10:20 JST</strong> で、今回 window の開始 <strong>2026-06-19 15:02 JST</strong> より前だった。"
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release <strong>v2.1.183</strong> の metadata と release notes 本文を完全再確認したが、公開時刻は <strong>2026-06-19 10:20 JST</strong> で、今回 window の開始 <strong>2026-06-19 21:03 JST</strong> より前だった。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-06-20T09:05:06+09:00",
       "displayTime": "2026-06-20 09:05 JST",
       "title": "ClaudeDevs が全プランの usage limit reset を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、前日に発生した Claude Code の usage-limit 障害対応の続報として、<strong>全プラン</strong> を対象に <strong>5-hour limit</strong> と <strong>weekly limit</strong> を reset したと案内した。post は前日の障害修正告知を quote しており、今回の窓で確認できた公式増分はこの remediation update 1 件のみだった。",
+      "summary": "<strong>@ClaudeDevs</strong> は、前日に発生した Claude Code の usage-limit 障害対応の続報として、<strong>全プラン</strong> を対象に <strong>5-hour limit</strong> と <strong>weekly limit</strong> を reset したと案内した。quote 先は前日の障害修正告知で、今回の窓で確認できた公式増分はこの remediation update 1 件のみだった。",
       "url": "https://x.com/ClaudeDevs/status/2068122937308426676",
       "urlLabel": "X で見る",
       "primary": true
@@ -33,7 +33,7 @@
     },
     {
       "label": "Claude Code の新規 release は 0件",
-      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の releases を確認したところ、最新は引き続き <strong>v2.1.183</strong> だった。公開時刻は <strong>2026-06-19 10:20 JST</strong> で、今回 window の開始 <strong>2026-06-19 15:02 JST</strong> より前のため、新規 release には含めていない。"
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と <strong>v2.1.183</strong> の release notes 本文を完全取得して確認したところ、window 内に新規 release はなかった。最新 <strong>v2.1.183</strong> の公開時刻は <strong>2026-06-19 10:20 JST</strong> で、今回 window の開始 <strong>2026-06-19 21:03 JST</strong> より前だった。"
     }
   ],
   "signals": [
@@ -62,7 +62,7 @@
       "datetime": "2026-06-20T11:44:10+09:00",
       "displayTime": "2026-06-20 11:44 JST",
       "title": "Anthony Morris が Claude Code app の steering を coming soon と示唆",
-      "summary": "<strong>@amorriscode</strong> は、user から Claude Code app に Cursor のような queued message 機能を求める reply を受け、<strong>\"assuming you mean steering? it's coming soon\"</strong> と返答した。thread は短く文脈が限定的だが、少なくとも <strong>steering</strong> 関連の app-side rollout が近いことを示す低確度 signal として拾える。",
+      "summary": "<strong>@amorriscode</strong> は、user から Claude Code app に queueing messages 的な機能を求める reply を受け、<strong>\"assuming you mean steering? it's coming soon\"</strong> と返答した。thread は短く文脈が限定的だが、少なくとも <strong>steering</strong> 関連の app-side rollout が近いことを示す低確度 signal として拾える。",
       "url": "https://x.com/amorriscode/status/2068162966961447299",
       "urlLabel": "X で見る",
       "primary": true
@@ -77,7 +77,7 @@
         "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
         "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
         "<strong>Anthropic News</strong> の先頭は <strong>Jun 17, 2026</strong> の韓国拠点・提携記事のままだった。",
-        "<strong>Claude Blog</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong>、<strong>Claude Code now supports artifacts</strong> で、今回 window 内の新規記事はなかった."
+        "<strong>Claude Blog</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: skills, hooks, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -85,18 +85,18 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新 release は引き続き <strong>v2.1.183</strong> だが、公開時刻は <strong>2026-06-19 10:20 JST</strong> で、今回の window 開始 <strong>2026-06-19 15:02 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新 release は引き続き <strong>v2.1.183</strong> で、metadata と release notes 本文を完全再確認したが、公開時刻は <strong>2026-06-19 10:20 JST</strong> で今回の window 開始 <strong>2026-06-19 21:03 JST</strong> より前だった。",
       "details": [
         "GitHub CLI の release metadata を source of truth とし、<strong>anthropics/claude-code</strong> の最新 10 件を確認した。",
         "window 内に新規 tag はなく、最新は引き続き <strong>v2.1.183</strong> だった。",
-        "完全取得した release notes の更新は不要で、今回は release panel を <strong>0件</strong> とした。"
+        "<strong>v2.1.183</strong> の release notes 本文は完全取得して再確認し、visible bullet 全項目を確認したが、今回は window 外のため panel は <strong>0件</strong> とした。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
     }
   ],
   "exclusions": [
-    "<strong>@ClaudeDevs</strong> の usage-limit 障害そのものの修正告知 post は <strong>2026-06-19 11:50 JST</strong> 公開で、今回 window の開始 <strong>2026-06-19 15:02 JST</strong> より前のため再掲しなかった。今回は reset 完了の続報だけを採用した。",
+    "<strong>@ClaudeDevs</strong> の usage-limit 障害そのものの修正告知 post は <strong>2026-06-19 11:50 JST</strong> 公開で、今回 window の開始 <strong>2026-06-19 21:03 JST</strong> より前のため再掲しなかった。今回は reset 完了の続報だけを採用した。",
     "Claude Code release の最新 <strong>v2.1.183</strong> は <strong>2026-06-19 10:20 JST</strong> 公開で、今回の窓外だったため panel では <strong>0件</strong> とした。",
     "engineer watch では Bun、Letterboxd、医療スキャン議論、歓迎 reply など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
     "<strong>Anthony Morris</strong> の steering 返信は文脈が短く feature 名も確定していないため、正式 announcement ではなく <strong>low-confidence rollout signal</strong> としてのみ扱った。"
@@ -149,6 +149,10 @@
     {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.183 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183"
     }
   ]
 }
