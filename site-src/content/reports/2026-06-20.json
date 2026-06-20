@@ -1,26 +1,16 @@
 {
   "date": "2026-06-20",
-  "windowLabel": "2026-06-19 03:02:20 JST - 2026-06-20 03:02:20 JST",
-  "archiveTitle": "Artifacts rollout and v2.1.183",
-  "archiveSummary": "公式更新2件、engineer signal 6件、Claude Code release 1件。",
-  "latestSummary": "2026-06-19 03:02 JST から 2026-06-20 03:02 JST の24時間では、公式Xで <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が <strong>Claude Code Artifacts</strong> と usage-limit 障害修正を案内し、監視対象の engineer アカウント群は Artifacts の実運用、共有モデル、plan rollout の補足を相次いで投稿した。公式サイトの新規記事は確認されず、<strong>Claude Code</strong> は <strong>v2.1.183</strong> を公開して auto mode の safety guard、deprecated model warning、<code>attribution.sessionUrl</code>、<code>/config --help</code> を追加しつつ、subagent、MCP、tmux、Windows Terminal、scheduled task まわりの不具合をまとめて修正した。",
+  "windowLabel": "2026-06-19 09:01:39 JST - 2026-06-20 09:01:39 JST",
+  "archiveTitle": "Usage fix, signals, and v2.1.183",
+  "archiveSummary": "公式更新1件、engineer signal 3件、Claude Code release 1件。",
+  "latestSummary": "2026-06-19 09:01 JST から 2026-06-20 09:01 JST の24時間では、公式 X の新規 main post は <strong>@ClaudeDevs</strong> による Claude Code の usage-limit 障害修正 1 件のみだった。公式サイトの新規記事はなく、engineer 側では Artifacts の社内利用や Claude Code の実例が 3 件出ている。Claude Code の release は引き続き <strong>v2.1.183</strong> が窓内で、release notes 全項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Code Artifacts</strong> を Team / Enterprise beta として告知し、<strong>@ClaudeDevs</strong> は誤った weekly usage limit が表示される障害の修正を案内した。今回は <strong>@AnthropicAI</strong> の window 内 main post は確認できなかった。",
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は、<strong>Claude Code Max / Pro user の約 3%</strong> に誤った weekly usage limit が表示され、一部で message 送信まで block された bug を修正したと案内した。今回は <strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の window 内 main post は確認できなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各公式 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
-    "<strong>Engineer signals 6件</strong>: <strong>Mike Krieger</strong>、<strong>catwu</strong>、<strong>Thariq</strong>、<strong>Adam Wolff</strong>、<strong>Boris Cherny</strong>、<strong>Robert Bye</strong> が、Artifacts の内部利用、team sharing、<strong>Pro / MAX</strong> への今後の展開、visual explanation、PM workflow の有効性を補足した。",
+    "<strong>Engineer signals 3件</strong>: <strong>Noah Zweben</strong>、<strong>Adam Wolff</strong>、<strong>Boris Cherny</strong> が、Artifacts の社内共有ユースケースや Claude Code の具体的な活用例を補足した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.183</strong> の release notes を完全取得し、visible bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目を和訳した。今回は <strong>新機能 2件</strong>、<strong>変更 4件</strong>、<strong>修正 11件</strong> だった。"
   ],
   "officialNews": [
-    {
-      "label": "Official X",
-      "datetime": "2026-06-19T03:12:53+09:00",
-      "displayTime": "2026-06-19 03:12 JST",
-      "title": "ClaudeAI が Claude Code Artifacts を告知",
-      "summary": "<strong>@ClaudeAI</strong> は、<strong>Claude Code Artifacts</strong> によって session から <strong>interactive page</strong> を生成し、<strong>PR walkthrough</strong> や <strong>living project dashboard</strong> を private link で team に共有できると案内した。main post では <strong>Team / Enterprise</strong> 向け beta と明記している。",
-      "url": "https://x.com/claudeai/status/2067671912038240487",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
     {
       "label": "Official X",
       "datetime": "2026-06-19T11:50:28+09:00",
@@ -34,76 +24,46 @@
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> を確認したが、この window に入る新規 main post は確認できなかった。今回の公式 X 増分は <strong>@ClaudeAI</strong> の Artifacts 告知と <strong>@ClaudeDevs</strong> の usage-limit 障害修正だった。"
+      "label": "@AnthropicAI と @ClaudeAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> を確認したが、この window に入る新規 main post は確認できなかった。前回レポートで扱った <strong>Claude Code Artifacts</strong> の launch post は <strong>2026-06-19 03:12 JST</strong> で、今回 window の開始 <strong>2026-06-19 09:01 JST</strong> より前だった。"
     },
     {
       "label": "公式サイト新着は 0件",
       "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 17, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
     },
     {
-      "label": "公式 X は Artifacts と usage fix が中心",
-      "body": "<strong>@ClaudeDevs</strong> の Artifacts quote post は <strong>@ClaudeAI</strong> の main launch post に寄せて canonical item 化し、公式増分としては launch 告知 1 件と障害修正 1 件に整理した。"
+      "label": "今回の公式増分は障害修正 1件のみ",
+      "body": "公式チャネルの増分としては <strong>@ClaudeDevs</strong> による usage-limit 障害修正の案内 1 件だけだった。新しい launch post や blog post はこの窓では追加されていない。"
     }
   ],
   "signals": [
     {
-      "label": "Engineering signal",
-      "datetime": "2026-06-19T03:22:31+09:00",
-      "displayTime": "2026-06-19 03:22 JST",
-      "title": "Mike Krieger が Artifacts の内部利用価値を補足",
-      "summary": "<strong>@mikeyk</strong> は、Claude の作業がより深く自律的になるほど <strong>Artifacts</strong> で thinking と output を図解させる価値が高まると説明し、次に Claude と作業するときは成果を diagram 化させてみてほしいと勧めた。launch post より一歩踏み込んだ internal usage signal。",
-      "url": "https://x.com/mikeyk/status/2067674333502427620",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Rollout signal",
-      "datetime": "2026-06-19T03:24:31+09:00",
-      "displayTime": "2026-06-19 03:24 JST",
-      "title": "catwu が Artifacts の team sharing と internal workflow 変化を共有",
-      "summary": "<strong>@_catwu</strong> は、Claude Team / Enterprise で <strong>Claude Code</strong> から HTML artifacts を deploy して teammate と共有できるようになり、architecture change、data analysis、prototype の伝え方が社内で変わったと説明した。team collaboration への実効性を示す signal。",
-      "url": "https://x.com/_catwu/status/2067674836726694200",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Rollout signal",
-      "datetime": "2026-06-19T03:54:52+09:00",
-      "displayTime": "2026-06-19 03:54 JST",
-      "title": "Thariq が Artifacts の共有権限と今後の plan を補足",
-      "summary": "<strong>@trq212</strong> は、Claude Code で生成した HTML artifacts を team や他の Claude と共有できると説明したうえで、まずは <strong>teams</strong> 向けに社内共有から始め、今後は <strong>Pro</strong> と <strong>MAX</strong> plan にも coming soon だと補足した。official launch post より踏み込んだ rollout signal として重要。",
-      "url": "https://x.com/trq212/status/2067682475611242546",
+      "label": "Workflow signal",
+      "datetime": "2026-06-19T09:45:19+09:00",
+      "displayTime": "2026-06-19 09:45 JST",
+      "title": "Noah Zweben が Artifacts の社内共有ユースケースを補足",
+      "summary": "<strong>@noahzweben</strong> は、Claude Code Artifacts を <strong>almost every day internally</strong> 使って team と情報共有していると述べた。前夜の official launch post を受けた短文だが、社内で日常運用されていることを示す実利用 signal になっている。",
+      "url": "https://x.com/noahzweben/status/2067770670097072475",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Workflow signal",
-      "datetime": "2026-06-19T04:09:42+09:00",
-      "displayTime": "2026-06-19 04:09 JST",
-      "title": "Adam Wolff が visual explanation needs と Artifacts の相性を共有",
-      "summary": "<strong>@dmwlff</strong> は、Claude の text output が dense になるほど visual explanation への依存が増えており、従来は hacks で実現していたことが Artifacts に built-in されたのは大きいと述べた。artifact 機能の user-side value を端的に補足している。",
-      "url": "https://x.com/dmwlff/status/2067686206486598124",
+      "datetime": "2026-06-19T10:46:48+09:00",
+      "displayTime": "2026-06-19 10:46 JST",
+      "title": "Adam Wolff が Claude と Artifacts の具体的な使い方を提示",
+      "summary": "<strong>@dmwlff</strong> は、次の PR 前に Claude と design doc を詰める、data を plot させる、sequence diagram や architecture diagram を作らせる、といった具体例を挙げた。Artifacts と組み合わせた visual workflow の実践例として有用。",
+      "url": "https://x.com/dmwlff/status/2067786142104289303",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
-      "label": "Workflow signal",
-      "datetime": "2026-06-19T05:05:24+09:00",
-      "displayTime": "2026-06-19 05:05 JST",
-      "title": "Boris Cherny が Artifacts の具体的な内部ユースケースを列挙",
-      "summary": "<strong>@bcherny</strong> は、<strong>tricky code の visual explanation</strong>、<strong>system diagram</strong>、<strong>animation option の quick preview</strong>、<strong>data analysis と dashboard の共有</strong> など、Artifacts を日常的に使っている用途を列挙し、Claude との働き方を変える game changer だと述べた。",
-      "url": "https://x.com/bcherny/status/2067700226669060207",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Product strategy signal",
-      "datetime": "2026-06-19T08:37:46+09:00",
-      "displayTime": "2026-06-19 08:37 JST",
-      "title": "Robert Bye が PM workflow での Artifacts 活用を強調",
-      "summary": "<strong>@RobertJBye</strong> は、Artifacts が product team、とくに PM にとって game changer であり、shareable interactive dashboard、wireframe demo、research summary、そして <strong>live data linked documents</strong> を PRD の代わりに作れる点が特に良いと述べた。launch 直後の具体的な業務転換 signal。",
-      "url": "https://x.com/RobertJBye/status/2067753670591299741",
+      "label": "Use-case signal",
+      "datetime": "2026-06-20T05:12:07+09:00",
+      "displayTime": "2026-06-20 05:12 JST",
+      "title": "Boris Cherny が Claude Code の異色ユースケースを共有",
+      "summary": "<strong>@bcherny</strong> は、Claude Code を使って <strong>3500 年前の文字体系 Linear A の解読</strong> を試みた事例記事を紹介した。公式 announcement ではないが、Claude Code の exploratory research workflow を示す具体例として拾える。",
+      "url": "https://x.com/bcherny/status/2068064304503660962",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -117,7 +77,7 @@
         "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
         "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
         "<strong>Anthropic News</strong> の先頭は <strong>Jun 17, 2026</strong> の韓国拠点・提携記事のままだった。",
-        "<strong>Claude Blog</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Steering Claude Code</strong>、<strong>Centrally manage authorization for MCP connectors</strong>、<strong>Claude Code now supports artifacts</strong> で、今回 window 内の新規記事はなかった."
+        "<strong>Claude Blog</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Steering Claude Code</strong>、<strong>Centrally manage authorization for MCP connectors</strong>、<strong>Claude Code now supports artifacts</strong> で、今回 window 内の新規記事はなかった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -125,7 +85,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.183",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.183</strong> の 1 件だった。公開時刻は <strong>2026-06-19 10:20 JST</strong>。今回は auto mode の destructive command guard を強化し、deprecated model warning、<code>attribution.sessionUrl</code>、<code>/config --help</code> を追加したうえで、subagent、MCP、tmux、scheduled task、focus mode、Windows Terminal などの不具合を修正した。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.183</strong> の 1 件だった。公開時刻は <strong>2026-06-19 10:20 JST</strong>。auto mode の destructive command guard を強化し、deprecated model warning、<code>attribution.sessionUrl</code>、<code>/config --help</code> を追加したうえで、subagent、MCP、tmux、Windows Terminal、scheduled task まわりの不具合をまとめて修正している。",
       "releases": [
         {
           "version": "v2.1.183",
@@ -135,14 +95,14 @@
             {
               "title": "新機能",
               "items": [
-                "<code>attribution.sessionUrl</code> 設定を追加し、web と Remote Control session で commit や PR から claude.ai の session link を省略できるようにした。",
-                "<code>/config --help</code> を追加し、<code>/config key=value</code> で使える shorthand key 一覧を表示できるようにした."
+                "<code>attribution.sessionUrl</code> 設定を追加し、web と Remote Control session で commit や PR に claude.ai の session link を載せないようにできるようにした。",
+                "<code>/config --help</code> を追加し、<code>/config key=value</code> で使える shorthand key の一覧を表示できるようにした。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "auto mode の安全性を改善し、local work の破棄を頼まれていない場合は <code>git reset --hard</code>、<code>git checkout -- .</code>、<code>git clean -fd</code>、<code>git stash drop</code> を block するようにした。また、この session で agent が作っていない commit に対する <code>git commit --amend</code> を block し、<code>terraform destroy</code> / <code>pulumi destroy</code> / <code>cdk destroy</code> は指定された stack を明示的に頼まれた場合だけ許可するようにした。",
+                "auto mode の安全性を改善し、local work の破棄を依頼されていない場合は <code>git reset --hard</code>、<code>git checkout -- .</code>、<code>git clean -fd</code>、<code>git stash drop</code> を block するようにした。また、この session で agent が作っていない commit に対する <code>git commit --amend</code> を block し、<code>terraform destroy</code> / <code>pulumi destroy</code> / <code>cdk destroy</code> は特定の stack を明示的に依頼された場合だけ許可するようにした。",
                 "request した model が deprecated か、自動的に新しい model へ更新される場合に warning を出すようにした。warning は print mode（<code>-p</code>）では stderr に表示され、agent frontmatter で設定した model も対象に含めるようになった。",
                 "<code>/config</code> の toggle 操作を変更し、Enter と Space のどちらでも選択中の設定を切り替えられるようにし、Esc は revert ではなく save-and-close するようにした。",
                 "起動時ロゴ下の <strong>setup issues</strong> 行を削除し、設定問題は <code>/doctor</code> または <code>--debug</code> で確認する方式に変えた。"
@@ -161,7 +121,7 @@
                 "shell の rc file 初期化が遅い環境で tmux teammate pane の起動に失敗し、agent spawn 中に打った keystroke が leader prompt ではなく新しい tmux pane 側へ漏れる問題を修正した。",
                 "teammate が開始した background task が、その teammate の turn 完了時に kill される問題を修正した。",
                 "scheduled task と webhook trigger delivery が keyboard input として扱われ、auto mode で pending action の承認や session title の設定までできてしまう問題を修正した。これらは task notification として分類されるようになった。",
-                "focus mode で各 response の下に <strong>Ran N PostToolUse hooks</strong> の timing line が表示される問題を修正した."
+                "focus mode で各 response の下に <strong>Ran N PostToolUse hooks</strong> の timing line が表示される問題を修正した。"
               ]
             }
           ],
@@ -174,9 +134,9 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、<strong>@ClaudeDevs</strong> の Artifacts quote post は <strong>@ClaudeAI</strong> の launch post に寄せて main summary から外した。",
-    "engineer watch では Artifacts の実運用、共有モデル、plan rollout を補足する投稿を採用し、それ以外の conference 告知、短い相づち reply、個人的雑談、Claude / Anthropic の新情報として弱い投稿は signal から外した。",
-    "公式サイトは listing 上の visible publication date を基準に確認した。今回の window 内に入る新規記事はなく、<strong>Jun 18, 2026</strong> 表示の research / blog 記事群は前回レポート対象として扱われているため今回は再掲しなかった。",
+    "前回レポートの中心だった <strong>@ClaudeAI</strong> の <strong>Claude Code Artifacts</strong> launch post は <strong>2026-06-19 03:12 JST</strong> 公開で、今回 window の開始 <strong>2026-06-19 09:01 JST</strong> より前のため再掲しなかった。",
+    "engineer watch では Claude / Anthropic と直接関係しない Bun、Letterboxd、個人的雑談、歓迎 reply を除外した。",
+    "Anthony Morris の <strong>\"will try to roll this out in the next few weeks\"</strong> reply は feature 文脈が thread 断片だけでは十分に確定できないため、今回は signal 本文から外した。",
     "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.183</strong> のみと判定した。前版 <strong>v2.1.181</strong> は <strong>2026-06-18 07:07 JST</strong> 公開で、今回 window の開始より前だった。"
   ],
   "sources": [
@@ -189,10 +149,6 @@
       "url": "https://x.com/ClaudeAI"
     },
     {
-      "title": "ClaudeAI on Claude Code Artifacts",
-      "url": "https://x.com/claudeai/status/2067671912038240487"
-    },
-    {
       "title": "ClaudeDevs on X",
       "url": "https://x.com/ClaudeDevs"
     },
@@ -201,28 +157,16 @@
       "url": "https://x.com/ClaudeDevs/status/2067802163498352929"
     },
     {
-      "title": "Mike Krieger on Artifacts",
-      "url": "https://x.com/mikeyk/status/2067674333502427620"
+      "title": "Noah Zweben on Artifacts internal sharing",
+      "url": "https://x.com/noahzweben/status/2067770670097072475"
     },
     {
-      "title": "catwu on Artifacts team sharing",
-      "url": "https://x.com/_catwu/status/2067674836726694200"
+      "title": "Adam Wolff on Claude workflow examples",
+      "url": "https://x.com/dmwlff/status/2067786142104289303"
     },
     {
-      "title": "Thariq on Artifacts rollout",
-      "url": "https://x.com/trq212/status/2067682475611242546"
-    },
-    {
-      "title": "Adam Wolff on Artifacts visual explanations",
-      "url": "https://x.com/dmwlff/status/2067686206486598124"
-    },
-    {
-      "title": "Boris Cherny on Artifacts workflows",
-      "url": "https://x.com/bcherny/status/2067700226669060207"
-    },
-    {
-      "title": "Robert Bye on PM workflows with Artifacts",
-      "url": "https://x.com/RobertJBye/status/2067753670591299741"
+      "title": "Boris Cherny on Claude Code and Linear A",
+      "url": "https://x.com/bcherny/status/2068064304503660962"
     },
     {
       "title": "Anthropic Engineering listing",
@@ -239,18 +183,6 @@
     {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude blog: Steering Claude Code",
-      "url": "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more"
-    },
-    {
-      "title": "Claude blog: Centrally manage authorization for MCP connectors",
-      "url": "https://claude.com/blog/enterprise-managed-auth"
-    },
-    {
-      "title": "Claude blog: Claude Code now supports artifacts",
-      "url": "https://claude.com/blog/artifacts-in-claude-code"
     },
     {
       "title": "Claude Code Releases",
