@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-22",
+  "windowLabel": "2026-06-21 03:02:49 JST - 2026-06-22 03:02:49 JST",
+  "archiveTitle": "v2.1.185 and app feedback signals",
+  "archiveSummary": "公式更新0件、engineer signal 5件、公式記事0件、Claude Code release 1件。",
+  "latestSummary": "2026-06-21 03:02 JST から 2026-06-22 03:02 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。一方で engineer 側では <strong>Robert J Bye</strong> と <strong>Anthony Morris</strong> を中心に Claude app / Claude Code への feedback と triage のやり取りが続き、<strong>Claude Code v2.1.185</strong> が公開されて stream-stall hint の文言と retry 条件が調整された。",
+  "summaryBullets": [
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post は、この24時間窓では確認できなかった。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
+    "<strong>Engineer signals 5件</strong>: <strong>Robert J Bye</strong> は Claude と MCP を使った 3D printer workflow を共有し、その後 mobile app / desktop app / task scheduling に関する不具合や要望を team へ伝えると公開 thread 上で返答した。<strong>Anthony Morris</strong> も Claude desktop app への feedback 受付と、再現に必要な logs 提供依頼を明示した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.185</strong> の release notes 本文を完全取得し、visible bullet 全項目を和訳した。今回は <strong>変更 1件</strong> で、stream-stall hint の copy と retry 開始までの silence threshold が調整された。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式Xの新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この window に入る新規 main post は確認できなかった。公式アカウントからの増分はゼロだった。"
+    },
+    {
+      "label": "公式サイト新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 17, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+    },
+    {
+      "label": "Claude Code release は v2.1.185 のみ",
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得して確認したところ、window 内の新規 release は <strong>v2.1.185</strong> の 1 件だけだった。前回まで最新だった <strong>v2.1.183</strong> は <strong>2026-06-19 10:20 JST</strong> 公開で今回の window 開始より前のため除外した。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Use-case signal",
+      "datetime": "2026-06-21T09:32:47+09:00",
+      "displayTime": "2026-06-21 09:32 JST",
+      "title": "Robert J Bye が Claude と Fusion MCP を使った 3D printer workflow を共有",
+      "summary": "<strong>@RobertJBye</strong> は、<strong>@claudeai</strong> と <strong>Autodesk Fusion MCP</strong>、<strong>Bambu Lab</strong> の組み合わせで、tea bag organiser をワンショット prompt から数時間で作れたと共有した。Claude を実世界の fabrication workflow に接続する具体例として見られる。",
+      "url": "https://x.com/RobertJBye/status/2068492291699028256",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Feedback signal",
+      "datetime": "2026-06-21T12:20:41+09:00",
+      "displayTime": "2026-06-21 12:20 JST",
+      "title": "Anthony Morris が Claude desktop app への feedback を募集",
+      "summary": "<strong>@amorriscode</strong> は、Claude app 改善を話題にした投稿への reply で、<strong>Claude Code desktop app</strong> への feedback を歓迎すると述べた。短文ではあるが、desktop app を継続的に改善対象として見ていることが分かる。",
+      "url": "https://x.com/amorriscode/status/2068534544169624029",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Triage signal",
+      "datetime": "2026-06-21T12:27:01+09:00",
+      "displayTime": "2026-06-21 12:27 JST",
+      "title": "Robert J Bye が Claude mobile app の不具合報告を team に伝えると返答",
+      "summary": "<strong>@RobertJBye</strong> は Claude app の不具合報告 thread で、自身が <strong>mobile app の PM</strong> であり、寄せられた issue を team に共有すると返答した。公開スレッド上で mobile / code section の問題を triage している signal として扱える。",
+      "url": "https://x.com/RobertJBye/status/2068536139104018503",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Debugging signal",
+      "datetime": "2026-06-22T01:35:55+09:00",
+      "displayTime": "2026-06-22 01:35 JST",
+      "title": "Anthony Morris が Claude desktop app の改善継続と log 提供依頼を明示",
+      "summary": "<strong>@amorriscode</strong> は desktop app の不満点を挙げる user への reply で、自身は app を <strong>daily driver</strong> として使っており、かなり改善してきたと述べたうえで、再現用の <strong>logs</strong> 提供を依頼した。公開 thread 上で desktop app の再現調査に入っている signal と見られる。",
+      "url": "https://x.com/amorriscode/status/2068734673136877604",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Product signal",
+      "datetime": "2026-06-22T01:45:07+09:00",
+      "displayTime": "2026-06-22 01:45 JST",
+      "title": "Anthony Morris が Claude の自動 follow-up 要望を team に共有すると返答",
+      "summary": "<strong>@amorriscode</strong> は、Claude に定時実行や loop 中の follow-up scheduling を求める user 投稿に対し、<strong>\"shared with the team\"</strong> と返答した。短いやり取りだが、autonomy / scheduling 系の要望が product feedback として取り込まれていることを示す。",
+      "url": "https://x.com/amorriscode/status/2068736985796329950",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この24時間窓で visible publication date ベースの新規公式記事は確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、先頭記事はいずれも window 開始より前の日付だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
+        "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
+        "<strong>Anthropic News</strong> の先頭は引き続き <strong>Jun 17, 2026</strong> の <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> だった。",
+        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: skills, hooks, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.185",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.185</strong> の 1 件だった。公開時刻は <strong>2026-06-21 05:59 JST</strong>。内容は stream-stall hint の wording をより正確な表現へ改め、API silence 後に retry へ入るまでの待ち時間を <strong>10秒</strong> から <strong>20秒</strong> へ延ばす変更だった。",
+      "releases": [
+        {
+          "version": "v2.1.185",
+          "publishedAt": "2026-06-21 05:59 JST",
+          "summary": "stream-stall hint の copy を見直し、retry 前の silence threshold を <strong>10秒</strong> から <strong>20秒</strong> に延ばした小規模 release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "該当なし。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "stream-stall hint の表示文言を <strong>\"No response from API · Retrying in ...\"</strong> から <strong>\"Waiting for API response · will retry in ...\"</strong> へ変更し、API からの応答待ちであることをより正確に伝える表現へ改めた。あわせて、この hint が出て retry に入るまでの silence threshold を <strong>10秒</strong> から <strong>20秒</strong> に延ばした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "該当なし。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+          "urlLabel": "v2.1.185 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
+    "engineer watch では Bun deploy 議論、Vercel や映画の雑談、経済指標の一般論、一般的な dogfooding 論など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
+    "Claude app の bug thread は user 側の不満投稿そのものではなく、<strong>Anthony Morris</strong> と <strong>Robert J Bye</strong> の product-side response だけを signal として採用した。",
+    "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.185</strong> のみと判定した。前版 <strong>v2.1.183</strong> は <strong>2026-06-19 10:20 JST</strong> 公開で、今回 window の開始より前だった。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on X",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI on X",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs on X",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "Robert J Bye on Claude Fusion MCP workflow",
+      "url": "https://x.com/RobertJBye/status/2068492291699028256"
+    },
+    {
+      "title": "Anthony Morris on Claude desktop app feedback",
+      "url": "https://x.com/amorriscode/status/2068534544169624029"
+    },
+    {
+      "title": "Robert J Bye on mobile app triage",
+      "url": "https://x.com/RobertJBye/status/2068536139104018503"
+    },
+    {
+      "title": "Anthony Morris on desktop app logs",
+      "url": "https://x.com/amorriscode/status/2068734673136877604"
+    },
+    {
+      "title": "Anthony Morris on scheduling feedback",
+      "url": "https://x.com/amorriscode/status/2068736985796329950"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.185 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185"
+    }
+  ]
+}
