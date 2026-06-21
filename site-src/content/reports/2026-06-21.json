@@ -1,14 +1,14 @@
 {
   "date": "2026-06-21",
-  "windowLabel": "2026-06-20 15:02:11 JST - 2026-06-21 15:02:11 JST",
+  "windowLabel": "2026-06-20 21:02:17 JST - 2026-06-21 21:02:17 JST",
   "archiveTitle": "v2.1.185 and app signals",
   "archiveSummary": "公式更新0件、engineer signal 3件、公式記事0件、Claude Code release 1件。",
-  "latestSummary": "2026-06-20 15:02 JST から 2026-06-21 15:02 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。一方で engineer 側では <strong>Robert J Bye</strong> と <strong>Anthony Morris</strong> から Claude app / Claude Code の利用・改善に関する投稿が続き、<strong>Claude Code v2.1.185</strong> が公開されて stream-stall hint の文言と retry 開始条件が調整された。",
+  "latestSummary": "2026-06-20 21:02 JST から 2026-06-21 21:02 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。一方で engineer 側では <strong>Robert J Bye</strong> と <strong>Anthony Morris</strong> から Claude app / Claude Code の利用・改善に関する投稿が続き、<strong>Claude Code v2.1.185</strong> が公開されて stream-stall hint の文言と retry 開始条件が調整された。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post は、この24時間窓では確認できなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
     "<strong>Engineer signals 3件</strong>: <strong>Robert J Bye</strong> は Claude と MCP を使った 3D printer workflow を共有し、さらに Claude mobile app の不具合報告を受けて triage に入っていると示した。<strong>Anthony Morris</strong> も Claude desktop app への feedback 受け付けを明言した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.185</strong> の release notes 本文を完全取得し、visible bullet 全項目を和訳した。今回は <strong>変更 1件</strong> で、stream-stall hint の copy と retry までの silence threshold が調整された。"
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.185</strong> の release notes 本文を完全取得し、visible bullet 全項目を和訳した。今回は <strong>変更 1件</strong> で、stream-stall hint の copy と retry 前の silence threshold が調整された。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -66,7 +66,7 @@
         "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
         "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
         "<strong>Anthropic News</strong> の先頭は引き続き <strong>Jun 17, 2026</strong> の <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> だった。",
-        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: skills, hooks, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
+        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong> で、今回 window 内の新規記事はなかった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -110,7 +110,7 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では Bun deploy 議論、Vercel や映画の雑談、医療スキャン議論、一般的な dogfooding 論など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
+    "engineer watch では Bun deploy 議論、Vercel や映画の雑談、経済指標の一般論、一般的な dogfooding 論など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
     "Claude app の bug thread は user 側の不満投稿そのものではなく、<strong>Anthony Morris</strong> と <strong>Robert J Bye</strong> の product-side response だけを signal として採用した。",
     "Claude Code release は GitHub CLI で完全取得し、今回の窓に入る release は <strong>v2.1.185</strong> のみと判定した。前版 <strong>v2.1.183</strong> は <strong>2026-06-19 10:20 JST</strong> 公開で、今回 window の開始より前だった。"
   ],
