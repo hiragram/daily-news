@@ -1,14 +1,14 @@
 {
   "date": "2026-06-22",
-  "windowLabel": "2026-06-21 15:03:19 JST - 2026-06-22 15:03:19 JST",
-  "archiveTitle": "App triage and rollout clarifications",
+  "windowLabel": "2026-06-21 21:02:32 JST - 2026-06-22 21:02:32 JST",
+  "archiveTitle": "Desktop triage and rollout clarifications",
   "archiveSummary": "公式更新0件、engineer signal 7件、公式記事0件、Claude Code release 0件。",
-  "latestSummary": "2026-06-21 15:03 JST から 2026-06-22 15:03 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。engineer 側では <strong>Anthony Morris</strong> と <strong>Robert J Bye</strong> が Claude desktop/mobile app の不具合や要望に公開返信し、<strong>steering は未展開</strong>、widget 改善済み項目、Android 側の見落とし調査などを説明した。<strong>Thariq</strong> からは identity verification が一部不正検知ユーザー向けであり、<strong>Fable / Mythos rollout とは無関係</strong> だという補足も出た。一方で Claude Code の最新 release <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始より前だった。",
+  "latestSummary": "2026-06-21 21:02 JST から 2026-06-22 21:02 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。engineer 側では <strong>Anthony Morris</strong> が Claude desktop app の調査・要望反映を公開返信で進め、<strong>steering は未展開</strong>、copy text 改善の追加可能性、定時 follow-up 要望の team 共有に触れた。<strong>Robert J Bye</strong> は widget の 4x2 / customisable 対応済みを案内し、Android 側の見落とし調査も約束した。<strong>Thariq</strong> からは identity verification が一部不正疑義ユーザー向けであり、<strong>Fable / Mythos rollout とは無関係</strong> だという補足が出た。一方で Claude Code の最新 release <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始より前だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post は、この24時間窓では確認できなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
-    "<strong>Engineer signals 7件</strong>: <strong>Anthony Morris</strong> は desktop app の logs 依頼、<strong>steering 未展開</strong> の説明、定時 follow-up 要望の team 共有、copy text 要望への実装前向き反応を公開返信で示した。<strong>Robert J Bye</strong> は widget 改善済み項目と Android 側の見落とし調査に言及し、<strong>Thariq</strong> は identity verification の適用範囲を補足した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release metadata と release notes 本文を完全取得したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 15:03 JST</strong> より前だった。"
+    "<strong>Engineer signals 7件</strong>: <strong>Anthony Morris</strong> は desktop app の logs 依頼、<strong>steering 未展開</strong> の説明、定時 follow-up 要望の team 共有、copy text 要望への前向き反応を公開返信で示した。<strong>Robert J Bye</strong> は widget 改善済み項目と Android 側の見落とし調査に言及し、<strong>Thariq</strong> は identity verification の適用範囲を補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release metadata と release notes 本文を完全取得したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 21:02 JST</strong> より前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -18,11 +18,11 @@
     },
     {
       "label": "公式サイト新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 17, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、今回の 24 時間窓に入る新規記事は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 17, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、今回の24時間窓に入る新規記事は確認できなかった。"
     },
     {
       "label": "Claude Code の新規 release は 0件",
-      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得して確認したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 15:03 JST</strong> より前だった。そのため、この window に入る新規 release は 0 件だった。"
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得して確認したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 21:02 JST</strong> より前だった。そのため、この window に入る新規 release は 0 件だった。"
     }
   ],
   "signals": [
@@ -106,7 +106,7 @@
         "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
         "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
         "<strong>Anthropic News</strong> の先頭は引き続き <strong>Jun 17, 2026</strong> の <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> だった。",
-        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: skills, hooks, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
+        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -114,11 +114,13 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得したが、この24時間窓に入る新規 release は確認できなかった。最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 15:03 JST</strong> より前だったため除外した。",
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得したが、この24時間窓に入る新規 release は確認できなかった。最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-21 21:02 JST</strong> より前だったため除外した。",
       "details": [
         "最新 release は <strong>v2.1.185</strong> で、GitHub CLI 上の公開時刻は <strong>2026-06-20T20:59:19Z</strong>、日本時間では <strong>2026-06-21 05:59 JST</strong> だった。",
-        "release notes 本文は <strong>What's changed</strong> 1項目のみで、分類すると <strong>新機能</strong> は該当なし、<strong>変更</strong> は <strong>stream-stall hint</strong> の表示文言を <strong>\"No response from API · Retrying in ...\"</strong> から <strong>\"Waiting for API response · will retry in ...\"</strong> へ変更し、silence threshold を <strong>10秒</strong> から <strong>20秒</strong> へ延長した内容、<strong>修正</strong> は該当なしだった。",
-        "完全取得した visible bullet は上記 1 項目のみで、公開時刻が window 外のため本日の release item には含めていない。"
+        "完全取得した <strong>What's changed</strong> は 1項目のみだった。",
+        "<strong>新機能</strong>: 該当なし。",
+        "<strong>変更</strong>: stream-stall のヒント文言を <strong>\"No response from API · Retrying in ...\"</strong> から <strong>\"Waiting for API response · will retry in ...\"</strong> に変更し、無応答時にヒントを出すしきい値を <strong>10秒</strong> から <strong>20秒</strong> へ延長した。",
+        "<strong>修正</strong>: 該当なし。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -127,7 +129,7 @@
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
     "engineer watch では Bun の SIMD / sourcemap 議論、映画や端末契約の雑談、一般的な SNS 運用論など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
-    "今回の window 開始は <strong>2026-06-21 15:03 JST</strong> のため、前回ファイルで採用されていた <strong>Anthony Morris</strong> の desktop feedback 募集と <strong>Robert J Bye</strong> の mobile app triage reply は、今回は窓外として外した。",
+    "今回の window 開始は <strong>2026-06-21 21:02 JST</strong> のため、同日夕方帯の <strong>Anthony Morris</strong> による UX 簡素化の一般論 reply や、<strong>Robert J Bye</strong> による feedback channel 案内のような補足度の低いやりとりは main signal から外した。",
     "Claude app の不満 thread では user 側の complaint 本文そのものではなく、<strong>Anthony Morris</strong>、<strong>Robert J Bye</strong>、<strong>Thariq</strong> の product-side / employee-side response を優先して signal 化した。"
   ],
   "sources": [
