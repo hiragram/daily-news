@@ -1,0 +1,159 @@
+{
+  "date": "2026-06-23",
+  "windowLabel": "2026-06-22 02:59:40 JST - 2026-06-23 02:59:40 JST",
+  "archiveTitle": "Desktop feedback and verification clarifications",
+  "archiveSummary": "公式更新0件、engineer signal 4件、公式記事0件、Claude Code release 0件。",
+  "latestSummary": "2026-06-22 02:59 JST から 2026-06-23 02:59 JST の24時間では、公式Xと公式ブログの新規公開は確認できなかった。engineer 側では <strong>Anthony Morris</strong> が Claude desktop app の copy text 改善を追加可能だと返答し、<strong>Robert Bye</strong> は widget の <strong>4x2 / fully customisable</strong> 対応済みと Android 側の見落とし調査を案内した。<strong>Thariq</strong> からは identity verification が <strong>一部の不正疑義ユーザー向け</strong> で、<strong>Fable / Mythos rollout とは無関係</strong> だという補足があった。Claude Code の新規 release はなく、最新の <strong>v2.1.185</strong> は今回の窓より前の公開だった。",
+  "summaryBullets": [
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post は、この24時間窓では確認できなかった。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、今回の24時間窓に入る visible publication date の新規記事はなかった。",
+    "<strong>Engineer signals 4件</strong>: <strong>Anthony Morris</strong> は desktop app の copy text 改善余地に応答し、<strong>Robert Bye</strong> は widget の customization 済みと Android 側フォローを案内した。<strong>Thariq</strong> は identity verification の適用範囲と更新経緯を補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release metadata と release notes 本文を完全取得したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-22 02:59 JST</strong> より前だった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式Xの新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この window に入る新規 main post は確認できなかった。公式アカウントからの増分はゼロだった。"
+    },
+    {
+      "label": "公式サイト新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible publication date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 17, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、今回の24時間窓に入る新規記事は確認できなかった。"
+    },
+    {
+      "label": "Claude Code の新規 release は 0件",
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得して確認したが、最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-22 02:59 JST</strong> より前だった。そのため、この window に入る新規 release は 0 件だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Policy signal",
+      "datetime": "2026-06-22T05:31:13+09:00",
+      "displayTime": "2026-06-22 05:31 JST",
+      "title": "Thariq が identity verification の対象範囲と更新経緯を補足",
+      "summary": "<strong>@trq212</strong> は identity verification への反発投稿への reply で、この更新は <strong>4月から一部の不正疑いユーザー</strong> にだけ適用されており、<strong>2026-06-17</strong> に appeals process の更新として追記されたものだと説明した。あわせて、<strong>Fable / Mythos rollout とは無関係</strong> だと明言した。",
+      "url": "https://x.com/trq212/status/2068793885535694858",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Widget signal",
+      "datetime": "2026-06-22T06:06:01+09:00",
+      "displayTime": "2026-06-22 06:06 JST",
+      "title": "Robert Bye が Claude app widget は 4x2 対応済みでカスタマイズ可能だと案内",
+      "summary": "<strong>@RobertJBye</strong> は widget の見た目に関する不満への reply で、<strong>4x2 widget は数か月前に出荷済み</strong> で、しかも <strong>fully customisable</strong> だと説明した。少なくとも一部の widget 改善は既に rollout 済みであることを示す補足になっている。",
+      "url": "https://x.com/RobertJBye/status/2068802642676256935",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "UX signal",
+      "datetime": "2026-06-22T08:04:46+09:00",
+      "displayTime": "2026-06-22 08:04 JST",
+      "title": "Anthony Morris が desktop coding section の copy text 要望に追加可能だと返答",
+      "summary": "<strong>@amorriscode</strong> は desktop app の coding section で右クリックから text copy できないという不満に対し、<strong>CMD+C で代替できる</strong> としたうえで <strong>\"Can add it though\"</strong> と返信した。細かな UI ギャップを backlog に取り込む姿勢を示す signal と見られる。",
+      "url": "https://x.com/amorriscode/status/2068832527658398012",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Platform signal",
+      "datetime": "2026-06-22T14:07:40+09:00",
+      "displayTime": "2026-06-22 14:07 JST",
+      "title": "Robert Bye が Android 側の見落としを認めて調査すると返答",
+      "summary": "<strong>@RobertJBye</strong> は Android 利用者からの widget / app 体験への不満に対し、自身も <strong>Europe</strong> で長く <strong>Android</strong> を使っていたと述べつつ、<strong>\"Sorry this was missed, will look into it\"</strong> と返信した。地域・端末差分に起因する見落としを product-side で調査する signal と受け取れる。",
+      "url": "https://x.com/RobertJBye/status/2068923855448715407",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この24時間窓で visible publication date ベースの新規公式記事は確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing を確認したが、先頭記事はいずれも window 開始より前の日付だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong> だった。",
+        "<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、今回 window の開始より前の日付だった。",
+        "<strong>Anthropic News</strong> の先頭は引き続き <strong>Jun 17, 2026</strong> の <strong>Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</strong> だった。",
+        "<strong>Claude Blog</strong> の先頭は引き続き <strong>Jun 18, 2026</strong> の <strong>Claude Code now supports artifacts</strong>、<strong>Steering Claude Code: CLAUDE.md files, skills, hooks, rules, subagents and more</strong>、<strong>Centrally manage authorization for MCP connectors</strong> で、今回 window 内の新規記事はなかった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI で <strong>anthropics/claude-code</strong> の最新 release metadata と release notes 本文を完全取得したが、この24時間窓に入る新規 release は確認できなかった。最新の <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で、今回の window 開始 <strong>2026-06-22 02:59 JST</strong> より前だったため除外した。",
+      "details": [
+        "最新 release は <strong>v2.1.185</strong> で、GitHub CLI 上の公開時刻は <strong>2026-06-20T20:59:19Z</strong>、日本時間では <strong>2026-06-21 05:59 JST</strong> だった。",
+        "完全取得した <strong>What's changed</strong> は 1項目のみだった。",
+        "<strong>新機能</strong>: 該当なし。",
+        "<strong>変更</strong>: stream-stall のヒント文言を <strong>\"No response from API · Retrying in ...\"</strong> から <strong>\"Waiting for API response · will retry in ...\"</strong> に変更し、無応答時にヒントを出すしきい値を <strong>10秒</strong> から <strong>20秒</strong> へ延長した。",
+        "<strong>修正</strong>: 該当なし。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
+    "engineer watch では Bun の雑談、SNS 運用論、返金ジョーク、フローズンヨーグルト店の雑談、端末契約やスポーツアプリの話など、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
+    "Robert Bye の <strong>feedback channel はどこでも見ている</strong> という短い reply と、<strong>Opus 4.8 high</strong> 利用言及は補足度が低いため main signal から外した。",
+    "Claude Code の release notes は完全取得したが、最新の <strong>v2.1.185</strong> は今回の window 外だったため panel headline は <strong>0件</strong> とした。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on X",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI on X",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs on X",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "Thariq on identity verification scope",
+      "url": "https://x.com/trq212/status/2068793885535694858"
+    },
+    {
+      "title": "Robert Bye on widget customization",
+      "url": "https://x.com/RobertJBye/status/2068802642676256935"
+    },
+    {
+      "title": "Anthony Morris on copy text feedback",
+      "url": "https://x.com/amorriscode/status/2068832527658398012"
+    },
+    {
+      "title": "Robert Bye on Android follow-up",
+      "url": "https://x.com/RobertJBye/status/2068923855448715407"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.185 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185"
+    }
+  ]
+}
