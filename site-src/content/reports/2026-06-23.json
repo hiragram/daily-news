@@ -1,14 +1,14 @@
 {
   "date": "2026-06-23",
-  "windowLabel": "2026-06-22 09:02:31 JST - 2026-06-23 09:02:31 JST",
-  "archiveTitle": "Japan ambassadors, desktop cloud rollout, and v2.1.186",
-  "archiveSummary": "ClaudeDevs告知1件、Claude Blog 1件、engineer signal 3件、v2.1.186を反映。",
-  "latestSummary": "2026-06-22 09:02 JST から 2026-06-23 09:02 JST の24時間では、公式チャネルの新規 main post は <strong>@ClaudeDevs</strong> による <strong>Japan Claude Community Ambassador program</strong> の告知 1 件だった。公式サイトでは <strong>Claude Blog</strong> が <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> を公開し、AWS / Google Cloud / Microsoft Foundry 経由の Claude Desktop で chat、Claude Cowork、Claude Code を 1 つの配布に統合した。engineer 側では <strong>Anthony Morris</strong> が artifact conversation を browser に飛ばす不具合の fix が次 release に入ると述べ、<strong>Daisy Hollman</strong> は Claude Code の <code>/skills</code> と invocability flag を補足しつつ hierarchy 更新を予告した。Claude Code では新規 release <strong>v2.1.186</strong> が <strong>2026-06-23 05:37 JST</strong> に公開され、CLI からの MCP login/logout、<code>/workflows</code> status filtering、background agent まわりを中心とした多数の改善と修正が入った。",
+  "windowLabel": "2026-06-22 15:02:02 JST - 2026-06-23 15:02:02 JST",
+  "archiveTitle": "Japan ambassadors, hierarchy hints, and v2.1.186",
+  "archiveSummary": "ClaudeDevs告知1件、Claude Blog 1件、engineer signal 4件、v2.1.186を反映。",
+  "latestSummary": "2026-06-22 15:02 JST から 2026-06-23 15:02 JST の24時間では、公式チャネルの main post は <strong>@ClaudeDevs</strong> による <strong>Japan Claude Community Ambassador program</strong> の告知 1 件だった。公式サイトでは <strong>Claude Blog</strong> が <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> を公開し、managed cloud 経由の Claude Desktop で chat、Claude Cowork、Claude Code を単一配布に統合した。engineer 側では <strong>Anthony Morris</strong> が artifact browser 遷移バグの修正が次 release に入ると述べ、別 thread では <strong>steering will be out shortly</strong> と予告した。<strong>Daisy Hollman</strong> は Claude Code の <code>/skills</code> invocability と hierarchy 更新予定を補足し、Claude Code では <strong>v2.1.186</strong> が <strong>2026-06-23 05:37 JST</strong> に公開され、<strong>新機能 6件</strong>、<strong>変更 7件</strong>、<strong>修正 20件</strong> を含んだ。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Japan Claude Community Ambassador program</strong> の開始を告知し、これまでの ambassador が <strong>37か国107都市で290超の meetup</strong>、<strong>4万人超</strong> の参加者を集めた実績を示した。今回の窓では <strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。",
-    "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> は <strong>June 22, 2026</strong> 表示で <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> を公開し、managed cloud 環境でも chat、Claude Cowork、Claude Code を含むフル desktop 配布、per-user SSO、MDM policy templates、offline installer、local conversation history を案内した。",
-    "<strong>Engineer signals 3件</strong>: <strong>Anthony Morris</strong> は artifact conversation が browser に飛ぶ不具合について <strong>次 release に fix が入る</strong> と返信し、<strong>Daisy Hollman</strong> は Claude Code の <code>/skills</code> と <code>disable-model-invocation</code> / <code>user-invocable</code> flag を整理したうえで <strong>hierarchy updates soon</strong> と述べた。<strong>Robert Bye</strong> は Android 側の見落としを認めて調査すると返答した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.186</strong> が <strong>2026-06-23 05:37 JST</strong> に公開された。<strong>新機能 6件</strong>、<strong>変更 7件</strong>、<strong>修正 18件</strong> を確認した。"
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Japan Claude Community Ambassador program</strong> の開始を告知し、既存 ambassador program が <strong>37か国107都市で290超の meetup</strong>、<strong>4万人超</strong> の参加者を集めた実績を示した。今回の窓では <strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。",
+    "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> は <strong>June 22, 2026</strong> 表示で <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> を公開し、AWS / Google Cloud / Microsoft Foundry 経由でも <strong>chat</strong>、<strong>Claude Cowork</strong>、<strong>Claude Code</strong> を 1 つの desktop 配布で使えるようにした。",
+    "<strong>Engineer signals 4件</strong>: <strong>Anthony Morris</strong> は artifact conversation の browser 遷移バグが <strong>次 release 入り</strong> だと返信し、別 thread では Claude Code の待ち時間に関して <strong>UX 改善余地</strong> を認めつつ <strong>steering は shortly</strong> と予告した。<strong>Daisy Hollman</strong> は <code>/skills</code> の invocability flag を整理し、<strong>cat</strong> は mobile plan 表示の scroll 改善要望を <strong>team 共有済み</strong> と返答した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.186</strong> が <strong>2026-06-23 05:37 JST</strong> に公開された。<strong>新機能 6件</strong>、<strong>変更 7件</strong>、<strong>修正 20件</strong> を確認した。"
   ],
   "officialNews": [
     {
@@ -38,7 +38,7 @@
       "datetime": "2026-06-23T04:07:37+09:00",
       "displayTime": "2026-06-23 04:07 JST",
       "title": "Anthony Morris が artifact conversation の browser 遷移バグ修正は次 release 入りだと返信",
-      "summary": "<strong>@amorriscode</strong> は、artifact を含む conversation を開くと自動的に browser 側へ飛ばされるという complaint に対し、<strong>\"fixed was merged for this, should be in the next release\"</strong> と返答した。desktop app の artifact 導線バグが既に merge 済みで、次の Claude Code / app release 系統に入る見込みだという support-side signal と見られる。",
+      "summary": "<strong>@amorriscode</strong> は、artifact を含む conversation を開くと自動的に browser 側へ飛ばされるという complaint に対し、<strong>\"fixed was merged for this, should be in the next release\"</strong> と返答した。desktop app 側の artifact 導線バグがすでに merge 済みで、次の release に入る見込みだという support-side signal と見られる。",
       "url": "https://x.com/amorriscode/status/2069135234948542939",
       "urlLabel": "X で見る",
       "primary": true
@@ -54,12 +54,22 @@
       "primary": true
     },
     {
-      "label": "Platform signal",
-      "datetime": "2026-06-22T14:07:40+09:00",
-      "displayTime": "2026-06-22 14:07 JST",
-      "title": "Robert Bye が Android 側の見落としを認めて調査すると返答",
-      "summary": "<strong>@RobertJBye</strong> は Android 利用者からの widget / app 体験への不満に対し、自身も長く Android を使っていたと述べつつ、<strong>\"Sorry this was missed, will look into it\"</strong> と返信した。端末・地域差分に起因する見落としを product-side で追うという軽量な support signal と受け取れる。",
-      "url": "https://x.com/RobertJBye/status/2068923855448715407",
+      "label": "UX signal",
+      "datetime": "2026-06-23T09:08:41+09:00",
+      "displayTime": "2026-06-23 09:08 JST",
+      "title": "cat が mobile plan 表示の scroll 改善要望は team 共有済みだと返信",
+      "summary": "<strong>@_catwu</strong> は、mobile で長い plan が生成されたときに先頭まで戻って確認しづらいという要望に対し、<strong>\"shared with team!\"</strong> と返信した。長文 plan 表示の anchor / scroll UX が product feedback として取り込まれていることを示す軽量 signal と見られる。",
+      "url": "https://x.com/_catwu/status/2069211000105267459",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Roadmap signal",
+      "datetime": "2026-06-23T14:02:20+09:00",
+      "displayTime": "2026-06-23 14:02 JST",
+      "title": "Anthony Morris が Claude Code の steering は shortly だと予告",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code が長く考え込んでいる間に追加コンテキストを入れにくいという thread で、<strong>max は時間がかかりやすく UX 改善余地がある</strong> と認めたうえで、<strong>\"steering will be out shortly\"</strong> と返信した。待ち時間中の誘導や介入体験を改善する機能が近いことを示す roadmap signal と読める。",
+      "url": "https://x.com/amorriscode/status/2069284903041352039",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -71,7 +81,7 @@
       "body": "この24時間窓で visible publication date ベースの新規公式記事として確認できたのは、<strong>Claude Blog</strong> の <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> には window 内の新規記事はなかった。",
       "details": [
         "<strong>Claude Blog</strong>: <strong>June 22, 2026</strong> 表示で <strong>The full Claude Desktop experience on AWS, Google Cloud, and Microsoft Foundry</strong> を公開。AWS / Google Cloud / Microsoft Foundry 経由の Claude Desktop で、<strong>chat</strong>、<strong>Claude Cowork</strong>、<strong>Claude Code</strong> を 1 つの app 配布に統合したと案内した。",
-        "同記事は、<strong>per-user SSO</strong>、<strong>MDM policy templates</strong>、<strong>offline installer</strong>、<strong>M365 connector</strong> の local execution、<strong>conversation history の local storage</strong>、provider / model / connector の事前検証など、enterprise deployment 向けの運用要件を中心に説明している。",
+        "同記事は、<strong>per-user SSO</strong>、<strong>MDM policy templates</strong>、<strong>offline installer</strong>、<strong>Microsoft 365 connector</strong> の local execution、<strong>conversation history の local storage</strong>、provider / model / connector の事前検証など、enterprise deployment 向けの運用要件を中心に説明している。",
         "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong>、<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong>、<strong>Anthropic News</strong> の先頭は <strong>Jun 17, 2026</strong> の韓国拠点・提携記事で、いずれも今回 window より前だった。"
       ],
       "url": "https://claude.com/blog/the-full-claude-desktop-experience-on-aws-google-cloud-and-microsoft-foundry",
@@ -80,22 +90,22 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.186",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.186</strong> の 1 件だった。公開時刻は <strong>2026-06-23 05:37 JST</strong>。今回は CLI からの MCP login/logout、<code>/workflows</code> status filtering、<code>/plugin</code> Installed の Skills 表示、<code>respondToBashCommands</code> の既定挙動追加などの機能拡張に加え、background agents、permission prompt、plugin / skill frontmatter、sleep 復帰後の streaming、Chrome tab-group isolation など広範囲の修正が入った。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.186</strong> の 1 件だった。公開時刻は <strong>2026-06-23 05:37 JST</strong>。今回は CLI からの MCP login/logout、<code>/workflows</code> status filtering、<code>/plugin</code> Installed の Skills 表示、<code>respondToBashCommands</code> の既定挙動追加などの機能拡張に加え、background agent、permission prompt、streaming、subagent、Chrome 連携、skill frontmatter まわりの変更と修正がまとまって入った。",
       "releases": [
         {
           "version": "v2.1.186",
           "publishedAt": "2026-06-23 05:37 JST",
-          "summary": "CLI からの MCP 認証操作、workflow 詳細画面の status filtering、plugin Installed 画面の Skills 表示などを追加しつつ、background agent と permission prompt の扱いを見直し、streaming・subagent・Chrome 連携・skill frontmatter・usage 表示まわりの不具合をまとめて修正した release。",
+          "summary": "CLI からの MCP 認証操作、workflow 詳細画面の status filtering、plugin Installed 画面の Skills 表示などを追加しつつ、background subagent と permission prompt の扱いを見直し、streaming・subagent・Chrome 連携・skill frontmatter・usage 表示まわりの不具合をまとめて修正した release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>claude mcp login &lt;name&gt;</code> と <code>claude mcp logout &lt;name&gt;</code> を追加し、interactive な <code>/mcp</code> menu を開かずに CLI から MCP server の認証を行えるようにした。SSH 越しに完了しやすいよう <code>--no-browser</code> の stdin redirect も追加した。",
+                "<code>claude mcp login &lt;name&gt;</code> と <code>claude mcp logout &lt;name&gt;</code> を追加し、interactive な <code>/mcp</code> menu を開かずに CLI から MCP server を認証できるようにした。SSH 越しの完了向けに <code>--no-browser</code> の stdin redirect も追加した。",
                 "<code>/workflows</code> の agent detail view に status filtering を追加し、<code>f</code> キーで絞り込めるようにした。",
                 "<code>/plugin</code> の Installed tab に <strong>Skills</strong> section を追加した。",
                 "auto mode で <code>it2</code> CLI を見つけられない場合に warning を出す <code>teammateMode: \"iterm2\"</code> 設定を追加した。",
-                "<code>awsAuthRefresh</code> を設定している場合、<code>/login</code> に <strong>Claude Platform on AWS - refresh credentials</strong> オプションを追加した。",
-                "<code>!</code> で始まる bash command 実行後、Claude がその出力に自動で応答するようにした。従来どおり context 追加だけにしたい場合は <code>settings.json</code> で <code>\"respondToBashCommands\": false</code> を設定する。"
+                "<code>awsAuthRefresh</code> が設定されている場合、<code>/login</code> に <strong>Claude Platform on AWS - refresh credentials</strong> オプションを追加した。",
+                "<code>!</code> で始まる bash command の実行後、Claude がその出力に自動で応答するようにした。従来どおり context 追加だけにしたい場合は <code>settings.json</code> で <code>\"respondToBashCommands\": false</code> を設定する。"
               ]
             },
             {
@@ -104,10 +114,10 @@
                 "<code>claude mcp get</code> と <code>claude mcp remove</code> は、server 名を typo したときに最も近い configured name を提案し、長い server list は切り詰めて表示するように改善した。",
                 "agent memory を改善し、size limit に近づいたときは <code>MEMORY.md</code> index を compact するよう agent に reminder を出すようにした。",
                 "skill frontmatter を改善し、<code>display-name</code>、<code>default-enabled</code>、<code>fallback</code>、<code>metadata.*</code> の各 key で kebab-case、snake_case、camelCase を受け付けるようにした。",
-                "不正な <code>SKILL.md</code> YAML frontmatter の扱いを改善し、silent failure ではなく、metadata を空にして skill body 自体は読み込むようにした。",
-                "<code>CLAUDE_CODE_MAX_RETRIES</code> は上限を <strong>15</strong> に変更した。unattended session では代わりに <code>CLAUDE_CODE_RETRY_WATCHDOG</code> を使うよう案内している。",
+                "不正な <code>SKILL.md</code> YAML frontmatter の扱いを改善し、silent failure ではなく metadata を空にして skill body 自体は読み込むようにした。",
+                "<code>CLAUDE_CODE_MAX_RETRIES</code> の上限を <strong>15</strong> に変更した。unattended session では代わりに <code>CLAUDE_CODE_RETRY_WATCHDOG</code> を使うよう案内している。",
                 "background subagent の permission prompt は auto-deny ではなく main session に surfaced する方式へ変更した。dialog にはどの agent が要求しているかを表示し、Esc はその tool だけを deny する。",
-                "<code>/review &lt;pr&gt;</code> は <code>/code-review medium</code> と同じ review engine を使うように変更した."
+                "<code>/review &lt;pr&gt;</code> は <code>/code-review medium</code> と同じ review engine を使うように変更した。"
               ]
             },
             {
@@ -132,7 +142,7 @@
                 "<code>claude agents</code> で mouse で選択した text が削除後も highlight されたまま残る問題を修正した。",
                 "usage-based Enterprise / Team subscriber で session cost が表示されない問題を修正した。",
                 "agent team で tmux / pane backend から spawn した teammate が leader の <code>--effort</code> level を継承しない問題を修正した。",
-                "<code>agent({schema})</code> workflow subagent が schema validation failure を繰り返すと永遠に loop し、5回で abort しない問題を修正した."
+                "<code>agent({schema})</code> workflow subagent が schema validation failure を繰り返すと永遠に loop し、5回で abort しない問題を修正した。"
               ]
             }
           ],
@@ -146,7 +156,7 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では personal MCP app wishlist、映画・生活改善・フローズンヨーグルト店の雑談、一般的な support 相づちなど、Claude / Anthropic の製品動向と直接関係しない post を除外した。",
+    "engineer watch では Robert Bye の personal MCP app wishlist や雑談 reply、一般的な相づち、support 文脈でも製品情報の薄い返答は除外した。",
     "Claude Blog 記事は article page 上で <strong>June 22, 2026</strong> の visible publication date は確認できたが、時刻までは表示されなかったため、date ベースで今回の window 内記事として採用した。",
     "Claude Code release notes は GitHub CLI を唯一の source of truth とし、<strong>v2.1.186</strong> の visible bullet 全項目を和訳して分類した。前版 <strong>v2.1.185</strong> は <strong>2026-06-21 05:59 JST</strong> 公開で今回の window 外だった。"
   ],
@@ -176,8 +186,12 @@
       "url": "https://x.com/The_Whole_Daisy/status/2069173916824998336"
     },
     {
-      "title": "Robert Bye on Android follow-up",
-      "url": "https://x.com/RobertJBye/status/2068923855448715407"
+      "title": "cat on mobile plan scroll feedback",
+      "url": "https://x.com/_catwu/status/2069211000105267459"
+    },
+    {
+      "title": "Anthony Morris on steering rollout timing",
+      "url": "https://x.com/amorriscode/status/2069284903041352039"
     },
     {
       "title": "Anthropic Engineering listing",
