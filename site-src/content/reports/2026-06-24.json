@@ -1,14 +1,14 @@
 {
   "date": "2026-06-24",
-  "windowLabel": "2026-06-23 09:02:00 JST - 2026-06-24 09:02:00 JST",
-  "archiveTitle": "Claude Tag launch and v2.1.187",
-  "archiveSummary": "Claude Tag の公式発表と v2.1.187 を反映。",
-  "latestSummary": "2026-06-23 09:02 JST から 2026-06-24 09:02 JST の24時間では、<strong>Claude Tag</strong> の launch が公式 X、<strong>Anthropic News</strong>、<strong>Claude Blog</strong>、engineer post にまたがって一斉に出た。<strong>@ClaudeAI</strong> は Slack の channel で Claude を team member として使う新機能を告知し、<strong>Anthropic News</strong> は beta 提供開始、ambient behavior、channel ごとの memory / access 境界、<strong>65%</strong> の product code が internal Claude Tag 由来だと説明した。<strong>Claude Blog</strong> では <strong>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</strong> を公開し、private channel ごとの distinct identity と workspace-level identity の設計を詳説した。engineer 側では <strong>Boris Cherny</strong>、<strong>Thariq</strong>、<strong>Adam Goldberg</strong>、<strong>Noah Zweben</strong> が multiplayer、memory、ambient、permissions の運用像を補足し、Claude Code では <strong>v2.1.187</strong> が <strong>2026-06-24 06:03 JST</strong> に公開された。",
+  "windowLabel": "2026-06-23 15:02:07 JST - 2026-06-24 15:02:07 JST",
+  "archiveTitle": "Claude Tag rollout and v2.1.187",
+  "archiveSummary": "Claude Tag の公式発表継続、運用 signal 6件、v2.1.187 を反映。",
+  "latestSummary": "2026-06-23 15:02 JST から 2026-06-24 15:02 JST の24時間では、<strong>Claude Tag</strong> の launch が引き続き中心だった。公式では <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が Slack 上で Claude を teammate として動かす新しい form factor を案内し、<strong>Anthropic News</strong> の <strong>Introducing Claude Tag</strong> と <strong>Claude Blog</strong> の <strong>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</strong> が rollout の仕組みを補足した。engineer 側では <strong>Boris Cherny</strong>、<strong>Thariq</strong>、<strong>Adam Goldberg</strong>、<strong>Noah Zweben</strong> が ambient behavior、channel memory、agent identity、GitLab 接続、channel-level configuration の実務的な使い方を共有した。Claude Code では <strong>v2.1.187</strong> が <strong>2026-06-24 06:03 JST</strong> に公開され、<strong>新機能 3件</strong>、<strong>変更 3件</strong>、<strong>修正 15件</strong> を確認した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Tag</strong> を発表し、Slack で Claude を team member として channel に参加させ、選択した tools や codebase に接続できると案内した。<strong>@ClaudeDevs</strong> は社内では既に年間を通じて使っており、<strong>product team の code の 65%</strong> を書いていると補足した。",
-    "<strong>Official articles 2件</strong>: <strong>Anthropic News</strong> は <strong>Introducing Claude Tag</strong> を <strong>Jun 23, 2026</strong> で公開し、beta 提供、ambient behavior、channel-scoped identity、launch credit を説明した。<strong>Claude Blog</strong> は <strong>June 24, 2026</strong> で <strong>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</strong> を公開し、private channel ごとの distinct identity と workspace-level identity の設計を詳説した。",
-    "<strong>Engineer signals 4件</strong>: <strong>Boris Cherny</strong> は Claude Tag を <strong>Claude Everywhere</strong> の始まりと呼び、<strong>Thariq</strong> は personal channel と pinned instructions による運用を共有した。<strong>Adam Goldberg</strong> は beta 提供と ambient mode を補足し、<strong>Noah Zweben</strong> は agent permissions の設定ガイドを案内した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.187</strong> が <strong>2026-06-24 06:03 JST</strong> に公開された。<strong>新機能 3件</strong>、<strong>変更 3件</strong>、<strong>修正 15件</strong> を確認した。"
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Tag</strong> を発表し、Slack の channel に Claude を team member として参加させて task を委譲できると案内した。<strong>@ClaudeDevs</strong> は、internal Claude Tag が <strong>product team の code の 65%</strong> を書いていると共有した。",
+    "<strong>Official articles 2件</strong>: <strong>Anthropic News</strong> は <strong>Introducing Claude Tag</strong> を掲載し、beta 提供、ambient behavior、channel-scoped memory、launch credit を説明した。<strong>Claude Blog</strong> は <strong>agent identity</strong> の仕組みを整理し、private channel ごとの distinct identity と workspace-level identity を詳説した。",
+    "<strong>Engineer signals 6件</strong>: <strong>Boris Cherny</strong> は <strong>Claude Everywhere</strong> の始まりだと述べ、<strong>Thariq</strong> は personal channel と pinned message の運用を共有した。<strong>Adam Goldberg</strong> は beta と ambient mode を補足し、<strong>Noah Zweben</strong> は agent identity、<strong>GitLab 接続</strong>、channel prompt / connection 設定の導線を追加で案内した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.187</strong> が <strong>2026-06-24 06:03 JST</strong> に公開された。<strong>新機能 3件</strong>、<strong>変更 3件</strong>、<strong>修正 15件</strong> を全項目和訳して反映した。"
   ],
   "officialNews": [
     {
@@ -44,12 +44,12 @@
   ],
   "signals": [
     {
-      "label": "Launch signal",
-      "datetime": "2026-06-24T02:36:27+09:00",
-      "displayTime": "2026-06-24 02:36 JST",
-      "title": "Boris Cherny が Claude Tag を Claude Everywhere の始まりだと説明",
-      "summary": "<strong>@bcherny</strong> は、Claude Tag は <strong>Claude Code under the hood</strong> であり、<strong>Claude Everywhere</strong> の始まりだと説明した。internal version が <strong>product team の新規 code の 65%</strong> を生み出していること、channel ごとに memory と permissions を持つ multiplayer な使い方を補足している。",
-      "url": "https://x.com/bcherny/status/2069474681749754272",
+      "label": "Beta signal",
+      "datetime": "2026-06-24T02:13:16+09:00",
+      "displayTime": "2026-06-24 02:13 JST",
+      "title": "Adam Goldberg が Claude Tag の beta 提供範囲と ambient mode を補足",
+      "summary": "<strong>@adocomplete</strong> は、Claude Tag は Slack 上で channel を追従し、PR 作成、analysis、incident 対応を手伝う teammate であり、<strong>ambient mode</strong> では自発的に動くと説明した。あわせて、<strong>Claude Enterprise / Team</strong> 向け beta 提供であり、社内では <strong>65%</strong> の product code を担っていると述べた。",
+      "url": "https://x.com/adocomplete/status/2069468847137255557",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -64,12 +64,12 @@
       "primary": true
     },
     {
-      "label": "Beta signal",
-      "datetime": "2026-06-24T02:13:16+09:00",
-      "displayTime": "2026-06-24 02:13 JST",
-      "title": "Adam Goldberg が Claude Tag の beta 提供範囲と ambient mode を補足",
-      "summary": "<strong>@adocomplete</strong> は、Claude Tag は Slack 上で channel を追従し、PR 作成、analysis、incident 対応を手伝う teammate であり、<strong>ambient mode</strong> では自発的に動くと説明した。あわせて、<strong>Claude Enterprise / Team</strong> 向け beta 提供であり、社内では <strong>65%</strong> の product code を担っていると述べた。",
-      "url": "https://x.com/adocomplete/status/2069468847137255557",
+      "label": "Launch signal",
+      "datetime": "2026-06-24T02:36:27+09:00",
+      "displayTime": "2026-06-24 02:36 JST",
+      "title": "Boris Cherny が Claude Tag を Claude Everywhere の始まりだと説明",
+      "summary": "<strong>@bcherny</strong> は、Claude Tag は <strong>Claude Code under the hood</strong> であり、<strong>Claude Everywhere</strong> の始まりだと説明した。internal version が <strong>product team の新規 code の 65%</strong> を生み出していること、channel ごとに memory と permissions を持つ multiplayer な使い方を補足している。",
+      "url": "https://x.com/bcherny/status/2069474681749754272",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -77,9 +77,29 @@
       "label": "Admin signal",
       "datetime": "2026-06-24T03:05:06+09:00",
       "displayTime": "2026-06-24 03:05 JST",
-      "title": "Noah Zweben が Claude Tag の agent permissions ガイドを案内",
-      "summary": "<strong>@noahzweben</strong> は、Claude Tag の launch に合わせて <strong>agent identity</strong> と <strong>permissions</strong> の設定ガイドを共有した。workspace 管理者が channel ごとの access をどう設計するかが、Claude Tag 導入時の重要論点だと分かる補足になっている。",
+      "title": "Noah Zweben が Claude Tag の agent identity ガイドを案内",
+      "summary": "<strong>@noahzweben</strong> は、Claude Tag の launch に合わせて <strong>agent identity</strong> の設計と設定ガイドを共有した。workspace-level identity と private channel ごとの distinct identity をどう分けるかが、導入時の重要論点だと分かる補足になっている。",
       "url": "https://x.com/noahzweben/status/2069481892475445695",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Integration signal",
+      "datetime": "2026-06-24T09:07:53+09:00",
+      "displayTime": "2026-06-24 09:07 JST",
+      "title": "Noah Zweben が Claude Tag の GitLab 接続対応を案内",
+      "summary": "<strong>@noahzweben</strong> は、<strong>GitLab companies! Claude Tag is for you too</strong> と投稿し、Claude Tag の GitLab 接続ドキュメントを紹介した。GitHub だけでなく GitLab organization でも repo access と merge-request 文脈で使えることを明確にしている。",
+      "url": "https://x.com/noahzweben/status/2069573186740703589",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Configuration signal",
+      "datetime": "2026-06-24T11:26:17+09:00",
+      "displayTime": "2026-06-24 11:26 JST",
+      "title": "Noah Zweben が channel-level の connection と prompting 導線を共有",
+      "summary": "<strong>@noahzweben</strong> は、thread 下部の <strong>Configure</strong> link から channel ごとの connections と channel prompting を確認できると案内した。さらに <strong>available repositories coming soon</strong> と追記しており、repo-level 設定 UI が拡張中であることも示した。",
+      "url": "https://x.com/noahzweben/status/2069608016098566359",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -92,7 +112,7 @@
       "details": [
         "<strong>Anthropic News</strong>: <strong>Jun 23, 2026</strong> 表示で <strong>Introducing Claude Tag</strong> を公開。Slack 上で <strong>@Claude</strong> を team member として channel に参加させ、selected channels、tools、data、codebases への access を管理者が制御できると説明した。<strong>ambient behavior</strong>、channel ごとの memory、<strong>Claude in Slack</strong> からの migration、eligible organization 向け launch credit にも触れている。",
         "<strong>Claude Blog</strong>: <strong>June 24, 2026</strong> 表示で <strong>Agent identity in Claude Tag: a new access model for autonomous, team-wide AI</strong> を公開。private channel ごとに distinct identity、public channel では workspace-level identity を使い、memory と access がその boundary を越えないようにする設計を詳説した。",
-        "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong>、<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、いずれも今回 window より前だった."
+        "<strong>Anthropic Engineering</strong> の最新 listing は引き続き <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong>、<strong>Anthropic Research</strong> の先頭は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong> で、いずれも今回 window より前だった。"
       ],
       "url": "https://www.anthropic.com/news/introducing-claude-tag",
       "urlLabel": "Anthropic News 記事"
@@ -100,7 +120,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.187",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.187</strong> の 1 件だった。公開時刻は <strong>2026-06-24 06:03 JST</strong>。今回は sandbox credential 読み取り制御、organization の model restriction 表示、fullscreen menu の mouse click 対応を追加しつつ、remote MCP、resume、structured output、agent view、channel connection まわりの不具合がまとめて修正された。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.187</strong> の 1 件だった。公開時刻は <strong>2026-06-24 06:03 JST</strong>。今回は sandbox credential 読み取り制御、organization の model restriction 表示、fullscreen menu の mouse click 対応を追加しつつ、resume、structured output、remote MCP、agents view、channel connection まわりの不具合がまとめて修正された。",
       "releases": [
         {
           "version": "v2.1.187",
@@ -120,7 +140,7 @@
               "items": [
                 "<code>/install-github-app</code> を改善し、GitHub Actions workflow のセットアップを optional にした。GitHub App だけを install して workflow / secret 手順を後回しにできる。",
                 "<code>/btw</code> を改善し、左右 arrow key で過去の回答を順にたどれるようにした。",
-                "<code>/plugin</code> を改善し、最近使っていない plugin を surface して cleanup しやすくした."
+                "<code>/plugin</code> を改善し、最近使っていない plugin を見つけやすくして cleanup しやすくした."
               ]
             },
             {
@@ -154,8 +174,8 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり main item から外した。",
-    "engineer watch では Robert J Bye の microphone 雑談や、launch 文脈でも製品情報を増やさない短い相づち reply は main signal から外した。",
-    "Claude Blog の <strong>Agent identity in Claude Tag</strong> は page 上で <strong>June 24, 2026</strong> の visible publication date は確認できたが、時刻までは表示されなかったため、date ベースで今回の window 内記事として採用した。",
+    "engineer watch では Robert J Bye の gadget 雑談や、launch 文脈でも製品情報を増やさない短い相づち reply、feedback call 募集などは main signal から外した。",
+    "Anthropic News の <strong>Introducing Claude Tag</strong> と Claude Blog の <strong>Agent identity in Claude Tag</strong> は article page 上で visible publication date は確認できたが、厳密な publish time は見えないため、date 表示と同一イベントの公式 X 投稿を併せて今回の window 内記事として扱った。",
     "Claude Code release notes は GitHub CLI を唯一の source of truth とし、<strong>v2.1.187</strong> の visible bullet 全項目を和訳して分類した。前版 <strong>v2.1.186</strong> は <strong>2026-06-23 05:37 JST</strong> 公開で今回の window 内ではない。"
   ],
   "sources": [
@@ -180,20 +200,28 @@
       "url": "https://x.com/ClaudeDevs/status/2069468900216234010"
     },
     {
-      "title": "Boris Cherny on Claude Tag",
-      "url": "https://x.com/bcherny/status/2069474681749754272"
+      "title": "Adam Goldberg on Claude Tag beta",
+      "url": "https://x.com/adocomplete/status/2069468847137255557"
     },
     {
       "title": "Thariq on Claude Tag best practices",
       "url": "https://x.com/trq212/status/2069474335656694003"
     },
     {
-      "title": "Adam Goldberg on Claude Tag beta",
-      "url": "https://x.com/adocomplete/status/2069468847137255557"
+      "title": "Boris Cherny on Claude Tag",
+      "url": "https://x.com/bcherny/status/2069474681749754272"
     },
     {
-      "title": "Noah Zweben on Claude Tag agent permissions",
+      "title": "Noah Zweben on agent identity",
       "url": "https://x.com/noahzweben/status/2069481892475445695"
+    },
+    {
+      "title": "Noah Zweben on GitLab support",
+      "url": "https://x.com/noahzweben/status/2069573186740703589"
+    },
+    {
+      "title": "Noah Zweben on channel configuration",
+      "url": "https://x.com/noahzweben/status/2069608016098566359"
     },
     {
       "title": "Anthropic Engineering listing",
