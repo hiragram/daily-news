@@ -1,23 +1,23 @@
 {
   "date": "2026-06-26",
-  "windowLabel": "2026-06-25 03:02:22 JST - 2026-06-26 03:02:22 JST",
-  "archiveTitle": "Claude Tag follow-ups and v2.1.191",
-  "archiveSummary": "ClaudeDevs の agent identity 続報、engineer signal 5件、Claude Code 2 release を反映。",
-  "latestSummary": "2026-06-25 03:02:22 JST から 2026-06-26 03:02:22 JST の24時間では、公式 X の Claude 直結 main post は <strong>@ClaudeDevs</strong> の <strong>agent identity</strong> thread 1 件だった。Anthropic 系 engineer からは <strong>Noah Zweben</strong>、<strong>Ado</strong>、<strong>cat</strong>、<strong>Nate Parrott</strong>、<strong>Anthony Morris</strong> が、Claude Tag の公開チャンネル運用、positioning、tag なし監視、Claude Design の共有 roadmap、Thinking transcript 修正の未出荷状態を補足した。公式サイトでは <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれにも window 内の新規記事はなく、Claude Code では <strong>v2.1.191</strong> が <strong>2026-06-25 06:58 JST</strong>、<strong>v2.1.190</strong> が <strong>2026-06-25 00:53 JST</strong> に公開され、release note の全 bullet を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-06-25 09:02:18 JST - 2026-06-26 09:02:18 JST",
+  "archiveTitle": "Ambient Claude and v2.1.193",
+  "archiveSummary": "ClaudeDevs の新規 post、engineer signal 4件、Claude Code v2.1.193 を反映。",
+  "latestSummary": "2026-06-25 09:02:18 JST から 2026-06-26 09:02:18 JST の24時間では、公式 X の Claude 直結 main post は <strong>@ClaudeDevs</strong> による <strong>Claude Tag is the next evolution of agents</strong> の 1 件だった。engineer 側では <strong>Noah Zweben</strong> が ambient partner としての Claude Tag 運用を thread で具体化し、<strong>Jarred Sumner</strong> は chart 作成例を示し、<strong>Nate Parrott</strong> は Claude Design の org 外共有が roadmap 上だと回答し、<strong>Anthony Morris</strong> は Thinking transcript view 修正がまだ upcoming release だと訂正した。公式サイトでは <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれにも window 内の新規記事はなく、Claude Code では <strong>v2.1.193</strong> が <strong>2026-06-26 06:45 JST</strong> に公開され、release note の全項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>agent identity</strong> thread を公開し、Claude Tag では Claude が user credential を借りず、自身の account と credential で動くと説明した。",
-    "<strong>Engineer signals 5件</strong>: <strong>Noah Zweben</strong> は open channel の文化的重要性、<strong>Ado</strong> は Claude Tag の新しい form factor、<strong>cat</strong> は tag なし monitor 運用、<strong>Nate Parrott</strong> は Claude Design 外部共有の roadmap、<strong>Anthony Morris</strong> は Thinking transcript 修正がまだ upcoming release だと補足した。",
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Tag is the next evolution of agents</strong> を投稿し、Claude Tag を <strong>proactive</strong>、<strong>multiplayer</strong>、<strong>memory</strong>、<strong>identity</strong> を備えた agent と説明した。",
+    "<strong>Engineer signals 4件</strong>: <strong>Noah Zweben</strong> は ambient Claude thread で tag なし運用と bot triage の使い方を具体化し、<strong>Jarred Sumner</strong> は chart 生成例を示し、<strong>Nate Parrott</strong> は Claude Design 外部共有を roadmap と答え、<strong>Anthony Morris</strong> は Thinking transcript 修正がまだ未出荷だと訂正した。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この24時間窓に入る新規記事はなかった。",
-    "<strong>Claude Code release 2件</strong>: GitHub CLI で完全取得した <strong>v2.1.191</strong> は <strong>新機能 1件</strong>、<strong>変更 7件</strong>、<strong>修正 12件</strong>、<strong>v2.1.190</strong> は <strong>修正 1件</strong> を含んだ。"
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.193</strong> は <strong>新機能 6件</strong>、<strong>変更 4件</strong>、<strong>修正 5件</strong> を含んだ。"
   ],
   "officialNews": [
     {
       "label": "Official X",
-      "datetime": "2026-06-25T06:28:09+09:00",
-      "displayTime": "2026-06-25 06:28 JST",
-      "title": "ClaudeDevs が agent identity thread を公開",
-      "summary": "<strong>@ClaudeDevs</strong> は、shared channel で動く Claude は誰かの credential を借りるのではなく、Claude 自身の account と credential で動くと説明した。thread では、DM では user identity、channel では独立した teammate identity として動くこと、admin が workspace-level baseline と channel-level override で access を管理し、監査と revoke を集中的に扱えることを整理している。",
-      "url": "https://x.com/ClaudeDevs/status/2069895377080443271",
+      "datetime": "2026-06-26T05:00:35+09:00",
+      "displayTime": "2026-06-26 05:00 JST",
+      "title": "ClaudeDevs が Claude Tag の位置づけを端的に再定義",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Tag を <strong>the next evolution of agents</strong> と位置づけ、<strong>proactive</strong>、<strong>multiplayer</strong>、<strong>memory</strong>、<strong>identity</strong> を備え、<strong>Claude Code</strong> の上に構築されていると説明した。前日の agent identity thread を踏まえつつ、Claude Tag を単なる bot ではなく team に参加する agent として訴求している。",
+      "url": "https://x.com/ClaudeDevs/status/2070235730295865661",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -29,45 +29,15 @@
     },
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、いずれも今回の window 開始時刻 <strong>2026-06-25 03:02 JST</strong> より前だった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、いずれも今回の window 開始時刻 <strong>2026-06-25 09:02 JST</strong> より前だった。"
     }
   ],
   "signals": [
     {
-      "label": "Culture signal",
-      "datetime": "2026-06-25T04:22:41+09:00",
-      "displayTime": "2026-06-25 04:22 JST",
-      "title": "Noah Zweben が Claude Tag は open channel でより強いと補足",
-      "summary": "<strong>@noahzweben</strong> は、Claude Tag は DM でも使えるが <strong>way more powerful in open channels</strong> だと返信し、問題が起きたときは人ではなく system を blame する culture を育てたいと述べた。shared workspace で agent を運用する際の adoption 条件を示す補足になっている。",
-      "url": "https://x.com/noahzweben/status/2069863805014999075",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Positioning signal",
-      "datetime": "2026-06-25T07:15:32+09:00",
-      "displayTime": "2026-06-25 07:15 JST",
-      "title": "Ado が Claude Tag は fundamentally different だと強調",
-      "summary": "<strong>@adocomplete</strong> は、Claude Tag は単なる chat bot ではなく <strong>a fundamentally different approach</strong> だと述べ、team environment に統合された新しい form factor だと位置づけた。公式 thread の引用ながら、プロダクトの受け止め方を端的に示している。",
-      "url": "https://x.com/adocomplete/status/2069907300262068417",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Workflow signal",
-      "datetime": "2026-06-25T08:24:45+09:00",
-      "displayTime": "2026-06-25 08:24 JST",
-      "title": "cat が Claude Tag を tag なしで monitor させられると補足",
-      "summary": "<strong>@_catwu</strong> は、Claude を channel に追加したあとは <strong>just monitor for work</strong> と伝えれば tag なしでも動けると reply で補足した。Claude Tag の ambient / proactive な使い方を短く示す運用 signal になっている。",
-      "url": "https://x.com/_catwu/status/2069924720347344945",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
       "label": "Roadmap signal",
       "datetime": "2026-06-25T12:42:46+09:00",
       "displayTime": "2026-06-25 12:42 JST",
-      "title": "Nate Parrott が Claude Design の外部共有は roadmap 上だと回答",
+      "title": "Nate Parrott が Claude Design の org 外共有は roadmap 上だと回答",
       "summary": "<strong>@nateparrott</strong> は、org 外への design 共有を望む要望に対し <strong>on the roadmap</strong> と返答し、content moderation が難所だが取り組んでいると述べた。Claude Design の共有機能に関する珍しい roadmap signal になっている。",
       "url": "https://x.com/nateparrott/status/2069989654066020701",
       "urlLabel": "X で見る",
@@ -82,13 +52,33 @@
       "url": "https://x.com/amorriscode/status/2070096071540535656",
       "urlLabel": "X で見る",
       "primary": true
+    },
+    {
+      "label": "Workflow signal",
+      "datetime": "2026-06-26T07:00:11+09:00",
+      "displayTime": "2026-06-26 07:00 JST",
+      "title": "Noah Zweben が Ambient Claude thread で tag なし運用を具体化",
+      "summary": "<strong>@noahzweben</strong> は、<strong>Claude Tag without the Tag</strong> として、Claude を channel に追加したうえで自然言語で <strong>ambient helper</strong> の役割を与えれば、明示的に tag しなくても triage や legal ping を担わせられると説明した。続く reply では <strong>Datadog</strong> や <strong>Sentry</strong> など他の bot に自動応答させられること、外部サービスは API 経由で接続できることも補足している。",
+      "url": "https://x.com/noahzweben/status/2070265825437855760",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Demo signal",
+      "datetime": "2026-06-26T07:20:38+09:00",
+      "displayTime": "2026-06-26 07:20 JST",
+      "title": "Jarred Sumner が Claude Tag で chart を作る例を共有",
+      "summary": "<strong>@jarredsumner</strong> は、ClaudeDevs の post を引用しつつ <strong>You can also use Claude Tag to make charts</strong> と投稿し、Claude Tag を channel 内の可視化や artifact 作成にも使えることを短く示した。単なる会話補助に留まらない活用範囲の signal になっている。",
+      "url": "https://x.com/jarredsumner/status/2070270974797468007",
+      "urlLabel": "X で見る",
+      "primary": true
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
       "headline": "0件",
-      "body": "この24時間窓で確認できた新規公式記事はなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date はすべて window 開始前で、前日分の Claude Blog 記事以降の増分は確認できなかった。",
+      "body": "この24時間窓で確認できた新規公式記事はなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date はすべて window 開始前で、前日までの既知記事以降の増分は確認できなかった。",
       "details": [
         "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong>。",
         "<strong>Anthropic Research</strong> の最新 listing は <strong>Jun 18, 2026</strong> の <strong>Project Fetch: Phase two</strong>。",
@@ -100,67 +90,47 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.191</strong> と <strong>v2.1.190</strong> の 2 件だった。公開時刻はそれぞれ <strong>2026-06-25 06:58 JST</strong> と <strong>2026-06-25 00:53 JST</strong>。<strong>v2.1.191</strong> は <code>/rewind</code>、sandbox / MCP reliability、streaming 効率化、agent panel や permission UI の修正が中心で、<strong>v2.1.190</strong> は bug fix と reliability improvement の 1 項目だけが案内されている。",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.193</strong> の 1 件だけだった。公開時刻は <strong>2026-06-26 06:45 JST</strong>。auto-mode、OpenTelemetry、bash mode、MCP auth、background agent 周辺の機能追加と改善、`/login` 後の stale state など 5 件の不具合修正を含む。",
       "releases": [
         {
-          "version": "v2.1.191",
-          "publishedAt": "2026-06-25 06:58 JST",
-          "summary": "<code>/rewind</code> による会話再開、sandbox / MCP reliability 改善、streaming の CPU 削減、agent panel や permission 周辺の不具合修正をまとめて含む release。",
+          "version": "v2.1.193",
+          "publishedAt": "2026-06-26 06:45 JST",
+          "summary": "auto-mode の制御拡張、OpenTelemetry event 追加、bash mode 補完、background shell の pressure reaping、MCP auth と background agent の改善をまとめた release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>/clear</code> 実行前の地点から会話を再開できる <code>/rewind</code> 対応を追加した。"
+                "<code>autoMode.classifyAllShell</code> 設定を追加し、任意コード実行パターンだけでなく、すべての Bash / PowerShell command を auto-mode classifier 経由にできるようにした。",
+                "auto-mode の denial reason を transcript、denial toast、<code>/permissions</code> の recent denials に表示するようにした。",
+                "<code>claude_code.assistant_response</code> OpenTelemetry log event を追加し、model の response text を記録できるようにした。<code>OTEL_LOG_ASSISTANT_RESPONSES</code> が未設定なら <code>OTEL_LOG_USER_PROMPTS</code> に追従し、既存 deployment は upgrade 後に response content も受け取るようになる。",
+                "bash mode（<code>!</code>）に live file path autocomplete を追加した。",
+                "MCP server に認証が必要なとき、起動時に <code>/mcp</code> を案内する notice を追加した。",
+                "idle な background shell command を memory pressure に応じて自動 reaping する仕組みを追加した。無効化する場合は <code>CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1</code> を使う。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "sandbox network permission dialog を改善し、<strong>Yes</strong> で許可した host はその session 中は記憶して毎回再確認しないようにした。",
-                "MCP server の信頼性を改善し、capability discovery（<code>tools/list</code>、<code>prompts/list</code>、<code>resources/list</code>）で一時的な network error が起きた場合に短い backoff 付きで retry するようにした。",
-                "MCP OAuth を改善し、discovery と token request で一時的な network error が起きた場合に 1 回 retry し、headless environment では browser popup を開かず URL 貼り付け prompt に直接進むようにした。",
-                "MCP error message を改善し、HTTP 404 では対象 URL を表示し、MCP config を確認するよう案内するようにした。",
-                "vim mode の prompt-history search（NORMAL の <code>/</code>）を改善し、slash command への行き方を hint 表示するようにした。",
-                "streaming response 中の text update を 100ms 単位でまとめることで、CPU 使用量を約 37% 削減した。",
-                "terminal output cache の扱いを見直し、長時間 session での memory 増加を抑えた。"
+                "background agent 起動時の結果表示を改善し、Claude に <strong>end your response</strong> と指示せず、agent 実行中も他の task を続けられるようにした。",
+                "MCP の <code>headersHelper</code> 認証を改善し、tool call が HTTP 401 / 403 を返した場合に helper を自動で再実行して再接続するようにした。",
+                "plugin の auto-rename を改善し、marketplace の <code>renames</code> map を自動追従して設定上の plugin 名も新しい名前へ更新するようにした。",
+                "<code>/add-dir</code> の message を改善し、対象 directory がすでに working directory である場合の案内を分かりやすくした."
               ]
             },
             {
               "title": "修正",
               "items": [
-                "streaming response 中に過去の出力を読んでいると scroll position が最下部へ飛んでしまう問題を修正した。",
-                "停止した background agent が再び蘇る問題を修正し、tasks panel から止めた agent は恒久的に停止するようにした。",
-                "<code>/voice</code> が organization policy で無効化されているときに generic な <strong>not available</strong> 表示しか出さない問題を修正し、制限理由を説明するようにした。",
-                "<code>/login</code> URL が Windows Terminal で折り返されたときに途中で切れて開きにくくなる問題を修正した。",
-                "ssh / tmux 越しの Ghostty fullscreen mode で Cmd+click による link open が効かない問題を修正した。",
-                "<code>claude agents</code> が <code>/usage</code> などの built-in slash command を background session に prompt text として送ってしまう問題を修正し、hint を表示するようにした。",
-                "<code>claude agents</code> の job row が貼り付け画像で <code>[Image #N]</code> ではなく full filesystem path を表示してしまう問題を修正した。",
-                "comma 区切り matcher（例: <code>\"Bash,PowerShell\"</code>）を使う hook が黙って一度も発火しない問題を修正した。",
-                "<code>/permissions</code> の Recently-denied tab で denial を approve しても close 時に黙って破棄される問題を修正し、承認内容が保持されるようにした。",
-                "agent panel の roster を overflow cap より先へ scroll したときに 1 行ぶん跳ねる問題を修正した。",
-                "default の 80×24 macOS Terminal window で welcome splash art がはみ出す問題を修正した。",
-                "managed settings で <code>forceRemoteSettingsRefresh</code> が MDM や file policy 経由で設定されても効かない問題を修正し、fetch 時に <code>Cache-Control: no-cache</code> を送って proxy 由来の stale response を防ぐようにした。"
+                "<code>/model</code> など client-data-gated UI が <code>/login</code> 直後に stale または empty state を表示してしまう問題を修正した。",
+                "backgrounding（←←）時に、実行中 task が新しい session に引き継がれるだけなのに <strong>N background tasks would be abandoned</strong> と誤って cancel される問題を修正した。",
+                "pin した background agent が auto-update のたびに <strong>Continue from where you left off</strong> と再 prompt される問題を修正した。",
+                "main turn を background 化したとき、phantom な <strong>general-purpose (resumed)</strong> subagent が生えて main conversation を再実行してしまう問題を修正した。",
+                "subagent を表示中に agent panel が sibling agent を隠してしまう問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
-          "urlLabel": "v2.1.191 release notes"
-        },
-        {
-          "version": "v2.1.190",
-          "publishedAt": "2026-06-25 00:53 JST",
-          "summary": "小規模 patch release。release note 上では bug fix と reliability improvement の 1 項目だけが案内されている。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "不具合修正と信頼性改善を実施した。release note には個別項目の内訳は記載されていない。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
-          "urlLabel": "v2.1.190 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "urlLabel": "v2.1.193 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -169,30 +139,18 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり公式項目から外した。今回 window で <strong>@AnthropicAI</strong> に 1 件 main post はあったが、<strong>RAISE US</strong> 参加告知で Claude 製品更新ではないため main item から外した。",
-    "engineer watch では Claude / Anthropic の製品・運用・roadmap に直接つながらない雑談、スポーツ実況、meme、repost は main signal から外した。reply は新情報や運用上の補足があるものだけ採用した。",
+    "engineer watch では Claude / Anthropic の製品・運用・roadmap に直接つながらない雑談、meme、repost は main signal から外した。reply は新情報や運用上の補足があるものだけ採用し、Noah Zweben の ambient Claude thread は 1 つの signal にまとめた。",
     "Thinking transcript view については <strong>Anthony Morris</strong> の earlier reply で修正済みのように見えたが、同日後段で <strong>upcoming release</strong> だと訂正されたため、最終的な state として後者を採用した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とし、<strong>v2.1.191</strong> と <strong>v2.1.190</strong> の visible bullet 全項目を和訳して分類した。前版 <strong>v2.1.187</strong> は <strong>2026-06-24 06:03 JST</strong> 公開で今回の window 外だった。"
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。前日分で扱った <strong>v2.1.191</strong> と <strong>v2.1.190</strong> は今回の window 開始時刻 <strong>2026-06-25 09:02 JST</strong> より前の公開なので外した。"
   ],
   "sources": [
     {
-      "title": "ClaudeDevs on agent identity",
-      "url": "https://x.com/ClaudeDevs/status/2069895377080443271"
+      "title": "ClaudeDevs on Claude Tag evolution",
+      "url": "https://x.com/ClaudeDevs/status/2070235730295865661"
     },
     {
       "title": "Anthropic on RAISE US",
       "url": "https://x.com/AnthropicAI/status/2070183531612172697"
-    },
-    {
-      "title": "Noah Zweben on open channel adoption",
-      "url": "https://x.com/noahzweben/status/2069863805014999075"
-    },
-    {
-      "title": "Ado on Claude Tag positioning",
-      "url": "https://x.com/adocomplete/status/2069907300262068417"
-    },
-    {
-      "title": "cat on proactive monitoring",
-      "url": "https://x.com/_catwu/status/2069924720347344945"
     },
     {
       "title": "Nate Parrott on external sharing roadmap",
@@ -204,7 +162,23 @@
     },
     {
       "title": "Anthony Morris on Thinking transcript view behavior",
-      "url": "https://x.com/amorriscode/status/2069957494143897817"
+      "url": "https://x.com/amorriscode/status/2069957348349870153"
+    },
+    {
+      "title": "Noah Zweben on Ambient Claude",
+      "url": "https://x.com/noahzweben/status/2070265825437855760"
+    },
+    {
+      "title": "Noah Zweben on auto-responding to bots",
+      "url": "https://x.com/noahzweben/status/2070265828214489312"
+    },
+    {
+      "title": "Noah Zweben on API connectivity",
+      "url": "https://x.com/noahzweben/status/2070291757183697086"
+    },
+    {
+      "title": "Jarred Sumner on chart-making with Claude Tag",
+      "url": "https://x.com/jarredsumner/status/2070270974797468007"
     },
     {
       "title": "Anthropic Engineering listing",
@@ -223,24 +197,12 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude Blog: Building effective human-agent teams",
-      "url": "https://claude.com/blog/building-effective-human-agent-teams"
-    },
-    {
-      "title": "Claude Blog: Agent identity in Claude Tag",
-      "url": "https://claude.com/blog/agent-identity-access-model"
-    },
-    {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.191 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191"
-    },
-    {
-      "title": "Claude Code v2.1.190 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190"
+      "title": "Claude Code v2.1.193 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193"
     }
   ]
 }
