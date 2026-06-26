@@ -1,0 +1,198 @@
+{
+  "date": "2026-06-27",
+  "windowLabel": "2026-06-26 03:02:26 JST - 2026-06-27 03:02:25 JST",
+  "archiveTitle": "Economic Index and v2.1.193",
+  "archiveSummary": "AnthropicAI 1件、ClaudeDevs 1件、Research 1件、Claude Code v2.1.193 を反映。",
+  "latestSummary": "2026-06-26 03:02:26 JST から 2026-06-27 03:02:25 JST の24時間では、公式 X は <strong>@AnthropicAI</strong> の <strong>Economic Index report: Cadences</strong> thread と <strong>@ClaudeDevs</strong> の Claude Tag post が main update だった。公式サイトでは <strong>Anthropic Research</strong> に <strong>Anthropic Economic Index report: Cadences</strong> が <strong>Jun 26, 2026</strong> 表示で追加され、engineer 側では <strong>Noah Zweben</strong> が ambient Claude と API 連携を具体化し、<strong>Jarred Sumner</strong> は Claude Tag の chart 作成例を示し、<strong>Anthony Morris</strong> は Claude Desktop の改善と global terminal / file browsing の方向性に触れた。Claude Code では <strong>v2.1.193</strong> が <strong>2026-06-26 06:45 JST</strong> に公開され、release note の全15項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は Claude の利用実態と認識変化を追う <strong>Economic Index report: Cadences</strong> を告知し、<strong>@ClaudeDevs</strong> は Claude Tag を <strong>the next evolution of agents</strong> と再定義した。",
+    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> に <strong>Anthropic Economic Index report: Cadences</strong> が <strong>Jun 26, 2026</strong> 表示で追加され、Claude usage の時間帯別リズム、artifact の使われ方、AI が仕事に与える影響認識を整理した。",
+    "<strong>Engineer signals 3件</strong>: <strong>Noah Zweben</strong> は ambient Claude と外部 API 連携を thread で補足し、<strong>Jarred Sumner</strong> は Claude Tag で chart を作る例を共有した。<strong>Anthony Morris</strong> は Claude Desktop の fix 進行中と将来の global terminal / file browsing 需要に言及した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で完全取得した <strong>v2.1.193</strong> は <strong>新機能 6件</strong>、<strong>変更 4件</strong>、<strong>修正 5件</strong> を含んだ。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-06-27T00:25:47+09:00",
+      "displayTime": "2026-06-27 00:25 JST",
+      "title": "AnthropicAI が Economic Index report: Cadences を公開",
+      "summary": "<strong>@AnthropicAI</strong> は、Claude の経済的インパクトを追う <strong>Anthropic Economic Index report: Cadences</strong> を告知した。hourly sampling と survey data により、Claude usage が日常や仕事の時間帯リズムとどう結びつくか、どんな artifact が作られているか、AI の影響認識がどう変わっているかを示している。",
+      "url": "https://x.com/AnthropicAI/status/2070528961235575278",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-26T05:00:35+09:00",
+      "displayTime": "2026-06-26 05:00 JST",
+      "title": "ClaudeDevs が Claude Tag を agent の次段階として位置づけ",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Tag を <strong>proactive</strong>、<strong>multiplayer</strong>、<strong>memory</strong>、<strong>identity</strong> を備えた agent だと説明し、<strong>Claude Code</strong> の上に構築された team-oriented な存在として訴求した。前日の deep dive 記事への導線としても機能している。",
+      "url": "https://x.com/ClaudeDevs/status/2070235730295865661",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>@ClaudeAI</strong> にはこの window の新規 main post がなかった。公式 X の新着は <strong>@AnthropicAI</strong> の research report 告知 thread と <strong>@ClaudeDevs</strong> の Claude Tag post に集中していた。"
+    },
+    {
+      "label": "Anthropic Engineering / News / Claude Blog の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、この24時間窓で visible publication date が新しくなったのは <strong>Anthropic Research</strong> の <strong>Jun 26, 2026</strong> 記事だけだった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Workflow signal",
+      "datetime": "2026-06-26T07:00:11+09:00",
+      "displayTime": "2026-06-26 07:00 JST",
+      "title": "Noah Zweben が ambient Claude と API 連携の使い方を thread で補足",
+      "summary": "<strong>@noahzweben</strong> は、Claude Tag を明示的に tag しなくても channel 内で ambient partner として動かせること、自然言語で triage や legal ping の役割を与えられること、さらに Datadog や Sentry の bot に自動応答させられることを説明した。別 reply では、外部 SaaS とは API で接続でき、複数の auth method を扱えると補足している。",
+      "url": "https://x.com/noahzweben/status/2070265825437855760",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Capability signal",
+      "datetime": "2026-06-26T07:20:38+09:00",
+      "displayTime": "2026-06-26 07:20 JST",
+      "title": "Jarred Sumner が Claude Tag の chart 作成例を共有",
+      "summary": "<strong>@jarredsumner</strong> は、Claude Tag を使って chart を作れると投稿し、画像付きで可視化用途の具体例を示した。Claude Tag が会話補助だけでなく artifact 生成まで踏み込めることを短く伝える signal になっている。",
+      "url": "https://x.com/jarredsumner/status/2070270974797468007",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Roadmap signal",
+      "datetime": "2026-06-26T13:26:09+09:00",
+      "displayTime": "2026-06-26 13:26 JST",
+      "title": "Anthony Morris が Claude Desktop の改善と global terminal / file browsing 需要に言及",
+      "summary": "<strong>@amorriscode</strong> は、Claude Desktop に関するフィードバックに対し、指摘された問題の一部は <strong>being fixed as we speak</strong> だと返答したうえで、要望として <strong>global terminal</strong> と <strong>file browsing</strong> が挙がっており、将来的に何かできる可能性があると述べた。短期 fix と中期的な UX 拡張の両方を示す signal になっている。",
+      "url": "https://x.com/amorriscode/status/2070362957402501191",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "この24時間窓で visible publication date ベースの新規公式記事として確認できたのは、<strong>Anthropic Research</strong> の <strong>Anthropic Economic Index report: Cadences</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には window 内の新規記事はなかった。",
+      "details": [
+        "<strong>Anthropic Research</strong>: <strong>Jun 26, 2026</strong> 表示で <strong>Anthropic Economic Index report: Cadences</strong> を公開。Claude usage の日次・時間帯パターン、conversation から生まれる artifact の種類と用途、Claude user survey を通じた仕事への影響認識をまとめている。",
+        "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong> の <strong>An update on recent Claude Code quality reports</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> の <strong>Introducing Claude Tag</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> の記事群のままで、今回 window に入る visible publication date の増分はなかった。"
+      ],
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "urlLabel": "Anthropic Research 記事を見る"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.193</strong> の 1 件だけだった。公開時刻は <strong>2026-06-26 06:45 JST</strong>。auto-mode、OpenTelemetry、bash mode、MCP auth、background shell と agent 挙動の改善に加え、<code>/login</code> 後の stale state など 5 件の不具合修正を含む。",
+      "releases": [
+        {
+          "version": "v2.1.193",
+          "publishedAt": "2026-06-26 06:45 JST",
+          "summary": "auto-mode の制御拡張、OpenTelemetry event 追加、bash mode 補完、background shell の pressure reaping、MCP auth と background agent 周辺の改善をまとめた release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>autoMode.classifyAllShell</code> 設定を追加し、任意コード実行パターンだけでなく、すべての Bash / PowerShell command を auto-mode classifier 経由にできるようにした。",
+                "auto-mode の denial reason を transcript、denial toast、<code>/permissions</code> の recent denials に表示するようにした。",
+                "<code>claude_code.assistant_response</code> OpenTelemetry log event を追加し、model の response text を記録できるようにした。<code>OTEL_LOG_ASSISTANT_RESPONSES</code> が未設定なら <code>OTEL_LOG_USER_PROMPTS</code> に追従し、既存 deployment は upgrade 後に response content も受け取るようになる。",
+                "bash mode（<code>!</code>）に live file path autocomplete を追加した。",
+                "MCP server に認証が必要なとき、起動時に <code>/mcp</code> を案内する notice を追加した。",
+                "idle な background shell command を memory pressure に応じて自動 reaping する仕組みを追加した。無効化する場合は <code>CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1</code> を使う。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "background agent 起動時の結果表示を改善し、Claude に <strong>end your response</strong> と指示せず、agent 実行中も他の task を続けられるようにした。",
+                "MCP の <code>headersHelper</code> 認証を改善し、tool call が HTTP 401 / 403 を返した場合に helper を自動で再実行して再接続するようにした。",
+                "plugin の auto-rename を改善し、marketplace の <code>renames</code> map を自動追従して設定上の plugin 名も新しい名前へ更新するようにした。",
+                "<code>/add-dir</code> の message を改善し、対象 directory がすでに working directory である場合の案内を分かりやすくした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>/model</code> など client-data-gated UI が <code>/login</code> 直後に stale または empty state を表示してしまう問題を修正した。",
+                "backgrounding（←←）時に、実行中 task が新しい session に引き継がれるだけなのに <strong>N background tasks would be abandoned</strong> と誤って cancel される問題を修正した。",
+                "pin した background agent が auto-update のたびに <strong>Continue from where you left off</strong> と再 prompt される問題を修正した。",
+                "main turn を background 化したとき、phantom な <strong>general-purpose (resumed)</strong> subagent が生えて main conversation を再実行してしまう問題を修正した。",
+                "subagent を表示中に agent panel が sibling agent を隠してしまう問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "urlLabel": "v2.1.193 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、reply と repost は default 設定どおり公式項目から外した。AnthropicAI の Economic Index thread は main post を代表 item とし、thread 続きは summary に吸収した。",
+    "engineer watch では Claude / Anthropic の製品・運用・roadmap に直接つながらない雑談、meme、repost は main signal から外した。Noah Zweben の ambient Claude thread は複数 post を 1 つの signal にまとめた。",
+    "Anthropic Research の <strong>Anthropic Economic Index report: Cadences</strong> は article page 上で <strong>Jun 26, 2026</strong> の visible publication date は確認できたが、時刻までは表示されなかったため、date ベースで今回の window 内記事として採用した。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。前日の <strong>v2.1.191</strong> と <strong>v2.1.190</strong> は今回の window 開始時刻 <strong>2026-06-26 03:02 JST</strong> より前の公開なので外した。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on Economic Index report: Cadences",
+      "url": "https://x.com/AnthropicAI/status/2070528961235575278"
+    },
+    {
+      "title": "ClaudeDevs on Claude Tag evolution",
+      "url": "https://x.com/ClaudeDevs/status/2070235730295865661"
+    },
+    {
+      "title": "Noah Zweben on Ambient Claude",
+      "url": "https://x.com/noahzweben/status/2070265825437855760"
+    },
+    {
+      "title": "Noah Zweben on API connectivity",
+      "url": "https://x.com/noahzweben/status/2070291757183697086"
+    },
+    {
+      "title": "Jarred Sumner on chart-making with Claude Tag",
+      "url": "https://x.com/jarredsumner/status/2070270974797468007"
+    },
+    {
+      "title": "Anthony Morris on desktop improvements and global terminal/file browsing",
+      "url": "https://x.com/amorriscode/status/2070362957402501191"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic Research: Anthropic Economic Index report: Cadences",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.193 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193"
+    }
+  ]
+}
