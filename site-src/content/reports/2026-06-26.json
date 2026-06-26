@@ -1,9 +1,9 @@
 {
   "date": "2026-06-26",
-  "windowLabel": "2026-06-25 15:02:56 JST - 2026-06-26 15:02:56 JST",
+  "windowLabel": "2026-06-25 21:02:44 JST - 2026-06-26 21:02:44 JST",
   "archiveTitle": "Claude Tag signals and v2.1.193",
   "archiveSummary": "ClaudeDevs 1件、engineer signal 4件、Claude Code v2.1.193 を反映。",
-  "latestSummary": "2026-06-25 15:02:56 JST から 2026-06-26 15:02:56 JST の24時間では、公式 X の Claude 直結 main post は <strong>@ClaudeDevs</strong> による <strong>Claude Tag is the next evolution of agents</strong> の 1 件だった。engineer 側では <strong>Noah Zweben</strong> が ambient Claude thread で tag なし運用と API 連携を具体化し、<strong>Jarred Sumner</strong> は chart 作成例を示し、<strong>Anthony Morris</strong> は Thinking transcript view 修正がまだ upcoming release だと訂正しつつ、別 reply で Claude Desktop の改善作業と global terminal / file browsing への関心も示した。公式サイトでは <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれにも window 内の新規記事はなく、Claude Code では <strong>v2.1.193</strong> が <strong>2026-06-26 06:45 JST</strong> に公開され、release note の全項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "latestSummary": "2026-06-25 21:02:44 JST から 2026-06-26 21:02:44 JST の24時間では、公式 X の Claude 直結 main post は <strong>@ClaudeDevs</strong> による <strong>Claude Tag is the next evolution of agents</strong> の 1 件だった。engineer 側では <strong>Noah Zweben</strong> が ambient Claude thread で tag なし運用と API 連携を具体化し、<strong>Jarred Sumner</strong> は chart 作成例を示し、<strong>Anthony Morris</strong> は Thinking transcript view 修正がまだ upcoming release だと訂正しつつ、別 reply で Claude Desktop の改善作業と global terminal / file browsing への関心も示した。公式サイトでは <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> のいずれにも window 内の新規記事はなく、Claude Code では <strong>v2.1.193</strong> が <strong>2026-06-26 06:45 JST</strong> に公開され、release note の全項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Tag is the next evolution of agents</strong> を投稿し、Claude Tag を <strong>proactive</strong>、<strong>multiplayer</strong>、<strong>memory</strong>、<strong>identity</strong> を備えた agent と説明した。",
     "<strong>Engineer signals 4件</strong>: <strong>Noah Zweben</strong> は ambient Claude の役割指定と API 接続の使い方を thread で補足し、<strong>Jarred Sumner</strong> は chart 生成例を共有した。<strong>Anthony Morris</strong> は Thinking transcript view 修正がまだ未出荷だと訂正し、別 reply で Claude Desktop の改善と global terminal / file browsing 需要にも触れた。",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、いずれも今回の window 開始時刻 <strong>2026-06-25 15:02 JST</strong> より前だった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 listing は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、いずれも今回の window 開始時刻 <strong>2026-06-25 21:02 JST</strong> より前だった。"
     }
   ],
   "signals": [
@@ -141,7 +141,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり公式項目から外した。今回 window で <strong>@AnthropicAI</strong> に 1 件 main post はあったが、<strong>RAISE US</strong> 参加告知で Claude 製品更新ではないため main item から外した。",
     "engineer watch では Claude / Anthropic の製品・運用・roadmap に直接つながらない雑談、meme、repost は main signal から外した。reply は新情報や運用上の補足があるものだけ採用し、Noah Zweben の ambient Claude thread は 1 つの signal にまとめた。",
     "Anthony Morris の <strong>Both 2 and 3 are being fixed as we speak</strong> reply は parent post の個別論点をそのまま列挙せず、reply 自体で明示された <strong>global terminal</strong> と <strong>file browsing</strong> 需要、および改善作業の進行だけを signal として採用した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。前日の <strong>v2.1.191</strong> と <strong>v2.1.190</strong> は今回の window 開始時刻 <strong>2026-06-25 15:02 JST</strong> より前の公開なので外した。"
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。前日の <strong>v2.1.191</strong> と <strong>v2.1.190</strong> は今回の window 開始時刻 <strong>2026-06-25 21:02 JST</strong> より前の公開なので外した。"
   ],
   "sources": [
     {
