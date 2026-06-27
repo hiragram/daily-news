@@ -1,14 +1,14 @@
 {
   "date": "2026-06-27",
-  "windowLabel": "2026-06-26 15:01:57 JST - 2026-06-27 15:01:57 JST",
-  "archiveTitle": "Mythos 5 update and v2.1.195",
-  "archiveSummary": "AnthropicAI 1件、Research 1件、Claude Code v2.1.195 を反映。",
-  "latestSummary": "2026-06-26 15:01:57 JST から 2026-06-27 15:01:57 JST の24時間では、<strong>@AnthropicAI</strong> が <strong>Claude Mythos 5</strong> の一部再展開を告知し、<strong>Anthropic Research</strong> の <strong>Anthropic Economic Index report: Cadences</strong> は引き続きこの日付帯の公式更新として扱える状態だった。Claude Code では <strong>v2.1.195</strong> が <strong>2026-06-27 06:29 JST</strong> に公開され、release note の全12項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-06-26 21:03:12 JST - 2026-06-27 21:03:12 JST",
+  "archiveTitle": "Mythos 5 redeployment and v2.1.195",
+  "archiveSummary": "AnthropicAI 2件、Research 1件、Claude Code v2.1.195 を反映。",
+  "latestSummary": "2026-06-26 21:03:12 JST から 2026-06-27 21:03:12 JST の24時間では、<strong>@AnthropicAI</strong> が <strong>Claude Mythos 5</strong> の一部再展開と <strong>Anthropic Economic Index report: Cadences</strong> の公開を案内した。公式サイトでは <strong>Anthropic Research</strong> に同名レポートが <strong>Jun 26, 2026</strong> 表示で並び、Claude conversations / Claude Code / 1P API の使われ方と autonomy 差分を整理している。Claude Code では <strong>v2.1.195</strong> が <strong>2026-06-27 06:29 JST</strong> に公開され、release note の全12項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@AnthropicAI</strong> は、米政府との調整を経て <strong>Claude Mythos 5</strong> を critical infrastructure を守る一部の米国組織向けに再展開すると発表した。<strong>Fable 5</strong> の一般再開は継続協議中としている。",
-    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> の <strong>Anthropic Economic Index report: Cadences</strong> は記事面で <strong>Jun 26, 2026</strong> 表示のままで、今回の24時間窓でも visible publication date ベースで対象に残る。",
-    "<strong>Engineer signals 0件</strong>: 監視対象の engineer / researcher アカウントでは、この24時間窓に入る Claude 関連の有意な新規 post / reply を確認できなかった。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.195</strong> は fullscreen mode 向けの mouse click 制御追加に加え、voice mode、plugin、background agents まわりの改善と修正を含む。"
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は、米政府との調整を経て <strong>Claude Mythos 5</strong> を critical infrastructure を守る一部の米国組織向けに再展開すると発表し、続けて <strong>Anthropic Economic Index report: Cadences</strong> を案内した。",
+    "<strong>Official articles 1件</strong>: <strong>Anthropic Research</strong> の <strong>Anthropic Economic Index report: Cadences</strong> は <strong>Jun 26, 2026</strong> 表示で、Claude usage の時間帯、生成物、surface ごとの autonomy 差分を整理している。",
+    "<strong>Engineer signals 0件</strong>: 監視対象の engineer / researcher アカウントでは、この24時間窓に入る Claude / Anthropic 関連の有意な新規 main post や高信頼の追加 signal を確認できなかった。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.195</strong> は fullscreen mode 向けの mouse 制御追加に加え、voice mode、agents UI、Remote startup、plugin、background agent 周辺の改善と修正を含む。"
   ],
   "officialNews": [
     {
@@ -22,11 +22,21 @@
       "primary": true
     },
     {
+      "label": "Official X",
+      "datetime": "2026-06-27T00:25:47+09:00",
+      "displayTime": "2026-06-27 00:25 JST",
+      "title": "AnthropicAI が Economic Index report: Cadences を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、AI の経済影響を追う手法を前進させるとして <strong>Anthropic Economic Index report: Cadences</strong> を紹介した。hourly sampling と survey data により、生活のリズムが Claude usage をどう形作るか、Claude がどのような成果物を生み、仕事への影響認識がどう変化しているかを見られると説明している。",
+      "url": "https://x.com/AnthropicAI/status/2070528961235575278",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
       "label": "Official site",
       "datetime": "2026-06-26T12:00:00+09:00",
       "displayTime": "2026-06-26",
-      "title": "Anthropic Research の Economic Index report: Cadences を継続掲載",
-      "summary": "<strong>Anthropic Research</strong> には <strong>Anthropic Economic Index report: Cadences</strong> が <strong>Jun 26, 2026</strong> 表示で載っており、Claude conversations / Claude Code / 1P API の使われ方を時間帯、生成物、autonomy の違いから整理している。記事面は日付のみ表示で時刻がないため、今回も visible publication date ベースで扱う。",
+      "title": "Anthropic Research が Economic Index report: Cadences を掲載",
+      "summary": "<strong>Anthropic Research</strong> には <strong>Anthropic Economic Index report: Cadences</strong> が <strong>Jun 26, 2026</strong> 表示で載っており、Claude conversations / Claude Code / 1P API の利用を時間帯、artifact、autonomy の観点から比較している。article page では日付のみ表示で時刻は見えないため、今回も visible publication date ベースで扱う。",
       "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
       "urlLabel": "記事を読む",
       "primary": true
@@ -35,7 +45,7 @@
   "officialZeroStates": [
     {
       "label": "@ClaudeAI / @ClaudeDevs の新規 post は 0件",
-      "body": "<strong>@ClaudeAI</strong> は profile 上の最新 post がこの24時間窓より前で、<strong>@ClaudeDevs</strong> は profile timeline 上に新規 post を確認できなかった。公式Xの増分は <strong>@AnthropicAI</strong> の 1 件のみだった。"
+      "body": "<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> を確認したが、この24時間窓に入る新規 main post は確認できなかった。公式 X の増分は <strong>@AnthropicAI</strong> の 2 件のみだった。"
     },
     {
       "label": "Anthropic Engineering / News / Claude Blog の新着は 0件",
@@ -58,7 +68,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.195</strong> の 1 件だけだった。公開時刻は <strong>2026-06-27 06:29 JST</strong>。fullscreen mode 向けの mouse 制御追加に加えて、voice mode、agents UI、Remote startup、plugin、background agent の改善と修正を含む。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.195</strong> の 1 件だけだった。公開時刻は <strong>2026-06-27 06:29 JST</strong>。fullscreen mode 向けの mouse 制御追加に加えて、voice mode、agents UI、Remote startup、plugin、background task 周辺の改善と修正を含む。",
       "releases": [
         {
           "version": "v2.1.195",
@@ -102,15 +112,19 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の公式 X 増分は <strong>@AnthropicAI</strong> の main post 1 件のみだった。",
-    "engineer watch では監視対象アカウントを確認したが、この24時間窓に入る Claude / Anthropic 関連の有意な新規 post / reply を確認できなかったため <strong>signals</strong> は空配列にした。",
+    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の公式 X 増分は <strong>@AnthropicAI</strong> の main post 2 件のみだった。",
+    "engineer watch では監視対象アカウントを確認したが、この24時間窓に入る Claude / Anthropic 関連の高信頼な新規 main post や独立した実装 signal は確認できなかったため <strong>signals</strong> は空配列にした。support reply 群は新情報が断片的で重複も多いため main signal から外した。",
     "<strong>Anthropic Economic Index report: Cadences</strong> は article page 上で <strong>Jun 26, 2026</strong> の visible publication date は確認できたが、時刻までは表示されなかったため、visible publication date ベースで今回の window に残した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.193</strong> は <strong>2026-06-26 06:45 JST</strong> 公開で、今回 window 開始時刻 <strong>2026-06-26 15:01 JST</strong> より前のため外した。"
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.193</strong> は <strong>2026-06-26 06:45 JST</strong> 公開で、今回 window 開始時刻 <strong>2026-06-26 21:03 JST</strong> より前のため外した。"
   ],
   "sources": [
     {
       "title": "AnthropicAI on Mythos 5 redeployment",
       "url": "https://x.com/AnthropicAI/status/2070665903440871779"
+    },
+    {
+      "title": "AnthropicAI on Economic Index report: Cadences",
+      "url": "https://x.com/AnthropicAI/status/2070528961235575278"
     },
     {
       "title": "Anthropic Engineering listing",
