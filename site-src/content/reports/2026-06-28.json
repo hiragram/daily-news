@@ -1,55 +1,36 @@
 {
   "date": "2026-06-28",
-  "windowLabel": "2026-06-27 09:02:30 JST - 2026-06-28 09:02:30 JST",
-  "archiveTitle": "Mythos 5 redeployment and v2.1.195",
-  "archiveSummary": "AnthropicAI 1件、engineer signal 4件、Claude Code v2.1.195 を反映。",
-  "latestSummary": "2026-06-27 09:02:30 JST から 2026-06-28 09:02:30 JST の24時間では、<strong>@AnthropicAI</strong> が <strong>Claude Mythos 5</strong> の一部再展開を告知した。公式サイトの <strong>Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にこの窓で確認できる新着記事はなく、engineer 側では <strong>@amorriscode</strong> が Claude Code desktop の <strong>server mode</strong>、cloud sessions の共通 backend、<strong>Code</strong> と <strong>Chat/Cowork</strong> の分離方針、desktop app の強みを reply で補足した。Claude Code では <strong>v2.1.195</strong> が <strong>2026-06-27 06:29 JST</strong> に公開され、release note の全12項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-06-27 15:01:59 JST - 2026-06-28 15:01:59 JST",
+  "archiveTitle": "amorriscode signals and v2.1.195",
+  "archiveSummary": "Official 0件、engineer signal 5件、Claude Code v2.1.195 を反映。",
+  "latestSummary": "2026-06-27 15:01:59 JST から 2026-06-28 15:01:59 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@amorriscode</strong> が reply 群で Claude Code desktop の <strong>server mode</strong>、desktop / mobile / web の cloud sessions 共通 backend、<strong>Code</strong> と <strong>Chat/Cowork</strong> の分離方針、desktop app の強み、computer use への feedback 認識を補足した。Claude Code の公式 release では <strong>v2.1.195</strong> がこの window 内に入り続けており、release note の全12項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@AnthropicAI</strong> は、米政府との調整を受けて <strong>Claude Mythos 5</strong> を critical infrastructure を運営・防衛する一部の米国組織向けに再展開できると案内した。",
-    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> を確認したが、この24時間窓に入る visible publication date の新着はなかった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は、Claude Code desktop の <strong>server mode</strong>、desktop / mobile / web の cloud sessions 共通 backend、Code と Chat/Cowork の当面の分離、desktop app の multi-Claude / diff / dev server 優位を reply で説明した。",
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓に入る新規 post はなかった。",
+    "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この24時間窓に入る新着はなかった。",
+    "<strong>Engineer signals 5件</strong>: <strong>@amorriscode</strong> は、Claude Code の <strong>server mode</strong>、cloud sessions backend、Code と Chat/Cowork の分離方針、desktop app の優位点、computer use feedback の認識を reply で補足した。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.195</strong> は fullscreen mode 向けの mouse 制御追加に加え、voice mode、agents UI、Remote startup、plugin、background task 周辺の改善と修正を含む。"
   ],
-  "officialNews": [
-    {
-      "label": "Official X",
-      "datetime": "2026-06-27T09:29:57+09:00",
-      "displayTime": "2026-06-27 09:29 JST",
-      "title": "AnthropicAI が Claude Mythos 5 の一部再展開を告知",
-      "summary": "<strong>@AnthropicAI</strong> は、6月12日以来米政府と協議してきた結果として、最も強力な cybersecurity model である <strong>Mythos 5</strong> を critical infrastructure を運営・防衛する一部の米国組織向けに再び提供できると案内した。対象組織への復旧を急ぐ一方で、<strong>Mythos 5</strong> のアクセス拡大と <strong>Fable 5</strong> の一般利用再開については引き続き政府と協議中だとしている。",
-      "url": "https://x.com/AnthropicAI/status/2070665903440871779",
-      "urlLabel": "X で見る",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
-      "label": "@ClaudeAI / @ClaudeDevs の新規 post は 0件",
-      "body": "<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> を確認したが、この24時間窓に入る新規 main post は確認できなかった。official X の増分は <strong>@AnthropicAI</strong> の 1 件のみだった。"
+      "label": "Official X の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この24時間窓に入る新規 main post は確認できなかった。official X の増分は 0 件だった。"
     },
     {
       "label": "Anthropic 公式サイト4面の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> が最新表示で、この24時間窓に入る visible publication date の新着記事は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままで、この24時間窓に入る visible publication date の新着記事は確認できなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-06-28T02:01:17+09:00",
-      "displayTime": "2026-06-28 02:01 JST",
-      "title": "@amorriscode が Claude Code desktop の server mode を案内",
-      "summary": "<strong>@amorriscode</strong> は、headless Claude Code daemon のような使い方について、headless mode は既に <strong>server mode</strong> として存在し、docs を参照してほしいと reply した。Claude Code desktop / remote control の運用経路が既存機能としてあることを示す signal。",
-      "url": "https://x.com/amorriscode/status/2070915380957294967",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-06-28T01:59:30+09:00",
-      "displayTime": "2026-06-28 01:59 JST",
-      "title": "@amorriscode が cloud sessions の backend 共通性を説明",
-      "summary": "<strong>@amorriscode</strong> は、session を共有すれば debug でき、desktop / mobile / web の cloud sessions はすべて同じ backend だと説明した。surface ごとの session 同期や調査導線に関する補足として有意な運用 signal。",
-      "url": "https://x.com/amorriscode/status/2070914932762349834",
-      "urlLabel": "X で見る"
+      "datetime": "2026-06-28T12:15:56+09:00",
+      "displayTime": "2026-06-28 12:15 JST",
+      "title": "@amorriscode が computer use feedback 認識を補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code の computer use に関する不満への reply で、自分の伝達ミスだったとしたうえで、team は差分を理解しており <strong>computer use team</strong> も feedback を把握していると述べた。computer use 体験の課題認識が内部で共有されていることを示す signal。",
+      "url": "https://x.com/amorriscode/status/2071070063537610973",
+      "urlLabel": "X で見る",
+      "primary": true
     },
     {
       "label": "Engineer X",
@@ -67,6 +48,24 @@
       "title": "@amorriscode が desktop app の強みを列挙",
       "summary": "<strong>@amorriscode</strong> は、desktop app の利点として multi-Claude のしやすさ、dev server / UI 機能の使いやすさ、diff review のしやすさ、Claude により多くの context を渡しやすい点を挙げた。Claude Code app の positioning を補う user-facing signal。",
       "url": "https://x.com/amorriscode/status/2070916728708845805",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-28T02:01:17+09:00",
+      "displayTime": "2026-06-28 02:01 JST",
+      "title": "@amorriscode が Claude Code desktop の server mode を案内",
+      "summary": "<strong>@amorriscode</strong> は、headless Claude Code daemon のような使い方について、headless mode は既に <strong>server mode</strong> として存在し、docs を参照してほしいと reply した。Claude Code desktop / remote control の運用経路が既存機能としてあることを示す signal。",
+      "url": "https://x.com/amorriscode/status/2070915380957294967",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-28T01:59:30+09:00",
+      "displayTime": "2026-06-28 01:59 JST",
+      "title": "@amorriscode が cloud sessions の backend 共通性を説明",
+      "summary": "<strong>@amorriscode</strong> は、session を共有すれば debug でき、desktop / mobile / web の cloud sessions はすべて同じ backend だと説明した。surface ごとの session 同期や調査導線に関する補足として有意な運用 signal。",
+      "url": "https://x.com/amorriscode/status/2070914932762349834",
       "urlLabel": "X で見る"
     }
   ],
@@ -129,15 +128,23 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は <strong>@AnthropicAI</strong> の main post 1 件のみだった。",
+    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は 0 件だった。",
     "engineer watch では監視対象アカウントを広く確認したが、この24時間窓で主要 signal は <strong>@amorriscode</strong> の reply 群に集中していた。雑談寄りの post や新情報のない support reply は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong> で、今回の window 開始 <strong>2026-06-27 09:02 JST</strong> より前のため除外した。",
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-27 15:01 JST</strong> より前のため除外した。",
     "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.193</strong> は <strong>2026-06-26 06:45 JST</strong> 公開で、今回 window 開始より前のため外した。"
   ],
   "sources": [
     {
-      "title": "AnthropicAI on Mythos 5 redeployment",
-      "url": "https://x.com/AnthropicAI/status/2070665903440871779"
+      "title": "Anthony Morris on computer use feedback",
+      "url": "https://x.com/amorriscode/status/2071070063537610973"
+    },
+    {
+      "title": "Anthony Morris on Code vs Chat/Cowork product split",
+      "url": "https://x.com/amorriscode/status/2070917096356315572"
+    },
+    {
+      "title": "Anthony Morris on desktop app advantages",
+      "url": "https://x.com/amorriscode/status/2070916728708845805"
     },
     {
       "title": "Anthony Morris on Claude Code server mode",
@@ -148,12 +155,8 @@
       "url": "https://x.com/amorriscode/status/2070914932762349834"
     },
     {
-      "title": "Anthony Morris on Code vs Chat/Cowork product split",
-      "url": "https://x.com/amorriscode/status/2070917096356315572"
-    },
-    {
-      "title": "Anthony Morris on desktop app advantages",
-      "url": "https://x.com/amorriscode/status/2070916728708845805"
+      "title": "Claude Code docs: server mode",
+      "url": "https://code.claude.com/docs/en/remote-control#server-mode"
     },
     {
       "title": "Anthropic Engineering listing",
