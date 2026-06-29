@@ -1,14 +1,14 @@
 {
   "date": "2026-06-29",
-  "windowLabel": "2026-06-28 15:02:34 JST - 2026-06-29 15:02:34 JST",
-  "archiveTitle": "Archetypes and remote control signals",
+  "windowLabel": "2026-06-28 21:02:38 JST - 2026-06-29 21:02:38 JST",
+  "archiveTitle": "Archetypes and remote control",
   "archiveSummary": "Official 0件、engineer signal 5件、Claude Code release 0件。",
-  "latestSummary": "2026-06-28 15:02:34 JST から 2026-06-29 15:02:34 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@bcherny</strong> が Claude Code team の5 archetype を整理し、Builder / Sweeper を Claude が既にかなり補助できると補足したほか、<strong>@amorriscode</strong> が desktop app の新しい介入 UX を flag 下で今週か来週に出したいこと、<strong>remote control</strong> の default-on 設定や <strong>server mode</strong> との違いを説明した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
+  "latestSummary": "2026-06-28 21:02:38 JST から 2026-06-29 21:02:38 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@bcherny</strong> が Claude Code team の archetype を整理し、<strong>@amorriscode</strong> が desktop app の会話介入 UX、remote control の default 設定、<strong>server mode</strong> との役割差を補足した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓に入る新規 post はなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この24時間窓に入る新着はなかった。",
-    "<strong>Engineer signals 5件</strong>: <strong>@bcherny</strong> は Claude Code team の archetype を整理し、<strong>@amorriscode</strong> は desktop app の新しい介入 UX、remote control の default 設定、server mode との違いを補足した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 15:02 JST</strong> より前だった。"
+    "<strong>Engineer signals 5件</strong>: <strong>@bcherny</strong> は Claude Code team の 5 archetype を整理し、<strong>@amorriscode</strong> は desktop app の新しい介入 UX、remote control の default-on 設定、<strong>server mode</strong> との違いを補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 21:02 JST</strong> より前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -84,10 +84,39 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 15:02 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 21:02 JST</strong> より前だった。以下には、指定どおり最新 <strong>v2.1.195</strong> の full release note を <strong>新機能 / 変更 / 修正</strong> に分けて全項目和訳した。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新 release の <strong>v2.1.195</strong> については full release note を GitHub CLI で完全取得し、<strong>新機能 1件</strong>、<strong>変更 3件</strong>、<strong>修正 8件</strong> に分類して全項目を和訳確認済みだが、この report では window 外のため掲載していない."
+        "<strong>v2.1.195</strong> の release note 本文は GitHub CLI で完全取得し、visible bullet 全 12 項目を下で分類して掲載した。"
+      ],
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "<code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> を追加し、fullscreen mode でホイールスクロールは残したまま mouse の click / drag / hover を無効化できるようにした。"
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "Linux の voice mode を改善し、SoX が入っていても audio capture device がない場合は <strong>SoX not installed</strong> ではなく <strong>no microphone</strong> と区別して表示するようにした。",
+            "<code>claude agents</code> の completed list を改善し、利用可能な縦方向スペースを埋めつつ、低い terminal では header を圧縮して live session を見やすくした。",
+            "Remote session の起動体験を改善し、container 起動中に provisioning checklist を表示するようにした。"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "hyphen を含む hook matcher（例: <code>code-reviewer</code>、<code>mcp__brave-search</code>）が誤って部分一致していた問題を修正し、exact match するようにした。hyphen 付き MCP server の全 tool に当てる場合は <code>mcp__brave-search__.*</code> を使う。",
+            "macOS で default input device が変わったあと、長時間 session の voice dictation が無音を拾い続ける問題を修正した。",
+            "日本語・中国語・タイ語のように space を使わない言語で、voice dictation の auto-submit が発火しない問題を修正した。",
+            "project の <code>.claude/settings.json</code> だけで有効化された external plugin が、loader path ごとに毎回 explicit install consent を要求していた問題を修正した。",
+            "<code>/plugin</code> の Enable / Disable が、plugin の <code>plugin.json</code> にある <code>name</code> と marketplace entry 名が違うと動かない問題を修正した。",
+            "background job が新しい Claude Code version で書き込まれたとき、<code>claude agents</code> から消えたり data を失ったりする問題を修正した。",
+            "crash した background task を開き直したとき、restart 内容ではなく最大5秒の blank screen が出る問題を修正した。",
+            "control socket の起動失敗で到達不能になった background agent daemon が残り、restart を妨げる問題を修正した。"
+          ]
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -96,8 +125,8 @@
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は 0 件だった。",
     "engineer watch では監視対象アカウントを広く確認したが、Claude / Anthropic と直接関係しない雑談、World Cup bracket 投稿、文脈の薄い support reply、repost は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 15:02 JST</strong> より前のため除外した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回 window 開始より前のため report 本文から外した。"
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 21:02 JST</strong> より前のため除外した。",
+    "Claude Code の新規 release は window 内にないため panel headline は <strong>0件</strong> のままにしたが、ユーザー指定に合わせて最新 <strong>v2.1.195</strong> の full release note は全項目和訳して panel 内に残した。"
   ],
   "sources": [
     {
@@ -119,6 +148,10 @@
     {
       "title": "Anthony Morris on remote control versus server mode",
       "url": "https://x.com/amorriscode/status/2071460637897834969"
+    },
+    {
+      "title": "Claude Code docs: remote control",
+      "url": "https://code.claude.com/docs/en/remote-control"
     },
     {
       "title": "Anthropic Engineering listing",
