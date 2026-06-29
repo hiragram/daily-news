@@ -1,14 +1,14 @@
 {
   "date": "2026-06-29",
-  "windowLabel": "2026-06-28 03:02:32 JST - 2026-06-29 03:02:32 JST",
-  "archiveTitle": "steering and Linux signals",
-  "archiveSummary": "Official 0件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-06-28 03:02:32 JST から 2026-06-29 03:02:32 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@amorriscode</strong> が desktop app の <strong>steering</strong> を近く出すと示唆し、Linux 版について <strong>stay tuned</strong> と返答し、computer use team が feedback を把握していると補足した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
+  "windowLabel": "2026-06-28 09:01:35 JST - 2026-06-29 09:01:35 JST",
+  "archiveTitle": "Claude Code archetypes and steering",
+  "archiveSummary": "Official 0件、engineer signal 5件、Claude Code release 0件。",
+  "latestSummary": "2026-06-28 09:01:35 JST から 2026-06-29 09:01:35 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@bcherny</strong> が Claude Code team を支える5つの archetype を整理し、builder / sweeper 役割に対して Claude が既に有効だと補足したほか、<strong>@amorriscode</strong> が desktop app の <strong>steering</strong> を近く出すことと Linux 版の意向を reply で示した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓に入る新規 post はなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この24時間窓に入る新着はなかった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は desktop app の <strong>steering</strong> が近いこと、Linux 版を出したい意向、computer use feedback が team 内で共有されていることを reply で補足した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 03:02 JST</strong> より前だった。"
+    "<strong>Engineer signals 5件</strong>: <strong>@bcherny</strong> は Claude Code team の役割分担と Claude の補助可能性を整理し、<strong>@amorriscode</strong> は steering、Linux 対応意向、computer use feedback 認識を補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 09:01 JST</strong> より前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -24,13 +24,31 @@
   "signals": [
     {
       "label": "Engineer X",
+      "datetime": "2026-06-29T08:45:25+09:00",
+      "displayTime": "2026-06-29 08:45 JST",
+      "title": "@bcherny が Claude Code team の5 archetype を整理",
+      "summary": "<strong>@bcherny</strong> は、engineering / product / design / DS などが溶け合う将来像を踏まえ、Claude Code team には <strong>Prototyper</strong>、<strong>Builder</strong>、<strong>Sweeper</strong>、<strong>Frontend Platform</strong>、<strong>Multiplier</strong> の5 archetype があると説明した。Claude Code team の役割設計を外部向けに言語化した signal。",
+      "url": "https://x.com/bcherny/status/2071379474277613732",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-29T08:54:39+09:00",
+      "displayTime": "2026-06-29 08:54 JST",
+      "title": "@bcherny が Builder / Sweeper に対する Claude 活用を補足",
+      "summary": "<strong>@bcherny</strong> は、coding が概ね解決されつつあるなら Builder と Sweeper は不要ではないかという問いに対し、<strong>Claude can help with all of these</strong> と返し、特に <strong>Sweeper/Builder Claude</strong> は現時点でもかなり良いと述べた。役割が Claude に置き換わるのでなく、各 archetype を Claude が補強するという見立てを示した。",
+      "url": "https://x.com/bcherny/status/2071381796999282716",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
       "datetime": "2026-06-29T02:24:07+09:00",
       "displayTime": "2026-06-29 02:24 JST",
       "title": "@amorriscode が steering を近く出すと案内",
-      "summary": "<strong>@amorriscode</strong> は、desktop app で execution flow を止めずに prompt conversation を steer できるかという質問に対し、<strong>steering will be out soon</strong> と reply した。Claude Code desktop の操作導線に新しい介入機能が近いことを示す product signal。",
+      "summary": "<strong>@amorriscode</strong> は、desktop app で execution flow を止めずに prompt conversation を steer できるかという質問に対し、<strong>steering will be out soon</strong> と reply した。Claude Code desktop の操作途中に介入する新機能が近いことを示す product signal。",
       "url": "https://x.com/amorriscode/status/2071283517494104304",
-      "urlLabel": "X で見る",
-      "primary": true
+      "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
@@ -66,10 +84,10 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 03:02 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 09:01 JST</strong> より前だった。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新 release の <strong>v2.1.195</strong> については full release note を GitHub CLI で完全取得し確認済みだが、この report では window 外のため掲載していない。"
+        "最新 release の <strong>v2.1.195</strong> については full release note を GitHub CLI で完全取得し、<strong>新機能 1件</strong>、<strong>変更 3件</strong>、<strong>修正 8件</strong> に分類して全項目を和訳確認済みだが、この report では window 外のため掲載していない。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -77,11 +95,19 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は 0 件だった。",
-    "engineer watch では監視対象アカウントを広く確認したが、この24時間窓で主要 signal は <strong>@amorriscode</strong> の steering / Linux / computer use 関連 reply に集中していた。desktop slowdown の個別サポートや文脈不明瞭な reply は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 03:02 JST</strong> より前のため除外した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回 window 開始より前のため外した。"
+    "engineer watch では監視対象アカウントを広く確認したが、Claude / Anthropic と直接関係しない雑談、World Cup bracket 投稿、文脈の薄い support reply は main signal から外した。",
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 09:01 JST</strong> より前のため除外した。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回 window 開始より前のため report 本文から外した。"
   ],
   "sources": [
+    {
+      "title": "Boris Cherny on Claude Code team archetypes",
+      "url": "https://x.com/bcherny/status/2071379474277613732"
+    },
+    {
+      "title": "Boris Cherny on Builder and Sweeper roles with Claude",
+      "url": "https://x.com/bcherny/status/2071381796999282716"
+    },
     {
       "title": "Anthony Morris on steering",
       "url": "https://x.com/amorriscode/status/2071283517494104304"
