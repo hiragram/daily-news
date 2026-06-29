@@ -1,14 +1,14 @@
 {
   "date": "2026-06-29",
-  "windowLabel": "2026-06-28 09:01:35 JST - 2026-06-29 09:01:35 JST",
-  "archiveTitle": "Claude Code archetypes and steering",
+  "windowLabel": "2026-06-28 15:02:34 JST - 2026-06-29 15:02:34 JST",
+  "archiveTitle": "Archetypes and remote control signals",
   "archiveSummary": "Official 0件、engineer signal 5件、Claude Code release 0件。",
-  "latestSummary": "2026-06-28 09:01:35 JST から 2026-06-29 09:01:35 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@bcherny</strong> が Claude Code team を支える5つの archetype を整理し、builder / sweeper 役割に対して Claude が既に有効だと補足したほか、<strong>@amorriscode</strong> が desktop app の <strong>steering</strong> を近く出すことと Linux 版の意向を reply で示した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
+  "latestSummary": "2026-06-28 15:02:34 JST から 2026-06-29 15:02:34 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、<strong>Anthropic Engineering</strong> / <strong>Research</strong> / <strong>News</strong> / <strong>Claude Blog</strong> にも新着記事はなかった。engineer 側では <strong>@bcherny</strong> が Claude Code team の5 archetype を整理し、Builder / Sweeper を Claude が既にかなり補助できると補足したほか、<strong>@amorriscode</strong> が desktop app の新しい介入 UX を flag 下で今週か来週に出したいこと、<strong>remote control</strong> の default-on 設定や <strong>server mode</strong> との違いを説明した。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓に入る新規 post はなかった。",
     "<strong>Official articles 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の visible publication date を確認したが、この24時間窓に入る新着はなかった。",
-    "<strong>Engineer signals 5件</strong>: <strong>@bcherny</strong> は Claude Code team の役割分担と Claude の補助可能性を整理し、<strong>@amorriscode</strong> は steering、Linux 対応意向、computer use feedback 認識を補足した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 09:01 JST</strong> より前だった。"
+    "<strong>Engineer signals 5件</strong>: <strong>@bcherny</strong> は Claude Code team の archetype を整理し、<strong>@amorriscode</strong> は desktop app の新しい介入 UX、remote control の default 設定、server mode との違いを補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-28 15:02 JST</strong> より前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -43,29 +43,29 @@
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-06-29T02:24:07+09:00",
-      "displayTime": "2026-06-29 02:24 JST",
-      "title": "@amorriscode が steering を近く出すと案内",
-      "summary": "<strong>@amorriscode</strong> は、desktop app で execution flow を止めずに prompt conversation を steer できるかという質問に対し、<strong>steering will be out soon</strong> と reply した。Claude Code desktop の操作途中に介入する新機能が近いことを示す product signal。",
-      "url": "https://x.com/amorriscode/status/2071283517494104304",
+      "datetime": "2026-06-29T09:30:15+09:00",
+      "displayTime": "2026-06-29 09:30 JST",
+      "title": "@amorriscode が desktop app の新UXは flag 下で今週か来週と説明",
+      "summary": "<strong>@amorriscode</strong> は、desktop app で execution 中の会話介入 UX について、<strong>Have this behind a flag while I iterate on UX internally. Hopefully out this week or next.</strong> と reply した。送信タイミングや steer 周辺の新しい interaction を近く試験投入することを示す signal。",
+      "url": "https://x.com/amorriscode/status/2071390755198046516",
       "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-06-29T02:23:12+09:00",
-      "displayTime": "2026-06-29 02:23 JST",
-      "title": "@amorriscode が Linux 版について stay tuned と返答",
-      "summary": "<strong>@amorriscode</strong> は、Linux desktop 対応を求める user に対し、自分の prior tweet は joke であり、<strong>you want Linux, we want to ship Linux</strong> としたうえで <strong>stay tuned</strong> と reply した。Linux 提供を目指していることを示す roadmap signal。",
-      "url": "https://x.com/amorriscode/status/2071283285725204985",
+      "datetime": "2026-06-29T07:38:49+09:00",
+      "displayTime": "2026-06-29 07:38 JST",
+      "title": "@amorriscode が remote control の default-on 設定を案内",
+      "summary": "<strong>@amorriscode</strong> は、remote workflow に関する thread で <strong>you can turn remote control on by default if you want</strong> と reply した。remote control を都度起動するだけでなく、既定で有効化する運用がすでに可能だと示した小さな product signal。",
+      "url": "https://x.com/amorriscode/status/2071362711502589977",
       "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-06-28T12:15:56+09:00",
-      "displayTime": "2026-06-28 12:15 JST",
-      "title": "@amorriscode が computer use feedback 認識を補足",
-      "summary": "<strong>@amorriscode</strong> は、Claude Code の computer use に関する不満への reply で、自分の伝達ミスだったとしたうえで、team は差分を理解しており <strong>computer use team</strong> も feedback を把握していると述べた。computer use 体験の課題認識が内部で共有されていることを示す signal。",
-      "url": "https://x.com/amorriscode/status/2071070063537610973",
+      "datetime": "2026-06-29T14:07:56+09:00",
+      "displayTime": "2026-06-29 14:07 JST",
+      "title": "@amorriscode が remote control と server mode の役割差を説明",
+      "summary": "<strong>@amorriscode</strong> は、<strong>remote control</strong> は外出先から既存の Claude Code session を操作する用途で、<strong>server mode</strong> は別 app から machine 上に新しい session を立ち上げる用途だと説明し、公式 docs も添えた。remote access surface の切り分けが明確になった。",
+      "url": "https://x.com/amorriscode/status/2071460637897834969",
       "urlLabel": "X で見る"
     }
   ],
@@ -78,16 +78,16 @@
         "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> のままだった。",
         "この report では official site listing を source of truth とし、window 内の visible publication date が確認できない記事は加えていない。"
       ],
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Anthropic Research 一覧を見る"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 09:01 JST</strong> より前だった。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-28 15:02 JST</strong> より前だった。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新 release の <strong>v2.1.195</strong> については full release note を GitHub CLI で完全取得し、<strong>新機能 1件</strong>、<strong>変更 3件</strong>、<strong>修正 8件</strong> に分類して全項目を和訳確認済みだが、この report では window 外のため掲載していない。"
+        "最新 release の <strong>v2.1.195</strong> については full release note を GitHub CLI で完全取得し、<strong>新機能 1件</strong>、<strong>変更 3件</strong>、<strong>修正 8件</strong> に分類して全項目を和訳確認済みだが、この report では window 外のため掲載していない."
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -95,8 +95,8 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は 0 件だった。",
-    "engineer watch では監視対象アカウントを広く確認したが、Claude / Anthropic と直接関係しない雑談、World Cup bracket 投稿、文脈の薄い support reply は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 09:01 JST</strong> より前のため除外した。",
+    "engineer watch では監視対象アカウントを広く確認したが、Claude / Anthropic と直接関係しない雑談、World Cup bracket 投稿、文脈の薄い support reply、repost は main signal から外した。",
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 24, 2026</strong> で、今回 window 開始 <strong>2026-06-28 15:02 JST</strong> より前のため除外した。",
     "Claude Code release notes は GitHub CLI を唯一の source of truth とした。<strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回 window 開始より前のため report 本文から外した。"
   ],
   "sources": [
@@ -109,16 +109,16 @@
       "url": "https://x.com/bcherny/status/2071381796999282716"
     },
     {
-      "title": "Anthony Morris on steering",
-      "url": "https://x.com/amorriscode/status/2071283517494104304"
+      "title": "Anthony Morris on flagged desktop app UX",
+      "url": "https://x.com/amorriscode/status/2071390755198046516"
     },
     {
-      "title": "Anthony Morris on Linux support",
-      "url": "https://x.com/amorriscode/status/2071283285725204985"
+      "title": "Anthony Morris on remote control default setting",
+      "url": "https://x.com/amorriscode/status/2071362711502589977"
     },
     {
-      "title": "Anthony Morris on computer use feedback",
-      "url": "https://x.com/amorriscode/status/2071070063537610973"
+      "title": "Anthony Morris on remote control versus server mode",
+      "url": "https://x.com/amorriscode/status/2071460637897834969"
     },
     {
       "title": "Anthropic Engineering listing",
