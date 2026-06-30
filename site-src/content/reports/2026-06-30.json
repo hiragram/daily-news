@@ -1,85 +1,186 @@
 {
   "date": "2026-06-30",
-  "windowLabel": "2026-06-29 03:02:36 JST - 2026-06-30 03:02:36 JST",
-  "archiveTitle": "Microsoft Foundry GA",
-  "archiveSummary": "Claude Blog 1件、official X 0件、Claude Code release 0件。",
-  "latestSummary": "2026-06-29 03:02:36 JST から 2026-06-30 03:02:36 JST の24時間では、<strong>@AnthropicAI</strong> / <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> の新規 main post は確認できず、監視対象の engineer / researcher アカウントでも Claude / Anthropic 関連の有意な新規 signal は見当たらなかった。公式サイトでは <strong>Claude Blog</strong> に <strong>Claude in Microsoft Foundry is now generally available</strong> が <strong>June 29, 2026</strong> で公開され、Azure 環境での Claude 提供、既存の Azure 認証・課金・ガバナンス、US data zone を案内している。Claude Code はこの24時間窓に入る新規 release がなく、最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開のため対象外だったが、指定どおり full release note の全12項目を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-06-29 09:01:14 JST - 2026-06-30 09:01:14 JST",
+  "archiveTitle": "Gateway, Foundry, and v2.1.196",
+  "archiveSummary": "Official 5件、engineer signal 4件、Claude Code release 1件。",
+  "latestSummary": "2026-06-29 09:01:14 JST から 2026-06-30 09:01:14 JST の24時間では、<strong>Claude Blog</strong> に <strong>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</strong> と <strong>Claude in Microsoft Foundry is now generally available</strong> の2本が公開され、official X でも <strong>@ClaudeAI</strong> / <strong>@ClaudeDevs</strong> が Microsoft Foundry と Spotify 対談を投稿した。engineer 側では <strong>@bcherny</strong> が次版 Claude Code で subagents の background 実行を default 化すると予告し、<strong>@katelyn_lesse</strong> は Claude Managed Agents が full rearchitecture を経て public beta に入り、p50 time to first token を約60%改善したと説明した。Claude Code は <strong>v2.1.196</strong> が <strong>2026-06-30 08:27 JST</strong> に公開され、org default models、clickable file attachments、background session 信頼性改善などを含む full release note を全件和訳した。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓に入る新規 post はなかった。",
-    "<strong>Official articles 1件</strong>: <strong>Claude Blog</strong> の <strong>Claude in Microsoft Foundry is now generally available</strong> が <strong>June 29, 2026</strong> で公開され、Claude を Azure ネイティブに使う提供形態を案内した。",
-    "<strong>Engineer signals 0件</strong>: 監視対象の engineer / researcher アカウントでは、この24時間窓に入る Claude / Anthropic 関連の有意な新規 main post や高信頼の reply signal を確認できなかった。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で最新 release を確認したが、<strong>v2.1.195</strong> の公開時刻は <strong>2026-06-27 06:29 JST</strong> で、今回 window 開始の <strong>2026-06-29 03:02 JST</strong> より前だった。"
+    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> が Microsoft Foundry での一般提供を案内し、<strong>@ClaudeDevs</strong> は同件の補足と Spotify VP Engineering との対談投稿を行った。<strong>@AnthropicAI</strong> の新規 main post は 0 件だった。",
+    "<strong>Official articles 2件</strong>: <strong>Claude Blog</strong> に <strong>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</strong> と <strong>Claude in Microsoft Foundry is now generally available</strong> がともに <strong>June 29, 2026</strong> で掲載された。",
+    "<strong>Engineer signals 4件</strong>: <strong>@bcherny</strong> は次版 Claude Code で subagents の background 実行 default 化を予告し、<strong>@amorriscode</strong> は queue messages vs steer の新UXを flag 下で今週か来週に出したいと述べ、<strong>@katelyn_lesse</strong> は Claude Managed Agents の再設計と public beta を説明した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.196</strong> を確認した。公開時刻は <strong>2026-06-30 08:27 JST</strong> で今回 window 内に入り、<strong>新機能 / 変更 / 修正</strong> に分けて visible bullet 全件を和訳した。"
   ],
   "officialNews": [
     {
       "label": "Official site",
       "datetime": "2026-06-29T12:00:00+09:00",
       "displayTime": "2026-06-29",
+      "title": "Claude Blog が apps gateway を公開",
+      "summary": "<strong>Claude Blog</strong> の <strong>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</strong> は、Claude Code 向けの self-hosted control plane を発表した。企業 SSO、managed settings、role-based access、per-user cost attribution をまとめ、Amazon Bedrock / Google Cloud / Claude API への routing と spend cap を一元管理できるとしている。",
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-06-29T12:00:00+09:00",
+      "displayTime": "2026-06-29",
       "title": "Claude Blog が Microsoft Foundry での Claude 一般提供を公開",
-      "summary": "<strong>Claude Blog</strong> には <strong>Claude in Microsoft Foundry is now generally available</strong> が <strong>June 29, 2026</strong> で掲載された。Azure 上で Claude を実行しつつ、既存の Azure 認証・課金・ガバナンスを使え、US data zone を選べること、Anthropic が inference を運用すること、初期提供では <strong>Claude Opus 4.8</strong> と <strong>Claude Haiku 4.5</strong> を Messages API で使えることを案内している。",
+      "summary": "<strong>Claude Blog</strong> の <strong>Claude in Microsoft Foundry is now generally available</strong> は、Claude を Azure 環境で一般提供したと案内した。Azure の認証・課金・ガバナンスをそのまま使え、US data zone を選択でき、開始時点では <strong>Claude Opus 4.8</strong> と <strong>Claude Haiku 4.5</strong> を Messages API で利用できる。",
       "url": "https://claude.com/blog/claude-in-microsoft-foundry",
       "urlLabel": "記事を読む",
       "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-30T02:56:07+09:00",
+      "displayTime": "2026-06-30 02:56 JST",
+      "title": "@ClaudeAI が Microsoft Foundry 一般提供を告知",
+      "summary": "<strong>@ClaudeAI</strong> は Claude が Microsoft Foundry 上で hosted on Azure として一般提供になったと投稿し、<strong>Claude Opus 4.8</strong> と <strong>Claude Haiku 4.5</strong>、Azure authentication / billing / commitment retirement を短く案内した。公式 blog 記事の X 告知として扱える main post。",
+      "url": "https://x.com/claudeai/status/2071653958905467027",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-30T05:48:53+09:00",
+      "displayTime": "2026-06-30 05:48 JST",
+      "title": "@ClaudeDevs が Microsoft Foundry 対応を再告知",
+      "summary": "<strong>@ClaudeDevs</strong> は Microsoft Foundry 上で Claude models を Azure hosted で実行できると再告知し、<strong>prompt caching</strong> と <strong>thinking</strong> など Messages API の機能に触れた。<strong>@ClaudeAI</strong> の Foundry 投稿を quote するかたちで developer audience 向けに補足した。",
+      "url": "https://x.com/ClaudeDevs/status/2071697437136486585",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-06-30T04:05:30+09:00",
+      "displayTime": "2026-06-30 04:05 JST",
+      "title": "@ClaudeDevs が Spotify VP Engineering との対談を共有",
+      "summary": "<strong>@ClaudeDevs</strong> は Boris Cherny と Spotify VP Engineering の対談を共有し、Spotify が <strong>1日4,500件の production deploy</strong> を行い、<strong>73% of PRs are now AI-assisted</strong> と紹介した。Claude の直接機能更新ではないが、Claude Code 周辺の導入文脈として公式に signal を出した投稿。",
+      "url": "https://x.com/ClaudeDevs/status/2071671418245492926",
+      "urlLabel": "X で見る"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Official X の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認したが、この24時間窓に入る新規 main post は確認できなかった。official X の増分は 0 件だった。"
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> を確認したが、この24時間窓に入る新規 main post は確認できなかった。official X の増分は <strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 2 件だった。"
     },
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> のままで、この24時間窓に入る visible publication date の新着は確認できなかった。公式サイト4面のうち新着があったのは <strong>Claude Blog</strong> の <strong>June 29, 2026</strong> 記事 1 件だけだった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> のままで、この24時間窓に入る visible publication date の新着は確認できなかった。公式サイト4面のうち新着があったのは <strong>Claude Blog</strong> の <strong>June 29, 2026</strong> 記事 2 件だけだった。"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-30T02:31:10+09:00",
+      "displayTime": "2026-06-30 02:31 JST",
+      "title": "@bcherny が次版 Claude Code で subagents の background default 化を予告",
+      "summary": "<strong>@bcherny</strong> は <strong>In the next version of Claude Code</strong> として、subagents が default で background 実行になり、subagent が動いているあいだも Claude と会話を続けられると説明した。foreground で走らせたい場合は明示的に指示する方針だと述べている。",
+      "url": "https://x.com/bcherny/status/2071647677591466098",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-29T09:30:15+09:00",
+      "displayTime": "2026-06-29 09:30 JST",
+      "title": "@amorriscode が queue messages vs steer の新UXを flag 下で準備中と説明",
+      "summary": "<strong>@amorriscode</strong> は Claude Code desktop で message を turn 完了後に queue したいという要望に対し、<strong>Have this behind a flag while I iterate on UX internally. Hopefully out this week or next.</strong> と reply した。execution 中の会話介入 UX を内部で詰めながら近く試験投入する signal。",
+      "url": "https://x.com/amorriscode/status/2071390755198046516",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-30T00:49:20+09:00",
+      "displayTime": "2026-06-30 00:49 JST",
+      "title": "@katelyn_lesse が Claude Managed Agents の再設計と public beta を説明",
+      "summary": "<strong>@katelyn_lesse</strong> は Claude Managed Agents について、初期の single-container 設計では latency / reliability / security に課題があり、<strong>brain と hands を分離する full rearchitecture</strong> を行ったと thread で説明した。credential と reliability の問題を解消し、<strong>p50 time to first token が約60%改善</strong> した版を現在 <strong>public beta</strong> として出しているという高信頼 signal。",
+      "url": "https://x.com/katelyn_lesse/status/2071622050847060039",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-06-29T14:07:56+09:00",
+      "displayTime": "2026-06-29 14:07 JST",
+      "title": "@amorriscode が remote control と server mode の役割差を説明",
+      "summary": "<strong>@amorriscode</strong> は、<strong>remote control</strong> は外出先から既存の Claude Code session を操作する用途、<strong>server mode</strong> は別 app から machine 上に新しい session を立ち上げる用途だと説明し、docs へのリンクも添えた。remote access surface の切り分けを明確にした補足 signal。",
+      "url": "https://x.com/amorriscode/status/2071460637897834969",
+      "urlLabel": "X で見る"
+    }
+  ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "この24時間窓で visible publication date ベースの公式記事として確認できたのは、<strong>Claude Blog</strong> の <strong>Claude in Microsoft Foundry is now generally available</strong> 1 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> には window 内の新規記事を確認できなかった。",
+      "headline": "2件",
+      "body": "この24時間窓で visible publication date ベースの公式記事として確認できたのは、<strong>Claude Blog</strong> の <strong>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</strong> と <strong>Claude in Microsoft Foundry is now generally available</strong> の 2 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> には window 内の新規記事を確認できなかった。",
       "details": [
-        "<strong>Claude Blog</strong>: <strong>June 29, 2026</strong> 公開の <strong>Claude in Microsoft Foundry is now generally available</strong> は、Claude を Azure 環境で動かしつつ Azure の認証・課金・ガバナンスを使えること、US data zone を選べること、Azure hosted と Anthropic hosted の2つの提供形態があることを整理している。",
+        "<strong>Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud</strong> は、Claude Code 向けの self-hosted gateway を発表し、OIDC ベースの企業認証、managed settings、telemetry relay、provider routing、spend caps を一括管理できると説明した。",
+        "<strong>Claude in Microsoft Foundry is now generally available</strong> は、Claude を Azure 環境で一般提供し、Azure 認証・課金・ガバナンス、US data zone、Azure hosted / Anthropic hosted の2系統を整理した。",
         "<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> が最新表示で、今回 window に入る新規の visible publication date は見当たらなかった。"
       ],
-      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "urlLabel": "Claude Blog 記事を見る"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release はなかった。最新の <strong>v2.1.195</strong> は <strong>2026-06-27 06:29 JST</strong> 公開で、今回の window 開始 <strong>2026-06-29 03:02 JST</strong> より前だった。以下には、指定どおり最新 <strong>v2.1.195</strong> の full release note を <strong>新機能</strong> / <strong>変更</strong> / <strong>修正</strong> に分けて全項目和訳した。",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.196</strong> 1 件だった。公開時刻は <strong>2026-06-30 08:27 JST</strong> で、org default models、clickable file attachments、background session 信頼性改善、watchdog default-on などを含む。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "<strong>v2.1.195</strong> の release note 本文は GitHub CLI で完全取得し、visible bullet 全 12 項目を下で分類して掲載した。"
+        "<strong>v2.1.196</strong> の release note 本文は GitHub CLI で完全取得し、visible bullet 全 27 項目を <strong>新機能 / 変更 / 修正</strong> に分類して掲載した。"
       ],
-      "sections": [
+      "releases": [
         {
-          "title": "新機能",
-          "items": [
-            "<code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> を追加し、fullscreen mode でホイールスクロールは残したまま mouse の click / drag / hover を無効化できるようにした。"
-          ]
-        },
-        {
-          "title": "変更",
-          "items": [
-            "Linux の voice mode を改善し、SoX が入っていても audio capture device がない場合は <strong>SoX not installed</strong> ではなく <strong>no microphone</strong> と区別して表示するようにした。",
-            "<code>claude agents</code> の completed list を改善し、利用可能な縦方向スペースを埋めつつ、低い terminal では header を圧縮して live session を見やすくした。",
-            "Remote session の起動体験を改善し、container 起動中に provisioning checklist を表示するようにした。"
-          ]
-        },
-        {
-          "title": "修正",
-          "items": [
-            "hyphen を含む hook matcher（例: <code>code-reviewer</code>、<code>mcp__brave-search</code>）が誤って部分一致していた問題を修正し、exact match するようにした。hyphen 付き MCP server の全 tool に当てる場合は <code>mcp__brave-search__.*</code> を使う。",
-            "macOS で default input device が変わったあと、長時間 session の voice dictation が無音を拾い続ける問題を修正した。",
-            "日本語・中国語・タイ語のように space を使わない言語で、voice dictation の auto-submit が発火しない問題を修正した。",
-            "project の <code>.claude/settings.json</code> だけで有効化された external plugin が、loader path ごとに毎回 explicit install consent を要求していた問題を修正した。",
-            "<code>/plugin</code> の Enable / Disable が、plugin の <code>plugin.json</code> にある <code>name</code> と marketplace entry 名が違うと動かない問題を修正した。",
-            "background job が新しい Claude Code version で書き込まれたとき、<code>claude agents</code> から消えたり data を失ったりする問題を修正した。",
-            "crash した background task を開き直したとき、restart 内容ではなく最大5秒の blank screen が出る問題を修正した。",
-            "control socket の起動失敗で到達不能になった background agent daemon が残り、restart を妨げる問題を修正した。"
-          ]
+          "version": "v2.1.196",
+          "publishedAt": "2026-06-30 08:27 JST",
+          "summary": "org default models、session の readable default names、clickable file attachments を追加し、background session / agents の信頼性改善と複数の不具合修正を行った。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "organization default models のサポートを追加し、管理者が org console で既定モデルを設定できるようにした。ユーザー自身が未選択のときは <code>/model</code> に <strong>Org default</strong> または <strong>Role default</strong> と表示される。",
+                "session 開始時に readable な default 名を付けるようにし、session を識別して message しやすくした。",
+                "chat 内の file attachment を clickable にし、Cmd/Ctrl-click で Finder / Explorer 上のファイルを表示できるようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "セキュリティ変更として、<code>claude mcp list</code> / <code>get</code> が committed な <code>.claude/settings.json</code> で repo 自身が self-approve した <code>.mcp.json</code> server を起動しないようにした。untrusted workspace では <strong>⏸ Pending approval</strong> と表示する。",
+                "background session の信頼性を改善し、長時間コマンドや workflow が session process の停止・再起動・更新をまたいでも継続するようにした。Windows では background shell を kill せず handoff する。",
+                "background agents を改善し、daemon restart で kill された worker が次に agents view を開いたとき自動再開するようにした。",
+                "<code>/code-review</code> workflow を改善し、cleanup finder を5本から1本に統合して token 使用量を約25%削減した。",
+                "terminal UI の per-frame rendering を軽くし、streaming 中に no-op subtree walk を skip するようにした。",
+                "streaming idle watchdog を全 provider で default-on にし、response stream が5分間イベントを出さない場合は abort して retry するようにした。無効化には <code>CLAUDE_ENABLE_STREAM_WATCHDOG=0</code> を使う。",
+                "<code>ANTHROPIC_BASE_URL</code> が Anthropic 以外の host を指すときは Remote Control を無効化するようにし、既存の <code>CLAUDE_CODE_USE_BEDROCK</code> / <code>_VERTEX</code> / <code>_FOUNDRY</code> 時の挙動に合わせた。",
+                "foreground session から agents view を開く操作を、背景 session と同じく <strong>← 1回</strong> で済むように変更した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "background job を起こした際に transcript probe が本物の transcript を誤読すると、会話が永久削除され original prompt を再実行してしまう問題を修正した。該当ファイルは削除せず退避するようにした。",
+                "複数の parallel request が飛んでいる瞬間に usage limit に達すると、rate-limit warning が点滅して消えたり rate-limit telemetry を過大計上したりする問題を修正した。",
+                "background session の turn 後に StructuredOutput の schema reject と retry が重なって duplicate recap line が出る問題を修正した。",
+                "PowerShell での <code>git diff</code> / <code>git grep</code>、<code>egrep</code> / <code>fgrep</code>、および <code>|</code> を含む quoted search pattern が exit 1 のとき failure 扱いされる問題を修正し、Bash と同じ挙動に合わせた。",
+                "<code>claude agents</code> side panel の複数の不具合を修正し、agent を開いたとき keyboard focus が詰まる問題、background job が毎回 subagent type を失う問題、running 中なのに status が誤表示される問題を直した。",
+                "<code>claude agents --dangerously-skip-permissions</code> が bypass disclaimer を出さず auto mode に silently fallback していた問題を修正し、spawn された agent にも bypass mode を適用するようにした。",
+                "Remote session が server restart で mid-turn 中断したとき、次の worker で自動再開しない問題を修正した。",
+                "<code>/cd</code> で移動した session が non-graceful exit 後に旧 directory の resume list に再出現する問題を、旧 path に special character がある場合も含めて修正した。",
+                "<code>claude plugin validate</code> が source が <code>.</code> の local plugin を skip し、最初の error class で止まってしまう問題を修正した。",
+                "idle prompt で <code>Esc Esc</code> を押しても rewind menu が開かない regression を修正した。background agent を止めるには引き続き <code>Ctrl+C</code> または <code>Ctrl+X Ctrl+K</code> を使う。",
+                "scope 未指定時に MCP OAuth が authorization server の <code>scopes_supported</code> 全体を要求してしまい、GitLab self-hosted や enterprise IdP で <code>invalid_scope</code> になる問題を修正した。",
+                "Bedrock 上で <code>/context</code> が全 tool group を 0 tokens と表示してしまう問題を修正した。",
+                "<code>/deep-research</code> が verifier failure を <strong>all claims refuted</strong> と誤表示していた問題を修正し、<code>unverified</code> と示すようにした。",
+                "marketplace を git repo backed な local folder path として追加した場合に、plugin dependency version pin が無視される問題を修正した。",
+                "<code>claude agents</code> の session status 表示を修正し、completed row が <strong>Done</strong> と <strong>Needs your input</strong> の間で反転しないようにし、stalled agent は <strong>Needs attention</strong> と表示し、PR に触れた結果には clickable link を付けた。",
+                "voice mode 有効時に voice dictation が space を飲み込み、非常に速い typing 中に意図せず recording を始める問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
+          "urlLabel": "v2.1.196 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -87,12 +188,56 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は 0 件だった。",
-    "engineer watch では監視対象アカウントを広く確認したが、この24時間窓に入る Claude / Anthropic 関連の高信頼な新規 post や reply signal は確認できなかったため <strong>signals</strong> は空配列にした。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> が最新表示で、今回 window に残したのは <strong>Claude Blog</strong> の <strong>June 29, 2026</strong> 記事 1 件だけだった。",
-    "Claude Code の新規 release は window 内にないため panel headline は <strong>0件</strong> のままにしたが、ユーザー指定に合わせて最新 <strong>v2.1.195</strong> の full release note は全項目和訳して panel 内に残した。"
+    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は <strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 2 件、<strong>@AnthropicAI</strong> 0 件だった。",
+    "engineer watch では監視対象アカウントを広く確認したが、Claude / Anthropic と直接関係しない雑談、support reply、World Cup や League の話題、短すぎる acknowledgement reply は main signal から外した。",
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 23, 2026</strong> が最新表示で、今回 window に残した公式記事は <strong>Claude Blog</strong> の <strong>June 29, 2026</strong> 記事 2 件のみだった。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.195</strong> 以前は外し、window 内に入った <strong>v2.1.196</strong> のみを full note で掲載した。"
   ],
   "sources": [
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway"
+    },
+    {
+      "title": "Claude Blog: Claude in Microsoft Foundry is now generally available",
+      "url": "https://claude.com/blog/claude-in-microsoft-foundry"
+    },
+    {
+      "title": "ClaudeAI on Microsoft Foundry availability",
+      "url": "https://x.com/claudeai/status/2071653958905467027"
+    },
+    {
+      "title": "ClaudeDevs on Microsoft Foundry support",
+      "url": "https://x.com/ClaudeDevs/status/2071697437136486585"
+    },
+    {
+      "title": "ClaudeDevs on Boris Cherny and Spotify engineering",
+      "url": "https://x.com/ClaudeDevs/status/2071671418245492926"
+    },
+    {
+      "title": "Boris Cherny on background subagents by default",
+      "url": "https://x.com/bcherny/status/2071647677591466098"
+    },
+    {
+      "title": "Anthony Morris on queued messaging UX",
+      "url": "https://x.com/amorriscode/status/2071390755198046516"
+    },
+    {
+      "title": "Katelyn Lesse on Claude Managed Agents rearchitecture",
+      "url": "https://x.com/katelyn_lesse/status/2071622050847060039"
+    },
+    {
+      "title": "Anthony Morris on remote control versus server mode",
+      "url": "https://x.com/amorriscode/status/2071460637897834969"
+    },
+    {
+      "title": "Claude Code docs: remote control",
+      "url": "https://code.claude.com/docs/en/remote-control"
+    },
     {
       "title": "Anthropic Engineering listing",
       "url": "https://www.anthropic.com/engineering"
@@ -106,20 +251,12 @@
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Claude Blog listing",
-      "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude Blog: Claude in Microsoft Foundry is now generally available",
-      "url": "https://claude.com/blog/claude-in-microsoft-foundry"
-    },
-    {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.195 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195"
+      "title": "Claude Code v2.1.196 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196"
     }
   ]
 }
