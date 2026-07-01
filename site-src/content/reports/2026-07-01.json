@@ -1,13 +1,13 @@
 {
   "date": "2026-07-01",
-  "windowLabel": "2026-06-30 15:02:00 JST - 2026-07-01 15:02:00 JST",
+  "windowLabel": "2026-06-30 21:02:59 JST - 2026-07-01 21:02:59 JST",
   "archiveTitle": "Sonnet 5, Fable redeploy, and loops",
   "archiveSummary": "Official 11件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-06-30 15:02:00 JST から 2026-07-01 15:02:00 JST の24時間では、<strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong>、<strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Redeploying Fable 5</strong> が並び、<strong>Claude Blog</strong> には <strong>Getting started with loops</strong> が公開された。official X では <strong>@ClaudeAI</strong> が Sonnet 5 と Claude Science を、<strong>@ClaudeDevs</strong> が Linux desktop beta、Sonnet 5、Managed Agents 更新を、<strong>@AnthropicAI</strong> が Fable 5 / Mythos 5 の access restoration と classifier 補足を投稿した。Claude Code の release は <strong>v2.1.197</strong> 1件で、release note 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "latestSummary": "2026-06-30 21:02:59 JST から 2026-07-01 21:02:59 JST の24時間では、<strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong>、<strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Redeploying Fable 5</strong> が並び、<strong>Claude Blog</strong> には <strong>Getting started with loops</strong> が公開された。official X では <strong>@ClaudeAI</strong> が Sonnet 5 と Claude Science を、<strong>@ClaudeDevs</strong> が Linux desktop beta、Sonnet 5、Managed Agents 更新を、<strong>@AnthropicAI</strong> が Fable 5 / Mythos 5 の access restoration と classifier 補足を投稿した。engineer 側では <strong>@trq212</strong> が Fable 5 fallback 時の課金と prompt cache miss 負担も補足した。Claude Code の release は <strong>v2.1.197</strong> 1件で、release note 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
     "<strong>Official X 7件</strong>: <strong>@ClaudeAI</strong> が <strong>Claude Sonnet 5</strong> と <strong>Claude Science</strong> を告知し、<strong>@ClaudeDevs</strong> は Linux desktop beta、<strong>Claude Sonnet 5</strong>、<strong>Claude Managed Agents</strong> 更新を投稿した。<strong>@AnthropicAI</strong> は <strong>Claude Fable 5</strong> / <strong>Claude Mythos 5</strong> の export controls 解除後の access restoration と classifier の補足を案内した。",
     "<strong>Official articles 4件</strong>: <strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong>、<strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Redeploying Fable 5</strong>、<strong>Claude Blog</strong> に <strong>Getting started with loops</strong> が掲載された。",
-    "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は Fable 5 再展開後も一部の routine coding / debugging task が <strong>Opus</strong> に fallback すると補足した。<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の Sonnet 5 対応と workspace / channel 単位の model 切替を案内し、<strong>@adocomplete</strong> は Sonnet 5 が <strong>Opus 4.8</strong> に近い性能を lower prices で出すと説明した。",
+    "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は Fable 5 再展開後も一部の routine coding / debugging task が <strong>Opus</strong> に fallback すると補足し、続く reply で fallback は利用者に分かること、<strong>prompt cache miss</strong> は Anthropic 側が負担すると説明した。<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の Sonnet 5 対応と workspace / channel 単位の model 切替を案内し、<strong>@adocomplete</strong> は Sonnet 5 が <strong>Opus 4.8</strong> に近い性能を lower prices で出すと説明した。",
     "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.197</strong> を確認した。公開時刻は <strong>2026-07-01 02:56 JST</strong> で今回の window 内に入り、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
@@ -131,7 +131,7 @@
       "datetime": "2026-07-01T14:08:32+09:00",
       "displayTime": "2026-07-01 14:08 JST",
       "title": "@trq212 が Fable 5 の fallback と false positive 改善を補足",
-      "summary": "<strong>@trq212</strong> は updated classifiers の補足として、一部の routine coding / debugging task は <strong>Opus 4.8</strong> に fallback すると説明し、続く self-reply で <strong>false positives</strong> を減らす方向で safeguards を改善中だと述べた。Fable 5 再展開の実運用を示す高シグナルな補足。",
+      "summary": "<strong>@trq212</strong> は updated classifiers の補足として、一部の routine coding / debugging task は <strong>Opus 4.8</strong> に fallback すると説明した。続く reply では fallback は利用者に見えること、<strong>Opus rate</strong> で課金されること、<strong>prompt cache miss</strong> は Anthropic 側が負担すること、さらに <strong>false positives</strong> を減らす方向で safeguards を改善中だと述べた。Fable 5 再展開の実運用を示す高シグナルな補足。",
       "url": "https://x.com/trq212/status/2072185565076988326",
       "urlLabel": "X で見る",
       "primary": true
@@ -285,6 +285,14 @@
     {
       "title": "Travis Fischer on Fable 5 classifier behavior",
       "url": "https://x.com/trq212/status/2072185565076988326"
+    },
+    {
+      "title": "Travis Fischer on Opus-rate fallback visibility",
+      "url": "https://x.com/trq212/status/2072199861261554016"
+    },
+    {
+      "title": "Travis Fischer on prompt cache miss cost during fallback",
+      "url": "https://x.com/trq212/status/2072221746577695071"
     },
     {
       "title": "Noah Zweben on Claude Tag admin model scope settings",
