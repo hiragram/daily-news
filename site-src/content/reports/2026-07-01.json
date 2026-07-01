@@ -1,14 +1,14 @@
 {
   "date": "2026-07-01",
-  "windowLabel": "2026-06-30 09:01:47 JST - 2026-07-01 09:01:47 JST",
-  "archiveTitle": "Sonnet 5, science, and managed agents",
-  "archiveSummary": "Official 9件、engineer signal 5件、Claude Code release 2件。",
-  "latestSummary": "2026-06-30 09:01:47 JST から 2026-07-01 09:01:47 JST の24時間では、<strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong> と <strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Claude Blog</strong> に <strong>Getting started with loops</strong> が公開された。official X では <strong>@ClaudeAI</strong> が <strong>Claude Sonnet 5</strong> と <strong>Claude Science</strong> を告知し、<strong>@ClaudeDevs</strong> は Linux desktop beta、Sonnet 5、Managed Agents 更新を投稿した。<strong>@AnthropicAI</strong> は <strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> の export controls 解除を受け、アクセス復旧を翌日に始めると案内した。Claude Code は <strong>v2.1.196</strong> と <strong>v2.1.197</strong> が window 内で公開され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-06-30 15:02:00 JST - 2026-07-01 15:02:00 JST",
+  "archiveTitle": "Sonnet 5, Fable redeploy, and loops",
+  "archiveSummary": "Official 11件、engineer signal 4件、Claude Code release 1件。",
+  "latestSummary": "2026-06-30 15:02:00 JST から 2026-07-01 15:02:00 JST の24時間では、<strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong>、<strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Redeploying Fable 5</strong> が並び、<strong>Claude Blog</strong> には <strong>Getting started with loops</strong> が公開された。official X では <strong>@ClaudeAI</strong> が Sonnet 5 と Claude Science を、<strong>@ClaudeDevs</strong> が Linux desktop beta、Sonnet 5、Managed Agents 更新を、<strong>@AnthropicAI</strong> が Fable 5 / Mythos 5 の access restoration と classifier 補足を投稿した。Claude Code の release は <strong>v2.1.197</strong> 1件で、release note 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official X 6件</strong>: <strong>@ClaudeAI</strong> が <strong>Claude Sonnet 5</strong> と <strong>Claude Science</strong> を告知し、<strong>@ClaudeDevs</strong> は Linux desktop beta、<strong>Claude Sonnet 5</strong>、<strong>Claude Managed Agents</strong> 更新を投稿した。<strong>@AnthropicAI</strong> は <strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> の export controls 解除を受けた復旧予定を共有した。",
-    "<strong>Official articles 3件</strong>: <strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong> と <strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Claude Blog</strong> に <strong>Getting started with loops</strong> がいずれも <strong>Jun 30, 2026</strong> で掲載された。",
-    "<strong>Engineer signals 5件</strong>: <strong>@adocomplete</strong> は Sonnet 5 が reasoning / tool use / coding / knowledge work で前世代を大きく改善し、<strong>Opus 4.8</strong> に近い性能を lower prices で出すと補足した。<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の Sonnet 5 対応を告知し、<strong>@amorriscode</strong> は task spawning と meta session tools の改善意向を示した。",
-    "<strong>Claude Code releases 2件</strong>: GitHub CLI で <strong>v2.1.196</strong> と <strong>v2.1.197</strong> を確認した。公開時刻はそれぞれ <strong>2026-06-30 08:27 JST</strong> と <strong>2026-07-01 02:56 JST</strong> で、両方とも今回 window 内に入った。visible bullet は省略せずに訳出した。"
+    "<strong>Official X 7件</strong>: <strong>@ClaudeAI</strong> が <strong>Claude Sonnet 5</strong> と <strong>Claude Science</strong> を告知し、<strong>@ClaudeDevs</strong> は Linux desktop beta、<strong>Claude Sonnet 5</strong>、<strong>Claude Managed Agents</strong> 更新を投稿した。<strong>@AnthropicAI</strong> は <strong>Claude Fable 5</strong> / <strong>Claude Mythos 5</strong> の export controls 解除後の access restoration と classifier の補足を案内した。",
+    "<strong>Official articles 4件</strong>: <strong>Anthropic News</strong> に <strong>Introducing Claude Sonnet 5</strong>、<strong>Claude Science, an AI workbench for scientists, is now available</strong>、<strong>Redeploying Fable 5</strong>、<strong>Claude Blog</strong> に <strong>Getting started with loops</strong> が掲載された。",
+    "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は Fable 5 再展開後も一部の routine coding / debugging task が <strong>Opus</strong> に fallback すると補足した。<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の Sonnet 5 対応と workspace / channel 単位の model 切替を案内し、<strong>@adocomplete</strong> は Sonnet 5 が <strong>Opus 4.8</strong> に近い性能を lower prices で出すと説明した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.197</strong> を確認した。公開時刻は <strong>2026-07-01 02:56 JST</strong> で今回の window 内に入り、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-06-30T12:00:00+09:00",
       "displayTime": "2026-06-30",
       "title": "Anthropic News が Claude Sonnet 5 を公開",
-      "summary": "<strong>Anthropic News</strong> の <strong>Introducing Claude Sonnet 5</strong> は、<strong>Claude Sonnet 5</strong> を最も agentic な Sonnet と位置づけ、reasoning、tool use、coding、knowledge work で <strong>Sonnet 4.6</strong> を大きく改善し、<strong>Opus 4.8</strong> に近い性能を lower prices で提供すると説明した。<strong>Free / Pro</strong> では default model になり、Claude Code と Claude Platform でも使える。",
+      "summary": "<strong>Anthropic News</strong> の <strong>Introducing Claude Sonnet 5</strong> は、<strong>Claude Sonnet 5</strong> を最も agentic な Sonnet と位置づけ、reasoning、tool use、coding、knowledge work で <strong>Sonnet 4.6</strong> を大きく改善し、<strong>Opus 4.8</strong> に近い性能を lower prices で提供すると説明した。<strong>Free / Pro</strong> の default model になり、Claude Code と Claude Platform でも使える。",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
       "urlLabel": "記事を読む",
       "primary": true
@@ -35,18 +35,37 @@
       "label": "Official site",
       "datetime": "2026-06-30T12:00:00+09:00",
       "displayTime": "2026-06-30",
+      "title": "Anthropic News が Redeploying Fable 5 を公開",
+      "summary": "<strong>Anthropic News</strong> の <strong>Redeploying Fable 5</strong> は、<strong>Fable 5</strong> を <strong>2026-07-01</strong> から Claude Platform、Claude.ai、Claude Code、Claude Cowork で再開すると案内した。<strong>Mythos 5</strong> は一部 US organizations へ復旧済みで、AWS / Google Cloud / Microsoft Foundry も順次戻すとしている。",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-06-30T12:00:00+09:00",
+      "displayTime": "2026-06-30",
       "title": "Claude Blog が loops 入門を公開",
-      "summary": "<strong>Claude Blog</strong> の <strong>Getting started with loops</strong> は、Claude Code team が定義する <strong>turn-based</strong>、<strong>goal-based</strong>、<strong>time-based</strong>、<strong>proactive</strong> の loop を整理し、どの primitive をいつ使うか、token usage をどう抑えるかを実践的にまとめた。",
+      "summary": "<strong>Claude Blog</strong> の <strong>Getting started with loops</strong> は、Claude Code / Claude app で使う loop の考え方を整理し、goal-driven に agent を回す場面、長時間実行で token usage を抑える考え方、継続監視や proactive automation への広げ方を実践寄りにまとめた。",
       "url": "https://claude.com/blog/getting-started-with-loops",
       "urlLabel": "記事を読む",
       "primary": true
     },
     {
       "label": "Official X",
+      "datetime": "2026-07-01T12:42:23+09:00",
+      "displayTime": "2026-07-01 12:42 JST",
+      "title": "@AnthropicAI が Fable 5 再展開の classifier 方針を補足",
+      "summary": "<strong>@AnthropicAI</strong> は Fable 5 再展開に合わせ、updated classifiers により一部の routine coding / debugging tasks は <strong>Opus</strong> に fallback すると補足した。誤検知を減らすため safeguards を継続改善すると明言している。",
+      "url": "https://x.com/AnthropicAI/status/2072163884430229756",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official X",
       "datetime": "2026-07-01T08:52:59+09:00",
       "displayTime": "2026-07-01 08:52 JST",
       "title": "@AnthropicAI が Fable 5 / Mythos 5 のアクセス復旧予定を告知",
-      "summary": "<strong>@AnthropicAI</strong> は Department of Commerce により <strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> の export controls が解除されたと投稿し、<strong>tomorrow</strong> から access restoration を始め、追って update すると案内した。Claude 系モデルの availability に関わる公式運用更新として扱える。",
+      "summary": "<strong>@AnthropicAI</strong> は Department of Commerce により <strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> の export controls が解除されたと投稿し、<strong>2026-07-01</strong> から access restoration を始めると案内した。Claude 系モデルの availability に関わる公式運用更新として扱える。",
       "url": "https://x.com/AnthropicAI/status/2072106151890809341",
       "urlLabel": "X で見る"
     },
@@ -55,7 +74,7 @@
       "datetime": "2026-07-01T05:43:20+09:00",
       "displayTime": "2026-07-01 05:43 JST",
       "title": "@ClaudeDevs が Claude Managed Agents 更新を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> に streaming session event deltas、per-session agent overrides、new webhook event types、reverse pagination、credential injection scoping を追加したと投稿した。reply では <strong>Agent Overrides</strong> と <strong>Observability</strong> tab も補足しているが、main post の要点のみ採用した。",
+      "summary": "<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> に streaming session event deltas、per-session agent overrides、new webhook event types、reverse pagination、credential injection scoping を追加したと投稿した。Managed Agents の API / observability 拡張を示す公式更新。",
       "url": "https://x.com/ClaudeDevs/status/2072058428424589412",
       "urlLabel": "X で見る"
     },
@@ -73,7 +92,7 @@
       "datetime": "2026-07-01T03:00:31+09:00",
       "displayTime": "2026-07-01 03:00 JST",
       "title": "@ClaudeAI が Claude Sonnet 5 を告知",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Sonnet 5</strong> を <strong>our most agentic Sonnet yet</strong> として告知し、plans、browser や terminal などの tools、autonomous execution を前面に出した。直後の <strong>Claude Code v2.1.197</strong> release note と同じ launch 文脈の main post。",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Sonnet 5</strong> を <strong>our most agentic Sonnet yet</strong> として告知し、plans、browser や terminal などの tools、autonomous execution を前面に出した。直後の <strong>Claude Code v2.1.197</strong> release と同じ launch 文脈の main post。",
       "url": "https://x.com/claudeai/status/2072017450611142835",
       "urlLabel": "X で見る"
     },
@@ -82,7 +101,7 @@
       "datetime": "2026-07-01T02:02:04+09:00",
       "displayTime": "2026-07-01 02:02 JST",
       "title": "@ClaudeAI が Claude Science beta を告知",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Science</strong> を research app として告知し、artifacts に code 由来の trace が残ること、environment を on-demand に管理できること、60超の optional scientific databases に接続できることを短く案内した。",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Science</strong> を research app として告知し、artifacts に code 由来の trace が残ること、environment を on-demand に管理できること、60超の optional scientific databases に接続できることを案内した。",
       "url": "https://x.com/claudeai/status/2072002740830842899",
       "urlLabel": "X で見る"
     },
@@ -99,69 +118,61 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> のままで、この24時間窓に入る visible publication date の新着は確認できなかった。公式サイト4面では <strong>Anthropic News</strong> 2 件、<strong>Claude Blog</strong> 1 件を採用した。"
+      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> のままで、この24時間窓に入る visible publication date の新着は確認できなかった。公式サイト4面では <strong>Anthropic News</strong> 3 件、<strong>Claude Blog</strong> 1 件を採用した。"
     },
     {
-      "label": "@AnthropicAI の増分は availability update 1件のみ",
-      "body": "<strong>@AnthropicAI</strong> の in-window main post は、<strong>Claude Fable 5</strong> と <strong>Claude Mythos 5</strong> の export controls 解除を受けた access restoration 案内 1 件だけだった。新機能や launch 系の main post は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> 側に集中していた。"
+      "label": "Official X は main post のみ採用",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> は main post を採用し、reply と repost は default 設定どおり集計から外した。main post の増分はそれぞれ <strong>2件 / 2件 / 3件</strong> だった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-07-01T03:31:00+09:00",
-      "displayTime": "2026-07-01 03:31 JST",
-      "title": "@noahzweben が Claude Tag の Sonnet 5 対応を告知",
-      "summary": "<strong>@noahzweben</strong> は <strong>Claude Tag now supports Sonnet 5</strong> と投稿し、admin settings 配下の Claude Tag で新 model を試せると案内した。Team 向け feature の model rollout を示す補足 signal。",
-      "url": "https://x.com/noahzweben/status/2072025125000458286",
+      "datetime": "2026-07-01T14:08:32+09:00",
+      "displayTime": "2026-07-01 14:08 JST",
+      "title": "@trq212 が Fable 5 の fallback と false positive 改善を補足",
+      "summary": "<strong>@trq212</strong> は updated classifiers の補足として、一部の routine coding / debugging task は <strong>Opus 4.8</strong> に fallback すると説明し、続く self-reply で <strong>false positives</strong> を減らす方向で safeguards を改善中だと述べた。Fable 5 再展開の実運用を示す高シグナルな補足。",
+      "url": "https://x.com/trq212/status/2072185565076988326",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer X",
+      "datetime": "2026-07-01T12:44:16+09:00",
+      "displayTime": "2026-07-01 12:44 JST",
+      "title": "@noahzweben が Claude Tag の model scope 設定場所を案内",
+      "summary": "<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の model を channel / workspace default 単位で切り替えられると説明し、admin settings の <strong>Select scope &gt; Advanced</strong> から変更できると投稿した。管理設定まわりの具体的な運用ヒント。",
+      "url": "https://x.com/noahzweben/status/2072164356301693030",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-01T03:31:00+09:00",
+      "displayTime": "2026-07-01 03:31 JST",
+      "title": "@noahzweben が Claude Tag の Sonnet 5 対応を告知",
+      "summary": "<strong>@noahzweben</strong> は <strong>Claude Tag now supports Sonnet 5</strong> と投稿し、workspace で Sonnet 5 をすぐ試せると案内した。新 model rollout の周辺機能が追随していることを示す signal。",
+      "url": "https://x.com/noahzweben/status/2072025125000458286",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
       "datetime": "2026-07-01T02:57:19+09:00",
       "displayTime": "2026-07-01 02:57 JST",
-      "title": "@adocomplete が Sonnet 5 の性能感を補足",
-      "summary": "<strong>@adocomplete</strong> は <strong>Claude Sonnet 5</strong> が reasoning / tool use / coding / knowledge work で前世代より大きく改善し、<strong>Opus 4.8</strong> に近い性能を <strong>lower prices</strong> で出せると補足した。model positioning を端的に示す高シグナル reply。",
+      "title": "@adocomplete が Sonnet 5 の性能と価格を補足",
+      "summary": "<strong>@adocomplete</strong> は Sonnet 5 が reasoning、tool use、coding、knowledge work で前世代を大きく改善し、<strong>Opus 4.8</strong> に近い性能を lower prices で出すと補足した。launch post より具体的にコスト対性能を説明する engineer signal。",
       "url": "https://x.com/adocomplete/status/2072016645447659868",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-07-01T01:55:29+09:00",
-      "displayTime": "2026-07-01 01:55 JST",
-      "title": "@felixrieseberg が Linux desktop launch を補足",
-      "summary": "<strong>@felixrieseberg</strong> は <strong>Claude desktop app for Linux</strong> の launch を共有し、<strong>Claude Code</strong>、<strong>Claude Cowork</strong>、chat を含む desktop 体験を Linux に広げたと説明した。official post を補強する implementation-side signal。",
-      "url": "https://x.com/felixrieseberg/status/2072001084080693602",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-06-30T13:37:26+09:00",
-      "displayTime": "2026-06-30 13:37 JST",
-      "title": "@amorriscode が task spawning と meta session tools の改善を示唆",
-      "summary": "<strong>@amorriscode</strong> は context が詰まったときの task handoff について、<strong>I really want to make spawning tasks and meta session tools work better</strong> と reply し、別 reply では <strong>can definitely make this easier</strong> と述べた。session 跨ぎの引き継ぎ UX を改善中だという product hint。",
-      "url": "https://x.com/amorriscode/status/2071815348886942027",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-06-30T11:29:26+09:00",
-      "displayTime": "2026-06-30 11:29 JST",
-      "title": "@RobertJBye が Claude + X MCP の用途を共有",
-      "summary": "<strong>@RobertJBye</strong> は hosted X MCP announcement を引用し、<strong>Claude + X MCP</strong> が quick user research と feedback gathering に有効だと述べた。Claude ecosystem の実運用ユースケースとして拾える signal。",
-      "url": "https://x.com/RobertJBye/status/2071783137957523727",
       "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "この24時間窓では、公式サイト4面のうち <strong>Anthropic News</strong> に 2 件、<strong>Claude Blog</strong> に 1 件の新着があった。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は更新なしだった。",
+      "headline": "4件",
+      "body": "この24時間窓では、公式サイト4面のうち <strong>Anthropic News</strong> に 3 件、<strong>Claude Blog</strong> に 1 件の新着があった。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は更新なしだった。",
       "details": [
         "<strong>Anthropic News</strong>: <strong>Introducing Claude Sonnet 5</strong>（<strong>Jun 30, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Claude Science, an AI workbench for scientists, is now available</strong>（<strong>Jun 30, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>Redeploying Fable 5</strong>（<strong>Jun 30, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Getting started with loops</strong>（<strong>June 30, 2026</strong>）"
       ],
       "url": "https://claude.com/blog",
@@ -169,8 +180,8 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI で確認したところ、この24時間窓には <strong>v2.1.196</strong> と <strong>v2.1.197</strong> の 2 release が入った。両 release の note を GitHub CLI から完全取得し、visible bullet を落とさず <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.197</strong> のみだった。release note は GitHub CLI から完全取得し、visible bullet を落とさず <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.197",
@@ -182,61 +193,22 @@
               "items": [
                 "<strong>Claude Sonnet 5</strong> を Claude Code の default model として導入し、native な <strong>1M-token context window</strong> と <strong>August 31</strong> までの promotional pricing <code>$2/$10 per Mtok</code> を提供した。利用には <strong>v2.1.197</strong> への更新が必要。"
               ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-          "urlLabel": "v2.1.197 release notes"
-        },
-        {
-          "version": "v2.1.196",
-          "publishedAt": "2026-06-30 08:27 JST",
-          "summary": "organization default models、session 名の default 改善、clickable file attachments などを追加しつつ、background sessions、agents view、MCP OAuth、voice dictation、plugin validation まわりまで広く修正した大型 release。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "organization default models に対応し、admin が org console で既定 model を設定できるようにした。ユーザーが自分で model を選んでいない場合、<code>/model</code> には <strong>Org default</strong> または <strong>Role default</strong> と表示される。",
-                "session 開始時の default name を読みやすくし、session の識別や message 送信をしやすくした。",
-                "chat 内の file attachments を clickable にし、<strong>Cmd/Ctrl-click</strong> で Finder / Explorer 上のファイルを開けるようにした。"
-              ]
             },
             {
               "title": "変更",
               "items": [
-                "Security: <code>claude mcp list</code> / <code>get</code> で、repo に commit された <code>.claude/settings.json</code> により self-approved された <code>.mcp.json</code> server を spawn しないようにした。untrusted workspace では <strong>⏸ Pending approval</strong> と表示する。",
-                "background session の信頼性を改善し、long-running command や workflow が process の停止・再起動・更新をまたいでも継続するようにした。Windows では background shell を kill せず handoff する。",
-                "background agents を改善し、daemon restart で worker が kill されても、次に agents view を開いたとき自動 resume するようにした。",
-                "<code>/code-review</code> workflow を改善し、5つの cleanup finder を1つに統合して token usage をおよそ 25% 削減した。",
-                "terminal UI の per-frame rendering work を減らすため、streaming 中の no-op subtree walk を skip するようにした。",
-                "streaming idle watchdog を全 provider で default-on にし、response stream が5分間イベントを出さない場合は abort して retry するようにした。無効化には <code>CLAUDE_ENABLE_STREAM_WATCHDOG=0</code> を使う。",
-                "<code>ANTHROPIC_BASE_URL</code> が Anthropic 以外の host を指すときは Remote Control を無効化するようにし、既存の <code>CLAUDE_CODE_USE_BEDROCK</code> / <code>_VERTEX</code> / <code>_FOUNDRY</code> 時の挙動に合わせた。",
-                "foreground session から agents view を開く操作を、背景 session と同じく <strong>← 1回</strong> で済むように変更した。"
+                "Pro ユーザー向けの Claude Code 既定 model が <strong>Claude Sonnet 5</strong> に切り替わり、Claude Code の標準的な coding / tool use 体験が新 model ベースになった。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "background job を起こした際に transcript probe が本物の transcript を誤読すると、会話が永久削除され original prompt を再実行してしまう問題を修正した。該当ファイルは削除せず退避するようにした。",
-                "複数の parallel request が飛んでいる瞬間に usage limit に達すると、rate-limit warning が点滅して消えたり rate-limit telemetry を過大計上したりする問題を修正した。",
-                "background session の turn 後に StructuredOutput の schema reject と retry が重なって duplicate recap line が出る問題を修正した。",
-                "PowerShell での <code>git diff</code> / <code>git grep</code>、<code>egrep</code> / <code>fgrep</code>、および <code>|</code> を含む quoted search pattern が exit 1 のとき failure 扱いされる問題を修正し、Bash と同じ挙動に合わせた。",
-                "<code>claude agents</code> side panel の複数の不具合を修正し、agent を開いたとき keyboard focus が詰まる問題、background job が毎回 subagent type を失う問題、running 中なのに status が誤表示される問題を直した。",
-                "<code>claude agents --dangerously-skip-permissions</code> が bypass disclaimer を出さず auto mode に silently fallback していた問題を修正し、spawn された agent にも bypass mode を適用するようにした。",
-                "Remote session が server restart で mid-turn 中断したとき、次の worker で自動再開しない問題を修正した。",
-                "<code>/cd</code> で移動した session が non-graceful exit 後に旧 directory の resume list に再出現する問題を、旧 path に special character がある場合も含めて修正した。",
-                "<code>claude plugin validate</code> が source が <code>.</code> の local plugin を skip し、最初の error class で止まってしまう問題を修正した。",
-                "idle prompt で <code>Esc Esc</code> を押しても rewind menu が開かない regression を修正した。background agent を止めるには引き続き <code>Ctrl+C</code> または <code>Ctrl+X Ctrl+K</code> を使う。",
-                "scope 未指定時に MCP OAuth が authorization server の <code>scopes_supported</code> 全体を要求してしまい、GitLab self-hosted や enterprise IdP で <code>invalid_scope</code> になる問題を修正した。",
-                "Bedrock 上で <code>/context</code> が全 tool group を 0 tokens と表示してしまう問題を修正した。",
-                "<code>/deep-research</code> が verifier failure を <strong>all claims refuted</strong> と誤表示していた問題を修正し、<code>unverified</code> と示すようにした。",
-                "marketplace を git repo backed な local folder path として追加した場合に、plugin dependency version pin が無視される問題を修正した。",
-                "<code>claude agents</code> の session status 表示を修正し、completed row が <strong>Done</strong> と <strong>Needs your input</strong> の間で反転しないようにし、stalled agent は <strong>Needs attention</strong> と表示し、PR に触れた結果には clickable link を付けた。",
-                "voice mode 有効時に voice dictation が space を飲み込み、非常に速い typing 中に意図せず recording を始める問題を修正した。"
+                "この release note には不具合修正 bullet は記載されていなかった。visible note を完全取得したうえで、修正項目は <strong>0件</strong> と明示する。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
-          "urlLabel": "v2.1.196 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
+          "urlLabel": "v2.1.197 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -244,10 +216,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 2 件、<strong>@ClaudeDevs</strong> 3 件だった。",
-    "engineer watch では監視対象アカウントを広く確認したが、雑談、一般歓迎 reply、文脈の薄い support reply、Bun や arXiv など Claude / Anthropic と直接関係しない話題は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> が最新表示で、今回 window に入る新着としては <strong>Anthropic News</strong> 2 件と <strong>Claude Blog</strong> 1 件のみを採用した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.195</strong> 以前は外し、window 内に入った <strong>v2.1.196</strong> と <strong>v2.1.197</strong> のみを full note で掲載した。"
+    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は <strong>@AnthropicAI</strong> 2 件、<strong>@ClaudeAI</strong> 2 件、<strong>@ClaudeDevs</strong> 3 件だった。",
+    "engineer watch では監視対象アカウントを広く確認したが、雑談、歓迎 reply、文脈の薄い support reply、arXiv や一般的な Linux 雑談など Claude / Anthropic と直接関係しない話題は main signal から外した。",
+    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> が最新表示で、今回 window に入る新着としては <strong>Anthropic News</strong> 3 件と <strong>Claude Blog</strong> 1 件のみを採用した。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.196</strong> 以前は外し、window 内に入った <strong>v2.1.197</strong> のみを full note で掲載した。"
   ],
   "sources": [
     {
@@ -271,12 +243,20 @@
       "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
     },
     {
+      "title": "Anthropic News: Redeploying Fable 5",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
     },
     {
       "title": "Claude Blog: Getting started with loops",
       "url": "https://claude.com/blog/getting-started-with-loops"
+    },
+    {
+      "title": "AnthropicAI on classifier updates for Fable 5 redeploy",
+      "url": "https://x.com/AnthropicAI/status/2072163884430229756"
     },
     {
       "title": "AnthropicAI on Fable 5 and Mythos 5 access restoration",
@@ -303,6 +283,14 @@
       "url": "https://x.com/ClaudeDevs/status/2071988881717871065"
     },
     {
+      "title": "Travis Fischer on Fable 5 classifier behavior",
+      "url": "https://x.com/trq212/status/2072185565076988326"
+    },
+    {
+      "title": "Noah Zweben on Claude Tag admin model scope settings",
+      "url": "https://x.com/noahzweben/status/2072164356301693030"
+    },
+    {
       "title": "Noah Zweben on Claude Tag support for Sonnet 5",
       "url": "https://x.com/noahzweben/status/2072025125000458286"
     },
@@ -311,28 +299,12 @@
       "url": "https://x.com/adocomplete/status/2072016645447659868"
     },
     {
-      "title": "Felix Rieseberg on Claude Desktop for Linux",
-      "url": "https://x.com/felixrieseberg/status/2072001084080693602"
-    },
-    {
-      "title": "Anthony Morris on task spawning and meta session tools",
-      "url": "https://x.com/amorriscode/status/2071815348886942027"
-    },
-    {
-      "title": "Robert Bye on Claude plus X MCP",
-      "url": "https://x.com/RobertJBye/status/2071783137957523727"
-    },
-    {
       "title": "Claude Code Releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
       "title": "Claude Code v2.1.197 release notes",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197"
-    },
-    {
-      "title": "Claude Code v2.1.196 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196"
     }
   ]
 }
