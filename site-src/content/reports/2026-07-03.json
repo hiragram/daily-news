@@ -1,24 +1,34 @@
 {
   "date": "2026-07-03",
-  "windowLabel": "2026-07-02 03:01:24 JST - 2026-07-03 03:01:24 JST",
-  "archiveTitle": "Claude Tag momentum and admin controls",
-  "archiveSummary": "Official 5件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-02 03:01:24 JST から 2026-07-03 03:01:24 JST の24時間では、<strong>Claude Blog</strong> に <strong>Giving admins more visibility and control over Claude spend</strong> が公開され、Claude Enterprise 向けに admin analytics、model-level entitlements、spend alerts が追加された。official X では <strong>@ClaudeAI</strong> が <strong>Built with Claude: Life Sciences</strong> hackathon と、<strong>Claude Code</strong> から <strong>Claude Tag</strong> へ広がった社内導入事例の動画を投稿し、<strong>@ClaudeDevs</strong> は Fable 5 再開に合わせて全ユーザーの rate limits を reset した。engineer 側では <strong>@_catwu</strong> が Claude Tag の社内版で product PR の <strong>65%</strong> を landing していると述べ、<strong>@trq212</strong> は Claude Code の自動継続挙動を configurable にできると示唆した。Claude Code の release は <strong>v2.1.198</strong> 1件で、Chrome GA、background agent 通知、<code>/dataviz</code>、AWS upstream provider、auto commit / push / draft PR を含む full note を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-07-02 09:03:06 JST - 2026-07-03 09:03:06 JST",
+  "archiveTitle": "Spend controls, artifacts, and release fixes",
+  "archiveSummary": "Official 5件、engineer signal 5件、Claude Code release 1件。",
+  "latestSummary": "2026-07-02 09:03:06 JST から 2026-07-03 09:03:06 JST の24時間では、<strong>Claude Blog</strong> に <strong>Giving admins more visibility and control over Claude spend</strong> が公開され、Claude Enterprise 向けの admin analytics、model-level entitlements、spend alerts が追加された。official X では <strong>@ClaudeDevs</strong> が API rate limit tier の簡素化と Sonnet / Haiku の上位 tier 5倍化、さらに <strong>Claude Code artifacts</strong> の Pro / Max 開放を告知し、<strong>@ClaudeAI</strong> は <strong>Claude Tag</strong> 導入動画と <strong>Built with Claude: Life Sciences</strong> hackathon を案内した。engineer 側では <strong>@trq212</strong> が Fable の subscription 提供は <strong>2026-07-07</strong> までで、その後 capacity 次第で標準提供へ戻す方針を補足し、<strong>@_catwu</strong> は Claude Tag が社内の product PR の <strong>65%</strong> を landing していると説明した。Claude Code の release は <strong>v2.1.199</strong> 1件で、stacked slash-skill、429 retry 改善、background agent / subagent 周りの多数の修正を full note から <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official 5件</strong>: <strong>Claude Blog</strong> に Enterprise 管理向け analytics / entitlements / spend alerts をまとめた新記事が 1 件追加された。official X では <strong>@ClaudeAI</strong> が <strong>Claude Tag</strong> 導入事例動画、<strong>Built with Claude: Life Sciences</strong> hackathon、<strong>Fable 5 is back</strong> を投稿し、<strong>@ClaudeDevs</strong> は rate limit reset を告知した。",
-    "<strong>Official site articles 1件</strong>: この24時間窓で新着だった公式サイト記事は <strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> に visible publication date ベースの新着はなかった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@_catwu</strong> は <strong>Claude Tag</strong> が eng / product / data / sales / marketing に広がり、社内版が product PR の <strong>65%</strong> を landing していると説明した。<strong>@TheAmolAvasare</strong> と <strong>@noahzweben</strong> は Fable の promo access と Claude Tag での credit 枠を補足し、<strong>@trq212</strong> は Claude Code の auto-continue を configurable にできると返答した。",
-    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.198</strong> を確認した。公開時刻は <strong>2026-07-02 05:45 JST</strong> で今回の window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>Official 5件</strong>: <strong>Claude Blog</strong> に Enterprise 管理向け spend controls 記事が1件追加された。official X では <strong>@ClaudeDevs</strong> が API rate limit の tier 改定と <strong>Claude Code artifacts</strong> の Pro / Max 開放を投稿し、<strong>@ClaudeAI</strong> は <strong>Claude Tag</strong> 導入動画と <strong>Built with Claude: Life Sciences</strong> hackathon を告知した。",
+    "<strong>Official site articles 1件</strong>: この24時間窓で新着だった公式サイト記事は <strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は visible publication date ベースで更新なし。",
+    "<strong>Engineer signals 5件</strong>: <strong>@_catwu</strong> は Claude Tag の社内浸透度を、<strong>@trq212</strong> は Fable subscription 方針と Claude Code auto-continue の設定余地を、<strong>@sidbid</strong> と <strong>@bcherny</strong> は artifacts の具体的な使い方と privacy を補足した。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI で <strong>v2.1.199</strong> を確認した。公開時刻は <strong>2026-07-03 08:35 JST</strong> で今回の window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
   ],
   "officialNews": [
     {
-      "label": "Official site",
-      "datetime": "2026-07-02T12:00:00+09:00",
-      "displayTime": "2026-07-02",
-      "title": "Claude Blog が Enterprise 向け spend controls を公開",
-      "summary": "<strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> は、Claude Enterprise 向けに group / user 単位の usage and cost analytics、model-level entitlements、75% / 90% の spend-threshold alerts、Analytics API と Admin API を使った cost-control workflow を追加した。Claude 利用拡大に合わせた管理機能の公式アップデート。",
-      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "urlLabel": "記事を読む",
+      "label": "Official X",
+      "datetime": "2026-07-03T08:02:48+09:00",
+      "displayTime": "2026-07-03 08:02 JST",
+      "title": "@ClaudeDevs が Claude Platform API rate limit の引き上げを告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude Platform API の rate limit を全ユーザー向けに引き上げ、tier を API spend ベースではない形に簡素化したと投稿した。さらに最新の <strong>Sonnet</strong> と <strong>Haiku</strong> は最上位 tier で <strong>5倍</strong> 高い rate limit になると案内している。",
+      "url": "https://x.com/ClaudeDevs/status/2072818299361263778",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-03T04:54:01+09:00",
+      "displayTime": "2026-07-03 04:54 JST",
+      "title": "@ClaudeDevs が Claude Code artifacts の Pro / Max 開放を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code artifacts</strong> が <strong>Pro</strong> と <strong>Max</strong> plan でも使えるようになったと投稿した。artifact を依頼すると Claude がコードを書き、<strong>claude.ai</strong> 上に private で self-contained なページを公開し、その後も作業しながらリアルタイム更新できると説明している。",
+      "url": "https://x.com/ClaudeDevs/status/2072770790114914317",
+      "urlLabel": "X で見る",
       "primary": true
     },
     {
@@ -28,41 +38,32 @@
       "title": "@ClaudeAI が Claude Code から Claude Tag への社内展開動画を投稿",
       "summary": "<strong>@ClaudeAI</strong> は <strong>Boris Cherny</strong> と <strong>Cat Wu</strong> の会話動画として、<strong>Claude Code</strong> から <strong>Claude Tag</strong> へどう広がり、engineering から Anthropic 全体へ浸透したかを紹介した。投稿文では <strong>Claude Fable 5</strong> が Claude Tag で使えることも明示している。",
       "url": "https://x.com/claudeai/status/2072725610061803522",
-      "urlLabel": "X で見る",
-      "primary": true
+      "urlLabel": "X で見る"
     },
     {
       "label": "Official X",
       "datetime": "2026-07-02T23:00:37+09:00",
       "displayTime": "2026-07-02 23:00 JST",
       "title": "@ClaudeAI が Built with Claude: Life Sciences hackathon を告知",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>Built with Claude: Life Sciences</strong> という global virtual hackathon を告知し、<strong>@GladstoneInst</strong> と組んで <strong>Claude Science</strong> と <strong>Claude Code</strong> を使う研究・開発イベントとして <strong>$100k in credits</strong> の prize pool を案内した。follow-up reply では開催期間を <strong>2026-07-07</strong> から <strong>2026-07-13</strong>、応募締切を Sunday と補足した。",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Built with Claude: Life Sciences</strong> という global virtual hackathon を告知し、<strong>@GladstoneInst</strong> と組んで <strong>Claude Science</strong> と <strong>Claude Code</strong> を使う研究・開発イベントとして <strong>$100k in credits</strong> の prize pool を案内した。",
       "url": "https://x.com/claudeai/status/2072681853971001849",
       "urlLabel": "X で見る"
     },
     {
-      "label": "Official X",
-      "datetime": "2026-07-02T06:16:35+09:00",
-      "displayTime": "2026-07-02 06:16 JST",
-      "title": "@ClaudeDevs が Fable 5 復帰後の rate limit reset を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は <strong>Fable 5</strong> の再利用開始に合わせ、全ユーザーの <strong>5-hour</strong> と <strong>weekly rate limits</strong> を reset したと投稿した。モデル再展開に伴う即時の運用調整として重要。",
-      "url": "https://x.com/ClaudeDevs/status/2072429181565288665",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Official X",
-      "datetime": "2026-07-02T04:31:06+09:00",
-      "displayTime": "2026-07-02 04:31 JST",
-      "title": "@ClaudeAI が Fable 5 復帰と一時 safeguards を案内",
-      "summary": "<strong>@ClaudeAI</strong> は main post で <strong>Fable 5 is back</strong> と告知し、続く self-reply で一時的に強めの cybersecurity safeguards を入れていること、paid plan の利用枠では <strong>2026-07-07</strong> まで weekly cap の <strong>50%</strong> 以内で使えること、Claude Code では誤検知時に <code>/feedback</code> を使ってほしいことを案内した。",
-      "url": "https://x.com/claudeai/status/2072402636813607381",
-      "urlLabel": "X で見る"
+      "label": "Official site",
+      "datetime": "2026-07-02T12:00:00+09:00",
+      "displayTime": "2026-07-02",
+      "title": "Claude Blog が Enterprise 向け spend controls を公開",
+      "summary": "<strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> は、Claude Enterprise 向けに richer admin analytics、model-level entitlements、spend alerts を追加した。記事では group / user 単位の usage and cost 可視化、既存の Analytics API と連携する cost-control workflow、既存 org chart に沿った SCIM group ベースの分析を説明している。",
+      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "urlLabel": "記事を読む",
+      "primary": true
     }
   ],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新しい main post は 0件",
-      "body": "この24時間窓では、<strong>@AnthropicAI</strong> の新しい main post は確認できなかった。official X の main post 増分は <strong>@ClaudeAI</strong> 3 件、<strong>@ClaudeDevs</strong> 1 件、<strong>@AnthropicAI</strong> 0 件だった。"
+      "body": "この24時間窓では、<strong>@AnthropicAI</strong> の新しい main post は確認できなかった。official X の main post 増分は <strong>@ClaudeDevs</strong> 2 件、<strong>@ClaudeAI</strong> 2 件、<strong>@AnthropicAI</strong> 0 件だった。"
     },
     {
       "label": "Engineering / Research / News の新着は 0件",
@@ -72,30 +73,39 @@
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-07-03T02:17:53+09:00",
-      "displayTime": "2026-07-03 02:17 JST",
-      "title": "@_catwu が Claude Tag の社内導入規模を補足",
-      "summary": "<strong>@_catwu</strong> は <strong>Claude Tag</strong> が eng、product、data、sales、marketing に広がっており、社内版が <strong>65%</strong> の product PR を landing していると投稿した。CEO / CTO 向け rollout playbook と security 設計にも触れており、Tag の社内定着度を示す高シグナルな補足。",
-      "url": "https://x.com/_catwu/status/2072731500928508331",
+      "datetime": "2026-07-03T07:49:18+09:00",
+      "displayTime": "2026-07-03 07:49 JST",
+      "title": "@trq212 が Fable の subscription 提供方針を補足",
+      "summary": "<strong>@trq212</strong> は、Fable が subscription plan で使えるのは <strong>2026-07-07</strong> までだが、その後も capacity が戻り次第 standard part of subscriptions として復帰させたいと説明した。Fable の一時再開が暫定措置であることと、中長期では恒常化を目指していることを示す補足。",
+      "url": "https://x.com/trq212/status/2072814903170408784",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-02T04:56:13+09:00",
-      "displayTime": "2026-07-02 04:56 JST",
-      "title": "@TheAmolAvasare が Fable の worldwide 復帰と promo access を補足",
-      "summary": "<strong>@TheAmolAvasare</strong> は <strong>Fable</strong> が worldwide に戻り、<strong>Claude Code</strong>、<strong>Cowork</strong>、<strong>Design</strong>、API から使えると投稿した。さらに <strong>2026-07-07</strong> まで subscription plan では Fable が weekly cap の <strong>50%</strong> 以内で使える promo access を案内した。",
-      "url": "https://x.com/TheAmolAvasare/status/2072408958698987915",
+      "datetime": "2026-07-03T05:32:56+09:00",
+      "displayTime": "2026-07-03 05:32 JST",
+      "title": "@bcherny が Claude Code artifacts の実用例を列挙",
+      "summary": "<strong>@bcherny</strong> は artifacts を architecture / design option の説明、session 結果の可視化、data analysis の chart、complex PR の overview に使っていると reply した。Claude Code artifacts が単なる demo ではなく、社内で設計説明やレビュー補助に使われていることを示す運用シグナル。",
+      "url": "https://x.com/bcherny/status/2072780583965442157",
       "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-02T04:55:48+09:00",
-      "displayTime": "2026-07-02 04:55 JST",
-      "title": "@noahzweben が Claude Tag での Fable 利用特典を案内",
-      "summary": "<strong>@noahzweben</strong> は <strong>Claude Tag</strong> が Fable 利用のよい導線だとし、<strong>Enterprise</strong> 向け <strong>$25,000</strong>、<strong>Teams</strong> 向け <strong>$2,500</strong> の promo credit に Fable 利用が含まれると投稿した。Fable 復帰後の利用経路と予算枠を示す運用シグナル。",
-      "url": "https://x.com/noahzweben/status/2072408854021677468",
+      "datetime": "2026-07-03T05:09:08+09:00",
+      "displayTime": "2026-07-03 05:09 JST",
+      "title": "@sidbid が artifacts の利用例と private 仕様を補足",
+      "summary": "<strong>@sidbid</strong> は、Claude Code artifacts を PR walkthrough、architecture diagram、data dashboard、UI mock に日常利用していると投稿し、続く reply で artifacts は private だと明言した。Pro / Max 開放に対して、具体的な用途と privacy の実装方針が見える補足になっている。",
+      "url": "https://x.com/sidbid/status/2072774590263402920",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-03T02:17:53+09:00",
+      "displayTime": "2026-07-03 02:17 JST",
+      "title": "@_catwu が Claude Tag の社内導入規模を補足",
+      "summary": "<strong>@_catwu</strong> は <strong>Claude Tag</strong> が eng、product、data、sales、marketing に広がっており、社内版が <strong>65%</strong> の product PR を landing していると投稿した。CEO / CTO 向け rollout playbook と security 設計にも触れており、Tag の社内定着度を示す高シグナルな補足。",
+      "url": "https://x.com/_catwu/status/2072731500928508331",
       "urlLabel": "X で見る"
     },
     {
@@ -115,7 +125,7 @@
       "body": "この24時間窓で公式サイト4面に visible publication date ベースで入った新着は、<strong>Claude Blog</strong> の 1 件だけだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は更新なしだった。",
       "details": [
         "<strong>Claude Blog</strong>: <strong>Giving admins more visibility and control over Claude spend</strong>（<strong>July 2, 2026</strong>）",
-        "記事は Claude Enterprise 向けに、group / user 単位の usage and cost analytics、model defaults and entitlements、75% / 90% の spend alerts、Analytics API と Admin API を使う cost-control workflow をまとめている。"
+        "記事は Claude Enterprise 向けに richer admin analytics、model-level entitlements、spend alerts を追加し、group / user 単位の usage and cost 可視化と Analytics API を使う cost-control workflow をまとめている。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -123,63 +133,56 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.198</strong> のみだった。release note 本文は GitHub CLI から完全取得し、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.199</strong> のみだった。release note 本文は GitHub CLI から完全取得し、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
-          "version": "v2.1.198",
-          "publishedAt": "2026-07-02 05:45 JST",
-          "summary": "<strong>Claude in Chrome</strong> の一般提供、background agent の通知と自動 commit / push / draft PR、<code>/dataviz</code> skill、AWS upstream provider 追加、そして agent / UI / network 周りの広い修正を含む大型リリース。",
+          "version": "v2.1.199",
+          "publishedAt": "2026-07-03 08:35 JST",
+          "summary": "stacked slash-skill の同時読込、subscriber 向け 429 retry 改善、retry 制御の拡張に加え、background agent / subagent / transcript / Chrome / hook / SSH まわりの不具合を広く修正したリリース。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<strong>Claude in Chrome</strong> を一般提供にした。",
-                "<code>claude agents</code> に background agent notification を追加し、入力待ちや完了時に <code>Notification</code> hook（<code>agent_needs_input</code> / <code>agent_completed</code>）を発火するようにした。",
-                "グラフやダッシュボードの設計ガイダンスと実行可能な color-palette validator を備えた <code>/dataviz</code> skill を追加した。",
-                "Gateway に <strong>Claude Platform on AWS</strong>（<code>anthropicAws</code>）を upstream provider として追加し、model-not-found 応答時は failover chain を次に進めるようにした。",
-                "<code>claude agents</code> から起動した background agent が、worktree でのコード作業完了後に止まって確認を求める代わりに、自動で commit、push、draft PR 作成まで行うようにした。"
+                "連続した slash-skill 呼び出し、たとえば <code>/skill-a /skill-b do XYZ</code> のような書き方で、先頭の skill を1つだけでなく最大5つまでまとめて読み込めるようにした。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "組み込みの Explore agent は、haiku 固定ではなく main session の model を継承して動くように変更した。ただし上限は opus のままにした。",
-                "subagent と context compaction が session の extended thinking 設定を継承するようにし、委譲タスクの出力品質を改善した。",
-                "focus mode を改善し、その turn で起動した subagent を activity summary に表示し、完了した background notification は単一件数にたたむようにした。",
-                "highlight.js 11 へ更新し、code block、diff、file preview の syntax highlighting 精度を改善した。",
-                "Mac から SSH 接続したときの keyboard shortcut hint を <code>alt/super</code> ではなく <code>opt/cmd</code> 表示に変更した。",
-                "API retry UX を改善し、2回目の試行後から error reason を表示し、API 過負荷時は spinner tip の代わりに status page link を出すようにした。",
-                "<code>/login</code> は「利用できない」と言う代わりに <code>claude agents</code> view から sign-in dialog を開くようにした。",
-                "subagent は、自分を起動した agent からの message を通常の task direction として扱うようにした。一方で、その agent からの message を user approval と見なさないルールは維持した。",
-                "<code>/agents</code> wizard を削除し、subagent の作成・管理は Claude への依頼か <code>.claude/agents/</code> の直接編集に寄せた。"
+                "subscriber 向けに、利用枠超過ではない一時的な server-side rate-limit error（429）を turn 失敗にせず、backoff 付きで自動 retry するようにした。",
+                "<code>CLAUDE_CODE_RETRY_WATCHDOG</code> では、capacity 以外の transient error に対する default retry 回数を <strong>300</strong> まで引き上げ、<code>CLAUDE_CODE_MAX_RETRIES</code> の上限 <strong>15</strong> も撤廃した。",
+                "<code>claude agents</code> の session 行では、pull request link を冗長な <strong>PR</strong> ラベル付きではなく、素の <strong>#N</strong> 表示に変えた。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "response の途中で短い network drop が起きると turn 全体が abort される問題を修正し、<code>ECONNRESET</code> のような一時エラーは backoff 付きで retry するようにした。",
-                "sandboxed process が同じ network host に繰り返しアクセスしたとき、background classifier request が過剰に飛ぶ問題を修正した。",
-                "web、desktop、VS Code の task panel で background task が完了後や session 再開後も <strong>Running</strong> のまま固まる問題を修正した。",
-                "agent teams で teammate が API error で死んだとき lead に <strong>failed</strong> を返さない問題と、固まった teammate に message しても即 retry で起きない問題を修正した。",
-                "branch を切り替えたり session 外で commit したときに <code>/diff</code> panel が refresh されない問題を修正した。",
-                "fullscreen mode で markdown table が横にあふれ、右端の border が折り返される問題を修正した。",
-                "Claude Platform on AWS と Mantle session で STS token 期限切れ時に <strong>Please run /login</strong> で行き止まりになる問題を修正し、<code>awsAuthRefresh</code> を自動実行するようにした。",
-                "macOS の background agent session で local network host に対し <strong>no route to host</strong> になる問題を修正し、Local Network entitlement を宣言した。",
-                "worktree への出入り後に <code>/desktop</code> が <strong>Cannot determine working directory</strong> で失敗する問題を修正した。",
-                "agents view を開いている間、macOS で background agent が約52秒ごとに <strong>Reconnecting…</strong> を繰り返し表示する問題を修正した。",
-                "<code>claude attach &lt;id&gt;</code> 内で <code>←</code> を押すと agent view ではなく shell へ抜けてしまう問題を修正した。",
-                "<code>claude --bg</code> と <code>--print</code> / <code>-p</code> を併用したとき、attach 不能な session を黙って作ってしまう問題を修正し、競合 flag は事前に reject するようにした。",
-                "SDK と desktop-app session で workflow progress view が phase counter は正しいのに先頭の agent を list から落としてしまう問題を修正した。",
-                "symlink 経由で target file に到達したとき、<code>.claude/rules/</code> の conditional rule が読み込まれない問題を修正した。",
-                "macOS の Warp で fullscreen mode 中に Cmd+click しても URL が開かない問題を修正した。",
-                "fullscreen mode での double-click 単語選択が URL の scheme を含めず切れてしまう問題を修正した。",
-                "plan mode で session を開始したとき、read-only tool call が自動許可されない問題を修正した。",
-                "<code>/branch</code> の default fork 名が最初の実 prompt ではなく compaction summary から生成されてしまう問題を修正した。"
+                "SSL certificate error（TLS-inspecting proxy、<code>NODE_EXTRA_CA_CERTS</code> 未設定、期限切れ証明書など）で retry を無駄遣いしてから案内を出していた問題を修正し、即座に失敗させて修正ヒントを表示するようにした。",
+                "API が partial output の途中で overloaded / server error を返したとき、streaming response 全体を捨てていた問題を修正し、partial output を incomplete-response notice 付きで保持するようにした。",
+                "subagent が rate limit や server error で途中終了したとき、partial work を親 agent に返さず黙って失敗していた問題を修正した。",
+                "subagent が API error（たとえば usage limit 到達）を成功結果として報告してしまう問題を修正し、親 agent へ error として返すようにした。",
+                "Linux で background-agent daemon が、unclean shutdown 後に壊れた worker record を読んで約50秒ごとに自分自身と全 agent を kill していた問題を修正した。",
+                "macOS で SSH 越しに background agent を cold-start すると <strong>Could not switch to audit session</strong> で失敗する問題（2.1.196 の regression）を修正した。",
+                "<code>claude stop</code> が background-agent の respawn race に負けると silently undone されていた問題を修正し、respawn 側が stop を尊重するようにした。",
+                "background job が長い command を実行中に、progress indicator が数分単位で止まって見える問題を修正した。",
+                "メモリ不足のマシンで background session が generic error だけを出していた問題を修正し、low memory を明示してリソース解放を促すようにした。",
+                "remote session で background agent 完了時に agent view が <strong>Working</strong> と <strong>Idle</strong> の間で一瞬 flapping する問題を修正した。",
+                "ほかの subagent が動作中でも idle subagent が agent panel から消えていた問題を修正し、余剰の idle agent を展開可能な summary row に畳むようにした。",
+                "subagent 表示中に <code>/model</code> や <code>/fast</code> を打つと、lead の model picker が silently 開いてしまう問題を修正し、その command は lead に適用されると notice を出すようにした。",
+                "<code>SessionStart</code>、<code>Setup</code>、<code>SubagentStart</code> hook が exit code 2 で落ちたとき、stderr を黙って隠していた問題を修正し、transcript に error を表示するようにした。",
+                "<code>claude --dangerously-skip-permissions daemon &lt;subcommand&gt;</code> が subcommand 実行ではなく chat prompt として解釈される問題を修正した。",
+                "re-spawned agent が以前の agent 名を再利用したとき、<code>SendMessage</code> が silently misroute する問題を修正し、mismatch を検知して caller に retarget を求めるようにした。",
+                "新しい message がない session を開いたり resume しただけで transcript file が無駄に肥大化する問題を修正した。",
+                "<code>←</code> や <code>/background</code> で session を background 化したとき、agent view の行から <code>/color</code> が落ちる問題を修正した。",
+                "startup recovery dialog から壊れた config file を reset すると、復旧不能な形でそのまま破壊していた問題を修正し、先に backup を取るようにした。",
+                "Claude in Chrome で、build や config directory が異なる session を扱うと reconnect page が繰り返し開く問題を修正した。",
+                "plan mode で state-changing な browser tool call に prompt が出ず、read-only の <code>browser_batch</code> auto-allow も誤っていた問題を修正した。",
+                "backgrounding 後に subagent が rate limit や server error に当たると partial result を返さない、あるいは親側で正しく扱えない一連の挙動を整理し、親 agent に途中成果や失敗理由が見えるようにした。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
-          "urlLabel": "v2.1.198 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
+          "urlLabel": "v2.1.199 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -187,10 +190,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。今回の main post 増分は <strong>@AnthropicAI</strong> 0 件、<strong>@ClaudeAI</strong> 3 件、<strong>@ClaudeDevs</strong> 1 件だった。",
+    "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。今回の main post 増分は <strong>@ClaudeDevs</strong> 2 件、<strong>@ClaudeAI</strong> 2 件、<strong>@AnthropicAI</strong> 0 件だった。",
     "engineer watch では監視対象アカウントを広く確認したが、雑談、歓迎 reply、イベント反応だけの post、短いリアクション、repost は main signal から外した。",
     "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jun 30, 2026</strong> が最新表示で、この窓では <strong>Claude Blog</strong> 1 件のみを採用した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.197</strong> 以前は外し、window 内に入った <strong>v2.1.198</strong> のみを full note で掲載した。"
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.198</strong> 以前は外し、window 内に入った <strong>v2.1.199</strong> のみを full note で掲載した。"
   ],
   "sources": [
     {
@@ -214,6 +217,14 @@
       "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend"
     },
     {
+      "title": "ClaudeDevs on higher Claude Platform API rate limits",
+      "url": "https://x.com/ClaudeDevs/status/2072818299361263778"
+    },
+    {
+      "title": "ClaudeDevs on Claude Code artifacts for Pro and Max",
+      "url": "https://x.com/ClaudeDevs/status/2072770790114914317"
+    },
+    {
       "title": "ClaudeAI on Claude Code to Claude Tag",
       "url": "https://x.com/claudeai/status/2072725610061803522"
     },
@@ -222,52 +233,32 @@
       "url": "https://x.com/claudeai/status/2072681853971001849"
     },
     {
-      "title": "ClaudeAI on Built with Claude application deadline",
-      "url": "https://x.com/claudeai/status/2072681856730792282"
-    },
-    {
-      "title": "ClaudeDevs on rate limit resets after Fable 5 returns",
-      "url": "https://x.com/ClaudeDevs/status/2072429181565288665"
-    },
-    {
-      "title": "ClaudeAI on Fable 5 being back",
-      "url": "https://x.com/claudeai/status/2072402636813607381"
-    },
-    {
-      "title": "ClaudeAI on temporary cybersecurity safeguards",
-      "url": "https://x.com/claudeai/status/2072402638247968855"
-    },
-    {
-      "title": "ClaudeAI on paid-plan Fable 5 access through July 7",
-      "url": "https://x.com/claudeai/status/2072402639644766602"
-    },
-    {
-      "title": "ClaudeAI on feedback flow for false positives",
-      "url": "https://x.com/claudeai/status/2072402640907162072"
-    },
-    {
       "title": "Cat Wu on Claude Tag internal adoption",
       "url": "https://x.com/_catwu/status/2072731500928508331"
     },
     {
-      "title": "Amol Avasare on worldwide Fable access and promo caps",
-      "url": "https://x.com/TheAmolAvasare/status/2072408958698987915"
+      "title": "Thariq on Fable subscription timing",
+      "url": "https://x.com/trq212/status/2072814903170408784"
     },
     {
-      "title": "Noah Zweben on Claude Tag Fable promo credits",
-      "url": "https://x.com/noahzweben/status/2072408854021677468"
-    },
-    {
-      "title": "Thariq on making Claude Code auto-continue configurable",
+      "title": "Thariq on configurable Claude Code auto-continue",
       "url": "https://x.com/trq212/status/2072726891581386883"
     },
     {
-      "title": "Claude Code Releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
+      "title": "Sid on Claude Code artifacts examples",
+      "url": "https://x.com/sidbid/status/2072774590263402920"
     },
     {
-      "title": "Claude Code v2.1.198 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198"
+      "title": "Boris Cherny on artifact use cases",
+      "url": "https://x.com/bcherny/status/2072780583965442157"
+    },
+    {
+      "title": "Claude Code release v2.1.199",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
     }
   ]
 }
