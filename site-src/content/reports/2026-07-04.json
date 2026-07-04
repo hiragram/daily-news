@@ -1,152 +1,114 @@
 {
   "date": "2026-07-04",
-  "windowLabel": "2026-07-03 03:03:04 JST - 2026-07-04 03:03:04 JST",
-  "archiveTitle": "Admin controls, artifacts rollout, and two Claude Code releases",
-  "archiveSummary": "Official 5件、engineer signal 4件、Claude Code release 2件。",
-  "latestSummary": "2026-07-03 03:03:04 JST から 2026-07-04 03:03:04 JST の24時間では、official X で <strong>@ClaudeDevs</strong> が Claude Platform API の rate limit 引き上げと <strong>Claude Code artifacts</strong> の Pro / Max 開放を告知し、<strong>@ClaudeAI</strong> はアート集団 <strong>Squidsoup</strong> の制作事例を紹介した。公式サイトでは <strong>Anthropic News</strong> が Fable 5 safeguards / jailbreak framework の詳細を公開し、<strong>Claude Blog</strong> は Enterprise 向け admin analytics と spend controls を公開した。engineer 側では <strong>@trq212</strong> が Fable を使う際の unknowns 発見ワークフローを共有し、<strong>@_catwu</strong> は Claude Tag 利用向け credit 付与を補足した。Claude Code の release は <strong>v2.1.199</strong> と <strong>v2.1.200</strong> の2件で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-07-03 09:02:03 JST - 2026-07-04 09:02:03 JST",
+  "archiveTitle": "Squidsoup feature and two Claude Code releases",
+  "archiveSummary": "Official 1件、engineer signal 3件、Claude Code release 2件。",
+  "latestSummary": "2026-07-03 09:02:03 JST から 2026-07-04 09:02:03 JST の24時間では、official X は <strong>@ClaudeAI</strong> の <strong>Squidsoup</strong> 事例紹介 1 件で、<strong>@AnthropicAI</strong> の main post と公式サイト4面の新着は確認できなかった。engineer 側では <strong>@_catwu</strong> が <strong>Claude Code</strong> と computer use で <strong>Claude Tag</strong> をセットアップできると案内し、<strong>@trq212</strong> は Fable で unknowns を見つける field guide を共有、<strong>@sidbid</strong> は <strong>Claude Code artifacts</strong> が desktop app でも使えると補足した。Claude Code の release は <strong>v2.1.200</strong> と <strong>v2.1.201</strong> の2件で、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> の枠組みで和訳して掲載した。",
   "summaryBullets": [
-    "<strong>Official 5件</strong>: <strong>@ClaudeDevs</strong> は Claude Platform API の tier 簡素化と最上位 tier での Sonnet / Haiku の <strong>5倍</strong> rate limit を告知し、続けて <strong>Claude Code artifacts</strong> の <strong>Pro / Max</strong> 開放を投稿した。<strong>@ClaudeAI</strong> は <strong>Squidsoup</strong> の没入型パフォーマンス事例を紹介した。",
-    "<strong>Official site articles 2件</strong>: visible publication date ベースで、この窓では <strong>Anthropic News</strong> の <strong>More details on Fable 5’s cyber safeguards and our jailbreak framework</strong> と、<strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は新着なし。",
-    "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は Fable を使う前後で unknowns を見つける HTML artifact 事例集を共有し、subscription での Fable 提供は <strong>2026-07-07</strong> 以降も capacity 次第で standard offering に戻したいと補足した。<strong>@_catwu</strong> は Claude Tag 向け credit 付与を、<strong>@sidbid</strong> は artifacts の private 仕様と日常用途を説明した。",
-    "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.199</strong> と <strong>v2.1.200</strong> を確認した。公開時刻はそれぞれ <strong>2026-07-03 08:35 JST</strong>、<strong>2026-07-04 01:52 JST</strong> で今回の window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>Official 1件</strong>: official X の新規 main post で採用したのは <strong>@ClaudeAI</strong> による <strong>Squidsoup</strong> の没入型パフォーマンス事例紹介 1 件のみだった。<strong>@ClaudeDevs</strong> の新規 main post は <code>/radio</code> 1 件だったが、製品情報を含まないため main item から外した。",
+    "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面で、この24時間窓に入る visible publication date の新着は確認できなかった。",
+    "<strong>Engineer signals 3件</strong>: <strong>@_catwu</strong> は Claude Code に Claude Tag docs を読ませて GitHub repo、data warehouse、Google Drive などを接続できると説明し、<strong>@trq212</strong> は Fable 利用時に unknowns を先に発見する HTML artifact 事例集を公開した。<strong>@sidbid</strong> は artifacts が desktop app でも使えると補足した。",
+    "<strong>Claude Code release 2件</strong>: GitHub CLI で <strong>v2.1.200</strong> と <strong>v2.1.201</strong> を確認した。公開時刻はそれぞれ <strong>2026-07-04 01:52 JST</strong>、<strong>2026-07-04 08:50 JST</strong> で window 内に入り、visible bullet 全項目を欠かさず和訳した。"
   ],
   "officialNews": [
-    {
-      "label": "Official X",
-      "datetime": "2026-07-03T08:02:48+09:00",
-      "displayTime": "2026-07-03 08:02 JST",
-      "title": "@ClaudeDevs が Claude Platform API の rate limit 引き上げを告知",
-      "summary": "<strong>@ClaudeDevs</strong> は Claude Platform API の rate limit を全ユーザー向けに引き上げ、tier を API spend ベースではない形に簡素化したと投稿した。最新の <strong>Sonnet</strong> と <strong>Haiku</strong> は最上位 tier で <strong>5倍</strong> 高い rate limit になり、self-reply では model をまたいで同じ requests per minute / token throughput を使えることや、Console から手動申請できることも補足している。",
-      "url": "https://x.com/ClaudeDevs/status/2072818299361263778",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Official X",
-      "datetime": "2026-07-03T04:54:01+09:00",
-      "displayTime": "2026-07-03 04:54 JST",
-      "title": "@ClaudeDevs が Claude Code artifacts の Pro / Max 開放を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> が <strong>Pro</strong> と <strong>Max</strong> plan でも使えるようになったと投稿した。artifact を依頼すると Claude がコードを書き、<strong>claude.ai</strong> 上に private で self-contained なページとして公開し、作業継続中もリアルタイム更新できると説明している。",
-      "url": "https://x.com/ClaudeDevs/status/2072770790114914317",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
     {
       "label": "Official X",
       "datetime": "2026-07-03T21:59:50+09:00",
       "displayTime": "2026-07-03 21:59 JST",
       "title": "@ClaudeAI が Squidsoup の没入型パフォーマンス事例を紹介",
-      "summary": "<strong>@ClaudeAI</strong> は、音・光・空間を組み合わせた没入型体験を制作する <strong>Squidsoup</strong> の事例動画を投稿し、ロンドンの Southbank Centre での大規模オーケストラ公演前に話を聞いたと紹介した。直接の機能発表ではないが、Claude 発信として creative use case の継続的な紹介に当たる。",
+      "summary": "<strong>@ClaudeAI</strong> は、音・光・空間を組み合わせた没入型体験を制作する <strong>Squidsoup</strong> の事例動画を投稿し、ロンドンの Southbank Centre での大規模オーケストラ公演前に取材したと紹介した。直接の機能発表ではないが、Claude 発信として creative use case の継続的な紹介に当たる。",
       "url": "https://x.com/claudeai/status/2073028947478995406",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-02T12:00:00+09:00",
-      "displayTime": "2026-07-02",
-      "title": "Anthropic News が Fable 5 safeguards と jailbreak framework の詳細を公開",
-      "summary": "<strong>Anthropic News</strong> の <strong>More details on Fable 5’s cyber safeguards and our jailbreak framework</strong> は、再展開済みの <strong>Claude Fable 5</strong> に付随する cybersecurity classifier の対象範囲と、AI jailbreak を評価する初期版の <strong>Cyber Jailbreak Severity</strong> フレームワークを詳説した。classifier の <strong>block / monitor / allow</strong> 境界と、<strong>capability gain</strong>、<strong>breadth</strong>、<strong>ease of weaponization</strong>、<strong>discoverability</strong> の4軸での評価方針が整理されている。",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-02T12:00:00+09:00",
-      "displayTime": "2026-07-02",
-      "title": "Claude Blog が Enterprise 向け admin analytics と spend controls を公開",
-      "summary": "<strong>Claude Blog</strong> の <strong>Giving admins more visibility and control over Claude spend</strong> は、Claude Enterprise 向けに richer admin analytics、model-level entitlements、spend alerts を追加した。group / user 単位の usage and cost 可視化、SCIM group ベースの内訳、Claude Code の value / usage タブ、Analytics API と組み合わせる cost-control workflow を説明している。",
-      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "urlLabel": "記事を読む",
+      "urlLabel": "X で見る",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI の新しい main post は 0件",
-      "body": "この24時間窓では、<strong>@AnthropicAI</strong> の新しい main post は確認できなかった。official X の main post 増分は <strong>@ClaudeDevs</strong> 2 件、<strong>@ClaudeAI</strong> 1 件、<strong>@AnthropicAI</strong> 0 件だった。"
+      "label": "@AnthropicAI の main post は 0件",
+      "body": "この24時間窓では、<strong>@AnthropicAI</strong> の新しい main post は確認できなかった。official X の main post 増分は <strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件、<strong>@AnthropicAI</strong> 0 件で、<strong>@ClaudeDevs</strong> の 1 件は <code>/radio</code> のみだったため main item から外した。"
     },
     {
-      "label": "Engineering / Research の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新表示は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> のままで、この24時間窓に入る visible publication date の新着は確認できなかった。一方で <strong>Anthropic News</strong> と <strong>Claude Blog</strong> は <strong>Jul 2, 2026</strong> の記事を各1件ずつ採用した。"
+      "label": "公式サイト4面の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 2, 2026</strong>、<strong>Claude Blog</strong> も今回確認できた最新 official article は <strong>Jul 2, 2026</strong> で、この24時間窓に入る新着は見当たらなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
+      "datetime": "2026-07-04T05:58:18+09:00",
+      "displayTime": "2026-07-04 05:58 JST",
+      "title": "@_catwu が Claude Code と computer use で Claude Tag を接続できると案内",
+      "summary": "<strong>@_catwu</strong> は、Claude Code に <strong>Claude Tag</strong> docs を見せれば、team の GitHub repo、data warehouse、Google Drive などの data source 接続を computer use で進められると投稿した。Tag 導入を agent に委ねる具体的なオンボーディング手順の示唆になっている。",
+      "url": "https://x.com/_catwu/status/2073149354412822738",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
       "datetime": "2026-07-04T02:46:28+09:00",
       "displayTime": "2026-07-04 02:46 JST",
-      "title": "@trq212 が Fable 利用時の unknowns 発見ワークフローを共有",
-      "summary": "<strong>@trq212</strong> は、Fable で重要なのは自分の unknowns を先に発見して prompt を良くすることだと述べ、HTML artifact で blindspot を洗い出す事例集を共有した。quoted article と follow-up reply では、実装前・途中・後で unknowns を掘る artifact 例を提示している。",
+      "title": "@trq212 が Fable で unknowns を見つける field guide を共有",
+      "summary": "<strong>@trq212</strong> は、Fable をうまく使うには自分の unknowns を先に見つけて prompt を良くすることが重要だと述べ、HTML artifact で blindspot を洗い出す事例集を共有した。follow-up post では具体例ページへのリンクも付けている。",
       "url": "https://x.com/trq212/status/2073101078145724589",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-03T07:49:18+09:00",
-      "displayTime": "2026-07-03 07:49 JST",
-      "title": "@trq212 が subscription での Fable 提供方針を補足",
-      "summary": "<strong>@trq212</strong> は、Fable が subscription plan で使えるのは <strong>2026-07-07</strong> までだが、その後も capacity が戻り次第 standard part of subscriptions として復帰させたいと説明した。一時措置の終了予定と、中長期では恒常提供を目指す方針が読み取れる。",
-      "url": "https://x.com/trq212/status/2072814903170408784",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-07-03T03:03:52+09:00",
-      "displayTime": "2026-07-03 03:03 JST",
-      "title": "@_catwu が Claude Tag 向け credit 付与を補足",
-      "summary": "<strong>@_catwu</strong> は Claude Tag の導入案内に続く self-reply で、<strong>Claude Enterprise</strong> 組織には <strong>$25k</strong>、<strong>Claude Team</strong> 組織には <strong>$2.5k</strong> の credit を <strong>2026-09-01</strong> まで付与すると説明した。Tag rollout を後押しする実務的な導入インセンティブの情報。",
-      "url": "https://x.com/_catwu/status/2072743070316257662",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-07-03T05:09:08+09:00",
-      "displayTime": "2026-07-03 05:09 JST",
-      "title": "@sidbid が artifacts の private 仕様と日常用途を補足",
-      "summary": "<strong>@sidbid</strong> は、Claude Code artifacts を PR walkthrough、architecture diagram、data dashboard、UI mock に日常利用していると投稿し、続く reply で artifacts は private だと明言した。Pro / Max 開放に対し、具体的な用途と privacy の実装方針が見える補足になっている。",
-      "url": "https://x.com/sidbid/status/2072774590263402920",
+      "datetime": "2026-07-03T22:53:07+09:00",
+      "displayTime": "2026-07-03 22:53 JST",
+      "title": "@sidbid が Claude Code artifacts は desktop app でも使えると補足",
+      "summary": "<strong>@sidbid</strong> は、<strong>@ClaudeDevs</strong> の artifacts 告知に対する reply で、<strong>Claude Code artifacts</strong> は desktop app でも利用できると補足した。Pro / Max 開放の対象面を確認できる短い実務情報になっている。",
+      "url": "https://x.com/sidbid/status/2073042355415040312",
       "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "この24時間窓で公式サイト4面に visible publication date ベースで入った新着は <strong>2件</strong> だった。<strong>Anthropic News</strong> に Fable 5 safeguards / jailbreak framework の詳細記事、<strong>Claude Blog</strong> に Enterprise 向け admin analytics と spend controls の記事が追加され、<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は更新なしだった。",
+      "headline": "0件",
+      "body": "この24時間窓では、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages に、visible publication date ベースで新しい official article は確認できなかった。",
       "details": [
-        "<strong>Anthropic News</strong>: <strong>More details on Fable 5’s cyber safeguards and our jailbreak framework</strong>（<strong>Jul 2, 2026</strong>）",
-        "記事は Fable 5 の cybersecurity classifier の対象範囲と、AI jailbreak を <strong>CJS-0</strong> から <strong>CJS-4</strong> で評価する初期フレームワークを説明している。",
-        "<strong>Claude Blog</strong>: <strong>Giving admins more visibility and control over Claude spend</strong>（<strong>July 2, 2026</strong>）",
-        "記事は Claude Enterprise 向けに richer admin analytics、model-level entitlements、spend alerts を追加し、group / user 単位の usage and cost 可視化と Analytics API を使う cost-control workflow をまとめている。"
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 2, 2026</strong>。",
+        "<strong>Claude Blog</strong> でも今回確認できた最新 official article は <strong>Jul 2, 2026</strong> で、window 内の新着は確認できなかった."
       ],
       "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog 一覧"
+      "urlLabel": "Claude Blog"
     },
     {
       "title": "Claude Code リリース",
       "headline": "2件",
-      "body": "GitHub CLI で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.200</strong> と <strong>v2.1.199</strong> の2件だった。release note 本文は GitHub CLI から完全取得し、visible bullet 全項目を各 release ごとに <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "GitHub CLI を source of truth として確認したところ、この24時間窓には <strong>v2.1.200</strong> と <strong>v2.1.201</strong> の2件が入った。<strong>v2.1.200</strong> は permission / accessibility / background agent 周辺の変更と修正が中心で、<strong>v2.1.201</strong> は Sonnet 5 harness reminder の扱いを1項目だけ調整した小規模 release だった。",
       "releases": [
         {
-          "version": "v2.1.200",
-          "publishedAt": "2026-07-04 01:52 JST",
-          "summary": "AskUserQuestion の既定挙動見直し、permission mode の <strong>Manual</strong> 既定化、screen reader 改善に加え、background agent / plugin / tmux / voice dictation 周りの不具合を修正したリリース。",
+          "version": "v2.1.201",
+          "publishedAt": "2026-07-04 08:50 JST",
+          "summary": "Claude Sonnet 5 session で harness reminder の system role 挿入方法を見直した小規模リリース。",
           "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "新機能として独立して追加された項目はなく、今回は既存挙動の変更と不具合修正が中心。"
-              ]
-            },
             {
               "title": "変更",
               "items": [
-                "<code>AskUserQuestion</code> ダイアログは、既定では自動継続しないように変更し、アイドル timeout を使いたい場合だけ <code>/config</code> から opt-in する方式にした。",
+                "Claude Sonnet 5 の session では、harness reminder のために conversation 途中で system role を使わないように変更した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
+          "urlLabel": "v2.1.201 release notes"
+        },
+        {
+          "version": "v2.1.200",
+          "publishedAt": "2026-07-04 01:52 JST",
+          "summary": "AskUserQuestion の既定挙動と permission mode 表記を見直しつつ、background session、subagent、plugin、accessibility、voice、tmux 周辺の不具合を広く修正したリリース。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "<code>AskUserQuestion</code> ダイアログは既定では自動継続しないように変更し、idle timeout を使いたい場合だけ <code>/config</code> から opt-in する方式にした。",
                 "CLI、<code>--help</code>、VS Code、JetBrains 全体で、<strong>default</strong> permission mode を <strong>Manual</strong> と表記するように変更し、<code>--permission-mode manual</code> と <code>\"defaultMode\": \"manual\"</code> も <strong>default</strong> と並んで受け付けるようにした。",
-                "screen reader 向け出力を改善し、装飾 glyph を読み上げ対象から外し、transcript の記号は短いラベルで読ませ、ネストした table は <code>Header: value.</code> 形式で読ませるようにした。",
-                "install script を改善し、システムのメモリ不足で installation が kill されたとき、その理由が分かる説明を出すようにした。"
+                "screen reader 向け出力を改善し、装飾 glyph は読み上げ対象から外し、transcript の記号は短いラベルで読み上げ、ネストした table は <code>Header: value.</code> 形式で読むようにした。",
+                "install script を改善し、システムのメモリ不足で installation が kill されたときに原因が分かる説明を表示するようにした。"
               ]
             },
             {
@@ -170,54 +132,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
           "urlLabel": "v2.1.200 release notes"
-        },
-        {
-          "version": "v2.1.199",
-          "publishedAt": "2026-07-03 08:35 JST",
-          "summary": "stacked slash-skill の同時読込、subscriber 向け 429 retry 改善、retry 制御の拡張に加え、background agent / subagent / transcript / Chrome / hook / SSH まわりの不具合を広く修正したリリース。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "連続した slash-skill 呼び出し、たとえば <code>/skill-a /skill-b do XYZ</code> のような書き方で、先頭の skill を1つだけでなく最大5つまでまとめて読み込めるようにした。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "subscriber 向けに、利用枠超過ではない一時的な server-side rate-limit error（429）を turn 失敗にせず、backoff 付きで自動 retry するようにした。",
-                "<code>CLAUDE_CODE_RETRY_WATCHDOG</code> では、capacity 以外の transient error に対する default retry 回数を <strong>300</strong> まで引き上げ、<code>CLAUDE_CODE_MAX_RETRIES</code> の上限 <strong>15</strong> も撤廃した。",
-                "<code>claude agents</code> の session 行では、pull request link を冗長な <strong>PR</strong> ラベル付きではなく、素の <strong>#N</strong> 表示に変えた。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "SSL certificate error（TLS-inspecting proxy、<code>NODE_EXTRA_CA_CERTS</code> 未設定、期限切れ証明書など）で retry を無駄遣いしてから案内を出していた問題を修正し、即座に失敗させて修正ヒントを表示するようにした。",
-                "API が partial output の途中で overloaded / server error を返したとき、streaming response 全体を捨てていた問題を修正し、partial output を incomplete-response notice 付きで保持するようにした。",
-                "subagent が rate limit や server error で途中終了したとき、partial work を親 agent に返さず黙って失敗していた問題を修正した。",
-                "subagent が API error（たとえば usage limit 到達）を成功結果として報告してしまう問題を修正し、親 agent へ error として返すようにした。",
-                "Linux で background-agent daemon が、unclean shutdown 後に壊れた worker record を読んで約50秒ごとに自分自身と全 agent を kill していた問題を修正した。",
-                "macOS で SSH 越しに background agent を cold-start すると <strong>Could not switch to audit session</strong> で失敗する問題（2.1.196 の regression）を修正した。",
-                "<code>claude stop</code> が background-agent の respawn race に負けると silently undone されていた問題を修正し、respawn 側が stop を尊重するようにした。",
-                "background job が長い command を実行中に、progress indicator が数分単位で止まって見える問題を修正した。",
-                "メモリ不足のマシンで background session が generic error だけを出していた問題を修正し、low memory を明示してリソース解放を促すようにした。",
-                "remote session で background agent 完了時に agent view が <strong>Working</strong> と <strong>Idle</strong> の間で一瞬 flapping する問題を修正した。",
-                "ほかの subagent が動作中でも idle subagent が agent panel から消えていた問題を修正し、余剰の idle agent を展開可能な summary row に畳むようにした。",
-                "subagent 表示中に <code>/model</code> や <code>/fast</code> を打つと、lead の model picker が silently 開いてしまう問題を修正し、その command は lead に適用されると notice を出すようにした。",
-                "<code>SessionStart</code>、<code>Setup</code>、<code>SubagentStart</code> hook が exit code 2 で落ちたとき、stderr を黙って隠していた問題を修正し、transcript に error を表示するようにした。",
-                "<code>claude --dangerously-skip-permissions daemon &lt;subcommand&gt;</code> が subcommand 実行ではなく chat prompt として解釈される問題を修正した。",
-                "re-spawned agent が以前の agent 名を再利用したとき、<code>SendMessage</code> が silently misroute する問題を修正し、mismatch を検知して caller に retarget を求めるようにした。",
-                "新しい message がない session を開いたり resume しただけで transcript file が無駄に肥大化する問題を修正した。",
-                "<code>←</code> や <code>/background</code> で session を background 化したとき、agent view の行から <code>/color</code> が落ちる問題を修正した。",
-                "startup recovery dialog から壊れた config file を reset すると、復旧不能な形でそのまま破壊していた問題を修正し、先に backup を取るようにした。",
-                "Claude in Chrome で、build や config directory が異なる session を扱うと reconnect page が繰り返し開く問題を修正した。",
-                "plan mode で state-changing な browser tool call に prompt が出ず、read-only の <code>browser_batch</code> auto-allow も誤っていた問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
-          "urlLabel": "v2.1.199 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -225,10 +139,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。今回の main post 増分は <strong>@ClaudeDevs</strong> 3 件のうち <code>/radio</code> 1 件を低情報量として除外し、<strong>@ClaudeAI</strong> 1 件、<strong>@AnthropicAI</strong> 0 件だった。",
-    "engineer watch では監視対象アカウントを広く確認したが、雑談、歓迎 reply、イベント後の短いリアクション、sports / personal chatter、repost は main signal から外した。",
-    "公式サイトの新着判定は visible publication date ベースに限定した。<strong>Anthropic Engineering</strong> は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong> で更新なし、<strong>Anthropic News</strong> と <strong>Claude Blog</strong> はともに <strong>Jul 2, 2026</strong> の新着を各1件ずつ採用した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.198</strong> 以前は外し、window 内に入った <strong>v2.1.199</strong> と <strong>v2.1.200</strong> のみを full note で掲載した。"
+    "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。今回の main post 増分は <strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件、<strong>@AnthropicAI</strong> 0 件で、<strong>@ClaudeDevs</strong> の <code>/radio</code> は低情報量として除外した。",
+    "engineer watch では監視対象アカウントを広く確認したが、雑談、短い賛辞、sports / personal chatter、repost は signal から外した。",
+    "公式サイトの新着判定は official listings の visible publication date ベースに限定した。今回の window では <strong>Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の4面とも新着なしと扱った。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 開始以前の <strong>v2.1.199</strong> 以前は外し、window 内に入った <strong>v2.1.200</strong> と <strong>v2.1.201</strong> のみを full note で掲載した。"
   ],
   "sources": [
     {
@@ -248,52 +162,32 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Anthropic News: More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
-    },
-    {
-      "title": "Claude Blog: Giving admins more visibility and control over Claude spend",
-      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend"
-    },
-    {
-      "title": "ClaudeDevs on higher Claude Platform API rate limits",
-      "url": "https://x.com/ClaudeDevs/status/2072818299361263778"
-    },
-    {
-      "title": "ClaudeDevs on Claude Code artifacts for Pro and Max",
-      "url": "https://x.com/ClaudeDevs/status/2072770790114914317"
-    },
-    {
       "title": "ClaudeAI on Squidsoup",
       "url": "https://x.com/claudeai/status/2073028947478995406"
     },
     {
-      "title": "Thariq on finding unknowns with Fable",
+      "title": "cat on Claude Tag setup with Claude Code",
+      "url": "https://x.com/_catwu/status/2073149354412822738"
+    },
+    {
+      "title": "trq212 on finding unknowns with Fable",
       "url": "https://x.com/trq212/status/2073101078145724589"
     },
     {
-      "title": "Thariq on Fable subscription timing",
-      "url": "https://x.com/trq212/status/2072814903170408784"
+      "title": "sidbid on artifacts in the desktop app",
+      "url": "https://x.com/sidbid/status/2073042355415040312"
     },
     {
-      "title": "Cat Wu on Claude Tag credits",
-      "url": "https://x.com/_catwu/status/2072743070316257662"
+      "title": "Claude Code release v2.1.201",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
     },
     {
-      "title": "Sid on Claude Code artifacts use cases",
-      "url": "https://x.com/sidbid/status/2072774590263402920"
-    },
-    {
-      "title": "Claude Code Releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    },
-    {
-      "title": "Claude Code v2.1.200 release notes",
+      "title": "Claude Code release v2.1.200",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
     },
     {
-      "title": "Claude Code v2.1.199 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199"
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
     }
   ]
 }
