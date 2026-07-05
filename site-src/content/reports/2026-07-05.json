@@ -1,14 +1,14 @@
 {
   "date": "2026-07-05",
-  "windowLabel": "2026-07-04 09:02:14 JST - 2026-07-05 09:02:14 JST",
+  "windowLabel": "2026-07-04 15:02:31 JST - 2026-07-05 15:02:31 JST",
   "archiveTitle": "Fable 5 judgment signal",
   "archiveSummary": "Official 0件、engineer signal 1件、Claude Code release 0件。",
-  "latestSummary": "2026-07-04 09:02:14 JST から 2026-07-05 09:02:14 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと述べ、判断力改善の signal を示した。Claude Code の GitHub releases は、この24時間窓では新規公開 0 件だった。",
+  "latestSummary": "2026-07-04 15:02:31 JST から 2026-07-05 15:02:31 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと述べ、判断力改善の signal を示した。Claude Code の GitHub releases は、この24時間窓では新規公開 0 件だったが、依頼に沿って最新 <strong>v2.1.201</strong> の release note 全項目を GitHub CLI で完全取得して和訳した。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
     "<strong>Engineer signal 1件</strong>: <strong>@_catwu</strong> は <strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと紹介し、Fable 5 の judgment 改善例として共有した。",
-    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。"
+    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼に沿って release body は <code>gh release view</code> で完全取得し、全 bullet を和訳した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -50,10 +50,23 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新は <strong>v2.1.201</strong> の <strong>2026-07-04 08:50 JST</strong> で、window 開始前だった。",
-      "details": [
-        "最新 release は <strong>v2.1.201</strong>（<strong>2026-07-03T23:50:35Z</strong>）で、本文は <strong>Claude Sonnet 5 sessions</strong> の harness reminder 用 system role 廃止 1件だった。",
-        "次点の <strong>v2.1.200</strong>（<strong>2026-07-03T16:52:33Z</strong>）も window 外で、権限モード変更、background session 修正、accessibility 改善などの複数項目を含んでいた。"
+      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.201</strong> は <strong>2026-07-04 08:50 JST</strong> 公開で、window 開始前だったが、依頼に沿って <code>What's changed</code> を完全取得し、visible bullet 全項目を和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.201",
+          "publishedAt": "2026-07-04 08:50 JST",
+          "summary": "窓外公開だが、最新 release の <code>What's changed</code> 全項目を GitHub CLI で完全取得し、カテゴリ別に和訳した。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "Claude Sonnet 5 の session では、harness reminder のために会話途中の system role を使わないよう変更した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
+          "urlLabel": "v2.1.201 の release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -63,7 +76,7 @@
     "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
     "engineer watch では reply も確認したが、travel、sports、Bun の議論、短い雑談、repost は signal から外した。",
     "Fable 5 投稿への reply で <strong>currently released fable 5</strong> という補足はあったが、独立した別 signal にはせず本文 context に統合した。",
-    "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> と <strong>v2.1.200</strong> の full note 再掲は行わなかった。"
+    "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> は release 件数に数えず、依頼に沿った完全取得と和訳のみ参考情報として併記した。"
   ],
   "sources": [
     {
@@ -93,10 +106,6 @@
     {
       "title": "Claude Code release v2.1.201",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
-    },
-    {
-      "title": "Claude Code release v2.1.200",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
     }
   ]
 }
