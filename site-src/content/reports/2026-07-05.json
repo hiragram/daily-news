@@ -1,14 +1,14 @@
 {
   "date": "2026-07-05",
-  "windowLabel": "2026-07-04 03:01:59 JST - 2026-07-05 03:01:59 JST",
-  "archiveTitle": "Fable 5 signals and Claude Tag setup",
-  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 0件。",
-  "latestSummary": "2026-07-04 03:01:59 JST から 2026-07-05 03:01:59 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと述べ、判断力改善の signal を示した。別投稿では <strong>Claude Code</strong> と computer use で <strong>Claude Tag</strong> の接続設定を進められると案内し、reply で新規 Claude account 推奨や接続前確認、auth 画面の手動通過も補足した。Claude Code の GitHub releases は、この24時間窓では新規公開 0 件だった。",
+  "windowLabel": "2026-07-04 09:02:14 JST - 2026-07-05 09:02:14 JST",
+  "archiveTitle": "Fable 5 judgment signal",
+  "archiveSummary": "Official 0件、engineer signal 1件、Claude Code release 0件。",
+  "latestSummary": "2026-07-04 09:02:14 JST から 2026-07-05 09:02:14 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと述べ、判断力改善の signal を示した。Claude Code の GitHub releases は、この24時間窓では新規公開 0 件だった。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
-    "<strong>Engineer signals 2件</strong>: <strong>@_catwu</strong> は <strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと投稿し、別投稿では <strong>Claude Code</strong> と computer use による <strong>Claude Tag</strong> の接続設定を案内した。thread reply では新しい Claude account の利用推奨、接続前確認で止まる既定挙動、auth 画面を人間が通す場面も補足している。",
-    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 5</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。"
+    "<strong>Engineer signal 1件</strong>: <strong>@_catwu</strong> は <strong>Claude Fable 5</strong> が retention analysis で propensity score matching を自発的に選んだと紹介し、Fable 5 の judgment 改善例として共有した。",
+    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -27,18 +27,8 @@
       "datetime": "2026-07-05T01:12:47+09:00",
       "displayTime": "2026-07-05 01:12 JST",
       "title": "@_catwu が Fable 5 の判断力改善を retention analysis で共有",
-      "summary": "<strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で、依頼しなくても propensity score matching を選んだと紹介した。activity を揃えて比較する手法を自発的に使えた点を、Fable 5 の judgment 改善の具体例として挙げている。",
+      "summary": "<strong>@_catwu</strong> は、<strong>Claude Fable 5</strong> が retention analysis で、依頼しなくても propensity score matching を選んだと紹介した。activity を揃えて比較する手法を自発的に使えた点を、Fable 5 の judgment 改善の具体例として挙げている。reply では、この例が <strong>currently released fable 5</strong> を使ったものだとも補足した。",
       "url": "https://x.com/_catwu/status/2073439890482794966",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-07-04T05:58:18+09:00",
-      "displayTime": "2026-07-04 05:58 JST",
-      "title": "@_catwu が Claude Code と computer use で Claude Tag を設定できると案内",
-      "summary": "<strong>@_catwu</strong> は、<strong>Claude Code</strong> に <strong>Claude Tag</strong> docs を読ませれば、computer use を通じて team の GitHub repo、data warehouse、Google Drive などの data source 接続を進められると説明した。reply では、personal account ではなく新しい Claude account を使う推奨、接続前に確認で止まる既定挙動、auth 画面は人間が数回クリックして続行したことも補足している。",
-      "url": "https://x.com/_catwu/status/2073149354412822738",
       "urlLabel": "X で見る",
       "primary": true
     }
@@ -60,10 +50,10 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 5</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新は <strong>v2.1.201</strong> の <strong>2026-07-04 08:50 JST</strong> で、window 開始前だった。",
+      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新は <strong>v2.1.201</strong> の <strong>2026-07-04 08:50 JST</strong> で、window 開始前だった。",
       "details": [
-        "最新 release は <strong>v2.1.201</strong>（<strong>2026-07-04T23:50:35Z</strong>）だった。",
-        "次点は <strong>v2.1.200</strong>（<strong>2026-07-03T16:52:33Z</strong>）で、どちらも今回の window 外だった。"
+        "最新 release は <strong>v2.1.201</strong>（<strong>2026-07-03T23:50:35Z</strong>）で、本文は <strong>Claude Sonnet 5 sessions</strong> の harness reminder 用 system role 廃止 1件だった。",
+        "次点の <strong>v2.1.200</strong>（<strong>2026-07-03T16:52:33Z</strong>）も window 外で、権限モード変更、background session 修正、accessibility 改善などの複数項目を含んでいた。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -71,8 +61,8 @@
   ],
   "exclusions": [
     "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
-    "engineer watch では reply も確認したが、雑談、sports / travel / personal chatter、短い賞賛、他社技術の話題、repost は signal から外した。",
-    "Claude Tag の thread では user 側の要望や称賛も多かったが、report には <strong>@_catwu</strong> 自身が補足した運用情報だけを取り込んだ。",
+    "engineer watch では reply も確認したが、travel、sports、Bun の議論、短い雑談、repost は signal から外した。",
+    "Fable 5 投稿への reply で <strong>currently released fable 5</strong> という補足はあったが、独立した別 signal にはせず本文 context に統合した。",
     "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> と <strong>v2.1.200</strong> の full note 再掲は行わなかった。"
   ],
   "sources": [
@@ -97,12 +87,16 @@
       "url": "https://x.com/_catwu/status/2073439890482794966"
     },
     {
-      "title": "cat on using Claude Code to set up Claude Tag",
-      "url": "https://x.com/_catwu/status/2073149354412822738"
-    },
-    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.201",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
+    },
+    {
+      "title": "Claude Code release v2.1.200",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
     }
   ]
 }
