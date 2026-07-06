@@ -1,13 +1,13 @@
 {
   "date": "2026-07-06",
-  "windowLabel": "2026-07-05 09:02:46 JST - 2026-07-06 09:02:46 JST",
-  "archiveTitle": "Claude Code workflow sourcing signal",
-  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 0件。",
-  "latestSummary": "2026-07-05 09:02:46 JST から 2026-07-06 09:02:46 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は <strong>Claude Code + workflows + artifacts</strong> の候補者発掘ユースケースを共有し、reply で <strong>computer use</strong> を使うことと通常 <strong>約20分</strong> で終わることを補足した。<strong>@amorriscode</strong> は Claude Code の remote-control について、desktop app では settings に toggle があると案内した。Claude Code の GitHub releases はこの24時間窓で新規公開 0 件だったが、依頼に沿って最新 <strong>v2.1.201</strong> の release note 全項目を GitHub CLI で完全取得して和訳した。",
+  "windowLabel": "2026-07-05 15:01:21 JST - 2026-07-06 15:01:21 JST",
+  "archiveTitle": "Claude Code workflow orchestration signals",
+  "archiveSummary": "Official 0件、engineer signal 3件、Claude Code release 0件。",
+  "latestSummary": "2026-07-05 15:01:21 JST から 2026-07-06 15:01:21 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は <strong>Claude Code + workflows + artifacts</strong> による candidate sourcing を共有し、その後の reply で <strong>computer use</strong>、<strong>dynamic workflows</strong>、<strong>claude tag</strong> を組み合わせた運用を具体化した。<strong>@amorriscode</strong> は Claude Code の remote-control について、desktop app では settings に toggle があると案内した。Claude Code の GitHub releases はこの24時間窓で新規公開 0 件だったが、依頼に沿って最新 <strong>v2.1.201</strong> の release note 全項目を GitHub CLI で完全取得し、分類して和訳した。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
-    "<strong>Engineer signals 2件</strong>: <strong>@_catwu</strong> は Claude Code と workflows と artifacts を使った candidate sourcing の具体例を共有し、<strong>computer use</strong> を使う運用や所要時間も補足した。<strong>@amorriscode</strong> は desktop app 側の remote-control toggle の存在を案内した。",
+    "<strong>Engineer signals 3件</strong>: <strong>@_catwu</strong> は candidate sourcing workflow に加えて、<strong>dynamic workflows</strong> が数百 agent の並列調査とマージを自然言語で組めること、さらに <strong>claude tag</strong> で running agents の定期サマリーを書かせて report format を調整していることを共有した。<strong>@amorriscode</strong> は desktop app 側の remote-control toggle の存在を案内した。",
     "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼に沿って release body は <code>gh release view</code> で完全取得し、全 bullet を和訳した。"
   ],
   "officialNews": [],
@@ -31,6 +31,24 @@
       "url": "https://x.com/_catwu/status/2073806626965049686",
       "urlLabel": "X で見る",
       "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-06T10:40:03+09:00",
+      "displayTime": "2026-07-06 10:40 JST",
+      "title": "@_catwu が dynamic workflows の並列調査フローを具体化",
+      "summary": "<strong>@_catwu</strong> は reply で、role と output requirements を書いた prompt から、Claude Code に自然言語で <strong>dynamic workflows</strong> を使わせていると説明した。各 candidate を個別 agent が並列調査し、最後に map-reduce 的に merge する構成だとしており、Claude Code の大規模並列オーケストレーション運用の具体例になっている。",
+      "url": "https://x.com/_catwu/status/2073945036509909294",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-06T10:47:49+09:00",
+      "displayTime": "2026-07-06 10:47 JST",
+      "title": "@_catwu が claude tag を使った multi-agent 監督方法を共有",
+      "summary": "<strong>@_catwu</strong> は、難しい単一タスクでは 1 agent を密に見ながら進める一方、通常は <strong>10s of agents</strong> を走らせると説明した。加えて <strong>claude tag</strong> を使い、running agents の定期サマリーを <strong>chief of staff</strong> のように書かせ、report format も高密度で actionable になるよう調整していると述べた。",
+      "url": "https://x.com/_catwu/status/2073946990195748977",
+      "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
@@ -84,7 +102,7 @@
   "exclusions": [
     "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
     "engineer watch では reply も確認したが、Fable の一般雑談、Bun の議論、sports / personal chatter、短いリアクション、repost は signal から外した。",
-    "<strong>@_catwu</strong> の candidate sourcing post に対する reply は、LinkedIn を computer use で引く点と通常所要時間だけを本文 context に統合し、別 signal には分離しなかった。",
+    "<strong>@_catwu</strong> の candidate sourcing thread では、LinkedIn を computer use で引く点や通常所要時間は最初の signal 本文に統合し、別 signal には分離しなかった。",
     "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> は release 件数に数えず、依頼に沿った完全取得と和訳のみ参考情報として併記した。"
   ],
   "sources": [
@@ -115,6 +133,14 @@
     {
       "title": "Cat Wu on typical workflow ETA",
       "url": "https://x.com/_catwu/status/2073857295629660605"
+    },
+    {
+      "title": "Cat Wu on dynamic workflows orchestrating agents in parallel",
+      "url": "https://x.com/_catwu/status/2073945036509909294"
+    },
+    {
+      "title": "Cat Wu on using claude tag for running-agent summaries",
+      "url": "https://x.com/_catwu/status/2073946990195748977"
     },
     {
       "title": "Anthony Morris on desktop app remote-control toggle",
