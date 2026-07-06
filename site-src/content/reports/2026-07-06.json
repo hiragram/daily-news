@@ -1,14 +1,14 @@
 {
   "date": "2026-07-06",
-  "windowLabel": "2026-07-05 15:01:21 JST - 2026-07-06 15:01:21 JST",
+  "windowLabel": "2026-07-05 21:01:09 JST - 2026-07-06 21:01:09 JST",
   "archiveTitle": "Claude Code workflow orchestration signals",
-  "archiveSummary": "Official 0件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-05 15:01:21 JST から 2026-07-06 15:01:21 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は <strong>Claude Code + workflows + artifacts</strong> による candidate sourcing を共有し、その後の reply で <strong>computer use</strong>、<strong>dynamic workflows</strong>、<strong>claude tag</strong> を組み合わせた運用を具体化した。<strong>@amorriscode</strong> は Claude Code の remote-control について、desktop app では settings に toggle があると案内した。Claude Code の GitHub releases はこの24時間窓で新規公開 0 件だったが、依頼に沿って最新 <strong>v2.1.201</strong> の release note 全項目を GitHub CLI で完全取得し、分類して和訳した。",
+  "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 0件。",
+  "latestSummary": "2026-07-05 21:01:09 JST から 2026-07-06 21:01:09 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は <strong>Claude Code + workflows + artifacts</strong> による candidate sourcing を共有し、その後の reply で <strong>computer use</strong>、<strong>dynamic workflows</strong>、<strong>claude tag</strong> を組み合わせた運用を具体化した。<strong>@amorriscode</strong> は Claude Code の remote-control について、desktop app では settings に toggle があると案内した。Claude Code の GitHub releases はこの24時間窓で新規公開 0 件だったが、最新 <strong>v2.1.201</strong> の visible release note 全項目は取得し、分類して和訳した。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@_catwu</strong> は candidate sourcing workflow に加えて、<strong>dynamic workflows</strong> が数百 agent の並列調査とマージを自然言語で組めること、さらに <strong>claude tag</strong> で running agents の定期サマリーを書かせて report format を調整していることを共有した。<strong>@amorriscode</strong> は desktop app 側の remote-control toggle の存在を案内した。",
-    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼に沿って release body は <code>gh release view</code> で完全取得し、全 bullet を和訳した。"
+    "<strong>Engineer signals 4件</strong>: <strong>@_catwu</strong> は candidate sourcing workflow に加えて、<strong>dynamic workflows</strong> が数百 agent の並列調査とマージを自然言語で組めること、さらに <strong>claude tag</strong> で running agents の定期サマリーを書かせて report format を調整していることを共有した。<strong>@amorriscode</strong> は desktop app 側の remote-control toggle の存在を案内した。",
+    "<strong>Claude Code release 0件</strong>: 公開 releases 一覧では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼に沿って visible release note の全 bullet を和訳した。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -77,12 +77,12 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.201</strong> は <strong>2026-07-04 08:50 JST</strong> 公開で、window 開始前だったが、依頼に沿って <code>What's changed</code> を完全取得し、visible bullet 全項目を和訳した。",
+      "body": "公開 releases 一覧を確認したところ、この24時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.201</strong> は <strong>2026-07-04 08:50 JST</strong> 公開で、window 開始前だったが、依頼に沿って <code>What's changed</code> の visible bullet 全項目を和訳した。",
       "releases": [
         {
           "version": "v2.1.201",
           "publishedAt": "2026-07-04 08:50 JST",
-          "summary": "窓外公開だが、最新 release の <code>What's changed</code> 全項目を GitHub CLI で完全取得し、カテゴリ別に和訳した。",
+          "summary": "窓外公開だが、最新 release の <code>What's changed</code> 全項目を取得し、カテゴリ別に和訳した。",
           "sections": [
             {
               "title": "変更",
