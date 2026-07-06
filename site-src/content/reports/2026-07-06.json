@@ -1,0 +1,132 @@
+{
+  "date": "2026-07-06",
+  "windowLabel": "2026-07-05 09:02:46 JST - 2026-07-06 09:02:46 JST",
+  "archiveTitle": "Claude Code workflow sourcing signal",
+  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 0件。",
+  "latestSummary": "2026-07-05 09:02:46 JST から 2026-07-06 09:02:46 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で <strong>@_catwu</strong> は <strong>Claude Code + workflows + artifacts</strong> の候補者発掘ユースケースを共有し、reply で <strong>computer use</strong> を使うことと通常 <strong>約20分</strong> で終わることを補足した。<strong>@amorriscode</strong> は Claude Code の remote-control について、desktop app では settings に toggle があると案内した。Claude Code の GitHub releases はこの24時間窓で新規公開 0 件だったが、依頼に沿って最新 <strong>v2.1.201</strong> の release note 全項目を GitHub CLI で完全取得して和訳した。",
+  "summaryBullets": [
+    "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
+    "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
+    "<strong>Engineer signals 2件</strong>: <strong>@_catwu</strong> は Claude Code と workflows と artifacts を使った candidate sourcing の具体例を共有し、<strong>computer use</strong> を使う運用や所要時間も補足した。<strong>@amorriscode</strong> は desktop app 側の remote-control toggle の存在を案内した。",
+    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼に沿って release body は <code>gh release view</code> で完全取得し、全 bullet を和訳した。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "official X の新規 main post は 0件",
+      "body": "この24時間窓では、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X に新しい main post は確認できなかった。official news は 0 件として扱う。"
+    },
+    {
+      "label": "公式サイト4面の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jun 26, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 2, 2026</strong>、<strong>Claude Blog</strong> も今回確認できた最新 visible date は <strong>Jul 2, 2026</strong> で、この24時間窓に入る新着は見当たらなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-06T01:30:03+09:00",
+      "displayTime": "2026-07-06 01:30 JST",
+      "title": "@_catwu が Claude Code と workflows で候補者発掘する使い方を共有",
+      "summary": "<strong>@_catwu</strong> は、<strong>Claude Code + workflows + artifacts</strong> の新しい favorite use case として candidate sourcing を紹介した。role と欲しい background を伝え、dynamic workflow で候補者 <strong>100人</strong> を集め、LinkedIn、X、blog などを含める流れを例示している。続く reply では、LinkedIn pull は <strong>computer use</strong> に任せており、workflow 付きなら通常 <strong>約20分</strong> だと補足した。",
+      "url": "https://x.com/_catwu/status/2073806626965049686",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-06T03:14:14+09:00",
+      "displayTime": "2026-07-06 03:14 JST",
+      "title": "@amorriscode が desktop app の remote-control toggle を補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code の remote-control について、desktop app では settings 内の toggle で有効化できると reply した。あわせて <strong>/effort</strong> 周りの issue は確認すると述べており、remote session の実運用に関する小さいが具体的な product signal になっている。",
+      "url": "https://x.com/amorriscode/status/2073832842577281118",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この24時間窓では、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages に、visible publication date ベースで新しい official article は確認できなかった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 2, 2026</strong>。",
+        "<strong>Claude Blog</strong> の最新 visible date も <strong>Jul 2, 2026</strong> だった。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.201</strong> は <strong>2026-07-04 08:50 JST</strong> 公開で、window 開始前だったが、依頼に沿って <code>What's changed</code> を完全取得し、visible bullet 全項目を和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.201",
+          "publishedAt": "2026-07-04 08:50 JST",
+          "summary": "窓外公開だが、最新 release の <code>What's changed</code> 全項目を GitHub CLI で完全取得し、カテゴリ別に和訳した。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "Claude Sonnet 5 の session では、harness reminder のために会話途中の system role を使わないよう変更した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
+          "urlLabel": "v2.1.201 の release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
+    "engineer watch では reply も確認したが、Fable の一般雑談、Bun の議論、sports / personal chatter、短いリアクション、repost は signal から外した。",
+    "<strong>@_catwu</strong> の candidate sourcing post に対する reply は、LinkedIn を computer use で引く点と通常所要時間だけを本文 context に統合し、別 signal には分離しなかった。",
+    "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> は release 件数に数えず、依頼に沿った完全取得と和訳のみ参考情報として併記した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Cat Wu on Claude Code + workflows + artifacts for candidate sourcing",
+      "url": "https://x.com/_catwu/status/2073806626965049686"
+    },
+    {
+      "title": "Cat Wu on using computer use for LinkedIn pull",
+      "url": "https://x.com/_catwu/status/2073857084614160794"
+    },
+    {
+      "title": "Cat Wu on typical workflow ETA",
+      "url": "https://x.com/_catwu/status/2073857295629660605"
+    },
+    {
+      "title": "Anthony Morris on desktop app remote-control toggle",
+      "url": "https://x.com/amorriscode/status/2073832842577281118"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.201",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
+    }
+  ]
+}
