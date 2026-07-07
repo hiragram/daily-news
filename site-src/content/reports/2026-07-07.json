@@ -1,35 +1,71 @@
 {
   "date": "2026-07-07",
-  "windowLabel": "2026-07-06 03:02:16 JST - 2026-07-07 03:02:16 JST",
-  "archiveTitle": "Workspace research and Claude Code workflow signals",
-  "archiveSummary": "Official 1件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-06 03:02:16 JST から 2026-07-07 03:02:16 JST の24時間では、official X と公式サイト4面を突き合わせた結果、<strong>Anthropic Research</strong> の新着 <strong>A global workspace in language models</strong> が最重要の official update だった。engineer 側では <strong>@trq212</strong> が <strong>Field Guide to Fable</strong> keynote を公開し、<strong>@_catwu</strong> は Claude Code の <strong>dynamic workflows</strong> と <strong>claude tag</strong> を使う multi-agent 運用を具体化、<strong>@amorriscode</strong> は desktop app の remote-control toggle を補足した。Claude Code の GitHub releases は今回の window 内で新規公開 0 件だったが、最新 <strong>v2.1.201</strong> の release note 全項目は GitHub CLI で完全取得し、和訳した。",
+  "windowLabel": "2026-07-06 09:01:12 JST - 2026-07-07 09:01:12 JST",
+  "archiveTitle": "Claude Code retrospective and v2.1.202",
+  "archiveSummary": "Official 5件、engineer signal 3件、Claude Code release 1件。",
+  "latestSummary": "2026-07-06 09:01:12 JST から 2026-07-07 09:01:12 JST の24時間では、official 側で <strong>Claude Code</strong> の誕生を振り返る <strong>The Making of Claude Code</strong>、<strong>Anthropic Research</strong> の <strong>A global workspace in language models</strong>、<strong>Claude Blog</strong> の <strong>A Field Guide to Claude Fable: Finding Your Unknowns</strong>、さらに <strong>Anthropic News</strong> の Alberta 政府事例が確認できた。engineer 側では <strong>@trq212</strong> が Fable keynote を公開し、<strong>@_catwu</strong> は <strong>dynamic workflows</strong> と <strong>claude tag</strong> を使う multi-agent 運用を具体化、<strong>@amorriscode</strong> は desktop app の remote-control toggle を補足した。Claude Code の GitHub releases では <strong>v2.1.202</strong> が <strong>2026-07-07 07:51 JST</strong> に公開され、release note 全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
-    "<strong>Official 1件</strong>: <strong>@AnthropicAI</strong> は新 research post <strong>A global workspace in language models</strong> を告知し、<strong>Anthropic Research</strong> の listing でも <strong>Jul 6, 2026</strong> の新着として確認できた。",
-    "<strong>Official site article 1件</strong>: target pages 4面のうち更新があったのは <strong>Anthropic Research</strong> のみで、<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> はこの24時間窓に入る visible publication date の新着がなかった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@trq212</strong> は <strong>Field Guide to Fable</strong> keynote の公開を案内し、<strong>@_catwu</strong> は candidate sourcing での <strong>dynamic workflows</strong> と <strong>claude tag</strong> 活用を具体化、<strong>@amorriscode</strong> は remote-control の desktop app 設定を補足した。",
-    "<strong>Claude Code release 0件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> では最新が <strong>v2.1.201</strong>（<strong>2026-07-04 08:50 JST</strong>）で、今回の window 開始前だった。依頼どおり <code>gh release view</code> で release body を完全取得し、visible bullet 全項目を和訳した。"
+    "<strong>Official 5件</strong>: <strong>@ClaudeAI</strong> は <strong>The Making of Claude Code</strong> を公開し、<strong>@AnthropicAI</strong> は <strong>A global workspace in language models</strong> を告知した。official site では <strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にそれぞれ新着があった。",
+    "<strong>Official site article 3件</strong>: visible publication date ベースで、<strong>Anthropic Research</strong> に <strong>A global workspace in language models</strong>、<strong>Anthropic News</strong> に <strong>Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities</strong>、<strong>Claude Blog</strong> に <strong>A Field Guide to Claude Fable: Finding Your Unknowns</strong> が追加されていた。<strong>Anthropic Engineering</strong> は更新なしだった。",
+    "<strong>Engineer signals 3件</strong>: <strong>@trq212</strong> は <strong>Field Guide to Fable</strong> keynote を YouTube で公開し、<strong>@_catwu</strong> は Claude Code の <strong>dynamic workflows</strong> と <strong>claude tag</strong> による multi-agent 監督を具体化、<strong>@amorriscode</strong> は remote-control の desktop app 設定位置を補足した。",
+    "<strong>Claude Code release 1件</strong>: <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> では、window 内の新規 release は <strong>v2.1.202</strong> のみだった。dynamic workflow 制御、workflow telemetry、review コマンド変更、Remote Control / workflows / installer 周辺の修正を含む visible bullet 全項目を和訳した。"
   ],
   "officialNews": [
     {
-      "label": "Official news",
+      "label": "Official X",
+      "datetime": "2026-07-07T06:30:40+09:00",
+      "displayTime": "2026-07-07 06:30 JST",
+      "title": "@ClaudeAI が Claude Code 誕生の振り返りを公開",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>The Making of Claude Code</strong> を公開し、Claude Code が internal CLI から現在の coding agent に育つまでを、開発した研究者・エンジニア・初期ユーザーの視点で振り返った。公式アカウント発の retrospective として、Claude Code の製品物語を正面から整理した post になっている。",
+      "url": "https://x.com/claudeai/status/2074244664199115201",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-07T04:08:45+09:00",
+      "displayTime": "2026-07-07 04:08 JST",
+      "title": "@ClaudeDevs が loops ガイドを案内",
+      "summary": "<strong>@ClaudeDevs</strong> は <strong>Getting started with loops</strong> を投稿し、Claude の loop ベース運用に入るための導線を改めて共有した。新規 article ではないが、developer audience 向けの公式再告知として window 内の official update に含める。",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official site + X",
       "datetime": "2026-07-07T02:34:58+09:00",
       "displayTime": "2026-07-07 02:34 JST",
       "title": "Anthropic が言語モデル内の global workspace 研究を公開",
-      "summary": "<strong>@AnthropicAI</strong> は新 research post <strong>A global workspace in language models</strong> を告知した。<strong>Anthropic Research</strong> の記事では、Claude 内に人間の conscious access に似た役割を持つ小さな internal workspace（<strong>J-space</strong>）が自然発生しており、silent reasoning、内部状態の可視化、hidden goal や fabricated data の検出に使えると説明している。",
+      "summary": "<strong>@AnthropicAI</strong> は新 research post <strong>A global workspace in language models</strong> を告知し、<strong>Anthropic Research</strong> 側では <strong>Jul 6, 2026</strong> の新着として確認できた。記事は Claude 内に、人間の conscious access に似た役割を持つ小さな internal workspace（<strong>J-space</strong>）が自然発生しており、silent reasoning、内部状態の可視化、hidden goal や fabricated data の検出に使えると説明している。",
       "url": "https://www.anthropic.com/research/global-workspace",
-      "urlLabel": "記事を読む",
-      "primary": true
+      "urlLabel": "記事を読む"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-06T00:00:00+09:00",
+      "displayTime": "2026-07-06",
+      "title": "Anthropic News が Alberta 政府の Claude 活用事例を掲載",
+      "summary": "<strong>Anthropic News</strong> の <strong>Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities</strong> は、Alberta 政府が Claude を使って政府システムの脆弱性探索と修正を進めている事例を紹介した。記事末尾では <strong>Alberta AI Academy</strong> を通じて government workers と一般市民への AI 活用教育も広げていると説明している。",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+      "urlLabel": "記事を読む"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-06T00:00:00+09:00",
+      "displayTime": "2026-07-06",
+      "title": "Claude Blog が Fable 活用ガイドを公開",
+      "summary": "<strong>Claude Blog</strong> の <strong>A Field Guide to Claude Fable: Finding Your Unknowns</strong> は、Claude Code で重要なのは prompt や skills という地図と、実際の codebase や制約という現実の差分、すなわち <strong>unknowns</strong> を前・中・後で見つけ続けることだと整理した。<strong>Claude Fable</strong> を使う実践知を Claude Code 文脈でまとめた新着ガイドとして扱える。",
+      "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+      "urlLabel": "記事を読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@ClaudeAI / @ClaudeDevs の新規 main post は 0件",
-      "body": "この24時間窓では、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新しい main post は確認できなかった。official X の増分は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。"
+      "label": "Anthropic Engineering の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong> で、この24時間窓に入る新着は確認できなかった。公式サイト4面では <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 1件を採用した。"
     },
     {
-      "label": "Engineering / News / Claude Blog の新着は 0件",
-      "body": "公式サイト4面のうち更新があったのは <strong>Anthropic Research</strong> の <strong>Jul 6, 2026</strong> 記事 1 件のみだった。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 2, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> のままで、この24時間窓に入る新着は見当たらなかった。"
+      "label": "Official X は main post のみ採用",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> は main post を採用し、reply と repost は default 設定どおり集計から外した。今回の main post 増分はそれぞれ <strong>1件 / 1件 / 1件</strong> だった。"
     }
   ],
   "signals": [
@@ -38,7 +74,7 @@
       "datetime": "2026-07-07T01:09:18+09:00",
       "displayTime": "2026-07-07 01:09 JST",
       "title": "@trq212 が Field Guide to Fable keynote を公開",
-      "summary": "<strong>@trq212</strong> は AI Engineer World Fair での keynote <strong>Field Guide to Fable</strong> を YouTube で公開した。Fable を使うときの unknown unknowns の扱いを軸にした内容で、続く post ではこの内容が Claude blog 側にも反映されたと案内しており、Fable の実践知を外向きに整理し始めた signal と読める。",
+      "summary": "<strong>@trq212</strong> は AI Engineer World Fair での keynote <strong>Field Guide to Fable</strong> を YouTube で公開した。Fable を使うときの unknown unknowns の扱いを軸にした内容で、続く post ではこの内容が Claude Blog 側にも反映されたと案内しており、Fable の実践知を外向きに整理し始めた signal と読める。",
       "url": "https://x.com/trq212/status/2074163788853760175",
       "urlLabel": "X で見る",
       "primary": true
@@ -65,37 +101,63 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "この24時間窓で公式サイト4面に visible publication date ベースで入った新着は <strong>1件</strong> だった。<strong>Anthropic Research</strong> に <strong>A global workspace in language models</strong> が追加され、<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は更新なしだった。",
+      "headline": "3件",
+      "body": "この24時間窓では、公式サイト4面のうち <strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> に各 1 件の新着があった。<strong>Anthropic Engineering</strong> は更新なしだった。",
       "details": [
         "<strong>Anthropic Research</strong>: <strong>A global workspace in language models</strong>（<strong>Jul 6, 2026</strong>）",
-        "記事は Claude 内に、silent reasoning や internal state の報告に使われる <strong>J-space</strong> が生じていると論じ、内部思考の読取りや介入可能性を示している。",
-        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 2, 2026</strong>。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>Jun 18, 2026</strong>。"
+        "<strong>Anthropic News</strong>: <strong>Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities</strong>（<strong>Jul 6, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>A Field Guide to Claude Fable: Finding Your Unknowns</strong>（<strong>July 6, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。"
       ],
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Anthropic Research 一覧"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。最新の <strong>v2.1.201</strong> は <strong>2026-07-04 08:50 JST</strong> 公開で window 外だったが、依頼に沿って <code>What's changed</code> の全 bullet を完全取得し、和訳した。",
+      "headline": "1件",
+      "body": "GitHub CLI の <code>gh release list -R anthropics/claude-code --limit 10</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.202</strong> のみだった。release note は GitHub CLI から完全取得し、visible bullet を落とさず <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
-          "version": "v2.1.201",
-          "publishedAt": "2026-07-04 08:50 JST",
-          "summary": "窓外公開だが、最新 release の <code>What's changed</code> 全項目を GitHub CLI で完全取得し、カテゴリ別に和訳した。",
+          "version": "v2.1.202",
+          "publishedAt": "2026-07-07 07:51 JST",
+          "summary": "dynamic workflow の制御と workflow telemetry を追加しつつ、<strong>/review</strong> の挙動調整、Remote Control、workflow、installer、voice、MCP まわりの不具合を広く修正した maintenance-heavy release。",
           "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/config</code> に <strong>Dynamic workflow size</strong> 設定を追加し、Claude が動的 workflow をどの程度大きく組むかを <strong>small / medium / large</strong> の agent 数ガイドラインで調整できるようにした。これは強制上限ではなく advisory guideline として機能する。",
+                "workflow から起動された agent が送る telemetry に <code>workflow.run_id</code> と <code>workflow.name</code> の OpenTelemetry 属性を追加し、workflow 実行単位の活動を OTel データから再構成できるようにした。"
+              ]
+            },
             {
               "title": "変更",
               "items": [
-                "Claude Sonnet 5 の session では、harness reminder のために会話途中の system role を使わないよう変更した。"
+                "<code>/workflows</code> の agent list レイアウトを改善し、title を広く取り、time 列を独立させ、model 名を短縮し、行ごとの tool-call 件数表示をなくした。",
+                "MCP error message を改善し、server config に <code>url</code> はあるが <code>type</code> がない場合、誤解を招く <code>command: expected string</code> ではなく <code>\"type\": \"http\"</code> を提案する、より明確なエラーを返すようにした。",
+                "<code>/review &lt;pr&gt;</code> を高速な single-pass review に戻し、effort level を選んだ multi-agent review は <code>/code-review &lt;level&gt; &lt;pr#&gt;</code> を使う形に切り替えた。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "inline の <code>Ctrl+R</code> history search で、history file の走査中に accept あるいは cancel すると crash する不具合を修正した。",
+                "background session で <code>/rename</code> した名前が job 再起動時に元へ戻り、新しい名前で session を指定できなくなる不具合を修正した。",
+                "in-place の client certificate rotation 中に settings を再適用すると、一時的な mTLS handshake failure が起きる問題を修正した。",
+                "Remote Control（mobile / web）から interactive session に送った command が <code>Unknown command</code> で失敗する問題を修正した。",
+                "Remote Control の mobile / web app から caption なしで送った image や file が黙って破棄される問題を修正した。",
+                "<code>claude auth login</code> と <code>claude mcp login --no-browser</code> が出力する sign-in URL が、SSH 上で折り返されたときに確実にクリックできない問題を修正し、常に単一 hyperlink として出力するようにした。",
+                "<code>claude agents</code> から chat を開く際に、<code>currently running as a background agent</code> の後で worker crash / respawn loop に入って失敗することがある不具合を修正した。",
+                "workflow script 内の string に unicode quote escape があると parse 前に内容が壊れる問題を修正し、workflow parse error では常に TypeScript を責めるのではなく、実際に問題のある行を表示するようにした。",
+                "microphone や audio recorder が失敗したとき、voice dictation が無限に retry を続ける問題を修正し、繰り返し capture failure が起きたら voice input を pause するようにした。",
+                "<code>/remote-control</code> session が mobile / web app 上で誤った permission mode を表示する不具合を修正した。",
+                "session 名で resume したり resume picker を開いたりする処理が、多数の git worktree を持つ repository で数分かかり大量の memory を消費する問題を修正した。",
+                "installer と updater の download が、proxy や network の瞬断で即座に <code>aborted</code> 失敗になる問題を修正し、一時的な接続断では retry するようにした。",
+                "すでに読み込まれている skill を再度呼び出すと、instructions の重複コピーが context に追記される不具合を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
-          "urlLabel": "v2.1.201 の release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+          "urlLabel": "v2.1.202 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -103,10 +165,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、reply と repost は個別 item から外した。今回の main post 増分は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 0 件、<strong>@ClaudeDevs</strong> 0 件だった。",
-    "engineer watch では reply も確認したが、短い雑談、Bun の議論、Meta glasses の一般論、短文リアクション、repost は signal から外した。",
-    "<strong>@_catwu</strong> の candidate sourcing original post は window 開始前だったため、in-window に入った reply 群のうち workflow の実装詳細を含むものだけを signal に採用した。",
-    "Claude Code releases は GitHub CLI を唯一の source of truth とし、window 外だった <strong>v2.1.201</strong> は release 件数に数えず、依頼に沿った完全取得と和訳のみ参考情報として併記した。"
+    "official X は main post を優先し、reply と repost は default 設定どおり外した。今回の official X 増分は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件だった。",
+    "engineer watch では reply も確認したが、deleted-post への言及、短い雑談、Bun の議論、文脈の薄い support reply、重複する quote post は signal から外した。",
+    "<strong>@_catwu</strong> の <strong>claude tag</strong> 補足 reply は、別 signal に切らず dynamic workflows の項目へ統合した。",
+    "official 側では <strong>@AnthropicAI</strong> の research post と <strong>Anthropic Research</strong> 本文を同一イベントとして正規化し、重複 item を立てなかった。"
   ],
   "sources": [
     {
@@ -126,12 +188,28 @@
       "url": "https://www.anthropic.com/news"
     },
     {
+      "title": "Anthropic News: Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Claude Blog: A Field Guide to Claude Fable: Finding Your Unknowns",
+      "url": "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns"
+    },
+    {
       "title": "AnthropicAI on A global workspace in language models",
       "url": "https://x.com/AnthropicAI/status/2074185348142280912"
+    },
+    {
+      "title": "ClaudeAI on The Making of Claude Code",
+      "url": "https://x.com/claudeai/status/2074244664199115201"
+    },
+    {
+      "title": "ClaudeDevs on Getting started with loops",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033"
     },
     {
       "title": "trq212 on Field Guide to Fable keynote",
@@ -154,8 +232,8 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code release v2.1.201",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
+      "title": "Claude Code release v2.1.202",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
     }
   ]
 }
