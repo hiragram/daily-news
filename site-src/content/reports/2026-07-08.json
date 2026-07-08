@@ -1,14 +1,14 @@
 {
   "date": "2026-07-08",
-  "windowLabel": "2026-07-07 03:01:14 JST - 2026-07-08 03:01:14 JST",
-  "archiveTitle": "Cowork rollout and Claude Code guidance",
-  "archiveSummary": "Official 5件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-07 03:01:14 JST から 2026-07-08 03:01:14 JST の24時間では、official 側で <strong>Claude Cowork is coming to mobile and web</strong>、<strong>How people are using Claude Cowork</strong>、<strong>Choosing a Claude model and effort level in Claude Code</strong> の3本に加え、<strong>@ClaudeAI</strong> の Fable 5 延長告知、<strong>@ClaudeDevs</strong> の loops 再告知が確認できた。engineer 側では <strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> が Cowork rollout の補足を出し、<strong>@bcherny</strong> は Claude Code の origins を safety research に置き直し、<strong>@amorriscode</strong> は remote control default toggle の logs 提供を求めた。Claude Code の releases では <strong>v2.1.202</strong> が <strong>2026-07-07 07:51 JST</strong> に公開され、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "windowLabel": "2026-07-07 09:02:27 JST - 2026-07-08 09:02:27 JST",
+  "archiveTitle": "Cowork expansion, government beta, and Claude Code v2.1.203",
+  "archiveSummary": "Official 7件、engineer signal 3件、Claude Code release 1件。",
+  "latestSummary": "2026-07-07 09:02:27 JST から 2026-07-08 09:02:27 JST の24時間では、official 側で <strong>Claude Cowork is coming to mobile and web</strong>、<strong>Bringing Claude Code and Claude Cowork to government</strong>、<strong>How people are using Claude Cowork</strong>、<strong>Choosing a Claude model and effort level in Claude Code</strong> の4本に加え、<strong>@ClaudeAI</strong> の Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大と Managed Agents thread が確認できた。engineer 側では <strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> が Cowork rollout の UI / rollout detail を補足し、<strong>@trq212</strong> は Fable 5 を使った長尺動画編集の live thread を連投した。Claude Code の releases では <strong>v2.1.203</strong> が <strong>2026-07-08 06:06 JST</strong> に公開され、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official 5件</strong>: <strong>Claude Blog</strong> の <strong>Claude Cowork is coming to mobile and web</strong>、<strong>How people are using Claude Cowork</strong>、<strong>Choosing a Claude model and effort level in Claude Code</strong> に加え、<strong>@ClaudeAI</strong> の <strong>Claude Fable 5</strong> 延長告知、<strong>@ClaudeDevs</strong> の loops 再告知を採用した。",
-    "<strong>Official site article 3件</strong>: visible publication date ベースで、この24時間窓に入った official site 新着はすべて <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> の visible 新着は 0 件だった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@felixrieseberg</strong> は Cowork が mobile/web に来ることで laptop を閉じても作業が続くと説明し、<strong>@mikeyk</strong> は chat と Cowork が web/desktop で 1 つの home tab に統合されたと補足した。<strong>@bcherny</strong> は Claude Code の原点を Anthropic safety research に置き、<strong>@amorriscode</strong> は remote control default toggle の調査継続のため logs 提供を依頼した。",
-    "<strong>Claude Code release 1件</strong>: GitHub releases では window 内の新規 release は <strong>v2.1.202</strong> のみだった。dynamic workflow size、workflow telemetry、<code>/review</code> の切り戻し、Remote Control / workflows / installer / voice / skills 周辺の修正を含む全 bullet を和訳した。"
+    "<strong>Official 7件</strong>: <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事 4 本と、<strong>@ClaudeAI</strong> の Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大、<strong>Managed Agents</strong> 活用 thread を採用した。",
+    "<strong>Official site article 4件</strong>: visible publication date ベースで、この24時間窓に入った official site 新着はすべて <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事だった。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible 新着はどちらも <strong>Jul 6, 2026</strong> で、新規 article は 0 件だった。",
+    "<strong>Engineer signals 3件</strong>: <strong>@felixrieseberg</strong> は Cowork rollout が computer を閉じても走り続ける長時間タスク向け update だと補足し、<strong>@mikeyk</strong> は Chat と Cowork の home 統合を説明した。<strong>@trq212</strong> は HTML deck と 60GB の talk footage を Fable 5 で動画編集させる thread を公開した。",
+    "<strong>Claude Code release 1件</strong>: GitHub releases では window 内の新規 release は <strong>v2.1.203</strong> のみだった。login expiry warning、manual permission badge、MCP <code>roots/list</code> 拡張、background sessions / worktree / daemon 周辺の多数修正を含む visible bullet 全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-08T01:07:51+09:00",
       "displayTime": "2026-07-08 01:07 JST",
       "title": "Claude Cowork が mobile / web に展開開始",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Cowork is coming to mobile and web</strong> を告知し、対応する <strong>Claude Blog</strong> 記事では Cowork を phone から継続でき、laptop を閉じても scheduled task を含む作業が続き、判断が必要な場面だけ phone に戻して承認を受ける設計だと説明した。beta rollout はまず <strong>Max plan</strong> から数週間かけて進む。",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Cowork is coming to mobile and web</strong> を告知し、対応する <strong>Claude Blog</strong> 記事では Cowork を phone から継続でき、laptop を閉じても scheduled task を含む作業が進み、判断が必要な場面だけ phone に戻して承認できると説明した。beta rollout はまず <strong>Max plan</strong> から数週間かけて進む。",
       "url": "https://claude.com/blog/cowork-web-mobile",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-07-08T02:36:58+09:00",
       "displayTime": "2026-07-08 02:36 JST",
       "title": "@ClaudeAI が Claude Fable 5 の有料プラン提供延長を告知",
-      "summary": "<strong>@ClaudeAI</strong> は、すべての paid plan で <strong>Claude Fable 5</strong> への access を <strong>July 12, 2026</strong> まで延長すると告知した。続く self-reply では、weekly usage limit の最大 <strong>50%</strong> まで Fable 5 を使え、その後は usage credits に切り替えるか別 model に戻れると説明しているが、report では main post の延長告知を official item として採用する。",
+      "summary": "<strong>@ClaudeAI</strong> は、すべての paid plan で <strong>Claude Fable 5</strong> への access を <strong>July 12, 2026</strong> まで延長すると告知した。self-reply では weekly usage limit の最大 <strong>50%</strong> まで Fable 5 を使い、その後は usage credits か別 model に切り替えられると補足しているが、report では main post の延長告知を official item として採用する。",
       "url": "https://x.com/claudeai/status/2074548242386178258",
       "urlLabel": "X で見る"
     },
@@ -34,8 +34,17 @@
       "label": "Official site",
       "datetime": "2026-07-07T00:00:00+09:00",
       "displayTime": "2026-07-07",
+      "title": "Claude for Government Desktop で Claude Code / Cowork の public beta 開始",
+      "summary": "<strong>Bringing Claude Code and Claude Cowork to government</strong> は、<strong>Claude Code</strong> と <strong>Claude Cowork</strong> が commercial 向けと同じ application を土台にした <strong>Claude for Government Desktop</strong> で public beta に入ったと告知した。FedRAMP High authorized environment、local conversation history、department 別の spend control、hash-chained audit log、ATO 向け documentation をまとめて打ち出している。",
+      "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+      "urlLabel": "記事を読む"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-07T00:00:00+09:00",
+      "displayTime": "2026-07-07",
       "title": "Claude Blog が Cowork 利用実態の集計を公開",
-      "summary": "<strong>How people are using Claude Cowork</strong> は、<strong>2026-05-11 から 2026-05-31</strong> の匿名化・集計済み Cowork session <strong>120万件</strong> を分析し、最大カテゴリが <strong>business process and operations 33.4%</strong>、次が <strong>content creation and copywriting 16.4%</strong>、さらに software development <strong>8.7%</strong>、DevOps and infrastructure <strong>7%</strong> だったと報告した。Claude Code の terminal 的 UX を chat surface に広げた Cowork のユースケース整理として重要度が高い。",
+      "summary": "<strong>How people are using Claude Cowork</strong> は、<strong>2026-05-11 から 2026-05-31</strong> の匿名化・集計済み Cowork session <strong>120万件</strong> を分析し、最大カテゴリが <strong>business process and operations 33.4%</strong>、次が <strong>content creation and copywriting 16.4%</strong>、さらに software development <strong>8.7%</strong>、DevOps and infrastructure <strong>7%</strong> だったと報告した。",
       "url": "https://claude.com/blog/how-people-are-using-claude-cowork",
       "urlLabel": "記事を読む"
     },
@@ -44,28 +53,37 @@
       "datetime": "2026-07-07T00:00:00+09:00",
       "displayTime": "2026-07-07",
       "title": "Claude Blog が Claude Code の model / effort 選び方を整理",
-      "summary": "<strong>Choosing a Claude model and effort level in Claude Code</strong> は、model selection は固定 weights と capability range の選択であり、<strong>effort</strong> は単なる thinking time ではなく、読む file 数、tool 使用、検証量、check-in 前にどこまで進めるかを含む総作業量の設定だと整理した。モデルを上げるべき場面と effort を上げるべき場面を切り分ける、Claude Code 実務向けの公式ガイドとして扱える。",
+      "summary": "<strong>Choosing a Claude model and effort level in Claude Code</strong> は、model selection は固定 weights と capability range の選択であり、<strong>effort</strong> は単なる thinking time ではなく、読む file 数、tool 使用、検証量、check-in 前にどこまで進めるかを含む総作業量の設定だと整理した。routine work では model を下げても quality を落とさず token cost を抑えられる場面があると説明している。",
       "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code",
       "urlLabel": "記事を読む"
     },
     {
       "label": "Official X",
-      "datetime": "2026-07-07T04:08:45+09:00",
-      "displayTime": "2026-07-07 04:08 JST",
-      "title": "@ClaudeDevs が loops 入門記事を再告知",
-      "summary": "<strong>@ClaudeDevs</strong> は X article card で <strong>Getting started with loops</strong> を再告知した。新規記事ではないが、developer audience に対して loop ベース運用の導線を改めて前面に出した official signal として window 内に残す。",
-      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "datetime": "2026-07-08T04:15:02+09:00",
+      "displayTime": "2026-07-08 04:15 JST",
+      "title": "@ClaudeDevs が Claude for Open Source の拡大を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は、Claude for Open Source をより広い community に広げ、maintainer、core contributor、ecosystem 横断で PR を出す人、critical package を支える人に向けて <strong>6 months of Claude Max 20x</strong> を案内した。developer adoption program の拡大として扱える official signal だった。",
+      "url": "https://x.com/ClaudeDevs/status/2074570404035993780",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-08T06:26:43+09:00",
+      "displayTime": "2026-07-08 06:26 JST",
+      "title": "@ClaudeDevs が Managed Agents の Fable 5 / Sonnet 5 パターンを thread で整理",
+      "summary": "<strong>@ClaudeDevs</strong> は thread で、<strong>Fable 5</strong> を advisor として sparse に呼び、実行の大半を <strong>Sonnet 5</strong> に 맡せると <strong>SWE-bench Pro</strong> で Fable 5 の <strong>約92%</strong> の score を <strong>約63%</strong> の価格で実現できると紹介した。続く post では orchestrator / worker 構成でも <strong>BrowseComp</strong> で Fable 5 性能の <strong>96%</strong> を <strong>46%</strong> の価格で出したとして、managed agents cookbook と docs を案内している。",
+      "url": "https://x.com/ClaudeDevs/status/2074606058128224365",
       "urlLabel": "X で見る"
     }
   ],
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible 新着はどちらも <strong>Jul 6, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 新着 3 件はすべて <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事だった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible 新着はどちらも <strong>Jul 6, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 新着 4 件はすべて <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事だった。"
     },
     {
       "label": "@AnthropicAI の main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> の main post はこの24時間窓では確認できなかった。official X の増分は <strong>@ClaudeAI</strong> 2 件、<strong>@ClaudeDevs</strong> 1 件で、default 設定どおり reply と repost は集計から外した。"
+      "body": "<strong>@AnthropicAI</strong> の main post はこの24時間窓では確認できなかった。official X の増分は <strong>@ClaudeAI</strong> 2 件、<strong>@ClaudeDevs</strong> 2 件で、default 設定どおり reply と repost は集計から外した。"
     }
   ],
   "signals": [
@@ -74,7 +92,7 @@
       "datetime": "2026-07-08T02:34:19+09:00",
       "displayTime": "2026-07-08 02:34 JST",
       "title": "@felixrieseberg が Cowork mobile / web rollout の意図を補足",
-      "summary": "<strong>@felixrieseberg</strong> は、Cowork が mobile / web に来ることで computer を閉じても Claude が仕事を続けられると説明し、長時間タスク向け loop と手元 context の力を合わせた大きな update だと述べた。official blog より deployment 寄りの温度感を補う rollout signal になっている。",
+      "summary": "<strong>@felixrieseberg</strong> は、Cowork が mobile / web に来ることで computer を閉じても Claude が仕事を続けられると説明し、長時間タスク向け loop と手元 context を組み合わせた major update だと述べた。reply では rollout が数週間かけて Max user から広がる点も改めて補足している。",
       "url": "https://x.com/felixrieseberg/status/2074547572975567074",
       "urlLabel": "X で見る",
       "primary": true
@@ -90,32 +108,24 @@
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-07T06:40:50+09:00",
-      "displayTime": "2026-07-07 06:40 JST",
-      "title": "@bcherny が Claude Code の origins を safety research と説明",
-      "summary": "<strong>@bcherny</strong> は Claude Code retrospective を引用し、Claude Code の出発点が <strong>Anthropic safety research</strong> にあると明言した。公式記事の背景を一段具体化する、初期チーム目線の短い補足として拾える。",
-      "url": "https://x.com/bcherny/status/2074247226038063316",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
-      "datetime": "2026-07-07T13:46:15+09:00",
-      "displayTime": "2026-07-07 13:46 JST",
-      "title": "@amorriscode が remote control default toggle の logs 提供を依頼",
-      "summary": "<strong>@amorriscode</strong> は、remote control を default で有効にする toggle の話であれば logs を送ってほしいと reply し、現象の切り分けを続けていると示した。remote control 周辺が field debugging 中であることを示す小さいが具体的な product signal として扱える。",
-      "url": "https://x.com/amorriscode/status/2074354283601137944",
+      "datetime": "2026-07-08T07:13:19+09:00",
+      "displayTime": "2026-07-08 07:13 JST",
+      "title": "@trq212 が Fable 5 による長尺動画編集 thread を公開",
+      "summary": "<strong>@trq212</strong> は、<strong>60GB</strong> の talk footage と HTML deck を Fable に渡して動画編集させる live thread を開始し、slide layout の自動配置、静的 slide の animation 化、YouTube short 生成などを順次共有した。一方で transcript highlighting は chaotic で、low-res rendering を回しながら品質を見ていると述べている。",
+      "url": "https://x.com/trq212/status/2074617786408845774",
       "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "この24時間窓で visible publication date ベースの official site 新着に入ったのは、<strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事 3 件だけだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は更新なしだった。",
+      "headline": "4件",
+      "body": "この24時間窓で visible publication date ベースの official site 新着に入ったのは、<strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事 4 件だけだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は更新なしだった。",
       "details": [
+        "<strong>Claude Blog</strong>: <strong>Bringing Claude Code and Claude Cowork to government</strong>（<strong>July 7, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Choosing a Claude model and effort level in Claude Code</strong>（<strong>July 7, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Claude Cowork is coming to mobile and web</strong>（<strong>July 7, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>How people are using Claude Cowork</strong>（<strong>July 7, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Choosing a Claude model and effort level in Claude Code</strong>（<strong>July 7, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible 新着は <strong>Jul 6, 2026</strong>。"
       ],
@@ -125,49 +135,68 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.202</strong> のみだった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.203</strong> のみだった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
         {
-          "version": "v2.1.202",
-          "publishedAt": "2026-07-07 07:51 JST",
-          "summary": "dynamic workflow の size 制御と workflow telemetry を追加しつつ、<code>/review</code> の運用整理、Remote Control、workflow、installer、voice、skill 周辺の不具合を広く潰した maintenance-heavy release。",
+          "version": "v2.1.203",
+          "publishedAt": "2026-07-08 06:06 JST",
+          "summary": "login expiry warning、manual permission badge、MCP <code>roots/list</code> 拡張を追加しつつ、background sessions、daemon、worktree、agent view、interactive performance 周辺の不具合を大きく潰した background-heavy maintenance release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>/config</code> に <strong>Dynamic workflow size</strong> 設定を追加し、Claude が動的 workflow をどの程度大きく組むかを <strong>small / medium / large</strong> の agent 数目安で調整できるようにした。これは強制上限ではなく advisory guideline として機能する。",
-                "workflow から起動された agent が出す telemetry に <code>workflow.run_id</code> と <code>workflow.name</code> の OpenTelemetry 属性を追加し、workflow 実行単位の活動を OTel データから再構成できるようにした。"
+                "login の期限切れが近いときに warning を表示し、background session が止まる前に再認証できるようにした。",
+                "manual permission mode 中は footer に灰色の <code>⏸</code> badge を表示し、現在の permission mode が常に見えるようにした。",
+                "session の追加 working directories を MCP の <code>roots/list</code> に含めるようにし、集合が変わったときは <code>notifications/roots/list_changed</code> も送るようにした。",
+                "[VSCode] <strong>Enable Remote Control for all sessions</strong> の Settings toggle を追加した。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "<code>/workflows</code> の agent list レイアウトを改善し、title を広く取り、time 列を独立させ、model 名を短縮し、各行の tool-call 件数表示をなくした。",
-                "MCP error message を改善し、server config に <code>url</code> はあるが <code>type</code> がない場合、誤解を招く <code>command: expected string</code> ではなく <code>\"type\": \"http\"</code> を提案する、より明確なエラーを返すようにした。",
-                "<code>/review &lt;pr&gt;</code> を高速な single-pass review に戻し、effort level を選ぶ multi-agent review は <code>/code-review &lt;level&gt; &lt;pr#&gt;</code> を使う形に切り替えた。"
+                "長い応答の stream 中の応答性を改善し、live-preview update が毎回 whole screen を再描画しないようにした。",
+                "subagent の挙動を改善し、agent が自分の task 全体を別の subagent に丸投げしにくくした。",
+                "大きい bundled dependency を内包せず lazy load するようにして、binary size を約 <strong>7 MB</strong>、startup memory を約 <strong>7 MB</strong> 削減した。",
+                "左矢印キーでは background tasks / diff / workflow detail view を閉じないようにし、代わりに <code>Esc</code> で閉じる仕様へ変えた。",
+                "空の <code>claude agents</code> view でも <strong>Needs input / Working / Completed</strong> の整理済み section と説明を常に表示するようにした。",
+                "startup 時の <code>claude command missing or broken</code> warning を撤去し、今後は <code>/doctor</code> と <code>/status</code> に表示するようにした。",
+                "<code>claude agents</code> footer の冗長な navigation hint を削除した。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "inline の <code>Ctrl+R</code> history search で、history file の走査中に accept または cancel すると crash する不具合を修正した。",
-                "background session で <code>/rename</code> した名前が job 再起動時に元へ戻り、新しい名前で session を指定できなくなる不具合を修正した。",
-                "in-place の client certificate rotation 中に settings を再適用すると、一時的な mTLS handshake failure が起きる問題を修正した。",
-                "Remote Control（mobile / web）から interactive session に送った command が <code>Unknown command</code> で失敗する問題を修正した。",
-                "Remote Control の mobile / web app から caption なしで送った image や file が黙って破棄される問題を修正した。",
-                "<code>claude auth login</code> と <code>claude mcp login --no-browser</code> が出力する sign-in URL が、SSH 上で折り返されたときに確実にクリックできない問題を修正し、常に単一 hyperlink として出力するようにした。",
-                "<code>claude agents</code> から chat を開く際に、<code>currently running as a background agent</code> の後で worker crash / respawn loop に入って失敗することがある不具合を修正した。",
-                "workflow script 内の string に unicode quote escape があると parse 前に内容が壊れる問題を修正し、workflow parse error では常に TypeScript を責めるのではなく、実際に問題のある行を表示するようにした。",
-                "microphone や audio recorder が失敗したとき、voice dictation が無限に retry を続ける問題を修正し、capture failure が繰り返されたら voice input を pause するようにした。",
-                "<code>/remote-control</code> session が mobile / web app 上で誤った permission mode を表示する不具合を修正した。",
-                "session 名で resume したり resume picker を開いたりする処理が、多数の git worktree を持つ repository で数分かかり大量の memory を消費する問題を修正した。",
-                "installer と updater の download が、proxy や network の瞬断で即座に <code>aborted</code> 失敗になる問題を修正し、一時的な接続断では retry するようにした。",
-                "すでに読み込まれている skill を再度呼び出すと、instructions の重複コピーが context に追記される不具合を修正した。"
+                "macOS で background agent session を開いたり切り替えたりすると、誤った low-memory 判定のため <strong>15-20 秒</strong> 固まる問題（<strong>2.1.196</strong> での regression）を修正した。",
+                "daemon の session token が stale になると background session が attach / reply / stop に永久応答しなくなる不具合を修正し、自動回復するようにした。",
+                "<code>claude agents</code> に戻ると実行中の subagent を黙って止めて prompt を最初からやり直す問題を修正し、作業を引き継ぐようにした。",
+                "interactive session の memory と turn ごとの CPU regression を修正し、context-usage indicator が毎 turn transcript 全体を再解析しないようにした。",
+                "background agent が daemon から古い <code>PATH</code> を継承して Windows で tool が見つからなくなる問題を修正した。",
+                "background session と agent-view session で shell export された <code>ANTHROPIC_BASE_URL</code> が落ち、API key を default endpoint に送って <code>401</code> になる問題を修正した。",
+                "git worktree が多い repository で Bash が <code>argument list too long</code> で失敗する問題を修正した。",
+                "worktree-isolated subagent が親 checkout 側で shell command を実行してしまうことがある不具合を修正した。",
+                "multi-repo workspace で nested repository を含むと worktree 作成が拒否され、background session が isolate / edit できなくなる問題を修正した。",
+                "working directory が削除されたり file に置き換わったり無効 path になったとき、background agent が crash-loop する問題を修正し、1 回だけ明確な error で失敗するようにした。",
+                "background daemon の auto-upgrade failure が進行中の background session を黙って全 kill する問題を修正した。",
+                "<code>TaskStop</code> と <code>TaskOutput</code> が別 agent から spawn された background agent を見つけられない問題を修正し、error 時に id と description 付きで実行中 agent 一覧を出すようにした。",
+                "<code>claude agents</code> composer で使えない slash command を打つと typed message を捨ててしまう問題を修正した。",
+                "別 session ですでに開いている conversation を持つ stopped session を開くと agent list が crash する問題を修正した。",
+                "質問に回答済みでも background session が agent list 上で <code>Needs input</code> のまま残る不具合を修正した。",
+                "background agent startup failure が実際の error ではなく <code>exit_with_message</code> だけを表示する問題を修正した。",
+                "daemon 経由で fork した background session が <code>settings.json</code> の <code>effortLevel</code> 変更を無視する不具合を修正した。",
+                "attach 済み background session が <code>CLAUDE_CODE_DISABLE_MOUSE</code> と <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> の opt-out を無視する問題を修正した。",
+                "すべての named agent が完了した後でも <code>/exit</code> が実行中 background agent 警告を誤表示する問題を修正した。",
+                "non-git directory から始めた background session が <code>WorktreeCreate</code> hook 設定時に file 編集できなくなる問題を修正した。",
+                "<code>claude agents</code> の <code>@</code> directory picker が登録済み git worktree を表示しない問題を修正した。",
+                "Windows で background task output が <code>/clear</code> 後に空 file へ永久に置き換わる問題を修正した。",
+                "長い transcript history を上方向に scroll すると content が跳ねる問題を修正した。",
+                "bash mode で shell-history suggestion が見えている間、入力中に terminal が flicker / jump する問題を修正した。",
+                "background session に再接続したとき、literal な <code>^[[I</code> / <code>^[[O</code> escape code が表示される問題を修正した。",
+                "LSP 専用 plugin が、language server が diagnostics や navigation answer を返していても未使用扱いされる問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
-          "urlLabel": "v2.1.202 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
+          "urlLabel": "v2.1.203 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -175,10 +204,10 @@
     }
   ],
   "exclusions": [
-    "official X は main post を優先し、<strong>@ClaudeAI</strong> の self-reply 2 件や <strong>@ClaudeDevs</strong> の repost は default 設定どおり外した。",
-    "engineer watch では sports chatter、短い congratulations、文脈の薄い support reply、deleted post 参照、公式記事の単純 quote-post は signal から外した。",
-    "<strong>@ClaudeAI</strong> の Cowork thread reply は main post と同一イベントとして正規化し、separate official item にはしなかった。",
-    "<strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> の Cowork rollout 補足は official blog と重なるが、surface / UX detail を増やす engineer signal として残し、<strong>@_catwu</strong> の retrospective quote-post は重複度が高いため落とした。"
+    "official X は main post を優先し、<strong>@ClaudeAI</strong> の Cowork / Fable 5 self-reply と <strong>@ClaudeDevs</strong> の apply link reply は同一イベントの補足として別 item にしなかった。",
+    "engineer watch では congratulations、support reply、sports chatter、公式 post の単純 repost / quote-post は signal から外した。",
+    "<strong>@ClaudeAI</strong> の Cowork announcement と対応する blog 記事は同一イベントとして正規化し、separate official item を増やさなかった。",
+    "<strong>@adocomplete</strong> の OSS application 対応 reply 群と <strong>@RobertJBye</strong> の Cowork quote-post は window 内だが、新規プロダクト情報の増分が薄いため main signal から外した。"
   ],
   "sources": [
     {
@@ -198,16 +227,20 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Claude Blog: Bringing Claude Code and Claude Cowork to government",
+      "url": "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government"
+    },
+    {
+      "title": "Claude Blog: Choosing a Claude model and effort level in Claude Code",
+      "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+    },
+    {
       "title": "Claude Blog: Claude Cowork is coming to mobile and web",
       "url": "https://claude.com/blog/cowork-web-mobile"
     },
     {
       "title": "Claude Blog: How people are using Claude Cowork",
       "url": "https://claude.com/blog/how-people-are-using-claude-cowork"
-    },
-    {
-      "title": "Claude Blog: Choosing a Claude model and effort level in Claude Code",
-      "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
     },
     {
       "title": "ClaudeAI on Claude Cowork mobile/web rollout",
@@ -218,8 +251,12 @@
       "url": "https://x.com/claudeai/status/2074548242386178258"
     },
     {
-      "title": "ClaudeDevs on Getting started with loops",
-      "url": "https://x.com/ClaudeDevs/status/2074208949205881033"
+      "title": "ClaudeDevs on Claude for Open Source expansion",
+      "url": "https://x.com/ClaudeDevs/status/2074570404035993780"
+    },
+    {
+      "title": "ClaudeDevs on Fable 5 advisor and orchestrator patterns",
+      "url": "https://x.com/ClaudeDevs/status/2074606058128224365"
     },
     {
       "title": "Felix Rieseberg on Cowork rollout",
@@ -230,20 +267,16 @@
       "url": "https://x.com/mikeyk/status/2074531605537046953"
     },
     {
-      "title": "Boris Cherny on Claude Code origins",
-      "url": "https://x.com/bcherny/status/2074247226038063316"
-    },
-    {
-      "title": "Anthony Morris on remote control logs",
-      "url": "https://x.com/amorriscode/status/2074354283601137944"
+      "title": "Thariq on Fable-based video editing",
+      "url": "https://x.com/trq212/status/2074617786408845774"
     },
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code release v2.1.202",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
+      "title": "Claude Code release v2.1.203",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203"
     }
   ]
 }
