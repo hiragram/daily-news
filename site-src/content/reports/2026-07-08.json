@@ -71,7 +71,7 @@
       "datetime": "2026-07-08T06:26:43+09:00",
       "displayTime": "2026-07-08 06:26 JST",
       "title": "@ClaudeDevs が Managed Agents の Fable 5 / Sonnet 5 パターンを thread で整理",
-      "summary": "<strong>@ClaudeDevs</strong> は thread で、<strong>Fable 5</strong> を advisor として sparse に呼び、実行の大半を <strong>Sonnet 5</strong> に 맡せると <strong>SWE-bench Pro</strong> で Fable 5 の <strong>約92%</strong> の score を <strong>約63%</strong> の価格で実現できると紹介した。続く post では orchestrator / worker 構成でも <strong>BrowseComp</strong> で Fable 5 性能の <strong>96%</strong> を <strong>46%</strong> の価格で出したとして、managed agents cookbook と docs を案内している。",
+      "summary": "<strong>@ClaudeDevs</strong> は thread で、<strong>Fable 5</strong> を advisor として sparse に呼び、実行の大半を <strong>Sonnet 5</strong> に任せると <strong>SWE-bench Pro</strong> で Fable 5 の <strong>約92%</strong> の score を <strong>約63%</strong> の価格で実現できると紹介した。続く post では orchestrator / worker 構成でも <strong>BrowseComp</strong> で Fable 5 性能の <strong>96%</strong> を <strong>46%</strong> の価格で出したとして、managed agents cookbook と docs を案内している。",
       "url": "https://x.com/ClaudeDevs/status/2074606058128224365",
       "urlLabel": "X で見る"
     }
