@@ -1,14 +1,14 @@
 {
   "date": "2026-07-08",
-  "windowLabel": "2026-07-07 09:02:27 JST - 2026-07-08 09:02:27 JST",
-  "archiveTitle": "Cowork expansion, government beta, and Claude Code v2.1.203",
-  "archiveSummary": "Official 7件、engineer signal 3件、Claude Code release 1件。",
-  "latestSummary": "2026-07-07 09:02:27 JST から 2026-07-08 09:02:27 JST の24時間では、official 側で <strong>Claude Cowork is coming to mobile and web</strong>、<strong>Bringing Claude Code and Claude Cowork to government</strong>、<strong>How people are using Claude Cowork</strong>、<strong>Choosing a Claude model and effort level in Claude Code</strong> の4本に加え、<strong>@ClaudeAI</strong> の Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大と Managed Agents thread が確認できた。engineer 側では <strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> が Cowork rollout の UI / rollout detail を補足し、<strong>@trq212</strong> は Fable 5 を使った長尺動画編集の live thread を連投した。Claude Code の releases では <strong>v2.1.203</strong> が <strong>2026-07-08 06:06 JST</strong> に公開され、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "windowLabel": "2026-07-07 15:01:28 JST - 2026-07-08 15:01:28 JST",
+  "archiveTitle": "Cowork expansion, government beta, and Claude Code v2.1.204/v2.1.203",
+  "archiveSummary": "Official 7件、engineer signal 3件、Claude Code release 2件。",
+  "latestSummary": "2026-07-07 15:01:28 JST から 2026-07-08 15:01:28 JST の24時間では、official 側で <strong>Claude Cowork is coming to mobile and web</strong>、<strong>Bringing Claude Code and Claude Cowork to government</strong>、<strong>How people are using Claude Cowork</strong>、<strong>Choosing a Claude model and effort level in Claude Code</strong> の4本に加え、<strong>@ClaudeAI</strong> の Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大と Managed Agents thread が確認できた。engineer 側では <strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> が Cowork rollout の意図と UI 統合を補足し、<strong>@trq212</strong> は Fable 5 を使った長尺動画編集の live thread を続けた。Claude Code の releases では <strong>v2.1.204</strong> と <strong>v2.1.203</strong> がともに window 内に公開され、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official 7件</strong>: <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事 4 本と、<strong>@ClaudeAI</strong> の Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大、<strong>Managed Agents</strong> 活用 thread を採用した。",
+    "<strong>Official 7件</strong>: <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事 4 本と、<strong>@ClaudeAI</strong> の Cowork mobile/web rollout・Fable 5 延長、<strong>@ClaudeDevs</strong> の OSS 拡大・Managed Agents thread を採用した。",
     "<strong>Official site article 4件</strong>: visible publication date ベースで、この24時間窓に入った official site 新着はすべて <strong>Claude Blog</strong> の <strong>Jul 7, 2026</strong> 記事だった。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible 新着はどちらも <strong>Jul 6, 2026</strong> で、新規 article は 0 件だった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@felixrieseberg</strong> は Cowork rollout が computer を閉じても走り続ける長時間タスク向け update だと補足し、<strong>@mikeyk</strong> は Chat と Cowork の home 統合を説明した。<strong>@trq212</strong> は HTML deck と 60GB の talk footage を Fable 5 で動画編集させる thread を公開した。",
-    "<strong>Claude Code release 1件</strong>: GitHub releases では window 内の新規 release は <strong>v2.1.203</strong> のみだった。login expiry warning、manual permission badge、MCP <code>roots/list</code> 拡張、background sessions / worktree / daemon 周辺の多数修正を含む visible bullet 全項目を和訳した。"
+    "<strong>Engineer signals 3件</strong>: <strong>@felixrieseberg</strong> は Cowork が computer を閉じても走り続ける長時間タスク向け update だと補足し、<strong>@mikeyk</strong> は Chat と Cowork の home 統合を説明した。<strong>@trq212</strong> は HTML deck と約 <strong>60GB</strong> の footage を Fable 5 に渡した動画編集 thread を進めた。",
+    "<strong>Claude Code release 2件</strong>: GitHub releases では window 内の新規 release は <strong>v2.1.204</strong> と <strong>v2.1.203</strong> だった。<strong>v2.1.204</strong> は headless session の hook streaming 不具合 1 件、<strong>v2.1.203</strong> は login expiry warning、manual permission badge、MCP <code>roots/list</code> 拡張、background sessions / worktree / daemon 周辺の多数修正を含み、visible bullet 全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -134,9 +134,24 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.203</strong> のみだった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "headline": "2件",
+      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.204</strong> と <strong>v2.1.203</strong> だった。release note の visible bullet は落とさず取得し、各 release を <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
+        {
+          "version": "v2.1.204",
+          "publishedAt": "2026-07-08 09:27 JST",
+          "summary": "headless session の <code>SessionStart</code> hook 中に hook event stream が流れず、remote worker が hook 途中で idle-reaped され得た不具合を直した point fix release。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "headless session の <code>SessionStart</code> hook 実行中に hook event が stream されず、remote worker が hook の途中で idle-reaped され得る問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+          "urlLabel": "v2.1.204 release notes"
+        },
         {
           "version": "v2.1.203",
           "publishedAt": "2026-07-08 06:06 JST",
@@ -207,7 +222,7 @@
     "official X は main post を優先し、<strong>@ClaudeAI</strong> の Cowork / Fable 5 self-reply と <strong>@ClaudeDevs</strong> の apply link reply は同一イベントの補足として別 item にしなかった。",
     "engineer watch では congratulations、support reply、sports chatter、公式 post の単純 repost / quote-post は signal から外した。",
     "<strong>@ClaudeAI</strong> の Cowork announcement と対応する blog 記事は同一イベントとして正規化し、separate official item を増やさなかった。",
-    "<strong>@adocomplete</strong> の OSS application 対応 reply 群と <strong>@RobertJBye</strong> の Cowork quote-post は window 内だが、新規プロダクト情報の増分が薄いため main signal から外した。"
+    "<strong>@adocomplete</strong> の OSS application 対応 reply 群と <strong>@RobertJBye</strong> の Cowork quote-post は window 内だが、新規プロダクト情報の増分が薄いため main signal から外した."
   ],
   "sources": [
     {
@@ -273,6 +288,10 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.204",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204"
     },
     {
       "title": "Claude Code release v2.1.203",
