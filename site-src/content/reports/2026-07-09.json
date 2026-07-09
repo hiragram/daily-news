@@ -1,14 +1,14 @@
 {
   "date": "2026-07-09",
-  "windowLabel": "2026-07-08 15:01:21 JST - 2026-07-09 15:01:21 JST",
+  "windowLabel": "2026-07-08 15:59:43 JST - 2026-07-09 15:59:43 JST",
   "archiveTitle": "Research modular safety, Cowork case studies, and Claude Code v2.1.205",
   "archiveSummary": "Official 4件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-08 15:01:21 JST から 2026-07-09 15:01:21 JST の24時間では、official 側で <strong>Anthropic Research</strong> の <strong>An off switch for dual use knowledge in AI models</strong>、<strong>Claude Blog</strong> の <strong>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</strong> と <strong>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</strong>、さらに <strong>@ClaudeDevs</strong> の Claude Code 記事再案内が確認できた。engineer 側では <strong>@bcherny</strong> の <code>/checkup</code> 紹介と <strong>@adocomplete</strong> の <strong>The Making of Claude Code</strong> thread が signal だった。Claude Code の releases では新たに <strong>v2.1.205</strong> が window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-08 15:59:43 JST から 2026-07-09 15:59:43 JST の24時間では、official 側で <strong>Anthropic Research</strong> の <strong>An off switch for dual use knowledge in AI models</strong>、<strong>Claude Blog</strong> の <strong>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</strong> と <strong>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</strong>、さらに <strong>@ClaudeDevs</strong> の Claude Code 記事再案内が確認できた。engineer 側では <strong>@bcherny</strong> の <code>/checkup</code> 紹介と <strong>@adocomplete</strong> の <strong>The Making of Claude Code</strong> thread が signal だった。Claude Code の releases では新たに <strong>v2.1.205</strong> が window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official 4件</strong>: official site 新着は <strong>Anthropic Research</strong> 1 件と <strong>Claude Blog</strong> 2 件で、official X の main post は <strong>@AnthropicAI</strong> 1 件、<strong>@ClaudeDevs</strong> 1 件だった。<strong>@ClaudeAI</strong> の main post はこの window では 0 件だった。",
     "<strong>Official site article 3件</strong>: visible publication date ベースで、この24時間窓に入った official site 新着は <strong>Anthropic Research</strong> の <strong>Jul 8, 2026</strong> 記事 1 本と、<strong>Claude Blog</strong> の <strong>Jul 8, 2026</strong> 記事 2 本だった。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の最新 visible 新着は <strong>Jul 6, 2026</strong> で、新規 article は 0 件だった。",
     "<strong>Engineer signals 2件</strong>: <strong>@bcherny</strong> は新しい <code>/checkup</code> で skills / MCP / plugins の整理、<code>CLAUDE.md</code> の重複解消、hook の見直し、Claude Code 更新まで支援すると紹介した。<strong>@adocomplete</strong> は Claude Code の起源、open-ended agents への転換、rename と launch、そして adoption の伸びを 7-part thread で振り返った。",
-    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release は <strong>v2.1.205</strong> だけだった。auto mode の transcript 改ざん防止ルール、agent view と <code>/doctor</code> の改善、background agents / worktree / schema handling / Cowork VM mode などの多数修正を含み、visible bullet 全項目を和訳した。"
+    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release は <strong>v2.1.205</strong> だけだった。auto mode の transcript 改ざん防止ルール、agent view と <code>/doctor</code> の改善、background agent、worktree、schema validation、Cowork VM-mode local-agent 周辺の多数修正を含み、visible bullet 全項目を和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-09T08:55:03+09:00",
       "displayTime": "2026-07-09 08:55 JST",
       "title": "Anthropic Research が dual-use knowledge を切り離す GRAM 研究を公開",
-      "summary": "<strong>An off switch for dual use knowledge in AI models</strong> は、危険用途にも有益用途にもなり得る知識を model 全体ではなく取り外し可能な module に集約する <strong>GRAM</strong> を説明した。Anthropic は article で、virology などの dual-use domain ごとに knowledge を removable compartment へ route し、module を外すと対応 capability も外せると述べ、<strong>@AnthropicAI</strong> は同 research を <strong>AE Studio</strong> と協業した成果として X でも告知した。",
+      "summary": "<strong>An off switch for dual use knowledge in AI models</strong> は、危険用途にも有益用途にもなり得る知識を model 全体ではなく取り外し可能な module に集約する <strong>GRAM</strong> を説明した。Anthropic は article で、virology などの dual-use domain ごとに knowledge を removable compartment へ route し、module を外すと対応 capability も外せると述べ、<strong>@AnthropicAI</strong> は <strong>AE Studio</strong> との共同研究として X でも告知した。",
       "url": "https://www.anthropic.com/research/off-switch-dual-use",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-07-08T00:00:00+09:00",
       "displayTime": "2026-07-08",
       "title": "Claude Blog が Thomson Reuters の高精度業務向け Claude 活用を公開",
-      "summary": "<strong>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</strong> は、<strong>Thomson Reuters</strong> が legal / accounting の high-stakes knowledge work で Claude をどう評価しているかを整理した。<strong>CoCounsel Legal</strong> は <strong>Claude Agent SDK</strong> 上で再構築され、citation validation、長い tool chain をまたぐ安定性、人間を loop に戻す設計を重視している。",
+      "summary": "<strong>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</strong> は、<strong>Thomson Reuters</strong> が legal / accounting の high-stakes knowledge work で Claude をどう運用しているかを整理した。記事では、<strong>CoCounsel Legal</strong> を Claude Agent SDK 上で再構築し、search や retrieval だけでなく <strong>citation validation and verification</strong> を重視していると説明している。",
       "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work",
       "urlLabel": "記事を読む"
     },
@@ -35,7 +35,7 @@
       "datetime": "2026-07-08T00:00:00+09:00",
       "displayTime": "2026-07-08",
       "title": "Claude Blog が Anthropic 社内の Cowork 活用例を公開",
-      "summary": "<strong>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</strong> は、Anthropic の marketing operations team が weekly metrics review と event build を <strong>Claude Cowork</strong> で短縮している事例を紹介した。reporting では Slack・meeting transcript・warehouse を横断して numbers と focus area を準備し、campaign build では Salesforce、HubSpot、Swoogo、email tools をまたぐ setup を end-to-end で自動化している。",
+      "summary": "<strong>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</strong> は、Anthropic の marketing operations team が <strong>Claude Cowork</strong> で weekly reporting と campaign build を短縮している事例を紹介した。scheduled task が review、meeting transcript、Slack、warehouse を横断して numbers をまとめ、event build では CRM、marketing automation、email、landing page、audit まで end-to-end で回す構成になっている。",
       "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds",
       "urlLabel": "記事を読む"
     },
@@ -44,7 +44,7 @@
       "datetime": "2026-07-09T01:55:53+09:00",
       "displayTime": "2026-07-09 01:55 JST",
       "title": "@ClaudeDevs が Claude Code の model / effort 記事を再案内",
-      "summary": "<strong>@ClaudeDevs</strong> は article card で <strong>Model and effort in Claude Code: knowing more vs. trying harder</strong> を共有した。fixed weights と capability range の選択としての model、読む file 数や tool 使用量まで含む overall work 設定としての effort を切り分ける guidance を、official channel から再度押し出した形になる。",
+      "summary": "<strong>@ClaudeDevs</strong> は <strong>Choosing a Claude model and effort level in Claude Code</strong> の article card を共有した。model は能力レンジの選択、effort は思考時間だけでなく読む file 数、verify 量、multi-step task をどこまで進めるかまで含む overall work 設定だという guidance を、official channel から押し出した形になる。",
       "url": "https://x.com/ClaudeDevs/status/2074900291062034618",
       "urlLabel": "X で見る"
     }
@@ -65,7 +65,7 @@
       "datetime": "2026-07-09T08:22:27+09:00",
       "displayTime": "2026-07-09 08:22 JST",
       "title": "@bcherny が新しい /checkup を紹介",
-      "summary": "<strong>@bcherny</strong> は Claude Code の新しい <code>/checkup</code> を紹介し、unused skills / MCPs / plugins の掃除、local <code>CLAUDE.md</code> と checked-in <code>CLAUDE.md</code> の重複解消、root <code>CLAUDE.md</code> の分割、slow hook の停止、Claude Code の更新まで支援すると説明した。次 release の <code>/doctor</code> 強化とも噛み合う user-facing signal だった。",
+      "summary": "<strong>@bcherny</strong> は Claude Code の新しい <code>/checkup</code> を紹介し、unused skills / MCPs / plugins の掃除、local <code>CLAUDE.md</code> と checked-in <code>CLAUDE.md</code> の重複解消、root <code>CLAUDE.md</code> の分割、slow hook の停止、Claude Code の更新まで支援すると説明した。release note で <code>/doctor</code> が full setup checkup に広がったこととも整合する。",
       "url": "https://x.com/bcherny/status/2074997570317779038",
       "urlLabel": "X で見る",
       "primary": true
@@ -75,7 +75,7 @@
       "datetime": "2026-07-09T01:44:27+09:00",
       "displayTime": "2026-07-09 01:44 JST",
       "title": "@adocomplete が The Making of Claude Code thread を公開",
-      "summary": "<strong>@adocomplete</strong> は 7-part thread で、Anthropic 創業後に最初に作った coding assistant から、<strong>2022</strong> 年末以降の open-ended agents への転換、将来の model を見越して <strong>20-30%</strong> でも動くものを先に ship する設計思想、<strong>Claude CLI</strong> から <strong>Claude Code</strong> への rename と launch、そして <strong>2025</strong> 年に internal user の手書きコード比率が急減した adoption までを振り返った。",
+      "summary": "<strong>@adocomplete</strong> は 7-part thread で、Anthropic 創業後に最初に作った coding assistant、<strong>2022</strong> 年末以降の open-ended agents への転換、将来の model を見越して <strong>20-30%</strong> でも動くものを先に ship する設計思想、<strong>Claude CLI</strong> から <strong>Claude Code</strong> への rename と launch、そして <strong>2025</strong> 年に internal user の手書きコード比率が急減した adoption までを振り返った。",
       "url": "https://x.com/adocomplete/status/2074897414373376247",
       "urlLabel": "X で見る"
     }
@@ -155,7 +155,7 @@
   "exclusions": [
     "official X は main post を優先し、<strong>@AnthropicAI</strong> の research announcement は対応する research article と同一イベントとして正規化した。",
     "engineer watch では congratulations、support reply、Bun rewrite への一般論、sports / personal chatter、公式 post の単純 quote-post は signal から外した。",
-    "<strong>@amorriscode</strong> の reply 群は product hint を含むものの parent context だけでは feature scope が曖昧なため、main signal から外した。"
+    "<strong>@trq212</strong> と <strong>@amorriscode</strong> の reply 群は product hint を含むものの、単体では scope が狭いか親文脈依存が強いため main signal から外した。"
   ],
   "sources": [
     {
@@ -187,7 +187,7 @@
       "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds"
     },
     {
-      "title": "Claude Blog: Model and effort in Claude Code: knowing more vs. trying harder",
+      "title": "Claude Blog: Choosing a Claude model and effort level in Claude Code",
       "url": "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
     },
     {
