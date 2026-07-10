@@ -1,12 +1,12 @@
 {
   "date": "2026-07-10",
-  "windowLabel": "2026-07-09 15:01:18 JST - 2026-07-10 15:01:18 JST",
-  "archiveTitle": "Reflect, reset, and v2.1.206",
+  "windowLabel": "2026-07-09 21:02:16 JST - 2026-07-10 21:02:16 JST",
+  "archiveTitle": "Reflect, UST, and v2.1.206",
   "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-09 15:01:18 JST から 2026-07-10 15:01:18 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> と <strong>hard questions</strong>、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表が継続して主要 signal だった。engineer 側では <strong>@amorriscode</strong> の CLI session import、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@jarredsumner</strong> の dynamic workflows、<strong>@trq212</strong> の agentic coding note を採用した。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-09 21:02:16 JST から 2026-07-10 21:02:16 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> と <strong>hard questions</strong>、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表が継続して主要 signal だった。official site では <strong>Anthropic News</strong> の <strong>Jul 9, 2026</strong> 記事 4 件を確認し、<strong>UST is bringing Claude to physical AI</strong> も visible date ベースで採用した。engineer 側では <strong>@amorriscode</strong> の CLI session import、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@jarredsumner</strong> の dynamic workflows、<strong>@trq212</strong> の agentic coding note を採用した。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official 4件</strong>: <strong>@ClaudeAI</strong> の <strong>Reflect</strong> と <strong>hard questions</strong>、<strong>@ClaudeDevs</strong> の <strong>5-hour</strong> / <strong>weekly</strong> rate limit reset、<strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表がこの窓の主要 official signal だった。",
-    "<strong>Official site article 3件</strong>: <strong>Anthropic News</strong> では <strong>Inviting hard questions</strong>、<strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>、<strong>Introducing a way to reflect on how you use Claude</strong> が visible date <strong>Jul 9, 2026</strong> で確認できた。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> の新規 article は確認できなかった。",
+    "<strong>Official site article 4件</strong>: <strong>Anthropic News</strong> では <strong>Inviting hard questions</strong>、<strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>、<strong>Introducing a way to reflect on how you use Claude</strong>、<strong>UST is bringing Claude to physical AI</strong> が visible date <strong>Jul 9, 2026</strong> で確認できた。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> の新規 article は確認できなかった。",
     "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は CLI session の desktop import と今後の UX 改善方針を案内し、<strong>@RobertJBye</strong> は Claude mobile app icon の long-press shortcut を紹介した。<strong>@jarredsumner</strong> は大きめ project での dynamic workflows 運用を共有し、<strong>@trq212</strong> は agentic coding の要点を reducing unknowns と整理した。",
     "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.206</strong> が <strong>2026-07-10 10:45 JST</strong> に publish された。<code>/cd</code> の path suggestion、<code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案、public gateway 対応、background agent upgrade 改善、MCP timeout や login まわりを含む多数の修正が入った。"
   ],
@@ -53,7 +53,7 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> だった。今回の <strong>2026-07-09 15:01:18 JST - 2026-07-10 15:01:18 JST</strong> の窓では、official site 側の採用対象は <strong>Anthropic News</strong> の 3 件だけだった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> だった。今回の <strong>2026-07-09 21:02:16 JST - 2026-07-10 21:02:16 JST</strong> の窓では、official site 側の採用対象は <strong>Anthropic News</strong> の 4 件だけだった。"
     },
     {
       "label": "@AnthropicAI の Claude product 投稿は 0件",
@@ -102,12 +102,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 3 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> は更新なしとして扱った。",
+      "headline": "4件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 4 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> は更新なしとして扱った。<strong>UST is bringing Claude to physical AI</strong> は exact publish time は見えないが、article page と listing の visible date がともに <strong>Jul 9, 2026</strong> だったため、visible date ベースで採用した。",
       "details": [
         "<strong>Anthropic News</strong>: <strong>Inviting hard questions</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Introducing a way to reflect on how you use Claude</strong>（<strong>July 9, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>UST is bringing Claude to physical AI</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> で、この窓の外だった。"
       ],
@@ -180,7 +181,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。",
     "<strong>@ClaudeAI</strong> の Reflect 補足 reply や hard questions 補足 reply は main post / official article と同一イベントとして正規化した。",
     "engineer watch では congratulations、support reply、公式 post の単純 quote-post、Bun rewrite など Claude / Anthropic product signal が弱い話題は外した。",
-    "<strong>Anthropic News</strong> の <strong>UST is bringing Claude to physical AI</strong> は visible date が <strong>Jul 9, 2026</strong> だったが、exact publish time が見えず in-window の official X corroboration もなかったため、今回の datetime window からは外した。"
+    "<strong>@nateparrott</strong> の Claude Design フィードバック募集は authored post だったが、現時点では新機能・変更・不具合の具体情報がなく exploratory な問いかけに留まるため main signal から外した。"
   ],
   "sources": [
     {
@@ -210,6 +211,10 @@
     {
       "title": "Anthropic News: Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
       "url": "https://www.anthropic.com/news/ben-bernanke"
+    },
+    {
+      "title": "Anthropic News: UST is bringing Claude to physical AI",
+      "url": "https://www.anthropic.com/news/ust-claude"
     },
     {
       "title": "ClaudeAI on Reflect",
