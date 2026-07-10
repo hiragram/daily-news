@@ -1,14 +1,14 @@
 {
   "date": "2026-07-10",
-  "windowLabel": "2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST",
-  "archiveTitle": "Reflect, hard questions, and session import",
+  "windowLabel": "2026-07-09 15:01:18 JST - 2026-07-10 15:01:18 JST",
+  "archiveTitle": "Reflect, reset, and v2.1.206",
   "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-09 09:00:50 JST から 2026-07-10 09:00:50 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> 導入、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>Anthropic News</strong> の <strong>Inviting hard questions</strong> と <strong>Introducing a way to reflect on how you use Claude</strong>、そして <strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表が入った。engineer 側では <strong>@amorriscode</strong> の CLI session import、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@trq212</strong> の artifacts sharing 拡張示唆、<strong>@jarredsumner</strong> の dynamic workflows 運用メモが signal だった。Claude Code の releases では <strong>v2.1.205</strong> が引き続き window 内で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-09 15:01:18 JST から 2026-07-10 15:01:18 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> と <strong>hard questions</strong>、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表が継続して主要 signal だった。engineer 側では <strong>@amorriscode</strong> の CLI session import、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@jarredsumner</strong> の dynamic workflows、<strong>@trq212</strong> の agentic coding note を採用した。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Reflect</strong> を公開し、<strong>@ClaudeDevs</strong> は全ユーザーの <strong>5-hour</strong> / <strong>weekly</strong> rate limits を reset した。<strong>Anthropic News</strong> では <strong>Inviting hard questions</strong> と <strong>Introducing a way to reflect on how you use Claude</strong> が visible date <strong>Jul 9, 2026</strong> で新着入りし、<strong>@AnthropicAI</strong> は <strong>Ben Bernanke</strong> の LTBT 参加を告知した。",
-    "<strong>Official site article 3件</strong>: visible publication date ベースで、この24時間窓に確実に入った official site 新着は <strong>Anthropic News</strong> の <strong>Jul 9, 2026</strong> 記事 3 本だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> にこの窓へ入る新規 article は確認できなかった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は CLI session の desktop import を案内し、まだ hidden だが今後は CLI session を desktop に持ち込む UX を整えると reply で補足した。<strong>@RobertJBye</strong> は Claude mobile app icon の long-press shortcut を紹介し、<strong>@trq212</strong> は artifacts の共有拡張を示唆した。<strong>@jarredsumner</strong> は大きめ project では dynamic workflows で長い親 context が各 agent workflow を監督する運用を推奨した。",
-    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release は <strong>v2.1.205</strong> だけだった。auto mode の transcript 改ざん防止、<code>/doctor</code> / <code>/checkup</code> の統合、agent view 改善、updater の memory 削減、background agent / worktree / schema validation / Cowork VM-mode local-agent の修正までを含む maintenance release だった。"
+    "<strong>Official 4件</strong>: <strong>@ClaudeAI</strong> の <strong>Reflect</strong> と <strong>hard questions</strong>、<strong>@ClaudeDevs</strong> の <strong>5-hour</strong> / <strong>weekly</strong> rate limit reset、<strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表がこの窓の主要 official signal だった。",
+    "<strong>Official site article 3件</strong>: <strong>Anthropic News</strong> では <strong>Inviting hard questions</strong>、<strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>、<strong>Introducing a way to reflect on how you use Claude</strong> が visible date <strong>Jul 9, 2026</strong> で確認できた。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> の新規 article は確認できなかった。",
+    "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は CLI session の desktop import と今後の UX 改善方針を案内し、<strong>@RobertJBye</strong> は Claude mobile app icon の long-press shortcut を紹介した。<strong>@jarredsumner</strong> は大きめ project での dynamic workflows 運用を共有し、<strong>@trq212</strong> は agentic coding の要点を reducing unknowns と整理した。",
+    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.206</strong> が <strong>2026-07-10 10:45 JST</strong> に publish された。<code>/cd</code> の path suggestion、<code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案、public gateway 対応、background agent upgrade 改善、MCP timeout や login まわりを含む多数の修正が入った。"
   ],
   "officialNews": [
     {
@@ -18,6 +18,16 @@
       "title": "@ClaudeAI と Anthropic News が Reflect を公開",
       "summary": "<strong>@ClaudeAI</strong> は、月次 recap で Claude を使う時間帯と作業傾向を見返し、quiet hours と break nudges も設定できる <strong>Reflect</strong> を公開した。Anthropic News の記事では、web と desktop の Settings から dashboard に入り、過去 <strong>1 / 3 / 6 / 12</strong> か月の利用傾向を可視化できる beta 機能だと説明している。",
       "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official X + site",
+      "datetime": "2026-07-10T02:31:58+09:00",
+      "displayTime": "2026-07-10 02:31 JST",
+      "title": "@ClaudeAI が hard questions campaign を案内",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>There’s hope in hard questions.</strong> と投稿し、Anthropic News の <strong>Inviting hard questions</strong> へ誘導した。記事では、AI についての hardest questions を public から募り、Anthropic 側が reasoning process を示しながら答える取り組みだと説明している。",
+      "url": "https://www.anthropic.com/news/hard-questions",
       "urlLabel": "記事を読む",
       "primary": true
     },
@@ -32,16 +42,6 @@
     },
     {
       "label": "Official X + site",
-      "datetime": "2026-07-10T02:31:58+09:00",
-      "displayTime": "2026-07-10 02:31 JST",
-      "title": "@ClaudeAI が hard questions campaign を案内",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>There’s hope in hard questions.</strong> と投稿し、Anthropic News の <strong>Inviting hard questions</strong> へ誘導した。記事では、AI についての hardest questions を public から募り、Anthropic 側が reasoning process を示しながら答える取り組みだと説明している。",
-      "url": "https://www.anthropic.com/news/hard-questions",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Official X + site",
       "datetime": "2026-07-10T01:35:17+09:00",
       "displayTime": "2026-07-10 01:35 JST",
       "title": "@AnthropicAI が Ben Bernanke の LTBT 参加を告知",
@@ -53,11 +53,11 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date も <strong>Jul 8, 2026</strong> だった。今回の <strong>2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST</strong> の窓では、visible date ベースで in-window の新規 article は <strong>Anthropic News</strong> 3 件だけだった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> だった。今回の <strong>2026-07-09 15:01:18 JST - 2026-07-10 15:01:18 JST</strong> の窓では、official site 側の採用対象は <strong>Anthropic News</strong> の 3 件だけだった。"
     },
     {
       "label": "@AnthropicAI の Claude product 投稿は 0件",
-      "body": "<strong>@AnthropicAI</strong> の main post はこの24時間窓で <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong> 1 件だけで、Claude product / Claude Code 直結の main post は確認できなかった。official X の Claude product signal は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> 側が中心だった。"
+      "body": "<strong>@AnthropicAI</strong> の main post はこの24時間窓で <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong> 1 件だけで、Claude product / Claude Code 直結の main post は確認できなかった。Claude product signal は今回も <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> 側が中心だった。"
     }
   ],
   "signals": [
@@ -66,7 +66,7 @@
       "datetime": "2026-07-10T07:37:43+09:00",
       "displayTime": "2026-07-10 07:37 JST",
       "title": "@amorriscode が CLI session import を案内",
-      "summary": "<strong>@amorriscode</strong> は、CLI session を <strong>Claude Code desktop</strong> へ import できると screenshot 付きで案内し、reply では今は意図的に hidden で disaster recovery 向けだが、近く CLI session を desktop に bring する product UX を用意すると補足した。desktop と CLI の session 統合が進んでいる signal。",
+      "summary": "<strong>@amorriscode</strong> は、CLI session を <strong>Claude Code desktop</strong> へ import できると screenshot 付きで案内した。reply では、今は hidden な disaster recovery 用だが、近く CLI session を desktop に bring する product UX を用意すると補足しており、desktop と CLI の session 統合が進んでいる signal。",
       "url": "https://x.com/amorriscode/status/2075348701208596689",
       "urlLabel": "X で見る",
       "primary": true
@@ -82,20 +82,20 @@
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-09T09:49:32+09:00",
-      "displayTime": "2026-07-09 09:49 JST",
-      "title": "@trq212 が artifacts の共有拡張を示唆",
-      "summary": "<strong>@trq212</strong> は artifacts の共有・受け渡しが弱いという user feedback に対し、<strong>working on making sharing happen more broadly</strong> と reply し、<strong>artifacts</strong> 周辺で <strong>lots more to come</strong> と補足した。share / export 導線の拡張を示す具体的な roadmap signal。",
-      "url": "https://x.com/trq212/status/2075019485879443581",
-      "urlLabel": "X で見る"
-    },
-    {
-      "label": "Engineer X",
       "datetime": "2026-07-10T00:57:00+09:00",
       "displayTime": "2026-07-10 00:57 JST",
       "title": "@jarredsumner が dynamic workflows 運用を共有",
       "summary": "<strong>@jarredsumner</strong> は、<strong>300 LOC</strong> を超える project では <strong>dynamic workflows</strong> を勧め、1つの長い親 context が各 workflow を書いて監視し、配下の agent は clean context で結果を返す運用だと説明した。Claude Code 的な multi-agent 実務ノウハウとして有用。",
       "url": "https://x.com/jarredsumner/status/2075247858908049450",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-10T03:19:59+09:00",
+      "displayTime": "2026-07-10 03:19 JST",
+      "title": "@trq212 が agentic coding の要点を reducing unknowns と整理",
+      "summary": "<strong>@trq212</strong> は、<strong>one of the core skills of agentic coding is reducing your unknowns</strong> と述べ、自身の Fable talk を引きながら agentic coding の要点を共有した。Claude Code / Fable 文脈の運用知見として継続的に参照価値がある signal。",
+      "url": "https://x.com/trq212/status/2075283841758183674",
       "urlLabel": "X で見る"
     }
   ],
@@ -103,7 +103,7 @@
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "この24時間窓で visible publication date ベースの official site 新着に確実に入ったのは、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 3 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> はこの窓では更新なしとして扱った。",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 3 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> は更新なしとして扱った。",
       "details": [
         "<strong>Anthropic News</strong>: <strong>Inviting hard questions</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>（<strong>July 9, 2026</strong>）",
@@ -117,54 +117,59 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.205</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.206</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
         {
-          "version": "v2.1.205",
-          "publishedAt": "2026-07-09 06:22 JST",
-          "summary": "auto mode の transcript 保護を追加しつつ、agent view、<code>/doctor</code>、auto-update、background agent、worktree、schema validation、Cowork VM-mode local-agent 周辺の不具合をまとめて直した maintenance release。",
+          "version": "v2.1.206",
+          "publishedAt": "2026-07-10 10:45 JST",
+          "summary": "<code>/cd</code> の path suggestion や <code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案を追加しつつ、public gateway login、background agent upgrade、MCP timeout、UI 周辺まで広く改善した maintenance release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "auto mode に、session transcript file の改ざんをブロックする rule を追加した。"
+                "<code>/cd</code> に、<code>/add-dir</code> と同様の directory path suggestion を追加した。",
+                "<code>/doctor</code> に、checked-in の <code>CLAUDE.md</code> から Claude が codebase から導出できる内容を削って slim にする提案チェックを追加した。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "context から解決できない変数に対して <code>rm -rf</code> を実行しようとしたとき、auto mode が事前確認を求めるようにした。",
-                "auto-update の binary download を memory にため込まず disk へ stream するようにし、updater の peak memory usage をおよそ <strong>400 MB</strong> 下げた。",
-                "background task notifications に、まだ human input が行われていないことを明示するようにし、transcript 内の作り話の承認が実行に使われないようにした。",
-                "agent view で、session が既存 PR を edit / merge / comment / push した場合に、その PR へ link するようにした。",
-                "agent view の row に raw tool call text ではなく、色付きの state word と classifier-written headline を表示し、peek では blocked session の exact ask を含む full status を開くようにした。",
-                "<code>/doctor</code> を setup の確認と修正まで行う full checkup に広げ、<code>/checkup</code> をその alias にした。",
-                "<strong>Claude Browser</strong> と <strong>Claude Preview</strong> を予約済み MCP server 名として扱い、user-configured MCP server がどちらの名前でも登録できないようにした。"
+                "<code>/commit-push-pr</code> が、<code>origin</code> に加えて repo に設定された push remote（<code>remote.pushDefault</code>、または remote が 1 つだけのときはその remote）への <code>git push</code> も自動許可するようにした。",
+                "Gateway で、<code>/login</code> が Anthropic 運営の public gateway endpoint をサポートするようになった。",
+                "<code>EnterWorktree</code> が、project の <code>.claude/worktrees/</code> 外にある git worktree へ入る前に確認を求めるようになった。",
+                "background agent は Claude Code 更新直後に裏で新 version へ upgrade するようになり、attach 時に stale session upgrade の待ち時間を払わないようにした。",
+                "<code>/code-review</code> の findings quality を <code>claude-opus-4-8</code> 上で全 effort level で改善した。",
+                "agents view の status column が terminal 全幅を使うようになり、64 文字で truncate しなくなった。",
+                "agents view で <code>Ctrl+X</code> が completed session を恒久的に削除するように変更し、session の二重表示をなくし、削除済み background job が再表示されないようにした。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "schema が invalid なときに <code>--json-schema</code> が黙って unstructured output を返す問題と、<code>format</code> keyword を使う schema が reject される問題を修正した。",
-                "Claude が作業中に送った message が <code>--max-turns</code> limit で turn が終わると黙って失われる問題を修正した。",
-                "Windows で worktree 内に NTFS junction や directory symlink があると、worktree removal が外側の file まで消してしまう問題を修正した。",
-                "<code>SendMessage</code> で resume した background agent が agent list で <code>failed</code> または <code>completed</code> のまま残る問題を修正した。",
-                "agent の turn に readable text がないと、background job が agent list 上で <code>needs input</code> から <code>working</code> に戻ってしまう問題を修正した。",
-                "background agent が upgrade restart の途中だと <code>claude attach</code> が待たずに error になる問題を修正した。",
-                "Bash call の output が inline の <strong>30K</strong> limit を超えると、session-to-PR linking が PR 作成を見落とす問題を修正した。",
-                "<code>claude mcp add-from-claude-desktop</code> で unsupported character を含む server name があると処理が止まる問題を修正し、invalid name を報告しつつ残りの server は import を続けるようにした。",
-                "ある plugin の LSP server 初期化 failure が、同じ file extension を扱える別 plugin の有効な LSP server まで妨げる問題を修正した。",
-                "Claude を起動した directory が command 実行中に削除・lock・unmount されると Windows で crash する問題を修正した。",
-                "directory scan が進行中のまま file watcher を閉じると crash する問題を修正した。",
-                "project verify skills が、documented command が変わっていないのに every session で rewrite される問題を修正した。",
-                "agent view が 1 行ぶん高く描画され、job list が少し overflow しただけで header を clip する問題を修正した。",
-                "web と mobile の Remote Control panel で background task が stale な <code>Running</code> status を表示し続ける問題を修正し、membership change ごとに full task state を forward するようにした。",
-                "CLI <strong>2.1.203+</strong> で Cowork の VM-mode local-agent session が <code>Not logged in · Please run /login</code> で起動失敗する問題を修正した。"
+                "login の有効期限切れ時に、<code>/login</code> を促さず全 model が誤って <strong>There’s an issue with the selected model</strong> で失敗する問題を修正した。",
+                "<code>claude --resume</code> と <code>--continue</code> が起動時の keyboard input に反応しない問題を修正した。",
+                "<code>--mcp-config</code> や <code>.mcp.json</code> で設定した MCP server の per-server <code>request_timeout_ms</code> が無視され、新しい session で長時間の MCP tool call が 60 秒 default で timeout していた問題を修正した。",
+                "<code>CLAUDE_CODE_EXTRA_BODY</code> が <code>claude agents</code> / <code>--bg</code> の background worker で黙って無視されていた問題を修正し、shell export した override が dispatch 元 session へ引き継がれるようにした。",
+                "OAuth MCP server が token refresh に 1 回失敗しただけで manual re-authentication を要求する問題を修正した。",
+                "<code>--permission-prompt-tool</code> が MCP server を指すと、server 接続完了前の cold start で <strong>MCP tool not found</strong> crash を起こす問題を修正した。",
+                "<code>/model</code> picker で row 名と異なる model の価格を表示する問題と、実際には請求しない provider の first-party list price を引用していた問題を修正した。",
+                "<code>/model</code> picker で entitlement や allowlist 制限により row が落ちると、server 提供 model row の配置がずれる問題を修正した。",
+                "desktop session で slash command を turn の途中に送ると <strong>running</strong> 表示のまま stuck する問題を修正した。",
+                "Windows で、setup prompt が bare な <code>claude --resume</code> より先に出ると agents view の keyboard input が無視される問題を修正した。",
+                "<code>claude rm</code> が削除済み job を daemon roster に残し、<code>claude agents</code> に再出現させる問題を修正した。",
+                "logged out 時に <code>/remote-control</code> が <strong>Unknown command</strong> を出していた問題を修正し、sign in 方法を説明するようにした。",
+                "workflow detail view で left arrow が phase や agent の 1 つ外側へ戻れない問題を修正した。",
+                "<code>/status</code> が同じ broken-install warning を二重に列挙する問題を修正した。",
+                "LSP plugin に対する誤った <strong>disused plugin</strong> tip と、歪んだ disuse telemetry を修正した。",
+                "<code>/doctor</code> の update check が Homebrew install を settings channel ではなく対応する cask channel と比較するよう修正した。",
+                "fullscreen の jump-to-bottom pill が macOS で <code>Ctrl+End</code> を誤案内し、rebound chord を表示せず、transcript 上で折り返していた問題を修正した。",
+                "Bedrock で、egress 制限ネットワーク上の <code>awsCredentialExport</code> helper 利用時に multi-minute startup hang が起きる問題を修正した。",
+                "plugin の LSP server 初期化 failure が、同じ file extension を扱える別 plugin の正常な LSP server まで妨げる問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
-          "urlLabel": "v2.1.205 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
+          "urlLabel": "v2.1.206 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -175,7 +180,7 @@
     "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。",
     "<strong>@ClaudeAI</strong> の Reflect 補足 reply や hard questions 補足 reply は main post / official article と同一イベントとして正規化した。",
     "engineer watch では congratulations、support reply、公式 post の単純 quote-post、Bun rewrite など Claude / Anthropic product signal が弱い話題は外した。",
-    "visible publication date が <strong>Jul 8, 2026</strong> の <strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の記事は、今回の <strong>2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST</strong> 窓からは外した。"
+    "<strong>Anthropic News</strong> の <strong>UST is bringing Claude to physical AI</strong> は visible date が <strong>Jul 9, 2026</strong> だったが、exact publish time が見えず in-window の official X corroboration もなかったため、今回の datetime window からは外した。"
   ],
   "sources": [
     {
@@ -211,12 +216,12 @@
       "url": "https://x.com/claudeai/status/2075225957711929667"
     },
     {
-      "title": "ClaudeDevs on rate limit reset",
-      "url": "https://x.com/ClaudeDevs/status/2075279141352706215"
-    },
-    {
       "title": "ClaudeAI on hard questions",
       "url": "https://x.com/claudeai/status/2075271759289303522"
+    },
+    {
+      "title": "ClaudeDevs on rate limit reset",
+      "url": "https://x.com/ClaudeDevs/status/2075279141352706215"
     },
     {
       "title": "AnthropicAI on Ben Bernanke joining the LTBT",
@@ -227,24 +232,28 @@
       "url": "https://x.com/amorriscode/status/2075348701208596689"
     },
     {
-      "title": "Robert Bye on Claude mobile app shortcuts",
-      "url": "https://x.com/RobertJBye/status/2075264347228815671"
+      "title": "Anthony Morris on future desktop UX for imported CLI sessions",
+      "url": "https://x.com/amorriscode/status/2075358595827536300"
     },
     {
-      "title": "Thariq on broader artifacts sharing",
-      "url": "https://x.com/trq212/status/2075019485879443581"
+      "title": "Robert Bye on Claude mobile app shortcuts",
+      "url": "https://x.com/RobertJBye/status/2075264347228815671"
     },
     {
       "title": "Jarred Sumner on dynamic workflows for larger projects",
       "url": "https://x.com/jarredsumner/status/2075247858908049450"
     },
     {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
+      "title": "Thariq on reducing unknowns in agentic coding",
+      "url": "https://x.com/trq212/status/2075283841758183674"
     },
     {
-      "title": "Claude Code v2.1.205 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205"
+      "title": "Claude Code release v2.1.206",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
     }
   ]
 }
