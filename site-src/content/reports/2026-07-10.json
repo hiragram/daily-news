@@ -1,34 +1,24 @@
 {
   "date": "2026-07-10",
-  "windowLabel": "2026-07-09 03:02:43 JST - 2026-07-10 03:02:43 JST",
-  "archiveTitle": "Reflect, hard questions, and /checkup",
+  "windowLabel": "2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST",
+  "archiveTitle": "Reflect, hard questions, and session import",
   "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-09 03:02:43 JST から 2026-07-10 03:02:43 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> 導入、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>@ClaudeAI</strong> / <strong>Anthropic News</strong> の <strong>Inviting hard questions</strong> 展開、そして <strong>Anthropic Research</strong> の <strong>An off switch for dual-use knowledge in AI models</strong> が目立った。engineer 側では <strong>@bcherny</strong> の <code>/checkup</code>、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@trq212</strong> の artifacts 共有拡張示唆、<strong>@_catwu</strong> の Claude Tag walkthrough 告知が signal だった。Claude Code の releases では <strong>v2.1.205</strong> が引き続き window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-09 09:00:50 JST から 2026-07-10 09:00:50 JST の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Reflect</strong> 導入、<strong>@ClaudeDevs</strong> の全ユーザー向け rate limit reset、<strong>Anthropic News</strong> の <strong>Inviting hard questions</strong> と <strong>Introducing a way to reflect on how you use Claude</strong>、そして <strong>@AnthropicAI</strong> の <strong>Ben Bernanke</strong> 発表が入った。engineer 側では <strong>@amorriscode</strong> の CLI session import、<strong>@RobertJBye</strong> の mobile shortcut、<strong>@trq212</strong> の artifacts sharing 拡張示唆、<strong>@jarredsumner</strong> の dynamic workflows 運用メモが signal だった。Claude Code の releases では <strong>v2.1.205</strong> が引き続き window 内で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Reflect</strong> を公開し、<strong>@ClaudeDevs</strong> は全ユーザーの <strong>5-hour</strong> / <strong>weekly</strong> rate limits を reset した。<strong>@ClaudeAI</strong> の <strong>There’s hope in hard questions.</strong> は Anthropic News の <strong>Inviting hard questions</strong> と対応し、<strong>@AnthropicAI</strong> は <strong>GRAM</strong> 研究を再告知した。",
-    "<strong>Official site listing 6件</strong>: visible publication date ベースでは、<strong>Anthropic Research</strong> の <strong>Jul 8, 2026</strong> 記事 1 本、<strong>Claude Blog</strong> の <strong>Jul 8, 2026</strong> 記事 2 本、<strong>Anthropic News</strong> の <strong>Jul 9, 2026</strong> 記事 3 本が window 内の日付として確認できた。<strong>Anthropic Engineering</strong> の新着は 0 件だった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@bcherny</strong> は <code>/checkup</code> で skills / MCP / plugins の整理、<code>CLAUDE.md</code> の重複解消、hook の停止、update まで案内した。<strong>@RobertJBye</strong> は Claude mobile app から <strong>Claude Code</strong>、<strong>Projects</strong>、<strong>Voice mode</strong> へ直接飛べる shortcut を紹介し、<strong>@trq212</strong> は artifacts の共有拡張を示唆した。<strong>@_catwu</strong> は <strong>Claude Tag</strong> の live walkthrough を予告した。",
+    "<strong>Official 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Reflect</strong> を公開し、<strong>@ClaudeDevs</strong> は全ユーザーの <strong>5-hour</strong> / <strong>weekly</strong> rate limits を reset した。<strong>Anthropic News</strong> では <strong>Inviting hard questions</strong> と <strong>Introducing a way to reflect on how you use Claude</strong> が visible date <strong>Jul 9, 2026</strong> で新着入りし、<strong>@AnthropicAI</strong> は <strong>Ben Bernanke</strong> の LTBT 参加を告知した。",
+    "<strong>Official site article 3件</strong>: visible publication date ベースで、この24時間窓に確実に入った official site 新着は <strong>Anthropic News</strong> の <strong>Jul 9, 2026</strong> 記事 3 本だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> にこの窓へ入る新規 article は確認できなかった。",
+    "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は CLI session の desktop import を案内し、まだ hidden だが今後は CLI session を desktop に持ち込む UX を整えると reply で補足した。<strong>@RobertJBye</strong> は Claude mobile app icon の long-press shortcut を紹介し、<strong>@trq212</strong> は artifacts の共有拡張を示唆した。<strong>@jarredsumner</strong> は大きめ project では dynamic workflows で長い親 context が各 agent workflow を監督する運用を推奨した。",
     "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release は <strong>v2.1.205</strong> だけだった。auto mode の transcript 改ざん防止、<code>/doctor</code> / <code>/checkup</code> の統合、agent view 改善、updater の memory 削減、background agent / worktree / schema validation / Cowork VM-mode local-agent の修正までを含む maintenance release だった。"
   ],
   "officialNews": [
     {
-      "label": "Official site + X",
-      "datetime": "2026-07-09T08:55:03+09:00",
-      "displayTime": "2026-07-09 08:55 JST",
-      "title": "Anthropic Research が dual-use knowledge を切り離す GRAM 研究を公開",
-      "summary": "<strong>An off switch for dual-use knowledge in AI models</strong> は、危険用途にも有益用途にもなり得る知識を model 全体ではなく取り外し可能な module に集約する <strong>GRAM</strong> を説明した。Anthropic は article で、domain ごとの dual-use knowledge を removable compartment に route し、module を外すと対応 capability も外せると述べ、<strong>@AnthropicAI</strong> は <strong>AE Studio</strong> との共同研究として X でも案内した。",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Official X",
+      "label": "Official X + site",
       "datetime": "2026-07-09T23:29:58+09:00",
       "displayTime": "2026-07-09 23:29 JST",
-      "title": "@ClaudeAI が Reflect を公開",
-      "summary": "<strong>@ClaudeAI</strong> は、月次 recap で Claude を使う時間帯と作業傾向を見返し、quiet hours と break nudges も設定できる <strong>Reflect</strong> を公開した。導線は <code>Settings &gt; Reflect</code> で、usage review を product 内に組み込む新しい UX 変更として重要。",
-      "url": "https://x.com/claudeai/status/2075225957711929667",
-      "urlLabel": "X で見る",
+      "title": "@ClaudeAI と Anthropic News が Reflect を公開",
+      "summary": "<strong>@ClaudeAI</strong> は、月次 recap で Claude を使う時間帯と作業傾向を見返し、quiet hours と break nudges も設定できる <strong>Reflect</strong> を公開した。Anthropic News の記事では、web と desktop の Settings から dashboard に入り、過去 <strong>1 / 3 / 6 / 12</strong> か月の利用傾向を可視化できる beta 機能だと説明している。",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "urlLabel": "記事を読む",
       "primary": true
     },
     {
@@ -41,33 +31,43 @@
       "urlLabel": "X で見る"
     },
     {
-      "label": "Official X + News",
+      "label": "Official X + site",
       "datetime": "2026-07-10T02:31:58+09:00",
       "displayTime": "2026-07-10 02:31 JST",
       "title": "@ClaudeAI が hard questions campaign を案内",
-      "summary": "<strong>@ClaudeAI</strong> は <strong>There’s hope in hard questions.</strong> と投稿し、Anthropic News 一覧では同日付の <strong>Inviting hard questions</strong> が並んだ。公開文面では、AI に関する hardest questions を public から受け付け、Anthropic 側が reasoning process を示しながら答える campaign だと説明されている。",
-      "url": "https://x.com/claudeai/status/2075271759289303522",
-      "urlLabel": "X で見る"
+      "summary": "<strong>@ClaudeAI</strong> は <strong>There’s hope in hard questions.</strong> と投稿し、Anthropic News の <strong>Inviting hard questions</strong> へ誘導した。記事では、AI についての hardest questions を public から募り、Anthropic 側が reasoning process を示しながら答える取り組みだと説明している。",
+      "url": "https://www.anthropic.com/news/hard-questions",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official X + site",
+      "datetime": "2026-07-10T01:35:17+09:00",
+      "displayTime": "2026-07-10 01:35 JST",
+      "title": "@AnthropicAI が Ben Bernanke の LTBT 参加を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、元 FRB 議長で Nobel Prize 受賞者の <strong>Ben Bernanke</strong> が Anthropic の <strong>Long-Term Benefit Trust</strong> に加わったと案内した。記事では、advanced AI の長期的便益を確保する governance body に independent member として参加すると説明している。",
+      "url": "https://www.anthropic.com/news/ben-bernanke",
+      "urlLabel": "記事を読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site listing で増分が見えたのは <strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> 側のみだった。"
+      "label": "Anthropic Engineering / Research / Claude Blog の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date も <strong>Jul 8, 2026</strong> だった。今回の <strong>2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST</strong> の窓では、visible date ベースで in-window の新規 article は <strong>Anthropic News</strong> 3 件だけだった。"
     },
     {
-      "label": "Official site の exact publish time 表示は 0件",
-      "body": "<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の新着判定は今回も visible publication date ベースだった。article listing に exact publish time が出ていないため、site panel では <strong>Jul 8, 2026</strong> と <strong>Jul 9, 2026</strong> の visible dates を根拠に window へ入れている。"
+      "label": "@AnthropicAI の Claude product 投稿は 0件",
+      "body": "<strong>@AnthropicAI</strong> の main post はこの24時間窓で <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong> 1 件だけで、Claude product / Claude Code 直結の main post は確認できなかった。official X の Claude product signal は <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> 側が中心だった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-07-09T08:22:27+09:00",
-      "displayTime": "2026-07-09 08:22 JST",
-      "title": "@bcherny が新しい /checkup を紹介",
-      "summary": "<strong>@bcherny</strong> は Claude Code の新しい <code>/checkup</code> を紹介し、unused skills / MCPs / plugins の掃除、local <code>CLAUDE.md</code> と checked-in <code>CLAUDE.md</code> の重複解消、root <code>CLAUDE.md</code> の分割、slow hook の停止、Claude Code の更新まで支援すると説明した。release note で <code>/doctor</code> が full setup checkup に広がったこととも整合する。",
-      "url": "https://x.com/bcherny/status/2074997570317779038",
+      "datetime": "2026-07-10T07:37:43+09:00",
+      "displayTime": "2026-07-10 07:37 JST",
+      "title": "@amorriscode が CLI session import を案内",
+      "summary": "<strong>@amorriscode</strong> は、CLI session を <strong>Claude Code desktop</strong> へ import できると screenshot 付きで案内し、reply では今は意図的に hidden で disaster recovery 向けだが、近く CLI session を desktop に bring する product UX を用意すると補足した。desktop と CLI の session 統合が進んでいる signal。",
+      "url": "https://x.com/amorriscode/status/2075348701208596689",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -82,37 +82,34 @@
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-09T09:15:17+09:00",
-      "displayTime": "2026-07-09 09:15 JST",
+      "datetime": "2026-07-09T09:49:32+09:00",
+      "displayTime": "2026-07-09 09:49 JST",
       "title": "@trq212 が artifacts の共有拡張を示唆",
-      "summary": "<strong>@trq212</strong> は artifacts の共有・受け渡しがまだ弱いという user feedback に対し、<strong>working on making sharing happen more broadly</strong> と reply し、<strong>artifacts</strong> 周辺で <strong>lots more to come</strong> と補足した。share / export 導線の拡張を示す低めだが具体的な roadmap signal。",
+      "summary": "<strong>@trq212</strong> は artifacts の共有・受け渡しが弱いという user feedback に対し、<strong>working on making sharing happen more broadly</strong> と reply し、<strong>artifacts</strong> 周辺で <strong>lots more to come</strong> と補足した。share / export 導線の拡張を示す具体的な roadmap signal。",
       "url": "https://x.com/trq212/status/2075019485879443581",
       "urlLabel": "X で見る"
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-09T03:36:11+09:00",
-      "displayTime": "2026-07-09 03:36 JST",
-      "title": "@_catwu が Claude Tag walkthrough を予告",
-      "summary": "<strong>@_catwu</strong> は、single-player <strong>Claude Code</strong> から multi-player <strong>Claude Tag</strong> へ進んだ流れと、その仕組みを深掘りする live walkthrough を <strong>July 9, 2026 10:00 PT</strong>（<strong>July 10, 2026 02:00 JST</strong>）に行うと告知した。Claude Tag の実運用・設計文脈を補う signal。",
-      "url": "https://x.com/_catwu/status/2074925531519468012",
+      "datetime": "2026-07-10T00:57:00+09:00",
+      "displayTime": "2026-07-10 00:57 JST",
+      "title": "@jarredsumner が dynamic workflows 運用を共有",
+      "summary": "<strong>@jarredsumner</strong> は、<strong>300 LOC</strong> を超える project では <strong>dynamic workflows</strong> を勧め、1つの長い親 context が各 workflow を書いて監視し、配下の agent は clean context で結果を返す運用だと説明した。Claude Code 的な multi-agent 実務ノウハウとして有用。",
+      "url": "https://x.com/jarredsumner/status/2075247858908049450",
       "urlLabel": "X で見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "6件",
-      "body": "この24時間窓で visible publication date ベースの official site 新着として拾えたのは、<strong>Anthropic Research</strong> の <strong>July 8, 2026</strong> 記事 1 件、<strong>Claude Blog</strong> の <strong>July 8, 2026</strong> 記事 2 件、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 3 件だった。<strong>Anthropic Engineering</strong> の新着は 0 件だった。",
+      "headline": "3件",
+      "body": "この24時間窓で visible publication date ベースの official site 新着に確実に入ったのは、<strong>Anthropic News</strong> の <strong>July 9, 2026</strong> 記事 3 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> はこの窓では更新なしとして扱った。",
       "details": [
-        "<strong>Anthropic Research</strong>: <strong>An off switch for dual-use knowledge in AI models</strong>（<strong>July 8, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work</strong>（<strong>July 8, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds</strong>（<strong>July 8, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Inviting hard questions</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Introducing a way to reflect on how you use Claude</strong>（<strong>July 9, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
-        "この panel は official listing の visible publication date を source of truth とし、exact publish time が見えない記事は date ベースで扱った。"
+        "<strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> で、この窓の外だった。"
       ],
       "url": "https://www.anthropic.com/news",
       "urlLabel": "Anthropic News 一覧"
@@ -176,9 +173,9 @@
   ],
   "exclusions": [
     "official X は main post を優先し、reply と repost は default 設定どおり個別 item から外した。",
-    "<strong>@AnthropicAI</strong> の <strong>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</strong> は corporate governance 寄りで Claude product signal が薄いため、blog panel の listing には残しつつ main official item からは外した。",
-    "engineer watch では congratulations、一般論、support reply、Bun rewrite への雑談、公式 post の単純 quote-post は signal から外した。",
-    "Claude Code release notes は GitHub CLI を唯一の source of truth とし、window 開始以前の <strong>v2.1.204</strong> 以前は外した。"
+    "<strong>@ClaudeAI</strong> の Reflect 補足 reply や hard questions 補足 reply は main post / official article と同一イベントとして正規化した。",
+    "engineer watch では congratulations、support reply、公式 post の単純 quote-post、Bun rewrite など Claude / Anthropic product signal が弱い話題は外した。",
+    "visible publication date が <strong>Jul 8, 2026</strong> の <strong>Anthropic Research</strong> と <strong>Claude Blog</strong> の記事は、今回の <strong>2026-07-09 09:00:50 JST - 2026-07-10 09:00:50 JST</strong> 窓からは外した。"
   ],
   "sources": [
     {
@@ -198,31 +195,23 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Anthropic Research: An off switch for dual-use knowledge in AI models",
-      "url": "https://www.anthropic.com/research/off-switch-dual-use"
+      "title": "Anthropic News: Inviting hard questions",
+      "url": "https://www.anthropic.com/news/hard-questions"
     },
     {
-      "title": "Claude Blog: Working at the frontier: How Thomson Reuters builds AI for high-stakes professional work",
-      "url": "https://claude.com/blog/working-at-the-frontier-how-thomson-reuters-builds-ai-for-high--stakes-professional-work"
+      "title": "Anthropic News: Introducing a way to reflect on how you use Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude"
     },
     {
-      "title": "Claude Blog: How Anthropic's marketing operations team uses Claude Cowork to automate reporting and campaign builds",
-      "url": "https://claude.com/blog/how-anthropics-marketing-operations-team-uses-claude-cowork-to-automate-reporting-and-campaign-builds"
-    },
-    {
-      "title": "AnthropicAI on GRAM research",
-      "url": "https://x.com/AnthropicAI/status/2075005777522172146"
+      "title": "Anthropic News: Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/ben-bernanke"
     },
     {
       "title": "ClaudeAI on Reflect",
       "url": "https://x.com/claudeai/status/2075225957711929667"
     },
     {
-      "title": "Reflect settings",
-      "url": "https://claude.ai/settings/reflect"
-    },
-    {
-      "title": "ClaudeDevs on rate limit resets",
+      "title": "ClaudeDevs on rate limit reset",
       "url": "https://x.com/ClaudeDevs/status/2075279141352706215"
     },
     {
@@ -230,8 +219,12 @@
       "url": "https://x.com/claudeai/status/2075271759289303522"
     },
     {
-      "title": "Boris Cherny on /checkup",
-      "url": "https://x.com/bcherny/status/2074997570317779038"
+      "title": "AnthropicAI on Ben Bernanke joining the LTBT",
+      "url": "https://x.com/AnthropicAI/status/2075257492716879967"
+    },
+    {
+      "title": "Anthony Morris on importing CLI sessions into Claude Code desktop",
+      "url": "https://x.com/amorriscode/status/2075348701208596689"
     },
     {
       "title": "Robert Bye on Claude mobile app shortcuts",
@@ -242,8 +235,8 @@
       "url": "https://x.com/trq212/status/2075019485879443581"
     },
     {
-      "title": "Cat Wu on Claude Tag walkthrough",
-      "url": "https://x.com/_catwu/status/2074925531519468012"
+      "title": "Jarred Sumner on dynamic workflows for larger projects",
+      "url": "https://x.com/jarredsumner/status/2075247858908049450"
     },
     {
       "title": "Claude Code releases",
