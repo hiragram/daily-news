@@ -1,14 +1,14 @@
 {
   "date": "2026-07-11",
-  "windowLabel": "2026-07-10 09:03:07 JST - 2026-07-11 09:03:07 JST",
-  "archiveTitle": "Desktop browser and v2.1.206",
+  "windowLabel": "2026-07-10 15:01:09 JST - 2026-07-11 15:01:09 JST",
+  "archiveTitle": "In-app browser and v2.1.207",
   "archiveSummary": "Official 2件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-10 09:03:07 JST から 2026-07-11 09:03:07 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が <strong>Claude Code desktop の in-app browser</strong> を告知し、<strong>Claude Blog</strong> では Cognition が <strong>Claude Fable 5</strong> を overnight で走らせられる水準に達したという事例を公開した。engineer 側では <strong>@amorriscode</strong> が browser rollout の補足として <strong>non-dev servers</strong> 対応、session persistence 設定、Chrome extension 代替としての使い勝手を説明し、別 reply では mobile から laptop 上の新 session を始めるには <strong>server mode</strong> が必要だと補足した。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-10 15:01:09 JST から 2026-07-11 15:01:09 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が <strong>Claude Code desktop の in-app browser</strong> を告知し、<strong>Claude Blog</strong> では Cognition が <strong>Claude Fable 5</strong> を overnight で走らせられる水準に達したという事例を公開した。engineer 側では <strong>@amorriscode</strong> が browser が Chrome extension を置き換えたと述べ、reply で <strong>session persistence</strong> や <strong>server mode</strong> の制約を補足した。Claude Code では新規 release <strong>v2.1.207</strong> が publish され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Code desktop</strong> に <strong>in-app browser</strong> が入り、docs や design、任意サイトを Claude 自身が読み進めて操作できると案内した。",
-    "<strong>Official site 1件</strong>: <strong>Claude Blog</strong> に <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> が <strong>Jul 10, 2026</strong> で掲載された。Cognition は <strong>Devin</strong> 内で Fable 5 を夜通し 8 時間動かして実作業を進められる水準だと評価している。",
-    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は browser がすでに Chrome extension 利用を置き換えたと述べ、reply で <strong>non-dev servers</strong> 対応と <strong>session persistence</strong> 設定も補足した。別 reply では、mobile から laptop 上で新 session を始めるには <strong>server mode</strong> が必要で、remote control default だけでは足りないことを説明した。",
-    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.206</strong> が <strong>2026-07-10 10:45 JST</strong> に publish された。<code>/cd</code> の path suggestion、<code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案、public gateway login、background agent upgrade、MCP timeout や UI 周辺の修正がまとまって入った。"
+    "<strong>Official site 1件</strong>: <strong>Claude Blog</strong> に <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> が <strong>July 10, 2026</strong> で掲載された。Cognition は <strong>Devin</strong> 内で Fable 5 を夜通し 8 時間動かして real progress を出せると評価している。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は in-app browser が自身の Chrome extension 利用を置き換えたと述べ、reply で <strong>sessions persist</strong> の opt-in と <strong>server mode</strong> が新規 remote session 起動に必要だと補足した。",
+    "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.207</strong> が <strong>2026-07-11 09:52 JST</strong> に publish された。auto mode の既定提供拡大、Bedrock / Vertex / AWS 系の既定変更、plugin / settings の安全性見直し、terminal / Remote Control / background session 周りの修正がまとまって入った。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-11T02:36:29+09:00",
       "displayTime": "2026-07-11 02:36 JST",
       "title": "@ClaudeDevs が Claude Code desktop の in-app browser を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code on desktop now has an in-app browser</strong> として、Claude が docs や designs、任意サイトを読み進めて click までできる browser を desktop app に追加したと案内した。post 本文では <strong>sandboxed</strong> かつ session persistence を user 側で切り替えられる点も前面に出している。",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code on desktop now has an in-app browser</strong> として、Claude が docs や designs、任意サイトを読み進めて click までできる browser を desktop app に追加したと案内した。post 本文では <strong>sandboxed</strong> かつ session persistence を user 側で切り替えられる点も明示している。",
       "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
       "urlLabel": "X で見る",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-07-10T00:00:00+09:00",
       "displayTime": "2026-07-10",
       "title": "Claude Blog が Cognition の Fable 5 活用事例を公開",
-      "summary": "<strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> は、Cognition の <strong>Devin</strong> チームが <strong>Claude Fable 5</strong> を、従来 model より長く self-sufficient に動ける agent と評価している事例記事。blog 本文では、<strong>8時間</strong> 連続で real progress を出せたこと、debugging tools や browser 上の logs を扱えること、Frontier Code の hardest subset で prior Opus 約 <strong>10%</strong> に対し Fable 5 が約 <strong>30%</strong> だったことが紹介されている。",
+      "summary": "<strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> は、Cognition の <strong>Devin</strong> チームが <strong>Claude Fable 5</strong> を、従来 model より長く self-sufficient に動ける agent と評価している事例記事。blog 本文では、<strong>8時間</strong> 連続で実作業を進められたこと、browser 上の logs を含む debugging tools を扱えること、Frontier Code の hardest subset で prior Opus 約 <strong>10%</strong> に対し Fable 5 が約 <strong>30%</strong> だったことが紹介されている。",
       "url": "https://claude.com/blog/working-at-the-frontier-how-cognition-trusts-claude-fable-5-to-work-through-the-night",
       "urlLabel": "記事を読む",
       "primary": true
@@ -39,7 +39,7 @@
     },
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> だった。今回の窓は <strong>2026-07-10 09:03:07 JST</strong> 以降のため、site 側の採用対象は <strong>Claude Blog</strong> の <strong>Jul 10, 2026</strong> 記事 1 件のみとした。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> だった。今回の窓は <strong>2026-07-10 15:01:09 JST</strong> 以降のため、site 側の採用対象は <strong>Claude Blog</strong> の <strong>July 10, 2026</strong> 記事 1 件のみとした。"
     }
   ],
   "signals": [
@@ -47,18 +47,18 @@
       "label": "Engineer X",
       "datetime": "2026-07-11T02:40:42+09:00",
       "displayTime": "2026-07-11 02:40 JST",
-      "title": "@amorriscode が in-app browser rollout の補足を投稿",
-      "summary": "<strong>@amorriscode</strong> は、自分の利用では in-app browser がすでに Chrome extension を置き換えたと述べたうえで、reply で <strong>non-dev servers</strong> でも使えること、<strong>sessions persist</strong> の設定があること、annotation tool や X feedback 起点で新 session を起こせることを補足した。official post の周辺仕様を埋める実務的な signal。",
+      "title": "@amorriscode が in-app browser 利用感を投稿",
+      "summary": "<strong>@amorriscode</strong> は、in-app browser が自分の <strong>Chrome extension</strong> 利用を置き換えたと述べ、annotation tool で context を渡しやすく、X feedback を起点に新 session を始めやすいと紹介した。official 告知に対する実運用目線の補足として採用した。",
       "url": "https://x.com/amorriscode/status/2075636344701981026",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-11T00:03:21+09:00",
-      "displayTime": "2026-07-11 00:03 JST",
-      "title": "@amorriscode が新 session 起動には server mode が必要だと補足",
-      "summary": "<strong>@amorriscode</strong> は、mobile から laptop 上に新しい Claude session を起動したいという質問に対し、現状は <strong>server mode</strong> を有効化する必要があり、<strong>remote control</strong> を default on にしただけでは手動開始済み session が各端末に見えるだけだと説明した。cross-device session 起動の現在の制約を端的に示す補足。",
+      "datetime": "2026-07-10T15:03:21+09:00",
+      "displayTime": "2026-07-10 15:03 JST",
+      "title": "@amorriscode が remote で新 session を始める条件を補足",
+      "summary": "<strong>@amorriscode</strong> は、mobile など別端末から machine 上で新しい Claude session を起動するには現状 <strong>server mode</strong> が必要で、<strong>remote control</strong> を default on にしただけでは手動開始済み session が各端末に見えるだけだと説明した。cross-device session 起動の現状制約を示す補足。",
       "url": "https://x.com/amorriscode/status/2075596746395430923",
       "urlLabel": "X で見る"
     }
@@ -69,10 +69,10 @@
       "headline": "1件",
       "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Claude Blog</strong> の <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> 1 件だけだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は visible date ベースで窓外だったため外した。",
       "details": [
-        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong>（<strong>Jul 10, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong>（<strong>July 10, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> で、今回 window 開始 <strong>2026-07-10 09:03:07 JST</strong> より前だった。"
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> で、今回 window 開始 <strong>2026-07-10 15:01:09 JST</strong> より前だった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -80,59 +80,55 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.206</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.207</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
         {
-          "version": "v2.1.206",
-          "publishedAt": "2026-07-10 10:45 JST",
-          "summary": "<code>/cd</code> の path suggestion や <code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案を追加しつつ、public gateway login、background agent upgrade、MCP timeout、UI 周辺まで広く改善した maintenance release。",
+          "version": "v2.1.207",
+          "publishedAt": "2026-07-11 09:52 JST",
+          "summary": "auto mode の提供範囲拡大と既定値の見直しを入れつつ、plugin / settings の安全性を締め、terminal、Remote Control、background session、Bedrock 周辺の不具合を広く修正した release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<code>/cd</code> に、<code>/add-dir</code> と同様の directory path suggestion を追加した。",
-                "<code>/doctor</code> に、checked-in の <code>CLAUDE.md</code> から Claude が codebase から導出できる内容を削って slim にする提案チェックを追加した。"
+                "Bedrock、Vertex AI、Foundry では、<code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> で opt-in しなくても auto mode を使えるようにした。無効化したい場合は settings の <code>disableAutoMode</code> を使う。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "<code>/commit-push-pr</code> が、<code>origin</code> に加えて repo に設定された push remote（<code>remote.pushDefault</code>、または remote が 1 つだけのときはその remote）への <code>git push</code> も自動許可するようにした。",
-                "Gateway で、<code>/login</code> が Anthropic 運営の public gateway endpoint をサポートするようになった。",
-                "<code>EnterWorktree</code> が、project の <code>.claude/worktrees/</code> 外にある git worktree へ入る前に確認を求めるようになった。",
-                "background agent は Claude Code 更新直後に裏で新 version へ upgrade するようになり、attach 時に stale session upgrade の待ち時間を払わないようにした。",
-                "<code>/code-review</code> の findings quality を <code>claude-opus-4-8</code> 上で全 effort level で改善した。",
-                "agents view の status column が terminal 全幅を使うようになり、64 文字で truncate しなくなった。",
-                "agents view で <code>Ctrl+X</code> が completed session を恒久的に削除するように変更し、session の二重表示をなくし、削除済み background job が再表示されないようにした。"
+                "agent view で同じ text をもう一度 paste したとき、2 個目の paste を増やす代わりに折りたたまれた <code>[Pasted text #N]</code> placeholder を展開するように改善した。",
+                "agent view の blocked session peek は、同じ timestamp を 2 回出す代わりに質問文を先頭に出し、<code>waiting 3m</code> のような文章化した stale 表示を出すように改善した。",
+                "Bedrock、Vertex、Claude Platform on AWS の既定 model を <strong>Claude Opus 4.8</strong> に変更した。",
+                "auto mode は repo 内の <code>.claude/settings.local.json</code> にある <code>autoMode</code> を読まないように変更し、今後は <code>~/.claude/settings.json</code> を使うようにした。",
+                "plugin の hooks / monitors / MCP <code>headersHelper</code> では、shell 形式 command 内の <code>${user_config.*}</code> を拒否するようにした。hooks は exec form の <code>args</code> 配列か <code>$CLAUDE_PLUGIN_OPTION_&lt;KEY&gt;</code> を使い、monitors と headersHelper は script 側で値を読む想定に変えた。",
+                "plugin option 値（<code>pluginConfigs</code>）は project-level の <code>.claude/settings.json</code> からは読まないようにし、user settings、<code>--settings</code>、managed settings だけを有効にした。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "login の有効期限切れ時に、<code>/login</code> を促さず全 model が誤って <strong>There’s an issue with the selected model</strong> で失敗する問題を修正した。",
-                "<code>claude --resume</code> と <code>--continue</code> が起動時の keyboard input に反応しない問題を修正した。",
-                "<code>--mcp-config</code> や <code>.mcp.json</code> で設定した MCP server の per-server <code>request_timeout_ms</code> が無視され、新しい session で長時間の MCP tool call が 60 秒 default で timeout していた問題を修正した。",
-                "<code>CLAUDE_CODE_EXTRA_BODY</code> が <code>claude agents</code> / <code>--bg</code> の background worker で黙って無視されていた問題を修正し、shell export した override が dispatch 元 session へ引き継がれるようにした。",
-                "OAuth MCP server が token refresh に 1 回失敗しただけで manual re-authentication を要求する問題を修正した。",
-                "<code>--permission-prompt-tool</code> が MCP server を指すと、server 接続完了前の cold start で <strong>MCP tool not found</strong> crash を起こす問題を修正した。",
-                "<code>/model</code> picker で row 名と異なる model の価格を表示する問題と、実際には請求しない provider の first-party list price を引用していた問題を修正した。",
-                "<code>/model</code> picker で entitlement や allowlist 制限により row が落ちると、server 提供 model row の配置がずれる問題を修正した。",
-                "desktop session で slash command を turn の途中に送ると <strong>running</strong> 表示のまま stuck する問題を修正した。",
-                "Windows で、setup prompt が bare な <code>claude --resume</code> より先に出ると agents view の keyboard input が無視される問題を修正した。",
-                "<code>claude rm</code> が削除済み job を daemon roster に残し、<code>claude agents</code> に再出現させる問題を修正した。",
-                "logged out 時に <code>/remote-control</code> が <strong>Unknown command</strong> を出していた問題を修正し、sign in 方法を説明するようにした。",
-                "workflow detail view で left arrow が phase や agent の 1 つ外側へ戻れない問題を修正した。",
-                "<code>/status</code> が同じ broken-install warning を二重に列挙する問題を修正した。",
-                "LSP plugin に対する誤った <strong>disused plugin</strong> tip と、歪んだ disuse telemetry を修正した。",
-                "<code>/doctor</code> の update check が Homebrew install を settings channel ではなく対応する cask channel と比較するよう修正した。",
-                "fullscreen の jump-to-bottom pill が macOS で <code>Ctrl+End</code> を誤案内し、rebound chord を表示せず、transcript 上で折り返していた問題を修正した。",
-                "Bedrock で、egress 制限ネットワーク上の <code>awsCredentialExport</code> helper 利用時に multi-minute startup hang が起きる問題を修正した。",
-                "plugin の LSP server 初期化 failure が、同じ file extension を扱える別 plugin の正常な LSP server まで妨げる問題を修正した。"
+                "長い list、table、paragraph、code block を含む response を stream している最中に terminal が freeze し、keystroke が lag する問題を修正した。",
+                "non-interactive 実行（<code>claude -p</code> や SDK）から来た remote managed settings が、security consent dialog を一度も表示しないまま恒久的に consent 済みとして記録される問題を修正した。",
+                "system 生成の benign な conversation update で、誤った prompt-injection warning が出る問題を修正した。",
+                "auto-updater が release のたびに <code>~/.local/bin/claude</code> の custom launcher script や symlink を上書きする問題を修正し、<code>/doctor</code> が externally managed launcher を報告するようにした。",
+                "<code>cd</code> を含む compound command で、唯一の output redirect が <code>/dev/null</code> だけなのに permission prompt が出る問題を修正した。",
+                "response の stream 完了時に transcript が answer 冒頭より上へ jump してしまう問題を修正した。",
+                "最後の <code>worktree.sparsePaths</code> worktree を削除した後も <code>extensions.worktreeConfig</code> が repo の <code>.git/config</code> に残り、<code>tea</code> など go-git 系 tool を壊す問題を修正した。",
+                "rules glob、skill path、<code>.ignore</code>、<code>.worktreeinclude</code> に malformed な bracket pattern があると file read、file suggestion、worktree 作成が壊れる問題を修正した。",
+                "agent team で malformed な teammate mailbox message があると、mailbox file を手で消すまで毎秒 error を出し続ける crash loop に入る問題を修正した。",
+                "plan を accept して自動命名された background session で、その name が agent-view row に表示されない問題を修正した。",
+                "git worktree に入った background session が cold reopen 後に blank のまま resume する問題を修正した。",
+                "network interruption や credential refresh から接続が回復したときに、Remote Control task の status update が失われる問題を修正した。",
+                "desktop app が host する Remote Control session で、mobile / web 側に background agent や workflow progress が表示されない問題を修正した。",
+                "Deep research run の Fetch phase agent がすべて <strong>unknown</strong> と表示される問題を修正し、source hostname を chip に表示するようにした。",
+                "Bedrock が IAM Identity Center の新しい AWS SSO credential を API request ごとに繰り返し要求する問題を修正した。",
+                "Windows で AWS credential 解決が stall したとき（たとえば詰まった <code>credential_process</code>）、永遠に待ち続けるのではなく 60 秒の stall guard が発火するようにし、indefinite hang を修正した。",
+                "<code>/usage-credits</code> の amount 入力で malformed な値（たとえば paste した timestamp）から数字だけを黙って抜き出していた問題を修正し、malformed amount は error にし、<strong>$1,000</strong> 超は typed confirmation を必須にした。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
-          "urlLabel": "v2.1.206 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
+          "urlLabel": "v2.1.207 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -140,10 +136,10 @@
     }
   ],
   "exclusions": [
-    "visible date が <strong>Jul 9, 2026</strong> の <strong>Anthropic News</strong> 記事群は、今回の window 開始が <strong>2026-07-10 09:03:07 JST</strong> のため全件外した。",
+    "visible date が <strong>Jul 9, 2026</strong> の <strong>Anthropic News</strong> 記事群は、今回の window 開始が <strong>2026-07-10 15:01:09 JST</strong> のため全件外した。",
     "official X では <strong>@ClaudeDevs</strong> の docs 追記 reply を単独 item に分解せず、main post 1 件だけを official 扱いにした。",
-    "engineer watch では <strong>@adocomplete</strong> と <strong>@_catwu</strong> の browser 投稿を official 告知の重複 signal とみなし、個別 item にはしなかった。",
-    "engineer watch では personal chatter、support-only reply、Bun / Zig など Claude / Anthropic signal が弱い投稿は外した。"
+    "engineer watch では <strong>@adocomplete</strong>、<strong>@_catwu</strong>、<strong>@RobertJBye</strong> の browser 投稿を official 告知の重複 signal とみなし、個別 item にはしなかった。",
+    "engineer watch では personal chatter、support-only reply、browser 告知と独立した新情報を含まない短い賛同 reply は外した。"
   ],
   "sources": [
     {
@@ -171,7 +167,7 @@
       "url": "https://x.com/ClaudeDevs/status/2075635283211772279"
     },
     {
-      "title": "Anthony Morris on the in-app browser replacing his Chrome extension workflow",
+      "title": "Anthony Morris on replacing his Chrome extension workflow with the in-app browser",
       "url": "https://x.com/amorriscode/status/2075636344701981026"
     },
     {
@@ -179,8 +175,8 @@
       "url": "https://x.com/amorriscode/status/2075596746395430923"
     },
     {
-      "title": "Claude Code release v2.1.206",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206"
+      "title": "Claude Code release v2.1.207",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
     },
     {
       "title": "Claude Code releases",
