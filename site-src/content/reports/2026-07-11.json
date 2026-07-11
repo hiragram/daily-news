@@ -1,13 +1,13 @@
 {
   "date": "2026-07-11",
-  "windowLabel": "2026-07-10 03:02:49 JST - 2026-07-11 03:02:49 JST",
+  "windowLabel": "2026-07-10 09:03:07 JST - 2026-07-11 09:03:07 JST",
   "archiveTitle": "Desktop browser and v2.1.206",
   "archiveSummary": "Official 2件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-10 03:02:49 JST から 2026-07-11 03:02:49 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が <strong>Claude Code desktop の in-app browser</strong> を告知し、<strong>Claude Blog</strong> では Cognition が <strong>Claude Fable 5</strong> を overnight で走らせられる水準に達したという事例を公開した。engineer 側では <strong>@amorriscode</strong> が browser rollout の補足として <strong>non-dev servers</strong> 対応、session persistence 設定、Chrome extension 代替としての使い勝手を説明し、別 reply では <strong>remote control server mode</strong> を desktop にも持ち込みたいと述べた。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-10 09:03:07 JST から 2026-07-11 09:03:07 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が <strong>Claude Code desktop の in-app browser</strong> を告知し、<strong>Claude Blog</strong> では Cognition が <strong>Claude Fable 5</strong> を overnight で走らせられる水準に達したという事例を公開した。engineer 側では <strong>@amorriscode</strong> が browser rollout の補足として <strong>non-dev servers</strong> 対応、session persistence 設定、Chrome extension 代替としての使い勝手を説明し、別 reply では mobile から laptop 上の新 session を始めるには <strong>server mode</strong> が必要だと補足した。Claude Code では新規 release <strong>v2.1.206</strong> が publish され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Code desktop</strong> に <strong>in-app browser</strong> が入り、docs や design、任意サイトを Claude 自身が読み進めて操作できると案内した。",
     "<strong>Official site 1件</strong>: <strong>Claude Blog</strong> に <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong> が <strong>Jul 10, 2026</strong> で掲載された。Cognition は <strong>Devin</strong> 内で Fable 5 を夜通し 8 時間動かして実作業を進められる水準だと評価している。",
-    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は browser がすでに Chrome extension 利用を置き換えたと述べ、reply で <strong>non-dev servers</strong> 対応と <strong>session persistence</strong> 設定も補足した。別 reply では、mobile から laptop 上の新 session を起こす導線として <strong>remote control server mode</strong> を使え、同機能を desktop にも加えたいと説明した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は browser がすでに Chrome extension 利用を置き換えたと述べ、reply で <strong>non-dev servers</strong> 対応と <strong>session persistence</strong> 設定も補足した。別 reply では、mobile から laptop 上で新 session を始めるには <strong>server mode</strong> が必要で、remote control default だけでは足りないことを説明した。",
     "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.206</strong> が <strong>2026-07-10 10:45 JST</strong> に publish された。<code>/cd</code> の path suggestion、<code>/doctor</code> の <code>CLAUDE.md</code> trimming 提案、public gateway login、background agent upgrade、MCP timeout や UI 周辺の修正がまとまって入った。"
   ],
   "officialNews": [
@@ -39,7 +39,7 @@
     },
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> だった。今回の窓は <strong>2026-07-10 03:02:49 JST</strong> 以降のため、site 側の採用対象は <strong>Claude Blog</strong> の <strong>Jul 10, 2026</strong> 記事 1 件のみとした。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> だった。今回の窓は <strong>2026-07-10 09:03:07 JST</strong> 以降のため、site 側の採用対象は <strong>Claude Blog</strong> の <strong>Jul 10, 2026</strong> 記事 1 件のみとした。"
     }
   ],
   "signals": [
@@ -55,11 +55,11 @@
     },
     {
       "label": "Engineer X",
-      "datetime": "2026-07-10T03:22:37+09:00",
-      "displayTime": "2026-07-10 03:22 JST",
-      "title": "@amorriscode が remote control server mode の desktop 展開意向を示した",
-      "summary": "<strong>@amorriscode</strong> は、mobile から laptop 上の新しい session を始めたいという質問に対し、現状は CLI の <strong>remote control server mode</strong> で可能だと回答した。そのうえで、同じ体験を <strong>desktop</strong> にも追加したいと述べており、cross-device session 起動の今後の方向性を示している。",
-      "url": "https://x.com/amorriscode/status/2075420399681319076",
+      "datetime": "2026-07-11T00:03:21+09:00",
+      "displayTime": "2026-07-11 00:03 JST",
+      "title": "@amorriscode が新 session 起動には server mode が必要だと補足",
+      "summary": "<strong>@amorriscode</strong> は、mobile から laptop 上に新しい Claude session を起動したいという質問に対し、現状は <strong>server mode</strong> を有効化する必要があり、<strong>remote control</strong> を default on にしただけでは手動開始済み session が各端末に見えるだけだと説明した。cross-device session 起動の現在の制約を端的に示す補足。",
+      "url": "https://x.com/amorriscode/status/2075596746395430923",
       "urlLabel": "X で見る"
     }
   ],
@@ -72,7 +72,7 @@
         "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Cognition trusts Claude Fable 5 to work through the night</strong>（<strong>Jul 10, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> で、今回 window 開始 <strong>2026-07-10 03:02:49 JST</strong> より前だった。"
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> で、今回 window 開始 <strong>2026-07-10 09:03:07 JST</strong> より前だった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -140,10 +140,10 @@
     }
   ],
   "exclusions": [
-    "visible date が <strong>Jul 9, 2026</strong> の <strong>Anthropic News</strong> 記事群は、今回の window 開始が <strong>2026-07-10 03:02:49 JST</strong> のため全件外した。",
-    "official X では <strong>@ClaudeDevs</strong> の reply 群を単独 item に分解せず、browser rollout の補足として engineer signal 側へ正規化した。",
-    "engineer watch では personal chatter、support-only reply、Bun / Zig など Claude / Anthropic signal が弱い投稿は外した。",
-    "<strong>@nateparrott</strong> の Claude Design feedback 募集は window 開始前の <strong>2026-07-10 02:15 JST</strong> 投稿だったため外した。"
+    "visible date が <strong>Jul 9, 2026</strong> の <strong>Anthropic News</strong> 記事群は、今回の window 開始が <strong>2026-07-10 09:03:07 JST</strong> のため全件外した。",
+    "official X では <strong>@ClaudeDevs</strong> の docs 追記 reply を単独 item に分解せず、main post 1 件だけを official 扱いにした。",
+    "engineer watch では <strong>@adocomplete</strong> と <strong>@_catwu</strong> の browser 投稿を official 告知の重複 signal とみなし、個別 item にはしなかった。",
+    "engineer watch では personal chatter、support-only reply、Bun / Zig など Claude / Anthropic signal が弱い投稿は外した。"
   ],
   "sources": [
     {
@@ -175,8 +175,8 @@
       "url": "https://x.com/amorriscode/status/2075636344701981026"
     },
     {
-      "title": "Anthony Morris on remote control server mode and desktop plans",
-      "url": "https://x.com/amorriscode/status/2075420399681319076"
+      "title": "Anthony Morris on server mode being required to start new sessions remotely",
+      "url": "https://x.com/amorriscode/status/2075596746395430923"
     },
     {
       "title": "Claude Code release v2.1.206",
