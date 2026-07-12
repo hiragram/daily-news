@@ -1,13 +1,13 @@
 {
   "date": "2026-07-12",
-  "windowLabel": "2026-07-11 03:01:06 JST - 2026-07-12 03:01:06 JST",
+  "windowLabel": "2026-07-11 09:02:11 JST - 2026-07-12 09:02:11 JST",
   "archiveTitle": "Quiet officials, v2.1.207",
   "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-11 03:01:06 JST から 2026-07-12 03:01:06 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で engineer 側では <strong>@adocomplete</strong> が desktop の <strong>in-app browser</strong> を main post で案内し、<strong>@amorriscode</strong> が <strong>session persistence</strong>、<strong>turn steering</strong> の外部 rollout 予定、browser login 周りの <strong>hotfix</strong> を reply で補足した。Claude Code では新規 release <strong>v2.1.207</strong> が publish され、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "latestSummary": "2026-07-11 09:02:11 JST から 2026-07-12 09:02:11 JST の24時間では、official X と公式サイト4面の新着は確認できなかった。一方で engineer 側では <strong>@amorriscode</strong> が <strong>turn steering</strong> の外部 rollout 予定、<strong>session persistence</strong> の opt-in、browser login の <strong>hotfix</strong>、login 可否が <strong>account patterns</strong> 依存かもしれない点を reply で補足した。Claude Code では新規 release <strong>v2.1.207</strong> が window 内に残っており、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X では、この24時間窓に入る新規 main post を確認できなかった。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、window 内に入る visible publication date の新着は見当たらなかった。",
-    "<strong>Engineer signals 4件</strong>: <strong>@adocomplete</strong> は desktop の <strong>in-app browser</strong> を main post で案内し、<strong>@amorriscode</strong> は <strong>session persistence</strong> の opt-in、<strong>turn steering</strong> の外部 rollout 予定、browser login の <strong>hotfix</strong> を補足した。",
+    "<strong>Engineer signals 4件</strong>: <strong>@amorriscode</strong> は <strong>turn steering</strong> の外部 rollout 予定、<strong>session persistence</strong> の opt-in、browser login の <strong>hotfix</strong>、および login 可否が <strong>account patterns</strong> に依存する可能性を補足した。",
     "<strong>Claude Code release 1件</strong>: GitHub releases では新規 release <strong>v2.1.207</strong> が <strong>2026-07-11 09:52 JST</strong> に publish された。auto mode の既定提供拡大、AWS / Bedrock / Vertex 周辺の既定変更、plugin / settings の安全性見直し、terminal / Remote Control / background session 周辺の修正がまとまって入った。"
   ],
   "officialNews": [],
@@ -24,22 +24,13 @@
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-07-11T04:11:27+09:00",
-      "displayTime": "2026-07-11 04:11 JST",
-      "title": "@adocomplete が Claude Code desktop の in-app browser を案内",
-      "summary": "<strong>@adocomplete</strong> は、<strong>Claude Code on desktop now has an in-app browser</strong> として、Claude が docs や designs、任意サイトを読んで click までできる browser を desktop app で使えると main post で案内した。official <strong>@ClaudeDevs</strong> の投稿は今回 window 開始の約 24 分前だったため、in-window の product signal としてはこちらを採用した。",
-      "url": "https://x.com/adocomplete/status/2075659182855123225",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Engineer X",
       "datetime": "2026-07-11T12:01:39+09:00",
       "displayTime": "2026-07-11 12:01 JST",
       "title": "@amorriscode が turn steering の外部 rollout 予定を補足",
       "summary": "<strong>@amorriscode</strong> は、desktop app の <strong>turn steering</strong> について、まず別件を先に出したが、機能自体はすでに internal では rollout 済みで、external にもまもなく出すと reply で説明した。復帰時期の具体的な signal として採用した。",
       "url": "https://x.com/amorriscode/status/2075777510726660357",
-      "urlLabel": "X で見る"
+      "urlLabel": "X で見る",
+      "primary": true
     },
     {
       "label": "Engineer X",
@@ -57,6 +48,15 @@
       "title": "@amorriscode が browser login 周りの hotfix を案内",
       "summary": "<strong>@amorriscode</strong> は、browser login 導線について <strong>we did a hotfix. you don’t have to click the button!</strong> と reply し、直前まで報告されていた操作不具合に対して即日 hotfix を入れたと示した。desktop browser の rollout 直後の安定化対応として価値がある signal。",
       "url": "https://x.com/amorriscode/status/2075963431472238934",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-12T00:21:41+09:00",
+      "displayTime": "2026-07-12 00:21 JST",
+      "title": "@amorriscode が X login 問題は account patterns 依存かもしれないと補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code desktop browser で X に入れないという報告に対し、自分の手元では login できており、問題は <strong>account patterns</strong> に依存している可能性があると reply した。hotfix 後も認証系で account-specific な差分が残ることを示す運用 signal。",
+      "url": "https://x.com/amorriscode/status/2075963747076825337",
       "urlLabel": "X で見る"
     }
   ],
@@ -77,7 +77,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub releases page を確認したところ、この24時間窓に publish された Claude Code release は <strong>v2.1.207</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "body": "GitHub releases page を確認したところ、この24時間窓に入る Claude Code release は <strong>v2.1.207</strong> だった。release note の visible bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
         {
           "version": "v2.1.207",
@@ -135,7 +135,7 @@
   "exclusions": [
     "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
     "engineer watch では congratulations、personal chatter、単なる repost、browser 告知と独立した新情報がない短い賛同 reply は signal から外した。",
-    "今回の browser 関連では <strong>@ClaudeDevs</strong> の main post 自体は window 開始前だったため、同一トピックの engineer 投稿と reply 補足だけを in-window signal として扱った。",
+    "今回の browser 関連では <strong>@ClaudeDevs</strong> の main post 自体は window 開始前だったため、同一トピックの engineer reply 補足だけを in-window signal として扱った。",
     "公式サイトでは <strong>Claude Blog</strong> の <strong>July 10, 2026</strong> 記事が最新だったが、window 開始日の <strong>2026-07-11</strong> より前の visible date なので採用しなかった。"
   ],
   "sources": [
@@ -156,10 +156,6 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Ado on the desktop in-app browser",
-      "url": "https://x.com/adocomplete/status/2075659182855123225"
-    },
-    {
       "title": "Anthony Morris on turn steering rolling out externally soon",
       "url": "https://x.com/amorriscode/status/2075777510726660357"
     },
@@ -170,6 +166,10 @@
     {
       "title": "Anthony Morris on the browser login hotfix",
       "url": "https://x.com/amorriscode/status/2075963431472238934"
+    },
+    {
+      "title": "Anthony Morris on account-pattern-specific X login issues",
+      "url": "https://x.com/amorriscode/status/2075963747076825337"
     },
     {
       "title": "Claude Code release v2.1.207",
