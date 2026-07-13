@@ -1,14 +1,14 @@
 {
   "date": "2026-07-13",
-  "windowLabel": "2026-07-12 09:02:15 JST - 2026-07-13 09:02:15 JST",
-  "archiveTitle": "Claude extends Fable access again",
-  "archiveSummary": "Claude公式X 1件、blog 0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-07-12 09:02:15 JST から 2026-07-13 09:02:15 JST の24時間では、official X で <strong>@claudeai</strong> が <strong>Claude Fable 5</strong> の全有料プラン向け提供継続と、<strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。Anthropic / Claude の公式サイト4面に新着記事はなく、Anthropic engineer watch にも追加の採用 signal はなく、Claude Code releases でも新規 release は確認できなかった。",
+  "windowLabel": "2026-07-12 15:02:05 JST - 2026-07-13 15:02:05 JST",
+  "archiveTitle": "Fable extension, desktop import hint",
+  "archiveSummary": "Official 1件、blog 0件、engineer signal 1件、Claude Code release 0件。",
+  "latestSummary": "2026-07-12 15:02:05 JST から 2026-07-13 15:02:05 JST の24時間では、official 側で <strong>@claudeai</strong> が <strong>Claude Fable 5</strong> の全有料プラン向け提供継続と、<strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。公式サイト4面に新着記事はなく、Claude Code の新規 release もなかったが、engineer 側では <strong>@amorriscode</strong> が desktop app への terminal session import 要望に <strong>soon!</strong> と返し、desktop 側の同期・移行 UX 追加を示唆した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@claudeai</strong> が、全有料プランでの <strong>Claude Fable 5</strong> 提供継続と <strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages では、window 内に入る visible publication date の新着は確認できなかった。",
-    "<strong>Engineer signals 0件</strong>: watch 対象アカウントには関連投稿や quote はあったが、今回の official announcement を繰り返すものか、Claude / Anthropic の新規事実を足さない反応が中心で、追加 signal には採用しなかった。",
-    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 09:02 JST</strong> より前だった。"
+    "<strong>Engineer signal 1件</strong>: <strong>@amorriscode</strong> は、desktop app に terminal session を import / sync したいという要望に <strong>soon!</strong> と reply し、CLI と desktop の session 連携 UX が近いことを示唆した。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 15:02 JST</strong> より前だった。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-13T02:02:05+09:00",
       "displayTime": "2026-07-13 02:02 JST",
       "title": "Claude が Fable 5 提供継続と Claude Code rate limit 緩和延長を告知",
-      "summary": "<strong>@claudeai</strong> は、全有料プランでの <strong>Claude Fable 5</strong> アクセス継続に加え、<strong>Claude Code</strong> の週次 rate limits を通常より <strong>50%高い状態</strong> のまま <strong>2026-07-19</strong> まで維持すると発表した。追加 rollout や新機能告知ではなく、既存施策の延長アナウンスとして扱う。",
+      "summary": "<strong>@claudeai</strong> は、全有料プランでの <strong>Claude Fable 5</strong> アクセス継続に加え、<strong>Claude Code</strong> の週次 rate limits を通常より <strong>50%高い状態</strong> のまま <strong>2026-07-19</strong> まで維持すると発表した。新機能追加ではなく、既存施策の延長アナウンスとして扱う。",
       "url": "https://x.com/claudeai/status/2076351399999557669",
       "urlLabel": "X で見る",
       "primary": true
@@ -32,7 +32,18 @@
       "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 9, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 10, 2026</strong> で、この24時間窓に入る新着は見当たらなかった。"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-13T12:58:40+09:00",
+      "displayTime": "2026-07-13 12:58 JST",
+      "title": "@amorriscode が desktop app への terminal session import 要望に soon! と返答",
+      "summary": "<strong>@amorriscode</strong> は、<strong>ClaudeDevs</strong> 宛てに desktop app へ terminal session を import / sync できるとよいという要望に対して <strong>soon!</strong> と reply した。仕様の詳細までは示していないが、CLI と desktop の session 連携 UX を近く広げる示唆として採用した。",
+      "url": "https://x.com/amorriscode/status/2076516638019760241",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
   "releasePanels": [
     {
       "title": "ブログ",
@@ -52,7 +63,7 @@
       "headline": "0件",
       "body": "GitHub releases を確認したところ、この24時間窓に publish された Claude Code release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
       "details": [
-        "確認窓は <strong>2026-07-12 09:02:15 JST - 2026-07-13 09:02:15 JST</strong>。",
+        "確認窓は <strong>2026-07-12 15:02:05 JST - 2026-07-13 15:02:05 JST</strong>。",
         "最新 release は <strong>v2.1.207</strong>。",
         "publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
       ],
@@ -61,15 +72,19 @@
     }
   ],
   "exclusions": [
-    "engineer watch では Felix Rieseberg、Amol Avasare、Ado、cat などの in-window post / quote を確認したが、主に <strong>@claudeai</strong> の告知を言い換える反応か、Claude / Anthropic の新規事実を足さない短文だったため signals には採用しなかった。",
+    "engineer watch では Felix Rieseberg、Ado、cat、Robert Bye などの in-window post / quote も確認したが、主に公式告知への反応か、Claude / Anthropic の新規事実を足さない別話題だったため signals から外した。",
+    "<strong>@amorriscode</strong> の <strong>no computer use updates yet</strong> reply は確認したが、対象機能や時期の具体性が薄く、今回の main signal には採用しなかった。",
     "official X は main post 優先で確認し、今回の採用対象は <strong>@claudeai</strong> の 1 件のみとした。reply と repost は採用していない。",
-    "Claude Code の最新 release <strong>v2.1.207</strong> は依然として最新だが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。",
-    "公式サイトでは <strong>Claude Blog</strong> の最新 visible date が <strong>Jul 10, 2026</strong>、<strong>Anthropic News</strong> が <strong>Jul 9, 2026</strong> で、いずれも window 開始日の <strong>2026-07-12</strong> より前のため採用しなかった。"
+    "Claude Code の最新 release <strong>v2.1.207</strong> は依然として最新だが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。"
   ],
   "sources": [
     {
       "title": "Claude on X: Fable 5 access and Claude Code rate limits extension",
       "url": "https://x.com/claudeai/status/2076351399999557669"
+    },
+    {
+      "title": "Anthony Morris on terminal-session import coming soon",
+      "url": "https://x.com/amorriscode/status/2076516638019760241"
     },
     {
       "title": "Anthropic Engineering listing",
