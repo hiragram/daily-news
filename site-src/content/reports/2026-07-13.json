@@ -1,14 +1,14 @@
 {
   "date": "2026-07-13",
-  "windowLabel": "2026-07-12 15:02:05 JST - 2026-07-13 15:02:05 JST",
+  "windowLabel": "2026-07-12 21:01:22 JST - 2026-07-13 21:01:22 JST",
   "archiveTitle": "Fable extension, desktop import hint",
   "archiveSummary": "Official 1件、blog 0件、engineer signal 1件、Claude Code release 0件。",
-  "latestSummary": "2026-07-12 15:02:05 JST から 2026-07-13 15:02:05 JST の24時間では、official 側で <strong>@claudeai</strong> が <strong>Claude Fable 5</strong> の全有料プラン向け提供継続と、<strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。公式サイト4面に新着記事はなく、Claude Code の新規 release もなかったが、engineer 側では <strong>@amorriscode</strong> が desktop app への terminal session import 要望に <strong>soon!</strong> と返し、desktop 側の同期・移行 UX 追加を示唆した。",
+  "latestSummary": "2026-07-12 21:01:22 JST から 2026-07-13 21:01:22 JST の24時間では、official 側で <strong>@claudeai</strong> が <strong>Claude Fable 5</strong> の全有料プラン向け提供継続と、<strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。公式サイト4面に新着記事はなく、Claude Code の新規 release もなかったが、engineer 側では <strong>@amorriscode</strong> が desktop app への terminal session import / sync 要望に <strong>soon!</strong> と返し、desktop 側の移行 UX 追加を示唆した。",
   "summaryBullets": [
     "<strong>Official X 1件</strong>: <strong>@claudeai</strong> が、全有料プランでの <strong>Claude Fable 5</strong> 提供継続と <strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。",
     "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages では、window 内に入る visible publication date の新着は確認できなかった。",
-    "<strong>Engineer signal 1件</strong>: <strong>@amorriscode</strong> は、desktop app に terminal session を import / sync したいという要望に <strong>soon!</strong> と reply し、CLI と desktop の session 連携 UX が近いことを示唆した。",
-    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 15:02 JST</strong> より前だった。"
+    "<strong>Engineer signal 1件</strong>: <strong>@amorriscode</strong> は、desktop app に terminal session を import / sync したいという要望に <strong>soon!</strong> と返し、CLI と desktop の session 連携 UX が近いことを示唆した。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 21:01 JST</strong> より前だった。"
   ],
   "officialNews": [
     {
@@ -25,7 +25,7 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI と @ClaudeDevs の新規 main post は 0件",
-      "body": "この24時間窓では、<strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> に新しい main post は確認できなかった。official X の採用対象は <strong>@claudeai</strong> の 1 件のみ。"
+      "body": "この24時間窓では、<strong>@AnthropicAI</strong> の新規 main post は確認できず、<strong>@ClaudeDevs</strong> 側も新規 main post ではなく <strong>@claudeai</strong> 投稿の repost のみだった。official X の採用対象は <strong>@claudeai</strong> の 1 件のみ。"
     },
     {
       "label": "公式サイト4面の新着は 0件",
@@ -63,7 +63,7 @@
       "headline": "0件",
       "body": "GitHub releases を確認したところ、この24時間窓に publish された Claude Code release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
       "details": [
-        "確認窓は <strong>2026-07-12 15:02:05 JST - 2026-07-13 15:02:05 JST</strong>。",
+        "確認窓は <strong>2026-07-12 21:01:22 JST - 2026-07-13 21:01:22 JST</strong>。",
         "最新 release は <strong>v2.1.207</strong>。",
         "publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
       ],
@@ -73,7 +73,7 @@
   ],
   "exclusions": [
     "engineer watch では Felix Rieseberg、Ado、cat、Robert Bye などの in-window post / quote も確認したが、主に公式告知への反応か、Claude / Anthropic の新規事実を足さない別話題だったため signals から外した。",
-    "<strong>@amorriscode</strong> の <strong>no computer use updates yet</strong> reply は確認したが、対象機能や時期の具体性が薄く、今回の main signal には採用しなかった。",
+    "<strong>@amorriscode</strong> の <strong>Been meaning to do this! Probably won’t have time this week but maybe next?</strong> reply と <strong>Do you have remote control on by default? Anything that’s remote control syncs.</strong> reply は確認したが、機能仕様や時期の具体性が薄いため今回の main signal には採用しなかった。",
     "official X は main post 優先で確認し、今回の採用対象は <strong>@claudeai</strong> の 1 件のみとした。reply と repost は採用していない。",
     "Claude Code の最新 release <strong>v2.1.207</strong> は依然として最新だが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。"
   ],
