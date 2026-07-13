@@ -1,24 +1,35 @@
 {
   "date": "2026-07-13",
-  "windowLabel": "2026-07-12 03:01:09 JST - 2026-07-13 03:01:09 JST",
-  "archiveTitle": "Quiet window across Claude channels",
-  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-07-12 03:01:09 JST から 2026-07-13 03:01:09 JST の24時間では、official X、Anthropic / Claude の公式サイト4面、Anthropic engineer watch、Claude Code releases のいずれにも新しい採用対象は確認できなかった。visible date ベースの最新 official article は <strong>Anthropic News</strong> の <strong>Jul 9, 2026</strong> と <strong>Claude Blog</strong> の <strong>Jul 8, 2026</strong>、Claude Code の最新 release は <strong>v2.1.207</strong>（<strong>2026-07-11 09:52 JST</strong>）で、すべて今回の window 外だった。",
+  "windowLabel": "2026-07-12 09:02:15 JST - 2026-07-13 09:02:15 JST",
+  "archiveTitle": "Claude extends Fable access again",
+  "archiveSummary": "Claude公式X 1件、blog 0件、engineer signal 0件、Claude Code release 0件。",
+  "latestSummary": "2026-07-12 09:02:15 JST から 2026-07-13 09:02:15 JST の24時間では、official X で <strong>@claudeai</strong> が <strong>Claude Fable 5</strong> の全有料プラン向け提供継続と、<strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。Anthropic / Claude の公式サイト4面に新着記事はなく、Anthropic engineer watch にも追加の採用 signal はなく、Claude Code releases でも新規 release は確認できなかった。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post は、この24時間窓では確認できなかった。",
-    "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages でも、visible publication date が window に入る新着は見当たらなかった。",
-    "<strong>Engineer signals 0件</strong>: watch 対象の Anthropic-affiliated engineers / researchers について、この24時間窓で product・rollout・ops の新規 signal は確認できなかった。",
-    "<strong>Claude Code release 0件</strong>: releases page の最新は <strong>v2.1.207</strong> だが、publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 03:01 JST</strong> より前だった。"
+    "<strong>Official X 1件</strong>: <strong>@claudeai</strong> が、全有料プランでの <strong>Claude Fable 5</strong> 提供継続と <strong>Claude Code</strong> の週次 rate limits 50%増を <strong>2026-07-19</strong> まで延長すると告知した。",
+    "<strong>Official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の target pages では、window 内に入る visible publication date の新着は確認できなかった。",
+    "<strong>Engineer signals 0件</strong>: watch 対象アカウントには関連投稿や quote はあったが、今回の official announcement を繰り返すものか、Claude / Anthropic の新規事実を足さない反応が中心で、追加 signal には採用しなかった。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-12 09:02 JST</strong> より前だった。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-13T02:02:05+09:00",
+      "displayTime": "2026-07-13 02:02 JST",
+      "title": "Claude が Fable 5 提供継続と Claude Code rate limit 緩和延長を告知",
+      "summary": "<strong>@claudeai</strong> は、全有料プランでの <strong>Claude Fable 5</strong> アクセス継続に加え、<strong>Claude Code</strong> の週次 rate limits を通常より <strong>50%高い状態</strong> のまま <strong>2026-07-19</strong> まで維持すると発表した。追加 rollout や新機能告知ではなく、既存施策の延長アナウンスとして扱う。",
+      "url": "https://x.com/claudeai/status/2076351399999557669",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "official X の新規 main post は 0件",
-      "body": "この24時間窓では、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の official X に新しい main post は確認できなかった。official news は 0 件として扱う。"
+      "label": "@AnthropicAI と @ClaudeDevs の新規 main post は 0件",
+      "body": "この24時間窓では、<strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> に新しい main post は確認できなかった。official X の採用対象は <strong>@claudeai</strong> の 1 件のみ。"
     },
     {
       "label": "公式サイト4面の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 9, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 8, 2026</strong> で、この24時間窓に入る新着は見当たらなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 8, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 9, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 10, 2026</strong> で、この24時間窓に入る新着は見当たらなかった。"
     }
   ],
   "signals": [],
@@ -31,7 +42,7 @@
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 8, 2026</strong>。",
         "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong>。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>Jul 8, 2026</strong> だった。"
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>Jul 10, 2026</strong> だった。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog"
@@ -39,23 +50,27 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "Claude Code releases を確認したところ、この24時間窓に publish された新規 release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、visible publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
+      "body": "GitHub releases を確認したところ、この24時間窓に publish された Claude Code release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
       "details": [
-        "確認窓は <strong>2026-07-12 03:01:09 JST - 2026-07-13 03:01:09 JST</strong>。",
+        "確認窓は <strong>2026-07-12 09:02:15 JST - 2026-07-13 09:02:15 JST</strong>。",
         "最新 release は <strong>v2.1.207</strong>。",
-        "visible publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
+        "publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
     }
   ],
   "exclusions": [
-    "official X は main post 優先で確認し、この24時間窓では対象3アカウントとも新規 main post が 0 件だったため officialNews は空配列にした。",
-    "engineer watch では対象アカウント群の in-window post が確認できず、signals も空配列にした。",
-    "Claude Code の最新 release <strong>v2.1.207</strong> は依然として最新だが、visible publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。",
-    "公式サイトでは <strong>Anthropic News</strong> の最新 visible date が <strong>Jul 9, 2026</strong>、<strong>Claude Blog</strong> が <strong>Jul 8, 2026</strong> で、いずれも window 開始日の <strong>2026-07-12</strong> より前のため採用しなかった。"
+    "engineer watch では Felix Rieseberg、Amol Avasare、Ado、cat などの in-window post / quote を確認したが、主に <strong>@claudeai</strong> の告知を言い換える反応か、Claude / Anthropic の新規事実を足さない短文だったため signals には採用しなかった。",
+    "official X は main post 優先で確認し、今回の採用対象は <strong>@claudeai</strong> の 1 件のみとした。reply と repost は採用していない。",
+    "Claude Code の最新 release <strong>v2.1.207</strong> は依然として最新だが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。",
+    "公式サイトでは <strong>Claude Blog</strong> の最新 visible date が <strong>Jul 10, 2026</strong>、<strong>Anthropic News</strong> が <strong>Jul 9, 2026</strong> で、いずれも window 開始日の <strong>2026-07-12</strong> より前のため採用しなかった。"
   ],
   "sources": [
+    {
+      "title": "Claude on X: Fable 5 access and Claude Code rate limits extension",
+      "url": "https://x.com/claudeai/status/2076351399999557669"
+    },
     {
       "title": "Anthropic Engineering listing",
       "url": "https://www.anthropic.com/engineering"
@@ -75,6 +90,10 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.207 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
     }
   ]
 }
