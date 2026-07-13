@@ -1,0 +1,157 @@
+{
+  "date": "2026-07-14",
+  "windowLabel": "2026-07-13 03:01:33 JST - 2026-07-14 03:01:33 JST",
+  "archiveTitle": "Values research and desktop sync hints",
+  "archiveSummary": "Official 2件、blog 2件、engineer signal 3件、Claude Code release 0件。",
+  "latestSummary": "2026-07-13 03:01:33 JST から 2026-07-14 03:01:33 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が <strong>Claude’s values across models and languages</strong> 研究を thread で告知し、official site では <strong>Anthropic Research</strong> の同研究記事と、<strong>Claude Blog</strong> の <strong>Hebbia</strong> 事例記事を確認した。engineer 側では <strong>@amorriscode</strong> が desktop app への terminal session import / sync 要望に <strong>soon!</strong> と返し、remote control 有効 session は sync されることや、account switching 改善が coming だと示唆した。Claude Code の新規 release は確認できず、最新は引き続き <strong>v2.1.207</strong> だった。",
+  "summaryBullets": [
+    "<strong>Official X 1件</strong>: <strong>@AnthropicAI</strong> が、Claude の value expression を model 間と language 間で比較した新研究を告知し、<strong>300K+</strong> の匿名化会話分析と <strong>4 つの value axes</strong> を前面に出した。",
+    "<strong>Official site 2件</strong>: <strong>Anthropic Research</strong> では <strong>Claude’s values across models and languages</strong>、<strong>Claude Blog</strong> では <strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong> が <strong>Jul 13, 2026</strong> 公開として確認できた。",
+    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は、desktop への terminal session import / sync 要望に <strong>soon!</strong> と返し、<strong>remote control</strong> を有効にした session は sync されると補足し、account switching 要望にも <strong>coming</strong> と返答した。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-13 03:01 JST</strong> より前だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X + site",
+      "datetime": "2026-07-14T02:24:56+09:00",
+      "displayTime": "2026-07-14 02:24 JST",
+      "title": "@AnthropicAI が Claude の values 研究を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、Claude が会話で表す values を model 別・language 別に比較した新研究を公開した。対応する <strong>Anthropic Research</strong> 記事では、<strong>309,815</strong> 件の匿名化会話を分析し、<strong>Deference vs. Caution</strong>、<strong>Warmth vs. Rigor</strong>、<strong>Depth vs. Brevity</strong>、<strong>Candor vs. Execution</strong> の 4 軸で Claude の value expression の差分を整理している。",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-13T00:00:00+09:00",
+      "displayTime": "2026-07-13",
+      "title": "Claude Blog が Hebbia の金融デューデリジェンス事例を公開",
+      "summary": "<strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong> は、Hebbia が金融向け diligence software で Claude をどう評価・運用しているかを整理した事例記事だ。記事では、<strong>Claude Fable 5</strong> が finance evals で過去最大の accuracy gain を示し、複雑な query tracking でも prior models より安定したことを強調している。",
+      "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+      "urlLabel": "記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI と @ClaudeDevs の新規 main post は 0件",
+      "body": "この24時間窓では、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> に新しい main post は確認できなかった。official X の採用対象は、研究告知を出した <strong>@AnthropicAI</strong> の 1 イベントのみだった。"
+    },
+    {
+      "label": "Anthropic Engineering / News の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site の採用対象は <strong>Anthropic Research</strong> 1 件と <strong>Claude Blog</strong> 1 件だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-13T12:58:40+09:00",
+      "displayTime": "2026-07-13 12:58 JST",
+      "title": "@amorriscode が desktop app への terminal session import 要望に soon! と返答",
+      "summary": "<strong>@amorriscode</strong> は、desktop app へ terminal session を import / sync できるとよいという要望に対して <strong>soon!</strong> と reply した。仕様の詳細までは示していないが、CLI と desktop の session 連携 UX を近く広げる示唆として採用した。",
+      "url": "https://x.com/amorriscode/status/2076516638019760241",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-13T08:28:42+09:00",
+      "displayTime": "2026-07-13 08:28 JST",
+      "title": "@amorriscode が remote control session は sync されると補足",
+      "summary": "<strong>@amorriscode</strong> は、chat 一覧が 1:1 で同期されないという報告に対し、<strong>Do you have remote control on by default? Anything that’s remote control syncs.</strong> と返した。desktop / remote control 文脈では、sync 対象が remote-control-enabled session に紐づくことを示す運用 signal になる。",
+      "url": "https://x.com/amorriscode/status/2076448698620350862",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-13T23:32:14+09:00",
+      "displayTime": "2026-07-13 23:32 JST",
+      "title": "@amorriscode が account switching 要望に coming と示唆",
+      "summary": "<strong>@amorriscode</strong> は、Claude app と Claude Code での account switching 改善要望に対し <strong>Yep, it is</strong> と返答した。機能時期は未確定だが、複数アカウント切り替え UX の追加を coming と読める product-adjacent signal として扱う。",
+      "url": "https://x.com/amorriscode/status/2076676078702395535",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic Research</strong> の <strong>Jul 13, 2026</strong> 記事 1 件と、<strong>Claude Blog</strong> の <strong>Jul 13, 2026</strong> 記事 1 件だった。どちらも article page と listing の visible date が一致していた。",
+      "details": [
+        "<strong>Anthropic Research</strong>: <strong>Claude’s values across models and languages</strong>（<strong>Jul 13, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong>（<strong>Jul 13, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong>。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub releases を確認したところ、この24時間窓に publish された Claude Code release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
+      "details": [
+        "確認窓は <strong>2026-07-13 03:01:33 JST - 2026-07-14 03:01:33 JST</strong>。",
+        "最新 release は <strong>v2.1.207</strong>。",
+        "publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X では <strong>@AnthropicAI</strong> の thread reply 群も確認したが、同一 research event の補足として main post 1 件へ正規化した。",
+    "engineer watch では <strong>@adocomplete</strong> の Anthropic 入社告知、<strong>@jarredsumner</strong> の Bun GC 議論、sports / personal chatter、公式投稿の単純 quote-post は Claude / Anthropic product signal が薄いため外した。",
+    "<strong>@amorriscode</strong> の <strong>no computer use updates yet</strong> reply は確認したが、新機能・変更・不具合の具体情報が増えないため main signal から外した。",
+    "Claude Code の最新 release <strong>v2.1.207</strong> は full release note を確認済みだが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on Claude values research",
+      "url": "https://x.com/AnthropicAI/status/2076719540785012872"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic Research: Claude’s values across models and languages",
+      "url": "https://www.anthropic.com/research/claude-values-models-languages"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail",
+      "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthony Morris on terminal-session import coming soon",
+      "url": "https://x.com/amorriscode/status/2076516638019760241"
+    },
+    {
+      "title": "Anthony Morris on remote-control sessions syncing",
+      "url": "https://x.com/amorriscode/status/2076448698620350862"
+    },
+    {
+      "title": "Anthony Morris on account switching coming",
+      "url": "https://x.com/amorriscode/status/2076676078702395535"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.207 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
+    }
+  ]
+}
