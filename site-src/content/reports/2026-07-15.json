@@ -1,0 +1,291 @@
+{
+  "date": "2026-07-15",
+  "windowLabel": "2026-07-14 03:02:29 JST - 2026-07-15 03:02:29 JST",
+  "archiveTitle": "Teachers launch, Canada research, and two releases",
+  "archiveSummary": "Official 4件、engineer signal 3件、Claude Code release 2件。",
+  "latestSummary": "2026-07-14 03:02:29 JST から 2026-07-15 03:02:29 JST の24時間では、official 側で <strong>@ClaudeAI</strong> が <strong>Claude for Teachers</strong> を公開し、<strong>@AnthropicAI</strong> は <strong>Canadian AI research</strong> への <strong>$10M CAD</strong> 拠出を告知した。公式サイトでは <strong>Anthropic News</strong> に同2件、<strong>Anthropic Research</strong> に <strong>How Canada uses Claude</strong> が visible publication date ベースで追加された。engineer 側では <strong>@amorriscode</strong> が timed message 要望に <strong>This is coming!</strong> と返し、<strong>@RobertJBye</strong> は Claude Code と Xcode sim/device の最短 loop を共有した。Claude Code release は <strong>v2.1.208</strong> と <strong>v2.1.209</strong> の 2 件が window 内に入り、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude for Teachers</strong> を公開し、state standards と evidence-based curricula に結びつく teaching skills、FERPA 配慮の data handling を self-reply で補足した。<strong>@AnthropicAI</strong> は <strong>$10M CAD</strong> の Canadian AI research 拠出を告知し、<strong>@ClaudeDevs</strong> の新規 main post は前日夜の artifacts 告知以降は増えなかった。",
+    "<strong>Official site 3件</strong>: <strong>Anthropic News</strong> には <strong>Introducing Claude for Teachers</strong> と <strong>Anthropic commits $10 million to Canadian AI research</strong> がともに <strong>Jul 14, 2026</strong> 表示で追加され、<strong>Anthropic Research</strong> には <strong>How Canada uses Claude: Findings from the Anthropic Economic Index</strong> が <strong>Jul 14, 2026</strong> 表示で加わった。<strong>Anthropic Engineering</strong> と <strong>Claude Blog</strong> の新着は 0 件だった。",
+    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は session reset 後に timed message を送りたい要望へ <strong>This is coming!</strong> と reply し、<strong>@RobertJBye</strong> は <strong>Claude Code in terminal + Xcode sim / on-device testing</strong> が fastest loop だと述べた。<strong>@trq212</strong> は Claude Code で <strong>Pokemon Champions</strong> の usage stats・matchup report を生成し、public artifact として共有した。",
+    "<strong>Claude Code releases 2件</strong>: GitHub CLI では <strong>v2.1.208</strong>（<strong>2026-07-14 10:10 JST</strong>）と <strong>v2.1.209</strong>（<strong>2026-07-14 15:36 JST</strong>）を確認した。<strong>v2.1.208</strong> は accessibility / vim remap / process wrapper / background session 周辺の大型更新、<strong>v2.1.209</strong> は <code>claude agents</code> background session で <code>/model</code> などの dialog が塞がれる regression 修正だった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X + News",
+      "datetime": "2026-07-15T00:07:15+09:00",
+      "displayTime": "2026-07-15 00:07 JST",
+      "title": "@ClaudeAI が Claude for Teachers を公開",
+      "summary": "<strong>@ClaudeAI</strong> は、米国の認証済み K-12 教員向けに <strong>premium Claude capabilities</strong> を無償提供する <strong>Claude for Teachers</strong> を公開した。main post では <strong>teaching skills library</strong> と <strong>all 50 states</strong> の academic standards に接続する curriculum support を打ち出し、self-reply では <strong>Learning Commons</strong> 経由で lesson plan と student-facing materials を組み立てる流れ、さらに <strong>FERPA</strong> 準拠を意識した data processing agreement により student information を保護すると補足している。",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "urlLabel": "Anthropic News 記事",
+      "primary": true
+    },
+    {
+      "label": "Official X + News",
+      "datetime": "2026-07-14T22:44:04+09:00",
+      "displayTime": "2026-07-14 22:44 JST",
+      "title": "@AnthropicAI が Canadian AI research への $10M CAD 拠出を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、Canada の主要 AI 機関と連携し、<strong>$10 million CAD</strong> を新しい AI research に投じると告知した。対応する <strong>Anthropic News</strong> 記事では、Canadian research institutions への funding で次世代研究者の育成を支援する構図を前面に出している。",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "urlLabel": "Anthropic News 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-14T00:00:00+09:00",
+      "displayTime": "2026-07-14",
+      "title": "Anthropic Research が Canada における Claude 利用調査を公開",
+      "summary": "<strong>Anthropic Research</strong> は <strong>How Canada uses Claude: Findings from the Anthropic Economic Index</strong> を公開した。Research listing 上の visible excerpt では、Canada で Claude が <strong>いつ使われ、何を生み出し、仕事への影響をどう受け止められているか</strong> を問う Economic Index 分析だと説明されている。article page の時刻は確認できていないため、採用根拠は <strong>Jul 14, 2026</strong> の visible publication date ベース。",
+      "url": "https://www.anthropic.com/research/how-canada-uses-claude-findings-from-the-anthropic-economic-index",
+      "urlLabel": "Anthropic Research 記事"
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-14T07:02:20+09:00",
+      "displayTime": "2026-07-14 07:02 JST",
+      "title": "@ClaudeDevs の artifacts 共有・共同編集拡張はなお window 内",
+      "summary": "<strong>@ClaudeDevs</strong> の <strong>Artifacts now support public sharing and multiplayer editing in Claude Code, and can be created with Claude Tag</strong> という main post は今回の 24 時間窓の下端付近に引き続き入っている。public sharing、Team / Enterprise 向け multiplayer editing、Claude Tag 起点の internal artifact 作成という前日夜の official X signal は、きょうの engineer posts でも実運用例として再言及された。",
+      "url": "https://x.com/ClaudeDevs/status/2076789349145092230",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering と Claude Blog の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 13, 2026</strong> 表示が先頭で、この24時間窓に入る新規 article は確認できなかった。official site 側の新着は <strong>Anthropic News</strong> 2 件と <strong>Anthropic Research</strong> 1 件のみだった。"
+    },
+    {
+      "label": "@ClaudeDevs の新規 main post は 0件",
+      "body": "official X では <strong>@ClaudeAI</strong> が <strong>Claude for Teachers</strong>、<strong>@AnthropicAI</strong> が <strong>Canadian AI research</strong> を新規投稿した一方、<strong>@ClaudeDevs</strong> にこの24時間窓で新しい main post は確認できなかった。window 内に残ったのは前日夜の artifacts 告知 thread だけだった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Roadmap signal",
+      "datetime": "2026-07-15T00:02:19+09:00",
+      "displayTime": "2026-07-15 00:02 JST",
+      "title": "@amorriscode が timed message 要望への対応予定を示唆",
+      "summary": "<strong>@amorriscode</strong> は、session limit に近いときに <strong>timed message</strong> を Claude Code へ仕込んで reset 後に走らせたいという要望に対し、<strong>This is coming!</strong> と reply した。具体的な release 名や date は未提示だが、delayed send / scheduled follow-up に近い workflow が検討・実装中であることを示す product-adjacent signal と読める。",
+      "url": "https://x.com/amorriscode/status/2077046035378307210",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Workflow signal",
+      "datetime": "2026-07-15T02:14:57+09:00",
+      "displayTime": "2026-07-15 02:14 JST",
+      "title": "@RobertJBye が Claude Code と Xcode sim の最短 loop を共有",
+      "summary": "<strong>@RobertJBye</strong> は、最近の iOS 開発フローについての質問に対し、<strong>Claude Code running in terminal</strong> と <strong>Xcode sim + on device testing</strong> の組み合わせが <strong>the fastest loop from build to test</strong> だと reply した。Claude Code をローカル app test loop に組み込む実践的な運用ヒントとして採用した。",
+      "url": "https://x.com/RobertJBye/status/2077079414685454825",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Usage signal",
+      "datetime": "2026-07-15T00:23:09+09:00",
+      "displayTime": "2026-07-15 00:23 JST",
+      "title": "@trq212 が Claude Code で Pokemon Champions 向け分析 artifact を共有",
+      "summary": "<strong>@trq212</strong> は、<strong>Pokemon Champions</strong> 向けに Claude Code が <strong>Smogon の npm library</strong> と live usage stats を使い、matchup や breakpoints、team theorycraft の report を書くと紹介した。続く self-reply では <strong>public artifact</strong> として field guide も共有しており、Claude Code artifacts の新しい共有面を実例で示した usage signal になっている。",
+      "url": "https://x.com/trq212/status/2077051280267399550",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Research 1件 / News 2件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の <strong>Introducing Claude for Teachers</strong> と <strong>Anthropic commits $10 million to Canadian AI research</strong>、および <strong>Anthropic Research</strong> の <strong>How Canada uses Claude: Findings from the Anthropic Economic Index</strong> の 3 件だった。<strong>Anthropic Engineering</strong> と <strong>Claude Blog</strong> には window 内新着を確認できなかった。",
+      "details": [
+        "<strong>Anthropic News</strong>: <strong>Introducing Claude for Teachers</strong>（<strong>Jul 14, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>Anthropic commits $10 million to Canadian AI research</strong>（<strong>Jul 14, 2026</strong>）",
+        "<strong>Anthropic Research</strong>: <strong>How Canada uses Claude: Findings from the Anthropic Economic Index</strong>（<strong>Jul 14, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Claude Blog</strong> の先頭 visible date は <strong>Jul 13, 2026</strong> で、今回の window より前だった。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI で確認したところ、この24時間窓には <strong>v2.1.208</strong> と <strong>v2.1.209</strong> の 2 件が入った。release note 本文は GitHub CLI から完全取得し、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。<strong>v2.1.208</strong> は accessibility、process wrapper、background sessions まわりの大型更新、<strong>v2.1.209</strong> は background session で dialog が塞がれる regression のピンポイント修正だった。",
+      "releases": [
+        {
+          "version": "v2.1.209",
+          "publishedAt": "2026-07-14 15:36 JST",
+          "summary": "<code>claude agents</code> の background session で <code>/model</code> などの dialog が開けなくなっていた overly broad guard を巻き戻し、background sessions の操作不能 regression を修正した小規模 hotfix。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "<code>claude agents</code> の background session で、<code>/model</code> などの dialog が不必要に block されていた問題を修正した。overly broad な guard を巻き戻している。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
+          "urlLabel": "v2.1.209 release notes"
+        },
+        {
+          "version": "v2.1.208",
+          "publishedAt": "2026-07-14 10:10 JST",
+          "summary": "screen reader mode、<code>vimInsertModeRemaps</code>、<code>CLAUDE_CODE_PROCESS_WRAPPER</code>、fullscreen mouse support を追加しつつ、background session、stream-json、memory、Bedrock、Remote Control 周辺の不具合と性能問題を広く修正した大型リリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "screen reader 利用者向けに plain-text 描画へ切り替える <strong>screen reader mode</strong> を追加した。<code>claude --ax-screen-reader</code>、<code>CLAUDE_AX_SCREEN_READER=1</code>、または settings の <code>axScreenReader</code> で有効化できる。",
+                "<code>vimInsertModeRemaps</code> 設定を追加し、vim mode の insert 中に <code>jj</code> のような 2 キー列を Escape へ割り当てられるようにした。",
+                "<code>CLAUDE_CODE_PROCESS_WRAPPER</code> を追加し、agent view と background service が自動で起動するすべての Claude Code プロセスを、必須 wrapper executable 経由で起動できるようにした。",
+                "fullscreen mode の multi-select menu と <strong>Other</strong> 入力行で mouse click 操作を追加した。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "agent task list 更新時の再描画を減らし、入力レスポンスを改善した。",
+                "print / SDK session で多数の MCP tools を使う場合の tool-pool 組み立てを cache し、per-tool-call の CPU overhead を削減した。",
+                "file edit read cache を 16 MB に制限し、最大 1,000 件の full file を保持し続けないようにして memory 使用量を下げた。",
+                "superseded file-history backup を pruning し、edit-heavy session で transcript size を最大 79 倍圧縮しつつ checkpoint disk usage を抑えた。",
+                "background agent や large conversation fork を含む session の resume 時 memory 使用量を削減した。",
+                "完了済み background agent は cleanup まで <code>/tasks</code> に残るようにし、終了直後に消えないようにした。",
+                "停止済み background agent へ attach した際、session warming 完了前でも transcript をすぐ表示するようにした。",
+                "background session では、古い daemon が新しい version の worker を古い binary で黙って再起動しないようにした。",
+                "agent view の Ctrl+X は renamed-branch worktree を削除できるようにしつつ、unpushed commit は破棄せず、worktree を保持した場合は session row も残し、再利用する worktree 名は current base から再初期化するようにした。",
+                "<code>$(...)</code>、backticks、<code><(...)</code> を含む command で catastrophic removal（例: <code>rm -rf ~</code>）が現れた場合、<code>--dangerously-skip-permissions</code> と auto mode でも plain form と同様に prompt を出すようにした。",
+                "<code>/install-github-app</code> と <code>/mcp</code> settings menu は background session では開かないようにした。",
+                "empty URL で設定された MCP server は <code>/mcp</code> 上で config error ではなく <strong>not configured</strong> と表示するようにした。",
+                "<code>/usage</code> は usage endpoint が rate-limit 中でも error screen ではなく <strong>as of</strong> 付きの last-known usage bars を表示するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "fast mode を有効化した model へ戻したとき、off のまま残らず自動復元されるようにした。",
+                "background agent への返信が配信失敗時に失われず、text を保存して session restart 後に再配送するようにした。",
+                "update 後に binary が置き換わると background-session attach が恒久的に失敗していた問題（<strong>Couldn't start the background daemon</strong>）を修正した。",
+                "CLI auto-update 後に context window と auto-compact indicator が一瞬 200k に戻り、長い session resume 時に誤って <strong>100% context used</strong> が出る問題を修正した。",
+                "in-flight request 中に server が HTTP/2 GOAWAY で接続を閉じた際、supervised / background session が crash する問題を修正した。",
+                "<code>claude -p</code> で大きな response を pipe した際の stream-json / JSON output の切り詰めと、result message 欠落を修正した。",
+                "<code>CLAUDE_CODE_MAX_OUTPUT_TOKENS</code> などの env var が scientific notation を mantissa だけで解釈していた問題（<code>1e6</code> が <code>1</code> になる）を修正した。",
+                "非常に大きい markdown table が rendering を stall させたり過剰に memory を使う問題を修正し、200 行超は先頭 200 行と <strong>… N more rows</strong> notice を表示するようにした。",
+                "target text が一意に一致しているのに、read 後に file が更新されると Edit tool が失敗する問題を修正した。",
+                "empty file を <strong>shorter than offset</strong> と誤報する Read、invalid regex で <strong>No files found</strong> を返す Grep、pagination 時に件数を過少計上する Grep count mode、null byte を含む pattern / path / working directory で不明瞭に crash する Glob を修正した。",
+                "<code>apiKeyHelper</code> script の failure が約 10 回の無言 retry 後に generic 401 として隠れる問題を修正し、3 回以内に script 自身の error を表示するようにした。",
+                "gateway が response を変換したときに Bedrock streaming request が <strong>Truncated event message received</strong> という誤解を招く error になる問題を修正し、content-type と proxy 起因の可能性を明示するようにした。",
+                "browser 起動失敗時に <code>/upgrade</code> が login flow を出してしまう問題を修正し、upgrade URL を表示するようにした。",
+                "Windows-style SDK host から blank CRLF や whitespace-only line を受けた stream-json input が session を kill する問題を修正した。",
+                "headless stream-json session で <code>control_request</code> の <code>set_model</code> payload が非 string のとき permanent hang する問題を修正し、CLI が error response を返すようにした。",
+                "session resume 時に <strong>No completion record was found</strong> notice が繰り返し出る問題を修正し、orphaned background task を単一 summary にまとめるようにした。",
+                "terminal-hosted session へ attach した Remote Control client で、task の開始・停止が起きるまで background agent と workflow progress が見えない問題を修正した。",
+                "subagent の <code>tools</code> list が空解決になったとき Agent tool が no tools で起動してしまう問題を修正し、unrecognized entry 名を含む clear error を返すようにした。",
+                "<code>/usage</code> が fresher data より stale cached bars を出してしまう問題と、config edit 後に <code>/mcp</code> が placeholder server を再分類しない問題を修正した。",
+                "SDK host（例: Claude Desktop）で idle session に background task があると <strong>A turn is in progress</strong> になっていた <strong>Change directory</strong> を修正した。",
+                "workflow save dialog が user-scope save 先として <code>CLAUDE_CONFIG_DIR</code> ではなく <code>~/.claude/workflows/</code> を表示する問題を修正した。",
+                "<code>/release-notes</code> の <strong>Show all</strong> が changelog 全体を以後の model context に注入してしまう問題を修正した。",
+                "peek reply 送信後も pasted image を screen lifetime ずっと保持する agent view の memory leak を修正した。",
+                "plugin refresh が client attach より先に走ると initialize request で定義した agent を SDK session が失う問題を修正した。",
+                "複数の long-session memory leak を修正した。対象は MCP stdio server stderr の最大 64 MB 蓄積、LSP document の無期限 open、background 後の async hook output 保持、大きな tool-result payload による headless / SDK session の無制限成長。",
+                "極端に長い single line を持つ file を offset / limit 付きで読むと全行を読み込んで memory blowup する問題を修正し、clean error を返すようにした。",
+                "多数の permission deny / ask rule がある session で per-turn が数秒単位で遅くなる問題を修正し、rule matcher を一度だけ compile して cache するようにした。",
+                "AWS SSO profile の <code>sso_region</code> と Bedrock region が異なる場合に <strong>Session token not found or invalid</strong> で Bedrock auth が失敗する 2.1.207 regression を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
+          "urlLabel": "v2.1.208 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、<strong>@ClaudeAI</strong> の self-reply 群は <strong>Claude for Teachers</strong> の同一イベント内補足として main item に正規化した。",
+    "engineer watch では <strong>@_catwu</strong> の artifacts quote、<strong>@RobertJBye</strong> の Fable quote、<strong>@trq212</strong> の artifacts 周辺の短い reply、Bun や personal chatter など Claude / Anthropic signal が薄い post を main signal から外した。",
+    "公式サイトの新着判定は official listing の visible publication date ベースに限定した。<strong>Anthropic Research</strong> の Canada 記事は page 時刻未確認のため、<strong>Jul 14, 2026</strong> 表示を根拠に採用した。",
+    "Claude Code release notes は GitHub CLI を唯一の source of truth とした。window 外の <strong>v2.1.207</strong> 以前は外し、window 内の <strong>v2.1.208</strong> と <strong>v2.1.209</strong> の visible bullet 全件を和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeAI on Claude for Teachers",
+      "url": "https://x.com/claudeai/status/2077047278078931243"
+    },
+    {
+      "title": "ClaudeAI on curriculum-connected lesson plans",
+      "url": "https://x.com/claudeai/status/2077047279689535705"
+    },
+    {
+      "title": "ClaudeAI on FERPA-oriented privacy protections",
+      "url": "https://x.com/claudeai/status/2077047280767488218"
+    },
+    {
+      "title": "ClaudeAI linking to the Claude for Teachers announcement",
+      "url": "https://x.com/claudeai/status/2077047282109714488"
+    },
+    {
+      "title": "AnthropicAI on Canadian AI research funding",
+      "url": "https://x.com/AnthropicAI/status/2077026346375540870"
+    },
+    {
+      "title": "ClaudeDevs on artifacts public sharing and multiplayer editing",
+      "url": "https://x.com/ClaudeDevs/status/2076789349145092230"
+    },
+    {
+      "title": "Anthony Morris on timed messages coming",
+      "url": "https://x.com/amorriscode/status/2077046035378307210"
+    },
+    {
+      "title": "Robert Bye on Claude Code plus Xcode sim workflow",
+      "url": "https://x.com/RobertJBye/status/2077079414685454825"
+    },
+    {
+      "title": "Thariq on Claude Code for Pokemon Champions analysis",
+      "url": "https://x.com/trq212/status/2077051280267399550"
+    },
+    {
+      "title": "Thariq public artifact follow-up",
+      "url": "https://x.com/trq212/status/2077051282146431092"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthropic News: Introducing Claude for Teachers",
+      "url": "https://www.anthropic.com/news/claude-for-teachers"
+    },
+    {
+      "title": "Anthropic News: Anthropic commits $10 million to Canadian AI research",
+      "url": "https://www.anthropic.com/news/canadian-ai-research"
+    },
+    {
+      "title": "Anthropic Research: How Canada uses Claude: Findings from the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/research/how-canada-uses-claude-findings-from-the-anthropic-economic-index"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.209 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209"
+    },
+    {
+      "title": "Claude Code v2.1.208 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208"
+    }
+  ]
+}
