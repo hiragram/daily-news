@@ -1,9 +1,9 @@
 {
   "date": "2026-07-14",
-  "windowLabel": "2026-07-13 15:01:33 JST - 2026-07-14 15:01:33 JST",
+  "windowLabel": "2026-07-13 21:00:59 JST - 2026-07-14 21:00:59 JST",
   "archiveTitle": "Artifacts, values study, accessibility release",
   "archiveSummary": "Official 2件、blog/research 2件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-13 15:01:33 JST から 2026-07-14 15:01:33 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が Claude の values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 起点作成を案内した。公式サイトでは <strong>Anthropic Research</strong> の新研究と <strong>Claude Blog</strong> の Hebbia 事例が window に入り、Claude Code は <strong>v2.1.208</strong> を公開して screen reader mode、`vimInsertModeRemaps`、process wrapper 対応などを追加した。",
+  "latestSummary": "2026-07-13 21:00:59 JST から 2026-07-14 21:00:59 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が Claude の values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 起点作成を案内した。公式サイトでは <strong>Anthropic Research</strong> の新研究と <strong>Claude Blog</strong> の Hebbia 事例が window に入り、Claude Code は <strong>v2.1.208</strong> を公開して screen reader mode、`vimInsertModeRemaps`、process wrapper 対応などを追加した。",
   "summaryBullets": [
     "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>300K+</strong> の匿名化会話分析に基づく values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 連携を thread で案内した。",
     "<strong>Official site 2件</strong>: <strong>Anthropic Research</strong> では <strong>Claude’s values across models and languages</strong>（<strong>Jul 13, 2026</strong>）、<strong>Claude Blog</strong> では <strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong>（<strong>Jul 13, 2026</strong>）を確認した。",
