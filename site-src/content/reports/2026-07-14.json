@@ -1,14 +1,14 @@
 {
   "date": "2026-07-14",
-  "windowLabel": "2026-07-13 09:01:53 JST - 2026-07-14 09:01:53 JST",
-  "archiveTitle": "Artifacts launch and values research",
-  "archiveSummary": "Official 2件、blog/research 1件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-13 09:01:53 JST から 2026-07-14 09:01:53 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が <strong>Claude’s values across models and languages</strong> 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の <strong>public sharing</strong>、<strong>multiplayer editing</strong>、<strong>Claude Tag</strong> からの作成を thread で案内した。official site の target pages では <strong>Anthropic Research</strong> に同研究の <strong>Jul 13, 2026</strong> 公開を確認し、<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> に新着はなかった。engineer 側では <strong>@amorriscode</strong> が desktop app への terminal session import / sync 要望に <strong>soon!</strong> と返し、account switching 改善も <strong>coming</strong> と示唆した。Claude Code の新規 release は確認できず、最新は引き続き <strong>v2.1.207</strong> だった。",
+  "windowLabel": "2026-07-13 15:01:33 JST - 2026-07-14 15:01:33 JST",
+  "archiveTitle": "Artifacts, values study, accessibility release",
+  "archiveSummary": "Official 2件、blog/research 2件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-07-13 15:01:33 JST から 2026-07-14 15:01:33 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が Claude の values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 起点作成を案内した。公式サイトでは <strong>Anthropic Research</strong> の新研究と <strong>Claude Blog</strong> の Hebbia 事例が window に入り、Claude Code は <strong>v2.1.208</strong> を公開して screen reader mode、`vimInsertModeRemaps`、process wrapper 対応などを追加した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>300K+</strong> の匿名化会話を分析した values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 起点作成をまとめて案内した。",
-    "<strong>Official site 1件</strong>: target pages では <strong>Anthropic Research</strong> の <strong>Claude’s values across models and languages</strong>（<strong>Jul 13, 2026</strong>）のみが window に入った。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は 0 件だった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は desktop への terminal session import / sync に <strong>soon!</strong>、account switching 改善に <strong>Yep, it is</strong> と返し、<strong>@trq212</strong> は新しい artifacts を <strong>Claude Tag</strong> と <strong>local Claude Code sessions</strong> で組み合わせる使い方を例示した。",
-    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.207</strong> だが publish は <strong>2026-07-11 09:52 JST</strong> で、今回の window 開始 <strong>2026-07-13 09:01 JST</strong> より前だった。"
+    "<strong>Official X 2件</strong>: <strong>@AnthropicAI</strong> は <strong>300K+</strong> の匿名化会話分析に基づく values 研究を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Code artifacts</strong> の public sharing / multiplayer editing / Claude Tag 連携を thread で案内した。",
+    "<strong>Official site 2件</strong>: <strong>Anthropic Research</strong> では <strong>Claude’s values across models and languages</strong>（<strong>Jul 13, 2026</strong>）、<strong>Claude Blog</strong> では <strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong>（<strong>Jul 13, 2026</strong>）を確認した。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は app / Claude Code の account switching 改善要望に <strong>Yep, it is</strong> と返し、<strong>@trq212</strong> は新 artifacts を <strong>Claude Tag</strong> と <strong>local Claude Code sessions</strong> で編集する使い方を例示した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.208</strong> が <strong>2026-07-14 10:10 JST</strong> に公開され、screen reader mode、<code>vimInsertModeRemaps</code>、<code>CLAUDE_CODE_PROCESS_WRAPPER</code>、fullscreen multi-select の mouse support 追加に加え、background session / stream-json / memory 周りの大規模修正が入った。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-14T02:24:56+09:00",
       "displayTime": "2026-07-14 02:24 JST",
       "title": "@AnthropicAI が Claude の values 研究を告知",
-      "summary": "<strong>@AnthropicAI</strong> は、Claude が会話で表す values を model 別・language 別に比較した新研究を告知した。対応する <strong>Anthropic Research</strong> listing では <strong>Jul 13, 2026</strong> 公開として確認でき、告知文面では <strong>300K+</strong> の匿名化会話分析、研究本文では <strong>Deference vs. Caution</strong>、<strong>Warmth vs. Rigor</strong>、<strong>Depth vs. Brevity</strong>、<strong>Candor vs. Execution</strong> の 4 軸で差分を読む構成が示されている。",
+      "summary": "<strong>@AnthropicAI</strong> は、Claude が会話で表す values の違いを model 別・language 別に測る新研究を告知した。対応する <strong>Anthropic Research</strong> 記事では、<strong>309,815</strong> 件の会話を 4 つの軸（<strong>Deference vs. Caution</strong>、<strong>Warmth vs. Rigor</strong>、<strong>Depth vs. Brevity</strong>、<strong>Candor vs. Execution</strong>）に圧縮し、英語では caution / rigor / depth 側、アラビア語では deference / warmth / brevity / execution 側に寄るなど、言語差とモデル差を追跡できると示した。",
       "url": "https://www.anthropic.com/research/claude-values-models-languages",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,47 +26,47 @@
       "datetime": "2026-07-14T07:02:20+09:00",
       "displayTime": "2026-07-14 07:02 JST",
       "title": "@ClaudeDevs が Claude Code artifacts の共有・共同編集拡張を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code artifacts</strong> が <strong>public sharing</strong> と <strong>multiplayer editing</strong> に対応し、さらに <strong>Claude Tag</strong> から internal artifacts を作れるようになったと thread で案内した。reply では、Team / Enterprise での共同編集 availability と、Slack thread から dashboard のような working page を返せる活用例も補足している。",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code artifacts</strong> が <strong>public sharing</strong> と <strong>multiplayer editing</strong> に対応し、さらに <strong>Claude Tag</strong> から internal artifacts を作れるようになったと案内した。thread では、公開リンク配布、Team / Enterprise での共同編集、Slack thread から working page を返す使い方まで補足している。",
       "url": "https://x.com/ClaudeDevs/status/2076789349145092230",
       "urlLabel": "X で見る"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-13T00:00:00+09:00",
+      "displayTime": "2026-07-13",
+      "title": "Claude Blog が Hebbia の金融デューデリジェンス事例を公開",
+      "summary": "<strong>Claude Blog</strong> は、Hebbia が金融デューデリジェンス向け Matrix で Claude を評価する事例を公開した。記事では <strong>Claude Fable 5</strong> が finance-specific benchmark で過去最大の精度改善を出し、数百文書をまたぐ複雑な問い合わせや citation 付き分析、credit agreement レビュー、投資メモ下書きのような multi-step task をより安定して扱えたと説明している。",
+      "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail",
+      "urlLabel": "記事を読む"
     }
   ],
   "officialZeroStates": [
     {
       "label": "@ClaudeAI の新規 main post は 0件",
-      "body": "この24時間窓では、<strong>@ClaudeAI</strong> に新しい main post は確認できなかった。official X の採用対象は <strong>@AnthropicAI</strong> の values 研究告知と、<strong>@ClaudeDevs</strong> の artifacts 告知の 2 イベントだった。"
+      "body": "この24時間窓では、<strong>@ClaudeAI</strong> に新しい main post は確認できなかった。official X の採用対象は <strong>@AnthropicAI</strong> の values 研究告知と <strong>@ClaudeDevs</strong> の artifacts 告知の 2 イベントだった。"
     },
     {
-      "label": "Anthropic Engineering / News / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 9, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jun 18, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site の採用対象は <strong>Anthropic Research</strong> 1 件のみだった。"
+      "label": "Anthropic Engineering / News の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 9, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Anthropic Research</strong> 1 件と <strong>Claude Blog</strong> 1 件だった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer X",
-      "datetime": "2026-07-13T12:58:40+09:00",
-      "displayTime": "2026-07-13 12:58 JST",
-      "title": "@amorriscode が desktop app への terminal session import 要望に soon! と返答",
-      "summary": "<strong>@amorriscode</strong> は、desktop app へ terminal session を import / sync できるとよいという要望に対して <strong>soon!</strong> と reply した。仕様の詳細までは示していないが、CLI と desktop の session 連携 UX を近く広げる示唆として採用した。",
-      "url": "https://x.com/amorriscode/status/2076516638019760241",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Engineer X",
       "datetime": "2026-07-13T23:32:14+09:00",
       "displayTime": "2026-07-13 23:32 JST",
-      "title": "@amorriscode が account switching 要望に coming と示唆",
-      "summary": "<strong>@amorriscode</strong> は、Claude app と Claude Code での account switching 改善要望に対し <strong>Yep, it is</strong> と返答した。機能時期は未確定だが、複数アカウント切り替え UX の追加を coming と読める product-adjacent signal として扱う。",
+      "title": "@amorriscode が account switching 改善要望に coming と示唆",
+      "summary": "<strong>@amorriscode</strong> は、Claude app と Claude Code での account switching 改善要望に対し <strong>Yep, it is</strong> と reply した。時期や仕様は未提示だが、複数アカウント切り替え UX の対応が進行中だと読める product-adjacent signal として採用した。",
       "url": "https://x.com/amorriscode/status/2076676078702395535",
-      "urlLabel": "X で見る"
+      "urlLabel": "X で見る",
+      "primary": true
     },
     {
       "label": "Engineer X",
       "datetime": "2026-07-14T07:08:06+09:00",
       "displayTime": "2026-07-14 07:08 JST",
       "title": "@trq212 が新 artifacts の具体的な使い方を補足",
-      "summary": "<strong>@trq212</strong> は <strong>@ClaudeDevs</strong> の artifacts 告知を quote し、<strong>Claude Tag</strong> で project dashboard を作り、それを他ユーザーや <strong>local Claude Code sessions</strong> から編集する使い方を挙げた。公式告知をなぞるだけでなく、team workflow への落とし込み例を加えた点を signal として採用した。",
+      "summary": "<strong>@trq212</strong> は <strong>@ClaudeDevs</strong> の artifacts 告知を quote し、<strong>Claude Tag</strong> で project dashboard を作り、それを他ユーザーや <strong>local Claude Code sessions</strong> から編集する workflow を例示した。公式告知を team workflow に落とし込んだ補足として signal に採用した。",
       "url": "https://x.com/trq212/status/2076790799011131735",
       "urlLabel": "X で見る"
     }
@@ -74,25 +74,91 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Research 1件 / そのほか 0件",
-      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic Research</strong> の <strong>Jul 13, 2026</strong> 記事 1 件のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
+      "headline": "Research 1件 / Claude Blog 1件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic Research</strong> の values 研究 1 件と、<strong>Claude Blog</strong> の Hebbia 事例 1 件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
       "details": [
         "<strong>Anthropic Research</strong>: <strong>Claude’s values across models and languages</strong>（<strong>Jul 13, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Hebbia builds AI for financial diligence that can't miss a detail</strong>（<strong>Jul 13, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong>。",
-        "<strong>Claude Blog</strong> の最新 visible date は <strong>Jun 18, 2026</strong>。"
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 9, 2026</strong>。"
       ],
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Anthropic Research 一覧"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub releases を確認したところ、この24時間窓に publish された Claude Code release は確認できなかった。最新 release は <strong>v2.1.207</strong> で、publish 時刻は <strong>2026-07-11 09:52 JST</strong> だったため、今回の window 外として扱った。",
-      "details": [
-        "確認窓は <strong>2026-07-13 09:01:53 JST - 2026-07-14 09:01:53 JST</strong>。",
-        "最新 release は <strong>v2.1.207</strong>。",
-        "publish 時刻 <strong>2026-07-11 09:52 JST</strong> は今回の window 外。"
+      "headline": "v2.1.208",
+      "body": "GitHub releases では、この24時間窓に <strong>v2.1.208</strong> が <strong>2026-07-14 10:10 JST</strong> に publish された。追加項目は accessibility / vim remap / process wrapper / fullscreen mouse support が中心で、あわせて background session、agent view、stream-json、memory、Bedrock、Remote Control 周りに広い修正と挙動変更が入っている。",
+      "releases": [
+        {
+          "version": "v2.1.208",
+          "publishedAt": "2026-07-14 10:10 JST",
+          "summary": "screen reader mode、vim insert remap、process wrapper、fullscreen mouse support を追加し、background session・stream-json・memory・Bedrock 周辺の不具合と性能問題をまとめて修正した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "screen reader 利用者向けに plain-text 描画へ切り替える <strong>screen reader mode</strong> を追加した。<code>claude --ax-screen-reader</code>、<code>CLAUDE_AX_SCREEN_READER=1</code>、または settings の <code>axScreenReader</code> で有効化できる。",
+                "<code>vimInsertModeRemaps</code> 設定を追加し、vim mode の insert 中に <code>jj</code> のような 2 キー列を Escape へ割り当てられるようにした。",
+                "<code>CLAUDE_CODE_PROCESS_WRAPPER</code> を追加し、agent view と background service が自動で起動するすべての Claude Code プロセスを必須 wrapper executable 経由で起動できるようにした。",
+                "fullscreen mode の multi-select menu と <strong>Other</strong> 入力行で mouse click 操作を追加した."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "agent task list 更新時の再描画を減らし、入力レスポンスを改善した。",
+                "print / SDK session で多数の MCP tools を使う場合の tool-pool 組み立てを cache し、per-tool-call の CPU overhead を削減した。",
+                "file edit read cache を 16 MB に制限し、最大 1,000 件の full file を保持し続けないようにして memory 使用量を下げた。",
+                "superseded file-history backup を pruning し、edit-heavy session で transcript size を最大 79 倍圧縮しつつ checkpoint disk usage を抑えた。",
+                "background agent や large conversation fork を含む session の resume 時 memory 使用量を削減した。",
+                "完了済み background agent は cleanup まで <code>/tasks</code> に残るようにし、終了直後に消えないようにした。",
+                "停止済み background agent へ attach した際、session warming 完了前でも transcript をすぐ表示するようにした。",
+                "background session では、古い daemon が新しい version の worker を古い binary で黙って再起動しないようにした。",
+                "agent view の Ctrl+X は renamed-branch worktree を削除できるようにしつつ、unpushed commit は破棄せず、worktree を保持した場合は session row も残し、再利用する worktree 名は current base から再初期化するようにした。",
+                "<code>$(...)</code>、backticks、<code><(...)</code> を含む command で catastrophic removal（例: <code>rm -rf ~</code>）が現れた場合、<code>--dangerously-skip-permissions</code> と auto mode でも plain form と同様に prompt を出すようにした。",
+                "<code>/install-github-app</code> と <code>/mcp</code> settings menu は background session では開かないようにした。",
+                "empty URL で設定された MCP server は <code>/mcp</code> 上で config error ではなく <strong>not configured</strong> と表示するようにした。",
+                "<code>/usage</code> は usage endpoint が rate-limit 中でも error screen ではなく <strong>as of</strong> 付きの last-known usage bars を表示するようにした."
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "fast mode を有効化した model へ戻したとき、off のまま残らず自動復元されるようにした。",
+                "background agent への返信が配信失敗時に失われず、text を保存して session restart 後に再配送するようにした。",
+                "update 後に binary が置き換わると background-session attach が恒久的に失敗していた問題（<strong>Couldn't start the background daemon</strong>）を修正した。",
+                "CLI auto-update 後に context window と auto-compact indicator が一瞬 200k に戻り、長い session resume 時に誤って <strong>100% context used</strong> が出る問題を修正した。",
+                "in-flight request 中に server が HTTP/2 GOAWAY で接続を閉じた際、supervised / background session が crash する問題を修正した。",
+                "<code>claude -p</code> で大きな response を pipe した際の stream-json / JSON output の切り詰めと、result message 欠落を修正した。",
+                "<code>CLAUDE_CODE_MAX_OUTPUT_TOKENS</code> などの env var が scientific notation を mantissa だけで解釈していた問題（<code>1e6</code> が <code>1</code> になる）を修正した。",
+                "非常に大きい markdown table が rendering を stall させたり過剰に memory を使う問題を修正し、200 行超は先頭 200 行と <strong>… N more rows</strong> notice を表示するようにした。",
+                "target text が一意に一致しているのに、read 後に file が更新されると Edit tool が失敗する問題を修正した。",
+                "empty file を <strong>shorter than offset</strong> と誤報する Read、invalid regex で <strong>No files found</strong> を返す Grep、pagination 時に件数を過少計上する Grep count mode、null byte を含む pattern / path / working directory で不明瞭に crash する Glob を修正した。",
+                "<code>apiKeyHelper</code> script の failure が約 10 回の無言 retry 後に generic 401 として隠れる問題を修正し、3 回以内に script 自身の error を表示するようにした。",
+                "gateway が response を変換したときに Bedrock streaming request が <strong>Truncated event message received</strong> という誤解を招く error になる問題を修正し、content-type と proxy 起因の可能性を明示するようにした。",
+                "browser 起動失敗時に <code>/upgrade</code> が login flow を出してしまう問題を修正し、upgrade URL を表示するようにした。",
+                "Windows-style SDK host から blank CRLF や whitespace-only line を受けた stream-json input が session を kill する問題を修正した。",
+                "headless stream-json session で <code>control_request</code> の <code>set_model</code> payload が非 string のとき permanent hang する問題を修正し、CLI が error response を返すようにした。",
+                "session resume 時に <strong>No completion record was found</strong> notice が繰り返し出る問題を修正し、orphaned background task を単一 summary にまとめるようにした。",
+                "terminal-hosted session へ attach した Remote Control client で、task の開始・停止が起きるまで background agent と workflow progress が見えない問題を修正した。",
+                "subagent の <code>tools</code> list が空解決になったとき Agent tool が no tools で起動してしまう問題を修正し、unrecognized entry 名を含む clear error を返すようにした。",
+                "<code>/usage</code> が fresher data より stale cached bars を出してしまう問題と、config edit 後に <code>/mcp</code> が placeholder server を再分類しない問題を修正した。",
+                "SDK host（例: Claude Desktop）で idle session に background task があると <strong>A turn is in progress</strong> になっていた <strong>Change directory</strong> を修正した。",
+                "workflow save dialog が user-scope save 先として <code>CLAUDE_CONFIG_DIR</code> ではなく <code>~/.claude/workflows/</code> を表示する問題を修正した。",
+                "<code>/release-notes</code> の <strong>Show all</strong> が changelog 全体を以後の model context に注入してしまう問題を修正した。",
+                "peek reply 送信後も pasted image を screen lifetime ずっと保持する agent view の memory leak を修正した。",
+                "plugin refresh が client attach より先に走ると initialize request で定義した agent を SDK session が失う問題を修正した。",
+                "複数の long-session memory leak を修正した。対象は MCP stdio server stderr の最大 64 MB 蓄積、LSP document の無期限 open、background 後の async hook output 保持、大きな tool-result payload による headless / SDK session の無制限成長。",
+                "極端に長い single line を持つ file を offset / limit 付きで読むと全行を読み込んで memory blowup する問題を修正し、clean error を返すようにした。",
+                "多数の permission deny / ask rule がある session で per-turn が数秒単位で遅くなる問題を修正し、rule matcher を一度だけ compile して cache するようにした。",
+                "AWS SSO profile の <code>sso_region</code> と Bedrock region が異なる場合に <strong>Session token not found or invalid</strong> で Bedrock auth が失敗する 2.1.207 regression を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
+          "urlLabel": "v2.1.208 release notes"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -100,9 +166,9 @@
   ],
   "exclusions": [
     "official X では <strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> の thread reply 群も確認したが、同一イベント内の補足として main post 単位に正規化した。",
-    "engineer watch では <strong>@adocomplete</strong> の Anthropic 入社告知、<strong>@jarredsumner</strong> の Bun GC 議論、sports / personal chatter、公式投稿の単純 quote-post を確認したが、Claude / Anthropic product signal が薄いため外した。",
-    "<strong>@amorriscode</strong> の project grouping 挙動に関する reply も window 内だったが、desktop import / account switching より優先度が低く、新機能や rollout を直接示す情報でもないため main signal から外した。",
-    "Claude Code の最新 release <strong>v2.1.207</strong> は確認済みだが、publish 時刻が今回の 24 時間窓より前なので release item には採用しなかった。"
+    "engineer watch では <strong>@_catwu</strong> の artifacts quote、<strong>@adocomplete</strong> の Anthropic 入社告知、<strong>@jarredsumner</strong> の Bun GC 議論、sports / personal chatter を確認したが、Claude / Anthropic product signal が薄いため外した。",
+    "<strong>@amorriscode</strong> の project grouping 挙動 reply と、context が不足した <strong>it’s in the app</strong> reply も window 内だったが、新機能や rollout を直接示す情報としては弱いため main signal から外した。",
+    "Claude Code <strong>v2.1.208</strong> の release note は全 bullet を採用し、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に再分類して和訳した。"
   ],
   "sources": [
     {
@@ -114,7 +180,7 @@
       "url": "https://www.anthropic.com/research"
     },
     {
-      "title": "Anthropic Research: Claude’s values across models and languages",
+      "title": "Anthropic Research: Claude's values across models and languages",
       "url": "https://www.anthropic.com/research/claude-values-models-languages"
     },
     {
@@ -132,10 +198,6 @@
     {
       "title": "ClaudeDevs thread: Claude Tag can build internal artifacts",
       "url": "https://x.com/ClaudeDevs/status/2076789352869613872"
-    },
-    {
-      "title": "Anthony Morris on terminal-session import coming soon",
-      "url": "https://x.com/amorriscode/status/2076516638019760241"
     },
     {
       "title": "Anthony Morris on account switching coming",
@@ -158,12 +220,16 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Claude Blog: Hebbia financial diligence case study",
+      "url": "https://claude.com/blog/working-at-the-frontier-how-hebbia-builds-ai-for-financial-diligence-that-cant-miss-a-detail"
+    },
+    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.207 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207"
+      "title": "Claude Code v2.1.208 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208"
     }
   ]
 }
