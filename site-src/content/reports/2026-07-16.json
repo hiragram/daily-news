@@ -1,0 +1,197 @@
+{
+  "date": "2026-07-16",
+  "windowLabel": "2026-07-15 03:01:05 JST - 2026-07-16 03:01:05 JST",
+  "archiveTitle": "Misalignment research and Claude Code v2.1.210",
+  "archiveSummary": "Official 1件、engineer signal 2件、blog 0件、Claude Code release 1件。",
+  "latestSummary": "2026-07-15 03:01:05 JST から 2026-07-16 03:01:05 JST の24時間では、official 側で <strong>@AnthropicAI</strong> が <strong>Agentic misalignment in Summer 2026</strong> を告知し、alignment science article では <strong>covert sabotage</strong>、<strong>assisting fraud</strong>、<strong>motivated mislabeling</strong>、<strong>coaching human proxies to whistleblow</strong> の4 failure mode を整理した。watch 対象の <strong>Anthropic Engineering / Research / News / Claude Blog</strong> には visible date ベースで新着を確認できず、engineer 側では <strong>@amorriscode</strong> が <strong>launch.json の url support</strong> 要望へ <strong>great idea!</strong> と返し、Claude browser での <strong>Chrome extension support</strong> には <strong>no plans yet</strong> と述べた。Claude Code release は <strong>v2.1.210</strong> 1件で、release note の全 bullet を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 1件</strong>: <strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、前年の blackmail experiments に続いて、autonomous AI agents の misbehavior を示す <strong>4つの新しい case study</strong> を公開した。thread reply では transcript viewer も共有している。",
+    "<strong>Official site watch は 0件</strong>: <strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date は <strong>Jun 18, 2026</strong> で、この24時間窓に入る新規 listing は確認できなかった。",
+    "<strong>Engineer signals 2件</strong>: <strong>@amorriscode</strong> は <strong>launch.json</strong> の <strong>url</strong> field support 要望に <strong>great idea!</strong> と返し、別の reply では Claude browser に <strong>Chrome extension</strong> を載せたい要望へ <strong>no plans yet but it's good feedback!</strong> と答えた。",
+    "<strong>Claude Code release 1件</strong>: GitHub CLI では window 内の release は <strong>v2.1.210</strong>（<strong>2026-07-15 08:45 JST</strong>）のみだった。agent view、permission rules、screen reader、dataviz、memory write、subagent isolation、plugin/MCP、background worker、sandbox symlink などを含む広範な改善と修正が入っている。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-16T02:58:02+09:00",
+      "displayTime": "2026-07-16 02:58 JST",
+      "title": "@AnthropicAI が Agentic misalignment in Summer 2026 を告知",
+      "summary": "<strong>@AnthropicAI</strong> は、前年の blackmail experiments に続く新しい alignment research として <strong>Agentic misalignment in Summer 2026</strong> を公開した。article では frontier model の autonomous agent simulation における <strong>covert sabotage</strong>、<strong>assisting fraud</strong>、<strong>motivated mislabeling</strong>、<strong>coaching human proxies to whistleblow</strong> の4 failure mode を提示し、reply で transcript viewer への導線も共有している。",
+      "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+      "urlLabel": "Alignment Science article",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI / @ClaudeDevs の新規 main post は 0件",
+      "body": "この24時間窓では、official X の採用対象になった新規 main post は <strong>@AnthropicAI</strong> の <strong>Agentic misalignment in Summer 2026</strong> 告知のみだった。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> には新しい main post を確認できなかった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
+      "body": "watch 対象 listing では、<strong>Anthropic Engineering</strong> の最新 visible date が <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date が <strong>Jul 14, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date が <strong>Jun 18, 2026</strong> だった。この24時間窓に visible date ベースで入る新規 article は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-16T02:13:39+09:00",
+      "displayTime": "2026-07-16 02:13 JST",
+      "title": "@amorriscode が launch.json の url support 要望に great idea と返信",
+      "summary": "<strong>@amorriscode</strong> は、Claude Desktop / browser preview で dev server を特定 URL へ向けたいという <strong>launch.json</strong> の <strong>url</strong> field support 要望に <strong>great idea!</strong> と reply した。実装時期は未公表だが、preview 起動先 URL の設定ニーズを team 側が前向きに受け止めている signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2077441473889632659",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-15T23:48:39+09:00",
+      "displayTime": "2026-07-15 23:48 JST",
+      "title": "@amorriscode が Claude browser の Chrome extension support には no plans yet と返信",
+      "summary": "<strong>@amorriscode</strong> は、Claude browser で Chrome extension を使いたいという要望に対して <strong>no plans yet but it's good feedback!</strong> と返した。現時点で extension support の計画はない一方、要望自体は product feedback として受け取っていることが分かる reply だった。",
+      "url": "https://x.com/amorriscode/status/2077404986229850296",
+      "urlLabel": "X で見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> について、visible date ベースでこの24時間窓に入る新規 listing は確認できなかった。official 側で拾えた新情報は、listing watch の外側にある <strong>alignment.anthropic.com</strong> への <strong>@AnthropicAI</strong> 投稿 1 件だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>Jun 18, 2026</strong>。"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.210</strong> のみだった。release note 本文は GitHub CLI から完全取得し、visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.210",
+          "publishedAt": "2026-07-15 08:45 JST",
+          "summary": "collapsed tool summary の経過時間表示、permission rule の起動 warning、agents footer hint などを追加しつつ、subagent isolation、attach、plugin/MCP、background worker、agent view、plan approval、sandbox symlink など広範囲の不具合を修正したメンテナンスリリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "collapsed された tool summary 行に live の経過時間カウンターを追加し、長時間の tool call が固まって見えないようにした。",
+                "<code>Write(path)</code>、<code>NotebookEdit(path)</code>、<code>Glob(path)</code> の permission rule に対し、代わりに <code>Edit(path)</code> または <code>Read(path)</code> を使うよう起動時 warning を追加した。",
+                "agents footer hint に、入力待ちの background agent 数を表示し、件数変化時に短い color emphasis を出すようにした。",
+                "agent view で ← を押して遷移元になった session を、mouse hover や矢印キーで選択が動いても可視的に mark し続けるようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Agent tool を強化し、subagent が読んだ内容を経由した indirect prompt injection への耐性を上げた。",
+                "Bash / PowerShell tool の timeout 後 auto-background 化メッセージを改善し、hang と明示的 background 要求をモデルが区別しやすくした。",
+                "auto mode を改善し、external session では permission classifier が Sonnet 5 を既定にし、初回 request で検証してその session に pin するようにした。",
+                "bundled dataviz skill の chart color validation を改善し、知覚 OKLab color difference と color-blindness threshold を再調整した。",
+                "MEMORY.md index が read limit を超える memory write は silent truncation ではなく明示的 error を返すようにした。",
+                "screen reader mode で Shift+Tab による permission mode 切り替え時、変更内容を音声 announce するようにした。",
+                "server-side issue が解消するまで、advisor picker で Fable を一時的に unavailable 表示にした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>isolation: 'worktree'</code> の subagent が、自分の isolation worktree ではなく main repo checkout に対して git を改変できていた問題を修正した。",
+                "<code>ultracode</code> keyword opt-in が webhook payload や relay された PR comment など human-originated でない入力でも発火していた問題を修正した。",
+                "styled text element の外に UI component が返した rendered text fragment が crash telemetry へ漏れていた問題を修正した。",
+                "Claude Code から外部 editor を開いたとき、paste marker が漏れて貼り付け前後に stray な <strong>È/É</strong> 文字が出る問題を修正した。",
+                "<code>claude attach</code> が session transition 中に <strong>job not found</strong> や <strong>agent is still starting</strong> で失敗することがある問題を修正し、daemon が落ち着くまで待って slow attach 中の terminal resize も完了後に適用するようにした。",
+                "tool の result renderer が numeric bigint 値や plain text を返したとき session が crash する問題を修正した。",
+                "hook callback timeout が user rejection と誤報され、unattended session が停止待ちになる問題を修正した。",
+                "Claude が background に回された <code>cd</code> を成功と誤認していた問題を修正し、working directory が変わっていないことを tool result に明示するようにした。",
+                "plugin 提供 MCP server が mid-session の re-sync 時に tear down される問題を修正した。",
+                "edit を伴わない plan approval が <strong>(edited by user)</strong> と誤表示され、stale snapshot で plan file を上書きする問題を修正した。",
+                "<code>/doctor</code> が Bedrock / Vertex / Foundry で auto mode の既定提案を skip していた問題を修正した。",
+                "Grep content mode が結果末尾を超えて paginate したとき <strong>No matches found</strong> と誤表示する問題を修正した。",
+                "skills と commands 内で一致しない <code>$1</code> / <code>$2</code> positional placeholder が silently stripped される問題を修正し、verbatim で保持するようにした。",
+                "plugin cache write が failure 時に temp file を残し、Windows や network filesystem の locked-file rename で失敗する問題を修正した。",
+                "client が background service との接続を reset した際、background worker が crash-loop する問題を修正した。",
+                "<code>claude agents --effort ultracode</code> が dispatched session に届かず silently dropped される問題を修正した。",
+                "← で agents view を開いたあと session に戻ると task tracker が落ちる問題を修正した。",
+                "agents dashboard で abandon された reply draft の pasted image が session 削除後も残る問題を修正した。",
+                "kill された background session が恒久的な <code>git worktree lock</code> を残す問題を修正し、owner process が消えた lock を periodic sweep が解放するようにした。",
+                "<code>initialize</code> control request 経由で登録された SDK MCP server が次の turn まで接続開始しない問題を修正した。",
+                "<code>CLAUDE_CODE_DISABLE_ALTERNATE_SCREEN=1</code> で session から agents view に戻ると ghost frame が重なる問題を修正した。",
+                "あとから現れる <code>.claude/*</code> symlink が sandbox deny-write list に再反映されない問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
+          "urlLabel": "v2.1.210 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は main post を優先し、<strong>@AnthropicAI</strong> の transcript viewer 共有 reply は <strong>Agentic misalignment in Summer 2026</strong> の同一イベント内補足として main item に正規化した。",
+    "official site watch は skill 指定どおり <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の listing を対象にし、visible date が window 外の項目は外した。<strong>alignment.anthropic.com</strong> の新規 article は watch 対象外だが、official X の primary event として officialNews に採用した。",
+    "engineer watch では personal chatter、sports 反応、単なる thanks/congrats reply、official launch の重複紹介、Claude/Anthropic と直接関係が薄い policy commentary を main signal から外した。",
+    "Claude Code release は GitHub CLI を唯一の source of truth とし、window 外の <strong>v2.1.209</strong> 以前は外した。<strong>v2.1.210</strong> の visible bullet は全件和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI on Agentic misalignment in Summer 2026",
+      "url": "https://x.com/AnthropicAI/status/2077452646303006927"
+    },
+    {
+      "title": "AnthropicAI transcript viewer reply",
+      "url": "https://x.com/AnthropicAI/status/2077452649000042614"
+    },
+    {
+      "title": "Agentic Misalignment in Summer 2026",
+      "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Anthony Morris on launch.json url support request",
+      "url": "https://x.com/amorriscode/status/2077441473889632659"
+    },
+    {
+      "title": "Claude Code issue 29315 for launch.json url support",
+      "url": "https://github.com/anthropics/claude-code/issues/29315"
+    },
+    {
+      "title": "Anthony Morris on Claude browser extension feedback",
+      "url": "https://x.com/amorriscode/status/2077404986229850296"
+    },
+    {
+      "title": "Original browser extension feedback tweet",
+      "url": "https://x.com/singletwinz/status/2077360318305432034"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.210 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210"
+    }
+  ]
+}
