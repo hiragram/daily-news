@@ -1,13 +1,13 @@
 {
   "date": "2026-07-16",
-  "windowLabel": "2026-07-15 15:00:42 JST - 2026-07-16 15:00:42 JST",
+  "windowLabel": "2026-07-15 21:01:42 JST - 2026-07-16 21:01:42 JST",
   "archiveTitle": "Rate limits, MCP artifacts, and Claude Code v2.1.211",
-  "archiveSummary": "Official 4件、engineer signal 3件、Claude Code release 1件。",
-  "latestSummary": "2026-07-15 15:00:42 JST から 2026-07-16 15:00:42 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が全 user の <strong>5-hour / weekly rate limits reset</strong> を告知し、さらに <strong>Claude Code artifacts</strong> から viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと案内した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、official site watch では <strong>Claude Blog</strong> に <strong>Base44</strong> の Fable 5 活用事例が 1 件追加され、<strong>Anthropic Engineering / Research / News</strong> の listing 新着はなかった。engineer 側では <strong>@amorriscode</strong> が <strong>launch.json の url support</strong> 要望を前向きに受け止め、別の reply では Claude browser の <strong>Chrome extension support</strong> には現時点で plan がないと明言した。Claude Code release は <strong>v2.1.211</strong> 1件で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 1件。",
+  "latestSummary": "2026-07-15 21:01:42 JST から 2026-07-16 21:01:42 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が全 user の <strong>5-hour / weekly rate limits reset</strong> を告知し、さらに <strong>Claude Code artifacts</strong> から viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと案内した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、official site watch では <strong>Claude Blog</strong> に <strong>Base44</strong> の Fable 5 活用事例が 1 件追加された。engineer 側では <strong>@trq212</strong> が <strong>thin prompts / thick artifacts + context / thin skills</strong> を理想形として示し、reply で skills が動的に読み込まれることと <strong>skill.MD は大きすぎない方がよい</strong> と補足した。既存の product signal として <strong>@amorriscode</strong> は <strong>launch.json の url support</strong> 要望を前向きに受け止め、Claude browser の <strong>Chrome extension support</strong> には現時点で plan がないと明言した。Claude Code release は <strong>v2.1.211</strong> 1件で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official X 3件</strong>: <strong>@ClaudeDevs</strong> は全 user の <strong>5-hour / weekly rate limits</strong> を reset したと告知し、別ポストでは <strong>Claude Code artifacts</strong> が viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと発表した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、autonomous AI agents の <strong>4つの misbehavior case</strong> と transcript viewer を共有した。",
     "<strong>Official site 1件</strong>: <strong>Claude Blog</strong> には <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> が <strong>July 15, 2026</strong> で追加された。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。",
-    "<strong>Engineer signals 3件</strong>: <strong>@amorriscode</strong> は <strong>launch.json</strong> の <strong>url</strong> field support 要望に <strong>great idea!</strong> と返し、Claude browser での <strong>Chrome extension support</strong> には <strong>no plans yet but it’s good feedback!</strong> と述べた。<strong>@jarredsumner</strong> は、human merge の前段に <strong>Claude reviewer</strong> と low-blast-radius 判定を置く自動 merge フローを展望しつつ、現状は <strong>CI と code review rules が十分ではない</strong> と補足した。",
+    "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は理想的な prompting を <strong>thin prompts / thick artifacts + context / thin skills</strong> と述べ、reply で skills は動的に読み込まれ、<strong>skill.MD は大きすぎない方がよい</strong> と補足した。<strong>@amorriscode</strong> は <strong>launch.json</strong> の <strong>url</strong> field support 要望に <strong>great idea!</strong> と返し、Claude browser での <strong>Chrome extension support</strong> には <strong>no plans yet but it’s good feedback!</strong> と述べた。<strong>@jarredsumner</strong> は、human merge の前段に <strong>Claude reviewer</strong> と low-blast-radius 判定を置く auto-merge フローを展望しつつ、現状は <strong>CI と code review rules が十分ではない</strong> と補足した。",
     "<strong>Claude Code release 1件</strong>: release page 上で window 内の新規 release は <strong>v2.1.211</strong>（<strong>2026-07-16 08:02 JST</strong>）のみだった。<strong>subagent text forwarding</strong> の追加に加え、permissions、auto mode、plugin MCP reconnect、background agents、Claude in Chrome、Windows、Bedrock / Vertex / Foundry など広範囲の修正と運用改善が入っている。"
   ],
   "officialNews": [
@@ -62,6 +62,16 @@
     }
   ],
   "signals": [
+    {
+      "label": "Engineer X",
+      "datetime": "2026-07-16T08:43:19+09:00",
+      "displayTime": "2026-07-16 08:43 JST",
+      "title": "@trq212 が thin prompts / thick artifacts + context / thin skills を提示",
+      "summary": "<strong>@trq212</strong> は、理想的な prompting を <strong>thin prompts</strong>、<strong>thick artifacts + context</strong>、<strong>thin skills</strong> の組み合わせだと述べた。reply では、skills は必要時に動的ロードされるため model には通常 <strong>name</strong> と <strong>when to fire it</strong> だけが見えること、さらに scripts や progressive disclosure が有効である一方で多くの <strong>skill.MD</strong> は大きすぎると補足しており、Claude / Codex 系の skill 設計方針を示す product-adjacent signal として採用した。",
+      "url": "https://x.com/trq212/status/2077539537992229076",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
     {
       "label": "Engineer X",
       "datetime": "2026-07-16T06:37:30+09:00",
@@ -179,7 +189,7 @@
   "exclusions": [
     "official X は main post を優先し、<strong>@AnthropicAI</strong> の transcript viewer reply と <strong>@ClaudeDevs</strong> の product-detail reply はそれぞれ同一イベント内の補足として main item に正規化した。運用告知の <strong>rate limit reset</strong> は独立イベントとして残した。",
     "official site watch は skill 指定どおり <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の listing を対象にし、listing 外の official page は blog panel へは含めなかった。<strong>alignment.anthropic.com</strong> の article は official X event の primary source としてのみ採用した。",
-    "engineer watch では personal chatter、単なる congratulations / thanks reply、official launch の重複紹介、Claude / Anthropic と直接関係が薄い一般論は main signal から外した。",
+    "engineer watch では personal chatter、単なる congratulations / thanks reply、official launch の重複紹介、Claude / Anthropic と直接関係が薄い一般論は main signal から外した。<strong>@trq212</strong> の skills / prompting thread は Claude 系 product design への示唆が具体的だったため採用した。",
     "Claude Code release panel には window 内の <strong>v2.1.211</strong> のみを残し、window 外に出た <strong>v2.1.210</strong> 以前は除外した。visible bullet は全件和訳して分類した。"
   ],
   "sources": [
@@ -242,6 +252,18 @@
     {
       "title": "Jarred Sumner on automated crash-fix PR ownership",
       "url": "https://x.com/jarredsumner/status/2077507876516667475"
+    },
+    {
+      "title": "Thariq on thin prompts and thin skills",
+      "url": "https://x.com/trq212/status/2077539537992229076"
+    },
+    {
+      "title": "Thariq on dynamic skill loading",
+      "url": "https://x.com/trq212/status/2077546071279177849"
+    },
+    {
+      "title": "Thariq on oversized skill.MD files",
+      "url": "https://x.com/trq212/status/2077580196065198224"
     },
     {
       "title": "Claude Code releases",
