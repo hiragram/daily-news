@@ -1,12 +1,12 @@
 {
   "date": "2026-07-16",
   "windowLabel": "2026-07-15 21:01:42 JST - 2026-07-16 21:01:42 JST",
-  "archiveTitle": "Rate limits, MCP artifacts, and Claude Code v2.1.211",
-  "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 1件。",
-  "latestSummary": "2026-07-15 21:01:42 JST から 2026-07-16 21:01:42 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が全 user の <strong>5-hour / weekly rate limits reset</strong> を告知し、さらに <strong>Claude Code artifacts</strong> から viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと案内した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、official site watch では <strong>Claude Blog</strong> に <strong>Base44</strong> の Fable 5 活用事例が 1 件追加された。engineer 側では <strong>@trq212</strong> が <strong>thin prompts / thick artifacts + context / thin skills</strong> を理想形として示し、reply で skills が動的に読み込まれることと <strong>skill.MD は大きすぎない方がよい</strong> と補足した。既存の product signal として <strong>@amorriscode</strong> は <strong>launch.json の url support</strong> 要望を前向きに受け止め、Claude browser の <strong>Chrome extension support</strong> には現時点で plan がないと明言した。Claude Code release は <strong>v2.1.211</strong> 1件で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "archiveTitle": "MCP artifacts, fresh blog posts, and Claude Code v2.1.211",
+  "archiveSummary": "Official 6件、engineer signal 4件、Claude Code release 1件。",
+  "latestSummary": "2026-07-15 21:01:42 JST から 2026-07-16 21:01:42 JST の24時間では、official 側で <strong>@ClaudeDevs</strong> が全 user の <strong>5-hour / weekly rate limits reset</strong> を告知し、さらに <strong>Claude Code artifacts</strong> から viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと案内した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、official site watch では <strong>Claude Blog</strong> に <strong>Jul 16, 2026</strong> の新規記事 2 本と <strong>Jul 15, 2026</strong> の <strong>Base44</strong> 事例を確認した。engineer 側では <strong>@trq212</strong> が <strong>thin prompts / thick artifacts + context / thin skills</strong> を理想形として示し、reply で skills が動的に読み込まれることと <strong>skill.MD は大きすぎない方がよい</strong> と補足した。既存の product signal として <strong>@amorriscode</strong> は <strong>launch.json の url support</strong> 要望を前向きに受け止め、Claude browser の <strong>Chrome extension support</strong> には現時点で plan がないと明言した。Claude Code release は <strong>v2.1.211</strong> 1件で、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
     "<strong>Official X 3件</strong>: <strong>@ClaudeDevs</strong> は全 user の <strong>5-hour / weekly rate limits</strong> を reset したと告知し、別ポストでは <strong>Claude Code artifacts</strong> が viewer ごとの <strong>MCP connectors</strong> を呼べるようになったと発表した。<strong>@AnthropicAI</strong> は <strong>Agentic misalignment in Summer 2026</strong> を告知し、autonomous AI agents の <strong>4つの misbehavior case</strong> と transcript viewer を共有した。",
-    "<strong>Official site 1件</strong>: <strong>Claude Blog</strong> には <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> が <strong>July 15, 2026</strong> で追加された。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。",
+    "<strong>Official site 3件</strong>: <strong>Claude Blog</strong> には <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> がともに <strong>Jul 16, 2026</strong> で並び、さらに <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> が <strong>Jul 15, 2026</strong> で残っていた。<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。",
     "<strong>Engineer signals 4件</strong>: <strong>@trq212</strong> は理想的な prompting を <strong>thin prompts / thick artifacts + context / thin skills</strong> と述べ、reply で skills は動的に読み込まれ、<strong>skill.MD は大きすぎない方がよい</strong> と補足した。<strong>@amorriscode</strong> は <strong>launch.json</strong> の <strong>url</strong> field support 要望に <strong>great idea!</strong> と返し、Claude browser での <strong>Chrome extension support</strong> には <strong>no plans yet but it’s good feedback!</strong> と述べた。<strong>@jarredsumner</strong> は、human merge の前段に <strong>Claude reviewer</strong> と low-blast-radius 判定を置く auto-merge フローを展望しつつ、現状は <strong>CI と code review rules が十分ではない</strong> と補足した。",
     "<strong>Claude Code release 1件</strong>: release page 上で window 内の新規 release は <strong>v2.1.211</strong>（<strong>2026-07-16 08:02 JST</strong>）のみだった。<strong>subagent text forwarding</strong> の追加に加え、permissions、auto mode、plugin MCP reconnect、background agents、Claude in Chrome、Windows、Bedrock / Vertex / Foundry など広範囲の修正と運用改善が入っている。"
   ],
@@ -43,6 +43,24 @@
     },
     {
       "label": "Official site",
+      "datetime": "2026-07-16T00:00:00+09:00",
+      "displayTime": "2026-07-16",
+      "title": "Claude Blog が Claude Code の大規模 code migration 実例を公開",
+      "summary": "<strong>Claude Blog</strong> は <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> を公開した。article page では、AI agent を使う large code migration の step-by-step guide として、<strong>Bun の Zig-to-Rust 移行</strong> や Anthropic 内部の Python-to-TypeScript 移行を題材に、<strong>dynamic workflows</strong> や verification loop をどう組むかを解説している。",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-16T00:00:00+09:00",
+      "displayTime": "2026-07-16",
+      "title": "Claude Blog が Claude Cowork での Fable 5 活用記事を掲載",
+      "summary": "<strong>Claude Blog</strong> には <strong>Working with Claude Fable 5 in Claude Cowork</strong> が <strong>Jul 16, 2026</strong> の新規 entry として掲載された。取得できた official listing では <strong>Enterprise AI</strong> の記事として並んでおり、Claude Cowork 上で <strong>Claude Fable 5</strong> を使う実務的な運用テーマを扱う新着として採用した。",
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "label": "Official site",
       "datetime": "2026-07-15T00:00:00+09:00",
       "displayTime": "2026-07-15",
       "title": "Claude Blog が Base44 の Claude Fable 5 活用事例を公開",
@@ -58,7 +76,7 @@
     },
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> だった。official site watch でこの窓に入った新規 listing は <strong>Claude Blog</strong> の Base44 記事 1 件のみだった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> だった。official site watch でこの窓に入った新規 listing は <strong>Claude Blog</strong> の 3 件のみだった。"
     }
   ],
   "signals": [
@@ -104,9 +122,11 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Claude Blog 1件",
-      "body": "watch 対象の official site listing でこの24時間窓に入った新規記事は、<strong>Claude Blog</strong> の <strong>Base44</strong> 事例 1 件のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
+      "headline": "Claude Blog 3件",
+      "body": "watch 対象の official site listing でこの24時間窓に入った新規記事は、<strong>Claude Blog</strong> の <strong>Jul 16, 2026</strong> 記事 2 件と <strong>Jul 15, 2026</strong> の <strong>Base44</strong> 事例の合計 3 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
       "details": [
+        "<strong>Claude Blog</strong>: <strong>How Anthropic runs large-scale code migrations with Claude Code</strong>（<strong>Jul 16, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working with Claude Fable 5 in Claude Cowork</strong>（<strong>Jul 16, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong>（<strong>Jul 15, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
@@ -174,7 +194,7 @@
                 "terminal layout と rendering performance を改善した。",
                 "Claude in Chrome の file-upload path validation を強化した。",
                 "Claude in Chrome の screenshot action にある <code>save_to_disk</code> が何もせず終わっていた問題を修正し、実際に image を disk に書き出して path を返すようにした。",
-                "Bedrock、Vertex、Mantle、Foundry で prompt caching が regress し、末尾の system context block が毎回 fresh input token として課金されていた問題を修正した."
+                "Bedrock、Vertex、Mantle、Foundry で prompt caching が regress し、末尾の system context block が毎回 fresh input token として課金されていた問題を修正した。"
               ]
             }
           ],
@@ -232,6 +252,14 @@
     {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: How Anthropic runs large-scale code migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration"
+    },
+    {
+      "title": "Claude Blog: Working with Claude Fable 5 in Claude Cowork",
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork"
     },
     {
       "title": "Claude Blog: Base44 trusts Claude Fable 5",
