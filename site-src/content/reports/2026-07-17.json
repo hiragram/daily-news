@@ -1,22 +1,32 @@
 {
   "date": "2026-07-17",
-  "windowLabel": "2026-07-16 15:01:49 JST - 2026-07-17 15:01:49 JST",
-  "archiveTitle": "Code migration guides and Claude Code v2.1.212",
-  "archiveSummary": "Official 2件、Claude Code release 1件、X signal は新規採用 0件。",
-  "latestSummary": "2026-07-16 15:01:49 JST から 2026-07-17 15:01:49 JST の24時間では、official site 側で <strong>Claude Blog</strong> に <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> の 2 本が並んだ。前者は <strong>Bun の Zig-to-Rust 移行</strong> と Anthropic 内部の <strong>Python-to-TypeScript 移行</strong> を題材に large-scale migration の進め方を整理し、後者は <strong>Claude Fable 5</strong> を <strong>Claude Cowork</strong> で使う実務パターンをまとめている。Claude Code では新規 release <strong>v2.1.212</strong> が <strong>2026-07-17 09:26 JST</strong> に publish され、<code>/fork</code> の background session 化、auto mode reset、WebSearch / subagent 上限、MCP tool call の auto-background 化などの新機能に加え、<code>/ultrareview</code>、plan mode、worktree、Windows background daemon、Remote Control、web search reliability など広範囲の修正と改善が入った。",
+  "windowLabel": "2026-07-16 21:02:00 JST - 2026-07-17 21:02:00 JST",
+  "archiveTitle": "ClaudeDevs review thread, Fable 5 guides, and Claude Code v2.1.212",
+  "archiveSummary": "Official 3件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-07-16 21:02:00 JST から 2026-07-17 21:02:00 JST の24時間では、official 側は <strong>@ClaudeDevs</strong> が <code>/code-review</code> の effort levels と <code>/code-review ultra</code> を thread で案内し、<strong>Claude Blog</strong> には <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> の 2 本が残った。engineer signal では <strong>@bcherny</strong> が <strong>Steps of AI Adoption</strong> thread で、Claude 導入を進めるには token だけでなく guardrails、auto mode、automated review、multi-agent interface が必要だと整理した。Claude Code では <strong>v2.1.212</strong> がこの window 内に入り、<code>/fork</code> の background session 化、<code>claude auto-mode reset</code>、session 単位の <strong>WebSearch / subagent 上限</strong>、<strong>MCP tool call の auto-background</strong> 追加と、plan mode、worktree、Windows background daemon、<code>/ultrareview</code>、Remote Control、web search / fetch reliability の広範な改善を含んでいる。",
   "summaryBullets": [
-    "<strong>Official site 2件</strong>: <strong>Claude Blog</strong> では <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> がともに <strong>July 16, 2026</strong> で掲載された。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> の current listing には window 内新着を確認できなかった。",
-    "<strong>Code migration guide</strong>: migration 記事は、Anthropic 内で直近 1 か月に 10 packages を <strong>Claude Fable 5</strong>、<strong>Claude Opus 4.8</strong>、<strong>dynamic workflows</strong> で移行したと述べ、<strong>Bun</strong> の <strong>100万行規模 Zig-to-Rust port</strong> と、Anthropic 内部の <strong>16.5万行 Python-to-TypeScript port</strong> を事例に、process / verification loop を先に設計するやり方を説明している。",
-    "<strong>Cowork guide</strong>: Fable 5 記事は、<strong>Claude Sonnet 5</strong> を日常タスク、<strong>Claude Opus</strong> を形の見えた深い仕事、<strong>Claude Fable 5</strong> を曖昧で複雑な long-running work に使い分けると整理し、Cowork では default model ではないため明示選択が必要だと案内している。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.212</strong> は <strong>2026-07-17 09:26 JST</strong> に公開された。<code>/fork</code> を background session ベースへ改め、<code>claude auto-mode reset</code>、session 単位の <strong>WebSearch / subagent spawn 上限</strong>、<strong>MCP tool call の 2 分後 auto-background</strong> を追加し、さらに <code>/ultrareview</code>、plan mode の権限昇格、symlink worktree、Windows daemon、Remote Control、web search / fetch overload handling を含む多数の修正が入った。"
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>2026-07-17 04:37 JST</strong> に、<code>/code-review</code> が effort level ごとに review strategy を変えること、<strong>low / medium / high / x-high / ultra</strong> の役割差、<code>/code-review ultra</code> が reviewer agents で finding を独立再現することを thread で説明した。",
+    "<strong>Official blog 2件</strong>: <strong>Claude Blog</strong> の visible publication date では、<strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> がともに <strong>July 16, 2026</strong>。前者は large-scale migration の手順、後者は <strong>Claude Fable 5</strong> の実務向け使い分けを扱う。",
+    "<strong>Engineer signal 1件</strong>: <strong>@bcherny</strong> は <strong>2026-07-17 10:32 JST</strong> の thread で、組織の AI 導入は 4 steps で進み、次段階へ行くには token 追加だけでなく bottleneck 分解と guardrail 構築が必要だと述べ、<strong>auto mode</strong>、<strong>automated code review / security review</strong>、<strong>Agent view</strong> などの multi-agent interface を具体例に挙げた。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.212</strong> は <strong>2026-07-17 09:26 JST</strong> に公開済みで、visible release note の bullet をすべて和訳し、<strong>新機能 / 変更 / 修正</strong> に分けて保持した。"
   ],
   "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-17T04:37:28+09:00",
+      "displayTime": "2026-07-17 04:37 JST",
+      "title": "@ClaudeDevs が /code-review effort levels と ultra review を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<code>/code-review</code> が effort level ごとに review strategy を切り替えるようになったと説明した。thread では、<strong>low</strong> は diff の single pass、<strong>medium</strong> は changed code を文脈付きで読みながら multi-pass finder と verification を回す形、<strong>high</strong> と <strong>x-high</strong> は subagent に fresh context を与えて recall を上げる形だと整理し、さらに <code>/code-review ultra</code> は reviewer agents を並列に走らせて finding を独立再現し、Anthropic では全 PR に回していると述べた。",
+      "url": "https://x.com/ClaudeDevs/status/2077840057130692886",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    },
     {
       "label": "Official site",
       "datetime": "2026-07-16T00:00:00+09:00",
       "displayTime": "2026-07-16",
       "title": "Claude Blog が Claude Code による大規模コード移行ガイドを公開",
-      "summary": "<strong>How Anthropic runs large-scale code migrations with Claude Code</strong> は、AI agent を使う大規模 code migration の進め方をまとめた guide。本文では、Anthropic 内でこの 1 か月に <strong>10 packages</strong> を移行したと述べ、<strong>Bun</strong> の <strong>100万行規模 Zig-to-Rust port</strong> を <strong>2 週間未満</strong>で仕上げて既存 test suite を merge 前にすべて通した事例と、Anthropic 内部の <strong>16.5万行 Python-to-TypeScript port</strong> を週末で進めた事例を紹介し、<strong>\"コードではなく、そのコードを作る loop を直す\"</strong> という原則を打ち出している。",
+      "summary": "<strong>How Anthropic runs large-scale code migrations with Claude Code</strong> は、AI agent を使う大規模 code migration の進め方をまとめた guide。本文では、Anthropic 内でこの 1 か月に <strong>10 packages</strong> を移行したと述べ、<strong>Bun</strong> の <strong>100万行規模 Zig-to-Rust port</strong> を <strong>2 週間未満</strong>で仕上げて既存 test suite を merge 前にすべて通した事例と、Anthropic 内部の <strong>16.5万行 Python-to-TypeScript port</strong> を週末で進めた事例を紹介し、<strong>「コードではなく、そのコードを作る loop を直す」</strong> という原則を打ち出している。",
       "url": "https://claude.com/blog/ai-code-migration",
       "urlLabel": "Claude Blog 記事",
       "primary": true
@@ -34,15 +44,25 @@
   ],
   "officialZeroStates": [
     {
-      "label": "Official X の新規採用は 0件",
-      "body": "この実行では official site と GitHub Releases を primary source に採用した。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> について、report に新規採用する official X item は追加していない。"
+      "label": "@AnthropicAI / @ClaudeAI の新規採用は 0件",
+      "body": "この24時間窓で official X として採用した新規 post は <strong>@ClaudeDevs</strong> thread のみだった。<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> については、report 本文に載せる新規 in-window item を追加していない。"
     },
     {
       "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。official site watch で window 内に入った新規 listing は <strong>Claude Blog</strong> の 2 件のみだった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。official site watch で window 内に採用したのは <strong>Claude Blog</strong> の 2 件のみ。"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-17T10:32:24+09:00",
+      "displayTime": "2026-07-17 10:32 JST",
+      "title": "@bcherny が AI 導入の 4-step adoption model を共有",
+      "summary": "<strong>@bcherny</strong> は <strong>Steps of AI Adoption</strong> thread で、組織の AI 導入は一部の 10x 利用者から全体最適へ段階的に進み、次の段階へ行くには token の追加だけでは足りず、bottleneck の分解と guardrail の構築が要ると説明した。reply では、Claude に end-to-end verification 手段を与え、<strong>auto mode</strong> を permission に使い、<strong>automated code review / security review</strong> を default にし、<strong>Agent view</strong> や Desktop / iOS app のような multi-agent interface を使うことを具体策として挙げている。",
+      "url": "https://x.com/bcherny/status/2077929379661844559",
+      "urlLabel": "@bcherny thread"
+    }
+  ],
   "releasePanels": [
     {
       "title": "ブログ",
@@ -61,7 +81,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub Releases page で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.212</strong> のみだった。visible release note の bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.212</strong> で、visible release note の bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
       "releases": [
         {
           "version": "v2.1.212",
@@ -76,7 +96,7 @@
                 "session 全体での <strong>WebSearch</strong> tool call 上限を追加した。既定は <strong>200</strong> 回で、<code>CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION</code> で調整できる。",
                 "session ごとの <strong>subagent spawn</strong> 上限を追加した。既定は <strong>200</strong> 回で、<code>CLAUDE_CODE_MAX_SUBAGENTS_PER_SESSION</code> で上書きでき、<code>/clear</code> で予算を reset する。",
                 "2 分を超えて走る MCP tool call は自動で background へ移し、session 本体を使い続けられるようにした。閾値の変更や無効化は <code>CLAUDE_CODE_MCP_AUTO_BACKGROUND_MS</code> で行う。",
-                "agent view で <code>/resume</code> を打つと、一覧から消した session を含む past sessions の picker を開き、選んだ session を background session として resume できるようにした."
+                "agent view で <code>/resume</code> を打つと、一覧から消した session を含む past sessions の picker を開き、選んだ session を background session として resume できるようにした。"
               ]
             },
             {
@@ -141,11 +161,27 @@
     }
   ],
   "exclusions": [
-    "official X / engineer X については、この実行では primary source として採用できる新規 item を report に追加していない。site 更新は official site listing と GitHub Releases を中心に構成した。",
-    "<strong>Claude Blog</strong> の <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> は visible date が <strong>July 15, 2026</strong> のため、今回 window 開始 <strong>2026-07-16 15:01:49 JST</strong> より前として外した。",
+    "engineer X は監視対象から 37 post を走査したが、report 本文には Claude や導入設計に直接つながる <strong>@bcherny</strong> thread のみを採用した。雑談、映画、一般返信、単発リアクションは外した。",
+    "<strong>Claude Blog</strong> の <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> は visible date が <strong>July 15, 2026</strong> のため、今回 window 開始 <strong>2026-07-16 21:02:00 JST</strong> より前として外した。",
     "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.212</strong> のみを残し、前日分の <strong>v2.1.211</strong> 以前は外した。visible bullet は全件和訳して分類した。"
   ],
   "sources": [
+    {
+      "title": "ClaudeDevs thread",
+      "url": "https://x.com/ClaudeDevs/status/2077840057130692886"
+    },
+    {
+      "title": "ClaudeDevs ultrareview reply",
+      "url": "https://x.com/ClaudeDevs/status/2077840062163869888"
+    },
+    {
+      "title": "Boris Cherny AI adoption thread",
+      "url": "https://x.com/bcherny/status/2077929379661844559"
+    },
+    {
+      "title": "Boris Cherny AI adoption follow-up",
+      "url": "https://x.com/bcherny/status/2077929390806073807"
+    },
     {
       "title": "Anthropic Engineering listing",
       "url": "https://www.anthropic.com/engineering"
