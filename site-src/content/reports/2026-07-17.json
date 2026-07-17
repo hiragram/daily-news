@@ -1,0 +1,182 @@
+{
+  "date": "2026-07-17",
+  "windowLabel": "2026-07-16 15:01:49 JST - 2026-07-17 15:01:49 JST",
+  "archiveTitle": "Code migration guides and Claude Code v2.1.212",
+  "archiveSummary": "Official 2件、Claude Code release 1件、X signal は新規採用 0件。",
+  "latestSummary": "2026-07-16 15:01:49 JST から 2026-07-17 15:01:49 JST の24時間では、official site 側で <strong>Claude Blog</strong> に <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> の 2 本が並んだ。前者は <strong>Bun の Zig-to-Rust 移行</strong> と Anthropic 内部の <strong>Python-to-TypeScript 移行</strong> を題材に large-scale migration の進め方を整理し、後者は <strong>Claude Fable 5</strong> を <strong>Claude Cowork</strong> で使う実務パターンをまとめている。Claude Code では新規 release <strong>v2.1.212</strong> が <strong>2026-07-17 09:26 JST</strong> に publish され、<code>/fork</code> の background session 化、auto mode reset、WebSearch / subagent 上限、MCP tool call の auto-background 化などの新機能に加え、<code>/ultrareview</code>、plan mode、worktree、Windows background daemon、Remote Control、web search reliability など広範囲の修正と改善が入った。",
+  "summaryBullets": [
+    "<strong>Official site 2件</strong>: <strong>Claude Blog</strong> では <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> がともに <strong>July 16, 2026</strong> で掲載された。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> の current listing には window 内新着を確認できなかった。",
+    "<strong>Code migration guide</strong>: migration 記事は、Anthropic 内で直近 1 か月に 10 packages を <strong>Claude Fable 5</strong>、<strong>Claude Opus 4.8</strong>、<strong>dynamic workflows</strong> で移行したと述べ、<strong>Bun</strong> の <strong>100万行規模 Zig-to-Rust port</strong> と、Anthropic 内部の <strong>16.5万行 Python-to-TypeScript port</strong> を事例に、process / verification loop を先に設計するやり方を説明している。",
+    "<strong>Cowork guide</strong>: Fable 5 記事は、<strong>Claude Sonnet 5</strong> を日常タスク、<strong>Claude Opus</strong> を形の見えた深い仕事、<strong>Claude Fable 5</strong> を曖昧で複雑な long-running work に使い分けると整理し、Cowork では default model ではないため明示選択が必要だと案内している。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.212</strong> は <strong>2026-07-17 09:26 JST</strong> に公開された。<code>/fork</code> を background session ベースへ改め、<code>claude auto-mode reset</code>、session 単位の <strong>WebSearch / subagent spawn 上限</strong>、<strong>MCP tool call の 2 分後 auto-background</strong> を追加し、さらに <code>/ultrareview</code>、plan mode の権限昇格、symlink worktree、Windows daemon、Remote Control、web search / fetch overload handling を含む多数の修正が入った。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official site",
+      "datetime": "2026-07-16T00:00:00+09:00",
+      "displayTime": "2026-07-16",
+      "title": "Claude Blog が Claude Code による大規模コード移行ガイドを公開",
+      "summary": "<strong>How Anthropic runs large-scale code migrations with Claude Code</strong> は、AI agent を使う大規模 code migration の進め方をまとめた guide。本文では、Anthropic 内でこの 1 か月に <strong>10 packages</strong> を移行したと述べ、<strong>Bun</strong> の <strong>100万行規模 Zig-to-Rust port</strong> を <strong>2 週間未満</strong>で仕上げて既存 test suite を merge 前にすべて通した事例と、Anthropic 内部の <strong>16.5万行 Python-to-TypeScript port</strong> を週末で進めた事例を紹介し、<strong>\"コードではなく、そのコードを作る loop を直す\"</strong> という原則を打ち出している。",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "urlLabel": "Claude Blog 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-16T00:00:00+09:00",
+      "displayTime": "2026-07-16",
+      "title": "Claude Blog が Claude Cowork での Fable 5 活用ガイドを公開",
+      "summary": "<strong>Working with Claude Fable 5 in Claude Cowork</strong> は、<strong>Claude Fable 5</strong> を <strong>Claude Cowork</strong> で使う際の model choice と task framing を整理した guide。記事では、publication 時点の default が <strong>Claude Sonnet 5</strong> で、<strong>Claude Opus</strong> は end state が見えている deep work、<strong>Claude Fable 5</strong> は prior model では届きにくかった曖昧で複雑な仕事向けだと位置づけ、Cowork では Fable 5 を明示的に選ぶ必要があると説明している。",
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+      "urlLabel": "Claude Blog 記事",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Official X の新規採用は 0件",
+      "body": "この実行では official site と GitHub Releases を primary source に採用した。<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> について、report に新規採用する official X item は追加していない。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong> のままだった。official site watch で window 内に入った新規 listing は <strong>Claude Blog</strong> の 2 件のみだった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "Claude Blog 2件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Claude Blog</strong> の <strong>July 16, 2026</strong> 記事 2 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
+      "details": [
+        "<strong>Claude Blog</strong>: <strong>How Anthropic runs large-scale code migrations with Claude Code</strong>（<strong>July 16, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working with Claude Fable 5 in Claude Cowork</strong>（<strong>July 16, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub Releases page で確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.212</strong> のみだった。visible release note の bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.212",
+          "publishedAt": "2026-07-17 09:26 JST",
+          "summary": "<code>/fork</code> の background session 化、auto mode reset、WebSearch / subagent 上限、MCP tool の auto-background を追加しつつ、plan mode、worktree、Windows background daemon、<code>/ultrareview</code>、Remote Control、web search / fetch reliability を広く修正した release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/fork</code> は会話を新しい background session にコピーし、その session を <code>claude agents</code> に独立した row として作るようになった。従来の in-session subagent 起動の役割は <code>/subtask</code> に移した。",
+                "<code>claude auto-mode reset</code> を追加し、confirmation prompt 付きで default の auto mode 設定へ戻せるようにした。prompt を省く場合は <code>--yes</code> を使う。",
+                "session 全体での <strong>WebSearch</strong> tool call 上限を追加した。既定は <strong>200</strong> 回で、<code>CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION</code> で調整できる。",
+                "session ごとの <strong>subagent spawn</strong> 上限を追加した。既定は <strong>200</strong> 回で、<code>CLAUDE_CODE_MAX_SUBAGENTS_PER_SESSION</code> で上書きでき、<code>/clear</code> で予算を reset する。",
+                "2 分を超えて走る MCP tool call は自動で background へ移し、session 本体を使い続けられるようにした。閾値の変更や無効化は <code>CLAUDE_CODE_MCP_AUTO_BACKGROUND_MS</code> で行う。",
+                "agent view で <code>/resume</code> を打つと、一覧から消した session を含む past sessions の picker を開き、選んだ session を background session として resume できるようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "web search と web fetch の信頼性を改善し、<code>529</code> errors や rate limit を受けた request を bounded backoff で retry するようにした。",
+                "prompt caching を改善し、会話途中の system block が Bedrock、Vertex、1P などの LLM gateway や custom base URL の背後でも機能するようにした。",
+                "background agent attach を改善し、cold attach 時に session 起動待ちの blank 画面ではなく、整形済み transcript を即座に表示するようにした。",
+                "agent 間 messaging の token 使用量を削減し、<code>SendMessage</code> の本文を replayed history や tool result に重複保存しないようにした。",
+                "<code>/fork</code> は session title が空のとき prompt をコピー先 session 名に使い、agent view で識別しやすくした。",
+                "引数なしの <code>/btw</code> は、もっとも新しい exchange の side-question panel を再度開き、過去の回答を見返せるようにした。",
+                "background agent 完了時に追加入力が不要なら、footer の <code>←</code> hint が一時的に <code>N done</code> と pulse 表示するようにした。",
+                "Task tool の <code>mode</code> parameter は deprecated にし、今後は無視される。subagent は既定で親 session の permission mode を継承する。",
+                "Enterprise の <code>forceLoginMethod</code> は terminal だけでなく、VS Code extension、SDK、<code>setup-token</code>、<code>install-github-app</code> login にも適用するようにした。",
+                "session transcript は assistant message ごとに reasoning effort level を記録するようにした。",
+                "headless / SDK session は、turn の途中でも <code>set_model</code> control request を適用し、次の model round-trip から新 model を使うようにした。",
+                "agent view と <code>claude agents --json</code> では、sandbox、MCP input、managed settings prompt を待っている session を <strong>Working</strong> ではなく <strong>Needs input</strong> と表示するようにした。",
+                "auth status panel の title を <strong>Cloud authentication</strong> から <strong>Authentication</strong> に更新した。",
+                "以前の 2.1.200 release note の誤記を訂正し、tmux 3.6 系までは synchronized output を持たず、対応している新しい tmux だけを自動検出するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "plan mode が file を変更する Bash command（例: <code>touch</code>、<code>rm</code>）を permission prompt や SDK の <code>canUseTool</code> callback なしで自動実行してしまう問題を修正した。",
+                "repository に commit された <code>.claude/worktrees</code> symlink をたどって worktree を作り、repository 外へ file を生成できてしまう問題を修正した。",
+                "<code>continue:false</code> hook の halt が、tool が失敗したり stream 中に完了した場合に落ちてしまい、hook 基盤 error まで user rejection と誤報される問題を修正した。",
+                "print / SDK mode で Bash tool 実行中に <code>SIGTERM</code> を受けると command の process tree が orphan 化する問題を修正し、turn を abort して tree を kill し、exit code <code>143</code> で終了するようにした。",
+                "Windows で Group Policy が PowerShell 5.1 を禁止していると <code>/background</code> と <code>claude --bg</code> が <code>EUNKNOWN: unknown error, uv_spawn</code> で失敗する問題を修正し、daemon が PowerShell 7 を優先するようにした。",
+                "shell mode（<code>!</code>）で path autocomplete popup が開いている間、file path を含む command を実行できない問題を修正した。",
+                "長い denial reason を emoji の途中で切り詰めたとき、auto mode の denial notification に文字化けが出る問題を修正した。",
+                "extended key reporting を使う terminal で、agent view の Ctrl+J が newline を挿入できない問題を修正し、<code>?</code> help overlay に shortcut も表示するようにした。",
+                "<code>/ultrareview</code> が <code>#123</code>、<code>PR 123</code>、貼り付けた PR URL のような PR reference を reject する問題を修正し、error hint も実際に打った command 名を示すようにした。",
+                "<code>/ultrareview &lt;branch&gt;</code> が remote にしかない branch を origin から fetch しない問題を修正し、typo 時には近い branch 名を提案するようにした。",
+                "<code>/ultrareview</code> が <code>/clear</code> 後の新しい conversation で billing confirmation を skip する問題を修正した。",
+                "Claude Desktop 上の <code>/ultrareview</code> が <strong>not a git repository</strong> と出したとき、terminal command ではなく project の repository folder を案内するようにした。",
+                "repository settings に mTLS cert、extra CA bundle、OAuth scopes があると hosted session が startup で失敗する問題を修正し、これらの transport settings を warning 付きで無視するようにした。",
+                "offset / limit 付きで読んだ file を resume 後に edit すると、実際には読んでいるのに <strong>File has not been read yet</strong> が出る問題を修正した。",
+                "print / SDK mode で <code>--continue</code> / <code>--resume</code> 後に <code>ExitWorktree</code> が <strong>no active EnterWorktree session</strong> で失敗する問題を修正した。",
+                "Remote Control client が session 実行中に join した場合、workflow agent grid が空のままになる問題を修正した。",
+                "streaming mode の control request が handler 完了前に complete 扱いになり、session restart 時に request を失う問題を修正した。",
+                "state write failure 後に <code>/fork</code> で作った background session が live-parent protection を失う問題を修正した。",
+                "停止済み background session を agent view から再度開くと無言で失敗する問題を修正し、resume できる場合は resume し、無理な場合は理由を示して force restart を選べるようにした。",
+                "agent team で、停止中 teammate が session 内で team initialization をやり直した際に leader へ duplicate idle notification を送ってしまう問題を修正した。",
+                "plan approval dialog の footer で、path が長いと <code>ctrl+g to edit in</code> の表示が分断される問題を修正した。",
+                "fullscreen mode で terminal の幅と高さを同時に resize したあとも welcome banner が古い panel 幅を保持する問題を修正した。",
+                "narrow layout で diff preview の line number と <code>+/-</code> marker が消える問題を修正した。",
+                "partial file read 後に @-mention が何も付かない、plugin uninstall が誤った marketplace を対象にする、exit code <code>143</code> を偽の <strong>Command timed out</strong> と表示する、という 3 つの問題をまとめて修正した。",
+                "Azure Monitor など chunked transfer encoding を受け付けない endpoint に対し、OpenTelemetry HTTP export が <code>411</code> / <code>400</code> で reject される問題を修正した。",
+                "<code>TRACEPARENT</code> が SDK / headless mode で設定されているとき、OTLP event log record から <code>trace_id</code> / <code>span_id</code> が欠落する問題を修正した。",
+                "画像を多数含む会話が誤って <strong>Request too large</strong> で失敗する問題を修正し、error message が実際の原因を説明するようにした。",
+                "API overload 時に web search と web fetch が <strong>API Error</strong> 文字列自体を search result や page content として返してしまう問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
+          "urlLabel": "v2.1.212 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X / engineer X については、この実行では primary source として採用できる新規 item を report に追加していない。site 更新は official site listing と GitHub Releases を中心に構成した。",
+    "<strong>Claude Blog</strong> の <strong>Working at the frontier: Why Base44 trusts Claude Fable 5 with their most challenging engineering work</strong> は visible date が <strong>July 15, 2026</strong> のため、今回 window 開始 <strong>2026-07-16 15:01:49 JST</strong> より前として外した。",
+    "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.212</strong> のみを残し、前日分の <strong>v2.1.211</strong> 以前は外した。visible bullet は全件和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: How Anthropic runs large-scale code migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration"
+    },
+    {
+      "title": "Claude Blog: Working with Claude Fable 5 in Claude Cowork",
+      "url": "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork"
+    },
+    {
+      "title": "Claude Code release v2.1.212",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
