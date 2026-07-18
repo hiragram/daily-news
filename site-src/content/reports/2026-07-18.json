@@ -1,22 +1,32 @@
 {
   "date": "2026-07-18",
-  "windowLabel": "2026-07-17 12:01 UTC - 2026-07-18 12:01 UTC",
-  "archiveTitle": "Fable plan update, Managed Agents patterns, and Claude Code v2.1.214",
-  "archiveSummary": "Official 4件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-17 12:01 UTC から 2026-07-18 12:01 UTC の24時間では、official 側は <strong>@Claude</strong> が <strong>Claude Fable 5</strong> のプラン同梱条件を更新し、<strong>@ClaudeDevs</strong> は agent API の本番パターンと Fable 選択不具合の復旧を共有した。official site では <strong>Claude Blog</strong> の <strong>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</strong> と <strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> の 2 本が window 内だった。Claude Code では <strong>v2.1.214</strong> が公開され、permission check、background session、PowerShell、OTel、Remote Control まわりの修正に加え、<strong>EndConversation</strong> tool、tool call heartbeat、memory frontmatter の <code>modified</code>、OTel 属性追加などを含んでいる。",
+  "windowLabel": "2026-07-17 18:02 UTC - 2026-07-18 18:02 UTC",
+  "archiveTitle": "Fable plan expansion, higher Claude Code limits, and Claude Code v2.1.214",
+  "archiveSummary": "Official 6件、engineer signal 3件、Claude Code release 1件。",
+  "latestSummary": "2026-07-17 18:02 UTC から 2026-07-18 18:02 UTC の24時間では、official 側は <strong>@Claude</strong> が <strong>Claude Fable 5</strong> の plan 条件を更新し、<strong>@ClaudeDevs</strong> は Claude Code の週次上限を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> に据え置くと案内した。official site では <strong>Claude Blog</strong> の <strong>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</strong> と <strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> の 2 本が visible date ベースで window 内だった。Claude Code では <strong>v2.1.214</strong> が公開され、<strong>EndConversation</strong> tool、long-running tool heartbeat、memory frontmatter の <code>modified</code>、OTel 属性拡張の追加に加え、permission check、background session、PowerShell、Remote Control、MCP refresh の不具合を広く修正した。",
   "summaryBullets": [
-    "<strong>Official X 4件</strong>: <strong>@Claude</strong> は <strong>2026-07-18 02:14 UTC</strong> に、<strong>July 20, 2026</strong> から <strong>Claude Fable 5</strong> を <strong>Max</strong> と <strong>Team Premium</strong> に通常同梱し、<strong>Pro</strong> と <strong>Team Standard</strong> には usage credits 継続と one-time <strong>$100 credit</strong> を付与すると告知した。<strong>@ClaudeDevs</strong> は Managed Agents の本番パターンと Fable 選択障害の復旧を投稿した。",
-    "<strong>Official blog 2件</strong>: <strong>Claude Blog</strong> では <strong>July 17, 2026</strong> 公開の 2 本を確認した。<strong>Cursor</strong> 記事は <strong>Claude Fable 5</strong> が <strong>CursorBench 72.9%</strong> を記録し、曖昧で長時間の coding task で babysitting を減らしたと説明する。<strong>CISO guide</strong> は agentic AI の導入をゼロリスク前提ではなく運用統制で扱う観点を整理する。",
-    "<strong>Engineer signal 2件</strong>: <strong>@dickson_tsai</strong> は <strong>2026-07-17 20:50 UTC</strong> に、knowledge base repo を束ねた channel 設計や routines / artifacts を含む <strong>Claude Tag</strong> セットアップが前年の Claude Code 初期設定以上に楽しいと投稿した。<strong>@felixrieseberg</strong> は <strong>2026-07-18 03:32 UTC</strong> に、<strong>Claude Cowork</strong> の OpenTelemetry で <code>mcp_server_name</code> が UUID になる不具合報告へ確認返信した。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.214</strong> は <strong>2026-07-18 01:20 UTC</strong> に公開され、visible release note の bullet をすべて <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。"
+    "<strong>Official X 4イベント / 6投稿相当</strong>: <strong>@Claude</strong> は <strong>2026-07-18 02:14 UTC</strong> に、<strong>July 20, 2026</strong> から <strong>Claude Fable 5</strong> を <strong>Max</strong> と <strong>Team Premium</strong> に通常同梱し、<strong>Pro</strong> と <strong>Team Standard</strong> には usage credits 継続と one-time <strong>$100 credit</strong> を付与すると告知した。<strong>@ClaudeDevs</strong> は Managed Agents の本番パターン、Fable 選択障害の復旧、さらに <strong>Claude Code</strong> の週次上限を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> に保つことを共有した。",
+    "<strong>Official blog 2件</strong>: <strong>Claude Blog</strong> では <strong>July 17, 2026</strong> 公開表示の 2 本を確認した。<strong>Cursor</strong> 記事は <strong>Claude Fable 5</strong> が <strong>CursorBench 72.9%</strong> を記録し、曖昧で長時間の coding task で babysitting を減らしたと説明する。<strong>CISO guide</strong> は agentic AI をゼロリスク前提ではなく、未信頼入力、権限、blast radius、observability の4問で管理する枠組みを示す。",
+    "<strong>Engineer signal 3件</strong>: <strong>@trq212</strong> は Fable subscription 復帰が多人数の capacity 対応で成立したことと、需要逼迫で時間を要したことを補足した。<strong>@dickson_tsai</strong> は knowledge repo を束ねる <strong>Claude Tag</strong> の個人設定パターンを共有し、<strong>@felixrieseberg</strong> は <strong>Claude Cowork</strong> の OpenTelemetry バグ報告を確認した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.214</strong> は <strong>2026-07-18 01:20 UTC</strong> に公開され、visible release note の bullet をすべて <strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。"
   ],
   "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-18T16:04:15Z",
+      "displayTime": "2026-07-18 16:04 UTC",
+      "title": "@ClaudeDevs が Claude Code 週次上限の 50% 増量継続を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>@Claude</strong> の Fable plan update を引用しつつ、<strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで、<strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong>、seat-based <strong>Enterprise</strong> で <strong>50% higher</strong> のまま維持すると告知した。Fable plan 変更にあわせて、coding workload 側の余裕も継続させるメッセージになっている。",
+      "url": "https://x.com/ClaudeDevs/status/2078511173759324328",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    },
     {
       "label": "Official X",
       "datetime": "2026-07-18T02:14:43Z",
       "displayTime": "2026-07-18 02:14 UTC",
       "title": "@Claude が Claude Fable 5 の同梱条件を更新",
-      "summary": "<strong>@Claude</strong> は、<strong>July 20, 2026</strong> から <strong>Claude Fable 5</strong> を <strong>Max</strong> と <strong>Team Premium</strong> で <strong>50% of limits</strong> の標準提供に切り替えると告知した。<strong>Pro</strong> と <strong>Team Standard</strong> は usage credits での利用を継続し、one-time の <strong>$100 credit</strong> を受け取る。続く thread では、ここ数週間の不確実さへの不満を認めたうえで、plan に含まれる内容を明確化し、Fable 需要への投資継続を説明している。",
+      "summary": "<strong>@Claude</strong> は、<strong>July 20, 2026</strong> から <strong>Claude Fable 5</strong> を <strong>Max</strong> と <strong>Team Premium</strong> で <strong>50% of limits</strong> の標準提供へ切り替えると告知した。<strong>Pro</strong> と <strong>Team Standard</strong> は usage credits での利用を継続し、one-time の <strong>$100 credit</strong> を受け取る。続く thread では、ここ数週間の不確実さへの不満を認めたうえで、plan に含まれる内容を明確化し、Fable 需要への投資継続を説明している。",
       "url": "https://x.com/claudeai/status/2078302415804379218",
       "urlLabel": "@Claude thread",
       "primary": true
@@ -26,7 +36,7 @@
       "datetime": "2026-07-17T22:53:06Z",
       "displayTime": "2026-07-17 22:53 UTC",
       "title": "@ClaudeDevs が Claude Platform の agent API パターンを紹介",
-      "summary": "<strong>@ClaudeDevs</strong> は、この 6 か月で Claude Platform が agent を素早く build / deploy する API を積み上げてきたとし、platform leads の対談動画を共有した。thread では、<strong>outcomes</strong> で rubric に達するまで self-correction を回す長時間 task、<strong>multi-agent</strong> で model / prompt / tools を分けつつ sandbox や vault credentials を共有する agent-to-agent coordination を、本番で見えてきた主要パターンとして挙げている。",
+      "summary": "<strong>@ClaudeDevs</strong> は、この 6 か月で Claude Platform が agent を素早く build / deploy する API を積み上げてきたとし、platform leads の対談動画を共有した。thread では、<strong>outcomes</strong> で rubric に達するまで self-correction を回す長時間 task と、model / prompt / tools を分けつつ sandbox や vault credentials を共有する <strong>multi-agent</strong> coordination を、本番で見えてきた主要パターンとして挙げている。",
       "url": "https://x.com/ClaudeDevs/status/2078251675308240973",
       "urlLabel": "@ClaudeDevs thread",
       "primary": true
@@ -36,7 +46,7 @@
       "datetime": "2026-07-17T20:11:44Z",
       "displayTime": "2026-07-17 20:11 UTC",
       "title": "@ClaudeDevs が Fable 未選択化インシデントの復旧を告知",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude.ai</strong> と <strong>Claude Code</strong> で <strong>30 分間</strong>、<strong>Fable</strong> を model として選べなかった障害を復旧したと案内した。必要なら Claude Code の再起動と <code>/model</code> での再選択が必要で、extra usage が有効だった利用者には refund に加えて同額の追加 credit を付与すると thread で説明している。",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude.ai</strong> と <strong>Claude Code</strong> で約 <strong>30 分間</strong>、<strong>Fable</strong> を model として選べなかった障害を復旧したと案内した。必要なら Claude Code の再起動と <code>/model</code> での再選択が必要で、extra usage が有効だった利用者には refund に加えて同額の追加 credit を付与すると thread で説明している。",
       "url": "https://x.com/ClaudeDevs/status/2078211065868091768",
       "urlLabel": "@ClaudeDevs incident thread",
       "primary": true
@@ -46,7 +56,7 @@
       "datetime": "2026-07-17T00:00:00Z",
       "displayTime": "2026-07-17",
       "title": "Claude Blog が Cursor の Claude Fable 5 評価事例を公開",
-      "summary": "<strong>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</strong> は、Cursor が frontier model を実務タスクでどう評価しているかを説明する記事。本文では、<strong>CursorBench</strong> で <strong>Claude Fable 5</strong> が <strong>72.9%</strong> を記録したこと、曖昧な prompt でも root cause 特定から validation まで通せたこと、Opus で 12 時間超かかった moon-landing テストを Fable 5 が数時間で完了したことを紹介している。",
+      "summary": "<strong>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</strong> は、Cursor が frontier model を実務タスクでどう評価しているかを説明する記事。本文では、<strong>CursorBench</strong> で <strong>Claude Fable 5</strong> が <strong>72.9%</strong> を記録したこと、曖昧な prompt でも root cause 特定から validation まで通せたこと、Opus では 12 時間超かかった moon-landing テストを Fable 5 が数時間で完了したことを紹介している。",
       "url": "https://claude.com/blog/working-at-the-frontier-cursor",
       "urlLabel": "Claude Blog 記事",
       "primary": true
@@ -56,7 +66,7 @@
       "datetime": "2026-07-17T00:00:00Z",
       "displayTime": "2026-07-17",
       "title": "Claude Blog に agentic AI の CISO 向けガイドが掲載",
-      "summary": "<strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> は、agentic AI をゼロリスク化するのではなく、権限、未信頼入力、observability、blast radius を前提に管理していく考え方を整理するガイド。セキュリティ責任者が deployment 判断をするときの論点を、境界設計と運用プロセスの両面からまとめている。",
+      "summary": "<strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> は、Anthropic の Deputy CISO が agentic AI をゼロリスク化するのではなく、未信頼入力、権限、blast radius、observability の4問で評価しつつ、管理可能な範囲に bounded する考え方を整理したガイド。shadow adoption を避けるために admin-paced rollout と telemetry を重視する点も示している。",
       "url": "https://claude.com/blog/ciso-guide-to-agentic-ai",
       "urlLabel": "Claude Blog 記事",
       "primary": true
@@ -75,10 +85,19 @@
   "signals": [
     {
       "label": "Engineer signal",
+      "datetime": "2026-07-18T16:16:12Z",
+      "displayTime": "2026-07-18 16:16 UTC",
+      "title": "@trq212 が Fable subscription 復帰の背景を補足",
+      "summary": "<strong>@trq212</strong> は <strong>@Claude</strong> の plan update を引用し、subscription への Fable 復帰は Anthropic 内の大きな capacity 対応 effort で成立したもので、間に合わせられるか最後まで不確実だったと述べた。直後の reply でも、subscription 常設化は当初からの目標だったが、需要の高さで時間がかかったと補足している。",
+      "url": "https://x.com/trq212/status/2078514180051906864",
+      "urlLabel": "@trq212 post"
+    },
+    {
+      "label": "Engineer signal",
       "datetime": "2026-07-17T20:50:50Z",
       "displayTime": "2026-07-17 20:50 UTC",
       "title": "@dickson_tsai が Claude Tag の個人設定パターンを共有",
-      "summary": "<strong>@dickson_tsai</strong> は、自分用の channels 定義、knowledge base repo の束ね方、routines、artifacts を含めた <strong>Claude Tag</strong> のカスタマイズがかなり進んだと投稿した。個人 channel は exploratory work を許し、team channel は production code 寄りに寄せるという使い分けも reply で説明しており、knowledge-work 向けの継続利用設計の具体例として見える。",
+      "summary": "<strong>@dickson_tsai</strong> は、自分用の channels 定義、knowledge base repo の束ね方、routines、artifacts を含めた <strong>Claude Tag</strong> のカスタマイズがかなり進んだと投稿した。reply では、個人 channel は exploratory work を許し、team channel は production code 寄りに寄せるという使い分けも説明しており、knowledge-work 向けの継続利用設計の具体例として見える。",
       "url": "https://x.com/dickson_tsai/status/2078220907529793804",
       "urlLabel": "@dickson_tsai post"
     },
@@ -87,7 +106,7 @@
       "datetime": "2026-07-18T03:32:36Z",
       "displayTime": "2026-07-18 03:32 UTC",
       "title": "@felixrieseberg が Claude Cowork の OpenTelemetry バグ報告を確認",
-      "summary": "<strong>@felixrieseberg</strong> は、<strong>Claude Cowork v1.22209.0</strong> で <code>mcp_server_name</code> に server 名ではなく UUID が送られるという OpenTelemetry 不具合報告に対し、確認していると返信した。Cowork の observability まわりで実利用者のバグ報告が直接 product team に入り、追跡されていることが分かる。",
+      "summary": "<strong>@felixrieseberg</strong> は、<strong>Claude Cowork v1.22209.0</strong> で <code>mcp_server_name</code> に server 名ではなく UUID が送られるという OpenTelemetry 不具合報告に対し、確認していると返信した。Cowork の observability まわりで実利用者のバグ報告が product 側に直接入り、追跡されていることが分かる。",
       "url": "https://x.com/felixrieseberg/status/2078322015745040691",
       "urlLabel": "@felixrieseberg reply"
     }
@@ -110,17 +129,17 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.214</strong> で、visible release note の bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。今回は <strong>permission check</strong>、<strong>PowerShell / Bash</strong>、<strong>background session</strong>、<strong>OTel</strong>、<strong>Remote Control</strong> まわりの修正が中心だった。",
+      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.214</strong> で、visible release note の bullet は落とさず取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。今回は <strong>permission check</strong>、<strong>background session</strong>、<strong>PowerShell / Bash</strong>、<strong>OTel</strong>、<strong>Remote Control</strong> まわりの修正が中心だった。",
       "releases": [
         {
           "version": "v2.1.214",
           "publishedAt": "2026-07-18 01:20 UTC",
-          "summary": "EndConversation tool、long-running tool call heartbeat、memory frontmatter の <code>modified</code>、OTel 属性拡張を追加しつつ、permission check、background session、PowerShell、OTel、Remote Control の不具合を広く修正した release。",
+          "summary": "<strong>EndConversation</strong> tool、long-running tool call heartbeat、memory frontmatter の <code>modified</code>、OTel 属性拡張を追加しつつ、permission check、background session、PowerShell、OTel、Remote Control、MCP refresh の不具合を広く修正した release。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "<strong>EndConversation</strong> tool を追加し、<strong>claude.ai</strong> と同様に、高度に abusive な利用者や jailbreak 試行に対して Claude が session を終了できるようにした。",
+                "<strong>EndConversation</strong> tool を追加し、<strong>2025 年以降の claude.ai</strong> と同様に、高度に abusive な利用者や jailbreak 試行に対して Claude が session を終了できるようにした。",
                 "長時間実行される tool call で無音状態になっていたケース向けに、定期的な progress heartbeat を追加した。",
                 "memory file の frontmatter に ISO 形式の <code>modified</code> timestamp を追加した。",
                 "OpenTelemetry の log event に <code>message.uuid</code>、<code>client_request_id</code>、<code>tool_source</code> 属性を追加し、message 単位の相関と tool provenance を取れるようにした。",
@@ -189,12 +208,16 @@
     }
   ],
   "exclusions": [
-    "official X では <strong>@Claude</strong>、<strong>@ClaudeDevs</strong>、<strong>@AnthropicAI</strong> を走査したが、本文には plan update、Managed Agents の本番パターン、Fable incident 復旧の 3 イベントだけを採用した。hackathon closing post など周辺告知は外した。",
-    "engineer X は監視対象 25 アカウントを走査したが、本文には setup / operations signal が明確な <strong>@dickson_tsai</strong> と <strong>@felixrieseberg</strong> の 2 件のみを採用した。一般雑談、短い相づち、関連の薄い quote post は外した。",
-    "<strong>Claude Blog</strong> の <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> は visible date が <strong>July 16, 2026</strong> で、この UTC 窓では外した。",
+    "official X では <strong>@Claude</strong>、<strong>@ClaudeDevs</strong>、<strong>@AnthropicAI</strong> を走査したが、本文には Fable plan update、Managed Agents の本番パターン、Fable incident 復旧、Claude Code weekly limits 継続の 4 イベントだけを採用した。life sciences hackathon の受賞告知 thread は外した。",
+    "engineer X は監視対象 25 アカウントを走査したが、本文には product / rollout / operations signal が明確な <strong>@trq212</strong>、<strong>@dickson_tsai</strong>、<strong>@felixrieseberg</strong> の 3 件のみを採用した。雑談、短い相づち、関連の薄い quote post は外した。",
+    "<strong>Claude Blog</strong> の <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> と <strong>Working with Claude Fable 5 in Claude Cowork</strong> は visible date が <strong>July 16, 2026</strong> で、この window では外した。",
     "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.214</strong> のみを残し、<strong>v2.1.212</strong> 以前は外した。visible bullet は全件和訳して分類した。"
   ],
   "sources": [
+    {
+      "title": "Claude Code weekly limits 50% higher",
+      "url": "https://x.com/ClaudeDevs/status/2078511173759324328"
+    },
     {
       "title": "Claude Fable 5 plan update",
       "url": "https://x.com/claudeai/status/2078302415804379218"
@@ -224,12 +247,28 @@
       "url": "https://x.com/ClaudeDevs/status/2078211067046736250"
     },
     {
+      "title": "Thariq on Fable subscription restoration",
+      "url": "https://x.com/trq212/status/2078514180051906864"
+    },
+    {
+      "title": "Thariq follow-up on Fable demand",
+      "url": "https://x.com/trq212/status/2078537116829765991"
+    },
+    {
       "title": "Dickson Tsai Claude Tag setup post",
       "url": "https://x.com/dickson_tsai/status/2078220907529793804"
     },
     {
+      "title": "Dickson Tsai Claude Tag setup reply",
+      "url": "https://x.com/dickson_tsai/status/2078305000267329696"
+    },
+    {
       "title": "Felix Rieseberg Cowork OTEL reply",
       "url": "https://x.com/felixrieseberg/status/2078322015745040691"
+    },
+    {
+      "title": "Cowork OTEL bug report context",
+      "url": "https://x.com/dani_avila7/status/2078217080864731272"
     },
     {
       "title": "Anthropic Engineering listing",
