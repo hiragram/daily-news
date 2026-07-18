@@ -36,9 +36,9 @@
       "datetime": "2026-07-17T00:00:00Z",
       "displayTime": "2026-07-17",
       "title": "Claude Blog に agentic AI の CISO 向け guide が掲載",
-      "summary": "<strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> は、<strong>Claude Blog</strong> の一覧で <strong>July 17, 2026</strong> 公開として確認できた新着記事。この記事環境では一覧から article slug を安定取得できなかったため、report では list page を canonical source として保持する。",
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog 一覧",
+      "summary": "<strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong> では、Anthropic の Deputy CISO が agentic AI を <strong>zero risk</strong> ではなく <strong>bounded risk</strong> として扱う運用原則を提示し、未信頼コンテンツ、実行権限、blast radius、observability の 4 問で社内導入を評価する枠組みを整理している。",
+      "url": "https://claude.com/blog/ciso-guide-to-agentic-ai",
+      "urlLabel": "Claude Blog 記事",
       "primary": true
     },
     {
@@ -99,7 +99,7 @@
       "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Claude Blog</strong> の <strong>July 17, 2026</strong> 記事 2 件と <strong>July 16, 2026</strong> 記事 2 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
       "details": [
         "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems</strong>（<strong>July 17, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong>（<strong>July 17, 2026</strong>、一覧で確認）",
+        "<strong>Claude Blog</strong>: <strong>Zero risk isn't the job: a CISO's guide to agentic AI</strong>（<strong>July 17, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>How Anthropic runs large-scale code migrations with Claude Code</strong>（<strong>July 16, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Working with Claude Fable 5 in Claude Cowork</strong>（<strong>July 16, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
@@ -236,6 +236,10 @@
     {
       "title": "Claude Blog: Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
       "url": "https://claude.com/blog/working-at-the-frontier-cursor"
+    },
+    {
+      "title": "Claude Blog: Zero risk isn't the job: a CISO's guide to agentic AI",
+      "url": "https://claude.com/blog/ciso-guide-to-agentic-ai"
     },
     {
       "title": "Claude Blog: How Anthropic runs large-scale code migrations with Claude Code",
