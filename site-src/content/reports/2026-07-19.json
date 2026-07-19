@@ -1,31 +1,20 @@
 {
   "date": "2026-07-19",
-  "windowLabel": "2026-07-18 06:01 UTC - 2026-07-19 06:01 UTC",
-  "archiveTitle": "Fable follow-through, terminal workflow, and Claude Code v2.1.215",
-  "archiveSummary": "Official 1件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-18 06:01 UTC から 2026-07-19 06:01 UTC の24時間では、official 側は <strong>@ClaudeDevs</strong> が <strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> に維持すると案内した。engineer signal では <strong>@trq212</strong> が Fable subscription 復帰は capacity 対応の大規模 effort の結果だったと補足し、<strong>@RobertJBye</strong> は mobile よりも <strong>Claude Code in terminal + sim + Figma</strong> の loop が速いと述べた。official site には visible date ベースで window 内新着がなく、Claude Code では <strong>v2.1.215</strong> が公開され、<code>/verify</code> と <code>/code-review</code> を自動起動しない明示 invocation 方式へ変更した。",
+  "windowLabel": "2026-07-18 18:01 UTC - 2026-07-19 18:01 UTC",
+  "archiveTitle": "Prompt-cut commentary, terminal workflow, and Claude Code v2.1.215",
+  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-07-18 18:01 UTC から 2026-07-19 18:01 UTC の24時間では、official X と official site に新規採用項目はなかった。engineer signal では <strong>@trq212</strong> が Claude Code の system prompt を 80% 短縮した学びを skills と system prompts に応用する post を準備中だと述べ、<strong>@RobertJBye</strong> は mobile よりも <strong>Claude Code in terminal + sim + Figma</strong> の loop が速いと共有した。Claude Code では <strong>v2.1.215</strong> が公開され、<code>/verify</code> と <code>/code-review</code> を自動起動しない明示 invocation 方式へ変更した。",
   "summaryBullets": [
-    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>2026-07-18 16:04 UTC</strong> に、<strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> のまま維持すると告知した。",
+    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> には、この24時間窓で本文採用する新規 post がなかった。",
     "<strong>Official blog 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は、current listing の visible date ベースでこの24時間窓に入る新規記事を確認できなかった。",
-    "<strong>Engineer signal 2件</strong>: <strong>@trq212</strong> は Fable の subscription 常設化が高需要に対応するための大きな capacity effort だったと説明し、<strong>@RobertJBye</strong> は mobile より terminal / simulator / Figma を組み合わせた Claude Code loop が速いと共有した。",
+    "<strong>Engineer signal 2件</strong>: <strong>@trq212</strong> は Claude Code の system prompt を 80% 短縮した学びを skills / system prompts に応用する post を準備中だと述べ、<strong>@RobertJBye</strong> は mobile より terminal / simulator / Figma を組み合わせた Claude Code loop が速いと共有した。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.215</strong> は <strong>2026-07-19 02:56 UTC</strong> に公開され、<code>/verify</code> と <code>/code-review</code> は自動実行せず、必要時に明示的に呼ぶ動作へ変更された。"
   ],
-  "officialNews": [
-    {
-      "label": "Official X",
-      "datetime": "2026-07-18T16:04:15Z",
-      "displayTime": "2026-07-18 16:04 UTC",
-      "title": "@ClaudeDevs が Claude Code 週次上限の 50% 増量継続を案内",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>@Claude</strong> の Fable plan update を引用しつつ、<strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで、<strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong>、seat-based <strong>Enterprise</strong> で <strong>50% higher</strong> のまま維持すると告知した。Fable plan 変更にあわせて coding workload 側の余裕も継続させるメッセージになっている。",
-      "url": "https://x.com/ClaudeDevs/status/2078511173759324328",
-      "urlLabel": "@ClaudeDevs post",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeAI の新規採用は 0件",
-      "body": "この24時間窓で official X として採用した新規 post は <strong>@ClaudeDevs</strong> の Claude Code weekly limits 告知のみだった。<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> については、report 本文に載せる新規 in-window item を追加していない。"
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の新規採用は 0件",
+      "body": "この24時間窓では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、report 本文に載せる新規 in-window item は確認できなかった。"
     },
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
@@ -35,11 +24,11 @@
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-18T16:16:12Z",
-      "displayTime": "2026-07-18 16:16 UTC",
-      "title": "@trq212 が Fable subscription 復帰の背景を補足",
-      "summary": "<strong>@trq212</strong> は <strong>@Claude</strong> の plan update を引用し、subscription への Fable 復帰は Anthropic 内の大きな capacity 対応 effort で成立したもので、間に合わせられるか最後まで不確実だったと述べた。続く reply でも、subscription 常設化は当初からの目標だったが、需要の高さで時間がかかったと補足している。",
-      "url": "https://x.com/trq212/status/2078514180051906864",
+      "datetime": "2026-07-19T17:55:57Z",
+      "displayTime": "2026-07-19 17:55 UTC",
+      "title": "@trq212 が system prompt 80% 短縮の学びを追って共有予定",
+      "summary": "<strong>@trq212</strong> は、Peter Yang の Claude Code インタビュー投稿を引用しつつ、Claude Code の <strong>system prompt を 80% 短縮</strong> して得た学びと、それを <strong>skills</strong> や <strong>system prompts</strong> にどう応用できるかをまとめた post をさらに準備していると述べた。prompt 設計を軽量化しても性能を保てる方向の示唆として読める。",
+      "url": "https://x.com/trq212/status/2078901672441790818",
       "urlLabel": "@trq212 post"
     },
     {
@@ -69,7 +58,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.215</strong> で、visible release note の bullet をすべて取得し、<strong>新機能 / 変更 / 修正</strong> に分けて和訳した。今回の user-facing 変更は <code>/verify</code> と <code>/code-review</code> の自動起動停止だった。",
+      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.215</strong> で、release note の bullet をすべて取得し、<strong>新機能 / 変更 / 修正</strong> に分けて和訳した。今回の user-facing 変更は <code>/verify</code> と <code>/code-review</code> の自動起動停止だった。",
       "releases": [
         {
           "version": "v2.1.215",
@@ -92,27 +81,23 @@
     }
   ],
   "exclusions": [
-    "official X では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、本文には Claude Code weekly limits 継続の 1 件だけを採用した。",
-    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には product / rollout / workflow signal が明確な <strong>@trq212</strong> と <strong>@RobertJBye</strong> の 2 件のみを採用した。雑談、一般返信、repost は外した。",
+    "official X では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、この24時間窓で本文採用する新規 post は 0 件だった。",
+    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には product / prompt / workflow signal が明確な <strong>@trq212</strong> と <strong>@RobertJBye</strong> の 2 件のみを採用した。雑談、一般返信、repost は外した。",
     "official site watch では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> を確認したが、current listing の visible date ベースで window 内新着は 0 件だった。",
     "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.215</strong> のみを残し、<strong>v2.1.214</strong> 以前は外した。visible bullet は全件和訳して分類した。"
   ],
   "sources": [
     {
-      "title": "Claude Code weekly limits 50% higher",
-      "url": "https://x.com/ClaudeDevs/status/2078511173759324328"
+      "title": "Thariq on shorter Claude Code system prompts",
+      "url": "https://x.com/trq212/status/2078901672441790818"
     },
     {
-      "title": "Claude Fable 5 plan update",
-      "url": "https://x.com/claudeai/status/2078302415804379218"
+      "title": "Peter Yang episode clip with Thariq",
+      "url": "https://x.com/petergyang/status/2078895219534438556"
     },
     {
-      "title": "Thariq on Fable subscription restoration",
-      "url": "https://x.com/trq212/status/2078514180051906864"
-    },
-    {
-      "title": "Thariq follow-up on Fable demand",
-      "url": "https://x.com/trq212/status/2078537116829765991"
+      "title": "Peter Yang on Claude Code workflows",
+      "url": "https://x.com/petergyang/status/2078846124828545179"
     },
     {
       "title": "Robert Bye on terminal plus sim workflow",
