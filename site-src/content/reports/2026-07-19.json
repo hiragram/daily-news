@@ -1,0 +1,146 @@
+{
+  "date": "2026-07-19",
+  "windowLabel": "2026-07-18 06:01 UTC - 2026-07-19 06:01 UTC",
+  "archiveTitle": "Fable follow-through, terminal workflow, and Claude Code v2.1.215",
+  "archiveSummary": "Official 1件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-07-18 06:01 UTC から 2026-07-19 06:01 UTC の24時間では、official 側は <strong>@ClaudeDevs</strong> が <strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> に維持すると案内した。engineer signal では <strong>@trq212</strong> が Fable subscription 復帰は capacity 対応の大規模 effort の結果だったと補足し、<strong>@RobertJBye</strong> は mobile よりも <strong>Claude Code in terminal + sim + Figma</strong> の loop が速いと述べた。official site には visible date ベースで window 内新着がなく、Claude Code では <strong>v2.1.215</strong> が公開され、<code>/verify</code> と <code>/code-review</code> を自動起動しない明示 invocation 方式へ変更した。",
+  "summaryBullets": [
+    "<strong>Official X 1件</strong>: <strong>@ClaudeDevs</strong> は <strong>2026-07-18 16:04 UTC</strong> に、<strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで <strong>50% higher</strong> のまま維持すると告知した。",
+    "<strong>Official blog 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は、current listing の visible date ベースでこの24時間窓に入る新規記事を確認できなかった。",
+    "<strong>Engineer signal 2件</strong>: <strong>@trq212</strong> は Fable の subscription 常設化が高需要に対応するための大きな capacity effort だったと説明し、<strong>@RobertJBye</strong> は mobile より terminal / simulator / Figma を組み合わせた Claude Code loop が速いと共有した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.215</strong> は <strong>2026-07-19 02:56 UTC</strong> に公開され、<code>/verify</code> と <code>/code-review</code> は自動実行せず、必要時に明示的に呼ぶ動作へ変更された。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-18T16:04:15Z",
+      "displayTime": "2026-07-18 16:04 UTC",
+      "title": "@ClaudeDevs が Claude Code 週次上限の 50% 増量継続を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>@Claude</strong> の Fable plan update を引用しつつ、<strong>Claude Code</strong> の weekly limits を <strong>August 19, 2026</strong> まで、<strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong>、seat-based <strong>Enterprise</strong> で <strong>50% higher</strong> のまま維持すると告知した。Fable plan 変更にあわせて coding workload 側の余裕も継続させるメッセージになっている。",
+      "url": "https://x.com/ClaudeDevs/status/2078511173759324328",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI の新規採用は 0件",
+      "body": "この24時間窓で official X として採用した新規 post は <strong>@ClaudeDevs</strong> の Claude Code weekly limits 告知のみだった。<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> については、report 本文に載せる新規 in-window item を追加していない。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> は <strong>Jul 14, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 17, 2026</strong> だった。official site watch では current listing の visible date ベースで window 内新着を確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-18T16:16:12Z",
+      "displayTime": "2026-07-18 16:16 UTC",
+      "title": "@trq212 が Fable subscription 復帰の背景を補足",
+      "summary": "<strong>@trq212</strong> は <strong>@Claude</strong> の plan update を引用し、subscription への Fable 復帰は Anthropic 内の大きな capacity 対応 effort で成立したもので、間に合わせられるか最後まで不確実だったと述べた。続く reply でも、subscription 常設化は当初からの目標だったが、需要の高さで時間がかかったと補足している。",
+      "url": "https://x.com/trq212/status/2078514180051906864",
+      "urlLabel": "@trq212 post"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-18T19:30:34Z",
+      "displayTime": "2026-07-18 19:30 UTC",
+      "title": "@RobertJBye が Claude Code の terminal 中心ワークフローを共有",
+      "summary": "<strong>@RobertJBye</strong> は、mobile でも Claude Code を使うが、<strong>Claude Code in terminal</strong> と simulator、<strong>Figma</strong> を併用するほうが feedback loop は速いと説明した。Claude の mobile app より desktop 開発 loop を優先する実務的な使い分けとして見える。",
+      "url": "https://x.com/RobertJBye/status/2078563094310298025",
+      "urlLabel": "@RobertJBye reply"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "この24時間窓では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の current listing を確認したが、visible date ベースで window 内に入る新規 article は見当たらなかった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
+        "<strong>Claude Blog</strong> の先頭 visible date は <strong>Jul 17, 2026</strong>。"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.215</strong> で、visible release note の bullet をすべて取得し、<strong>新機能 / 変更 / 修正</strong> に分けて和訳した。今回の user-facing 変更は <code>/verify</code> と <code>/code-review</code> の自動起動停止だった。",
+      "releases": [
+        {
+          "version": "v2.1.215",
+          "publishedAt": "2026-07-19 02:56 UTC",
+          "summary": "<code>/verify</code> と <code>/code-review</code> は Claude が自律的に走らせず、必要なときに user が明示的に呼ぶ動作へ変更した小規模 release。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "Claude は今後、<code>/verify</code> と <code>/code-review</code> の skill を自分では実行しなくなり、必要な場合は user が <code>/verify</code> または <code>/code-review</code> を明示的に呼ぶ方式に変更された。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
+          "urlLabel": "v2.1.215 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、本文には Claude Code weekly limits 継続の 1 件だけを採用した。",
+    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には product / rollout / workflow signal が明確な <strong>@trq212</strong> と <strong>@RobertJBye</strong> の 2 件のみを採用した。雑談、一般返信、repost は外した。",
+    "official site watch では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> を確認したが、current listing の visible date ベースで window 内新着は 0 件だった。",
+    "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.215</strong> のみを残し、<strong>v2.1.214</strong> 以前は外した。visible bullet は全件和訳して分類した。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Code weekly limits 50% higher",
+      "url": "https://x.com/ClaudeDevs/status/2078511173759324328"
+    },
+    {
+      "title": "Claude Fable 5 plan update",
+      "url": "https://x.com/claudeai/status/2078302415804379218"
+    },
+    {
+      "title": "Thariq on Fable subscription restoration",
+      "url": "https://x.com/trq212/status/2078514180051906864"
+    },
+    {
+      "title": "Thariq follow-up on Fable demand",
+      "url": "https://x.com/trq212/status/2078537116829765991"
+    },
+    {
+      "title": "Robert Bye on terminal plus sim workflow",
+      "url": "https://x.com/RobertJBye/status/2078563094310298025"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code release v2.1.215",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
