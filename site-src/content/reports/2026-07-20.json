@@ -1,24 +1,44 @@
 {
   "date": "2026-07-20",
-  "windowLabel": "2026-07-19 12:01 UTC - 2026-07-20 12:01 UTC",
-  "archiveTitle": "No official updates, Cowork calendar prompt, and Claude Code fix propagation",
-  "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 0件。",
-  "latestSummary": "2026-07-19 12:01 UTC から 2026-07-20 12:01 UTC の24時間では、official X と official site に新規採用項目はなかった。engineer signal では <strong>@_catwu</strong> が <strong>Claude Cowork</strong> の週次カレンダー委任 prompt を共有し、<strong>@jackclarkSF</strong> は <strong>Fable</strong> の fiction 編集提案が初めて実用的だったと述べ、<strong>@trq212</strong> は Claude Code の system prompt を 80% 短縮した学びを skills / system prompts に応用する post を準備中だと補足した。加えて <strong>@trq212</strong> は一時的な不具合について <strong>Claude Code を再起動すれば修正が反映される</strong> と案内した。Claude Code はこの窓で新規 release 0件だった。",
+  "windowLabel": "2026-07-19 18:02 UTC - 2026-07-20 18:02 UTC",
+  "archiveTitle": "Rare disease grants, Rakuten case study, and Claude Code hotfix signal",
+  "archiveSummary": "Official 2件、engineer signal 4件、Claude Code release 0件。",
+  "latestSummary": "2026-07-19 18:02 UTC から 2026-07-20 18:02 UTC の24時間では、official 側で <strong>Anthropic</strong> が rare disease research grants を公開し、<strong>Claude Blog</strong> では <strong>Rakuten</strong> の <strong>Claude Fable 5</strong> 導入事例が visible date ベースで新着に入った。engineer signal では <strong>@trq212</strong> が Claude Code の一時的不具合は再起動で fix が反映されると案内し、<strong>@_catwu</strong> は <strong>Claude Cowork</strong> に週次カレンダーを委任する prompt を共有した。Claude Code releases は、この window では新規公開 0 件だった。",
   "summaryBullets": [
-    "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> には、この24時間窓で本文採用する新規 post がなかった。",
-    "<strong>Official blog 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は、current listing の visible date ベースでこの24時間窓に入る新規記事を確認できなかった。",
-    "<strong>Engineer signal 4件</strong>: <strong>@_catwu</strong> は Claude Cowork に週次カレンダーを任せる具体 prompt を共有し、<strong>@jackclarkSF</strong> は Fable の fiction 編集提案が初めて役立ったと述べた。<strong>@trq212</strong> は Claude Code の system prompt 80% 短縮の学びを skills / system prompts に応用する post を準備中だとし、別投稿では一時的不具合に対して <strong>Claude Code の再起動</strong> を案内した。",
-    "<strong>Claude Code release 0件</strong>: GitHub CLI で確認した最新 release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）だが、今回の window 開始より前のため対象外だった。"
+    "<strong>Official 2件</strong>: <strong>@AnthropicAI</strong> は rare disease research grants を告知し、<strong>Claude Blog</strong> では <strong>Rakuten</strong> の overnight agent 構築事例が <strong>2026-07-20</strong> の visible date で公開されていた。",
+    "<strong>Official X の欠落</strong>: <strong>@ClaudeAI</strong> に新規 main post はなく、<strong>@ClaudeDevs</strong> は <strong>@trq212</strong> の Claude Code 修正案内を repost したのみで、新しい独立 announcement はなかった。",
+    "<strong>Engineer signal 4件</strong>: <strong>@trq212</strong> は Claude Code の一時的不具合への restart 回避を案内し、<strong>@_catwu</strong> は Claude Cowork の calendar delegation prompt を共有した。<strong>@jackclarkSF</strong> は Fable の fiction editing が役立ち始めたと述べ、<strong>@noahzweben</strong> は今後数週間で <strong>Claude Tag</strong> の更新を共有すると予告した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で確認した最新 release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）で、今回の window 開始より前のため対象外だった。release note の visible bullet は完全取得済みだが、この日の panel には含めていない。"
   ],
-  "officialNews": [],
-  "officialZeroStates": [
+  "officialNews": [
     {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の新規採用は 0件",
-      "body": "この24時間窓では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、report 本文に載せる新規 in-window item は確認できなかった。"
+      "label": "Official X + site",
+      "datetime": "2026-07-20T17:26:25Z",
+      "displayTime": "2026-07-20 17:26 UTC",
+      "title": "Anthropic が rare disease research grants を公開",
+      "summary": "<strong>Anthropic</strong> は、rare disease の治療加速に取り組む研究者向けに、<strong>最大 50,000 ドル分の Claude usage credits</strong> を提供する focused grant を公開した。<strong>AI for Science</strong> の最初の focused call と位置づけられており、<strong>@AnthropicAI</strong> の告知 post から対応する <strong>Anthropic News</strong> 記事へ誘導している。",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "urlLabel": "記事を読む",
+      "primary": true
     },
     {
-      "label": "Anthropic Engineering / Research / News / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> は <strong>Jul 14, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 17, 2026</strong> だった。official site watch では current listing の visible date ベースで window 内新着を確認できなかった。"
+      "label": "Official site",
+      "datetime": "2026-07-20T00:00:00+09:00",
+      "displayTime": "2026-07-20",
+      "title": "Claude Blog が Rakuten の Claude Fable 5 導入事例を公開",
+      "summary": "<strong>Claude Blog</strong> の一覧には、<strong>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</strong> が <strong>2026-07-20</strong> の visible date で掲載されていた。本文リンク解決は一覧経由の確認にとどまったが、<strong>Rakuten</strong> が <strong>Claude Fable 5</strong> を使って overnight に agents を構築する事例記事として新着採用した。",
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "この24時間窓では、<strong>@ClaudeAI</strong> に新しい main post は確認できなかった。official X の新規採用は <strong>@AnthropicAI</strong> の rare disease grants 告知 1 件のみだった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。site 側の採用対象は <strong>Anthropic News</strong> 1 件と <strong>Claude Blog</strong> 1 件だった。"
     }
   ],
   "signals": [
@@ -27,16 +47,17 @@
       "datetime": "2026-07-20T07:18:54Z",
       "displayTime": "2026-07-20 07:18 UTC",
       "title": "@trq212 が Claude Code の一時的不具合に再起動での回避を案内",
-      "summary": "<strong>@trq212</strong> は、ユーザー報告を引用しつつ、該当の不具合は <strong>数分だけ本番に出ていた bug</strong> で、<strong>Claude Code を再起動すれば fix が反映される</strong> と案内した。Claude Code の rollout 後に一時的な不整合が出たが、すでに修正が伝播中であるという運用 signal として採用した。",
+      "summary": "<strong>@trq212</strong> は、ユーザー報告を quote しつつ、該当の不具合は <strong>数分だけ本番に出ていた bug</strong> で、<strong>Claude Code を再起動すれば fix が反映される</strong> と案内した。Claude Code の rollout 後に一時的な不整合が出たが、修正が伝播中であるという運用 signal として採用した。",
       "url": "https://x.com/trq212/status/2079103743535280508",
-      "urlLabel": "@trq212 post"
+      "urlLabel": "@trq212 post",
+      "primary": true
     },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-20T01:12:05Z",
       "displayTime": "2026-07-20 01:12 UTC",
       "title": "@_catwu が Claude Cowork の週次カレンダー委任 prompt を共有",
-      "summary": "<strong>@_catwu</strong> は、<strong>Claude Cowork</strong> に週次カレンダーを任せる prompt として、<strong>meeting を週 20 時間未満に抑える</strong>、<strong>conflicting meetings を dedupe する</strong>、<strong>過去週を見て自分がどの meeting を decline してきたか学習する</strong>、<strong>dinner は 20 時間計算に含めない</strong> という条件を共有した。Cowork の personal operations 用 workflow が、単発要約ではなく継続的な scheduling delegation に広がっている signal として採用した。",
+      "summary": "<strong>@_catwu</strong> は、<strong>Claude Cowork</strong> に週次カレンダーを任せる prompt として、<strong>meeting を週 20 時間未満に抑える</strong>、<strong>conflicting meetings を dedupe する</strong>、<strong>過去週を見て decline 傾向を学習する</strong>、<strong>dinner は 20 時間計算に含めない</strong> という条件を共有した。Cowork の personal operations workflow が継続的な scheduling delegation に広がっている signal として採用した。",
       "url": "https://x.com/_catwu/status/2079011428380602526",
       "urlLabel": "@_catwu post"
     },
@@ -45,30 +66,30 @@
       "datetime": "2026-07-19T18:33:51Z",
       "displayTime": "2026-07-19 18:33 UTC",
       "title": "@jackclarkSF が Fable の editing 提案が役立ち始めたと共有",
-      "summary": "<strong>@jackclarkSF</strong> は、AI writing 全般はまだつらい一方で、<strong>Fable</strong> が fiction の文を削る提案をうまく出したことで、<strong>AI editing</strong> が実用段階に入りつつある感触を得たと投稿した。Claude / Fable の文章編集ユースケースで、創作文の削除判断まで届き始めたという定性的 signal として読める。",
+      "summary": "<strong>@jackclarkSF</strong> は、AI writing 全般はまだ厳しい一方で、<strong>Fable</strong> が fiction の文を削る提案をうまく出したことで、<strong>AI editing</strong> が実用段階に入りつつある感触を得たと投稿した。Claude / Fable の文章編集ユースケースが前進している定性的 signal として読める。",
       "url": "https://x.com/jackclarkSF/status/2078911208401641615",
       "urlLabel": "@jackclarkSF post"
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-19T17:55:57Z",
-      "displayTime": "2026-07-19 17:55 UTC",
-      "title": "@trq212 が system prompt 80% 短縮の学びを追って共有予定",
-      "summary": "<strong>@trq212</strong> は、Peter Yang の Claude Code インタビュー投稿を引用しつつ、Claude Code の <strong>system prompt を 80% 短縮</strong> して得た学びと、それを <strong>skills</strong> や <strong>system prompts</strong> にどう応用できるかをまとめた post をさらに準備していると述べた。prompt 設計を軽量化しても性能を保てる方向の示唆として読める。",
-      "url": "https://x.com/trq212/status/2078901672441790818",
-      "urlLabel": "@trq212 post"
+      "datetime": "2026-07-20T17:55:49Z",
+      "displayTime": "2026-07-20 17:55 UTC",
+      "title": "@noahzweben が今後数週間の Claude Tag 更新を予告",
+      "summary": "<strong>@noahzweben</strong> は、2 週間の休暇から戻り、今後数週間で <strong>Claude Tag</strong> の update をいくつか共有すると述べた。内容は未公開だが、product-adjacent な予告として低確度 signal にとどめて採用した。",
+      "url": "https://x.com/noahzweben/status/2079264028426379324",
+      "urlLabel": "@noahzweben post"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "この24時間窓では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の current listing を確認したが、visible date ベースで window 内に入る新規 article は見当たらなかった。",
+      "headline": "News 1件 / Claude Blog 1件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の rare disease research grants 1 件と、<strong>Claude Blog</strong> の Rakuten 事例 1 件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
       "details": [
+        "<strong>Anthropic News</strong>: <strong>Apply for Anthropic’s AI for Science rare disease research grants</strong>（<strong>2026-07-20</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</strong>（<strong>2026-07-20</strong>、visible date ベース）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
-        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
-        "<strong>Claude Blog</strong> の先頭 visible date は <strong>Jul 17, 2026</strong>。"
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -80,19 +101,43 @@
       "details": [
         "この window 内の Claude Code release は <strong>0件</strong>。",
         "最新 release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）。",
-        "<strong>v2.1.215</strong> の release note は GitHub CLI で完全取得し、visible bullet は前日 report で和訳・分類済み。今回の JSON では新規 window 対象がないため panel を <strong>0件</strong> とした。"
+        "<strong>v2.1.215</strong> の release note は GitHub CLI で完全取得済みで、visible bullet は <strong>変更</strong> として全件和訳可能な状態で確認したが、今回の JSON では window 外のため panel を <strong>0件</strong> とした。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
     }
   ],
   "exclusions": [
-    "official X では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、この24時間窓で本文採用する新規 post は 0 件だった。",
-    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には Claude / Cowork / Fable / prompt 設計 / Claude Code 運用への示唆が明確な <strong>@trq212</strong>、<strong>@_catwu</strong>、<strong>@jackclarkSF</strong> の 4 件のみを採用した。<strong>@felixrieseberg</strong> の軽い bug acknowledgment reply、<strong>@adocomplete</strong> の一般反応、<strong>@amorriscode</strong> の一般論、<strong>@RobertJBye</strong> の World Cup 関連 post、repost は外した。",
-    "official site watch では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> を確認したが、current listing の visible date ベースで window 内新着は 0 件だった。",
+    "official X では <strong>@ClaudeDevs</strong> の in-window post は <strong>@trq212</strong> の Claude Code 修正案内の repost のみで、新しい独立 announcement ではないため main item から外した。",
+    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には Claude / Cowork / Fable / Claude Tag / Claude Code 運用への示唆が明確な 4 件のみを採用した。一般返信、sports、Bun 議論、repost は外した。",
+    "official site watch では <strong>Claude Blog</strong> の Rakuten 記事は一覧上の visible date で window 内と判定した。本文の直接 URL は今回の取得経路では確定できず、一覧リンクを source とした。",
     "<strong>Claude Code</strong> release panel には window 内 release がないため、最新の <strong>v2.1.215</strong> は確認対象にとどめて本文カード化しなかった。"
   ],
   "sources": [
+    {
+      "title": "AnthropicAI on rare disease research grants",
+      "url": "https://x.com/AnthropicAI/status/2079256626771665098"
+    },
+    {
+      "title": "Anthropic News: rare disease research grants",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
     {
       "title": "Thariq on Claude Code restart fix propagation",
       "url": "https://x.com/trq212/status/2079103743535280508"
@@ -110,28 +155,8 @@
       "url": "https://x.com/jackclarkSF/status/2078911208401641615"
     },
     {
-      "title": "Thariq on shorter Claude Code system prompts",
-      "url": "https://x.com/trq212/status/2078901672441790818"
-    },
-    {
-      "title": "Peter Yang episode clip with Thariq",
-      "url": "https://x.com/petergyang/status/2078895219534438556"
-    },
-    {
-      "title": "Anthropic Engineering listing",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research listing",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News listing",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Blog listing",
-      "url": "https://claude.com/blog"
+      "title": "Noah Zweben on upcoming Claude Tag updates",
+      "url": "https://x.com/noahzweben/status/2079264028426379324"
     },
     {
       "title": "Claude Code release v2.1.215",
