@@ -1,14 +1,14 @@
 {
   "date": "2026-07-20",
-  "windowLabel": "2026-07-19 00:01 UTC - 2026-07-20 00:01 UTC",
-  "archiveTitle": "No official posts, Fable editing notes, and Claude Code v2.1.215",
-  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-19 00:01 UTC から 2026-07-20 00:01 UTC の24時間では、official X と official site に新規採用項目はなかった。engineer signal では <strong>@trq212</strong> が Claude Code の system prompt を 80% 短縮した学びを skills と system prompts に応用する post を準備中だと述べ、<strong>@jackclarkSF</strong> は <strong>Fable</strong> が創作テキストの削除提案で初めて有用だったと共有した。Claude Code では <strong>v2.1.215</strong> が公開され、<code>/verify</code> と <code>/code-review</code> を自動起動しない明示 invocation 方式へ変更した。",
+  "windowLabel": "2026-07-19 06:02 UTC - 2026-07-20 06:02 UTC",
+  "archiveTitle": "No official updates, Cowork calendar usage, and no new Claude Code release",
+  "archiveSummary": "Official 0件、engineer signal 3件、Claude Code release 0件。",
+  "latestSummary": "2026-07-19 06:02 UTC から 2026-07-20 06:02 UTC の24時間では、official X と official site に新規採用項目はなかった。engineer signal では <strong>@_catwu</strong> が <strong>Claude Cowork</strong> に週次カレンダー調整を任せる具体 prompt を共有し、<strong>@jackclarkSF</strong> は <strong>Fable</strong> の fiction 編集提案が初めて実用的だったと述べ、<strong>@trq212</strong> は Claude Code の system prompt を 80% 短縮した学びを skills / system prompts へ展開する post を準備中だと補足した。Claude Code はこの窓で新規 release 0件だった。",
   "summaryBullets": [
     "<strong>Official X 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> には、この24時間窓で本文採用する新規 post がなかった。",
     "<strong>Official blog 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> は、current listing の visible date ベースでこの24時間窓に入る新規記事を確認できなかった。",
-    "<strong>Engineer signal 2件</strong>: <strong>@trq212</strong> は Claude Code の system prompt を 80% 短縮した学びを skills / system prompts に応用する post を準備中だと述べ、<strong>@jackclarkSF</strong> は <strong>Fable</strong> の editing 提案が fiction の一文削除で初めて役立ったと共有した。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.215</strong> は <strong>2026-07-19 02:56 UTC</strong> に公開され、<code>/verify</code> と <code>/code-review</code> は Claude が自律実行せず、必要時に user が明示的に呼ぶ方式へ変更された。"
+    "<strong>Engineer signal 3件</strong>: <strong>@_catwu</strong> は <strong>Claude Cowork</strong> に週 20 時間未満の meeting 制約や decline 履歴参照を含む calendar management prompt を共有し、<strong>@jackclarkSF</strong> は <strong>Fable</strong> の editing 提案が fiction の削除判断で初めて役立ったと述べた。<strong>@trq212</strong> は Claude Code の system prompt を 80% 短縮した学びを skills / system prompts に応用する post を準備中だと補足した。",
+    "<strong>Claude Code release 0件</strong>: GitHub CLI で確認した最新 release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）だが、今回の window 開始より前のため対象外だった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -24,12 +24,12 @@
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-19T17:55:57Z",
-      "displayTime": "2026-07-19 17:55 UTC",
-      "title": "@trq212 が system prompt 80% 短縮の学びを追って共有予定",
-      "summary": "<strong>@trq212</strong> は、Peter Yang の Claude Code インタビュー投稿を引用しつつ、Claude Code の <strong>system prompt を 80% 短縮</strong> して得た学びと、それを <strong>skills</strong> や <strong>system prompts</strong> にどう応用できるかをまとめた post をさらに準備していると述べた。prompt 設計を軽量化しても性能を保てる方向の示唆として読める。",
-      "url": "https://x.com/trq212/status/2078901672441790818",
-      "urlLabel": "@trq212 post"
+      "datetime": "2026-07-20T01:12:05Z",
+      "displayTime": "2026-07-20 01:12 UTC",
+      "title": "@_catwu が Claude Cowork の週次カレンダー委任 prompt を共有",
+      "summary": "<strong>@_catwu</strong> は、<strong>Claude Cowork</strong> に週次カレンダーを任せる prompt として、<strong>meeting を週 20 時間未満に抑える</strong>、<strong>conflicting meetings を dedupe する</strong>、<strong>過去週を見て自分がどの meeting を decline してきたか学習する</strong>、<strong>dinner は 20 時間計算に含めない</strong> という条件を共有した。Cowork の personal operations 用 workflow が、単発要約ではなく継続的な scheduling delegation に広がっている signal として採用した。",
+      "url": "https://x.com/_catwu/status/2079011428380602526",
+      "urlLabel": "@_catwu post"
     },
     {
       "label": "Engineer signal",
@@ -39,6 +39,15 @@
       "summary": "<strong>@jackclarkSF</strong> は、AI writing 全般はまだつらい一方で、<strong>Fable</strong> が fiction の文を削る提案をうまく出したことで、<strong>AI editing</strong> が実用段階に入りつつある感触を得たと投稿した。Claude / Fable の文章編集ユースケースで、創作文の削除判断まで届き始めたという定性的 signal として読める。",
       "url": "https://x.com/jackclarkSF/status/2078911208401641615",
       "urlLabel": "@jackclarkSF post"
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-19T17:55:57Z",
+      "displayTime": "2026-07-19 17:55 UTC",
+      "title": "@trq212 が system prompt 80% 短縮の学びを追って共有予定",
+      "summary": "<strong>@trq212</strong> は、Peter Yang の Claude Code インタビュー投稿を引用しつつ、Claude Code の <strong>system prompt を 80% 短縮</strong> して得た学びと、それを <strong>skills</strong> や <strong>system prompts</strong> にどう応用できるかをまとめた post をさらに準備していると述べた。prompt 設計を軽量化しても性能を保てる方向の示唆として読める。",
+      "url": "https://x.com/trq212/status/2078901672441790818",
+      "urlLabel": "@trq212 post"
     }
   ],
   "releasePanels": [
@@ -57,24 +66,12 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "この24時間窓に入った Claude Code release は <strong>v2.1.215</strong> で、release note の bullet を完全取得し、<strong>新機能 / 変更 / 修正</strong> に分けて和訳した。今回の user-facing 変更は <code>/verify</code> と <code>/code-review</code> の自動起動停止だった。",
-      "releases": [
-        {
-          "version": "v2.1.215",
-          "publishedAt": "2026-07-19 02:56 UTC",
-          "summary": "<code>/verify</code> と <code>/code-review</code> は Claude が自律的に走らせず、必要なときに user が明示的に呼ぶ動作へ変更した小規模 release。",
-          "sections": [
-            {
-              "title": "変更",
-              "items": [
-                "Claude は今後、<code>/verify</code> と <code>/code-review</code> の skill を自分では実行しなくなり、必要な場合は user が <code>/verify</code> または <code>/code-review</code> を明示的に呼ぶ方式に変更された。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
-          "urlLabel": "v2.1.215 release notes"
-        }
+      "headline": "0件",
+      "body": "GitHub CLI で Claude Code releases を確認したが、この24時間窓に publish された新規 release はなかった。最新の official release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）で、今回の window 開始より前のため対象外とした。",
+      "details": [
+        "この window 内の Claude Code release は <strong>0件</strong>。",
+        "最新 release は <strong>v2.1.215</strong>（<strong>2026-07-19 02:56 UTC</strong>）。",
+        "<strong>v2.1.215</strong> の visible release note は前回 report で全件和訳・分類済み。今回の JSON では新規 window 対象がないため panel を <strong>0件</strong> とした。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -82,11 +79,19 @@
   ],
   "exclusions": [
     "official X では <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を走査したが、この24時間窓で本文採用する新規 post は 0 件だった。",
-    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には Claude / Fable の prompt 設計または editing 体験に関する signal が明確な <strong>@trq212</strong> と <strong>@jackclarkSF</strong> の 2 件のみを採用した。サッカー実況、雑談、短い相づち、関連の薄い返信は外した。",
+    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文には Claude / Cowork / Fable / prompt 設計への示唆が明確な <strong>@_catwu</strong>、<strong>@jackclarkSF</strong>、<strong>@trq212</strong> の 3 件のみを採用した。<strong>@felixrieseberg</strong> の bug acknowledgment reply、<strong>@amorriscode</strong> の一般論、<strong>@RobertJBye</strong> の World Cup 関連 post、<strong>@AmandaAskell</strong> の試合実況、repost は外した。",
     "official site watch では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> を確認したが、current listing の visible date ベースで window 内新着は 0 件だった。",
-    "<strong>Claude Code</strong> release panel には window 内の <strong>v2.1.215</strong> のみを残し、<strong>v2.1.214</strong> 以前は外した。visible bullet は全件和訳して分類した。"
+    "<strong>Claude Code</strong> release panel には window 内 release がないため、最新の <strong>v2.1.215</strong> は確認対象にとどめて本文カード化しなかった。"
   ],
   "sources": [
+    {
+      "title": "cat on Claude Cowork calendar prompt",
+      "url": "https://x.com/_catwu/status/2079011428380602526"
+    },
+    {
+      "title": "Jack Clark on Fable editing",
+      "url": "https://x.com/jackclarkSF/status/2078911208401641615"
+    },
     {
       "title": "Thariq on shorter Claude Code system prompts",
       "url": "https://x.com/trq212/status/2078901672441790818"
@@ -94,10 +99,6 @@
     {
       "title": "Peter Yang episode clip with Thariq",
       "url": "https://x.com/petergyang/status/2078895219534438556"
-    },
-    {
-      "title": "Jack Clark on Fable editing",
-      "url": "https://x.com/jackclarkSF/status/2078911208401641615"
     },
     {
       "title": "Anthropic Engineering listing",
