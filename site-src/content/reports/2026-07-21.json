@@ -1,16 +1,26 @@
 {
   "date": "2026-07-21",
-  "windowLabel": "2026-07-20 12:01 UTC - 2026-07-21 12:01 UTC",
-  "archiveTitle": "Screen reader mode, rare disease grants, and Claude Design updates",
-  "archiveSummary": "Official 4件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-20 12:01 UTC から 2026-07-21 12:01 UTC の24時間では、official 側で <strong>@ClaudeDevs</strong> が <strong>Claude Code の screen reader mode</strong> と <strong>Claude Team の 2-seat 開始</strong> を案内し、<strong>Anthropic</strong> は rare disease research grants を告知、<strong>Claude Blog</strong> では <strong>Rakuten</strong> の <strong>Claude Fable 5</strong> 事例が公開された。engineer 側では <strong>@nateparrott</strong> が <strong>Claude Design</strong> の今月の更新点をまとめ、<strong>@amorriscode</strong> は session list の activity filter 変更を説明した。Claude Code の release は <strong>v2.1.216</strong> が window 内に入り、visible bullet 全40項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "windowLabel": "2026-07-20 18:02 UTC - 2026-07-21 18:02 UTC",
+  "archiveTitle": "Claude Cowork skills, new blog posts, and v2.1.216 follow-through",
+  "archiveSummary": "Official 6件、engineer signal 3件、Claude Code release 1件。",
+  "latestSummary": "2026-07-20 18:02 UTC から 2026-07-21 18:02 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> が <strong>Claude Cowork の Record a skill</strong> を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Code の screen reader mode</strong> と <strong>Claude Team 2-seat 開始</strong> を案内した。official site では <strong>Anthropic News</strong> の rare disease grants が visible date <strong>Jul 20, 2026</strong> で残り、<strong>Claude Blog</strong> には <strong>How Anthropic Secures Its AI-Native Software Development Lifecycle</strong> と <strong>How Datadog built a “universal machine tool” for Claude Code</strong> の 2 本が visible date <strong>Jul 21, 2026</strong> で追加された。engineer 側では <strong>@adocomplete</strong> の <strong>advisor tool</strong> 実演、<strong>@nateparrott</strong> の <strong>Claude Design</strong> 更新、<strong>@amorriscode</strong> の session list 補足を採用した。Claude Code の release は、前回 run で GitHub CLI から完全取得済みの <strong>v2.1.216</strong> が引き続き window 内にあり、visible bullet 全40項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official 4件</strong>: <strong>@ClaudeDevs</strong> は <strong>screen reader mode</strong> と <strong>Claude Team 2-seat 開始</strong> を投稿し、<strong>@AnthropicAI</strong> は <strong>AI for Science rare disease grants</strong> を告知、<strong>Claude Blog</strong> では <strong>Rakuten</strong> の事例が公開された。",
-    "<strong>Official X の欠落</strong>: この24時間窓では <strong>@ClaudeAI</strong> の新規 main post は確認できず、official X の採用対象は <strong>@ClaudeDevs</strong> 2件と <strong>@AnthropicAI</strong> 1件だった。",
-    "<strong>Engineer signal 2件</strong>: <strong>@nateparrott</strong> は <strong>Claude Design</strong> の public links / export 改善 / builtin design systems を案内し、<strong>@amorriscode</strong> は session list の <strong>activity filter は削除済みで sort は残している</strong> と説明した。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.216</strong> は <strong>2026-07-20 22:14 UTC</strong> に公開され、filesystem isolation 制御、background needs-input 表示、long session / worktree / OAuth / fullscreen / Windows 周りの修正を含む visible release note 全40項目を分類して和訳した。"
+    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Cowork</strong> の <strong>Record a skill</strong> を公開し、<strong>@ClaudeDevs</strong> は <strong>screen reader mode</strong> と <strong>Claude Team 2-seat 開始</strong> を案内した。",
+    "<strong>Official site 3件</strong>: <strong>Anthropic News</strong> の rare disease grants は visible date <strong>Jul 20, 2026</strong> で継続して窓内候補となり、<strong>Claude Blog</strong> では <strong>AI-native SDLC の security</strong> 記事と <strong>Datadog の Claude Code 活用</strong> 記事が visible date <strong>Jul 21, 2026</strong> で追加された。",
+    "<strong>Engineer signal 3件</strong>: <strong>@adocomplete</strong> は <strong>advisor tool</strong> の実演と docs を示し、<strong>@nateparrott</strong> は <strong>Claude Design</strong> の public links / export / builtin design systems を列挙し、<strong>@amorriscode</strong> は activity filter を外して sort は残していると補足した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.216</strong>（<strong>2026-07-20 22:14 UTC</strong>）は引き続きこの窓内にあり、filesystem isolation 制御、background needs-input 表示、long session / worktree / OAuth / fullscreen / Windows 周りの修正を含む visible release note 全40項目を分類して和訳した。"
   ],
   "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-21T15:54:55Z",
+      "displayTime": "2026-07-21 15:54 UTC",
+      "title": "ClaudeAI が Claude Cowork の Record a skill を公開",
+      "summary": "<strong>@ClaudeAI</strong> は、Claude desktop app の <strong>Claude Cowork</strong> で <strong>Record a skill</strong> を使えるようになったと案内した。screen recording と音声説明から task を skill 化して再実行でき、投稿では <strong>Pro / Max / Team plans</strong> 提供であることも明記している。",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
     {
       "label": "Official X",
       "datetime": "2026-07-20T21:20:33Z",
@@ -31,12 +41,22 @@
       "urlLabel": "Team plan help"
     },
     {
-      "label": "Official X + site",
-      "datetime": "2026-07-20T17:26:25Z",
-      "displayTime": "2026-07-20 17:26 UTC",
-      "title": "Anthropic が rare disease research grants を公開",
-      "summary": "<strong>Anthropic</strong> は、rare genetic diseases に焦点を当てた <strong>AI for Science</strong> の focused call を公開し、採択先へ <strong>6か月で最大 50,000 ドル分の Claude credits</strong> を提供すると発表した。official article では <strong>basic research</strong> と <strong>early-stage biotech</strong> の 2 track、<strong>Monarch Initiative</strong> や <strong>DisMech</strong> との連携、rare disease の diagnosis / mechanism discovery / regulatory dossier 作成を Claude で加速する方向性が説明されている。",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
+      "label": "Official site",
+      "datetime": "2026-07-21T00:00:00Z",
+      "displayTime": "2026-07-21",
+      "title": "Claude Blog が AI-native software development lifecycle の security 記事を公開",
+      "summary": "<strong>How Anthropic Secures Its AI-Native Software Development Lifecycle</strong> は、<strong>Claude Blog</strong> の listing 上で <strong>Jul 21, 2026</strong> 表示の新着として確認できた。タイトルどおり、Anthropic の <strong>AI-native software development lifecycle</strong> を security 観点で扱う記事として採用した。",
+      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-21T00:00:00Z",
+      "displayTime": "2026-07-21",
+      "title": "Claude Blog が Datadog の Claude Code 活用事例を公開",
+      "summary": "<strong>How Datadog built a “universal machine tool” for Claude Code</strong> は、<strong>Claude Blog</strong> の listing 上で <strong>Jul 21, 2026</strong> 表示の新着として確認できた。記事タイトルから、<strong>Datadog</strong> における <strong>Claude Code</strong> の再利用可能な tooling / 実運用パターンを扱う事例記事として採用した。",
+      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
       "urlLabel": "記事を読む",
       "primary": true
     },
@@ -44,24 +64,34 @@
       "label": "Official site",
       "datetime": "2026-07-20T00:00:00Z",
       "displayTime": "2026-07-20",
-      "title": "Claude Blog が Rakuten の Claude Fable 5 事例を公開",
-      "summary": "<strong>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</strong> は、Rakuten が <strong>Claude Code</strong>、<strong>Claude Cowork</strong>、<strong>Claude Platform</strong> を使い、<strong>overnight に自己検証しながら動く長時間 agent</strong> を業務に組み込んでいる事例を紹介した。記事では <strong>self-reflection</strong>、<strong>self-verification</strong>、<strong>first-principles への立ち戻り</strong> が Fable 5 の差分として強調されている。",
-      "url": "https://claude.com/blog/working-at-the-frontier-rakuten",
+      "title": "Anthropic News が rare disease research grants を継続掲載",
+      "summary": "<strong>Apply for Anthropic’s AI for Science rare disease research grants</strong> は、official article 側で <strong>Jul 20, 2026</strong> 表示のままこの窓にかかっていた。記事本文では <strong>6か月で最大 50,000 ドル分の Claude credits</strong>、<strong>basic research</strong> と <strong>early-stage biotech</strong> の 2 track、<strong>Monarch Initiative</strong> / <strong>DisMech</strong> との連携が説明されている。",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants",
       "urlLabel": "記事を読む",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@ClaudeAI の新規 main post は 0件",
-      "body": "この24時間窓では、<strong>@ClaudeAI</strong> の新規 main post は確認できなかった。official X の採用対象は <strong>@ClaudeDevs</strong> 2件と <strong>@AnthropicAI</strong> 1件だった。"
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> の rare disease grants post は <strong>2026-07-20 17:26 UTC</strong> で、この run の exact window 開始 <strong>2026-07-20 18:02 UTC</strong> より前だった。そのため official X の採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 2件に限った。"
     },
     {
       "label": "Anthropic Engineering / Research の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site の採用対象は <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 1件だった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site の採用対象は <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件だった。"
     }
   ],
   "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-21T16:24:29Z",
+      "displayTime": "2026-07-21 16:24 UTC",
+      "title": "@adocomplete が Claude Code advisor tool を実演",
+      "summary": "<strong>@adocomplete</strong> は、API を Rust に書き直すかという相談に advisor として Claude を挟む short demo を投稿し、続く self-reply で <strong>advisor tool docs</strong> を案内した。<strong>hard decisions</strong> を上位モデルに相談する実運用イメージをそのまま示した product signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2079603428251328566",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-21T03:46:25Z",
@@ -69,15 +99,14 @@
       "title": "@nateparrott が Claude Design の今月の更新点を列挙",
       "summary": "<strong>@nateparrott</strong> は、<strong>Claude Design</strong> の今月の更新として <strong>public links</strong>、<strong>PDF / PNG / MP4 / Google Slides export 改善</strong>、<strong>handmade builtin design systems</strong>、<strong>less tokens でより多くできる最適化</strong>、そして bug fixes をまとめて案内した。Claude Design の shipping surface を一望できる product signal として採用した。",
       "url": "https://x.com/nateparrott/status/2079412656243364169",
-      "urlLabel": "@nateparrott post",
-      "primary": true
+      "urlLabel": "@nateparrott post"
     },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-20T21:26:44Z",
       "displayTime": "2026-07-20 21:26 UTC",
       "title": "@amorriscode が Claude Code session list の activity filter 状態を説明",
-      "summary": "<strong>@amorriscode</strong> は、Claude Code session list から <strong>Last Activity</strong> が見えなくなったという user feedback に対し、<strong>activity filter は削除済みだが sort は残っている</strong> と reply した。session navigation UI の recent change と current behavior を示す小さな product signal として扱える。",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code session list から <strong>Last Activity</strong> が見えなくなったという user feedback に対し、<strong>activity filter は削除済みだが sort は残している</strong> と reply した。session navigation UI の recent change と current behavior を示す小さな product signal として扱える。",
       "url": "https://x.com/amorriscode/status/2079317105485472023",
       "urlLabel": "@amorriscode reply"
     }
@@ -85,11 +114,12 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "News 1件 / Claude Blog 1件",
-      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の rare disease research grants 1件と、<strong>Claude Blog</strong> の Rakuten 事例 1件だった。両方とも page 上の visible publication date は <strong>Jul 20, 2026</strong> で、時刻までは確認できなかった。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
+      "headline": "News 1件 / Claude Blog 2件",
+      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Anthropic News</strong> の rare disease grants 1件と、<strong>Claude Blog</strong> の <strong>Jul 21, 2026</strong> 新着 2件だった。Claude Blog 2件はいずれも listing の visible publication date ベース、Anthropic News 1件は article page の <strong>Jul 20, 2026</strong> 表示ベースで採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
       "details": [
         "<strong>Anthropic News</strong>: <strong>Apply for Anthropic’s AI for Science rare disease research grants</strong>（<strong>Jul 20, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Working at the frontier: How Rakuten builds agents overnight with Claude Fable 5</strong>（<strong>Jul 20, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>How Anthropic Secures Its AI-Native Software Development Lifecycle</strong>（<strong>Jul 21, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>How Datadog built a “universal machine tool” for Claude Code</strong>（<strong>Jul 21, 2026</strong>）",
         "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
         "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。"
       ],
@@ -99,7 +129,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub CLI で Claude Code releases を確認したところ、この24時間窓に publish された新規 release は <strong>v2.1.216</strong> の 1件だった。release note 本文は完全取得し、visible bullet 全40項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "Claude Code release の再照会はこの run では <strong>GitHub CLI の network error</strong> で失敗したが、前回 run で <strong>GitHub CLI</strong> から完全取得済みの <strong>v2.1.216</strong>（<strong>2026-07-20 22:14 UTC</strong>）は引き続きこの24時間窓内にある。そのため release note 本文は既存の完全取得結果を再利用し、visible bullet 全40項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.216",
@@ -171,12 +201,16 @@
     }
   ],
   "exclusions": [
-    "official X では <strong>@ClaudeDevs</strong> の screen reader mode post と Team plan post、<strong>@AnthropicAI</strong> の rare disease grants を採用し、<strong>@ClaudeAI</strong> は新規 main post 0件だった。",
-    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文に <strong>Claude Design</strong> の shipping items と session list の UI change を示す 2件のみを採用した。雑談、単純 repost、個人近況、文脈の薄い reply は外した。",
-    "official site watch では <strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> に window 内新着がなく、official site の採用対象は <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 1件だった。",
-    "<strong>Claude Code</strong> release note は GitHub CLI を source of truth とし、window 内に入った <strong>v2.1.216</strong> の visible bullet 全40項目のみを全文和訳した。"
+    "official X では <strong>@AnthropicAI</strong> の rare disease grants post が <strong>2026-07-20 17:26 UTC</strong> で exact window 開始前だったため外し、採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 2件に限った。",
+    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文に <strong>advisor tool</strong>、<strong>Claude Design</strong>、<strong>session list UI change</strong> の signal がある 3件のみを採用した。雑談、単純 repost、個人近況、文脈の薄い reply は外した。",
+    "official site watch では <strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> に window 内新着がなく、official site の採用対象は <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件だった。",
+    "<strong>Claude Code</strong> release note はこの run の再取得に失敗したため、前回 run で <strong>GitHub CLI</strong> から完全取得済みだった <strong>v2.1.216</strong> の visible bullet 全40項目をそのまま再利用した。"
   ],
   "sources": [
+    {
+      "title": "ClaudeAI on Record a skill in Claude Cowork",
+      "url": "https://x.com/claudeai/status/2079595988998554047"
+    },
     {
       "title": "ClaudeDevs on Claude Code screen reader mode",
       "url": "https://x.com/ClaudeDevs/status/2079315549163778366"
@@ -194,14 +228,6 @@
       "url": "https://support.claude.com/en/articles/9267247-get-started-with-the-team-plan"
     },
     {
-      "title": "AnthropicAI on rare disease research grants",
-      "url": "https://x.com/AnthropicAI/status/2079256626771665098"
-    },
-    {
-      "title": "Anthropic News: rare disease research grants",
-      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
-    },
-    {
       "title": "Anthropic Engineering listing",
       "url": "https://www.anthropic.com/engineering"
     },
@@ -214,12 +240,28 @@
       "url": "https://www.anthropic.com/news"
     },
     {
+      "title": "Anthropic News: rare disease research grants",
+      "url": "https://www.anthropic.com/news/rare-disease-research-grants"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude Blog: Rakuten case study",
-      "url": "https://claude.com/blog/working-at-the-frontier-rakuten"
+      "title": "Claude Blog: How Anthropic Secures Its AI-Native Software Development Lifecycle",
+      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle"
+    },
+    {
+      "title": "Claude Blog: How Datadog built a universal machine tool for Claude Code",
+      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code"
+    },
+    {
+      "title": "Ado on Claude Code advisor tool",
+      "url": "https://x.com/adocomplete/status/2079603428251328566"
+    },
+    {
+      "title": "Claude Code advisor docs",
+      "url": "https://code.claude.com/docs/en/advisor"
     },
     {
       "title": "Nate Parrott on Claude Design updates",
