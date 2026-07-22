@@ -1,14 +1,14 @@
 {
   "date": "2026-07-22",
-  "windowLabel": "2026-07-21 00:00:49 UTC - 2026-07-22 00:00:49 UTC",
-  "archiveTitle": "iOS simulator beta, Record a skill, and Claude Code v2.1.217",
-  "archiveSummary": "Official 4件、engineer signal 2件、Claude Code release 1件。",
-  "latestSummary": "2026-07-21 00:00:49 UTC から 2026-07-22 00:00:49 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> が <strong>Claude Cowork</strong> の <strong>Record a skill</strong> を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Code on desktop の iOS simulator 対応 public beta</strong> を案内した。official site では <strong>Claude Blog</strong> に <strong>AI-native software development lifecycle の security</strong> 記事と、<strong>Datadog</strong> の <strong>Claude Code 向け universal machine tool</strong> 事例が visible date <strong>Jul 21, 2026</strong> で並んだ。engineer 側では <strong>@adocomplete</strong> の <strong>advisor tool</strong> 実演と、<strong>@nateparrott</strong> の <strong>Claude Design</strong> 月次更新を採用した。Claude Code では <strong>v2.1.217</strong> が <strong>2026-07-21 21:35 UTC</strong> に公開され、emoji shortcode autocomplete、transcript warning、subagent 上限追加と nested subagent default off、そして memory leak や Windows auto-update を含む修正群を release note 全20項目そのままで和訳した。",
+  "windowLabel": "2026-07-21 06:01:54 UTC - 2026-07-22 06:01:54 UTC",
+  "archiveTitle": "Record a skill, iOS simulator beta, and Claude Code v2.1.217",
+  "archiveSummary": "Official 2件、site新着 0件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-07-21 06:01:54 UTC から 2026-07-22 06:01:54 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> が <strong>Claude Cowork</strong> の <strong>Record a skill</strong> を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Code on desktop</strong> の <strong>iOS simulator 対応 public beta</strong> を案内した。official site では <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> のいずれにも window 内新着は確認できなかった。engineer 側では <strong>@adocomplete</strong> の <strong>advisor tool</strong> 実演と、<strong>@amorriscode</strong> の reply 群に出た <strong>macOS + Xcode 前提</strong>、<strong>Android soon</strong>、<strong>in-app browser</strong> 補足を採用した。Claude Code では <strong>v2.1.217</strong> が <strong>2026-07-21 21:35 UTC</strong> に公開され、release note の visible bullet 全20項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
   "summaryBullets": [
     "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Cowork</strong> の <strong>Record a skill</strong> を公開し、<strong>@ClaudeDevs</strong> は <strong>Claude Code on desktop</strong> で <strong>iOS simulator</strong> を使える public beta を案内した。",
-    "<strong>Official site 2件</strong>: <strong>Claude Blog</strong> に <strong>How Anthropic secures its AI-native software development lifecycle</strong> と <strong>How Datadog built a “universal machine tool” for Claude Code</strong> がいずれも <strong>Jul 21, 2026</strong> で掲載された。",
-    "<strong>Engineer signal 2件</strong>: <strong>@adocomplete</strong> は <strong>advisor tool</strong> 実演と docs link を出し、<strong>@nateparrott</strong> は <strong>Claude Design</strong> の public links、export 改善、builtin design systems、token 効率化を月次更新として列挙した。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.217</strong> は <strong>2026-07-21 21:35 UTC</strong> 公開で、emoji shortcode autocomplete、transcript 書き込み warning、subagent 同時実行 cap、nested subagent default off と、CLI / desktop / screen reader / telemetry / Windows 周辺の修正を含む visible bullet 全20項目を分類して和訳した。"
+    "<strong>Official site 0件</strong>: <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> の listing 上で、この24時間窓に入る新着 article は確認できなかった。",
+    "<strong>Engineer signal 2件</strong>: <strong>@adocomplete</strong> は <strong>advisor tool</strong> 実演と docs link を出し、<strong>@amorriscode</strong> は iOS simulator beta に関して <strong>macOS only</strong>、<strong>Xcode 使用</strong>、<strong>Android soon</strong>、<strong>in-app browser</strong> の補足を reply で出した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.217</strong> は <strong>2026-07-21 21:35 UTC</strong> 公開で、emoji shortcode autocomplete、transcript warning、subagent 同時実行 cap、nested subagent default off と、CLI / desktop / screen reader / telemetry / Windows 周辺の修正を含む visible bullet 全20項目を分類して和訳した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-07-21T21:06:37Z",
       "displayTime": "2026-07-21 21:06 UTC",
       "title": "ClaudeDevs が Claude Code on desktop の iOS simulator 対応 public beta を公開",
-      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code on desktop</strong> で iOS app を build / run すると conversation の横に <strong>iOS simulator</strong> が開くようになったと案内した。thread では Claude が simulator を見ながら操作と反復を行えること、現時点では <strong>macOS only</strong> で <strong>Xcode</strong> が必要な public beta だと補足している。",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Code on desktop</strong> で iOS app を build / run すると conversation の横に <strong>iOS simulator</strong> が開くようになったと案内した。投稿は <strong>public beta</strong> とされ、同じ thread では <strong>@amorriscode</strong> が <strong>macOS only</strong>、<strong>Xcode</strong> を使うこと、web の UX audit には <strong>in-app browser</strong> が使えること、Android 版は <strong>soon</strong> だと補足している。",
       "url": "https://x.com/ClaudeDevs/status/2079674432038248611",
       "urlLabel": "@ClaudeDevs post",
       "primary": true
@@ -30,39 +30,29 @@
       "url": "https://x.com/claudeai/status/2079595988998554047",
       "urlLabel": "@ClaudeAI post",
       "primary": true
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-21T00:00:00Z",
-      "displayTime": "2026-07-21",
-      "title": "Claude Blog が AI-native software development lifecycle の security 記事を公開",
-      "summary": "<strong>How Anthropic secures its AI-native software development lifecycle</strong> は <strong>Jul 21, 2026</strong> 表示で、Anthropic Deputy CISO の Jason Clinton が <strong>Claude が merged code の約80%</strong> を担う開発体制をどう守るかを解説している。記事は security team が planning、code、review の各段階で context、identity boundary、automated review、human approval をどう差し込んでいるかに焦点を当てる。",
-      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-21T00:00:00Z",
-      "displayTime": "2026-07-21",
-      "title": "Claude Blog が Datadog の Claude Code 運用事例を公開",
-      "summary": "<strong>How Datadog built a “universal machine tool” for Claude Code</strong> は <strong>Jul 21, 2026</strong> 表示で、Datadog が agent に仕様を書かせ、その仕様に沿う deterministic kernel で application code を作らせる <strong>Temper</strong> の考え方を紹介している。記事では targeted changes、large refactors、large replacements、entire systems まで Claude Code が担う運用パターンを説明している。",
-      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code",
-      "urlLabel": "記事を読む",
-      "primary": true
     }
   ],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> の直近投稿は前日 <strong>2026-07-20 17:26 UTC</strong> の rare disease grants 告知で、この run の exact window 開始 <strong>2026-07-21 00:00:49 UTC</strong> より前だった。そのため official X の採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 1件に限った。"
+      "body": "<strong>@AnthropicAI</strong> については、この exact window に入る main post を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 1件に限った。"
     },
     {
-      "label": "Anthropic Engineering / Research / News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 14, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 20, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site の採用対象は <strong>Claude Blog</strong> の 2 件のみだった。"
+      "label": "Anthropic / Claude の公式サイト新着は 0件",
+      "body": "<strong>Claude Blog</strong> の最新 visible date は <strong>2026-06-22</strong>、<strong>Anthropic Engineering</strong> は <strong>2026-05-25</strong>、<strong>Anthropic Research</strong> は <strong>2026-07-14</strong>、<strong>Anthropic News</strong> は <strong>2026-07-14</strong> で、この24時間窓に入る新規 article は確認できなかった。"
     }
   ],
   "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-21T21:38:55Z",
+      "displayTime": "2026-07-21 21:38 UTC",
+      "title": "@amorriscode が iOS simulator beta の条件と今後の展開を reply で補足",
+      "summary": "<strong>@amorriscode</strong> は <strong>@ClaudeDevs</strong> の iOS simulator 発表 thread で、現状は <strong>macOS only</strong> かつ <strong>Xcode</strong> を使うこと、web の UX audit には <strong>in-app browser</strong> が使えること、Android 版は <strong>soon</strong> だと連続 reply で補足した。official post の rollout 条件を埋める product signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2079682557583782103",
+      "urlLabel": "@amorriscode reply",
+      "primary": true
+    },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-21T16:24:29Z",
@@ -72,28 +62,18 @@
       "url": "https://x.com/adocomplete/status/2079603428251328566",
       "urlLabel": "@adocomplete post",
       "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-21T03:46:25Z",
-      "displayTime": "2026-07-21 03:46 UTC",
-      "title": "@nateparrott が Claude Design の今月の更新点を列挙",
-      "summary": "<strong>@nateparrott</strong> は、<strong>Claude Design</strong> の今月の更新として <strong>public links</strong>、<strong>PDF / PNG / MP4 / Google Slides export 改善</strong>、<strong>handmade builtin design systems</strong>、<strong>less tokens でより多くできる最適化</strong>、そして bug fixes をまとめて案内した。design surface の shipping 方向を示す product signal として扱える。",
-      "url": "https://x.com/nateparrott/status/2079412656243364169",
-      "urlLabel": "@nateparrott post"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "Claude Blog 2件",
-      "body": "この24時間窓で official site 側の採用対象にしたのは、<strong>Claude Blog</strong> の <strong>Jul 21, 2026</strong> 新着 2 件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は current listing の visible date ベースで window 内新着を確認できなかった。",
+      "headline": "0件",
+      "body": "official site 側では、この24時間窓に入る新規 article を <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> のいずれでも確認できなかった。current listing の visible date ベースでは、window 外の既存記事のみが並んでいる状態だった。",
       "details": [
-        "<strong>Claude Blog</strong>: <strong>How Anthropic secures its AI-native software development lifecycle</strong>（<strong>Jul 21, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>How Datadog built a “universal machine tool” for Claude Code</strong>（<strong>Jul 21, 2026</strong>）",
-        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>。",
-        "<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong>。",
-        "<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 20, 2026</strong>。"
+        "<strong>Claude Blog</strong> の最新 visible date は <strong>2026-06-22</strong>。",
+        "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>2026-05-25</strong>。",
+        "<strong>Anthropic Research</strong> の最新 visible date は <strong>2026-07-14</strong>。",
+        "<strong>Anthropic News</strong> の最新 visible date は <strong>2026-07-14</strong>。"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -153,9 +133,9 @@
     }
   ],
   "exclusions": [
-    "official X では <strong>@ClaudeDevs</strong> の <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> 紹介 post を確認したが、リンク先 article 自体は <strong>Jul 16, 2026</strong> 公開で新規 event ではないため main summary から外した。",
-    "engineer X は監視対象 25 アカウントの in-window post を走査したが、本文に <strong>advisor tool</strong> と <strong>Claude Design</strong> の具体的な shipping signal がある 2 件のみを採用した。個人雑談、単純 repost、文脈の薄い reply は外した。",
-    "official site watch では <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> に window 内新着がなく、official site の採用対象は <strong>Claude Blog</strong> 2 件のみだった。",
+    "official X では <strong>@ClaudeDevs</strong> の <strong>How Anthropic runs large-scale code migrations with Claude Code</strong> 紹介 post を確認したが、リンク先の中身自体は新規 launch ではなく recirculation と判断し、main summary から外した。",
+    "engineer X は監視対象アカウントの in-window post を走査したが、本文に shipping signal や運用補足がある <strong>@adocomplete</strong> と <strong>@amorriscode</strong> の 2 件のみを採用した。個人雑談、単純 repost、文脈の薄い reply は外した。",
+    "official site watch では <strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> のいずれにも window 内新着がなく、official site の採用対象は 0 件だった。",
     "<strong>Claude Code</strong> release note は GitHub CLI を source of truth とし、window 内に入った <strong>v2.1.217</strong> の visible bullet 全20項目のみを全文和訳した。"
   ],
   "sources": [
@@ -164,24 +144,32 @@
       "url": "https://x.com/ClaudeDevs/status/2079674432038248611"
     },
     {
-      "title": "Claude Code docs: iOS simulator",
-      "url": "https://code.claude.com/docs/en/desktop-ios-simulator"
-    },
-    {
       "title": "ClaudeAI on Record a skill in Claude Cowork",
       "url": "https://x.com/claudeai/status/2079595988998554047"
     },
     {
+      "title": "Anthony Morris on iOS simulator requirements",
+      "url": "https://x.com/amorriscode/status/2079682557583782103"
+    },
+    {
+      "title": "Anthony Morris on in-app browser support",
+      "url": "https://x.com/amorriscode/status/2079681564246765825"
+    },
+    {
+      "title": "Anthony Morris on Android timing",
+      "url": "https://x.com/amorriscode/status/2079683840793301284"
+    },
+    {
+      "title": "Ado on Claude Code advisor tool",
+      "url": "https://x.com/adocomplete/status/2079603428251328566"
+    },
+    {
+      "title": "Claude Code advisor tool docs",
+      "url": "https://code.claude.com/docs/en/advisor"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude Blog: How Anthropic secures its AI-native software development lifecycle",
-      "url": "https://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle"
-    },
-    {
-      "title": "Claude Blog: How Datadog built a universal machine tool for Claude Code",
-      "url": "https://claude.com/blog/how-datadog-built-a-universal-machine-tool-for-claude-code"
     },
     {
       "title": "Anthropic Engineering listing",
@@ -196,16 +184,8 @@
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Ado on Claude Code advisor tool",
-      "url": "https://x.com/adocomplete/status/2079603428251328566"
-    },
-    {
-      "title": "Claude Code advisor tool docs",
-      "url": "https://code.claude.com/docs/en/advisor"
-    },
-    {
-      "title": "Nate Parrott on Claude Design updates",
-      "url": "https://x.com/nateparrott/status/2079412656243364169"
+      "title": "ClaudeDevs article share on code migrations",
+      "url": "https://x.com/ClaudeDevs/status/2079654423828304282"
     },
     {
       "title": "Claude Code release v2.1.217",
