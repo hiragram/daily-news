@@ -8,7 +8,7 @@
     "<strong>Official X / site 8件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Code on desktop</strong> の <strong>iOS simulator</strong> public beta を案内し、<strong>Anthropic</strong> は <strong>Economic Index connector</strong>、<strong>Economic Futures Research Fund</strong>、<strong>Public First Action</strong> 追加寄付を含む official article 群を公開した。",
     "<strong>Claude Blog 4件</strong>: <strong>Jul 22, 2026</strong> 付けで <strong>Building verification loops in Claude Code with skills</strong> と <strong>How Outtake built a cyber investigator on Claude</strong> が追加され、<strong>Jul 21, 2026</strong> 付けの <strong>AI-native SDLC security</strong> と <strong>Datadog</strong> 記事もこの24時間窓の visible publication date 対象として維持した。",
     "<strong>Engineer signal 3件</strong>: <strong>@noahzweben</strong> は <strong>Claude Tag</strong> の auto-mode guidance rule 追加を告知し、<strong>@adocomplete</strong> は <strong>v2.1.217</strong> の emoji shortcode autocomplete を実演した。<strong>@amorriscode</strong> は iOS simulator beta について <strong>macOS + Xcode</strong> 前提、<strong>in-app browser</strong>、<strong>Android soon</strong> などを reply で補足した。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.217</strong> は <strong>2026-07-21 21:35 UTC</strong> 公開で、emoji shortcode autocomplete、transcript warning、subagent 同時実行 cap、nested subagent default off に加え、Windows / telemetry / screen reader / background shell / auto-compact 周辺の修正を含んでいた。"
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.217</strong> は <strong>2026-07-21 21:35:10 UTC</strong> 公開で、emoji shortcode autocomplete、transcript warning、subagent 同時実行 cap、nested subagent default off に加え、Windows / telemetry / screen reader / background shell / auto-compact 周辺の修正を含んでいた。"
   ],
   "officialNews": [
     {
@@ -152,7 +152,7 @@
       "releases": [
         {
           "version": "v2.1.217",
-          "publishedAt": "2026-07-21 21:35 UTC",
+          "publishedAt": "2026-07-21 21:35:10 UTC",
           "summary": "<strong>v2.1.217</strong> は、emoji shortcode autocomplete、transcript 書き込み warning、subagent 同時実行 cap と nested spawn 制御を追加しつつ、memory leak、Windows auto-update、session isolation、auto-compact、telemetry、screen reader、background shell 周辺の問題をまとめて修正した release。",
           "sections": [
             {
