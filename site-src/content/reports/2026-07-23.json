@@ -1,0 +1,249 @@
+{
+  "date": "2026-07-23",
+  "windowLabel": "2026-07-22 06:02:57 UTC - 2026-07-23 06:02:57 UTC",
+  "archiveTitle": "Claude Security beta, Jul 22 posts, and Claude Code v2.1.218",
+  "archiveSummary": "Official 6件、engineer signal 2件、Claude Code release 1件。",
+  "latestSummary": "2026-07-22 06:02:57 UTC から 2026-07-23 06:02:57 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Claude Security plugin beta</strong> と <strong>Anthropic Economic Index connector</strong> 告知、さらに official site の <strong>Jul 22, 2026</strong> 新規記事 4 本を確認した。engineer 側では <strong>@noahzweben</strong> の <strong>Claude Tag auto-mode guidance</strong> と <strong>@adocomplete</strong> の <strong>v2.1.217 emoji autocomplete</strong> 実演を採用した。Claude Code の release では <strong>v2.1.218</strong> が <strong>2026-07-22 21:24 UTC</strong> に publish され、visible bullet 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Security plugin beta</strong> を告知し、同日に <strong>Anthropic Economic Index connector</strong> で Claude から公開データを直接引けるようになったことも案内した。",
+    "<strong>Official site 4件</strong>: <strong>Anthropic News</strong> で <strong>Economic Futures Research Fund</strong> と <strong>Economic Index connector</strong>、<strong>Claude Blog</strong> で <strong>Building verification loops in Claude Code with skills</strong> と <strong>How Outtake built a cyber investigator on Claude</strong> がいずれも <strong>Jul 22, 2026</strong> 表示で追加された。",
+    "<strong>Engineer signal 2件</strong>: <strong>@noahzweben</strong> は <strong>Claude Tag</strong> に追加の <strong>auto-mode guidance</strong> を入れられるようにしたと述べ、<strong>@adocomplete</strong> は <strong>Claude Code v2.1.217</strong> の <strong>emoji shortcode autocomplete</strong> を short demo で示した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.218</strong> は <strong>/code-review の background subagent 化</strong>、<strong>ax-screen-reader</strong> の削除通知、<strong>MCP 接続 error の明示</strong>、<strong>fast mode 切替通知</strong> に加え、Windows path、ultrareview、history、Bedrock、remote session、hooks trust など広い範囲の修正を含んでいた。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-22T18:02:57.570Z",
+      "displayTime": "2026-07-22 18:02 UTC",
+      "title": "ClaudeAI が Claude Security plugin beta を告知",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Claude Code</strong> 向けの <strong>Claude Security plugin</strong> が <strong>beta</strong> に入ったと告知した。投稿では、commit 前の変更差分を対象にした vulnerability scan と、codebase 全体の comprehensive scan を <strong>Claude の推論 terminal</strong> 上で実行できると説明している。時刻は公開 post URL の snowflake から算出した。",
+      "url": "https://x.com/claudeai/status/2079990597973057691",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-22T17:20:05.423Z",
+      "displayTime": "2026-07-22 17:20 UTC",
+      "title": "ClaudeAI が Anthropic Economic Index connector を案内",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Anthropic Economic Index</strong> を Claude から直接参照できると案内した。投稿では、<strong>どの職種が最も AI を使っているか</strong> や <strong>どの種類の task が自動化されているか</strong> を Claude に聞けて、答えは index の公開データから返るとしている。時刻は公開 post URL の snowflake から算出した。",
+      "url": "https://x.com/claudeai/status/2079979809606664564",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-22T00:00:00Z",
+      "displayTime": "2026-07-22",
+      "title": "Anthropic が Economic Futures Research Fund の研究 agenda を公開",
+      "summary": "<strong>A research agenda for the Economic Futures Research Fund</strong> は、Anthropic が <strong>$200 million</strong> の fund で外部研究を支援し、AI が雇用や所得移転に与える影響へ備えるための 5 つの research priority を示した。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "urlLabel": "Anthropic News 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-22T00:00:00Z",
+      "displayTime": "2026-07-22",
+      "title": "Anthropic が Economic Index connector を Claude に追加",
+      "summary": "<strong>Ask Claude about the Anthropic Economic Index</strong> は、<strong>Anthropic Economic Index</strong> のデータを Claude から直接たどれる connector を公開し、職種別 AI 利用、州別利用傾向、教師の利用例などを <strong>source data</strong> 付きで質問できると説明している。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+      "urlLabel": "Anthropic News 記事"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-22T00:00:00Z",
+      "displayTime": "2026-07-22",
+      "title": "Claude Blog が verification loops を skill 化する実践を公開",
+      "summary": "<strong>Building verification loops in Claude Code with skills</strong> は、手作業で行う build・test・review の追確認を <strong>skills</strong> として定義し、Claude に self-check の feedback loop を持たせる進め方を整理している。page 上の visible publication date は <strong>Jul 22, 2026</strong> だった。",
+      "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-22T00:00:00Z",
+      "displayTime": "2026-07-22",
+      "title": "Claude Blog に Outtake の cyber investigator 事例が追加",
+      "summary": "<strong>How Outtake built a cyber investigator on Claude</strong> は、<strong>Agents</strong> カテゴリの新規 customer-style story として <strong>Jul 22, 2026</strong> で listing に追加されていた。取得できた official listing ではタイトルと公開日を確認できた。",
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeDevs の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> と <strong>@ClaudeDevs</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> の 2 件のみだった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Anthropic News</strong> 2件と <strong>Claude Blog</strong> 2件だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-22T16:38:27.338Z",
+      "displayTime": "2026-07-22 16:38 UTC",
+      "title": "@noahzweben が Claude Tag の auto-mode guidance 追加ルールを公開",
+      "summary": "<strong>@noahzweben</strong> は、<strong>Claude Tag</strong> の admin が <strong>additional auto-mode guidance</strong> を設定できるようになったと告知した。default permission checker classifier による block を補正する追加ルールを attach できるという内容で、managed deployment 向けの運用調整 signal として採用した。",
+      "url": "https://x.com/noahzweben/status/2079969331878998183",
+      "urlLabel": "@noahzweben post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-22T15:28:39.883Z",
+      "displayTime": "2026-07-22 15:28 UTC",
+      "title": "@adocomplete が Claude Code v2.1.217 の emoji shortcode autocomplete を実演",
+      "summary": "<strong>@adocomplete</strong> は、<strong>Claude Code 2.1.217</strong> で prompt input に <strong>Slack-style emoji shortcode</strong> が入り、<code>:heart:</code> や <code>:hea</code> で補完できることを short demo で示した。release note の新機能を end-user 視点で確認できる signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2079951768419733768",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "4件",
+      "body": "watch 対象の official site listing で、この24時間窓に visible publication date が入った記事は <strong>Anthropic News</strong> 2 件と <strong>Claude Blog</strong> 2 件だった。いずれも <strong>Jul 22, 2026</strong> の visible publication date を確認したが publish time までは見えていないため、採用判定は visible publication date ベースで行った。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> は更新なしだった。",
+      "details": [
+        "<strong>Anthropic News</strong>: <strong>A research agenda for the Economic Futures Research Fund</strong>（<strong>Jul 22, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>Ask Claude about the Anthropic Economic Index</strong>（<strong>Jul 22, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Building verification loops in Claude Code with skills</strong>（<strong>July 22, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>How Outtake built a cyber investigator on Claude</strong>（<strong>July 22, 2026</strong>）"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "Claude Code releases の正規取得はこの run でも <strong>GitHub CLI の network error</strong> で失敗したため、GitHub の release page snapshot を代替 source として確認した。この24時間窓に publish された新規 release は <strong>v2.1.218</strong> の 1 件で、visible bullet 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.218",
+          "publishedAt": "2026-07-22 21:24 UTC",
+          "summary": "<strong>v2.1.218</strong> は、<strong>/code-review</strong> の background subagent 化、<strong>ax-screen-reader</strong> の削除通知、<strong>MCP 接続失敗の可視化</strong>、<strong>fast mode 切替告知</strong> を追加しつつ、Windows path 文字化け、<code>/ultrareview</code>、prompt history、Bedrock、remote session、hooks trust、deeply nested tree crash などを広く修正した release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>--ax-screen-reader</code> mode で、単語削除や行削除（<code>Option+Delete</code>、<code>Ctrl+W</code>、<code>Cmd+Backspace</code>、<code>Ctrl+U</code>、<code>Ctrl+K</code>）を行ったとき、削除された text を screen reader が読み上げるようにした。",
+                "<code>claude mcp list</code> と <code>/mcp</code> で server 接続失敗時に <strong>HTTP status</strong> と error text を表示し、MCP config 値の前後に見えない whitespace がある場合の warning も追加した。",
+                "<code>/config model=&lt;x&gt;</code> や Remote Control によって <strong>fast mode</strong> が切り替わったとき、切替を知らせる announcement を追加した。",
+                "skill / plugin frontmatter の boolean 値として、<code>true</code> / <code>false</code> に加えて <code>yes</code> / <code>no</code> / <code>on</code> / <code>off</code> / <code>1</code> / <code>0</code> も受け付けるようにした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/code-review</code> を <strong>background subagent</strong> として実行するように変更し、review 作業で会話本体を埋めず、stacked slash command がそのまま review target に残るようにした。",
+                "<code>/ultrareview</code> の invalid argument error feedback を改善し、Claude が同じ誤引数を再試行するのではなく自分で修正できるようにした。",
+                "auto mode を改善し、dangerous <code>rm</code>、background の <code>&amp;</code>、怪しい Windows path の検査では permission dialog を開かず、auto-mode classifier が判定するようにした。",
+                "IDE interaction 向けの sandbox command restrictions を改善した。",
+                "trust dialog に、どの repository root への権限付与なのかを明示するよう改善した。",
+                "<code>/deep-research</code> は手動で起動したときだけ開始するよう変更し、Claude が自発的に起動しないようにした。",
+                "auto 付き plan mode では、static analyzer が read-only と証明できない Bash command でも即 prompt せず、auto-mode classifier が判定するよう変更した。",
+                "server-managed settings では、無害な feature toggle や cost toggle では settings-approval prompt を出さないよう変更した。",
+                "agent markdown file は、plugin namespacing 用に予約された <code>:</code> を含む agent 名を reject するよう変更した。",
+                "<code>context: fork</code> を持つ skill は、既定で background 実行するよう変更し、必要なら skill ごとに <code>background: false</code> で opt out できるようにした."
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "Windows path に <code>\\u</code> で始まる segment（例: <code>C:\\Users\\unicorn</code>）があると tool input 内で CJK 文字に化け、file へ access できなくなる問題を修正した。",
+                "left arrow key を編集直後に押すと undo なしで conversation を捨ててしまう問題を修正し、確認を挟むようにした。agent view では Esc で background 化した conversation に戻るようにもした。",
+                "terminal が pasted newline を Ctrl+J として符号化する環境で、multi-line paste が 1 行に潰れて改行位置へ <code>j</code> が入る問題を修正した。",
+                "<code>/context</code> が message picker から compact したあとも compact 前 token usage を表示してしまう問題を修正した。",
+                "<code>/ultrareview</code> に <code>review my auth changes</code> のような descriptive argument を渡すと失敗する問題を修正し、current branch の review にその text を note として添えるようにした。",
+                "<code>/code-review ultra</code> が non-interactive session で黙って local review を走らせていた問題を修正し、cloud review を起動するようにした。",
+                "gateway spend metering が Bedrock application-inference-profile ARN や config-mapped upstream model ID を誤単価で計算する問題を修正し、設定済み model rate で課金計算するようにした。",
+                "長い IDE selection が emoji の途中で切り詰められたときの mojibake と、tool executor error が黙って落ちることがある問題を修正した。",
+                "engine teardown の race で phantom turn が始まって放棄されることがある問題を修正し、close 後に push された input は常に reject するようにした。",
+                "tool call 中断後に不要な <code>[Request interrupted by user]</code> message が出る問題と、tool abort 後に transcript に unpaired な <code>tool_use</code> block が残る問題を修正した。",
+                "<code>--ax-screen-reader</code> mode で、input 行末の space を VoiceOver が echo せず <code>new line</code> と読んでしまう問題を修正した。",
+                "plugin panel と settings panel で terminal cursor が focused row に移動せず、screen reader や magnifier が追従しにくい問題を修正した。",
+                "深くネストした watched directory tree を削除・移動したときや、深い UI tree を render したときに maximum call stack exceeded で crash する問題を修正した。",
+                "session が PR を作成または link した直後に終了すると、pull request event がたまに失われる問題を修正した。",
+                "Bedrock setup wizard が、partitioned AWS region や proxy-only network 上の assume-role profile で profile verification に失敗する問題を修正した。",
+                "system clock 変更後に turn duration が負数または不正値になることがある問題を修正し、monotonic clock で計時するようにした。",
+                "<code>N MCP servers need authentication</code> という startup notice が、未接続の claude.ai connector まで数えてしまう過大計上を修正した。",
+                "history write が race または失敗したとき、prompt history entry が欠落したり重複したりする問題を修正した。",
+                "大きな thinking budget 付き context-overflow error のあと、同じ doomed request を再送し続ける retry loop を修正した。あわせて <code>Ctrl+B</code> で background 化したときも他経路と同じ background-shell cap を適用するようにした。",
+                "agent frontmatter hook が untrusted folder から実行されてしまう問題を修正し、agent file 自身の folder が accepted workspace trust を持つ場合だけ hook を許可するようにした。",
+                "headless session と SDK session で、compaction 後に fork-session lineage が失われる問題を修正した。",
+                "history に malformed delta attachment がある resumed session が every turn 失敗したり resume 時に crash したりする問題を修正した。",
+                "remote session の worker が置き換わったあとも heartbeat を送り続け、長寿命の desktop / IDE process が拒否された request を数秒ごとに再試行し続ける問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
+          "urlLabel": "v2.1.218 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定し、今回の window では visible publication date が <strong>Jul 22, 2026</strong> の記事のみを採用した。時刻が見えない記事は date ベースで扱っている。",
+    "engineer X は監視対象アカウントの in-window post を走査し、shipping / rollout / product-signal が明確な <strong>@noahzweben</strong> と <strong>@adocomplete</strong> の 2 件のみを採用した。個人雑談、単純な祝辞、関連の薄い reply は外した。",
+    "<strong>Claude Code</strong> release の正規経路である <strong>GitHub CLI</strong> はこの run でも <code>error connecting to api.github.com</code> で失敗したため、release panel は GitHub release page snapshot を代替 source として使った。",
+    "X の post 本文と exact timestamp は MCP で再取得できなかったため、公開 URL、前回 run で保存済みの内容、検索スナップショット、必要に応じて post snowflake から算出した UTC timestamp を併用した。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeAI on Claude Security plugin beta",
+      "url": "https://x.com/claudeai/status/2079990597973057691"
+    },
+    {
+      "title": "ClaudeAI on the Anthropic Economic Index connector",
+      "url": "https://x.com/claudeai/status/2079979809606664564"
+    },
+    {
+      "title": "Noah Zweben on Claude Tag auto-mode guidance",
+      "url": "https://x.com/noahzweben/status/2079969331878998183"
+    },
+    {
+      "title": "Ado on Claude Code emoji shortcode autocomplete",
+      "url": "https://x.com/adocomplete/status/2079951768419733768"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic News: A research agenda for the Economic Futures Research Fund",
+      "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+    },
+    {
+      "title": "Anthropic News: Ask Claude about the Anthropic Economic Index",
+      "url": "https://www.anthropic.com/news/anthropic-economic-index-connector"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Building verification loops in Claude Code with skills",
+      "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.218 release notes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218"
+    }
+  ]
+}
