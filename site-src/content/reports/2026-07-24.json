@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-24",
+  "windowLabel": "2026-07-23 06:01:00 UTC - 2026-07-24 06:01:00 UTC",
+  "archiveTitle": "Voice mode expansion, certifications, and cookbook updates",
+  "archiveSummary": "Official 4件、engineer signal 3件、Claude Code release 0件。",
+  "latestSummary": "2026-07-23 06:01:00 UTC から 2026-07-24 06:01:00 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>voice mode 強化</strong>、<strong>@ClaudeDevs</strong> の <strong>zoom tool cookbook 更新</strong>、さらに <strong>Claude Blog</strong> の <strong>voice mode 記事</strong> と <strong>Claude Certification Program 拡張</strong> を確認した。engineer 側では <strong>Robert Bye</strong> による voice mode ship の補足、<strong>Anthony Morris</strong> による desktop の steering 既定化示唆、<strong>Sid</strong> による <strong>Fable</strong> の使い方 guidance を採用した。<strong>Claude Code</strong> の新規 release はこの window では確認されなかった。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は voice mode が <strong>より高性能な model</strong>、<strong>接続済み tools</strong>、<strong>対応言語拡大</strong> を得たと告知し、<strong>@ClaudeDevs</strong> は高解像度画像の一部を再取得できる <strong>zoom tool cookbook</strong> 更新を案内した。",
+    "<strong>Official site 2件</strong>: <strong>Claude Blog</strong> では <strong>Think through hard problems in voice mode</strong> と <strong>Four role-based certifications for the people who put Claude to work for customers</strong> がいずれも <strong>July 23, 2026</strong> として公開されていた。",
+    "<strong>Engineer signal 3件</strong>: <strong>@RobertJBye</strong> は voice mode update の要点を補足し、<strong>@amorriscode</strong> は Claude Code desktop の <strong>steering</strong> が既定の想定 UX だと説明し、<strong>@sidbid</strong> は <strong>Fable</strong> に対して従来以上に大きい task を与える使い方を勧めた。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases の最新は <strong>v2.1.218</strong>（<strong>2026-07-22 21:24:56 UTC</strong>）で、今回の24時間窓には新規 release が入っていない。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-23T23:25:53Z",
+      "displayTime": "2026-07-23 23:25 UTC",
+      "title": "ClaudeDevs が zoom tool cookbook 更新を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、画像が縮小表示される際に失われる細部を補うため、Claude が見たい領域を指定して元の高解像度画像から crop を取り直せる <strong>zoom tool</strong> cookbook を更新したと案内した。",
+      "url": "https://x.com/ClaudeDevs/status/2080434253175943400",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-23T19:34:47Z",
+      "displayTime": "2026-07-23 19:34 UTC",
+      "title": "ClaudeAI が voice mode の大型アップデートを告知",
+      "summary": "<strong>@ClaudeAI</strong> は、voice mode が <strong>Claude Opus / Sonnet</strong> を含むより高性能な model で動作し、会話中に <strong>接続済み tools</strong> に到達でき、対応言語も増えたと告知した。thread では <strong>email</strong> や <strong>calendar</strong> などへの接続と、<strong>Spanish / French / Hindi / Japanese</strong> を含む言語拡大にも触れていた。",
+      "url": "https://x.com/claudeai/status/2080376094939603366",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-23T00:00:00Z",
+      "displayTime": "2026-07-23",
+      "title": "Claude Blog が voice mode 拡張の詳細を公開",
+      "summary": "<strong>Think through hard problems in voice mode</strong> は、voice mode が <strong>Opus / Sonnet / Haiku</strong> を使い分けられること、<strong>接続済み tools</strong> を会話中に使えること、さらに対応言語が増えたことを説明する記事として公開されていた。page 上の visible publication date は <strong>July 23, 2026</strong> だった。",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "urlLabel": "Claude Blog 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-23T00:00:00Z",
+      "displayTime": "2026-07-23",
+      "title": "Claude Blog が role-based certification 拡張を発表",
+      "summary": "<strong>Four role-based certifications for the people who put Claude to work for customers</strong> は、<strong>Claude Certification Program</strong> に <strong>Associate / Developer / Architect</strong> などの role-based credential を追加し、enterprise 導入を担う人材認定を拡張した記事として公開されていた。page 上の visible publication date は <strong>July 23, 2026</strong> だった。",
+      "url": "https://claude.com/blog/four-role-based-claude-certifications",
+      "urlLabel": "Claude Blog 記事"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 1 件と <strong>@ClaudeDevs</strong> 1 件だった。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の一覧では最新 visible date が <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> では <strong>Jul 14, 2026</strong>、<strong>Anthropic News</strong> では <strong>Jul 22, 2026</strong> が最新で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Claude Blog</strong> 2件のみだった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-23T19:48:56Z",
+      "displayTime": "2026-07-23 19:48 UTC",
+      "title": "@RobertJBye が voice mode update の要点を補足",
+      "summary": "<strong>@RobertJBye</strong> は、Claude の voice mode update について、<strong>Sonnet / Opus 対応</strong>、<strong>Slack などの connector 利用</strong>、多言語対応強化を箇条書きで紹介した。official launch の実利用寄りな補足 signal として採用した。",
+      "url": "https://x.com/RobertJBye/status/2080379658705518660",
+      "urlLabel": "@RobertJBye post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-23T20:09:34Z",
+      "displayTime": "2026-07-23 20:09 UTC",
+      "title": "@amorriscode が Claude Code desktop の steering を既定 UX と説明",
+      "summary": "<strong>@amorriscode</strong> は、Claude Code desktop で message を queue する代わりにそのまま <strong>steering</strong> する挙動について、<strong>CMD+Enter</strong> で queue でき、team 内 testing では steering が既定かつ好まれる体験だったと reply した。desktop UX 変更の補足 signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2080384848645226993",
+      "urlLabel": "@amorriscode reply",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-23T14:29:42Z",
+      "displayTime": "2026-07-23 14:29 UTC",
+      "title": "@sidbid が Fable により大きな task を与える使い方を勧める",
+      "summary": "<strong>@sidbid</strong> は、<strong>Fable</strong> には従来の LLM より大きな task を渡し、細部は任せつつ限界を越えるまで試すべきだと述べた。Anthropic 内の frontier-use guidance を示す signal として採用した。",
+      "url": "https://x.com/sidbid/status/2080299320864354637",
+      "urlLabel": "@sidbid post",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "watch 対象の official site listing で、この24時間窓に visible publication date が入った記事は <strong>Claude Blog</strong> の 2 件だけだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> は window 外の日付が最新で、今回の採用対象には入っていない。",
+      "details": [
+        "<strong>Claude Blog</strong>: <strong>Four role-based certifications for the people who put Claude to work for customers</strong>（<strong>July 23, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Think through hard problems in voice mode</strong>（<strong>July 23, 2026</strong>）"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "Claude Code releases は今回 <strong>GitHub release metadata</strong> で確認した。この24時間窓に publish された新規 release はなく、最新は window 外の <strong>v2.1.218</strong>（<strong>2026-07-22 21:24:56 UTC</strong>）だった。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定し、今回の window では <strong>July 23, 2026</strong> の <strong>Claude Blog</strong> 2件のみを採用した。publish time が見えない記事は date ベースで扱っている。",
+    "official X は <strong>X MCP</strong> の recent search を使い、main post のみを採用した。<strong>@ClaudeAI</strong> の thread reply は主投稿の補足情報として summary に反映したが、別 item にはしていない。",
+    "engineer X は監視対象アカウントの in-window post を走査し、voice mode / desktop UX / Fable usage に関する signal が比較的明確な <strong>@RobertJBye</strong>、<strong>@amorriscode</strong>、<strong>@sidbid</strong> の 3 件のみを採用した。個人雑談、単純な祝辞、関連の薄い reply は外した。",
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、この24時間窓に新規 release がないことを確認したため、release note の追加収録は行っていない。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeAI on voice mode update",
+      "url": "https://x.com/claudeai/status/2080376094939603366"
+    },
+    {
+      "title": "ClaudeAI thread on models, tools, and languages for voice mode",
+      "url": "https://x.com/claudeai/status/2080376096873177300"
+    },
+    {
+      "title": "ClaudeAI thread on more languages for voice mode",
+      "url": "https://x.com/claudeai/status/2080376099268169943"
+    },
+    {
+      "title": "ClaudeDevs on zoom tool cookbook",
+      "url": "https://x.com/ClaudeDevs/status/2080434253175943400"
+    },
+    {
+      "title": "Robert Bye on the voice mode ship",
+      "url": "https://x.com/RobertJBye/status/2080379658705518660"
+    },
+    {
+      "title": "Anthony Morris on desktop steering behavior",
+      "url": "https://x.com/amorriscode/status/2080384848645226993"
+    },
+    {
+      "title": "Sid on ambitious Fable task sizing",
+      "url": "https://x.com/sidbid/status/2080299320864354637"
+    },
+    {
+      "title": "Claude Blog: Think through hard problems in voice mode",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode"
+    },
+    {
+      "title": "Claude Blog: Four role-based certifications for the people who put Claude to work for customers",
+      "url": "https://claude.com/blog/four-role-based-claude-certifications"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
