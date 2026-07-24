@@ -1,9 +1,9 @@
 {
   "date": "2026-07-24",
-  "windowLabel": "2026-07-23 06:01:00 UTC - 2026-07-24 06:01:00 UTC",
+  "windowLabel": "2026-07-23 12:01:45 UTC - 2026-07-24 12:01:45 UTC",
   "archiveTitle": "Voice mode expansion, certifications, and cookbook updates",
   "archiveSummary": "Official 4件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-23 06:01:00 UTC から 2026-07-24 06:01:00 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>voice mode 強化</strong>、<strong>@ClaudeDevs</strong> の <strong>zoom tool cookbook 更新</strong>、さらに <strong>Claude Blog</strong> の <strong>voice mode 記事</strong> と <strong>Claude Certification Program 拡張</strong> を確認した。engineer 側では <strong>Robert Bye</strong> による voice mode ship の補足、<strong>Anthony Morris</strong> による desktop の steering 既定化示唆、<strong>Sid</strong> による <strong>Fable</strong> の使い方 guidance を採用した。<strong>Claude Code</strong> の新規 release はこの window では確認されなかった。",
+  "latestSummary": "2026-07-23 12:01:45 UTC から 2026-07-24 12:01:45 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>voice mode 強化</strong>、<strong>@ClaudeDevs</strong> の <strong>zoom tool cookbook 更新</strong>、さらに <strong>Claude Blog</strong> の <strong>voice mode 記事</strong> と <strong>Claude Certification Program 拡張</strong> を確認した。engineer 側では <strong>Robert Bye</strong> による voice mode ship の補足、<strong>Anthony Morris</strong> による desktop の steering 既定化示唆、<strong>Sid</strong> による <strong>Fable</strong> の使い方 guidance を採用した。<strong>Claude Code</strong> の新規 release はこの window では確認されなかった。",
   "summaryBullets": [
     "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は voice mode が <strong>より高性能な model</strong>、<strong>接続済み tools</strong>、<strong>対応言語拡大</strong> を得たと告知し、<strong>@ClaudeDevs</strong> は高解像度画像の一部を再取得できる <strong>zoom tool cookbook</strong> 更新を案内した。",
     "<strong>Official site 2件</strong>: <strong>Claude Blog</strong> では <strong>Think through hard problems in voice mode</strong> と <strong>Four role-based certifications for the people who put Claude to work for customers</strong> がいずれも <strong>July 23, 2026</strong> として公開されていた。",
