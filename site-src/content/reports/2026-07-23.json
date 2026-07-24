@@ -1,13 +1,13 @@
 {
   "date": "2026-07-23",
-  "windowLabel": "2026-07-22 18:01:38 UTC - 2026-07-23 18:01:38 UTC",
-  "archiveTitle": "Security plugin beta, desktop signals, and Claude Code v2.1.218",
-  "archiveSummary": "Official 6件、engineer signal 5件、Claude Code release 1件。",
-  "latestSummary": "2026-07-22 18:01:38 UTC から 2026-07-23 18:01:38 UTC の24時間では、official 側で <strong>@ClaudeDevs</strong> の <strong>Claude Managed Agents</strong> 機能追加、<strong>@ClaudeAI</strong> の <strong>Claude Security plugin beta</strong> 告知、さらに official site の <strong>Jul 22, 2026</strong> 新規記事 4 本を確認した。engineer 側では <strong>Claude Code Desktop app</strong> の常用報告、<strong>Android simulator coming soon</strong>、<strong>desktop steering の未告知 rollout</strong>、<strong>/design</strong> の使用感、<strong>Claude Code</strong> による Node.js test suite 改善の言及を採用した。Claude Code の release では <strong>v2.1.218</strong> が <strong>2026-07-22 21:24 UTC</strong> に publish され、release note 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "windowLabel": "2026-07-22 00:02:31 UTC - 2026-07-23 00:02:31 UTC",
+  "archiveTitle": "Economic Index updates, desktop signals, and Claude Code v2.1.218",
+  "archiveSummary": "Official 7件、engineer signal 5件、Claude Code release 1件。",
+  "latestSummary": "2026-07-22 00:02:31 UTC から 2026-07-23 00:02:31 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Anthropic Economic Index connector</strong> と <strong>Claude Security plugin beta</strong>、<strong>@ClaudeDevs</strong> の <strong>Claude Managed Agents</strong> 機能追加、さらに official site の <strong>Jul 22, 2026</strong> 新規記事 4 本を確認した。engineer 側では <strong>Claude Code Desktop app</strong> の daily-driver 化、desktop 固有の browser / iOS simulator 文脈、今後の <strong>git</strong> 改善示唆、<strong>Claude Tag</strong> の auto-mode guidance、<strong>Claude Code</strong> による Node.js test suite 改善の言及を採用した。Claude Code の release では <strong>v2.1.218</strong> が <strong>2026-07-22 21:24 UTC</strong> に publish され、release note 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official X 2件</strong>: <strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> に effort level、event seeding、1 session あたり 500 skills、environment / memory store webhook、sub-agent event stream を追加した。<strong>@ClaudeAI</strong> は <strong>Claude Security plugin</strong> の <strong>beta</strong> 提供を告知した。",
-    "<strong>Official site 4件</strong>: <strong>Anthropic News</strong> で <strong>Economic Futures Research Fund</strong> と <strong>Economic Index connector</strong>、<strong>Claude Blog</strong> で <strong>verification loops in Claude Code with skills</strong> と <strong>Outtake cyber investigator</strong> の記事がいずれも <strong>Jul 22, 2026</strong> 表示で残っていた。",
-    "<strong>Engineer signal 5件</strong>: <strong>@adocomplete</strong> は <strong>Claude Code Desktop app</strong> を daily driver と評し、<strong>@_catwu</strong> は Android simulator が <strong>coming soon</strong> と reply した。<strong>@amorriscode</strong> は desktop steering が <strong>yesterday</strong> rollout されたが <strong>まだ未告知</strong> だと示し、<strong>@trq212</strong> と <strong>@jarredsumner</strong> は frontend / Node.js workflow での効果を述べた。",
+    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>Anthropic Economic Index connector</strong> と <strong>Claude Security plugin beta</strong> を告知し、<strong>@ClaudeDevs</strong> は <strong>Claude Managed Agents</strong> に effort level、event seeding、500 skills、environment / memory store webhook、sub-agent event stream を追加した。",
+    "<strong>Official site 4件</strong>: <strong>Anthropic News</strong> で <strong>Economic Futures Research Fund</strong> と <strong>Economic Index connector</strong>、<strong>Claude Blog</strong> で <strong>verification loops in Claude Code with skills</strong> と <strong>Outtake cyber investigator</strong> の記事がいずれも <strong>Jul 22, 2026</strong> 表示で確認できた。",
+    "<strong>Engineer signal 5件</strong>: <strong>@adocomplete</strong> は <strong>Claude Code Desktop app</strong> を daily driver と評し、<strong>@amorriscode</strong> は desktop の browser / iOS simulator / multi-Claude 利点と今後の <strong>git</strong> 改善を示した。<strong>@noahzweben</strong> は <strong>Claude Tag</strong> の auto-mode guidance 追加を告知し、<strong>@jarredsumner</strong> は Node.js test suite 改善での <strong>Claude Code</strong> 活用を述べた。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.218</strong> は <strong>/code-review の background subagent 化</strong>、<strong>ax-screen-reader</strong> の削除通知、<strong>MCP 接続 error の可視化</strong>、<strong>fast mode 切替通知</strong> を追加しつつ、Windows path、<code>/ultrareview</code>、history、Bedrock、remote session、hooks trust など広い範囲の修正を含んでいた。"
   ],
   "officialNews": [
@@ -32,11 +32,21 @@
       "primary": true
     },
     {
+      "label": "Official X",
+      "datetime": "2026-07-22T17:20:05Z",
+      "displayTime": "2026-07-22 17:20 UTC",
+      "title": "ClaudeAI が Anthropic Economic Index connector を案内",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Anthropic Economic Index</strong> の公開データを Claude から直接参照できるようになり、職種別 AI 利用や自動化されている task を質問できると案内した。",
+      "url": "https://x.com/claudeai/status/2079979809606664564",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
+    {
       "label": "Official site",
       "datetime": "2026-07-22T00:00:00Z",
       "displayTime": "2026-07-22",
       "title": "Anthropic が Economic Futures Research Fund の研究 agenda を公開",
-      "summary": "<strong>A research agenda for the Economic Futures Research Fund</strong> は、Anthropic が <strong>$200 million</strong> の fund で外部研究を支援し、AI が雇用や所得移転に与える影響へ備えるための research agenda を示した。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
+      "summary": "<strong>A research agenda for the Economic Futures Research Fund</strong> は、<strong>Economic Futures Research Fund</strong> 向けの研究 agenda を公開した記事として <strong>Anthropic News</strong> 一覧に掲載されていた。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
       "url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
       "urlLabel": "Anthropic News 記事",
       "primary": true
@@ -46,7 +56,7 @@
       "datetime": "2026-07-22T00:00:00Z",
       "displayTime": "2026-07-22",
       "title": "Anthropic が Economic Index connector を Claude に追加",
-      "summary": "<strong>Ask Claude about the Anthropic Economic Index</strong> は、<strong>Anthropic Economic Index</strong> のデータを Claude から直接参照できる connector を公開し、職種別 AI 利用や task 傾向を source data 付きで質問できると説明している。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
+      "summary": "<strong>Ask Claude about the Anthropic Economic Index</strong> は、<strong>Anthropic Economic Index</strong> のデータを Claude から直接参照できる connector を公開した記事として <strong>Anthropic News</strong> 一覧に掲載されていた。page 上の visible publication date は <strong>Jul 22, 2026</strong> で、時刻は明示されていない。",
       "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
       "urlLabel": "Anthropic News 記事"
     },
@@ -55,7 +65,7 @@
       "datetime": "2026-07-22T00:00:00Z",
       "displayTime": "2026-07-22",
       "title": "Claude Blog が verification loops を skill 化する実践を公開",
-      "summary": "<strong>Building verification loops in Claude Code with skills</strong> は、手作業の build・test・review を <strong>skills</strong> に落とし込み、Claude が自分で verification loop を閉じられるようにする実践を紹介している。page 上の visible publication date は <strong>July 22, 2026</strong> だった。",
+      "summary": "<strong>Building verification loops in Claude Code with skills</strong> は、手作業の確認手順を <strong>skills</strong> として定義し、Claude Code が自分で verification loop を回せるようにする実践を紹介している。page 上の visible publication date は <strong>July 22, 2026</strong> だった。",
       "url": "https://claude.com/blog/building-verification-loops-in-claude-code-with-skills",
       "urlLabel": "Claude Blog 記事"
     },
@@ -64,7 +74,7 @@
       "datetime": "2026-07-22T00:00:00Z",
       "displayTime": "2026-07-22",
       "title": "Claude Blog に Outtake の cyber investigator 事例が追加",
-      "summary": "<strong>How Outtake built a cyber investigator on Claude</strong> は、Outtake が Claude を使って長時間走る cyber investigation agent を構築した事例を紹介している。page 上の visible publication date は <strong>July 22, 2026</strong> だった。",
+      "summary": "<strong>How Outtake built a cyber investigator on Claude</strong> は、Outtake が Claude Code と Agent SDK を使って長時間走る cyber investigation agent を構築した事例を紹介している。page 上の visible publication date は <strong>July 22, 2026</strong> だった。",
       "url": "https://claude.com/blog/how-outtake-built-a-cyber-investigator-on-claude",
       "urlLabel": "Claude Blog 記事"
     }
@@ -72,44 +82,14 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeDevs</strong> 1 件と <strong>@ClaudeAI</strong> 1 件だった。"
+      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 2 件と <strong>@ClaudeDevs</strong> 1 件だった。"
     },
     {
       "label": "Anthropic Engineering / Research の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Anthropic News</strong> 2件と <strong>Claude Blog</strong> 2件だった。"
+      "body": "<strong>Anthropic Engineering</strong> の一覧では最新 visible date が <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> では最新 visible date が <strong>Jul 14, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Anthropic News</strong> 2件と <strong>Claude Blog</strong> 2件だった。"
     }
   ],
   "signals": [
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-23T14:38:26Z",
-      "displayTime": "2026-07-23 14:38 UTC",
-      "title": "@amorriscode が Claude Code Desktop の steering rollout を未告知と示唆",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Claude Code Desktop</strong> で <strong>messages queue の代わりに steering</strong> が最近出たのかという質問に対し、<strong>昨日入った</strong> が <strong>まだ announce していない</strong> と reply した。desktop 体験改善の未告知 rollout signal として採用した。",
-      "url": "https://x.com/amorriscode/status/2080301516456645040",
-      "urlLabel": "@amorriscode reply",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-23T05:20:57Z",
-      "displayTime": "2026-07-23 05:20 UTC",
-      "title": "@_catwu が Android simulator は coming soon と案内",
-      "summary": "<strong>@_catwu</strong> は、<strong>@ClaudeDevs</strong> の iOS simulator thread に対する <strong>Android simulator</strong> の質問へ <strong>coming soon!</strong> と reply した。Claude Code desktop の mobile simulator roadmap に関する短いが明確な signal として採用した。",
-      "url": "https://x.com/_catwu/status/2080161221022716303",
-      "urlLabel": "@_catwu reply",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-23T00:41:36Z",
-      "displayTime": "2026-07-23 00:41 UTC",
-      "title": "@trq212 が Claude Design と Claude Code の組み合わせを高評価",
-      "summary": "<strong>@trq212</strong> は、実際に <code>/design</code> を使ってみると frontend 作業で <strong>Claude Design</strong> と <strong>Claude Code</strong> の組み合わせがかなり良いと述べた。Claude 系 coding workflow への使用感 signal として採用した。",
-      "url": "https://x.com/trq212/status/2080090919832084753",
-      "urlLabel": "@trq212 post",
-      "primary": true
-    },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-22T19:00:20Z",
@@ -128,6 +108,36 @@
       "summary": "<strong>@jarredsumner</strong> は、<strong>1 engineer + Claude Code</strong> がこの1か月で Node.js の test suite を、Bun team が <strong>1.2 → 1.3</strong> の9か月で進めた以上に前進させたと述べた。Claude Code の実務的な coding leverage を示す signal として採用した。",
       "url": "https://x.com/jarredsumner/status/2079999022090297494",
       "urlLabel": "@jarredsumner post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-22T17:22:38Z",
+      "displayTime": "2026-07-22 17:22 UTC",
+      "title": "@amorriscode が git 周りの改善を進めていると返信",
+      "summary": "<strong>@amorriscode</strong> は、desktop app の diff / config 改善に関する質問に対し、表示内容の調整をしやすくしつつ <strong>git stuff</strong> も進めていると reply した。Claude Code desktop の今後の改善 signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2079980450131624190",
+      "urlLabel": "@amorriscode reply",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-22T16:38:27Z",
+      "displayTime": "2026-07-22 16:38 UTC",
+      "title": "@noahzweben が Claude Tag の追加 auto-mode guidance を告知",
+      "summary": "<strong>@noahzweben</strong> は、<strong>Claude Tag</strong> で default permission checker classifier に加えて管理者が追加の auto-mode guidance を設定できるようになったと告知した。Anthropic 製 agent 運用面の signal として採用した。",
+      "url": "https://x.com/noahzweben/status/2079969331878998183",
+      "urlLabel": "@noahzweben post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-22T06:03:13Z",
+      "displayTime": "2026-07-22 06:03 UTC",
+      "title": "@amorriscode が desktop app の browser と iOS simulator 利点を説明",
+      "summary": "<strong>@amorriscode</strong> は、CLI / terminal との違いを問う reply に対し、desktop には <strong>Browser</strong> と <strong>iOS simulator</strong> があり、Claude に context を与えやすく、<strong>multi-Claude</strong> もしやすいと説明した。desktop app の利用価値を補強する signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2079809472072216820",
+      "urlLabel": "@amorriscode reply",
       "primary": true
     }
   ],
@@ -148,7 +158,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "Claude Code releases は今回 <strong>GitHub release page</strong> と <strong>CHANGELOG.md</strong> で確認した。この24時間窓に入る最新 release は <strong>v2.1.218</strong> の 1 件で、release note 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "body": "Claude Code releases は今回 <strong>GitHub release page</strong> で確認した。この24時間窓に入る最新 release は <strong>v2.1.218</strong> の 1 件で、release note 全37項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
       "releases": [
         {
           "version": "v2.1.218",
@@ -218,42 +228,38 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定し、今回の window では visible publication date が <strong>Jul 22, 2026</strong> の記事のみを採用した。時刻が見えない記事は date ベースで扱っている。",
-    "engineer X は監視対象アカウントの in-window post を走査し、shipping / rollout / product-signal が比較的明確な <strong>@amorriscode</strong>、<strong>@_catwu</strong>、<strong>@trq212</strong>、<strong>@adocomplete</strong>、<strong>@jarredsumner</strong> の 5 件のみを採用した。個人雑談、単純な祝辞、関連の薄い reply は外した。",
-    "<strong>Claude Code</strong> release は release page と <strong>CHANGELOG.md</strong> を正規 source とし、release note の bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に再分類して和訳した。",
-    "X の収集は <strong>X MCP</strong> の recent search を使い、既定どおり repost は除外した。reply は親 post 文脈を確認し、relevance が弱いものを main summary から外している。"
+    "engineer X は監視対象アカウントの in-window post を走査し、desktop / tooling / rollout signal が比較的明確な <strong>@adocomplete</strong>、<strong>@amorriscode</strong>、<strong>@noahzweben</strong>、<strong>@jarredsumner</strong> の 5 件のみを採用した。個人雑談、単純な祝辞、関連の薄い reply は外した。",
+    "<strong>Claude Code</strong> release は GitHub release metadata を正規 source とし、release note の bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に再分類して和訳した。",
+    "X の収集は <strong>X MCP</strong> の recent search を使い、official 側は main post のみ、engineer 側は repost を除外した。reply は親 post 文脈を確認し、relevance が弱いものを main summary から外している。"
   ],
   "sources": [
     {
-      "title": "ClaudeDevs on Claude Managed Agents updates",
-      "url": "https://x.com/ClaudeDevs/status/2080009523952263295"
+      "title": "ClaudeAI on Anthropic Economic Index connector",
+      "url": "https://x.com/claudeai/status/2079979809606664564"
     },
     {
       "title": "ClaudeAI on Claude Security plugin beta",
       "url": "https://x.com/claudeai/status/2079990597973057691"
     },
     {
-      "title": "Anthony Morris on desktop steering rollout",
-      "url": "https://x.com/amorriscode/status/2080301516456645040"
-    },
-    {
-      "title": "Michael Gao asking about desktop steering",
-      "url": "https://x.com/lemikegao/status/2080159047698063652"
-    },
-    {
-      "title": "Cat Wu on Android simulator timing",
-      "url": "https://x.com/_catwu/status/2080161221022716303"
-    },
-    {
-      "title": "Question about Android simulator support",
-      "url": "https://x.com/ZetsubosenseiG/status/2079767172004376833"
-    },
-    {
-      "title": "Thariq on Claude Design and Claude Code",
-      "url": "https://x.com/trq212/status/2080090919832084753"
+      "title": "ClaudeDevs on Claude Managed Agents updates",
+      "url": "https://x.com/ClaudeDevs/status/2080009523952263295"
     },
     {
       "title": "Ado on Claude Code Desktop app",
       "url": "https://x.com/adocomplete/status/2080005037263065527"
+    },
+    {
+      "title": "Anthony Morris on desktop app context advantages",
+      "url": "https://x.com/amorriscode/status/2079809472072216820"
+    },
+    {
+      "title": "Anthony Morris on upcoming git improvements",
+      "url": "https://x.com/amorriscode/status/2079980450131624190"
+    },
+    {
+      "title": "Noah Zweben on Claude Tag auto-mode guidance",
+      "url": "https://x.com/noahzweben/status/2079969331878998183"
     },
     {
       "title": "Jarred Sumner on Claude Code and Node.js tests",
@@ -298,10 +304,6 @@
     {
       "title": "Claude Code v2.1.218 release notes",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218"
-    },
-    {
-      "title": "Claude Code changelog",
-      "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
     }
   ]
 }
