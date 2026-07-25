@@ -1,0 +1,348 @@
+{
+  "date": "2026-07-25",
+  "windowLabel": "2026-07-24 15:00:30 JST - 2026-07-25 15:00:30 JST",
+  "archiveTitle": "Opus 5 launch, Drone-Bench, and Claude Code releases",
+  "archiveSummary": "Official 7件、engineer signal 7件、Claude Code release 2件。",
+  "latestSummary": "2026-07-24 15:00:30 JST から 2026-07-25 15:00:30 JST の24時間では、official 側で <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> が <strong>Claude Opus 5</strong> と <strong>Claude Code / Platform</strong> 提供開始を告知した。official site では <strong>Project Pilot: Can AI control a drone?</strong>、<strong>Introducing Claude Opus 5</strong>、そして <strong>Claude Design</strong>、<strong>context engineering</strong>、<strong>model selection</strong> に関する Claude Blog 3 本が visible publication date ベースでこの窓に入った。engineer 側では <strong>@bcherny</strong>、<strong>@felixrieseberg</strong>、<strong>@mikeyk</strong>、<strong>@trq212</strong>、<strong>@alexalbert__</strong>、<strong>@adocomplete</strong>、<strong>@The_Whole_Daisy</strong> から、Opus 5 の安全性、長時間タスク、context engineering、knowledge work quality、multi-session 機能案に関する signal を採用した。<strong>Claude Code</strong> では <strong>v2.1.219</strong> と <strong>v2.1.220</strong> の 2 release がこの窓で publish され、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> を、<strong>Fable 5</strong> に近い frontier intelligence を半額帯で出す model として発表した。<strong>@ClaudeDevs</strong> はその直後に <strong>Opus 5</strong> が <strong>Claude Code</strong> と <strong>Claude Platform</strong> で使えるようになったと案内した。",
+    "<strong>Official site 5件</strong>: <strong>Anthropic Research</strong> は <strong>Drone-Bench</strong> で drone の locate-and-follow task を評価する <strong>Project Pilot</strong> を公開し、<strong>Anthropic News</strong> は <strong>Claude Opus 5</strong> の提供開始を発表した。<strong>Claude Blog</strong> では <strong>Claude Design</strong> の使い方、<strong>Claude Code system prompt の80%以上削減</strong>、<strong>Mythos / Fable / Opus / Sonnet / Haiku の選び分け</strong> を扱う 3 本が新着だった。",
+    "<strong>Engineer signal 7件</strong>: <strong>@bcherny</strong> は Opus 5 をもっとも prompt injection に強い世代だと述べ、<strong>@felixrieseberg</strong> と <strong>@mikeyk</strong> は長時間 task と日常運用の強さを共有した。<strong>@trq212</strong> は <strong>Claude Code system prompt</strong> の約80%削減、<strong>@alexalbert__</strong> は spreadsheet / slide deck quality、<strong>@adocomplete</strong> は <strong>ARC-AGI-3</strong> の <strong>30.2%</strong>、<strong>@The_Whole_Daisy</strong> は cross-session messaging の需要調査を signal として残した。",
+    "<strong>Claude Code release 2件</strong>: <strong>v2.1.219</strong> は <strong>Claude Opus 5</strong> の既定化、sandbox network allowlist、<strong>DirectoryAdded</strong> hook、nested subagent forwarding を追加し、<strong>v2.1.220</strong> は <strong>bug fixes and reliability improvements</strong> の 1 項目だけを公開した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-24T16:59:51Z",
+      "displayTime": "2026-07-25 01:59 JST",
+      "title": "ClaudeAI が Claude Opus 5 を発表",
+      "summary": "<strong>@ClaudeAI</strong> は、<strong>Claude Opus 5</strong> を発表し、<strong>Fable 5</strong> に近い frontier intelligence を <strong>半額</strong> で提供する thoughtful and proactive model だと案内した。",
+      "url": "https://x.com/claudeai/status/2080699495453528290",
+      "urlLabel": "@ClaudeAI post",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-07-24T17:14:45Z",
+      "displayTime": "2026-07-25 02:14 JST",
+      "title": "ClaudeDevs が Opus 5 の Claude Code / Platform 提供開始を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Opus 5</strong> が当日から <strong>Claude Code</strong> と <strong>Claude Platform</strong> で利用可能になったとして、usage 上のポイントを thread で案内した。",
+      "url": "https://x.com/ClaudeDevs/status/2080703243722854516",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
+      "title": "Anthropic Research が Drone-Bench による drone control 評価を公開",
+      "summary": "<strong>Project Pilot: Can AI control a drone?</strong> は、Andon Labs と組んで AI agent が drone で locate-and-follow task をどこまで自律実行できるかを測る <strong>Drone-Bench</strong> を紹介し、frontier model は reconstruction を除く主要 sub-task で baseline に近づいていると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
+      "url": "https://www.anthropic.com/research/project-pilot",
+      "urlLabel": "Anthropic Research 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
+      "title": "Anthropic News が Claude Opus 5 を正式発表",
+      "summary": "<strong>Introducing Claude Opus 5</strong> は、<strong>Claude Opus 5</strong> が本日利用可能になり、coding と knowledge work で高い性能を示しつつ、<strong>Fable 5</strong> に近い能力を半額帯で提供すると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "urlLabel": "Anthropic News 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
+      "title": "Claude Blog が Claude Design の実務フローを紹介",
+      "summary": "<strong>How the product designer who built Claude Design uses it to explore ideas before building them</strong> は、Claude Design を作った product designer が、interactive prototype、slide deck、animation の初期案を <strong>Claude Design</strong> で素早く試作する流れと、production software は <strong>Claude Code</strong> と往復しながら詰める実務フローを共有している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
+      "title": "Claude Blog が context engineering の新ルールを共有",
+      "summary": "<strong>The new rules of context engineering for Claude 5 generation models</strong> は、<strong>Claude Code</strong> の system prompt を最新 model 向けに <strong>80%以上削減</strong> しても coding eval 上の measurable loss がなかったとして、system prompt、skills、<code>CLAUDE.md</code> をどう軽く再設計するかを整理している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "urlLabel": "Claude Blog 記事",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
+      "title": "Claude Blog が model class の選び分けガイドを公開",
+      "summary": "<strong>Claude models explained: choosing the best model for your use case</strong> は、<strong>Mythos / Fable / Opus / Sonnet / Haiku</strong> の役割を整理し、task difficulty、latency、cost profile に応じてどの model class を選ぶべきかを解説している。article では、とくに <strong>Fable</strong> と <strong>Opus</strong> の使い分けを knowledge work と coding の観点から比較している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
+      "urlLabel": "Claude Blog 記事"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 1件だった。"
+    },
+    {
+      "label": "Anthropic Engineering の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の一覧では最新 visible date が <strong>Apr 23, 2026</strong> のままで、この24時間窓に入る新規 article は確認できなかった。official site の新規採用は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 3件だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T17:53:53Z",
+      "displayTime": "2026-07-25 02:53 JST",
+      "title": "@bcherny が Opus 5 の prompt injection 耐性を強調",
+      "summary": "<strong>@bcherny</strong> は、<strong>Opus 5</strong> が coding、data analysis、design、biology、knowledge work に強いだけでなく、Anthropic 史上もっとも <strong>prompt injectable ではない</strong> model だと述べた。security / robustness の signal として採用した。",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "urlLabel": "@bcherny post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T18:31:08Z",
+      "displayTime": "2026-07-25 03:31 JST",
+      "title": "@felixrieseberg が Opus 5 の長時間 agentic task 性能を強調",
+      "summary": "<strong>@felixrieseberg</strong> は、<strong>Opus 5</strong> が複数 benchmark で SOTA かそれに近い位置にあり、とくに long-horizon agentic tasks で強いと述べた。thread では <strong>AutomationBench</strong> と image cropping による multimodal 改善にも触れており、実運用での agentic capability signal として採用した。",
+      "url": "https://x.com/felixrieseberg/status/2080722466226479388",
+      "urlLabel": "@felixrieseberg post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T17:13:33Z",
+      "displayTime": "2026-07-25 02:13 JST",
+      "title": "@mikeyk が Opus 5 を daily driver と評価し実演 thread を共有",
+      "summary": "<strong>@mikeyk</strong> は、<strong>Opus 5</strong> が仕事でも週末でも daily driver になったと述べ、長時間の複雑 task に強く、thread では game や 3D renderer の実演例も共有した。実運用での coding / creative task の強さを示す signal として採用した。",
+      "url": "https://x.com/mikeyk/status/2080702940445397167",
+      "urlLabel": "@mikeyk post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T17:45:27Z",
+      "displayTime": "2026-07-25 02:45 JST",
+      "title": "@trq212 が Claude Code system prompt の大幅削減を共有",
+      "summary": "<strong>@trq212</strong> は、最新の Claude model 向けに <strong>Claude Code system prompt の約80%</strong> を削ったうえで、そこで得た context engineering の知見を blog にまとめたと共有した。Claude Code の prompt design 方針の変化を示す signal として採用した。",
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "urlLabel": "@trq212 post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T19:08:56Z",
+      "displayTime": "2026-07-25 04:08 JST",
+      "title": "@alexalbert__ が Opus 5 の spreadsheet / slide deck quality を共有",
+      "summary": "<strong>@alexalbert__</strong> は、6か月前との比較として <strong>Opus 5</strong> が consultant が作るような <strong>spreadsheet</strong> と <strong>slide deck</strong> を作れる水準になったと共有した。knowledge work quality の伸びを示す signal として採用した。",
+      "url": "https://x.com/alexalbert__/status/2080731979528679617",
+      "urlLabel": "@alexalbert__ post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T19:18:19Z",
+      "displayTime": "2026-07-25 04:18 JST",
+      "title": "@adocomplete が ARC-AGI-3 での Opus 5 の伸びを共有",
+      "summary": "<strong>@adocomplete</strong> は、<strong>ARC-AGI-3</strong> で人間は 100% 解く一方、3月時点の frontier model が 1% 未満だったところを、<strong>Opus 5</strong> が <strong>30.2%</strong> まで伸ばしたと共有した。launch day の benchmark signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2080734338480828924",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T16:56:52Z",
+      "displayTime": "2026-07-25 01:56 JST",
+      "title": "@The_Whole_Daisy が Claude Code session 間メッセージ機能の需要調査を開始",
+      "summary": "<strong>@The_Whole_Daisy</strong> は、user の permission のもとで <strong>任意の Claude Code session 同士を別マシン含めて会話させる機能</strong>を考えているとして、需要調査のために reaction を募った。multi-session coordination の product hint として signal に採用した。",
+      "url": "https://x.com/The_Whole_Daisy/status/2080698744039948791",
+      "urlLabel": "@The_Whole_Daisy post",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "5件",
+      "body": "watch 対象の official site listing で、この24時間窓に visible publication date が入った記事は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 3件だった。<strong>Anthropic Engineering</strong> に新着はなかった。publish time ではなく date しか見えない記事は、skill 指定どおり <strong>visible publication date</strong> ベースで採用している。",
+      "details": [
+        "<strong>Anthropic Research</strong>: <strong>Project Pilot: Can AI control a drone?</strong>（<strong>Jul 24, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>Introducing Claude Opus 5</strong>（<strong>Jul 24, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>How the product designer who built Claude Design uses it to explore ideas before building them</strong>（<strong>July 24, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>The new rules of context engineering for Claude 5 generation models</strong>（<strong>July 24, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Claude models explained: choosing the best model for your use case</strong>（<strong>July 24, 2026</strong>）"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "Claude Code releases は今回 <strong>GitHub CLI release metadata</strong> で確認した。この24時間窓に入る release は <strong>v2.1.220</strong> と <strong>v2.1.219</strong> の 2件で、release note の visible bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.220",
+          "publishedAt": "2026-07-25 10:35 JST",
+          "summary": "<strong>v2.1.220</strong> は、公開された release note 上では <strong>bug fixes and reliability improvements</strong> の 1 項目だけを案内する軽量アップデート。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "bug fixes と reliability improvements をまとめて入れたメンテナンス更新。release note 上では個別項目の内訳は公開されていない。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+          "urlLabel": "v2.1.220 release notes"
+        },
+        {
+          "version": "v2.1.219",
+          "publishedAt": "2026-07-25 02:14 JST",
+          "summary": "<strong>v2.1.219</strong> は、<strong>Claude Opus 5</strong> の追加と fast mode 対象変更、sandbox network allowlist、<strong>DirectoryAdded</strong> hook、nested subagent forwarding、workflow size 表示を加えつつ、<code>claude -p</code>、self-hosted runner、GNU screen、Remote Control、Windows Git Bash path、screen-reader mode などを広く修正した release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<strong>Claude Opus 5</strong>（<code>claude-opus-5</code>）を追加し、既定の Opus model にした。1M context を備え、fast mode では 1 Mtok あたり $10 / $50 で利用できる。",
+                "sandboxed command が prompt なしで非 allowlist host を拒否できる <code>sandbox.network.strictAllowlist</code> 設定を追加した。",
+                "<code>/add-dir</code> または SDK の <code>register_repo_root</code> で session 中に新しい working directory を登録した直後に発火する <code>DirectoryAdded</code> hook を追加した。",
+                "headless の stream-json init event に <code>mcp_server_errors</code> を追加し、config validation でスキップされた <code>--mcp-config</code> entry を一覧できるようにした。terminal run では startup warning も出す。",
+                "advisory な Dynamic workflow size guideline を任意の settings file から設定できる <code>workflowSizeGuideline</code> key を追加した。設定済みのときは <code>/config</code> 上の該当 row を隠す。",
+                "stream-json に nested subagent forwarding を追加し、<code>--forward-subagent-text</code> を有効にすると depth 2 以上で spawn された subagent も、親 Agent の <code>tool_use</code> id をキーに表示できるようにした。",
+                "<code>claude mcp list</code> と <code>/mcp</code> で server 接続失敗時に <strong>HTTP status</strong> と error text を表示し、前後に見えない whitespace を含む MCP config 値への warning も追加した。",
+                "self-hosted runner の spawn failure と session failure に構造化された failure category を追加し、hook error、runner crash、config error を区別できるようにした。",
+                "実行中 workflow の status line に、現在の default workflow size を表示し、変更先として <code>/config</code> への導線を追加した。",
+                "subagent が既定で depth 3 まで nested subagent を spawn できるようにした。従来は depth 1 までで、<code>CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1</code> で無効化できる。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>Remote Control is only available via api.anthropic.com</code> という error を改善し、原因になっている具体的な setting 名を表示するようにした。",
+                "<code>claude --teleport</code> を改善し、現在の checkout が session の repo と一致しないとき、どの repo を向いているか表示するようにした。",
+                "dynamic workflow の既定 size guideline を <strong>medium</strong>（目安 15 agents 未満）に変更し、<code>/config</code> で別サイズや unrestricted に切り替えられるようにした。",
+                "managed MCP の allowlist / denylist にある <code>${VAR}</code> entry は、settings-file env ではなく startup environment と managed-settings env から解決するように変更した。",
+                "<code>/model</code> picker は newest model の名前だけを highlight するよう変更し、新 release の印が任意の語片ではなく対象 model 自体に付くようにした。",
+                "fast mode から <strong>Opus 4.7</strong> を外し、<code>/fast</code> が <strong>Opus 5</strong> と <strong>Opus 4.8</strong> に適用されるようにした。",
+                "<strong>claude-api skill</strong> の既定 model を <strong>Claude Opus 5</strong> に更新し、Opus 4.8 からの migration path も整備した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "turn の途中で mid-stream API error が起きたとき、<code>claude -p</code> の text output から既に生成済みの回答が落ちる問題を修正した。",
+                "self-hosted runner 再起動中に承認した permission が session 再開後に失われ、approved action が実行されない問題を修正した。",
+                "stale cache があると、Fable model row に plan に含まれていても <code>Requires usage credits</code> が表示される問題を修正した。",
+                "self-hosted runner 起動中に SIGTERM を受けると、lease expiry まで stale active row が残る問題を修正し、clean に deregister するようにした。",
+                "<code>/model</code> picker で統合済みの Opus row が <code>Opus</code> とだけ表示され、<code>Opus (1M context)</code> にならない問題を修正した。",
+                "GNU screen 内で copy-on-select を使うと、選択内容をコピーせず terminal に base64 を出力してしまう問題を修正した。",
+                "Remote Control client が model switch、reconnect、org check failure のあとも stale な fast-mode status を持ち続ける問題を修正した。",
+                "Windows で <code>CLAUDE_CODE_GIT_BASH_PATH</code> が bash / sh binary ではない path を指している場合に、それを使って終了したり bash と見なしたりする問題を修正し、warning を出して無視するようにした。",
+                "Vim mode で empty prompt 上の left arrow を押したとき、INSERT に戻るだけでなく agent view に戻れるよう修正した。",
+                "screen-reader mode で、入力のたびに line 全体を書き換えていたため毎回全文を読み上げてしまう問題を修正し、typed character だけを echo するようにした."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+          "urlLabel": "v2.1.219 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱った。",
+    "official X は <strong>X MCP</strong> の recent search を使い、main post のみを採用した。thread 内の詳細は summary に反映したが、reply は別 item にしていない。",
+    "engineer X は監視対象アカウントの in-window post を走査し、Opus 5 launch、context engineering、knowledge work quality、multi-session 機能案の signal が比較的明確な 7件のみを採用した。個人雑談、単純な称賛、関連の薄い reply は外した。",
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、in-window release の bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に再分類して和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "ClaudeAI on Claude Opus 5",
+      "url": "https://x.com/claudeai/status/2080699495453528290"
+    },
+    {
+      "title": "ClaudeDevs on Opus 5 in Claude Code and Platform",
+      "url": "https://x.com/ClaudeDevs/status/2080703243722854516"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Project Pilot: Can AI control a drone?",
+      "url": "https://www.anthropic.com/research/project-pilot"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Claude Design workflow",
+      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them"
+    },
+    {
+      "title": "Claude Blog: Context engineering for Claude 5 generation models",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+    },
+    {
+      "title": "Claude Blog: choosing the best Claude model",
+      "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case"
+    },
+    {
+      "title": "Boris Cherny on Opus 5 prompt injection resistance",
+      "url": "https://x.com/bcherny/status/2080713091688583312"
+    },
+    {
+      "title": "Felix Rieseberg on Opus 5 launch day",
+      "url": "https://x.com/felixrieseberg/status/2080722466226479388"
+    },
+    {
+      "title": "Mike Krieger on Opus 5 as a daily driver",
+      "url": "https://x.com/mikeyk/status/2080702940445397167"
+    },
+    {
+      "title": "Thariq on Claude Code system prompt changes",
+      "url": "https://x.com/trq212/status/2080710971228918066"
+    },
+    {
+      "title": "Alex Albert on Opus 5 spreadsheet and slide deck quality",
+      "url": "https://x.com/alexalbert__/status/2080731979528679617"
+    },
+    {
+      "title": "Ado on ARC-AGI-3 and Opus 5",
+      "url": "https://x.com/adocomplete/status/2080734338480828924"
+    },
+    {
+      "title": "Daisy Hollman on cross-session Claude Code messaging",
+      "url": "https://x.com/The_Whole_Daisy/status/2080698744039948791"
+    },
+    {
+      "title": "Claude Code release v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
+    },
+    {
+      "title": "Claude Code release v2.1.219",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
