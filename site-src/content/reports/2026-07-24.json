@@ -1,16 +1,26 @@
 {
   "date": "2026-07-24",
-  "windowLabel": "2026-07-23 18:02:31 UTC - 2026-07-24 18:02:31 UTC",
-  "archiveTitle": "Opus 5 launch, drone benchmark, and context engineering",
-  "archiveSummary": "Official 9件、engineer signal 5件、Claude Code release 1件。",
-  "latestSummary": "2026-07-23 18:02:31 UTC から 2026-07-24 18:02:31 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>voice mode 拡張</strong> と <strong>Claude Opus 5</strong>、<strong>@ClaudeDevs</strong> の <strong>zoom tool cookbook</strong> 更新に加え、official site では <strong>Project Pilot: Can AI control a drone?</strong>、<strong>Introducing Claude Opus 5</strong>、<strong>The new rules of context engineering for Claude 5 generation models</strong>、<strong>Claude models explained</strong>、さらに <strong>July 23, 2026</strong> 表示の Claude Blog 2本を確認した。engineer 側では <strong>@adocomplete</strong>、<strong>@alexalbert__</strong>、<strong>@mikeyk</strong>、<strong>@trq212</strong>、<strong>@The_Whole_Daisy</strong> から Opus 5 launch、context engineering、将来機能の示唆を採用した。Claude Code の release では <strong>v2.1.219</strong> が <strong>2026-07-24 17:14 UTC</strong> に publish され、release note 全27項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
+  "windowLabel": "2026-07-23 22:45:56 UTC - 2026-07-24 22:45:56 UTC",
+  "archiveTitle": "Opus 5 launch, Drone-Bench, and Claude Design",
+  "archiveSummary": "Official 8件、engineer signal 6件、Claude Code release 1件。",
+  "latestSummary": "2026-07-23 22:45:56 UTC から 2026-07-24 22:45:56 UTC の24時間では、official 側で <strong>@ClaudeAI</strong> の <strong>Claude Opus 5</strong> 発表、<strong>@ClaudeDevs</strong> の <strong>zoom tool</strong> 更新と <strong>Opus 5 in Claude Code / Platform</strong> 案内を確認した。official site では <strong>Project Pilot: Can AI control a drone?</strong>、<strong>Introducing Claude Opus 5</strong>、<strong>How the product designer who built Claude Design uses it to explore ideas before building them</strong>、<strong>The new rules of context engineering for Claude 5 generation models</strong>、<strong>Claude models explained: choosing the best model for your use case</strong> の5本が visible publication date でこの窓に入った。engineer 側では <strong>@bcherny</strong>、<strong>@mikeyk</strong>、<strong>@trq212</strong>、<strong>@alexalbert__</strong>、<strong>@adocomplete</strong>、<strong>@felixrieseberg</strong> から Opus 5 launch 後の coding、prompting、benchmark に関する signal を採用した。Claude Code の release では <strong>v2.1.219</strong> が <strong>2026-07-24 17:14 UTC</strong> に publish され、release note 全27項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。",
   "summaryBullets": [
-    "<strong>Official X 3件</strong>: <strong>@ClaudeAI</strong> は <strong>voice mode</strong> をより高性能な model と connected tools、言語拡張へ広げ、その後 <strong>Claude Opus 5</strong> を半額帯の high-end model として発表した。<strong>@ClaudeDevs</strong> は高解像度画像の一部を再取得できる <strong>zoom tool cookbook</strong> 更新を案内した。",
-    "<strong>Official site 6件</strong>: <strong>Anthropic Research</strong> では <strong>Drone-Bench</strong> を用いた drone control 評価、<strong>Anthropic News</strong> では <strong>Claude Opus 5</strong> 発表、<strong>Claude Blog</strong> では <strong>context engineering</strong>、<strong>model selection guide</strong>、そして visible date が <strong>July 23, 2026</strong> の <strong>voice mode</strong> と <strong>role-based certification</strong> の2本を確認した。",
-    "<strong>Engineer signal 5件</strong>: <strong>@adocomplete</strong> は Opus 5 を Fable 5 に迫る新たな SOTA と表現し、<strong>@alexalbert__</strong> は token efficiency と coding task での好感触を共有した。<strong>@mikeyk</strong> は Opus 5 を daily driver と述べ、<strong>@trq212</strong> は Claude Code system prompt を大幅削減した context engineering 記事を案内し、<strong>@The_Whole_Daisy</strong> は session 間連携機能の需要調査を始めた。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.219</strong> は <strong>Claude Opus 5</strong> の既定化、sandbox network allowlist、<strong>DirectoryAdded</strong> hook、nested subagent forwarding などを追加しつつ、<code>claude -p</code>、Remote Control、Windows の Git Bash path、GNU screen、screen-reader mode などを広く修正した。"
+    "<strong>Official X 3件</strong>: <strong>@ClaudeDevs</strong> は高解像度画像から必要領域だけを再取得する <strong>zoom tool</strong> cookbook 更新を案内し、その後 <strong>Opus 5</strong> が <strong>Claude Code</strong> と <strong>Claude Platform</strong> で利用可能になったことを thread で補足した。<strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> を、<strong>Fable 5</strong> に近い frontier intelligence を半額帯で出す model として発表した。",
+    "<strong>Official site 5件</strong>: <strong>Anthropic Research</strong> の <strong>Project Pilot</strong> は <strong>Drone-Bench</strong> で drone control 能力を評価し、<strong>Anthropic News</strong> は <strong>Claude Opus 5</strong> の提供開始を告知した。<strong>Claude Blog</strong> では <strong>Claude Design</strong> の使い方、<strong>context engineering</strong> の新ルール、<strong>model class の選び分け</strong> の3本が新着だった。",
+    "<strong>Engineer signal 6件</strong>: <strong>@bcherny</strong> は Opus 5 を最も prompt injection に強い世代だと述べ、<strong>@mikeyk</strong> と <strong>@felixrieseberg</strong> は長時間タスクや agentic task での実運用感を共有した。<strong>@trq212</strong> は <strong>Claude Code system prompt</strong> の約80%削減、<strong>@alexalbert__</strong> は spreadsheet / slide deck quality、<strong>@adocomplete</strong> は <strong>ARC-AGI-3</strong> の 30.2% を signal として出した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.219</strong> は <strong>Claude Opus 5</strong> の既定化、sandbox network allowlist、<strong>DirectoryAdded</strong> hook、nested subagent forwarding を追加しつつ、<code>claude -p</code>、self-hosted runner、GNU screen、Remote Control、Windows Git Bash path、screen-reader mode などを広く修正した。"
   ],
   "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-07-24T17:14:45Z",
+      "displayTime": "2026-07-24 17:14 UTC",
+      "title": "ClaudeDevs が Opus 5 の Claude Code / Platform 提供開始を案内",
+      "summary": "<strong>@ClaudeDevs</strong> は、<strong>Claude Opus 5</strong> が当日から <strong>Claude Code</strong> と <strong>Claude Platform</strong> で利用可能になったとして、usage 上のポイントを thread で案内した。",
+      "url": "https://x.com/ClaudeDevs/status/2080703243722854516",
+      "urlLabel": "@ClaudeDevs post",
+      "primary": true
+    },
     {
       "label": "Official X",
       "datetime": "2026-07-24T16:59:51Z",
@@ -28,25 +38,14 @@
       "title": "ClaudeDevs が zoom tool cookbook 更新を案内",
       "summary": "<strong>@ClaudeDevs</strong> は、画像が縮小表示されたときに失われる細部を補うため、Claude が必要領域を指定して元画像から crop を取り直せる <strong>zoom tool</strong> cookbook を更新したと案内した。",
       "url": "https://x.com/ClaudeDevs/status/2080434253175943400",
-      "urlLabel": "@ClaudeDevs post",
-      "primary": true
-    },
-    {
-      "label": "Official X",
-      "datetime": "2026-07-23T19:34:47Z",
-      "displayTime": "2026-07-23 19:34 UTC",
-      "title": "ClaudeAI が voice mode の大型アップデートを告知",
-      "summary": "<strong>@ClaudeAI</strong> は、voice mode が <strong>Claude Opus / Sonnet / Haiku</strong> で動作し、会話中に <strong>connected tools</strong> を使え、多言語対応も広がったと告知した。",
-      "url": "https://x.com/claudeai/status/2080376094939603366",
-      "urlLabel": "@ClaudeAI post",
-      "primary": true
+      "urlLabel": "@ClaudeDevs post"
     },
     {
       "label": "Official site",
       "datetime": "2026-07-24T00:00:00Z",
       "displayTime": "2026-07-24",
       "title": "Anthropic Research が Drone-Bench による drone control 評価を公開",
-      "summary": "<strong>Project Pilot: Can AI control a drone?</strong> は、Andon Labs と組んで AI agent が drone で locate-and-follow task をどこまで自律実行できるかを測る <strong>Drone-Bench</strong> を紹介し、<strong>Fable 5</strong> が reconstruction 以外では baseline 超えに近づいていると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
+      "summary": "<strong>Project Pilot: Can AI control a drone?</strong> は、Andon Labs と組んで AI agent が drone で locate-and-follow task をどこまで自律実行できるかを測る <strong>Drone-Bench</strong> を紹介し、frontier model が reconstruction 以外では baseline に近づいていると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
       "url": "https://www.anthropic.com/research/project-pilot",
       "urlLabel": "Anthropic Research 記事",
       "primary": true
@@ -56,7 +55,7 @@
       "datetime": "2026-07-24T00:00:00Z",
       "displayTime": "2026-07-24",
       "title": "Anthropic News が Claude Opus 5 を正式発表",
-      "summary": "<strong>Introducing Claude Opus 5</strong> は、<strong>Claude Opus 5</strong> が本日利用可能になり、<strong>Fable 5</strong> に近い性能を半額帯で提供し、<strong>Claude Max</strong> の既定 Opus と <strong>Claude Pro</strong> の最上位 model になると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
+      "summary": "<strong>Introducing Claude Opus 5</strong> は、<strong>Claude Opus 5</strong> が本日利用可能になり、coding と knowledge work で高い性能を示しつつ、<strong>Fable 5</strong> に近い能力を半額帯で提供すると説明している。page 上の visible publication date は <strong>Jul 24, 2026</strong> だった。",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "urlLabel": "Anthropic News 記事",
       "primary": true
@@ -65,8 +64,17 @@
       "label": "Official site",
       "datetime": "2026-07-24T00:00:00Z",
       "displayTime": "2026-07-24",
+      "title": "Claude Blog が Claude Design の実務フローを紹介",
+      "summary": "<strong>How the product designer who built Claude Design uses it to explore ideas before building them</strong> は、Claude Design を作った product designer が、prototype、slide deck、animation の初期案を <strong>Claude Design</strong> で素早く試作する流れを共有している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-07-24T00:00:00Z",
+      "displayTime": "2026-07-24",
       "title": "Claude Blog が context engineering の新ルールを共有",
-      "summary": "<strong>The new rules of context engineering for Claude 5 generation models</strong> は、<strong>Claude Code</strong> の system prompt を最新 model 向けに <strong>80%以上削減</strong> しても coding eval 上の損失がなかったとして、system prompts、skills、Claude.MD の書き方を整理している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "summary": "<strong>The new rules of context engineering for Claude 5 generation models</strong> は、<strong>Claude Code</strong> の system prompt を最新 model 向けに <strong>80%以上削減</strong> しても coding eval 上の measurable loss がなかったとして、system prompts、skills、Claude.MD の書き方を整理している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
       "urlLabel": "Claude Blog 記事",
       "primary": true
@@ -76,40 +84,62 @@
       "datetime": "2026-07-24T00:00:00Z",
       "displayTime": "2026-07-24",
       "title": "Claude Blog が model class の選び分けガイドを公開",
-      "summary": "<strong>Claude models explained: choosing the best model for your use case</strong> は、<strong>Mythos / Fable / Opus / Sonnet / Haiku</strong> の役割を整理し、difficulty、latency、access constraints でどの model class を選ぶべきかを説明している。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
+      "summary": "<strong>Claude models explained: choosing the best model for your use case</strong> は、<strong>Mythos / Fable / Opus / Sonnet / Haiku</strong> の役割を整理し、task difficulty、latency、cost profile に応じてどの model class を選ぶべきかを解説している。これは article 内の各 model section からの要約。page 上の visible publication date は <strong>July 24, 2026</strong> だった。",
       "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case",
-      "urlLabel": "Claude Blog 記事"
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-23T00:00:00Z",
-      "displayTime": "2026-07-23",
-      "title": "Claude Blog が role-based certification 拡張を発表",
-      "summary": "<strong>Four role-based certifications for the people who put Claude to work for customers</strong> は、<strong>Claude Certification Program</strong> に 3 つの role-based certification を追加し、enterprise 導入チーム全体の技能認定を拡張した記事として掲載されていた。page 上の visible publication date は <strong>July 23, 2026</strong> だった。",
-      "url": "https://claude.com/blog/four-role-based-claude-certifications",
-      "urlLabel": "Claude Blog 記事"
-    },
-    {
-      "label": "Official site",
-      "datetime": "2026-07-23T00:00:00Z",
-      "displayTime": "2026-07-23",
-      "title": "Claude Blog が voice mode 拡張の詳細を公開",
-      "summary": "<strong>Think through hard problems in voice mode</strong> は、voice mode が <strong>Opus / Sonnet / Haiku</strong> を使い分けられ、<strong>Gmail</strong> や <strong>Slack</strong> などの connected tools を会話中に使え、多言語でも使えるようになった経緯を説明している。page 上の visible publication date は <strong>July 23, 2026</strong> だった。",
-      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
       "urlLabel": "Claude Blog 記事"
     }
   ],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 2件と <strong>@ClaudeDevs</strong> 1件だった。"
+      "body": "<strong>@AnthropicAI</strong> については、この exact window に main post の新規採用対象を確認できなかった。official X の採用対象は <strong>@ClaudeAI</strong> 1件と <strong>@ClaudeDevs</strong> 2件だった。"
     },
     {
-      "label": "Anthropic Engineering の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の一覧では最新 visible date が <strong>Apr 23, 2026</strong> で、この24時間窓に入る新規 article は確認できなかった。official site 側の採用対象は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 4件だった。"
+      "label": "Anthropic Engineering と July 23 の Claude Blog は窓外",
+      "body": "<strong>Anthropic Engineering</strong> の一覧では最新 visible date が <strong>Apr 23, 2026</strong> のままで、この24時間窓に入る新規 article は確認できなかった。また <strong>July 23, 2026</strong> 表示の Claude Blog 記事は、今回の窓の開始時刻 <strong>2026-07-23 22:45:56 UTC</strong> より前の日付表示のため採用していない。"
     }
   ],
   "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T18:31:08Z",
+      "displayTime": "2026-07-24 18:31 UTC",
+      "title": "@felixrieseberg が Opus 5 の長時間 agentic task 性能を強調",
+      "summary": "<strong>@felixrieseberg</strong> は、<strong>Opus 5</strong> が複数 benchmark で SOTA かそれに近い位置にあり、とくに long-horizon agentic tasks で強いと述べた。続く thread では <strong>AutomationBench</strong> や image cropping の改善にも触れており、実運用での agentic capability signal として採用した。",
+      "url": "https://x.com/felixrieseberg/status/2080722466226479388",
+      "urlLabel": "@felixrieseberg post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T19:18:19Z",
+      "displayTime": "2026-07-24 19:18 UTC",
+      "title": "@adocomplete が ARC-AGI-3 での Opus 5 の伸びを共有",
+      "summary": "<strong>@adocomplete</strong> は、<strong>ARC-AGI-3</strong> で人間は 100% 解く一方、3月時点の frontier model が 1% 未満だったところを、<strong>Opus 5</strong> が <strong>30.2%</strong> まで伸ばしたと共有した。launch day の benchmark signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2080734338480828924",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T19:08:56Z",
+      "displayTime": "2026-07-24 19:08 UTC",
+      "title": "@alexalbert__ が Opus 5 の spreadsheet / slide deck quality を共有",
+      "summary": "<strong>@alexalbert__</strong> は、6か月前との比較として <strong>Opus 5</strong> が consultant が作るような <strong>spreadsheet</strong> と <strong>slide deck</strong> を作れる水準になったと共有した。knowledge work quality の伸びを示す signal として採用した。",
+      "url": "https://x.com/alexalbert__/status/2080731979528679617",
+      "urlLabel": "@alexalbert__ post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-24T17:53:53Z",
+      "displayTime": "2026-07-24 17:53 UTC",
+      "title": "@bcherny が Opus 5 の prompt injection 耐性を強調",
+      "summary": "<strong>@bcherny</strong> は、<strong>Opus 5</strong> が coding、data analysis、design、biology、knowledge work に強いだけでなく、Anthropic 史上もっとも <strong>prompt injectable ではない</strong> model だと述べた。security / robustness の signal として採用した。",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "urlLabel": "@bcherny post",
+      "primary": true
+    },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-24T17:45:27Z",
@@ -122,57 +152,26 @@
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-24T17:14:15Z",
-      "displayTime": "2026-07-24 17:14 UTC",
-      "title": "@alexalbert__ が Opus 5 の token efficiency と coding での手応えを共有",
-      "summary": "<strong>@alexalbert__</strong> は、Opus 5 launch 時にお気に入りの graph を共有し、domain 横断で token efficient にしつつ intelligence を引き上げたこと、さらに coding task では <strong>Fable 5</strong> より好む場面が多いと述べた。",
-      "url": "https://x.com/alexalbert__/status/2080703118086693121",
-      "urlLabel": "@alexalbert__ post",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
       "datetime": "2026-07-24T17:13:33Z",
       "displayTime": "2026-07-24 17:13 UTC",
       "title": "@mikeyk が Opus 5 を daily driver と評価し実演 thread を共有",
-      "summary": "<strong>@mikeyk</strong> は、<strong>Opus 5</strong> が仕事でも週末でも daily driver になったと述べ、長時間の複雑 task に強く、thread では game や 3D renderer の実演例も共有した。実運用での coding / creative task の強さを示す signal として採用した。",
+      "summary": "<strong>@mikeyk</strong> は、<strong>Opus 5</strong> が仕事でも週末でも daily driver になったと述べ、長時間の複雑 task に強く、thread では game の実演例も共有した。実運用での coding / creative task の強さを示す signal として採用した。",
       "url": "https://x.com/mikeyk/status/2080702940445397167",
       "urlLabel": "@mikeyk post",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-24T16:59:59Z",
-      "displayTime": "2026-07-24 16:59 UTC",
-      "title": "@adocomplete が Opus 5 を Fable 5 に迫る新 SOTA と紹介",
-      "summary": "<strong>@adocomplete</strong> は、<strong>Opus 5</strong> が各種 benchmark で <strong>Fable 5</strong> を上回るか迫る水準にあり、Opus 価格帯のまま多くの面で新しい state of the art だと紹介した。launch 時の社内視点 signal として採用した。",
-      "url": "https://x.com/adocomplete/status/2080699529326997747",
-      "urlLabel": "@adocomplete post",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-24T16:56:52Z",
-      "displayTime": "2026-07-24 16:56 UTC",
-      "title": "@The_Whole_Daisy が session 間連携機能の需要を調査",
-      "summary": "<strong>@The_Whole_Daisy</strong> は、ユーザーが所有する別の <strong>Claude Code session</strong> 同士を権限付きで相互通信させる機能への需要を質問した。将来の multi-session coordination 機能を示唆する signal として採用した。",
-      "url": "https://x.com/The_Whole_Daisy/status/2080698744039948791",
-      "urlLabel": "@The_Whole_Daisy post",
       "primary": true
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "6件",
-      "body": "watch 対象の official site listing で、この24時間窓に visible publication date が入った記事は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 4件だった。<strong>Jul 24, 2026</strong> の 4件に加えて、今回の exact window は <strong>Jul 23</strong> の後半も含むため、時刻が見えない <strong>July 23, 2026</strong> 表示の Claude Blog 2件も visible publication date ベースで採用した。<strong>Anthropic Engineering</strong> に新着はなかった。",
+      "headline": "5件",
+      "body": "watch 対象の official site listing で、この24時間窓に visible publication date が入った記事は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 3件だった。今回の exact window は <strong>2026-07-23 22:45:56 UTC</strong> からで、<strong>July 23, 2026</strong> 表示の Claude Blog 記事は窓外として除外した。<strong>Anthropic Engineering</strong> に新着はなかった。",
       "details": [
         "<strong>Anthropic Research</strong>: <strong>Project Pilot: Can AI control a drone?</strong>（<strong>Jul 24, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Introducing Claude Opus 5</strong>（<strong>Jul 24, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>How the product designer who built Claude Design uses it to explore ideas before building them</strong>（<strong>July 24, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>The new rules of context engineering for Claude 5 generation models</strong>（<strong>July 24, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Claude models explained: choosing the best model for your use case</strong>（<strong>July 24, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Four role-based certifications for the people who put Claude to work for customers</strong>（<strong>July 23, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Think through hard problems in voice mode</strong>（<strong>July 23, 2026</strong>）"
+        "<strong>Claude Blog</strong>: <strong>Claude models explained: choosing the best model for your use case</strong>（<strong>July 24, 2026</strong>）"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -211,7 +210,7 @@
                 "managed MCP の allowlist / denylist にある <code>${VAR}</code> entry は、settings-file env ではなく startup environment と managed-settings env から解決するように変更した。",
                 "<code>/model</code> picker は newest model の名前だけを highlight するよう変更し、新 release の印が任意の語片ではなく対象 model 自体に付くようにした。",
                 "fast mode から <strong>Opus 4.7</strong> を外し、<code>/fast</code> が <strong>Opus 5</strong> と <strong>Opus 4.8</strong> に適用されるようにした。",
-                "<strong>claude-api skill</strong> の既定 model を <strong>Claude Opus 5</strong> に更新し、Opus 4.8 からの migration path も整備した."
+                "<strong>claude-api skill</strong> の既定 model を <strong>Claude Opus 5</strong> に更新し、Opus 4.8 からの migration path も整備した。"
               ]
             },
             {
@@ -239,16 +238,12 @@
     }
   ],
   "exclusions": [
-    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない記事は <strong>visible publication date</strong> ベースで扱っているため、<strong>July 23, 2026</strong> 表示の Claude Blog 2件も今回の exact window に含めた。",
-    "official X は <strong>X MCP</strong> の recent search を使い、main post のみを採用した。voice mode の thread reply は主投稿の補足として summary に反映したが、別 item にはしていない。",
-    "engineer X は監視対象アカウントの in-window post を走査し、Opus 5、context engineering、将来機能に関する signal が比較的明確な 5件のみを採用した。個人雑談、単純な称賛、関連の薄い reply は外した。",
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱い、<strong>July 23, 2026</strong> 表示の Claude Blog 記事は今回の exact window 外として除外した。",
+    "official X は <strong>X MCP</strong> の recent search を使い、main post のみを採用した。thread 内の詳細は summary に反映したが、reply は別 item にしていない。",
+    "engineer X は監視対象アカウントの in-window post を走査し、Opus 5 launch、context engineering、agentic coding / knowledge work の signal が比較的明確な 6件のみを採用した。個人雑談、単純な称賛、関連の薄い reply は外した。",
     "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、in-window release の bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に再分類して和訳した。"
   ],
   "sources": [
-    {
-      "title": "ClaudeAI on voice mode update",
-      "url": "https://x.com/claudeai/status/2080376094939603366"
-    },
     {
       "title": "ClaudeDevs on zoom tool cookbook",
       "url": "https://x.com/ClaudeDevs/status/2080434253175943400"
@@ -258,67 +253,55 @@
       "url": "https://x.com/claudeai/status/2080699495453528290"
     },
     {
-      "title": "Ado on Opus 5",
-      "url": "https://x.com/adocomplete/status/2080699529326997747"
+      "title": "ClaudeDevs on Opus 5 in Claude Code and Platform",
+      "url": "https://x.com/ClaudeDevs/status/2080703243722854516"
     },
     {
-      "title": "Alex Albert on Opus 5 launch graphs",
-      "url": "https://x.com/alexalbert__/status/2080703118086693121"
-    },
-    {
-      "title": "Mike Krieger on Opus 5 as daily driver",
-      "url": "https://x.com/mikeyk/status/2080702940445397167"
-    },
-    {
-      "title": "Thariq on context engineering lessons",
-      "url": "https://x.com/trq212/status/2080710971228918066"
-    },
-    {
-      "title": "Daisy Hollman on cross-session communication interest",
-      "url": "https://x.com/The_Whole_Daisy/status/2080698744039948791"
-    },
-    {
-      "title": "Anthropic Research: Project Pilot",
+      "title": "Project Pilot: Can AI control a drone?",
       "url": "https://www.anthropic.com/research/project-pilot"
     },
     {
-      "title": "Anthropic News: Introducing Claude Opus 5",
+      "title": "Introducing Claude Opus 5",
       "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "title": "Claude Blog: The new rules of context engineering for Claude 5 generation models",
+      "title": "How the product designer who built Claude Design uses it to explore ideas before building them",
+      "url": "https://claude.com/blog/how-the-product-designer-who-built-claude-design-uses-it-to-explore-ideas-before-building-them"
+    },
+    {
+      "title": "The new rules of context engineering for Claude 5 generation models",
       "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
     },
     {
-      "title": "Claude Blog: Claude models explained",
+      "title": "Claude models explained: choosing the best model for your use case",
       "url": "https://claude.com/blog/claude-models-explained-choosing-the-best-model-for-your-use-case"
     },
     {
-      "title": "Claude Blog: Four role-based certifications",
-      "url": "https://claude.com/blog/four-role-based-claude-certifications"
+      "title": "Boris Cherny on Opus 5 prompt injection resilience",
+      "url": "https://x.com/bcherny/status/2080713091688583312"
     },
     {
-      "title": "Claude Blog: Think through hard problems in voice mode",
-      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode"
+      "title": "Mike Krieger on Opus 5 as a daily driver",
+      "url": "https://x.com/mikeyk/status/2080702940445397167"
     },
     {
-      "title": "Anthropic Research listing",
-      "url": "https://www.anthropic.com/research"
+      "title": "Thariq on Claude Code context engineering",
+      "url": "https://x.com/trq212/status/2080710971228918066"
     },
     {
-      "title": "Anthropic News listing",
-      "url": "https://www.anthropic.com/news"
+      "title": "Alex Albert on Opus 5 spreadsheet and slide deck quality",
+      "url": "https://x.com/alexalbert__/status/2080731979528679617"
     },
     {
-      "title": "Claude Blog listing",
-      "url": "https://claude.com/blog"
+      "title": "Ado on ARC-AGI-3 progress with Opus 5",
+      "url": "https://x.com/adocomplete/status/2080734338480828924"
     },
     {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
+      "title": "Felix Rieseberg on Opus 5 launch day",
+      "url": "https://x.com/felixrieseberg/status/2080722466226479388"
     },
     {
-      "title": "Claude Code v2.1.219 release notes",
+      "title": "Claude Code release v2.1.219",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219"
     }
   ]
