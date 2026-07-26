@@ -1,14 +1,14 @@
 {
   "date": "2026-07-26",
-  "windowLabel": "2026-07-25 12:02:44 UTC - 2026-07-26 12:02:44 UTC",
+  "windowLabel": "2026-07-25 18:01:51 UTC - 2026-07-26 18:01:51 UTC",
   "archiveTitle": "Workflow signals without fresh official news",
   "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 0件。",
-  "latestSummary": "2026-07-25 12:02:44 UTC から 2026-07-26 12:02:44 UTC の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Fable 5 / Opus 5</strong> の役割分担、<strong>Opus 5</strong> 向け prompt 調整、<strong>Claude Tag in Slack</strong> の実運用メモ、<strong>Dispatch と Cowork</strong> の使い分けに関する補足が出ている。",
+  "latestSummary": "2026-07-25 18:01:51 UTC から 2026-07-26 18:01:51 UTC の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Fable / Opus / Sonnet</strong> の役割分担、<strong>memory and dreaming</strong>、Claude の話し方改善、<strong>worktree</strong> を使った suggested task の扱いに関する signal が出ている。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post はなく、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にもこの窓の新規記事はなかった。",
-    "<strong>Model workflow signal 2件</strong>: <strong>@adocomplete</strong> は <strong>Fable 5</strong> が open-ended prompt と architecture 寄りの仕事で強いとし、reply で <strong>Fable / Opus で planning、Sonnet で implementation</strong> という使い分けを補足した。<strong>@dmwlff</strong> は <strong>Opus 5</strong> では verification を強調しすぎず、<strong>short, clear communication</strong> を重視する prompt に調整したと説明した。",
-    "<strong>Adoption / product signal 2件</strong>: <strong>@dickson_tsai</strong> は <strong>Claude Tag in Slack</strong> を team setting での current IDE of choice と説明し、<strong>@amorriscode</strong> は <strong>Dispatch</strong> は <strong>Cowork</strong> に remote capabilities が入る前から存在したと補足した。",
-    "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この窓に publish された新規 version はなかった。最新表示の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で、今回 window の開始前だった。"
+    "<strong>Workflow signal 2件</strong>: <strong>@adocomplete</strong> は、曖昧さが残る仕事では <strong>Fable か Opus で planning、Sonnet で implementation</strong> がよいと補足し、architecture や infra では Fable に end goal を渡す使い方も共有した。<strong>@amorriscode</strong> は、suggested task をあとで扱いたい場合の回避策として <strong>worktree</strong> を切って session を archive する運用を勧めた。",
+    "<strong>Product direction signal 2件</strong>: <strong>@dmwlff</strong> は、session を横断して priority や technique を一般化する方向の話題に対して <strong>we already have memory and dreaming</strong> と述べつつ、こうした機能は human guidance なしでは正しく仕上げにくいと説明した。別 reply では、冗長な返答への不満に対して <strong>we need to work on how Claude talks</strong> と認めた。",
+    "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外であり、release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目だけだった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -24,41 +24,41 @@
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-25T18:01:50Z",
-      "displayTime": "2026-07-25 18:01 UTC",
-      "title": "@adocomplete が Fable 5 / Opus 5 の coding project 初期所感を共有",
-      "summary": "<strong>@adocomplete</strong> は、約24時間の coding project で <strong>Fable 5</strong> と <strong>Opus 5</strong> の code quality はどちらも高いとしつつ、<strong>Fable 5</strong> は open-ended prompt や大きめの architecture 判断で初手の当たりが良いと述べた。reply では <strong>Fable / Opus で planning</strong>、<strong>Sonnet で implementation</strong>、さらに large architectural and infra work では Fable に end goal を渡して実装方針を任せる使い方を補足している。",
-      "url": "https://x.com/adocomplete/status/2081077479767437468",
-      "urlLabel": "@adocomplete post",
+      "datetime": "2026-07-25T19:26:14Z",
+      "displayTime": "2026-07-25 19:26 UTC",
+      "title": "@adocomplete が Fable / Opus / Sonnet の役割分担を補足",
+      "summary": "<strong>@adocomplete</strong> は reply thread で、<strong>Fable か Opus で planning、Sonnet で implementation</strong> がしっくりくると説明した。さらに、要件が明確なら <strong>Opus</strong>、方向性に余白があるなら <strong>Fable</strong>、大きな architecture や infra work では Fable に end goal を渡すことが多いと補足しており、Claude family の実運用上の役割分担 signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2081098719156666637",
+      "urlLabel": "@adocomplete reply",
       "primary": true
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-25T16:20:38Z",
-      "displayTime": "2026-07-25 16:20 UTC",
-      "title": "@dickson_tsai が Claude Tag in Slack を current IDE of choice と説明",
-      "summary": "<strong>@dickson_tsai</strong> は article 形式の投稿で、<strong>Claude Tag + Slack</strong> は notifications、proactive participation、folded thread、message editing による checklist 更新、mobile 利便性、searchable history を一つにまとめられ、team setting で Claude を常時動かしやすいと述べた。Claude の team workflow adoption を示す signal。",
-      "url": "https://x.com/dickson_tsai/status/2081052012947653094",
-      "urlLabel": "@dickson_tsai article post",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-25T16:17:17Z",
-      "displayTime": "2026-07-25 16:17 UTC",
-      "title": "@dmwlff が Opus 5 向け prompt 調整を共有",
-      "summary": "<strong>@dmwlff</strong> は、既存 skill を <strong>Opus 5</strong> に合わせる話題の中で、prompt は verification を前ほど強く書かず、代わりに <strong>short, clear communication</strong> を重視する形へ調整したと説明した。別 reply では high effort だと Opus が overthink しやすく、待てるなら <strong>Fable</strong> を使うこともあると補足している。",
-      "url": "https://x.com/dmwlff/status/2081051171423412415",
+      "datetime": "2026-07-26T16:39:24Z",
+      "displayTime": "2026-07-26 16:39 UTC",
+      "title": "@dmwlff が memory and dreaming に言及",
+      "summary": "<strong>@dmwlff</strong> は、AI が複数 session を横断して user の priority や technique を一般化していく方向性に対し、<strong>we already have memory and dreaming</strong> と述べたうえで、こうした機能は <strong>human guidance なしでは正しく仕上げにくい</strong> と説明した。Claude の session memory / planning 方向の signal として採用した。",
+      "url": "https://x.com/dmwlff/status/2081419123746377927",
       "urlLabel": "@dmwlff reply",
       "primary": true
     },
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-25T17:45:54Z",
-      "displayTime": "2026-07-25 17:45 UTC",
-      "title": "@amorriscode が Dispatch と Cowork の位置づけを補足",
-      "summary": "<strong>@amorriscode</strong> は、<strong>Dispatch</strong> と in-app の <strong>Cowork</strong> の使い分けを問われ、Dispatch は <strong>Cowork に remote capabilities が入る前から存在した</strong> と説明した。続く reply では、workflow に合わない点があれば <strong>Cowork folks</strong> に共有すると述べており、Claude の remote workstream 統合が進行中であることを示す product signal。",
-      "url": "https://x.com/amorriscode/status/2081073470381949303",
+      "datetime": "2026-07-26T02:43:39Z",
+      "displayTime": "2026-07-26 02:43 UTC",
+      "title": "@dmwlff が Claude の話し方改善余地を認めた",
+      "summary": "<strong>@dmwlff</strong> は、clear で concise な返答を求めても長文や repeated apologies が返るという user complaint に対し、<strong>we need to work on how Claude talks</strong> と返した。Claude の response style と verbosity 制御にまだ調整余地があることを示す product-quality signal。",
+      "url": "https://x.com/dmwlff/status/2081208799743082765",
+      "urlLabel": "@dmwlff reply",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-26T05:42:10Z",
+      "displayTime": "2026-07-26 05:42 UTC",
+      "title": "@amorriscode が suggested task の回し方として worktree を提案",
+      "summary": "<strong>@amorriscode</strong> は、Opus 5 が suggested task を出したときに stash や side chat が欲しいという相談に対し、<strong>work tree を切ってそこで始め、不要になったら session を archive する</strong> 運用を提案した。Claude / Cowork 系 workflow の実務的 workaround signal として採用した。",
+      "url": "https://x.com/amorriscode/status/2081253726992683475",
       "urlLabel": "@amorriscode reply",
       "primary": true
     }
@@ -74,10 +74,10 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱って確認した。この24時間窓に publish された新規 release はなく、最新表示の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 開始前だった。",
+      "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱って確認した。この24時間窓に publish された新規 release はなく、最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外だった。release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目だけで、和訳すると <strong>バグ修正と信頼性改善</strong> になる。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新表示の <strong>v2.1.220</strong> は公開 note 本文が <strong>Bug fixes and reliability improvements</strong> のみだが、今回の 24 時間窓には入らないため structured release entry には載せていない."
+        "最新の <strong>v2.1.220</strong> の公開 note は 1 bullet のみで、分類上は <strong>修正</strong>: <strong>バグ修正と信頼性改善</strong>。ただし <code>publishedAt</code> が window 外のため structured release entry には載せていない。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -86,22 +86,10 @@
   "exclusions": [
     "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓では新規 article がなかったため、zero-state 記録にとどめた。",
-    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude / Claude Code / Opus 5 / Fable 5 / Cowork</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、採用告知、関連の薄い reply は外した。",
-    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とした。最新の <strong>v2.1.220</strong> は確認したが、<code>publishedAt</code> が window 外だったため release entry から除外した。"
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude / Claude Code / Cowork / model workflow</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、採用告知、Anthropic と無関係な技術雑談は外した。",
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、最新の <strong>v2.1.220</strong> について release note 本文を完全取得した。visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、和訳は <strong>修正</strong> に分類したが、window 外公開のため release count には含めていない."
   ],
   "sources": [
-    {
-      "title": "AnthropicAI profile",
-      "url": "https://x.com/AnthropicAI"
-    },
-    {
-      "title": "ClaudeAI profile",
-      "url": "https://x.com/ClaudeAI"
-    },
-    {
-      "title": "ClaudeDevs profile",
-      "url": "https://x.com/ClaudeDevs"
-    },
     {
       "title": "Anthropic Engineering listing",
       "url": "https://www.anthropic.com/engineering"
@@ -119,20 +107,20 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Ado on Fable 5 and Opus 5",
-      "url": "https://x.com/adocomplete/status/2081077479767437468"
+      "title": "Ado on planning with Fable, Opus, and Sonnet",
+      "url": "https://x.com/adocomplete/status/2081098719156666637"
     },
     {
-      "title": "Dickson Tsai on Claude Tag in Slack",
-      "url": "https://x.com/dickson_tsai/status/2081052012947653094"
+      "title": "Adam Wolff on memory and dreaming",
+      "url": "https://x.com/dmwlff/status/2081419123746377927"
     },
     {
-      "title": "Adam Wolff on Opus 5 prompting",
-      "url": "https://x.com/dmwlff/status/2081051171423412415"
+      "title": "Adam Wolff on how Claude talks",
+      "url": "https://x.com/dmwlff/status/2081208799743082765"
     },
     {
-      "title": "Anthony Morris on Dispatch and Cowork",
-      "url": "https://x.com/amorriscode/status/2081073470381949303"
+      "title": "Anthony Morris on using worktrees for suggested tasks",
+      "url": "https://x.com/amorriscode/status/2081253726992683475"
     },
     {
       "title": "Claude Code release v2.1.220",
