@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-26",
+  "windowLabel": "2026-07-25 06:02:13 UTC - 2026-07-26 06:02:13 UTC",
+  "archiveTitle": "Prompt tuning signals and a Claude Code patch release",
+  "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 1件。",
+  "latestSummary": "2026-07-25 06:02:13 UTC から 2026-07-26 06:02:13 UTC の24時間では、official X と official site の新規告知は確認できなかった。一方で engineer 側では <strong>Fable 5 / Opus 5</strong> の使い分け、<strong>Opus 5</strong> 向け prompt 調整、<strong>model ごとの system prompt</strong> 分岐、<strong>Claude Tag in Slack</strong> の実運用メモが出ている。<strong>Claude Code</strong> では <strong>v2.1.220</strong> がこの窓に入り、release note の全項目を和訳して反映した。",
+  "summaryBullets": [
+    "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post はなく、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にもこの窓の新規記事はなかった。",
+    "<strong>Engineer signal 2件</strong>: <strong>@adocomplete</strong> は <strong>Fable 5</strong> が open-ended prompt で強く、reply では <strong>Fable / Opus で planning、Sonnet で implementation</strong> という使い分け感を補足した。<strong>@dickson_tsai</strong> は <strong>Claude Tag in Slack</strong> を current IDE of choice とする article 投稿を公開した。",
+    "<strong>Prompting signal 2件</strong>: <strong>@dmwlff</strong> は <strong>Opus 5</strong> では verification を強調しすぎず、<strong>short, clear communication</strong> を重視する prompt に調整したと説明した。<strong>@trq212</strong> は現在 <strong>model ごとに異なる system prompt</strong> を使っていると補足した。",
+    "<strong>Release 1件</strong>: <strong>Claude Code v2.1.220</strong> は公開 release note 上では <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、今回の structured output では <strong>修正</strong> セクションに全量反映した。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Official X の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を exact window で確認したが、新規の main post は確認できなかった。reply と repost は採用対象から外している。"
+    },
+    {
+      "label": "Official site の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 24, 2026</strong> のままで、この24時間窓に入る新規 article は確認できなかった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-25T18:01:50Z",
+      "displayTime": "2026-07-25 18:01 UTC",
+      "title": "@adocomplete が Fable 5 / Opus 5 の coding project 初期所感を共有",
+      "summary": "<strong>@adocomplete</strong> は、約24時間の coding project で <strong>Fable 5</strong> と <strong>Opus 5</strong> の code quality はどちらも高いとしつつ、<strong>Fable 5</strong> は open-ended prompt や曖昧な依頼を一発で決めやすいと述べた。reply では <strong>Fable / Opus で planning</strong>、<strong>Sonnet で implementation</strong> という使い分けも補足しており、Claude family の役割分担 signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2081077479767437468",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-25T16:20:38Z",
+      "displayTime": "2026-07-25 16:20 UTC",
+      "title": "@dickson_tsai が Claude Tag in Slack を current IDE of choice と説明",
+      "summary": "<strong>@dickson_tsai</strong> は article 形式の投稿で、<strong>Claude Tag + Slack</strong> は notifications、thread、message editing による status 管理、mobile 利便性、searchable history が揃い、team setting で Claude の長時間自律動作を活かしやすいと述べた。Claude workflow adoption の signal として採用した。",
+      "url": "https://x.com/dickson_tsai/status/2081052012947653094",
+      "urlLabel": "@dickson_tsai article post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-25T16:17:17Z",
+      "displayTime": "2026-07-25 16:17 UTC",
+      "title": "@dmwlff が Opus 5 向け prompt 調整を共有",
+      "summary": "<strong>@dmwlff</strong> は、<strong>Opus 5</strong> では verification を前ほど強く書かず、代わりに <strong>short, clear communication</strong> を強調する prompt に調整したと reply で説明した。別 reply では high effort だと Opus が overthink しやすく、待てるなら <strong>Fable</strong> を使うこともあると補足している。",
+      "url": "https://x.com/dmwlff/status/2081051171423412415",
+      "urlLabel": "@dmwlff reply",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-25T15:48:42Z",
+      "displayTime": "2026-07-25 15:48 UTC",
+      "title": "@trq212 が model ごとに異なる system prompt の存在を補足",
+      "summary": "<strong>@trq212</strong> は、Claude Code の newer models に関する会話の中で、現在は <strong>model ごとに異なる system prompt</strong> を使っていると述べた。prompt 共通化より model-specific tuning を強めている signal として採用した。",
+      "url": "https://x.com/trq212/status/2081043974450450775",
+      "urlLabel": "@trq212 reply",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の official site listing を確認したが、この24時間窓に visible publication date が入る新規 article はなかった。最新 visible date は <strong>Anthropic Engineering</strong> が <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> と <strong>Claude Blog</strong> が <strong>Jul 24, 2026</strong> だった。",
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱う前提で整理した。この24時間窓に入る release は <strong>v2.1.220</strong> の 1件で、公開 release note の visible bullet は 1項目だけだったため、省略せず和訳して <strong>修正</strong> セクションへ入れた。",
+      "releases": [
+        {
+          "version": "v2.1.220",
+          "publishedAt": "2026-07-25 01:35 UTC",
+          "summary": "<strong>v2.1.220</strong> は、公開 release note 上では <strong>Bug fixes and reliability improvements</strong> の 1項目だけを案内する軽量アップデート。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "バグ修正と信頼性向上をまとめて入れたメンテナンス更新。公開 release note では個別内訳は記載されていない。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+          "urlLabel": "v2.1.220 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓では新規 article がなかったため、zero-state 記録にとどめた。",
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude / Claude Code / Opus 5 / Fable 5</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、採用告知、関連の薄い reply は外した。",
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、公開 note の visible bullet を <strong>新機能 / 変更 / 修正</strong> のいずれかに必ず割り当てた。今回の in-window release は <strong>v2.1.220</strong> の 1件のみだった。"
+  ],
+  "sources": [
+    {
+      "title": "AnthropicAI profile",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI profile",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs profile",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Ado on Fable 5 and Opus 5",
+      "url": "https://x.com/adocomplete/status/2081077479767437468"
+    },
+    {
+      "title": "Dickson Tsai on Claude Tag in Slack",
+      "url": "https://x.com/dickson_tsai/status/2081052012947653094"
+    },
+    {
+      "title": "Adam Wolff on Opus 5 prompting",
+      "url": "https://x.com/dmwlff/status/2081051171423412415"
+    },
+    {
+      "title": "Thariq on model-specific system prompts",
+      "url": "https://x.com/trq212/status/2081043974450450775"
+    },
+    {
+      "title": "Claude Code release v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
