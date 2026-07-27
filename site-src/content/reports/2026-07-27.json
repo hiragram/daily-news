@@ -1,9 +1,9 @@
 {
   "date": "2026-07-27",
-  "windowLabel": "2026-07-26 06:02:19 UTC - 2026-07-27 06:02:19 UTC",
-  "archiveTitle": "Official静穏、Claude Desktop運用 signal 継続",
+  "windowLabel": "2026-07-26 12:02:24 UTC - 2026-07-27 12:02:24 UTC",
+  "archiveTitle": "Official静穏、Claude Desktop signal 継続",
   "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 0件。",
-  "latestSummary": "2026-07-26 06:02:19 UTC から 2026-07-27 06:02:19 UTC の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Claude Desktop</strong> の visual editing、<strong>design を repo / folder に紐づける運用</strong>、<strong>Desktop が CLI を置き換えつつある感触</strong>、<strong>session switching 優先の shortcut 設計</strong>、<strong>memory and dreaming</strong> に関する signal が続いた。",
+  "latestSummary": "2026-07-26 12:02:24 UTC から 2026-07-27 12:02:24 UTC の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Claude Desktop</strong> の visual editing、<strong>design を repo / folder に紐づける運用</strong>、<strong>Desktop が CLI を置き換えつつある感触</strong>、<strong>session switching 優先の shortcut 設計</strong>、<strong>memory and dreaming</strong> に関する signal が続いた。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post はなく、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にもこの窓の新規 article は確認できなかった。",
     "<strong>Desktop workflow signal 2件</strong>: <strong>@adocomplete</strong> は <strong>Claude Code on Desktop</strong> で UI を annotate してそのまま chat に送り返せる visual editing flow を紹介し、reply では <strong>design を特定 repo / folder に attach できる</strong> と補足した。さらに別 reply では、Desktop がかなり solid になり <strong>CLI を積極的に使う理由が減っている</strong> と述べた。",
@@ -37,7 +37,7 @@
       "datetime": "2026-07-26T20:29:58Z",
       "displayTime": "2026-07-26 20:29 UTC",
       "title": "@adocomplete が Claude Code Desktop の定着感を共有",
-      "summary": "<strong>@adocomplete</strong> は、以前は作業時間のほぼ100%を CLI で過ごしていたが、最近は習慣で 10-15% 触る程度で、<strong>Claude Code Desktop がかなり solid になり、CLI を使う積極的な理由が減った</strong> と reply で述べた。Desktop app の完成度と adoption を示す signal。",
+      "summary": "<strong>@adocomplete</strong> は、以前は作業時間のほぼ100%を CLI で過ごしていたが、最近は習慣で 10-15% 触る程度で、<strong>CC Desktop がかなり solid になり、CLI を使う積極的な理由が減った</strong> と reply で述べた。Desktop app の完成度と adoption を示す signal。",
       "url": "https://x.com/adocomplete/status/2081477147013882027",
       "urlLabel": "@adocomplete reply",
       "primary": true
@@ -77,7 +77,7 @@
       "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱って確認した。この24時間窓に publish された新規 release はなく、最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外だった。release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、完全取得のうえ和訳した。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新の <strong>v2.1.220</strong> は window 外だが、公開 note の visible bullet は 1項目だけだったため、本文をそのまま全件分類した."
+        "最新の <strong>v2.1.220</strong> は window 外だが、公開 note の visible bullet は 1項目だけだったため、本文をそのまま全件分類した。"
       ],
       "sections": [
         {
@@ -107,7 +107,7 @@
     "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓では新規 article がなかったため、zero-state 記録にとどめた。",
     "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude Desktop</strong>、<strong>workflow</strong>、<strong>memory</strong>、<strong>navigation UX</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、単純な称賛、Anthropic と無関係な技術雑談、community event 告知は外した。",
-    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、最新の <strong>v2.1.220</strong> について release note 本文を完全取得した。visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、和訳は <strong>修正</strong> に分類したが、window 外公開のため release count には含めていない."
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、最新の <strong>v2.1.220</strong> について release note 本文を完全取得した。visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、和訳は <strong>修正</strong> に分類したが、window 外公開のため release count には含めていない。"
   ],
   "sources": [
     {
