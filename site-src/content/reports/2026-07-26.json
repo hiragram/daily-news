@@ -1,14 +1,14 @@
 {
   "date": "2026-07-26",
-  "windowLabel": "2026-07-25 18:01:51 UTC - 2026-07-26 18:01:51 UTC",
-  "archiveTitle": "Workflow signals without fresh official news",
-  "archiveSummary": "Official 0件、engineer signal 4件、Claude Code release 0件。",
-  "latestSummary": "2026-07-25 18:01:51 UTC から 2026-07-26 18:01:51 UTC の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Fable / Opus / Sonnet</strong> の役割分担、<strong>memory and dreaming</strong>、Claude の話し方改善、<strong>worktree</strong> を使った suggested task の扱いに関する signal が出ている。",
+  "windowLabel": "2026-07-25 17:00 PDT - 2026-07-26 17:00 PDT",
+  "archiveTitle": "Fresh official newsなし、Desktop運用まわりのsignal中心",
+  "archiveSummary": "Official 0件、engineer signal 6件、Claude Code release 0件。",
+  "latestSummary": "2026-07-25 17:00 PDT から 2026-07-26 17:00 PDT の24時間では、official X と official site の新規告知、Claude Code の新規 release は確認できなかった。一方で engineer 側では <strong>Claude Desktop</strong> の visual editing、<strong>design を repo / folder に紐づける運用</strong>、<strong>memory and dreaming</strong>、Claude の話し方改善、<strong>worktree</strong>、shortcut 設計に関する signal が出ている。",
   "summaryBullets": [
-    "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post はなく、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にもこの窓の新規記事はなかった。",
-    "<strong>Workflow signal 2件</strong>: <strong>@adocomplete</strong> は、曖昧さが残る仕事では <strong>Fable か Opus で planning、Sonnet で implementation</strong> がよいと補足し、architecture や infra では Fable に end goal を渡す使い方も共有した。<strong>@amorriscode</strong> は、suggested task をあとで扱いたい場合の回避策として <strong>worktree</strong> を切って session を archive する運用を勧めた。",
-    "<strong>Product direction signal 2件</strong>: <strong>@dmwlff</strong> は、session を横断して priority や technique を一般化する方向の話題に対して <strong>we already have memory and dreaming</strong> と述べつつ、こうした機能は human guidance なしでは正しく仕上げにくいと説明した。別 reply では、冗長な返答への不満に対して <strong>we need to work on how Claude talks</strong> と認めた。",
-    "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外であり、release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目だけだった。"
+    "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post はなく、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にもこの調査窓の新規記事はなかった。",
+    "<strong>Desktop workflow signal 3件</strong>: <strong>@adocomplete</strong> は Claude Desktop で <strong>UI を注釈してそのまま chat に送り、変更指示できる</strong> ことを推し、別 reply では <strong>design を特定 repo / folder に attach できる</strong> と補足した。<strong>@amorriscode</strong> は suggested task を後で扱うなら <strong>worktree を切って session を archive</strong> する運用を勧めた。",
+    "<strong>Product quality signal 3件</strong>: <strong>@dmwlff</strong> は Claude の将来像に関連して <strong>memory and dreaming</strong> に言及し、別 reply では <strong>we need to work on how Claude talks</strong> と述べた。<strong>@amorriscode</strong> は shortcut まわりで <strong>cmd+number</strong> を外した理由と、未修正の design shortcoming があることを説明した。",
+    "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この調査窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-24 18:35 PDT</strong> 公開で window 外であり、release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目だけだった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -18,24 +18,34 @@
     },
     {
       "label": "Official site の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> と <strong>Claude Blog</strong> の最新 visible date は <strong>Jul 24, 2026</strong> のままで、この24時間窓に入る新規 article は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> と <strong>Anthropic News</strong> の最新 visible date は <strong>Jul 24, 2026</strong>、<strong>Claude Blog</strong> の先頭 visible entries も <strong>Jul 24, 2026</strong> のままで、この24時間窓に入る新規 article は確認できなかった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-25T19:26:14Z",
-      "displayTime": "2026-07-25 19:26 UTC",
-      "title": "@adocomplete が Fable / Opus / Sonnet の役割分担を補足",
-      "summary": "<strong>@adocomplete</strong> は reply thread で、<strong>Fable か Opus で planning、Sonnet で implementation</strong> がしっくりくると説明した。さらに、要件が明確なら <strong>Opus</strong>、方向性に余白があるなら <strong>Fable</strong>、大きな architecture や infra work では Fable に end goal を渡すことが多いと補足しており、Claude family の実運用上の役割分担 signal として採用した。",
-      "url": "https://x.com/adocomplete/status/2081098719156666637",
+      "datetime": "2026-07-26T19:47:28Z",
+      "displayTime": "2026-07-26 12:47 PDT",
+      "title": "@adocomplete が Claude Desktop の visual editing フローを紹介",
+      "summary": "<strong>@adocomplete</strong> は、Claude Desktop では <strong>app UI を annotate / mark up してそのまま chat に送り、変更指示できる</strong> と紹介した。Desktop 上で visual feedback loop を完結させる workflow signal として採用した。",
+      "url": "https://x.com/adocomplete/status/2081466451995787299",
+      "urlLabel": "@adocomplete post",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-26T19:58:19Z",
+      "displayTime": "2026-07-26 12:58 PDT",
+      "title": "@adocomplete が design を repo / folder に attach できると補足",
+      "summary": "<strong>@adocomplete</strong> は follow-up reply で、<strong>Claude Design はすでに Claude Desktop にあり、特定の repo や folder に attach できる</strong> と説明した。さらに great experience に向けて追加改善余地があるとも述べており、Desktop 設計フローの現在地を示す signal。",
+      "url": "https://x.com/adocomplete/status/2081469182164811956",
       "urlLabel": "@adocomplete reply",
       "primary": true
     },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-26T16:39:24Z",
-      "displayTime": "2026-07-26 16:39 UTC",
+      "displayTime": "2026-07-26 09:39 PDT",
       "title": "@dmwlff が memory and dreaming に言及",
       "summary": "<strong>@dmwlff</strong> は、AI が複数 session を横断して user の priority や technique を一般化していく方向性に対し、<strong>we already have memory and dreaming</strong> と述べたうえで、こうした機能は <strong>human guidance なしでは正しく仕上げにくい</strong> と説明した。Claude の session memory / planning 方向の signal として採用した。",
       "url": "https://x.com/dmwlff/status/2081419123746377927",
@@ -45,7 +55,7 @@
     {
       "label": "Engineer signal",
       "datetime": "2026-07-26T02:43:39Z",
-      "displayTime": "2026-07-26 02:43 UTC",
+      "displayTime": "2026-07-25 19:43 PDT",
       "title": "@dmwlff が Claude の話し方改善余地を認めた",
       "summary": "<strong>@dmwlff</strong> は、clear で concise な返答を求めても長文や repeated apologies が返るという user complaint に対し、<strong>we need to work on how Claude talks</strong> と返した。Claude の response style と verbosity 制御にまだ調整余地があることを示す product-quality signal。",
       "url": "https://x.com/dmwlff/status/2081208799743082765",
@@ -55,10 +65,20 @@
     {
       "label": "Engineer signal",
       "datetime": "2026-07-26T05:42:10Z",
-      "displayTime": "2026-07-26 05:42 UTC",
+      "displayTime": "2026-07-25 22:42 PDT",
       "title": "@amorriscode が suggested task の回し方として worktree を提案",
-      "summary": "<strong>@amorriscode</strong> は、Opus 5 が suggested task を出したときに stash や side chat が欲しいという相談に対し、<strong>work tree を切ってそこで始め、不要になったら session を archive する</strong> 運用を提案した。Claude / Cowork 系 workflow の実務的 workaround signal として採用した。",
+      "summary": "<strong>@amorriscode</strong> は、Opus 5 が suggested task を出したときに stash や side chat が欲しいという相談に対し、<strong>worktree を切ってそこで始め、不要になったら session を archive する</strong> 運用を提案した。Claude / Cowork 系 workflow の実務的 workaround signal として採用した。",
       "url": "https://x.com/amorriscode/status/2081253726992683475",
+      "urlLabel": "@amorriscode reply",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-26T23:39:36Z",
+      "displayTime": "2026-07-26 16:39 PDT",
+      "title": "@amorriscode が shortcut 設計の見直し状況を共有",
+      "summary": "<strong>@amorriscode</strong> は、以前あった <strong>cmd+1 / 2 / 3</strong> の shortcut はほぼ使われず、<strong>session switching の方がずっと頻度が高い</strong> ため切り替えたと説明し、あわせて right shortcut を模索中だと述べた。Claude Desktop の navigation / UX 調整が継続中であることを示す signal。",
+      "url": "https://x.com/amorriscode/status/2081524869955809593",
       "urlLabel": "@amorriscode reply",
       "primary": true
     }
@@ -74,10 +94,30 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱って確認した。この24時間窓に publish された新規 release はなく、最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外だった。release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目だけで、和訳すると <strong>バグ修正と信頼性改善</strong> になる。",
+      "body": "Claude Code releases は今回も <strong>GitHub CLI release metadata</strong> を正規 source として扱って確認した。この24時間窓に publish された新規 release はなく、最新の <strong>v2.1.220</strong> は <strong>2026-07-24 18:35 PDT</strong> 公開で window 外だった。release note 本文は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、完全取得のうえ和訳した。",
       "details": [
         "release 判定は <code>gh release list</code> と <code>gh release view</code> の <code>publishedAt</code> を source of truth とした。",
-        "最新の <strong>v2.1.220</strong> の公開 note は 1 bullet のみで、分類上は <strong>修正</strong>: <strong>バグ修正と信頼性改善</strong>。ただし <code>publishedAt</code> が window 外のため structured release entry には載せていない。"
+        "最新の <strong>v2.1.220</strong> は window 外だが、公開 note の visible bullet は 1項目だけだったため、本文をそのまま全件分類した。"
+      ],
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "該当なし"
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "該当なし"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "バグ修正と信頼性改善"
+          ]
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
@@ -86,8 +126,8 @@
   "exclusions": [
     "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓では新規 article がなかったため、zero-state 記録にとどめた。",
-    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude / Claude Code / Cowork / model workflow</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、採用告知、Anthropic と無関係な技術雑談は外した。",
-    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、最新の <strong>v2.1.220</strong> について release note 本文を完全取得した。visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、和訳は <strong>修正</strong> に分類したが、window 外公開のため release count には含めていない."
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude / Claude Code / Desktop / workflow</strong> に直接つながる signal が明確な 6件のみを採用した。個人雑談、コミュニティイベント告知、Anthropic と無関係な技術雑談は外した。",
+    "<strong>Claude Code</strong> release は GitHub CLI を正規 source とし、最新の <strong>v2.1.220</strong> について release note 本文を完全取得した。visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、和訳は <strong>修正</strong> に分類したが、window 外公開のため release count には含めていない。"
   ],
   "sources": [
     {
@@ -107,8 +147,12 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Ado on planning with Fable, Opus, and Sonnet",
-      "url": "https://x.com/adocomplete/status/2081098719156666637"
+      "title": "Ado on visual editing in Claude Desktop",
+      "url": "https://x.com/adocomplete/status/2081466451995787299"
+    },
+    {
+      "title": "Ado on attaching design to a repo or folder",
+      "url": "https://x.com/adocomplete/status/2081469182164811956"
     },
     {
       "title": "Adam Wolff on memory and dreaming",
@@ -121,6 +165,10 @@
     {
       "title": "Anthony Morris on using worktrees for suggested tasks",
       "url": "https://x.com/amorriscode/status/2081253726992683475"
+    },
+    {
+      "title": "Anthony Morris on shortcut changes for session switching",
+      "url": "https://x.com/amorriscode/status/2081524869955809593"
     },
     {
       "title": "Claude Code release v2.1.220",
