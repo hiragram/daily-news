@@ -1,12 +1,12 @@
 {
   "date": "2026-07-28",
-  "windowLabel": "2026-07-27 06:02:29 UTC - 2026-07-28 06:02:29 UTC",
+  "windowLabel": "2026-07-27 12:02:00 UTC - 2026-07-28 12:01:50 UTC",
   "archiveTitle": "Open-weights方針表明とCognizant提携拡大",
   "archiveSummary": "Official 2件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-27 06:02:29 UTC から 2026-07-28 06:02:29 UTC の24時間では、official は <strong>open-weights models に関する Anthropic の方針表明</strong> と <strong>Cognizant との提携拡大</strong> の2件が出た。engineer 側では <strong>single-prompt での feature 実装</strong>、<strong>managed agents の harness outside sandbox 設計</strong>、<strong>Claude Code がローカル実行前提であること</strong> に関する具体的な signal が見えた。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目だけだったため、完全取得のうえ <strong>修正</strong> に和訳して記録した。",
+  "latestSummary": "2026-07-27 12:02:00 UTC から 2026-07-28 12:01:50 UTC の24時間では、official は <strong>open-weights models に関する Anthropic の方針表明</strong> と <strong>Cognizant との提携拡大</strong> の2件が残った。engineer 側では <strong>single-prompt での feature 実装</strong>、<strong>managed agents の harness outside sandbox 設計</strong>、<strong>Claude Code がローカル実行前提であること</strong> に関する具体的な signal が続いた。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目だけだったため、完全取得のうえ <strong>修正</strong> に和訳して記録した。",
   "summaryBullets": [
     "<strong>Official 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Our position on open-weights models</strong> を投稿し、Anthropic は <strong>open-weights models の一律禁止を支持していない</strong> と明言した。official site では同日付で <strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong> も公開され、Cognizant が <strong>Claude</strong> と <strong>Claude Code</strong> を enterprise delivery と自社 platform の両方に広げる方針が示された。",
-    "<strong>Official X の新規 main post は 1件</strong>: この窓で新規 main post があったのは <strong>@AnthropicAI</strong> のみで、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post はなかった。",
+    "<strong>Official X の新規 main post は 1件</strong>: この窓で新規 main post があったのは <strong>@AnthropicAI</strong> のみで、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post はなかった。対象 post は <strong>2026-07-27 22:10 UTC</strong> に出た <strong>open-weights models</strong> に関する告知 1 件だけだった。",
     "<strong>Engineer signal 3件</strong>: <strong>@adocomplete</strong> は <strong>single prompt で end-to-end feature を作れる</strong> と述べ、reply では <strong>Opus 5</strong> で <strong>約27分で onboarding flow</strong> を仕上げた例を示した。<strong>@katelyn_lesse</strong> は managed agents が <strong>harness outside sandbox</strong> で動く理由を説明し、別 reply では <strong>Claude Code (agent sdk)</strong> が <strong>ローカル実行前提</strong> だと明言した。",
     "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この24時間窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外で、公開 note の visible bullet は <strong>Bug fixes and reliability improvements</strong> の1項目のみだった。"
   ],
@@ -35,7 +35,7 @@
   "officialZeroStates": [
     {
       "label": "@ClaudeAI / @ClaudeDevs の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> には <strong>open-weights models</strong> に関する新規 main post が1件あったが、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> にはこの exact window の新規 main post は確認できなかった。reply と repost は採用対象から外している。"
+      "body": "<strong>@AnthropicAI</strong> には <strong>2026-07-27 22:10 UTC</strong> の <strong>open-weights models</strong> に関する新規 main post が1件あったが、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> にはこの exact window の新規 main post は確認できなかった。reply と repost は採用対象から外している。"
     },
     {
       "label": "Engineering / Research / Claude Blog の新着は 0件",
