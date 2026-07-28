@@ -1,22 +1,43 @@
 {
   "date": "2026-07-28",
-  "windowLabel": "2026-07-27 12:02:00 UTC - 2026-07-28 12:01:50 UTC",
-  "archiveTitle": "Open-weights方針表明とCognizant提携拡大",
-  "archiveSummary": "Official 2件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-27 12:02:00 UTC から 2026-07-28 12:01:50 UTC の24時間では、official は <strong>open-weights models に関する Anthropic の方針表明</strong> と <strong>Cognizant との提携拡大</strong> の2件が残った。engineer 側では <strong>single-prompt での feature 実装</strong>、<strong>managed agents の harness outside sandbox 設計</strong>、<strong>Claude Code がローカル実行前提であること</strong> に関する具体的な signal が続いた。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目だけだったため、完全取得のうえ <strong>修正</strong> に和訳して記録した。",
+  "windowLabel": "2026-07-27 18:02:31 UTC - 2026-07-28 18:02:31 UTC",
+  "archiveTitle": "MCP 2026-07-28 と Claude の cryptography 研究",
+  "archiveSummary": "Official 4件、engineer signal 4件、Claude Code release 0件。",
+  "latestSummary": "2026-07-27 18:02:31 UTC から 2026-07-28 18:02:31 UTC の24時間では、official 側で <strong>Claude Blog の MCP 2026-07-28 対応</strong>、<strong>Anthropic Research の cryptographic weaknesses 研究</strong>、<strong>open-weights 方針表明</strong>、<strong>Cognizant 提携拡大</strong> の4件が並んだ。engineer 側では <strong>Claude Code Desktop app から iOS simulator を回せる</strong> という実演や、<strong>managed agents の harness outside sandbox 設計</strong>、<strong>Claude app の steer / queue 操作</strong> に関する具体的な signal が出た。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目だけだったため、完全取得のうえ <strong>修正</strong> に和訳して記録した。",
   "summaryBullets": [
-    "<strong>Official 2件</strong>: <strong>@AnthropicAI</strong> は <strong>Our position on open-weights models</strong> を投稿し、Anthropic は <strong>open-weights models の一律禁止を支持していない</strong> と明言した。official site では同日付で <strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong> も公開され、Cognizant が <strong>Claude</strong> と <strong>Claude Code</strong> を enterprise delivery と自社 platform の両方に広げる方針が示された。",
-    "<strong>Official X の新規 main post は 1件</strong>: この窓で新規 main post があったのは <strong>@AnthropicAI</strong> のみで、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post はなかった。対象 post は <strong>2026-07-27 22:10 UTC</strong> に出た <strong>open-weights models</strong> に関する告知 1 件だけだった。",
-    "<strong>Engineer signal 3件</strong>: <strong>@adocomplete</strong> は <strong>single prompt で end-to-end feature を作れる</strong> と述べ、reply では <strong>Opus 5</strong> で <strong>約27分で onboarding flow</strong> を仕上げた例を示した。<strong>@katelyn_lesse</strong> は managed agents が <strong>harness outside sandbox</strong> で動く理由を説明し、別 reply では <strong>Claude Code (agent sdk)</strong> が <strong>ローカル実行前提</strong> だと明言した。",
+    "<strong>Official 4件</strong>: <strong>Claude Blog</strong> は <strong>MCP 2026-07-28</strong> の Claude 対応を公開し、<strong>stateless core</strong>、<strong>extensions</strong>、<strong>auth hardening</strong> を Claude 製品群へ順次展開すると案内した。<strong>Anthropic Research</strong> は <strong>Claude Mythos Preview</strong> が <strong>HAWK</strong> と <strong>reduced-round AES</strong> の cryptographic weakness を見つけた研究を公開した。",
+    "<strong>Anthropic News 2件</strong>: <strong>Our position on open-weights models</strong> では、Anthropic は <strong>open-weights models の一律禁止を支持しない</strong> と明言し、代わりに <strong>対中 chip 規制</strong>、<strong>industrial-scale distillation への対処</strong>、<strong>高能力モデルの安全性テスト義務化</strong> を主張した。<strong>Cognizant</strong> 関連記事では、同社が <strong>Claude</strong> と <strong>Claude Code</strong> を enterprise delivery と自社 engineering platform に広げる方針が示された。",
+    "<strong>Official X main post は 2件</strong>: <strong>@AnthropicAI</strong> は <strong>open-weights models</strong> の方針記事を案内し、<strong>@ClaudeDevs</strong> は <strong>MCP 2026-07-28</strong> が live になり、<strong>stateless</strong> 化で remote MCP server の deploy / scale がしやすくなると告知した。<strong>@ClaudeAI</strong> の新規 main post はなかった。",
+    "<strong>Engineer signal 4件</strong>: <strong>@adocomplete</strong> は <strong>Claude Code Desktop app</strong> から <strong>iOS simulator</strong> を app 内で動かして mobile app の反復開発・debug がしやすいと実演した。<strong>@katelyn_lesse</strong> は <strong>managed agents</strong> が <strong>harness outside sandbox</strong> 構成だと説明し、別 reply で <strong>Claude Code (agent sdk)</strong> は <strong>ローカル実行前提</strong> だと明言した。<strong>@amorriscode</strong> は Claude app の <strong>Steer</strong> が既に出荷済みで、<strong>CMD+Enter で queue</strong> できると補足した。",
     "<strong>Release 0件</strong>: GitHub CLI で <strong>Claude Code releases</strong> を確認したが、この24時間窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35 UTC</strong> 公開で window 外で、公開 note の visible bullet は <strong>Bug fixes and reliability improvements</strong> の1項目のみだった。"
   ],
   "officialNews": [
     {
       "label": "Official",
-      "datetime": "2026-07-28T07:10:10+09:00",
-      "displayTime": "2026-07-28 07:10 JST",
-      "title": "Anthropic が open-weights models への立場を明文化",
-      "summary": "<strong>@AnthropicAI</strong> は <strong>Our position on open-weights models</strong> を案内し、Anthropic は <strong>open-weights models の一律禁止を支持していない</strong> と明言した。記事では、重点は <strong>対中 chip 規制の徹底</strong>、<strong>大規模 distillation への対処</strong>、そして <strong>open / closed を問わない高能力モデルへの安全性テスト義務化</strong> にあると整理している。",
+      "datetime": "2026-07-28T12:00:00+09:00",
+      "displayTime": "2026-07-28",
+      "title": "Claude Blog が MCP 2026-07-28 の Claude 対応を公開",
+      "summary": "<strong>Bringing MCP 2026-07-28 to Claude</strong> は、<strong>MCP</strong> の新仕様が <strong>stateless core</strong> に移行し、<strong>MCP Apps</strong> と <strong>Tasks</strong> を正式な extensions として扱い、<strong>OAuth 2.0 / OIDC</strong> ベースの auth hardening を進めたと説明した。Claude 側では <strong>connectors directory</strong>、<strong>enterprise-managed auth</strong>、<strong>developer observability</strong>、<strong>MCP tunnels</strong> との連動を示しつつ、対応が Claude 製品群へ順次 rollout されると案内している。",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-07-28T12:00:00+09:00",
+      "displayTime": "2026-07-28",
+      "title": "Anthropic Research が Claude による cryptanalysis 研究を公開",
+      "summary": "<strong>Discovering cryptographic weaknesses with Claude</strong> は、<strong>Claude Mythos Preview</strong> が <strong>HAWK</strong> の key strength を半減させる attack と、<strong>reduced-round AES</strong> の attack を <strong>200-800x</strong> 速くする改善を見つけたと報告した。記事は、どちらも <strong>現行 production systems には影響しない</strong> と明記しつつ、frontier AI model が expert-level cryptography research に踏み込んでいる点を示している。",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-07-27T12:00:00+09:00",
+      "displayTime": "2026-07-27",
+      "title": "Anthropic が open-weights models への立場を再度明文化",
+      "summary": "<strong>Our position on open-weights models</strong> で Dario Amodei は、Anthropic は <strong>open-weights models の一律禁止を支持していない</strong> と明言した。そのうえで、重点は <strong>中国向け chip / chipmaking equipment の規制強化</strong>、<strong>industrial-scale distillation への対処</strong>、<strong>open / closed を問わない高能力モデルの安全性テスト義務化</strong> にあると整理している。",
       "url": "https://www.anthropic.com/news/position-open-weights-models",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,7 +47,7 @@
       "datetime": "2026-07-27T12:00:00+09:00",
       "displayTime": "2026-07-27",
       "title": "Anthropic News が Cognizant との提携拡大を発表",
-      "summary": "<strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong> は、Cognizant が <strong>Claude</strong> を client delivery へ広げるだけでなく、自社の engineering platform にも埋め込み、<strong>Claude-certified workforce</strong> を拡大し、<strong>Claude Partner Network</strong> の <strong>Global Premier Partner</strong> になると案内した。本文では <strong>Flowsource</strong> の <strong>Spec-Driven Development</strong> module で <strong>Claude Code</strong> を software engineers と並走させている点も明記されている。",
+      "summary": "<strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong> は、Cognizant が <strong>Claude</strong> を client delivery へ広げるだけでなく、自社の platform や <strong>Claude-certified workforce</strong> に深く組み込み、<strong>Claude Partner Network</strong> の <strong>Global Premier Partner</strong> になると案内した。本文では <strong>Flowsource</strong> の <strong>Spec-Driven Development</strong> module で <strong>Claude Code</strong> を software engineers と並走させていることも明記されている。",
       "url": "https://www.anthropic.com/news/cognizant-anthropic",
       "urlLabel": "記事を読む",
       "primary": true
@@ -34,31 +55,41 @@
   ],
   "officialZeroStates": [
     {
-      "label": "@ClaudeAI / @ClaudeDevs の新規 main post は 0件",
-      "body": "<strong>@AnthropicAI</strong> には <strong>2026-07-27 22:10 UTC</strong> の <strong>open-weights models</strong> に関する新規 main post が1件あったが、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> にはこの exact window の新規 main post は確認できなかった。reply と repost は採用対象から外している。"
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>official X</strong> は <strong>main post のみ</strong> を採用対象にし、この window では <strong>@AnthropicAI</strong> が <strong>open-weights models</strong> の案内を1件、<strong>@ClaudeDevs</strong> が <strong>MCP 2026-07-28</strong> の案内を1件出していた。一方で <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。reply と repost は採用対象から外している。"
     },
     {
-      "label": "Engineering / Research / Claude Blog の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 24, 2026</strong>、<strong>Claude Blog</strong> の先頭 visible entries も <strong>Jul 24, 2026</strong> のままだった。この窓で確認できた official site の新規 item は <strong>Anthropic News</strong> に載った <strong>Jul 27, 2026</strong> の2件のみだった。"
+      "label": "Anthropic Engineering の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong> のままで、この24時間窓に新規 listing は確認できなかった。今回の official site 新規 item は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 2件、<strong>Claude Blog</strong> 1件だった。"
     }
   ],
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-07-27T17:27:35Z",
-      "displayTime": "2026-07-28 02:27 JST",
-      "title": "@adocomplete が single-prompt 実装の具体例を共有",
-      "summary": "<strong>@adocomplete</strong> は、agent が <strong>single prompt だけで end-to-end feature を作れる</strong> と述べた流れで、reply では <strong>Opus 5</strong> が <strong>約27分で super smooth な onboarding flow</strong> を仕上げた実例を示した。Claude の agent workflow が idea-to-feature に届いているという具体的な運用 signal。",
-      "url": "https://x.com/adocomplete/status/2081793636761538638",
+      "datetime": "2026-07-28T17:05:11Z",
+      "displayTime": "2026-07-28 17:05 UTC",
+      "title": "@adocomplete が Claude Code Desktop app 内での iOS simulator 実行を実演",
+      "summary": "<strong>@adocomplete</strong> は、<strong>Claude Code Desktop app</strong> から <strong>iOS simulator</strong> を app 内で動かせるため、mobile app の反復開発、test、debug がかなりやりやすいと紹介した。Claude Code の desktop workflow が local mobile tooling と密接に結びついていることを示す user-facing signal。",
+      "url": "https://x.com/adocomplete/status/2082150388728582241",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-28T13:33:01Z",
+      "displayTime": "2026-07-28 13:33 UTC",
+      "title": "@amorriscode が Claude app の steer / queue 操作を補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude app の <strong>Steer</strong> 機能は <strong>先週 ship 済み</strong> であり、現在は <strong>steers by default</strong>、さらに <strong>CMD+Enter</strong> で queueing できると reply で説明した。Claude app の操作系が既に roll out 済みであることを示す小さいが具体的な signal。",
+      "url": "https://x.com/amorriscode/status/2082096994626216410",
       "urlLabel": "X で見る",
       "primary": true
     },
     {
       "label": "Engineer signal",
       "datetime": "2026-07-27T19:53:39Z",
-      "displayTime": "2026-07-28 04:53 JST",
+      "displayTime": "2026-07-27 19:53 UTC",
       "title": "@katelyn_lesse が managed agents の設計を説明",
-      "summary": "<strong>@katelyn_lesse</strong> は、<strong>harness outside the sandbox</strong> の話題に対して、<strong>Anthropic の managed agents はまさにその構成</strong> であり、自分たちも同じ教訓を踏んでそうした設計にしたと説明した。あわせて <strong>Scaling Managed Agents: Decoupling the brain from the hands</strong> の engineering 記事を示し、managed runtime の設計意図を補強している。",
+      "summary": "<strong>@katelyn_lesse</strong> は、<strong>Anthropic の managed agents</strong> は <strong>harness outside sandbox</strong> 構成で作られており、自分たちも同じ教訓からその設計を採ったと説明した。添付した <strong>Scaling Managed Agents: Decoupling the brain from the hands</strong> 記事とあわせて、hosted agent runtime の意図を補強している。",
       "url": "https://x.com/katelyn_lesse/status/2081830396539322848",
       "urlLabel": "X で見る",
       "primary": true
@@ -66,9 +97,9 @@
     {
       "label": "Engineer signal",
       "datetime": "2026-07-27T20:44:19Z",
-      "displayTime": "2026-07-28 05:44 JST",
+      "displayTime": "2026-07-27 20:44 UTC",
       "title": "@katelyn_lesse が Claude Code と managed agents の違いを明言",
-      "summary": "<strong>@katelyn_lesse</strong> は follow-up reply で、<strong>Claude Code (agent sdk)</strong> は <strong>ローカルで動かす前提</strong> のためその形になっており、<strong>一般的な長時間ホスト型 agent</strong> に対する Anthropic の解は <strong>managed agents</strong> で、そこでは <strong>harness outside sandbox architecture</strong> を選んだのは <strong>speed と reliability</strong> のためだと説明した。",
+      "summary": "<strong>@katelyn_lesse</strong> は follow-up reply で、<strong>Claude Code (agent sdk)</strong> は <strong>ローカルで動かす前提</strong> だから現在の形になっており、<strong>長時間ホスト型 agent</strong> に対する Anthropic の答えが <strong>managed agents</strong> で、そこで <strong>harness outside sandbox architecture</strong> を選んだ理由は <strong>speed と reliability</strong> だと説明した。",
       "url": "https://x.com/katelyn_lesse/status/2081843144761425957",
       "urlLabel": "X で見る",
       "primary": true
@@ -77,9 +108,11 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "watch 対象の official site listing を確認したところ、この24時間窓で新規 article が visible publication date ベースで入ったのは <strong>Anthropic News</strong> の <strong>Our position on open-weights models</strong> と <strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong> の2件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Claude Blog</strong> には window 内の新規 listing は確認できなかった。",
+      "headline": "4件",
+      "body": "watch 対象の official site listing を確認したところ、この24時間窓で新規 article が visible publication date ベースで入ったのは <strong>Anthropic Research</strong> の <strong>Discovering cryptographic weaknesses with Claude</strong>、<strong>Anthropic News</strong> の <strong>Our position on open-weights models</strong> と <strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong>、そして <strong>Claude Blog</strong> の <strong>Bringing MCP 2026-07-28 to Claude</strong> の4件だった。<strong>Anthropic Engineering</strong> には window 内の新規 listing は確認できなかった。",
       "details": [
+        "<strong>Claude Blog</strong>: <strong>Bringing MCP 2026-07-28 to Claude</strong>（<strong>Jul 28, 2026</strong>）",
+        "<strong>Anthropic Research</strong>: <strong>Discovering cryptographic weaknesses with Claude</strong>（<strong>Jul 28, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Our position on open-weights models</strong>（<strong>Jul 27, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</strong>（<strong>Jul 27, 2026</strong>）"
       ],
@@ -120,8 +153,8 @@
   ],
   "exclusions": [
     "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
-    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓で新規 article が確認できたのは <strong>Anthropic News</strong> の2件のみだった。",
-    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude</strong>、<strong>Claude Code</strong>、<strong>managed agents</strong>、<strong>agent workflow</strong> に直接つながる signal が明確な 3件のみを採用した。個人雑談、ジョーク、単純 repost、Anthropic と無関係な会話は外した。",
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓で新規 article が確認できたのは <strong>Research 1件</strong>、<strong>News 2件</strong>、<strong>Claude Blog 1件</strong> だけだった。",
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude</strong>、<strong>Claude app</strong>、<strong>Claude Code</strong>、<strong>managed agents</strong> に直接つながる signal が明確な 4件のみを採用した。個人雑談、ジョーク、単純 repost、Anthropic と無関係な会話は外した。",
     "<strong>Claude Code</strong> release は official GitHub releases を <strong>gh</strong> で確認し、最新の <strong>v2.1.220</strong> の公開 note 全項目を <strong>新機能 / 変更 / 修正</strong> に分類した。window 内公開ではないため release count には含めていない。"
   ],
   "sources": [
@@ -132,6 +165,10 @@
     {
       "title": "Anthropic Research listing",
       "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic Research: Discovering cryptographic weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
     },
     {
       "title": "Anthropic News listing",
@@ -150,12 +187,24 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Claude Blog: Bringing MCP 2026-07-28 to Claude",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+    },
+    {
       "title": "AnthropicAI post on open-weights models",
       "url": "https://x.com/AnthropicAI/status/2081864750296658008"
     },
     {
-      "title": "Ado on a single-prompt onboarding flow",
-      "url": "https://x.com/adocomplete/status/2081793636761538638"
+      "title": "ClaudeDevs post on MCP 2026-07-28",
+      "url": "https://x.com/ClaudeDevs/status/2082164248697069935"
+    },
+    {
+      "title": "Ado on Claude Code Desktop app and iOS simulator",
+      "url": "https://x.com/adocomplete/status/2082150388728582241"
+    },
+    {
+      "title": "Anthony Morris on Steer and queueing",
+      "url": "https://x.com/amorriscode/status/2082096994626216410"
     },
     {
       "title": "Katelyn Lesse on managed agents architecture",
