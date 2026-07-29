@@ -1,0 +1,220 @@
+{
+  "date": "2026-07-29",
+  "windowLabel": "2026-07-28 06:00:57 UTC - 2026-07-29 06:00:57 UTC",
+  "archiveTitle": "MCP 2026-07-28 rollout と cryptography 研究",
+  "archiveSummary": "Official 4件、engineer signal 3件、Claude Code release 0件。",
+  "latestSummary": "2026-07-28 06:00:57 UTC から 2026-07-29 06:00:57 UTC の24時間では、official 側で <strong>Claude Blog の MCP 2026-07-28 rollout</strong>、<strong>Anthropic Research の cryptographic weaknesses 研究</strong>、それぞれを案内する <strong>@ClaudeDevs</strong> と <strong>@AnthropicAI</strong> の X 投稿が確認できた。engineer 側では <strong>Claude Code Desktop app 内の iOS simulator 実演</strong>、<strong>Steer / queueing</strong> と <strong>usage reset warning</strong> 改善の補足、そして <strong>MCP 2026-07-28</strong> を大きな仕様更新だと見る社内 signal が出ている。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> は window 外だったが、公開 note の visible bullet 1項目は完全取得して <strong>修正</strong> に和訳した。",
+  "summaryBullets": [
+    "<strong>Official 4件</strong>: <strong>Claude Blog</strong> は <strong>MCP 2026-07-28</strong> の Claude 対応を公開し、<strong>stateless core</strong>、<strong>standardized extensions</strong>、<strong>auth hardening</strong> の rollout を説明した。<strong>Anthropic Research</strong> は <strong>Claude Mythos Preview</strong> が <strong>HAWK</strong> と <strong>reduced-round AES</strong> に新しい攻撃改善を見つけた研究を公開した。",
+    "<strong>Official X 2件</strong>: <strong>@ClaudeDevs</strong> は <strong>MCP 2026-07-28</strong> が live になり、<strong>stateless</strong> 化で remote MCP server を serverless / edge へ載せやすくなったと案内した。<strong>@AnthropicAI</strong> は <strong>Discovering cryptographic weaknesses with Claude</strong> を告知し、Claude による cryptanalysis 研究を前面に出した。",
+    "<strong>@ClaudeAI の main post は 0件</strong>: この窓では <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。official X は <strong>main post のみ</strong> を採用対象にし、reply と repost は外している。",
+    "<strong>Engineer signal 3件</strong>: <strong>@adocomplete</strong> は <strong>Claude Code Desktop app</strong> から <strong>iOS simulator</strong> を直接回せると実演し、follow-up で <strong>Xcode と CLI tools</strong> が入っていれば Xcode を開かなくてよいと補足した。<strong>@amorriscode</strong> は <strong>Steer は先週 ship 済み</strong>、<strong>CMD+Enter で queueing</strong> できると説明し、usage reset warning 改善向けの <strong>PR も既にある</strong> と返した。<strong>@katelyn_lesse</strong> は <strong>MCP 2026-07-28</strong> を initial release 以来の <strong>biggest spec upgrade</strong> と表現した。",
+    "<strong>Claude Code release 0件</strong>: GitHub releases page 上で、この24時間窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35:55 UTC</strong> 公開で window 外であり、公開 note の visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目だけだった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-07-28T18:00:16Z",
+      "displayTime": "2026-07-28 18:00 UTC",
+      "title": "@ClaudeDevs が MCP 2026-07-28 の live 化を告知",
+      "summary": "<strong>@ClaudeDevs</strong> は <strong>MCP 2026-07-28</strong> が live になったと案内し、<strong>MCP</strong> が <strong>stateless</strong> になったことで remote server を <strong>serverless</strong> や <strong>edge</strong> に載せやすくなり、水平スケールもしやすくなったと説明した。リンク先は Claude 製品群への rollout を説明する <strong>Claude Blog</strong> 記事。",
+      "url": "https://x.com/ClaudeDevs/status/2082164248697069935",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-07-28T17:16:45Z",
+      "displayTime": "2026-07-28 17:16 UTC",
+      "title": "@AnthropicAI が Claude による cryptanalysis 研究を告知",
+      "summary": "<strong>@AnthropicAI</strong> は <strong>Discovering cryptographic weaknesses with Claude</strong> を告知し、<strong>Claude Mythos Preview</strong> が cryptographic algorithm の弱点発見を支援したと紹介した。thread では <strong>HAWK</strong> の key strength を半減させる attack と、<strong>reduced-round AES</strong> への attack を <strong>200-800x</strong> 高速化した点が説明されている。",
+      "url": "https://x.com/AnthropicAI/status/2082153297670992134",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-07-28T12:00:00+09:00",
+      "displayTime": "2026-07-28",
+      "title": "Claude Blog が MCP 2026-07-28 の Claude 対応を公開",
+      "summary": "<strong>Bringing MCP 2026-07-28 to Claude</strong> は、<strong>MCP</strong> の新仕様が <strong>stateless core</strong> に移行し、<strong>MCP Apps</strong> と <strong>Tasks</strong> を standardized extensions として扱い、<strong>authorization hardening</strong> を進めたと説明した。記事では、これらの対応が <strong>Claude products</strong> に順次 rollout されると案内している。",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-07-28T12:00:00+09:00",
+      "displayTime": "2026-07-28",
+      "title": "Anthropic Research が Claude による cryptanalysis 研究を公開",
+      "summary": "<strong>Discovering cryptographic weaknesses with Claude</strong> は、<strong>Claude Mythos Preview</strong> が <strong>HAWK</strong> の key strength を半減させる attack と、<strong>7-round AES</strong> への attack を <strong>200-800x</strong> 高速化する改善を見つけたと報告した。記事は、どちらも <strong>現行 production systems には影響しない</strong> と明記しつつ、frontier AI model が expert-level cryptography research に踏み込んでいる点を示している。",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "urlLabel": "記事を読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeAI の新規 main post は 0件",
+      "body": "<strong>official X</strong> は <strong>main post のみ</strong> を採用対象にし、この window では <strong>@ClaudeDevs</strong> が <strong>MCP 2026-07-28</strong> を1件、<strong>@AnthropicAI</strong> が <strong>cryptographic weaknesses with Claude</strong> を1件出していた。一方で <strong>@ClaudeAI</strong> の新規 main post は確認できなかった。reply と repost は採用対象から外している。"
+    },
+    {
+      "label": "Anthropic Engineering と News の新着は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の先頭 visible entries は <strong>Jul 27, 2026</strong> のままで、この24時間窓に新規 listing は確認できなかった。今回の official site 新規 item は <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-28T17:05:11Z",
+      "displayTime": "2026-07-28 17:05 UTC",
+      "title": "@adocomplete が Claude Code Desktop app 内での iOS simulator 実行を実演",
+      "summary": "<strong>@adocomplete</strong> は、<strong>Claude Code Desktop app</strong> から <strong>iOS simulator</strong> を app 内で動かせるため、mobile app の反復開発、test、debug がかなりやりやすいと紹介した。follow-up reply では <strong>Xcode</strong> と <strong>CLI tools</strong> が入っていれば動き、Xcode 自体を開く必要はないと補足している。",
+      "url": "https://x.com/adocomplete/status/2082150388728582241",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-28T13:33:01Z",
+      "displayTime": "2026-07-28 13:33 UTC",
+      "title": "@amorriscode が Claude app の steer / queue と usage reset 改善を補足",
+      "summary": "<strong>@amorriscode</strong> は、Claude app の <strong>Steer</strong> 機能は <strong>先週 ship 済み</strong> であり、現在は <strong>steers by default</strong>、さらに <strong>CMD+Enter</strong> で queueing できると reply で説明した。近い follow-up では、usage limit reached warning に対する <strong>\"continue when usage resets\"</strong> 方向の改善について <strong>既に PR がある</strong> とも述べている。",
+      "url": "https://x.com/amorriscode/status/2082096994626216410",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-07-28T19:21:52Z",
+      "displayTime": "2026-07-28 19:21 UTC",
+      "title": "@katelyn_lesse が MCP 2026-07-28 を大きな仕様更新として紹介",
+      "summary": "<strong>@katelyn_lesse</strong> は、<strong>MCP 2026-07-28</strong> を initial release 以来の <strong>biggest spec upgrade</strong> と表現し、serve しやすさの改善や複数の仕様強化を歓迎した。公式告知をなぞるだけでなく、Anthropic 側のエンジニア視点でこの更新の重要度を示す補助 signal になっている。",
+      "url": "https://x.com/katelyn_lesse/status/2082184785527476734",
+      "urlLabel": "X で見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "watch 対象の official site listing を確認したところ、この24時間窓で visible publication date ベースの新規 article は <strong>Anthropic Research</strong> の <strong>Discovering cryptographic weaknesses with Claude</strong> と、<strong>Claude Blog</strong> の <strong>Bringing MCP 2026-07-28 to Claude</strong> の 2 件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には window 内の新規 listing は確認できなかった。",
+      "details": [
+        "<strong>Claude Blog</strong>: <strong>Bringing MCP 2026-07-28 to Claude</strong>（<strong>Jul 28, 2026</strong>）",
+        "<strong>Anthropic Research</strong>: <strong>Discovering cryptographic weaknesses with Claude</strong>（<strong>Jul 28, 2026</strong>）"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "Claude Code releases page を確認したが、この24時間窓に publish された新規 release はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35:55 UTC</strong> 公開で window 外だった。公開 note の visible bullet は <strong>Bug fixes and reliability improvements</strong> の 1項目のみで、完全取得のうえ <strong>修正</strong> に和訳した。",
+      "details": [
+        "最新 release は <strong>v2.1.220</strong> で、公開 note 上の visible bullet は 1 項目だけだった。",
+        "この窓に in-window release はないため count は <strong>0件</strong> としたが、最新 note の visible bullet は省略せず分類した。"
+      ],
+      "releases": [
+        {
+          "version": "v2.1.220",
+          "publishedAt": "2026-07-25 01:35:55 UTC",
+          "summary": "この24時間窓の新規 release ではないが、最新の公開 note 全項目を完全取得した。visible bullet は 1 項目のみだった。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "該当なし"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "該当なし"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "バグ修正と信頼性改善"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+          "urlLabel": "v2.1.220 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X は <strong>X MCP</strong> の recent search を使い、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の <strong>main post のみ</strong> を採用対象にした。reply と repost は除外した。",
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。今回の窓で新規 article が確認できたのは <strong>Research 1件</strong> と <strong>Claude Blog 1件</strong> だけだった。",
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude</strong>、<strong>Claude app</strong>、<strong>Claude Code</strong>、<strong>MCP</strong> に直接つながる signal が明確な 3件のみを採用した。個人雑談、Apple 製品や通信回線の話、単純 repost、Anthropic と無関係な会話は外した。",
+    "<strong>@AnthropicAI</strong> の同日投稿 <strong>We support this petition...</strong> は official post だが、Claude / Claude Code の直接ニュースではないため main summary からは外した。",
+    "<strong>Claude Code</strong> release は official GitHub releases の metadata を基準にし、最新の <strong>v2.1.220</strong> の公開 note 全項目を <strong>新機能 / 変更 / 修正</strong> に分類した。window 内公開ではないため release count には含めていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic Research: Discovering cryptographic weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog: Bringing MCP 2026-07-28 to Claude",
+      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+    },
+    {
+      "title": "ClaudeDevs post on MCP 2026-07-28",
+      "url": "https://x.com/ClaudeDevs/status/2082164248697069935"
+    },
+    {
+      "title": "AnthropicAI post on cryptographic weaknesses with Claude",
+      "url": "https://x.com/AnthropicAI/status/2082153297670992134"
+    },
+    {
+      "title": "Ado on Claude Code Desktop app and iOS simulator",
+      "url": "https://x.com/adocomplete/status/2082150388728582241"
+    },
+    {
+      "title": "Ado follow-up on Xcode CLI tools requirement",
+      "url": "https://x.com/adocomplete/status/2082235670991634676"
+    },
+    {
+      "title": "Anthony Morris on Steer and queueing",
+      "url": "https://x.com/amorriscode/status/2082096994626216410"
+    },
+    {
+      "title": "Anthony Morris on usage reset warning improvement PR",
+      "url": "https://x.com/amorriscode/status/2082097211102634435"
+    },
+    {
+      "title": "Katelyn Lesse on MCP 2026-07-28",
+      "url": "https://x.com/katelyn_lesse/status/2082184785527476734"
+    },
+    {
+      "title": "Claude Code release v2.1.220",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
