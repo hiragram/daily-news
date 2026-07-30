@@ -1,45 +1,24 @@
 {
   "date": "2026-07-29",
-  "windowLabel": "2026-07-28 18:03:02 UTC - 2026-07-29 18:03:02 UTC",
-  "archiveTitle": "Stateless MCP signals と Claude cryptography research",
-  "archiveSummary": "Official 2件、engineer signal 3件、Claude Code release 0件。",
-  "latestSummary": "2026-07-28 18:03:02 UTC から 2026-07-29 18:03:02 UTC の24時間では、official site で <strong>Claude Blog の MCP 2026-07-28 対応</strong> と <strong>Anthropic Research の cryptography 研究</strong> を確認した一方、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の Claude 直結 main post はなかった。engineer 側では <strong>Claude を直接 DB に向ける開発フロー</strong>、<strong>MCP 2026-07-28 の大規模仕様更新</strong>、<strong>Claude Code harness / Claude Tag の複雑さ</strong> を示す signal が出ている。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目を完全取得して <strong>修正</strong> に和訳した。",
+  "windowLabel": "2026-07-29 00:01:52 UTC - 2026-07-30 00:01:52 UTC",
+  "archiveTitle": "No official launches, two engineer signals",
+  "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 0件。",
+  "latestSummary": "2026-07-29 00:01:52 UTC から 2026-07-30 00:01:52 UTC の24時間では、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post と Anthropic / Claude blog の新規記事は確認できなかった。一方で engineer 側では <strong>Claude を直接 database に向ける開発フロー</strong> と <strong>Claude Code harness / Claude Tag の長時間運用の複雑さ</strong> を示す signal が出ている。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目を完全取得して <strong>修正</strong> に和訳した。",
   "summaryBullets": [
-    "<strong>Official 2件</strong>: <strong>Claude Blog</strong> は <strong>MCP 2026-07-28</strong> の Claude 対応を公開し、<strong>stateless core</strong>、<strong>standardized extensions</strong>、<strong>authorization hardening</strong> を案内した。<strong>Anthropic Research</strong> は <strong>Claude Mythos Preview</strong> による cryptographic weaknesses 研究を公開した。",
-    "<strong>Official X の Claude 直結 main post は 0件</strong>: この窓で取得できた official main post は <strong>@AnthropicAI</strong> の petition 支持投稿 1 件だけで、Claude / Claude Code の直接ニュースではなかった。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post は window 内に確認できていない。",
-    "<strong>Engineer signal 3件</strong>: <strong>@adocomplete</strong> は Claude を直接 database に向ける開発フローがかなり機能すると書き、reply で <strong>PlanetScale と Claude</strong> が future stack かもしれないと述べた。<strong>@katelyn_lesse</strong> は <strong>MCP 2026-07-28</strong> を initial release 以来の大きな仕様更新だと評価し、<strong>@trq212</strong> は <strong>Claude Code harness</strong> と <strong>Claude Tag</strong> は長時間実行を支えるため昨年よりかなり複雑だと補足した。",
+    "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post はこの24時間窓で確認できず、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にも新規記事はなかった。",
+    "<strong>Engineer signal 2件</strong>: <strong>@adocomplete</strong> は、最近は <strong>Claude</strong> を直接 database schema に向けて作業する流れがかなり機能すると書き、reply で <strong>PlanetScale と Claude</strong> が future stack かもしれないと述べた。",
+    "<strong>Claude Code harness signal</strong>: <strong>@trq212</strong> は、<strong>Claude Code harness</strong> と <strong>Claude Tag</strong> は昨年よりかなり複雑で、Claude を長時間走らせるには harness と使い方の両方を見直す必要があると補足した。",
     "<strong>Claude Code release 0件</strong>: GitHub releases ではこの24時間窓に publish された新規 version はなかった。最新の <strong>v2.1.220</strong> は <strong>2026-07-25 01:35:55 UTC</strong> 公開で window 外だが、公開 note の visible bullet 1 項目は省略せず <strong>修正</strong> に分類して和訳した。"
   ],
-  "officialNews": [
-    {
-      "label": "Official",
-      "datetime": "2026-07-28T12:00:00+09:00",
-      "displayTime": "2026-07-28",
-      "title": "Claude Blog が MCP 2026-07-28 の Claude 対応を公開",
-      "summary": "<strong>Bringing MCP 2026-07-28 to Claude</strong> は、<strong>MCP</strong> の新仕様が <strong>stateless core</strong> に移行し、<strong>MCP Apps</strong> と <strong>Tasks</strong> を standardized extensions として扱い、<strong>authorization hardening</strong> を進めたと説明した。記事は、これらの対応が <strong>Claude products</strong> に順次 rollout されると案内している。",
-      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Official",
-      "datetime": "2026-07-28T12:00:00+09:00",
-      "displayTime": "2026-07-28",
-      "title": "Anthropic Research が Claude による cryptographic weaknesses 研究を公開",
-      "summary": "<strong>Discovering cryptographic weaknesses with Claude</strong> は、<strong>Claude Mythos Preview</strong> が <strong>HAWK</strong> の key strength を半減させる attack と、<strong>7-round AES</strong> への attack を <strong>200-800x</strong> 高速化する改善を見つけたと説明した。記事は、どちらも <strong>現行 production systems には影響しない</strong> と明記している。",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "urlLabel": "記事を読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
-      "label": "official X の Claude 直結 main post は 0件",
-      "body": "<strong>official X</strong> は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認した。この窓で取得できたのは <strong>@AnthropicAI</strong> の petition 支持投稿 1件だけで、Claude / Claude Code の直接ニュースではないため main summary から外した。<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post は確認できなかった。"
+      "label": "official X の新規 main post は 0件",
+      "body": "<strong>official X</strong> は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認したが、この24時間窓の新規 main post は 0件だった。reply と repost は対象外として扱っている。"
     },
     {
-      "label": "Anthropic Engineering と News の新着は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は引き続き <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の先頭 visible entries は <strong>Jul 27, 2026</strong> のままで、この24時間窓に新規 listing は確認できなかった。official site の新規 item は <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件のみ。"
+      "label": "Anthropic / Claude blog の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 28, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Jul 27, 2026</strong>、<strong>Claude Blog</strong> の最新 visible date は <strong>Jul 28, 2026</strong> のままで、この24時間窓に新規 listing は確認できなかった。"
     }
   ],
   "signals": [
@@ -50,16 +29,6 @@
       "title": "@adocomplete が Claude を直接 database に向ける開発フローを共有",
       "summary": "<strong>@adocomplete</strong> は、最近は <strong>Claude</strong> を直接 database schema に向けて作業する比重が増え、<strong>ORM</strong>、service layer、endpoint、UI を持たなくてもかなりうまく進むと書いた。直後の reply では、<strong>PlanetScale と Claude</strong> が future stack かもしれないとも述べている。",
       "url": "https://x.com/adocomplete/status/2082490773745094660",
-      "urlLabel": "X で見る",
-      "primary": true
-    },
-    {
-      "label": "Engineer signal",
-      "datetime": "2026-07-28T19:21:52Z",
-      "displayTime": "2026-07-28 19:21 UTC",
-      "title": "@katelyn_lesse が MCP 2026-07-28 を大きな仕様更新として紹介",
-      "summary": "<strong>@katelyn_lesse</strong> は、<strong>MCP 2026-07-28</strong> を initial release 以来の大きな仕様更新だと表現し、serve しやすさの改善と複数の仕様強化を歓迎した。公式 post の再告知だが、Anthropic 側エンジニア視点で更新の重要度を示す補助 signal になっている。",
-      "url": "https://x.com/katelyn_lesse/status/2082184785527476734",
       "urlLabel": "X で見る",
       "primary": true
     },
@@ -77,14 +46,16 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "watch 対象の official site listing を確認したところ、この24時間窓で visible publication date ベースの新規 article は <strong>Anthropic Research</strong> の <strong>Discovering cryptographic weaknesses with Claude</strong> と、<strong>Claude Blog</strong> の <strong>Bringing MCP 2026-07-28 to Claude</strong> の 2 件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には window 内の新規 listing は確認できなかった。",
+      "headline": "0件",
+      "body": "watch 対象の official site listing を確認したところ、この24時間窓で visible publication date ベースの新規 article は確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> はいずれも最新 visible entry が window 外だった。",
       "details": [
-        "<strong>Claude Blog</strong>: <strong>Bringing MCP 2026-07-28 to Claude</strong>（<strong>Jul 28, 2026</strong>）",
-        "<strong>Anthropic Research</strong>: <strong>Discovering cryptographic weaknesses with Claude</strong>（<strong>Jul 28, 2026</strong>）"
+        "<strong>Anthropic Engineering</strong>: 最新 visible entry は <strong>Apr 23, 2026</strong>",
+        "<strong>Anthropic Research</strong>: 最新 visible entry は <strong>Jul 28, 2026</strong>",
+        "<strong>Anthropic News</strong>: 最新 visible entry は <strong>Jul 27, 2026</strong>",
+        "<strong>Claude Blog</strong>: 最新 visible entry は <strong>Jul 28, 2026</strong>"
       ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog 一覧"
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Anthropic Research 一覧"
     },
     {
       "title": "Claude Code リリース",
@@ -128,9 +99,9 @@
     }
   ],
   "exclusions": [
-    "official X は <strong>X MCP</strong> で <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post を確認し、reply と repost は除外した。window 内で取得できた <strong>@AnthropicAI</strong> の petition 支持投稿は Claude / Claude Code の直接ニュースではないため main summary から外した。",
-    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。visible publication date がこの24時間窓に入る新規 article は <strong>Research 1件</strong> と <strong>Claude Blog 1件</strong> だけだった。",
-    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude</strong>、<strong>MCP</strong>、<strong>Claude Code</strong> に直接つながる signal が明確な 3件のみを採用した。個人雑談、通信回線や一般アプリの話、単純な cc reply、repost は外した。",
+    "official X は <strong>X MCP</strong> で <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> を確認し、reply と repost は除外した。この24時間窓では新規 main post がなかったため officialNews は空配列にした。",
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。最新 visible entry はいずれも window 外で、新規 article は 0件だった。",
+    "engineer X は監視対象アカウントの in-window post を走査し、<strong>Claude</strong> または <strong>Claude Code</strong> に直接つながる signal が明確な 2件のみを採用した。個人雑談、一般的な開発話、文脈の薄い support reply、repost は外した。",
     "<strong>Claude Code</strong> release は official GitHub releases metadata を基準にし、最新の <strong>v2.1.220</strong> の公開 note 全項目を <strong>新機能 / 変更 / 修正</strong> に分類した。window 内公開ではないため release count には含めていない。"
   ],
   "sources": [
@@ -143,10 +114,6 @@
       "url": "https://www.anthropic.com/research"
     },
     {
-      "title": "Anthropic Research: Discovering cryptographic weaknesses with Claude",
-      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
-    },
-    {
       "title": "Anthropic News listing",
       "url": "https://www.anthropic.com/news"
     },
@@ -155,16 +122,8 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude Blog: Bringing MCP 2026-07-28 to Claude",
-      "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
-    },
-    {
       "title": "Ado on pointing Claude directly at the database",
       "url": "https://x.com/adocomplete/status/2082490773745094660"
-    },
-    {
-      "title": "Katelyn Lesse on MCP 2026-07-28",
-      "url": "https://x.com/katelyn_lesse/status/2082184785527476734"
     },
     {
       "title": "Thariq on Claude Code harness and Claude Tag",
