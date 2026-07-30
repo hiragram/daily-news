@@ -1,9 +1,9 @@
 {
   "date": "2026-07-30",
-  "windowLabel": "2026-07-29 00:01:52 UTC - 2026-07-30 00:01:52 UTC",
+  "windowLabel": "2026-07-29 06:01:25 UTC - 2026-07-30 06:01:25 UTC",
   "archiveTitle": "No official launches, two engineer signals",
   "archiveSummary": "Official 0件、engineer signal 2件、Claude Code release 0件。",
-  "latestSummary": "2026-07-29 00:01:52 UTC から 2026-07-30 00:01:52 UTC の24時間では、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post と Anthropic / Claude blog の新規記事は確認できなかった。一方で engineer 側では <strong>Claude を直接 database に向ける開発フロー</strong> と <strong>Claude Code harness / Claude Tag の長時間運用の複雑さ</strong> を示す signal が出ている。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目を完全取得して <strong>修正</strong> に和訳した。",
+  "latestSummary": "2026-07-29 06:01:25 UTC から 2026-07-30 06:01:25 UTC の24時間では、<strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の新規 main post と Anthropic / Claude blog の新規記事は確認できなかった。一方で engineer 側では <strong>Claude を直接 database に向ける開発フロー</strong> と <strong>Claude Code harness / Claude Tag の長時間運用の複雑さ</strong> を示す signal が出ている。Claude Code の新規 release はなく、最新の <strong>v2.1.220</strong> の公開 note は 1 項目を完全取得して <strong>修正</strong> に和訳した。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main post はこの24時間窓で確認できず、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> にも新規記事はなかった。",
     "<strong>Engineer signal 2件</strong>: <strong>@adocomplete</strong> は、最近は <strong>Claude</strong> を直接 database schema に向けて作業する流れがかなり機能すると書き、reply で <strong>PlanetScale と Claude</strong> が future stack かもしれないと述べた。",
@@ -25,7 +25,7 @@
     {
       "label": "Engineer signal",
       "datetime": "2026-07-29T15:37:45Z",
-      "displayTime": "2026-07-29 15:37 UTC",
+      "displayTime": "2026-07-30 00:37 JST",
       "title": "@adocomplete が Claude を直接 database に向ける開発フローを共有",
       "summary": "<strong>@adocomplete</strong> は、最近は <strong>Claude</strong> を直接 database schema に向けて作業する比重が増え、<strong>ORM</strong>、service layer、endpoint、UI を持たなくてもかなりうまく進むと書いた。直後の reply では、<strong>PlanetScale と Claude</strong> が future stack かもしれないとも述べている。",
       "url": "https://x.com/adocomplete/status/2082490773745094660",
@@ -35,7 +35,7 @@
     {
       "label": "Engineer signal",
       "datetime": "2026-07-29T06:57:05Z",
-      "displayTime": "2026-07-29 06:57 UTC",
+      "displayTime": "2026-07-29 15:57 JST",
       "title": "@trq212 が Claude Code harness と Claude Tag の複雑さを補足",
       "summary": "<strong>@trq212</strong> は agent harness 議論への reply で、<strong>Claude Code harness</strong> は昨年よりかなり複雑で、<strong>Claude Tag</strong> も同様だと説明した。Claude を長時間走らせるには単純に制約を外すだけでは足りず、harness と使い方の両方を見直す必要があるという補足になっている。",
       "url": "https://x.com/trq212/status/2082359741230297271",
@@ -54,8 +54,8 @@
         "<strong>Anthropic News</strong>: 最新 visible entry は <strong>Jul 27, 2026</strong>",
         "<strong>Claude Blog</strong>: 最新 visible entry は <strong>Jul 28, 2026</strong>"
       ],
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Anthropic Research 一覧"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
