@@ -1,23 +1,43 @@
 {
   "date": "2026-08-06",
-  "windowLabel": "2026-08-05 17:02:45 UTC - 2026-08-06 17:02:45 UTC",
-  "archiveTitle": "AISI response, Millennium story, Claude Code v2.1.223",
-  "archiveSummary": "official 2件、engineer signal 1件、Claude Code release 1件。",
-  "latestSummary": "2026-08-05 17:02:45 UTC から 2026-08-06 17:02:45 UTC の24時間では、<strong>@AnthropicAI</strong> が UK AISI の Claude Mythos 5 評価報告に反応し、<strong>Claude Blog</strong> では Millennium との digital risk analyst 事例が公開された。<strong>Claude Code</strong> は <strong>v2.1.223</strong> を公開し、managed settings、review alias、permission/sandbox/resume 修正をまとめて出した。",
+  "windowLabel": "2026-08-05 23:00:57 UTC - 2026-08-06 23:00:57 UTC",
+  "archiveTitle": "Opus 5 posts, Millennium case study, Claude Code v2.1.223",
+  "archiveSummary": "Official 4件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-08-05 23:00:57 UTC から 2026-08-06 23:00:57 UTC の24時間では、<strong>@ClaudeAI</strong> が Claude Opus 5 を告知し、<strong>@AnthropicAI</strong> は open-weights models に関する立場表明を案内した。<strong>@ClaudeDevs</strong> は zoom tool cookbook 更新を共有し、<strong>Claude Blog</strong> では Millennium の digital risk analyst 事例が公開された。<strong>Claude Code</strong> は <strong>v2.1.223</strong> を公開した。",
   "summaryBullets": [
-    "<strong>official 2件</strong>: <strong>@AnthropicAI</strong> は UK AISI の cyber eval 報告に対して、production 条件とは異なる permissive setup だった点と社内調査を進める方針を説明した。<strong>Claude Blog</strong> では <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> が公開された。",
-    "<strong>Claude Code v2.1.223</strong>: owner wildcard marketplace 制御、restricted subagent model warning、<code>/teleport</code> hint を追加し、context window 制御、<code>/review</code> alias、permission bypass、workflow sandbox、resume、managed settings、<code>git push</code> 周辺を更新した。",
-    "<strong>engineer signal 1件</strong>: <strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、元の prompt を走らせたまま side conversation を開けると説明した。",
-    "<strong>公式サイトの空振り</strong>: Anthropic Engineering / Research / Newsroom では、この24時間窓に入る新規 dated entry は確認できなかった。"
+    "<strong>official 4件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> を紹介し、<strong>@AnthropicAI</strong> は <strong>open-weights models</strong> に関する立場表明を案内した。<strong>@ClaudeDevs</strong> は <strong>zoom tool cookbook</strong> 更新を共有し、<strong>Claude Blog</strong> では Millennium の金融リスク分析事例が公開された。",
+    "<strong>Claude Code v2.1.223</strong>: managed settings の wildcard 制御、restricted subagent model warning、<code>/teleport</code> ヒントを追加し、permission bypass、workflow sandbox、resume、managed settings merge、<code>git push</code> 周辺など 12 件の修正を出した。",
+    "<strong>engineer signal 1件</strong>: <strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、元の作業を走らせたまま sidebar conversation を開けると説明した。",
+    "<strong>公式ブログ系の空振り</strong>: Anthropic Engineering / Research / Newsroom には、この24時間窓で新規の dated entry は確認できなかった。"
   ],
   "officialNews": [
     {
       "label": "Official X",
-      "datetime": "2026-08-06T08:02:45Z",
-      "displayTime": "2026-08-06 17:02 JST頃",
-      "title": "@AnthropicAI が UK AISI の Claude Mythos 5 評価報告に反応",
-      "summary": "<strong>@AnthropicAI</strong> は、UK AI Security Institute による Claude Mythos 5 と GPT-5.6 Sol の cyber evaluation 報告を受け、safeguards を外し internet access を与えた <strong>deliberately permissive conditions</strong> での検証であり、本番環境を代表するものではないと説明した。あわせて reasoning transcript と追加分析で原因を調べると述べた。",
-      "url": "https://www6.twstalker.com/AnthropicAI",
+      "datetime": "2026-08-06T09:00:57Z",
+      "displayTime": "2026-08-06 09:00 UTC頃",
+      "title": "@ClaudeAI が Claude Opus 5 を案内",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> を告知し、Fable 5 に近い frontier intelligence を半額で提供する新しい Opus 系モデルだと説明した。続く投稿では paid plan と API での提供、価格据え置き、Fast mode 提供にも触れている。",
+      "url": "https://twstalker.com/ClaudeAI",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-08-06T15:00:57Z",
+      "displayTime": "2026-08-06 15:00 UTC頃",
+      "title": "@AnthropicAI が open-weights models に関する立場表明を案内",
+      "summary": "<strong>@AnthropicAI</strong> は、open-weights models をどう見るかについて憶測が広がっているとして、同社の立場をまとめた公式ページを案内した。政策・安全性の観点を含むメッセージとして扱える。",
+      "url": "https://w.twstalker.com/AnthropicAI",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-08-06T12:00:57Z",
+      "displayTime": "2026-08-06 12:00 UTC頃",
+      "title": "@ClaudeDevs が zoom tool cookbook 更新を共有",
+      "summary": "<strong>@ClaudeDevs</strong> は、画像が downscale されたときの detail loss を補うため、Claude が領域 crop を要求できる <strong>zoom tool</strong> cookbook を更新したと案内した。あわせて Chartography benchmark での精度改善も共有している。",
+      "url": "https://twstalker.com/ClaudeDevs",
       "urlLabel": "公開ミラーで見る",
       "primary": true
     },
@@ -26,29 +46,29 @@
       "datetime": "2026-08-06T00:00:00Z",
       "displayTime": "2026-08-06",
       "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
-      "summary": "<strong>Claude Blog</strong> の一覧に <strong>2026-08-06</strong> 付で新規掲載。Millennium と Anthropic が Claude を使った <strong>digital risk analyst</strong> を構築している事例記事として公開された。",
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog 一覧",
+      "summary": "<strong>Claude Blog</strong> に <strong>2026-08-06</strong> 付で掲載。Millennium と Anthropic が、資産クラス横断のリスク露出を分析する <strong>digital risk analyst</strong> を Claude で共同開発している事例を紹介した。",
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "urlLabel": "記事を読む",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@ClaudeAI / @ClaudeDevs の確定済み in-window main post は 0件",
-      "body": "この実行環境では本来使うべき <strong>x_mcp</strong> が未露出で、到達できた公開ミラーも account ごとに freshness が揃わなかった。少なくとも直接確認できた mirror listing では <strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> の新規 main post を window 内で確定できなかった。"
+      "label": "Anthropic Engineering / Research / Newsroom の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Research</strong> は <strong>Jul 28, 2026</strong>、<strong>Newsroom</strong> は <strong>Aug 4, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
-      "label": "Anthropic Engineering / Research / Newsroom の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 dated entry は <strong>Apr 23, 2026</strong>、<strong>Research</strong> は <strong>Jul 28, 2026</strong>、<strong>Newsroom</strong> は <strong>Aug 4, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "label": "official X の日時は公開ミラー由来の近似値を含む",
+      "body": "本来は <strong>x_mcp</strong> を使う想定だが、この実行環境では未露出だったため、<strong>TwStalker</strong> の relative time と検索結果から確認した。本文と有無の判定は採用したが、<code>datetime</code> は取得時刻から逆算した近似値を含む。"
     }
   ],
   "signals": [
     {
       "label": "Engineer signal",
-      "datetime": "2026-08-06T03:02:45Z",
-      "displayTime": "2026-08-06 12:02 JST頃",
+      "datetime": "2026-08-06T09:00:57Z",
+      "displayTime": "2026-08-06 09:00 UTC頃",
       "title": "@adocomplete が Claude Code の /btw を紹介",
-      "summary": "<strong>@adocomplete</strong> は <code>/btw</code> が最近 Claude Code に入ったと案内し、元の prompt が進行中でも sidebar conversation を開けるため、<strong>work while you work</strong> ができると説明した。公式発表ではないが、現行 UX の実装シグナルとして扱える。",
+      "summary": "<strong>@adocomplete</strong> は、Claude Code に最近入った <code>/btw</code> により、元の prompt を進行させたまま sidebar conversation を開けると説明した。公式 release note ではないが、実運用 UX の補助 signal として価値がある。",
       "url": "https://twstalker.com/adocomplete",
       "urlLabel": "公開ミラーで見る",
       "primary": true
@@ -58,7 +78,7 @@
     {
       "title": "ブログ",
       "headline": "1件",
-      "body": "公式サイト listing では、この24時間窓で新規掲載が確認できたのは <strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> のみだった。Anthropic Engineering / Research / Newsroom には新規 dated entry がなかった。",
+      "body": "watch 対象の公式サイトでは、この24時間窓で新規掲載が確認できたのは <strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> のみだった。Anthropic Engineering / Research / Newsroom には新規 dated entry がなかった。",
       "details": [
         "<strong>Claude Blog</strong>: <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> (<strong>August 6, 2026</strong>)",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
@@ -66,22 +86,22 @@
         "<strong>Anthropic Newsroom</strong>: 新規 dated entry 0件"
       ],
       "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog"
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.223",
-      "body": "GitHub releases では、この24時間窓に <strong>v2.1.223</strong> が <strong>2026-08-06 00:52:37 UTC</strong> に公開されていた。release note の全19項目を <strong>新機能 3件</strong>、<strong>変更 4件</strong>、<strong>修正 12件</strong> に分けて省略せず和訳した。",
+      "body": "GitHub releases では、この24時間窓に <strong>v2.1.223</strong> が <strong>2026-08-06 00:52:37 UTC</strong> に公開されていた。release note の visible bullet 全 19 項目を <strong>新機能 3件</strong>、<strong>変更 4件</strong>、<strong>修正 12件</strong> に分けて省略せず和訳した。",
       "details": [
         "公開日時: <strong>2026-08-06 00:52:37 UTC</strong>",
         "prerelease ではなく通常 release",
-        "release note の visible bullet は全19項目を省略せず収録"
+        "release note の visible bullet は全 19 項目を収録"
       ],
       "releases": [
         {
           "version": "v2.1.223",
           "publishedAt": "2026-08-06 00:52:37 UTC",
-          "summary": "managed settings、review alias、context window 制御、permission/sandbox/resume 修正を含む Claude Code の通常リリース。",
+          "summary": "managed settings の wildcard 制御、<code>/review</code> alias、context window 制御、permission と sandbox 周辺の修正を含む通常リリース。",
           "sections": [
             {
               "title": "新機能",
@@ -127,19 +147,19 @@
     }
   ],
   "exclusions": [
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、この実行環境では tool が未露出だったため、到達可能な公開ミラーを補助ソースとして使った。",
-    "公開ミラーの一部は relative time のみを返し freshness も account ごとに異なるため、X 由来の <code>datetime</code> は <strong>2026-08-06T17:02:45Z</strong> の取得時刻から逆算した近似値を使っている。",
-    "<strong>Claude Blog</strong> の新規記事は一覧では公開日しか確認できず、個別記事本文の取得はこの環境ではできなかったため、要約は一覧タイトルに基づく保守的な記述に留めた。",
-    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で Claude / Anthropic product 文脈の direct signal が確認できた <strong>@adocomplete</strong> のみを採用した。"
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、この実行環境では tool が未露出だったため、公開ミラーと検索スニペットを補助ソースとして使った。",
+    "公開ミラーの一部は absolute timestamp を返さないため、X 由来の <code>datetime</code> は <strong>2026-08-06T23:00:57Z</strong> の取得時刻から逆算した近似値を含む。",
+    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で Claude / Anthropic product 文脈の direct signal が確認できた <strong>@adocomplete</strong> のみを採用した。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全 19 項目を <strong>新機能 / 変更 / 修正</strong> に分類して省略なく和訳した。"
   ],
   "sources": [
     {
-      "title": "Anthropic official X mirror",
-      "url": "https://www6.twstalker.com/AnthropicAI"
-    },
-    {
       "title": "Claude official X mirror",
       "url": "https://twstalker.com/ClaudeAI"
+    },
+    {
+      "title": "Anthropic official X mirror",
+      "url": "https://w.twstalker.com/AnthropicAI"
     },
     {
       "title": "ClaudeDevs mirror",
@@ -150,8 +170,12 @@
       "url": "https://twstalker.com/adocomplete"
     },
     {
-      "title": "Claude Blog",
+      "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude"
     },
     {
       "title": "Anthropic Engineering",
