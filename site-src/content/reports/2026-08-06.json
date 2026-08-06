@@ -1,0 +1,189 @@
+{
+  "date": "2026-08-06",
+  "windowLabel": "2026-08-05 11:05:27 UTC - 2026-08-06 11:05:27 UTC",
+  "archiveTitle": "Claude Cowork post, one blog post, Claude Code v2.1.223",
+  "archiveSummary": "official X 2件、blog 1件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-08-05 11:05:27 UTC から 2026-08-06 11:05:27 UTC の24時間では、<strong>@claudeai</strong> が Claude Cowork の skill recording を案内し、<strong>@AnthropicAI</strong> は Managed Agents の設計記事を再告知した。official site では <strong>Claude Blog</strong> に inference hooks の新規記事が1件あり、<strong>Claude Code</strong> は <strong>v2.1.223</strong> を公開した。",
+  "summaryBullets": [
+    "<strong>official X 2件</strong>: <strong>@claudeai</strong> は Claude Cowork で画面録画から skill を作れる新機能を案内し、<strong>@AnthropicAI</strong> は Managed Agents の設計記事を再告知した。<strong>@ClaudeDevs</strong> の新規 main post は確認できなかった。",
+    "<strong>blog 1件</strong>: <strong>Claude Blog</strong> に <strong>Inference hooks: inline data loss prevention for Claude Enterprise</strong> が 2026-08-05 付で公開され、Claude Enterprise 全面で prompt と tool response を inline に DLP 判定できる beta 機能を紹介している。",
+    "<strong>Claude Code v2.1.223</strong>: 2026-08-06 00:52:37 UTC に公開され、owner wildcard marketplace 制御、restricted subagent model warning、<code>/teleport</code> hint が追加された。permission 周り、workflow sandbox、resume、model discovery、managed settings、sandbox 起動、<code>git push</code> 周辺などの修正もまとめて入った。",
+    "<strong>engineer signal 1件</strong>: <strong>@adocomplete</strong> は Claude API の <strong>Structured Outputs</strong> を取り上げ、schema を渡せば常に schema 準拠の出力を返せる点を強く推していた。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-08-06T10:47:27Z",
+      "displayTime": "2026-08-06 19:47 JST",
+      "title": "@claudeai が Claude Cowork の skill recording を案内",
+      "summary": "<strong>@claudeai</strong> は、Claude desktop app の <strong>Claude Cowork</strong> で画面録画しながら作業を見せると、Claude がそれを再利用可能な skill に変換できると告知した。対象は <strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong> plan。",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "urlLabel": "X で見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-08-05T19:05:27Z",
+      "displayTime": "2026-08-06 04:05 JST",
+      "title": "@AnthropicAI が Managed Agents 設計記事を再告知",
+      "summary": "<strong>@AnthropicAI</strong> は Engineering Blog の <strong>Scaling Managed Agents: Decoupling the brain from the hands</strong> を改めて紹介し、long-running agents 向け hosted service をどう設計したかを案内した。投稿自体は window 内だが、リンク先記事の公開日は <strong>2026-04-08</strong>。",
+      "url": "https://x.com/AnthropicAI/status/2041929199976640948",
+      "urlLabel": "X で見る"
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-08-05T12:00:00Z",
+      "displayTime": "2026-08-05",
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "summary": "<strong>Claude Blog</strong> の新規記事。Claude Enterprise の prompt と tool response を DLP server に渡して allow / deny 判定できる <strong>inference hooks</strong> を beta として案内し、chat、Claude Code、Cowork などを一つの enforcement layer で覆えると説明している。",
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "urlLabel": "記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@ClaudeDevs の新規 main post は 0件",
+      "body": "公開ミラー上で確認できた <strong>@ClaudeDevs</strong> の最新 visible main post は <strong>6 days ago</strong> 表示で、この24時間窓に入る新規 main post は確認できなかった。"
+    },
+    {
+      "label": "Anthropic Research / News の新規記事は 0件",
+      "body": "<strong>Anthropic Research</strong> の最新 visible entry は <strong>Jul 28, 2026</strong>、<strong>Anthropic News</strong> の最新 visible entry は <strong>Aug 4, 2026</strong> で、この24時間窓に新規 article はなかった。<strong>Engineering</strong> も最新 dated entry は <strong>Apr 23, 2026</strong> のままだった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-08-05T22:05:27Z",
+      "displayTime": "2026-08-06 07:05 JST",
+      "title": "@adocomplete が Claude API の Structured Outputs を強調",
+      "summary": "<strong>@adocomplete</strong> は <strong>28 Days of Claude API - Day 4</strong> として <strong>Structured Outputs</strong> を紹介し、JSON.parse エラーや retry logic、regex extraction などの回避策を不要にできると説明した。follow-up では <code>output_config.format</code> に schema を渡し、常に schema 準拠の出力を返せる点も補足していた。",
+      "url": "https://ngntipkolamrenang.twstalker.com/adocomplete",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "official site listing を確認したところ、この24時間窓で新規 article が確認できたのは <strong>Claude Blog</strong> のみだった。<strong>Inference hooks</strong> は Claude Enterprise 全面にまたがる inline DLP enforcement を beta として導入する記事で、chat、Claude Code、Cowork、MCP tool response まで一つの policy layer に通せる点が主眼になっている。",
+      "details": [
+        "<strong>Claude Blog</strong>: <strong>Inference hooks: inline data loss prevention for Claude Enterprise</strong> (<strong>August 5, 2026</strong>)",
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 新規 entry 0件",
+        "<strong>Anthropic News</strong>: 新規 entry 0件"
+      ],
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "urlLabel": "Claude Blog 記事"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.223",
+      "body": "GitHub releases では、この24時間窓に <strong>v2.1.223</strong> が <strong>2026-08-06 00:52:37 UTC</strong> に公開されていた。release note の visible bullet は全19項目で、<strong>新機能 3件</strong>、<strong>変更 4件</strong>、<strong>修正 12件</strong> に分けて全項目を和訳した。",
+      "details": [
+        "公開日時: <strong>2026-08-06 00:52:37 UTC</strong>",
+        "prerelease ではなく通常 release",
+        "release note の visible bullet は全19項目を省略せず収録"
+      ],
+      "releases": [
+        {
+          "version": "v2.1.223",
+          "publishedAt": "2026-08-06 00:52:37 UTC",
+          "summary": "managed settings、permission 周り、workflow sandbox、resume、context window 制御、review コマンド系の更新をまとめた release。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "managed settings の <code>strictKnownMarketplaces</code> と <code>blockedMarketplaces</code> に owner wildcard 設定（<code>\"owner/*\"</code>）を追加し、GitHub org 配下の marketplace repo をまとめて許可または拒否できるようにした。",
+                "workflow agent、forked skill、slash command、resume した background agent が制限された subagent model を要求したときに、親 model が代わりに動いていることを警告するようにした。",
+                "cloud session に <code>/teleport</code> のヒントを追加し、<code>claude --teleport &lt;session id&gt;</code> でローカル継続できることを案内するようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>CLAUDE_CODE_DISABLE_1M_CONTEXT</code> が固定リストではなく、native 1M context window を持つすべての Claude model を auto-compaction で 200K に抑えるよう変更した。auto-compaction が 200K に抑えられていない場合は起動時 warning も出すようにした。",
+                "auto-compact を変更し、未認識 model ID でも想定 context window 内に収めるようにした。以前の挙動へ戻すには <code>CLAUDE_CODE_DISABLE_UNKNOWN_MODEL_WINDOW_ENFORCEMENT=1</code> を設定する。",
+                "<code>/review</code> を <code>/code-review</code> の alias に変更した。現在 diff または PR を review し、深い cloud review には <code>/code-review ultra</code> を使う。",
+                "effort level なしの <code>/code-review</code> は、最後に入力した review level を再利用するようにした。変更したい場合は <code>/code-review high</code> のように level を明示する。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "細工した Bash command で command の一部を permission check から隠せていた permission bypass を修正した。",
+                "tab や不可視 Unicode で command を水増しして approval dialog から一部を隠せていた問題を修正した。",
+                "workflow script が dynamic <code>import()</code> を使って workflow sandbox の外で code を実行できていた問題を修正した。",
+                "agent definition の <code>bypassPermissions</code> mode が org の bypass-permissions disable policy を無視していた権限ギャップを修正した。",
+                "session 途中で <code>/cd</code> した後に resume すると空で戻ってくる問題を修正した。",
+                "<code>vertex_ai/claude-*</code> や <code>bedrock/anthropic.claude-*</code> のような provider prefix 付き ID で登録された Claude model が gateway model discovery から隠れてしまう問題を修正した。",
+                "Anthropic model ID ではない <code>modelOverrides</code> key が session の canonical model ID として扱われていた問題を修正し、未知の key は仕様どおり無視するようにした。",
+                "server-delivered settings が machine-local の <code>managed-settings.json</code> や MDM profile の env block を無効化していた問題を修正し、admin env が key 単位で merge されるようにした。",
+                "<code>sandbox.filesystem.denyWrite</code> が working directory を含むと Linux で sandboxed command が起動できなかった問題を修正した。",
+                "fork した background agent が resume 中に親 prompt の rebuild に失敗すると、その session の残り全部で <code>already resuming</code> のまま詰まる問題を修正した。",
+                "history に malformed diagnostics attachment がある resume session が毎 turn 失敗したり、interactive app が応答不能な error screen に残ったりする問題を修正した。",
+                "特殊な <code>git push</code> 出力を parse する際にまれに hang する問題を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
+          "urlLabel": "v2.1.223 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official X / engineer X は本来 <strong>x_mcp</strong> を使う設計だが、この実行環境では tool が未露出で、さらに <strong>x.com</strong> への browser access は permission deny だったため、公開ミラーの visible post を補助ソースとして使った。",
+    "公開ミラー上の X 投稿時刻は relative 表示しか得られなかったため、JSON の <code>datetime</code> は <strong>2026-08-06T11:05:27Z</strong> の取得時刻から逆算した推定値を入れている。",
+    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で Claude / Anthropic product 文脈に直接つながる signal が visible だった <strong>@adocomplete</strong> のみを採用した。",
+    "Anthropic Engineering の page listing には新規 dated entry が見当たらず、<strong>Scaling Managed Agents</strong> 自体は <strong>2026-04-08</strong> 公開の既存記事なので、blog panel の count には含めていない。"
+  ],
+  "sources": [
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks"
+    },
+    {
+      "title": "Anthropic Engineering listing",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research listing",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News listing",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude official X mirror listing",
+      "url": "https://www6.twstalker.com/ClaudeAI"
+    },
+    {
+      "title": "Anthropic official X mirror listing",
+      "url": "https://ww.twstalker.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeDevs mirror listing",
+      "url": "https://twstalker.com/ClaudeDevs"
+    },
+    {
+      "title": "Ado mirror listing",
+      "url": "https://ngntipkolamrenang.twstalker.com/adocomplete"
+    },
+    {
+      "title": "Claude Code release v2.1.223",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
