@@ -1,0 +1,213 @@
+{
+  "date": "2026-08-07",
+  "windowLabel": "2026-08-06 05:01:09 UTC - 2026-08-07 05:01:09 UTC",
+  "archiveTitle": "Fable safeguards, Opus 5 posts, and Claude Tag signal",
+  "archiveSummary": "Official 4件、engineer signal 2件、Claude Code release 0件。",
+  "latestSummary": "2026-08-06 05:01:09 UTC から 2026-08-07 05:01:09 UTC の24時間では、<strong>@ClaudeAI</strong> が <strong>Claude Opus 5</strong> の提供範囲と価格据え置きを案内し、<strong>@ClaudeDevs</strong> は <strong>zoom tool cookbook</strong> 更新を共有した。official site では <strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong>、<strong>Claude Blog</strong> に <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> が入った。engineer 側では <strong>@bcherny</strong> と <strong>@trq212</strong> が <strong>Claude Tag</strong> の運用感を補足した。Claude Code の新規 release はなく、最新の <strong>v2.1.223</strong> note は全 19 項目を完全和訳した。",
+  "summaryBullets": [
+    "<strong>Official X 2件</strong>: <strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> の提供開始、価格据え置き、Fast mode を案内し、cybersecurity task での改善と safeguard の考え方も補足した。<strong>@ClaudeDevs</strong> は <strong>zoom tool cookbook</strong> 更新と Chartography benchmark 改善を共有した。",
+    "<strong>Official site 2件</strong>: <strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）、<strong>Claude Blog</strong> に <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>（<strong>Aug 6, 2026</strong>）が掲載された。",
+    "<strong>Claude Tag signal 2件</strong>: <strong>@bcherny</strong> は Slack 上の <strong>Claude Tag</strong> が channel ごとに独立 sandbox を持ち、repo clone、code write、test、compile を thread 単位でこなすと説明した。<strong>@trq212</strong> は Claude Tag 上の project dashboard を他メンバーや local Claude Code session から編集できると述べた。",
+    "<strong>Claude Code release 0件</strong>: この24時間窓に publish された新規 version はなかった。最新の <strong>v2.1.223</strong> は <strong>2026-08-06 00:52 UTC</strong> 公開で窓外だが、公開 note の visible bullet 全 19 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official X",
+      "datetime": "2026-08-06T15:01:09Z",
+      "displayTime": "2026-08-07 00:01 JST頃",
+      "title": "@ClaudeAI が Claude Opus 5 の提供範囲と価格据え置きを案内",
+      "summary": "<strong>@ClaudeAI</strong> は <strong>Claude Opus 5</strong> を案内し、paid plan と Claude API で提供しつつ、<strong>Opus 4.8 と同価格</strong>、<strong>Claude Max の default model</strong>、<strong>Claude Pro で最上位</strong>、さらに <strong>Fast mode</strong> も使えると説明した。続く投稿では、cybersecurity task での向上と high-risk use を抑える safeguard も補足している。",
+      "url": "https://twstalker.com/ClaudeAI",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    },
+    {
+      "label": "Official X",
+      "datetime": "2026-08-06T18:01:09Z",
+      "displayTime": "2026-08-07 03:01 JST頃",
+      "title": "@ClaudeDevs が zoom tool cookbook 更新を共有",
+      "summary": "<strong>@ClaudeDevs</strong> は、大きな画像が downscale されたときの detail loss を補う <strong>zoom tool</strong> cookbook 更新を案内した。あわせて、<strong>Chartography benchmark</strong> で <strong>Fable 5</strong> が <strong>29%→73%</strong>、<strong>Sonnet 5</strong> が <strong>13%→44%</strong> に改善したと共有している。",
+      "url": "https://twstalker.com/ClaudeDevs",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    },
+    {
+      "label": "Official site",
+      "datetime": "2026-08-07T12:00:00+09:00",
+      "displayTime": "2026-08-07",
+      "title": "Anthropic News: Improving Fable 5's biology safeguards",
+      "summary": "<strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> は、Fable 5 の biology safeguard を更新して <strong>false positive を大幅に減らし</strong>、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。日常的な health / education の質問や clinical task での支援を広げつつ、dual-use な virology・toxicology・molecular design は引き続き Opus 5 fallback で抑える方針を示している。",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Blog",
+      "datetime": "2026-08-06T12:00:00+09:00",
+      "displayTime": "2026-08-06",
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "summary": "<strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> は、Millennium が proprietary data と Claude を組み合わせ、資産クラス横断の risk exposure を読み解く <strong>digital risk analyst</strong> を共同開発している事例を紹介した。記事では、Claude と <strong>Claude Code</strong> が trading desk、engineering、core business function に広く入っていることも明記されている。",
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "urlLabel": "記事を読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI の新規 main post は 0件",
+      "body": "<strong>@AnthropicAI</strong> profile ではこの窓に authored main post は確認できなかった。TwStalker 上で見えたのは <strong>@ClaudeAI</strong> post の repost と、window 外の <strong>2 days ago</strong> post が中心だったため、official X item には採用していない。"
+    },
+    {
+      "label": "Anthropic Engineering / Research の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "official X の日時は公開ミラー由来の近似値を含む",
+      "body": "本来は <strong>x_mcp</strong> を使う設計だが、この実行環境では tool が未露出だったため、<strong>TwStalker</strong> と search snippet の relative time から確認した。本文と有無の判定は採用したが、<code>datetime</code> は <strong>2026-08-07 05:01:09 UTC</strong> の取得時刻から逆算した近似値を含む。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-08-06T13:01:09Z",
+      "displayTime": "2026-08-06 22:01 JST頃",
+      "title": "@bcherny が Claude Tag の sandbox 運用を説明",
+      "summary": "<strong>@bcherny</strong> は、channel で Claude を tag すると thread ごとに独立 instance が立ち、<strong>own sandbox</strong> の中で repo clone、code write、test、compile を実行し、終わった sandbox は破棄されると説明した。別ポストでは、Anthropic product team の <strong>新しい code の 65%</strong> が internal Claude Tag 由来だとも述べている。",
+      "url": "https://twstalker.com/bcherny",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    },
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-08-06T05:30:00Z",
+      "displayTime": "2026-08-06 14:30 JST頃",
+      "title": "@trq212 が Claude Tag の dashboard artifact 活用を紹介",
+      "summary": "<strong>@trq212</strong> は、<strong>Claude Tag</strong> 上で作った project dashboard artifact は <strong>他メンバー</strong> や <strong>local Claude Code sessions</strong> から編集でき、creative に組み合わせられると述べた。Claude Tag と local coding loop の接続点として実務的な signal だった。",
+      "url": "https://mobile.twstalker.com/trq212",
+      "urlLabel": "公開ミラーで見る",
+      "primary": true
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "watch 対象の official site listing では、この24時間窓に入った新規記事は <strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）と、<strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>（<strong>Aug 6, 2026</strong>）の 2 件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 dated entry がなかった。",
+      "details": [
+        "<strong>Anthropic News</strong>: <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>（<strong>Aug 6, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 新規 dated entry 0件"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "Claude Code releases page では、この24時間窓に publish された新規 release はなかった。最新の <strong>v2.1.223</strong> は <strong>2026-08-06 00:52 UTC</strong> 公開で window 外だが、公開 note の visible bullet 全 <strong>19 項目</strong> を <strong>新機能 3件</strong>、<strong>変更 4件</strong>、<strong>修正 12件</strong> に分けて省略せず和訳した。",
+      "details": [
+        "最新 release は <strong>v2.1.223</strong> で、公開時刻は <strong>2026-08-06 00:52 UTC</strong>",
+        "window 内 publish は 0件だが、最新 note の visible bullet 全 19 項目を完全取得した"
+      ],
+      "sections": [
+        {
+          "title": "新機能",
+          "items": [
+            "managed settings の <code>strictKnownMarketplaces</code> と <code>blockedMarketplaces</code> に owner wildcard 設定（<code>\"owner/*\"</code>）を追加し、GitHub org 配下の marketplace repo をまとめて許可または拒否できるようにした。",
+            "workflow agent、forked skill、slash command、resume した background agent が制限された subagent model を要求したときに、親 model が代わりに動いていることを警告するようにした。",
+            "cloud session に <code>/teleport</code> のヒントを追加し、<code>claude --teleport &lt;session id&gt;</code> でローカル継続できることを案内するようにした."
+          ]
+        },
+        {
+          "title": "変更",
+          "items": [
+            "<code>CLAUDE_CODE_DISABLE_1M_CONTEXT</code> が固定リストではなく、native 1M context window を持つすべての Claude model を auto-compaction で 200K に抑えるよう変更した。auto-compaction が 200K に抑えられていない場合は起動時 warning も出すようにした。",
+            "auto-compact を変更し、未認識 model ID でも想定 context window 内に収めるようにした。以前の挙動へ戻すには <code>CLAUDE_CODE_DISABLE_UNKNOWN_MODEL_WINDOW_ENFORCEMENT=1</code> を設定する。",
+            "<code>/review</code> を <code>/code-review</code> の alias に変更した。現在 diff または PR を review し、深い cloud review には <code>/code-review ultra</code> を使う。",
+            "effort level なしの <code>/code-review</code> は、最後に入力した review level を再利用するようにした。変更したい場合は <code>/code-review high</code> のように level を明示する。"
+          ]
+        },
+        {
+          "title": "修正",
+          "items": [
+            "細工した Bash command で command の一部を permission check から隠せていた permission bypass を修正した。",
+            "tab や不可視 Unicode で command を水増しして approval dialog から一部を隠せていた問題を修正した。",
+            "workflow script が dynamic <code>import()</code> を使って workflow sandbox の外で code を実行できていた問題を修正した。",
+            "agent definition の <code>bypassPermissions</code> mode が org の bypass-permissions disable policy を無視していた権限ギャップを修正した。",
+            "session 途中で <code>/cd</code> した後に resume すると空で戻ってくる問題を修正した。",
+            "<code>vertex_ai/claude-*</code> や <code>bedrock/anthropic.claude-*</code> のような provider prefix 付き ID で登録された Claude model が gateway model discovery から隠れてしまう問題を修正した。",
+            "Anthropic model ID ではない <code>modelOverrides</code> key が session の canonical model ID として扱われていた問題を修正し、未知の key は仕様どおり無視するようにした。",
+            "server-delivered settings が machine-local の <code>managed-settings.json</code> や MDM profile の env block を無効化していた問題を修正し、admin env が key 単位で merge されるようにした。",
+            "<code>sandbox.filesystem.denyWrite</code> が working directory を含むと Linux で sandboxed command が起動できなかった問題を修正した。",
+            "fork した background agent が resume 中に親 prompt の rebuild に失敗すると、その session の残り全部で <code>already resuming</code> のまま詰まる問題を修正した。",
+            "history に malformed diagnostics attachment がある resume session が毎 turn 失敗したり、interactive app が応答不能な error screen に残ったりする問題を修正した。",
+            "特殊な <code>git push</code> 出力を parse する際にまれに hang する問題を修正した。"
+          ]
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
+      "urlLabel": "v2.1.223 release note"
+    }
+  ],
+  "exclusions": [
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、この実行環境では tool が未露出だったため、公開ミラーと検索スニペットを補助ソースとして使った。",
+    "公開ミラーの relative time は absolute timestamp を返さないため、X 由来の <code>datetime</code> は <strong>2026-08-07T05:01:09Z</strong> の取得時刻から逆算した近似値を含む。",
+    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で <strong>Claude Tag</strong> と <strong>Claude Code</strong> の実運用を直接補足した <strong>@bcherny</strong> と <strong>@trq212</strong> のみを採用した。",
+    "<strong>Claude Code</strong> release は GitHub releases page の visible metadata と note を source of truth とし、新規 publish は 0 件でも最新 <strong>v2.1.223</strong> の visible bullet 全 19 項目を <strong>新機能 / 変更 / 修正</strong> に分類して省略なく和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "Claude official X mirror",
+      "url": "https://twstalker.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs mirror",
+      "url": "https://twstalker.com/ClaudeDevs"
+    },
+    {
+      "title": "Boris Cherny mirror",
+      "url": "https://twstalker.com/bcherny"
+    },
+    {
+      "title": "Thariq mirror",
+      "url": "https://mobile.twstalker.com/trq212"
+    },
+    {
+      "title": "AnthropicAI mirror",
+      "url": "https://twstalker.com/anthropicai"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Improving Fable 5's biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.223",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223"
+    }
+  ]
+}
