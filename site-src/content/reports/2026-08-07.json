@@ -1,82 +1,71 @@
 {
   "date": "2026-08-07",
-  "windowLabel": "2026-08-06 17:01:46 UTC - 2026-08-07 17:01:46 UTC",
-  "archiveTitle": "Fable safeguards, self-hosted Claude Code, and v2.1.224",
-  "archiveSummary": "Official 3件、engineer signal 1件、Claude Code release 1件。",
-  "latestSummary": "2026-08-06 17:01:46 UTC から 2026-08-07 17:01:46 UTC の24時間では、official site で <strong>Improving Fable 5's biology safeguards</strong>、<strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>、<strong>Run Claude Code sessions on your own compute</strong> が確認できた。official X では <strong>@ClaudeAI</strong> が biology safeguards 更新を案内していたが、同一ニュースとして official site 側に集約した。<strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、<strong>Claude Code</strong> は <strong>v2.1.224</strong> を公開した。",
+  "windowLabel": "2026-08-06 23:02:52 UTC - 2026-08-07 23:02:52 UTC",
+  "archiveTitle": "Auto mode rollout, Fable safeguards, and v2.1.224",
+  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-06 23:02:52 UTC から 2026-08-07 23:02:52 UTC の24時間では、official site で <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>、<strong>Running auto mode in production</strong>、<strong>Improving Fable 5's biology safeguards</strong> が確認できた。Claude Code は <strong>v2.1.224</strong> を公開し、self-hosted environments、cross-session messaging、sandbox credential masking 拡張を含む <strong>31 項目</strong> の更新を出した。公開 Web から確認できる X ミラーは stale または不整合があり、この24時間窓で高信頼の新規 X 投稿は採用していない。",
   "summaryBullets": [
-    "<strong>official site 3件</strong>: <strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）、<strong>Claude Blog</strong> に <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> と <strong>Run Claude Code sessions on your own compute</strong>（いずれも <strong>Aug 6, 2026</strong>）が載った。",
+    "<strong>official site 3件</strong>: <strong>Claude Blog</strong> に <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong> と <strong>Running auto mode in production</strong>、<strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong> が載った。",
     "<strong>Claude Code v2.1.224</strong>: <strong>self-hosted environments</strong>、<strong>archive plugin source</strong>、<strong>cross-session SendMessage</strong>、拡張 sandbox credential masking を追加し、<strong>変更 9件</strong>、<strong>修正 15件</strong> を含む <strong>31 項目</strong> を公開した。",
-    "<strong>engineer signal 1件</strong>: <strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、元の prompt を走らせたまま sidebar conversation を続けられると説明した。",
-    "<strong>Fable 5 safeguard update</strong>: biology safeguards の更新で biology 関連 fallback を約 <strong>85%</strong> 減らし、日常的な health / education 質問での false positive を減らす一方、dual-use な biology query は引き続き Opus 5 へ fallback させる方針を示した。"
+    "<strong>Auto mode rollout</strong>: Pro / Max / Team では <strong>2026-08-14</strong> から新規 session の default が auto mode になり、classifier overhead の追加課金は <strong>2026-08-07</strong> から停止すると案内された。",
+    "<strong>Fable safeguard update</strong>: biology safeguards の更新で biology 関連 fallback を約 <strong>85%</strong> 減らしつつ、dual-use な biology query は引き続き capability の高い別 model に route する方針を示した。"
   ],
   "officialNews": [
     {
-      "label": "Official site",
+      "label": "Official",
+      "datetime": "2026-08-07T00:00:00Z",
+      "displayTime": "2026-08-07",
+      "title": "Claude Blog: Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "summary": "<strong>Claude Blog</strong> は、<strong>2026-08-14</strong> から Pro / Max / Team の新規 Claude Code session を <strong>auto mode</strong> default に切り替えると案内した。あわせて classifier overhead への追加課金を <strong>2026-08-07</strong> から止め、危険コマンド遮断の安全性データと長時間実行の前提を説明している。",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-07T00:00:00Z",
+      "displayTime": "2026-08-07",
+      "title": "Claude Blog: Running auto mode in production",
+      "summary": "<strong>Claude Blog</strong> は、Nuro、Gusto、Garner Health の事例を通じて <strong>auto mode</strong> の production 運用を紹介した。記事では、manual approval より危険操作を防ぎつつ中断間隔を延ばし、長時間の research / implementation workload を回しやすくしたという運用面の効果を強調している。",
+      "url": "https://claude.com/blog/auto-mode-in-production",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
       "datetime": "2026-08-07T00:00:00Z",
       "displayTime": "2026-08-07",
       "title": "Anthropic News: Improving Fable 5's biology safeguards",
-      "summary": "<strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> は、Claude Fable 5 の biology safeguards を更新し、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。日常的な health / education 質問での false positive を抑えつつ、virology、toxicology、molecular design など dual-use な生物系リクエストは引き続き <strong>Opus 5</strong> に fallback させる。",
+      "summary": "<strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> は、Claude Fable 5 の biology safeguards を更新し、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。health / education 系の false positive を抑えつつ、virology や toxicology など dual-use な query は引き続き高能力 model へ route する。",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Blog",
-      "datetime": "2026-08-06T00:00:00Z",
-      "displayTime": "2026-08-06",
-      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
-      "summary": "<strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> は、Millennium と Anthropic が proprietary data と Claude を組み合わせ、資産クラス横断の risk exposure を読む <strong>digital risk analyst</strong> を共同開発していると紹介した。記事では <strong>Claude</strong> と <strong>Claude Code</strong> が trading desks、engineering、core business functions でも広く使われていると述べている。",
-      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
-      "urlLabel": "記事を読む",
-      "primary": true
-    },
-    {
-      "label": "Blog",
-      "datetime": "2026-08-06T00:00:00Z",
-      "displayTime": "2026-08-06",
-      "title": "Run Claude Code sessions on your own compute",
-      "summary": "<strong>Claude Blog</strong> の <strong>Run Claude Code sessions on your own compute</strong> は、public beta の <strong>self-hosted environments</strong> により、web / mobile / desktop / routine から始めた Claude Code session を自社インフラ上で走らせられると説明した。internal services、toolchains、security controls の近くで agent execution を完結させたい Team / Enterprise 向けの運用形態として案内している。",
-      "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
       "urlLabel": "記事を読む",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeDevs の新規 main post は 0件",
-      "body": "<strong>TwStalker</strong> で確認した範囲では、<strong>@AnthropicAI</strong> の最新 main post は <strong>3 days ago</strong>、<strong>@ClaudeDevs</strong> の最新 main post は <strong>a week ago</strong> 表示で、この24時間窓に入る新規 main post は確認できなかった。"
-    },
-    {
-      "label": "@ClaudeAI の in-window post は official site 記事に集約",
-      "body": "<strong>@ClaudeAI</strong> には <strong>13 hours ago</strong> 表示の biology safeguards 更新投稿があったが、内容は <strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> と同一ニュースだったため、final report では official site 側の1件に集約した。"
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "この環境では本来想定の <strong>x_mcp</strong> が使えず、公開 Web から見える X ミラーも <strong>stale</strong> または表示内容に不整合があった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic Engineering / Research の新規記事は 0件",
       "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 28, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
-    }
-  ],
-  "signals": [
+    },
     {
-      "label": "Engineer signal",
-      "datetime": "2026-08-07T03:01:46Z",
-      "displayTime": "2026-08-07 03:01 UTC頃",
-      "title": "@adocomplete が Claude Code の /btw を紹介",
-      "summary": "<strong>@adocomplete</strong> は、Claude Code に最近入った <code>/btw</code> により、元の prompt を進めたまま sidebar conversation を開いて並行にやり取りできると説明した。公式 release note では確認していない補助的な UX signal だが、日々の Claude Code 運用イメージを補強する情報として価値がある。",
-      "url": "https://twstalker.com/adocomplete/status/2032494087295693078",
-      "urlLabel": "投稿を見る",
-      "primary": true
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の対象についても、公開ミラーでは時刻・本文・URL の整合が弱く、Claude / Anthropic product signal として confidence を置ける新規投稿は採用していない。"
     }
   ],
+  "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "watch 対象の official site listing では、この24時間窓に入った新規記事として <strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 2件を確認した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 dated entry がなかった。",
+      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry として <strong>Claude Blog</strong> 2件、<strong>Anthropic News</strong> 1件を確認した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 dated entry がなかった。",
       "details": [
+        "<strong>Claude Blog</strong>: <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>（<strong>Aug 7, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Running auto mode in production</strong>（<strong>Aug 7, 2026</strong>）",
         "<strong>Anthropic News</strong>: <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>（<strong>Aug 6, 2026</strong>）",
-        "<strong>Claude Blog</strong>: <strong>Run Claude Code sessions on your own compute</strong>（<strong>Aug 6, 2026</strong>）",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 新規 dated entry 0件"
       ],
@@ -154,10 +143,10 @@
     }
   ],
   "exclusions": [
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だったため、<strong>TwStalker</strong> を補助ソースとして使った。",
-    "<strong>@ClaudeAI</strong> の biology safeguards 投稿は official site 記事と同一イベントだったため、final report では duplicate として site 側に集約した。",
-    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で Claude / Anthropic product 文脈の direct signal が確認できた <strong>@adocomplete</strong> のみを採用した。",
-    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、release note 全 <strong>31 項目</strong> を <strong>新機能 / 変更 / 修正</strong> に分類して省略なく和訳した。"
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だった。",
+    "公開 Web から取得できる X ミラーは stale または本文・時刻・URL の整合が弱く、高信頼の official / engineer post のみを採用する基準を満たさなかった。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、release note 全 <strong>31 項目</strong> を <strong>新機能 / 変更 / 修正</strong> に分類して省略なく和訳した。",
+    "Claude Blog の <strong>Aug 6, 2026</strong> 記事は visible date がこの24時間窓の始点より前で、ページ上に publish time も見えなかったため今回は含めていない。"
   ],
   "sources": [
     {
@@ -181,28 +170,12 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
-      "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude"
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
     },
     {
-      "title": "Run Claude Code sessions on your own compute",
-      "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute"
-    },
-    {
-      "title": "ClaudeAI biology safeguards post",
-      "url": "https://twstalker.com/claudeai/status/2085563808773189680"
-    },
-    {
-      "title": "AnthropicAI mirror",
-      "url": "https://twstalker.com/AnthropicAI"
-    },
-    {
-      "title": "ClaudeDevs mirror",
-      "url": "https://twstalker.com/ClaudeDevs"
-    },
-    {
-      "title": "Ado /btw post",
-      "url": "https://twstalker.com/adocomplete/status/2032494087295693078"
+      "title": "Running auto mode in production",
+      "url": "https://claude.com/blog/auto-mode-in-production"
     },
     {
       "title": "Claude Code releases",
@@ -211,6 +184,18 @@
     {
       "title": "Claude Code release v2.1.224",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224"
+    },
+    {
+      "title": "Claude profile mirror used for availability check",
+      "url": "https://mobile.twstalker.com/claudeai"
+    },
+    {
+      "title": "AnthropicAI profile mirror used for availability check",
+      "url": "https://www6.twstalker.com/AnthropicAI"
+    },
+    {
+      "title": "Ado profile mirrors checked during engineer X review",
+      "url": "https://site.twstalker.com/adocomplete"
     }
   ]
 }
