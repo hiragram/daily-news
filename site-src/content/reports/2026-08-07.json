@@ -1,14 +1,14 @@
 {
   "date": "2026-08-07",
-  "windowLabel": "2026-08-06 11:01:44 UTC - 2026-08-07 11:01:44 UTC",
+  "windowLabel": "2026-08-06 17:01:46 UTC - 2026-08-07 17:01:46 UTC",
   "archiveTitle": "Fable safeguards, self-hosted Claude Code, and v2.1.224",
-  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-06 11:01:44 UTC から 2026-08-07 11:01:44 UTC の24時間では、official site で <strong>Improving Fable 5's biology safeguards</strong>、<strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>、<strong>Run Claude Code sessions on your own compute</strong> が確認できた。<strong>Claude Code</strong> は <strong>v2.1.224</strong> を公開し、self-hosted environments、archive plugin source、cross-session messaging、sandbox 周辺の改善と修正を出した。X 監視では、この窓に確実に入る official / engineer 投稿は確認できなかった。",
+  "archiveSummary": "Official 3件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-08-06 17:01:46 UTC から 2026-08-07 17:01:46 UTC の24時間では、official site で <strong>Improving Fable 5's biology safeguards</strong>、<strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong>、<strong>Run Claude Code sessions on your own compute</strong> が確認できた。official X では <strong>@ClaudeAI</strong> が biology safeguards 更新を案内していたが、同一ニュースとして official site 側に集約した。<strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、<strong>Claude Code</strong> は <strong>v2.1.224</strong> を公開した。",
   "summaryBullets": [
     "<strong>official site 3件</strong>: <strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）、<strong>Claude Blog</strong> に <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> と <strong>Run Claude Code sessions on your own compute</strong>（いずれも <strong>Aug 6, 2026</strong>）が載った。",
-    "<strong>Claude Code v2.1.224</strong>: <strong>self-hosted environments</strong>、<strong>HTTPS zip からの archive plugin source</strong>、<strong>cross-session SendMessage</strong>、高度な sandbox credential masking を追加し、project path / SendMessage / sandbox deny / Remote Control 周辺など <strong>12 件の修正</strong> と <strong>2 件の改善</strong> を公開した。",
-    "<strong>Fable 5 safeguard update</strong>: biology safeguard の更新で benign query 側の <strong>false positive</strong> を減らし、biology 関連 fallback を約 <strong>85%</strong> 削減したと説明した。",
-    "<strong>X は 0件採用</strong>: 本来の <strong>x_mcp</strong> がこのスレッドで使えず、公開ミラー確認でもこの24時間窓に確実に入る official / engineer 投稿を確定できなかったため、主要本文には採用していない。"
+    "<strong>Claude Code v2.1.224</strong>: <strong>self-hosted environments</strong>、<strong>archive plugin source</strong>、<strong>cross-session SendMessage</strong>、拡張 sandbox credential masking を追加し、<strong>変更 9件</strong>、<strong>修正 15件</strong> を含む <strong>31 項目</strong> を公開した。",
+    "<strong>engineer signal 1件</strong>: <strong>@adocomplete</strong> は Claude Code の <code>/btw</code> を紹介し、元の prompt を走らせたまま sidebar conversation を続けられると説明した。",
+    "<strong>Fable 5 safeguard update</strong>: biology safeguards の更新で biology 関連 fallback を約 <strong>85%</strong> 減らし、日常的な health / education 質問での false positive を減らす一方、dual-use な biology query は引き続き Opus 5 へ fallback させる方針を示した。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-08-07T00:00:00Z",
       "displayTime": "2026-08-07",
       "title": "Anthropic News: Improving Fable 5's biology safeguards",
-      "summary": "<strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> は、Claude Fable 5 の biology safeguard を更新し、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。benign biology query での <strong>false positive</strong> を大きく減らしつつ、dual-use な biology 研究の block は継続する方針を示している。",
+      "summary": "<strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> は、Claude Fable 5 の biology safeguards を更新し、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。日常的な health / education 質問での false positive を抑えつつ、virology、toxicology、molecular design など dual-use な生物系リクエストは引き続き <strong>Opus 5</strong> に fallback させる。",
       "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-08-06T00:00:00Z",
       "displayTime": "2026-08-06",
       "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
-      "summary": "<strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> は、Millennium と Anthropic が proprietary data と Claude を組み合わせ、資産クラス横断の risk exposure を読む <strong>digital risk analyst</strong> を共同開発していると紹介した。記事では <strong>Claude</strong> と <strong>Claude Code</strong> が trading desk、engineering、core business function まで広く使われているとも書かれている。",
+      "summary": "<strong>Claude Blog</strong> の <strong>Millennium and Anthropic are building a digital risk analyst with Claude</strong> は、Millennium と Anthropic が proprietary data と Claude を組み合わせ、資産クラス横断の risk exposure を読む <strong>digital risk analyst</strong> を共同開発していると紹介した。記事では <strong>Claude</strong> と <strong>Claude Code</strong> が trading desks、engineering、core business functions でも広く使われていると述べている。",
       "url": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
       "urlLabel": "記事を読む",
       "primary": true
@@ -36,7 +36,7 @@
       "datetime": "2026-08-06T00:00:00Z",
       "displayTime": "2026-08-06",
       "title": "Run Claude Code sessions on your own compute",
-      "summary": "<strong>Claude Blog</strong> の <strong>Run Claude Code sessions on your own compute</strong> は、public beta の <strong>self-hosted environments</strong> により、web / mobile / desktop / routine から始めた Claude Code session を自社インフラ上で動かせると説明した。repository checkout、build artifact、secret、生成ファイルを自社基盤に残しつつ、Team / Enterprise 向けに runner と orchestrator で運用する設計を案内している。",
+      "summary": "<strong>Claude Blog</strong> の <strong>Run Claude Code sessions on your own compute</strong> は、public beta の <strong>self-hosted environments</strong> により、web / mobile / desktop / routine から始めた Claude Code session を自社インフラ上で走らせられると説明した。internal services、toolchains、security controls の近くで agent execution を完結させたい Team / Enterprise 向けの運用形態として案内している。",
       "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
       "urlLabel": "記事を読む",
       "primary": true
@@ -44,19 +44,30 @@
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の新規採用投稿は 0件",
-      "body": "本来は <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だったため公開ミラーで確認した。<strong>@AnthropicAI</strong> の最新見え方は profile と detail で <strong>a day ago / 2 days ago</strong> が食い違い、<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> も window 内と確定できる main post を取れなかったため、official X item には採用していない。"
+      "label": "@AnthropicAI / @ClaudeDevs の新規 main post は 0件",
+      "body": "<strong>TwStalker</strong> で確認した範囲では、<strong>@AnthropicAI</strong> の最新 main post は <strong>3 days ago</strong>、<strong>@ClaudeDevs</strong> の最新 main post は <strong>a week ago</strong> 表示で、この24時間窓に入る新規 main post は確認できなかった。"
+    },
+    {
+      "label": "@ClaudeAI の in-window post は official site 記事に集約",
+      "body": "<strong>@ClaudeAI</strong> には <strong>13 hours ago</strong> 表示の biology safeguards 更新投稿があったが、内容は <strong>Anthropic News</strong> の <strong>Improving Fable 5's biology safeguards</strong> と同一ニュースだったため、final report では official site 側の1件に集約した。"
     },
     {
       "label": "Anthropic Engineering / Research の新規記事は 0件",
       "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 28, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
-    },
-    {
-      "label": "engineer X の新規採用投稿は 0件",
-      "body": "<strong>@bcherny</strong>、<strong>@trq212</strong> など監視対象の公開ミラーも見たが、この24時間窓に確実に入る Claude / Anthropic 関連 signal を安定して確定できなかった。reply や retweet は見えても timestamp 精度に不足があるため、主要本文には採用していない。"
     }
   ],
-  "signals": [],
+  "signals": [
+    {
+      "label": "Engineer signal",
+      "datetime": "2026-08-07T03:01:46Z",
+      "displayTime": "2026-08-07 03:01 UTC頃",
+      "title": "@adocomplete が Claude Code の /btw を紹介",
+      "summary": "<strong>@adocomplete</strong> は、Claude Code に最近入った <code>/btw</code> により、元の prompt を進めたまま sidebar conversation を開いて並行にやり取りできると説明した。公式 release note では確認していない補助的な UX signal だが、日々の Claude Code 運用イメージを補強する情報として価値がある。",
+      "url": "https://twstalker.com/adocomplete/status/2032494087295693078",
+      "urlLabel": "投稿を見る",
+      "primary": true
+    }
+  ],
   "releasePanels": [
     {
       "title": "ブログ",
@@ -75,35 +86,42 @@
     {
       "title": "Claude Code リリース",
       "headline": "v2.1.224",
-      "body": "GitHub releases page では、この24時間窓に <strong>v2.1.224</strong> が <strong>2026-08-07 04:00 UTC</strong> と見える形で公開されていた。release note の visible bullet 全 <strong>21 項目</strong> を <strong>新機能 7件</strong>、<strong>変更 2件</strong>、<strong>修正 12件</strong> に分けて省略せず和訳した。",
+      "body": "<code>gh release view</code> では、この24時間窓に <strong>v2.1.224</strong> が <strong>2026-08-07 04:00:59 UTC</strong> に公開されていた。release note の全 <strong>31 項目</strong> を <strong>新機能 7件</strong>、<strong>変更 9件</strong>、<strong>修正 15件</strong> に分けて省略せず和訳した。",
       "details": [
-        "公開時刻表示: <strong>2026-08-07 04:00 UTC</strong>",
-        "Latest 表示の通常 release",
-        "release note の visible bullet は全 21 項目を収録"
+        "公開時刻: <strong>2026-08-07 04:00:59 UTC</strong>",
+        "prerelease ではなく通常 release",
+        "<code>gh release view</code> で本文全 31 項目を取得"
       ],
       "releases": [
         {
           "version": "v2.1.224",
-          "publishedAt": "2026-08-07 04:00 UTC",
-          "summary": "self-hosted environments、archive plugin source、cross-session messaging、高度な sandbox credential masking を追加し、sandbox・Remote Control・plugin install record・project path 周辺を広く修正した通常リリース。",
+          "publishedAt": "2026-08-07 04:00:59 UTC",
+          "summary": "self-hosted environments、archive plugin source、cross-session SendMessage、拡張 sandbox credential masking を追加し、Remote Control、project path、sandbox、plugin install record 周辺まで広く更新した通常リリース。",
           "sections": [
             {
               "title": "新機能",
               "items": [
                 "<code>claude self-hosted-runner</code> による <strong>self-hosted environments</strong> を追加し、Team / Enterprise plan で Claude Code の web / mobile / desktop session を自社マシンや container 上で動かせるようにした。",
                 "<strong>archive plugin source</strong> を追加し、git や npm を使わず HTTPS 越しの zip から plugin を install できるようにした。必要なら SHA-256 pinning も使える。",
-                "利用できない paste を削除した結果 command の本文が変わる場合に、<strong>cancel-and-confirm</strong> の確認ステップを追加した。",
+                "利用できない paste を除去した結果 command 本文が変わる場合に、<strong>cancel-and-confirm</strong> の確認ステップを追加した。",
                 "Bedrock 向けに <code>ANTHROPIC_BEDROCK_REGION_PREFIX</code> 環境変数を追加し、<code>AWS_REGION</code> 由来ではなく任意の cross-region inference profile を優先できるようにした。",
                 "<code>crossSessionInbound</code> と <code>dialogExpiry</code> 設定を追加し、bypassed permissions で動く session への cross-session message は承認待ちにし、他 session への message は自動配送できるようにした。",
-                "sandbox の credential masking を拡張し、structured env value 向けの <code>extract</code> / <code>onExtractNoMatch</code>、JWT 向けの <code>decode: \"jwt\"</code> と <code>maskClaims</code>、AWS の <code>awsPairs</code> / <code>sigv4</code> 再署名を追加した。",
-                "cross-session の <strong>SendMessage</strong> を追加し、macOS / Linux 上の Claude Code session 同士が、<code>ListAgents</code> で見つけた別 session へ message を送れるようにした."
+                "sandbox の credential masking を拡張し、structured env value 向けの <code>extract</code> / <code>onExtractNoMatch</code>、JWT 向けの <code>decode: \"jwt\"</code> と <code>maskClaims</code>、AWS 向けの <code>awsPairs</code> / <code>sigv4</code> 再署名を追加した。これらは <code>network.tlsTerminate</code> を必要とし、user / managed / <code>--settings</code> 由来の設定でのみ有効になる。",
+                "cross-session の <strong>SendMessage</strong> を追加し、macOS / Linux 上の Claude Code session 同士が <code>ListAgents</code> で見つけた別 session に message を送れるようにした。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "fullscreen mode を改善し、繰り返し compaction が起きても直近区間だけでなく <strong>compaction 前の完全な履歴</strong> を scrollback に残すようにした。",
-                "<strong>Remote Control</strong> を改善し、接続中の web / mobile client に compaction の進行状況と compaction 後の境界を表示し、<code>/clear</code> による reset も接続先 client へ伝播するようにした。"
+                "fullscreen mode を改善し、compaction が繰り返されても直近区間だけでなく <strong>compaction 前の完全な履歴</strong> を scrollback に残すようにした。",
+                "<strong>Remote Control</strong> を改善し、接続中の web / mobile client に compaction の進行状況と compaction 後の境界を表示し、<code>/clear</code> による reset も接続先 client へ伝播するようにした。",
+                "<strong>Remote Control</strong> を改善し、接続失敗時に 8 秒の toast だけで終わらず、詳細付きの persistent failure indicator と reconnect shortcut を表示するようにした。",
+                "session ごとの <strong>200 subagent 上限</strong> を撤廃し、長時間走る session でも新しい agent を拒否しないようにした。なお concurrency と depth の上限は引き続き適用される。",
+                "managed settings を変更し、organization settings が変わっていない場合は re-login や org switching のたびに approval prompt を再表示しないようにした。",
+                "feedback survey の transcript share を変更し、同意がある場合は最後の request の model settings も upload するようにした。これには <code>CLAUDE.md</code> instructions を含む system prompt、tool definitions、model parameters が含まれる。secret は従来どおり redact され、share が大きすぎる場合はこれらの field から先に落とされる。",
+                "Bash tool の説明を変更し、command output は <strong>user ではなく model に表示される</strong> と常に明記するようにした。",
+                "recalled paste の placeholder 番号を、input に受け入れた時点で振り直すよう変更した。",
+                "Remote Control を変更し、compaction や <code>/resume</code> 後に新しい server session を作り直した場合、古い session を dead entry のまま残さず archive するようにした。"
               ]
             },
             {
@@ -118,9 +136,12 @@
                 "recalled / restored した paste content が、保持期限切れや placeholder 番号の衝突時に誤った data を添付したり、text を黙って失ったりすることがあった問題を修正した。",
                 "Wayland で copy-on-select が clipboard に届かないことがあった race を修正し、2 本の selection write が競合しないようにした。",
                 "feedback survey の transcript share が長い session で黙って失敗していた問題を修正し、失敗時は success ではなく error を表示するようにした。",
-                "stale login token を持つ cold start で、Remote Control の auto-start が \"Remote credentials fetch failed\" で断続的に失敗する問題を修正した。",
+                "stale login token を持つ cold start で、Remote Control の auto-start が <code>Remote credentials fetch failed</code> で断続的に失敗する問題を修正した。",
                 "<code>/clear</code> など output を返さない command のあと、Remote Control と SDK client に空の <code>(no content)</code> message が出る問題を修正した。",
-                "server session の期限切れ後に再作成された Remote Control session が、以前の local conversation history を新 session に upload してしまう問題を修正した。"
+                "server session の期限切れ後に再作成された Remote Control session が、以前の local conversation history を新 session に upload してしまう問題を修正した。",
+                "[VSCode] 接続失敗後も extension 上で Remote Control が接続済みに見え続ける問題を修正した。",
+                "<code>--resume</code>、SDK host、VS Code extension などで session を resume した際、user が切っていた Remote Control が黙って再接続される問題を修正した。",
+                "[VSCode] <code>remoteControlAtStartup</code> を明示的に有効にしていても session がそれに従わない問題を修正した。"
               ]
             }
           ],
@@ -133,10 +154,10 @@
     }
   ],
   "exclusions": [
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だったため、公開ミラー確認に切り替えた。",
-    "公開ミラー上の relative time と detail 表示が一致しない投稿があり、この24時間窓に確実に入るかを判定できない X 投稿は本文採用から外した。",
-    "<strong>Claude Code</strong> release は本来 <code>gh release view</code> を source of truth にする設計だが、この実行環境からは <code>api.github.com</code> へ接続できなかったため、GitHub releases page の visible metadata と note を代替ソースとして使った。",
-    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で確実性のある signal が確認できなかったため <strong>0件</strong> とした。"
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だったため、<strong>TwStalker</strong> を補助ソースとして使った。",
+    "<strong>@ClaudeAI</strong> の biology safeguards 投稿は official site 記事と同一イベントだったため、final report では duplicate として site 側に集約した。",
+    "engineer X は監視対象全員の exhaustive dump ではなく、この24時間窓で Claude / Anthropic product 文脈の direct signal が確認できた <strong>@adocomplete</strong> のみを採用した。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、release note 全 <strong>31 項目</strong> を <strong>新機能 / 変更 / 修正</strong> に分類して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -168,24 +189,20 @@
       "url": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute"
     },
     {
-      "title": "ClaudeAI mirror",
-      "url": "https://twstalker.com/ClaudeAI"
-    },
-    {
-      "title": "ClaudeDevs mirror",
-      "url": "https://twstalker.com/ClaudeDevs"
+      "title": "ClaudeAI biology safeguards post",
+      "url": "https://twstalker.com/claudeai/status/2085563808773189680"
     },
     {
       "title": "AnthropicAI mirror",
       "url": "https://twstalker.com/AnthropicAI"
     },
     {
-      "title": "Boris Cherny mirror",
-      "url": "https://twstalker.com/bcherny"
+      "title": "ClaudeDevs mirror",
+      "url": "https://twstalker.com/ClaudeDevs"
     },
     {
-      "title": "Thariq mirror",
-      "url": "https://mobile.twstalker.com/trq212"
+      "title": "Ado /btw post",
+      "url": "https://twstalker.com/adocomplete/status/2032494087295693078"
     },
     {
       "title": "Claude Code releases",
