@@ -1,14 +1,14 @@
 {
   "date": "2026-08-08",
-  "windowLabel": "2026-08-07 17:01:29 UTC - 2026-08-08 17:01:29 UTC",
+  "windowLabel": "2026-08-07 23:02:20 UTC - 2026-08-08 23:02:20 UTC",
   "archiveTitle": "Auto mode posts and two Claude Code patch releases",
   "archiveSummary": "Official 3件、engineer signal 0件、Claude Code release 2件。",
-  "latestSummary": "2026-08-07 17:01:29 UTC から 2026-08-08 17:01:29 UTC の24時間では、official site で <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>、<strong>Running auto mode in production</strong>、<strong>Improving Fable 5's biology safeguards</strong> が確認できた。Claude Code はこの窓で <strong>v2.1.225</strong> と <strong>v2.1.226</strong> を公開し、official GitHub release page で release note 全 <strong>15項目</strong> を確認した。X 監視はこのスレッドで <strong>x_mcp</strong> が使えず、公開プロフィールも login wall のため、official / engineer X の新規採用は見送っている。",
+  "latestSummary": "2026-08-07 23:02:20 UTC から 2026-08-08 23:02:20 UTC の24時間では、official site で <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>、<strong>Running auto mode in production</strong>、<strong>Improving Fable 5's biology safeguards</strong> が確認できた。Claude Code はこの窓で <strong>v2.1.225</strong> と <strong>v2.1.226</strong> を公開し、official GitHub release note の visible bullet 全 <strong>15項目</strong> を確認した。X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
     "<strong>official site 3件</strong>: <strong>Claude Blog</strong> に <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong> と <strong>Running auto mode in production</strong>、<strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong> が載った。",
     "<strong>Claude Code 2 release</strong>: この24時間窓に <strong>v2.1.225</strong> と <strong>v2.1.226</strong> が続けて公開された。<strong>v2.1.225</strong> は <strong>新機能 3件</strong>、<strong>変更 1件</strong>、<strong>修正 10件</strong>、<strong>v2.1.226</strong> は <strong>修正 1件</strong>。",
     "<strong>Auto mode default化</strong>: <strong>2026-08-14</strong> から Pro / Max / Team の新規 Claude Code session が auto mode default になり、classifier overhead の追加課金は <strong>2026-08-07</strong> から止まると案内された。",
-    "<strong>Biology safeguards 更新</strong>: Fable 5 の biology-related fallback を約 <strong>85%</strong> 減らしつつ、virology・toxicology・molecular design など dual-use query は引き続き Opus 5 へ fallback すると説明された。"
+    "<strong>Biology safeguards 更新</strong>: Fable 5 の biology-related fallback を約 <strong>85%</strong> 減らしつつ、virology・toxicology・molecular design など dual-use query は引き続き Opus 5 へ fallback すると説明された."
   ],
   "officialNews": [
     {
@@ -45,15 +45,15 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> が使えず、公開 Web から見える X profile も login wall で post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から見える X profile も login wall に近い制約があり、post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic Engineering / Research の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jun 26, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>2026-04-23</strong>、<strong>Anthropic Research</strong> の最新 visible dated entry は <strong>2026-07-28</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず公開 profile では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
@@ -143,9 +143,8 @@
   ],
   "exclusions": [
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だった。",
-    "公開 Web から取得できる X profile は login wall で post 本文・時刻・URL の整合が弱く、高信頼の official / engineer post のみを採用する基準を満たさなかった。",
-    "この実行では <code>gh</code> が <code>api.github.com</code> に接続できなかったため、Claude Code release は official GitHub releases page の visible metadata と release note で確認した。",
-    "Aug 7, 2026 の official blog/news 記事は listing / article で日付のみ visible で publish time は見えなかったため、この24時間窓への採用は visible publication date ベースで行っている。"
+    "公開 Web から取得できる X profile は login wall に近く、post 本文・時刻・URL の整合が弱いため、高信頼の official / engineer post のみを採用する基準を満たさなかった。",
+    "2026-08-07 の official blog/news 記事は listing / article で日付のみ visible で publish time は見えなかったため、この24時間窓への採用は visible publication date ベースで行っている。"
   ],
   "sources": [
     {
