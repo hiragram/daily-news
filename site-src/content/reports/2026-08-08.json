@@ -1,0 +1,204 @@
+{
+  "date": "2026-08-08",
+  "windowLabel": "2026-08-07 05:01:51 UTC - 2026-08-08 05:01:51 UTC",
+  "archiveTitle": "Auto mode posts and two Claude Code patch releases",
+  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code release 2件。",
+  "latestSummary": "2026-08-07 05:01:51 UTC から 2026-08-08 05:01:51 UTC の24時間では、official site で <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>、<strong>Running auto mode in production</strong>、<strong>Improving Fable 5's biology safeguards</strong> が確認できた。Claude Code はこの窓で <strong>v2.1.225</strong> と <strong>v2.1.226</strong> を公開し、前者は usage warning・workspace trust・SendMessage・Remote Control まわりを更新、後者は <strong>Bug fixes and reliability improvements</strong> のパッチを出した。公開Webだけでは X 投稿の本文・時刻・URL を高信頼に揃えられず、official / engineer X の新規採用は見送っている。",
+  "summaryBullets": [
+    "<strong>official site 3件</strong>: <strong>Claude Blog</strong> に <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong> と <strong>Running auto mode in production</strong>、<strong>Anthropic News</strong> に <strong>Improving Fable 5's biology safeguards</strong> が載った。",
+    "<strong>Claude Code 2 release</strong>: この24時間窓に <strong>v2.1.225</strong> と <strong>v2.1.226</strong> が続けて公開された。<strong>v2.1.225</strong> は <strong>新機能 5件</strong>、<strong>変更 2件</strong>、<strong>修正 7件</strong>、<strong>v2.1.226</strong> は <strong>修正 1件</strong>。",
+    "<strong>Auto mode default化</strong>: <strong>2026-08-14</strong> から Pro / Max / Team の新規 Claude Code session が auto mode default になり、classifier overhead の追加課金は <strong>2026-08-07</strong> から止まると案内された。",
+    "<strong>Biology safeguards 更新</strong>: Fable 5 の biology-related fallback を約 <strong>85%</strong> 減らしつつ、virology・toxicology・molecular design など dual-use query は引き続き Opus 5 へ fallback すると説明された。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-08-07T00:00:00Z",
+      "displayTime": "2026-08-07",
+      "title": "Claude Blog: Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "summary": "<strong>Claude Blog</strong> は、<strong>2026-08-14</strong> から Pro / Max / Team の新規 Claude Code session を <strong>auto mode</strong> default に切り替えると案内した。既存の pinned default は維持され、classifier overhead への追加課金は <strong>2026-08-07</strong> から停止する。",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-07T00:00:00Z",
+      "displayTime": "2026-08-07",
+      "title": "Claude Blog: Running auto mode in production",
+      "summary": "<strong>Claude Blog</strong> は、auto mode classifier が manual prompt より危険操作を多く検出し、Claude Code の中断間隔を平均 <strong>9倍</strong> 伸ばしたと説明した。Nuro、Gusto、Garner Health の運用例を通じて、長時間エージェント実行や governed MCP 環境での利用を紹介している。",
+      "url": "https://claude.com/blog/auto-mode-in-production",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-07T00:00:00Z",
+      "displayTime": "2026-08-07",
+      "title": "Anthropic News: Improving Fable 5's biology safeguards",
+      "summary": "<strong>Anthropic News</strong> は、Fable 5 の biology safeguards を更新し、biology 関連 fallback を約 <strong>85%</strong> 減らしたと説明した。health / education 系の false positive を抑えつつ、dual-use な biology query は引き続き <strong>Opus 5</strong> に reroute する。",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "urlLabel": "記事を読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> が使えず、公開 Web から見える X ページや検索結果も本文・時刻・URL の整合が弱かった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic Engineering / Research の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Jul 28, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず公開 Web だけでは Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry として <strong>Claude Blog</strong> 2件、<strong>Anthropic News</strong> 1件を確認した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 dated entry がなかった。",
+      "details": [
+        "<strong>Claude Blog</strong>: <strong>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</strong>（<strong>Aug 7, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Running auto mode in production</strong>（<strong>Aug 7, 2026</strong>）",
+        "<strong>Anthropic News</strong>: <strong>Improving Fable 5's biology safeguards</strong>（<strong>Aug 7, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 新規 dated entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub releases page の visible metadata では、この24時間窓に <strong>v2.1.225</strong> と <strong>v2.1.226</strong> が公開されていた。<strong>v2.1.225</strong> は release note の全 <strong>14 項目</strong> を <strong>新機能 / 変更 / 修正</strong> に分けて和訳し、<strong>v2.1.226</strong> も visible bullet をそのまま分類した。",
+      "details": [
+        "公開時刻: <strong>v2.1.226</strong> は <strong>2026-08-08 02:48 UTC</strong>",
+        "公開時刻: <strong>v2.1.225</strong> は <strong>2026-08-08 01:09 UTC</strong>",
+        "<strong>v2.1.226</strong> は visible な <code>What's changed</code> が 1項目",
+        "<strong>v2.1.225</strong> は visible な <code>What's changed</code> が 14項目"
+      ],
+      "releases": [
+        {
+          "version": "v2.1.226",
+          "publishedAt": "2026-08-08 02:48 UTC",
+          "summary": "小規模なパッチリリースで、GitHub release page では <strong>Bug fixes and reliability improvements</strong> の 1項目のみが visible だった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+          "urlLabel": "v2.1.226 release note"
+        },
+        {
+          "version": "v2.1.225",
+          "publishedAt": "2026-08-08 01:09 UTC",
+          "summary": "gateway spend-limit warning、workspace trust prompt、SendMessage、Remote Control、self-hosted runner、VS Code Focus view などを更新したパッチリリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "gateway の spend-limit 対応を Claude Code の usage warning に追加し、上限到達メッセージに cap 名、reset 時刻、operator message を表示するようにした。",
+                "信頼されていない directory で <code>claude agents</code> を使う際に、<code>claude</code> と同様の <strong>workspace trust prompt</strong> を追加した。",
+                "Remote Control を改善し、Claude app から添付した写真を別ツールで disk 読み込みせず Claude に直接見せるようにした。",
+                "<strong>SendMessage</strong> が、他マシン上の Remote Control session から先に message を受けていなくても、名前指定で新しい会話を開始できるようにした。<code>ListAgents</code> では <code>name [ref]</code> 形式で見える。",
+                "<strong>SendMessage</strong> で、すでに確認済みの Remote Control recipient が、一覧確認に失敗したときに同名のこのマシン上 session へすり替わらないようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "auto mode が自身の permission check を safety filter で拒否されたケースを consecutive-block limit に数えないように変更し、拒否自体は維持しつつ model には retry ではなく先へ進むよう伝えるようにした。",
+                "Claude Code on the web session が reconnect のたびに growing event backlog を再送して stuck と誤判定される問題を見直し、表示上の扱いを改善した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "長寿命の <code>CLAUDE_CODE_OAUTH_TOKEN</code> を保存済み login の短寿命 token に置き換えた際、restart まで headless session が壊れる一時的な 401 を修正した。",
+                "macOS で MCP OAuth server が keychain read timeout のあと、未認証のように 401 を連発することがあった問題を修正した。",
+                "cross-session message が headless session や startup 中に notice も expiry もなく parked されたままになる問題を修正した。",
+                "巨大な conversation が compact されたあと、Remote Control session resume で conversation history が壊れる問題を修正した。",
+                "別 project の session に hover しただけで、次の agent がその directory で起動してしまう問題を修正した。",
+                "<code>claude self-hosted-runner</code> で <code>--base-dir</code> を作成・書き込みできない場合に、登録後すべての session が失敗していた問題を修正し、startup 時点で明確な error を返すようにした。",
+                "[VSCode] Focus view で最新の to-do、pending question の文脈、解決済み回答まで fold されてしまう問題を修正し、thinking-only fold の表示も改善した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+          "urlLabel": "v2.1.225 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出だった。",
+    "公開 Web から取得できる X 検索・プロフィール情報は stale または本文・時刻・URL の整合が弱く、高信頼の official / engineer post のみを採用する基準を満たさなかった。",
+    "<strong>Claude Code</strong> release は、本来スキル指定どおり <code>gh release view</code> を source of truth にすべきだが、この環境では <code>api.github.com</code> 接続が失敗したため、GitHub releases page の visible metadata と visible bullet を採用した。",
+    "Aug 7, 2026 の official blog/news 記事は listing / article で日付のみ visible で publish time は見えなかったため、この24時間窓への採用は visible publication date ベースで行っている。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Improving Fable 5's biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+    },
+    {
+      "title": "Running auto mode in production",
+      "url": "https://claude.com/blog/auto-mode-in-production"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.226",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
+    },
+    {
+      "title": "Claude Code release v2.1.225",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225"
+    },
+    {
+      "title": "Claude X profile search result checked for availability",
+      "url": "https://x.com/claudeai/with_replies"
+    },
+    {
+      "title": "Anthropic X affiliates page checked for availability",
+      "url": "https://mobile.x.com/AnthropicAI/affiliates"
+    },
+    {
+      "title": "Alex Albert X profile search result checked for availability",
+      "url": "https://x.com/alexalbert__/with_replies"
+    }
+  ]
+}
