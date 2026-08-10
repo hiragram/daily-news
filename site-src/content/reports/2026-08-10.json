@@ -1,9 +1,9 @@
 {
   "date": "2026-08-10",
-  "windowLabel": "2026-08-09 05:02:28 UTC - 2026-08-10 05:02:28 UTC",
+  "windowLabel": "2026-08-09 11:02:29 UTC - 2026-08-10 11:02:29 UTC",
   "archiveTitle": "No new official Claude items in the latest 24 hours",
   "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-09 05:02:28 UTC から 2026-08-10 05:02:28 UTC の24時間では、Anthropic / Claude の official blog・news に新規 dated entry は確認できなかった。Claude Code の最新 official release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この窓には新しい release が入っていない。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも post 本文・時刻・canonical URL を取得できなかったため、高信頼の新規採用は見送っている。",
+  "latestSummary": "2026-08-09 11:02:29 UTC から 2026-08-10 11:02:29 UTC の24時間では、Anthropic / Claude の official blog・news に新規 dated entry は確認できなかった。Claude Code の最新 official release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この窓には新しい release が入っていない。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも post 本文・時刻・canonical URL を取得できなかったため、高信頼の新規採用は見送っている。",
   "summaryBullets": [
     "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の watch 対象 listing には、この24時間窓に入る新規 dated entry がなかった。",
     "<strong>Claude Code release 0件</strong>: official GitHub releases page の最新は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この窓の開始時刻より前だった。",
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "Anthropic / Claude の official site 新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>Jul 28, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 6, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
@@ -42,12 +42,12 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "official GitHub releases page の最新 release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この24時間窓には新しい Claude Code release が入っていなかった。確認のため <strong>v2.1.226</strong> と <strong>v2.1.225</strong> の full release note も <code>gh release view</code> で取得したが、いずれも窓外だった。",
+      "body": "official GitHub releases page の最新 release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この24時間窓には新しい Claude Code release が入っていなかった。1つ前の <strong>v2.1.225</strong>（<strong>2026-08-08 01:09:26 UTC</strong>）も同様に窓外だった。",
       "details": [
         "最新 release: <strong>v2.1.226</strong>",
         "公開時刻: <strong>2026-08-08 02:48:05 UTC</strong>",
         "1つ前の release: <strong>v2.1.225</strong>（<strong>2026-08-08 01:09:26 UTC</strong>）",
-        "この窓の開始時刻: <strong>2026-08-09 05:02:28 UTC</strong>"
+        "この窓の開始時刻: <strong>2026-08-09 11:02:29 UTC</strong>"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
