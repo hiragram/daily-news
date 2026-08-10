@@ -1,62 +1,94 @@
 {
   "date": "2026-08-10",
-  "windowLabel": "2026-08-09 17:01:36 UTC - 2026-08-10 17:01:36 UTC",
-  "archiveTitle": "No new official Claude items in the latest 24 hours",
-  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-09 17:01:36 UTC から 2026-08-10 17:01:36 UTC の24時間では、Anthropic / Claude の official blog・news に新規 dated entry は確認できなかった。Claude Code の最新 official release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この窓には新しい release が入っていない。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも post 本文・時刻・canonical URL を取得できなかったため、高信頼の新規採用は見送っている。",
+  "windowLabel": "2026-08-09 23:02:53 UTC - 2026-08-10 23:02:53 UTC",
+  "archiveTitle": "New Anthropic research and Claude Code v2.1.227",
+  "archiveSummary": "Official 1件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-09 23:02:53 UTC から 2026-08-10 23:02:53 UTC の24時間では、official site で <strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> が新規掲載された。Claude Code は <strong>v2.1.227</strong> を <strong>2026-08-10 22:56:53 UTC</strong> に公開し、release note の visible bullet 全5項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
-    "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の watch 対象 listing には、この24時間窓に入る新規 dated entry がなかった。",
-    "<strong>Claude Code release 0件</strong>: <code>gh release list</code> と <code>gh release view</code> で最新 release の full body を確認したが、最新の <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）も、その1つ前の <strong>v2.1.225</strong>（<strong>2026-08-08 01:09:26 UTC</strong>）も窓外だった。",
-    "<strong>X 監視は採用なし</strong>: official / engineer いずれの監視対象も、利用可能な取得経路では本文・時刻・canonical URL の整合が取れず、高信頼の product signal として採用していない。"
+    "<strong>official site 1件</strong>: <strong>Anthropic Research</strong> に <strong>Learning more about Claude's mathematical capabilities</strong>（<strong>Aug 10, 2026</strong>）が追加された。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.227</strong> が <strong>2026-08-10 22:56:53 UTC</strong> に公開された。release note の visible bullet は <strong>変更 2件</strong>、<strong>修正 3件</strong>。",
+    "<strong>数学能力の進展</strong>: unreleased research version の Claude が、リーマン予想そのものは解けなかった一方で、関連問題に対して既知下限 <strong>41.6%</strong> を <strong>67.2%</strong> に引き上げる結果を出したと報告された。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路が使えず、高信頼の in-window post を確定できなかった。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-08-10T00:00:00Z",
+      "displayTime": "2026-08-10",
+      "title": "Anthropic Research: Learning more about Claude's mathematical capabilities",
+      "summary": "<strong>Anthropic Research</strong> は、unreleased research version の Claude がリーマン予想の直接解決には至らなかったものの、リーマンゼータ関数の零点のうち仮説を満たす割合の既知下限を <strong>41.6%</strong> から <strong>67.2%</strong> に引き上げたと報告した。記事では、<strong>Claude Code</strong> 上で約 <strong>60</strong> の subagent と <strong>31 million</strong> output tokens を使って探索し、社内数学者が結果を検証した流れも説明している。",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "urlLabel": "記事を読む",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "Anthropic / Claude の official site 新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Jul 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 7, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "label": "Anthropic Engineering / News / Claude Blog の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>August 6, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、tool discovery でも利用可能な X 検索 MCP を取得できなかった。公開 Web から開ける X profile も login wall に近く、post 本文・時刻・canonical URL を揃えて高信頼に裏取りできる official X main post は final report に採用していない。"
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から見える X profile も login wall に近い制約があり、post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象についても、公開 profile と検索 snippet では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry を確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> のいずれも既知記事のみが visible だった。",
+      "headline": "1件",
+      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> の 1件のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には新規 dated entry がなかった。",
       "details": [
+        "<strong>Anthropic Research</strong>: <strong>Learning more about Claude's mathematical capabilities</strong>（<strong>Aug 10, 2026</strong>）",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
-        "<strong>Anthropic Research</strong>: 新規 dated entry 0件",
         "<strong>Anthropic News</strong>: 新規 dated entry 0件",
         "<strong>Claude Blog</strong>: 新規 dated entry 0件"
       ],
-      "url": "https://www.anthropic.com/news",
-      "urlLabel": "Anthropic News 一覧"
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Anthropic Research 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "official GitHub releases page の最新 release は <strong>v2.1.226</strong>（<strong>2026-08-08 02:48:05 UTC</strong>）で、この24時間窓には新しい Claude Code release が入っていなかった。確認のため <strong>v2.1.226</strong> と <strong>v2.1.225</strong> の full release note も <code>gh release view</code> で取得したが、いずれも窓外だった。",
-      "details": [
-        "最新 release: <strong>v2.1.226</strong>",
-        "公開時刻: <strong>2026-08-08 02:48:05 UTC</strong>",
-        "1つ前の release: <strong>v2.1.225</strong>（<strong>2026-08-08 01:09:26 UTC</strong>）",
-        "この窓の開始時刻: <strong>2026-08-09 17:01:36 UTC</strong>"
+      "headline": "1件",
+      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.227</strong> が公開されていた。release note の visible bullet 全5項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> ではなく、実際の内容に沿って <strong>変更 / 修正</strong> に分けて省略なく和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.227",
+          "publishedAt": "2026-08-10 22:56 UTC",
+          "summary": "<strong>v2.1.227</strong> は、slash-command menu の視認性改善と file-not-found / at-mention 周りの性能改善を含みつつ、subscription tier 判定、<code>claude-code-action</code> 上の Bash 実行、rewind 後の <code>/tui</code> 復元に関する不具合を直したパッチリリース。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "slash-command menu を改善し、青色ハイライトは選択中の行だけに適用し、一致文字は色変更ではなく太字で示すようにした。emoji やアクセント付きの command 名でも glyph を崩さない。",
+                "性能を改善し、file-not-found suggestion と at-mention size check で event-loop stall が減るようにした."
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "expired login token で session が始まった場合に、feature flag が user の subscription tier を見ずに評価され、Max plan user に誤って Fable 用の usage credits 有効化を促してしまう問題を修正した。",
+                "<code>claude-code-action</code> で <code>allowed_non_write_users</code> を設定した GitHub-hosted runner 上で、すべての Bash command が失敗していた問題を修正した。",
+                "<code>/tui</code> が、最初の message より前まで rewind された conversation を誤って復活させてしまう問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
+          "urlLabel": "v2.1.227 release note"
+        }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code Releases"
     }
   ],
   "exclusions": [
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、tool discovery でも利用可能な X 検索 MCP を取得できなかった。",
-    "公開 Web から取得できる X profile は login wall に近く、post 本文・時刻・URL の整合が弱いため、高信頼の official / engineer post のみを採用する基準を満たさなかった。",
-    "Claude Code の最新 official release は <strong>v2.1.226</strong>、その1つ前は <strong>v2.1.225</strong> だったが、いずれもこの24時間窓の外だったため release panel は <strong>0件</strong> とした。"
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全5項目を <strong>変更 / 修正</strong> に分類して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -66,6 +98,10 @@
     {
       "title": "Anthropic Research",
       "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta"
     },
     {
       "title": "Anthropic News",
@@ -80,12 +116,8 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code release v2.1.226",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
-    },
-    {
-      "title": "Claude Code release v2.1.225",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225"
+      "title": "Claude Code release v2.1.227",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227"
     },
     {
       "title": "Anthropic X profile checked",
@@ -93,7 +125,7 @@
     },
     {
       "title": "Claude X profile checked",
-      "url": "https://x.com/claudeai/with_replies"
+      "url": "https://x.com/ClaudeAI/with_replies"
     },
     {
       "title": "ClaudeDevs X profile checked",
@@ -104,12 +136,12 @@
       "url": "https://x.com/alexalbert__/with_replies"
     },
     {
-      "title": "Felix Rieseberg X profile checked",
-      "url": "https://x.com/felixrieseberg/with_replies"
-    },
-    {
       "title": "Boris Cherny X profile checked",
       "url": "https://x.com/bcherny/with_replies"
+    },
+    {
+      "title": "Felix Rieseberg X profile checked",
+      "url": "https://x.com/felixrieseberg/with_replies"
     }
   ]
 }
