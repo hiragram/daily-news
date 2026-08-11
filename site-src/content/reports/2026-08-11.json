@@ -1,16 +1,26 @@
 {
   "date": "2026-08-11",
-  "windowLabel": "2026-08-10 11:01:28 UTC - 2026-08-11 11:01:28 UTC",
-  "archiveTitle": "Anthropic research update and Claude Code v2.1.227",
-  "archiveSummary": "Official 1件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-10 11:01:28 UTC から 2026-08-11 11:01:28 UTC の24時間では、official site で <strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> が新規掲載された。Claude Code は <strong>v2.1.227</strong> を <strong>2026-08-10 22:56:53 UTC</strong> に公開し、release note の visible bullet 全5項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも in-window post の本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "windowLabel": "2026-08-10 17:02:11 UTC - 2026-08-11 17:02:11 UTC",
+  "archiveTitle": "Claude compliance API update and math research",
+  "archiveSummary": "Official 2件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-10 17:02:11 UTC から 2026-08-11 17:02:11 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件が新規掲載された。Claude Code は <strong>v2.1.227</strong> を <strong>2026-08-10 22:56:53 UTC</strong> に公開し、release note の visible bullet 全5項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
-    "<strong>official site 1件</strong>: <strong>Anthropic Research</strong> に <strong>Learning more about Claude's mathematical capabilities</strong>（<strong>Aug 10, 2026</strong>）が追加された。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.227</strong> が <strong>2026-08-10 22:56:53 UTC</strong> に公開された。release note の visible bullet 全5項目を和訳し、<strong>変更 2件</strong>、<strong>修正 3件</strong> に分類した。",
-    "<strong>数学能力の進展</strong>: unreleased research version の Claude が、リーマン予想そのものは解けなかった一方で、関連問題の既知下限を <strong>41.6%</strong> から <strong>67.2%</strong> に引き上げたと報告された。",
+    "<strong>official site 2件</strong>: <strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> と、<strong>Claude Blog</strong> の <strong>Compliance API coverage extends to Claude Cowork and Claude Code</strong> がこの24時間窓に入った。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.227</strong> が <strong>2026-08-10 22:56:53 UTC</strong> に公開された。release note の visible bullet 全5項目を和訳し、<strong>新機能 0件</strong>、<strong>変更 2件</strong>、<strong>修正 3件</strong> の形で整理した。",
+    "<strong>Compliance API 拡張</strong>: Claude Blog では、<strong>Claude Cowork</strong> と <strong>Claude Code</strong> の session transcript / metadata が Enterprise 向け beta として同じ Compliance API から取得可能になったと案内した。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路が使えず、高信頼の in-window post を確定できなかった。"
   ],
   "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-08-11T00:00:00Z",
+      "displayTime": "2026-08-11",
+      "title": "Claude Blog: Compliance API coverage extends to Claude Cowork and Claude Code",
+      "summary": "<strong>Claude Blog</strong> は、Enterprise 向け beta として <strong>Compliance API</strong> の対象を <strong>Claude Cowork</strong> と <strong>Claude Code</strong> に拡張した。CLI / desktop app 上の Claude Code と、desktop / web / mobile の Cowork session について、prompt・response・tool activity をまとめた transcript と、verified user ID・email・organization ID・message timestamp などの metadata を、既存の Compliance API と同じ窓口から取得できると説明している。",
+      "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
     {
       "label": "Official",
       "datetime": "2026-08-10T00:00:00Z",
@@ -18,14 +28,13 @@
       "title": "Anthropic Research: Learning more about Claude's mathematical capabilities",
       "summary": "<strong>Anthropic Research</strong> は、unreleased research version の Claude がリーマン予想の直接解決には至らなかったものの、リーマンゼータ関数の零点のうち仮説を満たす割合の既知下限を <strong>41.6%</strong> から <strong>67.2%</strong> に引き上げたと報告した。記事では、<strong>Claude Code</strong> 上で約 <strong>60</strong> の subagent と <strong>31 million</strong> output tokens を使って探索し、社内数学者が結果を検証した流れも説明している。",
       "url": "https://www.anthropic.com/research/riemann-zeta",
-      "urlLabel": "記事を読む",
-      "primary": true
+      "urlLabel": "記事を読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering / News / Claude Blog の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 7, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "label": "Anthropic Engineering / News の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
@@ -40,21 +49,21 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> の 1件のみだった。<strong>Anthropic Engineering</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> には新規 dated entry がなかった。",
+      "headline": "2件",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規 dated entry がなかった。",
       "details": [
+        "<strong>Claude Blog</strong>: <strong>Compliance API coverage extends to Claude Cowork and Claude Code</strong>（<strong>August 11, 2026</strong>）",
         "<strong>Anthropic Research</strong>: <strong>Learning more about Claude's mathematical capabilities</strong>（<strong>Aug 10, 2026</strong>）",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
-        "<strong>Anthropic News</strong>: 新規 dated entry 0件",
-        "<strong>Claude Blog</strong>: 新規 dated entry 0件"
+        "<strong>Anthropic News</strong>: 新規 dated entry 0件"
       ],
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Anthropic Research 一覧"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.227</strong> が公開されていた。release note の visible bullet 全5項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> の枠で整理しつつ、省略なく和訳している。",
+      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.227</strong> が公開されていた。release note の visible bullet 全5項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
         {
           "version": "v2.1.227",
@@ -64,7 +73,7 @@
             {
               "title": "新機能",
               "items": [
-                "新機能として独立して追加された項目はなく、この release note の visible bullet は改善 2件と不具合修正 3件で構成されている。"
+                "この release note の visible bullet に、新機能として独立して追加された項目はなかった。"
               ]
             },
             {
@@ -94,7 +103,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全5項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全5項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。release note 自体に独立した新機能 bullet はないため、<strong>新機能</strong> 欄ではその旨を明示している。"
   ],
   "sources": [
     {
@@ -118,6 +127,10 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "url": "https://claude.com/blog/compliance-api-cowork-and-claude-code"
+    },
+    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
@@ -130,10 +143,6 @@
       "url": "https://x.com/AnthropicAI/with_replies"
     },
     {
-      "title": "Claude X profile checked",
-      "url": "https://x.com/claudeai/with_replies"
-    },
-    {
       "title": "ClaudeDevs X profile checked",
       "url": "https://x.com/ClaudeDevs/with_replies"
     },
@@ -142,12 +151,12 @@
       "url": "https://x.com/alexalbert__/with_replies"
     },
     {
-      "title": "Felix Rieseberg X profile checked",
-      "url": "https://x.com/felixrieseberg/with_replies"
-    },
-    {
       "title": "Boris Cherny X profile checked",
       "url": "https://x.com/bcherny/with_replies"
+    },
+    {
+      "title": "Felix Rieseberg X profile checked",
+      "url": "https://x.com/felixrieseberg/with_replies"
     }
   ]
 }
