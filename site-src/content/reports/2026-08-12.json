@@ -1,9 +1,9 @@
 {
   "date": "2026-08-12",
-  "windowLabel": "2026-08-11 05:02:18 UTC - 2026-08-12 05:02:18 UTC",
+  "windowLabel": "2026-08-11 17:01:45 UTC - 2026-08-12 17:01:45 UTC",
   "archiveTitle": "Claude Code v2.1.228 with quiet official channels",
   "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-11 05:02:18 UTC から 2026-08-12 05:02:18 UTC の24時間では、official site 4面に新規 dated entry は確認できなかった。Claude Code は <strong>v2.1.228</strong> を <strong>2026-08-11 19:50:59 UTC</strong> に公開し、release note の visible bullet 全18項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "latestSummary": "2026-08-11 17:01:45 UTC から 2026-08-12 17:01:45 UTC の24時間では、official site 4面に新規 dated entry は確認できなかった。Claude Code は <strong>v2.1.228</strong> を <strong>2026-08-11 19:50:59 UTC</strong> に公開しており、この window 内に入るため、release note の visible bullet 全18項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
     "<strong>Official 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing で、この24時間窓に入る visible publication date の新着は確認できなかった。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.228</strong> が <strong>2026-08-11 19:50:59 UTC</strong> に公開された。release note の visible bullet 全18項目を和訳し、<strong>新機能 0件</strong>、<strong>変更 7件</strong>、<strong>修正 11件</strong> の形で整理した。",
@@ -96,7 +96,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> は visible publication date が <strong>Aug 10, 2026</strong> で、今回 window 開始 <strong>2026-08-11 05:02:18 UTC</strong> より前のため officialNews には入れていない。",
+    "<strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> は visible publication date が <strong>Aug 10, 2026</strong> で、今回 window 開始 <strong>2026-08-11 17:01:45 UTC</strong> より前のため officialNews には入れていない。",
     "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全18項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。release note 自体に独立した新機能 bullet はないため、<strong>新機能</strong> 欄ではその旨を明示している。"
   ],
   "sources": [
