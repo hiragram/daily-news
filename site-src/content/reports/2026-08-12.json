@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-12",
+  "windowLabel": "2026-08-11 05:02:18 UTC - 2026-08-12 05:02:18 UTC",
+  "archiveTitle": "Claude Code v2.1.228 with quiet official channels",
+  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-11 05:02:18 UTC から 2026-08-12 05:02:18 UTC の24時間では、official site 4面に新規 dated entry は確認できなかった。Claude Code は <strong>v2.1.228</strong> を <strong>2026-08-11 19:50:59 UTC</strong> に公開し、release note の visible bullet 全18項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "summaryBullets": [
+    "<strong>Official 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各 listing で、この24時間窓に入る visible publication date の新着は確認できなかった。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.228</strong> が <strong>2026-08-11 19:50:59 UTC</strong> に公開された。release note の visible bullet 全18項目を和訳し、<strong>新機能 0件</strong>、<strong>変更 7件</strong>、<strong>修正 11件</strong> の形で整理した。",
+    "<strong>Claude Code の主眼</strong>: self-hosted runner、Remote Control、cross-session messaging、settings merge、memory cleanup など広い面の不具合修正が中心で、加えて <code>Write</code> tool の上書きルール緩和や compaction / Vertex AI credential handling の改善が入った。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路が使えず、高信頼の in-window post を確定できなかった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイト4面の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 10, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 5, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から見える X profile も login wall に近い制約があり、post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> はいずれも先頭 visible date が window 開始より前だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong>",
+        "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 10, 2026</strong> の <strong>Learning more about Claude's mathematical capabilities</strong>",
+        "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 7, 2026</strong>",
+        "<strong>Claude Blog</strong>: 最新 visible date は <strong>Aug 5, 2026</strong>"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.228</strong> が公開されていた。release note の visible bullet 全18項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.228",
+          "publishedAt": "2026-08-11 19:50 UTC",
+          "summary": "<strong>v2.1.228</strong> は、interactive session の描画停止、Windows の <code>git</code> 検出、Remote Control / self-hosted runner / cross-session messaging 周辺の不具合を広く直しつつ、skills hardening、Vertex AI credential handling、compaction progress 表示、<code>Write</code> tool の上書きルールなども見直したパッチリリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "この release note の visible bullet に、新機能として独立して追加された項目はなかった。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "claude.ai から同期された skill を harden し、local command や MCP prompt を shadow しないようにし、description を sanitize して label 付けし、ローカル環境では本文から <code>!</code> command 実行や <code>@</code> file 展開を起こさないようにした。",
+                "cross-session message の表示を改善し、sender と本文を collapsed line ではなく inline で見せるようにした。別マシン上の Remote Control session への message では、送信者として Remote Control session 名を表示するようにした。",
+                "Vertex AI credential handling を改善し、Google Cloud credential が期限切れまたは欠落している場合に、数分リトライするのではなく数秒で失敗を返すようにした。",
+                "compaction progress を改善し、retry countdown と stall hint を progress bar だけでなく compaction 中にも表示するようにした。",
+                "terminal title の busy-spinner glyph を更新し、一部 terminal で tab bar が jitter しにくいようにした。",
+                "Write tool の挙動を変更し、新しい model ではこの session でまだ読んでいない既存 file でも上書きできるようにして、Edit tool のルールに合わせた。古い model では引き続き先に read が必要なままにした。",
+                "Pro / Max / Team plan 向け auto mode 初回案内に残っていた、session cost が少し高いという古い note を削除した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "まれな internal layout error の後で process は動き続けているのに interactive session が完全に再描画しなくなる問題を修正した。",
+                "Claude Code を git installation の親 folder から起動したときに、Windows で <code>git</code> / Git Bash が見つからなくなる問題を修正した。",
+                "<code>/model</code> を前回 response 以降に変更していた場合でも、<code>/tui</code> が session を以前の model に戻してしまう問題を修正した。",
+                "install または upgrade 後の最初の session で、cross-session messaging が inbox なしで始まってしまうことがある問題を修正した。",
+                "接続中の Remote Control session で <code>/resume</code> したときに、resume した conversation の title や history が接続先 session に漏れる問題を修正した。",
+                "<code>claude self-hosted-runner</code> session で、push 先ではない repository の checkout hook が失敗すると fresh runner すべてで session 失敗扱いになる問題を修正し、その repository は warning 付きで skip するようにした。",
+                "background task 完了から follow-up turn 開始までの隙間で、self-hosted runner が session を終了してしまう問題を修正した。",
+                "session cleanup が project の memory folder 内の内容まで削除してしまう問題を修正した。",
+                "symlink された development checkout だけを持つ plugin で、background plugin-cache cleanup がその cache を削除してしまう問題を修正した。",
+                "marketplace entry を高 precedence の settings tier で再定義したときに、別 tier の custom header を引き継いでしまう settings-merge 問題を修正し、marketplace entry は entry 単位で merge するようにした。",
+                "skill invocation 後に deferred-tools reminder が model へ二重送信されることがある問題を修正した."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
+          "urlLabel": "v2.1.228 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Anthropic Research</strong> の <strong>Learning more about Claude's mathematical capabilities</strong> は visible publication date が <strong>Aug 10, 2026</strong> で、今回 window 開始 <strong>2026-08-11 05:02:18 UTC</strong> より前のため officialNews には入れていない。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全18項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。release note 自体に独立した新機能 bullet はないため、<strong>新機能</strong> 欄ではその旨を明示している。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Learning more about Claude's mathematical capabilities",
+      "url": "https://www.anthropic.com/research/riemann-zeta"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.228",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228"
+    },
+    {
+      "title": "Anthropic X profile checked",
+      "url": "https://x.com/AnthropicAI/with_replies"
+    },
+    {
+      "title": "Claude X profile checked",
+      "url": "https://x.com/ClaudeAI/with_replies"
+    },
+    {
+      "title": "ClaudeDevs X profile checked",
+      "url": "https://x.com/ClaudeDevs/with_replies"
+    },
+    {
+      "title": "Alex Albert X profile checked",
+      "url": "https://x.com/alexalbert__/with_replies"
+    },
+    {
+      "title": "Boris Cherny X profile checked",
+      "url": "https://x.com/bcherny/with_replies"
+    }
+  ]
+}
