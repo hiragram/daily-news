@@ -1,14 +1,14 @@
 {
   "date": "2026-08-13",
-  "windowLabel": "2026-08-12 11:02:56 UTC - 2026-08-13 11:02:56 UTC",
-  "archiveTitle": "Claude Tag update and Claude Code v2.1.231",
-  "archiveSummary": "Official 4件、engineer signal 0件、Claude Code releases 2件。",
-  "latestSummary": "2026-08-12 11:02:56 UTC から 2026-08-13 11:02:56 UTC の24時間では、official site で <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 2件を確認した。Claude Code は <strong>v2.1.231</strong> を <strong>2026-08-13 08:38:50 UTC</strong>、<strong>v2.1.229</strong> を <strong>2026-08-12 20:56:22 UTC</strong> に公開しており、release note の visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile も本文・時刻・canonical URL を揃えられなかったため、新規採用は見送っている。",
+  "windowLabel": "2026-08-12 23:01:25 UTC - 2026-08-13 23:01:25 UTC",
+  "archiveTitle": "Claude Tag updates and Claude Code v2.1.231",
+  "archiveSummary": "Official 6件、engineer signal 0件、Claude Code releases 2件。",
+  "latestSummary": "2026-08-12 23:01:25 UTC から 2026-08-13 23:01:25 UTC の24時間では、official site で <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 4件を確認した。Claude Code は <strong>v2.1.231</strong> を <strong>2026-08-13 08:38:50 UTC</strong>、<strong>v2.1.229</strong> を <strong>2026-08-12 20:56:22 UTC</strong> に公開しており、release note の visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
-    "<strong>official site 4件</strong>: <strong>Anthropic Research</strong> の <strong>Patterns and problems in emerging multiagent systems</strong>、<strong>Reviewing the evidence on worker retraining programs</strong>、および <strong>Claude Blog</strong> の <strong>Claude Tag now reads even more of the room</strong>、<strong>The Claude in Chrome side panel is now Claude Cowork</strong> がこの24時間窓に入った。",
-    "<strong>Research の主眼</strong>: multiagent systems 記事は、共有 codebase や市場のような環境で agent 群が起こしうる coordination failure、conformity、collusion、epistemic failure を整理した。worker retraining 記事は、56件の米国 randomized study などをもとに、再訓練プログラムは平均では前向きだが modest で、AI による大規模 displacement には既存施策だけでは不足しうるとまとめた。",
-    "<strong>Product announcements 2件</strong>: <strong>Claude Tag</strong> は Slack channel 全体の文脈と memory、standing instructions を使って proactive reply の要否判断を改善し、判断精度が約30%向上したと説明した。<strong>Claude Cowork</strong> は Chrome side panel から desktop / web / mobile へ会話を引き継げるようにし、skills / connectors も browser 側で使えるようにした。",
-    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.231</strong> は pre-registered OAuth client を使う MCP server の redirect URI mismatch を修正した。<strong>v2.1.229</strong> は self-hosted runner、plugin marketplace、workflow fan-out、sandbox、VSCode など広い面を更新した。"
+    "<strong>official site 6件</strong>: <strong>Anthropic Research</strong> の <strong>Patterns and problems in emerging multiagent systems</strong> と <strong>Reviewing the evidence on worker retraining programs</strong>、および <strong>Claude Blog</strong> の <strong>Self-service data analytics in Slack</strong>、<strong>Claude Tag now reads even more of the room</strong>、<strong>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</strong>、<strong>The Claude in Chrome side panel is now Claude Cowork</strong> がこの24時間窓に入った。",
+    "<strong>Claude Tag 関連 2件</strong>: 1本は Slack 上の self-service analytics 運用で、governed semantic layer と skill file を Claude Tag に持ち込む設計を説明した。もう1本は Claude Tag が channel 全体の文脈、memory、standing instructions を使って proactive reply 要否を判断し、精度が約30%向上したという更新だった。",
+    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.231</strong> は pre-registered OAuth client を使う MCP server の redirect URI mismatch を修正した。<strong>v2.1.229</strong> は self-hosted runner、plugin marketplace、workflow fan-out、sandbox、Windows、OpenTelemetry、VSCode など広い面を更新した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路がこのスレッドで使えず、高信頼の in-window post を確定できなかった。"
   ],
   "officialNews": [
     {
@@ -16,8 +16,18 @@
       "datetime": "2026-08-13T00:00:00Z",
       "displayTime": "2026-08-13",
       "title": "Anthropic Research: Patterns and problems in emerging multiagent systems",
-      "summary": "<strong>Anthropic Research</strong> の <strong>Frontier Red Team</strong> は、shared codebases、markets、その他の social systems で agent 間相互作用が増える局面を見据え、coordination failure、conformity、collusion、epistemic failure がどう systemic failure に拡大しうるかを整理した。記事では vulnerability discovery swarm、text-based game 開発、price collusion、虚偽情報への gullibility などを例に、多主体環境での safety 課題を論じている。",
+      "summary": "<strong>Anthropic Research</strong> の <strong>Frontier Red Team</strong> は、shared codebases、markets、その他の social systems で agent 間相互作用が増える局面を見据え、coordination failure、conformity、collusion、epistemic failure がどう systemic failure に拡大しうるかを整理した。vulnerability discovery swarm、text-based game 開発、価格協調、虚偽情報への gullibility などを例に、多主体環境での safety 課題を論じている。",
       "url": "https://www.anthropic.com/research/multiagent-systems",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-13T00:00:00Z",
+      "displayTime": "2026-08-13",
+      "title": "Claude Blog: Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "summary": "<strong>Claude Blog</strong> は、Anthropic の data team が <strong>Claude Tag</strong> を Slack 上の data analytics agent として運用する方法を説明した。既存の governed semantic layer、analysis conventions を書いた skill files、evaluation suite を基盤にし、社内の誰でも analyst と同じ定義に基づく回答を Claude Tag から受けられる構成だとしている。",
+      "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
       "urlLabel": "記事を読む",
       "primary": true
     },
@@ -33,10 +43,20 @@
     },
     {
       "label": "Official",
+      "datetime": "2026-08-13T00:00:00Z",
+      "displayTime": "2026-08-13",
+      "title": "Claude Blog: Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "summary": "<strong>Claude Blog</strong> の enterprise AI 記事では、JetBrains が private repository を使う大規模 eval pipeline で frontier model を比較し、<strong>Claude Fable 5</strong> の使いどころや safeguards、data retention をどう見ているかを CTO インタビュー形式でまとめている。",
+      "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
       "datetime": "2026-08-12T00:00:00Z",
       "displayTime": "2026-08-12",
       "title": "Anthropic Research: Reviewing the evidence on worker retraining programs",
-      "summary": "<strong>Anthropic Research</strong> の <strong>Economic Research</strong> は、AI による labor market disruption への主要政策候補である worker retraining program の実証研究を整理した。56件の randomized US study と欧州の実験知見を踏まえ、平均的には雇用や賃金への効果は前向きだが modest に留まり、AI による大規模 displacement に対しては既存プログラムだけでは不足しうると述べている。",
+      "summary": "<strong>Anthropic Research</strong> の <strong>Economic Research</strong> は、AI による labor market disruption への主要政策候補である worker retraining program のエビデンスレビューを公開した。独立研究者 David Roodman と Anthropic の Maxim Massenkoff の共著で、AI 時代の大きな雇用変動に対して再訓練策がどこまで機能するかを検討している。",
       "url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
       "urlLabel": "記事を読む",
       "primary": true
@@ -46,7 +66,7 @@
       "datetime": "2026-08-12T00:00:00Z",
       "displayTime": "2026-08-12",
       "title": "Claude Blog: The Claude in Chrome side panel is now Claude Cowork",
-      "summary": "<strong>Claude Blog</strong> は、Chrome side panel の <strong>Claude in Chrome</strong> を account-linked な <strong>Claude Cowork</strong> session に統合したと案内した。browser で始めた作業を desktop / web / mobile に引き継げるようにし、skills と connectors も side panel で使える。公開時点では <strong>Max</strong> と <strong>Team</strong> で提供、<strong>Pro</strong> へは今後数週間で rollout としている。",
+      "summary": "<strong>Claude Blog</strong> は、Chrome side panel の <strong>Claude in Chrome</strong> を account-linked な <strong>Claude Cowork</strong> session として統合したと案内した。browser で始めた作業を desktop / web / mobile に引き継げるようにし、skills と connectors も side panel で使える。公開時点では <strong>Max</strong> と <strong>Team</strong> で提供、<strong>Pro</strong> へは今後数週間で rollout としている。",
       "url": "https://claude.com/blog/cowork-chrome-side-panel",
       "urlLabel": "記事を読む",
       "primary": true
@@ -70,11 +90,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "4件",
-      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 2件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規 dated entry がなかった。",
+      "headline": "6件",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 4件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規 dated entry がなかった。",
       "details": [
         "<strong>Anthropic Research</strong>: <strong>Patterns and problems in emerging multiagent systems</strong>（<strong>Aug 13, 2026</strong>、visible publication date）",
+        "<strong>Claude Blog</strong>: <strong>Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions</strong>（<strong>Aug 13, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Claude Tag now reads even more of the room</strong>（<strong>Aug 13, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</strong>（<strong>Aug 13, 2026</strong>）",
         "<strong>Anthropic Research</strong>: <strong>Reviewing the evidence on worker retraining programs</strong>（<strong>Aug 12, 2026</strong>、visible publication date）",
         "<strong>Claude Blog</strong>: <strong>The Claude in Chrome side panel is now Claude Cowork</strong>（<strong>Aug 12, 2026</strong>）",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
@@ -167,8 +189,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は本来 <code>gh release view</code> を source of truth とする想定だが、この実行環境では <code>gh</code> の GitHub 接続が失敗したため、公式 GitHub Releases API の同等 metadata と本文を使って補完した。",
-    "<strong>Claude Code</strong> release は visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -196,8 +217,16 @@
       "url": "https://claude.com/blog"
     },
     {
+      "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "url": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions"
+    },
+    {
       "title": "Claude Tag now reads even more of the room",
       "url": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room"
+    },
+    {
+      "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "url": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5"
     },
     {
       "title": "The Claude in Chrome side panel is now Claude Cowork",
