@@ -1,14 +1,14 @@
 {
   "date": "2026-08-13",
-  "windowLabel": "2026-08-12 05:01:51 UTC - 2026-08-13 05:01:51 UTC",
-  "archiveTitle": "Multiagent research and Claude Code v2.1.229",
-  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-12 05:01:51 UTC から 2026-08-13 05:01:51 UTC の24時間では、official site で <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 1件を確認した。Claude Code は <strong>v2.1.229</strong> を <strong>2026-08-12 20:56:22 UTC</strong> に公開しており、release note の visible bullet 全32項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "windowLabel": "2026-08-12 11:02:56 UTC - 2026-08-13 11:02:56 UTC",
+  "archiveTitle": "Research updates and Claude Code v2.1.231",
+  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code releases 2件。",
+  "latestSummary": "2026-08-12 11:02:56 UTC から 2026-08-13 11:02:56 UTC の24時間では、official site で <strong>Anthropic Research</strong> 2件と <strong>Claude Blog</strong> 1件を確認した。Claude Code は <strong>v2.1.231</strong> を <strong>2026-08-13 08:38:50 UTC</strong>、<strong>v2.1.229</strong> を <strong>2026-08-12 20:56:22 UTC</strong> に公開しており、release note の visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile と検索結果でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
     "<strong>official site 3件</strong>: <strong>Anthropic Research</strong> の <strong>Patterns and problems in emerging multiagent systems</strong>、<strong>Reviewing the evidence on worker retraining programs</strong>、および <strong>Claude Blog</strong> の <strong>The Claude in Chrome side panel is now Claude Cowork</strong> がこの24時間窓に入った。",
     "<strong>Research の主眼</strong>: multiagent systems 記事は、agent swarm が shared codebase や市場のような社会的システムで起こしうる coordination failure、conformity、collusion、epistemic failure を論じている。worker retraining 記事は、AI による雇用変化への代表的政策である再訓練プログラムの実証研究を整理し、既存施策だけでは大規模 displacement に不足しうるとまとめた。",
     "<strong>Claude Blog 1件</strong>: Chrome side panel の <strong>Claude in Chrome</strong> が account-linked な <strong>Claude Cowork</strong> session に統合され、skills / connectors を使いながら browser で始めた作業を desktop / web / mobile に引き継げるようになった。公開時点では <strong>Max</strong> と <strong>Team</strong> で提供、<strong>Pro</strong> へは今後数週間で rollout としている。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.229</strong> が <strong>2026-08-12 20:56:22 UTC</strong> に公開された。release note の visible bullet 全32項目を和訳し、<strong>新機能 3件</strong>、<strong>変更 8件</strong>、<strong>修正 21件</strong> の形で整理した。"
+    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.231</strong> は pre-registered OAuth client を使う MCP server での sign-in redirect URI mismatch を修正した。<strong>v2.1.229</strong> は self-hosted runner、plugin marketplace、workflow fan-out、sandbox、VSCode など広い面を更新した。"
   ],
   "officialNews": [
     {
@@ -49,11 +49,11 @@
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から見える X profile も login wall に近い制約があり、post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から見える X profile と検索結果でも post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile と検索結果では Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
@@ -74,9 +74,24 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.229</strong> が公開されていた。release note の visible bullet 全32項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "headline": "2件",
+      "body": "official GitHub releases page では、この24時間窓に <strong>v2.1.231</strong> と <strong>v2.1.229</strong> が公開されていた。release note の visible bullet 全33項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
+        {
+          "version": "v2.1.231",
+          "publishedAt": "2026-08-13 08:38 UTC",
+          "summary": "<strong>v2.1.231</strong> は、pre-registered OAuth client を使う MCP server で起きていた OAuth sign-in の redirect URI mismatch を修正した小規模パッチリリース。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "Slack のように pre-registered OAuth client を使う server で、MCP OAuth sign-in が redirect URI mismatch で失敗する問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
+          "urlLabel": "v2.1.231 release note"
+        },
         {
           "version": "v2.1.229",
           "publishedAt": "2026-08-12 20:56 UTC",
@@ -140,8 +155,8 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全32項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile と検索結果も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全33項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -177,15 +192,19 @@
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
+      "title": "Claude Code release v2.1.231",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231"
+    },
+    {
       "title": "Claude Code release v2.1.229",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229"
     },
     {
-      "title": "Anthropic X profile checked",
+      "title": "AnthropicAI X profile checked",
       "url": "https://x.com/AnthropicAI/with_replies"
     },
     {
-      "title": "Claude X profile checked",
+      "title": "ClaudeAI X profile checked",
       "url": "https://x.com/ClaudeAI/with_replies"
     },
     {
