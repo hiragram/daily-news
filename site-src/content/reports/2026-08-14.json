@@ -1,17 +1,27 @@
 {
   "date": "2026-08-14",
-  "windowLabel": "2026-08-13 17:01:38 UTC - 2026-08-14 17:01:38 UTC",
-  "archiveTitle": "Claude Code session guide and v2.1.232",
-  "archiveSummary": "Official 5件、engineer signal 0件、Claude Code releases 1件。",
-  "latestSummary": "2026-08-13 17:01:38 UTC から 2026-08-14 17:01:38 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 4件を確認した。Claude Code は <strong>v2.1.232</strong> を <strong>2026-08-13 23:29 UTC</strong> に公開しており、release note の visible bullet 全49項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile と検索結果でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "windowLabel": "2026-08-13 23:02:28 UTC - 2026-08-14 23:02:28 UTC",
+  "archiveTitle": "Watermark explainer and Claude Code v2.1.233",
+  "archiveSummary": "Official 6件、engineer signal 0件、Claude Code releases 2件。",
+  "latestSummary": "2026-08-13 23:02:28 UTC から 2026-08-14 23:02:28 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 4件を確認した。Claude Code は <strong>v2.1.233</strong> を <strong>2026-08-14 22:20:57 UTC</strong>、<strong>v2.1.232</strong> を <strong>2026-08-13 23:29:59 UTC</strong> に公開しており、release note の visible bullet 全69項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile と検索結果でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
-    "<strong>official site 5件</strong>: <strong>Anthropic Research</strong> の <strong>Patterns and problems in emerging multiagent systems</strong> と、<strong>Claude Blog</strong> の <strong>Maximizing the value of your Claude Code sessions</strong>、<strong>Self-service data analytics in Slack</strong>、<strong>Claude Tag now reads even more of the room</strong>、<strong>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</strong> をこの監視窓で確認した。",
-    "<strong>Claude Code 運用ガイド 1件</strong>: 新しい Claude Blog 記事は、<code>/clear</code>、<code>/context</code>、<code>/compact</code>、モデル / effort 固定、静かな command 実行などで、Claude Code session ごとの token 効率を上げる実務的な運用指針をまとめている。",
-    "<strong>Claude Tag 関連 2件</strong>: 1本は Slack 上の self-service analytics 運用で、governed semantic layer と skill files を Claude Tag に持ち込む設計を説明した。もう1本は Claude Tag が channel 全体の文脈、memory、standing instructions を使って proactive reply 要否を判断し、精度が約30%向上したという更新だった。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.232</strong> は cross-session messaging、GitLab marketplace、Remote Control、gateway、sandbox、plugin install、code review、画像読み込みまで幅広く更新した。",
+    "<strong>official site 6件</strong>: <strong>Anthropic Research</strong> の <strong>Patterns and problems in emerging multiagent systems</strong>、<strong>Anthropic News</strong> の <strong>How Claude's text watermark works</strong>、<strong>Claude Blog</strong> の <strong>Maximizing the value of your Claude Code sessions</strong>、<strong>Self-service data analytics in Slack</strong>、<strong>Claude Tag now reads even more of the room</strong>、<strong>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</strong> をこの監視窓で確認した。",
+    "<strong>Claude Code session guide 1件</strong>: 新しい Claude Blog 記事は、<code>/clear</code>、<code>/context</code>、<code>/compact</code>、model / effort 固定、quiet command、subagent などで Claude Code session の token 効率と継続性を上げる実務指針を整理した。",
+    "<strong>Claude Tag / governance 関連 3件</strong>: Slack analytics 運用、channel 文脈を読む Claude Tag 更新、Claude text watermark の説明が並び、Anthropic 側の運用・識別・ガバナンス面の発信が目立った。",
+    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.233</strong> は GitLab MR URL、apps gateway、Linux memory limit、validation / accessibility 周りを拡張しつつ複数 regression を修正した。<strong>v2.1.232</strong> は cross-session messaging、GitLab marketplace、Remote Control、gateway、sandbox、plugin install、code review まで広い面を更新した。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路がこのスレッドで使えず、高信頼の in-window post を確定できなかった。"
   ],
   "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-08-14T00:00:00Z",
+      "displayTime": "2026-08-14",
+      "title": "Anthropic News: How Claude's text watermark works",
+      "summary": "<strong>Anthropic News</strong> は、Claude が生成した text に付与する watermark の仕組みを解説する記事を公開した。news listing 上で <strong>Aug 14, 2026</strong> の新規 announcement として確認できたため、この監視窓の official update に含めている。",
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "News 一覧を見る",
+      "primary": true
+    },
     {
       "label": "Official",
       "datetime": "2026-08-14T00:00:00Z",
@@ -65,8 +75,8 @@
   ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering / News の新規記事は 0件",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 7, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+      "label": "Anthropic Engineering の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
@@ -81,25 +91,69 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "5件",
-      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 4件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規 dated entry がなかった。",
+      "headline": "6件",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 1件、<strong>Anthropic News</strong> 1件、<strong>Claude Blog</strong> 4件だった。<strong>Anthropic Engineering</strong> には新規 dated entry がなかった。",
       "details": [
+        "<strong>Anthropic News</strong>: <strong>How Claude's text watermark works</strong>（<strong>Aug 14, 2026</strong>、visible publication date）",
         "<strong>Claude Blog</strong>: <strong>Maximizing the value of your Claude Code sessions</strong>（<strong>Aug 14, 2026</strong>）",
         "<strong>Anthropic Research</strong>: <strong>Patterns and problems in emerging multiagent systems</strong>（<strong>Aug 13, 2026</strong>、visible publication date）",
         "<strong>Claude Blog</strong>: <strong>Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions</strong>（<strong>Aug 13, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Claude Tag now reads even more of the room</strong>（<strong>Aug 13, 2026</strong>）",
         "<strong>Claude Blog</strong>: <strong>Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5</strong>（<strong>Aug 13, 2026</strong>）",
-        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
-        "<strong>Anthropic News</strong>: 新規 dated entry 0件"
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "official GitHub release metadata では、この24時間窓に <strong>v2.1.232</strong> が公開されていた。release note の visible bullet 全49項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "headline": "2件",
+      "body": "official GitHub release metadata では、この24時間窓に <strong>v2.1.233</strong> と <strong>v2.1.232</strong> が公開されていた。release note の visible bullet 全69項目を確認できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
+        {
+          "version": "v2.1.233",
+          "publishedAt": "2026-08-14 22:20 UTC",
+          "summary": "<strong>v2.1.233</strong> は、GitLab worktree / apps gateway / Linux resource guard / validation / accessibility を強化しつつ、permission prompt、MCP v2、Notification hooks、Windows 周りの regression をまとめて修正したパッチリリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>--worktree</code> flag と <code>claude agents</code> view が GitLab merge request URL を受け付けるようになり、MR は <code>!N</code> 表記で表示されるようになった。",
+                "Anthropic upstream 向け apps gateway に opt-in の <code>forward_user_identity</code> 設定を追加し、gateway の背後にある proxy が signed-in user 単位で spend を attribution できるよう、identity header を送れるようにした。",
+                "Linux の Bash tool command に opt-in の memory cgroup support を追加し、<code>CLAUDE_CODE_TOOL_MEMORY_LIMIT</code> で runaway build が session 全体を止めないようにできるようにした。",
+                "WebFetch session URL cache の TTL を設定する <code>CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS</code> 環境変数を追加した。default の 15 分は変更していない。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>claude self-hosted-runner</code> の session start time を改善し、session branch を working tree の rewrite なしで作るようにして、server との 2 往復が launch を block しないようにした。",
+                "apps gateway の error forwarding を改善し、Vertex / Foundry / Claude Platform on AWS upstream から返る 400 / 413 error で upstream 本来の message を保持するようにした。apps gateway の auto-compact 周りの不具合もここで直している。",
+                "<code>claude plugin validate</code> が bare な <code>.claude/skills</code> directory も検査し、frontmatter parse に失敗する <code>SKILL.md</code> を報告するようにした。",
+                "screen reader mode を改善し、<code>/effort</code> selector を番号付き list と typed-number prompt で扱えるようにし、hint と dialog text が切れないようにした。",
+                "print mode diagnostics を改善し、Claude Code が認識しない model ID へ request が出たときは stderr に <code>[claude-code:unrecognized_model]</code> を書き出すようにした。<code>modelOverrides</code> で silence できる。",
+                "GitHub app setup tip は origin remote が <code>gitlab.com</code> または <code>bitbucket.org</code> の repository では表示しないようにし、GitHub 以外の internal git host では enterprise marketplace tip が案内を担うようにした。",
+                "Todo / task-tracking tool（<code>TaskCreate/Get/Update/List</code>、<code>TodoWrite</code>）は Opus 4.8、Sonnet 5、Fable 5、Mythos 5 以降では既定で使えなくなった。戻したい場合は <code>CLAUDE_CODE_ENABLE_TODO_TOOLS=1</code> を設定する。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "permission prompt を待っている最中に environment が shutdown すると、cloud session がときどき lost 扱いになる問題を修正した。",
+                "固定 timeout で long-held stream を切る serverless host などに対し、MCP v2 connection が <code>subscriptions/listen</code> stream を無限に reopen し続ける問題を修正した。",
+                "Claude Desktop や VS Code 配下で動かしているとき、permission prompt に対して Notification hook が発火しない問題を修正した。",
+                "Linux で sandboxing を有効にした idle session が、ときどき CPU core 1 本を 100% 使い続ける問題を修正した。",
+                "bundled skill alias の <code>/checkup</code> や <code>/review</code> が、user / project skill に shadow されたり plugins / MCP を読み込んだりした状態の <code>-p</code> mode で <code>Unknown command</code> と表示される問題を修正した。",
+                "skill / command の argument substitution で、引数値が template marker として再展開されてしまう問題を修正した。",
+                "Windows path を NT の <code>\\\\??\\\\</code> device prefix で書くと UNC path validation を回避できていた問題を修正し、NTLM credential leak の経路を塞いだ。",
+                "Windows の auto mode で、通常の <code>cd &lt;dir&gt; &amp;&amp; &lt;command&gt; &gt; file</code> Bash command が何度も manual approval で止まる問題を修正した。これは <strong>v2.1.232</strong> の regression だった。",
+                "Windows 上の Cygwin-style symlink と入力リダイレクト <code>&lt; file</code> に対する <strong>v2.1.232</strong> の Bash permission change はいったん revert した。より狭い修正版を後続 release で戻す予定としている。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+          "urlLabel": "v2.1.233 release note"
+        },
         {
           "version": "v2.1.232",
           "publishedAt": "2026-08-13 23:29 UTC",
@@ -181,7 +235,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile と検索結果も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は official GitHub release metadata と release note を基に、visible bullet 全49項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "<strong>Claude Code</strong> release は <code>gh release view</code> の metadata と本文を source of truth とし、visible bullet 全69項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -223,6 +277,10 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.233",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
     },
     {
       "title": "Claude Code release v2.1.232",
