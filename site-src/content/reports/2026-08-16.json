@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-16",
+  "windowLabel": "2026-08-15 05:02:05 UTC - 2026-08-16 05:02:05 UTC",
+  "archiveTitle": "No new Claude items in the latest 24 hours",
+  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code release 0件。",
+  "latestSummary": "2026-08-15 05:02:05 UTC から 2026-08-16 05:02:05 UTC の24時間では、Anthropic / Claude の official blog・news に新規 dated entry は確認できなかった。Claude Code の最新 official release は <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>）で、この窓には新しい release が入っていない。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 X profile も本文を返さなかったため、高信頼の新規採用は見送っている。",
+  "summaryBullets": [
+    "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の watch 対象 listing には、この24時間窓に入る新規 dated entry がなかった。",
+    "<strong>Claude Code release 0件</strong>: official GitHub releases page の最新は <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>）で、この窓の開始時刻より前だった。",
+    "<strong>X 監視は採用なし</strong>: official / engineer いずれの監視対象も、利用可能な取得経路では本文・時刻・canonical URL の整合が取れず、高信頼の product signal として採用していない。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic / Claude の official site 新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 13, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 14, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web から開ける X profile も本文行を返さなかった。そのため、post 本文・時刻・canonical URL を揃えて高信頼に裏取りできる official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象についても、本来の MCP 取得ができず、公開 profile でも Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry を確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> のいずれも既知記事のみが visible だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic News</strong>: 新規 dated entry 0件",
+        "<strong>Claude Blog</strong>: 新規 dated entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "official GitHub releases page の最新 release は <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>）で、この24時間窓には新しい Claude Code release が入っていなかった。確認のため <code>gh release view</code> で full release note を取得したが、公開時刻は窓外だった。",
+      "details": [
+        "最新 release: <strong>v2.1.233</strong>",
+        "公開時刻: <strong>2026-08-14 22:20:57 UTC</strong>",
+        "この窓の開始時刻: <strong>2026-08-15 05:02:05 UTC</strong>"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 profile も本文・時刻・canonical URL の整合が取れなかったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Claude Code</strong> release は <code>gh release list</code> / <code>gh release view</code> を source of truth とし、最新の <strong>v2.1.233</strong> がこの24時間窓の外であることを確認した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.233",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
+    },
+    {
+      "title": "Anthropic X profile checked",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "Claude X profile checked",
+      "url": "https://x.com/claudeai"
+    },
+    {
+      "title": "ClaudeDevs X profile checked",
+      "url": "https://x.com/ClaudeDevs"
+    },
+    {
+      "title": "Felix Rieseberg X profile checked",
+      "url": "https://x.com/felixrieseberg"
+    }
+  ]
+}
