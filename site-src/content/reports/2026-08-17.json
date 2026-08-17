@@ -1,0 +1,144 @@
+{
+  "date": "2026-08-17",
+  "windowLabel": "2026-08-16 05:01:57 UTC - 2026-08-17 05:01:57 UTC",
+  "archiveTitle": "No new Claude items in the latest 24 hours",
+  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code 窓内 release 0件。",
+  "latestSummary": "2026-08-16 05:01:57 UTC から 2026-08-17 05:01:57 UTC の24時間では、Anthropic / Claude の official blog・news に新規 dated entry は確認できなかった。Claude Code の新規 official release もこの窓にはなく、最新は <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>）だった。X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、高信頼の in-window post を確定できなかったため採用を見送っているが、ユーザー要件に合わせて最新 release note 本文は <strong>全20項目</strong> を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。",
+  "summaryBullets": [
+    "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の watch 対象 listing には、この24時間窓に入る新規 dated entry がなかった。",
+    "<strong>Claude Code 窓内 release 0件</strong>: official GitHub releases page の最新は <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>）で、この窓の開始時刻より前だった。",
+    "<strong>release note は完全取得</strong>: 窓内 release は 0件だが、最新の <strong>v2.1.233</strong> については <code>gh release view</code> で本文を完全取得し、visible bullet 全20項目を <strong>新機能 / 変更 / 修正</strong> に分けて和訳した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer いずれの監視対象も、本来の MCP 取得経路がこのスレッドで使えず、本文・時刻・canonical URL の整合を高信頼に取れなかった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic / Claude の official site 新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 13, 2026</strong>、<strong>Anthropic News</strong> は <strong>Jul 14, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 4, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web 取得でも post 本文・時刻・canonical URL を揃えて高信頼に確定できなかった。そのため、official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象についても、本来の MCP 取得ができず、公開 profile だけでは Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の official site listing では、この24時間窓に入る新規 dated entry を確認できなかった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> のいずれも既知記事のみが visible だった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic News</strong>: 新規 dated entry 0件",
+        "<strong>Claude Blog</strong>: 新規 dated entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "窓内0件 / 最新1件を完全翻訳",
+      "body": "official GitHub releases page では、この24時間窓に新しい Claude Code release はなかった。一方で、ユーザー要件に合わせて最新の <strong>v2.1.233</strong>（<strong>2026-08-14 22:20:57 UTC</strong>、窓外）については <code>gh release view</code> で release note 本文を完全取得し、visible bullet 全20項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳した。",
+      "releases": [
+        {
+          "version": "v2.1.233",
+          "publishedAt": "2026-08-14 22:20 UTC",
+          "summary": "<strong>v2.1.233</strong> はこの24時間窓の外で公開された最新 release。GitLab MR URL、apps gateway、Linux resource guard、validation、accessibility を強化しつつ、permission prompt、MCP v2、Notification hooks、Windows 周りの regression を修正した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>--worktree</code> flag と <code>claude agents</code> view が GitLab merge request URL を受け付けるようになり、MR は <code>!N</code> 表記で表示されるようになった。",
+                "Anthropic upstream 向け apps gateway に opt-in の <code>forward_user_identity</code> 設定を追加し、gateway 背後の proxy が signed-in user 単位で spend を attribution できるよう、identity header を送れるようにした。",
+                "Linux の Bash tool command に opt-in の memory cgroup support を追加し、<code>CLAUDE_CODE_TOOL_MEMORY_LIMIT</code> で runaway build が session 全体を止めないようにした。",
+                "<code>CLAUDE_CODE_WEBFETCH_CACHE_TTL_MS</code> 環境変数を追加し、WebFetch session URL cache の TTL を設定できるようにした。default の 15 分は据え置き。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>claude self-hosted-runner</code> の session start time を改善し、working tree を rewrite せずに session branch を作るようにして、起動時に必要だった server との 2 往復を外した。",
+                "apps gateway の error forwarding を改善し、Vertex、Foundry、Claude Platform on AWS upstream から返る 400 / 413 error で upstream 本来の message を保持するようにした。apps gateway の auto-compact bug もここで修正した。",
+                "<code>claude plugin validate</code> が bare な <code>.claude/skills</code> directory も検査し、frontmatter parse に失敗する <code>SKILL.md</code> を報告するようになった。",
+                "screen reader mode を改善し、<code>/effort</code> selector を番号付き list と typed-number prompt で扱えるようにし、hint と dialog text の clipping を防いだ。",
+                "print mode diagnostics を改善し、Claude Code が認識しない model ID に request が出たときは stderr に <code>[claude-code:unrecognized_model]</code> を書き出すようにした。<code>modelOverrides</code> で silence できる。",
+                "GitHub app setup tip は origin remote が <code>gitlab.com</code> または <code>bitbucket.org</code> の repository では表示しないようにし、GitHub 以外の internal git host では enterprise marketplace tip が案内を担うようにした。",
+                "Todo / task-tracking tool（<code>TaskCreate/Get/Update/List</code>、<code>TodoWrite</code>）は Opus 4.8、Sonnet 5、Fable 5、Mythos 5 以降では既定で使えなくなった。戻したい場合は <code>CLAUDE_CODE_ENABLE_TODO_TOOLS=1</code> を設定する。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "permission prompt を待っている最中に environment が shutdown すると、cloud session がときどき lost 扱いになる問題を修正した。",
+                "固定 timeout で long-held stream を切る serverless host などに対し、MCP v2 connection が <code>subscriptions/listen</code> stream を無限に reopen し続ける問題を修正した。",
+                "Claude Desktop や VS Code 配下で動かしているとき、permission prompt に対して Notification hook が発火しない問題を修正した。",
+                "Linux で sandboxing を有効にした idle session が、ときどき CPU core 1 本を 100% 使い続ける問題を修正した。",
+                "bundled skill alias の <code>/checkup</code> や <code>/review</code> が、user / project skill に shadow されたり plugins / MCP を読み込んだりした状態の <code>-p</code> mode で <code>Unknown command</code> と表示される問題を修正した。",
+                "skill / command の argument substitution で、引数値が template marker として再展開されてしまう問題を修正した。",
+                "Windows path を NT の <code>\\\\??\\\\</code> device prefix で書くと UNC path validation を回避できていた問題を修正し、NTLM credential leak の経路を塞いだ。",
+                "Windows の auto mode で、通常の <code>cd &lt;dir&gt; &amp;&amp; &lt;command&gt; &gt; file</code> Bash command が何度も manual approval で止まる問題を修正した。これは <strong>v2.1.232</strong> の regression だった。",
+                "Windows 上の Cygwin-style symlink と入力リダイレクト <code>&lt; file</code> に対する <strong>v2.1.232</strong> の Bash permission change はいったん revert した。より狭い修正版を後続 release で戻す予定としている."
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+          "urlLabel": "v2.1.233 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得でも本文・時刻・canonical URL の整合を取れなかったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Claude Code</strong> release は <code>gh release list</code> / <code>gh release view</code> を source of truth とし、窓内 release は 0件と判定したうえで、ユーザー要件に合わせて最新の <strong>v2.1.233</strong> release note 本文を完全取得して構造化した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Blog product announcements",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.233",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
+    },
+    {
+      "title": "AnthropicAI X profile checked",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI X profile checked",
+      "url": "https://x.com/claudeai"
+    },
+    {
+      "title": "ClaudeDevs X profile checked",
+      "url": "https://x.com/ClaudeDevs"
+    }
+  ]
+}
