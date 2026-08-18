@@ -1,23 +1,23 @@
 {
   "date": "2026-08-18",
-  "windowLabel": "2026-08-17 11:01:38 UTC - 2026-08-18 11:01:38 UTC",
-  "archiveTitle": "ABC Legal case study and Claude Code v2.1.234",
+  "windowLabel": "2026-08-17 17:03:02 UTC - 2026-08-18 17:03:02 UTC",
+  "archiveTitle": "Claude Science guide and Claude Code v2.1.234",
   "archiveSummary": "Official 1件、engineer signal 0件、Claude Code releases 1件。",
-  "latestSummary": "2026-08-17 11:01:38 UTC から 2026-08-18 11:01:38 UTC の24時間では、official site で <strong>Claude Blog</strong> 1件を確認した。Claude Code は <strong>v2.1.234</strong> を <strong>2026-08-17 20:20:52 UTC</strong> に公開しており、公式 changelog feed から release note の visible bullet 全51項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "latestSummary": "2026-08-17 17:03:02 UTC から 2026-08-18 17:03:02 UTC の24時間では、official site で <strong>Claude Blog</strong> 1件を確認した。新規記事 <strong>The Claude Science product guide</strong> は、ライフサイエンス向けの <strong>Claude Science</strong> 活用面、local daemon と自前 compute を使う運用形態、導入ロードマップ、代表的 workflow をまとめたガイドだった。Claude Code は <strong>v2.1.234</strong> を <strong>2026-08-17 20:20:52 UTC</strong> に公開しており、公式 changelog feed から release note の visible bullet 全51項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
-    "<strong>official site 1件</strong>: <strong>Claude Blog</strong> の <strong>How ABC Legal turned every employee into a builder with Claude Managed Agents</strong> をこの24時間窓で確認した。",
-    "<strong>ABC Legal 事例</strong>: Claude Managed Agents を共通の agent 基盤として使い、<strong>50+</strong> の本番 agent、対象業務での <strong>約50%</strong> の人手コスト削減、日常利用する <strong>約310人</strong> の社内ユーザー規模まで広げた事例が公開された。",
+    "<strong>official site 1件</strong>: <strong>Claude Blog</strong> の <strong>The Claude Science product guide</strong> をこの24時間窓で確認した。",
+    "<strong>Claude Science ガイド</strong>: Anthropic は、ライフサイエンス組織向けに <strong>Claude Science</strong> の代表 workflow、new life sciences skills、database connectors、local daemon と自前 GPU / SLURM / cloud account での実行モデル、<strong>Foundation / Pilot / Scale</strong> の導入ロードマップをまとめた。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.234</strong> は、usage limit reset 後の自動継続、GitLab MR badge、mid-turn dialog、privacy / transcript / title 改善などの機能追加と挙動変更を含みつつ、permission、Remote Control、Windows path、rendering、queueing 周りの不具合を広く修正した。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路がこのスレッドで使えず、高信頼の in-window post を確定できなかった。"
   ],
   "officialNews": [
     {
       "label": "Official",
-      "datetime": "2026-08-17T00:00:00Z",
-      "displayTime": "2026-08-17",
-      "title": "Claude Blog: How ABC Legal turned every employee into a builder with Claude Managed Agents",
-      "summary": "<strong>Claude Blog</strong> は、ABC Legal が <strong>Claude Managed Agents</strong> を使って agent をコード管理し、versioning、shared workspace、audit / billing を共通化しながら、非開発者を含む全社へ agent 開発を広げた事例を公開した。記事では <strong>50+</strong> の本番 agent、対象タスクでの <strong>約50%</strong> の人手コスト削減、日常的に Claude を使う <strong>約310人</strong> という運用規模が紹介されている。",
-      "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "datetime": "2026-08-18T00:00:00Z",
+      "displayTime": "2026-08-18",
+      "title": "Claude Blog: The Claude Science product guide",
+      "summary": "<strong>Claude Blog</strong> は、ライフサイエンス向けベータ製品 <strong>Claude Science</strong> のガイドを公開した。記事では、analysis / figure / result 作成に Claude Science、document / regulatory work に Claude Cowork や Claude for Microsoft 365、production pipeline 構築に Claude Code を使い分ける考え方に加え、local daemon で data・compute・agents を手元に置きつつ自前 GPU box、SLURM cluster、cloud account へ重い job を送る構成、そして <strong>Foundation / Pilot / Scale</strong> の導入ロードマップを説明している。",
+      "url": "https://claude.com/blog/the-claude-science-product-guide",
       "urlLabel": "記事を読む",
       "primary": true
     }
@@ -41,9 +41,9 @@
     {
       "title": "ブログ",
       "headline": "1件",
-      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Claude Blog</strong> 1件だった。<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> には新規 dated entry がなかった。",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Claude Blog</strong> 1件だった。visible publication date ベースでは <strong>The Claude Science product guide</strong> が該当し、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong> には新規 dated entry がなかった。",
       "details": [
-        "<strong>Claude Blog</strong>: <strong>How ABC Legal turned every employee into a builder with Claude Managed Agents</strong>（<strong>Aug 17, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>The Claude Science product guide</strong>（<strong>Aug 18, 2026</strong>）",
         "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 新規 dated entry 0件",
         "<strong>Anthropic News</strong>: 新規 dated entry 0件"
@@ -159,8 +159,8 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
-      "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents"
+      "title": "The Claude Science product guide",
+      "url": "https://claude.com/blog/the-claude-science-product-guide"
     },
     {
       "title": "Claude Code changelog feed",
