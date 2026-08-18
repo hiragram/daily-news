@@ -1,9 +1,9 @@
 {
   "date": "2026-08-18",
-  "windowLabel": "2026-08-17 05:02:33 UTC - 2026-08-18 05:02:33 UTC",
+  "windowLabel": "2026-08-17 11:01:38 UTC - 2026-08-18 11:01:38 UTC",
   "archiveTitle": "ABC Legal case study and Claude Code v2.1.234",
   "archiveSummary": "Official 1件、engineer signal 0件、Claude Code releases 1件。",
-  "latestSummary": "2026-08-17 05:02:33 UTC から 2026-08-18 05:02:33 UTC の24時間では、official site で <strong>Claude Blog</strong> 1件を確認した。Claude Code は <strong>v2.1.234</strong> を <strong>2026-08-17 20:20:58 UTC</strong> に公開しており、<code>gh release view</code> で release note の visible bullet 全51項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
+  "latestSummary": "2026-08-17 11:01:38 UTC から 2026-08-18 11:01:38 UTC の24時間では、official site で <strong>Claude Blog</strong> 1件を確認した。Claude Code は <strong>v2.1.234</strong> を <strong>2026-08-17 20:20:52 UTC</strong> に公開しており、公式 changelog feed から release note の visible bullet 全51項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、新規採用は見送っている。",
   "summaryBullets": [
     "<strong>official site 1件</strong>: <strong>Claude Blog</strong> の <strong>How ABC Legal turned every employee into a builder with Claude Managed Agents</strong> をこの24時間窓で確認した。",
     "<strong>ABC Legal 事例</strong>: Claude Managed Agents を共通の agent 基盤として使い、<strong>50+</strong> の本番 agent、対象業務での <strong>約50%</strong> の人手コスト削減、日常利用する <strong>約310人</strong> の社内ユーザー規模まで広げた事例が公開された。",
@@ -54,7 +54,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "official GitHub release metadata では、この24時間窓に <strong>v2.1.234</strong> が公開されていた。<code>gh release view</code> で release note の visible bullet 全51項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "body": "official changelog feed では、この24時間窓に <strong>v2.1.234</strong> が公開されていた。visible bullet 全51項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
         {
           "version": "v2.1.234",
@@ -89,7 +89,7 @@
                 "<code>/config</code> から <strong>Default teammate model</strong> setting を削除し、agent-team teammate は spawn 時に model 指定がない限り leader の model を使うようにした。",
                 "running tool header の elapsed-time counter を dim 表示にして、bold な count 表示と競合しないようにした。",
                 "turn 間に届く background task notification を、mid-turn と同じく <code>&lt;system-reminder&gt;</code> tag で model に渡すようにした。",
-                "Mantle は main-loop model がすでに選ばれている場合、起動時の admin-pin availability probe を skip するようにした."
+                "Mantle は main-loop model がすでに選ばれている場合、起動時の admin-pin availability probe を skip するようにした。"
               ]
             },
             {
@@ -99,7 +99,7 @@
                 "非常に長い session で会話が compact されたあと、auto mode が sandboxed command の network access を何度も再判定して deny し直す問題を修正した。",
                 "background subagent の tool permission prompt に答えたとき、session 単位の permission answer（deny を含む）が落ちる問題を修正した。",
                 "non-streaming fallback path の API response に、thinking field を欠く thinking block や text field を欠く text block が含まれていると crash する問題を修正した。",
-                "一部の unusual Unicode sequence を含む message で markdown rendering が極端に遅くなる問題を修正した.",
+                "一部の unusual Unicode sequence を含む message で markdown rendering が極端に遅くなる問題を修正した。",
                 "<code>ListAgents</code> の結果から copy した recipient について、session 名が 200 文字上限付近または emoji 多めだと <code>SendMessage</code> が reject する問題を修正した。",
                 "userinfo が特殊な git remote で repository detection が host を誤判定し、誤った host 向け link や repo-specific behavior を出す問題を修正した。",
                 "MCP diagnostics が解決済み secret をそのまま出力していた問題を修正し、scope conflict warning は設定された <code>${VAR}</code> 形式を、connection failure detail は server origin のみを表示するようにした。",
@@ -124,7 +124,7 @@
                 "expired な Anthropic profile credential が、claude.ai login のほうが優先される場合に <code>/login</code> へ案内しない問題を修正した。",
                 "unrecoverable error（認証 revoke、credit 枯渇、context overflow など）で turn が落ちたあとも <code>/goal</code> が armed のまま残る問題を修正し、notice 付きで自動 clear するようにした。",
                 "<code>claude setup-token</code> が余分な引数を silently ignore していた問題を修正し、unexpected extra argument を reject するようにした。",
-                "Windows で <code>~/.claude.json</code> が read-only のとき、起動時に rename retry を繰り返して stall する問題を修正した."
+                "Windows で <code>~/.claude.json</code> が read-only のとき、起動時に rename retry を繰り返して stall する問題を修正した。"
               ]
             }
           ],
@@ -139,7 +139,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は <code>gh release list</code> / <code>gh release view</code> を source of truth とし、official release 本文の visible bullet 全51項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "<strong>Claude Code</strong> release は公式 changelog feed を source of truth とし、official release 本文の visible bullet 全51項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -163,8 +163,8 @@
       "url": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents"
     },
     {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
+      "title": "Claude Code changelog feed",
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/feed.xml"
     },
     {
       "title": "Claude Code release v2.1.234",
