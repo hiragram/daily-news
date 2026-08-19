@@ -1,11 +1,11 @@
 {
   "date": "2026-08-19",
-  "windowLabel": "2026-08-18 05:02:33 UTC - 2026-08-19 05:02:33 UTC",
+  "windowLabel": "2026-08-18 11:02:19 UTC - 2026-08-19 11:02:19 UTC",
   "archiveTitle": "Claude Tag, Claude Science, and Claude Code v2.1.235",
   "archiveSummary": "Official 3件、engineer signal 0件、Claude Code releases 1件。",
-  "latestSummary": "2026-08-18 05:02:33 UTC から 2026-08-19 05:02:33 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を確認した。<strong>How Claude is accelerating protein design and analytical chemistry</strong> は research の新規公開、<strong>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</strong> と <strong>The Claude Science product guide</strong> は Claude Blog の新規公開だった。Claude Code は <strong>v2.1.235</strong> を <strong>2026-08-18 20:38:54 UTC</strong> に公開しており、visible bullet 全19項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、高信頼な in-window post を確定できなかったため採用していない。",
+  "latestSummary": "2026-08-18 11:02:19 UTC から 2026-08-19 11:02:19 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を確認した。<strong>How Claude is accelerating protein design and analytical chemistry</strong> は research の新規公開、<strong>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</strong> と <strong>The Claude Science product guide</strong> は Claude Blog の新規公開だった。Claude Code は <strong>v2.1.235</strong> を <strong>2026-08-18 20:38:47 UTC</strong> に公開しており、official changelog feed に見える bullet 全19項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開Web経路でも in-window post の本文・時刻・canonical URL を高信頼に確定できなかったため採用していない。",
   "summaryBullets": [
-    "<strong>official site 3件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件が、この24時間窓に入る dated entry として確認できた。",
+    "<strong>official site 3件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件が、この24時間窓に入る visible publication date の新規 entry として確認できた。",
     "<strong>Claude Blog 2件</strong>: <strong>Claude Tag</strong> を CI/CD failure の一次対応役として扱う記事と、ライフサイエンス向けの <strong>Claude Science</strong> 活用ガイドが同日に追加された。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.235</strong> は、spellcheck 設定の追加に加えて、background session の負荷、permission dialog、embedded grep、context-limit error、Vim/TUI dialog、cross-session messaging、Remote Control、VS Code panel 周辺の挙動を改善し、多数の UI / approval / rendering / session-state 不具合を修正した。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかった。"
@@ -16,7 +16,7 @@
       "datetime": "2026-08-18T00:00:00Z",
       "displayTime": "2026-08-18",
       "title": "Claude Blog: Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
-      "summary": "<strong>Claude Blog</strong> に、<strong>Claude Tag</strong> を Anthropic の <strong>CI/CD failures</strong> に対する first responder として紹介する新規記事が追加された。公開一覧から確認できる範囲では、Claude Tag を開発運用の一次対応にどう組み込んでいるかを扱う official write-up で、この24時間窓の新規公開として採用した。",
+      "summary": "<strong>Claude Blog</strong> に、<strong>Claude Tag</strong> を Anthropic の <strong>CI/CD failures</strong> に対する first responder として紹介する新規記事が追加された。blog listing と記事ページの visible publication date はともに <strong>August 18, 2026</strong> で、CI/CD 障害の一次対応に Claude Tag をどう組み込んでいるかを説明する official write-up と判断した。",
       "url": "https://claude.com/blog/claude-on-call-how-claude-tag-serves-as-anthropics-first-responder-for-ci-cd-failures",
       "urlLabel": "記事を読む",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-08-18T00:00:00Z",
       "displayTime": "2026-08-18",
       "title": "Claude Blog: The Claude Science product guide",
-      "summary": "<strong>Claude Blog</strong> は、ライフサイエンス向けベータ製品 <strong>Claude Science</strong> のガイドを公開した。公開一覧と関連記述から、analysis / figure / result 作成、scientific tool 利用、local / cluster / cloud compute 連携をどう組み合わせるかを説明する official guide と判断した。",
+      "summary": "<strong>Claude Blog</strong> は、ライフサイエンス向け製品 <strong>Claude Science</strong> のプロダクトガイドを公開した。blog listing と記事ページの visible publication date は <strong>August 18, 2026</strong> で、analysis / figure / result 作成、scientific tool 利用、local / cluster / cloud compute 連携をどう組み合わせるかを示す official guide として採用した。",
       "url": "https://claude.com/blog/the-claude-science-product-guide",
       "urlLabel": "記事を読む"
     },
@@ -35,7 +35,7 @@
       "datetime": "2026-08-18T00:00:00Z",
       "displayTime": "2026-08-18",
       "title": "Anthropic Research: How Claude is accelerating protein design and analytical chemistry",
-      "summary": "<strong>Anthropic Research</strong> の publication 一覧に、<strong>How Claude is accelerating protein design and analytical chemistry</strong> が <strong>Aug 18, 2026</strong> の新規項目として追加された。本文全文はこの取得経路では展開できなかったため、research listing で確認できる official title / date を根拠に、Claude の科学研究用途に関する新規 official research 記事として採用している。",
+      "summary": "<strong>Anthropic Research</strong> の publications 一覧に、<strong>How Claude is accelerating protein design and analytical chemistry</strong> が <strong>Aug 18, 2026</strong> の新規項目として掲載されている。取得できた範囲では一覧ページが最も強い公開根拠で、Claude の科学研究用途に関する新規 official research 記事として採用している。",
       "url": "https://www.anthropic.com/research/how-claude-is-accelerating-protein-design-and-analytical-chemistry",
       "urlLabel": "記事を読む"
     }
@@ -73,7 +73,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "1件",
-      "body": "GitHub releases では、この24時間窓に <strong>v2.1.235</strong> が公開されていた。visible bullet 全19項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "body": "Claude Code の official changelog feed では、この24時間窓に <strong>v2.1.235</strong> が公開されていた。visible bullet 全19項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
         {
           "version": "v2.1.235",
@@ -119,14 +119,14 @@
           "urlLabel": "v2.1.235 release note"
         }
       ],
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "Claude Code Releases"
+      "url": "https://github.com/anthropics/claude-code/blob/main/feed.xml",
+      "urlLabel": "Claude Code changelog feed"
     }
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
-    "<strong>Claude Code</strong> release は GitHub CLI を source of truth とし、official release 本文の visible bullet 全19項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+    "<strong>Claude Code</strong> release は shell の <code>gh</code> がネットワーク制限で使えなかったため、Anthropic 管理の official changelog feed を source of truth とし、visible bullet 全19項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
   ],
   "sources": [
     {
@@ -158,12 +158,12 @@
       "url": "https://www.anthropic.com/research/how-claude-is-accelerating-protein-design-and-analytical-chemistry"
     },
     {
-      "title": "Claude Code release v2.1.235",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
+      "title": "Claude Code changelog feed",
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/feed.xml"
     },
     {
-      "title": "Claude Code Releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
+      "title": "Claude Code release v2.1.235",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
     },
     {
       "title": "AnthropicAI X profile checked",
