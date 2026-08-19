@@ -1,0 +1,181 @@
+{
+  "date": "2026-08-19",
+  "windowLabel": "2026-08-18 05:02:33 UTC - 2026-08-19 05:02:33 UTC",
+  "archiveTitle": "Claude Tag, Claude Science, and Claude Code v2.1.235",
+  "archiveSummary": "Official 3件、engineer signal 0件、Claude Code releases 1件。",
+  "latestSummary": "2026-08-18 05:02:33 UTC から 2026-08-19 05:02:33 UTC の24時間では、official site で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を確認した。<strong>How Claude is accelerating protein design and analytical chemistry</strong> は research の新規公開、<strong>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</strong> と <strong>The Claude Science product guide</strong> は Claude Blog の新規公開だった。Claude Code は <strong>v2.1.235</strong> を <strong>2026-08-18 20:38:54 UTC</strong> に公開しており、visible bullet 全19項目を取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全項目を和訳した。official / engineer X 監視は本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、高信頼な in-window post を確定できなかったため採用していない。",
+  "summaryBullets": [
+    "<strong>official site 3件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件が、この24時間窓に入る dated entry として確認できた。",
+    "<strong>Claude Blog 2件</strong>: <strong>Claude Tag</strong> を CI/CD failure の一次対応役として扱う記事と、ライフサイエンス向けの <strong>Claude Science</strong> 活用ガイドが同日に追加された。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.235</strong> は、spellcheck 設定の追加に加えて、background session の負荷、permission dialog、embedded grep、context-limit error、Vim/TUI dialog、cross-session messaging、Remote Control、VS Code panel 周辺の挙動を改善し、多数の UI / approval / rendering / session-state 不具合を修正した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも本来の MCP 取得経路がこのスレッドで使えず、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Official",
+      "datetime": "2026-08-18T00:00:00Z",
+      "displayTime": "2026-08-18",
+      "title": "Claude Blog: Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "summary": "<strong>Claude Blog</strong> に、<strong>Claude Tag</strong> を Anthropic の <strong>CI/CD failures</strong> に対する first responder として紹介する新規記事が追加された。公開一覧から確認できる範囲では、Claude Tag を開発運用の一次対応にどう組み込んでいるかを扱う official write-up で、この24時間窓の新規公開として採用した。",
+      "url": "https://claude.com/blog/claude-on-call-how-claude-tag-serves-as-anthropics-first-responder-for-ci-cd-failures",
+      "urlLabel": "記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-18T00:00:00Z",
+      "displayTime": "2026-08-18",
+      "title": "Claude Blog: The Claude Science product guide",
+      "summary": "<strong>Claude Blog</strong> は、ライフサイエンス向けベータ製品 <strong>Claude Science</strong> のガイドを公開した。公開一覧と関連記述から、analysis / figure / result 作成、scientific tool 利用、local / cluster / cloud compute 連携をどう組み合わせるかを説明する official guide と判断した。",
+      "url": "https://claude.com/blog/the-claude-science-product-guide",
+      "urlLabel": "記事を読む"
+    },
+    {
+      "label": "Official",
+      "datetime": "2026-08-18T00:00:00Z",
+      "displayTime": "2026-08-18",
+      "title": "Anthropic Research: How Claude is accelerating protein design and analytical chemistry",
+      "summary": "<strong>Anthropic Research</strong> の publication 一覧に、<strong>How Claude is accelerating protein design and analytical chemistry</strong> が <strong>Aug 18, 2026</strong> の新規項目として追加された。本文全文はこの取得経路では展開できなかったため、research listing で確認できる official title / date を根拠に、Claude の科学研究用途に関する新規 official research 記事として採用している。",
+      "url": "https://www.anthropic.com/research/how-claude-is-accelerating-protein-design-and-analytical-chemistry",
+      "urlLabel": "記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering / News の新規記事は 0件",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> で、この24時間窓に入る新規 dated entry は確認できなかった。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web 取得も login wall に近い制約があり、post 本文・時刻・canonical URL を揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile から Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "watch 対象の official site listing / article では、この24時間窓に入る新規 dated entry は <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件だった。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規 dated entry がなかった。",
+      "details": [
+        "<strong>Anthropic Research</strong>: <strong>How Claude is accelerating protein design and analytical chemistry</strong>（<strong>Aug 18, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures</strong>（<strong>Aug 18, 2026</strong>）",
+        "<strong>Claude Blog</strong>: <strong>The Claude Science product guide</strong>（<strong>Aug 18, 2026</strong>）",
+        "<strong>Anthropic Engineering</strong>: 新規 dated entry 0件",
+        "<strong>Anthropic News</strong>: 新規 dated entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub releases では、この24時間窓に <strong>v2.1.235</strong> が公開されていた。visible bullet 全19項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.235",
+          "publishedAt": "2026-08-18 20:38 UTC",
+          "summary": "<strong>v2.1.235</strong> は、prompt 入力への spellcheck 追加に加えて、background cloud session の負荷、permission dialog、embedded grep、context-limit error、Vim/TUI dialog、cross-session messaging、Remote Control、VS Code panel 挙動を改善し、多数の UI / approval / rendering / session-state 不具合を修正したパッチリリース。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "prompt 入力中にスペルミスへ下線を引く任意の <code>spellcheck</code> 設定を追加した。手元の <code>aspell</code>、<code>hunspell</code>、<code>ispell</code> を利用する。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "バックグラウンドで動く <code>/ultrareview</code> や <code>/autofix-pr</code> などの cloud session について、event stream を更新のたびに再走査・再描画しないようにして、memory と CPU 使用量を改善した。",
+                "permission dialog を改善し、表示テキストと <strong>don't ask again</strong> の適用範囲が、実際に grant される権限と常に一致するようにした。また内容を完全表示できない場合は <strong>don't ask again</strong> を出さないようにした。",
+                "native macOS/Linux build に埋め込まれた <code>grep</code> を改善し、病的な pattern は memory を食い尽くす前に fail fast し、<code>-m N</code> と <code>-A/-C</code> の併用時も context を正しく表示するようにした。",
+                "context limit error を改善し、auto-compact が off のときはその旨を表示し、再有効化先として <code>/config</code> を案内するようにした。",
+                "Vim mode では、detailed transcript（<code>ctrl+o</code>）の開閉や panel を閉じたあとも <strong>NORMAL</strong> mode と cursor 位置を保持するようにした。",
+                "dialog では、arrow key と Enter を素早く続けて押したとき、以前の highlight ではなく、実際に移動した option を選ぶようにした。",
+                "<code>SendMessage</code> は、cross-session delivery に大きすぎる message を事前に拒否し、黙って捨てないようにした。",
+                "Remote Control の <code>claude rc</code> は、interactive startup と同じ enterprise-gateway availability check を適用するようにした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "language server が session 中に disconnect / reconnect したとき、prompt 全体の cache が不必要に無効化される問題を修正した。",
+                "terminal UI で nested markdown list の depth 3 以上がずれる問題を修正し、折り返し行には hanging indent も追加した。",
+                "複数行 prompt の一部で、slash command、keyword、mention などの input highlight が 1 文字以上ずれて見える問題を修正した。",
+                "permission prompt の comment field 内で <code>Shift+Tab</code> を押すと field を閉じる代わりに edit を承認し、session-wide edit permission まで付与してしまう問題を修正した。",
+                "その agent が使えない session で Agent tool が汎用 default を案内してしまう問題を修正し、その状態で <code>subagent_type</code> を省略すると、利用可能 agent の一覧付きで明確な error を返すようにした。",
+                "notebook または cell を読めないとき、notebook cell の delete / replace approval dialog から既存 cell 内容が黙って抜け落ちる問題を修正し、理由を表示するようにした。",
+                "Claude の応答中に実行した slash command が、実際の文字ではなく HTML entity を表示してしまう問題を修正した。",
+                "バックグラウンド auto-update 後に、prompt footer へ <strong>Update installed</strong> の restart notice が出ない問題を修正した。",
+                "open task が残っている session を再開・再起動したとき、expanded task list（<code>ctrl+t</code>）が必ず collapsed で始まる問題を修正した。",
+                "[VSCode] 複数の Claude panel を持つ window を restore / reload したとき、開いている Claude tab 間で focus が勝手に飛ぶ問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+          "urlLabel": "v2.1.235 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code Releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。publish time が見えない article は <strong>visible publication date</strong> ベースで扱っている。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得も login wall に近かったため、高信頼の official / engineer post を採用できなかった。",
+    "<strong>Claude Code</strong> release は GitHub CLI を source of truth とし、official release 本文の visible bullet 全19項目を <strong>新機能 / 変更 / 修正</strong> に整理して省略なく和訳した。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "url": "https://claude.com/blog/claude-on-call-how-claude-tag-serves-as-anthropics-first-responder-for-ci-cd-failures"
+    },
+    {
+      "title": "The Claude Science product guide",
+      "url": "https://claude.com/blog/the-claude-science-product-guide"
+    },
+    {
+      "title": "How Claude is accelerating protein design and analytical chemistry",
+      "url": "https://www.anthropic.com/research/how-claude-is-accelerating-protein-design-and-analytical-chemistry"
+    },
+    {
+      "title": "Claude Code release v2.1.235",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
+    },
+    {
+      "title": "Claude Code Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "AnthropicAI X profile checked",
+      "url": "https://x.com/AnthropicAI"
+    },
+    {
+      "title": "ClaudeAI X profile checked",
+      "url": "https://x.com/ClaudeAI"
+    },
+    {
+      "title": "ClaudeDevs X profile checked",
+      "url": "https://x.com/ClaudeDevs"
+    }
+  ]
+}
