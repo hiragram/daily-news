@@ -1,9 +1,9 @@
 {
   "date": "2026-08-20",
-  "windowLabel": "2026-08-19 05:01:53 UTC - 2026-08-20 05:01:53 UTC",
+  "windowLabel": "2026-08-19 11:01:35 UTC - 2026-08-20 11:01:35 UTC",
   "archiveTitle": "Concise mode and twin Claude Code releases",
   "archiveSummary": "Official 0件、engineer signal 0件、Claude Code releases 2件。",
-  "latestSummary": "2026-08-19 05:01:53 UTC から 2026-08-20 05:01:53 UTC の24時間では、Anthropic / Claude の official site 4面に高信頼で新規採用できる dated entry は確認できなかった。一方で Claude Code は <strong>v2.1.237</strong>（<strong>2026-08-20 00:54:35 UTC</strong>）と <strong>v2.1.236</strong>（<strong>2026-08-19 20:01:57 UTC</strong>）の 2 release を公開しており、release note の visible bullet 全 35 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため採用していない。",
+  "latestSummary": "2026-08-19 11:01:35 UTC から 2026-08-20 11:01:35 UTC の24時間では、Anthropic / Claude の official site 4面に高信頼で新規採用できる dated entry は確認できなかった。一方で Claude Code は <strong>v2.1.237</strong>（<strong>2026-08-20 00:54:41 UTC</strong>）と <strong>v2.1.236</strong>（<strong>2026-08-19 20:02:05 UTC</strong>）の 2 release を公開しており、release note の visible bullet 全 35 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため採用していない。",
   "summaryBullets": [
     "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の4面を確認したが、この24時間窓で publish を高信頼に確定できる新規項目はなかった。",
     "<strong>Claude Code release 2件</strong>: <strong>v2.1.237</strong> は built-in の <strong>Concise</strong> output style を追加し、<strong>v2.1.236</strong> は default model 指定、idle 通知、screen reader support、auto mode / Remote Control / fullscreen 周辺の広範な改善を入れた。",
@@ -14,7 +14,7 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新規採用はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> だった。<strong>Claude Blog</strong> には <strong>Aug 19, 2026</strong> の記事が見えるが、本文・一覧とも publish time を持たず、前回実行でも既に採用済みのため、この窓の開始 <strong>2026-08-19 05:01:53 UTC</strong> 以降に公開されたと高信頼に言えず今回は再採用していない。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> だった。<strong>Claude Blog</strong> には <strong>Aug 19, 2026</strong> の記事が見えるが、本文・一覧とも publish time を持たず、この窓の開始 <strong>2026-08-19 11:01:35 UTC</strong> 以降に公開されたと高信頼に言えないため今回は採用していない。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
@@ -30,7 +30,7 @@
     {
       "title": "ブログ",
       "headline": "0件",
-      "body": "watch 対象の official site listing / article を確認した結果、この24時間窓で高信頼に採用できる新規 dated entry はなかった。Claude Blog の <strong>Aug 19, 2026</strong> 記事は見えるが、publish time 不明かつ前回実行で既に採用済みのため、今回は再採用していない。",
+      "body": "watch 対象の official site listing / article を確認した結果、この24時間窓で高信頼に採用できる新規 dated entry はなかった。Claude Blog の <strong>Aug 19, 2026</strong> 記事は見えるが、publish time 不明のため、この窓への in-window 採用は見送っている。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
@@ -68,7 +68,7 @@
         },
         {
           "version": "v2.1.236",
-          "publishedAt": "2026-08-19 20:01 UTC",
+          "publishedAt": "2026-08-19 20:02 UTC",
           "summary": "<strong>v2.1.236</strong> は、既定モデル指定用の環境変数、cross-session の idle 通知、VS Code transcript の screen reader 対応を追加しつつ、sandbox / auto mode / <code>/model</code> / <code>/goal</code> / <code>/usage</code> / Remote Control / session UI の挙動を見直し、多数の fullscreen・background・approval・rendering・session-resume 不具合を修正した。",
           "sections": [
             {
@@ -130,7 +130,7 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "<strong>Claude Blog</strong> の <strong>Aug 19, 2026</strong> 記事は visible date のみで publish time が見えず、前回実行でも既に採用されていたため、この実行では再採用しなかった。",
+    "<strong>Claude Blog</strong> の <strong>Aug 19, 2026</strong> 記事は visible date のみで publish time が見えず、この実行の 24 時間窓に入ると高信頼に確定できなかったため採用しなかった。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official / engineer post を採用できなかった。"
   ],
   "sources": [
@@ -153,10 +153,6 @@
     {
       "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
       "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams"
-    },
-    {
-      "title": "Claude Code changelog feed",
-      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/feed.xml"
     },
     {
       "title": "Claude Code releases",
