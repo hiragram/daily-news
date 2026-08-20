@@ -1,41 +1,71 @@
 {
   "date": "2026-08-20",
-  "windowLabel": "2026-08-19 11:01:35 UTC - 2026-08-20 11:01:35 UTC",
-  "archiveTitle": "Concise mode and twin Claude Code releases",
-  "archiveSummary": "Official 0件、engineer signal 0件、Claude Code releases 2件。",
-  "latestSummary": "2026-08-19 11:01:35 UTC から 2026-08-20 11:01:35 UTC の24時間では、Anthropic / Claude の official site 4面に高信頼で新規採用できる dated entry は確認できなかった。一方で Claude Code は <strong>v2.1.237</strong>（<strong>2026-08-20 00:54:41 UTC</strong>）と <strong>v2.1.236</strong>（<strong>2026-08-19 20:02:05 UTC</strong>）の 2 release を公開しており、release note の visible bullet 全 35 項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、本来の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため採用していない。",
+  "windowLabel": "2026-08-19 17:01:34 UTC - 2026-08-20 17:01:34 UTC",
+  "archiveTitle": "Claude blog trio and twin releases",
+  "archiveSummary": "公式3件、engineer signal 0件、Claude Code releases 2件。",
+  "latestSummary": "2026-08-19 17:01:34 UTC から 2026-08-20 17:01:34 UTC の24時間では、official 側で <strong>Claude Blog</strong> に <strong>monday.com の agent-first 再設計</strong>、<strong>Claude Code の startup guide</strong>、<strong>Slack の human-agent team 実践</strong> の3本が visible publication date ベースで入った。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> の新規記事はなく、Claude Code では <strong>v2.1.237</strong> と <strong>v2.1.236</strong> の 2 release が確認でき、release note の visible bullet 全35項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は <strong>x_mcp</strong> 不在に加えて <strong>x.com</strong> へのブラウザ許可も拒否され、高信頼な post 採用はできていない。",
   "summaryBullets": [
-    "<strong>official site 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の4面を確認したが、この24時間窓で publish を高信頼に確定できる新規項目はなかった。",
-    "<strong>Claude Code release 2件</strong>: <strong>v2.1.237</strong> は built-in の <strong>Concise</strong> output style を追加し、<strong>v2.1.236</strong> は default model 指定、idle 通知、screen reader support、auto mode / Remote Control / fullscreen 周辺の広範な改善を入れた。",
-    "<strong>release note 全35項目を保持</strong>: official GitHub release feed と各 tag page を確認し、visible bullet を省略せず <strong>新機能 / 変更 / 修正</strong> に分類して全件和訳した。",
-    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路が使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に確定できなかった。"
+    "<strong>official blog 3件</strong>: <strong>Claude Blog</strong> で <strong>monday.com の agent-first product 化</strong>、<strong>Claude Code の startup 運用ガイド</strong>、<strong>Slack の human-agent team 設計</strong> が visible date ベースで新規に確認できた。",
+    "<strong>Anthropic Engineering / Research / News は 0件</strong>: visible date の最新はそれぞれ <strong>Apr 23, 2026</strong>、<strong>Aug 18, 2026</strong>、<strong>Aug 14, 2026</strong> のままで、この24時間窓に入る新規記事はなかった。",
+    "<strong>Claude Code release 2件</strong>: <strong>v2.1.237</strong> は built-in の <strong>Concise</strong> output style 追加と prompt caching 修正、<strong>v2.1.236</strong> は default model 指定、idle 通知、screen reader support、auto mode / Remote Control / fullscreen 周辺の広範な改善を含んだ。",
+    "<strong>release note 全35項目を保持</strong>: GitHub CLI は <code>api.github.com</code> 接続エラーで使えなかったが、公開 release pages に見える bullet は省略せず <strong>新機能 / 変更 / 修正</strong> に分類して全件和訳した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、<strong>x.com</strong> はブラウザ許可拒否と公開 Web の情報不足が重なり、本文・時刻・canonical URL を高信頼に揃えられなかった。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-20T00:00:00Z",
+      "displayTime": "2026-08-20（visible date）",
+      "title": "monday.com が Claude を中核に agent-first product へ再設計した事例を公開",
+      "summary": "<strong>How monday.com transformed its platform into an agent-first product where humans and agents collaborate</strong> では、monday.com が add-on 的な AI 機能の限界を越えるために Claude を核として platform を再設計し、公開後 2 か月で <strong>500万回</strong> の agent interaction を処理したと説明している。agent を workflow 内の teammate として扱う設計、BYOA、Claude Managed Agents 連携、marketing / IT / HR / exec office の具体ユースケースがまとまっている。",
+      "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "urlLabel": "monday.com 事例を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-20T00:00:00Z",
+      "displayTime": "2026-08-20（visible date）",
+      "title": "Claude Code を使う startup 向けの運用原則ガイドを公開",
+      "summary": "<strong>The Claude Code guide for startups</strong> は、十数社の startup interview を基に、<strong>Everyone ships</strong>、<strong>Automate the tedium</strong>、<strong>Trust, but verify</strong>、<strong>Build for rebuilding</strong>、<strong>Prototype, dogfood, productionize</strong> の 5 原則で agentic coding の運用を整理した。ClickHouse、Clay、Artemis Security などの定量例も載せている。",
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "urlLabel": "startup guide を読む"
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-19T00:00:00Z",
+      "displayTime": "2026-08-19（visible date）",
+      "title": "Slack の human-agent team 設計を Anthropic が聞き取った実践記事を公開",
+      "summary": "<strong>Turning conversation into knowledge: how Slack builds human-agent teams</strong> は、Slack CPO Jaime DeLanghe へのインタビューを通じて、public channel を knowledge base 化し、agent と人間の handoff を前提に conversation から reasoning と context を引き出す運用を紹介している。meeting、email、calendar、document repository までつなぐ context surface 拡張も強調している。",
+      "url": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+      "urlLabel": "Slack 事例を読む"
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering / Research / News / Claude Blog の新規採用はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> だった。<strong>Claude Blog</strong> には <strong>Aug 19, 2026</strong> の記事が見えるが、本文・一覧とも publish time を持たず、この窓の開始 <strong>2026-08-19 11:01:35 UTC</strong> 以降に公開されたと高信頼に言えないため今回は採用していない。"
+      "label": "Anthropic Engineering / Research / News の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> だった。今回の24時間窓に入る新規記事は確認できていない。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web で開ける <strong>x.com</strong> profile / search 経路でも post 本文・時刻・canonical URL を安定して揃えられなかった。そのため、この24時間窓で高信頼に裏取りできる official X main post は final report に採用していない。"
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で試したブラウザ経路も <strong>x.com</strong> へのアクセス許可がユーザー環境側で拒否された。公開 Web 検索だけでは post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も、本来の MCP 取得ができず、公開 profile / search 経路から Claude / Anthropic product signal を高信頼に確定できなかったため、今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出とブラウザ許可拒否のため、Claude / Anthropic product signal を一次情報で高信頼に確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "watch 対象の official site listing / article を確認した結果、この24時間窓で高信頼に採用できる新規 dated entry はなかった。Claude Blog の <strong>Aug 19, 2026</strong> 記事は見えるが、publish time 不明のため、この窓への in-window 採用は見送っている。",
+      "headline": "3件",
+      "body": "watch 対象の official site 4面を確認した結果、<strong>Claude Blog</strong> では <strong>2026-08-19</strong> と <strong>2026-08-20</strong> の visible publication date を持つ 3 記事を採用できた。一方で <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> にはこの24時間窓に入る新規記事はなかった。Claude Blog 記事は publish time までは見えないため、採用判定は visible date ベースで行っている。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 14, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Claude Blog</strong>: <strong>Aug 19, 2026</strong> の記事は見えるが publish time 不明のため今回の窓では再採用なし"
+        "<strong>Claude Blog</strong>: <strong>Aug 20, 2026</strong> の 2 記事と <strong>Aug 19, 2026</strong> の 1 記事を visible date ベースで採用"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -43,7 +73,7 @@
     {
       "title": "Claude Code リリース",
       "headline": "2件",
-      "body": "Claude Code の official GitHub release feed と tag page を確認したところ、この24時間窓には <strong>v2.1.237</strong> と <strong>v2.1.236</strong> の 2 release が入っていた。release body の visible bullet 全35項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
+      "body": "Claude Code の公開 GitHub releases page と各 tag page を確認したところ、この24時間窓には <strong>v2.1.237</strong> と <strong>v2.1.236</strong> の 2 release が入っていた。<strong>api.github.com</strong> 接続エラーのため本来の GitHub CLI 経路は使えなかったが、公開 page 上で visible な bullet 全35項目を取得できたため、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて省略なく和訳している。",
       "releases": [
         {
           "version": "v2.1.237",
@@ -92,7 +122,7 @@
                 "<code>/model</code> picker は newest model の名前だけを強調表示するように変え、新リリースが任意の一部ではなく正しく目立つようにした。",
                 "print/SDK mode での SIGTERM は、終了前に interrupted turn や synthetic tool denial を記録しないようにした。実行中 command の終了と process の exit code 143 は維持する。",
                 "Remote Control は、CLI が終了したり terminal が閉じたりした数秒後に session を offline と見なすようにした。",
-                "prompt border 上の session title chip を footer の右端に揃え、goal indicator・session state・background agent status・truncated notice の右 margin も prompt area 全体で一致させた。"
+                "prompt border 上の session title chip を footer の右端に揃え、goal indicator・session state・background agent status・truncated notice の right margin も prompt area 全体で一致させた。"
               ]
             },
             {
@@ -130,8 +160,9 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "<strong>Claude Blog</strong> の <strong>Aug 19, 2026</strong> 記事は visible date のみで publish time が見えず、この実行の 24 時間窓に入ると高信頼に確定できなかったため採用しなかった。",
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web 取得でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official / engineer post を採用できなかった。"
+    "Claude Blog の 3 記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の <strong>x.com</strong> ブラウザ経路もアクセス許可拒否のため使えなかった。",
+    "Claude Code release watch は本来 GitHub CLI を source of truth とするが、この実行では <code>api.github.com</code> 接続エラーで CLI 取得に失敗したため、公開 release pages の visible metadata / body を使って構成した。"
   ],
   "sources": [
     {
@@ -149,6 +180,14 @@
     {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "url": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate"
+    },
+    {
+      "title": "The Claude Code guide for startups",
+      "url": "https://claude.com/blog/claude-code-guide-for-startups"
     },
     {
       "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
