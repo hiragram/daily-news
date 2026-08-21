@@ -1,11 +1,11 @@
 {
   "date": "2026-08-21",
-  "windowLabel": "2026-08-20 11:01:21 UTC - 2026-08-21 11:01:21 UTC",
-  "archiveTitle": "Claude Academy and v2.1.238",
-  "archiveSummary": "公式4件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-20 11:01:21 UTC から 2026-08-21 11:01:21 UTC の24時間では、official 側で <strong>Claude Blog</strong> の <strong>2026-08-20</strong> 公開記事 4 本を採用できた。内容は <strong>Claude Academy</strong>、<strong>monday.com の agent-first 再設計</strong>、<strong>Claude Code startup guide</strong>、<strong>computer use / Skills API / Files API の GA</strong>。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> の新規記事はなく、Claude Code では <strong>v2.1.238</strong> が新規 release として入ったため、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出しておらず、公開 Web でも profile 本文を取得できないため、高信頼な post 採用はしていない。",
+  "windowLabel": "2026-08-20 17:02:13 UTC - 2026-08-21 17:02:13 UTC",
+  "archiveTitle": "AI-native SDLC and v2.1.238",
+  "archiveSummary": "公式5件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-20 17:02:13 UTC から 2026-08-21 17:02:13 UTC の24時間では、official 側で <strong>Claude Blog</strong> の visible publication date が <strong>2026-08-20</strong> と <strong>2026-08-21</strong> にある 5 記事を採用した。新顔は <strong>The AI-Native SDLC playbook</strong> で、前回分の <strong>Claude Academy</strong>、<strong>monday.com の agent-first 再設計</strong>、<strong>Claude Code startup guide</strong>、<strong>computer use / Skills API / Files API の GA</strong> も同じ日付窓に残る。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> の新規記事はなく、Claude Code では <strong>v2.1.238</strong> がこの24時間窓に入り続けるため、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出しておらず、公開 Web の <strong>x.com</strong> profile も本文 0 行だったため、高信頼な post 採用はしていない。",
   "summaryBullets": [
-    "<strong>official blog 4件</strong>: <strong>Claude Blog</strong> で <strong>Claude Academy</strong>、<strong>monday.com</strong>、<strong>Claude Code startup guide</strong>、<strong>computer use / Skills API / Files API GA</strong> の 4 記事を <strong>2026-08-20</strong> の visible date ベースで採用した。",
+    "<strong>official blog 5件</strong>: <strong>Claude Blog</strong> で <strong>The AI-Native SDLC playbook</strong>（<strong>2026-08-21</strong> visible date）と、<strong>Claude Academy</strong>、<strong>monday.com</strong>、<strong>Claude Code startup guide</strong>、<strong>computer use / Skills API / Files API GA</strong>（いずれも <strong>2026-08-20</strong> visible date）を採用した。",
     "<strong>Anthropic Engineering / Research / News は 0件</strong>: visible date の最新はそれぞれ <strong>Apr 23, 2026</strong>、<strong>Aug 18, 2026</strong>、<strong>Aug 14, 2026</strong> のままで、この24時間窓に入る新規記事はなかった。",
     "<strong>Claude Code release 1件</strong>: <strong>v2.1.238</strong> では keybinding flavor、plugin marketplace の <code>headersHelper</code>、self-hosted runner の shutdown / proxy auth 周辺が追加され、Remote Control、cross-session messaging、MCP、startup、terminal rendering 周辺の修正と変更が多数入った。",
     "<strong>release note 全件を保持</strong>: <code>gh release view</code> で取得した <strong>v2.1.238</strong> の visible bullet を省略せず、<strong>新機能 / 変更 / 修正</strong> に分類して 1 項目ずつ和訳した。",
@@ -14,13 +14,22 @@
   "officialNews": [
     {
       "label": "Claude Blog",
+      "datetime": "2026-08-21T00:00:00Z",
+      "displayTime": "2026-08-21（visible date）",
+      "title": "AI-native SDLC への移行プレイブックを公開",
+      "summary": "<strong>The AI-Native SDLC playbook</strong> は、code 生成そのものではなく <strong>plan / review / deploy</strong> など人間速度の工程が新しい bottleneck になったと整理し、<strong>Plan・Design・Build・Test・Deploy・Maintain</strong> の 6 段階を agent 前提で組み替える playbook を示した。<strong>intent.md</strong>、<strong>spec.md</strong>、review findings、incident record などの committed artifact を次工程へ渡し、人間は gate judgment に集中する構成を提案している。",
+      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "urlLabel": "AI-native SDLC playbook を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
       "datetime": "2026-08-20T00:00:00Z",
       "displayTime": "2026-08-20（visible date）",
       "title": "Claude Academy の教育設計と AI 学習方針を公開",
       "summary": "<strong>Anthropic’s approach to teaching and learning AI</strong> は、<strong>Claude Academy</strong> を通じて何百万人規模へ AI 学習を届ける方針を説明し、社員 onboarding で使う <strong>4D AI Fluency Framework</strong>、<strong>verify in proportion to the stakes</strong> などの durable mindset、AI に委ねる仕事と人間に残す仕事を明示的に分ける設計原則を示した。",
       "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
-      "urlLabel": "Claude Academy 方針を読む",
-      "primary": true
+      "urlLabel": "Claude Academy 方針を読む"
     },
     {
       "label": "Claude Blog",
@@ -68,13 +77,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "4件",
-      "body": "watch 対象の official site 4面を確認した結果、<strong>Claude Blog</strong> では <strong>2026-08-20</strong> の visible publication date を持つ 4 記事を採用できた。一方で <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> にはこの24時間窓に入る新規記事はなかった。Claude Blog 記事は publish time までは見えないため、採用判定は visible date ベースで行っている。",
+      "headline": "5件",
+      "body": "watch 対象の official site 4面を確認した結果、<strong>Claude Blog</strong> では <strong>2026-08-21</strong> の 1 記事と <strong>2026-08-20</strong> の 4 記事を、いずれも visible publication date ベースで採用できた。一方で <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> にはこの24時間窓に入る新規記事はなかった。Claude Blog 記事は publish time までは見えないため、採用判定は visible date ベースで行っている。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 14, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Claude Blog</strong>: <strong>Aug 20, 2026</strong> の 4 記事を visible date ベースで採用"
+        "<strong>Claude Blog</strong>: <strong>Aug 21, 2026</strong> の 1 記事と <strong>Aug 20, 2026</strong> の 4 記事を visible date ベースで採用"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -154,7 +163,7 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "Claude Blog の 4 記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
+    "Claude Blog の 5 記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、公開 Web の <strong>x.com</strong> profile も本文を返さなかったため、採用に足る一次情報を得られなかった。",
     "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。"
   ],
@@ -174,6 +183,10 @@
     {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "The AI-Native SDLC playbook",
+      "url": "https://claude.com/blog/the-ai-native-sdlc-playbook"
     },
     {
       "title": "Anthropic’s approach to teaching and learning AI",
