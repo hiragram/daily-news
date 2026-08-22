@@ -1,15 +1,15 @@
 {
   "date": "2026-08-22",
-  "windowLabel": "2026-08-21 11:01:12 UTC - 2026-08-22 11:01:12 UTC",
-  "archiveTitle": "Mythos 5 defenders and v2.1.239",
-  "archiveSummary": "公式2件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-21 11:01:12 UTC から 2026-08-22 11:01:12 UTC の24時間では、official 側で <strong>Claude Blog</strong> の visible publication date が <strong>2026-08-21</strong> の 2 記事を採用した。<strong>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</strong> は Claude Security への <strong>Mythos 5</strong> 展開、partner tool integration、<strong>$35M</strong> の open-source security fund を打ち出し、<strong>The AI-Native SDLC playbook</strong> は AI 前提で <strong>Plan / Design / Build / Test / Deploy / Maintain</strong> を作り直す運用を整理した。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> の新規記事はなく、Claude Code では <strong>v2.1.239</strong> がこの24時間窓の新規 release だったため、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出せず、<strong>x.com</strong> の公開プロフィール面も本文取得に使えなかったため、高信頼な post 採用はしていない。",
+  "windowLabel": "2026-08-21 17:02:32 UTC - 2026-08-22 17:02:32 UTC",
+  "archiveTitle": "Dual releases and Mythos defenders",
+  "archiveSummary": "公式2件、engineer signal 0件、Claude Code release 2件。",
+  "latestSummary": "2026-08-21 17:02:32 UTC から 2026-08-22 17:02:32 UTC の24時間では、official 側で <strong>Claude Blog</strong> の visible publication date が <strong>2026-08-21</strong> の 2 記事を採用した。<strong>Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders</strong> は Claude Security への <strong>Mythos 5</strong> 展開、partner tool integration、<strong>$35M</strong> の open-source security fund を打ち出し、<strong>The AI-Native SDLC playbook</strong> は AI 前提で <strong>Plan / Design / Build / Test / Deploy / Maintain</strong> を作り直す運用を整理した。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> の新規記事はなく、Claude Code では <strong>v2.1.240</strong> と <strong>v2.1.239</strong> がこの24時間窓の新規 release だったため、release note の visible bullet 全項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出せず、公開の <strong>x.com</strong> profile も取得できなかったため、高信頼な post 採用はしていない。",
   "summaryBullets": [
     "<strong>official blog 2件</strong>: <strong>Claude Blog</strong> で <strong>Claude Mythos 5 の defender 向け展開拡大</strong> と <strong>AI-native SDLC playbook</strong>（ともに <strong>2026-08-21</strong> visible date）を採用した。",
     "<strong>Anthropic Engineering / Research / News は 0件</strong>: visible date の最新はそれぞれ <strong>Apr 23, 2026</strong>、<strong>Aug 18, 2026</strong>、<strong>Aug 14, 2026</strong> のままで、この24時間窓に入る新規記事はなかった。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.239</strong> では data-residency premium を織り込んだ cost estimate、fullscreen renderer 適用拡大、<code>/claude-api upgrade</code>、cloud session plugin sync、Windows cross-session messaging などが入り、proxy・startup・resume・fullscreen・Remote Control・MCP 周辺の修正も多数入った。",
-    "<strong>release note 全件を保持</strong>: <code>gh release view</code> で取得した <strong>v2.1.239</strong> の visible bullet を省略せず、<strong>新機能 / 変更 / 修正</strong> に分類して 1 項目ずつ和訳した。",
-    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、代替で開いた <strong>x.com</strong> profile / search も login wall または reload error になり、本文・時刻・canonical URL を高信頼に揃えられなかった。"
+    "<strong>Claude Code release 2件</strong>: <strong>v2.1.240</strong> は <strong>bug fixes and reliability improvements</strong> の小規模更新で、続く <strong>v2.1.239</strong> では data-residency premium を織り込んだ cost estimate、fullscreen renderer 適用拡大、<code>/claude-api upgrade</code>、cloud session plugin sync、Windows cross-session messaging などが入った。",
+    "<strong>release note 全件を保持</strong>: <code>gh release view</code> で取得した <strong>v2.1.240</strong> と <strong>v2.1.239</strong> の visible bullet を省略せず、<strong>新機能 / 変更 / 修正</strong> に分類して 1 項目ずつ和訳した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、代替で開いた <strong>x.com</strong> profile も本文・時刻・canonical URL を返さず、高信頼な post を揃えられなかった。"
   ],
   "officialNews": [
     {
@@ -39,11 +39,11 @@
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で開いた <strong>x.com</strong> の profile / with_replies / search page も login wall または <strong>問題が発生しました。再読み込みしてください。</strong> の表示になった。公開検索だけでは post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official X main post は final report に採用していない。"
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で開いた <strong>x.com</strong> の official profile も本文一覧を返さなかった。公開 profile だけでは post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、公開 Web とブラウザ表示だけでは reply context や本文を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、公開 Web から reply context や本文を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
@@ -63,9 +63,24 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.239</strong> が 1 件入っていた。release note の visible bullet は省略せず取得し、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳している。",
+      "headline": "2件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.240</strong> と <strong>v2.1.239</strong> が入っていた。release note の visible bullet は省略せず取得し、各項目を <strong>新機能 / 変更 / 修正</strong> に分けて全件和訳している。",
       "releases": [
+        {
+          "version": "v2.1.240",
+          "publishedAt": "2026-08-22 14:45 UTC",
+          "summary": "<strong>v2.1.240</strong> は 1 項目だけの小規模 release で、公開された変更点は <strong>bug fixes and reliability improvements</strong> のみだった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性向上を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
+          "urlLabel": "v2.1.240 release note"
+        },
         {
           "version": "v2.1.239",
           "publishedAt": "2026-08-21 19:54 UTC",
@@ -158,8 +173,8 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
     "Claude Blog の 2 記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の <strong>x.com</strong> profile / search も login wall または reload error のため採用に足る一次情報を返さなかった。",
-    "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。"
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の <strong>x.com</strong> profile も本文一覧を返さなかったため採用に足る一次情報を返さなかった。",
+    "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った."
   ],
   "sources": [
     {
@@ -189,6 +204,10 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.240",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240"
     },
     {
       "title": "Claude Code release v2.1.239",
