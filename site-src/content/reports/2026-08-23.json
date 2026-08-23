@@ -1,9 +1,9 @@
 {
   "date": "2026-08-23",
-  "windowLabel": "2026-08-22 05:01:44 UTC - 2026-08-23 05:01:44 UTC",
+  "windowLabel": "2026-08-22 11:01:21 UTC - 2026-08-23 11:01:21 UTC",
   "archiveTitle": "Two patch releases, no official posts",
   "archiveSummary": "公式0件、engineer signal 0件、Claude Code release 2件。",
-  "latestSummary": "2026-08-22 05:01:44 UTC から 2026-08-23 05:01:44 UTC の24時間では、official blog / official site 4面に新しい visible publication date の記事はなく、<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> はいずれも 0 件だった。Claude Code では <strong>v2.1.241</strong> と <strong>v2.1.240</strong> がこの24時間窓の新規 release で、どちらも公開された release note は <strong>Bug fixes and reliability improvements</strong> の 1 項目のみだったため、visible bullet 全件を <strong>修正</strong> として和訳して保持した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出しておらず、公開の <strong>x.com</strong> profile 取得も成立しなかったため、高信頼な post 採用はしていない。",
+  "latestSummary": "2026-08-22 11:01:21 UTC から 2026-08-23 11:01:21 UTC の24時間では、official blog / official site 4面に新しい visible publication date の記事はなく、<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> はいずれも 0 件だった。Claude Code では <strong>v2.1.241</strong> と <strong>v2.1.240</strong> がこの24時間窓の新規 release で、どちらも公開された release note は <strong>Bug fixes and reliability improvements</strong> の 1 項目のみだったため、visible bullet 全件を <strong>修正</strong> として和訳して保持した。official / engineer X 監視は、このスレッドに <strong>x_mcp</strong> が露出しておらず、公開の <strong>x.com</strong> profile 取得も本文を返さなかったため、高信頼な post 採用はしていない。",
   "summaryBullets": [
     "<strong>official blog / site は 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の watch 対象4面に、この24時間窓へ入る新規 dated entry はなかった。",
     "<strong>Claude Code release 2件</strong>: <strong>v2.1.241</strong>（2026-08-23 00:52 UTC）と <strong>v2.1.240</strong>（2026-08-22 14:45 UTC）が新規 release だった。",
@@ -18,7 +18,7 @@
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で開こうとした <strong>x.com</strong> の official profile / with_replies も取得結果を返さなかった。公開 profile だけでは post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official X main post は final report に採用していない。"
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で開いた <strong>x.com</strong> の official profile も本文を返さなかった。公開 profile だけでは post 本文・時刻・canonical URL を高信頼に揃えられなかったため、official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
@@ -82,7 +82,7 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の <strong>x.com</strong> profile 取得も成立しなかったため、採用に足る一次情報を得られなかった。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の <strong>x.com</strong> profile も本文を返さなかったため、採用に足る一次情報を得られなかった。",
     "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。"
   ],
   "sources": [
@@ -115,16 +115,16 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240"
     },
     {
-      "title": "AnthropicAI with replies",
-      "url": "https://x.com/AnthropicAI/with_replies"
+      "title": "AnthropicAI profile",
+      "url": "https://x.com/AnthropicAI"
     },
     {
-      "title": "ClaudeAI with replies",
-      "url": "https://x.com/ClaudeAI/with_replies"
+      "title": "ClaudeAI profile",
+      "url": "https://x.com/ClaudeAI"
     },
     {
-      "title": "ClaudeDevs with replies",
-      "url": "https://x.com/ClaudeDevs/with_replies"
+      "title": "ClaudeDevs profile",
+      "url": "https://x.com/ClaudeDevs"
     }
   ]
 }
