@@ -1,15 +1,15 @@
 {
   "date": "2026-08-24",
-  "windowLabel": "2026-08-23 17:02:22 UTC - 2026-08-24 17:02:22 UTC",
+  "windowLabel": "2026-08-23 23:00:57 UTC - 2026-08-24 23:00:57 UTC",
   "archiveTitle": "One Claude Code blog post, no release",
   "archiveSummary": "公式1件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-23 17:02:22 UTC から 2026-08-24 17:02:22 UTC の24時間では、official 側で <strong>Claude Blog</strong> に <strong>2026-08-24</strong> visible date の新規記事が 1 件あり、Anthropic 社内の field marketer が <strong>Claude Code</strong> で sales rep ごとの週次 briefing を自動生成する運用を紹介した。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> に新規記事はなく、Claude Code の GitHub releases もこの24時間窓では 0 件だった。official / engineer X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> が使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、採用していない。",
+  "latestSummary": "2026-08-23 23:00:57 UTC から 2026-08-24 23:00:57 UTC の24時間では、official 側で <strong>Claude Blog</strong> に <strong>2026-08-24</strong> visible date の新規記事が 1 件あり、Anthropic の field marketer が <strong>Claude Code</strong> を使って営業担当ごとの週次 briefing を自動生成する社内運用を紹介した。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> に新規記事はなく、Claude Code の GitHub releases もこの24時間窓では 0 件だった。official / engineer X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> が使えず、公開 Web の <strong>x.com</strong> も高信頼に本文・時刻・canonical URL を返さなかったため、採用していない。",
   "summaryBullets": [
     "<strong>Claude Blog 1件</strong>: <strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> が <strong>2026-08-24</strong> visible date で公開された。",
-    "<strong>記事の主題は社内運用の具体化</strong>: marketing の週次 sales update を、BigQuery と CRM / Slack 文脈を使って account executive ごとに個別最適化した Monday briefing へ変換する手順を紹介している。",
+    "<strong>記事の主題は社内営業運用の自動化</strong>: BigQuery を MCP 経由で参照し、CRM の territory 情報や Slack 上の account update を使って、sales rep ごとに Monday briefing を個別生成する流れを紹介している。",
     "<strong>Anthropic Engineering / Research / News は 0件</strong>: visible date の最新はそれぞれ <strong>Apr 23, 2026</strong>、<strong>Aug 18, 2026</strong>、<strong>Aug 14, 2026</strong> のままで、この24時間窓に入る新規記事はなかった。",
     "<strong>Claude Code release は 0件</strong>: GitHub CLI で確認した範囲では、この24時間窓に publish された新規 release はなかった。",
-    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、代替の公開 Web でも本文・時刻・canonical URL を高信頼に確定できなかった。"
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、公開 Web でも本文・時刻・canonical URL を高信頼に確定できなかった。"
   ],
   "officialNews": [
     {
@@ -17,7 +17,7 @@
       "datetime": "2026-08-24T00:00:00Z",
       "displayTime": "2026-08-24（visible date）",
       "title": "Claude Codeで営業向け週次ブリーフを自動生成する社内事例を公開",
-      "summary": "<strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> では、Anthropic の field marketer が <strong>Claude Code</strong> を使って、1 本の週次 sales report を sales rep ごとの personalized briefing に変換する実運用を説明している。BigQuery を MCP 経由で参照し、CRM の territory 情報や Slack 上の account update を合わせて、各担当者へ Monday morning の優先アクションを送る構成にした点が中心テーマだった。",
+      "summary": "<strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> では、Anthropic の field marketer が <strong>Claude Code</strong> を使って、1 本の週次 sales report を sales rep ごとの personalized briefing に変換する実運用を説明している。BigQuery を MCP 経由で参照し、CRM の territory 情報や Slack 上の account update を組み合わせて、各担当者に Monday morning の優先アクションを送る構成が中心テーマだった。",
       "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
       "urlLabel": "Claude Code 活用事例を読む",
       "primary": true
@@ -30,7 +30,7 @@
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で確認した公開 Web でも post 本文・時刻・canonical URL を揃えられなかった。公開 profile だけでは一次情報として不十分なため、official X main post は final report に採用していない。"
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で確認した公開 Web の <strong>x.com</strong> も本文・時刻・canonical URL を高信頼に返さなかった。公開 profile だけでは一次情報として不十分なため、official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
@@ -58,7 +58,9 @@
       "body": "GitHub CLI の <code>gh release list</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。直近の release は <strong>v2.1.241</strong> だが、公開時刻は <strong>2026-08-23 00:52 UTC</strong> で、今回の窓開始より前だった。",
       "details": [
         "24時間窓内の新規 release: 0件",
-        "直近 release: <strong>v2.1.241</strong>（<strong>2026-08-23 00:52 UTC</strong>、窓外）"
+        "直近 release: <strong>v2.1.241</strong>（<strong>2026-08-23 00:52 UTC</strong>、窓外）",
+        "直近 release note 全文: <strong>Bug fixes and reliability improvements</strong>",
+        "直近 release note の和訳分類: <strong>修正</strong> - 不具合修正と信頼性向上を行った。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code releases"
@@ -69,7 +71,7 @@
     "Claude Blog の新規記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の公開 Web でも本文・時刻・canonical URL を高信頼に返さなかった。",
     "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。",
-    "Claude Code の <strong>v2.1.241</strong> は確認したが、公開時刻が今回の24時間窓より前のため release 件数には含めていない。"
+    "Claude Code の直近 release <strong>v2.1.241</strong> は完全取得して確認したが、公開時刻が今回の24時間窓より前のため release 件数には含めていない。"
   ],
   "sources": [
     {
@@ -106,7 +108,7 @@
     },
     {
       "title": "ClaudeAI with replies",
-      "url": "https://x.com/ClaudeAI/with_replies?lang=en"
+      "url": "https://x.com/claudeai/with_replies?lang=en"
     },
     {
       "title": "ClaudeDevs with replies",
