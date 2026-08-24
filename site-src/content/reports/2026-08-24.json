@@ -1,13 +1,13 @@
 {
   "date": "2026-08-24",
-  "windowLabel": "2026-08-23 05:00:48 UTC - 2026-08-24 05:00:48 UTC",
+  "windowLabel": "2026-08-23 11:02:23 UTC - 2026-08-24 11:02:23 UTC",
   "archiveTitle": "No official posts or releases",
   "archiveSummary": "公式0件、engineer signal 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-23 05:00:48 UTC から 2026-08-24 05:00:48 UTC の24時間では、official blog / official site 4面に新しい visible publication date の記事はなく、<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> はいずれも 0 件だった。Claude Code もこの24時間窓に新規 release はなく、直近の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で窓の開始より前だった。official / engineer X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> が使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、採用していない。",
+  "latestSummary": "2026-08-23 11:02:23 UTC から 2026-08-24 11:02:23 UTC の24時間では、official blog / official site 4面に新しい visible publication date の記事はなく、<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> はいずれも 0 件だった。Claude Code もこの24時間窓に新規 release はなく、直近の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で窓の開始より前だった。official / engineer X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> が使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、採用していない。",
   "summaryBullets": [
     "<strong>official blog / site は 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の watch 対象4面に、この24時間窓へ入る新規 dated entry はなかった。",
     "<strong>Claude Code release は 0件</strong>: GitHub CLI で確認した範囲では、この24時間窓に publish された新規 release はなかった。",
-    "<strong>直近 release は窓外</strong>: 最新の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で、今回の窓開始 <strong>2026-08-23 05:00:48 UTC</strong> より前だった。",
+    "<strong>直近 release は窓外</strong>: 最新の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で、今回の窓開始 <strong>2026-08-23 11:02:23 UTC</strong> より前だった。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、代替の公開 Web でも本文・時刻・canonical URL を高信頼に確定できなかった。"
   ],
   "officialNews": [],
