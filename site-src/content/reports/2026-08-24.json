@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-24",
+  "windowLabel": "2026-08-23 05:00:48 UTC - 2026-08-24 05:00:48 UTC",
+  "archiveTitle": "No official posts or releases",
+  "archiveSummary": "公式0件、engineer signal 0件、Claude Code release 0件。",
+  "latestSummary": "2026-08-23 05:00:48 UTC から 2026-08-24 05:00:48 UTC の24時間では、official blog / official site 4面に新しい visible publication date の記事はなく、<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> はいずれも 0 件だった。Claude Code もこの24時間窓に新規 release はなく、直近の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で窓の開始より前だった。official / engineer X 監視は、このスレッドで本来想定の <strong>x_mcp</strong> が使えず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、採用していない。",
+  "summaryBullets": [
+    "<strong>official blog / site は 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の watch 対象4面に、この24時間窓へ入る新規 dated entry はなかった。",
+    "<strong>Claude Code release は 0件</strong>: GitHub CLI で確認した範囲では、この24時間窓に publish された新規 release はなかった。",
+    "<strong>直近 release は窓外</strong>: 最新の <strong>v2.1.241</strong> は <strong>2026-08-23 00:52 UTC</strong> 公開で、今回の窓開始 <strong>2026-08-23 05:00:48 UTC</strong> より前だった。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、代替の公開 Web でも本文・時刻・canonical URL を高信頼に確定できなかった。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering / Research / News / Claude Blog の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 21, 2026</strong> のままで、今回の24時間窓に入る新規記事は確認できていない。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で確認した公開 Web でも post 本文・時刻・canonical URL を揃えられなかった。公開 profile だけでは一次情報として不十分なため、official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、公開 Web から reply context や本文を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓に入る新規記事はなかった。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> はそれぞれ既存の最新 dated entry のままで、<strong>Claude Blog</strong> も最新 visible date は <strong>Aug 21, 2026</strong> のままだった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 14, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Claude Blog</strong>: 最新 visible date は <strong>Aug 21, 2026</strong> で、新規 dated entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLI の <code>gh release list</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に publish された Claude Code release はなかった。直近の release は <strong>v2.1.241</strong> だが、公開時刻は <strong>2026-08-23 00:52 UTC</strong> で、今回の窓開始より前だった。",
+      "details": [
+        "24時間窓内の新規 release: 0件",
+        "直近 release: <strong>v2.1.241</strong>（<strong>2026-08-23 00:52 UTC</strong>、窓外）"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の公開 Web でも本文・時刻・canonical URL を高信頼に返さなかった。",
+    "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。",
+    "Claude Code の <strong>v2.1.241</strong> は確認したが、公開時刻が今回の24時間窓より前のため release 件数には含めていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.241",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
+    },
+    {
+      "title": "AnthropicAI with replies",
+      "url": "https://x.com/AnthropicAI/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeAI with replies",
+      "url": "https://x.com/ClaudeAI/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeDevs with replies",
+      "url": "https://x.com/ClaudeDevs/with_replies?lang=en"
+    }
+  ]
+}
