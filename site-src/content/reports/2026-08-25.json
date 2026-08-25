@@ -1,54 +1,72 @@
 {
   "date": "2026-08-25",
-  "windowLabel": "2026-08-24 11:03:21 UTC - 2026-08-25 11:03:21 UTC",
-  "archiveTitle": "Field marketer post and Linux fix",
-  "archiveSummary": "公式1件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-24 11:03:21 UTC から 2026-08-25 11:03:21 UTC の24時間では、official 側で <strong>Claude Blog</strong> に <strong>2026-08-24</strong> visible date の記事 1 件を継続採用し、Anthropic の field marketer が <strong>Claude Code</strong> を使って営業担当ごとの週次 briefing を自動生成する社内運用を紹介した。Claude Code では <strong>v2.1.245</strong> が新規 release として publish され、<strong>glibc 2.44</strong> を搭載する Linux ディストリビューションでの起動時クラッシュ修正が 1 項目だけ公開された。<strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> に新規記事はなく、official / engineer X 監視は本来想定の <strong>x_mcp</strong> が使えないため、高信頼な一次情報としては採用していない。",
+  "windowLabel": "2026-08-24 17:01:44 UTC - 2026-08-25 17:01:44 UTC",
+  "archiveTitle": "Wellbeing grants and Bain partnership",
+  "archiveSummary": "公式3件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-24 17:01:44 UTC から 2026-08-25 17:01:44 UTC の24時間では、official 側で <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Anthropic</strong> は AI が wellbeing に与える影響を測るための独立研究向け <strong>$5 million</strong> grant program を公表し、<strong>Claude</strong> 側では <strong>Bain & Company</strong> との Claude Partner Network 提携と、社内 field marketer による <strong>Claude Code</strong> 活用事例が並んだ。Claude Code では <strong>v2.1.245</strong> が publish され、公開された release note 1項目を省略せず和訳した。<strong>Anthropic Engineering</strong> と <strong>Research</strong> に新規記事はなく、official / engineer X 監視は本来想定の <strong>x_mcp</strong> が使えないため高信頼な一次情報を採用していない。",
   "summaryBullets": [
-    "<strong>Claude Blog 1件</strong>: <strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> を <strong>2026-08-24</strong> visible date ベースで継続採用した。",
-    "<strong>記事の主題は社内営業運用の自動化</strong>: BigQuery を MCP 経由で参照し、CRM の territory 情報や Slack 上の account update を使って、sales rep ごとに Monday briefing を個別生成する流れを紹介している。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.245</strong>（2026-08-25 05:13 UTC）が新規 release で、公開 bullet は 1 項目だった。",
-    "<strong>release note 全件を保持</strong>: Linux での起動時クラッシュ修正を、visible bullet 単位で省略せず <strong>修正</strong> に分類して和訳した。",
-    "<strong>Anthropic Engineering / Research / News は 0件</strong>: visible date の最新はそれぞれ <strong>Apr 23, 2026</strong>、<strong>Aug 18, 2026</strong>、<strong>Aug 14, 2026</strong> のままで、この24時間窓に入る新規記事はなかった。",
-    "<strong>X 監視は採用なし</strong>: official / engineer とも専用 MCP 経路がなく、公開 Web でも本文・時刻・canonical URL を高信頼に確定できなかった。"
+    "<strong>Anthropic News 1件</strong>: <strong>Funding better evaluations of AI’s impact on wellbeing</strong> で、AI の wellbeing 影響評価を対象にした <strong>$5 million</strong> の grant program を公表した。",
+    "<strong>Claude Blog 2件</strong>: <strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> と、<strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> を採用した。",
+    "<strong>Bain 提携の主題</strong>: Bain が Claude Partner Network の Global Premier partner に加わり、Bain 社内 19,000 人への Claude 展開実績をベースに enterprise 導入支援を広げる内容だった。",
+    "<strong>Claude Code 活用事例の主題</strong>: field marketer が BigQuery を MCP 経由で参照し、CRM の territory 情報と Slack 上の account update を使って、sales rep ごとの Monday briefing を自動生成している。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.245</strong>（2026-08-25 05:13:24 UTC）は Linux の一部ディストリビューションでの起動時クラッシュ修正 1項目のみを公開した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool がこのスレッドに露出せず、代替経路では本文・時刻・canonical URL を高信頼に確定できなかった。"
   ],
   "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-08-25T00:00:00Z",
+      "displayTime": "2026-08-25（visible date）",
+      "title": "AI の wellbeing 影響評価に向けた 500 万ドル助成プログラムを発表",
+      "summary": "<strong>Funding better evaluations of AI’s impact on wellbeing</strong> では、AI が利用者の wellbeing に与える影響を測る独立研究向けに <strong>$5 million</strong> の grant program を開始した。Anthropic は funding、model access、technical support を提供し、open-source の evaluation と benchmark を増やす方針を示している。",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "urlLabel": "wellbeing grant program の詳細",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-25T00:00:00Z",
+      "displayTime": "2026-08-25（visible date）",
+      "title": "Bain & Company が Claude Partner Network の Global Premier partner に参加",
+      "summary": "<strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> では、Anthropic と Bain が enterprise 向け AI 導入支援で提携を拡大することを発表した。記事では Bain が <strong>19,000 employees</strong> へ Claude を展開済みである点や、client engagement での <strong>30% to 50%</strong> の productivity gain を紹介している。",
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "urlLabel": "Bain 提携記事を読む"
+    },
     {
       "label": "Claude Blog",
       "datetime": "2026-08-24T00:00:00Z",
       "displayTime": "2026-08-24（visible date）",
-      "title": "Claude Codeで営業向け週次ブリーフを自動生成する社内事例を公開",
-      "summary": "<strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> では、Anthropic の field marketer が <strong>Claude Code</strong> を使って、1 本の週次 sales report を sales rep ごとの personalized briefing に変換する実運用を説明している。BigQuery を MCP 経由で参照し、CRM の territory 情報や Slack 上の account update を組み合わせて、各担当者に Monday morning の優先アクションを送る構成が中心テーマだった。",
+      "title": "Claude Code で営業向け週次ブリーフを自動生成する社内事例を公開",
+      "summary": "<strong>How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep</strong> では、Anthropic の field marketer が <strong>Claude Code</strong> を使って sales rep ごとの personalized briefing を生成する実運用を説明している。BigQuery を MCP 経由で参照し、CRM の territory 情報と Slack の account update を組み合わせて、毎週月曜朝の action list を自動作成する流れが中心だった。",
       "url": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
-      "urlLabel": "Claude Code 活用事例を読む",
-      "primary": true
+      "urlLabel": "Claude Code 活用事例を読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "Anthropic Engineering / Research / News の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 18, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 14, 2026</strong> だった。今回の24時間窓に入る新規記事は確認できていない。"
+      "label": "Anthropic Engineering / Research の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 18, 2026</strong> だった。今回の24時間窓に入る新規記事は確認できていない。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で確認した公開 Web の <strong>x.com</strong> も本文・時刻・canonical URL を高信頼に返さなかった。公開 profile だけでは一次情報として不十分なため、official X main post は final report に採用していない。"
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web でも post 本文・正確な timestamp・canonical URL を高信頼に確定できなかった。そのため official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、公開 Web から reply context や本文を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、reply context や canonical post を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "watch 対象の official site 4面を確認した結果、<strong>Claude Blog</strong> で <strong>2026-08-24</strong> の記事を 1 件採用した。一方で <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong> にはこの24時間窓に入る新規記事はなかった。Claude Blog 側は publish time までは見えないため、採用判定は visible date ベースで行っている。",
+      "headline": "3件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規記事がなく、Claude Blog の 2件は publish time ではなく visible publication date ベースで採用している。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 14, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Claude Blog</strong>: <strong>Aug 24, 2026</strong> の Claude Code 記事を 1 件採用"
+        "<strong>Anthropic News</strong>: <strong>Aug 25, 2026</strong> の wellbeing grant program 記事を 1 件採用",
+        "<strong>Claude Blog</strong>: <strong>Aug 25, 2026</strong> の Bain 提携記事と <strong>Aug 24, 2026</strong> の Claude Code 活用事例を採用"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -60,8 +78,8 @@
       "releases": [
         {
           "version": "v2.1.245",
-          "publishedAt": "2026-08-25 05:13 UTC",
-          "summary": "<strong>v2.1.245</strong> は 1 項目だけの小規模 release で、Linux の一部ディストリビューションで発生していた起動時クラッシュの修正が公開された。",
+          "publishedAt": "2026-08-25 05:13:24 UTC",
+          "summary": "<strong>v2.1.245</strong> は 1 項目だけの小規模 release で、glibc 2.44 を搭載する Linux ディストリビューションで発生していた起動時クラッシュの修正が公開された。",
           "sections": [
             {
               "title": "修正",
@@ -80,9 +98,9 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "Claude Blog の採用記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
-    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の公開 Web でも本文・時刻・canonical URL を高信頼に返さなかった。",
-    "Anthropic engineer の personal X 監視も同様に reply context や canonical post を一次情報で確定できなかったため、signal 採用は見送った。"
+    "Claude Blog の 2 記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
+    "official / engineer X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替経路でも本文・時刻・canonical URL を高信頼に返さなかった。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata を source of truth とし、commit や issue は release 判定に使っていない。"
   ],
   "sources": [
     {
@@ -98,8 +116,16 @@
       "url": "https://www.anthropic.com/news"
     },
     {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner"
     },
     {
       "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
