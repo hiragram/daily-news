@@ -1,0 +1,245 @@
+{
+  "date": "2026-08-26",
+  "windowLabel": "2026-08-25 05:01:45 UTC - 2026-08-26 05:01:45 UTC",
+  "archiveTitle": "Memory rollout, Bain partnership, and Claude Code v2.1.246",
+  "archiveSummary": "公式3件、engineer signal 0件、Claude Code release 2件。",
+  "latestSummary": "2026-08-25 05:01:45 UTC から 2026-08-26 05:01:45 UTC の24時間では、official site から <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Claude</strong> では chat と <strong>Claude Cowork</strong> をまたぐ memory 共有と、<strong>Bain & Company</strong> の Claude Partner Network 参加が公開された。Claude Code は <strong>v2.1.246</strong> と <strong>v2.1.245</strong> の2リリースが窓内に入り、公開された release note 全項目を <strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分けて和訳した。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドに露出していないため、高信頼な一次情報は採用していない。",
+  "summaryBullets": [
+    "<strong>Anthropic News 1件</strong>: <strong>Funding better evaluations of AI’s impact on wellbeing</strong> で、AI の wellbeing 影響評価を対象にした <strong>$5 million</strong> の独立研究助成プログラムを公表した。",
+    "<strong>Claude Blog 2件</strong>: <strong>Claude's memory works everywhere, and you decide what's in it</strong> と <strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> を採用した。",
+    "<strong>Memory rollout の要点</strong>: Claude の memory を chat と <strong>Claude Cowork</strong> で共有し、保存内容を topic ごとに確認・編集・削除できるようにした。sensitive topic は default では保存されず、必要なユーザーだけが opt-in で有効化する方式だった。",
+    "<strong>Bain 提携の要点</strong>: Bain が Claude Partner Network の Global Premier partner に加わり、<strong>19,000 employees</strong> への Claude 展開実績を基に enterprise 導入支援を拡大する内容だった。",
+    "<strong>Claude Code release 2件</strong>: <strong>v2.1.246</strong> は Auto mode 設定・表示改善と多数の不具合修正、<strong>v2.1.245</strong> は glibc 2.44 搭載 Linux での起動時クラッシュ修正を含んだ。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool が未露出で、公開 Web 代替では本文・正確な時刻・canonical URL を高信頼に確定できなかった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-08-25T00:00:00Z",
+      "displayTime": "2026-08-25（visible date）",
+      "title": "AI の wellbeing 影響評価に向けた 500 万ドル助成プログラムを発表",
+      "summary": "<strong>Funding better evaluations of AI’s impact on wellbeing</strong> で、AI が利用者の wellbeing に与える影響を測る独立研究向けに <strong>$5 million</strong> の grant program を開始した。Anthropic は funding、model access、technical support を提供し、open-source の evaluation と benchmark を増やす方針を示している。",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "urlLabel": "wellbeing grant program の詳細"
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-25T00:00:00Z",
+      "displayTime": "2026-08-25（visible date）",
+      "title": "Claude の memory を chat と Claude Cowork で共有可能に",
+      "summary": "<strong>Claude's memory works everywhere, and you decide what's in it</strong> では、chat で使う memory を <strong>Claude Cowork</strong> と共有し、topic ごとに確認・編集・削除できる仕組みを導入した。sensitive topic は default では保存せず、必要なユーザーだけが opt-in で有効化できる。",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "urlLabel": "memory rollout 記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-25T00:00:00Z",
+      "displayTime": "2026-08-25（visible date）",
+      "title": "Bain & Company が Claude Partner Network の Global Premier partner に参加",
+      "summary": "<strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> では、Anthropic と Bain が enterprise 向け AI 導入支援で提携を拡大すると発表した。記事では Bain が <strong>19,000 employees</strong> へ Claude を展開済みである点と、複数の client engagement で <strong>30% to 50%</strong> の productivity gain を得た事例を紹介している。",
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "urlLabel": "Bain 提携記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering / Research の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 18, 2026</strong> だった。今回の24時間窓に入る新規記事は確認できていない。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web でも post 本文・正確な timestamp・canonical URL を高信頼に確定できなかった。そのため official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、reply context や canonical post を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規記事がなく、公開ページ上は publish time ではなく visible publication date だけが見える記事もあるため、その場合は date ベースで判定している。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 18, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic News</strong>: <strong>Aug 25, 2026</strong> の wellbeing grant program 記事を 1件採用",
+        "<strong>Claude Blog</strong>: <strong>Aug 25, 2026</strong> の memory rollout 記事と Bain 提携記事を採用"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.246</strong> と <strong>v2.1.245</strong> の2件が入っていた。各 release note の visible bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して全項目を和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.246",
+          "publishedAt": "2026-08-25 22:31:52 UTC",
+          "summary": "<strong>v2.1.246</strong> は権限まわりの可視性強化と Auto mode 設定 UI を追加しつつ、transcript、background session、plugin、MCP、theme、remote/headless、sandbox など広範な不具合を修正した大きめのメンテナンス release だった。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "サブコマンドの前にワイルドカードを置く Bash allow rule（例: <code>Bash(git * main)</code>）はオプション挿入にも一致してしまうため、起動時に警告を表示するようにした。",
+                "<code>/permissions</code> に、auto mode classifier rule を表示・編集するための Auto mode タブを追加した。",
+                "ターン完了までの所要時間行の末尾に完了時刻を追加した。例: <code>✻ Sautéed for 23s · done 6:05 PM</code>。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/cd</code> 後に、新しいディレクトリの project settings、hooks、<code>.mcp.json</code> server、skills、agents が <code>--resume</code> を待たず即時反映されるよう改善した。",
+                "Bash shell で、snapshot 関数を関数ごとの base64 subshell なしで再生するようにして、Bash tool のレイテンシを改善した。",
+                "subagent が <code>maxTurns</code> 制限で停止した場合、完了扱いではなく partial output として返し、<code>SendMessage</code> で続行できるヒントを付けるよう改善した。",
+                "非対話セッション（<code>-p</code>、SDK、cloud session）で、server error、接続断、stall によって応答が途中で切れた場合、自動継続するよう改善した。",
+                "workload identity federation session、起動時に <code>apiKeyHelper</code> が動く間の event、idle 中に login token が失効した後の event でも、usage telemetry を組織へ正しく紐付けられるよう改善した。",
+                "<code>/code-review</code> を、Bedrock、Vertex AI、Foundry、Claude apps gateway 経由、また telemetry や non-essential traffic が無効な場合でも Claude 側から開始できるよう変更した。",
+                "<code>/goal</code> では、長時間動作する background work に対する idle session の check-in を 1 goal あたり最大 3回までに変更し、次のユーザーメッセージでさらに 3回許可する方式にした。",
+                "<code>claude install</code> と <code>claude update</code> は、managed-settings の同意 prompt をコマンド途中で出さず、次の interactive session へ延期するよう変更した。",
+                "claude.ai から同期された plugin の OpenTelemetry event では、<code>plugin_id_hash</code> が実際の marketplace を反映し、admin install の場合は <code>enabled_via</code> を <code>admin-install</code> にするよう変更した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "terminal を resize して最下部へ移動したあと、次の keypress まで fullscreen mode に空の transcript が表示される問題を修正した。",
+                "diff に非常に長い1行（例: base64 文字列）が含まれると transcript が著しく遅くなる問題を修正し、そのような行は省略表示とマーカー付きで描画するようにした。",
+                "過去メッセージ位置にいるときの fullscreen scrolling の不安定さと、jump-to-bottom が transcript の途中で止まる問題を修正した。",
+                "Claude Code の開始ディレクトリが削除されていた場合、マシンが sleep していた場合、またはホストのプロセス起動が遅い場合に、background session が 45 秒後に開けなくなる問題を修正した。",
+                "別の Claude Code process が npm package を再インストールしている最中に、background session が <code>Couldn't start the background service … EACCES</code> で開けなくなる問題を修正した。",
+                "最初の 500 文字に markdown がないと、そのメッセージ全体で markdown rendering が無効になる問題と、<code>+</code> / <code>N)</code> list や setext heading が無効化される問題を修正した。",
+                "headless / remote session で、incoming message により中断された MCP tool call が、明示的な interrupted error ではなく <code>completed with no output</code> とモデルに報告される問題を修正した。",
+                "parameter schema が空の <code>{}</code> のとき、MCP tool argument が本来の型ではなく JSON 文字列として送られる問題を修正した。",
+                "コマンドが途中中断されたとき、<code>Ran 1 shell command</code> とだけ表示され中断痕跡が出ない問題を修正した。",
+                "<code>/background</code> 実行や左矢印キー押下で dynamic workflow の完了済み subagent が再起動してしまう問題を修正し、再起動前に確認と件数表示を出すようにした。",
+                "起動直後で worker がまだ boot 中の session を <code>claude agents</code> から開くと、特に Windows で <code>was stopped while the respawn was in flight</code> で停止する問題を修正した。",
+                "<code>claude agents</code> が background 化された named session を二重表示する問題を修正し、同じ会話を再度 background 化した場合は新しい行に <code>my-session (2)</code> のような番号を付けるようにした。",
+                "古い background-session record が指していたために、background retention sweep が自分で作成した <code>.claude/worktrees/</code> 配下の git worktree を削除してしまう問題を修正した。",
+                "非常に大きい session で auto mode の tool call が <code>temporarily unavailable</code> と拒否される問題を修正し、safety-check の deadline を prompt size に応じて伸ばすようにした。",
+                "plugin cache が同一 plugin に対して SHA 名の重複 directory を作る問題を修正した。",
+                "plugin skill の frontmatter の <code>name</code> がすでに <code>&lt;plugin&gt;:</code> prefix を含む場合、slash menu で <code>/plugin:plugin:skill</code> のように重複表示される問題を修正した。",
+                "インストール済み plugin に対して bare name を指定した <code>claude plugin update</code> が失敗し、完全修飾名だけが動く問題を修正した。",
+                "<code>plugin.json</code> が UTF-8 BOM 付きで保存されていると plugin install に失敗する問題を修正した。",
+                "<code>/reload-plugins</code> が <code>skills/*/SKILL.md</code> 配下の skill を定義する plugin に対して 0 skill と報告する問題を修正した。",
+                "hook error message に解決済み plugin path ではなく、文字列そのままの <code>${CLAUDE_PLUGIN_ROOT}</code> が表示される問題を修正した。",
+                "<code>/rename</code> が theme の prompt border color（custom theme の <code>promptBorder</code> を含む）を default の cyan に置き換えてしまう問題を修正し、<code>/color</code> で明示選択しない限り元の色を維持するようにした。",
+                "custom theme の diff color（<code>diffAdded</code> / <code>diffRemoved</code> とその dimmed variant）が diff 表示や <code>/theme</code> preview で無視される問題を修正した。",
+                "未知の action 名を持つ <code>keybindings.json</code> の binding がその key を無言で無効化する問題を修正し、未知 action は skip して default binding を維持し、<code>--debug</code> 時に warning を出すようにした。",
+                "<code>/stats</code> の activity heatmap で、UTC より東側の timezone では各日の activity が 1 セルずれて表示される問題を修正した。",
+                "すでに fork 済みまたは background 化された session から <code>/fork</code> すると、新しい session が空の会話で始まる問題を修正した。",
+                "<code>/--</code> で始まる prompt（例: Lean の doc comment）が unknown slash command として弾かれ、本来 Claude に送られない問題を修正した。",
+                "<code>@</code> file picker が、入力テキストが実在 path と一致しなくなっても開いたままになる問題を修正した。",
+                "agents view へ移動して戻ると status line の cost と duration が 0 にリセットされる問題を修正した。",
+                "fullscreen mode で terminal window をフォーカスし直すためにクリックしただけで、pointer 下の control に keyboard focus が移ってしまう問題を修正した。",
+                "completion token または working directory に null byte が含まれると path completion が失敗する問題を修正した。",
+                "Windows / macOS で、異常終了した session が残した <code>~/.claude/sessions</code> の stale entry を headless session が掃除しない問題を修正した。",
+                "サードパーティの Anthropic 互換 endpoint（<code>ANTHROPIC_BASE_URL</code>）が <code>id</code> なしの <code>tool_use</code> block を stream すると、最初の tool call で UI が render error で停止する問題を修正した。",
+                "非常に大きい既存 file を上書きしたあと、Write tool が <code>Out of memory</code> を出したり長時間 freeze する問題を修正した。",
+                "<code>~/.claude/plugins/known_marketplaces.json</code> が空または破損しているとき、<code>claude plugin install &lt;name&gt;</code> がエラー報告せず無言終了または hang する問題を修正した。",
+                "保存済み history に Anthropic API が受け付けない tool block（典型的にはサードパーティ API proxy が書いたもの）が含まれると、resume session が毎ターン 400 で失敗する問題を修正した。",
+                "<code>curl -fsSL https://claude.ai/install.sh | bash</code> が、一部の Team / Enterprise user で <code>Raw mode is not supported</code> を出して失敗する問題を修正した。",
+                "plan mode で終わった session が、VS Code extension、<code>claude -p --continue</code> / <code>--resume</code>、または permission prompt tool を伴う再開時に plan mode 外で再開してしまう問題を修正した。",
+                "sandbox の <code>Network request outside of sandbox</code> permission prompt 待ち中に、<code>Notification</code> hook が発火しない問題を修正した。",
+                "Bash permission check で、末尾に <code>&amp;&amp;</code> や <code>||</code> がぶら下がった malformed command に対して常に approval を要求するよう修正した。",
+                "<code>--strict-mcp-config</code> session が、実際には読み込まない <code>.mcp.json</code> server の approval prompt を出し、background session が起動待ちになる問題を修正した。",
+                "telemetry と metrics の request が、サードパーティ gateway（<code>ANTHROPIC_BASE_URL</code>）用に設定した API key を Anthropic 宛て通信に載せてしまう問題を修正し、credential を自ホストにのみ送るようにした。",
+                "<code>apiKeyHelper</code> が短命 JWT を返す場合、idle 後の最初の prompt で可視 API error が出る問題を修正し、期限切れ cached token を送信前に refresh し、401 / 403 auth error は静かに retry するようにした。",
+                "fullscreen と Ctrl+O transcript view で、session 長に応じて memory 使用量が増え続ける問題を修正し、描画済み各 message row が transcript 全体の tool lookup の完全コピーを保持しないようにした。",
+                "同一 repository から同時に起動した <code>/ultrareview</code> と cloud session（複数 worktree を含む）が、別 launch の未コミット変更を持った状態で始まることがある問題を修正した。",
+                "background cloud session（例: <code>/autofix-pr</code>）で表示される task progress 数（例: <code>3/5</code>）が、ときどき task を 1件取りこぼす問題を修正した。",
+                "Remote Control session が、claude.ai と Claude app で 2 回目の prompt まで placeholder name のままになる問題を修正し、最初の prompt 後に自動生成 title が出るようにした。",
+                "<code>requiresUserInteraction</code> が付いた MCP tool でも permission prompt に <code>Yes, and don't ask again</code> が出てしまい、無意味な allow rule を書き込む問題を修正した。",
+                "self-hosted runner が、work-poll response の形式異常（例: 途中の proxy が返す HTML）で live session を終了したりプロセスごと exit したりする問題を修正し、poll を retry するようにした。",
+                "command sandbox の filesystem 設定が <code>--setting-sources</code> を尊重しない問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
+          "urlLabel": "v2.1.246 release note"
+        },
+        {
+          "version": "v2.1.245",
+          "publishedAt": "2026-08-25 05:13:24 UTC",
+          "summary": "<strong>v2.1.245</strong> は 1項目だけの小規模 release で、glibc 2.44 を搭載する Linux ディストリビューションで起きていた起動時クラッシュを修正した。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "glibc 2.44 を搭載する Linux ディストリビューション（例: Arch Linux、CachyOS、Fedora Rawhide）で、起動時にクラッシュする問題を修正した。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
+          "urlLabel": "v2.1.245 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "official blog / news の一部記事は publish time ではなく <strong>visible publication date</strong> だけが表示されるため、その場合は日付ベースで24時間窓に採用した。",
+    "visible publication date が <strong>Aug 24, 2026</strong> 以前の記事は、この実行の24時間窓（<strong>2026-08-25 05:01:45 UTC</strong> 以降）より古い可能性が高いため採用していない。",
+    "official / engineer X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替経路でも本文・時刻・canonical URL を高信頼に返さなかったため採用していない。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it"
+    },
+    {
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "url": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.246",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246"
+    },
+    {
+      "title": "Claude Code release v2.1.245",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245"
+    },
+    {
+      "title": "AnthropicAI with replies",
+      "url": "https://x.com/AnthropicAI/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeAI with replies",
+      "url": "https://x.com/claudeai/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeDevs with replies",
+      "url": "https://x.com/ClaudeDevs/with_replies?lang=en"
+    }
+  ]
+}
