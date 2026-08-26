@@ -1,15 +1,15 @@
 {
   "date": "2026-08-26",
-  "windowLabel": "2026-08-25 05:01:45 UTC - 2026-08-26 05:01:45 UTC",
+  "windowLabel": "2026-08-25 11:01:14 UTC - 2026-08-26 11:01:14 UTC",
   "archiveTitle": "Memory rollout, Bain partnership, and Claude Code v2.1.246",
-  "archiveSummary": "公式3件、engineer signal 0件、Claude Code release 2件。",
-  "latestSummary": "2026-08-25 05:01:45 UTC から 2026-08-26 05:01:45 UTC の24時間では、official site から <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Claude</strong> では chat と <strong>Claude Cowork</strong> をまたぐ memory 共有と、<strong>Bain & Company</strong> の Claude Partner Network 参加が公開された。Claude Code は <strong>v2.1.246</strong> と <strong>v2.1.245</strong> の2リリースが窓内に入り、公開された release note 全項目を <strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分けて和訳した。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドに露出していないため、高信頼な一次情報は採用していない。",
+  "archiveSummary": "公式3件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-25 11:01:14 UTC から 2026-08-26 11:01:14 UTC の24時間では、official site から <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Claude</strong> では chat と <strong>Claude Cowork</strong> をまたぐ memory 共有と、<strong>Bain & Company</strong> の Claude Partner Network 参加が公開された。Claude Code は <strong>v2.1.246</strong> のみが窓内に入り、公開された release note 全項目を <strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分けて和訳した。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドに露出していないため、高信頼な一次情報は採用していない。",
   "summaryBullets": [
     "<strong>Anthropic News 1件</strong>: <strong>Funding better evaluations of AI’s impact on wellbeing</strong> で、AI の wellbeing 影響評価を対象にした <strong>$5 million</strong> の独立研究助成プログラムを公表した。",
     "<strong>Claude Blog 2件</strong>: <strong>Claude's memory works everywhere, and you decide what's in it</strong> と <strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> を採用した。",
     "<strong>Memory rollout の要点</strong>: Claude の memory を chat と <strong>Claude Cowork</strong> で共有し、保存内容を topic ごとに確認・編集・削除できるようにした。sensitive topic は default では保存されず、必要なユーザーだけが opt-in で有効化する方式だった。",
     "<strong>Bain 提携の要点</strong>: Bain が Claude Partner Network の Global Premier partner に加わり、<strong>19,000 employees</strong> への Claude 展開実績を基に enterprise 導入支援を拡大する内容だった。",
-    "<strong>Claude Code release 2件</strong>: <strong>v2.1.246</strong> は Auto mode 設定・表示改善と多数の不具合修正、<strong>v2.1.245</strong> は glibc 2.44 搭載 Linux での起動時クラッシュ修正を含んだ。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.246</strong> は Auto mode 設定・表示改善を追加しつつ、transcript、background session、plugin、MCP、theme、sandbox など広範な不具合修正を含んだ。",
     "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool が未露出で、公開 Web 代替では本文・正確な時刻・canonical URL を高信頼に確定できなかった。"
   ],
   "officialNews": [
@@ -73,8 +73,8 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.246</strong> と <strong>v2.1.245</strong> の2件が入っていた。各 release note の visible bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して全項目を和訳している。",
+      "headline": "1件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.246</strong> のみが入っていた。release note の visible bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して全項目を和訳している。",
       "releases": [
         {
           "version": "v2.1.246",
@@ -160,21 +160,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
           "urlLabel": "v2.1.246 release note"
-        },
-        {
-          "version": "v2.1.245",
-          "publishedAt": "2026-08-25 05:13:24 UTC",
-          "summary": "<strong>v2.1.245</strong> は 1項目だけの小規模 release で、glibc 2.44 を搭載する Linux ディストリビューションで起きていた起動時クラッシュを修正した。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "glibc 2.44 を搭載する Linux ディストリビューション（例: Arch Linux、CachyOS、Fedora Rawhide）で、起動時にクラッシュする問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
-          "urlLabel": "v2.1.245 release note"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -184,7 +169,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
     "official blog / news の一部記事は publish time ではなく <strong>visible publication date</strong> だけが表示されるため、その場合は日付ベースで24時間窓に採用した。",
-    "visible publication date が <strong>Aug 24, 2026</strong> 以前の記事は、この実行の24時間窓（<strong>2026-08-25 05:01:45 UTC</strong> 以降）より古い可能性が高いため採用していない。",
+    "visible publication date が <strong>Aug 24, 2026</strong> 以前の記事は、この実行の24時間窓（<strong>2026-08-25 11:01:14 UTC</strong> 以降）より古い可能性が高いため採用していない。",
     "official / engineer X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替経路でも本文・時刻・canonical URL を高信頼に返さなかったため採用していない。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
   ],
@@ -224,10 +209,6 @@
     {
       "title": "Claude Code release v2.1.246",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246"
-    },
-    {
-      "title": "Claude Code release v2.1.245",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245"
     },
     {
       "title": "AnthropicAI with replies",
