@@ -1,16 +1,16 @@
 {
   "date": "2026-08-26",
-  "windowLabel": "2026-08-25 11:01:14 UTC - 2026-08-26 11:01:14 UTC",
+  "windowLabel": "2026-08-25 17:02:01 UTC - 2026-08-26 17:02:01 UTC",
   "archiveTitle": "Memory rollout, Bain partnership, and Claude Code v2.1.246",
   "archiveSummary": "公式3件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-25 11:01:14 UTC から 2026-08-26 11:01:14 UTC の24時間では、official site から <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Claude</strong> では chat と <strong>Claude Cowork</strong> をまたぐ memory 共有と、<strong>Bain & Company</strong> の Claude Partner Network 参加が公開された。Claude Code は <strong>v2.1.246</strong> のみが窓内に入り、公開された release note 全項目を <strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分けて和訳した。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドに露出していないため、高信頼な一次情報は採用していない。",
+  "latestSummary": "2026-08-25 17:02:01 UTC から 2026-08-26 17:02:01 UTC の24時間では、official site から <strong>Anthropic News</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。<strong>Claude</strong> では chat と <strong>Claude Cowork</strong> をまたぐ memory 共有と、<strong>Bain & Company</strong> の Claude Partner Network 参加が公開された。Claude Code は <strong>v2.1.246</strong> のみが窓内に入り、公開された release note 全項目を <strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分けて和訳した。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドで callable ではなく、direct fetch も高信頼な一次情報を返さなかったため採用していない。",
   "summaryBullets": [
     "<strong>Anthropic News 1件</strong>: <strong>Funding better evaluations of AI’s impact on wellbeing</strong> で、AI の wellbeing 影響評価を対象にした <strong>$5 million</strong> の独立研究助成プログラムを公表した。",
     "<strong>Claude Blog 2件</strong>: <strong>Claude's memory works everywhere, and you decide what's in it</strong> と <strong>Bain & Company joins the Claude Partner Network as a Global Premier partner</strong> を採用した。",
     "<strong>Memory rollout の要点</strong>: Claude の memory を chat と <strong>Claude Cowork</strong> で共有し、保存内容を topic ごとに確認・編集・削除できるようにした。sensitive topic は default では保存されず、必要なユーザーだけが opt-in で有効化する方式だった。",
     "<strong>Bain 提携の要点</strong>: Bain が Claude Partner Network の Global Premier partner に加わり、<strong>19,000 employees</strong> への Claude 展開実績を基に enterprise 導入支援を拡大する内容だった。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.246</strong> は Auto mode 設定・表示改善を追加しつつ、transcript、background session、plugin、MCP、theme、sandbox など広範な不具合修正を含んだ。",
-    "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool が未露出で、公開 Web 代替では本文・正確な時刻・canonical URL を高信頼に確定できなかった。"
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.246</strong> は権限まわりの可視性強化と Auto mode 設定 UI を追加しつつ、transcript、background session、plugin、MCP、theme、remote/headless、sandbox など広範な不具合修正を含んだ。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool が未提供で、公開 Web 代替でも本文・正確な時刻・canonical URL を高信頼に確定できなかった。"
   ],
   "officialNews": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
-      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、公開 Web でも post 本文・正確な timestamp・canonical URL を高信頼に確定できなかった。そのため official X main post は final report に採用していない。"
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が callable ではなく、direct fetch でも post 本文・正確な timestamp・canonical URL を高信頼に確定できなかった。そのため official X main post は final report に採用していない。"
     },
     {
       "label": "Anthropic engineer X も高信頼 signal は採用なし",
@@ -100,7 +100,7 @@
                 "<code>/code-review</code> を、Bedrock、Vertex AI、Foundry、Claude apps gateway 経由、また telemetry や non-essential traffic が無効な場合でも Claude 側から開始できるよう変更した。",
                 "<code>/goal</code> では、長時間動作する background work に対する idle session の check-in を 1 goal あたり最大 3回までに変更し、次のユーザーメッセージでさらに 3回許可する方式にした。",
                 "<code>claude install</code> と <code>claude update</code> は、managed-settings の同意 prompt をコマンド途中で出さず、次の interactive session へ延期するよう変更した。",
-                "claude.ai から同期された plugin の OpenTelemetry event では、<code>plugin_id_hash</code> が実際の marketplace を反映し、admin install の場合は <code>enabled_via</code> を <code>admin-install</code> にするよう変更した。"
+                "claude.ai から同期された plugin の OpenTelemetry event では、<code>plugin_id_hash</code> が実際の marketplace を反映し、admin install の場合は <code>enabled_via</code> を <code>admin-install</code> にするよう変更した."
               ]
             },
             {
@@ -169,9 +169,9 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
     "official blog / news の一部記事は publish time ではなく <strong>visible publication date</strong> だけが表示されるため、その場合は日付ベースで24時間窓に採用した。",
-    "visible publication date が <strong>Aug 24, 2026</strong> 以前の記事は、この実行の24時間窓（<strong>2026-08-25 11:01:14 UTC</strong> 以降）より古い可能性が高いため採用していない。",
-    "official / engineer X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替経路でも本文・時刻・canonical URL を高信頼に返さなかったため採用していない。",
-    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
+    "visible publication date が <strong>Aug 24, 2026</strong> 以前の記事は、この実行の24時間窓（<strong>2026-08-25 17:02:01 UTC</strong> 以降）より古い可能性が高いため採用していない。",
+    "official / engineer X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未提供で、代替経路でも本文・時刻・canonical URL を高信頼に返さなかったため採用していない。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない."
   ],
   "sources": [
     {
@@ -209,18 +209,6 @@
     {
       "title": "Claude Code release v2.1.246",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246"
-    },
-    {
-      "title": "AnthropicAI with replies",
-      "url": "https://x.com/AnthropicAI/with_replies?lang=en"
-    },
-    {
-      "title": "ClaudeAI with replies",
-      "url": "https://x.com/claudeai/with_replies?lang=en"
-    },
-    {
-      "title": "ClaudeDevs with replies",
-      "url": "https://x.com/ClaudeDevs/with_replies?lang=en"
     }
   ]
 }
