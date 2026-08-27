@@ -1,0 +1,264 @@
+{
+  "date": "2026-08-28",
+  "windowLabel": "2026-08-26 23:01:38 UTC - 2026-08-27 23:01:38 UTC",
+  "archiveTitle": "Scientist access, MHS, and v2.1.248",
+  "archiveSummary": "official 5件、engineer signal 1件、Claude Code release 1件。",
+  "latestSummary": "2026-08-26 23:01:38 UTC から 2026-08-27 23:01:38 UTC の24時間では、official 側で <strong>Anthropic News</strong> 2件、<strong>Claude Blog</strong> 2件、<strong>@ClaudeDevs</strong> 1件を確認した。Anthropic は <strong>10,000</strong> 席の scientist 向け Claude Team plan と、AI agent が物理機器を安全に扱うための <strong>Model Hardware Standard</strong> 研究プレビューを発表した。Claude Blog 側では <strong>Claude in Chrome</strong> GA と <strong>Cowork built-in browser</strong> の rollout 継続を窓内時刻で確認した。<strong>Claude Code v2.1.248</strong> は <strong>2026-08-27 22:12:20 UTC</strong> に公開され、restricted mode、<code>/usage-credits</code>、cross-session messaging 拡張を追加しつつ多数の agent / login / cloud-session 系不具合を修正した。",
+  "summaryBullets": [
+    "<strong>official news 5件</strong>: <strong>Anthropic News</strong> 2件、<strong>Claude Blog</strong> 2件、<strong>@ClaudeDevs</strong> 1件を採用した。",
+    "<strong>scientist support expansion</strong>: Anthropic は <strong>10,000</strong> 席の scientist 向け Claude Team plan を公開し、standard seat を無料、premium seat を月額 <strong>$15</strong> で 1 年提供すると案内した。",
+    "<strong>Model Hardware Standard</strong>: Anthropic は HHMI Janelia と始めた <strong>MHS</strong> 研究プレビューを公開し、microscope、liquid handler、robotic arm などを AI agent が標準化された driver 経由で扱えるようにする構想を示した。",
+    "<strong>Claude Blog 2件</strong>: <strong>Claude in Chrome</strong> GA と <strong>Cowork built-in browser</strong> は、どちらも <strong>@claudeai</strong> の exact timestamp が窓内にあり、8月26日付 article のうち今回も継続して採用できた。",
+    "<strong>@ClaudeDevs cookbook</strong>: <strong>Claude Managed Agents</strong> を <strong>Vercel Chat SDK</strong> に接続する cookbook 告知を確認した。",
+    "<strong>Claude Code v2.1.248</strong>: <strong>新機能 7件</strong>、<strong>変更 10件</strong>、<strong>修正 32件</strong> を確認し、release note の全 bullet を和訳した。",
+    "<strong>engineer signal 1件</strong>: <strong>@jarredsumner</strong> が、次の Claude Code を <strong>45%</strong> 小さくし、事前 bytecode 化で起動を速くする実装詳細を共有した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News / @claudeai",
+      "datetime": "2026-08-27T19:32:28Z",
+      "displayTime": "2026-08-28 04:32 JST",
+      "title": "scientist 向け Claude Team plan と AI for Science 拡張を発表",
+      "summary": "<strong>Expanding our support for scientists</strong> では、Anthropic が世界の研究者向けに <strong>10,000</strong> 席の新しい <strong>Claude Team plan for scientists</strong> を公開し、standard seat を無料、premium seat を月額 <strong>$15</strong> で 1 年提供すると案内した。article は同時に <strong>AI for Science</strong> program の対象分野拡大にも触れており、<strong>@claudeai</strong> の post でも数学、化学、物理学を含む広い分野の科学者へ展開すると告知している。",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "urlLabel": "scientist 向け支援拡張の記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Anthropic News / @AnthropicAI",
+      "datetime": "2026-08-27T18:10:22Z",
+      "displayTime": "2026-08-28 03:10 JST",
+      "title": "Model Hardware Standard の研究プレビューを公開",
+      "summary": "<strong>Previewing the Model Hardware Standard</strong> では、Anthropic が <strong>Model Hardware Standard (MHS)</strong> の research preview を公開し、microscope、liquid handler、robotic arm など複数の lab / manufacturing device を AI agent が安全に操作できる共有仕様として提示した。article は HHMI Janelia との共同起点、device integration を weeks-to-months から hours-to-minutes へ縮める狙い、そして open source 化前に safety evaluation と best practice を整える方針を説明している。",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "urlLabel": "MHS 研究プレビューの記事を読む",
+      "primary": true
+    },
+    {
+      "label": "@ClaudeDevs",
+      "datetime": "2026-08-27T14:35:49Z",
+      "displayTime": "2026-08-27 23:35 JST",
+      "title": "Managed Agents を Vercel Chat SDK に接続する cookbook を公開",
+      "summary": "<strong>@ClaudeDevs</strong> は、新しい cookbook として <strong>Claude Managed Agents</strong> を <strong>Vercel Chat SDK</strong> に接続する手順を告知した。続く thread では、Chat SDK 側が <strong>1つの型安全な <code>onDirectMessage</code> handler</strong> と <strong>15+</strong> の adapter を提供し、tool 実行には built-in 環境だけでなく独自の <strong>Vercel Sandbox</strong> も使えると補足している。",
+      "url": "https://x.com/ClaudeDevs/status/2092984433649283284",
+      "urlLabel": "@ClaudeDevs の cookbook 告知を見る"
+    },
+    {
+      "label": "Claude Blog / @claudeai",
+      "datetime": "2026-08-26T23:26:25Z",
+      "displayTime": "2026-08-27 08:26 JST",
+      "title": "Claude in Chrome が全有料プランで generally available に",
+      "summary": "<strong>Claude in Chrome is generally available</strong> では、<strong>Claude in Chrome</strong> を全有料プランへ一般提供し、browser 上の action を都度承認なしで自律実行できるようにした。article は <strong>safety classifier</strong> が各 action を実行前に検証すると説明しており、<strong>@claudeai</strong> の exact timestamp も今回の24時間窓内に入っている。",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "urlLabel": "Claude in Chrome GA 記事を読む"
+    },
+    {
+      "label": "Claude Blog / @claudeai",
+      "datetime": "2026-08-26T23:26:24Z",
+      "displayTime": "2026-08-27 08:26 JST",
+      "title": "Claude Cowork に desktop app 内蔵ブラウザを追加",
+      "summary": "<strong>Claude gets its own browser in Cowork</strong> では、desktop app の side panel に Claude 専用ブラウザを追加し、web page の閲覧、navigation、form 入力を Claude 側で完結できるようにした。article は <strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong> へ今週 rollout し、<strong>Enterprise</strong> 管理者も当日から有効化できるとしており、<strong>@claudeai</strong> の exact timestamp も窓内で確認できた。",
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "urlLabel": "Cowork built-in browser 記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering / Research の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 26, 2026</strong> だった。今回の窓開始は <strong>2026-08-26 23:01:38 UTC</strong> のため、Research の <strong>Enabling independent research on how people use Claude</strong> は前回までの窓には入っていたが、今回は新規 official article としては採用していない。"
+    },
+    {
+      "label": "official X は採用した告知以外の追加 main post が少ない",
+      "body": "<strong>@AnthropicAI</strong> は <strong>MHS</strong> thread、<strong>@claudeai</strong> は scientist plan 告知、<strong>@ClaudeDevs</strong> は cookbook thread を確認した。別の high-signal main post はこの窓では多くなかった。"
+    },
+    {
+      "label": "engineer X の大半は関連 signal なし",
+      "body": "監視対象 account は分割検索で再走査したが、採用に値する product / implementation detail として残ったのは <strong>@jarredsumner</strong> 1件だけだった。その他は雑談、短い相づち、または親 post 文脈が弱い reply が中心だった。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Jarred Sumner",
+      "datetime": "2026-08-27T03:00:27Z",
+      "displayTime": "2026-08-27 12:00 JST",
+      "title": "Jarred Sumner が次の Claude Code の軽量化と起動高速化を予告",
+      "summary": "<strong>@jarredsumner</strong> は、次の Claude Code が <strong>45%</strong> 小さくなると予告し、続く reply で source を事前に bytecode へ parse することで起動を速くしていると説明した。binary 内 bytecode のサイズは当初 source の約 <strong>9倍</strong> だったが、<strong>JavaScriptCore</strong> の serialization format と <strong>Bun</strong> bundler の最適化で現在は約 <strong>2.6倍</strong> まで下げたとしている。",
+      "url": "https://x.com/jarredsumner/status/2092809439317500264",
+      "urlLabel": "@jarredsumner の軽量化予告を見る"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "4件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 2件と <strong>Claude Blog</strong> 2件を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 article がなかった。8月26日付の Claude Blog 記事 2本は、article 自体に時刻は出ていないが <strong>@claudeai</strong> の exact timestamp が窓内だったため継続採用した。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible article は <strong>Aug 26, 2026</strong> だが、今回の窓開始 <strong>2026-08-26 23:01:38 UTC</strong> 以降の新規 entry は 0件",
+        "<strong>Anthropic News</strong>: <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> を採用",
+        "<strong>Claude Blog</strong>: <strong>Aug 26, 2026</strong> の <strong>Claude in Chrome is generally available</strong> と <strong>Claude gets its own browser in Cowork</strong> を採用。<strong>How Warp builds self-improving agents on Claude</strong> は date しか取れず公開時刻が窓内と断定できないため今回は外した"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.248</strong> が 1件入っていた。公開された release note の全 bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.248",
+          "publishedAt": "2026-08-27 22:12:20 UTC",
+          "summary": "<strong>v2.1.248</strong> は、restricted mode、agent frontmatter の cache TTL、<code>/usage-credits</code>、cross-session messaging 拡張などを追加しつつ、prompt cache、login、agent view、hooks、MCP、Remote Control、cloud session まわりを中心に大規模な修正を入れた。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>--restricted</code>（または <code>CLAUDE_CODE_RESTRICTED=1</code>）を追加し、コマンド実行やコード実行を行う built-in tool と <code>WebFetch</code> を外し、file tool を working directory 内に制限し、<code>bypassPermissions</code> を拒否し、user / project / local settings file を無視できるようにした。",
+                "agent frontmatter に <code>experimental.cacheTtl</code>（<code>\"5m\"</code> または <code>\"1h\"</code>）を追加し、subagent の TTL 設定がない場合に使う per-agent prompt cache TTL を指定できるようにした。",
+                "<code>claude self-hosted-runner --client-label &lt;label&gt;</code>（または <code>SELF_HOSTED_RUNNER_CLIENT_LABEL</code>）を追加し、runner が登録時に使う label を hostname 以外へ上書きできるようにした。",
+                "server-managed settings diagnostics を追加し、settings 読み込み失敗時の startup warning と、<code>/doctor</code> / <code>/status</code> で失敗理由や未取得理由（Bedrock / Vertex / third-party provider、custom <code>ANTHROPIC_BASE_URL</code>）を表示するようにした。",
+                "<code>/web-setup</code> に warning を追加し、GitHub CLI token に <code>workflow</code> scope がないと巨大 repository への push が拒否され得ることを知らせるようにした。",
+                "AWS Marketplace 課金の Enterprise organization、self-serve Enterprise、Enterprise trial 向けに <code>/usage-credits</code> を追加し、member が admin へより高い usage limit を依頼できるようにした。",
+                "同一マシン上の session 間で使える cross-session messaging（<code>SendMessage</code> / <code>ListAgents</code>）を Bedrock、Vertex、Foundry、および telemetry 無効時にも追加した。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Workflow tool の prompt footprint を改善し、description を約 5.7k token から約 1k token へ縮め、script authoring の参照は bundled の <code>workflow-authoring</code> skill へ移した。",
+                "prompt-footer の PR badge を改善し、pull request が変わっていない間は GitHub の確認頻度を下げつつ、push や <code>gh pr</code> 実行時は即時 refresh するようにした。",
+                "managed settings を改善し、client-side timeout、MCP startup-mode、stream-watchdog の env var では settings approval prompt が出ないようにした。",
+                "<code>/ultrareview &lt;PR#&gt;</code> を改善し、cloud session を起動してから失敗する代わりに、起動前に Claude account と接続された GitHub account が repository へアクセスできるか確認し、修正方法も示すようにした。",
+                "cross-session messaging を改善し、default の一時 directory が使えない場合は private な per-user <code>/tmp</code> directory へ fallback し、その directory を notice と <code>/status</code> に表示するようにした。",
+                "agent view の input では <code>shift+enter</code> を newline 挿入に変更し、<code>ctrl+enter</code> で dispatch と attach を行うようにした。",
+                "<code>/loop</code> を変更し、self-paced dynamic mode と prompt なし autonomous default を Bedrock / Vertex / Foundry を含め常時使えるようにした。",
+                "Anthropic telemetry export failure の log 表示を <code>[3P telemetry] OTEL diag error</code> ではなく debug level の <code>[Anthropic telemetry]</code> に変更し、ユーザー側の OTel collector 障害と誤解されにくくした。",
+                "Linux user namespace 上の cross-session messaging では、unmapped owner に対する root-equivalent trust を canonical system directory に限定するよう変更した。",
+                "subagent から別 session へ <code>SendMessage</code> した結果表示を変更し、返信は subagent ではなく parent session の conversation に届くと明示するようにした."
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "OAuth token refresh 後に tool definition が再描画されることで、長時間 session でおよそ 1 時間に 1 回起きていた prompt-cache miss と extended-thinking context 喪失を修正した。",
+                "account が usage overage に入ったとき、session と <code>--resume</code> の間で <code>ScheduleWakeup</code> tool definition が変わって resumed session 初回 turn で full prompt-cache miss が起きる問題を修正した。",
+                "Claude Desktop と Cowork の session が 30 日後に消えていた問題を修正し、desktop app 内にある session は transcript cleanup で保持しつつ、新しい <code>desktopSessionCleanupPeriodDays</code> setting でその例外期間を制御できるようにした。",
+                "別の Claude Code process が token refresh lock を保持している間に session token が失効すると login screen へ送られていた問題を修正し、retry 可能な error を返すようにした。",
+                "Windows で session から detach 後、または win32-input-mode の terminal tab から起動したときに <code>claude agents</code> list が keyboard に反応しない問題を修正した。",
+                "<code>/login</code> の推奨 Console sign-in が、使用できないマシン環境（例: <code>ANTHROPIC_API_KEY</code> や API key helper 設定済み）で sign-in URL を出す前に OAuth error で失敗する問題を修正し、API-key sign-in へ fallback するようにした。",
+                "<code>/model</code> と fast-mode switch notice の model 名表示を code render に修正し、<code>[1m]</code> のような suffix が link 化されず literal に見えるようにした。",
+                "<code>CI</code> environment variable が設定されていると <code>claude agents</code> が workspace trust prompt を飛ばしてしまう問題を修正した。",
+                "PR-status cache に malformed entry があると <code>claude agents</code> が起動時に crash する問題を修正した。",
+                "agent view が、マシン停止後に数週間前の background session を復活させてしまう問題を修正し、その session は実際の終了時点で stopped と表示し、開いたときは saved conversation の resume 前に確認するようにした。",
+                "新しい session 開始時に agent view が古い conversation を開き、入力済み prompt を落とすことがある問題を修正した。",
+                "<code>claude agents</code> で、別 terminal ですでに resume 済みの stopped session を開くと二重 process を起動していた問題を修正し、その row では terminal で open 中だと表示するようにした。",
+                "<code>claude agents</code> と <code>claude rm</code> が、worktree branch が checked-out default branch（例: local <code>main</code>）へすでに merge 済みなのに未 push 扱いで session 削除を拒否する問題を修正した。",
+                "<code>PermissionRequest</code> または <code>PreToolUse</code> hook が無効な answer を出力したとき、background session が無言で待ち続ける問題を修正し、<code>claude agents</code> row に hook 名と schema error を表示するようにした。",
+                "hook が stdout の <code>{…}</code> object を valid JSON でないのに plain text 扱いしていた問題を修正し、parse message 付き hook error として報告するようにした。",
+                "<code>/mcp</code> が project の <code>.mcp.json</code> で宣言された claude.ai connector type を trusted な <code>claude.ai</code> 見出しの下へ誤表示していた問題を修正し、本来の scope に出すようにした。",
+                "<code>headersHelper</code> が <code>Authorization</code> header を供給する MCP server で、401 時に helper 再実行と retry をせず OAuth discovery へ落ちていた問題を修正した。",
+                "Claude apps gateway への <code>/login</code> が managed-settings の security approval dialog 必須時にハングする問題を修正した。",
+                "<code>apiKeyHelper</code> だけが credential の場合に gateway model discovery（<code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY</code>）が一度も走らない問題を修正した。",
+                "<code>claude logs</code> 実行後に terminal の mouse tracking、bracketed paste、alternate screen が元に戻らない問題を修正した。",
+                "trust dialog の repo permission rule 一覧で、長い rule が emoji の途中で切られると文字化けする問題を修正した。",
+                "<code>ctrl+c</code> 直後に <code>shift+tab</code> を押すと permission mode indicator が <code>Press Ctrl-C again to exit</code> hint の裏に隠れる問題を修正した。",
+                "<code>/ultrareview</code> と locally seeded cloud session が、<code>prod.env</code> 風ファイル、<code>*.tfvars</code>、editor の swap / temp / backup credential file（例: <code>key.pem.tmp</code>、<code>id_rsa.swo</code>）の未 commit 編集を upload していた問題を修正し、ローカルに留めるようにした。",
+                "Remote Control session が、CLI の silent reconnect 後に connected device で permission prompt や最新 message を表示しないことがある問題を修正した。",
+                "container の session credential がまだ読めないと cloud session が起動時に失敗することがある問題を修正した。",
+                "<code>claude remote-control</code> が、global flag や wrapper 挿入 option が subcommand の前にあると自分自身の flag（例: <code>--spawn</code>、<code>--name</code>）を拒否する問題を修正した。",
+                "startup warning（例: <code>N MCP servers need authentication</code>）が transcript の他行より 1 列右にずれて描画される問題を修正した。",
+                "background 化した worktree session が checkout を失う問題を修正し、background session が実行中は worktree lock を保持して cleanup や <code>git worktree remove</code> が触れないようにした。",
+                "他 session への @mention が、IME 経由の韓国語など non-Latin 文字で入力した名前に一致しない問題を修正した。",
+                "無効な <code>crossSessionInbound</code> 値が黙って無視される問題を修正し、user settings では warning を出して message を保留し、managed settings では修正まで拒否するようにした。",
+                "rate-limit、usage、fast-mode の message が、その organization で使えない <code>/usage-credits</code>（例: <code>DISABLE_EXTRA_USAGE_COMMAND</code> で非表示）を案内してしまう問題を修正した。",
+                "[VSCode] 保存されていない session の chat tab が <code>No conversation found</code> で固まる問題を修正し、新しい conversation を開始するようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+          "urlLabel": "v2.1.248 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "<strong>Anthropic Research</strong> の <strong>Enabling independent research on how people use Claude</strong> は visible date が <strong>Aug 26, 2026</strong>、対応する <strong>@AnthropicAI</strong> post は <strong>2026-08-26 17:12:53 UTC</strong> で、今回の窓開始 <strong>2026-08-26 23:01:38 UTC</strong> より前のため外した。",
+    "<strong>Claude Blog</strong> の <strong>How Warp builds self-improving agents on Claude</strong> は visible date が <strong>Aug 26, 2026</strong> までしか取れず、今回の窓内に入る exact publish time を確認できなかったため外した。",
+    "engineer X watch は relevance 優先で行い、雑談、短い相づち、または親 post の文脈が弱い reply は final report から外した。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    },
+    {
+      "title": "Expanding our support for scientists",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude in Chrome is generally available",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available"
+    },
+    {
+      "title": "Claude gets its own browser in Cowork",
+      "url": "https://claude.com/blog/cowork-built-in-browser"
+    },
+    {
+      "title": "ClaudeAI post on scientist support",
+      "url": "https://x.com/claudeai/status/2093059087298601113"
+    },
+    {
+      "title": "AnthropicAI post on MHS",
+      "url": "https://x.com/AnthropicAI/status/2093038426140651791"
+    },
+    {
+      "title": "ClaudeDevs post on managed agents cookbook",
+      "url": "https://x.com/ClaudeDevs/status/2092984433649283284"
+    },
+    {
+      "title": "ClaudeAI post on Claude in Chrome GA",
+      "url": "https://x.com/claudeai/status/2092755574563741871"
+    },
+    {
+      "title": "ClaudeAI post on Cowork built-in browser",
+      "url": "https://x.com/claudeai/status/2092755571455758427"
+    },
+    {
+      "title": "Jarred Sumner on Claude Code size reduction",
+      "url": "https://x.com/jarredsumner/status/2092809439317500264"
+    },
+    {
+      "title": "Jarred Sumner on Claude Code bytecode startup",
+      "url": "https://x.com/jarredsumner/status/2092809441892774296"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.248",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248"
+    }
+  ]
+}
