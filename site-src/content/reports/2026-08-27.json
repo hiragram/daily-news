@@ -1,0 +1,212 @@
+{
+  "date": "2026-08-27",
+  "windowLabel": "2026-08-26 05:01:06 UTC - 2026-08-27 05:01:06 UTC",
+  "archiveTitle": "Claude Code v2.1.247 and Aug 26 official posts",
+  "archiveSummary": "公式4件、engineer signal 0件、Claude Code release 1件。",
+  "latestSummary": "2026-08-26 05:01:06 UTC から 2026-08-27 05:01:06 UTC の24時間では、official site から <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。Anthropic は <strong>Claude 利用実態の独立研究パイロット</strong> 結果を公開し、Claude Blog では <strong>Claude in Chrome</strong> の generally available 化、<strong>Claude Cowork</strong> の内蔵ブラウザ、<strong>Warp</strong> の self-improving agent 事例を掲載した。Claude Code は <strong>v2.1.247</strong> が <strong>2026-08-26 23:06:39 UTC</strong> に公開され、<strong>SendFeedback</strong> tool、<code>/claude-api cost-optimize</code>、spinner tip 拡張などの追加と、多数の不具合修正が入った。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 代替でも本文・時刻・canonical URL を高信頼に確定できなかったため採用していない。",
+  "summaryBullets": [
+    "<strong>official site 4件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。",
+    "<strong>Claude Code v2.1.247</strong>: <strong>2026-08-26 23:06:39 UTC</strong> に公開され、<strong>新機能</strong> 4件、<strong>変更</strong> 11件、<strong>修正</strong> 23件を確認した。",
+    "<strong>Claude in Chrome が GA</strong>: 全有料プランで一般提供となり、browser action を毎回承認なしで進めつつ、各 action を safety classifier で検証する構成になった。",
+    "<strong>Claude Cowork に内蔵ブラウザ</strong>: desktop app 内で Claude 専用ブラウザを side panel から開けるようになり、web 閲覧や入力を Claude 側で完結できるようにした。",
+    "<strong>Warp 事例</strong>: <strong>Agent Skills</strong> を使った self-improvement loop と、<strong>10M Claude Code sessions</strong>、<strong>400K+ per week</strong> の運用規模を公開した。",
+    "<strong>独立研究パイロット</strong>: 外部研究者 3 グループが privacy-preserving な aggregate Claude usage data を分析し、公開データと今後の参加フォームも案内した。",
+    "<strong>X 監視は採用なし</strong>: official / engineer とも専用の <strong>x_mcp</strong> tool が未露出で、代替の公開 Web では高信頼な一次情報を確定できなかった。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-26T00:00:00Z",
+      "displayTime": "2026-08-26（visible date）",
+      "title": "Claude in Chrome が全有料プランで generally available に",
+      "summary": "<strong>Claude in Chrome is generally available</strong> では、<strong>Claude in Chrome</strong> を全有料プランへ一般提供し、browser 上の action を都度承認なしで自律実行できるようにした。各 action は実行前に safety classifier で検証し、prompt injection 対策を強化したうえで rollout している点が主題だった。",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "urlLabel": "Claude in Chrome GA 記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-26T00:00:00Z",
+      "displayTime": "2026-08-26（visible date）",
+      "title": "Claude Cowork に desktop app 内蔵ブラウザを追加",
+      "summary": "<strong>Claude gets its own browser in Cowork</strong> では、<strong>Claude Cowork</strong> の desktop app に Claude 専用ブラウザを side panel として内蔵し、web page の閲覧、navigation、form 入力を Claude 側で完結できるようにした。<strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong> への rollout と、<strong>Enterprise</strong> 管理者向けの即日有効化にも触れている。",
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "urlLabel": "Cowork built-in browser 記事を読む"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-08-26T00:00:00Z",
+      "displayTime": "2026-08-26（visible date）",
+      "title": "Claude 利用実態の独立研究パイロット結果と公開データを発表",
+      "summary": "<strong>Enabling independent research on how people use Claude</strong> では、外部研究者 3 グループが <strong>Anthropic Insights</strong> を通じて aggregate な Claude usage data を分析した pilot の高水準な結果を公開した。Anthropic は追加の privacy audit 実施と、各プロジェクトの aggregate data 公開、将来の参加希望フォーム案内も行っている。",
+      "url": "https://www.anthropic.com/research/enabling-independent-research",
+      "urlLabel": "独立研究パイロット記事を読む"
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-26T00:00:00Z",
+      "displayTime": "2026-08-26（visible date）",
+      "title": "Warp の self-improving agent 運用事例を公開",
+      "summary": "<strong>How Warp builds self-improving agents on Claude</strong> では、Warp が <strong>Agent Skills</strong> を使って execution skill と improver skill を分け、人間の feedback を skill 更新へ反映する self-improvement loop を運用している事例を紹介した。記事では <strong>10M Claude Code sessions</strong>、<strong>400K+ per week</strong>、<strong>40M total Warp Agent conversations</strong> などの利用規模も示している。",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "urlLabel": "Warp 事例記事を読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering / News の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic News</strong> の最新 visible date は <strong>Aug 25, 2026</strong> だった。今回の24時間窓に publish time まで高信頼に確認できる新規記事はなかった。"
+    },
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の高信頼 in-window post は採用なし",
+      "body": "この実行では本来想定の <strong>x_mcp</strong> tool が露出しておらず、代替で確認した公開 Web の <strong>x.com</strong> profile / search result も本文・時刻・canonical URL を高信頼に返さなかった。公開 profile だけでは一次情報として不十分なため、official X main post は final report に採用していない。"
+    },
+    {
+      "label": "Anthropic engineer X も高信頼 signal は採用なし",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> の監視対象も同様に MCP 非露出で、reply context や canonical post を一次情報として確定できなかった。そのため今回の <strong>signals</strong> は 0件にしている。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "4件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> には新規記事がなく、Research / Claude Blog は publish time までは見えないため、採用判定は visible publication date ベースで行っている。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: <strong>Aug 26, 2026</strong> の <strong>Enabling independent research on how people use Claude</strong> を 1件採用",
+        "<strong>Anthropic News</strong>: 最新 visible date は <strong>Aug 25, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Claude Blog</strong>: <strong>Aug 26, 2026</strong> の <strong>Claude in Chrome is generally available</strong>、<strong>Claude gets its own browser in Cowork</strong>、<strong>How Warp builds self-improving agents on Claude</strong> を採用"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.247</strong> が 1件入っていた。公開された release note の全 bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.247",
+          "publishedAt": "2026-08-26 23:06:39 UTC",
+          "summary": "<strong>v2.1.247</strong> は、feedback report 作成、organization 向け spinner tip 拡張、<code>/claude-api cost-optimize</code> などを追加しつつ、sub-agent、background session、plugin marketplace、remote control、cloud session まわりを中心に多数の不具合を修正した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>SendFeedback</code> tool を追加し、session 内で問題が起きたときに <code>/feedback</code> からレビュー・送信できる feedback report 下書きを Claude が作れるようにした（<code>feedbackDrafts</code> 設定で無効化可能）。",
+                "organization 独自の spinner tip を組み込めるよう、<code>spinnerTipsOverride</code> に <code>{id, text, cooldownSessions, priority}</code> エントリ、<code>tipsFile</code>、<code>label</code> を追加した。",
+                "Bash 権限 prompt に関する tip を追加し、auto mode へ切り替えるための 1 キー操作の <code>Yes, and switch to auto mode</code> オプションを案内するようにした。",
+                "<code>/claude-api cost-optimize</code> を追加し、既存 project の Claude API コストを profiling して、caching、token hygiene、batch、effort、model choice などのコストレバーを 1 つずつ測定しながら見直せるようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "<code>/claude-api</code> skill を更新し、organization member、invite、workspace、API key、rate limit report、workload identity federation、CMEK まで含む Admin API をカバーするようにした。",
+                "plugin marketplace の hardening を改善し、control / invisible character を含む名前を拒否し、<code>/plugin</code> と <code>claude plugin</code> 出力で marketplace 由来テキストを escape-safe にした。",
+                "Bedrock、Vertex、Foundry session と telemetry 無効 session では、設定済み MCP server の接続失敗を Claude に伝えるよう改善し、tool が存在しないと誤解しないようにした。",
+                "Sonnet 5 の default auto-compact window を full 1M context に変更し、1M window session では約 934K token ではなく約 967K token で auto-compact するようにした。",
+                "cross-session peer message は default で 1 行の <code>Message from @&lt;sender&gt;: &lt;first line&gt;</code> preview に折りたたみ、<code>Ctrl+O</code> で全文展開するように変更した。",
+                "rendered markdown 内の terminal hyperlink は、network path / automounter path を指すもの、control character を含むもの、invisible character で始まるものを plain text 表示に変更した。",
+                "prompt-footer の PR badge は、直前の GitHub check から 1 分未満なら terminal refocus 時の再チェックをスキップするよう変更した。",
+                "managed settings で gateway login 強制または custom OAuth deployment を構成している場合、analytics は login 後ではなく起動時から無効のままに変更した。",
+                "Claude apps gateway の sign-in request は、<code>surface=claude_code</code> の device-authorization parameter と <code>claude-code/&lt;version&gt;</code> の User-Agent を使って Claude Code と識別するよう変更した。",
+                "administrator の managed settings を読めない場合、host supplied setting や Windows registry の per-user setting があっても、organization sign-in enforcement は起動時に終了するよう変更した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "history search、<code>/config</code>、<code>/mcp</code>、<code>/skills</code>、background task、<code>/model</code> で、矢印キーを素早く押した直後の Enter が 1 行上の項目に作用してしまう問題を修正した。",
+                "sub-agent が初回 call の model 404 で即死する問題を修正し、session の fallback model chain を使うようにした。親へ返す error には error type、status、request id、model も含めるようにした。",
+                "hook や background agent が数 MB 級の error 出力を吐くと会話があふれて <code>Prompt is too long</code> で session が詰まる問題を修正した。",
+                "kitty-protocol terminal で、非ラテン系キーボード配列（例: Cyrillic）使用時に Ctrl shortcut が発火しない問題を修正した。",
+                "mouse report が escape prefix 直後の分割読み込みで届くと、<code>&lt;35;150;7M</code> のような文字列が prompt に混入する問題を修正した。",
+                "Bash sandbox の after-command cleanup が、sandbox writable area の外を向く dotfile 管理の <code>~/.claude/settings.json</code> symlink を削除してしまう問題を修正した。",
+                "<code>/terminal-setup</code> が Zed の <code>keymap.json</code> 全体を上書きしていた問題を修正し、必要な keybinding だけ merge するようにした。",
+                "<code>/rename</code> で session registry 更新に失敗しても黙って成功扱いになる問題を修正し、他 session に旧名が残る可能性を伝えるようにした。",
+                "<code>/compact</code> と <code>Summarize from here</code> が <code>--agent</code> 開始 session で default system prompt 側を使って要約してしまう問題を修正した。",
+                "terminal host process が死んだあとの background session が <code>claude agents</code> で <code>opening…</code> のまま固まる問題を修正し、数秒で失敗理由を表示し、Enter で再起動できるようにした。",
+                "hook や background task の output file が書き込めないと memory が無制限に増え続ける問題を修正し、lost output の行き先を file に記録するようにした。",
+                "<code>/install-github-app</code> を SSH 越しに使うと copy shortcut が常に成功と表示していた問題を修正し、URL の copy 方法を正しく伝え、browser を開けない場合は URL を即時表示するようにした。",
+                "foreground から引き継いだ shell command が background session で終了したとき、internal error や誤解を招く <code>[exited with code -1]</code> 行を出す問題を修正した。",
+                "version-less marketplace plugin を 2 つ目の scope に install すると live cache directory を削除・再作成して実行中 session を乱すことがある問題を修正した。",
+                "<code>/remote-control</code> で始めた Remote Control session が connected client に working-tree diff を報告しない問題を修正した。",
+                "self-hosted runner session が Claude Code 起動前に <code>running</code> と報告してしまい、Claude desktop app の premature input notification を起こす問題を修正した。",
+                "managed settings が Claude apps gateway sign-in を構成していて Anthropic endpoint が到達不能な場合、first-run setup が <code>Unable to connect to Anthropic services</code> で落ちる問題を修正した。",
+                "web、desktop、mobile app の cloud session で、message 送信直後に permission mode を変えると前の mode 表示のままになることがある問題を修正した。",
+                "background agent、shell、monitor 実行中の turn 間で container が再起動すると cloud session が無言になる問題を修正し、再開後に失われた作業を報告するようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
+          "urlLabel": "v2.1.247 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "Research / Claude Blog の記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
+    "<strong>Anthropic News</strong> の最新 visible date は <strong>Aug 25, 2026</strong> で、今回の窓開始は <strong>2026-08-26 05:01:06 UTC</strong> のため、時刻を高信頼に確定できない <strong>Aug 25</strong> 記事は採用していない。",
+    "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の公開 Web でも本文・時刻・canonical URL を高信頼に返さなかった。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Enabling independent research on how people use Claude",
+      "url": "https://www.anthropic.com/research/enabling-independent-research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude in Chrome is generally available",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available"
+    },
+    {
+      "title": "Claude gets its own browser in Cowork",
+      "url": "https://claude.com/blog/cowork-built-in-browser"
+    },
+    {
+      "title": "How Warp builds self-improving agents on Claude",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.247",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247"
+    },
+    {
+      "title": "AnthropicAI with replies",
+      "url": "https://x.com/AnthropicAI/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeAI with replies",
+      "url": "https://x.com/claudeai/with_replies?lang=en"
+    },
+    {
+      "title": "ClaudeDevs with replies",
+      "url": "https://x.com/ClaudeDevs/with_replies?lang=en"
+    }
+  ]
+}
