@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
-  "windowLabel": "2026-08-26 05:01:06 UTC - 2026-08-27 05:01:06 UTC",
+  "windowLabel": "2026-08-26 11:01:04 UTC - 2026-08-27 11:01:04 UTC",
   "archiveTitle": "Claude Code v2.1.247 and Aug 26 official posts",
   "archiveSummary": "公式4件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-26 05:01:06 UTC から 2026-08-27 05:01:06 UTC の24時間では、official site から <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。Anthropic は <strong>Claude 利用実態の独立研究パイロット</strong> 結果を公開し、Claude Blog では <strong>Claude in Chrome</strong> の generally available 化、<strong>Claude Cowork</strong> の内蔵ブラウザ、<strong>Warp</strong> の self-improving agent 事例を掲載した。Claude Code は <strong>v2.1.247</strong> が <strong>2026-08-26 23:06:39 UTC</strong> に公開され、<strong>SendFeedback</strong> tool、<code>/claude-api cost-optimize</code>、spinner tip 拡張などの追加と、多数の不具合修正が入った。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 代替でも本文・時刻・canonical URL を高信頼に確定できなかったため採用していない。",
+  "latestSummary": "2026-08-26 11:01:04 UTC から 2026-08-27 11:01:04 UTC の24時間では、official site から <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。Anthropic は <strong>Claude 利用実態の独立研究パイロット</strong> 結果を公開し、Claude Blog では <strong>Claude in Chrome</strong> の generally available 化、<strong>Claude Cowork</strong> の内蔵ブラウザ、<strong>Warp</strong> の self-improving agent 事例を掲載した。Claude Code は <strong>v2.1.247</strong> が <strong>2026-08-26 23:06:39 UTC</strong> に公開され、<strong>SendFeedback</strong> tool、<code>/claude-api cost-optimize</code>、spinner tip 拡張などの追加と、多数の不具合修正が入った。official / engineer X 監視は、本来想定の <strong>x_mcp</strong> tool がこのスレッドで使えず、公開 Web 代替でも本文・時刻・canonical URL を高信頼に確定できなかったため採用していない。",
   "summaryBullets": [
     "<strong>official site 4件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 3件を採用した。",
     "<strong>Claude Code v2.1.247</strong>: <strong>2026-08-26 23:06:39 UTC</strong> に公開され、<strong>新機能</strong> 4件、<strong>変更</strong> 11件、<strong>修正</strong> 23件を確認した。",
@@ -151,7 +151,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
     "Research / Claude Blog の記事は article page / listing とも publish time までは見えず、<strong>visible publication date</strong> ベースでこの24時間窓に採用した。",
-    "<strong>Anthropic News</strong> の最新 visible date は <strong>Aug 25, 2026</strong> で、今回の窓開始は <strong>2026-08-26 05:01:06 UTC</strong> のため、時刻を高信頼に確定できない <strong>Aug 25</strong> 記事は採用していない。",
+    "<strong>Anthropic News</strong> の最新 visible date は <strong>Aug 25, 2026</strong> で、今回の窓開始は <strong>2026-08-26 11:01:04 UTC</strong> のため、時刻を高信頼に確定できない <strong>Aug 25</strong> 記事は採用していない。",
     "X 監視は本来 <strong>x_mcp</strong> を使う設計だが、このスレッドでは tool が未露出で、代替の公開 Web でも本文・時刻・canonical URL を高信頼に返さなかった。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
   ],
