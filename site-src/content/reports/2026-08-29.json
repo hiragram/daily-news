@@ -1,0 +1,234 @@
+{
+  "date": "2026-08-29",
+  "windowLabel": "2026-08-27 23:02:39 UTC - 2026-08-28 23:02:39 UTC",
+  "archiveTitle": "Teachers, alignment research, and Claude Code 2.1.251",
+  "archiveSummary": "official 2件、engineer signal 0件、Claude Code release 2件。",
+  "latestSummary": "2026-08-27 23:02:39 UTC から 2026-08-28 23:02:39 UTC の24時間では、official 側で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件を確認した。<strong>Anthropic News</strong> の最新 visible date は <strong>Aug 27, 2026</strong> で今回窓への再採用は見送り、<strong>Claude Code</strong> は新たに <strong>v2.1.250</strong> と <strong>v2.1.251</strong> を公開した。特に <strong>v2.1.251</strong> では model switch hook、Remote Control の foreground subagent live stream、<code>/usage</code> / <code>/cost</code> の可視化追加に加え、多数の security fix と reliability fix が入っている。",
+  "summaryBullets": [
+    "<strong>official news 2件</strong>: <strong>Anthropic Research</strong> の alignment 研究記事 1件と <strong>Claude Blog</strong> の教育向け発表 1件を採用した。",
+    "<strong>alignment research</strong>: <strong>Automated researchers can reliably mitigate alignment failures</strong> は、Claude を使った automated alignment researcher が 10種類の alignment failure すべてで改善を見つけ、production-grade に近い設定でも safety gap を大きく縮めたと報告した。",
+    "<strong>education launch</strong>: <strong>Claude for Teachers, now available for schools and districts</strong> は、米国の学校・学区向けに <strong>Claude for Teachers</strong> を無料の Enterprise offering として広げ、SSO、RBAC、domain claiming、K-12 terms をまとめて提供すると案内した。",
+    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.250</strong> の修正 1件と、<strong>v2.1.251</strong> の <strong>新機能 5件</strong>・<strong>変更 25件</strong>・<strong>修正 40件</strong> を release note の全 bullet ベースで和訳した。",
+    "<strong>X watch 制約</strong>: このスレッドでは想定の <strong>x_mcp</strong> recent search が使えず、公開検索でも in-window post を高信頼で網羅できなかったため、official / engineer X は取得制約を明示しつつ、一次情報は official web と GitHub release metadata を優先した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-08-28T00:00:00Z",
+      "displayTime": "2026-08-28 公開日ベース",
+      "title": "自動化された alignment 研究で 10種類の failure 軽減を報告",
+      "summary": "<strong>Automated researchers can reliably mitigate alignment failures</strong> は visible publication date が <strong>Aug 28, 2026</strong> の新規 research article。Anthropic は、Claude を用いた automated alignment researcher が deception、sycophancy、jailbreak など <strong>10種類</strong> の alignment failure で改善策を見つけ、held-out benchmark、Petri audit、より大きい model でも効果が続いたと説明している。さらに、弱い Claude がより強い model の post-training alignment を改善する実験では、<strong>60時間</strong> で production-grade に近い alignment score に到達したとしている。",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "urlLabel": "alignment 研究記事を読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-08-28T00:00:00Z",
+      "displayTime": "2026-08-28 公開日ベース",
+      "title": "Claude for Teachers を学校・学区向け無料 Enterprise offering に拡大",
+      "summary": "<strong>Claude for Teachers, now available for schools and districts</strong> は visible publication date が <strong>August 28, 2026</strong> の新規 blog post。Anthropic は、米国の K-12 学校・学区管理者が認証後に教職員を単一の Enterprise 組織へまとめ、<strong>single sign-on</strong>、<strong>role-based access control</strong>、<strong>domain claiming</strong>、K-12 向け terms と privacy agreement を使えると案内した。合わせて新しい teaching skills と educator 向け Academy 更新も告知している。",
+      "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+      "urlLabel": "Claude for Teachers の発表を読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Anthropic Engineering の新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> 一覧の最新 visible date は引き続き <strong>Apr 23, 2026</strong> で、今回の窓 <strong>2026-08-27 23:02:39 UTC</strong> 以降に入る新規 article は確認できなかった。"
+    },
+    {
+      "label": "Anthropic News は今回窓で新規採用 0件",
+      "body": "<strong>Anthropic News</strong> 一覧の最新 visible entries は <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> だった。どちらも日付しか見えず、対応する前回確認済み official X timestamp は今回窓開始より前だったため、今回は新規 official article として再採用していない。"
+    },
+    {
+      "label": "official X watch は高信頼な網羅取得に失敗",
+      "body": "本来想定の <strong>x_mcp</strong> recent search がこのスレッドでは使えず、公開検索経由の <strong>x.com</strong> は profile / stale index が中心で in-window の main post を高信頼に列挙できなかった。そのため official X は取得制約ありとして扱い、report の主要根拠は official web article と GitHub release metadata に置いた。"
+    },
+    {
+      "label": "engineer X signal は採用 0件",
+      "body": "<strong>Anthropic Engineer X Watch</strong> も同じく <strong>x_mcp</strong> 不可と公開検索の鮮度不足に当たり、今回の24時間窓で high-signal と言い切れる engineer post を高信頼に検証できなかったため、signals は空配列にした。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 1件を採用した。<strong>Anthropic Engineering</strong> は新規 article 0件、<strong>Anthropic News</strong> は visible date 上は <strong>Aug 27, 2026</strong> が最新で、今回窓に確実に入る新規 item は確認できなかった。",
+      "details": [
+        "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
+        "<strong>Anthropic Research</strong>: <strong>Aug 28, 2026</strong> の <strong>Automated researchers can reliably mitigate alignment failures</strong> を採用",
+        "<strong>Anthropic News</strong>: 一覧上位は <strong>Aug 27, 2026</strong> だが、今回窓で確実に採用できる新規 entry は 0件",
+        "<strong>Claude Blog</strong>: <strong>Aug 28, 2026</strong> の <strong>Claude for Teachers, now available for schools and districts</strong> を採用"
+      ],
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Anthropic Research 一覧"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "2件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.250</strong> と <strong>v2.1.251</strong> の 2件が入っていた。両 release の body を確認し、visible bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.251",
+          "publishedAt": "2026-08-28 18:19:32 UTC",
+          "summary": "<strong>v2.1.251</strong> は大型の feature + fix release で、model switch hook、foreground subagent の live stream、<code>/usage</code> / <code>/cost</code> の可視化追加に加え、sandbox、plugin path、managed settings、MCP、background session、Remote Control、cloud session 周辺に多数の修正が入った。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>PreModelSwitch</code> と <code>PostModelSwitch</code> hook event を追加し、model switch を block・confirm・annotate できるようにした。加えて <code>SessionStart</code> の resume hook には session の stale 状態と推定 re-cache cost を渡すようにした。",
+                "foreground subagent の tool call と結果を Remote Control client へ live stream する機能を追加した。background subagent は従来どおり status のみ表示する。",
+                "Claude apps gateway の spend limit 利用者向けに、<code>/usage</code> の Spend limit bar と status line script 用の <code>rate_limits.spend_limit</code> フィールドを追加した。",
+                "<code>/cost</code> に session 単位の prompt cache 行を追加し、hit ratio、misses、re-cached token 数、warm / cold を見られるようにした。status line script 向けにも対応する <code>prompt_cache</code> object を追加した。",
+                "<code>claude --help</code> に <code>attach</code>、<code>logs</code>、<code>stop</code>、<code>respawn</code>、<code>rm</code> を追加し、実行中の background session に対する <code>--resume</code> メッセージでは正確な <code>claude attach &lt;id&gt;</code> を表示するようにした."
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "turn 中の interactive session における冗長な UI 再描画を減らし、CPU 使用率を改善した。",
+                "native binary を約 <strong>5 MB</strong> 小さくし、install size を改善した。",
+                "cloud session で network proxy が Bash command 中に接続を落とした場合、tool result で単なる <code>connection reset</code> ではなく host 名と理由を表示するよう改善した。",
+                "<code>/schedule</code> の説明を改善し、Claude Code に設定された MCP server は cloud routine へ attach できないことを、簡素な <code>No MCP connectors</code> ではなく明示するようにした。",
+                "自分の subagent から来た message の framing を改善し、無関係な別 session の Claude ではなく、この session 内 worker からの送信だと Claude へ伝えるようにした。",
+                "background subagent や subagent panel / <code>/tasks</code> から開いた fork transcript を見ているとき、prompt placeholder が <code>Message @name...</code> と出るよう改善した。",
+                "error message、menu、command result に出る MCP server 名の sanitization を改善した。",
+                "<code>CLAUDE_CODE_PROVIDER_MANAGED_BY_HOST</code> 配下の Amazon Bedrock session start を改善し、Bedrock model ID や ARN を渡された session が inference-profile discovery 待ちで止まらないようにした。",
+                "managed settings approval dialog を改善し、前回承認後に変わった設定だけを一覧表示するようにした。",
+                "model の tool call が malformed な場合の retry を改善し、壊れた出力を retry context から落とすようにした。Bedrock、Vertex、Foundry でも同様とした。",
+                "<code>/radio</code> を Bedrock、Vertex AI、Foundry、Claude Platform on AWS、および telemetry 無効時でも利用可能に変更した。",
+                "Claude in Chrome は browser action を常に Claude Code の permission check 経由で実行するよう変更した。従来 telemetry 無効 session で使っていた Chrome extension 側 prompt を通さない。",
+                "<code>CLAUDE_CODE_SUBAGENT_MODEL</code> は subagent model を全面 override するのではなく default 値を決めるだけに変更し、agent definition の <code>model:</code> や明示的な per-spawn model を優先するようにした。",
+                "active model が認識済み Claude model でない場合の default commit trailer を <code>Co-Authored-By: Claude Code</code> に変更した。",
+                "seat-based Enterprise subscription の default model を、他の premium plan に合わせて Opus 5 へ変更した。",
+                "<code>/effort</code> は model ごとに default effort level を保存するよう変更し、model を切り替えても各 model の設定を保持するようにした。",
+                "analytics は、managed settings による gateway login 強制や設定未読だけでは sign-in 前に無効化しないよう変更した。gateway sign-in 後または <code>DISABLE_TELEMETRY</code> 時には引き続き無効になる。",
+                "Bedrock、Vertex、Foundry、および telemetry 無効時の footer PR badge は、<code>gh pr view</code> ではなく GitHub API を直接呼ぶよう変更した。利用元は <code>gh auth token</code>、<code>GH_TOKEN</code>、<code>GITHUB_TOKEN</code>。",
+                "sandbox で Bash command を走らせる際の output file の作成と読み戻し方法を変更し、sandboxed command がその file を redirect や差し替えできないようにした。",
+                "plugin / LSP install suggestion と auto-mode default offer は、入力中テキストを送信または消すまで待つよう変更し、prompt 送信の Enter で誤って応答しないようにした。",
+                "sandbox TLS 終端、自前 proxy 経由の sandbox traffic、credential 注入、sandbox isolation 弱化を伴う server-managed settings は、適用前に approval を必須に変更した。",
+                "managed または project settings 由来の <code>ANTHROPIC_CUSTOM_HEADERS</code> が credential、org / tenant、routing、API behavior header を設定する場合は approval を必須に変更した。",
+                "project-level の <code>.claude/settings.json</code> の <code>env</code> では、<code>CLAUDE_CONFIG_DIR</code>、<code>CLAUDE_CODE_TMPDIR</code>、<code>TMPDIR</code> / <code>TMP</code> / <code>TEMP</code> を設定しないよう変更した。必要なら shell、user、managed settings で設定する。",
+                "6つのあまり使われない言語（<code>1c</code>、<code>gml</code>、<code>isbl</code>、<code>mathematica</code>、<code>maxima</code>、<code>sqf</code>）の syntax highlighting を削除し、binary をさらに <strong>2.5 MB</strong> 小さくした。",
+                "[VSCode] Remote Control banner を footer pill に変更し、Remote Control が有効または失敗中のあいだ <code>claude.ai/code</code> 上の session を開けるようにした。切り替えは <code>/remote-control</code> で行う。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "working directory 内で symlink が permission check 後に差し替えられた場合でも、file tool の Read、Write、Edit が承認範囲外を読んだり書いたりできないよう修正した。",
+                "marketplace entry で宣言された plugin command が plugin directory の外を指せていた問題を修正し、そのような path は path-traversal error で拒否するようにした。",
+                "project settings が detailed beta tracing や raw API body logging を有効化できていた問題と、より低い scope の beta tracing endpoint が managed settings や host app に pin された OTLP collector を回避できていた問題を修正した。",
+                "Workflow tool が permission check 前に、session が読めないはずの <code>scriptPath</code> を読んだり error 内で引用したりしていた問題を修正した。",
+                "Grep と Glob が、symlink された search path 経由で到達した file に <code>Read(...)</code> deny rule を適用していなかった問題を修正した。",
+                "model が thinking だけを出した turn のあとに conversation が <code>text content blocks must be non-empty</code> で詰まる問題を修正した。",
+                "fresh install の初回起動で、startup default が auto mode の account でも default mode で始まっていた問題を修正した。",
+                "thinking 無効時に effort が xhigh / max だと Opus 5 request が <code>effort ... is not supported when thinking is disabled</code> で失敗する問題を修正し、その場合は <code>high</code> を送るようにした。",
+                "他 session から Claude Desktop 経由で届いた message へ返信するとき、その session id への <code>SendMessage</code> が失敗していた問題を修正し、Claude Desktop 経由で配送するようにした。",
+                "多数の parallel subagent がいると TUI が重くなる問題を修正し、1秒ごとの progress tick は transcript に積み増さず前のものを置き換えるようにした。",
+                "agent team で teammate の最終回答が team lead に届かず、中身のない <code>available</code> notice だけになる問題を修正した。回答は idle notification に届くようにした。",
+                "background subagent が名前のない sibling や parent agent からの message に返信できない問題を修正した。原因だった <code>from</code> が agent type になっていた挙動を直した。",
+                "managed-settings の <code>disableAutoMode</code> が session 中に到着しても、すでに動作中の auto-mode session が default mode へ戻らない問題を修正した。",
+                "現在の Opus model がすでに 1M context window を持っていても <code>switch to Opus 1M for 5x more context</code> tip が出る問題を修正した。",
+                "Claude apps gateway session が保存済み Anthropic profile を active と誤認し、<code>/status</code> に出したり gateway 401 retry に使おうとした問題を修正した。実際の request には使わないようにした。",
+                "cloud session が、host が session の初期 model を設定しただけなのに Claude へ model change が起きたと伝えていた問題を修正した。",
+                "organization policy で Remote Control が無効なときに failure 扱いしていた問題を修正し、静かな single notice を出すだけにした。",
+                "Remote Control 上の <code>/mcp reconnect</code> が、別 session で server 無効化されていたとき generic withheld-detail error しか出さない問題を修正し、実際の remedy を示すようにした。",
+                "<code>--input-format stream-json</code> で、client 注入の assistant tool call に message id がないと最初の call に merge され結果が失われる問題を修正した。古い session の resume 時も同様だった。",
+                "directory change によって session が同一 ID の既存 transcript 上へ移ったとき、transcript が無言で上書きされる問題を修正した。",
+                "background session とその subagent が、自分で <code>git worktree add</code> した git worktree 内の file を編集できない問題を修正した。",
+                "別の Claude Code process が plugin marketplace を refresh 中だと、background session が plugin skill を一切持たずに起動し、そのまま戻らないことがある問題を修正した。",
+                "SSH 越しの tmux で開いた background session 内で text 選択すると、foreground session のように tmux buffer へ copy されず OSC 52 fallback していた問題を修正した。",
+                "SDK MCP server の handshake acknowledgment が失われると SDK / cloud session が無期限に hang する問題を修正し、70秒で timeout してその server だけ failed 扱いにするようにした。",
+                "self-hosted runner で stuck した session を force-stop したあとも Bash tool process が残る問題を修正した。",
+                "Team / Enterprise member で admin が org の usage-credit limit を <code>$0</code> に設定している場合、<code>/usage-credits</code> が cap 到達と誤案内する問題を修正し、admin に依頼する案内へ変更した。",
+                "<code>--worktree --tmux</code> を gitlab.com origin と merge-request number 付きで使うと、失敗する GitHub 形式 fetch を先に試す問題を修正し、GitLab ref を直接 fetch するようにした。",
+                "background session で <code>Ctrl+G</code> を押すと、<code>/dev/tty</code> を開く editor（<code>emacs -nw</code>、<code>micro</code> など）で <code>Emacs quit unexpectedly</code> が出る問題を修正した。",
+                "<code>additionalDirectories</code> に null byte を含む entry があると startup crash したり、SDK host / IDE / hook 由来だと <code>/add-dir</code> や後続 settings update が壊れる問題を修正し、その entry を skip するようにした。",
+                "MCP server menu の copy shortcut が、実際には失敗していても sign-in URL を copy したと常に成功表示する問題を修正した。",
+                "GNU screen や terminal type が <code>screen</code> の tmux session で italic text が highlighted block のように描画される問題を修正した。",
+                "<code>claude mcp add --header</code> と <code>claude mcp add-json</code> の help text が誤った transport 名を示していた問題を修正した。",
+                "<code>claude ultrareview</code> と <code>/ultrareview</code> が cloud session 起動失敗時にも 30分待ち切る問題を修正し、早めに止まって理由を報告するようにした。",
+                "Bash permission check が整数 shell variable への算術式代入（例: <code>OPTIND=1/0</code>、<code>RANDOM=2+2</code>）を自動承認していた問題を修正し、approval を求めるようにした。",
+                "backgrounded session（<code>←</code>、<code>/background</code>、<code>--bg</code>）が shell export された Vertex / Bedrock gateway（<code>ANTHROPIC_*_BASE_URL</code> + <code>CLAUDE_CODE_SKIP_*_AUTH</code>）を失い、request がすべて失敗する問題を修正した。",
+                "<code>claude --bg --model fable</code> が、同じ account の interactive session にはまだ Fable allowance があるのに usage credits を尋ねて止まる問題を修正した。",
+                "一度だけ出る <code>make auto mode your default</code> offer が unattended session にも表示され、偶発的な keypress で unread のまま承認され得る問題を修正した。",
+                "同じ Claude apps gateway に再 sign-in したあと、managed-settings approval prompt が設定不変でも再表示される問題を修正した。",
+                "無効化された <code>/bug</code> と <code>/share</code> が、<code>/feedback</code> が無効だと誤報する問題を修正した。tips、<code>/help</code>、refusal message も、org policy や env var で無効な <code>/feedback</code> を勧めないようにした。",
+                "cloud session 作成時に一時的な GitHub connection failure が起きると GitHub setup を案内してしまう問題を修正し、retry を促す message にした。",
+                "[VSCode] sign-in screen の <code>Bedrock, Foundry, or Vertex</code> button が docs 冒頭を開いていた問題を修正し、third-party provider setup section を開くようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+          "urlLabel": "v2.1.251 release note"
+        },
+        {
+          "version": "v2.1.250",
+          "publishedAt": "2026-08-28 00:49:16 UTC",
+          "summary": "<strong>v2.1.250</strong> は短い hotfix release で、release body 上の visible bullet は <strong>Bug fixes and reliability improvements</strong> 1件だった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+          "urlLabel": "v2.1.250 release note"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "<strong>Anthropic News</strong> の上位2件は visible date が <strong>Aug 27, 2026</strong> だったが、今回窓開始は <strong>2026-08-27 23:02:39 UTC</strong> で、article 側に exact publish time が見えず、前回確認済み official X timestamp は窓開始より前だったため外した。",
+    "official X と engineer X は、本来想定の <strong>x_mcp</strong> recent search が使えず、公開検索経由の <strong>x.com</strong> も stale index や profile listing が中心だったため、high-confidence に裏取りできた in-window post だけを採用する方針を取った。その結果、今回は X 由来 item を main report へ入れていない。",
+    "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。",
+    "<strong>v2.1.248</strong> は publish 時刻が <strong>2026-08-27 22:12:20 UTC</strong> で、今回窓開始 <strong>2026-08-27 23:02:39 UTC</strong> より前のため外した."
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Automated researchers can reliably mitigate alignment failures",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog listing",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude for Teachers, now available for schools and districts",
+      "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.251",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251"
+    },
+    {
+      "title": "Claude Code release v2.1.250",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250"
+    }
+  ]
+}
