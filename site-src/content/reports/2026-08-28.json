@@ -1,24 +1,24 @@
 {
   "date": "2026-08-28",
-  "windowLabel": "2026-08-26 23:01:38 UTC - 2026-08-27 23:01:38 UTC",
-  "archiveTitle": "Scientist access, MHS, and v2.1.248",
-  "archiveSummary": "official 5件、engineer signal 1件、Claude Code release 1件。",
-  "latestSummary": "2026-08-26 23:01:38 UTC から 2026-08-27 23:01:38 UTC の24時間では、official 側で <strong>Anthropic News</strong> 2件、<strong>Claude Blog</strong> 2件、<strong>@ClaudeDevs</strong> 1件を確認した。Anthropic は <strong>10,000</strong> 席の scientist 向け Claude Team plan と、AI agent が物理機器を安全に扱うための <strong>Model Hardware Standard</strong> 研究プレビューを発表した。Claude Blog 側では <strong>Claude in Chrome</strong> GA と <strong>Cowork built-in browser</strong> の rollout 継続を窓内時刻で確認した。<strong>Claude Code v2.1.248</strong> は <strong>2026-08-27 22:12:20 UTC</strong> に公開され、restricted mode、<code>/usage-credits</code>、cross-session messaging 拡張を追加しつつ多数の agent / login / cloud-session 系不具合を修正した。",
+  "windowLabel": "2026-08-27 05:02:54 UTC - 2026-08-28 05:02:54 UTC",
+  "archiveTitle": "Scientists, MHS, and Claude Code releases",
+  "archiveSummary": "official 3件、engineer signal 1件、Claude Code release 2件。",
+  "latestSummary": "2026-08-27 05:02:54 UTC から 2026-08-28 05:02:54 UTC の24時間では、official 側で <strong>Anthropic News</strong> 2件と <strong>@ClaudeDevs</strong> 1件を確認し、engineer signal は <strong>@noahzweben</strong> 1件だった。Anthropic は scientist 向け <strong>10,000</strong> 席の Claude Team plan と <strong>Model Hardware Standard</strong> 研究プレビューを継続告知した一方、<strong>Claude Blog</strong> の新規記事は 0件だった。<strong>Claude Code</strong> はこの窓内で <strong>v2.1.248</strong> と <strong>v2.1.250</strong> を公開し、前者では大規模な機能追加と修正、後者では <strong>Bug fixes and reliability improvements</strong> の hotfix を出した。",
   "summaryBullets": [
-    "<strong>official news 5件</strong>: <strong>Anthropic News</strong> 2件、<strong>Claude Blog</strong> 2件、<strong>@ClaudeDevs</strong> 1件を採用した。",
+    "<strong>official news 3件</strong>: <strong>Anthropic News</strong> 2件と <strong>@ClaudeDevs</strong> 1件を採用した。",
     "<strong>scientist support expansion</strong>: Anthropic は <strong>10,000</strong> 席の scientist 向け Claude Team plan を公開し、standard seat を無料、premium seat を月額 <strong>$15</strong> で 1 年提供すると案内した。",
-    "<strong>Model Hardware Standard</strong>: Anthropic は HHMI Janelia と始めた <strong>MHS</strong> 研究プレビューを公開し、microscope、liquid handler、robotic arm などを AI agent が標準化された driver 経由で扱えるようにする構想を示した。",
-    "<strong>Claude Blog 2件</strong>: <strong>Claude in Chrome</strong> GA と <strong>Cowork built-in browser</strong> は、どちらも <strong>@claudeai</strong> の exact timestamp が窓内にあり、8月26日付 article のうち今回も継続して採用できた。",
+    "<strong>Model Hardware Standard</strong>: Anthropic は <strong>MHS</strong> の research preview を公開し、microscope、liquid handler、robotic arm などを AI agent が標準 driver 経由で扱えるようにする構想を示した。",
     "<strong>@ClaudeDevs cookbook</strong>: <strong>Claude Managed Agents</strong> を <strong>Vercel Chat SDK</strong> に接続する cookbook 告知を確認した。",
-    "<strong>Claude Code v2.1.248</strong>: <strong>新機能 7件</strong>、<strong>変更 10件</strong>、<strong>修正 32件</strong> を確認し、release note の全 bullet を和訳した。",
-    "<strong>engineer signal 1件</strong>: <strong>@jarredsumner</strong> が、次の Claude Code を <strong>45%</strong> 小さくし、事前 bytecode 化で起動を速くする実装詳細を共有した。"
+    "<strong>engineer signal 1件</strong>: <strong>@noahzweben</strong> が、Anthropic の on-call で <strong>Claude Tag</strong> が最も人気のユースケースだと述べ、CI/CD incident 対応の運用記事を再告知した。",
+    "<strong>Claude Code releases 2件</strong>: <strong>v2.1.248</strong> の <strong>新機能 7件</strong>・<strong>変更 10件</strong>・<strong>修正 32件</strong> と、<strong>v2.1.250</strong> の <strong>修正 1件</strong> を release note の全 bullet ベースで和訳した。",
+    "<strong>Claude Blog 0件</strong>: 8月27日 05:02:54 UTC 以降に publish された新規 blog article は確認できなかった。"
   ],
   "officialNews": [
     {
       "label": "Anthropic News / @claudeai",
-      "datetime": "2026-08-27T19:32:28Z",
+      "datetime": "2026-08-27T19:32:00Z",
       "displayTime": "2026-08-28 04:32 JST",
-      "title": "scientist 向け Claude Team plan と AI for Science 拡張を発表",
+      "title": "scientist 向け Claude Team plan と AI for Science 拡張を告知",
       "summary": "<strong>Expanding our support for scientists</strong> では、Anthropic が世界の研究者向けに <strong>10,000</strong> 席の新しい <strong>Claude Team plan for scientists</strong> を公開し、standard seat を無料、premium seat を月額 <strong>$15</strong> で 1 年提供すると案内した。article は同時に <strong>AI for Science</strong> program の対象分野拡大にも触れており、<strong>@claudeai</strong> の post でも数学、化学、物理学を含む広い分野の科学者へ展開すると告知している。",
       "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
       "urlLabel": "scientist 向け支援拡張の記事を読む",
@@ -26,7 +26,7 @@
     },
     {
       "label": "Anthropic News / @AnthropicAI",
-      "datetime": "2026-08-27T18:10:22Z",
+      "datetime": "2026-08-27T18:10:00Z",
       "displayTime": "2026-08-28 03:10 JST",
       "title": "Model Hardware Standard の研究プレビューを公開",
       "summary": "<strong>Previewing the Model Hardware Standard</strong> では、Anthropic が <strong>Model Hardware Standard (MHS)</strong> の research preview を公開し、microscope、liquid handler、robotic arm など複数の lab / manufacturing device を AI agent が安全に操作できる共有仕様として提示した。article は HHMI Janelia との共同起点、device integration を weeks-to-months から hours-to-minutes へ縮める狙い、そして open source 化前に safety evaluation と best practice を整える方針を説明している。",
@@ -36,76 +36,77 @@
     },
     {
       "label": "@ClaudeDevs",
-      "datetime": "2026-08-27T14:35:49Z",
+      "datetime": "2026-08-27T14:35:00Z",
       "displayTime": "2026-08-27 23:35 JST",
       "title": "Managed Agents を Vercel Chat SDK に接続する cookbook を公開",
       "summary": "<strong>@ClaudeDevs</strong> は、新しい cookbook として <strong>Claude Managed Agents</strong> を <strong>Vercel Chat SDK</strong> に接続する手順を告知した。続く thread では、Chat SDK 側が <strong>1つの型安全な <code>onDirectMessage</code> handler</strong> と <strong>15+</strong> の adapter を提供し、tool 実行には built-in 環境だけでなく独自の <strong>Vercel Sandbox</strong> も使えると補足している。",
       "url": "https://x.com/ClaudeDevs/status/2092984433649283284",
       "urlLabel": "@ClaudeDevs の cookbook 告知を見る"
-    },
-    {
-      "label": "Claude Blog / @claudeai",
-      "datetime": "2026-08-26T23:26:25Z",
-      "displayTime": "2026-08-27 08:26 JST",
-      "title": "Claude in Chrome が全有料プランで generally available に",
-      "summary": "<strong>Claude in Chrome is generally available</strong> では、<strong>Claude in Chrome</strong> を全有料プランへ一般提供し、browser 上の action を都度承認なしで自律実行できるようにした。article は <strong>safety classifier</strong> が各 action を実行前に検証すると説明しており、<strong>@claudeai</strong> の exact timestamp も今回の24時間窓内に入っている。",
-      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
-      "urlLabel": "Claude in Chrome GA 記事を読む"
-    },
-    {
-      "label": "Claude Blog / @claudeai",
-      "datetime": "2026-08-26T23:26:24Z",
-      "displayTime": "2026-08-27 08:26 JST",
-      "title": "Claude Cowork に desktop app 内蔵ブラウザを追加",
-      "summary": "<strong>Claude gets its own browser in Cowork</strong> では、desktop app の side panel に Claude 専用ブラウザを追加し、web page の閲覧、navigation、form 入力を Claude 側で完結できるようにした。article は <strong>Pro</strong>、<strong>Max</strong>、<strong>Team</strong> へ今週 rollout し、<strong>Enterprise</strong> 管理者も当日から有効化できるとしており、<strong>@claudeai</strong> の exact timestamp も窓内で確認できた。",
-      "url": "https://claude.com/blog/cowork-built-in-browser",
-      "urlLabel": "Cowork built-in browser 記事を読む"
     }
   ],
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 26, 2026</strong> だった。今回の窓開始は <strong>2026-08-26 23:01:38 UTC</strong> のため、Research の <strong>Enabling independent research on how people use Claude</strong> は前回までの窓には入っていたが、今回は新規 official article としては採用していない。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 26, 2026</strong> だった。今回の窓開始は <strong>2026-08-27 05:02:54 UTC</strong> のため、Research の <strong>Enabling independent research on how people use Claude</strong> は前回までの窓には入っていたが、今回は新規 official article としては採用していない。"
+    },
+    {
+      "label": "Claude Blog の新規記事は 0件",
+      "body": "<strong>Claude Blog</strong> 一覧の上位を再確認したが、今回の窓内に入る新規 article は確認できなかった。前回採用した <strong>Claude in Chrome is generally available</strong> と <strong>Claude gets its own browser in Cowork</strong> は <strong>@claudeai</strong> の exact timestamp が <strong>2026-08-26 23:26 JST</strong> 相当で、今回の窓開始より前に外れた。"
     },
     {
       "label": "official X は採用した告知以外の追加 main post が少ない",
-      "body": "<strong>@AnthropicAI</strong> は <strong>MHS</strong> thread、<strong>@claudeai</strong> は scientist plan 告知、<strong>@ClaudeDevs</strong> は cookbook thread を確認した。別の high-signal main post はこの窓では多くなかった。"
+      "body": "<strong>@claudeai</strong> は scientist plan 告知、<strong>@AnthropicAI</strong> は <strong>MHS</strong> thread、<strong>@ClaudeDevs</strong> は cookbook thread を確認した。別の high-signal main post はこの窓では多くなかった。"
     },
     {
       "label": "engineer X の大半は関連 signal なし",
-      "body": "監視対象 account は分割検索で再走査したが、採用に値する product / implementation detail として残ったのは <strong>@jarredsumner</strong> 1件だけだった。その他は雑談、短い相づち、または親 post 文脈が弱い reply が中心だった。"
+      "body": "監視対象 account を profile 単位で再走査したが、採用に値する product / operations signal として残ったのは <strong>@noahzweben</strong> 1件だけだった。その他は雑談、古い post、または今回の監視テーマと距離がある内容が中心だった。"
     }
   ],
   "signals": [
     {
-      "label": "Jarred Sumner",
-      "datetime": "2026-08-27T03:00:27Z",
-      "displayTime": "2026-08-27 12:00 JST",
-      "title": "Jarred Sumner が次の Claude Code の軽量化と起動高速化を予告",
-      "summary": "<strong>@jarredsumner</strong> は、次の Claude Code が <strong>45%</strong> 小さくなると予告し、続く reply で source を事前に bytecode へ parse することで起動を速くしていると説明した。binary 内 bytecode のサイズは当初 source の約 <strong>9倍</strong> だったが、<strong>JavaScriptCore</strong> の serialization format と <strong>Bun</strong> bundler の最適化で現在は約 <strong>2.6倍</strong> まで下げたとしている。",
-      "url": "https://x.com/jarredsumner/status/2092809439317500264",
-      "urlLabel": "@jarredsumner の軽量化予告を見る"
+      "label": "Noah Zweben",
+      "datetime": "2026-08-28T00:27:00Z",
+      "displayTime": "2026-08-28 09:27 JST",
+      "title": "Noah Zweben が Claude Tag の on-call 運用を再告知",
+      "summary": "<strong>@noahzweben</strong> は、<strong>Claude Tag</strong> の最も人気なユースケースは on-call だと述べ、Anthropic の CI/CD incident response を Claude Tag で回す記事を共有した。内容自体は既存記事の再告知だが、運用現場では <strong>Claude Tag</strong> が実際に incident first responder として定着しているという補助的シグナルとして扱える。",
+      "url": "https://x.com/noahzweben/status/2093133238311239808",
+      "urlLabel": "@noahzweben の on-call 投稿を見る"
     }
   ],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "4件",
-      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 2件と <strong>Claude Blog</strong> 2件を採用した。<strong>Anthropic Engineering</strong> と <strong>Anthropic Research</strong> には新規 article がなかった。8月26日付の Claude Blog 記事 2本は、article 自体に時刻は出ていないが <strong>@claudeai</strong> の exact timestamp が窓内だったため継続採用した。",
+      "headline": "2件",
+      "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 2件を採用し、<strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> の新規 article は 0件だった。scientist plan と <strong>MHS</strong> はどちらも <strong>Aug 27, 2026</strong> の newsroom article で、対応する official X post の exact timestamp も窓内にある。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Anthropic Research</strong>: 最新 visible article は <strong>Aug 26, 2026</strong> だが、今回の窓開始 <strong>2026-08-26 23:01:38 UTC</strong> 以降の新規 entry は 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible article は <strong>Aug 26, 2026</strong> だが、今回の窓開始 <strong>2026-08-27 05:02:54 UTC</strong> 以降の新規 entry は 0件",
         "<strong>Anthropic News</strong>: <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> を採用",
-        "<strong>Claude Blog</strong>: <strong>Aug 26, 2026</strong> の <strong>Claude in Chrome is generally available</strong> と <strong>Claude gets its own browser in Cowork</strong> を採用。<strong>How Warp builds self-improving agents on Claude</strong> は date しか取れず公開時刻が窓内と断定できないため今回は外した"
+        "<strong>Claude Blog</strong>: 今回の窓に入る新規 article は 0件"
       ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog 一覧"
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News 一覧"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.248</strong> が 1件入っていた。公開された release note の全 bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して和訳している。",
+      "headline": "2件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓には <strong>v2.1.248</strong> と <strong>v2.1.250</strong> の 2件が入っていた。両 release の body を確認し、visible bullet を省略せず、<strong>新機能</strong>・<strong>変更</strong>・<strong>修正</strong> に分類して和訳している。",
       "releases": [
+        {
+          "version": "v2.1.250",
+          "publishedAt": "2026-08-28 00:49:16 UTC",
+          "summary": "<strong>v2.1.250</strong> は短い hotfix release で、release body 上の visible bullet は <strong>Bug fixes and reliability improvements</strong> 1件だった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+          "urlLabel": "v2.1.250 release note"
+        },
         {
           "version": "v2.1.248",
           "publishedAt": "2026-08-27 22:12:20 UTC",
@@ -135,7 +136,7 @@
                 "<code>/loop</code> を変更し、self-paced dynamic mode と prompt なし autonomous default を Bedrock / Vertex / Foundry を含め常時使えるようにした。",
                 "Anthropic telemetry export failure の log 表示を <code>[3P telemetry] OTEL diag error</code> ではなく debug level の <code>[Anthropic telemetry]</code> に変更し、ユーザー側の OTel collector 障害と誤解されにくくした。",
                 "Linux user namespace 上の cross-session messaging では、unmapped owner に対する root-equivalent trust を canonical system directory に限定するよう変更した。",
-                "subagent から別 session へ <code>SendMessage</code> した結果表示を変更し、返信は subagent ではなく parent session の conversation に届くと明示するようにした."
+                "subagent から別 session へ <code>SendMessage</code> した結果表示を変更し、返信は subagent ではなく parent session の conversation に届くと明示するようにした。"
               ]
             },
             {
@@ -186,9 +187,10 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "<strong>Anthropic Research</strong> の <strong>Enabling independent research on how people use Claude</strong> は visible date が <strong>Aug 26, 2026</strong>、対応する <strong>@AnthropicAI</strong> post は <strong>2026-08-26 17:12:53 UTC</strong> で、今回の窓開始 <strong>2026-08-26 23:01:38 UTC</strong> より前のため外した。",
-    "<strong>Claude Blog</strong> の <strong>How Warp builds self-improving agents on Claude</strong> は visible date が <strong>Aug 26, 2026</strong> までしか取れず、今回の窓内に入る exact publish time を確認できなかったため外した。",
-    "engineer X watch は relevance 優先で行い、雑談、短い相づち、または親 post の文脈が弱い reply は final report から外した。",
+    "<strong>Claude Blog</strong> の前回採用 2件は今回の窓開始 <strong>2026-08-27 05:02:54 UTC</strong> より前の official X timestamp だったため外した。",
+    "<strong>Anthropic Research</strong> の <strong>Enabling independent research on how people use Claude</strong> は visible date が <strong>Aug 26, 2026</strong> で、今回の窓には入らないため外した。",
+    "engineer X watch は relevance 優先で行い、雑談、古い post、または親 post の文脈が弱い reply は final report から外した。",
+    "<strong>@jarredsumner</strong> の Claude Code 軽量化 signal は前回窓では採用したが、今回は exact timestamp が窓開始より前のため外した。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
   ],
   "sources": [
@@ -205,24 +207,16 @@
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Previewing the Model Hardware Standard",
-      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
-    },
-    {
       "title": "Expanding our support for scientists",
       "url": "https://www.anthropic.com/news/expanding-support-for-scientists"
     },
     {
+      "title": "Previewing the Model Hardware Standard",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    },
+    {
       "title": "Claude Blog listing",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude in Chrome is generally available",
-      "url": "https://claude.com/blog/claude-in-chrome-generally-available"
-    },
-    {
-      "title": "Claude gets its own browser in Cowork",
-      "url": "https://claude.com/blog/cowork-built-in-browser"
     },
     {
       "title": "ClaudeAI post on scientist support",
@@ -237,24 +231,16 @@
       "url": "https://x.com/ClaudeDevs/status/2092984433649283284"
     },
     {
-      "title": "ClaudeAI post on Claude in Chrome GA",
-      "url": "https://x.com/claudeai/status/2092755574563741871"
-    },
-    {
-      "title": "ClaudeAI post on Cowork built-in browser",
-      "url": "https://x.com/claudeai/status/2092755571455758427"
-    },
-    {
-      "title": "Jarred Sumner on Claude Code size reduction",
-      "url": "https://x.com/jarredsumner/status/2092809439317500264"
-    },
-    {
-      "title": "Jarred Sumner on Claude Code bytecode startup",
-      "url": "https://x.com/jarredsumner/status/2092809441892774296"
+      "title": "Noah Zweben on Claude Tag on-call",
+      "url": "https://x.com/noahzweben/status/2093133238311239808"
     },
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code release v2.1.250",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250"
     },
     {
       "title": "Claude Code release v2.1.248",
