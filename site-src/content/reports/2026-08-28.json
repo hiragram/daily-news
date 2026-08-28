@@ -1,9 +1,9 @@
 {
   "date": "2026-08-28",
-  "windowLabel": "2026-08-27 05:02:54 UTC - 2026-08-28 05:02:54 UTC",
+  "windowLabel": "2026-08-27 11:02:10 UTC - 2026-08-28 11:02:10 UTC",
   "archiveTitle": "Scientists, MHS, and Claude Code releases",
   "archiveSummary": "official 3件、engineer signal 1件、Claude Code release 2件。",
-  "latestSummary": "2026-08-27 05:02:54 UTC から 2026-08-28 05:02:54 UTC の24時間では、official 側で <strong>Anthropic News</strong> 2件と <strong>@ClaudeDevs</strong> 1件を確認し、engineer signal は <strong>@noahzweben</strong> 1件だった。Anthropic は scientist 向け <strong>10,000</strong> 席の Claude Team plan と <strong>Model Hardware Standard</strong> 研究プレビューを継続告知した一方、<strong>Claude Blog</strong> の新規記事は 0件だった。<strong>Claude Code</strong> はこの窓内で <strong>v2.1.248</strong> と <strong>v2.1.250</strong> を公開し、前者では大規模な機能追加と修正、後者では <strong>Bug fixes and reliability improvements</strong> の hotfix を出した。",
+  "latestSummary": "2026-08-27 11:02:10 UTC から 2026-08-28 11:02:10 UTC の24時間では、official 側で <strong>Anthropic News</strong> 2件と <strong>@ClaudeDevs</strong> 1件を確認し、engineer signal は <strong>@noahzweben</strong> 1件だった。Anthropic は scientist 向け <strong>10,000</strong> 席の Claude Team plan と <strong>Model Hardware Standard</strong> 研究プレビューを告知し、<strong>Claude Blog</strong> の visible publication date には新規追加がなかった。<strong>Claude Code</strong> はこの窓内で <strong>v2.1.248</strong> と <strong>v2.1.250</strong> を公開し、前者では restricted mode、<code>/usage-credits</code>、cross-session messaging 拡張などを追加し、後者では <strong>Bug fixes and reliability improvements</strong> の hotfix を出した。",
   "summaryBullets": [
     "<strong>official news 3件</strong>: <strong>Anthropic News</strong> 2件と <strong>@ClaudeDevs</strong> 1件を採用した。",
     "<strong>scientist support expansion</strong>: Anthropic は <strong>10,000</strong> 席の scientist 向け Claude Team plan を公開し、standard seat を無料、premium seat を月額 <strong>$15</strong> で 1 年提供すると案内した。",
@@ -11,7 +11,7 @@
     "<strong>@ClaudeDevs cookbook</strong>: <strong>Claude Managed Agents</strong> を <strong>Vercel Chat SDK</strong> に接続する cookbook 告知を確認した。",
     "<strong>engineer signal 1件</strong>: <strong>@noahzweben</strong> が、Anthropic の on-call で <strong>Claude Tag</strong> が最も人気のユースケースだと述べ、CI/CD incident 対応の運用記事を再告知した。",
     "<strong>Claude Code releases 2件</strong>: <strong>v2.1.248</strong> の <strong>新機能 7件</strong>・<strong>変更 10件</strong>・<strong>修正 32件</strong> と、<strong>v2.1.250</strong> の <strong>修正 1件</strong> を release note の全 bullet ベースで和訳した。",
-    "<strong>Claude Blog 0件</strong>: 8月27日 05:02:54 UTC 以降に publish された新規 blog article は確認できなかった。"
+    "<strong>Claude Blog 0件</strong>: 2026-08-27 11:02:10 UTC 以降に publish された新規 blog article は確認できなかった。"
   ],
   "officialNews": [
     {
@@ -47,19 +47,19 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering / Research の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 26, 2026</strong> だった。今回の窓開始は <strong>2026-08-27 05:02:54 UTC</strong> のため、Research の <strong>Enabling independent research on how people use Claude</strong> は前回までの窓には入っていたが、今回は新規 official article としては採用していない。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> の最新 visible date は <strong>Aug 26, 2026</strong> だった。今回の窓開始は <strong>2026-08-27 11:02:10 UTC</strong> のため、Research の <strong>Enabling independent research on how people use Claude</strong> は前回までの窓には入っていたが、今回は新規 official article としては採用していない。"
     },
     {
       "label": "Claude Blog の新規記事は 0件",
-      "body": "<strong>Claude Blog</strong> 一覧の上位を再確認したが、今回の窓内に入る新規 article は確認できなかった。前回採用した <strong>Claude in Chrome is generally available</strong> と <strong>Claude gets its own browser in Cowork</strong> は <strong>@claudeai</strong> の exact timestamp が <strong>2026-08-26 23:26 JST</strong> 相当で、今回の窓開始より前に外れた。"
+      "body": "<strong>Claude Blog</strong> 一覧の上位を再確認したが、今回の窓内に入る新規 article は確認できなかった。最新 visible publication date は引き続き <strong>Aug 26, 2026</strong> で、前回採用した browser 関連 2記事はいずれも今回の窓開始より前に外れている。"
     },
     {
       "label": "official X は採用した告知以外の追加 main post が少ない",
       "body": "<strong>@claudeai</strong> は scientist plan 告知、<strong>@AnthropicAI</strong> は <strong>MHS</strong> thread、<strong>@ClaudeDevs</strong> は cookbook thread を確認した。別の high-signal main post はこの窓では多くなかった。"
     },
     {
-      "label": "engineer X の大半は関連 signal なし",
-      "body": "監視対象 account を profile 単位で再走査したが、採用に値する product / operations signal として残ったのは <strong>@noahzweben</strong> 1件だけだった。その他は雑談、古い post、または今回の監視テーマと距離がある内容が中心だった。"
+      "label": "engineer X は broad search が制約され、直接確認できた範囲では signal 1件",
+      "body": "このスレッドでは本来想定の <strong>x_mcp</strong> recent search が使えず、X の broad search URL も login wall に当たった。そのため <strong>@noahzweben</strong>、<strong>@jarredsumner</strong>、<strong>@bcherny</strong>、<strong>@alexalbert__</strong>、<strong>@amorriscode</strong>、<strong>@RobertJBye</strong> など直接開けた profile を優先確認し、採用に値する product / operations signal としては <strong>@noahzweben</strong> 1件のみを残した。"
     }
   ],
   "signals": [
@@ -80,7 +80,7 @@
       "body": "watch 対象の official site 4面を確認した結果、この24時間窓では <strong>Anthropic News</strong> 2件を採用し、<strong>Claude Blog</strong>、<strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong> の新規 article は 0件だった。scientist plan と <strong>MHS</strong> はどちらも <strong>Aug 27, 2026</strong> の newsroom article で、対応する official X post の exact timestamp も窓内にある。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
-        "<strong>Anthropic Research</strong>: 最新 visible article は <strong>Aug 26, 2026</strong> だが、今回の窓開始 <strong>2026-08-27 05:02:54 UTC</strong> 以降の新規 entry は 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible article は <strong>Aug 26, 2026</strong> だが、今回の窓開始 <strong>2026-08-27 11:02:10 UTC</strong> 以降の新規 entry は 0件",
         "<strong>Anthropic News</strong>: <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> を採用",
         "<strong>Claude Blog</strong>: 今回の窓に入る新規 article は 0件"
       ],
@@ -187,9 +187,9 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "<strong>Claude Blog</strong> の前回採用 2件は今回の窓開始 <strong>2026-08-27 05:02:54 UTC</strong> より前の official X timestamp だったため外した。",
+    "<strong>Claude Blog</strong> の最新 visible publication date は引き続き <strong>Aug 26, 2026</strong> で、今回の窓開始 <strong>2026-08-27 11:02:10 UTC</strong> 以降の新規 article は確認できなかった。",
     "<strong>Anthropic Research</strong> の <strong>Enabling independent research on how people use Claude</strong> は visible date が <strong>Aug 26, 2026</strong> で、今回の窓には入らないため外した。",
-    "engineer X watch は relevance 優先で行い、雑談、古い post、または親 post の文脈が弱い reply は final report から外した。",
+    "engineer X watch は本来の <strong>x_mcp</strong> recent search が使えず、X の broad search URL も login wall に当たったため、直接開けた profile の確認を優先した。雑談、古い post、または監視テーマと距離がある内容は final report から外した。",
     "<strong>@jarredsumner</strong> の Claude Code 軽量化 signal は前回窓では採用したが、今回は exact timestamp が窓開始より前のため外した。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。"
   ],
