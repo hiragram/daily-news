@@ -1,15 +1,15 @@
 {
   "date": "2026-08-29",
-  "windowLabel": "2026-08-28 05:02:13 UTC - 2026-08-29 05:02:13 UTC",
+  "windowLabel": "2026-08-28 11:02:17 UTC - 2026-08-29 11:02:17 UTC",
   "archiveTitle": "Claude Tag, teachers, alignment, and Claude Code 2.1.251",
   "archiveSummary": "official 3件、engineer signal 0件、Claude Code release 1件。",
-  "latestSummary": "2026-08-28 05:02:13 UTC から 2026-08-29 05:02:13 UTC の24時間では、official site 側で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を確認した。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> に今回窓の新規 article はなく、<strong>Claude Code</strong> の release は <strong>v2.1.251</strong> 1件のみが窓内だった。<strong>v2.1.251</strong> では model switch hook、Remote Control 向け foreground subagent live stream、<code>/usage</code> / <code>/cost</code> の可視化追加に加え、security・sandbox・MCP・background session 周辺の多数の修正が入っている。",
+  "latestSummary": "2026-08-28 11:02:17 UTC から 2026-08-29 11:02:17 UTC の24時間では、official site 側で <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を確認した。<strong>Anthropic Engineering</strong> と <strong>Anthropic News</strong> に今回窓の新規 article はなく、<strong>Claude Code</strong> の release は <strong>v2.1.251</strong> 1件のみが窓内だった。<strong>v2.1.251</strong> では model switch hook、Remote Control 向け foreground subagent live stream、<code>/usage</code> / <code>/cost</code> の可視化追加に加え、security・sandbox・MCP・background session 周辺の多数の修正が入っている。",
   "summaryBullets": [
     "<strong>official news 3件</strong>: <strong>Anthropic Research</strong> 1件と <strong>Claude Blog</strong> 2件を採用した。",
     "<strong>alignment research</strong>: <strong>Automated researchers can reliably mitigate alignment failures</strong> は、Claude を用いた automated alignment researcher が deception、sycophancy、jailbreak など <strong>10種類</strong> の failure で改善策を見つけ、held-out benchmark や audit でも効果が続いたと報告した。",
     "<strong>Claude for Teachers 拡張</strong>: 学校・学区を単一の Enterprise 組織へまとめ、<strong>SSO</strong>、<strong>RBAC</strong>、<strong>domain claiming</strong>、K-12 terms を使える無料 offering として案内した。",
     "<strong>Claude Tag 実例公開</strong>: Anthropic 社内では、Slack thread から collateral 作成、weekly issue report 生成、legal review などを <strong>@Claude</strong> tagging で処理している運用例をまとめた。",
-    "<strong>Claude Code release 1件</strong>: <strong>v2.1.251</strong> の release note 全 bullet を <strong>新機能 5件</strong>・<strong>変更 25件</strong>・<strong>修正 40件</strong> に分けて全件和訳した。",
+    "<strong>Claude Code release 1件</strong>: <strong>v2.1.251</strong> の release note 全 bullet を <strong>新機能 5件</strong>・<strong>変更 25件</strong>・<strong>修正 41件</strong> に分けて全件和訳した。",
     "<strong>X watch 制約</strong>: 今回も想定の <strong>x_mcp</strong> recent search tool が利用できず、公開 Web の X index だけでは in-window post の時刻・本文・canonical URL を高信頼で揃えられなかったため、official / engineer X は採用 0件として制約を明示した。"
   ],
   "officialNews": [
@@ -27,8 +27,8 @@
       "label": "Claude Blog",
       "datetime": "2026-08-28T00:00:00Z",
       "displayTime": "2026-08-28 公開日ベース",
-      "title": "Claude for Teachers を米国の学校・学区向け無料 Enterprise offering に拡大",
-      "summary": "<strong>Claude for Teachers, now available for schools and districts</strong> は visible publication date が <strong>August 28, 2026</strong> の新規 blog post。Anthropic は、米国の K-12 学校・学区管理者が認証後に教職員を単一の Enterprise 組織へまとめ、<strong>single sign-on</strong>、<strong>role-based access control</strong>、<strong>domain claiming</strong>、K-12 向け terms と privacy agreement を使えると案内した。合わせて teaching skills、state standards、Academy の educator 向け更新も告知している。",
+      "title": "Claude for Teachers を米国K-12学校・学区向け無料 Enterprise offering として提供開始",
+      "summary": "<strong>Claude for Teachers, now available for U.S. K-12 schools and districts</strong> は visible publication date が <strong>August 28, 2026</strong> の新規 blog post。Anthropic は、米国の K-12 学校・学区管理者が認証後に教職員を単一の Enterprise 組織へまとめ、<strong>single sign-on</strong>、<strong>role-based access control</strong>、<strong>domain claiming</strong>、K-12 向け terms と privacy agreement を使えると案内した。合わせて teaching skills、state standards、Academy の educator 向け更新も告知している。",
       "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
       "urlLabel": "Claude for Teachers の発表を読む",
       "primary": true
@@ -47,11 +47,11 @@
   "officialZeroStates": [
     {
       "label": "Anthropic Engineering の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> 一覧の最新 visible date は引き続き <strong>Apr 23, 2026</strong> で、今回の窓 <strong>2026-08-28 05:02:13 UTC</strong> 以降に入る新規 article は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> 一覧の最新 visible date は引き続き <strong>Apr 23, 2026</strong> で、今回の窓 <strong>2026-08-28 11:02:17 UTC</strong> 以降に入る新規 article は確認できなかった。"
     },
     {
       "label": "Anthropic News の新規記事はなし",
-      "body": "<strong>Anthropic News</strong> 一覧の最新 visible entries は引き続き <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> だった。今回窓開始は <strong>2026-08-28 05:02:13 UTC</strong> のため、visible publication date ベースでも新規 official article は 0件だった。"
+      "body": "<strong>Anthropic News</strong> 一覧の最新 visible entries は引き続き <strong>Aug 27, 2026</strong> の <strong>Previewing the Model Hardware Standard</strong> と <strong>Expanding our support for scientists</strong> だった。今回窓開始は <strong>2026-08-28 11:02:17 UTC</strong> のため、visible publication date ベースでも新規 official article は 0件だった。"
     },
     {
       "label": "official X watch は高信頼な網羅取得に失敗",
@@ -72,7 +72,7 @@
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で、新規 dated entry 0件",
         "<strong>Anthropic Research</strong>: <strong>Aug 28, 2026</strong> の <strong>Automated researchers can reliably mitigate alignment failures</strong> を採用",
         "<strong>Anthropic News</strong>: 一覧上位の visible date は <strong>Aug 27, 2026</strong> で、今回窓に入る新規 entry は 0件",
-        "<strong>Claude Blog</strong>: <strong>Aug 28, 2026</strong> の <strong>Claude for Teachers, now available for schools and districts</strong> と <strong>How Anthropic employees use Claude Tag</strong> を採用"
+        "<strong>Claude Blog</strong>: <strong>Aug 28, 2026</strong> の <strong>Claude for Teachers, now available for U.S. K-12 schools and districts</strong> と <strong>How Anthropic employees use Claude Tag</strong> を採用"
       ],
       "url": "https://claude.com/blog",
       "urlLabel": "Claude Blog 一覧"
@@ -184,10 +184,10 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "<strong>Anthropic News</strong> の上位2件は visible date が <strong>Aug 27, 2026</strong> で、今回窓開始 <strong>2026-08-28 05:02:13 UTC</strong> より前のため外した。",
+    "<strong>Anthropic News</strong> の上位2件は visible date が <strong>Aug 27, 2026</strong> で、今回窓開始 <strong>2026-08-28 11:02:17 UTC</strong> より前のため外した。",
     "official X と engineer X は、本来想定の <strong>x_mcp</strong> recent search が使えず、公開検索経由の <strong>x.com</strong> も stale index や profile listing が中心だったため、high-confidence に裏取りできた in-window post だけを採用する方針を取った。その結果、今回は X 由来 item を main report へ入れていない。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。",
-    "<strong>v2.1.250</strong> は publish 時刻が <strong>2026-08-28 00:49:16 UTC</strong> で、今回窓開始 <strong>2026-08-28 05:02:13 UTC</strong> より前のため外した。"
+    "<strong>v2.1.250</strong> は publish 時刻が <strong>2026-08-28 00:49:16 UTC</strong> で、今回窓開始 <strong>2026-08-28 11:02:17 UTC</strong> より前のため外した。"
   ],
   "sources": [
     {
@@ -211,7 +211,7 @@
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Claude for Teachers, now available for schools and districts",
+      "title": "Claude for Teachers, now available for U.S. K-12 schools and districts",
       "url": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts"
     },
     {
