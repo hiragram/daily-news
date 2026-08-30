@@ -1,26 +1,17 @@
 {
   "date": "2026-08-30",
-  "windowLabel": "2026-08-28 23:03:00 UTC - 2026-08-29 23:03:00 UTC",
-  "archiveTitle": "ClaudeDevs posts only, no new blog or release",
-  "archiveSummary": "official 2件、engineer signal 0件、blog 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-28 23:03:00 UTC から 2026-08-29 23:03:00 UTC の24時間では、official X では <strong>@ClaudeDevs</strong> の 2投稿を確認した一方、<strong>@AnthropicAI</strong> と <strong>@ClaudeAI</strong> に窓内の新規 main post は確認できなかった。official site / blog 4面にも窓内の新規 article はなく、Claude Code の最新 release <strong>v2.1.251</strong> は <strong>2026-08-28 18:19:32 UTC</strong> で今回窓より前だったため、新規 release は 0件だった。",
+  "windowLabel": "2026-08-29 05:01:19 UTC - 2026-08-30 05:01:19 UTC",
+  "archiveTitle": "ClaudeDevs limit update, no new blog or release",
+  "archiveSummary": "official 1件、engineer signal 0件、blog 0件、Claude Code release 0件。",
+  "latestSummary": "2026-08-29 05:01:19 UTC から 2026-08-30 05:01:19 UTC の24時間では、high-confidence に採用できた official X は <strong>@ClaudeDevs</strong> の 1投稿のみだった。内容は <strong>2026-09-14</strong> からの standard weekly limits 恒久 <strong>25%</strong> 引き上げ予告で、<strong>Pro / Max / Team / seat-based Enterprise</strong> が対象。official site の Engineering / Research / News / Claude Blog 4面には窓内の新規記事がなく、Claude Code の最新 release <strong>v2.1.251</strong> も <strong>2026-08-28 18:19:32 UTC</strong> 公開で今回窓外だった。",
   "summaryBullets": [
-    "<strong>official X は 2件</strong>: <strong>@ClaudeDevs</strong> が、weekly limit 恒久引き上げ予定と今週の Claude Code 改善点を案内した。",
-    "<strong>Claude Code 利用上限の見直し</strong>: 2026-09-14 から <strong>Pro / Max / Team / seat-based Enterprise</strong> の standard weekly limits を恒久的に <strong>25%</strong> 引き上げると告知した。",
-    "<strong>Claude Code 改善まとめ</strong>: CLI 起動高速化、<code>/cost</code> と <code>/usage</code> の可視化強化、auto mode rule 編集性の改善、Remote Control 修正をまとめた投稿があった。",
-    "<strong>blog / release は 0件</strong>: official blog 4面に窓内 article はなく、Claude Code の最新 release は窓外だった。"
+    "<strong>official X は 1件</strong>: <strong>@ClaudeDevs</strong> が、Claude Code の standard weekly limits を <strong>2026-09-14</strong> から恒久的に <strong>25%</strong> 引き上げると案内した。",
+    "<strong>対象プランを明示</strong>: 引き上げ対象は <strong>Pro / Max / Team / seat-based Enterprise</strong> で、それまでは現行の <strong>50% increase</strong> を維持すると説明している。",
+    "<strong>blog は 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の各一覧で、今回窓に入る新規 published item は確認できなかった。",
+    "<strong>Claude Code release は 0件</strong>: GitHub CLI で最新 release note 全文を確認したが、最新の <strong>v2.1.251</strong> は今回窓外だった。",
+    "<strong>X watch には制約あり</strong>: このスレッドでは想定の <strong>x_mcp</strong> recent search が使えず、公開 Web の X index も stale なため、追加の official / engineer post は high-confidence に確定できたものだけを採用した。"
   ],
   "officialNews": [
-    {
-      "label": "ClaudeDevs",
-      "datetime": "2026-08-28T23:27:00Z",
-      "displayTime": "2026-08-29 08:27 JST",
-      "title": "今週の Claude Code 改善点をまとめて案内",
-      "summary": "<strong>@ClaudeDevs</strong> は、今週の Claude Code 更新として <strong>CLI startup の高速化</strong>、<code>/cost</code> や <code>/usage</code> の token 可視化改善、<strong>auto mode</strong> rule の確認・編集しやすさ向上、<strong>Remote Control</strong> 修正の追加をまとめて告知した。投稿内 thread では prompt cache 行、subagent model / effort 表示、foreground subagent の live tool-call view なども補足している。",
-      "url": "https://x.com/ClaudeDevs/status/2093480630801858750",
-      "urlLabel": "@ClaudeDevs の改善まとめ投稿を見る",
-      "primary": true
-    },
     {
       "label": "ClaudeDevs",
       "datetime": "2026-08-29T16:47:00Z",
@@ -34,20 +25,20 @@
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI の窓内 new main post はなし",
-      "body": "<strong>@AnthropicAI</strong> の最新 main post は status <strong>2093386528668172373</strong> で、表示時刻は <strong>2026-08-29 02:13 JST</strong>、UTC では <strong>2026-08-28 17:13:00Z</strong> だった。今回窓開始の <strong>2026-08-28 23:03:00 UTC</strong> より前のため窓外扱いにしている。"
+      "label": "@AnthropicAI の新規 post は高信頼に確認できず",
+      "body": "このスレッドでは <strong>x_mcp</strong> recent search が利用できず、公開検索経由の <strong>x.com</strong> も stale crawl が混じるため、<strong>@AnthropicAI</strong> の窓内 main post 有無を高信頼には確定できなかった。確実に裏取りできた窓内 official item だけを <strong>officialNews</strong> へ採用している。"
     },
     {
-      "label": "@ClaudeAI の窓内 new main post はなし",
-      "body": "<strong>@ClaudeAI</strong> profile で確認できた最新 main post は <strong>2026-08-27</strong> 付近で、今回窓 <strong>2026-08-28 23:03:00 UTC</strong> 以後に入る新規 post は確認できなかった。"
+      "label": "@ClaudeAI の新規 post は高信頼に確認できず",
+      "body": "<strong>@ClaudeAI</strong> についても同様に、今回の24時間窓 <strong>2026-08-29 05:01:19 UTC</strong> 以後の新規 main post を、時刻・本文・canonical URL つきで高信頼に確認できなかった。"
     },
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 27, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 28, 2026</strong> だった。今回窓開始は <strong>2026-08-28 23:03:00 UTC</strong> なので、visible date ベースで見ても窓内の新規 article は確認できなかった。"
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Aug 27, 2026</strong>、<strong>Claude Blog</strong> は <strong>Aug 28, 2026</strong> だった。今回窓開始の <strong>2026-08-29 05:01:19 UTC</strong> より新しい official article は確認できなかった。"
     },
     {
       "label": "Anthropic engineer X signal は採用 0件",
-      "body": "<strong>@alexalbert__</strong>、<strong>@AmandaAskell</strong>、<strong>@bcherny</strong>、<strong>@felixrieseberg</strong>、<strong>@nateparrott</strong>、<strong>@adocomplete</strong> などの recent profile posts を確認したが、今回窓では official post の単純な quote / repost を除いて新規の高シグナル Claude / Anthropic 情報は確認できなかった。"
+      "body": "<strong>Anthropic Engineer X Watch</strong> も <strong>x_mcp</strong> 不可と公開検索の鮮度不足に当たり、今回窓で high-signal と裏取りできた Claude / Anthropic 関連の engineer post は採用 0件とした。"
     }
   ],
   "signals": [],
@@ -58,7 +49,7 @@
       "body": "watch 対象の official site 4面を確認した結果、この24時間窓に確実に入る新規 article は確認できなかった。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新 visible date は <strong>Apr 23, 2026</strong> で新規 entry 0件",
-        "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 28, 2026</strong> で、今回窓開始 <strong>2026-08-28 23:03:00 UTC</strong> 以後の新規 article は確認できず 0件",
+        "<strong>Anthropic Research</strong>: 最新 visible date は <strong>Aug 28, 2026</strong> で、今回窓開始 <strong>2026-08-29 05:01:19 UTC</strong> 以後の新規 article は確認できず 0件",
         "<strong>Anthropic News</strong>: 一覧上位の visible date は <strong>Aug 27, 2026</strong> で窓内 entry 0件",
         "<strong>Claude Blog</strong>: 最新 visible date は <strong>Aug 28, 2026</strong> で、今回窓開始以後の新規 post は確認できず 0件"
       ],
@@ -68,10 +59,10 @@
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLI の <code>gh release list</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に入る Claude Code release は 0件だった。最新 release は <strong>v2.1.251</strong> の <strong>2026-08-28 18:19:32 UTC</strong> で、今回窓開始の <strong>2026-08-28 23:03:00 UTC</strong> より前だった。",
+      "body": "GitHub CLI の <code>gh release list</code> と <code>gh release view</code> を source of truth として確認したところ、この24時間窓に入る Claude Code release は 0件だった。最新 release は <strong>v2.1.251</strong> の <strong>2026-08-28 18:19:32 UTC</strong> で、今回窓開始の <strong>2026-08-29 05:01:19 UTC</strong> より前だった。",
       "details": [
         "最新 release は <strong>v2.1.251</strong>（<strong>2026-08-28 18:19:32 UTC</strong>）で今回窓外",
-        "<code>gh release view</code> で release body 全文を確認し、visible bullet の完全取得までは実施したが、窓内 release ではないため本日の report には release entry として載せていない。",
+        "<code>gh release view</code> で release body 全文を確認し、visible bullet の完全取得と <strong>新機能 / 変更 / 修正</strong> への全件分類を実施したが、窓内 release ではないため本日の report には release entry として載せていない。",
         "次点の <strong>v2.1.250</strong> も <strong>2026-08-28 00:49:16 UTC</strong> で窓外"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -80,9 +71,10 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
+    "official X / engineer X は、本来想定の <strong>x_mcp</strong> recent search がこのスレッドでは使えず、公開検索経由の <strong>x.com</strong> も stale index が混じるため、時刻と URL を裏取りできた post だけを採用した。",
     "engineer X watch は relevance-first とし、official announcement の単純な quote / repost や個人的雑談は <strong>signals</strong> に入れていない。",
     "Claude Code release は <strong>GitHub CLI</strong> の release metadata と body を source of truth とし、commit、issue、外部記事は release 判定に使っていない。",
-    "最新 release <strong>v2.1.251</strong> は full note を確認済みだが、publish 時刻が今回窓外のため release entry から外した。"
+    "最新 release <strong>v2.1.251</strong> は full note を完全取得し、全 bullet を和訳分類済みだが、publish 時刻が今回窓外のため release entry から外した。"
   ],
   "sources": [
     {
@@ -104,18 +96,6 @@
     {
       "title": "ClaudeDevs weekly limit update",
       "url": "https://x.com/ClaudeDevs/status/2093742321473065266"
-    },
-    {
-      "title": "ClaudeDevs weekly improvements thread",
-      "url": "https://x.com/ClaudeDevs/status/2093480630801858750"
-    },
-    {
-      "title": "AnthropicAI latest checked post",
-      "url": "https://x.com/AnthropicAI/status/2093386528668172373"
-    },
-    {
-      "title": "ClaudeAI profile checked",
-      "url": "https://x.com/claudeai"
     },
     {
       "title": "Claude Code releases",
