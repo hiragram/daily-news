@@ -1,14 +1,14 @@
 {
   "date": "2026-08-31",
-  "windowLabel": "2026-08-29 17:01:38 UTC - 2026-08-30 17:01:38 UTC",
+  "windowLabel": "2026-08-29 23:02:29 UTC - 2026-08-30 23:02:29 UTC",
   "archiveTitle": "Quiet Claude channels and no new release",
   "archiveSummary": "official 0件、engineer signal 0件、blog 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-29 17:01:38 UTC から 2026-08-30 17:01:38 UTC の24時間では、Anthropic / Claude の official site 4面に新規記事はなく、Claude Code の新規 release も確認されなかった。official X と engineer X は、本来使うべき <strong>x_mcp</strong> がこのスレッドで利用できず、公開 Web でも post 本文・時刻・canonical URL を高信頼に揃えられなかったため、今回の main report では採用 0件として扱っている。",
+  "latestSummary": "2026-08-29 23:02:29 UTC から 2026-08-30 23:02:29 UTC の24時間では、Anthropic / Claude の official site 4面に新規記事はなく、Claude Code の新規 release も確認されなかった。official X と engineer X は、本来使うべき <strong>x_mcp</strong> がこのスレッドで利用できず、公開 <strong>x.com</strong> 参照も高信頼に成立しなかったため、今回の main report では採用 0件として扱っている。",
   "summaryBullets": [
     "<strong>official site は 0件</strong>: <strong>Anthropic Engineering</strong>、<strong>Research</strong>、<strong>News</strong>、<strong>Claude Blog</strong> の各一覧で、この24時間窓に入る新規記事は確認できなかった。",
     "<strong>Claude Code release は 0件</strong>: GitHub CLI を source of truth として確認したところ、最新の <strong>v2.1.251</strong> は <strong>2026-08-28 18:19:32 UTC</strong> 公開で、今回窓開始より前だった。",
     "<strong>latest release note は完全取得</strong>: 窓内 release は 0件だが、直近の <strong>v2.1.251</strong> については GitHub CLI から release body を全文取得し、<strong>新機能 / 変更 / 修正</strong> に分けて全 bullet を和訳した。",
-    "<strong>X watch 制約</strong>: <strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong> は、想定の <strong>x_mcp</strong> が未露出で、公開検索も stale index や profile listing が中心だったため、high-confidence な窓内 post を確定できなかった。"
+    "<strong>X watch 制約</strong>: <strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong> は、想定の <strong>x_mcp</strong> が未露出で、公開 <strong>x.com</strong> 参照も安定しなかったため、high-confidence な窓内 post を確定できなかった。"
   ],
   "officialNews": [],
   "officialZeroStates": [
@@ -18,7 +18,7 @@
     },
     {
       "label": "official X watch は高信頼な網羅取得に失敗",
-      "body": "本来想定の <strong>x_mcp</strong> recent search がこのスレッドでは使えず、<strong>x.com</strong> profile URL の直接取得も安定しなかった。公開検索結果だけでは、窓内 post の本文・絶対時刻・canonical URL を揃えて high-confidence に採用する条件を満たせなかった。"
+      "body": "本来想定の <strong>x_mcp</strong> recent search がこのスレッドでは使えず、公開 <strong>x.com</strong> profile / with_replies の直接取得も安定しなかった。公開検索結果だけでは、窓内 post の本文・絶対時刻・canonical URL を揃えて high-confidence に採用する条件を満たせなかった。"
     },
     {
       "label": "engineer X signal は採用 0件",
@@ -143,7 +143,7 @@
   ],
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
-    "official X と engineer X は、本来想定の <strong>x_mcp</strong> recent search が使えず、公開検索経由の <strong>x.com</strong> も stale index や profile listing が中心だったため、high-confidence に裏取りできた in-window post だけを採用する方針を取った。その結果、今回は X 由来 item を main report へ入れていない。",
+    "official X と engineer X は、本来想定の <strong>x_mcp</strong> recent search が使えず、公開検索経由の <strong>x.com</strong> も stale index や profile listing が中心で直接取得も不安定だったため、high-confidence に裏取りできた in-window post だけを採用する方針を取った。その結果、今回は X 由来 item を main report へ入れていない。",
     "Claude Code release 判定は <strong>GitHub CLI</strong> の release metadata と release body のみを source of truth とし、commit、issue、外部記事は使っていない。",
     "最新 release <strong>v2.1.251</strong> の全文和訳分類は panel に保持したが、publish 時刻が <strong>2026-08-28 18:19:32 UTC</strong> で今回窓外のため、本日の release 件数には算入していない。"
   ],
