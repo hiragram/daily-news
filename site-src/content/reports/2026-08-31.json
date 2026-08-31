@@ -1,9 +1,9 @@
 {
   "date": "2026-08-31",
-  "windowLabel": "2026-08-30 05:06:36 UTC - 2026-08-31 05:06:36 UTC",
+  "windowLabel": "2026-08-30 11:01:57 UTC - 2026-08-31 11:01:57 UTC",
   "archiveTitle": "Ado design signal and quiet Claude channels",
   "archiveSummary": "official 0件、engineer signal 1件、blog 0件、Claude Code release 0件。",
-  "latestSummary": "2026-08-30 05:06:36 UTC から 2026-08-31 05:06:36 UTC の24時間では、official X と Anthropic / Claude の official site 4面に新規告知は確認できなかった。一方で engineer 側では <strong>@adocomplete</strong> が <strong>/design</strong> skill を使うと Claude Design の artboard workflow を CLI と Claude Code Desktop に持ち込み、artifact ベースの editable canvas を生成できると紹介した。Claude Code の新規 release は引き続き 0件だった。",
+  "latestSummary": "2026-08-30 11:01:57 UTC から 2026-08-31 11:01:57 UTC の24時間では、official X と Anthropic / Claude の official site 4面に新規告知は確認できなかった。一方で engineer 側では <strong>@adocomplete</strong> が <strong>/design</strong> skill を使うと Claude Design の artboard workflow を CLI と Claude Code Desktop に持ち込み、artifact ベースの editable canvas を生成できると紹介した。Claude Code の新規 release は引き続き 0件だった。",
   "summaryBullets": [
     "<strong>official X は 0件</strong>: <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の public timeline 上位を確認したが、この24時間窓に入る新規 main post は見当たらなかった。",
     "<strong>engineer signal は 1件</strong>: <strong>@adocomplete</strong> が、<strong>/design</strong> skill で Claude Design の artboard workflow を <strong>CLI</strong> と <strong>Claude Code Desktop</strong> に持ち込めると案内した。",
@@ -22,7 +22,7 @@
     },
     {
       "label": "@ClaudeDevs の窓内 main post は 0件",
-      "body": "<strong>@ClaudeDevs</strong> の最新確認投稿は <strong>2026-08-29</strong> 表示の standard weekly limits 引き上げ告知で、今回窓開始の <strong>2026-08-30 05:06:36 UTC</strong> より前だった。"
+      "body": "<strong>@ClaudeDevs</strong> の最新確認投稿は <strong>2026-08-29 16:47:23 UTC</strong> 公開の standard weekly limits 引き上げ告知で、今回窓開始の <strong>2026-08-30 11:01:57 UTC</strong> より前だった。"
     },
     {
       "label": "Anthropic Engineering / Research / News / Claude Blog の新規記事はなし",
@@ -30,7 +30,7 @@
     },
     {
       "label": "Anthropic engineer X signal は採用 1件",
-      "body": "監視対象 25 アカウントの public profile 上位表示を走査し、Claude / Anthropic に関する窓内の高シグナル投稿として採用したのは <strong>@adocomplete</strong> の 1件だけだった。ほかは窓外、雑談、他社話題、または relevance が低い投稿だった。"
+      "body": "監視対象 25 アカウントの public profile 上位表示を走査し、Claude / Anthropic に関する窓内の高シグナル投稿として採用したのは <strong>@adocomplete</strong> の 1件だけだった。ほかは窓外、雑談、他社話題、または relevance が低い投稿だった。なお <strong>@adocomplete</strong> の同窓内の flat-rate networking 投稿は Claude / Anthropic 直接話題ではないため除外した。"
     }
   ],
   "signals": [
@@ -162,7 +162,7 @@
   "exclusions": [
     "official site watch は <strong>Anthropic Engineering</strong>、<strong>Anthropic Research</strong>、<strong>Anthropic News</strong>、<strong>Claude Blog</strong> の4面に限定した。",
     "official X watch は <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の main timeline 上位表示を確認し、窓外投稿や reply / quote の重複は採用しなかった。",
-    "engineer X watch は監視対象 25 アカウントの public profile 上位表示を確認し、repost、単なる雑談、採用投稿、他社プロダクト話題は <strong>signals</strong> から外した。",
+    "engineer X watch は監視対象 25 アカウントの public profile 上位表示を確認し、repost、単なる雑談、採用投稿、他社プロダクト話題は <strong>signals</strong> から外した。<strong>@adocomplete</strong> の flat-rate networking 投稿も Claude 直接話題ではないため除外した。",
     "Claude Code release 判定は <strong>GitHub CLI</strong> の release metadata と release body のみを source of truth とし、commit、issue、外部記事は使っていない。",
     "最新 release <strong>v2.1.251</strong> の全文和訳分類は panel に保持したが、publish 時刻が <strong>2026-08-28 18:19:32 UTC</strong> で今回窓外のため、本日の release 件数には算入していない。"
   ],
