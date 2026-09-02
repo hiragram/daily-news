@@ -1,24 +1,24 @@
 {
   "date": "2026-09-03",
-  "windowLabel": "2026-09-01 17:01:46 UTC - 2026-09-02 17:01:46 UTC",
-  "archiveTitle": "Claude commerce launch and Claude Code v2.1.257-v2.1.258",
-  "archiveSummary": "official 2件、engineer signal 0件、blog 2件、Claude Code release 2件。",
-  "latestSummary": "2026-09-01 17:01:46 UTC から 2026-09-02 17:01:46 UTC の24時間では、<strong>Claude Blog</strong> で commerce agents 関連の official article が 2件公開された。<strong>Introducing Claude for Commerce</strong> は blueprint と導入効果を案内し、<strong>A guide to the anatomy of effective commerce agents</strong> は実装アーキテクチャ、低遅延化、memory / safety / evals の実務を詳説した。Claude Code は同じ窓に <strong>v2.1.257</strong> と <strong>v2.1.258</strong> の 2 release が入り、前者は大型機能追加と広範な修正、後者は Monterey 起動回帰などの hotfix だった。",
+  "windowLabel": "2026-09-01 23:02:57 UTC - 2026-09-02 23:02:57 UTC",
+  "archiveTitle": "Claude commerce posts and Claude Code v2.1.259",
+  "archiveSummary": "official 2件、engineer signal 0件、blog 2件、Claude Code release 1件。",
+  "latestSummary": "2026-09-01 23:02:57 UTC から 2026-09-02 23:02:57 UTC の24時間では、<strong>Claude Blog</strong> で commerce agent 関連の official article が 2件公開され、Claude Code は窓内に <strong>v2.1.259</strong> を 1件リリースした。official X と monitored engineer X は、本来の <strong>X MCP</strong> 取得経路が使えず、窓内 post を一次情報として確定できなかった。",
   "summaryBullets": [
-    "<strong>official blog 2件</strong>: <strong>Sep 2, 2026</strong> 公開日の Claude Blog として、<strong>Building commerce agents with Claude</strong> と <strong>A guide to the anatomy of effective commerce agents</strong> を確認した。",
-    "<strong>Commerce launch</strong>: Anthropic は Claude 向け commerce agent blueprint を公開し、shopping / merchant agent の reference implementation、導入相談、webinar 導線を追加した。",
-    "<strong>Engineering guide</strong>: 深掘り記事では、commerce agent を subagent 分割ではなく標準 agent loop と skill / tool / eval harness で組み、memory、safety、approval、CI 運用まで含めて本番化する設計を説明した。",
-    "<strong>Claude Code release 2件</strong>: <strong>v2.1.257</strong> は Fable 5.1 default 化、time format / timezone 設定、auto mode の新規安全ルールなどを追加しつつ、多数の desktop / background / MCP / gateway / VS Code 不具合を修正した。続く <strong>v2.1.258</strong> は <strong>Monterey 起動回帰</strong> と <strong>remote / scheduled session</strong> の空メッセージ不具合を直した。"
+    "<strong>official blog 2件</strong>: <strong>September 2, 2026</strong> 公開日の Claude Blog として、<strong>Building commerce agents with Claude</strong> と <strong>A guide to the anatomy of effective commerce agents</strong> を確認した。",
+    "<strong>Commerce launch</strong>: Anthropic は shopping agent / merchant agent の blueprint を公開し、reference implementation、vertical demo、Claude Code plugin、partner 導線までまとめて案内した。",
+    "<strong>Engineering guide</strong>: 深掘り記事では、commerce agent を標準 agent loop と skill / tool / eval suite で組み、latency / cost / memory / safety / production rollout までを実装者向けに整理した。",
+    "<strong>Claude Code v2.1.259</strong>: managed MCP server 配布、headless 向け <code>--permission-prompts none</code>、GitLab MR 表示改善などを追加しつつ、workspace trust、permission rule、remote session、workflow stop などの不具合を広く修正した。"
   ],
   "officialNews": [
     {
       "label": "Claude Blog",
       "datetime": "2026-09-02T00:00:00Z",
       "displayTime": "2026-09-02 公開日表示",
-      "title": "Claude for Commerce を発表",
-      "summary": "Claude Blog の <strong>Building commerce agents with Claude</strong> は、shopping agent と merchant agent の blueprint を公開し、retail、marketplace、travel などの enterprise が Claude で shopping 体験を組んでいること、最大 <strong>35% larger carts</strong> や <strong>60% more likely to complete a purchase</strong> といった導入効果を紹介した。reference repository、engineering deep-dive、solutions / webinar 導線も同時に案内している。",
+      "title": "Claude for Commerce blueprint を公開",
+      "summary": "<strong>Building commerce agents with Claude</strong> は、shopping agent と merchant agent の blueprint を発表し、retail / travel / telecom / ticketing 向け reference implementation、self-guided demo、Claude Code plugin、solutions / ecosystem partner 導線をまとめた。記事では、Claude 上の shopping agent で <strong>cart が最大 35% 増</strong>、購入完了率が <strong>60% 高い</strong> 事例も紹介している。",
       "url": "https://claude.com/blog/claude-for-commerce-agents",
-      "urlLabel": "Claude for Commerce の発表を読む",
+      "urlLabel": "commerce blueprint の発表を読む",
       "primary": true
     },
     {
@@ -26,28 +26,24 @@
       "datetime": "2026-09-02T00:00:00Z",
       "displayTime": "2026-09-02 公開日表示",
       "title": "commerce agent の実装ガイドを公開",
-      "summary": "Claude Blog の <strong>A guide to the anatomy of effective commerce agents</strong> は、commerce agent の基本構成を <strong>standard agent loop</strong>、skills、既存 core systems を呼ぶ tools、強い eval suite として整理し、続いて latency / cost 最適化、prompt caching、session をまたぐ memory、harness 側での safety enforcement、組織横断 CI / canary 運用までを実装者向けにまとめている。",
+      "summary": "<strong>A guide to the anatomy of effective commerce agents</strong> は、commerce agent を <strong>standard agent loop</strong>、skills、既存業務システムを呼ぶ tools、強い eval suite で構成する設計を説明し、続いて latency / cost 最適化、prompt caching、session をまたぐ memory、harness 側 safety、組織的な production rollout を整理している。",
       "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
-      "urlLabel": "commerce agent の設計ガイドを読む",
+      "urlLabel": "commerce agent 実装ガイドを読む",
       "primary": true
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI の窓内 main post は確定できず",
-      "body": "<strong>$Claude Official X Watch</strong> が前提とする X MCP はこの run で利用できず、公開検索で確認できる範囲でも <strong>2026-09-01 17:01:46 UTC</strong> 以降の新規 main post を source-of-truth として確定できなかった。そのため official X は item 化せず zero state に置いた。"
-    },
-    {
-      "label": "@ClaudeAI と @ClaudeDevs の窓内 main post は確定できず",
-      "body": "<strong>@ClaudeAI</strong> と <strong>@ClaudeDevs</strong> についても、今回使えた公開取得経路では窓内 post の canonical status URL を高信頼に確定できなかった。Claude Blog と GitHub releases には高信頼の更新があったが、対応する official X post は確認不能だった。"
-    },
-    {
-      "label": "Anthropic Engineering / Research / News の新規記事はなし",
-      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Sep 1, 2026</strong> で、今回の24時間窓に入る新規 official article は確認できなかった。窓内 official article は <strong>Claude Blog</strong> の 2件のみだった。"
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内 post を確定できず",
+      "body": "<strong>$Claude Official X Watch</strong> が前提とする <strong>X MCP</strong> はこの run で利用できなかった。今回の report では MCP なしの公開検索を source-of-truth 代替にせず、<strong>2026-09-01 23:02:57 UTC</strong> 以降の official X main post は item 化していない。"
     },
     {
       "label": "Anthropic engineer X signal は 0件",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> も X MCP 非利用で、公開検索だけでは監視対象 account 群の窓内 relevant post を一次情報として確定できなかった。この run では推測で埋めず、<strong>signals</strong> は空配列にしている。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong> も同じく <strong>X MCP</strong> 非利用だったため、監視対象 account 群の窓内 relevant post を一次情報として確定できなかった。この run では推測で埋めず、<strong>signals</strong> を空配列にした。"
+    },
+    {
+      "label": "Anthropic Engineering / Research / News の窓内新規記事はなし",
+      "body": "<strong>Anthropic Engineering</strong> の最新 visible date は <strong>Apr 23, 2026</strong>、<strong>Anthropic Research</strong> は <strong>Aug 28, 2026</strong>、<strong>Anthropic News</strong> は <strong>Sep 1, 2026</strong> で、今回の24時間窓に入る新規 official article は確認できなかった。official article は <strong>Claude Blog</strong> の 2件のみを採用した。"
     }
   ],
   "signals": [],
@@ -55,7 +51,7 @@
     {
       "title": "ブログ",
       "headline": "2件",
-      "body": "watch 対象 4面の official site を確認した結果、この24時間窓で採用した新規 official article は <strong>Claude Blog</strong> の 2件だった。<strong>Building commerce agents with Claude</strong> と <strong>A guide to the anatomy of effective commerce agents</strong> はいずれも <strong>September 2, 2026</strong> 表示で、commerce agent 向け blueprint と実装ガイドを補完し合う構成だった。",
+      "body": "watch 対象 4面の official site を確認した結果、この24時間窓で採用した新規 official article は <strong>Claude Blog</strong> の 2件だった。<strong>Building commerce agents with Claude</strong> と <strong>A guide to the anatomy of effective commerce agents</strong> はいずれも <strong>September 2, 2026</strong> 表示で、commerce launch とその engineering deep-dive を補完する構成だった。",
       "details": [
         "<strong>Anthropic Engineering</strong>: 最新一覧日は <strong>Apr 23, 2026</strong> で窓内 entry 0件",
         "<strong>Anthropic Research</strong>: 一覧最上位は <strong>Aug 28, 2026</strong> で窓内 entry 0件",
@@ -67,152 +63,74 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "2件",
-      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.257</strong> と <strong>v2.1.258</strong> の 2件だった。<strong>v2.1.257</strong> は <strong>新機能 10件</strong>、<strong>変更 16件</strong>、<strong>修正 70件</strong>、<strong>v2.1.258</strong> は <strong>修正 2件</strong> の hotfix だった。",
+      "headline": "1件",
+      "body": "GitHub CLI の <code>gh release view</code> を source of truth として確認したところ、この24時間窓に入った Claude Code release は <strong>v2.1.259</strong> の 1件だった。内容は <strong>新機能 5件</strong>、<strong>変更 6件</strong>、<strong>修正 26件</strong> で、managed settings / MCP / permissions / remote sessions / workflows / VS Code 周辺にまたがる更新だった。",
       "releases": [
         {
-          "version": "v2.1.258",
-          "publishedAt": "2026-09-01 22:33:20 UTC",
-          "summary": "<strong>v2.1.258</strong> は短い hotfix release で、Monterey での起動回帰と、remote / scheduled session で再送 permission approval 後に空メッセージ扱いになる不具合を修正した。",
+          "version": "v2.1.259",
+          "publishedAt": "2026-09-02 22:33:51 UTC",
+          "summary": "<strong>v2.1.259</strong> は、managed MCP server 配布、headless host 用の permission prompt 無効化、GitLab MR 認識改善、plugin validate の JSON 出力などを追加しつつ、workspace trust、Bash deny rule、workflow stop、remote session、managed settings、MCP startup、VS Code session list の不具合を広く修正した。",
           "details": [
-            "新機能 0件",
-            "変更 0件",
-            "修正 2件"
-          ],
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "macOS 12 (Monterey) で Claude Code が起動しなくなる問題を修正した。これは <code>2.1.255</code> で入った回帰だった。",
-                "再送された permission approval を適用できなかったあと、remote session と scheduled session が <code>user messages must have non-empty content</code> で失敗する問題を修正した。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
-          "urlLabel": "v2.1.258 release note"
-        },
-        {
-          "version": "v2.1.257",
-          "publishedAt": "2026-09-01 17:53:52 UTC",
-          "summary": "<strong>v2.1.257</strong> は Fable 5.1 default 化、time format / timezone 設定、auto mode の新規安全ルールなどを追加しつつ、background session、Remote Control、gateway、managed settings、MCP、sandbox、VS Code など広い面の不具合をまとめて修正した大型更新だった。",
-          "details": [
-            "新機能 10件",
-            "変更 16件",
-            "修正 70件"
+            "新機能 5件",
+            "変更 6件",
+            "修正 26件"
           ],
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "Claude Fable 5.1（<code>claude-fable-5-1</code>）を追加し、default の Fable model にした。1M context で、価格は <code>$10/$50 per Mtok</code>、cache read は <code>$0.25/Mtok</code>。",
-                "<code>Time format</code>（<code>timeFormat</code>）と <code>timeZone</code> 設定を追加し、turn end clock と transcript timestamp を 12時間 / 24時間 / 24時間UTC / strftime pattern で表示できるようにした。",
-                "auto mode に <strong>Containment Escape</strong> ルールを追加し、cloud metadata credential fetch、egress evasion、cross-tenant reach を、環境側で expected と明示されていない限り自動承認しないようにした。",
-                "<code>CLAUDE_CODE_SUBAGENT_MODEL_FORCE</code> を追加し、<code>CLAUDE_CODE_SUBAGENT_MODEL</code> または main model を全 subagent に強制適用し、spawn 単位や agent definition 側の model override を無視できるようにした。",
-                "<code>/effort</code> に <code>s</code> を追加し、<code>/model</code> と同様に current session のみ effort を変更できるようにした。",
-                "kill された session が残す stale sandbox mask file に対する <code>/doctor</code> warning を追加した。",
-                "auto mode で working directory 外の file を最初に読む前に one-time prompt を出し、その種の read を block する <code>permissions.blockReadsOutsideWorkingDirectories</code> を選べるようにした。",
-                "discovered された <code>/model</code> picker entry に gateway supplied の <code>description</code> を付けられるようにした（<code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY</code>）。description がない entry は引き続き <code>From gateway</code> と表示する。",
-                "[VSCode] session list panel に collapsible な <code>ACCOUNT &amp; USAGE</code> と <code>SESSION MANAGER</code> section header を追加し、account email、usage meter、View details link を表示するようにした。",
-                "[VSCode] input footer に current model を示す model pill を追加し、model picker、Effort row、<code>More models</code> page を開けるようにした。"
+                "<code>managedMcpServers</code> managed setting を追加し、organization が各 user に HTTP / SSE MCP server を配布できるようにした。<code>command</code> 実行型 entry は対象外として skip する。",
+                "unattended な headless host 向けに <code>--permission-prompts none</code> を追加し、prompt が必要な操作を自動 deny にしつつ、active permission mode 側の判定は引き続き有効にした。",
+                "<code>glab mr create/merge/close/reopen/note/update</code> を認識するようにし、GitLab merge request を折りたたみ tool summary と footer badge で <code>MR !N</code> 表示できるようにした。",
+                "<code>claude plugin validate</code> に <code>--json</code> を追加し、machine-readable な validation report を返せるようにした。",
+                "[VSCode] session list sidebar に <strong>Active</strong> quick filter と、<strong>Needs input</strong> / <strong>Working</strong> / <strong>Completed</strong> の status filter menu を追加した。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "rendering performance を改善し、長い conversation での再描画負荷を下げ、streaming reply が長くなっても遅くなりにくくし、background agent update で全画面再描画しないようにした。",
-                "prompt input responsiveness を改善し、keypress ごとの描画負荷を減らした。",
-                "policy helper diagnostics を改善し、refresh failure を <code>/status</code> に表示し、managed-settings dialog を断った理由や helper timeout を明示するようにした。",
-                "<code>/code-review --comment</code> を改善し、GitLab merge request には unsupported 扱いせず <code>glab mr note</code> で finding を投稿するようにした。",
-                "notification 挙動を改善し、別 dialog の下に積まれた MCP elicitation や permission ask でも、visible ask と同じ delay で idle desktop notification を送るようにした。",
-                "verbose / transcript output を改善し、同時到着した async hook completion notice を 1 行にまとめて表示するようにした。",
-                "<code>claude self-hosted-runner --configure-git</code> を改善し、git push negotiation も有効にして stale clone から新 branch を初回 push するときの転送量を減らした。",
-                "gateway keep-alive により response が開いたままの間の SDK host 向け liveness reporting を改善し、<code>CLAUDE_STREAM_IDLE_TIMEOUT_MS</code> を上げた長待機が hung と誤解されにくくした。",
-                "MCP connection / OAuth debug log を改善し、server URL や request header に含まれる credential を redact するようにした。",
-                "<code>/fork</code> を改善し、元 conversation の prompt cache を新しい background session に引き継ぎ、worktree briefing を system prompt 変更ではなく message として渡すようにした。",
-                "emoji autocomplete を改善し、残っていた GitHub / Slack shortcode alias（<code>:satisfied:</code>、<code>:telephone:</code>、<code>:collision:</code> など）を受け付けるようにした。",
-                "<code>--effort</code> の挙動を変更し、新 model の default-effort hold をその session の間だけ解除するようにした。claude.ai 上で Remote Control session に選んだ effort も hold 中に反映される。",
-                "cached server-managed settings に隠れていた MDM / <code>managed-settings.json</code> の <code>policyHelper</code> が、削除を fetch で検知した時点で即座に走るか終了するよう変更した。",
-                "<code>managedSourcesBehavior: \"merge\"</code> は、<code>sandbox.credentials.awsPairs</code> と <code>sandbox.ripgrep</code> を source 間マージせず、設定した最上位 managed source の値を丸ごと採用するよう変更した。",
-                "gateway model discovery（<code>CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1</code>）は、<code>CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC</code> が立っていても gateway のみを問い合わせるため実行するよう変更した。",
-                "[VSCode] action menu は slash command を inline ではなく filterable な <code>Slash commands</code> dialog に一覧表示する方式へ変更し、MCP servers dialog にも同じ filter box を追加した。",
-                "[VSCode] <code>Delete session</code> を <code>Archive session</code> に変更し、archived session を一覧下部の collapsible な <code>Archived sessions</code> group へ移すようにした。"
+                "long response の terminal resize と初回 render 性能を改善し、text measurement を再利用するようにした。",
+                "<code>/workflows</code> agent detail を改善し、JSON outcome を syntax color 付きで pretty-print し、長い outcome は expand toggle の後ろへ折りたたむようにした。",
+                "headless / SDK session start を改善し、MCP server 接続完了後の first turn 開始を最大 50ms 早めた。",
+                "<code>/install-github-app</code> を改善し、GitHub 専用であることを明示しつつ、GitLab repository 上では GitLab CI/CD docs への案内を出すようにした。",
+                "nested background subagent result の保存方法を改善し、parent subagent transcript に残して resume 後や shared transcript でも引き継げるようにした。",
+                "<code>allowedMcpServers</code> の意味を変更し、user が追加する server のみを統制するようにした。upgrade 後は literal な <code>managed-mcp.json</code> server を弾かなくなるため、止めたい場合は <code>deniedMcpServers</code> を使う。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "startup 後に作られた <code>.claude/</code> folder 内の settings が restart まで拾われない問題を修正した。",
-                "<code>←</code> で開いた agent view から dispatch した session が、target directory の <code>defaultMode</code> や agent の <code>permissionMode</code> を無視して元 session の permission mode で始まってしまう問題を修正した。",
-                "<code>claude agents</code> で <code>keybindings.json</code> の Ctrl+G 再割り当てが効かない問題を修正し、Ctrl+S / Ctrl+T も新しい <code>Agents</code> context 経由で再割り当て可能にした。",
-                "macOS の npm self-update 中や、Windows で stale daemon lock file が再利用された process id を指していると background session が開始できない問題を修正した。",
-                "slash command panel の背後で response が stream 中に working spinner が止まる問題を修正した。",
-                "scheduled wake-up 後に background session の <code>state.json</code> の <code>detail</code> が自分の dispatch prompt を繰り返してしまう問題を修正した。",
-                "<code>claude agents</code> で再プロンプトした background session が再完了後も Completed の下に埋もれる問題を修正し、Completed を最新 finish 順にした。",
-                "削除直後の directory から <code>claude --bg</code> を実行すると <code>backgrounded</code> と表示しつつ crashed row を残す問題を修正し、理由を出して exit 1 するようにした。",
-                "mid-session で Remote Control が接続すると Bash tool definition を再送して prompt cache miss を起こす問題を修正した。",
-                "custom <code>Authorization</code> header が二重登録されると Bedrock、Mantle、Vertex、WIF で configured credential を上書きしてしまう問題と、Vertex setup wizard が <code>~/.config/anthropic</code> の leftover profile を拾う問題を修正した。",
-                "Claude apps gateway が stray な host <code>Authorization</code> / profile header を Foundry、Vertex、Bedrock に送ってしまう問題と、<code>ANTHROPIC_FOUNDRY_API_KEY</code> があると Foundry Entra ID upstream が起動しない問題を修正した。",
-                "leftover な Anthropic API key や auth token が、API-key mode の Foundry subscription key と一緒に送られてしまう問題を修正した。",
-                "message role なしで保存された prompt を持つ <code>/schedule</code> routine が、実行時に何もできなくなる問題を修正した。",
-                "<code>claude agents</code> で、別 session からの message approval を待っている background session と送信者を示さない問題を修正した。",
-                "開いた background session 内で Ctrl+S 退避した prompt が idle 化や stop / reopen 後に失われる問題を修正した。",
-                "server-managed settings から push された telemetry（OTEL）settings が warm start で無視される問題を修正し、desktop app の Code session も含めて反映されるようにした。",
-                "leader の mailbox write が一時 lock されたとき teammate permission request に二重回答してしまう問題を修正した。",
-                "command の auto-continued response が stream 中に in-flight turn の下へ duplicate slash-command row が幽霊表示される問題を修正した。",
-                "<code>policyHelper</code> の <code>timeoutMs</code> と <code>refreshIntervalMs</code> が timer 上限 <code>2147483647</code> を超えると failure や 1ms ごとの再実行になる問題を修正し、clamp するようにした。",
-                "別 subagent transcript へ切り替えたあと token counter が停止または極端に遅くなる問題を修正し、background subagent / teammate の counter も stream 中に live 更新するようにした。",
-                "trailing dot 付き sandbox network host（<code>example.com.</code>）で <code>deniedDomains</code> が効かず、<code>don't ask again</code> も毎回 prompt する問題を修正した。",
-                "Remote Control consent prompt を Esc または <code>n</code> で閉じても consent 扱いになり、次回 request が無確認で接続される問題を修正した。",
-                "<code>/mcp</code> の reconnect / enable が、startup 後に読み込まれた managed MCP allow / deny list や <code>strictPluginOnlyCustomization</code> で block されるべき settings-file MCP server にも接続してしまう問題を修正した。",
-                "<code>strictPluginOnlyCustomization</code> で plugin-only server に制限されているとき、<code>claude mcp remove</code> が remote server の stored OAuth credential を残す問題を修正した。",
-                "Claude app から開始した Remote Control（<code>claude remote-control</code>）session が selected model を無視して machine default model で走る問題を修正した。",
-                "<code>allowManagedPermissionRulesOnly</code> 有効時に、最初の settings reload 後に <code>--disallowedTools</code> と session deny rule が落ちる問題を修正した。",
-                "<code>--resume</code> が backgrounded conversation を二重表示し、<code>--continue</code> が pre-background の stalled copy を開く問題を修正した。あわせて <code>--continue</code> で finished background session も開けるようにした。",
-                "fullscreen mode で <code>!</code> shell command output をクリック展開できない問題を修正した。",
-                "古い Claude Code binary を走らせたままの background session が auto-update をまたいで積み上がる問題を修正し、retire されるようにした。",
-                "<code>claude agents --json</code> が一時的に terminal を raw mode に切り替え、exit 時に別 program の terminal setting を巻き戻してしまう問題を修正した。",
-                "Proactive output style session が、自分で起動した background command や Monitor が動作中でも idle せず filler message と log read を繰り返す busy loop を起こす問題を修正した。",
-                "computer sleep、connection drop、server error で response stream が途中切断されたとき subagent が停止する問題を修正し、自動 continue するようにした。",
-                "<code>claude agents</code> session 内の <code>/btw</code> panel で <code>←</code> が効かない問題を修正し、mid-answer でも agents list へ戻り、再度開くと panel が復帰するようにした。",
-                "advisor model を設定した session の background request（compaction、<code>/recap</code>、prompt suggestion）で prompt cache miss し、毎回会話全文を uncached 送信する問題を修正した。",
-                "<code>claude -p</code> が、model が armed した Monitor がまだ動作中でも final result の約 5 秒後に終了してしまう問題を修正し、watch が fire または timeout するまで待つようにした。",
-                "auto mode で、compound command や subshell 内で実行された matching command に <code>permissions.ask</code> rule が適用されず確認なしで実行される問題を修正した。",
-                "plugin が symlink になった command / agent / skill / hooks / other component path を通して plugin directory 外の file を読めてしまう問題を修正し、そのような path は error で拒否するようにした。",
-                "<code>/add-dir</code> が current working directory 内の directory を拒否する問題を修正し、startup 時の <code>--add-dir</code> 同様に skills / commands / agents を読み込むようにした。",
-                "停止した subagent を transcript view から resume したとき main agent に通知されない問題を修正した。",
-                "ANSI color 付き text（例: CI log）を <code>/feedback</code> などの dialog に paste すると crash する問題を修正した。",
-                "project の <code>.mcp.json</code> が FIFO や device-file symlink だと <code>claude mcp add/remove</code> が hang または memory 枯渇する問題を修正し、actionable な error で fail fast するようにした。",
-                "non-JSONL data を <code>claude -p --input-format stream-json</code> に pipe したとき unbounded memory growth する問題を修正し、clear error で fail fast するようにした。",
-                "subagent や他 tool 実行中に turn を background 化（<code>←</code> または Ctrl+B）すると、background session がその tool を rejected 扱いして再実行しないことがある問題を修正した。",
-                "Bash の <code>Read()</code> / <code>Edit()</code> deny rule が <code>&lt; file</code> redirect や <code>tac</code>、<code>egrep</code> などの reader command に効かない問題を修正し、argument または redirect target の deny で command 全体を拒否するようにした。",
-                "多数の image 読み込み後など transcript が 5 MB を超えた subagent を resume / message すると <code>No transcript found</code> で失敗する問題を修正した。",
-                "worktree-isolated session が、git に触れない Bash loop、<code>$VAR</code> 読み取り、<code>\"$(...)\"</code>、heredoc を <code>too complex to verify that it stays inside the worktree</code> と誤判定して拒否する問題を修正した。",
-                "会話を empty まで rewind したあとも <code>/model</code> と <code>/effort</code> が prompt-cache warning を表示する問題を修正した。",
-                "長い screenshot-heavy session で image が per-request size cap を超えたあとは毎 turn prompt-cache miss する問題を修正した。",
-                "Edit permission prompt の diff view で emoji や複数 code point 文字の表示幅が崩れる問題を修正した。",
-                "WebSocket MCP server connection failure が underlying error ではなく <code>[object ErrorEvent]</code> とだけ log される問題を修正した。",
-                "別の Claude Code process が npm update を download 中だと background session が <code>Couldn't start the background service</code> で開けない問題を修正し、download 完了待ちしてから起動するようにした。",
-                "<code>timeout</code> や <code>setsid</code> などで shell から detach した background command が、task stop や Claude Code exit 後も生き残る問題を修正した。",
-                "tasks panel や connected client から background command を止めても Claude に通知されない問題を修正した。",
-                "background subagent を停止してもその monitor が残り続ける問題を修正した。",
-                "linked worktree 内で subdirectory に <code>cd</code> したあと sandboxed git command が repository 共通の <code>.git</code> directory への write access を失う問題を修正した。",
-                "Bedrock と Bedrock Mantle request が Opus 4.7 以降の長い hidden-thinking 中に silent になり idle timeout で切断される問題を修正し、stream が progress event を流すようにした。",
-                "Claude apps gateway の session が expired / revoked したあと Claude Code 起動で network error とだけ出る問題を修正し、session ended と伝えて <code>/login</code> を促すようにした。",
-                "session 起動時に network proxy が立ち上がらないと、その後の cloud session で git / GitHub credential を失いっぱなしになる問題を修正し、background retry で回復できるようにした。",
-                "background daemon start 中断後に system temp directory に <code>cc-daemon-*</code> folder が残る問題を修正し、<code>cleanupPeriodDays</code> retention sweep で削除するようにした。",
-                "zsh が bash と異なる解釈をする特定の <code>[[ ]]</code> conditional を Bash permission check が auto-approve してしまう問題を修正し、prompt を出すようにした。",
-                "managed-settings approval prompt が telemetry wording ではなく generic warning を出してしまう問題を修正した。対象は detailed tracing や raw API body logging を off にする設定、または trace export on を含む場合。",
-                "tmux / iTerm2 pane 上の agent-team teammate が shutdown acknowledgement 後も残ることがある問題を修正した。",
-                "keyless Console sign-in（<code>Sign in with your Console account</code>）で organization の server-managed settings が反映されず、<code>/status</code> に Organization が出ない問題を修正した。",
-                "[VSCode] Bedrock、Vertex など third-party provider deployment でも claude.ai 専用 feature（remote session、dictation、usage）が表示され、leftover login で claude.ai へアクセスしてしまう問題を修正した。",
-                "[VSCode] session list panel の usage meter が panel load 後も空白のままの問題を修正し、直近の known usage を即表示するようにした。",
-                "[VSCode] <code>Enable Remote Control for all sessions</code> toggle の on / off が新規 session にしか効かない問題を修正し、既存 open session にも適用するようにした。",
-                "[VSCode] screen reader announcement で、fence や heading の前の control character により visible line が speech から落ちる問題と、heading をまたぐ bold marker が誤対応する問題を修正した。"
+                "並行 session が互いの <code>~/.claude.json</code> 変更を黙って巻き戻し、workspace trust reset や MCP / project state 喪失を起こす問題を修正した。",
+                "一度 rejected された thinking を持つ conversation が、その後の全 turn でも再度 rejected 扱いされる問題を修正した。",
+                "Bash の <code>Read()</code> deny rule が option value の file、<code>git diff</code> / <code>git grep</code> の file operand、<code>cd DIR &amp;&amp; cat FILE</code> compound を十分に覆えていなかった問題を修正し、denied file を含む directory への <code>grep -r</code> / <code>cp -r</code> でも prompt するようにした。",
+                "telemetry 無効 session で OAuth token が refresh されると prompt cache が無効化される問題を修正した。",
+                "fullscreen mode で hundreds of tool calls を含む長い turn のあと conversation が blank 表示になる問題を修正した。",
+                "command や skill の frontmatter <code>model:</code> が auto mode 非対応 model を指すと、その model で turn を走らせてしまう問題を修正し、session model を維持するようにした。",
+                "<code>CLAUDE_CODE_MAX_CONTEXT_TOKENS</code> が Claude Code 未認識 version の Vertex-style model ID（<code>@YYYYMMDD</code> suffix）で無視される問題を修正した。",
+                "running shell command の live output preview で、先に wrap した行があると newest lines が隠れる問題を修正した。",
+                "claude.ai user 向けに毎 launch 走っていた background GitHub connection check を修正し、結果を launch 間で記憶するようにした。",
+                "saved session に payload なし attachment entry があると <code>--resume</code> が失敗し、<code>--continue</code> が空 conversation を開く問題を修正した。",
+                "custom command / skill の frontmatter <code>model:</code> が interactive session で無視される問題を修正した。",
+                "older version から継続した conversation で Artifact publishing が一度 <code>unexpected parameter `note`</code> で失敗する問題を修正した。",
+                "MDM または managed settings file による policy helper 実行済み環境で、managed <code>forceRemoteSettingsRefresh</code> が startup 時に無視される問題を修正した。",
+                "<code>git rev-parse</code> が <code>not a git repository</code> 以外の文言で失敗する machine で、worktree isolation が hook 作成 worktree を拒否する問題を修正した。",
+                "cloud session の OpenTelemetry metrics / events から <code>user.email</code>、<code>organization.id</code>、<code>user.account_uuid</code> attribute が落ちる問題を修正した。",
+                "startup 時に tool list 中で切断した MCP server が、error を示さず connected / no tools に見える問題を修正した。",
+                "file edit permission dialog で changed line が途中で切れても indication が出ないことがある問題を修正した。",
+                "一時的な git probe failure のあと known repo identity を見失う repository detection の問題を修正した。",
+                "managed-settings file、drop-in、MDM plist、HKLM value の parse 失敗時に managed settings が黙って unenforced になる問題を修正し、Claude Code が source 名付きで起動拒否するようにした。",
+                "remote-control session で Stop しても background agent や workflow が実際には止まらない問題を修正し、process 終了まで visible かつ再 stop 可能にした。",
+                "停止中の前 run がまだ終了処理中の workflow を resume すると、agent の duplicate copy が走る問題を修正した。",
+                "trailing slash や dangling <code>?</code> / <code>#</code> を含む github.com marketplace repo URL から unusable な <code>.git</code> clone URL が生成される問題を修正した。",
+                "blocking Stop hook のあと次 turn でその turn の reasoning が失われ、model によっては prompt cache も外れる問題を修正した。",
+                "browser-hosted MCP server の page 消失後、remote（claude.ai）session が turn 開始まで 60 秒かかる問題を修正した。",
+                "worktree-isolated session が main checkout に到達できない common Bash loop、<code>xargs</code> pipeline、launcher-wrapped command を拒否してしまう問題を修正した。",
+                "connector-tool permission prompt 承認中に paused だった remote session と scheduled session が、その後何もしなくなる問題を修正した。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
-          "urlLabel": "v2.1.257 release note"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+          "urlLabel": "v2.1.259 release note"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -220,9 +138,9 @@
     }
   ],
   "exclusions": [
-    "official X watch は本来 <strong>X MCP</strong> を前提とするが、この run では利用できず、公開検索だけでは <strong>@AnthropicAI</strong>、<strong>@ClaudeAI</strong>、<strong>@ClaudeDevs</strong> の窓内 main post を高信頼に確定できなかったため、推測で item 化していない。",
-    "engineer X watch も同様に <strong>X MCP</strong> 非利用のため、監視対象 account 群の Claude / Anthropic 関連 post を一次情報として確定できず、<strong>signals</strong> は 0件にした。",
-    "Claude Blog の 2記事は visible publication date が <strong>September 2, 2026</strong> までで、個別時刻は取得できなかったため、採用判定は公開日ベースで行った。",
+    "official X watch と engineer X watch は、指定 skill が前提とする <strong>X MCP</strong> がこの run で利用できなかったため、公開検索を一次情報の代替にせず zero state 扱いにした。",
+    "Claude Blog の 2記事は visible publication date が <strong>September 2, 2026</strong> までで、個別の公開時刻は取得できなかったため、採用判定は公開日ベースで行った。",
+    "Anthropic News の最新 visible item には <strong>Sep 1, 2026</strong> の記事があるが、今回の窓開始 <strong>2026-09-01 23:02:57 UTC</strong> より前日表示のため採用していない。",
     "Claude Code release 判定は <strong>GitHub CLI</strong> の release metadata と release body のみを source of truth とし、commit、issue、外部記事は使っていない。"
   ],
   "sources": [
@@ -251,28 +169,12 @@
       "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents"
     },
     {
-      "title": "AnthropicAI on X",
-      "url": "https://x.com/AnthropicAI"
-    },
-    {
-      "title": "ClaudeAI on X",
-      "url": "https://x.com/ClaudeAI"
-    },
-    {
-      "title": "ClaudeDevs on X",
-      "url": "https://x.com/ClaudeDevs"
-    },
-    {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code release v2.1.258",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258"
-    },
-    {
-      "title": "Claude Code release v2.1.257",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257"
+      "title": "Claude Code v2.1.259",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259"
     }
   ]
 }
