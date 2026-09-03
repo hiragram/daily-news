@@ -1,9 +1,9 @@
 {
   "date": "2026-09-03",
-  "windowLabel": "2026-09-02 05:01:47 UTC - 2026-09-03 05:01:47 UTC",
+  "windowLabel": "2026-09-02 11:01:42 UTC - 2026-09-03 11:01:42 UTC",
   "archiveTitle": "Claude commerce posts and Claude Code v2.1.259",
   "archiveSummary": "official 2件、engineer signal 0件、blog 2件、Claude Code release 1件。",
-  "latestSummary": "2026-09-02 05:01:47 UTC から 2026-09-03 05:01:47 UTC の24時間では、<strong>Claude Blog</strong> で commerce agent 関連の official article が 2件公開され、Claude Code は窓内に <strong>v2.1.259</strong> を 1件リリースした。official X と monitored engineer X は、本来の <strong>X MCP</strong> 取得経路が使えず、窓内 post を一次情報として確定できなかった。",
+  "latestSummary": "2026-09-02 11:01:42 UTC から 2026-09-03 11:01:42 UTC の24時間では、<strong>Claude Blog</strong> で commerce agent 関連の official article が 2件公開され、Claude Code は窓内に <strong>v2.1.259</strong> を 1件リリースした。official X と monitored engineer X は、本来の <strong>X MCP</strong> 取得経路が使えず、窓内 post を一次情報として確定できなかった。",
   "summaryBullets": [
     "<strong>official blog 2件</strong>: <strong>September 2, 2026</strong> 公開日の Claude Blog として、<strong>Building commerce agents with Claude</strong> と <strong>A guide to the anatomy of effective commerce agents</strong> を確認した。",
     "<strong>Commerce launch</strong>: Anthropic は shopping agent / merchant agent の blueprint を公開し、reference implementation、vertical demo、Claude Code plugin、partner 導線までまとめて案内した。",
@@ -35,7 +35,7 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内 post を確定できず",
-      "body": "<strong>$Claude Official X Watch</strong> が前提とする <strong>X MCP</strong> はこの run で利用できなかった。今回の report では MCP なしの公開検索を source-of-truth 代替にせず、<strong>2026-09-02 05:01:47 UTC</strong> 以降の official X main post は item 化していない。"
+      "body": "<strong>$Claude Official X Watch</strong> が前提とする <strong>X MCP</strong> はこの run で利用できなかった。今回の report では MCP なしの公開検索を source-of-truth 代替にせず、<strong>2026-09-02 11:01:42 UTC</strong> 以降の official X main post は item 化していない。"
     },
     {
       "label": "Anthropic engineer X signal は 0件",
@@ -140,7 +140,7 @@
   "exclusions": [
     "official X watch と engineer X watch は、指定 skill が前提とする <strong>X MCP</strong> がこの run で利用できなかったため、公開検索を一次情報の代替にせず zero state 扱いにした。",
     "Claude Blog の 2記事は visible publication date が <strong>September 2, 2026</strong> までで、個別の公開時刻は取得できなかったため、採用判定は公開日ベースで行った。",
-    "Anthropic News の最新 visible item には <strong>Sep 1, 2026</strong> の記事があるが、今回の窓開始 <strong>2026-09-02 05:01:47 UTC</strong> より前日表示のため採用していない。",
+    "Anthropic News の最新 visible item には <strong>Sep 1, 2026</strong> の記事があるが、今回の窓開始 <strong>2026-09-02 11:01:42 UTC</strong> より前日表示のため採用していない。",
     "Claude Code release 判定は <strong>GitHub CLI</strong> の release metadata と release body のみを source of truth とし、commit、issue、外部記事は使っていない。"
   ],
   "sources": [
