@@ -1,9 +1,9 @@
 {
   "date": "2026-09-04",
-  "windowLabel": "2026-09-03 05:02:42 UTC - 2026-09-04 05:02:42 UTC",
+  "windowLabel": "2026-09-03 11:01:14 UTC - 2026-09-04 11:01:14 UTC",
   "archiveTitle": "Claude Code v2.1.260 amid quiet official channels",
   "archiveSummary": "official 0件、engineer signal 0件、blog 0件、Claude Code release 1件。",
-  "latestSummary": "2026-09-03 05:02:42 UTC から 2026-09-04 05:02:42 UTC の24時間では、Anthropic / Claude の official site 4面に窓内の新規 article は確認できず、Claude Code は <strong>v2.1.260</strong> を 1件リリースした。official X と monitored engineer X は、この run で指定 skill が前提とする <strong>X MCP</strong> が利用できず、窓内 post を一次情報として確定できなかった。",
+  "latestSummary": "2026-09-03 11:01:14 UTC から 2026-09-04 11:01:14 UTC の24時間では、Anthropic / Claude の official site 4面に窓内の新規 article は確認できず、Claude Code は <strong>v2.1.260</strong> を 1件リリースした。official X と monitored engineer X は、この run で指定 skill が前提とする <strong>X MCP</strong> が利用できず、窓内 post を一次情報として確定できなかった。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.260</strong>: <strong>2026-09-03 23:48:12 UTC</strong> に新規 release を確認した。fullscreen diff panel、headless 向け <code>/advisor</code> / <code>/reload-plugins</code>、Claude apps gateway 拡張を追加しつつ、permission rule、prompt cache、model switch、remote session、VS Code まわりの修正が多い。",
     "<strong>release note は完全取得</strong>: GitHub CLI を source of truth として <strong>v2.1.260</strong> 本文を全文取得し、JSON では <strong>新機能 8件</strong>、<strong>変更 20件</strong>、<strong>修正 38件</strong> に分けて全項目を和訳した。",
@@ -14,7 +14,7 @@
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内 post を確定できず",
-      "body": "<strong>$Claude Official X Watch</strong> が前提とする <strong>X MCP</strong> tool はこの run で利用できなかった。MCP なしの公開検索を source-of-truth 代替にせず、<strong>2026-09-03 05:02:42 UTC</strong> 以降の official X main post は item 化していない。"
+      "body": "<strong>$Claude Official X Watch</strong> が前提とする <strong>X MCP</strong> tool はこの run で利用できなかった。MCP なしの公開検索を source-of-truth 代替にせず、<strong>2026-09-03 11:01:14 UTC</strong> 以降の official X main post は item 化していない。"
     },
     {
       "label": "Anthropic engineer X signal は 0件",
@@ -147,7 +147,7 @@
   ],
   "exclusions": [
     "official X watch と engineer X watch は、指定 skill が前提とする <strong>X MCP</strong> がこの run で利用できなかったため、公開検索を一次情報の代替にせず zero state 扱いにした。",
-    "Anthropic Engineering、Research、News、Claude Blog の listing を確認したが、今回の窓開始 <strong>2026-09-03 05:02:42 UTC</strong> 以降に publish された新規 official article は確認できなかった。",
+    "Anthropic Engineering、Research、News、Claude Blog の listing を確認したが、今回の窓開始 <strong>2026-09-03 11:01:14 UTC</strong> 以降に publish された新規 official article は確認できなかった。",
     "Claude Code release 判定は <strong>GitHub CLI</strong> の release metadata と release body のみを source of truth とし、commit、issue、外部記事は使っていない。",
     "Claude Code の release note は本文全文を取得して和訳分類したが、release 以外の social signal は X MCP 不在のため推測で補完していない。"
   ],
