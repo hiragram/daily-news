@@ -1,12 +1,12 @@
 {
   "date": "2026-09-06",
-  "windowLabel": "2026-09-04 17:00:43 UTC - 2026-09-05 17:00:43 UTC",
-  "archiveTitle": "Claude formalizes FLT; Claude Code v2.1.261",
-  "archiveSummary": "official research 1件、Claude Code release 1件。X 2系統は MCP 不在で未確定。",
-  "latestSummary": "2026-09-04 17:00:43 UTC から 2026-09-05 17:00:43 UTC の24時間では、Anthropic Research がフェルマーの最終定理の完全な computer-checked proof を公開し、Claude Code は <strong>v2.1.261</strong> をリリースした。official X と monitored engineer X は X MCP が利用できず未確定。",
+  "windowLabel": "2026-09-04 23:02:49 UTC - 2026-09-05 23:02:49 UTC",
+  "archiveTitle": "Claude formalizes Fermat's Last Theorem",
+  "archiveSummary": "official research 1件。Claude Code release は0件、X 2系統は MCP 不在で未確定。",
+  "latestSummary": "2026-09-04 23:02:49 UTC から 2026-09-05 23:02:49 UTC の24時間では、Anthropic Research がフェルマーの最終定理の完全な computer-checked proof を公開した。Claude Code release は0件で、official X と monitored engineer X は X MCP が利用できず未確定。",
   "summaryBullets": [
     "<strong>Anthropic Research</strong>: Claude が11日間ほぼ自律的に Lean でフェルマーの最終定理を形式化し、初の end-to-end computer-checked proof を完成させたと発表した。",
-    "<strong>Claude Code 1件</strong>: <strong>v2.1.261</strong>（67項目）が窓内。release note 全67項目を完全取得し、項目ごとに和訳・分類した。",
+    "<strong>Claude Code release は0件</strong>: 最新の <strong>v2.1.261</strong> は窓開始前の公開だったため対象外。",
     "<strong>official X / engineer X は未確定</strong>: 指定 skill が前提とする X MCP がこの run では利用できず、公開検索で代替せず zero state とした。"
   ],
   "officialNews": [
@@ -50,106 +50,8 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "GitHub CLI を source of truth として、窓内に <strong>v2.1.261</strong> を1件確認した。release note 全67項目を完全取得し、全項目を個別に和訳・分類した。",
-      "releases": [
-        {
-          "version": "v2.1.261",
-          "publishedAt": "2026-09-04 19:58:10 UTC",
-          "summary": "organization policy diagnostics、output 上限設定、subagent prompt file、<code>/skill-doctor</code>、Remote Control / SDK / gateway / VS Code の多数の修正を含む。",
-          "details": [
-            "新機能 9件",
-            "変更 11件",
-            "修正 47件"
-          ],
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "<code>/status</code> と <code>claude doctor</code> に「Organization policy」行を追加し、proxy が endpoint を通さない場合など organization policy を読み込めない理由を表示するようにした。",
-                "<code>bashOutputMaxChars</code> と <code>taskOutputMaxChars</code> setting を追加し、command / background task の inline output 上限を最大128K文字まで引き上げられるようにした。",
-                "command line には大きすぎる subagent system prompt を file から読む <code>--append-subagent-system-prompt-file</code> を追加した。",
-                "読み込まれた skill のうち未使用のものと context cost を示し、整理を助ける <code>/skill-doctor</code> を追加した。",
-                "[VSCode] Output styles menu に「Build a custom style」walkthrough を追加し、custom output style file を作って即座に一覧へ表示できるようにした。",
-                "[VSCode] MCP servers dialog に Add server form と Remove action を追加し、IDE 内で server を追加・削除できるようにした。",
-                "[VSCode] terminal、別 VS Code window、Claude Desktop で開いている session を示す hollow ring を session list に追加した。",
-                "[VSCode] permission / question prompt に fold button を追加し、閉じずに背後の conversation を読めるようにした。",
-                "[VSCode] session list の right-click menu に「Archive session」を追加し、Unarchive に専用 icon を付けた。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "<code>/model</code> picker と VS Code model pill で、認識可能な Bedrock / Vertex AI / LLM gateway の raw ID ではなく model 名を表示するよう改善した。",
-                "<code>GOOGLE_APPLICATION_CREDENTIALS</code> 使用時の Vertex AI startup を改善し、project discovery の再実行や余分な <code>gcloud</code> process 起動をなくした。",
-                "streaming performance を改善し、描画済み block を update ごとに layout 再検査しないようにした。",
-                "dangerous <code>rm</code> safety prompt を改善し、positional parameter や double-quoted <code>sh -c</code> script 内の <code>rm -rf</code> も検出するようにした。",
-                "API response header がない場合の retry を改善し、追加3分ではなく <code>API_TIMEOUT_MS</code>（既定10分）まで待ち、変更箇所を message に示すようにした。",
-                "managed settings load の 403 message を変更し、再 login を促す代わりに organization で Claude Code が有効でない可能性を示すようにした。",
-                "<code>forceLoginMethod: \"gateway\"</code> が設定された machine では残存 API key / claude.ai login を無視して <code>/login</code> を求めるよう変更した（Bedrock / Vertex AI / Foundry は対象外）。",
-                "public diagram renderer URL に content を詰め込む link を auto mode では site upload とみなし、依頼がない限り自動承認しないよう変更した。",
-                "prompt の word-edit key を Bash に合わせ、Ctrl+W、Alt+F、Alt+D と punctuation の境界挙動を変更した。<code>keybindingFlavor</code> は無効になった。",
-                "<code>/context</code> は token-counting API unavailable 時に小型 model request ではなく local estimate を使うよう変更した。",
-                "[VSCode] model picker を全 model の flat list に変更し、旧 spelling は末尾に残すようにした。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "高速入力や key repeat 中に文字が順不同になったり欠落したりする問題を修正した。",
-                "<code>/net</code> automount 上で <code>/add-dir &lt;subdirectory&gt;</code> が誤った「couldn’t be resolved」error を出す問題を修正した。",
-                "AWS / credential helper が応答しないと Bedrock setup wizard が hang する問題と、TLS inspection proxy 配下で model check が失敗する問題を修正した。",
-                "managed <code>enabledPlugins</code> で強制有効な claude.ai 同期 plugin を cloud session が捨て、失敗しうる marketplace clone に fallback する問題を修正した。",
-                "prompt input の inline <code>[Image #N]</code> chip 直前の文字を削除できない問題を修正した。",
-                "parallel tool call 周辺の hook output と context が resume 時に失われ、request が変わる問題を修正した。",
-                "Remote Control 接続時や terminal 側 mode 変更後に古い permission mode が表示される問題を修正した。",
-                "接続端末から turn を停止した後や <code>/clear</code> 後も Remote Control が working 表示のままになる問題を修正した。",
-                "first prompt 直後、turn start 前に送った Stop / interrupt を SDK / cloud session が無視する問題を修正した。",
-                "<code>/teleport</code> した session を Remote Control が接続中 session に upload し、元 session へ追記されたように見える問題を修正した。",
-                "native Windows の TLS inspection corporate proxy 配下で Remote Control inbound event stream が失敗する問題を修正した。",
-                "settings 由来の effort でも claude.ai が default effort を表示する問題を修正した。",
-                "Google credential check が遅いだけで有効 credential があるのに <code>gcpAuthRefresh</code> が startup 時に browser を開く問題を修正した。",
-                "startup connector fetch timeout 後、claude.ai connector が session 全体で消える問題を修正し、background retry するようにした。",
-                "resume 不能な background agent の wake-up を tight loop で retry し、高 CPU 使用が続く問題を修正した。",
-                "同一 machine の新 version 向け feature flag が旧 Claude Code version に適用されることがある問題を修正した。",
-                "<code>/usage</code> と VS Code usage panel が rate limit 時や startup 直後に model-specific weekly limit 行を落とす問題を修正した。",
-                "<code>claude -p --resume &lt;file&gt;</code> が transcript 内の malformed session ID を採用する問題を修正し、新しい ID で resume するようにした。",
-                "background workflow / agent 実行中なのに terminal progress indicator が finished を示す問題を修正した。",
-                "container の row / column direction 切替後に box height が誤る rare layout glitch を修正した。",
-                "trusted proxy が <code>X-Forwarded-For</code> に port を付けた場合の gateway client IP を修正し、access list 使用時の unreadable entry は 403 にした。",
-                "terminal CLI が protobuf 使用時でも gateway が Desktop に OpenTelemetry JSON export を指示し、protobuf-only collector が拒否する問題を修正した。",
-                "artifact update を watch しているだけの session を Desktop / web が busy と表示する問題を修正した。",
-                "Claude Desktop の local Cowork session で Claude in Chrome <code>file_upload</code> が <code>paths: expected array, received undefined</code> になる問題を修正した。",
-                "offline Remote Control session への <code>SendMessage</code> が delivered と表示される問題を修正し、再接続まで queued と示すようにした。",
-                "background Bash 内 CLI の plugin install hint を検出できず、raw <code>&lt;claude-code-hint&gt;</code> tag が conversation に漏れる問題を修正した。",
-                "in-process agent-team teammate が second turn に tool / skill announcement を再送し、request prefix と prompt cache が変わる問題を修正した。",
-                "[VSCode] web から teleport した session で cloud shutdown 時に途切れた question が declined 扱いになる問題を修正した。",
-                "[VSCode] window 復元 tab の Rename box が空で開く問題を修正し、current name から始めるようにした。",
-                "[VSCode] session list panel 読込時に collapsed section が一瞬 expanded になる問題を修正した。",
-                "[VSCode] Focus view で tool call 完了後も running 表示が残る問題を修正した。",
-                "[VSCode] unfocused Claude tab の session ID correction 後、session list active-row highlight が古いままになる問題を修正した。",
-                "[VSCode] Claude tab focus 時の Cmd/Ctrl+Shift+T reopen / deep link が Claude editor group 外に tab を置く問題を修正した。",
-                "[VSCode] web 由来 session の「Add to group」が2 group に重複させる問題を修正し、表示 entry を移動するようにした。",
-                "[VSCode] organization が無効化した model が window reload 2回まで picker に残る問題を修正した。",
-                "[VSCode] reload 後、session list から開いた tab が以前の session に戻る問題や web session tab の teleport 再開 / empty 化を修正した。",
-                "[VSCode] window reload 直後や settings error 時に <code>/btw</code> side-question history が上書きされる問題を修正した。",
-                "[VSCode] Claude.ai / Console account で panel reload 後に pending question card が再表示されない問題を修正した。",
-                "[VSCode] 一つの panel が third-party provider を検出後も他 panel に claude.ai-only feature が残る問題を修正した。",
-                "[VSCode] Disable Login Prompt 設定中でも未 login / auth failure 時に sign-in screen が出る問題を修正した。",
-                "[VSCode] queued permission prompt が前 prompt の入力を保持し、即時 second click を受理する問題を修正した。",
-                "[VSCode] session list しか表示していない window で install-plugin link が install dialog を開かない問題を修正した。",
-                "[VSCode] new window の sidebar usage meter が Account & usage dialog を開くまで空で、0% limit を省く問題を修正した。",
-                "[VSCode] New conversation 後に「Start new session in this group」が group を失う問題と、早期完了 session の unread dot 欠落を修正した。",
-                "[VSCode] running 中の editor tab badge 誤表示、session list から開いた tab の badge 欠落、archived session への Add Session Tab to Group no-op を修正した。",
-                "[VSCode] 「Enable Remote Control for all sessions」を切り替えた際、別 VS Code window の session に即時適用されない問題を修正した。",
-                "[VSCode] claude.ai から continue した session の Open filter 判定を修正し、filter menu section に screen reader label を付けた。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
-          "urlLabel": "v2.1.261 release note"
-        }
-      ],
+      "headline": "0件",
+      "body": "GitHub CLI を source of truth として確認したところ、窓内の新規 release は0件だった。最新の <strong>v2.1.261</strong>（2026-09-04 19:58:10 UTC）は窓開始前のため対象外。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code releases"
     }
@@ -183,10 +85,6 @@
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
-    },
-    {
-      "title": "Claude Code v2.1.261",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261"
     }
   ]
 }
