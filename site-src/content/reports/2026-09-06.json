@@ -1,90 +1,75 @@
 {
   "date": "2026-09-06",
-  "windowLabel": "2026-09-04 23:02:49 UTC - 2026-09-05 23:02:49 UTC",
-  "archiveTitle": "Claude formalizes Fermat's Last Theorem",
-  "archiveSummary": "official research 1件。Claude Code release は0件、X 2系統は MCP 不在で未確定。",
-  "latestSummary": "2026-09-04 23:02:49 UTC から 2026-09-05 23:02:49 UTC の24時間では、Anthropic Research がフェルマーの最終定理の完全な computer-checked proof を公開した。Claude Code release は0件で、official X と monitored engineer X は X MCP が利用できず未確定。",
+  "windowLabel": "2026-09-05 11:00:43 UTC - 2026-09-06 11:00:43 UTC",
+  "archiveTitle": "Claude Code v2.1.263 reliability update",
+  "archiveSummary": "Claude Code v2.1.263が公開。公式ブログは0件、X 2系統はMCP不在で未確定。",
+  "latestSummary": "2026-09-05 11:00:43 UTC から 2026-09-06 11:00:43 UTC の24時間では、Claude Code v2.1.263が公開され、不具合修正と信頼性改善が案内された。公式サイトの記事は0件で、official X と monitored engineer X は X MCP が利用できず未確定。",
   "summaryBullets": [
-    "<strong>Anthropic Research</strong>: Claude が11日間ほぼ自律的に Lean でフェルマーの最終定理を形式化し、初の end-to-end computer-checked proof を完成させたと発表した。",
-    "<strong>Claude Code release は0件</strong>: 最新の <strong>v2.1.261</strong> は窓開始前の公開だったため対象外。",
-    "<strong>official X / engineer X は未確定</strong>: 指定 skill が前提とする X MCP がこの run では利用できず、公開検索で代替せず zero state とした。"
+    "<strong>Claude Code v2.1.263</strong>: 2026-09-06 02:54:20 UTCに公開。release noteの全1項目は、不具合修正と信頼性改善だった。",
+    "<strong>公式ブログは0件</strong>: Anthropic Engineering、Research、News、Claude Blogの各listingに窓内新規記事はなかった。",
+    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-09-04T00:00:00Z",
-      "displayTime": "2026年9月4日（公開時刻非掲載）",
-      "title": "フェルマーの最終定理を形式化",
-      "summary": "Claude が11日間ほぼ自律的に Lean で作業し、フェルマーの最終定理について初の end-to-end computer-checked proof を完成。13 million lines の Lean と、最終証明で使われた29,500の intermediate theorem を生成した。",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "urlLabel": "Anthropic Research で読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内 post を確定できず",
-      "body": "<strong>$Claude Official X Watch</strong> が前提とする X MCP tool が利用できなかったため、公開検索を source-of-truth 代替にせず official X main post は item 化していない。"
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong> が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
     },
     {
-      "label": "Anthropic engineer X signal は未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong> も X MCP 非利用のため、監視対象 account 群の relevant post を一次情報として確定できず、<strong>signals</strong> は空配列とした。"
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineering / News / Claude Blog の窓内新規記事はなし",
-      "body": "Anthropic Engineering、Anthropic News、Claude Blog の各 listing に窓内新規記事はなかった。Anthropic Research では <strong>Sep 4, 2026</strong> の記事を1件確認した。"
+      "label": "公式サイト4面の窓内新規記事はなし",
+      "body": "Anthropic Engineering、Research、News、Claude Blogの各listingを確認したが、対象24時間窓に公開された新規記事はなかった。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "official site 4面では <strong>Anthropic Research</strong> に窓内記事が1件。Engineering、News、Claude Blog は0件だった。",
+      "headline": "0件",
+      "body": "official site 4面では、対象24時間窓の新規記事は0件だった。",
       "details": [
-        "<strong>Research</strong>: Formalizing Fermat’s Last Theorem（Sep 4, 2026、時刻非掲載）",
-        "<strong>Engineering / News / Claude Blog</strong>: 窓内 entry 0件"
-      ],
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "urlLabel": "記事を読む"
+        "<strong>Engineering / Research / News / Claude Blog</strong>: 窓内entry 0件"
+      ]
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLI を source of truth として確認したところ、窓内の新規 release は0件だった。最新の <strong>v2.1.261</strong>（2026-09-04 19:58:10 UTC）は窓開始前のため対象外。",
+      "headline": "1件",
+      "body": "GitHub CLIの<code>gh release view</code>をsource of truthとして確認したところ、この24時間窓には<strong>v2.1.263</strong>が1件入っていた。release bodyのvisible bullet全1項目を省略せず、<strong>修正</strong>に分類して和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.263",
+          "publishedAt": "2026-09-06 02:54:20 UTC",
+          "summary": "<strong>v2.1.263</strong>のrelease bodyに記載されたvisible bulletは<strong>Bug fixes and reliability improvements</strong>の1件だった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+          "urlLabel": "v2.1.263 release notes"
+        }
+      ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code releases"
     }
   ],
   "exclusions": [
-    "official X watch と engineer X watch は X MCP が利用できなかったため、公開検索で代替せず未確定の zero state とした。",
-    "official site で公開日だけが示された記事は、その visible publication date に基づいて24時間窓へ含めた。",
-    "Claude Code release は GitHub CLI の metadata と full body のみを source of truth とし、commit、issue、外部記事は使っていない。"
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
+    "Claude Code releaseはGitHub CLIのmetadataとfull bodyのみをsource of truthとし、commit、issue、外部記事は使っていない。"
   ],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Formalizing Fermat's Last Theorem",
-      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Blog listing",
-      "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Claude Code v2.1.263", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
   ]
 }
