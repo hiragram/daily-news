@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-07",
+  "windowLabel": "2026-09-05 17:00:47 UTC - 2026-09-06 17:00:47 UTC",
+  "archiveTitle": "Claude Code v2.1.263 reliability update",
+  "archiveSummary": "Claude Code v2.1.263が公開。公式ブログは0件、X 2系統はMCP不在で未確定。",
+  "latestSummary": "2026-09-05 17:00:47 UTC から 2026-09-06 17:00:47 UTC の24時間では、Claude Code v2.1.263が公開され、不具合修正と信頼性改善が案内された。公式サイトの記事は0件で、official X と monitored engineer X は X MCP が利用できず未確定。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.263</strong>: 2026-09-06 02:54:20 UTCに公開。release noteの全1項目は、不具合修正と信頼性改善だった。",
+    "<strong>公式ブログは0件</strong>: Anthropic Engineering、Research、News、Claude Blogの各listingに窓内新規記事はなかった。",
+    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong> が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong> もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "公式サイト4面の窓内新規記事はなし",
+      "body": "Anthropic Engineering、Research、News、Claude Blogの各listingを確認したが、対象24時間窓に公開された新規記事はなかった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "official site 4面では、対象24時間窓の新規記事は0件だった。",
+      "details": [
+        "<strong>Engineering / Research / News / Claude Blog</strong>: 窓内entry 0件"
+      ]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "1件",
+      "body": "GitHub CLIの<code>gh release view</code>をsource of truthとして確認したところ、この24時間窓には<strong>v2.1.263</strong>が1件入っていた。release bodyのvisible bullet全1項目を省略せず、<strong>修正</strong>に分類して和訳している。",
+      "releases": [
+        {
+          "version": "v2.1.263",
+          "publishedAt": "2026-09-06 02:54:20 UTC",
+          "summary": "<strong>v2.1.263</strong>のrelease bodyに記載されたvisible bulletは<strong>Bug fixes and reliability improvements</strong>の1件だった。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "不具合修正と信頼性改善を行った。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
+          "urlLabel": "v2.1.263 release notes"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
+    "Claude Code releaseはGitHub CLIのmetadataとfull bodyのみをsource of truthとし、commit、issue、外部記事は使っていない。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Claude Code v2.1.263", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
