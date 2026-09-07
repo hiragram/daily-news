@@ -1,9 +1,9 @@
 {
   "date": "2026-09-08",
-  "windowLabel": "2026-09-06 17:01:34 UTC - 2026-09-07 17:01:34 UTC",
+  "windowLabel": "2026-09-06 23:02:36 UTC - 2026-09-07 23:02:36 UTC",
   "archiveTitle": "No confirmed Claude updates",
   "archiveSummary": "公式サイトとClaude Codeリリースは0件。X 2系統はMCP不在で未確定。",
-  "latestSummary": "2026-09-06 17:01:34 UTC から 2026-09-07 17:01:34 UTC の24時間では、公式サイトの記事とClaude Codeリリースはいずれも0件だった。official X と monitored engineer X は X MCP が利用できず未確定。",
+  "latestSummary": "2026-09-06 23:02:36 UTC から 2026-09-07 23:02:36 UTC の24時間では、公式サイトの記事とClaude Codeリリースはいずれも0件だった。official X と monitored engineer X は X MCP が利用できず未確定。",
   "summaryBullets": [
     "<strong>公式ブログは0件</strong>: Anthropic Engineering、Research、News、Claude Blogの各listingに窓内新規記事はなかった。",
     "<strong>Claude Codeリリースは0件</strong>: 最新のv2.1.263は2026-09-06 02:54:20 UTC公開で、対象窓の開始前だった。",
