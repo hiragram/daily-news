@@ -1,12 +1,12 @@
 {
   "date": "2026-09-09",
-  "windowLabel": "2026-09-07 23:02:55 UTC - 2026-09-08 23:02:55 UTC",
-  "archiveTitle": "Claude Platform guide; Claude Code v2.1.265",
-  "archiveSummary": "Claude Blog 1件、Claude Code v2.1.265。X 2系統はMCP不在で未確定。",
-  "latestSummary": "対象24時間では、Claude Blogがコスト削減と性能改善の実践ガイドを公開し、Claude Codeは<strong>v2.1.265</strong>をリリースした。official X と monitored engineer X は X MCP が利用できず未確定。",
+  "windowLabel": "2026-09-08 05:02:23 UTC - 2026-09-09 05:02:23 UTC",
+  "archiveTitle": "Claude Platform guide; Claude Code v2.1.266",
+  "archiveSummary": "Claude Blog 1件、Claude Code v2.1.266 / v2.1.265。X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間では、Claude Blogがコスト削減と性能改善の実践ガイドを公開し、Claude Codeは<strong>v2.1.266</strong>と<strong>v2.1.265</strong>をリリースした。official X と monitored engineer X は X MCP が利用できず未確定。",
   "summaryBullets": [
     "<strong>Claude Blog 1件</strong>: prompt caching、instructions、effortの調整で、性能を損なわずClaude Platformのコストを抑える方法を解説した。",
-    "<strong>Claude Code 1件</strong>: <strong>v2.1.265</strong>のrelease note全50項目を完全取得し、項目ごとに和訳・分類した。",
+    "<strong>Claude Code 2件</strong>: <strong>v2.1.266</strong>と<strong>v2.1.265</strong>のrelease note全51項目を完全取得し、項目ごとに和訳・分類した。",
     "<strong>official X / engineer X は未確定</strong>: X MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
   ],
   "officialNews": [{
@@ -33,9 +33,19 @@
       "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform", "urlLabel": "記事を読む"
     },
     {
-      "title": "Claude Code リリース", "headline": "1件",
-      "body": "GitHub CLIをsource of truthとして、窓内に<strong>v2.1.265</strong>を1件確認した。release note全50項目を完全取得し、全項目を個別に和訳・分類した。",
+      "title": "Claude Code リリース", "headline": "2件",
+      "body": "GitHub CLIをsource of truthとして、窓内に<strong>v2.1.266</strong>と<strong>v2.1.265</strong>を確認した。release note全51項目を完全取得し、全項目を個別に和訳・分類した。",
       "releases": [{
+        "version": "v2.1.266", "publishedAt": "2026-09-08 23:55:14 UTC",
+        "summary": "LLM gatewayおよびproxy構成で全requestが失敗するv2.1.265の回帰を修正した。",
+        "details": ["新機能 0件", "変更 0件", "修正 1件"],
+        "sections": [
+          {"title": "修正", "items": [
+            "LLM gatewayおよびproxy構成に影響したv2.1.265の回帰を修正した。従来は<code>ANTHROPIC_BASE_URL</code>と<code>ANTHROPIC_AUTH_TOKEN</code>の両方が設定されない限り無視されていた非公開の<code>CLAUDE_CODE_USE_GATEWAY</code>環境変数が、v2.1.265では単独でCloud gatewayへのsign-inを強制し、API key、<code>apiKeyHelper</code>、またはcustom auth headerと併用する構成で全requestが「Not signed in to the Cloud gateway」と失敗していた。この環境変数は再び単独では無視されるため、設定変更は不要。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266", "urlLabel": "v2.1.266 release note"
+      }, {
         "version": "v2.1.265", "publishedAt": "2026-09-08 20:37:31 UTC",
         "summary": "plugin directory一括読込、tool result保存上限、prompt cache再利用、Remote Control、MCP、gateway、VS Codeを中心とする改善を含む。",
         "details": ["新機能 4件", "変更 12件", "修正 34件"],
@@ -114,6 +124,7 @@
     {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
     {"title": "Reducing cost and improving performance with Claude Platform", "url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform"},
     {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.266", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266"},
     {"title": "Claude Code v2.1.265", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"}
   ]
 }
