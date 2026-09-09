@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-10",
+  "windowLabel": "2026-09-08 17:02:25 UTC - 2026-09-09 17:02:25 UTC",
+  "archiveTitle": "Claude Code v2.1.266 and v2.1.265",
+  "archiveSummary": "Claude Code v2.1.266 / v2.1.265。公式ブログ4面は0件、X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間では、Claude Codeが<strong>v2.1.266</strong>と<strong>v2.1.265</strong>をリリースした。公式サイト4面は新規記事0件、official X と monitored engineer X は X MCP が利用できず未確定。",
+  "summaryBullets": [
+    "<strong>Claude Code 2件</strong>: <strong>v2.1.266</strong>と<strong>v2.1.265</strong>のrelease note全51項目を完全取得し、項目ごとに和訳・分類した。",
+    "<strong>公式サイト4面は0件</strong>: Anthropic Engineering、Research、News、Claude Blogに窓内新規記事はなかった。",
+    "<strong>official X / engineer X は未確定</strong>: X MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {"label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず", "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索を代替にせずofficial X main postはitem化していない。"},
+    {"label": "Anthropic engineer X signalは未確定", "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを確定できず、<strong>signals</strong>は空配列とした。"},
+    {"label": "公式サイト4面の窓内新規記事はなし", "body": "Anthropic Engineering、Research、News、Claude Blogの各listingに窓内新規記事はなかった。"}
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ", "headline": "0件",
+      "body": "official site 4面では窓内新規記事を確認しなかった。",
+      "details": ["<strong>Anthropic Engineering / Research / News / Claude Blog</strong>: 窓内entry 0件"],
+      "url": "https://claude.com/blog", "urlLabel": "Claude Blogを見る"
+    },
+    {
+      "title": "Claude Code リリース", "headline": "2件",
+      "body": "GitHub CLIをsource of truthとして、窓内に<strong>v2.1.266</strong>と<strong>v2.1.265</strong>を確認した。release note全51項目を完全取得し、全項目を個別に和訳・分類した。",
+      "releases": [{
+        "version": "v2.1.266", "publishedAt": "2026-09-08 23:55:14 UTC",
+        "summary": "LLM gatewayおよびproxy構成で全requestが失敗するv2.1.265の回帰を修正した。",
+        "details": ["新機能 0件", "変更 0件", "修正 1件"],
+        "sections": [
+          {"title": "修正", "items": [
+            "LLM gatewayおよびproxy構成に影響したv2.1.265の回帰を修正した。従来は<code>ANTHROPIC_BASE_URL</code>と<code>ANTHROPIC_AUTH_TOKEN</code>の両方が設定されない限り無視されていた非公開の<code>CLAUDE_CODE_USE_GATEWAY</code>環境変数が、v2.1.265では単独でCloud gatewayへのsign-inを強制し、API key、<code>apiKeyHelper</code>、またはcustom auth headerと併用する構成で全requestが「Not signed in to the Cloud gateway」と失敗していた。この環境変数は再び単独では無視されるため、設定変更は不要。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266", "urlLabel": "v2.1.266 release note"
+      }, {
+        "version": "v2.1.265", "publishedAt": "2026-09-08 20:37:31 UTC",
+        "summary": "plugin directory一括読込、tool result保存上限、prompt cache再利用、Remote Control、MCP、gateway、VS Codeを中心とする改善を含む。",
+        "details": ["新機能 4件", "変更 12件", "修正 34件"],
+        "sections": [
+          {"title": "新機能", "items": [
+            "Claude DesktopとCoworkがClaude apps gateway経由で送るtelemetryに、terminal sessionと同じく<code>user.email</code>と<code>user.groups</code>を追加した。",
+            "<code>--plugin-dir</code>でplugin群を含むfolderを指定可能にした。manifestを持つ各child folderを読み込み、実行中の追加・削除も反映する。",
+            "diskへ保存するtool resultに1 GBの上限を追加し、保存fileが切り詰められた場合はconversation内previewで通知するようにした。",
+            "[VSCode] 一定期間inactiveなsessionを自動archiveする機能を追加した。「Archive inactive sessions」設定の既定値は14日。"
+          ]},
+          {"title": "変更", "items": [
+            "大規模repositoryでの<code>--worktree</code>起動を改善し、Git 2.32以降では新しいworktreeをparallel checkoutするようにした。",
+            "<code>/workflows</code>のagent詳細を改善し、tool callの状態とsubagentのtask listを表示し、Enterでinputとresultを展開できるようにした。",
+            "prompt入力途中のslash command候補をlist表示にし、fullscreen外ではTabで開けるようにした。plugin skillはbare nameでも検索できる。",
+            "sign-inが必要なremote MCP serverでは、実際にauthenticateするまでOAuth clientを登録しないようにした。",
+            "多数のfileを読んだ長いsessionのresume時間を改善した。",
+            "size limitを超えるimageをdecodeできない際、原因と修正方法を示すerrorへ改善した。",
+            "他者が作成したartifactを読む際、pageをuntrusted contentとして扱い、埋め込みinstructionを中継せず警告するsummaryへ改善した。",
+            "<code>.claude</code> folder permissionの説明を、session中にprojectの<code>.claude</code> folder（または<code>~/.claude</code>）のfile編集を許可するoptionだと分かる表現へ更新した。",
+            "<code>forceLoginGatewayUrl</code>があるmachineはstartupからClaude apps gateway sessionとして扱い、残存claude.ai loginやAPI keyを使わないよう変更した。",
+            "image処理をruntime組み込みsupportへ変更し、CLIがnative image moduleをtemp directoryへ展開しないようにした。",
+            "Installed tabと<code>claude plugin details</code>の表示metadataはmarketplace entryを優先し、不足fieldを<code>plugin.json</code>から補うよう変更した。",
+            "Claude apps gateway sessionは、managed settingsの<code>OTEL_EXPORTER_OTLP_ENDPOINT</code>で指定されたcollectorへOpenTelemetryを直接exportするよう変更した。"
+          ]},
+          {"title": "修正", "items": [
+            "foregroundでspawnしたsubagentをresumeするとtool listとsystem prompt prefixが変わり、そのagentのprompt cache再利用が壊れる問題を修正した。",
+            "agent teammateとresumeしたsubagentが後続turnでSubagentStart hook contextとpreload済みskillをprompt prefix外へ移し、prompt cache再利用が壊れる問題を修正した。",
+            "tool実行中に前processが停止した後のresumeを修正し、最後のpromptを書き換えず、中断されたtool callを保持してinterruptedとmarkするようにした。",
+            "<code>/model opusplan[1m]</code>が「Model not found」で拒否される問題を修正した。",
+            "syntax-highlighted codeでRubyの<code>?</code>、Erlangの<code>$</code>、Perlの<code>$</code> sigil後の文字が欠けることがある問題を修正した。",
+            "slash-commandまたは@-file suggestion listの開閉時にfullscreen transcriptが1 rowずれる問題を修正した。",
+            "backslashを含むplugin pathがmacOSとLinuxでsymlink containment checkを回避できる問題を修正した。",
+            "名前が2つのdotで始まるplugin directoryをplugin root外として誤って拒否する問題を修正した。",
+            "token refresh中にsessionを閉じると、VS CodeとSDK sessionで再loginを求められることがある問題を修正した。",
+            "Remote Control sessionがreply最後のmessageより先にturn終了signalを送り、最終部分到着前に完了表示される問題を修正した。",
+            "idle timeout直前にmessageが届くとbackground（<code>--bg</code>）sessionがturn途中で終了されることがある問題を修正した。",
+            "Claude Code自身のgit probeがworking tree内のnested repositoryで設定されたclean filterを実行する問題を修正した。",
+            "advisor toolとinstructionをrequestごとに再決定する問題を修正し、決定を一度だけ行い、変更時はconversationで通知するようにした。",
+            "artifact publishがconnectorに存在しないtool nameを受理する問題を修正し、宣言toolが皆無なら拒否し、一部だけなければwarningするようにした。",
+            "managed settingsがskillだけをpluginに限定した場合の<code>/add-dir</code>によるagent読込拒否と、agentだけが限定された場合の誤った予告を修正した。",
+            "tmux内などで2打目が1秒を超えるとtwo-key shortcutが無言でcancelされる問題を修正し、3秒待機してtimeout時にnoticeを表示するようにした。",
+            "forked skillがkickoff promptをstreamせず、<code>--forward-subagent-text</code>使用時にもtext turnをprogress eventとして送らない問題を修正した。",
+            "OSが検査できないpluginのdefault component folderが無言でskipされる問題を修正し、<code>/plugin</code>にerror code付きで表示するようにした。",
+            "Claude apps gatewayのOTLP relayが不正または過大なpayloadを数件拒否されると、collectorへの全forwardingを30秒停止する問題を修正した。",
+            "<code>/plugin</code>と<code>claude plugin list --json --available</code>で、metadataが<code>plugin.json</code>だけにあるpluginのdescriptionとdisplay nameが出ない問題を修正した。",
+            "managed settings指定のgatewayへsign-inしたsessionで<code>/login</code>を再実行するとgateway URL未設定と表示される問題を修正した。",
+            "settings fileへ書き込めない場合でも<code>/model</code>がdefault保存済みと表示する問題を修正し、保存失敗と理由を示すようにした。",
+            "Remote Controlからの<code>/clear</code>がSessionStart hookと開いたterminal dialogを待つ問題を修正した。",
+            "<code>/config</code> dialogがtab切替時に高さを変える問題を修正した。",
+            "container restart後のworkflow resumeでrun journalがないと全agentを再実行する問題を修正し、明確なerrorで失敗するようにした。",
+            "<code>claude-api</code> skillのerror-code referenceを修正し、model access failureは404、利用不能なbeta headerは400であることを反映した。",
+            "non-interactive sessionがuser messageごとにshell working directoryをresetする問題を修正し、<code>cd</code>がturnをまたいで維持されるようにした。",
+            "legacy HTTP+SSE transportだけを話す<code>http</code>設定のMCP serverに接続できない問題を修正し、SSEへfallbackするようにした。",
+            "cloud sessionの一部claude.ai connectorで、接続済みなのにauthentication requiredと表示される問題を修正した。",
+            "connector approvalまたはsign-in linkの応答待ち中、remote sessionがsandbox containerを起動したままにする問題を修正した。",
+            "resumeしたsessionのbackground task未完了noticeに長いmodel向けrecovery instructionが表示される問題を修正し、短いstatus lineにした。",
+            "WindowsのAppContainerまたはrestricted-token sandbox内でRead、Write、Editが全fileをsymlink解決errorとして拒否する問題を修正した。",
+            "[VSCode] 10分を超えて開いていたconversationがReload Windowまたはrestart後にsidebar chatでblankになる問題を修正した。",
+            "[VSCode] 「Remote Control is active」messageでtimeline dotがtextより下にずれる問題を修正した。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265", "urlLabel": "v2.1.265 release note"
+      }],
+      "url": "https://github.com/anthropics/claude-code/releases", "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "公式サイト4面はlistingと記事のvisible publication metadataに基づいて判定した。",
+    "Claude Code releaseはGitHub CLIのmetadataとfull bodyのみをsource of truthとし、commit、issue、外部記事は使っていない。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.266", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266"},
+    {"title": "Claude Code v2.1.265", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265"}
+  ]
+}
