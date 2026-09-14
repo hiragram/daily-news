@@ -1,12 +1,12 @@
 {
   "date": "2026-09-15",
-  "windowLabel": "2026-09-13 17:02:22 UTC - 2026-09-14 17:02:22 UTC",
-  "archiveTitle": "Claude for Financial Advisors",
-  "archiveSummary": "Claude Blog 1件。Claude Codeリリースは0件、X 2系統はMCP不在で未確定。",
-  "latestSummary": "対象24時間では、Claude Blogが金融アドバイザー向けのconnectorsとworkflow skillsを発表した。Claude Codeの窓内releaseは0件で、official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "windowLabel": "2026-09-13 23:01:18 UTC - 2026-09-14 23:01:18 UTC",
+  "archiveTitle": "Claude Blog 4件とClaude Code v2.1.271",
+  "archiveSummary": "Claude Blog 4件、Claude Code v2.1.271の全96項目。X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間ではClaude Blogに4件の記事が公開され、Claude Code v2.1.271ではfast mode、sandbox、policy、MCP、artifact、VS Code、Claude Tag、Code Reviewなど96項目の更新が入った。official Xとmonitored engineer XはX MCPが利用できず未確定。",
   "summaryBullets": [
-    "<strong>Claude Blog 1件</strong>: 金融アドバイザー向けに、custodian、portfolio platform、CRM、planning toolへ接続するconnectorsと、日常業務向けskillsを発表した。",
-    "<strong>Claude Codeリリースは0件</strong>: 最新のv2.1.270は2026-09-12 19:45:44 UTC公開で、対象窓の開始前だった。",
+    "<strong>Claude Blog 4件</strong>: CI負荷のscale、金融advisor向け機能、医療でのClaude Tag、AI production移行blueprintを公開した。",
+    "<strong>Claude Code v2.1.271</strong>: 2026-09-14 22:12:54 UTC公開。全96項目を新機能10件・変更27件・修正59件に分類して和訳した。",
     "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
   ],
   "officialNews": [
@@ -14,11 +14,29 @@
       "label": "Claude Blog",
       "datetime": "2026-09-14T00:00:00Z",
       "displayTime": "2026年9月14日（公開時刻非掲載）",
-      "title": "Claude for Financial Advisors",
-      "summary": "Anthropicは、金融アドバイザーが利用するcustodian、portfolio platform、CRM、planning toolをClaudeへ接続するconnectorsと、meeting prep、portfolio analysis、compliance checkなどを支援するworkflow skillsを発表した。重要な判断や対外actionは人間のreviewとapprovalを前提としている。",
-      "url": "https://claude.com/blog/claude-for-financial-advisors",
+      "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "summary": "6か月で25倍になったCI jobへ対応するため、test impact analysisをsingletonからjournal付きin-memory storeとstateless workerの水平scale構成へ再設計した経緯を解説した。",
+      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
       "urlLabel": "Claude Blogで読む",
       "primary": true
+    },
+    {
+      "label": "Claude Blog", "datetime": "2026-09-14T00:00:00Z", "displayTime": "2026年9月14日（公開時刻非掲載）",
+      "title": "Claude for Financial Advisors",
+      "summary": "金融advisor向けにcustodian、portfolio platform、CRM、planning toolのconnectorsとmeeting prep、portfolio analysis、compliance check用skillsを発表した。",
+      "url": "https://claude.com/blog/claude-for-financial-advisors", "urlLabel": "Claude Blogで読む"
+    },
+    {
+      "label": "Claude Blog", "datetime": "2026-09-14T00:00:00Z", "displayTime": "2026年9月14日（公開時刻非掲載）",
+      "title": "How healthcare organizations use Claude Tag",
+      "summary": "Insight Health、Tennr、MedallionがPHIへ触れないchannelと限定connectorでClaude Tagを使い、alert triage、internal tool保守、payer rule回答を行う事例を紹介した。",
+      "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag", "urlLabel": "Claude Blogで読む"
+    },
+    {
+      "label": "Claude Blog", "datetime": "2026-09-14T00:00:00Z", "displayTime": "2026年9月14日（公開時刻非掲載）",
+      "title": "Deploying AI from pilot to production",
+      "summary": "AnthropicとAccentureがAI pilotをproductionへ移す7つの検討事項、job定義、TCO、risk別oversight、ownershipのblueprintを提示した。",
+      "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production", "urlLabel": "Claude Blogで読む"
     }
   ],
   "officialZeroStates": [
@@ -32,45 +50,156 @@
     },
     {
       "label": "Engineering / Research / Newsの窓内新規記事はなし",
-      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 14, 2026</strong>の記事を1件確認した。"
+      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 14, 2026</strong>の記事を4件確認した。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が1件。Engineering、Research、Newsは0件だった。",
+      "headline": "4件",
+      "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が4件。Engineering、Research、Newsは0件だった。",
       "details": [
-        "<strong>Claude Blog</strong>: Claude for Financial Advisors（Sep 14, 2026、時刻非掲載）",
+        "<strong>Claude Blog</strong>: Sep 14, 2026の記事4件（公開時刻非掲載）",
         "<strong>Engineering / Research / News</strong>: 窓内entry 0件"
       ],
-      "url": "https://claude.com/blog/claude-for-financial-advisors",
-      "urlLabel": "Claude Blogで読む"
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blogを確認"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIのrelease metadataをsource of truthとして確認したところ、この24時間窓に公開されたClaude Code releaseはなかった。",
-      "details": [
-        "<strong>最新release</strong>: v2.1.270（2026-09-12 19:45:44 UTC）は窓開始前のため対象外"
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "Claude Code releases"
+      "headline": "v2.1.271",
+      "body": "fast mode、sandbox、organization policy、MCP、artifact、VS Code、Claude Tag、Code Reviewを含む全96項目を分類・和訳した。",
+      "details": ["新機能 10件", "変更 27件", "修正 59件"],
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "urlLabel": "v2.1.271 release notes",
+      "releases": [{
+        "version": "v2.1.271",
+        "publishedAt": "2026-09-14 22:12:54 UTC",
+        "summary": "Remote fast mode、command単位domain許可、policy、MCP、artifact、各UIを幅広く更新した。",
+        "details": ["新機能 10件", "変更 27件", "修正 59件"],
+        "sections": [
+          {"title": "新機能", "items": [
+            "Remote sessionにfast modeを追加し、組織が許可すればhost設定または<code>/fast</code>を適用できるようにした。",
+            "fullscreenの<code>/config</code>にmouse scroll、値のclick変更、row highlightを追加した。",
+            "self-hosted runnerに<code>--drain-marker-file</code>を追加し、SIGTERM時のhost drainをtelemetry報告できるようにした。",
+            "sandbox付きauto modeのBash、PowerShell、Monitorへcommand単位<code>allowed_domains</code>を追加した。",
+            "agent設定へ<code>omitClaudeMd</code>を追加し、managed policy以外のCLAUDE.mdを読まないsubagentを作れるようにした。",
+            "plugin install/updateへ<code>--accept-command &lt;sha256&gt;</code>を追加し、以前表示したcommandだけを承認できるようにした。",
+            "<code>modelPricing</code>とgateway pricingで1超10以下のchargeback <code>multiplier</code>に対応した。",
+            "Bedrock、Vertex、Foundry、gateway userへdesktop appを案内するspinner tipを追加した。",
+            "[VSCode] open fileの自動添付を止めるAttach Open File settingを追加した。",
+            "[Web] Cloud environmentへCustom network accessとallowed-domains listを追加した。"
+          ]},
+          {"title": "変更", "items": [
+            "大きなdiffと長いtranscriptのterminal描画を高速化した。",
+            "built-in model dataの冗長な起動時validationを省いた。",
+            "主要hook実行中に経過時間付きspinnerを出し、SessionStart待ちをEscでcancel可能にした。",
+            "長いthinkingとoutput-token limitからの復帰に専用spinner statusを表示するようにした。",
+            "dynamic workflowがusage limitでpauseし、reset後に自動継続するようにした。",
+            "network不調時にRemote Controlが残す空sessionを減らした。",
+            "cloudからChromeへ接続できない際、computerがsleep中の可能性を案内するようにした。",
+            "<code>claude mcp serve</code>が30秒ごとにprogressを送り、idle timeoutを防ぐようにした。",
+            "Foundry/AWSで途中接続した<code>alwaysLoad</code> MCPを次turnから直接使えるようにした。",
+            "Markdown artifactを文書styleとsyntax highlight付きで描画するようにした。",
+            "fileなし・unsupported typeのArtifact publish errorを明確化した。",
+            "Artifact contractにないcapabilityのerrorへsupported capability一覧を加えた。",
+            "同時に監視できるpublished artifactを5から10へ増やした。",
+            "page数不明のPDF @mentionで推測値でなくunknownと表示するようにした。",
+            "<code>/mobile</code>を端末に合うstoreを開く単一QR codeへ変更した。",
+            "auto modeのinline <code>!</code> commandへdefault-mode permission ruleを適用するようにした。",
+            "auto modeのsubagent報告をclassifierが審査する専用hand-back callへ変更した。",
+            "Monitorを最大30分（<code>-p</code>は10分）deadline必須とし<code>persistent</code>を廃止した。",
+            "IDE selectionを折返し可能なpill表示にし、Backspaceで除外可能にした。",
+            "Proのdefault workflow sizeをsmallにし、medium目安を15から10 agentへ下げた。",
+            "custom gateway系sessionが未使用のclaude.ai loginをrefreshしないようにした。",
+            "bundled <code>claude-api</code> skillでstreaming inputと<code>user.define_outcome</code>を有効化した。",
+            "[VSCode] Hooks保存拒否時に理由とsettings fileを開くbuttonを表示するようにした。",
+            "[VSCode] toggleのon色をeditor themeのbutton色へ変更した。",
+            "[Web] RoutinesをYours/Templates tabとstatus付きcard layoutへ変更しcalendarを削除した。",
+            "[Web] Cloud environments adminにdefault environmentと推奨typeを表示するようにした。",
+            "[Claude Tag] Environment pickerへhost種別と編集・作成linkを追加した。"
+          ]},
+          {"title": "修正", "items": [
+            "credential切替後も古いorganization policyを再利用しrefreshが遅れる問題を修正した。",
+            "organization policyのload・変更後にtool/command listが更新されない問題を修正した。",
+            "読込不能な<code>managed-mcp.json</code>でもexclusive controlを維持し警告するようにした。",
+            "<code>ANTHROPIC_UNIX_SOCKET</code> proxy経由のorg policy取得が拒否される問題を修正した。",
+            "worker restart後のcloud sessionで全subagent tool callがschema errorになる問題を修正した。",
+            "fast mode無効組織で<code>/fast off</code>がoffにできない問題を修正した。",
+            "org check skip時にAPI拒否後も毎turn fast requestを再送する問題を修正した。",
+            "retry watchdog下のfast modeがcredit limit/overloadでstandardへfallbackしない問題を修正した。",
+            "Bash permission checkが未認識option後の入力fileを見落とす問題を修正した。",
+            "Bash permission checkがpatternやoption内wildcardの展開fileをskipする問題を修正した。",
+            "shell variable declaration flagで実行commandを偽装できる問題を修正した。",
+            "複数cd、subshell、cd+git chainがworking-directory外read promptを回避する問題を修正した。",
+            "sandbox起動失敗後の古い<code>.git/config.lock</code>がLinuxでgit操作を壊す問題を修正した。",
+            "macOS file-event service飽和時にsettings変更を見落とす問題をpolling fallbackで修正した。",
+            "全toolがMCP由来のresumed <code>claude -p</code>がdefer_loading errorになる問題を修正した。",
+            "gatewayのnon-streaming <code>text/plain</code>応答をmalformed扱いする問題を修正した。",
+            "MCPの<code>list_changed</code>連打で高CPUとlist request反復になる問題を修正した。",
+            "MCP OAuth client registrationのconsent、redirect URI、concurrent write処理を修正した。",
+            "MCP toolをbare nameで選ぶとtool searchがmatchしない問題を修正した。",
+            "Ctrl+OがMCP reconnectをcancelし、transcript中のRemote <code>/mcp</code>が失敗する問題を修正した。",
+            "ToolSearch利用不能時にもChrome promptがToolSearch利用を指示する問題を修正した。",
+            "policy保留のcross-session messageへdelivery traceが残らず既読を示唆する問題を修正した。",
+            "compaction後も実行中のbackground commandを二重起動する問題を修正した。",
+            "実際に使ったmodelへ戻す際にもcache消失warningが出る問題を修正した。",
+            "<code>/cd</code>後の<code>/reload-skills</code> count不一致を修正した。",
+            "短いterminalでresume/continueが1〜2 sessionしか表示しない問題を修正した。",
+            "resume/teleportが前conversationのfile-read trackingを保持する問題を修正した。",
+            "model familyがdefaultと異なるresumeで<code>[1m]</code>が落ちる問題を修正した。",
+            "<code>/artifacts</code>添付がresume後に消える問題を修正した。",
+            "background sessionがartifactの外部republishを監視しない問題を修正した。",
+            "inode 0のvirtual driveで最初以外のagent/command/styleをloadしない問題を修正した。",
+            "64 MiB超のhost configをself-hosted sessionが黙って失う問題を修正しsnapshot optionを追加した。",
+            "sign out後もsynced skillが残り続ける問題を修正し期限後にrecoverable trashへ移すようにした。",
+            "利用不能・無効なcommandをspinner tipが提案する問題を修正した。",
+            "<code>/add-dir</code>でarrowをcursor移動にし、Enterがtyped pathだけを追加するようにした。",
+            "main prompt外で先頭<code>!</code>が末尾へ移る問題を修正した。",
+            "<code>__proto__</code>等のhook matcherで<code>/hooks</code>がcrashする問題を修正した。",
+            "fullscreen textに古いbackground colorが残る描画glitchを修正した。",
+            "attached background sessionでstのDeleteとrxvtのAlt+arrowが動かない問題を修正した。",
+            "terminal capability replyが終了・suspend・editor起動時に入力へ現れる問題を修正した。",
+            "[VSCode] Hooks/Permission dialogが失敗saveを成功表示しpolicy lockでblankになる問題を修正した。",
+            "[VSCode] hook replace重複、header secret消失、gitignore順序を修正した。",
+            "[VSCode] mapped/SUBST driveでsession historyがcurrentだけになる問題を修正した。",
+            "[VSCode] Active filterがopen idle sessionを隠す問題を修正した。",
+            "[VSCode] refresh時にnew chatがprevious chatへ戻る問題を修正した。",
+            "[VSCode] <code>CLAUDE_CONFIG_DIR</code>変更後も古いfolderを保持する問題を修正した。",
+            "[VSCode] background command実行時にWindows consoleがflashする問題を修正した。",
+            "[VSCode] prompt cache tooltipの遅延・二重表示を修正した。",
+            "[Web] 終了processがlive表示のまま約10分応答しない問題を即時restartで修正した。",
+            "[Claude Tag] thread中心のchannelで約1時間ごとにcontextを失う問題を修正した。",
+            "[Claude Tag] restart後にPR監視のCI/comment/review通知が届かない問題を修正した。",
+            "[Claude Tag] reply済みthreadのfirst message削除時にworkが終了しない問題を修正した。",
+            "[Claude Tag] 別bot宛ての指示でpostを保留する問題を修正した。",
+            "[Claude Tag] busy/large channelをautomated postsが多いと誤説明する問題を修正した。",
+            "[Code Review] review待ち中の新commitがrequested reviewを失わせる問題を修正した。",
+            "[Code Review] GitHub error後に同じfindingを重複投稿する問題を修正した。",
+            "[Code Review] line移動後にresolved security findingを再投稿する問題を修正した。",
+            "[Code Review] 完了済み<code>/ultrareview</code>を開くとreviewを再実行する問題を修正した。",
+            "Windowsでtemp output pathが260文字に達するとPowerShellが無出力Exit 1になる問題を修正した。"
+          ]}
+        ]
+      }]
     }
   ],
   "exclusions": [
     "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
     "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
     "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
-    "Claude Code releaseはGitHub CLIのmetadataのみをsource of truthとし、commit、issue、外部記事は使っていない。"
+    "Claude Code releaseはGitHub CLIで取得した公式metadataと本文のみをsource of truthとし、全96 bulletを分類・和訳した。"
   ],
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
     {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
     {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Agentic coding is straining CI", "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic"},
     {"title": "Claude for Financial Advisors", "url": "https://claude.com/blog/claude-for-financial-advisors"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {"title": "How healthcare organizations use Claude Tag", "url": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag"},
+    {"title": "Deploying AI from pilot to production", "url": "https://claude.com/blog/deploying-ai-from-pilot-to-production"},
+    {"title": "Claude Code v2.1.271", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271"}
   ]
 }
