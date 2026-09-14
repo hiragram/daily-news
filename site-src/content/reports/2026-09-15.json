@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-15",
+  "windowLabel": "2026-09-13 17:02:22 UTC - 2026-09-14 17:02:22 UTC",
+  "archiveTitle": "Claude for Financial Advisors",
+  "archiveSummary": "Claude Blog 1件。Claude Codeリリースは0件、X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間では、Claude Blogが金融アドバイザー向けのconnectorsとworkflow skillsを発表した。Claude Codeの窓内releaseは0件で、official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "summaryBullets": [
+    "<strong>Claude Blog 1件</strong>: 金融アドバイザー向けに、custodian、portfolio platform、CRM、planning toolへ接続するconnectorsと、日常業務向けskillsを発表した。",
+    "<strong>Claude Codeリリースは0件</strong>: 最新のv2.1.270は2026-09-12 19:45:44 UTC公開で、対象窓の開始前だった。",
+    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-14T00:00:00Z",
+      "displayTime": "2026年9月14日（公開時刻非掲載）",
+      "title": "Claude for Financial Advisors",
+      "summary": "Anthropicは、金融アドバイザーが利用するcustodian、portfolio platform、CRM、planning toolをClaudeへ接続するconnectorsと、meeting prep、portfolio analysis、compliance checkなどを支援するworkflow skillsを発表した。重要な判断や対外actionは人間のreviewとapprovalを前提としている。",
+      "url": "https://claude.com/blog/claude-for-financial-advisors",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering / Research / Newsの窓内新規記事はなし",
+      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 14, 2026</strong>の記事を1件確認した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が1件。Engineering、Research、Newsは0件だった。",
+      "details": [
+        "<strong>Claude Blog</strong>: Claude for Financial Advisors（Sep 14, 2026、時刻非掲載）",
+        "<strong>Engineering / Research / News</strong>: 窓内entry 0件"
+      ],
+      "url": "https://claude.com/blog/claude-for-financial-advisors",
+      "urlLabel": "Claude Blogで読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIのrelease metadataをsource of truthとして確認したところ、この24時間窓に公開されたClaude Code releaseはなかった。",
+      "details": [
+        "<strong>最新release</strong>: v2.1.270（2026-09-12 19:45:44 UTC）は窓開始前のため対象外"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
+    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
+    "Claude Code releaseはGitHub CLIのmetadataのみをsource of truthとし、commit、issue、外部記事は使っていない。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Claude for Financial Advisors", "url": "https://claude.com/blog/claude-for-financial-advisors"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
