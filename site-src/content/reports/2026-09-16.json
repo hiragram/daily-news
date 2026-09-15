@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-16",
+  "windowLabel": "2026-09-14 17:01:16 UTC - 2026-09-15 17:01:16 UTC",
+  "archiveTitle": "Claude Blog 3件とClaude Code更新",
+  "archiveSummary": "Claude Blog 3件とClaude Code v2.1.272の全1項目。X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間ではClaude BlogにSalesforce連携、AI-nativeな営業組織、小規模事業者向けworkflow拡充の3件が公開され、Claude Code v2.1.272では不具合修正と信頼性改善が行われた。official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "summaryBullets": [
+    "<strong>Claude Blog 3件</strong>: Salesforce in Claude beta、営業組織へのClaude導入guide、Claude for Small Businessのworkflow・integration拡充を公開した。",
+    "<strong>Claude Code v2.1.272</strong>: 2026-09-15 00:42:25 UTC公開。完全なrelease本文の1項目を修正として和訳した。",
+    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-15T00:00:00Z",
+      "displayTime": "2026年9月15日（公開時刻非掲載）",
+      "title": "Bringing Salesforce into Claude",
+      "summary": "Salesforce in Claudeをbeta公開した。既存のSalesforce権限の下でaccount research、call prep、pipeline review、CRM更新などを支援する37のskillsとSalesforce・Slack connectorsを提供する。",
+      "url": "https://claude.com/blog/salesforce-in-claude",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-15T00:00:00Z",
+      "displayTime": "2026年9月15日（公開時刻非掲載）",
+      "title": "Building an AI-native revenue organization",
+      "summary": "Claudeをsales organizationへ展開するためのsetup判断、3段階のrollout plan、ROI測定frameworkをまとめたguideを公開した。",
+      "url": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+      "urlLabel": "Claude Blogで読む"
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-15T00:00:00Z",
+      "displayTime": "2026年9月15日（公開時刻非掲載）",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "summary": "Claude for Small Businessを43 workflowsと27の新integrationへ拡張し、無料workshopとpartner webinarを含むtraining programを発表した。",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "urlLabel": "Claude Blogで読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering / Research / Newsの窓内新規記事はなし",
+      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 15, 2026</strong>の記事を3件確認した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が3件。Engineering、Research、Newsは0件だった。",
+      "details": [
+        "<strong>Claude Blog</strong>: Sep 15, 2026の記事3件（公開時刻非掲載）",
+        "<strong>Engineering / Research / News</strong>: 窓内entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blogを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.272",
+      "body": "v2.1.272の完全なrelease本文にある不具合修正と信頼性改善の1項目を分類・和訳した。",
+      "details": ["新機能 0件", "変更 0件", "修正 1件"],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code release notes",
+      "releases": [
+        {
+          "version": "v2.1.272",
+          "publishedAt": "2026-09-15 00:42:25 UTC",
+          "summary": "不具合修正と信頼性改善を行った。",
+          "details": ["新機能 0件", "変更 0件", "修正 1件"],
+          "sections": [
+            {
+              "title": "修正",
+              "items": ["不具合修正と信頼性改善を行った。"]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+          "urlLabel": "v2.1.272 release notes"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
+    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
+    "Claude Code releaseはGitHub CLIで取得した公式metadataと本文のみをsource of truthとし、v2.1.272の全1 bulletを分類・和訳した。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Bringing Salesforce into Claude", "url": "https://claude.com/blog/salesforce-in-claude"},
+    {"title": "Building an AI-native revenue organization", "url": "https://claude.com/blog/building-an-ai-native-revenue-organization"},
+    {"title": "Claude for Small Business", "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"},
+    {"title": "Claude Code v2.1.272", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272"}
+  ]
+}
