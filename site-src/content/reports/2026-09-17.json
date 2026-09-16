@@ -1,0 +1,165 @@
+{
+  "date": "2026-09-17",
+  "windowLabel": "2026-09-15 17:02:19 UTC - 2026-09-16 17:02:19 UTC",
+  "archiveTitle": "Claude統合とClaude Code v2.1.273",
+  "archiveSummary": "Cowork・chat統合とClaude Code v2.1.273の全64項目。X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間ではClaude BlogでCoworkとchatの統合、Claude Docs・Slidesのbeta提供が発表され、Claude Code v2.1.273の全64項目を分類・和訳した。official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "summaryBullets": [
+    "<strong>Claude Blog 1件</strong>: Coworkとchatを1つのClaudeへ統合し、Claude Docs・Slidesをbeta提供すると発表した。",
+    "<strong>Claude Code v2.1.273</strong>: 完全なrelease本文から全64項目を、新機能4件・変更25件・修正35件として個別に和訳した。",
+    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-16T00:00:00Z",
+      "displayTime": "2026年9月16日（公開時刻非掲載）",
+      "title": "Claude Cowork and chat are now one Claude",
+      "summary": "Coworkとchatを1つのClaudeへ統合し、taskに応じてClaudeが必要なcapabilityを選ぶ体験へ移行する。Claude DocsとClaude Slidesも新たにbeta提供し、Claude Designをconversation内で利用可能にする。Pro・Maxから段階展開する。",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering / Research / Newsの窓内新規記事はなし",
+      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 16, 2026</strong>の記事を1件確認した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が1件。Engineering、Research、Newsは0件だった。",
+      "details": [
+        "<strong>Claude Blog</strong>: Sep 16, 2026の記事1件（公開時刻非掲載）",
+        "<strong>Engineering / Research / News</strong>: 窓内entry 0件"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blogを確認"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.273",
+      "body": "窓内リリースの完全なrelease本文にある全64項目を個別に分類・和訳した。",
+      "details": ["新機能 4件", "変更 25件", "修正 35件", "合計 64件"],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code release notes",
+      "releases": [
+        {
+          "version": "v2.1.273",
+          "publishedAt": "2026-09-15 20:23:03 UTC",
+          "summary": "gateway向けhint header、MCP切断通知、Remote Control sessionのforkを追加し、権限・認証・artifact・web・Claude Tag・Code Reviewを広範に改善した。",
+          "details": ["新機能 4件", "変更 25件", "修正 35件", "合計 64件"],
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "LLM gateway向けに `x-claude-code-request-class`、`x-claude-code-agent-type`、`x-claude-code-prev-tool-durations`、`x-claude-code-compaction`、`x-claude-code-context-compacted` request headerを追加した。`CLAUDE_CODE_GATEWAY_HINT_HEADERS=1` でopt-inできる。",
+                "session途中でMCP serverが切断され、自動再接続も断念した場合に、`/mcp` を案内する通知を追加した。",
+                "`claude --remote-control` または `/remote-control` で開始したsessionをClaude appからforkできるようにした。forkはcomputer上のbackground sessionとして実行される。",
+                "[Claude Code on the web] New routine pageまたはEdit routine dialogで入力済みのroutine名・prompt・編集内容を破棄する前に、「Discard unsaved changes?」確認を追加した。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "2.1.268で導入した、permission checkerが解析できないBash行（`eval`、`env -C`）へRead/Edit deny ruleを適用する変更を取り消した。`time -p make build` のようなcommandはdenyではなく再びpromptを表示する。",
+                "長時間sessionの応答性を改善し、hook進捗やsub-agent activityの更新ごとにconversation全体を再処理しないようにした。",
+                "Artifact toolで配信非対応のfile typeをpublishした際のerrorを改善し、対応typeと代替手順をClaudeへ伝え、terminalには簡潔な1行を表示するようにした。",
+                "Artifact toolのpage readを改善し、publish権限を持つ利用者に対してartifact serviceが保持するpage capabilityとdatabase ruleを明示するようにした。",
+                "artifact database writeを改善し、document全体を書き換えずに単一fieldを削除できるようにした。",
+                "artifact publishを改善し、claude.ai到達後にconnectionが切れたpublishを、失敗やduplicate versionを生じさせず安全に再送するようにした。",
+                "cloud sessionのGitHub errorを改善し、IP allow list、停止中のapp installation、SAML SSOをgenericなinstall案内ではなく原因として表示するようにした。",
+                "`/autofix-pr` で `gh pr view` が失敗した際、genericなexit codeではなく、sign-in・SAML・rate limitなどgh自身のerrorを表示するようにした。",
+                "`/autofix-pr` でPRへのGitHub webhook deliveryを設定できなかった理由（linked GitHub accountがない等）を、genericなwarningではなく明示するようにした。",
+                "`/web-setup` のerrorを改善し、拒否されたGitHub tokenでは想定原因と修正方法を列挙し、connection failureでは設定済みproxyまたはTLS certificate問題を示すようにした。",
+                "session内のSSL certificate・proxy connection errorを改善し、error codeと、untrusted corporate CAなら `NODE_EXTRA_CA_CERTS` など修正対象を示すようにした。",
+                "Claude loginの期限切れまたは失効でcloud sessionを作成できない場合のerrorを改善し、`/login` の実行を案内するようにした。",
+                "MCP serverへのsign-inがsession途中で期限切れになった場合のerrorを改善し、`/mcp` による再認証方法を案内するようにした。",
+                "Bedrock、Vertex、Foundryのauto modeは当面local classifierをdefaultで使用するよう変更した。platform側server classifierは `CLAUDE_CODE_AUTO_MODE_SERVER=1` で利用できる。",
+                "`OTEL_LOG_TOOL_DETAILS=1` でcost・token metricに実際のagent、skill、plugin、MCP server名も含めるよう変更した。",
+                "Claude accountでのsign-in時に、claude.ai pluginへのaccessもrequestするよう変更した。",
+                "`/bug` と `/feedback` reportは、最後のAPI requestからmodel behavior parameter（model、system prompt、tool）のみを含め、request metadataと `CLAUDE_CODE_EXTRA_BODY` fieldを除外するよう変更した。",
+                "Windowsで `--add-dir` にmapped network driveを追加した場合のUNC path permission checkを改善した。",
+                "[Claude Code on the web] adminの「Share cloud sessions」設定をClaude Code pageからData and privacyへ移し、Data and privacy adminも管理できるようにした。",
+                "[Claude Code on the web] cloud environmentがない新規利用者にMac/Windowsのdesktop app download全画面を表示せず、setupへ直接進めるようにした。",
+                "[Claude Code on the web] routine detail pageを改善し、breadcrumbへmenuとrenameを置き、on/off switchとRunを上部へ移し、run historyをroutine settingの横へ配置した。",
+                "[Claude Tag] AWS requestを署名できない場合（regionのないhostname等）のconnection failureを改善し、bare errorではなく理由と修正方法をClaudeへ伝えるようにした。",
+                "[Claude Tag] conversationが依存するincident channelなど、関連するpublic channelを依頼時だけでなくClaudeが自動で監視開始するよう変更した。",
+                "[Code Review] suggested fixで変更対象のbehaviorに他codeが依存する場合、fixが維持すべき動作を明示するよう改善した。",
+                "[Code Review] 2つ目の影響箇所を示すreview commentで、その箇所のissueを途中で切れた断片ではなく完全な文として記述するよう改善した。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "`permissions.blockReadsOutsideWorkingDirectories` 使用時にpermission checkerが完全解析できないBash commandがpromptを飛ばす問題と、bypass modeでsubshellが危険な `rm` を隠す問題を修正した。",
+                "organizationがSkillsを無効にした後もclaude.aiからsyncしたskillが利用可能なままになる問題を修正し、復元可能なtrashへ移動するようにした。",
+                "server-managed settingも存在する場合、MDMまたは `managed-settings.json` の `allowManagedMcpServersOnly`、`deniedMcpServers`、`disableClaudeAiConnectors` が無視される問題を修正した。",
+                "Bedrock・Vertex・Foundryの401/403 errorとClaude apps gatewayの403で `/login` を誤案内する問題を修正し、更新すべきcredential名またはgateway administratorへの問い合わせを表示するようにした。",
+                "`/login`、`/upgrade`、`/extra-usage` がconversation内の以前のthinkingを破棄し、次requestでprompt cache全体のrewriteを強制する問題を修正した。",
+                "cloudまたはRemote Control sessionでArtifact toolがchat添付fileをuploadした際、auto modeがapproval待ちで停止する問題を修正した。",
+                "repositoryの `.git` directoryが削除・移動された後、長時間sessionがstubの `.git/info/exclude` を再作成する問題を修正した。",
+                "shell mode中にmain promptの先頭へ入力した `!` が消える問題を修正し、`! grep …` のようなnegated commandを入力できるようにした。",
+                "macOSのReadがdragしたscreenshotやsystem上で別pathとして報告されるfileを「symlink resolution changed after permission was checked」で拒否する問題を修正した。",
+                "`permissions.blockReadsOutsideWorkingDirectories` でrepository settingが選んだmemory directoryをpromptへload・recall・indexしたり、memory extractionに使用したりする問題を修正した。",
+                "final streamed replyにtoken usageがない、またはmodel idがない場合にsub-agent・background agentが失敗扱いとなり、resultが配信されない問題を修正した。",
+                "context meterとauto-compactがadvisor-tool turnを実際のおよそ2倍で数え、実windowの約半分でauto-compactが発火する問題を修正した。",
+                "agents panelに表示されなくなった完了済みagent-team teammateが原因で `/tui` を再起動できない問題を修正した。",
+                "`.claude/scheduled_tasks.json` をnew worktreeなど別folderへcopyした後、保存済みscheduled taskが誤ったsessionで実行される問題を修正した。",
+                "subagentをrun途中でbackgroundへ移した場合（例: `CLAUDE_AUTO_BACKGROUND_TASKS`）、SDKと `--output-format stream-json` が残りのmessageとfinal reportを欠落させる問題を修正した。",
+                "`/install-github-app` がSAML SSO blockを「admin permissions required」と報告する問題を修正した。",
+                "Claude Desktop・VS Code・JetBrains sessionへ接続したRemote Control clientがsessionのcontext window usageを要求すると拒否される問題を修正した。",
+                "「Running PreCompact hooks…」などcompact status lineでspinnerが二重ellipsis（「……」）を表示する問題を修正した。",
+                "Artifactのreadまたはpublish後にspinner tipがfrontend-design pluginを誤って提案する問題を修正した。",
+                "[VSCode] product feedbackを無効にしたorganizationでも「Report a problem」が残り、`/bug`・`/feedback` がreport formを開く問題を修正した。",
+                "[VSCode] Windowsでturn完了後に赤い「Claude Code process exited with code 4294967295」bannerが表示される問題を修正した。",
+                "[Claude Code on the web] adminがorganization connectorを削除後に再追加するとroutineがaccessを失い、古いconnectorを呼び続ける問題を修正した。",
+                "[Claude Code on the web] organization settingからself-hosted environmentを作成するとserver errorで失敗し、半端なenvironmentが残る場合がある問題を修正した。",
+                "[Claude Tag] Enterprise Gridを切断してもworkspaceの1つが接続状態の場合、app再installから数分後にClaudeが無応答になる問題を修正した。",
+                "[Claude Tag] organization共有のprivate Slack channelで設定したscheduled taskが黙って投稿しない問題を修正し、作成元threadで継続実行するようにした。",
+                "[Claude Tag] Claudeがtask実行中に古いSlack threadへreplyすると、taskが最初から再開し、未pushの作業を失う場合がある問題を修正した。",
+                "[Claude Tag] account token更新直後に、誤った「couldn't find a Claude Code environment」通知を送る場合がある問題を修正した。",
+                "[Claude Tag] AWS connectionがBudgets、Savings Plans、WAF Classic、Import/Exportなどregionなしendpointを拒否する問題を修正し、Global Accelerator requestを正しく署名するようにした。",
+                "[Claude Tag] lowercaseのtoken typeを返すproviderでOAuth client-credentials・JWT-bearer connectionが失敗する問題を修正し、standardなBearer schemeを送るようにした。",
+                "[Claude Tag] Enterprise Grid shared channel、Claude未使用channel、legacy private channelでchannel managerの追加が拒否される問題を修正した。",
+                "[Claude Tag] Claudeが自動設定したSlack channelに保存済みmemoryがあってもadmin Memory pageへ表示されない問題を修正し、adminがopen・edit・deleteできるようにした。",
+                "[Code Review] earlier reviewに「Additional findings」があるPRへbase branchをmergeするとfull re-reviewが発火する問題を修正し、軽量なfollow-up reviewにした。",
+                "[Code Review] @mention、複数行にまたがるcode span、backtick付きHTML tagがあるためREVIEW.md全体が無視される問題を修正し、changed fileへlinkする行だけを除外するようにした。",
+                "[Code Review] `/ultrareview --post` がGitHub error後のretryでfinding commentを0回または2回投稿する問題を修正し、正確に1回投稿してreview対象commitを記載するようにした。",
+                "[Code Review] owner名またはrepository名に大文字があるGitHub repositoryで、empty pushや内容同一pushが再reviewされる問題を修正し、これらをskipするようにした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+          "urlLabel": "v2.1.273 release notes"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
+    "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
+    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
+    "Claude Code releaseはGitHub CLIで取得した公式metadataと本文のみをsource of truthとし、v2.1.273の全64 bulletを分類・和訳した。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
+    {"title": "Claude Cowork and chat are now one Claude", "url": "https://claude.com/blog/cowork-is-now-claude"},
+    {"title": "Claude Code v2.1.273", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273"}
+  ]
+}
