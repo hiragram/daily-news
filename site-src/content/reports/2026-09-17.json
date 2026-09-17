@@ -1,70 +1,171 @@
 {
   "date": "2026-09-17",
-  "windowLabel": "2026-09-15 23:01:25 UTC - 2026-09-16 23:01:25 UTC",
-  "archiveTitle": "Cowork・chat統合とDocs・Slides",
-  "archiveSummary": "Cowork・chat統合とClaude Docs・Slidesのbeta提供。X 2系統はMCP不在で未確定。",
-  "latestSummary": "対象24時間ではClaude BlogでCoworkとchatの統合、Claude Docs・Slidesのbeta提供が発表された。Claude Codeの窓内リリースは0件で、official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "windowLabel": "2026-09-16 05:02:44 UTC - 2026-09-17 05:02:44 UTC",
+  "archiveTitle": "Claude Code v2.1.274",
+  "archiveSummary": "Claude Code v2.1.274の全108項目とCowork・chat統合を収録。X 2系統はMCP不在で未確定。",
+  "latestSummary": "対象24時間ではClaude Code v2.1.274が公開され、108項目の更新を確認した。Claude BlogではCoworkとchatの統合記事が窓内に含まれ、official Xとmonitored engineer XはX MCPが利用できず未確定。",
   "summaryBullets": [
+    "<strong>Claude Code v2.1.274</strong>: 全108項目を新機能13件・変更24件・修正71件に分類して収録した。",
     "<strong>Claude Blog 1件</strong>: Coworkとchatを1つのClaudeへ統合し、Claude Docs・Slidesをbeta提供すると発表した。",
-    "<strong>Claude Code release 0件</strong>: 最新のv2.1.273は対象窓の開始前に公開されており、窓内リリースはなかった。",
-    "<strong>official X / engineer X は未確定</strong>: 指定skillが前提とするX MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+    "<strong>official X / engineer X は未確定</strong>: X MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
   ],
-  "officialNews": [
-    {
-      "label": "Claude Blog",
-      "datetime": "2026-09-16T00:00:00Z",
-      "displayTime": "2026年9月16日（公開時刻非掲載）",
-      "title": "Claude Cowork and chat are now one Claude",
-      "summary": "Coworkとchatを1つのClaudeへ統合し、taskに応じてClaudeが必要なcapabilityを選ぶ体験へ移行する。Claude DocsとClaude Slidesも新たにbeta提供し、Claude Designをconversation内で利用可能にする。Pro・Maxから段階展開する。",
-      "url": "https://claude.com/blog/cowork-is-now-claude",
-      "urlLabel": "Claude Blogで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [{
+    "label": "Claude Blog",
+    "datetime": "2026-09-16T00:00:00Z",
+    "displayTime": "2026年9月16日（公開時刻非掲載）",
+    "title": "Claude Cowork and chat are now one Claude",
+    "summary": "Coworkとchatを1つのClaudeへ統合し、taskに応じてClaudeが必要なcapabilityを選ぶ体験へ移行する。Claude DocsとClaude Slidesもbeta提供し、Claude Designをconversation内で利用可能にする。Pro・Maxから段階展開する。",
+    "url": "https://claude.com/blog/cowork-is-now-claude",
+    "urlLabel": "Claude Blogで読む",
+    "primary": true
+  }],
   "officialZeroStates": [
-    {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
-      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
-    },
-    {
-      "label": "Anthropic engineer X signalは未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
-    },
-    {
-      "label": "Engineering / Research / Newsの窓内新規記事はなし",
-      "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 16, 2026</strong>の記事を1件確認した。"
-    }
+    {"label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず", "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"},
+    {"label": "Anthropic engineer X signalは未確定", "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"},
+    {"label": "Engineering / Research / Newsの窓内新規記事はなし", "body": "Anthropic Engineering、Research、Newsの各listingに対象24時間窓の新規記事はなかった。Claude Blogでは<strong>Sep 16, 2026</strong>の記事を1件確認した。"}
   ],
   "signals": [],
   "releasePanels": [
     {
-      "title": "ブログ",
-      "headline": "1件",
+      "title": "ブログ", "headline": "1件",
       "body": "official site 4面では<strong>Claude Blog</strong>に窓内記事が1件。Engineering、Research、Newsは0件だった。",
-      "details": [
-        "<strong>Claude Blog</strong>: Sep 16, 2026の記事1件（公開時刻非掲載）",
-        "<strong>Engineering / Research / News</strong>: 窓内entry 0件"
-      ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blogを確認"
+      "details": ["<strong>Claude Blog</strong>: Sep 16, 2026の記事1件（公開時刻非掲載）", "<strong>Engineering / Research / News</strong>: 窓内entry 0件"],
+      "url": "https://claude.com/blog", "urlLabel": "Claude Blogを確認"
     },
     {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "対象24時間窓に新しいClaude Code releaseはなかった。最新のv2.1.273は2026年9月15日20:23:03 UTC公開で、開始時刻より前だった。",
-      "details": [
-        "<strong>窓内release</strong>: 0件",
-        "<strong>直近release</strong>: v2.1.273（窓外）"
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "Claude Code release notes"
+      "title": "Claude Code リリース", "headline": "1件",
+      "body": "対象24時間窓に<strong>v2.1.274</strong>が公開された。公式release bodyの全108項目を個別に和訳し、新機能13件・変更24件・修正71件へ分類した。",
+      "releases": [{
+        "version": "v2.1.274",
+        "publishedAt": "2026-09-17T00:12:02Z",
+        "summary": "メモリ警告、MCP・gateway・telemetry・VS Code・web・Claude Tag・Code Reviewの改善を含む108項目。",
+        "sections": [
+          {"title": "新機能", "items": [
+            "メモリ使用量が危険水準に達した際、メモリ解放または安全な再起動手順を示す警告を追加。",
+            "非対話モードの初回turnがMCP server接続を待つ上限を指定する<code>CLAUDE_CODE_MCP_STARTUP_WAIT_MS</code>を追加（<code>0</code>は待機なし）。",
+            "<code>claude_code.llm_request</code> OpenTelemetry trace spanに<code>api_request</code> eventと同じ<code>effort</code>属性を追加。",
+            "managed settingsのsourceとpolicy helper状態を記録する<code>claude_code.managed_settings_resolved</code> OTel eventを追加。<code>OTEL_LOG_MANAGED_SETTINGS=1</code>でredact済み設定とdigestも記録。",
+            "Claude apps gateway設定にPostgres接続timeoutを延長する<code>store.connect_timeout_seconds</code>（既定5秒）を追加し、DB到達不能時の起動errorも改善。",
+            "Claude apps gateway経由でClaude DesktopとCoworkが送るtelemetryにIdP subjectの<code>enduser.sub</code>を追加。",
+            "Claude apps gateway replicaのopen requestが同時upstream送信上限256件を超えた際の警告と、その上限を示す起動logを追加。",
+            "fullscreen modeで折り畳まれたteammate・agent messageをclickで展開可能にした。",
+            "[VSCode] window reloadで中断したstepの続行をchat上のlabel付きで追加し、無効化設定も追加。",
+            "[VSCode] Customize menuにMemoryとInstructionsを追加し、memory管理とCLAUDE.md編集を可能にした。",
+            "[VSCode] Claudeが開いたeditor groupをlockしない<code>claudeCode.lockEditorGroups</code>設定を追加。",
+            "[Claude Code on the web] cloud sessionのdiff viewにCompare against branch pickerを追加。",
+            "[Claude Tag] Add channel／Add workspace formにGuests設定を追加し、Inherit・Allow・Channel only・Restrictを事前選択可能にした。"
+          ]},
+          {"title": "変更", "items": [
+            "<code>--input-format stream-json</code> sessionの初回turnで、tool searchが遅延する接続途中のMCP serverを最大2秒待たず後続turnで利用可能にした。",
+            "Monitor toolのscript最終outputと終了を1通知にまとめ、model turnを節約。",
+            "Artifact tool errorを改善し、claude.ai未sign-inを初回試行で明示し、拒否callの再試行を早く停止。",
+            "古いversionを元にしたartifact publishを送信前に停止し、merge対象の新pageを提示。",
+            "submodule checkoutを含むagent worktree削除前の安全確認を改善。",
+            "<code>OTEL_LOG_RAW_API_BODIES=file:&lt;dir&gt;</code>へ<code>index.jsonl</code>と関連付け属性を追加。",
+            "Claude apps gateway起動時の最初のPostgres接続を終了前に最大3回試すよう改善。",
+            "gatewayのspend-limit checkをDB往復4回から1回へ減らし、高負荷時のtimeoutを削減。",
+            "gatewayのsign-in rate limit errorへ拒否理由、該当limit、変更すべき設定を表示。",
+            "Bedrock・Vertex・Foundry・telemetry無効installでもdirect HTTP serverにv2 MCP clientとMCP 2026-07-28 negotiationを既定使用。",
+            "独自tuningがないmodelの<code>/code-review</code>を多数のreview subagentから軽量inline promptへ変更。",
+            "<code>\"type\": \"sdk\"</code>のMCP entryを警告付きでskipするよう変更。",
+            "local sessionのartifact watchを変更し、外部公開された新versionではturnを開始せず後続tool resultで通知。",
+            "pluginとmarketplace cloneでGit LFS fileをdownloadせずpointerのまま残すよう変更。",
+            "self-hosted runnerでaccess checkを拒否されたread-only repositoryはsession開始を失敗させずskip。",
+            "<code>/status</code>のGitHub行などをClaude Code on the webではなくCloud sessions／cloud session表記へ変更。",
+            "[VSCode] <code>XDG_CONFIG_HOME</code>が絶対pathならglobal gitignoreの既定を<code>$XDG_CONFIG_HOME/git/ignore</code>へ変更。",
+            "[Claude Code on the web] ownerのGitHub接続がないroutineは無効化せずrunをskipし最大72時間retry。",
+            "[Claude Code on the web] subscription pause時のroutine noticeを、利用者自身で再度onにする案内へ変更。",
+            "[Claude Tag] live progress checklistを2,000文字上限、busy threadで最大15分に1回の再投稿へ改善。",
+            "[Claude Tag] Channel only guest設定でSlack canvas編集ごとに付けていたguest attribution noteを削除。",
+            "[Code Review] findingを影響対象・誤動作箇所・修正を先に述べる短い文へ改善。",
+            "[Code Review] organization limitでskipした際、各causeから修正用admin pageへlink。",
+            "background commandは軽度のmemory pressureで停止せず、critical時のみ停止して理由をdebug logへ記録。"
+          ]},
+          {"title": "修正", "items": [
+            "<code>unexpected tool_use_id</code> 400 errorを無限retryする問題を修正し、transcriptを自己修復または<code>/rewind</code>案内付きerrorで終了。",
+            "legacy HTTP+SSEのみ対応する<code>http</code> MCP serverが初回requestへ422など4xxを返すと接続できない問題を修正。",
+            "長いserver別<code>timeout</code>を設定してもStreamable HTTP MCP tool callが約5分でtimeoutする問題を修正。",
+            "serverが<code>listChanged</code>未宣言でlist-changed通知するとMCP promptとresourceがrefreshされない問題を修正。",
+            "403 insufficient_scopeをsign-in期限切れと表示する問題を修正し、不足permissionと<code>/mcp</code>再認証を案内。",
+            "hook駆動sessionでreactive compaction後に再度overflowするとcompactせずPrompt is too longになる問題を修正。",
+            "compaction済みsessionをresumeするとactiveな<code>/goal</code>が失われる問題を修正。",
+            "auto-update再起動後に<code>claude agents</code>がmodel・effort・permission関連optionとagentを失う問題を修正。",
+            "language serverが数千fileのproject-wide diagnosticsをpublishする際のturn遅延を修正。",
+            "Bedrock・Vertex・Foundryでfamily不明のmodel IDを使う<code>model: \"opus\"</code> subagentがsession modelを離れる問題を修正。",
+            "self-hosted runnerでtoken refresh失敗後、次回refreshまで全turnが401になる問題を修正。",
+            "<code>file://</code> URIを要求するVS Codeなどでlocal file linkが動作しない問題を修正。",
+            "自分のmessageのordered list番号をtranscriptが振り直す問題を修正し、入力どおり表示。",
+            "AskUserQuestion preview noteがhighlight中ではなく以前選択したoptionへ付く問題を修正。",
+            "AskUserQuestion previewでnoteをEnter送信するとhighlight中optionが落ちる問題を修正。",
+            "中断tool batchのcallをmessage付きでapproveするとresumeしたbackground agentがbatchの半分を保持する問題を修正。",
+            "<code>CLAUDE_CODE_RESUME_INTERRUPTED_TURN</code>付きresumeが前processの未完了background taskを報告しない問題を修正。",
+            "cloud sessionの初回turnが接続途中のSDK-hosted MCP server toolなしで始まることがある問題を修正。",
+            "background agentが自身のbackground task待ちなのにlive workなしと通知する問題を修正。",
+            "Claude Desktopのerror hintが利用不能なCLI flagを案内する問題を修正し、slash commandを提示。",
+            "Claudeがlisting結果shapeでroutineを書くと<code>/schedule</code>がmessage roleなしでpromptを保存する問題を修正。",
+            "<code>/status</code>が<code>apiKeyHelper</code> failureを表示しない問題を修正。",
+            "managed fast mode policy下で非対話sessionの<code>/fast on</code>がon表示後offになる問題を修正。",
+            "最新version未読のため拒否されるartifact更新をArtifact toolが事前approveさせる問題を修正。",
+            "network access有効のCowork・claude.ai cloud sessionがteammate artifact readをnetwork無効扱いする問題を修正。",
+            "独自git repositoryのないplugin／marketplace directoryが親repositoryのversionを取得する問題を修正。",
+            "emptyな<code>--mcp-config</code>と<code>--strict-mcp-config</code>で初回turnが最大<code>MCP_TIMEOUT</code>待つ問題を修正。",
+            "Stop prompt hookがblockごとに全promptを再送する問題を修正し、repeat時はconditionを500文字labelで表示。",
+            "Linux Wayland上のCursor／VS Code terminal内で起動時に余分な空editor windowが開く問題を修正。",
+            "spend check中にPostgres connectionが切れるとgatewayでunhandled promise rejectionが起きる問題を修正。",
+            "SIGTERM時にgatewayが全open streamを切る問題を修正し、最大25秒in-flight requestの完了を待機。",
+            "remote managed settings由来のpolicyで<code>installed_plugins.json</code>がほぼ毎起動時に書き換わる問題を修正。",
+            "headless／SDK sessionが完了background taskごとに別model callする問題を修正し、queue分を1 callで回答。",
+            "plugin reloadごとにBashがshell profileを再sourceする問題を修正し、<code>bin/</code>変更時だけ実行。",
+            "top-level <code>$schema</code>を持つ<code>hooks/hooks.json</code>でunknown key noticeが出る問題を修正。",
+            "MCP errorとlogin tool説明に<code>${VAR}</code>から解決したsecretが表示される問題を修正。",
+            "特定のspecial shell variableをloop／assignするcommandのBash permission checkを修正。",
+            "worktree隔離sessionが特定のnested shell expansionを含むBash commandを受理する問題を修正。",
+            "multi-byte文字を含むfileでEdit permission previewがapproved editと違う位置を示す問題を修正。",
+            "subagentからmain sessionへのmessageがrelaunch後にDesktop transcriptから消える問題を修正。",
+            "zip pluginがoverlapするreload後に古い展開物からserveされる問題を修正。",
+            "sub-agentのprogress summaryが暴走した複数paragraph replyに置き換わる問題を修正。",
+            "[VSCode] 新conversation直後の<code>/btw</code>に別sessionのside-question履歴が出ることがある問題を修正。",
+            "[VSCode] extensionがglobal gitignoreを初lookupする際の一時freezeを修正。",
+            "[VSCode] tool実行中に送ったmessageがwindow reload後に消える問題を修正。",
+            "[VSCode] Manage Plugins toggleとMCP servers dialog rowへkeyboardで到達できない問題を修正。",
+            "[VSCode] <code>CLAUDE_CONFIG_DIR</code>変更後、terminalでのsign-in／outがreloadまで反映されない問題を修正。",
+            "[VSCode] 一部panel幅や長いwrap行でchat内Edit diff下部が切れる問題を修正。",
+            "[VSCode] overlapするsettings writeで<code>settings.json</code>がparse不能または設定欠落する問題を修正。",
+            "[VSCode] Open in New Tabで新tabのmessage boxにfocusされないことがある問題を修正。",
+            "[VSCode] locked groupに別Claude tabとfileがあるとclosed Claude tab再openでlayoutがsplitする問題を修正。",
+            "[VSCode] Claude tabとfile tabが同じgroupにあるとNew sessionが別locked groupを開く問題を修正。",
+            "[VSCode] session pickerで検索中にsession nameが横へずれる問題を修正。",
+            "[VSCode] comment多数のplan review cardでSend feedbackとreason fieldが切れる問題を修正。",
+            "[VSCode] High Contrast themeでinline codeとcode blockが読めない問題を修正。",
+            "[VSCode] screen reader navigationを改善し、各messageをYou／Claude、tool stepはtool名付きで読み上げ。",
+            "[Claude Code on the web] GitHub token renewalの一時errorでgit operationがservice unavailableになる問題を修正。",
+            "[Claude Code on the web] routine編集で二重実行またはpause直後の再有効化が起きる問題を修正。",
+            "[Claude Code on the web] credential refresh後にcommitが一時的なsigning errorで失敗する問題を修正。",
+            "[Claude Code on the web] GitHub triggerをlinkできないroutine保存toastに理由が出ない問題を修正。",
+            "[Claude Code on the web] read済みにした直後にsessionがunreadへ戻る問題を修正。",
+            "[Claude Tag] 別Slack app／botが@mentionした際にClaudeが応答しない問題を修正。",
+            "[Claude Tag] 新channel作成直後に別appから@Claude tagされたmessageを見落とす問題を修正。",
+            "[Claude Tag] 数分後のfollow-upをsilent editとして折り畳む問題を修正し、新replyとして通知。",
+            "[Claude Tag] 単一channel内のSlack searchが常にerrorになる問題を修正。",
+            "[Claude Tag] 待機者不在時のsafety-filter stopがthread contextを黙ってresetする問題を修正。",
+            "[Claude Tag] Slack reply内email addressへ<code>mailto:</code> prefixが見える問題を修正。",
+            "[Claude Tag] Enterprise Grid全体共有channelを別workspaceからwatchする依頼を拒否する問題を修正。",
+            "[Claude Tag] archived／app-created environmentでpickerがnameではなくraw IDを表示する問題を修正。",
+            "[Code Review] 再reviewで修正済みfindingのthreadがopenのままになることがある問題を修正。",
+            "[Code Review] GitHub等の一時障害で稀にreviewがerror終了する問題を修正し、待機してretry。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+        "urlLabel": "v2.1.274 release notes"
+      }],
+      "url": "https://github.com/anthropics/claude-code/releases", "urlLabel": "Claude Code releases"
     }
   ],
   "exclusions": [
     "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
     "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
     "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
-    "Claude Code releaseはGitHub CLIで取得した公式metadataのみをsource of truthとし、窓内releaseが0件のため翻訳対象bulletはなかった。"
+    "Claude Code releaseはGitHub CLIで取得した公式metadataと完全なrelease bodyのみをsource of truthとした。"
   ],
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
@@ -72,6 +173,7 @@
     {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
     {"title": "Claude Blog listing", "url": "https://claude.com/blog"},
     {"title": "Claude Cowork and chat are now one Claude", "url": "https://claude.com/blog/cowork-is-now-claude"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.274", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274"}
   ]
 }
