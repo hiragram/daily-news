@@ -1,60 +1,24 @@
 {
   "date": "2026-09-19",
-  "windowLabel": "2026-09-17 17:00:58 UTC - 2026-09-18 17:00:58 UTC",
-  "archiveTitle": "Claude Code v2.1.276",
-  "archiveSummary": "Claude Code 2版の全97項目と公式記事5件を収録。X 2系統はMCP不在で未確定。",
-  "latestSummary": "対象24時間ではClaude Code v2.1.276とv2.1.275の全97項目を確認した。公式サイトでは9月17日付5件を収録し、official Xとmonitored engineer XはX MCPが利用できず未確定。",
+  "windowLabel": "2026-09-18 07:14:45 UTC - 2026-09-19 07:14:45 UTC",
+  "archiveTitle": "Claude Code v2.1.278",
+  "archiveSummary": "Claude Code 2版の全89項目とAccentureとの評価提携を収録。Xは未確認。",
+  "latestSummary": "Claude Code v2.1.278・v2.1.277の全89項目を和訳。Accentureとの組み込み型評価の提携を収録し、Xの2系統はMCP不在で未確認とした。",
   "summaryBullets": [
-    "<strong>Claude Code v2.1.276 / v2.1.275</strong>: 全97項目を新機能13件・変更22件・修正62件に分類して収録した。",
-    "<strong>公式記事5件</strong>: Projects再設計、生命科学向け検証program、biomolecular modeling高速化、AI開発pace指標などを確認した。",
-    "<strong>official X / engineer X は未確定</strong>: X MCPがこのrunでは利用できず、公開検索で代替せずzero stateとした。"
+    "<strong>Claude Code v2.1.278 / v2.1.277</strong>: 全89項目を新機能11件・変更21件・修正57件に分類して収録。",
+    "<strong>公式記事1件</strong>: AnthropicがAccentureと組み込み型の独立評価で提携。公開日基準で収録。",
+    "<strong>公式X・エンジニアXは未確認</strong>: X MCPが利用できず、投稿の有無は確定できていない。"
   ],
   "officialNews": [
     {
-      "label": "Claude Blog",
-      "datetime": "2026-09-17T00:00:00Z",
-      "displayTime": "2026年9月17日（公開時刻非掲載）",
-      "title": "Projects redesigned: from folder to conversation",
-      "summary": "Claude Code Projectsを、coordinatorが複数threadへ作業を委任・調整し、成果を統合する会話中心の体験へ再設計。shared memoryとlibraryを備え、Pro・Maxの一部cloud session利用者へbeta提供を開始した。",
-      "url": "https://claude.com/blog/projects-redesigned",
-      "urlLabel": "Claude Blogで読む",
+      "label": "Anthropic News",
+      "datetime": "2026-09-18T00:00:00Z",
+      "displayTime": "2026年9月18日（公開時刻非掲載・日付基準で収録）",
+      "title": "Partnering with Accenture on embedded evaluation",
+      "summary": "Accenture傘下のFacultyが主導し、モデル評価・レッドチーミング・アラインメント評価・安全対策の検証を行う提携を発表。評価者が社内で社員に近いアクセスを得る仕組みを目指す。両社は今後5年間にそれぞれ少なくとも10億ドルをこの分野の能力構築へ投じる見込み。",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "urlLabel": "Anthropic Newsで読む",
       "primary": true
-    },
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-09-17T00:00:00Z",
-      "displayTime": "2026年9月17日（公開時刻非掲載）",
-      "title": "How Claude is uplifting biomolecular modeling",
-      "summary": "Claudeが30超のopen-source生体分子modelを約4週間で平均約4倍高速化し、単一NVIDIA GPU nodeで1万token超を扱えるlow-memory modeを作成。最適化code公開とprotein design competitionも発表した。",
-      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
-      "urlLabel": "Anthropic Researchで読む"
-    },
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-09-17T00:00:00Z",
-      "displayTime": "2026年9月17日（公開時刻非掲載）",
-      "title": "Introducing the Life Sciences Verification Program",
-      "summary": "検証済みの生命科学team・機関に、biology用途でより許容的なsafeguardを備えたMythos・Opus・Sonnetへのaccessを提供するbeta programを開始。Standard Useと追加審査付きHigh-risk Useを設ける。",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "urlLabel": "Anthropic Newsで読む"
-    },
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-09-17T00:00:00Z",
-      "displayTime": "2026年9月17日（公開時刻非掲載）",
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "summary": "frontier lab内のAI R&D自動化、agent監督、compute配分を外部から追跡する3指標を提案。2026年8月時点でClaudeがAnthropicのAI R&D作業の26%をleadするなど、社内snapshotも公開した。",
-      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-      "urlLabel": "Anthropicで読む"
-    },
-    {
-      "label": "Claude Blog",
-      "datetime": "2026-09-17T00:00:00Z",
-      "displayTime": "2026年9月17日（公開時刻非掲載）",
-      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
-      "summary": "Balyasny Asset ManagementがClaude Fable 5を数千の実務金融taskで評価し、agent基盤・data access・monitoring・human reviewを組み合わせて長時間workflowへ展開する方法を紹介した。",
-      "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
-      "urlLabel": "Claude Blogで読む"
     }
   ],
   "officialZeroStates": [
@@ -67,164 +31,161 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineeringの窓内新規記事はなし",
-      "body": "Anthropic Engineering listingには対象24時間窓の新規記事がなかった。Researchは1件、Newsは2件、Claude Blogは2件をvisible publication date基準で収録した。"
+      "label": "Engineering・Research・Claude Blogの窓内新規記事は0件",
+      "body": "公式一覧で対象期間の新規記事は確認できなかった。Newsは9月18日付の1件を公開日基準で収録。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "5件",
-      "body": "official site 4面では<strong>Research 1件、News 2件、Claude Blog 2件</strong>を確認。Engineeringは0件だった。",
+      "headline": "1件",
+      "body": "Anthropic NewsのAccentureとの評価提携を収録。公開時刻は非掲載のため公開日基準で扱う。",
       "details": [
-        "<strong>Claude Blog</strong>: Sep 17の記事2件（公開時刻非掲載）",
-        "<strong>Research</strong>: Sep 17の記事1件（公開時刻非掲載）",
-        "<strong>News</strong>: Sep 17の記事2件（公開時刻非掲載）",
-        "<strong>Engineering</strong>: 窓内entry 0件"
+        "Engineering: 0件",
+        "Research: 0件",
+        "News: 1件",
+        "Claude Blog: 0件"
       ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blogを確認"
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "urlLabel": "公式記事を読む"
     },
     {
       "title": "Claude Code リリース",
       "headline": "2件",
-      "body": "対象24時間窓に<strong>v2.1.276</strong>と<strong>v2.1.275</strong>が公開された。公式release bodyの全97項目を個別に和訳し、新機能13件・変更22件・修正62件へ分類した。",
+      "body": "公式リリース本文の全89項目を個別に和訳し、新機能11件・変更21件・修正57件に分類。",
       "releases": [
         {
-          "version": "v2.1.276",
-          "publishedAt": "2026-09-18T02:12:26Z",
-          "summary": "proxy／gateway利用時に全requestが400 errorになるv2.1.275 regressionを修正した1項目。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "<code>ANTHROPIC_BASE_URL</code>がproxyまたはgatewayを指す環境で、すべてのrequestが<code>400 … Input tag 'advisor_20260301'</code>で失敗するv2.1.275 regressionを修正。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-          "urlLabel": "v2.1.276 release notes"
-        },
-        {
-          "version": "v2.1.275",
-          "publishedAt": "2026-09-17T22:33:17Z",
-          "summary": "account連携、send-now、skill・plugin同期、artifact・VS Code・Claude Tag・Code Review改善を含む96項目。",
+          "version": "v2.1.278",
+          "publishedAt": "2026-09-19T03:10:40Z",
+          "summary": "自動モードのサーバー側分類器への切り替えと状態表示の全2項目。",
           "sections": [
             {
               "title": "新機能",
               "items": [
-                "Claude apps gatewayへのsign-in時にaccountを表示し、credential保存前に確認可能にした。<code>/status</code>にもaccountを表示する。",
-                "実行中turnを中断し、queued messageを一括送信するsend-now key（Ctrl+EnterまたはCtrl+X Ctrl+S）を追加。model受信前のsent／queued messageはgray表示する。",
-                "設定済み<code>otelHeadersHelper</code>の失敗を起動時に警告し、telemetryが黙ってexportされないsessionを検出可能にした。",
-                "claude.ai accountで有効なskillとpluginを同accountでsign-inしたterminal sessionへ同期。<code>syncClaudeAiSkills: false</code>／<code>syncClaudeAiPlugins: false</code>で無効化できる。",
-                "<code>/plugin install &lt;plugin&gt; --marketplace &lt;source&gt;</code>を追加し、plugin install前にmarketplace追加を提案するようにした。",
-                "[VSCode] Memory dialog内で保存済みmemoryの閲覧・編集・削除を追加。",
-                "[VSCode] text入力なしで添付画像だけを送信可能にした。",
-                "[VSCode] MCP server list取得失敗時、MCP servers dialogにRetry linkを追加。",
-                "[VSCode] proposed-change diff tabの各changeにaccept／reject buttonを追加し、変更単位でreview可能にした。",
-                "[Claude Code on the web] routine linkが解決しないpageに、routine listへのlinkと並べてNew routine buttonを追加。",
-                "[Claude Tag] access bundleのattach conditionを追加し、Ownerがguest参加channelやSlack Connect channelにもbundleを適用可能にした。",
-                "[Claude Tag] access bundleのCredentials tabにAmazon CloudWatch、CloudWatch Logs、Amazon SNS、Google Cloud Monitoring、Cloud Logging presetを追加。",
-                "[Claude Tag] DatadogのUS3・AP1・AP2・US1-FED presetを追加し、新規Datadog connectionをread／query API routeに限定。"
+                "/statusにAuto mode server行を追加し、このセッションの自動モード分類器がサーバー側で動くか表示する。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "<code>__SYSTEM_PROMPT_DYNAMIC_BOUNDARY__</code>行を含む<code>--system-prompt</code>で、その行より上をSDK array形式と同様にglobal cacheし、prompt cachingを改善。",
-                "Claude Desktopが開かない場合の<code>/desktop</code> errorを改善し、理由と次の対応を表示。",
-                "Artifact toolのpublish／read結果を改善し、pageを開ける人とownerのShare menuで可能な操作を案内。",
-                "artifact publish結果に送信したtab iconを表示し、NUL byteを警告し、stale publish後のmerge用最新page取得をretryするよう改善。",
-                "paste／attach画像をpermission promptなしでClaudeがfileとして開ける場所へ保存するよう改善。DesktopとVS Codeも対象。",
-                "edit accessを与えられたshared artifactは別copyをpublishせず同じartifactを更新するよう、Artifact tool guidanceを改善。",
-                "plan usage取得を改善し、同一machineのeditor windowとnon-interactive sessionが直近1分の結果を共有。",
-                "<code>ListPlugins</code> tool descriptionを改善し、<code>/plugin</code>でlocal installしたpluginではなくclaude.ai accountで有効なpluginを列挙すると明示。",
-                "terminalが低速またはpause中でもoutputの遅れが増え続けないようresponsivenessを改善。",
-                "同期済みaccount skill folder内fileへのWrite／Edit結果を改善し、変更がaccountに保存されないことと保存方法を案内。",
-                "Claude apps gateway sign-inの<code>/logout</code>を更新し、token revocationをadvertiseするgatewayではsessionも終了。",
-                "hosted sessionはcontainer restart後も未回答permission promptを維持し、再質問しないよう変更。",
-                "Artifact tool初回publish時にemoji faviconではなくone-word tab iconを求めるよう変更。",
-                "Claude in Chromeのauto modeでclassifier-approved callはbypass mode同様にextensionのsite別checkをskipし、redirect後の<code>browser_batch</code> Permission deniedを解消。",
-                "npm sourceのpluginを<code>npm pack --ignore-scripts</code>で取得してintegrity検証し、package install scriptを実行しないよう変更。",
-                "scheduled／Run now routineがedit可能なartifactへdataを保存して同pageを再publishする際は確認不要に変更。public artifact、初回publish、deleteは引き続き確認。",
-                "前回session以降にone-off scheduled routineが実行されたことを知らせる起動noticeを削除。",
-                "[VSCode] agent mapを改善し、pillにrunning agent数を表示、failure時はred化、main agentを固定し、stateと終了時刻でsort。",
-                "[VSCode] Preferred LocationがSidebarのとき、Claude editor tabのNew sessionを別tabではなくsidebarで開くよう変更。",
-                "[VSCode] Claude実行中に送ったmessageを、Claudeが処理開始するまでconversation下部で待機させるよう変更。",
-                "[Claude Code on the web] 他者作成routineのedit・delete・runを依頼された際、利用者が操作できるroutine pageへlinkする案内に改善。",
-                "[Claude Tag] Enterprise Grid共有channelのnoticeを改善し、未設定workspaceやorganization defaultのみ適用される理由を表示。"
+                "Claude API・Enterprise、およびBedrock・Vertex・Foundry・ゲートウェイの自動モードで、分類器の追加処理に課金しないサーバー側分類器を既定に変更。Bedrock・Vertex・Foundry・ゲートウェイではCLAUDE_CODE_AUTO_MODE_SERVER=0で無効化でき、課金される代替処理へ切り替わる場合は警告する。詳細は公式のauto-mode-classifier-billing文書を参照。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+          "urlLabel": "v2.1.278 release notes"
+        },
+        {
+          "version": "v2.1.277",
+          "publishedAt": "2026-09-18T18:06:32Z",
+          "summary": "AGENTS.md対応、ゲートウェイ設定、VS Code機能追加と信頼性改善の全87項目。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "AGENTS.mdへの対応を追加。CLAUDE.mdのないプロジェクトではAGENTS.mdを読み込む。/configの「Project instructions」で変更可能（Bedrock・Vertex・Foundryは未対応）。",
+                "外向き通信をフォワードプロキシに限定したClaude apps gateway向けにCLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1を追加。すべての送信リクエストでローカルの名前解決を行わず、ホスト名をプロキシへ渡す。",
+                "Claude apps gatewayの上流設定に任意のheaders:マップを追加し、プロバイダーの手前に設置したプロキシへ固定ヘッダーを送信可能にした。",
+                "/tasksなどのパネル表示中にバックグラウンドタスクが完了した場合、更新通知が待機中であることを示す行を追加。",
+                "[VSCode] パネルメニューにSign out行、入力コマンドメニューに/logoutを追加。",
+                "[VSCode] エージェントマップにバックグラウンドシェルなどの実行中タスクと各Stop操作を追加し、/tasks入力で開けるようにした。",
+                "[VSCode] 応答にCopy responseボタンと/copy入力コマンドを追加。",
+                "[VSCode] 非アクティブセッションの自動アーカイブ時に一度だけ通知し、Archived sessionsグループにUnarchive all操作を追加。",
+                "[VSCode] プラン上限が適用されないVertex・Bedrock・Foundry・APIキー利用時、Account & usageダイアログとセッション管理画面に費用・トークン使用量を追加。",
+                "[Claude Code on the web] Team・Enterpriseの環境選択にPersonal・Organization区分を追加。管理者は個人環境を組織へ共有できる。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "SDKとヘッドレス（-p）の起動を改善。最初のターンでディレクトリごとのCLAUDE.md探索を待たないようにした。",
+                "Claude apps gatewayのループバック接続エラーにCLAUDE_GATEWAY_ALLOW_LOOPBACKの名前を表示するよう改善。",
+                "/pluginのInstalledでプラグインとは別行に表示されるMCPサーバーに、所属プラグイン名を表示するよう改善。",
+                "インストール済みプラグインへのclaude plugin installで、マーケットプレイスに新版があればその旨とclaude plugin updateコマンドを案内するよう改善。",
+                "起動ロゴ下の通知省略表示を「+N more · /status」から「N more notices hidden」に改善。",
+                "プロンプトから不可視のUnicode書式文字・タグ文字を除去し、送信前に除去後のプロンプトを確認できるよう改善。",
+                "/ultrareviewにレビュー対象がない場合、状況別の説明と最新コミットをレビューするコマンドを提示し、新規リポジトリの初回コミットは全体をレビューするよう改善。",
+                "Artifactツールが利用可能な場合、claude.aiのアーティファクトリンクをWebFetchではなく同ツールで読むよう改善。",
+                "危険なrmコマンドの権限確認で対象コマンド名と${VAR:?}によるガードを提示し、ヘッドレス実行が回復できるよう改善。",
+                "Artifactツールの権限確認を短い文章にし、ページ・アーティファクトはタイトルまたはファイル名で示し、リンクを文章の後へ配置するよう改善。",
+                "Anthropic APIの/modelにFableを常時表示し、組織設定で無効な場合だけグレー表示するよう変更。",
+                "Bedrock・Vertex・FoundryのBashサンドボックス説明を直営環境と同じ文言へ変更し、タスクに与えられた範囲の境界として説明するようにした。",
+                "非対話セッションの/ultrareviewで、ベースブランチや共有履歴のないリポジトリは処理を拒否するよう変更。",
+                "サブエージェントの結果を専用見出しと字下げ付きでメインエージェントへ渡し、結果内の文章がセッション自身の指示として扱われないよう変更。",
+                "Bedrock・Vertex・Foundryでワークフロースクリプトが計算したagent()プロンプトを、スクリプト由来の文章として渡すよう変更。安全性分類器がユーザーの発言と解釈するのを防ぐ。",
+                "SDK・IDE以外から起動したclaude -pで、バックグラウンドのHaikuによる自動タイトル生成リクエストを廃止。",
+                "非推奨のTaskOutputツールを削除。バックグラウンドタスクの出力ファイルはReadで読み、taskOutputMaxChars設定とTASK_MAX_OUTPUT_LENGTHは効かなくなった。",
+                "[Claude Code on the web] Team・EnterpriseのCodeタブで組織環境を開くと読み取り専用の概要を表示し、編集はAdmin settings → Cloud environmentsで行うよう変更。",
+                "[Claude Code on the web] 管理者向けClaude Code設定のWebをCloud sessionsに改称し、その下の重複した読み取り専用Mobile行を削除。",
+                "[Claude Tag] アクセスバンドルのPylon認証情報プリセットで、管理者がPylonのEUホストを指定できるよう変更。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "compaction／resume後に復元memory fileのage noteがrequestごとに変わり、prompt cache missを起こす問題を修正。",
-                "<code>context: fork</code> skillがspawnしたsubagentや、subagent／forked skillが呼んだforked skillのmessageを<code>--forward-subagent-text</code> stream-json／SDK outputが落とす問題を修正。",
-                "custom <code>fileSuggestion</code> command利用時や<code>@.</code>／<code>@./</code>入力時、@mention file候補がMCP resourceの下に埋もれる問題を修正。",
-                "fullscreen modeでbackground task完了noticeが長いturnのcollapsed tool row下に置かれる問題を修正し、notice到着ごとにopen rowを閉じるよう変更。",
-                "repository名由来の名前を持つGitHub marketplaceでfetch失敗時、<code>claude plugin marketplace update</code>がlocal copyを削除する問題を修正。",
-                "plugin／marketplace message・log・<code>claude plugin marketplace list</code>にgit／SSH／marketplace URL内のpasswordやtokenが表示される問題を修正。",
-                "queued messageが質問を置き換えた後にcloud sessionをresumeすると、未回答questionがtranscriptに残る問題を修正。",
-                "vim modeでdot-repeatした<code>!</code>や高速入力した<code>i!</code>が空でないpromptをshell modeへ切り替えた際、cursorが1文字右へずれる問題を修正。",
-                "fullscreen modeで大きなfile diffを越えて上scrollすると数秒freezeまたはblankになる問題を修正。",
-                "responseに不要な<code>&lt;/ccmemory&gt;</code>風closing tagが稀に現れる問題を修正。",
-                "一部git addressでplugin message・log・VS Code plugin dialogが誤ったserverを表示する問題を修正。",
-                "network gatewayがbeta request header拒否時のAPI error responseを書き換える環境で、毎turn terminalに<code>API Error: 400</code>が出る問題を修正。",
-                "Linuxでshellがzshの場合、sandboxed Bash commandの失敗をexit code 0と報告する問題を修正。",
-                "memory pressure下でlarge fileの一部をdecodeできないとRead toolがerrorを返さずhangする問題を修正。",
-                "保存履歴にmalformedなtask-reminder／@file attachment entryがあるsessionで、<code>--resume</code>、resume picker preview、resumed background agent、transcript viewが失敗する問題を修正。",
-                "malformed message entryを含むconversationのresume crashと、そのconversationを上scroll中に新messageを受信した際のfullscreen crashを修正。",
-                "保存transcriptにmalformed message content blockがあるとsessionのresume／startが失敗する問題を修正。",
-                "20MB output上限を超えるsearchでGrep・Glob・@file候補がhang／OOMになる問題と、warning flood後にsystem ripgrepがerrorでなくno matchesと報告する問題を修正。",
-                "forked／background sessionの<code>/rewind</code>でfile-history backupを完全copyできない場合、zero-filled／truncated fileを復元する問題を修正。",
-                "slash-command dropdown表示中に高速入力またはkey長押しすると、fullscreen sessionがunrecoverable interface errorで終了することがある問題を修正。",
-                "file descriptor枯渇machineでstdin経由commandを実行するとbackground sessionがcrashしworkerをrestartする問題を修正。",
-                "<code>~/.claude.json</code>の<code>mcpNeedsAuthNoticed</code>値がmalformedだと起動時crashする問題を修正。",
-                "開始時に使ったbuilt-in toolがserver-side flagで無効化されたsessionで、<code>--resume</code>／<code>--continue</code>が以前のthinkingを落とす問題を修正。",
-                "fullscreenの<code>claude --resume</code> session pickerでmouse選択したtextがclipboardへ届かない問題を修正。",
-                "<code>--plugin-dir</code>／<code>--plugin-url</code> archiveからpluginをloadしたsessionで、plugin reload previewが実行中sessionの展開fileを置換する問題を修正。",
-                "<code>--drain-wait-sec</code>付きself-hosted runnerがSIGTERM drain中に完了したturnの最終resultを失う問題を修正し、report完了まで短時間待機。",
-                "特定<code>matcher</code>を持つ<code>SubagentStop</code> hookがagent type空の全停止subagentで発火する問題を修正。",
-                "sandboxed Bash commandが<code>hooks/</code>／<code>config/</code>という名前のproject directoryへwriteできない問題を修正。",
-                "別machineでsessionをresume、またはscratchpad clear後にArtifact updateがFile not foundで失敗する問題を修正し、pageの最終published versionを復元。",
-                "<code>/update-config</code>がfile permission checkと一致しない<code>Write(path)</code> ruleを書き込む問題を修正し、<code>Edit(path)</code>へ変更。",
-                "bundled claude-api skillのlive-sources tableにあるPricing・Computer Use・Skills・CLIのdead URL 4件を修正。",
-                "[VSCode] permission card待機中にcontent受信が続くとtranscriptが小刻みに下へ移動する問題を修正。",
-                "[VSCode] rewind／forkしたconversationが元conversationで選択したpermission modeを保持しない問題を修正。",
-                "[VSCode] <code>environmentVariables</code> settingに空の<code>CLAUDE_CONFIG_DIR</code>があるとClaude Code fileをworkspaceへ保存する問題を修正。",
-                "[VSCode] linkで利用不能なplugin名／marketplace addressのinstall linkがManage plugins dialogを開く問題を修正。",
-                "[VSCode] Claude Codeが失敗と報告したRemote Control停止後もconnected表示が残る問題を修正し、off表示に変更。",
-                "[VSCode] send時のbottom scroll中にreplyが届き始めるとreply手前でscrollが止まる問題を修正。",
-                "[VSCode] crashで未完了になったagentをsession reopen後にagent mapがstopped表示する問題を修正し、failed表示に変更。",
-                "[VSCode] background task実行中のcrash後にreloadするとContinuing the step noticeが出ず、continue limitがresetされる問題を修正。",
-                "[VSCode] session listが最終message時刻ではなくwindow reload等の最終reopen時刻を表示する問題を修正。",
-                "[VSCode] Claude実行中に送ったmessage直後でFork conversation from hereが失敗する問題を修正。",
-                "[VSCode] Claude実行中に送ったmessageを含むsession reopen後、prompt cache clockの分数が少なく表示される問題を修正。",
-                "[VSCode] Claudeがtool実行中に完了したbackground agentのnoticeとagent map resultがwindow reload後に消える問題を修正。",
-                "[VSCode] extensionが数秒応答不能になった後、git-ignored fileで選択したtextがClaudeへ送られる稀な問題を修正。",
-                "[VSCode] 実行中sessionのrenameがgenerated nameへ戻る2.1.269 regressionを修正。",
-                "[VSCode] 一部claude.ai/code sessionがmessageなしの空conversationとしてVS Codeで開く問題を修正。",
-                "[VSCode] Claude response中に入力したslash commandが、response完了後にcommand実行されずmodelへtext送信される問題を修正。",
-                "[VSCode] High Contrast Light themeでplan previewおよびHooks／Permission rules dialogのcodeが読めない問題を修正。",
-                "[VSCode] Remote Control接続中に<code>/remote-control</code>が無視される問題を修正し、再実行で即時offに変更。",
-                "[VSCode] reply stream中に上scrollしてもbottomへ引き戻される問題を修正し、send時jumpを無効化する<code>claudeCode.scrollToBottomOnSend</code>を追加。",
-                "[VSCode] Manage plugins dialogがmarketplace URLへ入力したpassword／tokenを表示する問題を修正。",
-                "[Claude Code on the web] routineのpaused／on hold noticeが文途中で切れる問題を修正し、subscription pause noticeで自身による再有効化を案内。",
-                "[Claude Code on the web] allowed-domains listが非常に長いcloud environmentが保存成功後に全session起動失敗する問題を修正し、保存時に超過量を提示して失敗。",
-                "[Claude Code on the web] personal accountのcloud sessionがGitHub accessを拒否された際、admin settingsではなくclaude.ai/connect-githubへlinkするよう修正。",
-                "[Claude Tag] recent AWS CLI／SDKからAWS connection経由で送るS3 uploadが502になる問題を修正。",
-                "[Claude Tag] routine／threadから投稿中のchannelをinactiveとみなし、untagged messageをskipする問題を修正。",
-                "[Claude Tag] thread backing sessionのrefresh／restart後に表示名Claude [task]がplain Claudeへ戻る問題を修正。",
-                "[Claude Tag] Slack threadで切り替えたmodelがsession refresh／restart後にchannel defaultへ戻る問題を修正。",
-                "[Claude Tag] 別app／botがtop-level channel messageで@mentionするとClaudeが二重replyすることがある問題を修正。",
-                "[Code Review] reviewing agentがunexpected formatでfindingを返すとanalysisの一部が落ちることがある問題を修正。",
-                "[Code Review] Claude reviewが100件超のPRでbase branchからclean mergeするたびfull re-reviewされる問題を修正し、軽量merge-focused reviewを使用。"
+                "claude -pとAgent SDKのセッションが内部エラー後に結果を返さず停止する問題を修正。エラーを報告し、終了コード1で終了する。",
+                "過去のアシスタント応答に空のテキストブロックと他の内容が混在すると、--resume後も含め全リクエストが「text content blocks must be non-empty」で失敗する問題を修正。",
+                "同じマシンで古いClaude Code（IDE拡張に同梱されたCLIなど）と現行版を実行すると、予期せずログアウトする問題を修正。",
+                "~/.claude.jsonのcustomApiKeyResponses値が不正な場合、ANTHROPIC_API_KEY利用者の対話起動が停止したりエラーになったりする問題を修正。",
+                "プロキシが不正なバージョンを返すと30分ごとの更新確認が失敗し、最低・最高バージョン設定時のclaude updateが停止する問題を修正。不正なminimumVersionは無視する。",
+                "wingetまたはapkで管理する環境のclaude updateで、バージョン取得に失敗しても「最新」と報告する問題を修正。",
+                "セッションや他のプログラムが使用中のプラグインと同じ版を再インストールすると、claude plugin installが失敗して既存コピーを壊す問題を修正。変更のないコピーはそのまま維持する。",
+                "プロセス数・メモリー・ファイルハンドル不足で検索を開始できないと、GrepとGlobが一致なしと報告する問題を修正。原因を示すエラーを返す。",
+                "Writeの書き込み先が既存ディレクトリの場合、権限拒否扱いで黙ってターンを終了する問題を修正。明確なエラーを返す。",
+                "Editがエスケープ済みバックスラッシュに続くuXXXXをUnicodeエスケープと誤認し、非ASCII文字の編集でバックスラッシュ列を書き換える問題を修正。",
+                "非ASCII文字を含む非常に大きな編集対象がファイルに一致しない場合、Editが「文字列が見つからない」ではなく「正規表現が大きすぎる」と報告する問題を修正。",
+                "ツール呼び出しのパスにエスケープ表記の\\^@があると「Path contains null bytes」でターンが早期終了する問題を修正。エスケープされた制御文字は文字列のまま扱う。",
+                "プラグインのLSPサーバーが終了、または標準入力を閉じたとき、バックグラウンドセッション（claude --bg）も終了する問題を修正。",
+                "~/.claude.jsonのclaudeAiMcpEverConnected値が不正な場合、/mcpや/plugin manageを開くと「Type error」でクラッシュする問題を修正。",
+                "~/.claude.jsonのtheme値が不正な場合の起動時クラッシュを修正。",
+                "履歴から復元した入力や外部エディターから読み込んだ文章など、端末の色制御コードを含むプロンプトで「unrecoverable interface error」が起きる問題を修正。",
+                "保存履歴に通常の文字列として記録されたアシスタントメッセージがあると、セッション再開時にクラッシュする問題を修正。",
+                "低速または高負荷のマシンで、最初のスピナー表示時に回復不能なインターフェースエラーで終了する問題を修正。",
+                "内部描画エラー後、セッション終了まで画面更新が停止するまれな問題を修正。",
+                "Windowsで応答直後に「Out of memory」などでターンが停止し、その応答のツール呼び出しが実行されないまれな問題を修正。",
+                "/clear後に再起動・--continue・--resumeしたセッションで、SessionStartフックの出力があると最初のメッセージの一部が欠落し、プロンプトキャッシュが完全に外れる問題を修正。",
+                "ターン途中に届いた他エージェントのメッセージ（サブエージェントのSendMessageなど）が、到着位置ではなく「Ran N shell commands」の下に表示される問題を修正。",
+                "全画面の/resume選択画面など入力欄を覆うパネルで、ドラッグ選択後にコピー完了通知が出ない問題を修正。",
+                "サンドボックス有効時にサンドボックス外で実行するBashコマンドで、$TMPDIRが空文字へ展開される問題を修正。",
+                "CoworkのクラウドセッションでWebFetch・WebSearchが拒否された際、取得予算の枯渇や管理者ポリシーなどの理由をClaudeへ伝えない問題を修正。",
+                "プロキシ設定時、Claude apps gatewayのテレメトリー中継がNO_PROXYに記載した収集先のホスト名・ドメインを無視する問題を修正。",
+                "strictKnownMarketplacesまたはblockedMarketplacesの不正な1項目で、企業のマーケットプレイスポリシー全体が黙って無効になる問題を修正。",
+                "自動更新の失敗後、~/.cache/claude/stagingに大きなダウンロードファイルが残る問題を修正。",
+                "/pluginのInstalledタブで、更新失敗のエラーなどから端末制御文字を除去していなかった問題を修正。",
+                "スキルや旧形式コマンドの名前がconstructor・toStringなどObjectの組み込みプロパティと同じ場合、/pluginのInstalledや/skillsがクラッシュする問題を修正。",
+                "複数選択したインストールがすべて失敗した場合、/pluginが何も表示せず閉じる問題を修正。",
+                "アンインストール済みプラグインが/pluginのInstalledに「読み込み失敗」として再表示され、Removeでも消えない問題を修正。",
+                "公式マーケットプレイスのプラグインがinstalled_plugins.jsonにコミット情報なしで記録される問題と、コミット固定プラグインを更新しても旧コミットが残る問題を修正。",
+                "再読み込みのプレビューで展開した全プラグインが終了まで残る問題と、ダウンロード失敗時の代替に使う--plugin-urlのキャッシュを上書きする問題を修正。",
+                "~/.claude.jsonに不正なプレースホルダーレコードがあると、Remote Controlのセッション管理が失敗する問題を修正。",
+                "失効したclaude.aiログインのエラーがAnthropicプロフィールの期限切れを原因として案内する問題を修正。まず/loginを案内する。",
+                "claude agentsの配信入力欄で、キーリピートや高速入力時に入力・貼り付けした文字が乱れる問題を修正。",
+                "保存された会話に正常なフック一覧を持たない停止フック要約があると、再開時に回復不能なインターフェースエラーでクラッシュする問題を修正。",
+                "keybindings.jsonのChat設定でEnterをchat:queueSubmitなどに割り当てた場合、エージェントパネルの選択行でEnterが効かない問題を修正。",
+                "Windowsで作業フォルダーのパスが約120文字以上になると、PDFページの読み取りに失敗する問題を修正。",
+                "ヘッドレス再開（claude -p --resume、SDK、VS Code拡張の再読み込み）でセッションの累計費用・使用量がゼロから始まる問題を修正。終了時に累計を保存する。",
+                ".claude/skillsがGit管理外の場合、--worktreeセッションでメインリポジトリのプロジェクトスキルを読み込めない問題を修正。",
+                "sandbox.excludedCommandsのglobが複合Bashコマンドの一部分に一致するだけで全体をサンドボックス対象外にする問題を修正。すべての部分が一致することを必須にした。",
+                "再開したサブエージェントやチームメイトが読み込み済みMCPツール定義を再描画し、そのエージェントのプロンプトキャッシュを壊す問題を修正。",
+                "レート制限されたアーティファクト公開で再試行中止を指示する問題を修正。公開されていないことと同じ公開を再送する時刻を案内する。",
+                "再開・再起動後に過去の添付情報を再描画し、拡張思考が失われてプロンプトキャッシュも外れる問題を修正。",
+                "Consoleへのログイン時にサーバーがAPIキー作成を拒否すると汎用400エラーしか表示しない問題を修正。サーバーのメッセージを表示する。",
+                "Claudeの作業中に入力したメッセージが、モデルに無視されることがある問題を修正。",
+                "[VSCode] General configが設定を開かず/configの使用説明を表示する問題を修正。/mcp・/hooks・/memory・/rewindなどの入力でも対応するダイアログを開くようにした。",
+                "[VSCode] /effortで既に水準を保存したモデルで、スライダー変更が後続セッションへ保存されない問題を修正。",
+                "[VSCode] 使用済みパネルで会話を開く際、保存されたモデル別名がSonnetなど大小文字違いだと、モード選択からAutoが消える問題を修正。",
+                "[VSCode] /fastが高速モードを既定値として保存せず、拡張がClaude Codeを再起動すると失われる問題を修正。",
+                "[Claude Code on the web] Customネットワークアクセスでドメインを指定せず保存すると、黙ってTrustedへ戻る問題を修正。少なくとも1ドメインを求めるようにした。",
+                "[Claude Tag] Enterprise Gridの組織全体インストールでSlackチャンネルに作成したルーチンが、実行時に同じワークスペースの他の公開チャンネルを読めない問題を修正。",
+                "[Claude Tag] アクセスバンドルの認証情報プリセットにあるLearn moreが、汎用APIリファレンスではなく各ベンダーの認証情報設定ページを開くよう修正。",
+                "[Claude Tag] アクセスバンドルのGoogle Cloud認証情報フォームを修正。拒否された鍵ファイルの理由を表示し、ウェブサイトとスコープを固定し、ローテーション拒否時も貼り付けた鍵を保持する。",
+                "[Claude Tag] 管理設定のネットワークイベントログで、AWS署名・クライアント証明書・独自CAを使う接続の応答ステータスが表示されない問題を修正。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-          "urlLabel": "v2.1.275 release notes"
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+          "urlLabel": "v2.1.277 release notes"
         }
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
@@ -232,10 +193,10 @@
     }
   ],
   "exclusions": [
-    "official X watchとengineer X watchはX MCPが利用できなかったため、公開検索で代替せず未確定のzero stateとした。",
-    "official siteで公開日だけが示された記事は、そのvisible publication dateに基づいて24時間窓へ含めた。",
-    "対象24時間窓より前に公開された公式記事とClaude Code releaseは含めていない。",
-    "Claude Code releaseはGitHub CLIで取得した公式metadataと完全なrelease bodyのみをsource of truthとした。"
+    "公式XとエンジニアXはX MCPが利用できず未確認。公開検索で代替せず、投稿が存在しないとは判定していない。",
+    "公開日だけが分かる記事はその日付が対象期間に重なる場合に収録した。datetimeの午前0時は日付表現用で、実際の公開時刻を示さない。",
+    "対象期間外の公式記事とリリースを除外。Researchの特集Scenarios for our Economic Futureは正確な公開日を確認できず、窓内記事として扱っていない。",
+    "Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータと完全な本文を使用。"
   ],
   "sources": [
     {
@@ -247,44 +208,32 @@
       "url": "https://www.anthropic.com/research"
     },
     {
-      "title": "How Claude is uplifting biomolecular modeling",
-      "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
-    },
-    {
       "title": "Anthropic News",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
-    },
-    {
-      "title": "Introducing the Life Sciences Verification Program",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program"
-    },
-    {
-      "title": "Claude Blog listing",
+      "title": "Claude Blog",
       "url": "https://claude.com/blog"
     },
     {
-      "title": "Projects redesigned: from folder to conversation",
-      "url": "https://claude.com/blog/projects-redesigned"
+      "title": "Partnering with Accenture on embedded evaluation",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
     },
     {
-      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
-      "url": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5"
+      "title": "Scenarios for our Economic Future",
+      "url": "https://www.anthropic.com/institute/econ-scenarios"
     },
     {
       "title": "Claude Code releases",
       "url": "https://github.com/anthropics/claude-code/releases"
     },
     {
-      "title": "Claude Code v2.1.275",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275"
+      "title": "Claude Code v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
     },
     {
-      "title": "Claude Code v2.1.276",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
+      "title": "Claude Code v2.1.277",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277"
     }
   ]
 }
