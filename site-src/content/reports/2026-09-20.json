@@ -1,12 +1,12 @@
 {
   "date": "2026-09-20",
-  "windowLabel": "2026-09-19 01:00:49 UTC - 2026-09-20 01:00:49 UTC",
-  "archiveTitle": "Claude Code v2.1.278",
-  "archiveSummary": "Claude Code v2.1.278の全2項目を収録。公式ブログの新規記事は0件、Xは未確認。",
-  "latestSummary": "Claude Code v2.1.278の全2項目を新機能1件・変更1件に分類して和訳。公式ブログの新規記事は0件、Xの2系統はMCP不在で未確認とした。",
+  "windowLabel": "2026-09-19 07:00:54 UTC - 2026-09-20 07:00:54 UTC",
+  "archiveTitle": "No new official updates",
+  "archiveSummary": "公式ブログ・Claude Codeの対象期間内の新規更新は0件。公式X・エンジニアXは未確認。",
+  "latestSummary": "公式4媒体とClaude Codeリリースを再確認。最新v2.1.278も24時間の対象期間外となり、新規記事・リリースは0件。Xの2系統はMCP不在で未確認。",
   "summaryBullets": [
-    "<strong>Claude Code v2.1.278</strong>: 全2項目を新機能1件・変更1件に分類して収録。修正は0件。",
     "<strong>公式ブログの新規記事は0件</strong>: Engineering・Research・News・Claude Blogの4媒体を確認。",
+    "<strong>Claude Codeの新規リリースは0件</strong>: 最新v2.1.278は2026年9月19日12:10:40（日本時間）公開で、対象期間外。",
     "<strong>公式X・エンジニアXは未確認</strong>: X MCPが利用できず、投稿の有無は確定できていない。"
   ],
   "officialNews": [],
@@ -41,30 +41,11 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "1件",
-      "body": "公式リリース本文の全2項目を個別に和訳し、新機能1件・変更1件に分類。修正は0件。",
-      "releases": [
-        {
-          "version": "v2.1.278",
-          "publishedAt": "2026-09-19T03:10:40Z",
-          "summary": "自動モードのサーバー側分類器への切り替えと状態表示の全2項目。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "/statusにAuto mode server行を追加し、このセッションの自動モード分類器がサーバー側で動くか表示する。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "Claude API・Enterprise、およびBedrock・Vertex・Foundry・ゲートウェイの自動モードで、分類器の追加処理に課金しないサーバー側分類器を既定に変更。Bedrock・Vertex・Foundry・ゲートウェイではCLAUDE_CODE_AUTO_MODE_SERVER=0で無効化でき、課金される代替処理へ切り替わる場合は警告する。詳細は公式のauto-mode-classifier-billing文書を参照。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-          "urlLabel": "v2.1.278 release notes"
-        }
+      "headline": "0件",
+      "body": "対象期間内の新規リリースは0件。最新v2.1.278の公開時刻と完全な本文をGitHub CLIで確認したが、公開時刻が対象期間より前のため今回の収録対象から除外した。",
+      "details": [
+        "最新: v2.1.278（2026-09-19 03:10:40 UTC / 2026-09-19 12:10:40 JST）。",
+        "対象期間内の和訳・分類対象: 新機能0件 / 変更0件 / 修正0件。"
       ],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "Claude Code releases"
@@ -72,7 +53,7 @@
   ],
   "exclusions": [
     "公式XとエンジニアXはX MCPが利用できず未確認。公開検索で代替せず、投稿が存在しないとは判定していない。",
-    "対象期間外の公式記事とリリースを除外。Researchの特集Scenarios for our Economic Futureは正確な公開日を確認できず、窓内記事として扱っていない。",
+    "対象期間外の公式記事とリリース（最新v2.1.278を含む）を除外。Researchの特集Scenarios for our Economic Futureは正確な公開日を確認できず、窓内記事として扱っていない。",
     "Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータと完全な本文を使用。"
   ],
   "sources": [
