@@ -1,26 +1,15 @@
 {
   "date": "2026-09-20",
-  "windowLabel": "2026-09-18 19:01:58 UTC - 2026-09-19 19:01:58 UTC",
+  "windowLabel": "2026-09-19 01:00:49 UTC - 2026-09-20 01:00:49 UTC",
   "archiveTitle": "Claude Code v2.1.278",
-  "archiveSummary": "Claude Code v2.1.278の全2項目とAccentureとの評価提携を収録。Xは未確認。",
-  "latestSummary": "Claude Code v2.1.278の全2項目を和訳。Accentureとの組み込み型評価の提携を公開日基準で収録し、Xの2系統はMCP不在で未確認とした。",
+  "archiveSummary": "Claude Code v2.1.278の全2項目を収録。公式ブログの新規記事は0件、Xは未確認。",
+  "latestSummary": "Claude Code v2.1.278の全2項目を新機能1件・変更1件に分類して和訳。公式ブログの新規記事は0件、Xの2系統はMCP不在で未確認とした。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.278</strong>: 全2項目を新機能1件・変更1件に分類して収録。修正は0件。",
-    "<strong>公式記事1件</strong>: AnthropicがAccentureと組み込み型の独立評価で提携。公開日基準で収録。",
+    "<strong>公式ブログの新規記事は0件</strong>: Engineering・Research・News・Claude Blogの4媒体を確認。",
     "<strong>公式X・エンジニアXは未確認</strong>: X MCPが利用できず、投稿の有無は確定できていない。"
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-09-18T00:00:00Z",
-      "displayTime": "2026年9月18日（公開時刻非掲載・日付基準で収録）",
-      "title": "Partnering with Accenture on embedded evaluation",
-      "summary": "Accenture傘下のFacultyが主導し、モデル評価・レッドチーミング・アラインメント評価・安全対策の検証を行う提携を発表。評価者が社内で社員に近いアクセスを得る仕組みを目指す。両社は今後5年間にそれぞれ少なくとも10億ドルをこの分野の能力構築へ投じる見込み。",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "urlLabel": "Anthropic Newsで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
@@ -31,24 +20,24 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineering・Research・Claude Blogの窓内新規記事は0件",
-      "body": "公式一覧で対象期間の新規記事は確認できなかった。Newsは9月18日付の1件を公開日基準で収録。"
+      "label": "Engineering・Research・News・Claude Blogの窓内新規記事は0件",
+      "body": "公式一覧で対象期間の新規記事は確認できなかった。9月18日付のAccentureとの評価提携記事は対象期間外。Researchの特集記事は正確な公開日を確認できず、窓内記事として扱っていない。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic NewsのAccentureとの評価提携を収録。公開時刻は非掲載のため公開日基準で扱う。",
+      "headline": "0件",
+      "body": "公式4媒体で対象期間の新規記事は確認できなかった。",
       "details": [
         "Engineering: 0件",
         "Research: 0件",
-        "News: 1件",
+        "News: 0件",
         "Claude Blog: 0件"
       ],
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "urlLabel": "公式記事を読む"
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News"
     },
     {
       "title": "Claude Code リリース",
@@ -83,7 +72,6 @@
   ],
   "exclusions": [
     "公式XとエンジニアXはX MCPが利用できず未確認。公開検索で代替せず、投稿が存在しないとは判定していない。",
-    "公開日だけが分かる記事はその日付が対象期間に重なる場合に収録した。datetimeの午前0時は日付表現用で、実際の公開時刻を示さない。",
     "対象期間外の公式記事とリリースを除外。Researchの特集Scenarios for our Economic Futureは正確な公開日を確認できず、窓内記事として扱っていない。",
     "Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータと完全な本文を使用。"
   ],
@@ -103,10 +91,6 @@
     {
       "title": "Claude Blog",
       "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Partnering with Accenture on embedded evaluation",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation"
     },
     {
       "title": "Scenarios for our Economic Future",
