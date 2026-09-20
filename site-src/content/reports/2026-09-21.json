@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-21",
+  "windowLabel": "2026-09-19 19:02:23 UTC - 2026-09-20 19:02:23 UTC",
+  "archiveTitle": "No new official updates",
+  "archiveSummary": "公式ブログ・Claude Codeの対象期間内の新規更新は0件。公式X・エンジニアXは未確認。",
+  "latestSummary": "公式4媒体とClaude Codeリリースを再確認し、対象の24時間に新規記事・リリースは0件。公式X・エンジニアXはX MCPが利用できず未確認。",
+  "summaryBullets": [
+    "<strong>公式ブログの新規記事は0件</strong>: Engineering・Research・News・Claude Blogの4媒体を確認。",
+    "<strong>Claude Codeの新規リリースは0件</strong>: 最新v2.1.278は2026年9月19日12:10:40（日本時間）公開で、対象期間外。",
+    "<strong>公式X・エンジニアXは未確認</strong>: X MCPが利用できず、投稿の有無は確定できていない。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering・Research・News・Claude Blogの窓内新規記事は0件",
+      "body": "公式一覧で対象期間の新規記事は確認できなかった。9月18日付のAccentureとの評価提携記事は対象期間外。Researchの特集記事は正確な公開日を確認できず、窓内記事として扱っていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式4媒体で対象期間の新規記事は確認できなかった。",
+      "details": [
+        "Engineering: 0件",
+        "Research: 0件",
+        "News: 0件",
+        "Claude Blog: 0件"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic News"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "対象期間内の新規リリースは0件。最新v2.1.278の公開時刻と完全な本文をGitHub CLIで確認したが、公開時刻が対象期間より前のため今回の収録対象から除外した。",
+      "details": [
+        "最新: v2.1.278（2026-09-19 03:10:40 UTC / 2026-09-19 12:10:40 JST）。",
+        "対象期間内の和訳・分類対象: 新機能0件 / 変更0件 / 修正0件。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "公式XとエンジニアXはX MCPが利用できず未確認。公開検索で代替せず、投稿が存在しないとは判定していない。",
+    "対象期間外の公式記事とリリース（最新v2.1.278を含む）を除外。Researchの特集Scenarios for our Economic Futureは正確な公開日を確認できず、窓内記事として扱っていない。",
+    "Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータと完全な本文を使用。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Scenarios for our Economic Future",
+      "url": "https://www.anthropic.com/institute/econ-scenarios"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    },
+    {
+      "title": "Claude Code v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
+    }
+  ]
+}
