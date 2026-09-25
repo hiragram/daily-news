@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-26",
+  "windowLabel": "2026-09-24 19:01:35 UTC - 2026-09-25 19:01:35 UTC",
+  "archiveTitle": "Nine loops and Claude plugins",
+  "archiveSummary": "Claudeによる九ループ物理計算と、Claudeプラグイン提出ポータルを収録。",
+  "latestSummary": "Claudeが理論物理の九ループ計算を実行した研究記事と、Claudeディレクトリ向けプラグイン提出ポータルを公開。Claude Codeの窓内リリースはなく、公式X・エンジニアXは未確認。",
+  "summaryBullets": [
+    "<strong>公式記事は2件</strong>: Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。",
+    "<strong>Claude Code リリースは0件</strong>: 最新のv2.1.282は今回の時間窓より前に公開されており、窓内リリースノートはない。",
+    "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-09-25T00:00:00Z",
+      "displayTime": "2026年9月25日（公開時刻未公表）",
+      "title": "Yes, Claude can do Nine Loops",
+      "summary": "ゲスト寄稿で、Claude Science上のFable 5.1がN=4超対称Yang–Mills理論の六粒子散乱振幅を九ループまで計算した事例を報告。研究者が結果を独立検証し、既知の手法を用いた長時間の自律的な計算とコード作成を紹介している。",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "urlLabel": "Anthropic Research",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-25T00:00:00Z",
+      "displayTime": "2026年9月25日（公開時刻未公表）",
+      "title": "Build plugins for Claude",
+      "summary": "有料Claudeプランの開発者向けに、MCPコネクターまたはGitHub上のプラグインバンドルをClaudeディレクトリへ提出し、検証・安全スキャン・審査状況・利用分析を扱えるポータルを公開。ClaudeとClaude Codeへ共通の発見体験を順次展開する予定も示した。",
+      "url": "https://claude.com/blog/build-plugins-for-claude",
+      "urlLabel": "Claude Blog",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Anthropic Engineering / Newsの窓内新規記事は0件",
+      "body": "EngineeringとNewsの公式一覧に窓内の新規記事は確認できず、Research 1件とClaude Blog 1件をofficialNewsに収録した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。",
+      "details": [
+        "Engineering: 0件",
+        "Research: Yes, Claude can do Nine Loops",
+        "News: 0件",
+        "Claude Blog: Build plugins for Claude"
+      ],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで確認した最新のv2.1.282は2026-09-24T18:38:05Z公開で、今回の時間窓開始（2026-09-24T19:01:35Z）より前のため除外。窓内リリースノートはない。",
+      "details": [
+        "Claude Code: 窓内リリース 0件",
+        "最新v2.1.282: 2026-09-24T18:38:05Z（時間窓外）"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "GitHub Releases"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "時間窓外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Yes, Claude can do Nine Loops",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Build plugins for Claude",
+      "url": "https://claude.com/blog/build-plugins-for-claude"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
