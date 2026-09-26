@@ -1,109 +1,133 @@
 {
   "date": "2026-09-26",
-  "windowLabel": "2026-09-24 19:01:35 UTC - 2026-09-25 19:01:35 UTC",
-  "archiveTitle": "Nine loops and Claude plugins",
-  "archiveSummary": "Claudeによる九ループ物理計算と、Claudeプラグイン提出ポータルを収録。",
-  "latestSummary": "Claudeが理論物理の九ループ計算を実行した研究記事と、Claudeディレクトリ向けプラグイン提出ポータルを公開。Claude Codeの窓内リリースはなく、公式X・エンジニアXは未確認。",
-  "summaryBullets": [
-    "<strong>公式記事は2件</strong>: Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。",
-    "<strong>Claude Code リリースは0件</strong>: 最新のv2.1.282は今回の時間窓より前に公開されており、窓内リリースノートはない。",
-    "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"
-  ],
+  "windowLabel": "2026-09-25 01:02:32 UTC - 2026-09-26 01:02:32 UTC",
+  "archiveTitle": "Claude plugins and Code 2.1.283",
+  "archiveSummary": "Claude向けプラグイン提出ポータルと、Claude Code v2.1.283を収録。",
+  "latestSummary": "Claudeディレクトリ向けプラグイン提出ポータルと理論物理の九ループ計算に関する公式記事、ならびに全94項目のClaude Code v2.1.283リリースノートを掲載。",
+  "summaryBullets": ["<strong>公式記事は2件</strong>: Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。", "<strong>Claude Code v2.1.283</strong>: ゲートウェイ、MCP、プラグイン、CLI、VS Code、Claude Tagなどの新機能・変更・修正を全94項目収録。", "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"],
   "officialNews": [
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-09-25T00:00:00Z",
-      "displayTime": "2026年9月25日（公開時刻未公表）",
-      "title": "Yes, Claude can do Nine Loops",
-      "summary": "ゲスト寄稿で、Claude Science上のFable 5.1がN=4超対称Yang–Mills理論の六粒子散乱振幅を九ループまで計算した事例を報告。研究者が結果を独立検証し、既知の手法を用いた長時間の自律的な計算とコード作成を紹介している。",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
-      "urlLabel": "Anthropic Research",
-      "primary": true
-    },
-    {
-      "label": "Claude Blog",
-      "datetime": "2026-09-25T00:00:00Z",
-      "displayTime": "2026年9月25日（公開時刻未公表）",
-      "title": "Build plugins for Claude",
-      "summary": "有料Claudeプランの開発者向けに、MCPコネクターまたはGitHub上のプラグインバンドルをClaudeディレクトリへ提出し、検証・安全スキャン・審査状況・利用分析を扱えるポータルを公開。ClaudeとClaude Codeへ共通の発見体験を順次展開する予定も示した。",
-      "url": "https://claude.com/blog/build-plugins-for-claude",
-      "urlLabel": "Claude Blog",
-      "primary": true
-    }
+    {"label":"Anthropic Research","datetime":"2026-09-25T00:00:00Z","displayTime":"2026年9月25日（公開時刻未公表）","title":"Yes, Claude can do Nine Loops","summary":"ゲスト寄稿で、Claude Science上のFable 5.1がN=4超対称Yang–Mills理論の六粒子散乱振幅を九ループまで計算した事例を報告。研究者が結果を独立検証し、既知の手法を用いた長時間の自律的な計算とコード作成を紹介している。","url":"https://www.anthropic.com/research/yes-claude-can-do-nine-loops","urlLabel":"Anthropic Research","primary":true},
+    {"label":"Claude Blog","datetime":"2026-09-25T00:00:00Z","displayTime":"2026年9月25日（公開時刻未公表）","title":"Build plugins for Claude","summary":"有料Claudeプランの開発者向けに、MCPコネクターまたはGitHub上のプラグインバンドルをClaudeディレクトリへ提出し、検証・安全スキャン・審査状況・利用分析を扱えるポータルを公開。ClaudeとClaude Codeへ共通の発見体験を順次展開する予定も示した。","url":"https://claude.com/blog/build-plugins-for-claude","urlLabel":"Claude Blog","primary":true}
   ],
   "officialZeroStates": [
-    {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
-      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
-    },
-    {
-      "label": "Anthropic engineer X signalは未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
-    },
-    {
-      "label": "Anthropic Engineering / Newsの窓内新規記事は0件",
-      "body": "EngineeringとNewsの公式一覧に窓内の新規記事は確認できず、Research 1件とClaude Blog 1件をofficialNewsに収録した。"
-    }
+    {"label":"@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず","body":"<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"},
+    {"label":"Anthropic engineer X signalは未確定","body":"<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"},
+    {"label":"Anthropic Engineering / Newsの窓内新規記事は0件","body":"EngineeringとNewsの公式一覧に窓内の新規記事は確認できず、Research 1件とClaude Blog 1件をofficialNewsに収録した。"}
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "2件",
-      "body": "Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。",
-      "details": [
-        "Engineering: 0件",
-        "Research: Yes, Claude can do Nine Loops",
-        "News: 0件",
-        "Claude Blog: Build plugins for Claude"
-      ],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで確認した最新のv2.1.282は2026-09-24T18:38:05Z公開で、今回の時間窓開始（2026-09-24T19:01:35Z）より前のため除外。窓内リリースノートはない。",
-      "details": [
-        "Claude Code: 窓内リリース 0件",
-        "最新v2.1.282: 2026-09-24T18:38:05Z（時間窓外）"
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHub Releases"
-    }
+    {"title":"ブログ","headline":"2件","body":"Claudeによる理論物理の九ループ計算と、Claudeディレクトリ向けプラグイン提出ポータルを公開。","details":["Engineering: 0件","Research: Yes, Claude can do Nine Loops","News: 0件","Claude Blog: Build plugins for Claude"],"url":"https://claude.com/blog","urlLabel":"Claude Blog"},
+    {"title":"Claude Code リリース","headline":"v2.1.283（94項目）","body":"GitHub CLIで完全取得したv2.1.283（2026-09-25T21:50:12Z）の全リリースノートを、新機能11件・変更28件・修正55件に分類して和訳。","releases":[{"version":"v2.1.283","publishedAt":"2026-09-25T21:50:12Z","summary":"ゲートウェイ制御、MCP、プラグイン、操作性、起動性能を拡張し、SDK・MCP・プラグイン・CLI・アクセシビリティ・VS Code・Claude Tag・Code Reviewを修正。","sections":[
+      {"title":"新機能","items":[
+        "LLMゲートウェイが同一ユーザープロンプト由来のリクエストをグループ化できるよう、ゲートウェイhintヘッダーに<code>x-claude-code-prompt-id</code>を追加（<code>CLAUDE_CODE_GATEWAY_HINT_HEADERS=1</code>で有効化）。",
+        "管理設定<code>availableModelsMatch</code>を追加。<code>exact</code>では<code>availableModels</code>の項目が指定したモデル版だけを許可し、新版は明示的に列挙されるまで遮断する。",
+        "<code>availableModels</code>で許可されていても特定モデルを遮断できる管理設定<code>deniedModels</code>を追加。",
+        "<code>OTEL_LOG_TOOL_CONTENT=1</code>時に、MCPツール・WebFetch・WebSearchの出力をOpenTelemetryの<code>tool.output</code> spanイベントへ追加。",
+        "旧モデル向けのプロンプトパターンを監査する<code>/doctor prompt-audit</code>（<code>/checkup prompt-audit</code>も可）を追加。CLAUDE.md、skills、agents、commandsを対象とする。",
+        "フルスクリーンで他セッションの省略表示メッセージをクリックして展開できるようにした。",
+        "stream-jsonの<code>system/init</code>にある<code>plugin_errors</code>の<code>--plugin-dir</code>読み込み失敗エントリへ、失敗したディレクトリを示す<code>path</code>を追加。",
+        "Claude appsゲートウェイ設定にオプトインの<code>load_test_mode</code>ブロックを追加。リクエストを構築・署名するが上流送信せず、定型応答を返してデプロイの負荷試験を行える。",
+        "Claude appsゲートウェイにAmazon BedrockのMantle endpoint向け<code>mantle</code>上流プロバイダーを追加。",
+        "[Claude Tag] Claudeが検索できるSlack channelを、Claudeが追加されたpublic channelに限定できる管理設定<code>Channels Claude can search</code>を追加（organization/workspace/channel単位）。",
+        "[Claude Tag] Claude account接続後のページに、開始したthreadへ戻るBack to Slackボタンを追加。"
+      ]},
+      {"title":"変更","items":[
+        "<code>/mcp</code>のツール一覧を改善し、より多くのツールを同時表示、Pageキーとマウスでスクロール、組織が遮断したツールを警告アイコンで示すようにした。",
+        "MCPツール結果の画像もファイルへ保存し、BashやReadなどのツールで開けるようにした。",
+        "<code>/tasks</code>を改善。行に状態アイコン・名前・全factsを表示し、タイトルとキー操作を固定、ページ送り・マウスホイール・クリックに対応。",
+        "<code>/help</code>、<code>/hooks</code>、<code>/copy</code>、<code>/chrome</code>、<code>/memory</code>、<code>/ide</code>、<code>/release-notes</code>、<code>/rewind</code>、<code>/diff</code>、<code>/remote-env</code>、<code>/plugin</code>などの一覧をPageキー・マウスホイール・クリック対応にした。",
+        "<code>/skills</code>や<code>/artifacts</code>など検索ボックス横の一覧では、検索ボックスがキー操作を受け取る間はポインターを薄く描画し、強調を一つにした。",
+        "コンパクションのスピナーを改善。開始時からタイマーを動かし、ストリーム中の要約トークンを数え、パーセントバーを置き換えた。",
+        "MCPサーバーへサインインした後のブラウザページを、中央配置・ダークモード・新アートワークに更新。",
+        "プラグイン読み込みに失敗した所属pluginのSkillへの応答を改善し、未インストールではなくプラグインを読み込めなかったことをClaudeが伝えるようにした。",
+        "Claude Code設定の<code>prompt-audit</code>を改善。古いパス・コマンド・矛盾する指示ファイルを先頭に出し、Claude Codeが文書化したthinkingキーワードは維持する。",
+        "読めない<code>installed_plugins.json</code>からの復旧を改善。再構築前に内容を隣接ファイルへ保持し、<code>claude plugin list</code>がそのファイル名を示す。",
+        "artifact databaseの読み取りを改善。順序付きクエリが一杯のページを返した際、1ページ目であることと残りの読み方を示す。",
+        "最初の応答のレイテンシーを改善。初回応答末尾に走っていたパターンコンパイルを、応答ストリーム中に実行する。",
+        "事前接続したAPI接続を再利用して最初のリクエストのレイテンシーを改善。",
+        "起動を改善。<code>claude -p</code>とClaude Code Remoteは対話UIを読み込まず、auto-mode分類器のルールとArtifactツールは初回使用時に読む。",
+        "Artifact機能が未判明のclaude.aiアカウントの起動を改善。プロンプトは最大1.5秒の確認待ちをせず、必要なら最初のメッセージで待つ。",
+        "サードパーティープロバイダー使用時またはtelemetry無効時の対話セッションは、権限モードが未設定ならauto modeで開始するよう変更（<code>permissions.defaultMode</code>があればそれを優先）。",
+        "<code>/ultrareview</code>開始ダイアログに、ローカルブランチのレビューでは追跡対象ファイルの未コミット変更をアップロードする可能性がある旨を明記。",
+        "<code>/model</code>のOpus行とDefaultモデル名から、Opusがすでに100万コンテキストを持つ場合の<code>(1M context)</code>表記を削除（コンテキスト長は不変）。",
+        "端末のプロンプト提案は連続20回未使用後に表示頻度を下げ、1回使うと再表示を増やすよう変更。",
+        "<code>--system-prompt</code>と<code>--append-system-prompt</code>でテキスト形式と<code>-file</code>形式を併用可能にし、ファイル内容を先に適用。",
+        "<code>Skill(anthropic-skills:&lt;name&gt;)</code>のdenyルールをClaude Desktopがpluginとして配信したskillにも適用。<code>Skill(skill:&lt;name&gt;)</code>のdenyはskillのaliasと表示名にも一致させる。",
+        "<code>/rewind</code>と<code>/diff</code>の一覧を他の一覧と同じ<code>select:*</code>操作で移動するよう変更し、既存の<code>messageSelector:*</code>/<code>diff:*</code>再バインドも維持。",
+        "<code>/workflows</code>の実行一覧を他の一覧と同様に端末内の半分の高さで表示し、下にプロンプトが出てもタイトルを保持。",
+        "gitがある場合、<code>claude plugin eval</code>はgit 2.31以降を必須化し、古いgitでは版を示して実行を拒否。",
+        "artifact watchingを変更。自動で開始したwatchは活動がない状態で3.5時間後に終了し、artifactの公開または再watchで再度有効化する。",
+        "Self-hosted runnerで、lifecycle hooksのgitはGit LFSの<code>pre-push</code>をスキップし、書込み可能なsystem <code>core.hooksPath</code>を無視し、<code>--configure-git</code>なしではコミット署名しないよう変更。",
+        "Self-hosted runnerでAnthropic管理下gitの<code>GIT_SSL_CAINFO</code>/<code>GIT_SSL_NO_VERIFY</code>を変更。runner自身のgitは常にAnthropicのgit経路を検証し、警告行で適用範囲を示す。",
+        "2.1.282で行った<code>claude-ai</code>名の予約を取り消し、同名のskills・commands・workflows・MCP serversのskills/promptsを再び読み込めるようにした。<code>Skill(claude-ai:*)</code>ルールは通常のprefixルールに戻した。"
+      ]},
+      {"title":"修正","items":[
+        "ターンが早期終了した際にSDKセッションでdeferred tool callまたは完了済みtool resultが失われる問題、worker再起動後の保留中承認プロンプト、non-streaming fallbackの<code>result.usage</code>を修正。",
+        "長時間ツール呼び出しがバックグラウンドへ移った後にMCP progress通知が破棄される問題を修正し、バックグラウンドタスクが最新進捗を表示するようにした。",
+        "セッション終了時に起動途中のstdio MCPサーバーが残り続ける問題を修正。",
+        "stateless remote MCPサーバーが短時間404（プロキシ再デプロイ中など）を返すと、接続済み表示のまま残りセッションで使えなくなる問題を修正。",
+        "有効なURLを持たないサーバーへのMCPサインインが不明瞭なSDKエラーになる問題を修正し、<code>/mcp</code>ではそのサーバーにAuthenticateを表示しない。",
+        "telemetry無効時に週次Fable上限が<code>/usage</code>とVS Code使用量メーターに出ない問題を修正。",
+        "日付または<code>-v1:0</code>接尾辞付きIDでplain IDが拒否される場合に、<code>/model</code>が<code>[1m]</code>付きSonnet 4.6またはSonnet 5を受け付ける問題を修正。",
+        "<code>ANTHROPIC_DEFAULT_HAIKU_MODEL</code>で別モデルを固定した際、<code>/model</code> pickerが固定のHaiku版・価格を表示する問題を修正。",
+        "モデルfallback中に開始したdynamic workflowが設定モデルを再試行せず全agentをfallbackモデルで動かす問題を修正。",
+        "Haikuがセッション主モデルの場合に<code>DISABLE_PROMPT_CACHING_HAIKU</code>が効かない問題を修正。",
+        "<code>claude plugin validate</code>がインストール不能なplugin/marketplace名を許可すると表示する問題を修正し、<code>marketplace.json</code>内のそのような名前は検証失敗にした。",
+        "<code>claude plugin validate</code>が、<code>outputStyles</code>、<code>themes</code>、<code>monitors</code>、<code>lspServers</code>のパスが欠落またはplugin外を指すpluginを通す問題を修正。",
+        "<code>plugin.json</code>でMCP serversを宣言するpluginに対して<code>claude plugin details</code>が0件と表示する問題を修正。",
+        "<code>claude plugin marketplace remove</code>がmarketplaceと同時にアンインストールしたplugin名を示さない問題を修正し、一覧表示するようにした。",
+        "同じscopeで<code>enabledPlugins</code>エントリがない場合、IDの大文字小文字だけが異なる別pluginとそのoptions/secretsを<code>claude plugin uninstall</code>が削除する問題を修正。",
+        "version未宣言pluginのキャッシュファイルがない場合に、インストール済みcommitではなくsourceの最新commitへ黙って復元される問題を修正。",
+        "home/configディレクトリ移動後（bind mountしたdevcontainerなど）にユーザーインストールのplugin/marketplaceが<code>cache-miss</code>で読み込めない問題を修正。",
+        "不正なplugin IDのrecordを持つ<code>installed_plugins.json</code>でpluginが0件表示になる問題を修正し、読み込めるようにした。",
+        "このバージョンで読めないrecordを含む<code>installed_plugins.json</code>が書き直されrecordを失う問題を修正。<code>claude plugin</code>コマンドはrecord名と復旧方法を示す。",
+        "スクリーンリーダーモードの権限ダイアログが、引用されたコマンドやパスをダイアログ本文として読み上げる問題を修正。",
+        "<code>/context</code>がMCP server instructionsを数えない問題を修正し、独立行として表示して合計へ含める。",
+        "Warp端末のMarkdownリンクがクリック可能なハイパーリンクではなく平文になる問題を修正。",
+        "sandbox内などでuser/local設定ファイルを書けない場合に、<code>claude mcp add</code>、<code>add-json</code>、<code>remove</code>が成功と報告する問題を修正。",
+        "cloud sessionで応答冒頭が、Claudeが書く最中にstreamされず遅れて表示されることがある問題を修正。",
+        "組み込みkeybindingsガイドがchord timeoutを1秒と誤記し、<code>cmd</code>を<code>meta</code>のaliasと説明して多くの端末が送らない<code>cmd+</code> shortcutを作る問題を修正。",
+        "<code>keybindings.json</code>が<code>ctl+k</code>のようなmodifier誤記を黙認する問題を修正し、debug logで修正案付き警告を出す。",
+        "<code>keybindings.json</code>で<code>footer:openSelected</code>を再バインドまたは解除してもfooter hintが「Enterで表示」と残る問題を修正。",
+        "素早く連続入力したキー（type-ahead、キーリピート、ssh/tmuxでのburst）が古い状態を対象に処理される問題を修正。",
+        "<code>GIT_CONFIG_COUNT</code>環境ペアでCA証明書をgitへ渡す場合にworktree checkout（Git LFS downloadなど）が証明書検証に失敗する問題を修正。",
+        "sandbox化gitがsandbox proxyのログインをcredential helperへ保存しようとして<code>failed to store</code>を出す問題を修正。",
+        "nested valueが一つ不正な場合に管理<code>sandbox</code>設定ブロック全体が無視される問題を修正。不正値はfail closedにし、他の有効値は適用する。",
+        "git repositoryのサブディレクトリからClaude Codeを起動した際、Claude自身のauto-memory notes編集がsensitive-file writeとして拒否される問題を修正。",
+        "<code>DISABLE_TELEMETRY</code>または<code>DO_NOT_TRACK</code>でtelemetryを無効化すると、有料プランでRemote Controlが利用できない問題を修正。",
+        "狭い端末で<code>/remote-control</code>メニューのQRコードhintが単語途中で切れる問題を修正。",
+        "vim modeで<code>.</code>がShift+Enter改行を落とす問題、アクセント文字内にカーソルを残す問題、最終行の<code>3J</code>またはVisual-mode <code>J</code>後に古い変更を繰り返す問題を修正。",
+        "vim modeのカーソル配置を修正。normal modeで1万文字超のpromptを呼び出しても末尾を越えず、<code>V</code>後の<code>p</code>は最初の非空白へ着地する。",
+        "vim modeの<code>J</code>がVimと異なる空白で行結合する問題と、最終行の<code>3J</code>/Visual-mode <code>J</code>でカーソルが移動しない問題を修正。",
+        "WindowsでPowerShell toolが<code>cmd /c rd</code>、<code>rmdir</code>、<code>del</code>、<code>erase</code>により、<code>Remove-Item</code>が拒否するdrive root・home folderなどを削除できる問題を修正。",
+        "[VSCode] permission mode indicatorが、auto/bypassからの自動切替失敗後もDefaultと表示する問題を修正。切替が成立するまで再試行する。",
+        "[VSCode] webからteleportされたsessionで、Claude稼働中に送られたmessageが落ちる問題を修正。",
+        "[VSCode] 古い版が空のlocal copyを保存した場合にWeb sessionがsession listから消え、代わりに空chatが開く問題を修正。",
+        "[VSCode] session再オープン時に、自動継続などターン中に受け取ったmessageでturnが分割される問題を修正。",
+        "[VSCode] reload後にrewindで消したturn、またはcompaction前の行しか表示しない問題を修正。",
+        "[VSCode] 狭いpanelでfooterのagents pillのiconが中央からずれ、status dotが端に寄る問題を修正。",
+        "[VSCode] 長いpromptへ改行末尾の行を貼り付けた際、chat inputの文字がcursor/selectionよりわずかに下に表示される問題を修正。",
+        "[Cloud sessions] 実行中cloud sessionへrepositoryを追加する際、GitHubアカウントが読取のみ可能なprivate repositoryも読取用に添付できるようにした。",
+        "[Cloud sessions] サーバー再起動からの復旧後、duplicate commentやpushなど完了済みstepをやり直すことがある問題を修正。",
+        "[Cloud sessions] 新しいroutine scheduleは、ちょうど正時では数分遅れる可能性の注記とともに、標準で正時の数分後を選ぶよう変更。",
+        "[Claude Tag] channelのaccess bundleがattach rule経由の場合、configureページにconnector/pluginが表示されない問題を修正し、rule添付bundleを表示する。",
+        "[Claude Tag] GitHub App installが多数のselected repositoryに制限される場合に、access-bundle repository searchがrepositoryを見逃す問題を修正。",
+        "[Claude Tag] 新しいmessageが応答中に届くとClaudeが同じreplyを二重投稿することがある問題を修正。",
+        "[Claude Tag] Slack Connect share後などでSlack channel IDが変わった古いprivate channelで、channel routineが停止する問題を修正。",
+        "[Claude Tag] 「Channel only」設定のchannelでnon-guest member参加時、Slackのmembership確認が遅いと会話がすべて終了する問題を修正。",
+        "[Code Review] GitHubがpull requestを返さないと<code>@claude review</code>が無応答になる問題を修正。1回再試行し、それでも失敗ならcommentで説明する。",
+        "[Code Review] time limitで検証が何もないまま停止したreviewの課金を修正。不完全として表示し、課金せず1回再試行する。"
+      ]}
+    ],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.283","urlLabel":"GitHub Release v2.1.283"}],"url":"https://github.com/anthropics/claude-code/releases","urlLabel":"GitHub Releases"}
   ],
-  "exclusions": [
-    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "時間窓外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"
-  ],
+  "exclusions": ["X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。","時間窓外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Yes, Claude can do Nine Loops",
-      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Blog",
-      "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Build plugins for Claude",
-      "url": "https://claude.com/blog/build-plugins-for-claude"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},
+    {"title":"Anthropic Research","url":"https://www.anthropic.com/research"},
+    {"title":"Yes, Claude can do Nine Loops","url":"https://www.anthropic.com/research/yes-claude-can-do-nine-loops"},
+    {"title":"Anthropic News","url":"https://www.anthropic.com/news"},
+    {"title":"Claude Blog","url":"https://claude.com/blog"},
+    {"title":"Build plugins for Claude","url":"https://claude.com/blog/build-plugins-for-claude"},
+    {"title":"Claude Code release v2.1.283","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.283"}
   ]
 }
