@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-28",
+  "windowLabel": "2026-09-26 19:01:38 UTC - 2026-09-27 19:01:38 UTC",
+  "archiveTitle": "No new Claude updates",
+  "archiveSummary": "公式4媒体とClaude Codeに対象24時間の新規公開はありません。X監視はMCP未接続のため未確認です。",
+  "latestSummary": "公式ブログ4媒体とClaude Codeは対象24時間に新規0件。公式・エンジニアXはX MCP未接続のため未確認です。",
+  "summaryBullets": [
+    "<strong>公式4媒体は新規0件</strong>: Engineering・Research・News・Claude Blogを確認。",
+    "<strong>Claude Codeリリースは0件</strong>: GitHub CLIで確認した最新v2.1.283は対象期間前（2026-09-25T21:50:12Z）。",
+    "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering・Research・News・Claude Blogの窓内新規記事は0件",
+      "body": "公式4媒体の一覧で対象期間の新規記事は確認できなかった。Engineeringの最新日付表示は4月23日、ResearchとClaude Blogは9月25日、Newsは9月23日で、いずれも対象期間外として扱った。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式4媒体で対象期間の新規記事は確認できなかった。",
+      "details": ["Engineering: 0件", "Research: 0件", "News: 0件", "Claude Blog: 0件"],
+      "url": "https://claude.com/blog",
+      "urlLabel": "Claude Blog"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで確認した最新v2.1.283は2026-09-25T21:50:12Z公開で対象期間前のため、窓内リリースはない。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "GitHub Releases"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータを使用。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
