@@ -1,16 +1,39 @@
 {
   "date": "2026-09-29",
-  "windowLabel": "2026-09-27 19:01:40 UTC - 2026-09-28 19:01:40 UTC",
-  "archiveTitle": "Claude Code 2.1.284 ships",
-  "archiveSummary": "Claude Code v2.1.284が公開され、Sonnet 5.5、MCP再接続、gateway・plugin・端末操作の多数の改善を収録しました。",
-  "latestSummary": "Claude Code v2.1.284が公開。Sonnet 5.5の追加、9つの新機能、広範なgateway・MCP・plugin・VS Code・Claude Tagの修正と変更を確認しました。",
+  "windowLabel": "2026-09-28 01:00:50 UTC - 2026-09-29 01:00:50 UTC",
+  "archiveTitle": "Sonnet 5.5 and Claude Code 2.1.284",
+  "archiveSummary": "Claude Sonnet 5.5とClaude Managed AgentsのNVIDIA OpenShell連携、Claude Code v2.1.284を公開しました。",
+  "latestSummary": "Claude Sonnet 5.5の発表、NVIDIA OpenShellを使うManaged Agentsの提供、Claude Code v2.1.284の111項目を確認しました。",
   "summaryBullets": [
+    "<strong>Claude Sonnet 5.5</strong>を発表。Sonnet 5より30%以上高速で、通常の作業では最大30%低コストとした（公開時刻非掲載のため日付基準で収録）。",
+    "<strong>Claude Managed Agents + NVIDIA OpenShell</strong>: 自社インフラまたはmanaged provider上で、sandbox・認証・実行追跡を備えたagent運用を案内。",
     "<strong>Claude Code v2.1.284</strong> が2026-09-28 18:02 UTC（JST 09-29 03:02）に公開。<strong>Claude Sonnet 5.5</strong>をAPIでの標準Sonnetとして追加。",
     "<strong>MCP・gateway・plugin</strong>: 全MCPの再接続、gateway telemetryのGoogle認証・証明書認証、モデル管理設定とplugin検証・復旧を拡張。",
     "<strong>信頼性と操作性</strong>: 応答再試行、コンテキスト圧縮、端末・vim・VS Code・Claude Tag・Code Reviewの不具合を広範に修正。",
-    "<strong>公式ブログ4媒体は新規0件</strong>。公式X・エンジニアXはX MCP未接続のため未確認。"
+    "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-09-28T00:00:00Z",
+      "displayTime": "2026年9月28日（公開時刻非掲載・日付基準で収録）",
+      "title": "Claude Sonnet 5.5",
+      "summary": "Claude Sonnet 5より30%以上高速で、通常の作業では最大30%低コストとするSonnet 5.5を発表。API、AWS、Google Cloud、Microsoft Azureで提供し、サイバー安全策も適用する。",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "urlLabel": "Anthropic Newsで読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-28T00:00:00Z",
+      "displayTime": "2026年9月28日（公開時刻非掲載・日付基準で収録）",
+      "title": "NVIDIAと、企業がAI agentをより細かく制御するために",
+      "summary": "Claude Managed Agentsで、secure sandboxing、認証、tool実行、長時間session、multi-agent orchestration、実行追跡を提供し、NVIDIA OpenShellで最小権限のagent運用を支援する。",
+      "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
@@ -21,19 +44,19 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineering・Research・News・Claude Blogの窓内新規記事は0件",
-      "body": "Engineering・Research・Claude Blogの公式一覧を確認し、窓内記事はなかった。News一覧は公式ページが503だったが、公式一覧の検索スナップショットで最新掲載が9月23日であることを照合した。"
+      "label": "Engineering・Researchの窓内新規記事は0件",
+      "body": "公式一覧を確認し、EngineeringとResearchには窓内の新規記事がなかった。NewsとClaude Blogはそれぞれ9月28日付の記事を確認した（両記事とも公開時刻非掲載のため日付基準で収録）。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "公式4媒体で対象期間の新規記事は確認できなかった。",
-      "details": ["Engineering: 0件", "Research: 0件", "News: 0件（公式一覧は503、検索スナップショットで照合）", "Claude Blog: 0件"],
-      "url": "https://claude.com/blog",
-      "urlLabel": "Claude Blog"
+      "headline": "2件",
+      "body": "公式4媒体で<strong>News 1件、Claude Blog 1件</strong>を確認した。EngineeringとResearchは0件。",
+      "details": ["<strong>Anthropic News</strong>: Claude Sonnet 5.5（Sep 28, 2026、時刻非掲載）", "<strong>Claude Blog</strong>: Giving companies more control over their AI agents, with NVIDIA（Sep 28, 2026、時刻非掲載）", "<strong>Engineering / Research</strong>: 窓内entry 0件"],
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "urlLabel": "主要記事を読む"
     },
     {
       "title": "Claude Code リリース",
@@ -187,8 +210,8 @@
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Claude Sonnet 5.5", "url": "https://www.anthropic.com/claude-sonnet-5-5"},
+    {"title": "NVIDIAとClaude Managed Agents", "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"},
     {"title": "Claude Code v2.1.284", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"}
   ]
 }
