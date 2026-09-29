@@ -1,39 +1,15 @@
 {
   "date": "2026-09-29",
-  "windowLabel": "2026-09-28 07:01:28 UTC - 2026-09-29 07:01:28 UTC",
-  "archiveTitle": "Sonnet 5.5 and Claude Code 2.1.284",
-  "archiveSummary": "Claude Sonnet 5.5とClaude Managed AgentsのNVIDIA OpenShell連携、Claude Code v2.1.284を公開しました。",
-  "latestSummary": "Claude Sonnet 5.5の発表、NVIDIA OpenShellを使うManaged Agentsの提供、Claude Code v2.1.284の111項目を確認しました。",
+  "windowLabel": "2026-09-28 13:02:12 UTC - 2026-09-29 13:02:12 UTC",
+  "archiveTitle": "No new official Claude updates",
+  "archiveSummary": "対象24時間では公式ブログとClaude Codeに新規公開はありませんでした。",
+  "latestSummary": "対象24時間では公式4媒体とClaude Codeに新規公開はありませんでした。X投稿はMCP未提供のため未確認です。",
   "summaryBullets": [
-    "<strong>Claude Sonnet 5.5</strong>を発表。Sonnet 5より30%以上高速で、通常の作業では最大30%低コストとした（公開時刻非掲載のため日付基準で収録）。",
-    "<strong>Claude Managed Agents + NVIDIA OpenShell</strong>: 自社インフラまたはmanaged provider上で、sandbox・認証・実行追跡を備えたagent運用を案内。",
-    "<strong>Claude Code v2.1.284</strong> が2026-09-28 18:02 UTC（JST 09-29 03:02）に公開。<strong>Claude Sonnet 5.5</strong>をAPIでの標準Sonnetとして追加。",
-    "<strong>MCP・gateway・plugin</strong>: 全MCPの再接続、gateway telemetryのGoogle認証・証明書認証、モデル管理設定とplugin検証・復旧を拡張。",
-    "<strong>信頼性と操作性</strong>: 応答再試行、コンテキスト圧縮、端末・vim・VS Code・Claude Tag・Code Reviewの不具合を広範に修正。",
-    "<strong>公式X・エンジニアXは未確認</strong>: X MCPがこの実行環境で利用できない。"
+    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Blogの対象24時間内の新規記事は0件。",
+    "<strong>Claude Code</strong>: GitHub CLIで確認した対象24時間内の新規リリースは0件（最新はv2.1.284、2026-09-28 18:02:03 UTC公開）。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-09-28T00:00:00Z",
-      "displayTime": "2026年9月28日（公開時刻非掲載・日付基準で収録）",
-      "title": "Claude Sonnet 5.5",
-      "summary": "Claude Sonnet 5より30%以上高速で、通常の作業では最大30%低コストとするSonnet 5.5を発表。API、AWS、Google Cloud、Microsoft Azureで提供し、サイバー安全策も適用する。",
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "urlLabel": "Anthropic Newsで読む",
-      "primary": true
-    },
-    {
-      "label": "Claude Blog",
-      "datetime": "2026-09-28T00:00:00Z",
-      "displayTime": "2026年9月28日（公開時刻非掲載・日付基準で収録）",
-      "title": "NVIDIAと、企業がAI agentをより細かく制御するために",
-      "summary": "Claude Managed Agentsで、secure sandboxing、認証、tool実行、長時間session、multi-agent orchestration、実行追跡を提供し、NVIDIA OpenShellで最小権限のagent運用を支援する。",
-      "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia",
-      "urlLabel": "Claude Blogで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
@@ -44,174 +20,34 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineering・Researchの窓内新規記事は0件",
-      "body": "公式一覧を確認し、EngineeringとResearchには窓内の新規記事がなかった。NewsとClaude Blogはそれぞれ9月28日付の記事を確認した（両記事とも公開時刻非掲載のため日付基準で収録）。"
+      "label": "公式4媒体の窓内新規記事は0件",
+      "body": "公式一覧を確認し、Engineering、Research、News、Claude Blogに対象24時間内の新規記事がないことを確認した。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "公式4媒体で<strong>News 1件、Claude Blog 1件</strong>を確認した。EngineeringとResearchは0件。",
-      "details": ["<strong>Anthropic News</strong>: Claude Sonnet 5.5（Sep 28, 2026、時刻非掲載）", "<strong>Claude Blog</strong>: Giving companies more control over their AI agents, with NVIDIA（Sep 28, 2026、時刻非掲載）", "<strong>Engineering / Research</strong>: 窓内entry 0件"],
-      "url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "urlLabel": "主要記事を読む"
+      "headline": "0件",
+      "body": "公式4媒体（Engineering、Research、News、Claude Blog）を確認し、対象24時間内の新規記事はなかった。"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.284（新機能14件・変更27件・修正70件）",
-      "body": "GitHub CLIで完全取得したv2.1.284のvisible release noteを、各項目ごとに和訳・分類した。",
-      "releases": [
-        {
-          "version": "v2.1.284",
-          "publishedAt": "2026-09-28 18:02 UTC / 2026-09-29 03:02 JST",
-          "summary": "Claude Sonnet 5.5、MCP再接続、gateway認証、VS CodeとClaude Tagの追加機能に加え、応答、MCP、plugin、端末、Code Reviewの信頼性を改善。",
-          "sections": [
-            {
-              "title": "新機能",
-              "items": [
-                "Claude Sonnet 5.5（<code>claude-sonnet-5-5</code>）をAnthropic APIの標準Sonnetとして追加。1M context、料金は入力/出力1Mtok当たり$2/$10、cache readは$0.20。",
-                "作業ディレクトリ外のread前に表示するauto modeの確認へ「今回は許可し、次回は再確認」を追加。",
-                "Claude apps gatewayの<code>/usage</code>とstatus lineに、今月の利用額/上限額をドル表示する機能を追加。<code>rate_limits.spend_limit</code>にも<code>used_usd</code>、<code>limit_usd</code>、<code>period</code>を追加。",
-                "<code>effortSlider:decreaseEffort</code>、<code>increaseEffort</code>、<code>toggleUltracode</code> keybinding actionを追加し、<code>/effort</code>の矢印・Tab操作を<code>keybindings.json</code>で再割当可能にした。",
-                "claude.ai subscriber向けに<code>/rate-limit-options</code>を<code>/help</code>とcommand menuへ追加。",
-                "対話端末に<code>/mcp reconnect all</code>を追加し、接続失敗または認証待ちの全MCP serverを一括再試行可能にした。",
-                "managed policyの<code>availableModels</code>が空、または起動modelを除外して<code>model</code>/<code>enforceAvailableModels</code>を設定していない場合のClaude apps gateway起動warningを追加。",
-                "Claude apps gatewayの<code>telemetry.forward_to</code>で<code>auth: { google: {} }</code>を追加し、Google Cloud credentialでGoogle CloudのOTLP endpointへ直接telemetryをexport可能にした。",
-                "Claude apps gatewayとidentity provider間にcertificate client authentication（<code>private_key_jwt</code>）を追加。",
-                "VS Codeにprompt/response時刻の任意表示（Claude Code: Show Message Timestamps）を追加。日付変更時は日付行も表示する。",
-                "VS CodeのManage plugins行にplugin load errorとnoteを追加し、popupからdisable・uninstall・error copyを可能にした。",
-                "VS CodeのEffort slider下にUltracodeのon/off switchを追加し、sliderのUltracode stopを置換。model pillは任意effortで「· Ultracode」を表示する。",
-                "Claude Tagでthread・channel default・DM向けに「Opus (latest)」などmodel familyを追随する選択肢を追加。",
-                "Claude Tagのanalytics spend projection chartに組織全体limitへ算入される利用額と使用量を追加。"
-              ]
-            },
-            {
-              "title": "変更",
-              "items": [
-                "usage-limit待機を改善し、limit state・countdown・usage-credit optionをprompt下の一つのblockに統合。limit messageのcountdown重複を解消。",
-                "prefixなしで呼ばれたClaude in Chrome toolの「No such tool available」errorに、呼ぶべきtool名を表示するよう改善。",
-                "Monitor event rowにeventが出力した内容を表示し、同じ待機行の繰返しを停止。",
-                "非同期script hook例外に対するWorkflow tool sandbox hardeningを改善。",
-                "settings fileで実際に使われる部分だけを組み立て、startup timeとmemory useを改善。",
-                "<code>/claude-api</code>のhillclimbが測定不能な微小prompt書換えにroundを使わないようにし、<code>report.html</code>併設pageもnetworkを読まない単一local fileとして生成。",
-                "<code>/tasks</code>、<code>/copy</code>、<code>/hooks</code>などのlistで詳細を揃えて表示し、収まらない場合は右端に配置。",
-                "<code>claude plugin marketplace add</code>が同名で別sourceのmarketplaceを置換する際、その事実とundo方法を表示。",
-                "managed settingsがsign-inを必須にする際のstartup refusalで、使用中credential・設定場所・削除方法を明示。",
-                "auto-memory読込時に、Claude Code markupを模倣するinvisible characterやtagを無害化。",
-                "未信頼folderで<code>claude remote-control</code>を実行すると、終了せず端末でworkspace trustを求めるよう改善。",
-                "artifact pageではClaudeがreplyではなくpageへdesign planを書き、既存の名前をpage titleに使うよう改善。",
-                "Claude.ai chat/project link、chatのartifact、artifact idだけを渡した場合に、Artifact toolが適切なlinkまたはcontentを要求するよう改善。",
-                "interactive terminalとVS Code sessionは、providerやplanを問わずpermission mode未設定時にauto modeで開始するよう変更（<code>permissions.defaultMode</code>は優先）。",
-                "Ultracodeを<code>/effort</code>の独立toggleへ変更。xhighを強制せず任意effortで有効のままにした。",
-                "response途中のconnection drop後のretryはrequest内の他retryとbudgetを共有し、失敗requestを早く打ち切るよう変更。",
-                "Sonnetのsafeguard flag時に表示するnoticeを、理由と編集・retry案内を含む内容へ変更。",
-                "<code>ANTHROPIC_DEFAULT_OPUS_MODEL</code>/<code>modelOverrides</code>でOpusをpinしたsessionのsafety-related model switchは、Anthropic APIがflag種別ごとに切替先modelを選ぶよう変更。",
-                "non-interactive first turnは、<code>CLAUDE_CODE_MCP_STARTUP_WAIT_MS=0</code>でも<code>--allowedTools</code>または<code>mcp_tool</code> hookが指すMCP serverを最大2秒待つよう変更。",
-                "relayされたchat thread・routine・webhookからの<code>/recap</code>は短いnoticeで拒否し、terminal・Claude apps・Remote Control・<code>-p</code>・SDK hostでは従来通り動作するよう変更。",
-                "<code>/artifacts</code>のfilter tabをtitle横にAll/Mine/Sharedの一語labelで表示するよう変更。",
-                "network share（<code>\\\\host\\share</code>または<code>/net</code> automount）上のartifact publishは、<code>--add-dir</code>で追加したmapped network drive以外では拒否するよう変更。",
-                "Cloud sessionsの新しいroutine scheduleは、正時開始が数分遅れる場合があることを示し、既定で正時の数分後に設定するよう変更。",
-                "<code>CLAUDE_CONFIG_DIR</code>は<code>claudeCode.environmentVariables</code>内でabsolute pathの場合だけ適用し、chatを継続するterminalへも渡すよう変更。",
-                "self-hosted runnerのlifecycle hook用gitはrepositoryのGit LFS <code>pre-push</code> hookをskipし、writable systemの<code>core.hooksPath</code>を無視し、<code>--configure-git</code>なしではcommitへ署名しないよう変更。",
-                "self-hosted runnerのAnthropic-managed gitでは<code>GIT_SSL_CAINFO</code>と<code>GIT_SSL_NO_VERIFY</code>にかかわらずrunner自身のgitがAnthropic git routeを常に検証し、warning lineで適用範囲を示すよう変更。",
-                "2.1.282の<code>claude-ai</code> name予約を撤回。skills、commands、workflows、MCP serversの同名skill/promptが再びloadし、<code>Skill(claude-ai:*)</code> ruleは通常のprefix ruleへ戻した。"
-              ]
-            },
-            {
-              "title": "修正",
-              "items": [
-                "破損response streamで生のJSON parse errorや<code>undefined</code>を表示・書込みする代わりに、retryまたはinterrupted responseとして報告するよう修正。",
-                "thinking block直後のoverload/server errorでturnがerror終了する問題を修正し、retryするようにした。",
-                "compaction後も続く「Prompt is too long」を修正。圧縮後requestがまだ長い場合は、recent conversationをさらに減らしてもう一度compactする。",
-                "fallbackが残っていないunavailable model sessionで素のerrorだけを出す問題を修正し、model-unavailable noticeとLearn more linkを表示。",
-                "malformed image sourceでAgent SDK sessionがcrashし、malformed document block後の全turnが失敗する問題を修正。malformed imageは説明noteへ置換。",
-                "resume sessionでMCP server接続中にMCP tool callが「No such tool available」で失敗する問題を修正し、最大10秒待機。",
-                "rate limitまたはlogin拒否後にplan-usage endpointを繰返し呼ぶ問題を修正。<code>/usage</code>、<code>/extra-usage</code>、IDE usage viewはbackoffする。",
-                "managed settingsがMCP serverをplugin限定しているのに<code>claude mcp add</code>が成功と表示する問題を修正。保存せず対処方法を表示。",
-                "<code>/plugin</code> configure screenでbooleanをtrue/false選択にし、numberのinvalid inputを拒否、←/→でtab切替でなくoption fieldを変更するよう修正。",
-                "<code>ANTHROPIC_FOUNDRY_RESOURCE</code>を検証せずFoundry endpoint hostへ補間する問題を修正。plain resource name以外は拒否。",
-                "Claude apps gateway背後のClaude Desktopに1M context optionがない問題を修正。1M対応modelをgatewayが自動markする。",
-                "shell modeの↓がhidden background-task pillを選び、Backspace/Ctrl+Uでpromptを編集できなくなる問題を修正。",
-                "plugin多数時にWindowsでBash toolが失敗する問題を修正。存在しないplugin <code>bin/</code>をPATHへ入れず、継承entryを重複追加しない。",
-                "old git（2.39未満）で<code>sparsePaths</code> plugin marketplaceが空cloneし、working local copyを置換する問題を修正。",
-                "transcript modeで<code>[</code>がscrollbackへconversationを書き出すとfullscreen renderingが上方terminal outputを消す問題をmacOS/Linuxで修正。",
-                "streaming中にscroll upしているとfullscreen scroll positionが前messageまたはbottomへ跳ぶ問題を修正。",
-                "narrow terminalで<code>/config</code>や<code>/plugin</code>のdialog tab barがtitle/tab labelを単語途中で折る問題を修正。収まらないtabは次行へ丸ごと移動。",
-                "<code>/model</code> pickerの最終modelまでscrollすると「+1 model」を表示する問題を修正。countはvisible row下だけを対象にした。",
-                "生成された<code>keybindings.json</code>へ機能しないfooter actionのBackspace/Delete bindingを書込む問題を修正。",
-                "agent panelのclose keyを再割当すると、閲覧中agent行で<code>x</code>を入力してしまう問題を修正。",
-                "vim modeの<code>.</code>が高速入力・bracketed pasteなしのpasteをrepeatせず、入力なしのchange repeat後にINSERT modeを残す問題を修正。",
-                "prompt末尾で<code>dd</code>/<code>yy</code>するとvim cursorがimage placeholderの開き括弧に残る問題を修正。",
-                "terminalがfocusを取戻した瞬間のkeyでRemote Control enable promptの短いsafety delay前に回答できる問題を修正。",
-                "home directoryでClaude Codeを開始するとrenderer切替・update後にworkspace trust dialogが再表示される問題を修正。",
-                "project外から<code>.claude/rules</code>へsymlinkしたruleがexternal-import approvalなしでskipされる問題を修正。外部からsymlinkした<code>.claude</code> directoryも同じapprovalを求める。",
-                "managed <code>allowManagedPermissionRulesOnly</code>下でmarketplace/claude.ai/npm pluginが<code>allowed-tools</code>により自己toolをpre-approveする問題を修正。公式Anthropic sourceまたはmanaged settingsが保証するsourceだけを許可。",
-                "最初の<code>claude plugin install</code>失敗時にpluginがenabled・record済みのまま残る問題を修正。",
-                "stdoutも書くfailed hookでdebug logがstderrを落とし、outputなしfailed hookで何も記録しない問題を修正。status codeもlogする。",
-                "Elicitation/ElicitationResult hookの<code>{\"decision\":\"block\"}</code>が無視される問題を修正し、MCP elicitationをdeclineする。",
-                "SendMessage toolなしで起動したsessionにも他sessionへ送信するよう案内する問題を修正。",
-                "Claude appからRemote Control経由で送ったphotoをprompt編集のためqueueから戻すと失われ、captionなしphotoでcursorが一文字移動する問題を修正。",
-                "automatic usage-limit wait中にmessageを入力し再度limitに達すると、Continue automatically設定の制御からwaitが外れる問題を修正。",
-                "highest Max plan userにも<code>/upgrade</code>を勧めるusage-limit warningを修正。利用可能なら<code>/usage-credits</code>へ誘導。",
-                "未認識custom model/proxy使用時にExplore subagentがClaude API上のOpusへ切替わる問題を修正。親sessionのmodelを継承する。",
-                "self-paced modeの<code>/loop</code> status updateがreasoning内だけに書かれ見えない問題を修正。各updateと終了結果をvisible textへ出す。",
-                "Codex desktopが作成したgit worktreeから<code>/ultrareview</code>を始めるとworking tree uploadが失敗する問題をmacOS/Linuxで修正。",
-                "write-denied working directory内にread-denied directoryがあるLinuxでsandboxed Bash commandが起動しない問題を修正。",
-                "artifact database write resultがprivate <code>data/users/</code> subtreeへのwriteを全viewerが見ると伝える問題を修正し、<code>as_level</code>へ<code>view</code>を追加。",
-                "多数groupを持つidentity providerのsign-inでgatewayが全requestへ431を返す問題を修正。request headerを最大256KiB受理。",
-                "VS CodeのMemory dialogで編集file保存前にReload Claudeがrestartする問題を修正。",
-                "restore tabが他Claude processのopen conversationを開く問題を修正し、先に確認する。",
-                "sub-agent稼働中または先頭stepがtrimされた時にVS Code Focus viewの展開sectionが勝手に閉じる問題を修正。",
-                "VS Codeで<code>/model</code>→Enterがmodel selectorでなくusage textをchatへ出す問題を修正。",
-                "Vertex/Bedrock/Foundryの<code>/feedback</code>がSend後に拒否される問題を修正。reportをlocalに保存する。",
-                "VS Code reload後にPython extensionを最大1分待つsign-inを修正。",
-                "Restart Extensions後に応答しなくなったClaude Code tabを修正。該当conversationを再openする。",
-                "sender記録のない他agent messageをraw XML表示する問題を修正。",
-                "reload後に他agent/session/channelからのmessageが消える問題を修正。",
-                "user自身の<code>/mcp</code>、<code>/config</code>、<code>/settings</code> commandがextension dialogにshadowされる問題を修正。",
-                "turn未実行時のEscapeが全background agentを停止する問題を修正。",
-                "VS Codeのplugin install linkが同名既存marketplaceを置換する問題を修正。",
-                "large text file添付後のcompactionでVS Codeの「Prompt is too long」が続く問題を修正。",
-                "non-ASCII・space・bracketを含むpathへのVS Code chat linkが開かない問題を修正。",
-                "Cloud sessionでoffline時、routineのEdit/Duplicate controlがloading中のままと言う問題を修正。offlineであることを表示する。",
-                "Claude TagのGitHub Enterprise hostnameにunderscoreがあると、旧Claude in Slack appのprogress card/link previewからrepositoryとCreate PR buttonが欠ける問題を修正。",
-                "access bundleをattach rule経由で取得するchannelのClaude Tag configure pageがconnectorやpluginを表示しない問題を修正。rule添付bundleも表示する。",
-                "Claude Tagのaccess-bundle repository searchが、selected repository多数に制限されたGitHub App installのrepositoryを取り逃す問題を修正。",
-                "新messageがClaudeのreply途中に割込むと、Claude Tagが同じreplyを二重投稿する問題を修正。",
-                "Slack Connect share後などにSlack channel IDが変わったold private channelで、Claude Tag channel routineが停止する問題を修正。",
-                "「Channel only」設定channelでnon-guest member参加時、membership確認が遅いと全conversationが終わる問題を修正。",
-                "environmentがClaude起動を拒否するClaude Tag channelが無言になる問題を修正。admin連絡を促すnoticeを一度投稿し、@mention時にretryする。",
-                "Claude account未接続userへのClaude Tag private sign-in noticeが初回後に無言になる問題を修正。各@mentionで投稿する。",
-                "large workspaceでClaude TagのNotify members nowが全memberへ届かない問題を改善。Enterprise Gridの全claimed workspaceとより多いmemberへ到達。",
-                "on-demand runnerのself-hosted environmentにおけるClaude Tag wait noticeを改善。runner開始中・retry予定・開始なしを区別して表示。",
-                "channel manager追加時にSlack workspace接続確認が失敗するerrorを改善。GitHub sign-inを求める。",
-                "Claude Tag admin settingのaccess listを改善し、auto-join patternがattachするconnector・repository・pluginとそのsourceを表示。",
-                "channel managerのrepository追加でGitHub sign-inがrepository adminを確認できない場合、GitHub sign-inを求めるよう改善。",
-                "GitHubがpull requestを返せない時に<code>@claude review</code> requestが無言になる問題を修正。一度retryし、なお失敗する場合はcommentで説明する。",
-                "time limitで何もverifyせず止まったCode Reviewがincomplete表示にもretryにもならないのに課金される問題を修正。incomplete表示・非課金・一度retryにした。",
-                "Code ReviewでGitHub Appの未submit reviewがPRにあるとfinished reviewをpostせず諦める問題を修正。先にpostをretryする。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
-          "urlLabel": "v2.1.284 release notes"
-        }
-      ],
+      "headline": "0件",
+      "body": "サンドボックス外のGitHub CLIで公式release metadataを確認し、対象24時間内の新規リリースはなかった。最新はv2.1.284（2026-09-28 18:02:03 UTC公開）。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "GitHub Releases"
     }
   ],
   "exclusions": [
     "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータを使用。"
   ],
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Claude Sonnet 5.5", "url": "https://www.anthropic.com/claude-sonnet-5-5"},
-    {"title": "NVIDIAとClaude Managed Agents", "url": "https://claude.com/blog/giving-companies-more-control-over-their-ai-agents-with-nvidia"},
-    {"title": "Claude Code v2.1.284", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284"}
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
   ]
 }
