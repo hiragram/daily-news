@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-01",
+  "windowLabel": "2026-09-29 19:02:34 UTC - 2026-09-30 19:02:34 UTC",
+  "archiveTitle": "Government GA and Managed Agents",
+  "archiveSummary": "Claude for Governmentの一般提供開始、Managed Agentsの営業活用、ロボットの仕事曝露に関する研究を確認しました。",
+  "latestSummary": "9月30日付の公式記事3件を確認。Claude for Governmentの一般提供開始と、Claude Managed Agentsの社内営業活用が中心です。",
+  "summaryBullets": [
+    "<strong>Claude for Government</strong>: 米国の連邦・州政府機関向けに一般提供を開始。組織・下位機関の管理、SSO、SCIM、監査ログを案内した。",
+    "<strong>Claude Managed Agents</strong>: Anthropic営業チームのBuying Agentは、毎日数千件の会話を処理し、成約までの期間を約5日短縮したと紹介。",
+    "<strong>Anthropic Research</strong>: Claudeを用いたロボット仕事曝露指数を公開。物理タスクの74%が何らかの条件下でロボットにより実行可能という分析を示した。",
+    "<strong>Claude Code</strong>: GitHub CLIで確認した対象24時間内の新規リリースは0件（最新はv2.1.285、2026-09-29 19:27:30 UTC公開）。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-09-30T00:00:00Z",
+      "displayTime": "2026年9月30日（公開時刻非掲載）",
+      "title": "ロボットができる仕事を測る仕事曝露指数を公開",
+      "summary": "<strong>What work can robots do?</strong> は、Claudeを使って職務タスクと現在のロボット能力を評価する研究。米国の物理タスクの74%（全労働時間の34%）は何らかの条件下で実行可能だが、費用競争力があるのは全タスクの0.3%にとどまると報告する。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "urlLabel": "Anthropic Research で読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-30T00:00:00Z",
+      "displayTime": "2026年9月30日（公開時刻非掲載）",
+      "title": "Claude for Governmentを一般提供開始",
+      "summary": "<strong>Claude for Government is now generally available</strong> は、連邦・州政府機関向け提供の一般化を発表。下位機関単位の管理、SSO、SCIM group mapping、監査ログを含む管理機能を説明し、既存顧客はdesktop applicationへ移行できるとしている。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "urlLabel": "Claude Blog で読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-09-30T00:00:00Z",
+      "displayTime": "2026年9月30日（公開時刻非掲載）",
+      "title": "Anthropic営業チームがClaude Managed Agentsでinboundを再構築",
+      "summary": "<strong>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</strong> は、Buying Agentが毎日数千件の購入前会話を処理する事例。Agentと会話した見込み客は理解度が高く、商談化率が上がり、成約まで約5日短縮したと紹介する。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+      "urlLabel": "Claude Blog で読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "EngineeringとNewsの窓内新規記事は0件",
+      "body": "公式一覧を確認し、Anthropic EngineeringとNewsに対象24時間内の新規記事はなかった。ResearchとClaude Blogでは9月30日付の記事を採用した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "Anthropic Research 1件とClaude Blog 2件を確認した。いずれも公開時刻非掲載のため、visible publication date（2026年9月30日）に基づき採用している。",
+      "details": [
+        "Anthropic Research: What work can robots do?",
+        "Claude Blog: Claude for Government is now generally available",
+        "Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents"
+      ]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "サンドボックス外のGitHub CLIで公式release metadataを確認し、対象24時間内の新規リリースはなかった。最新はv2.1.285（2026-09-29 19:27:30 UTC公開）。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "GitHub Releases"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "What work can robots do?", "url": "https://www.anthropic.com/research/what-work-can-robots-do"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Claude for Government is now generally available", "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"},
+    {"title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents", "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
