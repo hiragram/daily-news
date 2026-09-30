@@ -1,92 +1,42 @@
 {
   "date": "2026-09-30",
-  "windowLabel": "2026-09-28 19:01:47 UTC - 2026-09-29 19:01:47 UTC",
-  "archiveTitle": "Research on AI views and cyber risk",
-  "archiveSummary": "Anthropic Research 2件とClaude Blog 1件を、9月29日付の公式公開として確認しました。",
-  "latestSummary": "AnthropicはAIへの期待を集める参加型調査とGLM-5.3のサイバー能力評価を公開。Claude BlogはAsanaのhuman-agent team運用を紹介しました。",
+  "windowLabel": "2026-09-29 01:01:45 UTC - 2026-09-30 01:01:45 UTC",
+  "archiveTitle": "Claude Code v2.1.285 ships",
+  "archiveSummary": "Claude Code v2.1.285と、9月29日付のResearch 2件・Claude Blog 1件を確認しました。",
+  "latestSummary": "Claude Code v2.1.285はWebFetch制御、Desktop起動、プラグイン設定を追加し、広範な改善と修正を公開しました。",
   "summaryBullets": [
-    "<strong>Anthropic Research 2件</strong>: <strong>What do you want from AI?</strong> と <strong>GLM-5.3 and the spread of advanced cyber capabilities</strong> を9月29日付の公式公開として確認。",
-    "<strong>Claude Blog 1件</strong>: AsanaがClaudeを使うagent teamで、役割・権限・共有memory・可視性をどう設計するかを紹介。",
-    "<strong>Claude Code</strong>: GitHub CLIで確認した対象24時間内の新規リリースは0件（最新はv2.1.284、2026-09-28 18:02:03 UTC公開）。",
-    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
+    "<strong>Claude Code v2.1.285</strong>: 2026年9月29日19:27:30 UTC公開。新機能、変更、修正を含む公式リリースノート136項目を確認。",
+    "<strong>Research 2件</strong>: AIへの期待を集める参加型調査と、GLM-5.3のサイバー能力評価を9月29日付で確認。",
+    "<strong>Claude Blog 1件</strong>: Asanaのhuman-agent teamにおける役割、権限、shared memory、可視化の設計を紹介。",
+    "<strong>公式X・エンジニアX</strong>: この実行環境ではX MCPが未提供のため、投稿は未確認として扱った。"
   ],
   "officialNews": [
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-09-29T00:00:00Z",
-      "displayTime": "2026年9月29日（公開時刻非掲載）",
-      "title": "AIに何を求めますか？：Anthropic Interviewerによる参加型調査を開始",
-      "summary": "<strong>What do you want from AI?</strong> は、Anthropic InterviewerでAIの肯定・否定両面の経験、社会でAIに変えてほしいこと、開発企業への期待を聞く新しい調査。回答後はinterviewを公開するか選べ、Free / Pro / MaxのClaude・Claude Code利用者を対象に<strong>10月6日まで</strong>実施する。公開時刻は記事ページに表示されていないため、9月29日のvisible publication dateで採用した。",
-      "url": "https://www.anthropic.com/research/your-thoughts-on-ai",
-      "urlLabel": "Anthropic Research で読む",
-      "primary": true
-    },
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-09-29T00:00:00Z",
-      "displayTime": "2026年9月29日（公開時刻非掲載）",
-      "title": "GLM-5.3の高度なサイバー能力と安全策を評価",
-      "summary": "<strong>GLM-5.3 and the spread of advanced cyber capabilities</strong> は、GLM-5.3がend-to-end exploitを作れる水準に達し、simulated testで単純な手法により安全策を<strong>64%〜100%</strong>回避できたと報告する。Anthropicは、防御側が同等以上のfrontier modelを安全に使えるaccessを広げる必要性を主張した。公開時刻は記事ページに表示されていないため、9月29日のvisible publication dateで採用した。",
-      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "urlLabel": "Anthropic Research で読む",
-      "primary": true
-    },
-    {
-      "label": "Claude Blog",
-      "datetime": "2026-09-29T00:00:00Z",
-      "displayTime": "2026年9月29日（公開時刻非掲載）",
-      "title": "AsanaがClaudeで構築する、coachingできるhuman-agent team",
-      "summary": "<strong>Agents you can coach: how Asana builds human-agent teams with Claude</strong> は、Asanaがagentをチームメイトとして扱い、役割、skills、統合先、アクセス範囲を明示して運用する事例を紹介する。shared memoryの恒久変更はadmin / editorに限定し、agentの作業計画・手順・結果を共有taskで可視化する設計を説明している。公開時刻は記事ページに表示されていないため、9月29日のvisible publication dateで採用した。",
-      "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
-      "urlLabel": "Claude Blog で読む"
-    }
+    {"label":"Anthropic Research","datetime":"2026-09-29T00:00:00Z","displayTime":"2026年9月29日（公開時刻非掲載）","title":"AIに何を求めますか？：Anthropic Interviewerによる参加型調査を開始","summary":"<strong>What do you want from AI?</strong> は、Anthropic InterviewerでAIの肯定・否定両面の経験、社会でAIに変えてほしいこと、開発企業への期待を聞く調査。Free / Pro / MaxのClaude・Claude Code利用者を対象に10月6日まで実施する。公開時刻は記事ページにないため、visible publication dateで採用した。","url":"https://www.anthropic.com/research/your-thoughts-on-ai","urlLabel":"Anthropic Research で読む","primary":true},
+    {"label":"Anthropic Research","datetime":"2026-09-29T00:00:00Z","displayTime":"2026年9月29日（公開時刻非掲載）","title":"GLM-5.3の高度なサイバー能力と安全策を評価","summary":"<strong>GLM-5.3 and the spread of advanced cyber capabilities</strong> は、GLM-5.3のend-to-end exploit作成能力と、simulated testで安全策を64%〜100%回避できたという評価を報告する。防御側がfrontier modelを安全に使えるaccessを広げる必要性を主張した。公開時刻は記事ページにないため、visible publication dateで採用した。","url":"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities","urlLabel":"Anthropic Research で読む","primary":true},
+    {"label":"Claude Blog","datetime":"2026-09-29T00:00:00Z","displayTime":"2026年9月29日（公開時刻非掲載）","title":"AsanaがClaudeで構築する、coachingできるhuman-agent team","summary":"<strong>Agents you can coach: how Asana builds human-agent teams with Claude</strong> は、agentをチームメイトとして扱い、役割、skills、統合先、アクセス範囲を明示するAsanaの事例。shared memoryの恒久変更をadmin / editorに限定し、作業計画・手順・結果を共有taskで可視化する設計を説明する。","url":"https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude","urlLabel":"Claude Blog で読む"}
   ],
   "officialZeroStates": [
-    {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
-      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
-    },
-    {
-      "label": "Anthropic engineer X signalは未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
-    },
-    {
-      "label": "EngineeringとNewsの窓内新規記事は0件",
-      "body": "公式一覧を確認し、Anthropic EngineeringとNewsに対象24時間内の新規記事がないことを確認した。ResearchとClaude Blogでは9月29日付の記事を採用した。"
-    }
+    {"label":"@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず","body":"<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できず、公開検索をsource-of-truth代替にしなかったためofficial X main postはitem化していない。"},
+    {"label":"Anthropic engineer X signalは未確定","body":"<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"},
+    {"label":"EngineeringとNewsの窓内新規記事は0件","body":"公式一覧を確認し、Anthropic EngineeringとNewsに対象24時間内の新規記事はなかった。ResearchとClaude Blogは9月29日付の記事を採用した。"}
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "3件",
-      "body": "Anthropic Researchの2件とClaude Blogの1件を確認した。いずれも記事ページに公開時刻がないため、visible publication date（2026年9月29日）に基づき対象窓へ採用している。",
-      "details": [
-        "Anthropic Research: What do you want from AI?",
-        "Anthropic Research: GLM-5.3 and the spread of advanced cyber capabilities",
-        "Claude Blog: Agents you can coach: how Asana builds human-agent teams with Claude"
-      ]
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "サンドボックス外のGitHub CLIで公式release metadataを確認し、対象24時間内の新規リリースはなかった。最新はv2.1.284（2026-09-28 18:02:03 UTC公開）。",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHub Releases"
-    }
+    {"title":"ブログ","headline":"3件","body":"Anthropic Research 2件とClaude Blog 1件を確認した。いずれも公開時刻非掲載のため、visible publication date（2026年9月29日）に基づき採用している。","details":["Anthropic Research: What do you want from AI?","Anthropic Research: GLM-5.3 and the spread of advanced cyber capabilities","Claude Blog: Agents you can coach: how Asana builds human-agent teams with Claude"]},
+    {"title":"Claude Code リリース","headline":"v2.1.285","body":"サンドボックス外のGitHub CLIで正式版v2.1.285のrelease bodyを完全取得。原文の136 bulletを、新機能・変更・修正に分類して和訳した。","releases":[{"version":"v2.1.285","publishedAt":"2026年9月30日 04:27 JST（2026-09-29 19:27:30 UTC）","summary":"WebFetch無効化、Desktop起動、plugin設定、managed provider制限、non-streaming retry設定を追加し、CLI、Artifact、Remote Control、VS Code、Cloud sessions、Claude Tag、Code Reviewを更新。","sections":[
+      {"title":"新機能","items":["`CLAUDE_CODE_DISABLE_WEB_FETCH`でWebFetchを無効化できる。","`claude --desktop`でcurrent directoryまたはresume sessionをClaude Desktopで開ける。","`claude plugin configure <plugin>`でoption表示・stdinからの設定保存ができる。","`claude plugin install --config`でbundled `.mcpb` MCP serverをinstall時に設定できる。","machineが利用可能なAPI providerを制限するmanaged setting `allowedProviders` を追加。","non-streaming fallbackのtimeout後再送回数を制限する`CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES`を追加。","[VSCode] reloadで中断されたrestored tabに返信が続かない旨の注記を追加。","[VSCode] Manage pluginsにinstall時・後編集用のoption formを追加。","[VSCode] Problems panelのerror/warningを任意時点で読むdiagnostics toolを追加。","[Claude Tag] Enterpriseの対象seatでClaudeとのdirect messageを追加。"]},
+      {"title":"変更","items":["Claude in Chromeのconnected browserをcomputer名で識別する。","Bedrock / Vertexでdefault model access喪失時は同tierの利用可能な旧modelへ切替える。","plugin marketplaceのgit URL拒否理由とgit URL validationを改善。","Artifact publishの提案・結果を簡潔化し、tokenと往復を減らす。","Remote Controlの`/btw`は進行中turnも参照し、画像preview対応を拡張。","auto mode subagentはreport返却時に終了し、background commandにはtimeoutを適用。","起動model checkのcache、header、provider識別を改善。","non-streaming fallback中のliveness ping、background sessionのresume、長session transcriptの応答性を改善。","MCP deferred loading、WebFetch policy待機、Auto-memory有効化、auto mode defaultの権限挙動を更新。","third-party provider、Bedrock / Mantle / AWS、custom base URLのcontext・署名・permission動作を更新。","`widgets`をreserved MCP名にし、`/tasks`のsystem task表示と`/config chrome`導線を更新。","macOS / Linuxの`/ultrareview` uploadのgit version、partial clone、symbolic refの取扱いを更新。","sandboxではproject settingによるadmin-required制限の緩和を防ぐ。","[VSCode] shared setting由来plugin / marketplaceの削除・無効化前に確認する。","[Cloud sessions] `MCP_DISCOVERY_CACHE=1`はconnector tool listのみrestart後に再利用する。","[Code Review] REVIEW.mdが適用されなかった理由をcheck runで明示する。"]},
+      {"title":"修正","items":["fork subagentのAgent result、plan / dontAsk mode、background permission requestの伝播を修正。","SSH plugin install、managed setting read拒否、plugin ID case、MCP server on/offとMCP表示を修正。","Remote Controlの添付download retry、既読化、queue保持、help表示、pending command誤承認を修正。","mid-session model切替、cloud session artifact更新・environment列挙・first reply・policy load・upload folderを修正。","URL password redaction、SSH prompt、sandbox inline script approval、shell / hook cancel・hangを修正。","Artifactのrewind後上書き、allow rule、conflict誤報、source再read、auto mode classifierを修正。","`/ultrareview`のworktree、credential file、特殊file名、Windows / WSL upload、git設定・速度・refusalを修正。","API retry budget、content-filter retry、Bedrock error、WebFetch誤block、sign-in待機を修正。","`/claude-api`のsymlink / hard link write、truncated score算入とRemote Control実行制限を修正。","terminalの`&nbsp;`表示、長session freeze、device target Edit、vim placeholderを修正。","[VSCode] slash command、agent transcript、message保持、session切替、restored tab、chat stall、editor tab名、agent mapを修正。","[Cloud sessions] routine Run nowの拒否時説明を修正。","[Claude Tag] Default model候補とfallback model注記の保持を修正。","[Code Review] Add repositoryのorganization一覧を全件loadする。"]}],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.285","urlLabel":"GitHub Releasesで全文を見る"}]}
   ],
-  "exclusions": [
-    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude Codeはサンドボックス外のGitHub CLIで取得した公式メタデータを使用。"
-  ],
+  "exclusions": ["X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。","公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"],
   "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "What do you want from AI?", "url": "https://www.anthropic.com/research/your-thoughts-on-ai"},
-    {"title": "GLM-5.3 and the spread of advanced cyber capabilities", "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Blog", "url": "https://claude.com/blog"},
-    {"title": "Agents you can coach: how Asana builds human-agent teams with Claude", "url": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},
+    {"title":"Anthropic Research","url":"https://www.anthropic.com/research"},
+    {"title":"What do you want from AI?","url":"https://www.anthropic.com/research/your-thoughts-on-ai"},
+    {"title":"GLM-5.3 and the spread of advanced cyber capabilities","url":"https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"},
+    {"title":"Anthropic News","url":"https://www.anthropic.com/news"},
+    {"title":"Claude Blog","url":"https://claude.com/blog"},
+    {"title":"Agents you can coach: how Asana builds human-agent teams with Claude","url":"https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude"},
+    {"title":"Claude Code v2.1.285","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.285"}
   ]
 }
