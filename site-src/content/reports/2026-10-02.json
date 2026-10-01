@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-02",
+  "windowLabel": "2026-09-30 19:01:54 UTC - 2026-10-01 19:01:54 UTC",
+  "archiveTitle": "Claude Code 2.1.287 and Claude-shaped science",
+  "archiveSummary": "Claude Code v2.1.287と、Claudeを用いた科学研究・Claude Code Modsの公式記事を確認しました。",
+  "latestSummary": "Claude Code v2.1.287はMods、MCP URL prompts、組み込みgh APIなどを追加し、106項目の改善・修正を公開しました。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.287</strong>: 2026年10月2日03:00 JST公開。新機能7件・変更21件・修正78件、計106項目を公式本文から全件和訳。",
+    "<strong>Claude Code v2.1.286</strong>: 窓内の2026年10月1日04:10 JST公開分も、前日報告と重複しないよう全88項目を保持。",
+    "<strong>Claude Blog</strong>: Claude Codeの深い挙動を変更できるModsを紹介。",
+    "<strong>Anthropic Research</strong>: BootLoopsを用い、Claudeが得意な「Claude-shaped」科学問題に取り組む事例を公開。",
+    "<strong>公式X・エンジニアX</strong>: X MCP未提供のため投稿は未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-01T00:00:00Z",
+      "displayTime": "2026年10月1日（公開時刻非掲載）",
+      "title": "Claude-shaped science：BootLoopsでClaudeに適した科学問題へ取り組む",
+      "summary": "<strong>Claude-shaped science</strong> は、Matthew Schwartz氏がClaudeとBootLoopsを用い、LLMの強みに合う定量科学問題を探索する実践を紹介。専門家の検証・方向付けを組み込み、数理物理・生態学・集団遺伝学などへ展開した。公開時刻は非掲載のためvisible publication dateで採用。",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "urlLabel": "Anthropic Researchで読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-10-01T00:00:00Z",
+      "displayTime": "2026年10月1日（公開時刻非掲載）",
+      "title": "Claude CodeをModsでカスタマイズ",
+      "summary": "<strong>Customize Claude Code with mods</strong> は、Claude Codeのより深い挙動をTypeScriptで変更できるModsを紹介。v2.1.287で追加されたClaude Modsと連動する公式解説。公開時刻は非掲載のためvisible publication dateで採用。",
+      "url": "https://claude.com/blog/claude-code-mods",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    },
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-01T00:00:00Z",
+      "displayTime": "2026年10月1日（公開時刻非掲載）",
+      "title": "Barclays、Claudeの展開を拡大し業務と顧客体験を改善",
+      "summary": "<strong>Barclays scales Claude to upgrade operations and improve client experience</strong> は、Barclaysがグローバル業務へClaudeを展開拡大すると発表。公開時刻は非掲載のためvisible publication dateで採用。",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "urlLabel": "Anthropic Newsで読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定",
+      "body": "<strong>$Claude Official X Watch</strong>のX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"
+    },
+    {
+      "label": "Engineeringの窓内新規記事は0件",
+      "body": "公式一覧でEngineeringは窓内0件。Research、Claude Blog、Newsの10月1日付記事をvisible publication dateに基づき採用。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "Anthropic Research 1件、Claude Blog 1件、Anthropic News 1件。公開時刻非掲載の記事はvisible publication dateに基づき採用。",
+      "details": [
+        "Anthropic Research: Claude-shaped science",
+        "Claude Blog: Customize Claude Code with mods",
+        "Anthropic News: Barclays scales Claude to upgrade operations and improve client experience"
+      ]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.287・v2.1.286（194項目）",
+      "body": "サンドボックス外のGitHub CLIで正式版v2.1.287とv2.1.286のrelease bodyを完全取得。原文194 bulletを新機能・変更・修正に分類し、全項目を和訳。",
+      "releases": [
+        {
+          "version": "v2.1.287",
+          "publishedAt": "2026年10月2日 03:00:22 JST（2026-10-01T18:00:22Z）",
+          "summary": "Claude Mods、You should know、agents view検索、MCP URL prompt、組み込みgh APIを追加し、広範な接続・アクセシビリティ・VS Code・Cloud sessionsの修正を提供。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "Claude Modsを追加し、pluginがより深い挙動を変更可能に。",
+                "見落としをside agentが検知する組み込みmod「You should know」を追加。",
+                "agents viewにsession名・taskを照合する`n:<text>` filterを追加。",
+                "OpenTelemetryのuser_prompt eventに`prompt_text`を追加。",
+                "2025-11-25 protocolのMCP serverからsign-in等のURL promptを追加。",
+                "WindowsでBash denyがPowerShellも無効化する際のstartup warningを追加。",
+                "self-hosted runnerでGitHub CLI未install時の組み込み`gh api`（REST限定）を追加。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "`/config`のcycle設定を左右矢印で双方向に切替可能にし、narrow terminalの表示を改善。",
+                "plugin marketplace errorを平易な理由・対処説明へ改善。",
+                "plugin listingでdependency未installを示し、update時に未完installをretry。",
+                "Bedrock model ID拒否時のClaude apps gateway error/logに利用不能model IDを表示。",
+                "SDKのpriority now messageが実行中web fetch/searchをcancelせずbackground継続。",
+                "`/memory`の左右矢印でAuto-memory等のon/offを切替。",
+                "message途中に入力した`/skill`名をskillとしてClaudeへ明示。",
+                "light themeのprompt input borderと過去message前の❯のcontrastを改善。",
+                "cloud/Remote Controlのfile uploadをtimeout/network/502/503/504時に一度retry。",
+                "一時的理由でfile送信不能時、数分後に再要求できる旨を表示。",
+                "他sessionから保留されたmessageのpromptを破線内に表示。",
+                "MCP等tool permission promptのtool callを破線内に表示。",
+                "headless modeのMCP startupで一時connect失敗をretry。",
+                "remote session file送信をdiskからstreamし、size limit超過時に上限を明示。",
+                "large MCP result処理のmemory/session file/token uploadを削減。",
+                "WindowsのBash実行前subshellを除去し速度を改善。",
+                "sensitive fileまたはworktree外へ向かうrepo symlink経由shell writeを場所表示の上で人確認待ちに変更。",
+                "Bedrock/Vertex/Foundry/gatewayのOpus 4.7+・Fableを既定1M contextへ変更。",
+                "claude agentsのreplyをqueued messageにし、running中のslash commandは終了後に実行。",
+                "Bash allow rule/hook許可でもfile toolが拒むhost credential等へのshell writeはpromptへ変更。",
+                "Windows/Linuxのright-clickとLinux middle-click pasteをbutton release時に実行し、pointer移動でcancel可能に変更。",
+                "alwaysLoad:falseのMCP serverは全toolをtool search背後へdefer。",
+                "screen reader modeの新規/変更行読み上げ前pauseを廃止（CLAUDE_AX_PREPARK_MS=50で復帰）。",
+                "flagged message後のautomatic model switchでcurrent effort levelを維持。",
+                "waiting permission promptを古い順に表示。",
+                "VSCodeにrunning command/sub-agentをbackgroundへ移すRun in backgroundを追加。",
+                "VSCode agent map cardにbackground shell/Monitorのoutputを追加。",
+                "VSCode Manage plugins dialogでmarketplace add/remove/refresh失敗理由を表示。",
+                "VSCodeのManage plugins dialogでmarketplace操作の失敗状態を明確に表示。",
+                "VSCodeのClaude in Chrome Enabled by defaultがeditor自身のsessionもconnectするよう変更。",
+                "Claude Tagのlong Slack threadでbackground task listを独立投稿しないよう改善。",
+                "locked PRのCode Review failed cardにlockがreviewを阻害したことを明示。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "agent所有でユーザーアカウントのないremote sessionでも、組織が許可すればfast modeを有効化。",
+                "reconnect要求が無応答の場合にRemote Controlが数分間messageを受け取れない問題を修正し、30秒で再試行。",
+                "script file不在のasyncRewake hookが「found issues」でClaudeを繰り返し起動する問題を修正。",
+                "response stream停滞中にtool heartbeatがSDK hostへ届かない問題を修正。",
+                "Bedrock/Vertex起動時model checkが強制availableModels listを無視する問題を修正。",
+                "Chromeへ接続不能時にClaude in Chrome browser pickerがJSON parse errorを出す問題を修正。",
+                "claude.ai loginでFableを選んだ際、保存済みdefaultが最新版Fableを追随するよう修正。",
+                "Opus 5.5/Sonnet 5.5切替時に以前のMCP tool announcementやextended thinkingが失われる問題を修正。",
+                "mid-responseのBedrock Guardrails blockをAPI errorでなくguardrail messageとして返すよう修正。",
+                "危険なrmがリダイレクト先に~やwildcardを含むと常時確認保護を失う問題を修正。",
+                "`claude -p`とSDK sessionが実行中のmodel切替後に毎messageでfallbackを反復する問題を修正。",
+                "session再開またはcompaction後にfolderのCLAUDE.mdが二重添付される問題を修正。",
+                "agent終了・worktree削除後にbackground sessionをclaude agentsから再開できない問題を修正。",
+                "`/advisor`のpairing checkを修正し、Sonnet 5.5がOpus 4.7/4.8を助言できるようにした。",
+                "Bash permission promptが内部parser名を表示する問題を修正。",
+                "slow/busy machineで長いconversationをscroll中にfullscreen sessionがunrecoverable interface errorで終了する原因を修正。",
+                "MCP tool名が__proto__の場合に組織per-tool permission ceilingが失われる問題を修正。",
+                "JSONで保存した大きなMCP結果をReadのoffset/limitでpageするようClaudeへ指示する問題を修正。",
+                "compaction後にcommit attribution reminderがtool result内で配信される問題を修正。",
+                "screen reader modeの検索欄・sign-in欄でcursorが入力textから外れる問題を修正。",
+                "screen reader modeで任意contextのない/rewind要約選択肢に空Enterできない問題を修正。",
+                "screen reader modeで機能しないTab/arrow key/number選択hintを表示する問題を修正。",
+                "screen reader modeがfile edit approval等のdiff changed linesを省略する問題を修正。",
+                "screen reader modeがteleport progressや検証中MCP form fieldをspinnerごとに再読する問題を修正。",
+                "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETASがBedrock gateway非対応のstructured output formatを除外しない問題を修正。",
+                "screen reader modeで2件目approvalや/config変更行の先頭を省く問題を修正。",
+                "`--include-partial-messages`で切断replyのmessage_stopが遅延・欠落する問題を修正。",
+                "claude agentsがbackground sessionのpermission promptを表示しないことがある問題を修正。",
+                "`/ultrareview`が読めないUTF-16 .gitattributesで不適切な助言をする問題を修正。",
+                "HTTP proxy背後のclaude remote-control登録が権限エラーと誤表示される問題を修正。",
+                "Linux sandboxed BashがClaude Code executableのopen handleを継承する問題を修正。",
+                "Reduce motion設定でもrunning-tool dot/spinnerが動く問題を修正。",
+                "screen reader modeでclaude agentsの時刻表示が毎秒変化する問題を修正。",
+                "revoke済みclaude.ai loginがgeneric API 401と表示される問題を修正。",
+                "`/ultrareview` upload拒否時にrepo設定値をuser設定へcopyするよう助言する問題を修正。",
+                "stream-json/SDKがcontext: fork skill runのturnをstreamしない問題を修正。",
+                "/feedback・/bugのpre-filled GitHub issueへrecent error messageを含める問題を修正。",
+                "plain HTTPのrepositoryで--sparse/git-subdir plugin installが失敗する問題を修正。",
+                "compaction中restartしたcloud sessionが以前のconversationを失う問題を修正。",
+                "startup --plugin-url downloadと重なったplugin reloadがarchive cacheを壊す問題を修正。",
+                "`/desktop`がtimeout/大量output時にpartial outputを引用する問題を修正。",
+                "MCP connectorのprotocol version変更時にtool callが二重実行またはrestartまで失敗する問題を修正。",
+                "synced pluginのSessionStart hookがnew cloud sessionで実行されない問題を修正。",
+                "hook summary/debug matched-hooks countがinternal callbackを含める問題を修正。",
+                "cloud/Remote Controlから送るfileが30秒直後にupload完了すると失敗する問題を修正。",
+                "mid-session追加repositoryがskills/pluginsを読み込まずCLAUDE.mdも遅延する問題を修正。",
+                "remote sessionから8,000px超のPNG/JPEG/WebPを送れない問題を修正。",
+                "Claude appsで17〜20添付file時に先頭16件だけ届く問題を修正。",
+                "headless sessionが一度拒否されたMCP serverを後続成功後も要認証と表示する問題を修正。",
+                "macOSでidle sleepによりclaude remote-controlがmid-turn停止する問題を修正。",
+                "Windowsでstdinがpipe/redirect時にinteractive claudeがhang/crashする問題を修正。",
+                "Bedrock/Vertex/Mantleのskip-auth model checkが実requestと異なるAuthorization headerを送る問題を修正。",
+                "VSCode settings dialogが大きいreplyでfailed save/timeoutを誤表示する問題を修正。",
+                "VSCodeがsidebarで開いたcloud sessionを新tabへ重複して開く問題を修正。",
+                "VSCode Web tabがwindow起動後のcloud sessionを表示しない問題を修正。",
+                "VSCode reload後の復元tabが同一conversationの2個目Claude processを起動する問題を修正。",
+                "VSCodeのtool-row/session-list file link等がplain textになる問題を修正。",
+                "VSCodeでmain turn終了後もbackground agentの実行中commandをfailed表示する問題を修正。",
+                "VSCodeでuserの/usage・/contextがcommand menuから選ぶとdialogを開く問題を修正。",
+                "VSCode plan previewのfile linkが開かない問題を修正。",
+                "VSCode remote hostでtool input/outputをeditor tabに開くとtimeoutする問題を修正。",
+                "Cloud sessionが新規GitHub access tokenを一時拒否されるとfetch/pushに失敗する問題を修正。",
+                "Claude Tagがbackground eventで起きたfailure warningを無人Slack threadへ投稿する問題を修正。",
+                "Claude Tag spend limitsで多数channel組織のrecent/private channelが抜ける問題を修正。",
+                "Claude Tagの長いSlack threadでbackground workがtask listを新messageとして再投稿する問題を修正。",
+                "Code Review findingと理由が文の途中で切れる問題を修正。",
+                "Code Reviewが前commitで2回失敗するとnew push後のPRをskipする問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+          "urlLabel": "GitHub Releasesで全文を見る"
+        },
+        {
+          "version": "v2.1.286",
+          "publishedAt": "2026年10月1日 04:10:13 JST（2026-09-30T19:10:13Z）",
+          "summary": "権限要求の進捗表示、fullscreenリストのマウス操作、VS Codeのbookmarks・質問履歴、Claude Tagのchannel追加を導入。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "複数の権限要求が重なった際、権限プロンプトに「5件中2件」などの件数を追加。",
+                "fullscreen listの「残りN件」行をマウス対応し、clickでその端へ移動、hover・pressed stateを追加。",
+                "[VSCode] Claudeの応答を保存してBookmarks side panelで保持するbookmarkを追加。",
+                "[VSCode] Claudeの質問と回答を会話へ記録し、Questions行で選択肢を表示。",
+                "[VSCode] 質問カードにoption previewを追加し、選択中mockup・snippetを表示。",
+                "[VSCode] message下にterminal output、browser tab、browser instructions、送信済みselected codeを開くrowを追加。",
+                "[Claude Tag] spend limits pageにAdd channelを追加し、private channelを含む任意channelへ上限を設定可能に。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "`verify` skillがあればdocs-only・tests-only以外のcommit直前に実行するようcommit guidanceを改善。",
+                "subagent viewのsend nowで実行中commandをbackgroundへ移し、messageを即時に読めるよう改善。",
+                "background agent返信が送信内容の別要約で始まらないよう改善。",
+                "claude.ai artifact linkのWebFetch質問をArtifact readと統一し、network access時は省略。",
+                "fetch・skill・file read・sandbox network・Chrome等の権限promptをfile edit promptと統一。",
+                "Bash・PowerShell・Monitorの権限promptで破線間にcommandを表示。",
+                "fullscreen list scrollbarを改善し、↑/↓操作と安定したbar位置を追加。",
+                "external editor（Ctrl+G）がprompt内cursor行を開くよう改善。",
+                "多数skill・plugin時のslash suggestion応答性とword-prefix一致を改善。",
+                "output style pickerを現在styleで開き、説明表示へ変更。number key選択を廃止。",
+                "`/hooks` detailのclosing lineを「this hook」と表示するよう改善。",
+                "fallbackでcontext windowが1Mから200Kへ縮小した場合をnotice/errorで明示。",
+                "既接続MCP server enable再送時のSDK・`-p` session応答性を改善。",
+                "gatewayの`/protocol` pageを現行Claude Codeとunknown input許容へ更新。",
+                "idle時のpromptをgrayでなく直ちに通常text colorで表示。",
+                "API retryをmodel call単位で上限共有し、defaultでは最大14 requestに変更。",
+                "`--bare`を指定MCPだけに接続し、reminder・background taskなしへ変更。timeout commandは停止。",
+                "send-nowがskill自身のshell commandをbackgroundへ移すよう変更。",
+                "rate-limited domain safety checkのWebFetch errorにloop retry禁止を追加。",
+                "plugin installでgit repository・folderのnpm sourceを拒否しregistry依存だけを許可。",
+                "`/artifacts`・`/mcp`・`/skills`等のdetailsをname後の1列に常時整列。",
+                "list overflow rowを「↑ N more」/「↓ N more」へ変更。",
+                "`/hooks`をevent別の単一listで開き、閲覧に必要なEnterを3回から1回へ削減。",
+                "theme pickerをscrolling list化しnumber key選択を廃止。",
+                "`/exit`のRemove worktreeをserver・shell停止後に実行するよう変更。",
+                "`claude-api` skillのManaged Agents例でlimited networking environmentを作成。",
+                "`/ultrareview` outputからbrowser linkを削除。",
+                "[VSCode] Manage pluginsで他設定によりonのpluginとfolder clash理由を表示。",
+                "[VSCode] Stop/Escapeはcurrent turnだけ終了しbackground agentは継続するよう変更。",
+                "[VSCode] 全windowに「✻ Claude Code」status bar itemを表示。",
+                "[Cloud sessions] 遅延・未開始routineをpast next runでなくscheduled time付きDueと表示。",
+                "[Claude Tag] Slack開始session titleを入力語句にし、Slack ID・escape codeを除去。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "複数process・IDE extensionがGCP/AWS refresh credential失効時に各々login browserを開く問題を修正。",
+                "crash・kill後、parallel tool batch以降を`--resume`・`--continue`が失う問題を修正。",
+                "tool・hookがtext以外を返した後のAPI 400（resume含む）を修正。",
+                "巨大historyのcloud sessionがtranscript読込中container停止でwakeしない問題を修正。",
+                "gateway spend meterのcache write価格・streamed turn入力token計算を修正。",
+                "残存credentials fileでmacOS sessionがlogin済み後もNot logged inと出る問題を修正。",
+                "default/alias modelをAPIが拒否したとき、同tier前modelへ一度retryするよう修正。",
+                "policyでRemote Control off後もsessionが接続維持する問題を修正。",
+                "fast不可fallback modelでrefusal・fallback retryが失敗する問題を修正。",
+                "MCP discovery cache有効時の再認証後reminder反復を修正。",
+                "`claude auth status`がConsole API keyをclaude.aiと示す問題を修正。",
+                "`/status`がAPI keyとprofileを両方有効表示する問題を修正。",
+                "Remote Control添付未着の未通知と最終download retry 10秒を修正。",
+                "終了中に届くRemote Control messageが未回答になる問題を修正。",
+                "Bearer/Basic前置credential valueがMCP errorに出る問題を修正。",
+                "percent-encoded Bearer tokenの部分maskを修正。",
+                "invisible characterを含むsecret key名のredacted log漏洩を修正。",
+                "句読点等を含むURL passwordのredaction漏洩を修正。",
+                "`/feedback` zip transcriptのredaction後invalid JSON lineを修正。",
+                "古いMCP handshake廃止後tool listが最大1日空になる問題を修正。",
+                "反復MCP sign-inがpending linkを置換して壊す問題を修正。",
+                "`/usage`がconnecting中MCP serverのtool callを計上しない問題を修正。",
+                "transient server error後にclaude.ai pluginがsession中消える問題を修正。",
+                "実行中subagentへのmessageがtranscriptで二重表示される問題を修正。",
+                "無名subagentのhand-backがraw task IDを出す問題を修正。",
+                "foreground subagentがtask tracking toolを欠く問題を修正。",
+                "worktree subagentがCLAUDE.md/importを二重読込する問題を修正。",
+                "Workflow subagentがconnection stallでoriginal promptからrestartする問題を修正。",
+                "background/teammate transcript中のcompact・clear・rewindがmainへ無言適用する問題を修正。",
+                "approval待ちbackground jobがdone表示になる問題を修正。",
+                "短いmodel fallbackでcommit attribution reminderが再送される問題を修正。",
+                "fullscreen collapsed rowのword間clickが展開しない問題を修正。",
+                "detailsなしrowが他row detailsを右へ押す問題を修正。",
+                "非常に長いfile nameがcloud sessionへ届かない問題を修正。",
+                "拒否marketplaceのplugin errorがnot foundだけを示す問題を修正。",
+                "`/plugin` Discoverのmarketplace名quote表示を修正。",
+                "Windowsでletter case違いのtrust済みfolderを`--bg`/agentsが拒否する問題を修正。",
+                "[VSCode] 既存conversationを2つ目tabで開く問題を修正。",
+                "[VSCode] 1 MB超outputでsettings dialogがfailed saveを誤報する問題を修正。",
+                "[VSCode] 応答停止時のTeleporting session…無限spinnerを修正。",
+                "[Cloud sessions] idle後の回答・承認済tool callにreplyがない問題を修正。",
+                "[Cloud sessions] setup script clear後もnew sessionがold scriptを使う問題を修正。",
+                "[Cloud sessions] Runner actions menuが自動で閉じる問題を修正。",
+                "[Cloud sessions] 未開始routine runがSucceeded表示となる問題をFailedへ修正。",
+                "[Cloud sessions] Outputsのaudio/video clickが空file searchを開く問題を修正。",
+                "[Claude Tag] default Sonnet不可organizationでmemory recallが空になる問題を修正。",
+                "[Claude Tag] Grid channel移動後にClaude settingsを失う問題を修正。",
+                "[Claude Tag] 質問直後のSlack replyでfresh machine開始し未push workを失う問題を修正。",
+                "[Claude Tag] large organizationでpublic channel名がraw Slack IDになる問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "urlLabel": "GitHub Releasesで全文を見る"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外の記事・リリースは除外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Claude-shaped science",
+      "url": "https://www.anthropic.com/research/claude-shaped-science"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Customize Claude Code with mods",
+      "url": "https://claude.com/blog/claude-code-mods"
+    },
+    {
+      "title": "Claude Code v2.1.287",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287"
+    },
+    {
+      "title": "Claude Code v2.1.286",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
+    }
+  ]
+}
