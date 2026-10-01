@@ -1,14 +1,14 @@
 {
   "date": "2026-10-01",
-  "windowLabel": "2026-09-29 19:02:34 UTC - 2026-09-30 19:02:34 UTC",
-  "archiveTitle": "Government GA and Managed Agents",
-  "archiveSummary": "Claude for Governmentの一般提供開始、Managed Agentsの営業活用、ロボットの仕事曝露に関する研究を確認しました。",
-  "latestSummary": "9月30日付の公式記事3件を確認。Claude for Governmentの一般提供開始と、Claude Managed Agentsの社内営業活用が中心です。",
+  "windowLabel": "2026-09-30 01:01:22 UTC - 2026-10-01 01:01:22 UTC",
+  "archiveTitle": "Claude Code v2.1.286 ships",
+  "archiveSummary": "Claude Code v2.1.286と、9月30日付のResearch 1件・Claude Blog 2件を確認しました。",
+  "latestSummary": "Claude Code v2.1.286は権限プロンプトとVS Code機能を追加し、認証、MCP、Cloud sessions、Claude Tagを広く修正しました。",
   "summaryBullets": [
-    "<strong>Claude for Government</strong>: 米国の連邦・州政府機関向けに一般提供を開始。組織・下位機関の管理、SSO、SCIM、監査ログを案内した。",
-    "<strong>Claude Managed Agents</strong>: Anthropic営業チームのBuying Agentは、毎日数千件の会話を処理し、成約までの期間を約5日短縮したと紹介。",
-    "<strong>Anthropic Research</strong>: Claudeを用いたロボット仕事曝露指数を公開。物理タスクの74%が何らかの条件下でロボットにより実行可能という分析を示した。",
-    "<strong>Claude Code</strong>: GitHub CLIで確認した対象24時間内の新規リリースは0件（最新はv2.1.285、2026-09-29 19:27:30 UTC公開）。"
+    "<strong>Claude Code v2.1.286</strong>: 2026年10月1日04:10 JST公開。新機能7件・変更32件・修正49件、計88項目を公式本文から全件和訳。",
+    "<strong>Research</strong>: Claudeを用いたロボット仕事曝露指数を公開。物理タスクの74%が何らかの条件下でロボットにより実行可能という分析。",
+    "<strong>Claude Blog</strong>: Claude for Governmentの一般提供開始と、Managed Agentsでの営業inbound再構築を紹介。",
+    "<strong>公式X・エンジニアX</strong>: X MCP未提供のため投稿は未確認。"
   ],
   "officialNews": [
     {
@@ -16,7 +16,7 @@
       "datetime": "2026-09-30T00:00:00Z",
       "displayTime": "2026年9月30日（公開時刻非掲載）",
       "title": "ロボットができる仕事を測る仕事曝露指数を公開",
-      "summary": "<strong>What work can robots do?</strong> は、Claudeを使って職務タスクと現在のロボット能力を評価する研究。米国の物理タスクの74%（全労働時間の34%）は何らかの条件下で実行可能だが、費用競争力があるのは全タスクの0.3%にとどまると報告する。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "summary": "<strong>What work can robots do?</strong> は、Claudeで職務タスクと現在のロボット能力を評価する研究。米国の物理タスクの74%（全労働時間の34%）は条件付きで実行可能だが、費用競争力があるのは全タスクの0.3%にとどまると報告する。公開時刻は非掲載のためvisible publication dateで採用。",
       "url": "https://www.anthropic.com/research/what-work-can-robots-do",
       "urlLabel": "Anthropic Research で読む",
       "primary": true
@@ -26,7 +26,7 @@
       "datetime": "2026-09-30T00:00:00Z",
       "displayTime": "2026年9月30日（公開時刻非掲載）",
       "title": "Claude for Governmentを一般提供開始",
-      "summary": "<strong>Claude for Government is now generally available</strong> は、連邦・州政府機関向け提供の一般化を発表。下位機関単位の管理、SSO、SCIM group mapping、監査ログを含む管理機能を説明し、既存顧客はdesktop applicationへ移行できるとしている。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "summary": "<strong>Claude for Government is now generally available</strong> は、連邦・州政府機関向け提供の一般化を発表。下位機関管理、SSO、SCIM group mapping、監査ログを案内する。公開時刻は非掲載のためvisible publication dateで採用。",
       "url": "https://claude.com/blog/claude-for-government-is-now-generally-available",
       "urlLabel": "Claude Blog で読む",
       "primary": true
@@ -36,23 +36,23 @@
       "datetime": "2026-09-30T00:00:00Z",
       "displayTime": "2026年9月30日（公開時刻非掲載）",
       "title": "Anthropic営業チームがClaude Managed Agentsでinboundを再構築",
-      "summary": "<strong>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</strong> は、Buying Agentが毎日数千件の購入前会話を処理する事例。Agentと会話した見込み客は理解度が高く、商談化率が上がり、成約まで約5日短縮したと紹介する。公開時刻は記事ページにないため、visible publication dateで採用した。",
+      "summary": "<strong>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</strong> は、Buying Agentが毎日数千件の購入前会話を処理する事例。商談化率が上がり、成約まで約5日短縮したと紹介する。公開時刻は非掲載のためvisible publication dateで採用。",
       "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
       "urlLabel": "Claude Blog で読む"
     }
   ],
   "officialZeroStates": [
     {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
-      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定",
+      "body": "<strong>$Claude Official X Watch</strong>の前提であるX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"
     },
     {
       "label": "Anthropic engineer X signalは未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"
     },
     {
       "label": "EngineeringとNewsの窓内新規記事は0件",
-      "body": "公式一覧を確認し、Anthropic EngineeringとNewsに対象24時間内の新規記事はなかった。ResearchとClaude Blogでは9月30日付の記事を採用した。"
+      "body": "公式一覧でEngineeringとNewsは0件。ResearchとClaude Blogの9月30日付記事を採用。"
     }
   ],
   "signals": [],
@@ -60,7 +60,7 @@
     {
       "title": "ブログ",
       "headline": "3件",
-      "body": "Anthropic Research 1件とClaude Blog 2件を確認した。いずれも公開時刻非掲載のため、visible publication date（2026年9月30日）に基づき採用している。",
+      "body": "Research 1件とClaude Blog 2件。いずれも公開時刻非掲載のためvisible publication date（2026年9月30日）に基づき採用。",
       "details": [
         "Anthropic Research: What work can robots do?",
         "Claude Blog: Claude for Government is now generally available",
@@ -69,24 +69,160 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "サンドボックス外のGitHub CLIで公式release metadataを確認し、対象24時間内の新規リリースはなかった。最新はv2.1.285（2026-09-29 19:27:30 UTC公開）。",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHub Releases"
+      "headline": "v2.1.286（88項目）",
+      "body": "サンドボックス外のGitHub CLIで正式版v2.1.286のrelease bodyを完全取得。原文88 bulletを新機能・変更・修正に分類し、全項目を和訳。",
+      "releases": [
+        {
+          "version": "v2.1.286",
+          "publishedAt": "2026年10月1日 04:10:13 JST（2026-09-30T19:10:13Z）",
+          "summary": "権限要求の進捗表示、fullscreenリストのマウス操作、VS Codeのbookmarks・質問履歴、Claude Tagのchannel追加を導入。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "複数の権限要求が重なった際、権限プロンプトに「5件中2件」などの件数を追加。",
+                "fullscreen listの「残りN件」行をマウス対応し、clickでその端へ移動、hover・pressed stateを追加。",
+                "[VSCode] Claudeの応答を保存してBookmarks side panelで保持するbookmarkを追加。",
+                "[VSCode] Claudeの質問と回答を会話へ記録し、Questions行で選択肢を表示。",
+          "[VSCode] 質問カードにoption previewを追加し、選択中mockup・snippetを表示。",
+          "[VSCode] message下にterminal output、browser tab、browser instructions、送信済みselected codeを開くrowを追加。",
+          "[Claude Tag] spend limits pageにAdd channelを追加し、private channelを含む任意channelへ上限を設定可能に。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "`verify` skillがあればdocs-only・tests-only以外のcommit直前に実行するようcommit guidanceを改善。",
+                "subagent viewのsend nowで実行中commandをbackgroundへ移し、messageを即時に読めるよう改善。",
+                "background agent返信が送信内容の別要約で始まらないよう改善。",
+                "claude.ai artifact linkのWebFetch質問をArtifact readと統一し、network access時は省略。",
+                "fetch・skill・file read・sandbox network・Chrome等の権限promptをfile edit promptと統一。",
+                "Bash・PowerShell・Monitorの権限promptで破線間にcommandを表示。",
+                "fullscreen list scrollbarを改善し、↑/↓操作と安定したbar位置を追加。",
+                "external editor（Ctrl+G）がprompt内cursor行を開くよう改善。",
+                "多数skill・plugin時のslash suggestion応答性とword-prefix一致を改善。",
+                "output style pickerを現在styleで開き、説明表示へ変更。number key選択を廃止。",
+                "`/hooks` detailのclosing lineを「this hook」と表示するよう改善。",
+                "fallbackでcontext windowが1Mから200Kへ縮小した場合をnotice/errorで明示。",
+                "既接続MCP server enable再送時のSDK・`-p` session応答性を改善。",
+                "gatewayの`/protocol` pageを現行Claude Codeとunknown input許容へ更新。",
+                "idle時のpromptをgrayでなく直ちに通常text colorで表示。",
+                "API retryをmodel call単位で上限共有し、defaultでは最大14 requestに変更。",
+                "`--bare`を指定MCPだけに接続し、reminder・background taskなしへ変更。timeout commandは停止。",
+                "send-nowがskill自身のshell commandをbackgroundへ移すよう変更。",
+                "rate-limited domain safety checkのWebFetch errorにloop retry禁止を追加。",
+                "plugin installでgit repository・folderのnpm sourceを拒否しregistry依存だけを許可。",
+                "`/artifacts`・`/mcp`・`/skills`等のdetailsをname後の1列に常時整列。",
+                "list overflow rowを「↑ N more」/「↓ N more」へ変更。",
+                "`/hooks`をevent別の単一listで開き、閲覧に必要なEnterを3回から1回へ削減。",
+                "theme pickerをscrolling list化しnumber key選択を廃止。",
+                "`/exit`のRemove worktreeをserver・shell停止後に実行するよう変更。",
+                "`claude-api` skillのManaged Agents例でlimited networking environmentを作成。",
+                "`/ultrareview` outputからbrowser linkを削除。",
+                "[VSCode] Manage pluginsで他設定によりonのpluginとfolder clash理由を表示。",
+                "[VSCode] Stop/Escapeはcurrent turnだけ終了しbackground agentは継続するよう変更。",
+                "[VSCode] 全windowに「✻ Claude Code」status bar itemを表示。",
+                "[Cloud sessions] 遅延・未開始routineをpast next runでなくscheduled time付きDueと表示。",
+                "[Claude Tag] Slack開始session titleを入力語句にし、Slack ID・escape codeを除去。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "複数process・IDE extensionがGCP/AWS refresh credential失効時に各々login browserを開く問題を修正。",
+                "crash・kill後、parallel tool batch以降を`--resume`・`--continue`が失う問題を修正。",
+                "tool・hookがtext以外を返した後のAPI 400（resume含む）を修正。",
+                "巨大historyのcloud sessionがtranscript読込中container停止でwakeしない問題を修正。",
+                "gateway spend meterのcache write価格・streamed turn入力token計算を修正。",
+                "残存credentials fileでmacOS sessionがlogin済み後もNot logged inと出る問題を修正。",
+                "default/alias modelをAPIが拒否したとき、同tier前modelへ一度retryするよう修正。",
+                "policyでRemote Control off後もsessionが接続維持する問題を修正。",
+                "fast不可fallback modelでrefusal・fallback retryが失敗する問題を修正。",
+                "MCP discovery cache有効時の再認証後reminder反復を修正。",
+                "`claude auth status`がConsole API keyをclaude.aiと示す問題を修正。",
+                "`/status`がAPI keyとprofileを両方有効表示する問題を修正。",
+                "Remote Control添付未着の未通知と最終download retry 10秒を修正。",
+                "終了中に届くRemote Control messageが未回答になる問題を修正。",
+                "Bearer/Basic前置credential valueがMCP errorに出る問題を修正。",
+                "percent-encoded Bearer tokenの部分maskを修正。",
+                "invisible characterを含むsecret key名のredacted log漏洩を修正。",
+                "句読点等を含むURL passwordのredaction漏洩を修正。",
+                "`/feedback` zip transcriptのredaction後invalid JSON lineを修正。",
+                "古いMCP handshake廃止後tool listが最大1日空になる問題を修正。",
+                "反復MCP sign-inがpending linkを置換して壊す問題を修正。",
+                "`/usage`がconnecting中MCP serverのtool callを計上しない問題を修正。",
+                "transient server error後にclaude.ai pluginがsession中消える問題を修正。",
+                "実行中subagentへのmessageがtranscriptで二重表示される問題を修正。",
+                "無名subagentのhand-backがraw task IDを出す問題を修正。",
+                "foreground subagentがtask tracking toolを欠く問題を修正。",
+                "worktree subagentがCLAUDE.md/importを二重読込する問題を修正。",
+                "Workflow subagentがconnection stallでoriginal promptからrestartする問題を修正。",
+                "background/teammate transcript中のcompact・clear・rewindがmainへ無言適用する問題を修正。",
+                "approval待ちbackground jobがdone表示になる問題を修正。",
+                "短いmodel fallbackでcommit attribution reminderが再送される問題を修正。",
+                "fullscreen collapsed rowのword間clickが展開しない問題を修正。",
+                "detailsなしrowが他row detailsを右へ押す問題を修正。",
+                "非常に長いfile nameがcloud sessionへ届かない問題を修正。",
+                "拒否marketplaceのplugin errorがnot foundだけを示す問題を修正。",
+                "`/plugin` Discoverのmarketplace名quote表示を修正。",
+                "Windowsでletter case違いのtrust済みfolderを`--bg`/agentsが拒否する問題を修正。",
+                "[VSCode] 既存conversationを2つ目tabで開く問題を修正。",
+                "[VSCode] 1 MB超outputでsettings dialogがfailed saveを誤報する問題を修正。",
+                "[VSCode] 応答停止時のTeleporting session…無限spinnerを修正。",
+                "[Cloud sessions] idle後の回答・承認済tool callにreplyがない問題を修正。",
+                "[Cloud sessions] setup script clear後もnew sessionがold scriptを使う問題を修正。",
+                "[Cloud sessions] Runner actions menuが自動で閉じる問題を修正。",
+                "[Cloud sessions] 未開始routine runがSucceeded表示となる問題をFailedへ修正。",
+                "[Cloud sessions] Outputsのaudio/video clickが空file searchを開く問題を修正。",
+                "[Claude Tag] default Sonnet不可organizationでmemory recallが空になる問題を修正。",
+                "[Claude Tag] Grid channel移動後にClaude settingsを失う問題を修正。",
+                "[Claude Tag] 質問直後のSlack replyでfresh machine開始し未push workを失う問題を修正。",
+                "[Claude Tag] large organizationでpublic channel名がraw Slack IDになる問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+          "urlLabel": "GitHub Releasesで全文を見る"
+        }
+      ]
     }
   ],
   "exclusions": [
     "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。"
+    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外の記事・リリースは除外。"
   ],
   "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "What work can robots do?", "url": "https://www.anthropic.com/research/what-work-can-robots-do"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Blog", "url": "https://claude.com/blog"},
-    {"title": "Claude for Government is now generally available", "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"},
-    {"title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents", "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "What work can robots do?",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude for Government is now generally available",
+      "url": "https://claude.com/blog/claude-for-government-is-now-generally-available"
+    },
+    {
+      "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+      "url": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents"
+    },
+    {
+      "title": "Claude Code v2.1.286",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286"
+    }
   ]
 }
