@@ -1,16 +1,27 @@
 {
   "date": "2026-10-01",
-  "windowLabel": "2026-09-30 07:02:23 UTC - 2026-10-01 07:02:23 UTC",
-  "archiveTitle": "Claude Code v2.1.286 ships",
-  "archiveSummary": "Claude Code v2.1.286と、9月30日付のResearch 1件・Claude Blog 2件を確認しました。",
-  "latestSummary": "Claude Code v2.1.286は権限プロンプトとVS Code機能を追加し、認証、MCP、Cloud sessions、Claude Tagを広く修正しました。",
+  "windowLabel": "2026-09-30 13:01:43 UTC - 2026-10-01 13:01:43 UTC",
+  "archiveTitle": "Barclays expands Claude as Code v2.1.286 ships",
+  "archiveSummary": "BarclaysのClaude展開拡大、Claude Code v2.1.286、9月30日付の公式サイト記事3件を確認しました。",
+  "latestSummary": "BarclaysはClaudeを全社展開し、Claude Code採用を2026年末までに開発者の50%へ拡大予定。Claude Code v2.1.286も公開されました。",
   "summaryBullets": [
+    "<strong>Anthropic News</strong>: BarclaysがClaudeの全社展開を拡大。Claude Codeは2026年末までに同行開発者の50%採用を目指す。",
     "<strong>Claude Code v2.1.286</strong>: 2026年10月1日04:10 JST公開。新機能7件・変更32件・修正49件、計88項目を公式本文から全件和訳。",
     "<strong>Research</strong>: Claudeを用いたロボット仕事曝露指数を公開。物理タスクの74%が何らかの条件下でロボットにより実行可能という分析。",
     "<strong>Claude Blog</strong>: Claude for Governmentの一般提供開始と、Managed Agentsでの営業inbound再構築を紹介。",
     "<strong>公式X・エンジニアX</strong>: X MCP未提供のため投稿は未確認。"
   ],
   "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-01T00:00:00Z",
+      "displayTime": "2026年10月1日（公開時刻非掲載）",
+      "title": "Barclays、Claudeの展開を拡大し業務と顧客体験を改善",
+      "summary": "<strong>Barclays scales Claude to upgrade operations and improve client experience</strong> は、Barclaysがグローバル業務へ安全なエンタープライズAIとしてClaudeを展開拡大すると発表。ソフトウェア開発・レガシー刷新・業務効率化に用い、Claude Codeは2026年末までに開発者の50%採用、2027年にはソフトウェアエンジニアの過半数への展開を見込む。公開時刻は非掲載のためvisible publication dateで採用。",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "urlLabel": "Anthropic Newsで読む",
+      "primary": true
+    },
     {
       "label": "Anthropic Research",
       "datetime": "2026-09-30T00:00:00Z",
@@ -51,17 +62,18 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"
     },
     {
-      "label": "EngineeringとNewsの窓内新規記事は0件",
-      "body": "公式一覧でEngineeringとNewsは0件。ResearchとClaude Blogの9月30日付記事を採用。"
+      "label": "Engineeringの窓内新規記事は0件",
+      "body": "公式一覧でEngineeringは0件。Newsの10月1日付1件、ResearchとClaude Blogの9月30日付記事を採用。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "Research 1件とClaude Blog 2件。いずれも公開時刻非掲載のためvisible publication date（2026年9月30日）に基づき採用。",
+      "headline": "4件",
+      "body": "Anthropic News 1件、Research 1件、Claude Blog 2件。公開時刻非掲載の記事はvisible publication dateに基づき採用。",
       "details": [
+        "Anthropic News: Barclays scales Claude to upgrade operations and improve client experience",
         "Anthropic Research: What work can robots do?",
         "Claude Blog: Claude for Government is now generally available",
         "Claude Blog: How Anthropic's sales team rebuilt inbound with Claude Managed Agents"
@@ -195,6 +207,10 @@
     {
       "title": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
     },
     {
       "title": "Anthropic Research",
