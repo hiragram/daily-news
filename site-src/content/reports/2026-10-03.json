@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-03",
+  "windowLabel": "2026-10-01 19:01:15 UTC - 2026-10-02 19:01:15 UTC",
+  "archiveTitle": "Claude Frontier Academy launches",
+  "archiveSummary": "Anthropicが10,000人のFrontier Deployed Engineer育成を目指すClaude Frontier Academyを発表しました。",
+  "latestSummary": "Anthropicは1億ドルを投じ、2027年末までに10,000人のFrontier Deployed Engineerを育成するClaude Frontier Academyを開始しました。",
+  "summaryBullets": [
+    "<strong>Anthropic News</strong>: 1億ドルを投じるClaude Frontier Academyを開始。2027年末までに10,000人のFrontier Deployed Engineer育成を目指す。",
+    "<strong>Claude Code</strong>: 窓内の新リリースは0件。最新のv2.1.287は窓開始前に公開されたため除外。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの環境で利用できないため、投稿は未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-02T00:00:00Z",
+      "displayTime": "2026年10月2日（公開時刻非掲載）",
+      "title": "Anthropic、1億ドルで10,000人のエンジニア育成を目指すClaude Frontier Academyを開始",
+      "summary": "<strong>Claude Frontier Academy</strong> は、1億ドルを投じて2027年末までに10,000人のFrontier Deployed Engineer（FDE）を育成する取り組み。最初のFDE Residencyでは、実企業のClaude導入を題材に、Anthropicのエンジニアと実践的な研修を行う。公開時刻は非掲載のため、visible publication dateに基づき採用。",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "urlLabel": "Anthropic Newsで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定",
+      "body": "<strong>$Claude Official X Watch</strong>のX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"
+    },
+    {
+      "label": "Engineering・Research・Claude Blogの窓内新規記事は0件",
+      "body": "公式一覧で10月2日付の新規記事はNewsroomの1件のみ。記事に公開時刻は掲載されていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "Anthropic NewsでClaude Frontier Academyの開始を発表。公開時刻非掲載のためvisible publication dateに基づき採用。",
+      "details": [
+        "Anthropic News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
+      ]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "窓内にGitHub Releasesで公開されたClaude Codeリリースはない。最新のv2.1.287は2026-10-01T18:00:22Z公開で、窓開始前のため除外。"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外のClaude Codeリリース・記事は除外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
