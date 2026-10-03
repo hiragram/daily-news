@@ -1,84 +1,132 @@
 {
   "date": "2026-10-03",
-  "windowLabel": "2026-10-01 19:01:15 UTC - 2026-10-02 19:01:15 UTC",
-  "archiveTitle": "Claude Frontier Academy launches",
-  "archiveSummary": "Anthropicが10,000人のFrontier Deployed Engineer育成を目指すClaude Frontier Academyを発表しました。",
-  "latestSummary": "Anthropicは1億ドルを投じ、2027年末までに10,000人のFrontier Deployed Engineerを育成するClaude Frontier Academyを開始しました。",
+  "windowLabel": "2026-10-02 01:01:08 UTC - 2026-10-03 01:01:08 UTC",
+  "archiveTitle": "Claude Code 2.1.288 ships",
+  "archiveSummary": "Claude Code v2.1.288がMods、セッション操作、コードレビューの機能追加と広範な安定性改善を提供しました。",
+  "latestSummary": "AnthropicのClaude Frontier Academy発表と、89項目を含むClaude Code v2.1.288を確認しました。",
   "summaryBullets": [
-    "<strong>Anthropic News</strong>: 1億ドルを投じるClaude Frontier Academyを開始。2027年末までに10,000人のFrontier Deployed Engineer育成を目指す。",
-    "<strong>Claude Code</strong>: 窓内の新リリースは0件。最新のv2.1.287は窓開始前に公開されたため除外。",
+    "<strong>Claude Code v2.1.288</strong>: 89項目を完全取得。Mods API、コードレビュー件数指定、session操作を追加し、resume・plugin・MCP・cloud sessionを修正。",
+    "<strong>Anthropic News</strong>: 1億ドルを投じ、2027年末までに10,000人のFrontier Deployed Engineerを育成するClaude Frontier Academyを発表。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの環境で利用できないため、投稿は未確認。"
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-10-02T00:00:00Z",
-      "displayTime": "2026年10月2日（公開時刻非掲載）",
-      "title": "Anthropic、1億ドルで10,000人のエンジニア育成を目指すClaude Frontier Academyを開始",
-      "summary": "<strong>Claude Frontier Academy</strong> は、1億ドルを投じて2027年末までに10,000人のFrontier Deployed Engineer（FDE）を育成する取り組み。最初のFDE Residencyでは、実企業のClaude導入を題材に、Anthropicのエンジニアと実践的な研修を行う。公開時刻は非掲載のため、visible publication dateに基づき採用。",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "urlLabel": "Anthropic Newsで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [{
+    "label": "Anthropic News", "datetime": "2026-10-02T00:00:00Z", "displayTime": "2026年10月2日（公開時刻非掲載）", "title": "Anthropic、1億ドルで10,000人のエンジニア育成を目指すClaude Frontier Academyを開始", "summary": "<strong>Claude Frontier Academy</strong> は、1億ドルを投じて2027年末までに10,000人のFrontier Deployed Engineer（FDE）を育成する取り組み。最初のFDE Residencyでは、実企業のClaude導入を題材にAnthropicのエンジニアと実践的な研修を行う。公開時刻は非掲載のため、visible publication dateに基づき採用。", "url": "https://www.anthropic.com/news/claude-frontier-academy", "urlLabel": "Anthropic Newsで読む", "primary": true
+  }],
   "officialZeroStates": [
-    {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定",
-      "body": "<strong>$Claude Official X Watch</strong>のX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"
-    },
-    {
-      "label": "Anthropic engineer X signalは未確定",
-      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"
-    },
-    {
-      "label": "Engineering・Research・Claude Blogの窓内新規記事は0件",
-      "body": "公式一覧で10月2日付の新規記事はNewsroomの1件のみ。記事に公開時刻は掲載されていない。"
-    }
+    {"label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定", "body": "<strong>$Claude Official X Watch</strong>のX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"},
+    {"label": "Anthropic engineer X signalは未確定", "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"},
+    {"label": "Engineering・Claude Blogの窓内新規記事は0件", "body": "公式一覧では窓内の記事を確認できなかった。Research一覧は公式サイトの取得タイムアウトのため、窓内記事の有無を確定できない。"}
   ],
   "signals": [],
   "releasePanels": [
+    {"title": "ブログ", "headline": "1件", "body": "Anthropic NewsでClaude Frontier Academyの開始を発表。公開時刻非掲載のためvisible publication dateに基づき採用。", "details": ["Anthropic News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"]},
     {
-      "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic NewsでClaude Frontier Academyの開始を発表。公開時刻非掲載のためvisible publication dateに基づき採用。",
-      "details": [
-        "Anthropic News: Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap"
-      ]
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "窓内にGitHub Releasesで公開されたClaude Codeリリースはない。最新のv2.1.287は2026-10-01T18:00:22Z公開で、窓開始前のため除外。"
+      "title": "Claude Code リリース", "headline": "v2.1.288（89項目）", "body": "サンドボックス外のGitHub CLIで正式版v2.1.288のrelease bodyを完全取得。原文89 bulletを新機能・変更・修正に分類し、全項目を和訳。",
+      "releases": [{
+        "version": "v2.1.288", "publishedAt": "2026年10月3日 05:19:57 JST（2026-10-02T20:19:57Z）", "summary": "Mods向け選択テキストAPI、Ctrl+C後の下書き復元、OAuth再認証、コードレビュー件数指定、agents view操作を追加し、session・plugin・MCP・cloud/Remote Controlを大幅に安定化。",
+        "sections": [
+          {"title": "新機能", "items": [
+            "Mods向けに`$.ui.selection()`を追加。fullscreen modeで最後に選択したtextと、1 transcript row内ならそのrowを返す。",
+            "GitHub CLI非搭載のcloud session向けに組み込み`gh api`を追加し、file名・jq filter・GitHub error由来のcontrol character送信も修正。",
+            "Ctrl+Cで消したpromptを、空promptで↑を押してpaste済みtext・imageを含めて復元可能に。",
+            "MCP serverがtool call中に追加OAuth scopeを要求した場合の再認証promptを追加。",
+            "`/code-review`に`--max-findings <n>|all`を追加し、finding数を指定可能に。`--max-findings default`まで再利用する。",
+            "agents viewにsession名検索のCtrl+Fとgroup間移動のAlt+↑/↓を追加。これらとrenameはkeybindings.jsonで再割当可能。",
+            "plan承認時の新permission modeをscreen reader modeで通知（Shift+Tab経由を含む）。"
+          ]},
+          {"title": "変更", "items": [
+            "長いconversationでauto mode classifierが確認できなくなると、tool callごとの確認・失敗でなくcompactするよう改善。",
+            "screen readerの短い通知を次のkey pressまたは画面変化まで表示するよう改善。",
+            "screen readerのquestion dialogで回答済みboxに「answered」を表示。",
+            "usage credit request無効のTeam/Enterprise組織向け`/usage-credits` messageを改善。",
+            "cloud sessionの最初のturnが`alwaysLoad: false`のstdio MCP serverを待たないよう改善。",
+            "You should knowのnoteで責任者に応じ「we」「the main agent」「you」を使い分け。",
+            "artifact database size limit errorに上限と空き領域を作る方法を表示。",
+            "Bash permission promptで実行前検査不能なcommand部分の理由を短く表示。",
+            "self-hosted runnerの組み込み`gh api`を改善。拒否gh commandのAPI、全page取得、nested `claude`での保持に対応。",
+            "Remote Controlの期限切れserver credential復旧中も接続を維持し、outage後もsessionを残す。",
+            "background command time limitをunattended sessionだけへ適用。terminal・desktop app・VS Codeには適用しない。",
+            "auto mode classifierがSonnet 5.5／Opus 5.5を指定する`ANTHROPIC_DEFAULT_SONNET_MODEL`を無視し、Claude Sonnet 5を使うよう変更。",
+            "`claude project purge`を`claude purge`へ改名（旧名もnotice付きで利用可能）。",
+            "agents viewの`n:` filter/Ctrl+FでEnter時に最も一致するsessionを開くよう変更。",
+            "`/autocompact`のwindowをmodelごとに保存。",
+            "完了通知を出せないMCP URL promptは「I'm done, continue」までtool callを待機。"
+          ]},
+          {"title": "修正", "items": [
+            "mid-response API timeoutでturnが失敗する問題を修正。non-interactive/subagentはpartial responseから継続し、thinking-only responseはretry。",
+            "最終replyのtoken usageが0の長いconversationでauto-compactせず「Prompt is too long」とする問題を修正。",
+            "`--resume`がcompactionで復元したfileなどのcontextを落とす問題を修正。",
+            "resumed sessionが最後のresponseを保存せず、次の`--resume`でprompt未回答に見える問題を修正。",
+            "load中のtranscript書換えでresumeが途中のtranscriptを読む問題を修正。",
+            "2.1.286以前のconversationをresumeすると以前のthinkingが落ちる問題を修正。",
+            "Mantle/structured output拒否gatewayでtitle・memory recall・prompt hookが失敗する問題を修正し、`CLAUDE_CODE_DISABLE_STRUCTURED_OUTPUTS`を追加。",
+            "Bash以外のtoolがblockされてもauto mode denialがBash permission ruleを案内する問題を修正。",
+            "Bedrock/Mantleのauto modeが古いmodel request後にlocal classifierへ切替わる問題を修正。",
+            "cloud sessionがserver拒否modelでrestart後にreplyする問題を修正。",
+            "Cowork cloud sessionが未承認URLのWebFetch prompt放置後もinput待ちになる問題を修正。",
+            "別deviceで開始したCowork cloud sessionへphone参加時にprompt suggestionが出ない問題を修正。",
+            "mod buttonがrestart前のview上で別buttonのactionを実行する問題を修正。",
+            "parse不能diffを含むplugin paneが空になる問題を修正し、plain codeとして描画。",
+            "plugin LSP serverが`${user_config.*}`／`${CLAUDE_PLUGIN_ROOT}`をliteral受信する問題を修正。",
+            "pluginの`tool.call` hookがworktree内subagentのBashを失敗させ、file searchを誤folderで読む問題を修正。",
+            "古いGitで`git-subdir` plugin installが失敗または不完全cacheとなる問題を修正。",
+            "`--plugin-dir` pluginに`/plugin`のConfigure optionsが出ない問題を修正。",
+            "plugin reload/disable時にtimer/read実行中background sessionが終了する問題を修正。",
+            "sandboxed heredocがplain textと単純`$VAR`だけでも毎回approvalを求める問題を修正。",
+            "算術評価される値の`BASHPID` assignmentを無警告で許可する問題を修正。",
+            "plugin/mod表示中にbackground tasks dialogを開くとfullscreen sessionがinterface errorで終了する問題を修正。",
+            "hold中の別sessionへ送ったmessageをdeliveredと報告する問題を修正。未配信と対象sessionを通知。",
+            "OpenTelemetryの`tool.blocked_on_user` spanが`-p`/SDK/PreToolUseでsource/decisionを`unknown`とする問題を修正。",
+            "未回答permission askが`-p`/interrupt turnで`tool_decision` eventを出さない問題を修正。",
+            "Cowork cloud sessionのEdit/Retryが`/compact`前の保存済みmessageを拒否する問題を修正。",
+            "`CLAUDE_CODE_RETRY_WATCHDOG`が長大stream失敗後に何時間もretryする問題を修正。3 timeoutで停止。",
+            "`/login`がsecure storageへ保存できなくても成功と表示する問題を修正し、失敗表示とretryを追加。",
+            "Bedrock credential lookup中のStopがfallback modelへ移す問題を修正。",
+            "sleep復帰時に別processのsign-in中でも2個目の`gcpAuthRefresh`/`awsAuthRefresh`を開く問題を修正。",
+            "plugin-defined agentがdefaultのprompt/tools/disallowedTools/effortで動く問題を修正。",
+            "headless sessionがSIGCONT付きSIGTERMを無視する問題を修正。",
+            "restartしたcloud sessionが組織のenforced listで拒否modelを復元する問題を修正。",
+            "16MB超またはparse不能resultでMCP tool callが二重実行される問題を修正。",
+            "Claude Desktop Code tabのsubagentへ`memory` MCP serverのtoolが渡らない問題を修正。",
+            "auto mode利用不可時に許可済みsiteでもClaude in Chromeがreadごとに確認する問題を修正。",
+            "GitHub SSH keyなしでGitHub-source plugin installが失敗する問題を修正。HTTPSへfallback。",
+            "`blockReadsOutsideWorkingDirectories`有効時にgit config用` sandbox.credentials.files`が効かない問題を修正。",
+            "Artifact toolでslides/design開始時に組織design systemが欠落する問題を修正。",
+            "自己restart後にWindows keyboardが動かない問題を修正。",
+            "多数の`Agent(...)`を列挙したagent起動がstallする問題を修正。",
+            "Claude 3 Opus/Sonnet sessionがPDF全体の入力後に毎turn失敗する問題を修正。",
+            "npm auto-updaterがnative binary取得失敗後にstubだけinstallして成功報告する問題を修正。",
+            "Remote Control cleanupが接続中/再attach直後のsessionをarchiveする問題を修正。",
+            "plugin marketplaceのSSH/HTTPS双方失敗で後者だけのerrorを出す問題を修正。",
+            "Write/Edit後にscope内の`.claude/rules`/nested CLAUDE.mdを読まない問題を修正。",
+            "`bash -c`/`sh -c`内の危険な`rm`がbypass/allow rule下でpromptなしに動く問題を修正。",
+            "dynamic capability registration/無応答language serverでLSP toolが無期限hangする問題を修正（60秒timeout）。",
+            "background agent実行中に`idle_prompt` hookが発火する問題を修正。",
+            "match/JSON serialize失敗時にPreToolUse/PermissionRequest hookをskipする問題を修正し、callをblock。",
+            "fresh environment/model switch直後の最初のrequestがbuilt-in limit/windowを使う問題を修正。",
+            "ctrl+enter後のInterrupted rowに不適切なhintが出る問題を修正。",
+            "`--bare`の`/login`がsaved loginを置換し得る問題を修正。利用可能credentialを表示。",
+            "subagentのfile access時にInstructionsLoaded hookがagent_id/typeを省く問題を修正し、effortも報告。",
+            "`claude mcp serve`のAgent toolが全subagent_typeを拒否する問題を修正。",
+            "fullscreen searchと`/theme`検索でcursorがtyped textを追わない問題を修正。",
+            "screen readerの`/permissions`でrule番号がsearch boxを開く問題を修正。",
+            "VS Codeのclaude.ai connectorが認可後もNeeds authenticationのままの問題を修正。",
+            "VS CodeのCmd/Ctrl+Nが全Claude viewでconversationを開始する問題を修正。",
+            "VS Codeでsession archive後に次のsaved sessionをresumeする問題を修正。",
+            "Cloud sessions switchが無関係security settingでlocked offになる問題を修正。",
+            "self-hosted runner起動中のStopがqueued messageをcancelしない問題を修正。",
+            "Claude Tagが自動作成channelに常に失敗するRemove this scopeを出す問題を修正。",
+            "Claude Tagが関連する別channelのSlack thread更新を追跡しない問題を修正。",
+            "Claude Tag Configure pageのsave errorを改善。長いinstructionとaccess喪失を正しく案内。",
+            "`claude plugin test`が古いsaved settingだけでmodをremote offと報告する問題を修正。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288", "urlLabel": "GitHub Releasesで全文を見る"
+      }]
     }
   ],
-  "exclusions": [
-    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "公開時刻非掲載の公式記事はvisible publication dateに基づく採用であり、厳密な時刻境界は検証不能。対象期間外のClaude Codeリリース・記事は除外。"
-  ],
+  "exclusions": ["X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。", "Anthropic Research一覧は公式サイト取得タイムアウトのため、窓内記事の有無を未確定とした。公開時刻非掲載のNewsroom記事はvisible publication dateに基づく採用。"],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Frontier Academy: $100M to train 10,000 engineers",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy"
-    },
-    {
-      "title": "Claude Blog",
-      "url": "https://claude.com/blog"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"}, {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"}, {"title": "Anthropic News", "url": "https://www.anthropic.com/news"}, {"title": "Claude Frontier Academy: $100M to train 10,000 engineers", "url": "https://www.anthropic.com/news/claude-frontier-academy"}, {"title": "Claude Blog", "url": "https://claude.com/blog"}, {"title": "Claude Code v2.1.288 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288"}
   ]
 }
