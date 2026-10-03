@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "windowLabel": "2026-10-02 07:01:17 UTC - 2026-10-03 07:01:17 UTC",
+  "windowLabel": "2026-10-02 13:01:31 UTC - 2026-10-03 13:01:31 UTC",
   "archiveTitle": "Claude Code 2.1.288 ships",
   "archiveSummary": "Claude Code v2.1.288がMods、セッション操作、コードレビューの機能追加と広範な安定性改善を提供しました。",
   "latestSummary": "AnthropicのClaude Frontier Academy発表と、89項目を含むClaude Code v2.1.288を確認しました。",
@@ -15,7 +15,7 @@
   "officialZeroStates": [
     {"label": "@AnthropicAI / @ClaudeAI / @ClaudeDevsの窓内postは未確定", "body": "<strong>$Claude Official X Watch</strong>のX MCP toolが利用できず、公開検索を代替せずofficial X main postはitem化していない。"},
     {"label": "Anthropic engineer X signalは未確定", "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、relevant postを一次情報として確定できず、<strong>signals</strong>は空配列。"},
-    {"label": "Engineering・Claude Blogの窓内新規記事は0件", "body": "公式一覧では窓内の記事を確認できなかった。Research一覧は公式サイトの取得タイムアウトのため、窓内記事の有無を確定できない。"}
+    {"label": "Engineering・Research・Claude Blogの窓内新規記事は0件", "body": "各公式一覧で窓内の記事を確認できなかった。"}
   ],
   "signals": [],
   "releasePanels": [
@@ -125,7 +125,7 @@
       }]
     }
   ],
-  "exclusions": ["X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。", "Anthropic Research一覧は公式サイト取得タイムアウトのため、窓内記事の有無を未確定とした。公開時刻非掲載のNewsroom記事はvisible publication dateに基づく採用。"],
+  "exclusions": ["X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。", "公開時刻非掲載のNewsroom記事はvisible publication dateに基づく採用。"],
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"}, {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"}, {"title": "Anthropic News", "url": "https://www.anthropic.com/news"}, {"title": "Claude Frontier Academy: $100M to train 10,000 engineers", "url": "https://www.anthropic.com/news/claude-frontier-academy"}, {"title": "Claude Blog", "url": "https://claude.com/blog"}, {"title": "Claude Code v2.1.288 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288"}
   ]
