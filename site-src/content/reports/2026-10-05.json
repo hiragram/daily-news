@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-05",
+  "windowLabel": "2026-10-03 19:01:34 UTC - 2026-10-04 19:01:34 UTC",
+  "archiveTitle": "Claude Code 2.1.289 ships",
+  "archiveSummary": "Claude Code v2.1.289はModsの複数エージェント対応を追加し、plugin・権限・端末UIの安定性を改善しました。",
+  "latestSummary": "Claude Code v2.1.289の全27項目を確認しました。公式4媒体の新規記事は0件で、X投稿はMCP未提供のため未確認です。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.289</strong>: 27項目を完全取得。Modsのエージェント起動・状態取得を追加し、plugin、Bash権限、端末描画を広範に修正。",
+    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Blogの対象24時間内の新規記事は0件。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "公式4媒体の窓内新規記事は0件",
+      "body": "公式一覧を確認し、Engineering、Research、News、Claude Blogに対象24時間内の新規記事がないことを確認した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式4媒体（Engineering、Research、News、Claude Blog）を確認し、対象24時間内の新規記事はなかった。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.289（27項目）",
+      "body": "GitHub CLIで正式版v2.1.289のrelease bodyを完全取得。原文27 bulletを新機能・変更・修正に分類し、全項目を和訳。",
+      "releases": [
+        {
+          "version": "v2.1.289",
+          "publishedAt": "2026年10月4日 08:07:17 JST（2026-10-03T23:07:17Z）",
+          "summary": "Mods向けにエージェント起動と状態取得を追加。plugin・Bash権限・端末描画・VS Code認証の不具合を修正し、大きなファイルや描画失敗時の挙動を改善。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "チームメイト向けの`agent.spawn`、plugin hook eventをまたいで同一のagent IDを保つ仕組み、`$.agent.list()`のidle・waiting状態を追加。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "ハイライト表示を最終幅で一度だけレイアウトすることで、plugin code paneで大きなファイルをより速く開けるよう改善。",
+                "Modsのbandまたはpaneが描画に失敗した際、作者に表示する行を改善。mod名と、何も描画されなかったことを明示する。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "管理対象マシンで、compound shell commandのネスト部分にあるdeny/ask ruleが、ユーザー導入modのapprovalを引き継がない問題を修正。",
+                "短いcode block内に未閉鎖の`<script>` tagが多数ある場合や、`${` substitutionが深くネストした場合にterminalがfreezeする問題を修正。",
+                "symlink経由でIDEから@mention・変更・選択したfileに`Read` deny ruleが適用されない問題を修正。",
+                "[VS Code] sign-out頻度を増やし得た2.1.288の`claude auth status`変更をrevert。",
+                "local folder marketplace由来のpluginで`plugin list`・`plugin eval`・`plugin update`が古いcopyを表示する問題と、symlinkした`--plugin-dir`のhot reloadを修正。",
+                "upgrade後の最初のsessionで導入済みmodsがloadされない問題を修正。",
+                "fullscreenでBackground tasks dialogを開いている間、prompt上のplugin rowが古い状態で表示される問題を修正。",
+                "localhost address、path内の`@`、大文字host、`file:` pathを使うlinkでplugin paneが何も描画しない問題を修正。",
+                "ユーザー導入pluginが組織管理MCP serverのsign-in tool descriptionを書き換えられる問題を修正。",
+                "pluginがterminalに未知のborder styleのBoxを描画した場合、launch時にfreezeまたは強制終了する問題を修正。",
+                "pluginのon-screen handlerが非同期にthrowしたとき、supervised/background sessionが終了する問題を修正。",
+                "高さのないplugin regionが成長し続けた際、interface errorでsessionが終了する問題を修正。",
+                "sandbox auto-allow時に、展開値を持つenvironment variable prefix（例: `TZ=\"$HOME\" rm -rf build`）の後ろのcommandをBash deny/ask ruleが見落とす問題を修正。",
+                "sandbox auto-allow時に、bare variable assignmentがcommandの前にあるとBash deny/ask ruleがskipされる問題を修正。",
+                "folder内にmarketplace manifestもある場合に`claude plugin validate`がpluginをskipする問題を修正。",
+                "modの`ui.render` hookが書いた値によりrow描画でthrowすると、sessionが\"unrecoverable interface error\"で終了する問題を修正。engine自身のrowを描画するよう変更。",
+                "tab、孤立したescape、C1 controlを含むtext、またはtabとCRLFを含む短いtextが下のrowへ重なって描画される問題を修正。",
+                "mod pane/bandのright-aligned contentがclose markまたは`[-]`の下へ描画される問題を修正。これらをterminal端から1 column内側に保つ。",
+                "描画中に失敗したmodの`Client`が周囲のmod描画全体を停止させる問題を修正。単独で失敗し`ui.fault`を発生させる。",
+                "`claude plugin validate`がAnthropic marketplace自身のpluginを失敗扱いにし、`--json`で正常な`plugin.json`を一覧表示する問題を修正。",
+                "描画に一時的に失敗したmod bandが下のcardへ退避を指示する問題を修正。",
+                "失敗したplugin componentがfailure messageのない場合に理由として`Error`または何も表示しない問題を修正。",
+                "未閉鎖の`<script>` tagを多数含む短いcode blockにより、公開artifact pageがreader browser tabをfreeze/crashさせる問題を修正。",
+                "terminalがClient region描画中にthrowした後、そのmod Client regionがsession全体で失敗状態のままになる問題を修正。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+          "urlLabel": "GitHub Releasesで全文を見る"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude CodeはGitHub CLIで取得した公式メタデータを使用。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Claude Code v2.1.289 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"}
+  ]
+}
