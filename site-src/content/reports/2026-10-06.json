@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-06",
+  "windowLabel": "2026-10-04 19:02:04 UTC - 2026-10-05 19:02:04 UTC",
+  "archiveTitle": "Cresta builds with Claude Agent SDK",
+  "archiveSummary": "Claude Blogで、CrestaがClaude Agent SDKを使いCX向けエージェントビルダーを構築した事例を公開しました。",
+  "latestSummary": "Claude BlogでCrestaのClaude Agent SDK活用事例を公開。Claude Codeの窓内リリースはなく、公式XとエンジニアXはMCP未提供のため未確認です。",
+  "summaryBullets": [
+    "<strong>Claude Blog</strong>: CrestaがClaude Agent SDKを基盤に、CX領域のエージェントを構築・改善するためのConductorを紹介。公開時刻は非掲載のため、10月5日のvisible publication dateに基づき採用。",
+    "<strong>Claude Code</strong>: 最新のv2.1.289は2026-10-03T23:07:17Z公開で、今回の調査窓より前。窓内リリースは0件。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
+  ],
+  "officialNews": [
+    {
+      "label": "Claude Blog",
+      "datetime": "2026-10-05T00:00:00Z",
+      "displayTime": "2026年10月5日（公開時刻非掲載）",
+      "title": "CrestaがClaude Agent SDKでCX専門知識をエージェントビルダーに転換",
+      "summary": "Crestaは、自然言語でエージェントを設計・実装・評価・改善するConductorを紹介。Claude Agent SDKを、コンテキスト収集、ツール利用、コードの作成・実行を担う汎用実行基盤として利用している。公開時刻は非掲載のため、visible publication dateに基づき採用。",
+      "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "urlLabel": "Claude Blogで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering・Research・Newsの窓内新規記事は0件",
+      "body": "公式一覧を確認し、Engineering、Research、Newsに対象24時間内の新規記事がないことを確認した。Claude Blogは10月5日付記事を1件確認した。"
+    },
+    {
+      "label": "Claude Codeの窓内リリースは0件",
+      "body": "GitHub CLIで公式release metadataと最新v2.1.289の完全release bodyを確認。v2.1.289は2026-10-03T23:07:17Z公開で対象期間外のため、窓内release noteはない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "Claude BlogでCrestaのClaude Agent SDK活用事例を公開。公開時刻非掲載のためvisible publication dateに基づき採用。",
+      "details": [
+        "Claude Blog: How Cresta turned CX expertise into an agent builder on the Claude Agent SDK"
+      ],
+      "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "urlLabel": "Claude Blogで読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで公式release metadataと最新v2.1.289のrelease bodyを完全取得。v2.1.289は2026-10-03T23:07:17Z公開で対象期間外のため、対象24時間内のreleaseはなかった。"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Blog", "url": "https://claude.com/blog"},
+    {"title": "Cresta builds an agent builder with Claude Agent SDK", "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk"},
+    {"title": "Claude Code v2.1.289 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"}
+  ]
+}
