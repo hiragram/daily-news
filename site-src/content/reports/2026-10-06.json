@@ -1,11 +1,12 @@
 {
   "date": "2026-10-06",
-  "windowLabel": "2026-10-05 01:02:28 UTC - 2026-10-06 01:02:28 UTC",
-  "archiveTitle": "Claude Code v2.1.290 released",
-  "archiveSummary": "Claude Code v2.1.290が公開され、プラグイン、権限、エージェント、セッション運用を中心に190項目を更新しました。",
-  "latestSummary": "Claude Code v2.1.290を公開（追加11・変更/改善37・修正112）。Claude Blogの10月5日付Cresta事例も確認しました。",
+  "windowLabel": "2026-10-05 07:02:03 UTC - 2026-10-06 07:02:03 UTC",
+  "archiveTitle": "Claude Code v2.1.291 released",
+  "archiveSummary": "Claude Code v2.1.291が公開され、クラウドセッションの権限応答と終了時のメッセージ保持を修正しました。",
+  "latestSummary": "Claude Code v2.1.291を公開（修正2件）。同一24時間窓のv2.1.290完全リリースノートと、Claude BlogのCresta事例も掲載しています。",
   "summaryBullets": [
-    "<strong>Claude Code v2.1.290</strong>: 2026年10月5日23:33 UTC公開。190項目（新機能11、変更・改善37、修正112）を公式GitHubリリースから完全取得。",
+    "<strong>Claude Code v2.1.291</strong>: 2026年10月6日03:55 UTC公開。クラウドセッションの権限プロンプト応答欠落と、終了時の末尾メッセージ消失を修正。",
+    "<strong>Claude Code v2.1.290</strong>: 2026年10月5日23:33 UTC公開。公式GitHubリリース本文の190項目を収録。",
     "<strong>Claude Blog</strong>: CrestaがClaude Agent SDKを使ったCX向けエージェントビルダーを紹介。公開時刻は非掲載のため、10月5日のvisible publication dateに基づき採用。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
@@ -49,9 +50,25 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.290（190項目）",
-      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。新機能11、変更・改善37、修正112を収録。",
+      "headline": "v2.1.291 / v2.1.290（計192項目）",
+      "body": "GitHub CLIで両バージョンの公式release metadataと完全なrelease bodyを取得。v2.1.291は修正2件、v2.1.290は190項目を収録。",
       "releases": [
+        {
+          "version": "v2.1.291",
+          "publishedAt": "2026年10月6日 12:55 JST（2026-10-06T03:55:19Z）",
+          "summary": "クラウドセッションの権限プロンプト応答と、終了時に失われる末尾メッセージの回帰を修正。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "修正: v2.1.290で、クラウドセッションが権限プロンプトへの回答を失うことがある回帰。",
+                "修正: v2.1.288で、終了時にセッションの最後のメッセージが失われることがある回帰。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+          "urlLabel": "GitHub Releasesで読む"
+        },
         {
           "version": "v2.1.290",
           "publishedAt": "2026年10月6日 08:33 JST（2026-10-05T23:33:17Z）",
@@ -70,7 +87,11 @@
                 "追加: `/claude-api managed-agents-onboard <url>` to set up the Managed Agents pattern a page describes as `ant apply` files",
                 "追加: `/claude-api managed-agents-onboard <quickstart-name>` to build a Console quickstart template, such as `deep-researcher`, with the `ant` CLI",
                 "追加: a warning when a managed settings file is a link to a file outside the managed settings folder",
-                "追加: a /status and doctor warning when managed settings ignore user-configured sandbox allowRead paths or allowed domains"
+                "追加: a /status and doctor warning when managed settings ignore user-configured sandbox allowRead paths or allowed domains",
+                "追加: [VS Code] 作業中にメッセージを送ると、スクリーンリーダーへ「Message queued.」を通知。",
+                "追加: [VS Code] Manage pluginsダイアログから、プラグインマーケットプレイスのインストール／更新コマンドを確認・実行する機能。",
+                "追加: [Claude Tag] Slackで `!fast` を付けてClaudeにメンションすると高速モードへ切替（必要ならOpusへ移行）。`!fast off` で戻せ、返信中に fast 状態を表示。",
+                "追加: [Claude Tag] access bundle内のカスタム接続に任意のPath prefixes欄を追加し、許可ルールをホスト全体ではなく指定パスだけに適用可能に。"
               ]
             },
             {
@@ -112,7 +133,14 @@
                 "変更: `CLAUDE_CODE_DISABLE_ATTACHMENTS` so a repository's `.claude/settings.json` or `.claude/settings.local.json` can no longer set it; shell, user and managed settings still can",
                 "変更: `claude plugin update` on a plugin loaded from a directory to print just its reason, without the \"Failed to update plugin\" prefix, as for built-in plugins",
                 "変更: the built-in `gh api` in cloud sessions: a host other than github.com set in `GH_HOST` or `GH_REPO` is now refused (use `--hostname` or a full URL), and stderr notes requests to other hosts",
-                "変更: the `claude-api` skill's Managed Agents examples to turn off the web tools unless the agent needs them and to use the `auto` permission policy"
+                "変更: the `claude-api` skill's Managed Agents examples to turn off the web tools unless the agent needs them and to use the `auto` permission policy",
+                "変更: [Self-hosted runners] `claude --environment <id>` が現行Sessions API経由でセッションを作成し、表示・JSONのセッションIDは `session_…` 形式を維持。",
+                "改善: [VS Code] Continue After Reloadで、拡張機能の再起動後に再表示されたタブも中断されたステップを完了できるように。",
+                "改善: [VS Code] メッセージ内のファイルピルにホバーするとプロジェクト起点のパスを表示し、同名ファイルを識別可能に。",
+                "変更: [VS Code] メッセージ時刻をデフォルト表示に変更（Claude Code設定で非表示に可能）。",
+                "改善: [Claude Tag] 自分のClaudeプランが使用量上限に達した際のDM通知を数秒以内に表示し、リセット時刻も案内。",
+                "改善: [Claude Tag] 旧Claude in Slackアプリがセッションを開始できない場合、失敗内容と担当者を表示（詳細はスレッドごとに一度だけ）。",
+                "変更: [Claude Tag] チャンネル指示の上限をバイト数ではなく8,192文字へ変更し、非英語でも同じ容量を確保。保存画面に文字数も表示。"
               ]
             },
             {
@@ -229,7 +257,26 @@
                 "修正: sandboxed Bash commands on Linux running `ConfigChange` hooks and reloading settings mid-command when `.claude/settings.json` or `.claude/settings.local.json` does not exist",
                 "修正: errors reading \"Premature close\" instead of naming the missing program when a tool Claude Code runs, such as git or gh, is not installed (macOS, Linux)",
                 "修正: `/loop` and other recurring session-only scheduled tasks running an extra time after a sandboxed Bash command on Linux or after `.claude/scheduled_tasks.json` was deleted",
-                "修正: edits to the file a symlinked settings file points at running without the settings-file permission question"
+                "修正: edits to the file a symlinked settings file points at running without the settings-file permission question",
+                "修正: [Self-hosted runner] 細工された非常に長いセッションエラー出力行で、ランナーが数秒間フリーズする問題。",
+                "修正: Windowsで、CRLF改行のファイルに保存されたskills／commands内の複数行 `!` シェルブロックが失敗する問題。",
+                "修正: [VS Code] 未入力の空チャットを開くと、保存済み会話に切り替えた後もバックグラウンドのClaudeプロセスが残る問題。",
+                "修正: [VS Code] 保存時にClaude Codeが予期せず停止すると、設定ダイアログがタイムアウトと誤表示する問題。",
+                "修正: [VS Code] 未コミット変更を確認できない場合にもブランチ切替ダイアログが切替を提案する問題。",
+                "修正: [VS Code] 開いているダイアログの背後に届いた権限プロンプトがキーボードフォーカスを奪い、ダイアログでのキー入力が回答になる問題。",
+                "修正: [VS Code] Claude Codeの実行ファイルを見つけられない／起動できないとき、サインインと新規セッションで原因が明確に示されない問題。",
+                "修正: [VS Code] エージェントマップがネストしたサブエージェントを「Tool calls (0)」と表示し、その配下で開始したエージェントをメインエージェント下に配置する問題。",
+                "修正: [Cloud sessions] 環境変数でprompt suggestionsを無効にしても新規クラウドセッションに反映されない問題。",
+                "修正: [Cloud sessions] Claudeの返信完了後も作業インジケーターが数秒回り続ける問題。",
+                "修正: [Cloud sessions] 一度も実行していないroutineのページでRun nowを押してもHistoryが「No runs yet」のままになる問題。",
+                "修正: [Cloud sessions] アーカイブ解除したクラウドセッションが次のメッセージまで作業中に見える問題。",
+                "修正: [Remote Control] 起動直後のコンピューターが新規セッションのRemote Controlメニューに表示されるまで最大1分かかる問題。",
+                "修正: [Claude Tag] Claude Tag Admin権限のメンバーがActivityのMemoryタブで「Couldn't load memory files」となり、ワークスペース／チャンネルメモリを読めない問題。",
+                "修正: [Claude Tag] Slack設定カードでゲストがConfirmすると全員のボタンが消える問題。拒否はゲストだけに表示され、メンバーは確認・取消を続行可能に。",
+                "修正: [Claude Tag] Slackチャンネルのscheduled routinesがチャンネル既定とは別のモデルで動く問題。新規セッションを始める各実行で現行の既定モデルを使用。",
+                "修正: [Claude Tag] チャンネル名ルールで紐付いたaccess bundle内のGitHubリポジトリが、対象チャンネルで拒否される問題。追加・一覧・cloneを可能に。",
+                "修正: [Code Review] ブロッキングのレビューコメントが重大度と矛盾する「nit」ラベルで開かれることがある問題。",
+                "修正: [Code Review] Code Reviewを無効にした組織のforkおよびManual-mode PRで「@claude review」とコメントする案内が投稿される問題。"
               ]
             }
           ],
@@ -267,6 +314,10 @@
     {
       "title": "Claude Code v2.1.290 release",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
+    },
+    {
+      "title": "Claude Code v2.1.291 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291"
     }
   ]
 }
