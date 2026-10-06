@@ -1,12 +1,12 @@
 {
   "date": "2026-10-06",
-  "windowLabel": "2026-10-04 19:02:04 UTC - 2026-10-05 19:02:04 UTC",
-  "archiveTitle": "Cresta builds with Claude Agent SDK",
-  "archiveSummary": "Claude Blogで、CrestaがClaude Agent SDKを使いCX向けエージェントビルダーを構築した事例を公開しました。",
-  "latestSummary": "Claude BlogでCrestaのClaude Agent SDK活用事例を公開。Claude Codeの窓内リリースはなく、公式XとエンジニアXはMCP未提供のため未確認です。",
+  "windowLabel": "2026-10-05 01:02:28 UTC - 2026-10-06 01:02:28 UTC",
+  "archiveTitle": "Claude Code v2.1.290 released",
+  "archiveSummary": "Claude Code v2.1.290が公開され、プラグイン、権限、エージェント、セッション運用を中心に190項目を更新しました。",
+  "latestSummary": "Claude Code v2.1.290を公開（追加11・変更/改善37・修正112）。Claude Blogの10月5日付Cresta事例も確認しました。",
   "summaryBullets": [
-    "<strong>Claude Blog</strong>: CrestaがClaude Agent SDKを基盤に、CX領域のエージェントを構築・改善するためのConductorを紹介。公開時刻は非掲載のため、10月5日のvisible publication dateに基づき採用。",
-    "<strong>Claude Code</strong>: 最新のv2.1.289は2026-10-03T23:07:17Z公開で、今回の調査窓より前。窓内リリースは0件。",
+    "<strong>Claude Code v2.1.290</strong>: 2026年10月5日23:33 UTC公開。190項目（新機能11、変更・改善37、修正112）を公式GitHubリリースから完全取得。",
+    "<strong>Claude Blog</strong>: CrestaがClaude Agent SDKを使ったCX向けエージェントビルダーを紹介。公開時刻は非掲載のため、10月5日のvisible publication dateに基づき採用。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
   "officialNews": [
@@ -33,10 +33,6 @@
     {
       "label": "Engineering・Research・Newsの窓内新規記事は0件",
       "body": "公式一覧を確認し、Engineering、Research、Newsに対象24時間内の新規記事がないことを確認した。Claude Blogは10月5日付記事を1件確認した。"
-    },
-    {
-      "label": "Claude Codeの窓内リリースは0件",
-      "body": "GitHub CLIで公式release metadataと最新v2.1.289の完全release bodyを確認。v2.1.289は2026-10-03T23:07:17Z公開で対象期間外のため、窓内release noteはない。"
     }
   ],
   "signals": [],
@@ -53,8 +49,194 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式release metadataと最新v2.1.289のrelease bodyを完全取得。v2.1.289は2026-10-03T23:07:17Z公開で対象期間外のため、対象24時間内のreleaseはなかった。"
+      "headline": "v2.1.290（190項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。新機能11、変更・改善37、修正112を収録。",
+      "releases": [
+        {
+          "version": "v2.1.290",
+          "publishedAt": "2026年10月6日 08:33 JST（2026-10-05T23:33:17Z）",
+          "summary": "プラグイン/Mod API、Managed Agents、権限・サンドボックス、セッション、VS Code、Claude Tagなどを更新。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "追加: `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end",
+                "追加: `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's",
+                "追加: `ceiling` to the question and verdict a mod's `tool.check` hook reads, naming the approval an organization requires for a tool",
+                "追加: `ThemeKey` and `Color` types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name",
+                "追加: to `claude plugin validate`: each hook a mod registers at a gating site is listed with whether it has a `.catch` (`gatingHooks` under `--json`)",
+                "追加: a Deny button to the Claude apps gateway's sign-in approval page: it ends the pending sign-in, so the waiting terminal stops within seconds",
+                "追加: `claude attach <name>` and `claude logs <name>`: part of a session name works in place of the id",
+                "追加: `/claude-api managed-agents-onboard <url>` to set up the Managed Agents pattern a page describes as `ant apply` files",
+                "追加: `/claude-api managed-agents-onboard <quickstart-name>` to build a Console quickstart template, such as `deep-researcher`, with the `ant` CLI",
+                "追加: a warning when a managed settings file is a link to a file outside the managed settings folder",
+                "追加: a /status and doctor warning when managed settings ignore user-configured sandbox allowRead paths or allowed domains"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "改善: MCP startup behind a network proxy: a server the proxy blocks (HTTP 403) is no longer retried three times",
+                "改善: permission prompts from background agents to show the Ctrl+X Ctrl+K shortcut that stops all background agents",
+                "改善: the built-in `plugin-authoring` skill: Claude now gives the one command another person runs to install a mod you made, and writes it in a README's install section",
+                "改善: the reply to `/plugin` in the desktop app's Code tab: it now says where to install and manage plugins there",
+                "改善: the Bash changed-files view: when a chained command includes git merge, pull or checkout, it lists the files without full diffs",
+                "改善: the Claude apps gateway's log when an upstream's cloud credentials or connection fail: the warning now ends with the underlying cause",
+                "改善: the error shown when a cloud session is started without a claude.ai sign-in: it now names `claude auth login` and /login and no longer blames API-key authentication",
+                "改善: the Read tool's message for binary files: it now points Claude to a skill or a shell command that can read the format",
+                "改善: the error shown when a git config file stops the `/ultrareview` upload: it is about half as long and says what kind of file is the problem",
+                "改善: the errors shown when the `/ultrareview` upload refuses a checkout: each known cause now has its own message, with a way to fix it",
+                "改善: the Claude apps gateway to log a warning during the last 30 days before the certificate it presents to the identity provider expires",
+                "改善: Claude in Chrome: a `browser_batch` call now gets 90 seconds, up from 60, before it is reported as timed out",
+                "改善: the Claude apps gateway's browser sign-in pages: brand fonts, centered layout, and dark mode",
+                "改善: responsiveness while resuming large sessions: timers, input and rendering keep running while the transcript loads",
+                "改善: the / and @ suggestion lists: the selected row now starts with a ❯ pointer, so you can see it without color",
+                "変更: `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC` to also skip the startup connection warm-up",
+                "変更: Claude in Chrome so that a project's settings files can no longer turn it on; use `--chrome`, `/chrome` or your user settings",
+                "変更: the Bash tool to ask for permission before running `pyright`, which is no longer treated as a read-only command",
+                "変更: what a mod's `$.process.spawn` rejects with when another mod denies it after the child ran: it now says the call ran and a plugin withheld its result",
+                "変更: the background daemon's log to write a multi-line message as one JSON-quoted line",
+                "変更: skills and custom commands to refuse a `!` shell command that contains raw control characters other than tab and newline, with a message that shows where they are",
+                "変更: `/artifacts`: opening an artifact in your browser now closes the list",
+                "変更: Bash permission checks so that more forms of the `ps` command ask for approval instead of running without asking",
+                "変更: plugin hooks so long text is clipped and logged instead of being refused or dropped silently",
+                "変更: background sessions whose scheduled task is gone: they now move to Completed about 20 seconds later and can be updated or shut down when idle",
+                "変更: the \"Press ← again\" confirm on a just-cleared prompt: a second ← no longer has to wait a second before it switches, and holding ← down now switches too",
+                "変更: the errors shown when the `/ultrareview` upload fails at a git step: they name the step and what to try, and no longer repeat git's own error text",
+                "変更: `/code-review` at medium effort to also report cleanup and CLAUDE.md conventions findings on models without tuned review settings, including Opus 5.5 and Sonnet 5.5",
+                "変更: an in-process teammate's `agent_id` in Agent results to its agent ID (its `name@team` address stays in `teammate_id`); TeammateIdle hooks no longer fire from its subagents or forks",
+                "変更: background sessions waiting on a scheduled wakeup (`/loop`): they are now left running through updates and low memory, where being restarted or shut down could silently lose the wakeup",
+                "変更: `/model`, `/effort` and `/rename` sent from `claude agents` to a busy background session to apply right away, without a confirmation, instead of when the turn ends",
+                "変更: the Claude apps gateway's minimum supported PostgreSQL version from 14 to 11",
+                "変更: the interactive session's WebSearch budget to refill over time (100 calls/hour; `CLAUDE_CODE_WEB_SEARCH_REFILLS_PER_HOUR` sets the rate, 0 turns it off) instead of ending after 200 calls",
+                "変更: `CLAUDE_CODE_DISABLE_ATTACHMENTS` so a repository's `.claude/settings.json` or `.claude/settings.local.json` can no longer set it; shell, user and managed settings still can",
+                "変更: `claude plugin update` on a plugin loaded from a directory to print just its reason, without the \"Failed to update plugin\" prefix, as for built-in plugins",
+                "変更: the built-in `gh api` in cloud sessions: a host other than github.com set in `GH_HOST` or `GH_REPO` is now refused (use `--hostname` or a full URL), and stderr notes requests to other hosts",
+                "変更: the `claude-api` skill's Managed Agents examples to turn off the web tools unless the agent needs them and to use the `auto` permission policy"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "修正: requests failing behind proxies and gateways that reject one of Claude Code's beta headers with a status other than 400, or together with a second beta",
+                "修正: long sessions with hundreds of images getting stuck on \"Request rejected as unprocessable by the model\" errors",
+                "修正: a turn ending at once when the API's output content filter stopped a reply while Claude was still thinking; the request is now retried once before the error is shown",
+                "修正: resumed subagents and teammates losing their earlier thinking and prompt cache after receiving a message mid-run",
+                "修正: WebFetch silently dropping page text past 100,000 characters; it now says how much was unread and takes an `offset` to read on",
+                "修正: a crash (\"Maximum call stack size exceeded\") when a response nested lists or quotes thousands of levels deep",
+                "修正: `/rewind` not listing a prompt sent while Claude was still working",
+                "修正: scheduled tasks (`/loop` with an interval, reminders) silently not coming back on resume once the conversation was compacted; covers compactions made from this version on",
+                "修正: scheduled tasks set in the foreground never firing after a ← or `/background` hand-off, and recurring ones firing an extra run on every resume, respawn or fork",
+                "修正: headless `--json-schema` runs exiting non-zero with `is_error: true` on a `success` result when the connection dropped after the structured output was already delivered",
+                "修正: plan mode letting the auto mode classifier approve non-read-only connector tools that carry a server-pushed ask policy",
+                "修正: a project `CLAUDE.md`, rule or `AGENTS.md` symlinked outside the working directories loading under `permissions.blockReadsOutsideWorkingDirectories` or a `Read` deny rule",
+                "修正: URL allow and deny patterns with a wildcard inside an `xn--` host label matching differently from one process to the next",
+                "修正: an MCP server provided by your organization being relisted as your own after signing in or reconnecting, including from a late result in headless and SDK sessions",
+                "修正: `/ultrareview` dropping uncommitted changes without a warning on Windows when `git stash create` failed, and refusing them after a `git add -N` file was deleted or moved",
+                "修正: the `plansDirectory` setting's project-root check for paths that contain a backslash on macOS and Linux",
+                "修正: replies in very long Remote Control and cloud sessions that could appear a block at a time instead of streaming in",
+                "修正: the background daemon's log passing terminal control characters to the screen under `claude daemon run` and `claude daemon logs`; they now show as `\\uXXXX` escapes",
+                "修正: a plugin hook with a `.catch` being unloaded, and its `.catch` skipped, when the hook kept the hooks worker busy on a prompt or tool call",
+                "修正: a mod's `turn.step` result listing a tool call that a mid-response model fallback had discarded",
+                "修正: a Cowork cloud session's reply sometimes never finishing when its container restarted just after Claude sent a message or a file",
+                "修正: `claude plugin validate` and plugin loading refusing a hooks module that destructures an option named like one of its top-level functions",
+                "修正: `/ultrareview` failing to upload uncommitted changes when `core.safecrlf=true` is set in git's configuration",
+                "修正: the effort level changing when a flagged message is retried on a fallback model that has a different level saved in settings",
+                "修正: Claude Code hanging until killed when a `/permissions` tab was clicked while searching in fullscreen mode",
+                "修正: conversation compaction sometimes failing with a \"null is not an object\" error",
+                "修正: plugin hooks reading an empty `answer` on `turn.complete` for a subagent that hands its report back in auto mode",
+                "修正: a mod being unloaded without a message when a refresh followed its failed reload; its failure line now says the version loaded before is unloaded",
+                "修正: a mod's `prompt.submit` hook that drops a prompt after calling `next(e)` being ignored silently: the hook is now reported as failed, by name",
+                "修正: a mod's pane or band being redrawn without end when it followed its end over a tree that changed height at every drawing",
+                "修正: an image read on macOS and Windows being able to return a file outside what was approved, through a link swapped in mid-read",
+                "修正: a case where a user-installed mod could get an organization's plugin unloaded; the mod is now the one unloaded",
+                "修正: `disableClaudeAiConnectors` and `allowedMcpServers` URL rules not being applied to some MCP entries declared in `.mcp.json`, plugins or agents",
+                "修正: a mod's inline pane being redrawn without end when its tree changed height at every drawing",
+                "修正: an `@`-mention under the read block or `--restricted` being able to read a file outside the working directories through a link changed mid-read",
+                "修正: Esc in the agents view confirming \"Press enter again to restart this session — it isn't responding\"; Esc now just reopens the session",
+                "修正: agent view losing a background session's `/loop` run count, countdown and live status line after the session enters a worktree that it creates",
+                "修正: `claude agents` sessions in manual permission mode asking for approval to read an image pasted into a reply or a new agent's prompt",
+                "修正: a deny or ask rule missing a command or path whose name came from a variable set as a prefix on `declare`, `typeset`, `export` or `readonly`",
+                "修正: Read deny rules not applying to image paths pasted or dragged into the prompt, or to file names listed for an @-mentioned folder",
+                "修正: a case where a user-installed mod could make an organization's guard skip its check; such a mod is now unloaded",
+                "修正: plugin hooks stalling each redraw when a mod draws a long multi-line text holding non-Latin characters",
+                "修正: repeated Ctrl+X in the agents view deleting the whole next section after the bottom session of a section was deleted",
+                "修正: You should know writing its notes in English regardless of the `language` setting",
+                "修正: a freeze after sending some very long messages",
+                "修正: a slowdown when expanding the transcript (ctrl+o) or resizing over large tool output that contains non-ASCII characters such as arrows, dashes or box-drawing",
+                "修正: `claude respawn` re-sending an earlier message to a backgrounded session that has no saved transcript instead of starting it with an empty conversation",
+                "修正: Esc after an `n:` or Ctrl+F search in the agents view moving focus to a section header, where Ctrl+X twice would delete every session in the section",
+                "修正: `claude agents` saving a slash command it could not deliver to a stopped session and then running it by itself the next time that session restarted",
+                "修正: `/ultrareview` uploading uncommitted changes unfiltered for files under a git filter driver named `unset` or `unspecified`; the upload now stops and asks you to rename the driver",
+                "修正: auto mode denials suggesting a permission rule that would skip the classifier for a whole tool or that Claude Code would ignore",
+                "修正: `claude --teleport` and `/teleport` deleting the files in a folder that had replaced a tracked file of the same name when you chose to stash: the stash is now refused, and says why",
+                "修正: Esc confirming agent view's \"Press enter again to restart this session fresh\" prompt",
+                "修正: agent view's `/loop` run count freezing and its countdown disappearing after `/clear`; the count now restarts with the new conversation",
+                "修正: `--channels` permission relay: a reply ID that repeats within a session is now ignored instead of approving a different prompt",
+                "修正: `/chrome` \"Reconnect extension\" not restoring browser tools after a failed Chrome connection, and added an explanation when it can't (anthropics/claude-code#98135)",
+                "修正: mods staying off for people who reach Claude through a gateway (`ANTHROPIC_BASE_URL` with `ANTHROPIC_AUTH_TOKEN`) and have no Anthropic account",
+                "修正: replies sent from `claude agents` just after a background session crashed being refused after 2 seconds: they are now retried for up to 12 seconds while the session restarts",
+                "修正: slash commands and answers to a multiple-choice question that `claude agents` could not deliver to a running session being saved and sent by themselves the next time it was restarted",
+                "修正: sandboxed commands that pipe a heredoc into another command (`cat <<EOF | python3`) asking for approval on every run",
+                "修正: `claude agents` failing with \"Couldn't restart the background service\" and background sessions stopping after a Homebrew upgrade (takes effect from the upgrade after this one)",
+                "修正: agent view's \"restart this session fresh\" re-sending an earlier message from the session instead of starting with an empty conversation",
+                "修正: Bash permission checks auto-approving some read-only commands (such as `rg` or `git grep`) whose arguments the shell would still expand as wildcards; these now prompt for approval",
+                "修正: `claude plugin test` refusing to run after an upgrade because of an out-of-date saved setting",
+                "修正: Bash permission checks auto-approving certain commands whose variable names zsh reads differently from bash; these now prompt for approval",
+                "修正: a short form of a `git clone` option keeping the sandbox exemption from a git pattern such as `git *` in `sandbox.excludedCommands`; it is now treated like the long form",
+                "修正: the first feature-flag request of a session ignoring a proxy or API endpoint set in a project's settings",
+                "修正: `/ultrareview` of a local branch silently leaving uncommitted work out of the upload in a repository that keeps its branches outside `.git` (git 2.54+); it now refuses with an explanation",
+                "修正: cloud sessions staying asleep after a container restart lost a pending `/loop` wakeup or scheduled task; Claude is now told and can schedule it again",
+                "修正: the Claude apps gateway's retention sweep deleting a returning developer's identity row refreshed at the same moment, on PostgreSQL versions without the November 2025 fixes",
+                "修正: sandboxed Monitor tool commands skipping the permission prompt under sandbox auto-allow; they now follow your permission rules",
+                "修正: the Claude apps gateway failing to start when the certificate it presents to the identity provider has an empty subject",
+                "修正: the Claude apps gateway exiting with a bare \"Invalid URL\" when `store.postgres_url` can't be parsed; the error now names the setting and says what the URL may hold",
+                "修正: background agents failing with \"Agent stalled\" and Workflow tool subagents restarting from their prompt when a Mac woke from sleep",
+                "修正: slow or failed startup since 2.1.285 under SDK hosts such as the VS Code extension when managed settings deny reads of many paths on a slow filesystem (notably Windows drives under WSL)",
+                "修正: a response interrupted by computer sleep being treated as a stalled stream on Bedrock, Vertex, Foundry, and custom gateways",
+                "修正: a freeze before the first request and in the `/sandbox` Config tab on Linux and WSL when a sandbox read rule such as `~/**/.env` covers a large folder",
+                "修正: skills not being found when asked for by the name in SKILL.md when their folder has a different name (for example a non-English name): the skill listing now shows both names",
+                "修正: a plan written in plan mode being lost when a cloud session's container restarted before the plan was presented",
+                "修正: the Bash tool occasionally losing shell aliases, functions and plugin PATH entries for a whole session when its first command ran seconds after startup on a new config directory",
+                "修正: unbounded memory use when an HTTP MCP server sends a very large response",
+                "修正: artifact operations failing in a Claude Code run started from inside a cloud session (for example `claude -p` run from the Bash tool)",
+                "修正: files sent from remote sessions sometimes being refused as \"not the one approved\" when four or more were sent at once",
+                "修正: plan mode not being restored when resuming a session with `--continue` or `--resume <session-id>` in the terminal",
+                "修正: a marketplace named after another GitHub marketplace's download folder stopping that marketplace from downloading",
+                "修正: automatic compaction giving up with \"Prompt is too long\" when a Mac went to sleep while it was running",
+                "修正: the rewind menu (Esc Esc / `/rewind`) freezing for hundreds of milliseconds per keypress when the conversation contains a very large pasted stack trace or source file",
+                "修正: a subdirectory's AGENTS.md not being attached when a file under it is @-mentioned",
+                "修正: self-hosted runner sessions resumed after a stopped runner failing with \"missing but already registered worktree\" when the sessions folder is a relative symlink",
+                "修正: a freeze when the secret scan or a permission prompt met long token-like text",
+                "修正: Bash permission checks not applying Read deny rules or the outside-directory read block to a wildcard in some option values of read-only commands",
+                "修正: `CLAUDE_CODE_USER_DIALOG_TIMEOUT_MS=5m` being read as 5 ms and cancelling remote dialogs at once; values with a unit suffix now fall back to `dialogExpiry`",
+                "修正: a stall when an MCP server's tool listing contains very long runs of combining characters",
+                "修正: two pastes that overlap in one prompt being sent to the model partly as typed text instead of as one pasted block",
+                "修正: Claude in Chrome's browser picker showing a message meant for Claude when the chosen browser is no longer connected, and the VS Code dialog's list going stale after a switch",
+                "修正: background subagents losing write and Bash access in their worktree after the main session enters or exits a different worktree",
+                "修正: background commands, the agents view and daemon workers sending telemetry and a feature-flag request to Anthropic behind a Claude apps gateway when no managed settings on the machine force gateway login",
+                "修正: `--restricted` (and `CLAUDE_CODE_RESTRICTED=1`) sessions opening the cross-session messaging socket",
+                "修正: sessions moved to the background while idle reopening as \"no saved transcript\" after a restart or idle cleanup; they now resume their conversation",
+                "修正: background workers honoring `--allow-dangerously-skip-permissions` on respawn without the bypass-permissions disclaimer having been accepted",
+                "修正: Claude replying in an endless loop when a plugin's async Stop hook passes an unquoted script path under a folder with a space, such as Application Support",
+                "修正: a freeze of several seconds when secret masking met very long unbroken text",
+                "修正: some permission rules and safety checks not being applied to a tool call after a PreToolUse hook rewrote its input",
+                "修正: first launch asking to pick a login method again after `claude auth login` or with a credentials file already in the config directory",
+                "修正: file names containing line breaks being displayed incorrectly in file tool errors and permission prompts",
+                "修正: a large paste expanded in place being sent to the model as typed text after the next keystroke when it held accents stored as separate characters, as macOS file names do",
+                "修正: macOS `/login` reporting success when the keychain refused the new login and kept an old one it could not remove",
+                "修正: SDK hosts using `--include-partial-messages` seeing a reply stay open after the turn ended when its stream was cut, interrupted or fell back to non-streaming",
+                "修正: sandboxed Bash commands on Linux running `ConfigChange` hooks and reloading settings mid-command when `.claude/settings.json` or `.claude/settings.local.json` does not exist",
+                "修正: errors reading \"Premature close\" instead of naming the missing program when a tool Claude Code runs, such as git or gh, is not installed (macOS, Linux)",
+                "修正: `/loop` and other recurring session-only scheduled tasks running an extra time after a sandboxed Bash command on Linux or after `.claude/scheduled_tasks.json` was deleted",
+                "修正: edits to the file a symlinked settings file points at running without the settings-file permission question"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+          "urlLabel": "GitHub Releasesで読む"
+        }
+      ]
     }
   ],
   "exclusions": [
@@ -62,11 +244,29 @@
     "対象期間外の公式ブログ・Anthropic記事・Claude Codeリリースは除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
   ],
   "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Blog", "url": "https://claude.com/blog"},
-    {"title": "Cresta builds an agent builder with Claude Agent SDK", "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk"},
-    {"title": "Claude Code v2.1.289 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"}
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Blog",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "title": "Cresta builds an agent builder with Claude Agent SDK",
+      "url": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk"
+    },
+    {
+      "title": "Claude Code v2.1.290 release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
+    }
   ]
 }
