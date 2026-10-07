@@ -1,12 +1,11 @@
 {
   "date": "2026-10-07",
-  "windowLabel": "2026-10-06 01:01:50 UTC - 2026-10-07 01:01:50 UTC",
+  "windowLabel": "2026-10-06 07:02:43 UTC - 2026-10-07 07:02:43 UTC",
   "archiveTitle": "Claude Code v2.1.292 released",
   "archiveSummary": "Claude Code v2.1.292が公開され、プラグイン、サブエージェント、セッション、権限・安全性を更新しました。",
-  "latestSummary": "Claude Code v2.1.292とv2.1.291を完全収録（計94項目）。ClaudeのGoogle Workspace連携など、公式記事4件も掲載しています。",
+  "latestSummary": "Claude Code v2.1.292のリリースノート全92項目を和訳収録。ClaudeのGoogle Workspace連携など、公式記事4件も掲載しています。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.292</strong>: 2026年10月7日03:59 JST公開。新機能6件、変更19件、修正67件を収録。",
-    "<strong>Claude Code v2.1.291</strong>: クラウドセッションの権限プロンプトと終了時メッセージの回帰2件を修正。",
     "<strong>公式記事</strong>: Google Workspace連携、Claude Mythosのセキュリティ活用、Startups拡張、Cyber Verification Program拡張の4件を10月6日付で確認。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
@@ -80,8 +79,8 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.292 / v2.1.291（計94項目）",
-      "body": "GitHub CLIで2バージョンの公式release metadataと完全なrelease bodyを取得。v2.1.292は92項目、v2.1.291は2項目を収録。",
+      "headline": "v2.1.292（全92項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。対象窓内のv2.1.292全92項目を収録。v2.1.291は窓開始前のため除外。",
       "releases": [
         {
           "version": "v2.1.292",
@@ -91,36 +90,36 @@
             {
               "title": "新機能",
               "items": [
-                "追加: Added `--marketplace <source>` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it",
-                "追加: Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for",
-                "追加: Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request",
-                "追加: Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list",
-                "追加: Added prompt caching to `$.model.complete` for mods: `prompt` and `system` take blocks of text, and `cache: true` on a block caches the request up to it",
-                "追加: Added workflow agents to the `agent.spawn` mod hook, with their run and index, so a mod can refuse them"
+                "追加: `claude plugin install` に `--marketplace <source>` を追加。必要時は `claude plugin marketplace add` と同じポリシー検査を通してマーケットプレイスを追加し、そこからプラグインをインストールする。",
+                "追加: Agentツールに `effort` パラメータを追加。指定した努力レベルでサブエージェントを実行できる。",
+                "追加: 過負荷（529）リクエスト再試行時のバックオフ初期遅延を長くできる環境変数 `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS`。",
+                "追加: モッドがプロンプトボックスの補完候補に独自行を追加できるイベント `prompt.autocomplete`。",
+                "追加: モッド向け `$.model.complete` にプロンプトキャッシュを追加。`prompt` と `system` はテキストブロックを受け、ブロックの `cache: true` でそこまでのリクエストをキャッシュする。",
+                "追加: `agent.spawn` モッドフックに、実行回とインデックスを持つワークフローエージェントを追加。モッドはこれを拒否できる。"
               ]
             },
             {
               "title": "変更",
               "items": [
-                "変更: Improved startup of `claude -p` and SDK sessions: the first turn no longer waits for HTTP and SSE MCP servers to answer `resources/list`",
-                "変更: Improved rendering speed of long bulleted or numbered replies: they stream, resize and re-open in the transcript (ctrl+o) much faster",
-                "変更: Improved Ctrl+C draft recovery: a cleared prompt now stays reachable with Up after a slash command or a sent message",
-                "変更: Improved hook output handling: `<system-reminder>` tags written in a hook's output are escaped before they reach Claude",
-                "変更: Improved tool input handling: Grep accepts `file_path` for `path`, and Write, WebFetch and Read ignore a few stray parameters instead of failing the call",
-                "変更: Improved the steps shown when a marketplace declared in a settings file has a name that looks like an official Anthropic marketplace",
-                "変更: Improved sandbox auto-allow: with strict sandbox mode set in user, managed or --settings settings, an interpreter command with an env var prefix like `FOO=bar python3 app.py` runs unprompted",
-                "変更: Improved the Artifact tool's listing: Claude now sees how many published artifacts you have and can list up to 200 at once instead of 50",
-                "変更: Improved cloud sessions after a restart: Claude is now told which stopped background agents it can resume by id",
-                "変更: Improved the Claude in Chrome message in claude.ai cloud sessions when the browser can't be reached: Claude is now told it may continue with alternatives if the user prefers",
-                "変更: Improved the /focus tip: it now invites you to try focus view mid-turn and shows how to switch back",
-                "変更: Improved startup with local (stdio) MCP servers that ignore the newer protocol check: after one slow connect they are remembered for 7 days and connected the older way without the wait",
-                "変更: Changed local (stdio) MCP server connections to negotiate protocol version 2026-07-28 by default on every install, including Bedrock, Vertex and Foundry; `MCP_PROTOCOL_NEGOTIATION=legacy` opts out",
-                "変更: Changed `claude plugin test`: a failed `expect` inside a hook the test registered, or a stub answer the engine refuses, now fails the test instead of passing silently",
-                "変更: Changed usage limit messages to write claude.ai settings links with https:// so terminals and apps can make them clickable",
-                "変更: Changed scheduled and Run now routine runs to publish a new artifact only you can see without asking for approval; artifacts that request connectors or other access still ask",
-                "変更: Changed agent names to allow at most 256 characters: a longer one is rejected, and a skill's or a plugin file's `name` longer than that is ignored",
-                "変更: [Claude Tag] Added an Edit button to the Allowed domains card on a channel's Configure page, so Enterprise admins can open the access bundle that sets the channel's domains",
-                "変更: [Code Review] Added the period's total with its change from the previous period, and a breakdown by repository, to the PRs reviewed chart in Code Review analytics"
+                "変更: `claude -p` とSDKセッションの起動を改善。最初のターンでHTTP/SSE MCPサーバーの `resources/list` 応答を待たない。",
+                "変更: 長い箇条書き・番号付き応答の描画を高速化。ストリーミング、リサイズ、トランスクリプト（ctrl+o）再表示が大幅に速くなる。",
+                "変更: Ctrl+C後の下書き復元を改善。クリアしたプロンプトは、スラッシュコマンドまたは送信後も上矢印で呼び出せる。",
+                "変更: フック出力内の `<system-reminder>` タグを、Claudeに届く前にエスケープする。",
+                "変更: ツール入力を改善。Grepは `path` に `file_path` を受け入れ、Write/WebFetch/Readは一部の余分な引数を無視して失敗しない。",
+                "変更: 設定ファイルで宣言したマーケットプレイス名が公式Anthropicマーケットプレイスに似る場合に表示する手順を改善。",
+                "変更: 厳格サンドボックスモードでは、`FOO=bar python3 app.py` のような環境変数接頭辞付きインタープリターコマンドを確認なしで実行できるようにした。",
+                "変更: Artifactツールの一覧を改善。公開済みartifact数をClaudeに知らせ、一度に最大200件（従来50件）を列挙できる。",
+                "変更: 再起動後のクラウドセッションを改善。再開可能な停止済みバックグラウンドエージェントをIDでClaudeに通知する。",
+                "変更: claude.aiクラウドセッションでClaude in Chromeに到達できない場合、利用者が望めば代替手段で続行できることをClaudeに通知する。",
+                "変更: `/focus` のヒントを改善。ターン途中でfocus viewを試す案内と、戻し方を表示する。",
+                "変更: 新しいプロトコル検査を無視するローカル（stdio）MCPサーバーの起動を改善。一度遅い接続を記録すると7日間は旧方式で待たずに接続する。",
+                "変更: ローカル（stdio）MCP接続は、Bedrock/Vertex/Foundryを含む全インストールで既定でプロトコル版2026-07-28をネゴシエートする。`MCP_PROTOCOL_NEGOTIATION=legacy` で無効化できる。",
+                "変更: `claude plugin test` は、フック内の失敗した `expect` またはエンジンが拒否するスタブ応答を、黙って成功させずテスト失敗にする。",
+                "変更: 使用量制限メッセージ内のclaude.ai設定リンクを `https://` 付きにし、端末・アプリでクリック可能にする。",
+                "変更: スケジュール実行と「今すぐ実行」は、承認なしに本人だけが見られる新しいartifactを公開する。コネクターなど追加アクセスを求めるartifactは引き続き確認する。",
+                "変更: エージェント名を最大256文字に制限。超過する名前は拒否し、skillまたはpluginファイルの `name` が超過する場合は無視する。",
+                "変更: [Claude Tag] チャンネル設定のAllowed domainsカードに編集ボタンを追加し、Enterprise管理者がドメイン設定を含むaccess bundleを開けるようにした。",
+                "変更: [Code Review] Code Review分析のPRレビュー済みグラフに、当期間の合計・前期間からの増減・リポジトリ別内訳を追加。"
               ]
             },
             {
@@ -198,22 +197,6 @@
           ],
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
           "urlLabel": "GitHub Releasesで読む"
-        },
-        {
-          "version": "v2.1.291",
-          "publishedAt": "2026年10月6日 12:55 JST（2026-10-06T03:55:19Z）",
-          "summary": "クラウドセッションの権限プロンプト応答と、終了時に失われる末尾メッセージの回帰を修正。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "修正: v2.1.290で、クラウドセッションが権限プロンプトへの回答を失うことがある回帰。",
-                "修正: v2.1.288で、終了時にセッションの最後のメッセージが失われることがある回帰。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
-          "urlLabel": "GitHub Releasesで読む"
         }
       ]
     }
@@ -258,10 +241,6 @@
     {
       "title": "Claude Code v2.1.292 release",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292"
-    },
-    {
-      "title": "Claude Code v2.1.291 release",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291"
     }
   ]
 }
