@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-08",
+  "windowLabel": "2026-10-06 19:01:39 UTC - 2026-10-07 19:01:39 UTC",
+  "archiveTitle": "Claude Haiku 5.5 and Code v2.1.293",
+  "archiveSummary": "Claude Haiku 5.5の提供開始と、Claude Code v2.1.293の全56項目を掲載。",
+  "latestSummary": "Claude Haiku 5.5が公開され、Claude Code v2.1.293ではHaiku 5.5対応、サブエージェント・MCP・クラウドセッションの改善と修正が行われました。",
+  "summaryBullets": [
+    "<strong>Claude Haiku 5.5</strong>: 最速・最安の小型モデルとして公開。最大100KトークンまでのリクエストではHaiku 4.5比で90%低価格、全プラットフォームで利用可能。",
+    "<strong>Claude Code v2.1.293</strong>: 2026年10月8日03:10 JST公開。新機能3件、変更15件、修正38件の全56項目を和訳収録。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-07T00:00:00Z",
+      "displayTime": "2026年10月7日（公開時刻非掲載）",
+      "title": "Claude Haiku 5.5を公開",
+      "summary": "高頻度かつコスト重視の作業向けにClaude Haiku 5.5を提供開始。Haiku初の調整可能なeffort設定を備え、Sonnet 5.5のキャッシュ読取り料金も半額にした。",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "urlLabel": "Anthropicで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering・Researchの窓内新規記事は0件",
+      "body": "公式一覧でEngineeringとResearchの対象24時間内の新規記事は確認できなかった。Claude Resources一覧の10月7日表示記事は記事本文で9月28日公開と確認できたため除外した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "Anthropic Newsの10月7日付Claude Haiku 5.5公開を採用。公開時刻が非掲載のため、公式一覧・記事本文の表示日付に基づく。",
+      "details": [
+        "Anthropic News: Claude Haiku 5.5を公開"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic Newsで読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.293（全56項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。対象窓内のv2.1.293全56項目を収録した。",
+      "releases": [
+        {
+          "version": "v2.1.293",
+          "publishedAt": "2026年10月8日 03:10 JST（2026-10-07T18:10:20Z）",
+          "summary": "Claude Haiku 5.5を既定Haikuモデルにし、サブエージェントとmodsを拡張。MCP、クラウド／Remote Control、プラグイン、Slack連携を幅広く修正・改善した。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "追加: Claude Haiku 5.5（`claude-haiku-5-5`）を追加し、Anthropic APIの既定Haikuモデルにした。コンテキストは100万、料金は100万トークンあたり入力$0.10／出力$0.50（100K超のプロンプトは$0.50／$2.50）。",
+                "追加: `subagentStatusLine` payloadに`agentType`を追加し、スクリプトがカスタムサブエージェント種別を区別できるようにした。",
+                "追加: mods向け`$.tool.register`に`isDeferred`を追加。`false`ならツール検索の背後ではなく、開始時からツールスキーマをプロンプトに列挙する。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "変更: 2.1.281で導入した、auto modeの拒否が正確なコマンドだけでなく結果にも及ぶとClaudeへ伝えるメッセージ変更を取り消した。",
+                "変更: 2.1.290の、コンテナ再起動後に保留中の`/loop`起床やスケジュールタスクを失ったクラウドセッションを起床させる修正を取り消した。Claudeには通知せず、セッションはスリープ状態のままとする。",
+                "改善: Team／Enterprise組織の起動時にポリシーと管理設定を早く取得し、停止した要求は3秒後に再試行する。",
+                "改善: Claude in Chromeで、ブラウザーがタブ報告を遅延した場合に拒否されるページ操作を減らした。",
+                "改善: クラウドセッションでChromeに届かない場合、複数組織に所属する利用者へ拡張機能が同一組織にサインインする必要と切替方法を案内する。",
+                "改善: Bash編集後のdiff注記を、コマンド実行中に変更された一覧のファイルであり他プロセスの書込みも含み得ると明記した。",
+                "改善: artifactのライブラリを、公開から2週間以上経った厳密なバージョンに固定する。",
+                "変更: claude.ai skill同期は、セッション未使用時の変更確認を10分ごとから約40分ごとにした。",
+                "変更: モデルへ通知するagent一覧とMCPサーバーの順序を変更し、非ASCII文字で始まる名前をASCII名の後に並べる。",
+                "変更: OpenTelemetryの`claude_code.at_mention`ログは、プロンプト読取りごとにagentとMCP resourceイベントを各100件まで出力する。",
+                "変更: セルフホストランナーのorchestratorは固定5秒ではなく4〜6秒でポーリングし、同環境の複数replicaが同時にポーリングするのを防ぐ。",
+                "変更: [Claude Tag] 管理者のみ投稿できるアナウンスチャンネルには、Claude in Slackが紹介メッセージを出さず参加する。",
+                "変更: [Claude Tag] 管理設定でのチャンネルルール上限を、ワークスペースごと・組織全体Slackページとも20件から50件に増やした。",
+                "改善: [Claude Tag] 管理設定のEnterprise Grid一覧に、未接続のGridもConnectボタン付きで表示する。",
+                "改善: [Code Review] リポジトリ追加ダイアログで、追加できない各リポジトリと理由（GitHub書込み権限不足など）を表示する。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "修正: コンテキスト圧縮前の自身の最後の操作を、圧縮後に完了済みと誤認して撤回またはやり直すことがある問題。",
+                "修正: HTTP MCP接続が閉じるまで、送信済みのすべてのリクエストを保持し続けるメモリリーク。",
+                "修正: Claude処理中の送信メッセージが、`←`でセッションをバックグラウンドへ移した際に失われる問題。キュー済みメッセージを移せない時は`←`が移動せず理由を表示する。",
+                "修正: `/model`のeffortを`←`／`→`で操作すると最高・最低レベルを超えて折返し、Lowを既定effortとして誤保存できる問題。",
+                "修正: `--chrome`開始セッションで`/tui`がClaude in Chromeを切断し、`--no-chrome`を無視する問題。",
+                "修正: ホスト・権限規則・`--tools`により`SendMessage`が除外されたセッション（再開済みを含む）でも、Claudeが継続またはサブエージェントへのメッセージ送信を指示される問題。",
+                "修正: サブエージェントと`--agent`セッションで、自身のツール一覧から外れただけの組込みツールをセッション全体で無効と通知する問題。",
+                "修正: claude.ai同期skillの説明を編集しても、新規会話または`/clear`までモデルに届かないことがある問題。",
+                "修正: ログイン期限切れ時に`claude logs`、`stop`、`kill`、`rm`や`claude daemon`のstatus／stop／uninstallがサインアウトさせることがある問題。",
+                "修正: sessionsフォルダーの一時的な読取り失敗（open files過多など）の後、フッターのagent数が消える問題。",
+                "修正: `worker`というカスタムagentが開始時に「Agent」と表示され、完了後の詳細ダイアログのタイトルからagent種別が消える問題。",
+                "修正: artifact公開のストリーム中、Artifactツールのtranscript行が一時的に`Artifact(\"(unprintable path)\")`と表示される問題。",
+                "修正: Linuxでサンドボックス化コマンド実行中に、ネストしたcheckoutなどの`/ultrareview`アップロードが「解析できない」設定ファイルを理由に誤拒否される問題。",
+                "修正: `/ultrareview`アップロードがsplit-indexファイルを理由に拒否した際、gitがindexを読めなくなるおそれのあるgitコマンドを案内する問題。",
+                "修正: 非常に長いRemote Control／クラウドセッションの返信が、依然としてブロック単位で表示されストリーミングされないことがある問題。",
+                "修正: Remote Controlが資格情報回復のたびに、セッション開始時の履歴を再アップロードする問題。",
+                "修正: `claude remote-control`開始セッションでPushNotificationが「Remote Control inactive」と報告する問題。",
+                "修正: プラグインhook worker再起動中に、modsの`classic.*`イベントhookが飛ばされ設定hookがそれらなしで応答する問題。",
+                "修正: `$.session.append`を呼ぶmodsで`claude plugin test`が失敗する問題。新しい`mock.session`で追加行をテストから読める。",
+                "修正: Docker Desktopを導入したMacで`claude plugin eval`がBash許可の全実行を拒否する問題。拒否時は資格情報ストアのどの部分がリンクを保持するかも示す。",
+                "修正: `desktop`ポリシーが`builtinBrowserEnabled`などClaude Desktop内蔵ブラウザーキーを設定すると、Claude apps gatewayが起動を拒否する問題。",
+                "修正: `.claude/settings.local.json`または`--settings`ファイルだけに同意を保存した場合、`claude agents`がバックグラウンドセッションで無視されるbypass権限を提示する問題。先に同意を求め、無視される時は短い通知を残す。",
+                "修正: プロンプトに未送信テキストがある時や質問への回答待ちに、`←`が10秒後にセッションをバックグラウンドへ送る問題。移動を中止する。",
+                "修正: `←`でバックグラウンド移動した直後にpermission promptでEscまたはフィードバックなしのNoを選んでもターンが停止しない問題。",
+                "修正: sessionsフォルダーを読めない時にagents viewがセッション一覧を一時的にplaceholder行へ置換する問題。",
+                "修正: Bashツールの単一ファイル`cat`、`head`、`tail`、`sed -n`、`grep`で閲覧すると、path scope規則とネストしたCLAUDE.mdが読み込まれない問題。",
+                "修正: 同じ単語で始まり終わる貼付けテキストが、入力ではなくタイプされた文字としてClaudeへ送信されることがある問題。",
+                "修正: 貼付け直後に入力・貼付けしたアクセントが末尾文字と結合すると、貼付け中のskill名をタイプ入力として扱う問題。",
+                "修正: レポート送信中にCtrl+OまたはCtrl+Zを押すと`/feedback`がdraft一覧へ戻り、送信をキャンセルできなくなる問題。",
+                "修正: `claude purge`が削除不能なファイル／フォルダーで黙って停止する問題。残りを削除し、削除できなかった対象を列挙してexit 1にする。",
+                "修正: keybindings.json検査で単独のスペースキーをエラー扱いする問題と、`ctrl+ k`のようなキーへwarningを出さない問題。",
+                "修正: vim modeで空白だけの行に`>>`／`<<`を行うとカーソルが行末の外に残り、続く`x`が何も削除しない問題。",
+                "修正: vim modeのVisual mode（`V`→`d`）で行全体を削除後、カーソルを最初の非空白文字へ置き、続く`.`をカーソル行に適用する。",
+                "修正: Windowsでstatus line、hook、shell commandを停止した際、同じPIDを与えられた無関係なプロセスを終了することがある問題。",
+                "修正: [Claude Tag] Enterprise Gridの共有ワークスペースchannelで、Slackが未接続workspaceのラベルを付けるとClaude in Slackがworkspace未設定と表示する問題。",
+                "修正: [Claude Tag] 管理者がchannelのconnector、plugin、skill、ruleを変更した時、Claude in Slackがchannel内の作業途中で停止する問題。変更はタスク完了後に適用する。",
+                "修正: [Claude Tag] Slackスレッドのroutineを追加メモ付きで即時実行するよう依頼すると、返信できない別実行が開始される問題。該当スレッド内で続行する。",
+                "修正: [Claude Tag] access bundleのAdd a connectorダイアログが、1つのGoogleサインイン後に全Google connectorを接続済みと表示する問題。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+          "urlLabel": "GitHub Releasesで読む"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "Claude Resources一覧で10月7日表示の「Automating eval design and hillclimbing with Claude」は記事本文の公開日が9月28日のため除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+  ],
+  "sources": [
+    { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
+    { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
+    { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
+    { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
+    { "title": "Claude Haiku 5.5", "url": "https://www.anthropic.com/claude-haiku-5-5" },
+    { "title": "Claude Code v2.1.293 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293" }
+  ]
+}
