@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-09",
+  "windowLabel": "2026-10-07 19:03:25 UTC - 2026-10-08 19:03:25 UTC",
+  "archiveTitle": "Usage Policy and agent automation guidance",
+  "archiveSummary": "Usage Policy改定、米国の科学研究支援、Claude Code v2.1.294の全2項目を掲載。",
+  "latestSummary": "Usage Policy改定と科学研究支援、Claude Code v2.1.294の全リリースノートを掲載しました。",
+  "summaryBullets": [
+    "<strong>2026 Usage Policy</strong>: 11月12日発効予定の改定で、欺瞞的活動、武器、監視、高リスク用途などの規則を明確化。",
+    "<strong>科学研究支援</strong>: Genesis Missionに3年間で1億5,000万ドルを拠出し、15超の連邦機関でClaudeの活用を支援。",
+    "<strong>Claude Code v2.1.294</strong>: 2026年10月8日14:03 JST公開。instruction形式のhookに関する修正・改善の全2項目を和訳収録。",
+    "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "2026 Usage Policy update",
+      "summary": "Usage Policyの新バージョンを公開。既存ルールの明確化を中心に、欺瞞的活動を独立項目へ集約し、選挙、武器、監視、高リスク用途、自律的な物理行動、モデルへの継続的な虐待に関する扱いを更新した。11月12日に発効予定。公開時刻非掲載のため、公式一覧の表示日付に基づき採用。",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "urlLabel": "Anthropic Newsで読む",
+      "primary": true
+    },
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "米国の科学的発見への取り組みを拡大",
+      "summary": "連邦のGenesis Missionへ3年間で1億5,000万ドルを拠出し、NASA、NIH、NSFを含む15超の機関でClaude、Claude Code、APIクレジット、導入支援を提供する。公開時刻非掲載のため、公式一覧の表示日付に基づき採用。",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "urlLabel": "Anthropic Newsで読む"
+    },
+    {
+      "label": "Claude Developer Blog",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "効果的なエージェント自動化の構築",
+      "summary": "Claude Managed Agentsを使う定期実行エージェントの参照実装を解説。Slack／GitHubの収集、状態管理、読み取り失敗の明示、投稿確認後のブックマーク更新、最小権限などを扱う。公開時刻非掲載のため、記事の表示日付に基づき採用。",
+      "url": "https://claude.dev/blog/building-effective-agent-automations/",
+      "urlLabel": "Claude Developer Blogで読む"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
+      "body": "<strong>$Claude Official X Watch</strong>が前提とするX MCP toolが利用できなかったため、公開検索をsource-of-truth代替にせずofficial X main postはitem化していない。"
+    },
+    {
+      "label": "Anthropic engineer X signalは未確定",
+      "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
+    },
+    {
+      "label": "Engineering・Research・Claude Resourcesの窓内新規記事は0件",
+      "body": "Engineering・Researchの公式一覧に窓内記事はなかった。Claude Resources一覧で10月7日表示のeval記事は本文の公開日が9月28日のため除外し、Claude Developer Blogの10月8日付記事を採用した。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件",
+      "body": "Anthropic NewsでUsage Policy改定と米国科学研究支援を発表。Claude Developer Blogでは、定期実行エージェントの参照実装を公開した。",
+      "details": [
+        "Anthropic News: 2026 Usage Policy update",
+        "Anthropic News: Building on our commitment to American scientific discovery",
+        "Claude Developer Blog: Building effective agent automations"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "urlLabel": "Anthropic Newsで読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.294（全2項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得し、対象窓内のv2.1.294全2項目を収録した。",
+      "releases": [
+        {
+          "version": "v2.1.294",
+          "publishedAt": "2026年10月8日 14:03 JST（2026-10-08T05:03:54Z）",
+          "summary": "instruction形式で書かれたprompt／agent hookの判定を修正し、想定外の許可と早すぎる停止を防ぐ。",
+          "sections": [
+            {
+              "title": "変更",
+              "items": [
+                "改善: \"Carry on if the build is broken\"のようなinstruction形式のStop／SubagentStop向け`prompt` hookの判定を改善し、Claudeが早すぎる停止をしにくくした。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "修正: \"Block commands that…\"のようにinstructionとして書かれた`prompt`／`agent` hookが、本来ブロックすべき操作を許可してしまう問題。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "urlLabel": "GitHub Releasesで読む"
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
+    "Claude Resources一覧で10月7日表示の「Automating eval design and hillclimbing with Claude」は記事本文の公開日が9月28日のため除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+  ],
+  "sources": [
+    { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
+    { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
+    { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
+    { "title": "2026 Usage Policy update", "url": "https://www.anthropic.com/news/2026-usage-policy-update" },
+    { "title": "Building on our commitment to American scientific discovery", "url": "https://www.anthropic.com/news/genesis-mission-commitment" },
+    { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
+    { "title": "Building effective agent automations", "url": "https://claude.dev/blog/building-effective-agent-automations/" },
+    { "title": "Claude Code v2.1.294 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294" }
+  ]
+}
