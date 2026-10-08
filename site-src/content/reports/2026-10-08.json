@@ -1,26 +1,15 @@
 {
   "date": "2026-10-08",
-  "windowLabel": "2026-10-07 01:01:40 UTC - 2026-10-08 01:01:40 UTC",
-  "archiveTitle": "Claude Haiku 5.5 and Code v2.1.293",
-  "archiveSummary": "Claude Haiku 5.5の提供開始と、Claude Code v2.1.293の全56項目を掲載。",
-  "latestSummary": "Claude Haiku 5.5が公開され、Claude Code v2.1.293ではHaiku 5.5対応、サブエージェント・MCP・クラウドセッションの改善と修正が行われました。",
+  "windowLabel": "2026-10-07 07:02:20 UTC - 2026-10-08 07:02:20 UTC",
+  "archiveTitle": "Claude Code v2.1.294 and v2.1.293",
+  "archiveSummary": "Claude Code v2.1.294とv2.1.293の全58項目を掲載。",
+  "latestSummary": "Claude Code v2.1.294でinstruction形式のprompt／agent hook評価を修正し、v2.1.293のHaiku 5.5対応と広範な改善・修正をあわせて掲載しました。",
   "summaryBullets": [
-    "<strong>Claude Haiku 5.5</strong>: 最速・最安の小型モデルとして公開。最大100KトークンまでのリクエストではHaiku 4.5比で90%低価格、全プラットフォームで利用可能。",
+    "<strong>Claude Code v2.1.294</strong>: 2026年10月8日14:03 JST公開。instruction形式のprompt／agent hookに関する修正2件を全件和訳収録。",
     "<strong>Claude Code v2.1.293</strong>: 2026年10月8日03:10 JST公開。新機能3件、変更15件、修正38件の全56項目を和訳収録。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-10-07T00:00:00Z",
-      "displayTime": "2026年10月7日（公開時刻非掲載）",
-      "title": "Claude Haiku 5.5を公開",
-      "summary": "高頻度かつコスト重視の作業向けにClaude Haiku 5.5を提供開始。Haiku初の調整可能なeffort設定を備え、Sonnet 5.5のキャッシュ読取り料金も半額にした。",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "urlLabel": "Anthropicで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs の窓内postを確定できず",
@@ -31,27 +20,43 @@
       "body": "<strong>$Anthropic Engineer X Watch</strong>もX MCP非利用のため、監視対象account群のrelevant postを一次情報として確定できず、<strong>signals</strong>は空配列とした。"
     },
     {
-      "label": "Engineering・Researchの窓内新規記事は0件",
-      "body": "公式一覧でEngineeringとResearchの対象24時間内の新規記事は確認できなかった。Claude Resources一覧の10月7日表示記事は記事本文で9月28日公開と確認できたため除外した。"
+      "label": "公式ブログの窓内新規記事は0件",
+      "body": "Engineering・Research・News・Claude Resourcesの公式一覧を確認した。Claude Resources一覧の10月7日表示記事は記事本文で9月28日公開と確認できたため除外し、その他も対象24時間外だった。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic Newsの10月7日付Claude Haiku 5.5公開を採用。公開時刻が非掲載のため、公式一覧・記事本文の表示日付に基づく。",
-      "details": [
-        "Anthropic News: Claude Haiku 5.5を公開"
-      ],
-      "url": "https://www.anthropic.com/news",
-      "urlLabel": "Anthropic Newsで読む"
+      "headline": "0件",
+      "body": "Engineering・Research・News・Claude Resourcesの公式一覧を再確認。窓内の新規記事は確認できなかった。"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.293（全56項目）",
-      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。対象窓内のv2.1.293全56項目を収録した。",
+      "headline": "v2.1.294・v2.1.293（全58項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。対象窓内のv2.1.294全2項目とv2.1.293全56項目を収録した。",
       "releases": [
+        {
+          "version": "v2.1.294",
+          "publishedAt": "2026年10月8日 14:03 JST（2026-10-08T05:03:54Z）",
+          "summary": "instruction形式で書かれたprompt／agent hookの判定を修正し、想定外の許可と早すぎる停止を防ぐ。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "修正: \"Block commands that…\"のようにinstructionとして書かれた`prompt`／`agent` hookが、本来ブロックすべき操作を許可してしまう問題。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "改善: \"Carry on if the build is broken\"のようなinstruction形式のStop／SubagentStop向け`prompt` hookの判定を改善し、Claudeが早すぎる停止をしにくくした。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "urlLabel": "GitHub Releasesで読む"
+        },
         {
           "version": "v2.1.293",
           "publishedAt": "2026年10月8日 03:10 JST（2026-10-07T18:10:20Z）",
@@ -137,14 +142,14 @@
   ],
   "exclusions": [
     "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "Claude Resources一覧で10月7日表示の「Automating eval design and hillclimbing with Claude」は記事本文の公開日が9月28日のため除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+    "Anthropic NewsのClaude Haiku 5.5は2026-10-07T00:00:00Z表示で今回の窓開始前。Claude Resources一覧で10月7日表示の「Automating eval design and hillclimbing with Claude」は記事本文の公開日が9月28日のため除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
   ],
   "sources": [
     { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
     { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
     { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
     { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
-    { "title": "Claude Haiku 5.5", "url": "https://www.anthropic.com/claude-haiku-5-5" },
+    { "title": "Claude Code v2.1.294 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294" },
     { "title": "Claude Code v2.1.293 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293" }
   ]
 }
