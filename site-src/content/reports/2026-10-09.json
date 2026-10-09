@@ -1,12 +1,12 @@
 {
   "date": "2026-10-09",
-  "windowLabel": "2026-10-08 01:02:38 UTC - 2026-10-09 01:02:38 UTC",
+  "windowLabel": "2026-10-08 13:02:10 UTC - 2026-10-09 13:02:10 UTC",
   "archiveTitle": "Claude Code 2.1.295 and October 8 news",
-  "archiveSummary": "Claude Code v2.1.295の全143項目と、10月8日の公式発表を掲載。",
-  "latestSummary": "Claude Code v2.1.295の全リリースノートと、10月8日の公式発表を掲載しました。",
+  "archiveSummary": "Claude Code v2.1.295の全143項目と、10月8日の公式発表7件を掲載。",
+  "latestSummary": "Claude Code v2.1.295の全リリースノートと、10月8日の公式発表7件を掲載しました。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.295</strong>: 2026年10月9日04:48 JST公開。hook・gateway・plugin・MCPを含む全143項目。",
-    "<strong>10月8日の公式発表</strong>: Usage Policy、Genesis Mission、Cyber Mission、OSS Scanner、Claude製品・研究の更新を確認。",
+    "<strong>10月8日の公式発表</strong>: Usage Policy、Genesis/Cyber Mission、OSS Scanner、Claude製品・研究の更新7件を確認。",
     "<strong>Claude製品</strong>: DashboardsとMotionをベータ公開し、Docs・Slides・Designを全プランで正式提供。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
@@ -31,13 +31,49 @@
       "urlLabel": "Anthropic Newsで読む"
     },
     {
-      "label": "Claude Developer Blog",
+      "label": "Anthropic News",
       "datetime": "2026-10-08T00:00:00Z",
       "displayTime": "2026年10月8日（公開時刻非掲載）",
-      "title": "効果的なエージェント自動化の構築",
-      "summary": "Claude Managed Agentsを使う定期実行エージェントの参照実装を解説。Slack／GitHubの収集、状態管理、読み取り失敗の明示、投稿確認後のブックマーク更新、最小権限などを扱う。公開時刻非掲載のため、記事の表示日付に基づき採用。",
-      "url": "https://claude.dev/blog/building-effective-agent-automations/",
-      "urlLabel": "Claude Developer Blogで読む"
+      "title": "Introducing the Anthropic Cyber Mission",
+      "summary": "政府・重要インフラ・学術機関向けに、サイバー防衛と安全なAI利用を支援するAnthropic Cyber Missionを発表した。",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "urlLabel": "Anthropic Newsで読む"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "The missing map of the sky",
+      "summary": "Claude Scienceとエージェント群で既存の紫外線観測を統合し、未観測領域を推定して全天UVマップを作成した事例。",
+      "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "urlLabel": "Anthropic Researchで読む"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "summary": "OSS Scannerを開始。参加OSSプロジェクトに最強モデルによる定期脆弱性スキャンを無償提供し、出力は人手レビュー前のものを含む。",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "urlLabel": "Anthropic Researchで読む"
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "Build live dashboards and animate explainers with Claude",
+      "summary": "Claude DashboardsとClaude Motionをベータ公開し、Docs・Slides・Designを全プランで正式提供した。",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion",
+      "urlLabel": "Claude Resourcesで読む"
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-10-08T00:00:00Z",
+      "displayTime": "2026年10月8日（公開時刻非掲載）",
+      "title": "How Block orchestrates Claude Fable across thousands of pull requests",
+      "summary": "BlockがClaude Fable 5を数千件のPRと大規模コード移行に活用する際の評価・安全策を紹介。",
+      "url": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "urlLabel": "Claude Resourcesで読む"
     }
   ],
   "officialZeroStates": [
@@ -58,12 +94,16 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "7件以上",
-      "body": "Anthropic Research・News・Claude Resourcesで、科学、セキュリティ、製品に関する10月8日付の公式発表を確認した。",
+      "headline": "7件",
+      "body": "Anthropic Research・News・Claude Resourcesで、科学、セキュリティ、製品に関する10月8日付の公式発表7件を確認した。",
       "details": [
         "Anthropic News: 2026 Usage Policy update",
         "Anthropic News: Building on our commitment to American scientific discovery",
-        "Claude Developer Blog: Building effective agent automations"
+        "Anthropic News: Introducing the Anthropic Cyber Mission",
+        "Anthropic Research: The missing map of the sky",
+        "Anthropic Research: Launching an opt-in vulnerability-finding service for open-source software",
+        "Claude Resources: Build live dashboards and animate explainers with Claude",
+        "Claude Resources: How Block orchestrates Claude Fable across thousands of pull requests"
       ],
       "url": "https://www.anthropic.com/news",
       "urlLabel": "Anthropic Newsで読む"
