@@ -1,13 +1,13 @@
 {
   "date": "2026-10-09",
-  "windowLabel": "2026-10-07 19:03:25 UTC - 2026-10-08 19:03:25 UTC",
-  "archiveTitle": "Usage Policy and agent automation guidance",
-  "archiveSummary": "Usage Policy改定、米国の科学研究支援、Claude Code v2.1.294の全2項目を掲載。",
-  "latestSummary": "Usage Policy改定と科学研究支援、Claude Code v2.1.294の全リリースノートを掲載しました。",
+  "windowLabel": "2026-10-08 01:02:38 UTC - 2026-10-09 01:02:38 UTC",
+  "archiveTitle": "Claude Code 2.1.295 and October 8 news",
+  "archiveSummary": "Claude Code v2.1.295の全143項目と、10月8日の公式発表を掲載。",
+  "latestSummary": "Claude Code v2.1.295の全リリースノートと、10月8日の公式発表を掲載しました。",
   "summaryBullets": [
-    "<strong>2026 Usage Policy</strong>: 11月12日発効予定の改定で、欺瞞的活動、武器、監視、高リスク用途などの規則を明確化。",
-    "<strong>科学研究支援</strong>: Genesis Missionに3年間で1億5,000万ドルを拠出し、15超の連邦機関でClaudeの活用を支援。",
-    "<strong>Claude Code v2.1.294</strong>: 2026年10月8日14:03 JST公開。instruction形式のhookに関する修正・改善の全2項目を和訳収録。",
+    "<strong>Claude Code v2.1.295</strong>: 2026年10月9日04:48 JST公開。hook・gateway・plugin・MCPを含む全143項目。",
+    "<strong>10月8日の公式発表</strong>: Usage Policy、Genesis Mission、Cyber Mission、OSS Scanner、Claude製品・研究の更新を確認。",
+    "<strong>Claude製品</strong>: DashboardsとMotionをベータ公開し、Docs・Slides・Designを全プランで正式提供。",
     "<strong>公式X・エンジニアX</strong>: X MCPがこの実行環境で利用できないため、投稿は未確認として扱った。"
   ],
   "officialNews": [
@@ -58,8 +58,8 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件",
-      "body": "Anthropic NewsでUsage Policy改定と米国科学研究支援を発表。Claude Developer Blogでは、定期実行エージェントの参照実装を公開した。",
+      "headline": "7件以上",
+      "body": "Anthropic Research・News・Claude Resourcesで、科学、セキュリティ、製品に関する10月8日付の公式発表を確認した。",
       "details": [
         "Anthropic News: 2026 Usage Policy update",
         "Anthropic News: Building on our commitment to American scientific discovery",
@@ -70,28 +70,28 @@
     },
     {
       "title": "Claude Code リリース",
-      "headline": "v2.1.294（全2項目）",
-      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得し、対象窓内のv2.1.294全2項目を収録した。",
+      "headline": "v2.1.295（全143項目）",
+      "body": "GitHub CLIで公式release metadataと完全なrelease bodyを取得。新機能17・変更29・修正97の全143項目を確認した。",
       "releases": [
         {
-          "version": "v2.1.294",
-          "publishedAt": "2026年10月8日 14:03 JST（2026-10-08T05:03:54Z）",
-          "summary": "instruction形式で書かれたprompt／agent hookの判定を修正し、想定外の許可と早すぎる停止を防ぐ。",
+          "version": "v2.1.295",
+          "publishedAt": "2026年10月9日 04:48 JST（2026-10-08T19:48:38Z）",
+          "summary": "hook失敗時のブロック、端末状態表示、gateway・plugin・MCPの拡張と、多数の安定性・安全性修正。",
           "sections": [
             {
               "title": "変更",
               "items": [
-                "改善: \"Carry on if the build is broken\"のようなinstruction形式のStop／SubagentStop向け`prompt` hookの判定を改善し、Claudeが早すぎる停止をしにくくした。"
+                "新機能: command／HTTP hookの`onFailure: \"block\"`、Program Status Protocol、`/copy`の引用文、gateway・mods・pluginの拡張。"
               ]
             },
             {
               "title": "修正",
               "items": [
-                "修正: \"Block commands that…\"のようにinstructionとして書かれた`prompt`／`agent` hookが、本来ブロックすべき操作を許可してしまう問題。"
+                "修正: `[1m]`モデルのcontext beta拒否、remote MCP再接続、plugin・mod・Bash・VS Code・Cloud sessions・Claude Tag・Code Reviewなどの不具合。"
               ]
             }
           ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
           "urlLabel": "GitHub Releasesで読む"
         }
       ]
@@ -99,7 +99,7 @@
   ],
   "exclusions": [
     "X MCPが利用不可のため、公式XおよびAnthropic engineer Xの投稿は未確認として除外。",
-    "Claude Resources一覧で10月7日表示の「Automating eval design and hillclimbing with Claude」は記事本文の公開日が9月28日のため除外。Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。"
+    "Claude CodeはGitHub CLIで取得した公式メタデータと完全なrelease bodyを使用。窓外のv2.1.294以前は除外。"
   ],
   "sources": [
     { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
@@ -109,6 +109,6 @@
     { "title": "Building on our commitment to American scientific discovery", "url": "https://www.anthropic.com/news/genesis-mission-commitment" },
     { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
     { "title": "Building effective agent automations", "url": "https://claude.dev/blog/building-effective-agent-automations/" },
-    { "title": "Claude Code v2.1.294 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294" }
+    { "title": "Claude Code v2.1.295 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295" }
   ]
 }
