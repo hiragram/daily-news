@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "windowLabel": "2026-10-09 19:01:57 UTC - 2026-10-10 19:01:57 UTC（JST: 2026年10月10日04:01 - 10月11日04:01）",
+  "windowLabel": "2026-10-10 01:01:21 UTC - 2026-10-11 01:01:21 UTC（JST: 2026年10月10日10:01 - 10月11日10:01）",
   "archiveTitle": "No new official Claude updates",
   "archiveSummary": "公式サイトとClaude Codeリリースを確認し、直近24時間の新規公開は0件でした。",
   "latestSummary": "公式サイト4系統とClaude Codeリリースに、直近24時間の新規公開はありませんでした。",
@@ -13,11 +13,11 @@
   "officialZeroStates": [
     {
       "label": "Engineering・Research・News・Claude Resourcesの窓内新規記事は0件",
-      "body": "各公式一覧を確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。"
+      "body": "Engineering、Research、News、Claude Resourcesの公式一覧を再確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。"
     },
     {
       "label": "Claude Codeの窓内新規リリースは0件",
-      "body": "GitHub CLIで公式リリース一覧を確認。最新のv2.1.296は2026年10月9日19:28:59 UTC公開で、今回の窓の開始前。"
+      "body": "GitHub CLIで公式リリース一覧と完全なリリースノートを確認。最新のv2.1.296は2026年10月9日19:28:59 UTC公開で、今回の窓の開始前。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は未確認",
@@ -33,12 +33,12 @@
     {
       "title": "ブログ",
       "headline": "0件",
-      "body": "Engineering、Research、News、Claude Resourcesを確認したが、直近24時間の新規記事は確認されなかった。"
+      "body": "Engineering、Research、News、Claude Resourcesを確認したが、今回の24時間窓内の新規記事は確認されなかった。"
     },
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧を確認したが、直近24時間の新規リリースはなかった。最新のv2.1.296は窓の開始前に公開されている。",
+      "body": "GitHub CLIで公式リリース一覧と完全なリリースノートを確認したが、今回の24時間窓内の新規リリースはなかった。最新のv2.1.296は窓の開始前に公開されている。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "GitHub Releasesを開く"
     }
