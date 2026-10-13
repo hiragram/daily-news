@@ -1,11 +1,11 @@
 {
   "date": "2026-10-13",
-  "windowLabel": "2026-10-12 06:58:32 UTC - 2026-10-13 06:58:32 UTC（JST: 2026年10月12日15:58 - 10月13日15:58）",
-  "archiveTitle": "Anthropic Research の新規公開 2件",
-  "archiveSummary": "AIの自己複製可能性と蒸留攻撃への防御に関するAnthropic Researchの記事を2件公開しました。",
-  "latestSummary": "Anthropic Researchが2件を公開。Claude Codeの直近24時間リリースはありませんでした。",
+  "windowLabel": "2026-10-12 12:59:20 UTC - 2026-10-13 12:59:20 UTC（JST: 2026年10月12日21:59 - 10月13日21:59）",
+  "archiveTitle": "AIモデルの自己複製リスクに関する新研究",
+  "archiveSummary": "Anthropic Researchが、データセンターに依存しないAIモデルの自己複製可能性を検討した記事を公開しました。",
+  "latestSummary": "Anthropic ResearchがAIモデルの自己複製可能性に関する記事を公開。Claude Codeの直近24時間リリースはありませんでした。",
   "summaryBullets": [
-    "<strong>Anthropic Research</strong>: 小型AIモデルの自己複製可能性と、蒸留攻撃への防御強化に関する記事を2件公開。",
+    "<strong>Anthropic Research</strong>: 小型AIモデルがデータセンターに依存せず自己複製できる可能性を検討した記事を公開。",
     "<strong>公式ブログ</strong>: Engineering、News、Claude Resourcesの窓内新規記事は0件。",
     "<strong>Claude Code</strong>: 直近24時間の新規リリースは0件。最新のv2.1.296は窓の開始前に公開。",
     "<strong>公式X・エンジニアX</strong>: X MCPが利用できないため、一次情報として未確認。"
@@ -20,21 +20,12 @@
       "url": "https://www.anthropic.com/research/self-replicating-ai",
       "urlLabel": "Anthropic Researchで読む",
       "primary": true
-    },
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-10-12T09:30:00Z",
-      "displayTime": "2026年10月12日 18:30 JST",
-      "title": "蒸留攻撃への防御を強化",
-      "summary": "不正な蒸留が、相応の安全策を持たないままフロンティアAIの能力を複製し得る問題を説明し、蒸留の発生率を90%以上低減した対策を紹介した。",
-      "url": "https://www.anthropic.com/research/distillation-defenses",
-      "urlLabel": "Anthropic Researchで読む"
     }
   ],
   "officialZeroStates": [
     {
       "label": "Engineering・News・Claude Resourcesの窓内新規記事は0件",
-      "body": "Engineering、News、Claude Resourcesの公式一覧を再確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。"
+      "body": "Engineering、News、Claude Resourcesの公式一覧を再確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。Researchの蒸留攻撃防御の記事は2026年10月12日09:30 UTC公開のため窓外。"
     },
     {
       "label": "Claude Codeの窓内新規リリースは0件",
@@ -53,8 +44,8 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "2件",
-      "body": "Anthropic Researchで、AIモデルの自己複製可能性と蒸留攻撃への防御を扱う記事が公開された。Engineering、News、Claude Resourcesには窓内の新規記事はなかった。"
+      "headline": "1件",
+      "body": "Anthropic Researchで、AIモデルがデータセンターに依存せず自己複製できる可能性を扱う記事が公開された。Engineering、News、Claude Resourcesには窓内の新規記事はなかった。"
     },
     {
       "title": "Claude Code リリース",
@@ -66,7 +57,7 @@
   ],
   "exclusions": [
     "X MCPがこの実行環境に未提供で、公式Xとengineer Xの投稿は一次情報として検証できないため除外。",
-    "調査窓より前の公式ブログ記事とClaude Codeリリースは除外。"
+    "調査窓より前の公式ブログ記事とClaude Codeリリースは除外。Researchの蒸留攻撃防御記事は2026年10月12日09:30 UTC公開で窓外。"
   ],
   "sources": [
     {
