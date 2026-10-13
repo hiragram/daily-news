@@ -1,23 +1,44 @@
 {
   "date": "2026-10-13",
-  "windowLabel": "2026-10-11 19:01:08 UTC - 2026-10-12 19:01:08 UTC（JST: 2026年10月12日04:01 - 10月13日04:01）",
-  "archiveTitle": "No new official Claude updates",
-  "archiveSummary": "公式サイトとClaude Codeリリースを確認し、直近24時間の新規公開は0件でした。",
-  "latestSummary": "公式サイト4系統とClaude Codeリリースに、直近24時間の新規公開はありませんでした。",
+  "windowLabel": "2026-10-12 01:04:10 UTC - 2026-10-13 01:04:10 UTC（JST: 2026年10月12日10:04 - 10月13日10:04）",
+  "archiveTitle": "Anthropic Research の新規公開 2件",
+  "archiveSummary": "AIの自己複製可能性と蒸留攻撃への防御に関するAnthropic Researchの記事を2件公開しました。",
+  "latestSummary": "Anthropic Researchが2件を公開。Claude Codeの直近24時間リリースはありませんでした。",
   "summaryBullets": [
-    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Resourcesの窓内新規記事は0件。",
+    "<strong>Anthropic Research</strong>: 小型AIモデルの自己複製可能性と、蒸留攻撃への防御強化に関する記事を2件公開。",
+    "<strong>公式ブログ</strong>: Engineering、News、Claude Resourcesの窓内新規記事は0件。",
     "<strong>Claude Code</strong>: 直近24時間の新規リリースは0件。最新のv2.1.296は窓の開始前に公開。",
     "<strong>公式X・エンジニアX</strong>: X MCPが利用できないため、一次情報として未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-12T19:30:00Z",
+      "displayTime": "2026年10月13日 04:30 JST",
+      "title": "データセンターなしでもAIモデルは自己複製できる可能性",
+      "summary": "実験から、小型AIモデルがAndroid TVやスマートオーブンのような商用IoT機器上で自己複製できる能力に、数か月以内で到達する可能性を示した。",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "urlLabel": "Anthropic Researchで読む",
+      "primary": true
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-12T09:30:00Z",
+      "displayTime": "2026年10月12日 18:30 JST",
+      "title": "蒸留攻撃への防御を強化",
+      "summary": "不正な蒸留が、相応の安全策を持たないままフロンティアAIの能力を複製し得る問題を説明し、蒸留の発生率を90%以上低減した対策を紹介した。",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "urlLabel": "Anthropic Researchで読む"
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "Engineering・Research・News・Claude Resourcesの窓内新規記事は0件",
-      "body": "Engineering、Research、News、Claude Resourcesの公式一覧を再確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。"
+      "label": "Engineering・News・Claude Resourcesの窓内新規記事は0件",
+      "body": "Engineering、News、Claude Resourcesの公式一覧を再確認。いずれも今回の24時間窓内に公開された記事は確認されなかった。"
     },
     {
       "label": "Claude Codeの窓内新規リリースは0件",
-      "body": "GitHub CLIで公式リリース一覧と最新リリースの完全本文を確認。最新のv2.1.296は2026年10月9日19:28:59 UTC公開で、今回の窓の開始前。"
+      "body": "GitHub CLIで公式リリース一覧を確認。最新のv2.1.296は2026年10月9日19:28:59 UTC公開で、今回の窓の開始前。"
     },
     {
       "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は未確認",
@@ -32,13 +53,13 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "Engineering、Research、News、Claude Resourcesを確認したが、今回の24時間窓内の新規記事は確認されなかった。"
+      "headline": "2件",
+      "body": "Anthropic Researchで、AIモデルの自己複製可能性と蒸留攻撃への防御を扱う記事が公開された。Engineering、News、Claude Resourcesには窓内の新規記事はなかった。"
     },
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧と最新リリースの完全本文を確認したが、今回の24時間窓内の新規リリースはなかった。最新のv2.1.296は窓の開始前に公開されている。",
+      "body": "GitHub CLIで公式リリース一覧を確認したが、今回の24時間窓内の新規リリースはなかった。最新のv2.1.296は窓の開始前に公開されている。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "GitHub Releasesを開く"
     }
