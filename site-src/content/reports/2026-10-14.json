@@ -1,25 +1,25 @@
 {
   "date": "2026-10-14",
-  "windowLabel": "2026-10-13 06:03:32 UTC - 2026-10-14 06:03:32 UTC（JST: 2026年10月13日15:03 - 10月14日15:03）",
-  "archiveTitle": "Claude Code v2.1.299",
-  "archiveSummary": "Claude Code v2.1.299が公開され、アイドル時の自動コンパクション、モッド、クラウドセッションを中心に190項目が更新されました。",
-  "latestSummary": "Claude Code v2.1.299が公開。190項目の新機能、変更、修正を含みます。公式ブログの窓内新規掲載はありませんでした。",
+  "windowLabel": "2026-10-13 12:07:50 UTC - 2026-10-14 12:07:50 UTC（JST: 2026年10月13日21:07 - 10月14日21:07）",
+  "archiveTitle": "Singapore office & Claude Code v2.1.299",
+  "archiveSummary": "Anthropicがシンガポール拠点開設と政府とのMOUを発表。Claude Code v2.1.299は190項目を更新しました。",
+  "latestSummary": "Anthropicのシンガポール拠点・政府MOUと、Claude Code v2.1.299の190項目の更新を収録。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.299</strong>: 2026年10月14日02:49 UTC公開。公式リリースノート190項目を取得。",
     "<strong>新機能</strong>: アイドル時の自動コンパクション、モッド用API、エージェントビューの<code>/effort</code>・<code>/fast</code>を追加。",
     "<strong>修正</strong>: セッション、プラグイン、MCP、サンドボックス、CJK表示を含む幅広い不具合を修正。",
-    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Resourcesの窓内新規掲載は0件。",
+    "<strong>公式ブログ</strong>: Anthropic Newsにシンガポール拠点・政府MOUの発表が1件。Engineering、Research、Claude Resourcesの窓内新規掲載は0件。",
     "<strong>公式X・エンジニアX</strong>: X MCPが利用できないため、一次情報として未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [{"label":"Anthropic News","datetime":"2026-10-14T00:00:00Z","displayTime":"2026年10月14日","title":"Anthropic、シンガポール拠点を開設し政府とMOUを締結","summary":"アジア太平洋で5拠点目となるシンガポール拠点を開設。AI安全性・セキュリティ・モデル評価、導入研究、官民での責任ある採用について、シンガポール政府と協力するMOUを締結した。","url":"https://www.anthropic.com/news/singapore-office-opening","urlLabel":"公式発表を開く","primary":true}],
   "officialZeroStates": [
-    { "label": "Engineering・Research・News・Claude Resourcesの窓内新規記事は0件", "body": "各公式一覧を確認。今回の24時間窓内に新たに掲載された記事は確認されなかった。Claude Resourcesで先頭にあるUberの記事は10月13日付で、今回の窓の開始前。" },
+    { "label": "Engineering・Research・Claude Resourcesの窓内新規記事は0件", "body": "各公式一覧を確認。今回の24時間窓内に新たに掲載された記事は確認されなかった。Anthropic Newsにはシンガポール拠点・政府MOUの発表が1件ある。" },
     { "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は未確認", "body": "X MCPがこの実行環境にないため、投稿を一次情報として収録していない。" },
     { "label": "Anthropic engineer X signalは未確認", "body": "同じくX MCP非提供のため、監視対象アカウント群の投稿を一次情報として検証できず、signalsは空配列とした。" }
   ],
   "signals": [],
   "releasePanels": [
-    { "title": "ブログ", "headline": "0件", "body": "Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、今回の24時間窓内の新規掲載はなかった。" },
+    { "title": "ブログ", "headline": "1件", "body": "Anthropic Newsで、シンガポール拠点の開設と政府とのMOU締結を発表。Engineering、Research、Claude Resourcesの窓内新規掲載は0件。", "url": "https://www.anthropic.com/news/singapore-office-opening", "urlLabel": "公式発表を開く" },
     {
       "title": "Claude Code リリース",
       "headline": "1件",
@@ -71,7 +71,7 @@
   "sources": [
     { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
     { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
-    { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
+    { "title": "Anthropic News: Singapore office and government MOU", "url": "https://www.anthropic.com/news/singapore-office-opening" },
     { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
     { "title": "Claude Code v2.1.299", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299" },
     { "title": "Claude Code Releases", "url": "https://github.com/anthropics/claude-code/releases" }
