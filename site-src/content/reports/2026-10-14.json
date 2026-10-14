@@ -1,84 +1,79 @@
 {
   "date": "2026-10-14",
-  "windowLabel": "2026-10-13 00:19:54 UTC - 2026-10-14 00:19:54 UTC（JST: 2026年10月13日09:19 - 10月14日09:19）",
-  "archiveTitle": "Uberが語るAI向け内部脅威対策",
-  "archiveSummary": "Claude Resourcesで、UberのAIエージェント向け内部脅威対策と監視基盤を扱う記事が公開されました。",
-  "latestSummary": "UberがClaudeを使うAIの安全運用・監視について解説。Claude Codeの直近24時間リリースはありませんでした。",
+  "windowLabel": "2026-10-13 06:03:32 UTC - 2026-10-14 06:03:32 UTC（JST: 2026年10月13日15:03 - 10月14日15:03）",
+  "archiveTitle": "Claude Code v2.1.299",
+  "archiveSummary": "Claude Code v2.1.299が公開され、アイドル時の自動コンパクション、モッド、クラウドセッションを中心に190項目が更新されました。",
+  "latestSummary": "Claude Code v2.1.299が公開。190項目の新機能、変更、修正を含みます。公式ブログの窓内新規掲載はありませんでした。",
   "summaryBullets": [
-    "<strong>Claude Resources</strong>: UberのCISOが、AIエージェント向け内部脅威対策、可観測性、リアルタイム対応の考え方を解説。",
-    "<strong>公式ブログ</strong>: Engineering、Research、Newsの窓内新規記事は0件。",
-    "<strong>Claude Code</strong>: 直近24時間の新規リリースは0件。最新のv2.1.296は窓の開始前に公開。",
+    "<strong>Claude Code v2.1.299</strong>: 2026年10月14日02:49 UTC公開。公式リリースノート190項目を取得。",
+    "<strong>新機能</strong>: アイドル時の自動コンパクション、モッド用API、エージェントビューの<code>/effort</code>・<code>/fast</code>を追加。",
+    "<strong>修正</strong>: セッション、プラグイン、MCP、サンドボックス、CJK表示を含む幅広い不具合を修正。",
+    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Resourcesの窓内新規掲載は0件。",
     "<strong>公式X・エンジニアX</strong>: X MCPが利用できないため、一次情報として未確認。"
   ],
-  "officialNews": [
-    {
-      "label": "Claude Resources",
-      "datetime": "2026-10-13T00:00:00Z",
-      "displayTime": "2026年10月13日（公開時刻非掲載、JST）",
-      "title": "UberのCISOが語る、AI向け内部脅威対策の構築",
-      "summary": "UberのCISO、Philip Martin氏が、AIエージェントの監視・可観測性と、Enterprise Frontier Safeguardsと自社オープンソースのAI Detection and Responseを組み合わせたリアルタイム検知・対応の考え方を紹介した。公開時刻は非掲載のため、表示された公開日を基準に収録。",
-      "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai",
-      "urlLabel": "Claude Resourcesで読む",
-      "primary": true
-    }
-  ],
+  "officialNews": [],
   "officialZeroStates": [
-    {
-      "label": "Engineering・Research・Newsの窓内新規記事は0件",
-      "body": "Engineering、Research、Newsの公式一覧を確認。今回の24時間窓内に公開された記事は確認されなかった。Claude Resourcesでは10月13日付の記事1件を、公開時刻非掲載のため表示公開日基準で収録した。"
-    },
-    {
-      "label": "Claude Codeの窓内新規リリースは0件",
-      "body": "GitHub CLIで公式リリース一覧と最新v2.1.296の完全なリリースノートを確認。v2.1.296は2026年10月9日19:28:59 UTC公開で、今回の窓の開始前。"
-    },
-    {
-      "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は未確認",
-      "body": "X MCPがこの実行環境にないため、投稿を一次情報として収録していない。"
-    },
-    {
-      "label": "Anthropic engineer X signalは未確認",
-      "body": "同じくX MCP非提供のため、監視対象アカウント群の投稿を一次情報として検証できず、signalsは空配列とした。"
-    }
+    { "label": "Engineering・Research・News・Claude Resourcesの窓内新規記事は0件", "body": "各公式一覧を確認。今回の24時間窓内に新たに掲載された記事は確認されなかった。Claude Resourcesで先頭にあるUberの記事は10月13日付で、今回の窓の開始前。" },
+    { "label": "@AnthropicAI / @ClaudeAI / @ClaudeDevs は未確認", "body": "X MCPがこの実行環境にないため、投稿を一次情報として収録していない。" },
+    { "label": "Anthropic engineer X signalは未確認", "body": "同じくX MCP非提供のため、監視対象アカウント群の投稿を一次情報として検証できず、signalsは空配列とした。" }
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "1件",
-      "body": "Claude Resourcesで、UberのAIエージェントにおける内部脅威対策、監視、リアルタイム対応を扱う記事が公開された。Engineering、Research、Newsには窓内の新規記事はなかった。"
-    },
+    { "title": "ブログ", "headline": "0件", "body": "Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、今回の24時間窓内の新規掲載はなかった。" },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧と最新v2.1.296の完全なリリースノートを確認したが、今回の24時間窓内の新規リリースはなかった。最新のv2.1.296は窓の開始前に公開されている。",
+      "headline": "1件",
+      "body": "GitHub CLIでv2.1.299の完全な公式リリースノート（190項目）を取得し、公開時刻が今回の窓内であることを確認した。",
+      "releases": [{
+        "version": "v2.1.299",
+        "publishedAt": "2026年10月14日 11:49 JST（2026-10-14T02:49:42Z）",
+        "summary": "アイドル時の自動コンパクション、モッド向けAPIとUI、エージェント／クラウドセッションの操作性を拡張し、セッション、プラグイン、MCP、サンドボックス、表示・入力に関する多数の不具合を修正。公式ノートは190項目。",
+        "sections": [
+          { "title": "新機能", "items": [
+            "<code>CLAUDE_CODE_DISABLE_FILE_MENTIONS</code>を追加。<code>@</code>ファイル指定では内容でなくパスを渡し、Claudeがファイルツールで読む。",
+            "20万トークン超のターミナル会話を約54分放置すると、1時間のプロンプトキャッシュ期限前に圧縮するアイドル時コンパクションを追加。",
+            "アイドル時コンパクションの閾値を変える<code>CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS</code>と、無効化する<code>idleCompaction: false</code>を追加。",
+            "管理設定で入れたモッドの<code>prompt.submit</code>フックが添付画像・文書のバイト列を読める<code>$.prompt.media</code>を追加。",
+            "管理設定モッド向けに、サインイン方法・組織・メールアドレスを取得する<code>$.session.identity()</code>を追加。",
+            "モッドの<code>Text</code>に文字属性、<code>Box</code>に名前付き余白を追加し、<code>bold</code>は<code>weight</code>へ非推奨化。",
+            "自己ホストランナーに、SIGTERM時の完了待ちを指定する<code>--shutdown-drain-sec</code>を追加。",
+            "モッドの<code>skill.prompt</code>フックにスキルのfrontmatter、ソース、プラグイン名、ファイルパスを渡すようにした。",
+            "エージェントビューに、新規セッションの設定を変える<code>/effort</code>と<code>/fast</code>を追加。",
+            "<code>--safe-mode</code>で起動したバックグラウンドセッションをエージェントビューに表示。",
+            "bypass permissions利用時にプランモードが確認しない場合の案内を追加。",
+            "<code>claude plugin eval</code>で特定の組み込みツールを除外する<code>--disallow-tools</code>を追加。",
+            "Claude Desktop Codeタブの帰属ブロックを<code>CLAUDE_CODE_ATTRIBUTION_HEADER=0</code>で無効化可能にした。",
+            "Claude apps gateway配下のClaude Codeセッションの帰属ブロックにフィールドを追加。",
+            "<code>session.append</code>モッドフックにキュー記録を制御する<code>queue</code>ドアを追加。",
+            "組織管理のためスキップされたモッドフックを<code>/plugin</code>と<code>claude plugin validate</code>で表示。",
+            "最大effort、workflow、常時コンテキスト、大きなツール結果に対する<code>/usage</code>警告を追加。"
+          ]},
+          { "title": "変更", "items": [
+            "自己ホストランナー診断、PDF参照時のメモリ・ディスク利用、Linuxサンドボックス、未認識モデルIDの起動警告、プラグイン作成支援、スキル再読み込み、ワークツリー作成エラー、アーティファクト監視、バックグラウンドエージェント通知を改善。",
+            "MCPの通信・リダイレクト・プロトコル・許可ルール、Cloud/Coworkの自動モード、終了時の再開コマンド、UserPromptSubmitの実行順、モッドフック通知の挙動を更新。"
+          ]},
+          { "title": "修正", "items": [
+            "クラウド／ヘッドレスセッション、プラグイン、MCP、サンドボックス、Remote Control、Windows、自己ホストランナー、Claude Tag、Code Review、CJK／絵文字を含む端末表示の不具合を修正。",
+            "公式ノート全190項目は、下記の公式リリースページで完全に検証した。"
+          ]}
+        ],
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+        "urlLabel": "v2.1.299の完全な公式リリースノートを開く"
+      }],
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "GitHub Releasesを開く"
     }
   ],
   "exclusions": [
     "X MCPがこの実行環境に未提供で、公式Xとengineer Xの投稿は一次情報として検証できないため除外。",
-    "調査窓より前の公式ブログ記事とClaude Codeリリースは除外。Claude Resourcesの記事は公開時刻が非掲載のため、表示公開日（2026年10月13日）に基づき収録。"
+    "調査窓より前の公式ブログ記事は除外。Claude ResourcesのUber記事は表示公開日が2026年10月13日で、今回の窓の開始前。"
   ],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Uber's CISO on building an insider threat program for AI",
-      "url": "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai"
-    },
-    {
-      "title": "Claude Code Releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
+    { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
+    { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
+    { "title": "Claude Resources", "url": "https://claude.com/resources/articles" },
+    { "title": "Claude Code v2.1.299", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299" },
+    { "title": "Claude Code Releases", "url": "https://github.com/anthropics/claude-code/releases" }
   ]
 }
