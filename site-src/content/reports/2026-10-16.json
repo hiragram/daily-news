@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-16",
+  "windowLabel": "2026-10-15 12:02:49 UTC - 2026-10-16 12:02:49 UTC（JST: 2026年10月15日21:02 - 10月16日21:02）",
+  "archiveTitle": "Independent evaluator update",
+  "archiveSummary": "Anthropicが独立評価者へのアクセス提供状況を公開。",
+  "latestSummary": "AnthropicがMETRなど独立評価者との連携と評価体制を更新。Claude Codeの新規リリースはなし。",
+  "summaryBullets": [
+    "<strong>独立評価者</strong>: METRに従業員相当のアクセスを提供し、評価結果の独立公表を進める方針を説明。",
+    "<strong>Claude Code リリース 0件</strong>: GitHub CLIで確認した最新v2.1.300は2026-10-14 18:24 UTC公開で今回窓外。",
+    "X MCP未提供のため、公式X・Anthropic engineer X投稿は一次情報として未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-15T00:00:00Z",
+      "displayTime": "2026年10月15日（公開時刻は記事に未記載）",
+      "title": "An update on independent evaluators",
+      "summary": "AnthropicはMETRの評価チームに従業員相当のアクセスを提供し、METRがリスク評価を独立して公表できる仕組みを開始した。SecureBio、Accentureなどとの評価連携も進め、アクセスと公表権限を3段階で整備すると説明した。",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "urlLabel": "公式記事を開く",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering・Research・Claude Resourcesの窓内新規記事は0件",
+      "body": "各公式一覧を確認。Newsは10月15日付の独立評価者の記事1件を収録した。"
+    },
+    {
+      "label": "公式X・engineer Xは未確認",
+      "body": "Claude Official X WatchとAnthropic Engineer X Watchが前提とするX MCP toolがこの実行環境に提供されていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件",
+      "body": "Anthropic Newsの『An update on independent evaluators』を収録。Engineering、Research、Claude Resourcesの窓内新規記事はなかった。",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIをsource of truthとして完全取得・照合した。最新のv2.1.300は2026-10-14T18:24:25Z公開で今回窓開始前のため、窓内の翻訳対象リリースはない。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "GitHub Releasesを開く"
+    }
+  ],
+  "exclusions": [
+    "X MCP未提供のためX投稿を除外。",
+    "公開日が窓外の公式記事とClaude Codeリリースを除外。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "An update on independent evaluators", "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
