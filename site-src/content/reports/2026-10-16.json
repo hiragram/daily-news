@@ -1,63 +1,21 @@
 {
-  "date": "2026-10-16",
-  "windowLabel": "2026-10-15 12:02:49 UTC - 2026-10-16 12:02:49 UTC（JST: 2026年10月15日21:02 - 10月16日21:02）",
-  "archiveTitle": "Independent evaluator update",
-  "archiveSummary": "Anthropicが独立評価者へのアクセス提供状況を公開。",
-  "latestSummary": "AnthropicがMETRなど独立評価者との連携と評価体制を更新。Claude Codeの新規リリースはなし。",
-  "summaryBullets": [
-    "<strong>独立評価者</strong>: METRに従業員相当のアクセスを提供し、評価結果の独立公表を進める方針を説明。",
-    "<strong>Claude Code リリース 0件</strong>: GitHub CLIで確認した最新v2.1.300は2026-10-14 18:24 UTC公開で今回窓外。",
-    "X MCP未提供のため、公式X・Anthropic engineer X投稿は一次情報として未確認。"
+  "date":"2026-10-16",
+  "windowLabel":"2026-10-15 00:05:12 UTC - 2026-10-16 00:05:12 UTC（JST: 2026年10月15日09:05 - 10月16日09:05）",
+  "archiveTitle":"Code Review GA and Claude Code 2.1.301",
+  "archiveSummary":"Claude CodeのCode Reviewが一般提供を開始し、v2.1.301が公開。",
+  "latestSummary":"Claude CodeのCode ReviewがTeam・Enterprise向けに一般提供開始。v2.1.301では51項目の機能追加・変更・修正を公開。",
+  "summaryBullets":["<strong>Code Reviewが一般提供開始</strong>: Claude Team・Enterpriseで利用可能になり、レビューはプレビュー時より約3倍高速化。","<strong>Claude Code v2.1.301</strong>: 8件の新機能、6件の変更、37件の修正を公式リリースノートの全51項目に基づき収録。","X MCP未提供のため、公式X・Anthropic engineer X投稿は一次情報として未確認。"],
+  "officialNews":[{"label":"Claude Resources","datetime":"2026-10-15T00:00:00Z","displayTime":"2026年10月15日（公開時刻は記事に未記載）","title":"Code Review is now generally available","summary":"Claude CodeのCode Reviewがリサーチプレビューを終え、Team・Enterprise組織で一般提供開始。レビューは約6〜10分へ高速化し、重要な不具合の検出とリポジトリ単位のQuick・Standard・Deep設定を提供する。","url":"https://claude.com/resources/articles/code-review-is-now-generally-available","urlLabel":"公式記事を開く","primary":true}],
+  "officialZeroStates":[{"label":"Engineering・Research・Anthropic Newsの窓内新規記事は0件","body":"各公式一覧を確認。Claude Resourcesは10月15日付のCode Review一般提供開始の記事1件を収録した。"},{"label":"公式X・engineer Xは未確認","body":"Claude Official X WatchとAnthropic Engineer X Watchが前提とするX MCP toolがこの実行環境に提供されていない。"}],
+  "signals":[],
+  "releasePanels":[
+    {"title":"ブログ","headline":"1件","body":"Claude CodeのCode ReviewがTeam・Enterprise向けに一般提供開始。Engineering、Research、Anthropic Newsの窓内新規記事はなかった。","url":"https://claude.com/resources/articles/code-review-is-now-generally-available","urlLabel":"公式記事を開く"},
+    {"title":"Claude Code リリース","headline":"v2.1.301","body":"GitHub CLIをsource of truthとして、2026-10-15T19:22:06Z公開のv2.1.301を完全取得。公式の箇条書き51件をすべて個別に和訳・分類した。","releases":[{"version":"v2.1.301","publishedAt":"2026年10月16日 04:22 JST（2026-10-15T19:22:06Z）","summary":"未監視リトライ、OpenTelemetry、vim操作、modsを拡張し、ワークツリー、認証、コンテキスト圧縮、VS Codeなどを修正。","sections":[
+      {"title":"新機能","items":["未監視リトライモード（`CLAUDE_CODE_RETRY_WATCHDOG`）で、使用量上限のリセットが遠すぎる場合に待機せず要求を終了する`CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS`を追加。","`claude-api` skillに、`ant` CLIでトレース送信先を設定する手順を含むOpenTelemetryトレーシングのガイドを追加。","vimモードに`%`移動を追加。単独またはd/c/yと組み合わせて対応する括弧へ移動可能にした。","modの`Input`に`rows`を追加。ターミナルで複数行のテキスト欄を作れ、Enterで送信、Shift+EnterまたはEnter直前のバックスラッシュで改行できる。","OpenTelemetryの`tool_decision`イベントに`classifier_verdict`と`permission_mode`を追加し、自動モードの分類器判断と権限ルールを区別できるようにした。","`OTEL_LOG_TOOL_DETAILS=1`時のOpenTelemetry `tool_decision`イベントに`classifier_category`を追加し、分類器ブロックに一致した組み込みルール名を記録する。","[VS Code] Claude応答でLaTeX数式レンダリングを追加。`$$`、複数行の`\\[ … \\]`、インラインの`$…$`と`\\(…\\)`に対応。","[VS Code] VS Code・JetBrainsパネルのPro/Max使用量上限バナーに「Get more usage」リンクを追加。"]},
+      {"title":"変更","items":["より小さいコンテキストウィンドウのモデルへの切替を改善。新モデルに収まらない会話は、先に以前のモデルで要約する。","長時間稼働するサブエージェントの進行表示を改善。進行履歴をレンダリングごとに全再処理せず、増分更新する。","Artifactsを改善。Claudeが書いたページでは、モバイルアプリでスクロールしたテキストが固定ヘッダー上部に見えないよう、その帯域も描画する。","modsを改善。VS Code・デスクトップ・モバイルアプリでは質問ダイアログ上のツリーにMarkdownと最大48行を表示でき、ターミナルでは12行のプレーンテキストを維持する。","modフックの`.catch`はフックが例外またはタイムアウトした場合だけ実行するよう変更。フック自身の呼び出し下で発生したイベントは、`.catch`への問い合わせなしにそのフックをスキップする。","modの`$.env.set`は、変数の設定・解除後は`{}`、書き込みが行われない場合は理由を示す`{ deny }`で解決するよう変更。"]},
+      {"title":"修正","items":["未pushコミットを含む可能性がある`WorktreeCreate`フック作成のワークツリーを、終了時に確認なしで削除してしまう問題を修正。","組織で最新Fableモデルを利用できない際にAnthropic API上の`fable`（および`best`）別名が失敗する問題を修正。以前のFableモデルで一度再試行する。","ディスク満杯でログイン更新できない時の誤解を招く「Please run /login」エラーを修正。対象ディスクと不要ファイル削除を示す。","検索プログラムが結果を返す前に予期せず失敗した時、Grep・Globが一致なしと報告する問題を修正。検索失敗エラーを返す。","ワークフローエージェントがステップを飛ばしても成功と報告されることがある問題を修正。harness注記からタスク文にユーザー権限がないと読んだ場合も対象。","PreToolUseフックがEditまたはWriteを対象にする場合にartifact更新が拒否される問題を修正。ファイル編集後に公開し直す。","非常に多い・長い引数名を持つskills/commandsの起動が数秒停止する問題を修正。補完対象を各64文字までの先頭64名に制限。","引数が多数のプレースホルダーを埋める時にskills、commands、hooksが大量メモリを使用する問題を修正。","RHEL 8のMATE TerminalなどVTE 0.53未満で、フォルダ信頼プロンプトを`>0q`が覆い、終了時にシェルプロンプト前へ`>4m`が出る問題を修正。","一部iTerm2で起動時にプロンプトへ`GOK`文字列が混入する問題を修正。","Bedrock以外のプロバイダで`application-inference-profile`を含むモデル名に切替える際、`awsAuthRefresh`が実行されモデル切替フックを遅延させる問題を修正。","`claude auth status`や`claude plugin list`など短いコマンドがトークン更新中に終了した後、サインイン更新のタイムアウトや予期せぬサインアウトが起こる問題を修正。","権限確認中にターン途中で送信されたメッセージによりツール呼び出しが切断された場合、モデルへユーザー拒否と報告される問題を修正。","より小さいコンテキストのモデルへの切替で、確認なしに以前のモデルによる要約へ使用量クレジットを使うことがある問題を修正。","LLMゲートウェイの応答が要求と異なるモデル名を返す環境で、選んでいないモデルによる会話圧縮が繰り返される問題を修正。","低速または高負荷な環境でEscape後もvimモードがINSERTのままになることがある問題を修正。","vimモードでEscが入力済みAskUserQuestion回答を破棄する問題を修正。自由入力欄はvim NORMALモードをサポートし、EscはNORMAL時のみキャンセルする。","Readツールが`.xlsm`、`.parquet`、`.epub`、`.heic`などのバイナリをテキストとして読む問題を修正。","端末幅より広いヘッダー行だけのMarkdown表が何も描画しない問題を修正。プラン承認カードの表も対象。","`/claude-api` skillが、AWS上のClaude PlatformではCMEK外部鍵エンドポイントを利用できないと誤記する問題を修正。","`/rewind`後にskillsがモデルへ列挙されなくなる問題を修正。","再開セッションの圧縮行が未ロードの履歴にctrl+oを案内する問題を修正。過去メッセージの保存先を表示し、フルスクリーンでも示す。","応答を中断した直後に「new task? /clear to save tokens」ヒントが再表示される問題を修正。","pluginまたはskillフックの`ask`判断に対する権限プロンプトで、どのplugin/skill由来か表示されない問題を修正。","reftableリポジトリでgit確認がタイムアウトまたは失敗した際、`/diff`が競合中のcherry-pick/revertを検出できない問題を修正。","同一セッションでBashの`cd`後に読み取り・編集・再実行したワークフロースクリプトが権限を要求または拒否される問題を修正。","ダークANSIテーマと16色端末の薄い文字表示を修正。塗りつぶしボックス内だけ薄くし、選択・検索ハイライト下は薄くせず、リスト説明は副次テキストと同様に薄くする。","新しいClaude Codeプロセスの最初の応答が完了前に実行した場合（`claude -p`やクラウドセッション等）、modの`$.model.fork`が`nothing-to-fork`を返す問題を修正。","フルスクリーンモードで、表示中のトランスクリプト再構築中に`/compact`と自動圧縮が一時的にUIを停止させる問題を修正。","セルフホストrunnerで、管理設定がMCPサーバーを制限する場合にSlack開始セッションがリポジトリを検出・接続できない問題を修正。ツールを無効化するには`deniedMcpServers`を使う。","セルフホストrunnerで、無関係な設定/セッション失敗がgitのmissing-ref文言を含むと、セッションが削除済みソースブランチ扱いとなり再試行されない問題を修正。","セルフホストrunnerで、終了中のセッションに対し失敗・辞退したセッションリリースの再試行をログが約束する問題を修正。反復失敗時は回数を表示する。","Windowsで停止したバックグラウンドPowerShellコマンドの出力ファイルに終了`[killed]`行がない問題を修正。","[VS Code] クラッシュまたはパネルをフリーズさせる会話が、リロードのたびに再オープンする問題を修正。","[VS Code] 長い思考中にチャットパネルが遅くなる問題を修正。更新ごとに思考テキスト全体を再解析しない。","[VS Code] 一部言語サーバーで診断にルールコード（例: MD013）ではなく`[object Object]`が表示される問題を修正。","[VS Code] ディクテーション未提供の環境（claude.ai以外のサインイン、リモートウィンドウ）でも、マイク権限確認のためネイティブ音声モジュールを読み込む問題を修正。"]}
+    ],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.301","urlLabel":"GitHub Releasesを開く"}],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.301","urlLabel":"GitHub Releasesを開く"}
   ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-10-15T00:00:00Z",
-      "displayTime": "2026年10月15日（公開時刻は記事に未記載）",
-      "title": "An update on independent evaluators",
-      "summary": "AnthropicはMETRの評価チームに従業員相当のアクセスを提供し、METRがリスク評価を独立して公表できる仕組みを開始した。SecureBio、Accentureなどとの評価連携も進め、アクセスと公表権限を3段階で整備すると説明した。",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "urlLabel": "公式記事を開く",
-      "primary": true
-    }
-  ],
-  "officialZeroStates": [
-    {
-      "label": "Engineering・Research・Claude Resourcesの窓内新規記事は0件",
-      "body": "各公式一覧を確認。Newsは10月15日付の独立評価者の記事1件を収録した。"
-    },
-    {
-      "label": "公式X・engineer Xは未確認",
-      "body": "Claude Official X WatchとAnthropic Engineer X Watchが前提とするX MCP toolがこの実行環境に提供されていない。"
-    }
-  ],
-  "signals": [],
-  "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic Newsの『An update on independent evaluators』を収録。Engineering、Research、Claude Resourcesの窓内新規記事はなかった。",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "urlLabel": "公式記事を開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIをsource of truthとして完全取得・照合した。最新のv2.1.300は2026-10-14T18:24:25Z公開で今回窓開始前のため、窓内の翻訳対象リリースはない。",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHub Releasesを開く"
-    }
-  ],
-  "exclusions": [
-    "X MCP未提供のためX投稿を除外。",
-    "公開日が窓外の公式記事とClaude Codeリリースを除外。"
-  ],
-  "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "An update on independent evaluators", "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
-  ]
+  "exclusions":["X MCP未提供のためX投稿を除外。","公開日または公開時刻が窓外の公式記事とClaude Codeリリースを除外。"],
+  "sources":[{"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},{"title":"Anthropic Research","url":"https://www.anthropic.com/research"},{"title":"Anthropic News","url":"https://www.anthropic.com/news"},{"title":"Claude Resources","url":"https://claude.com/resources/articles"},{"title":"Code Review is now generally available","url":"https://claude.com/resources/articles/code-review-is-now-generally-available"},{"title":"Claude Code v2.1.301","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.301"}]
 }
