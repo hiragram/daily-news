@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-18",
+  "windowLabel": "2026-10-16 17:55:38 UTC - 2026-10-17 17:55:38 UTC（JST: 2026年10月17日 02:55:38 - 10月18日 02:55:38）",
+  "archiveTitle": "Claude Code performance and 2.1.302",
+  "archiveSummary": "Claude Code v2.1.302の全63項目と公式投稿、公開時刻未確認の記事を収録。",
+  "latestSummary": "Claude Codeの応答速度改善とv2.1.302の全63項目、Research記事などを紹介。",
+  "summaryBullets": [
+    "<strong>Claude Code</strong>: 各ターンの会話送信をgzip圧縮し、クラウドセッションは入力開始時に起動。",
+    "<strong>Claude Code v2.1.302</strong>: 公式の63項目を新機能4件・変更11件・修正48件に分けて和訳。",
+    "<strong>Anthropic Research</strong>: 量子回路など10月16日付の5件と、Claude Resourcesの1件を収録。公開時刻が不明なため厳密な窓内判定はできない。",
+    "X専用検索が使えず、公開プロフィールを部分的に確認。エンジニア投稿の網羅性は未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "ClaudeDevs 公式X",
+      "datetime": "2026-10-17T06:34:00+09:00",
+      "displayTime": "2026年10月17日 06:34 JST（分単位）",
+      "title": "Claude Codeの応答開始を高速化",
+      "summary": "Claude Codeは各ターンで送る会話をgzip圧縮し、モデルへ早く届ける。クラウドセッションも入力を始めると同時に起動する。",
+      "url": "https://x.com/ClaudeDevs/status/2111209208012210409",
+      "urlLabel": "公式投稿を開く",
+      "primary": true
+    },
+    {
+      "label": "Claude 公式X",
+      "datetime": "2026-10-17T04:29:00+09:00",
+      "displayTime": "2026年10月17日 04:29 JST（分単位）",
+      "title": "Claudeを使った6つのプロジェクトを紹介",
+      "summary": "Claudeは最近注目した6件のプロジェクトを紹介。最初の例としてOpus 5.5で制作した山火事の拡大とホットスポットを追跡する分析プロトタイプを挙げた。",
+      "url": "https://x.com/claudeai/status/2111177834127601902",
+      "urlLabel": "公式投稿を開く"
+    },
+    {
+      "label": "ClaudeDevs 公式X",
+      "datetime": "2026-10-17T03:54:00+09:00",
+      "displayTime": "2026年10月17日 03:54 JST（分単位）",
+      "title": "Claude Codeチームのコードレビュー手法",
+      "summary": "ClaudeがClaude Codeのコードの約90%を記述。6月から9月にマージされたPRが2倍超に増える一方、revertされた割合は40%以上減ったと説明し、レビュー手法の記事を紹介した。",
+      "url": "https://x.com/ClaudeDevs/status/2111168901723906176",
+      "urlLabel": "公式投稿を開く"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "summary": "Claudeに自然言語の仕様と自動評価器を与え、8つの量子回路設計を探索。既存の公開回路を上回る設計を見つけ、必要な量子資源を減らせる可能性を示した。記事の公開時刻は不明。",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "Claude reveals ECDSA curve origins",
+      "summary": "ClaudeがNIST ECDSA曲線のシード生成元を調査し、Unix時刻で初期化されたlrand48由来と特定。新しい脆弱性ではなく、曲線が恣意的に選ばれた可能性を下げる結果として説明する。",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "The AI expectations gap",
+      "summary": "米国成人とAnthropic従業員の調査から、AI能力の将来予測と生産性向上の見通しに大きな差があることを報告する。",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "How employment is changing at Anthropic",
+      "summary": "社内の雇用・AI利用・生産性データを分析。AIエージェント時間の増加、初級技術職比率の低下、人間の注意がボトルネックになる変化を報告する。",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "Working at the frontier shapes expectations for the future",
+      "summary": "社内雇用とAI期待に関する2本の研究を総括。AIを日常的に使う従業員と一般の人々で、将来の能力・労働への見通しが異なるとする。",
+      "url": "https://www.anthropic.com/research/expectations-for-the-future",
+      "urlLabel": "公式記事を開く"
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-10-16T00:00:00Z",
+      "displayTime": "2026年10月16日（公開時刻は記事に未記載）",
+      "title": "How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
+      "summary": "Anthropic JapanのBDRが、リード振り分け、見込み客精査、日英メール下書き、Salesforce更新、会議後フォローを複数のClaudeエージェントへ分担する運用を紹介する。",
+      "url": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day",
+      "urlLabel": "公式記事を開く"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering・Anthropic Newsの新規記事は確認できず",
+      "body": "EngineeringとAnthropic Newsの一覧に対象期間内の新規記事は見当たらない。Researchの10月16日付5件とClaude Resourcesの同日付1件は公開時刻がなく、厳密な対象期間内かは確認できない。"
+    },
+    {
+      "label": "Xの検索・エンジニア投稿の網羅性は未確認",
+      "body": "X MCPが提供されず検索は利用できない。公式3アカウントとBoris Chernyの公開プロフィールを確認したが、他のエンジニアや返信は網羅できていない。"
+    }
+  ],
+  "signals": [
+    {
+      "label": "Boris Cherny / X",
+      "datetime": "2026-10-17T03:13:00+09:00",
+      "displayTime": "2026年10月17日 03:13 JST（分単位）",
+      "title": "Claude Slidesによる資料作成",
+      "summary": "Boris ChernyはClaude Slidesを使ったスライド制作を紹介し、自身の資料作成に使っていると述べた。",
+      "url": "https://x.com/bcherny/status/2111158659971699136",
+      "urlLabel": "投稿を開く"
+    },
+    {
+      "label": "Boris Cherny / X",
+      "datetime": "2026-10-17T03:12:00+09:00",
+      "displayTime": "2026年10月17日 03:12 JST（分単位）",
+      "title": "Claude Code Reviewを全PRに利用",
+      "summary": "自身のすべてのPRでClaude Code Reviewを使い、バグの多くを事前に発見していると説明。チームの開発速度と品質を両立する一要素として挙げた。",
+      "url": "https://x.com/bcherny/status/2111158313463525518",
+      "urlLabel": "投稿を開く"
+    }
+  ],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "公開時刻未確認 6件",
+      "body": "Anthropic Researchの10月16日付5件とClaude Resourcesの同日付1件を参考収録。公開時刻は掲載されておらず、厳密な24時間以内かは未確認。Engineering・Anthropic News一覧には新しい記事が見当たらない。",
+      "url": "https://www.anthropic.com/research",
+      "urlLabel": "Research一覧を開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.302",
+      "body": "GitHub CLIをsource of truthとして、2026-10-16T20:53:06Z公開のv2.1.302を完全取得。公式の箇条書き63件をすべて個別に和訳・分類した。",
+      "releases": [
+        {
+          "version": "v2.1.302",
+          "publishedAt": "2026年10月17日 05:53 JST（2026-10-16T20:53:06Z）",
+          "summary": "自動モード・アイドル圧縮・Design連携を拡張し、プラグイン、MCP、クラウドセッション、VS Code、Claude Tag、Code Reviewを修正・改善。",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "クライアント側自動モード分類器が使うモデルを選ぶ`CLAUDE_CODE_AUTO_MODE_MODEL`を追加（サーバー側自動モードのモデルは変更しない）。",
+                "`/config`にアイドル圧縮をオン・オフする`Idle compaction`行を追加し、圧縮後の通知に無効化方法を表示するようにした。",
+                "`/design-sync`と`/design-login`に、スタンドアロンClaude Design（claude.ai/design）が2026年12月14日までに終了する通知を追加。",
+                "[Cloud sessions] ルーチンの最終実行が開始されなかった理由（組織の同時クラウドセッション上限など）を表示するバナーを追加。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "多数のプラグイン有効時の起動を高速化し、特にWindowsでプラグインのコマンド・エージェントファイル読み込みのファイルシステム呼び出しを削減。",
+                "サーバー側分類器を使う自動モードで、安全性確認に長すぎる会話は各ツール呼び出しを拒否する代わりに圧縮するよう改善。",
+                "別フォルダから再開したバックグラウンドセッションにLLMゲートウェイがない時、`Not logged in`ではなく理由を表示するよう改善。",
+                "`claude -p`とAgent SDKは、サードパーティー提供元で権限モード未指定、かつテレメトリー無効または新規インストールの場合に`default`で開始するよう変更。`--permission-mode auto`はautoを維持。",
+                "forkサブエージェントを`claude -p`、Agent SDK、デスクトップアプリ、VS Codeで既定有効化。`CLAUDE_CODE_FORK_SUBAGENT=0`で無効化でき、`claude mcp serve`では提供しない。",
+                "デスクトップアプリとVS Codeではメイン会話のサブエージェントを常にバックグラウンド実行に変更。`claude -p`、Agent SDK、デスクトップアプリ、VS Codeでのサブエージェント自身のAgent呼び出しは既定でフォアグラウンド実行。",
+                "セッション開始後10秒で`← for agents`フッターのヒントを非表示に変更（待機中エージェント数は表示を維持）。",
+                "Claude in Chromeの手順をシステムプロンプト内で移動し、新規会話が共有プロンプトキャッシュから読めるよう変更。",
+                "プロンプト・エージェントフックはイベント種別ごとに最大12件を同時実行し、残りは待機させるよう変更。",
+                "Claude Tag管理設定をBundles、Connectors、Skills and plugins、Channelsの4タブへ再編。",
+                "組織設定のRolesページで、Claude Tagチャンネル管理者向けロールを組織独自ロールの下の折りたたみ区画にまとめるよう変更。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "会話圧縮中にターンを停止すると`Prompt is too long`になる問題を修正。",
+                "セッション途中でVertexまたはBedrockへ切り替えた後、`diagnostics: Extra inputs are not permitted`で要求が失敗する問題を修正。",
+                "Readツールがサイズに関係なく画像や画像名のパイプ・デバイスを全量メモリへ読み込む問題を修正し、128MB超の画像を拒否。",
+                "ゲートウェイでOpus 4/4.1名に接頭辞があると`/autocompact`と`/effort`が誤ったモデルへ保存される問題を修正。",
+                "途中で追加したツールをToolSearchまたは圧縮後に読み直すとプロンプトキャッシュミスになる問題を修正。",
+                "`claude plugin`などが設定・構成のキュー済み書き込み完了前に終了し、変更消失や`.tmp`残留を起こす問題を修正。",
+                "gitがreftable形式を既定にする環境で、マーケットプレイスが更新ごとに再cloneされ、新規gitプラグインの版が`unknown`になる問題を修正。",
+                "PowerShellツールがプラグインの`bin/`を検索できず、空結果のrg/grep/findstr/git grepを`Select-Object`等へ渡すとエラーになる問題を修正。",
+                "デスクトップアプリのClaudeが、利用できないclaude.ai設定や`/mcp`へMCP認可・再接続を案内する問題を修正。",
+                "空の編集リストを送るとartifact公開が失敗し、新版に拒否された後に誤った方法で再試行する問題を修正。",
+                "自動モード分類器ブロックの大半でOpenTelemetry `tool_decision`イベントに`classifier_category`が欠け、`OTEL_LOGRECORD_ATTRIBUTE_COUNT_LIMIT`が低いと新属性により`tool_use_id`、`tool_source`、`tool_parameters`が押し出される問題を修正。",
+                "長いエージェント一覧をスクロールまたは区画折りたたみ後に行が空白のままになる問題を修正。",
+                "未ログイン時に`claude remote-control --help`が使用法を表示せず終了する問題を修正。",
+                "クラウドセッションで失敗した`/design consent`・`/design revoke`が利用不能な`/design-login`を案内する問題を修正し、claude.ai/design/settingsを案内。",
+                "2026-07-28プロトコルで`resultType`、`ttlMs`、`cacheScope`を省くMCPサーバーで、ツールが表示されない・全呼び出しが失敗する問題を修正。",
+                "クレジット課金のみのモデルで、プロンプト候補が使用量クレジットを消費する問題を修正。クレジット課金の返信後は候補をスキップする。",
+                "折り返したバッククォート内URLで先頭行だけリンクになる問題を修正し、対応端末ではURL全体を一つのリンクにした。",
+                "見つからない組み込みプラグインに対し`claude plugin details <name>@builtin`が不適切に`claude plugin list`を案内する問題を修正し、`/plugin`を案内。",
+                "折り返し幅が1列広いリンク先頭の絵文字で、質問プレビューから隠れたり表がリストになる問題を修正。",
+                "存在しないディレクトリを指す余分な`.git`ファイルがあると、git 2.56以降でワークツリー隔離の作成・再開を拒む問題を修正。",
+                "クラウドセッションを新プロセスで再開後、コストと使用量がゼロから再開する問題を修正。",
+                "セルフホストrunnerでreftable形式のチェックアウト再利用時に`bad object refs/heads`でgit fetchが失敗する問題を修正。",
+                "WindowsのexFAT/FAT32ドライブ上プロジェクトで、`--plugin-dir`開始分を含む全ファイル書き込みが拒否・確認される問題を修正。",
+                "`/feedback`を組織ポリシーで無効化した際、組織管理者でなくGitHub Issuesを案内するよう修正。",
+                "[VS Code] 未閉じコードブロック後のリスト内テキストがストリーミング中は平文になり、後からコード化される問題を修正。",
+                "[VS Code] クエリ文字列を含むサーバーURLで、パネルからのMCPサインインが壊れた認可ページを開く問題を修正。",
+                "[VS Code] 到達可能なClaude拡張ブラウザがないのに`Browser connected`と表示する問題を修正。",
+                "[Cloud sessions] `Rewind to here`が最新以外のメッセージで失敗する問題を修正。セルフホストrunnerはv2.1.246以降が必要。",
+                "[Cloud sessions] GitHub再確認中に、マージ競合のあるPRをReadyへ戻してしまうステータスバーの問題を修正。",
+                "[Cloud sessions] 予期せず停止したルーチンをCompleted、開始前にアーカイブしたものをCancelledと表示する問題を修正し、失敗として扱うようにした。",
+                "[Cloud sessions] GitHubリポジトリの改名・移動後にdiff表示が変更を欠落・読み込み失敗する問題を修正。",
+                "[Cloud sessions] 途中失敗したスケジュール済みルーチンが1時間以上後に最初から再実行され、同じレポートを二重投稿し得る問題を修正。",
+                "[Cloud sessions] 別デバイスから送ったメッセージが、再読み込みまたは画面移動まで表示されないことがある問題を修正。",
+                "[Cloud sessions] 開始失敗時の`Something went wrong`を`Connection lost`または`Server error`と表示するよう改善。",
+                "[Remote Control] オフライン後にサブエージェントのペインが無限に読み込み続ける問題を修正し、切断状態を表示。",
+                "[Claude Tag] SlackのチャンネルやDMのメンションにClaudeが既存メッセージの編集で回答した後、`is thinking…`が残る問題を修正。",
+                "[Claude Tag] 番号・箇条書き手順内のコードブロックURLを山括弧で囲み、コピーしたコマンドを壊す問題を修正。",
+                "[Claude Tag] Slack添付のHEIC、SVG、TIFF、BMPがClaudeへ届かない問題を修正し、他形式同様に作業ファイルとして渡すようにした。",
+                "[Claude Tag] ロール制限組織で新しいチャンネル管理者がClaudeを使えなくなる問題を修正。管理者ロールにもSlackのClaude Tag権限を付与。",
+                "[Claude Tag] 同一ホストを共有するカスタムコネクターのMCPサーバーが一つに見える問題を修正し、サーバーごとに表示。",
+                "[Claude Tag] 一つのSlack検索が滞るとDMへ`DMs are temporarily unavailable`と返して破棄する問題を修正し、先に再試行するようにした。",
+                "[Claude Tag] Slack Enterprise GridのClaude DMがワークスペース選択を無視する問題を修正し、最後にClaudeを開いた接続先で実行する。",
+                "[Claude Tag] チャンネル月額上限通知が、引き上げ可能な人をチャンネル管理者と誤記する問題を修正し、組織所有者と使用量ページを案内。",
+                "[Claude Tag] Slack返信のリンクが直後の太字・斜体記号や全角句読点を取り込み、リンクと書式を壊す問題を修正。",
+                "[Claude Tag] 管理設定のリポジトリ検索を接続済みGitHubアカウント最大100件・GitHub Appインストールの5,000件超のプライベートリポジトリまで拡張。",
+                "[Claude Tag] 管理設定のAdd placeで、組織のチャンネル一覧全読み込み前でも入力・貼り付けしたチャンネルをすぐ一覧表示するよう改善。",
+                "[Claude Tag] ワークスペース・チャンネルページのAdd > Domainを、全チャンネル読み込み後でなく当該ページ読み込み時点から利用可能に改善。",
+                "[Code Review] GitHub接続のために離脱した後、Code Review設定が再開しない問題を修正。管理設定へ戻るとリポジトリ選択画面を再表示する。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+          "urlLabel": "GitHub Releasesを開く"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "urlLabel": "GitHub Releasesを開く"
+    }
+  ],
+  "exclusions": [
+    "Xの検索にはログインが必要で、X MCPも利用できないため、公開プロフィールで確認できなかった投稿・返信は未確認。",
+    "公開日が窓外の公式記事とClaude Codeリリースを除外。10月16日付の公式記事6件は公開時刻不明で、対象期間との重なりを断定できない。",
+    "Claude Resources一覧はコードレビュー記事を10月16日付とする一方、記事本文は10月15日付。公開時刻も不明のため期間内の新規記事と断定せず、期間内の公式X投稿と統合。",
+    "量子回路研究に関するAnthropic公式X投稿は10月17日02:47 JSTで対象期間の開始前。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits"
+    },
+    {
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+    },
+    {
+      "title": "The AI expectations gap",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "title": "Working at the frontier shapes expectations for the future",
+      "url": "https://www.anthropic.com/research/expectations-for-the-future"
+    },
+    {
+      "title": "How an Anthropic Japan BDR runs his day with a fleet of Claude agents",
+      "url": "https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day"
+    },
+    {
+      "title": "Claude Code v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302"
+    },
+    {
+      "title": "Anthropic公式X: 量子回路",
+      "url": "https://x.com/AnthropicAI/status/2111152183240511640"
+    },
+    {
+      "title": "Claude公式X: プロジェクト紹介",
+      "url": "https://x.com/claudeai/status/2111177834127601902"
+    },
+    {
+      "title": "ClaudeDevs公式X: 応答速度",
+      "url": "https://x.com/ClaudeDevs/status/2111209208012210409"
+    },
+    {
+      "title": "ClaudeDevs公式X: コードレビュー",
+      "url": "https://x.com/ClaudeDevs/status/2111168901723906176"
+    },
+    {
+      "title": "Boris Cherny: Claude Slides",
+      "url": "https://x.com/bcherny/status/2111158659971699136"
+    },
+    {
+      "title": "Boris Cherny: Claude Code Review",
+      "url": "https://x.com/bcherny/status/2111158313463525518"
+    },
+    {
+      "title": "How the Claude Code team does code review（記事本文）",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+    }
+  ]
+}
