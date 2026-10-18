@@ -1,23 +1,23 @@
 {
   "date": "2026-10-18",
-  "windowLabel": "2026-10-16 23:55:40 UTC - 2026-10-17 23:55:40 UTC（JST: 2026年10月17日 08:55:40 - 10月18日 08:55:40）",
+  "windowLabel": "2026-10-17 06:02:10 UTC - 2026-10-18 06:02:10 UTC（JST: 2026年10月17日 15:02:10 - 10月18日 15:02:10）",
   "archiveTitle": "Claude news: no confirmed releases",
-  "archiveSummary": "対象期間内のClaude Codeリリースはなく、公式記事とXは確認範囲や公開時刻の制約を記録。",
-  "latestSummary": "直近24時間のClaude Codeリリースは0件。公式記事の一部は公開時刻が不明で、Xの検索は未確認。",
+  "archiveSummary": "対象期間内のClaude Codeリリースと公式ブログ記事は確認されず、Xは未確認。",
+  "latestSummary": "直近24時間のClaude Codeリリースは0件。公式ブログに対象期間の日付の新記事はなく、Xは取得できなかった。",
   "summaryBullets": [
     "<strong>Claude Code</strong>: 対象期間内のGitHubリリースは0件。最新のv2.1.302は期間開始前に公開。",
-    "<strong>公式ブログ</strong>: 各一覧に10月17日付の新記事は見当たらない。10月16日付のResearch・Claude Resources記事は公開時刻が不明で期間内か判定できない。",
-    "<strong>X</strong>: 公式3アカウントと一部エンジニアの公開プロフィールでは期間内の新規投稿を確認できず。X専用検索と他のエンジニアの投稿・返信は未確認。"
+    "<strong>公式ブログ</strong>: Engineering、Research、Anthropic News、Claude Resourcesの確認した一覧に10月17日・18日付の新記事は見当たらない。",
+    "<strong>X</strong>: 専用検索が利用できず、公開プロフィールへの取得も拒否されたため、公式アカウントとエンジニアの投稿は未確認。"
   ],
   "officialNews": [],
   "officialZeroStates": [
     {
       "label": "公式ブログの期間内記事は確認できず",
-      "body": "Engineering、Research、Anthropic News、Claude Resourcesの一覧を確認。Researchの10月16日付5件とClaude Resourcesの同日付記事は公開時刻が不明で、10月16日23:55:40 UTC以降に公開されたか判定できないため、期間内の記事として数えていない。"
+      "body": "Engineering、Research、Anthropic News、Claude Resourcesの一覧を確認。最新のResearchとClaude Resourcesの掲載記事は10月16日付で対象期間より前。Engineeringの注目記事は10月13日公開、10月15日更新。"
     },
     {
-      "label": "Xは一部のみ確認",
-      "body": "X MCPの検索機能が利用できず、公開プロフィールを直接確認。@AnthropicAI、@ClaudeAI、@ClaudeDevs、@bcherny、@trq212の表示された新規投稿は対象期間外だった。他の対象エンジニアや返信は網羅できず、未確認。"
+      "label": "Xの投稿は未確認",
+      "body": "X MCPの検索機能が利用できず、公式3アカウントと一部エンジニアの公開プロフィールも取得時に403となった。投稿や返信の有無は確認できていない。"
     }
   ],
   "signals": [],
@@ -25,33 +25,27 @@
     {
       "title": "ブログ",
       "headline": "期間内確認 0件",
-      "body": "公式一覧に10月17日付の新記事は見当たらない。10月16日付記事は時刻が不明で期間内か判定できない。",
+      "body": "公式一覧に10月17日・18日付の新記事は見当たらない。",
       "url": "https://www.anthropic.com/research",
       "urlLabel": "Research一覧を開く"
     },
     {
       "title": "Claude Code リリース",
       "headline": "0件",
-      "body": "GitHub CLIで公開日時を確認。最新のv2.1.302は2026年10月16日20:53:06 UTC公開で、対象期間の開始前。期間内リリースがないため、和訳・分類の対象項目はない。",
+      "body": "GitHub CLIで公開日時を確認。最新のv2.1.302は2026年10月16日20:53:06 UTC公開で対象期間の開始前。期間内リリースがないため、和訳・分類の対象項目はない。",
       "url": "https://github.com/anthropics/claude-code/releases",
       "urlLabel": "GitHub Releasesを開く"
     }
   ],
   "exclusions": [
-    "X MCPが利用できず検索と対象エンジニア全員の投稿・返信は確認できていない。",
-    "10月16日付のResearch 5件とClaude Resources記事は、公開時刻が不明で対象期間との重なりを判定できないため、確定した期間内記事に含めていない。",
-    "Claude Code v2.1.302と、確認した公式X・エンジニアXの旧投稿は対象期間開始前のため除外。"
+    "X MCPが利用できず公開プロフィールの取得も拒否されたため、公式・エンジニアの投稿と返信は未確認。",
+    "10月16日以前に公開された公式ブログ記事とClaude Code v2.1.302は対象期間開始前のため除外。"
   ],
   "sources": [
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
     {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
     {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Claude Code GitHub Releases", "url": "https://github.com/anthropics/claude-code/releases"},
-    {"title": "Anthropic公式X", "url": "https://x.com/AnthropicAI"},
-    {"title": "Claude公式X", "url": "https://x.com/claudeai"},
-    {"title": "ClaudeDevs公式X", "url": "https://x.com/ClaudeDevs"},
-    {"title": "Boris Cherny", "url": "https://x.com/bcherny"},
-    {"title": "Thariq", "url": "https://x.com/trq212"}
+    {"title": "Claude Code GitHub Releases", "url": "https://github.com/anthropics/claude-code/releases"}
   ]
 }
