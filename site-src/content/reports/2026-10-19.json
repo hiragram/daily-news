@@ -1,51 +1,75 @@
 {
   "date": "2026-10-19",
-  "windowLabel": "2026-10-17 17:58:13 UTC - 2026-10-18 17:58:13 UTC（JST: 2026年10月18日 02:58:13 - 10月19日 02:58:13）",
-  "archiveTitle": "Claude news: no confirmed releases",
-  "archiveSummary": "対象期間内のClaude Codeリリースと公式ブログ記事は確認されず、Xは未確認。",
-  "latestSummary": "直近24時間のClaude Codeリリースは0件。公式ブログに対象期間の日付の新記事は見当たらず、Xは取得できなかった。",
+  "windowLabel": "2026-10-17 23:56:14 UTC - 2026-10-18 23:56:14 UTC（JST: 2026年10月18日 08:56:14 - 10月19日 08:56:14）",
+  "archiveTitle": "Claude Code v2.1.303 and public benefit fund",
+  "archiveSummary": "Claude Code v2.1.303が公開され、Anthropicは公益基金の設立を発表。",
+  "latestSummary": "Claude Code v2.1.303の修正と、Anthropicの公益基金に関する発表を収録。Xは未確認。",
   "summaryBullets": [
-    "<strong>Claude Code</strong>: 対象期間内のGitHubリリースは0件。最新のv2.1.302は期間開始前に公開。",
-    "<strong>公式ブログ</strong>: 確認したEngineering、Research、Anthropic News、Claude Resourcesの一覧に10月17日・18日付の新記事は見当たらない。",
-    "<strong>X</strong>: 専用検索が利用できず、一部の公開プロフィールへの取得も拒否されたため、公式アカウントとエンジニアの投稿は未確認。"
+    "<strong>Claude Code v2.1.303</strong>: バグ修正と信頼性の改善。公式リリースノート1項目を和訳した。",
+    "<strong>Anthropic News</strong>: 公益基金に株式の一部を拠出する計画を発表。記事は10月18日付だが公開時刻は不明。",
+    "<strong>X</strong>: 専用検索を利用できず、公開プロフィールも取得を拒否されたため、公式アカウントとエンジニアの投稿は未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-18T00:00:00Z",
+      "displayTime": "2026年10月18日付（公開時刻不明）",
+      "title": "公益基金への株式拠出を発表",
+      "summary": "株主承認を前提にAnthropic Public Benefit Fundへ株式の5%を拠出し、一定の企業価値基準を超えて価値が50%増えるごとに取締役会の裁量で2%を追加する計画。基金は非営利団体への寄付や特定の人々への直接給付などを検討でき、保有株式をロビー活動や政治献金には使用しない。公開時刻は示されておらず、日付に基づく掲載。",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "urlLabel": "Anthropicの発表を開く",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "公式ブログの期間内記事は確認できず",
-      "body": "Engineering、Research、Anthropic News、Claude Resourcesの一覧を確認。ResearchとClaude Resourcesの最新一覧記事は10月16日付、Newsは10月15日付。Engineeringの注目記事は10月13日公開、10月15日更新。"
+      "label": "Engineering・Research・Claude Resources",
+      "body": "確認した各一覧では対象期間の日付の新記事を確認できなかった。Engineeringの注目記事は10月13日公開、10月15日更新。"
     },
     {
       "label": "Xの投稿は未確認",
-      "body": "X MCPの検索機能が利用できず、公式3アカウントと一部エンジニアの公開プロフィールも取得時に403となった。投稿や返信の有無は確認できていない。"
+      "body": "X MCPの検索機能が利用できず、公式3アカウントと一部エンジニアの公開プロフィールも403となった。投稿や返信の有無は確認できていない。"
     }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "期間内確認 0件",
-      "body": "確認した公式一覧に10月17日・18日付の新記事は見当たらない。",
-      "url": "https://www.anthropic.com/research",
-      "urlLabel": "Research一覧を開く"
+      "headline": "日付基準 1件",
+      "body": "Anthropic Newsが10月18日付で公益基金を発表。公開時刻は不明のため厳密な24時間への包含は未確認。Engineering、Research、Claude Resourcesの確認した一覧には対象日付の新記事はない。",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "urlLabel": "公益基金の発表を開く"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公開日時を確認。最新のv2.1.302は2026年10月16日20:53:06 UTC公開で対象期間の開始前。期間内リリースがないため、和訳・分類の対象項目はない。",
-      "url": "https://github.com/anthropics/claude-code/releases",
+      "headline": "v2.1.303",
+      "body": "GitHub CLIで公式リリース本文を全文取得。原文の箇条書き1件を和訳し、修正に分類した。",
+      "releases": [
+        {
+          "version": "v2.1.303",
+          "publishedAt": "2026年10月19日 07:26:54 JST（2026-10-18T22:26:54Z）",
+          "summary": "バグ修正と信頼性の改善。",
+          "sections": [
+            {"title": "修正", "items": ["バグを修正し、信頼性を改善。"]}
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+          "urlLabel": "GitHub Releasesを開く"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
       "urlLabel": "GitHub Releasesを開く"
     }
   ],
   "exclusions": [
-    "X MCPが利用できず一部公開プロフィールの取得も拒否されたため、公式・エンジニアの投稿と返信は未確認。",
-    "期間開始前に公開された公式ブログ記事とClaude Code v2.1.302は除外。"
+    "X MCPが利用できず、一部公開プロフィールの取得も拒否されたため、公式・エンジニアの投稿と返信は未確認。",
+    "期間開始前に公開された公式ブログ記事とClaude Code v2.1.302は除外。公益基金の記事は日付のみで厳密な公開時刻は不明。"
   ],
   "sources": [
+    {"title": "Anthropic Public Benefit Fund", "url": "https://www.anthropic.com/news/public-benefit-fund"},
     {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
     {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
     {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Claude Code GitHub Releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {"title": "Claude Code v2.1.303", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"}
   ]
 }
