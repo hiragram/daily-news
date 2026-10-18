@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "windowLabel": "2026-10-17 06:02:10 UTC - 2026-10-18 06:02:10 UTC（JST: 2026年10月17日 15:02:10 - 10月18日 15:02:10）",
+  "windowLabel": "2026-10-17 11:58:42 UTC - 2026-10-18 11:58:42 UTC（JST: 2026年10月17日 20:58:42 - 10月18日 20:58:42）",
   "archiveTitle": "Claude news: no confirmed releases",
   "archiveSummary": "対象期間内のClaude Codeリリースと公式ブログ記事は確認されず、Xは未確認。",
   "latestSummary": "直近24時間のClaude Codeリリースは0件。公式ブログに対象期間の日付の新記事はなく、Xは取得できなかった。",
@@ -42,10 +42,25 @@
     "10月16日以前に公開された公式ブログ記事とClaude Code v2.1.302は対象期間開始前のため除外。"
   ],
   "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Claude Code GitHub Releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code GitHub Releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
   ]
 }
