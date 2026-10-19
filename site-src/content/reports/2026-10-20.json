@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-20",
+  "windowLabel": "2026-10-18 17:58:18 UTC - 2026-10-19 17:58:18 UTC（JST: 2026年10月19日 02:58:18 - 10月20日 02:58:18）",
+  "archiveTitle": "Claude Code v2.1.303 and public benefit fund",
+  "archiveSummary": "Claude Code v2.1.303が公開され、Anthropicは公益基金の設立を発表。",
+  "latestSummary": "Claude Code v2.1.303の修正と、Anthropicの公益基金に関する発表を収録。Xは未確認。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.303</strong>: バグ修正と信頼性の改善。公式リリースノート1項目を和訳した。",
+    "<strong>Anthropic News</strong>: 公益基金に株式の一部を拠出する計画を発表。10月18日付だが公開時刻が不明で、対象24時間への包含は未確認。",
+    "<strong>X</strong>: 専用検索を利用できず、公開プロフィールも取得できなかったため、公式アカウントとエンジニアの投稿は未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-18T00:00:00Z",
+      "displayTime": "2026年10月18日付（公開時刻不明）",
+      "title": "公益基金への株式拠出を発表",
+      "summary": "株主承認を前提にAnthropic Public Benefit Fundへ株式の5%を拠出し、一定の企業価値基準を超えて価値が50%増えるごとに取締役会の裁量で2%を追加する計画。基金は非営利団体への寄付や特定の人々への直接給付などを検討でき、保有株式をロビー活動や政治献金には使用しない。公開時刻は示されておらず、対象24時間への包含は未確認。",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "urlLabel": "Anthropicの発表を開く",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering・Research",
+      "body": "確認した各一覧に対象期間の日付の新記事はない。EngineeringのScion記事は10月13日公開、10月15日更新。"
+    },
+    {
+      "label": "Claude Resourcesの日付の食い違い",
+      "body": "Scion記事は一覧に10月19日付で表示されるが、リンク先の本文では10月13日公開・10月15日更新とされている。対象期間の新規記事とは確認できない。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP検索が利用できず、公式3アカウントと一部エンジニアの公開プロフィールも取得できなかった。公式・エンジニアの投稿や返信の有無は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "日付基準 1件",
+      "body": "Anthropic Newsが10月18日付で公益基金を発表。公開時刻は不明のため厳密な24時間への包含は未確認。Claude Resourcesの10月19日付Scion記事はリンク先では10月13日公開・10月15日更新。",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "urlLabel": "公益基金の発表を開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.303",
+      "body": "GitHub CLIで公式リリース本文を全文取得。原文の箇条書き1件を和訳し、修正に分類した。",
+      "releases": [
+        {
+          "version": "v2.1.303",
+          "publishedAt": "2026年10月19日 07:26:54 JST（2026-10-18T22:26:54Z）",
+          "summary": "バグ修正と信頼性の改善。",
+          "sections": [
+            {
+              "title": "修正",
+              "items": [
+                "バグを修正し、信頼性を改善。"
+              ]
+            }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+          "urlLabel": "GitHub Releasesを開く"
+        }
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "urlLabel": "GitHub Releasesを開く"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用できず、一部公開プロフィールも取得できなかったため、公式・エンジニアの投稿と返信は未確認。",
+    "Claude Code v2.1.302は期間開始前のため除外。公益基金の記事は公開時刻不明で対象24時間への包含は未確認。",
+    "Scion記事はClaude Resources一覧で10月19日付だが、記事本文は10月13日公開・10月15日更新と記載するため、期間内の新規記事としては扱わない。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Public Benefit Fund",
+      "url": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code v2.1.303",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+    }
+  ]
+}
