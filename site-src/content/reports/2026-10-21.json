@@ -1,80 +1,69 @@
 {
   "date": "2026-10-21",
-  "windowLabel": "2026-10-19 17:58:45 UTC - 2026-10-20 17:58:45 UTC（JST: 2026年10月20日 02:58:45 - 10月21日 02:58:45）",
-  "archiveTitle": "Claude research on scorpion toxin binders",
-  "archiveSummary": "Claudeがサソリ神経毒に対するタンパク質バインダーを設計した研究結果をAnthropicが公開。",
-  "latestSummary": "Anthropic Researchの新しいClaude研究を収録。対象24時間内のClaude Codeリリースはなく、X投稿は検索機能未提供のため未確認。",
-  "summaryBullets": [
-    "<strong>Anthropic Research</strong>: Claudeがサソリ神経毒向けに設計した211件のタンパク質候補を実験評価し、17件がバインダー基準を満たした研究を公開。抗毒素としての有効性はまだ確認していない。",
-    "<strong>Claude Code</strong>: 最新のv2.1.304は2026-10-19T21:34:39Z公開で対象窓の開始前。窓内の新規リリースは<strong>0件</strong>。",
-    "<strong>X</strong>: 専用MCP検索がこの実行環境に提供されていないため、公式・エンジニア投稿と返信は未確認として記録した。"
-  ],
-  "officialNews": [
-    {
-      "label": "Anthropic Research",
-      "datetime": "2026-10-20T00:00:00Z",
-      "displayTime": "2026年10月20日付（公開時刻不明）",
-      "title": "Claudeがサソリ神経毒向けタンパク質バインダーを設計",
-      "summary": "Claude Science上の社内研究モデルが64時間で318,484件の設計候補を生成し、211件を実験評価した結果、17件がバインダー基準を満たした。Anthropicは全211設計とデータを公開する一方、細胞・動物での中和試験は未実施で、抗毒素を作ったとは主張していない。記事は10月20日付だが公開時刻が非表示のため、日付基準で対象窓に収録。",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-      "urlLabel": "Anthropic Researchを開く",
-      "primary": true
-    }
-  ],
-  "officialZeroStates": [
-    {
-      "label": "Engineering・News・Claude Resources",
-      "body": "公式一覧を確認したが、対象24時間内の日付で公開された新規記事は確認できなかった。Researchの記事1件のみを日付基準で収録した。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "X MCP検索がこの実行環境に提供されていないため、@AnthropicAI・@ClaudeAI・@ClaudeDevsと監視対象エンジニアの投稿・関連返信は確認できていない。"
-    }
-  ],
+  "windowLabel": "2026-10-19 23:56:16 UTC - 2026-10-20 23:56:16 UTC（JST: 2026年10月20日 08:56:16 - 10月21日 08:56:16）",
+  "archiveTitle": "Claude Code v2.1.305 and toxin-binder research",
+  "archiveSummary": "Claude Code v2.1.305の38項目の更新と、Claudeによるサソリ神経毒バインダー研究を収録。",
+  "latestSummary": "Claude Code v2.1.305を完全和訳し、Anthropic Researchのサソリ神経毒バインダー研究を収録。X投稿は検索機能未提供のため未確認。",
+  "summaryBullets": ["<strong>Claude Code v2.1.305</strong>: sandbox、再試行監視、VS Code、Claude Tag、Code Reviewを含む<strong>38項目</strong>を、新機能4件・変更12件・修正22件に分類して全件和訳。", "<strong>Anthropic Research</strong>: Claudeがサソリ神経毒向けタンパク質バインダーを設計・実験評価した研究を公開。記事の公開時刻は非表示のため、10月20日付に基づき収録。", "<strong>X</strong>: 専用MCP検索がこの実行環境に提供されていないため、公式・エンジニア投稿と関連返信は未確認として記録。"],
+  "officialNews": [{"label":"Anthropic Research","datetime":"2026-10-20T00:00:00Z","displayTime":"2026年10月20日付（公開時刻不明）","title":"Claudeがサソリ神経毒向けタンパク質バインダーを設計","summary":"Claude Science上の社内研究モデルが64時間で318,484件の設計候補を生成し、211件を実験評価した結果、17件がバインダー基準を満たした。Anthropicは全211設計とデータを公開する一方、細胞・動物での中和試験は未実施で、抗毒素を作ったとは主張していない。記事は10月20日付だが公開時刻が非表示のため、日付基準で対象窓に収録。","url":"https://www.anthropic.com/research/claude-scorpion-toxin-binder-design","urlLabel":"Anthropic Researchを開く","primary":true}],
+  "officialZeroStates": [{"label":"Engineering・News・Claude Resources","body":"公式一覧を確認したが、対象24時間内の日付で公開された新規記事は確認できなかった。Researchの記事1件のみを日付基準で収録した。"},{"label":"Xの投稿は未確認","body":"X MCP検索がこの実行環境に提供されていないため、@AnthropicAI・@ClaudeAI・@ClaudeDevsと監視対象エンジニアの投稿・関連返信は確認できていない。"}],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "日付基準 1件",
-      "body": "Anthropic Researchが、Claudeによるサソリ神経毒向けタンパク質バインダー設計と実験評価の結果を10月20日付で公開。公開時刻は示されていないため、対象窓への包含は記事の可視日付に基づく。",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-      "urlLabel": "研究記事を開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリースを確認。最新のv2.1.304は2026年10月20日 06:34:39 JST（2026-10-19T21:34:39Z）公開で対象窓の開始前のため、窓内リリースはない。"
-    }
+    {"title":"ブログ","headline":"日付基準 1件","body":"Anthropic Researchが、Claudeによるサソリ神経毒向けタンパク質バインダー設計と実験評価の結果を10月20日付で公開。公開時刻は示されていないため、対象窓への包含は記事の可視日付に基づく。","url":"https://www.anthropic.com/research/claude-scorpion-toxin-binder-design","urlLabel":"研究記事を開く"},
+    {"title":"Claude Code リリース","headline":"v2.1.305","body":"GitHub CLIで公式リリース本文を完全取得し、38個の箇条書きを新機能4件、変更12件、修正22件に分類して全件和訳した。","releases":[{"version":"v2.1.305","publishedAt":"2026年10月21日 05:46:50 JST（2026-10-20T20:46:50Z）","summary":"Linux sandbox、利用上限再試行、ゲートウェイ、worktree、Cloud、Claude Tag、Code Reviewを更新・修正。","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.305","urlLabel":"GitHubリリースを開く","sections":[
+      {"title":"新機能","items":[
+        "Linuxのsandboxed commandがユーザー名前空間を作成できるようにする<code>sandbox.allowNestedUserNamespaces</code>を追加（Chromiumやrootless Podman向け。sandboxのファイル保護を回避できる）。",
+        "無人再試行モード（<code>CLAUDE_CODE_RETRY_WATCHDOG</code>）が、リセット前に解除された利用上限を検知できる<code>CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS</code>を追加。",
+        "[VS Code] SessionStartまたはSetup hookの実行中に、スクリーンリーダー通知付きの「Running start-up hooks」スピナーを追加。",
+        "[Claude Tag] Claudeが未参加の公開Slackチャンネルも管理画面の追加先検索に表示し、管理者がそこから設定できるようにした。"
+      ]},
+      {"title":"変更","items":[
+        "<code>/usage</code>の各警告を出所を示す1行の修正案に改善し、<code>f</code>で適用可能にした。同じ修正案をVS Codeと<code>/doctor</code>にも表示。",
+        "MCP同意ダイアログを改善し、プロンプト入力向けのEnterがAcceptとして扱われにくくした。",
+        "modの<code>Image</code>をiTerm2 3.5以降で全画面描画し、altテキストだけでなく画像を表示するようにした。",
+        "Remote Controlのspawnモード表示を改善。<code>w</code>でフォルダへの保存を示し、保存済みモードでの起動時には出所を表示する。",
+        "<code>allowedMcpServers</code>が、<code>env</code>だけで<code>${VAR}</code>を使う<code>managed-mcp.json</code>のstdio serverをフィルタしないよう変更。除外するには<code>deniedMcpServers</code>を使う。",
+        "Claude Desktopがパスでマウントするpluginは、組織の管理設定で<code>allowManagedPermissionRulesOnly</code>が有効な場合、<code>allowed-tools</code>を保持しないよう変更。",
+        "<code>/artifacts</code>の削除確認を変更。1またはEnterで保持、2で削除、Escでキャンセルし、<code>y</code>と<code>n</code>は使わない。",
+        "modのdocked paneの幅を、広い端末で保持された幅も含め端末幅の45%以内に制限。",
+        "[VS Code] hook実行中でないタイムアウト時の案内を変更し、サインインやネットワークより先に出力ログと原因候補を示すようにした。",
+        "[Cloud sessions] self-hosted environment削除時のダイアログとエラーを改善し、削除を妨げる要因と影響範囲を明示。",
+        "[Claude Tag] 大規模組織の管理画面を改善し、チャンネル一覧の読み込み中でもplugin・skill・bundleを編集できるようにした。",
+        "[Code Review] 再レビューが、以前のブロッキング指摘が未解決の間はLGTMで始まらないよう変更。"
+      ]},
+      {"title":"修正","items":[
+        "Vertex、Bedrockなどでendpointまたはgatewayがtool searchを拒否した場合、またはgatewayでToolSearchが禁止・<code>--tools</code>から省略された場合に全リクエストが失敗する2.1.304の回帰を修正。tool searchなしで再試行する。",
+        "<code>/effort</code>と<code>/autocompact</code>が、model名と<code>modelOverrides</code>値の大文字小文字や<code>[1m]</code>タグだけが異なる場合に適用されない問題を修正。",
+        "bare repositoryの新規worktreeが既定ブランチではなくローカルHEADから始まることがある問題と、未変更subagent worktreeが掃除されないことがある問題を修正。",
+        "ディスク満杯時のBash commandが生の<code>ENOSPC</code>パスで失敗する問題を修正。ディスクが満杯で何も実行されなかったことを示す。",
+        "Cloud sessionまたはSDKの<code>setMcpServers</code>で渡したMCP serverが、後から同名の個人設定serverで置き換えられる問題を修正。",
+        "fallback modelへ切り替えたsubagentについて、Claudeが誤ったmodel名を表示する問題を修正。",
+        "Cloud sessionとteammateが、要約に収めるためcompactionが最古メッセージを除外したことをClaudeに伝えない問題を修正。",
+        "WebFetchのURL承認を求められるsubagentごとにscheduled Cowork cloud sessionが5分待つ追加ケースを修正。",
+        "Workflow resumeが完了済みの<code>pipeline()</code>および<code>parallel()</code> agentをjournalから返さず再実行する問題を修正。",
+        "Remote Controlで<code>/resume</code>により会話を切り替えた後、空の「(session)」エントリが残る問題を修正。",
+        "狭い端末で<code>/usage</code>の行が切れる問題を修正。",
+        "起動時警告がロゴの上に生テキストで表示される問題を修正。debug logへ送信し、何も制限しない権限ルールはbanner下の警告行に表示。",
+        "スクリーンリーダーモードで検索欄が記号を「telephone recorder」と読む問題と、Ctrl+Rの一致や<code>ultrathink</code>などの強調プロンプト内に空白が入る問題を修正。",
+        "Self-hosted runnerで、stdoutのみを共有するstart scriptが<code>TERM</code>設定時に<code>Resource temporarily unavailable</code>で失敗する2.1.300の回帰を修正。",
+        "Self-hosted runnerで、git credential helperまたはaskpassが<code>GIT_CONFIG</code>経由で設定を読む場合に、2.1.296以降repository accessが失敗する問題を修正。",
+        "Self-hosted runnerで、background起動runnerが出力を開いたままにするとorchestratorがspawn-runner hookをtimeoutと報告する問題を修正。",
+        "[VS Code] <code>spinnerVerbs</code>設定が組み込み動詞を短いものに置き換えたとき、「Compacting...」が切れる問題を修正。",
+        "[Cloud sessions] Cloud environments管理画面が、既存environmentを「installs packages」エラーで誤って保存拒否する問題を修正。",
+        "[Claude Tag] 別GitHub accountへ移動したrepositoryをaccess bundleに再追加できない問題を修正。",
+        "[Claude Tag] Slack DM threadで設定したroutineが、別routineによる会話再開後に投稿しなくなる問題を修正。両方とも同スレッドへ投稿を継続する。",
+        "[Claude Tag] Slack threadのroutineが会話終了後に投稿せず成功と報告する問題を修正。該当runをskipし、作成者へ通知する。",
+        "[Code Review] review中にpull requestへ複数pushが入ると最新commitをreviewしないことがある問題を修正。"
+      ]}
+    ]}]}
   ],
-  "exclusions": [
-    "X MCPがこの実行環境に提供されていないため、公式・エンジニアの投稿と関連返信は未確認。",
-    "Claude Code v2.1.304は対象期間開始前に公開されたため除外。",
-    "Research記事の公開時刻は公式ページに表示されないため、可視の2026年10月20日付を対象窓への収録根拠とした。"
-  ],
+  "exclusions": ["X MCPがこの実行環境に提供されていないため、公式・エンジニアの投稿と関連返信は未確認。", "Claude Code v2.1.304は対象期間開始前に公開されたため除外。", "Research記事の公開時刻は公式ページに表示されないため、可視の2026年10月20日付を対象窓への収録根拠とした。"],
   "sources": [
-    {
-      "title": "How Claude designed protein binders against scorpion neurotoxins",
-      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
-    },
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title":"How Claude designed protein binders against scorpion neurotoxins","url":"https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"},
+    {"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},
+    {"title":"Anthropic Research","url":"https://www.anthropic.com/research"},
+    {"title":"Anthropic News","url":"https://www.anthropic.com/news"},
+    {"title":"Claude Resources","url":"https://claude.com/resources/articles"},
+    {"title":"Claude Code v2.1.305 release","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.305"}
   ]
 }
