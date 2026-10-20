@@ -1,107 +1,100 @@
 {
   "date": "2026-10-20",
-  "windowLabel": "2026-10-18 17:58:18 UTC - 2026-10-19 17:58:18 UTC（JST: 2026年10月19日 02:58:18 - 10月20日 02:58:18）",
-  "archiveTitle": "Claude Code v2.1.303 and public benefit fund",
-  "archiveSummary": "Claude Code v2.1.303が公開され、Anthropicは公益基金の設立を発表。",
-  "latestSummary": "Claude Code v2.1.303の修正と、Anthropicの公益基金に関する発表を収録。Xは未確認。",
-  "summaryBullets": [
-    "<strong>Claude Code v2.1.303</strong>: バグ修正と信頼性の改善。公式リリースノート1項目を和訳した。",
-    "<strong>Anthropic News</strong>: 公益基金に株式の一部を拠出する計画を発表。10月18日付だが公開時刻が不明で、対象24時間への包含は未確認。",
-    "<strong>X</strong>: 専用検索を利用できず、公開プロフィールも取得できなかったため、公式アカウントとエンジニアの投稿は未確認。"
-  ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-10-18T00:00:00Z",
-      "displayTime": "2026年10月18日付（公開時刻不明）",
-      "title": "公益基金への株式拠出を発表",
-      "summary": "株主承認を前提にAnthropic Public Benefit Fundへ株式の5%を拠出し、一定の企業価値基準を超えて価値が50%増えるごとに取締役会の裁量で2%を追加する計画。基金は非営利団体への寄付や特定の人々への直接給付などを検討でき、保有株式をロビー活動や政治献金には使用しない。公開時刻は示されておらず、対象24時間への包含は未確認。",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "urlLabel": "Anthropicの発表を開く",
-      "primary": true
-    }
-  ],
-  "officialZeroStates": [
-    {
-      "label": "Engineering・Research",
-      "body": "確認した各一覧に対象期間の日付の新記事はない。EngineeringのScion記事は10月13日公開、10月15日更新。"
-    },
-    {
-      "label": "Claude Resourcesの日付の食い違い",
-      "body": "Scion記事は一覧に10月19日付で表示されるが、リンク先の本文では10月13日公開・10月15日更新とされている。対象期間の新規記事とは確認できない。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "X MCP検索が利用できず、公式3アカウントと一部エンジニアの公開プロフィールも取得できなかった。公式・エンジニアの投稿や返信の有無は確認できていない。"
-    }
-  ],
+  "windowLabel": "2026-10-19 00:05:50 UTC - 2026-10-20 00:05:50 UTC（JST: 2026年10月19日 09:05:50 - 10月20日 09:05:50）",
+  "archiveTitle": "Claude Code v2.1.304",
+  "archiveSummary": "Claude Code v2.1.304でmod、auto mode、Code Reviewなどの機能追加と多数の修正が公開された。",
+  "latestSummary": "Claude Code v2.1.304の公式リリースノート76項目を、新機能・変更・修正に分けて全件和訳した。",
+  "summaryBullets": ["<strong>Claude Code v2.1.304</strong>: 76項目の公式リリースノートを全文取得し、<strong>新機能 10件・変更 22件・修正 44件</strong>として全件和訳した。", "<strong>公式ブログ</strong>: Resources一覧のScion記事は10月13日公開・10月15日更新であり、新規記事には含めない。", "<strong>X</strong>: 専用MCP検索がこの実行環境に提供されていないため、公式・エンジニア投稿は未確認として記録した。"],
+  "officialNews": [],
+  "officialZeroStates": [{"label":"Engineering・Research・News・Claude Resources", "body":"公式一覧を確認したが、厳密な対象24時間内に公開された新規記事は確認できなかった。Claude ResourcesのScion記事は一覧で10月19日付だが、本文では10月13日公開・10月15日更新。"}, {"label":"Xの投稿は未確認", "body":"X MCP検索がこの実行環境に提供されていないため、@AnthropicAI・@ClaudeAI・@ClaudeDevsと監視対象エンジニアの投稿・返信は確認できていない。"}],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "日付基準 1件",
-      "body": "Anthropic Newsが10月18日付で公益基金を発表。公開時刻は不明のため厳密な24時間への包含は未確認。Claude Resourcesの10月19日付Scion記事はリンク先では10月13日公開・10月15日更新。",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "urlLabel": "公益基金の発表を開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "v2.1.303",
-      "body": "GitHub CLIで公式リリース本文を全文取得。原文の箇条書き1件を和訳し、修正に分類した。",
-      "releases": [
-        {
-          "version": "v2.1.303",
-          "publishedAt": "2026年10月19日 07:26:54 JST（2026-10-18T22:26:54Z）",
-          "summary": "バグ修正と信頼性の改善。",
-          "sections": [
-            {
-              "title": "修正",
-              "items": [
-                "バグを修正し、信頼性を改善。"
-              ]
-            }
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-          "urlLabel": "GitHub Releasesを開く"
-        }
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
-      "urlLabel": "GitHub Releasesを開く"
-    }
+    {"title":"ブログ", "headline":"0件", "body":"Engineering、Research、News、Claude Resourcesを確認した。Resources一覧のScion記事は10月19日付表示だが、本文の公開日は10月13日、更新日は10月15日のため、新規記事としては扱わない。", "url":"https://claude.com/resources/articles", "urlLabel":"Claude Resourcesを開く"},
+    {"title":"Claude Code リリース", "headline":"v2.1.304", "body":"GitHub CLIで公式リリース本文を完全取得し、76個の箇条書きを新機能10件、変更22件、修正44件に分類して全件和訳した。", "releases":[{"version":"v2.1.304", "publishedAt":"2026年10月20日 06:34:39 JST（2026-10-19T21:34:39Z）", "summary":"mod、auto mode、Code Review、VS Codeを拡張し、セッション、sandbox、plugins、Cloud、Claude Tagを含む多数の不具合を修正。", "sections":[
+      {"title":"新機能", "items":[
+        "先に実行されるpluginがmodのhookをスキップしたとき、イベント名とplugin名をtranscriptに表示。",
+        "modの`tool.check`応答に`decider: \"person\"`を追加。permission dialogまたはhost callbackだけが承認でき、尋ねる相手がいない場合はmodの理由で拒否する。",
+        "tool callがread-onlyのときに設定される`e.isReadOnly`を、modの`tool.check` eventへ追加。",
+        "プロジェクトと最近のsessionを読み、環境をauto modeへ教えるガイド付き`/auto-mode-setup`を追加。Bedrock、Vertex、Foundry、Claude apps gateway、telemetry無効sessionでも利用可能。",
+        "Managed Agents agent設定をAnthropic公開のsecurity guideと比較し、変更は行わない`/claude-api managed-agents-secure`を追加。",
+        "transcript view（Ctrl+O）のcompaction summaryに、それ以前に呼び出したtool名を追加。",
+        "Pro・Maxで非アクティブconversationのresumeが5時間利用枠を大きく使う場合に警告を追加。resumeするか、新規conversationで以前の会話を参照できる。",
+        "[VSCode] Bedrock、Vertex、Foundry、LLM gateway、telemetry無効環境のsessionでもchat panelにmod drawingを表示。",
+        "[Code Review] 組織のreview levelとしてQuick、Standard（既定）、Deepを追加し、repository単位の上書きも可能にした。",
+        "[Code Review] GitHub organizationの全repository（後から追加されるものを含む）を一括review対象にするadmin設定を追加。"
+      ]},
+      {"title":"変更", "items":[
+        "`/usage`がusage dataのrate limit終了時刻を「しばらくして再試行」ではなく表示するよう改善。",
+        "session内で作成したmodのload・reload・load失敗時に表示する行を改善。",
+        "複数viewを持つartifactでリンクを求めた際、各viewのリンクと、view切替中もaddress barは変わらないことを出力するよう改善。",
+        "cloud sessionの新規conversation初回turnが、claude.aiから同期したpluginのlocal（stdio）MCP serverを待たないよう改善（`alwaysLoad: true`のserverを除く）。",
+        "他のsession dataを伴うstatus updateをserverが拒否したときのremote sessionのstatus復旧を改善。",
+        "auto modeのsession fileを縮小し、safety classifierのcontextを各requestに保存しないよう改善。",
+        "`claude -p`のinvalid-settings警告を改善し、読込失敗fileは原因だけを表示、長い一覧はfileごとに上限を設ける。",
+        "SDK・headless modeで大きくcompactionされたsessionをresumeする際、最初のrequestを早く送るよう改善。",
+        "多数のsubagentを同時実行したときの応答性とthroughputを改善。",
+        "長いconversationやresume済みconversationでrequest送信時のmemory使用量を改善。",
+        "Self-hosted runnerでgit hostがsessionのrepositoryに`not found`を返す際、repository名と相談先を明示するよう改善。",
+        "Windowsで標準のGit for Windowsを使う際、cmd launcher経由でなくgit.exeを直接起動してgit commandの開始を改善。",
+        "modの`settings.read` hookが各settings layerを受け、merged settingsを書き換えられるよう変更。managed modは組織設定を上限にでき、retention sweepの`cleanupPeriodDays`にも適用できる。",
+        "`/artifacts`の削除確認を番号選択に変更。1またはEnterで保持、2で削除、y/n/Escも引き続き利用可能。",
+        "sessionでClaudeが書いたmodを有効化する質問をlink・session idなしのplain textに変更。新turn開始後も残り、有効化時にload内容を通知する。",
+        "custom `ANTHROPIC_BASE_URL`の背後でもtool searchを既定で有効化。gatewayから400/422を受けた場合はtool searchなしで再試行する。",
+        "compaction後にClaudeへskill listを再送するよう変更し、`/reload-skills`は新規または変更済みskillだけを送る。",
+        "skill hookの上限を、sourceごとにsessionあたり1,024 hook・matcher文字16,384文字へ変更。",
+        "plugin由来hookだけを許可するpolicy下で、main conversationで使うskillはhookが除外される場合に`allowed-tools`を得ないよう変更。",
+        "`/claude-api` skillを更新し、AWS上のClaude PlatformではSDKやcurlへのfallbackではなく`ant` CLIを使うよう変更。",
+        "`claude plugin validate`から、mod hookの実行場所を予測するnoteを削除。",
+        "Opus 5.5の`/fast` dialog titleから「(research preview)」表記を削除。"
+      ]},
+      {"title":"修正", "items":[
+        "起動時に`ANTHROPIC_API_KEY`を承認、または`/config`でcustom API keyを切り替えた後、organization policyが毎時チェックまで更新されない問題を修正。",
+        "Linuxで`[user-id]` route folderのようにcharacter classではない角括弧を含む`sanbox.filesystem.denyRead` globによりsandbox commandが起動できない問題を修正。",
+        "mounted driveやその最上位folder（`/Volumes`、`/media`、WSLの`/mnt/c`）への`rm -r`で安全確認が出ない問題を修正。",
+        "disk満杯中にfile trimが起きると`CLAUDE_CODE_TRANSCRIPT_LOCAL_GC`が保存済みtranscriptからmessageを落とす問題を修正。",
+        "pluginがsubagent起動や完了済みagentの再実行で、headless runを`--max-turns`、Stop、input終了後も継続させられる問題を修正。",
+        "mod reload失敗時に残るversionのtool・commandを消し、以前のversionがloadされたかのmessageが誤る／無言になる問題を修正。",
+        "同じlabelで`key`のないbuttonが再描画された際、mod buttonのclickが失われる問題を修正。",
+        "managed settings環境およびTeam・Enterprise planで、built-in `plugin-authoring` skillのmod sharingがsecret scanで停止する問題を修正。",
+        "URL承認の相手がいないWebFetchをsubagentが必要とすると、scheduled Cowork cloud sessionがsubagentごとに再び5分待つ問題を修正。",
+        "working directory外のfileでWrite結果や拒否editが`../../…`と表示される問題を修正し、`~/…`またはfull pathを表示。",
+        "Cowork cloud sessionでclaude.ai Directory pluginのskillが`/` menuから選んでもcommandとして動かない問題を修正。",
+        "terminalに別accountでsign inするとRemote Controlがdesktop conversation historyを恒久的に隠す問題を修正。",
+        "有料planで`DISABLE_TELEMETRY`または`DO_NOT_TRACK`設定時にClaude DesktopからRemote Controlを開始できない問題を修正。",
+        "SDK・desktop sessionでmodel切替、message、interruptがcontext usage checkの後ろで待たされる問題を修正。",
+        "LLM gateway背後で`context_management: Extra inputs are not permitted`が出る問題を修正し、fieldなしでrequestを再送する。",
+        "server-managed settings経由のOpenTelemetry設定が、初回setupまたは`/logout`後の最初のstartでsign inするとsession全体で無視される問題を修正。",
+        "macOS・LinuxのClaude Desktop Code tab sessionで、unsandboxed Bash commandがshell startup fileのenvironment variableを見られない問題を修正。",
+        "server error後にConsumer Terms noticeが1日以上skipされる問題を修正。",
+        "networkまたはserver error後に`/privacy-settings`が適用されない可能性のある選択肢を提示する問題を修正。",
+        "APIが長すぎると拒否したconversationのcompaction中にturnをstopすると、context limit errorが出る問題を修正。",
+        "subagentが完了直後にmessageまたはresumeされると、直近の作業を忘れることがある問題を修正。",
+        "`claude --help`の`--tools`、`--resume`、`--debug`、`--json-schema`、`--disable-slash-commands`、`--system-prompt-snapshot`、`claude update`を実際の挙動に合わせて修正。",
+        "`claude --worktree`がdetached HEADまたは別branchで終了すると、確認なしにworktreeとbranchを削除しcommitを失うおそれがある問題を修正。",
+        "resume済み・cloud sessionでstartup時にplugin reloadのたびClaudeへ全skill listを再送する問題を修正。",
+        "idle pipeやimageのような名前のdeviceを待つReadをinterruptしても終了しない問題を修正。",
+        "`CLAUDE_CODE_EFFORT_LEVEL`が`auto`または`unset`でlevel未送信のとき、effort indicatorが推測levelを示す問題を修正。",
+        "同一tool callのAgent SDK callback hookがtimeoutすると、PreToolUse hookのdeny reasonがtimeout errorに置換される問題を修正。",
+        "disk満杯以外でlarge commandのoutput fileをtool-results folderへcopyできない際、Bash・PowerShellがfileを削除する問題を修正。",
+        "約100column未満のterminalでpreview付きmultiple-choice questionのnoteが`…`で切れ、入力内容が隠れる問題を修正（#82768）。",
+        "最大1時間でscheduleしたself-paced `/loop` wakeupがprompt cache失効直後に発火し、uncachedでconversationを再読込する問題を修正。",
+        "agent teamsでmain sessionからshutdown requestを承認するとCLI全体が終了する問題を修正。",
+        "skillの`once` hook実行後に別skillの同一hookも削除される問題を修正。",
+        "transcript modeの`{`と`}`でpromptが不整合なrowや画面外になり、transcript先頭rowへ行かない問題を修正。",
+        "`CLAUDE_CODE_AUTO_COMPACT_WINDOW=200k`が黙って100Kを設定する問題を修正。`k`・`M` suffixを受け、範囲外／無視値は警告する。",
+        "agents viewでmouse buttonを離す前にCtrl+Cを押すと、text selectionがcopyされず消える問題を修正。",
+        "[VSCode] SessionStart command hookの実行時間が60秒起動上限に算入され、session開始に失敗する一因を修正。hookは合計10分まで上限に算入しない。",
+        "[VSCode] 起動中にcloseしたsessionが、起動完了までClaude Code processを残す問題を修正。",
+        "[VSCode] 古いClaude Codeも動くmachineで、長時間開いたpanelのmod drawingが次turnまで消える問題を修正。",
+        "[VSCode] `claudeCode.claudeProcessWrapper`設定時にPast conversationsがsessionを隠す問題を修正。",
+        "[VSCode] background subagentの各stepをchatへstreamせずAgent card下のstatus line 1行にし、full transcriptは`/tasks`に残すよう変更。",
+        "[Cloud sessions] composerの@ listのfolder名が表示されず、選択してもspaceだけ追加される問題を修正。",
+        "[Claude Tag] Enterprise Grid workspace間でchannelがsharedになった途中にClaudeがthreadで無言になる問題を修正し、新threadで@mentionするone-time noteを投稿する。",
+        "[Claude Tag] thread外で`@Claude !fork`と入力するとvisible replyがない問題を修正し、thread内で実行するようprivate noteを示す。",
+        "[Code Review] adminがCode Reviewを有効化した直後1〜2分に作成されたpull requestが黙ってskipされる問題を修正し、再試行してreviewする。"
+      ]}
+    ], "url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.304", "urlLabel":"GitHub Releasesを開く"}], "url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.304", "urlLabel":"GitHub Releasesを開く"}
   ],
-  "exclusions": [
-    "X MCPが利用できず、一部公開プロフィールも取得できなかったため、公式・エンジニアの投稿と返信は未確認。",
-    "Claude Code v2.1.302は期間開始前のため除外。公益基金の記事は公開時刻不明で対象24時間への包含は未確認。",
-    "Scion記事はClaude Resources一覧で10月19日付だが、記事本文は10月13日公開・10月15日更新と記載するため、期間内の新規記事としては扱わない。"
-  ],
-  "sources": [
-    {
-      "title": "Anthropic Public Benefit Fund",
-      "url": "https://www.anthropic.com/news/public-benefit-fund"
-    },
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Claude Code v2.1.303",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://www.anthropic.com/engineering/redesigning-source-control"
-    }
-  ]
+  "exclusions": ["X MCPがこの実行環境に提供されていないため、公式・エンジニアの投稿と返信は未確認。", "Claude Resources一覧のScion記事は10月19日付表示だが、本文は10月13日公開・10月15日更新のため、新規記事から除外。", "Claude Code v2.1.303は対象期間開始前、v2.1.304のみが対象期間内。"],
+  "sources": [{"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},{"title":"Anthropic Research","url":"https://www.anthropic.com/research"},{"title":"Anthropic News","url":"https://www.anthropic.com/news"},{"title":"Claude Resources","url":"https://claude.com/resources/articles"},{"title":"Redesigning source control at Anthropic","url":"https://www.anthropic.com/engineering/redesigning-source-control"},{"title":"Claude Code v2.1.304","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.304"}]
 }
