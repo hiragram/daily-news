@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-21",
+  "windowLabel": "2026-10-19 17:58:45 UTC - 2026-10-20 17:58:45 UTC（JST: 2026年10月20日 02:58:45 - 10月21日 02:58:45）",
+  "archiveTitle": "Claude research on scorpion toxin binders",
+  "archiveSummary": "Claudeがサソリ神経毒に対するタンパク質バインダーを設計した研究結果をAnthropicが公開。",
+  "latestSummary": "Anthropic Researchの新しいClaude研究を収録。対象24時間内のClaude Codeリリースはなく、X投稿は検索機能未提供のため未確認。",
+  "summaryBullets": [
+    "<strong>Anthropic Research</strong>: Claudeがサソリ神経毒向けに設計した211件のタンパク質候補を実験評価し、17件がバインダー基準を満たした研究を公開。抗毒素としての有効性はまだ確認していない。",
+    "<strong>Claude Code</strong>: 最新のv2.1.304は2026-10-19T21:34:39Z公開で対象窓の開始前。窓内の新規リリースは<strong>0件</strong>。",
+    "<strong>X</strong>: 専用MCP検索がこの実行環境に提供されていないため、公式・エンジニア投稿と返信は未確認として記録した。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic Research",
+      "datetime": "2026-10-20T00:00:00Z",
+      "displayTime": "2026年10月20日付（公開時刻不明）",
+      "title": "Claudeがサソリ神経毒向けタンパク質バインダーを設計",
+      "summary": "Claude Science上の社内研究モデルが64時間で318,484件の設計候補を生成し、211件を実験評価した結果、17件がバインダー基準を満たした。Anthropicは全211設計とデータを公開する一方、細胞・動物での中和試験は未実施で、抗毒素を作ったとは主張していない。記事は10月20日付だが公開時刻が非表示のため、日付基準で対象窓に収録。",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "urlLabel": "Anthropic Researchを開く",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering・News・Claude Resources",
+      "body": "公式一覧を確認したが、対象24時間内の日付で公開された新規記事は確認できなかった。Researchの記事1件のみを日付基準で収録した。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP検索がこの実行環境に提供されていないため、@AnthropicAI・@ClaudeAI・@ClaudeDevsと監視対象エンジニアの投稿・関連返信は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "日付基準 1件",
+      "body": "Anthropic Researchが、Claudeによるサソリ神経毒向けタンパク質バインダー設計と実験評価の結果を10月20日付で公開。公開時刻は示されていないため、対象窓への包含は記事の可視日付に基づく。",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "urlLabel": "研究記事を開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで公式リリースを確認。最新のv2.1.304は2026年10月20日 06:34:39 JST（2026-10-19T21:34:39Z）公開で対象窓の開始前のため、窓内リリースはない。"
+    }
+  ],
+  "exclusions": [
+    "X MCPがこの実行環境に提供されていないため、公式・エンジニアの投稿と関連返信は未確認。",
+    "Claude Code v2.1.304は対象期間開始前に公開されたため除外。",
+    "Research記事の公開時刻は公式ページに表示されないため、可視の2026年10月20日付を対象窓への収録根拠とした。"
+  ],
+  "sources": [
+    {
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
