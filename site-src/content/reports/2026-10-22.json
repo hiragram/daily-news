@@ -1,105 +1,29 @@
 {
-  "date": "2026-10-22",
-  "windowLabel": "2026-10-20 17:55:55 UTC - 2026-10-21 17:55:55 UTC（JST: 2026年10月21日 02:55:55 - 10月22日 02:55:55）",
-  "archiveTitle": "Claude Security updates and Code releases",
-  "archiveSummary": "Claude Securityの継続スキャン機能と、Claude Code v2.1.306・v2.1.305の全リリースノートを収録。",
-  "latestSummary": "Claude Securityの継続監視・API/MCP連携を公開。Claude Codeは対象24時間に2リリース、計40項目を全件和訳。",
-  "summaryBullets": [
-    "<strong>Claude Security</strong>: 継続スキャン、修正追跡、チーム知識の反映、API・MCP連携を備えたパブリックベータを公開。",
-    "<strong>Claude Code v2.1.306</strong>: Cloud sessionと多数のMCP tool利用時に起きる2件の不具合を修正。",
-    "<strong>Claude Code v2.1.305</strong>: Linux sandbox、リトライ監視、プロバイダー互換性などの新機能・変更4件と修正34件を全件収録。",
-    "<strong>公式ニュース</strong>: Long-Term Benefit Trustに物理学者Christopher Stubbsが参加。"
+  "date":"2026-10-22",
+  "windowLabel":"2026-10-21 06:02:08 UTC - 2026-10-22 06:02:08 UTC（JST: 2026年10月21日 15:02:08 - 10月22日 15:02:08）",
+  "archiveTitle":"Claude Duet preview and Code releases",
+  "archiveSummary":"Claude Duetの研究プレビューと、Claude Code v2.1.307・v2.1.308の全リリースノートを収録。",
+  "latestSummary":"Claude Duetの研究プレビューと、Claude Codeの2リリース計44項目を確認。X投稿は未確認。",
+  "summaryBullets":["<strong>Claude Duet</strong>: USのPro・Max利用者向け研究プレビューをウェイトリストで開始。","<strong>Claude Code v2.1.308</strong>: バグ修正と信頼性を改善。","<strong>Claude Code v2.1.307</strong>: 3件を追加し40件を変更・修正。全44項目を和訳。","<strong>公式記事</strong>: HCLTech提携、Claude Security、Long-Term Benefit Trust人事を確認。"],
+  "officialNews":[
+    {"label":"Claude Resources","datetime":"2026-10-21T00:00:00Z","displayTime":"2026年10月21日（公開時刻は非表示）","title":"Claude Duetの研究プレビューを開始","summary":"Claudeが注意事項を知らせ、依頼作業をバックグラウンドで進めるClaude Duetを発表。iOS、Android、claude.aiでUSのPro・Max利用者向けに開始。","url":"https://claude.com/resources/articles/claude-duet","urlLabel":"記事を開く","primary":true},
+    {"label":"Claude Resources","datetime":"2026-10-21T00:00:00Z","displayTime":"2026年10月21日（公開時刻は非表示）","title":"HCLTechがClaude Partner NetworkのGlobal Premier Partnerに参加","summary":"HCLTechがClaude・Claude Codeを企業向けサービスと製品へ統合し、重要変更にはガードレールと人の承認を組み込む。","url":"https://claude.com/resources/articles/hcltech-joins-claude-partner-network","urlLabel":"記事を開く"},
+    {"label":"Claude Resources","datetime":"2026-10-21T00:00:00Z","displayTime":"2026年10月21日（公開時刻は非表示）","title":"Claude Securityが継続スキャンと修正追跡に対応","summary":"継続スキャン、修正追跡、ナレッジベース、API・MCP connector、ロールベースアクセス制御をClaude Enterprise向けパブリックベータで提供。","url":"https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes","urlLabel":"記事を開く"},
+    {"label":"Anthropic News","datetime":"2026-10-21T00:00:00Z","displayTime":"2026年10月21日（公開時刻は非表示）","title":"物理学者Christopher StubbsがLong-Term Benefit Trustに参加","summary":"Harvard大学の物理学者で元理学部長のChristopher Stubbsが、Anthropicの長期的な公益目的を監督するTrustに加わった。","url":"https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust","urlLabel":"記事を開く"}
   ],
-  "officialNews": [
-    {
-      "label": "Claude Resources",
-      "datetime": "2026-10-21T00:00:00Z",
-      "displayTime": "2026年10月21日（公開時刻は非表示）",
-      "title": "Claude Securityが継続スキャンと修正追跡に対応",
-      "summary": "Claude Securityがコード変更を継続的にスキャンし、修正済みの検出結果を追跡。チームの文脈を反映するナレッジベース、API、MCP connector、ロールベースアクセス制御を追加し、Claude Enterprise向けパブリックベータとして提供開始。",
-      "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
-      "urlLabel": "記事を開く",
-      "primary": true
-    },
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-10-21T00:00:00Z",
-      "displayTime": "2026年10月21日（公開時刻は非表示）",
-      "title": "物理学者Christopher StubbsがLong-Term Benefit Trustに参加",
-      "summary": "Harvard大学の物理学者で元理学部長のChristopher Stubbsが、Anthropicの長期的な公益目的を監督するLong-Term Benefit Trustに加わった。",
-      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-      "urlLabel": "記事を開く"
-    }
+  "officialZeroStates":[{"label":"Engineering・Researchの窓内新規記事は0件","body":"公式一覧を確認。Engineeringの最新記事は10月13日、Researchの最新記事は10月20日付であり、対象24時間内の新規記事は確認できなかった。"},{"label":"Xの投稿は未確認","body":"投稿と関連返信を取得するX接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"}],
+  "signals":[],
+  "releasePanels":[
+    {"title":"ブログ","headline":"4件","body":"Claude Resourcesで10月21日付の記事3件、Anthropic Newsで同日付の記事1件を確認。公開時刻が非表示のため、厳密な24時間窓への含有は日付ベースで記録した。","details":["Claude Duet: 能動的な通知、バックグラウンド作業、実行前承認を提供。","HCLTech: ClaudeとClaude Codeを企業向けサービスと製品へ統合。","Claude Security: 継続スキャンと修正追跡をパブリックベータで提供。","Anthropic News: Christopher StubbsがLong-Term Benefit Trustに参加。"],"url":"https://claude.com/resources/articles","urlLabel":"Claude Resourcesを開く"},
+    {"title":"Claude Code リリース","headline":"v2.1.308・v2.1.307","body":"GitHub CLIで本文を完全取得。v2.1.308の1項目とv2.1.307の43項目、計44項目を分類・和訳。","releases":[
+      {"version":"v2.1.308","publishedAt":"2026年10月22日 13:34:55 JST（2026-10-22T04:34:55Z）","summary":"バグ修正と信頼性を改善。","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.308","urlLabel":"GitHubリリースを開く","sections":[{"title":"新機能","items":["該当なし（公式リリースノートに新機能項目はない）。"]},{"title":"変更","items":["該当なし（公式リリースノートに変更項目はない）。"]},{"title":"修正","items":["バグ修正と信頼性を改善。"]}]},
+      {"version":"v2.1.307","publishedAt":"2026年10月22日 07:17:02 JST（2026-10-21T22:17:02Z）","summary":"API version切替、safety event、Code Review停止コマンドを追加し、MCP、Cloud sessions、runner、VS Codeを改善・修正。","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.307","urlLabel":"GitHubリリースを開く","sections":[
+        {"title":"新機能","items":["<code>/claude-api api-version</code>を追加し、API version <code>2026-10-21</code>へ移行可能にした。","permission・auto mode・安全確認・hook・sandboxがtool callを停止・確認・差戻した際のOpenTelemetry <code>claude_code.safety_event</code>を追加。","[Code Review] <code>@claude review stop</code>（<code>off</code>、<code>pause</code>も可）を追加し、always購読をreview開始なしで終了可能にした。"]},
+        {"title":"変更","items":["WebSearch予算切れの通知に、browserやcomputer useで検索しない旨を追加。","<code>axScreenReader</code>とsettings内<code>CLAUDE_AX_SCREEN_READER</code>をuser・managed・<code>--settings</code>由来に限定。","Self-hosted runnerのcheckout hookを標準30分で停止。長時間は<code>--checkout-hook-timeout-min</code>または<code>0</code>で設定。","Anthropic管理Gitのcertificate fileをtrusted certificateで絞り込み、除外数を<code>[runner:warn]</code>で表示。","[VS Code] extension restart後に残るClaude processにも「他で開いている」通知を適用。"]},
+        {"title":"修正","items":["<code>CLAUDE_CODE_DISABLE_1M_CONTEXT</code>と<code>opus[1m]</code>等のaliasでmodel-not-foundになる問題を修正。","custom gateway・Foundryで無効な<code>prompt-caching-scope</code> headerを送る問題を修正。","locked keychain時の<code>claude -p</code> MCP認証表示を改善し、unlock後に再sign-inなしで接続。","接続中のsleepでMCP serverがtimeoutのままになる問題を修正。","接続切断時のHTTP MCP tool call二重送信を修正し、安全なtoolのみ再試行。","background task中にSDK MCP serverの最新toolなしでturn開始する問題を修正。","大きなtool resultで起きるAutocompact thrashing errorの一部を修正。","cloud session再開後に<code>/autocompact</code>がdefaultへ戻る問題を修正。","<code>/clear</code>したconversationがrunner再開後に戻る問題を修正。","apps gatewayで<code>CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS</code>が無視される問題を修正。","OTEL header設定時にgateway配下Desktop telemetryが拒否される問題を修正。","<code>/permissions</code>で拒否commandと承認が正しく反映されない問題を修正。","<code>/help</code>とcommand menuがskillの長いmodel向け説明を表示する問題を修正。","subagent transcriptのplaceholder token usageと空stop reasonを修正。","SDK <code>setModel()</code>の確認待ちを最大15秒にしmodel switch拒否を修正。","connected app停止commandをuser停止と誤報する問題を修正。","Cowork WebFetchの4xx・robots拒否を通常resultとして扱う。","GitHub MCP write toolがDesktop Code tabで作成せず閉じる問題を修正。","Artifact readのreused connection reset失敗を修正。","git proxy runnerが残存<code>.claude/settings.local.json</code>をcommitする問題を修正。","checkout hook中のarchive等でprocess・runner slotが残る問題を修正。","parse不能tool callをerror前に最大2回再試行する。","同時fork subagentが互いの作業を開始しやすい問題を改善。","browser sign-in成功pageをprofile読込前に表示。","cloud・runner web searchの理由付き403をAuthentication errorとする問題を修正。","MCP server接続失敗時のcloud最初のreply時間を改善。","巨大image・PDF transcriptのRemote Control接続時間を改善。","[VS Code] voice dictation自動停止時に理由と入力保持を表示。","[VS Code] 長いShow more promptがpanelを覆う問題を修正。","[VS Code] LaTexを含むlist/table pasteが新規list/tableになる問題を修正。","[VS Code] TLS proxy配下dictationでsettingsの証明書を読まない問題を修正。","[VS Code] voice dictationのtrusted certificateをCLI同様に絞り込み。","[VS Code] extension requestのcertificate処理と<code>NODE_EXTRA_CA_CERTS</code>信頼を改善。","[Cloud sessions] repository pickerが検索中にNo repositories matchと出す問題を修正。","[Cloud sessions] Waiting for a runner表示の切詰めを修正し、経過時間・失敗attemptを表示。"]}
+      ]}
+    ]}
   ],
-  "officialZeroStates": [
-    {
-      "label": "Engineering・Researchの窓内新規記事は0件",
-      "body": "公式一覧を確認。最新のEngineering記事は10月13日、Research記事は10月20日付であり、今回の対象24時間内に新たに掲載された記事は確認できなかった。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "アカウント単位で投稿と関連返信を取得するX接続がこの実行環境に提供されていないため、@AnthropicAI・@ClaudeAI・@ClaudeDevsと監視対象エンジニアの投稿は確認できていない。"
-    }
-  ],
-  "signals": [],
-  "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "2件",
-      "body": "10月21日付の公式記事として、Claude Securityの継続監視機能とLong-Term Benefit Trustの人事を確認。公開時刻が非表示のため、掲載日を根拠に収録した。",
-      "details": [
-        "Claude Security: 継続スキャン、修正追跡、ナレッジベース、API・MCP connector、ロールベースアクセス制御をClaude Enterprise向けパブリックベータで提供。",
-        "Anthropic News: 物理学者Christopher StubbsがLong-Term Benefit Trustに参加。"
-      ],
-      "url": "https://claude.com/resources/articles",
-      "urlLabel": "Claude Resourcesを開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "v2.1.306・v2.1.305",
-      "body": "GitHub CLIで対象期間内の公式リリース本文を完全取得。v2.1.306の2項目とv2.1.305の38項目を分類して全件和訳した。",
-      "releases": [
-        {
-          "version": "v2.1.306",
-          "publishedAt": "2026年10月21日 12:16:31 JST（2026-10-21T03:16:31Z）",
-          "summary": "Cloud sessionの認証表示と、多数のMCP toolを使うsessionでのAPIエラー・不要なcompactionを修正。",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-          "urlLabel": "GitHubリリースを開く",
-          "sections": [
-            {"title": "新機能", "items": ["該当なし（公式リリースノートに新機能項目はない）。"]},
-            {"title": "変更", "items": ["該当なし（公式リリースノートに変更項目はない）。"]},
-            {"title": "修正", "items": ["Cloud sessionの環境変数なしで開始した場合に、<code>claude -p</code>が「Not logged in」と報告する問題を修正。", "多数のMCP toolを使うsessionで、APIエラーが「prompt is too long」に置き換わり不要なcompactionが実行される問題を修正。"]}
-          ]
-        },
-        {
-          "version": "v2.1.305",
-          "publishedAt": "2026年10月21日 05:46:50 JST（2026-10-20T20:46:50Z）",
-          "summary": "Linux sandboxとリトライ監視の設定を追加し、プロバイダー・worktree・MCP・アクセシビリティ・Cloud sessions・Code Reviewなど計34件を修正。",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
-          "urlLabel": "GitHubリリースを開く",
-          "sections": [
-            {"title": "新機能", "items": ["<code>sandbox.allowNestedUserNamespaces</code>を追加。Linuxのsandbox内コマンドでuser namespaceを作成でき、Chromiumやrootless Podmanがsandboxのファイル保護を回避できるようにした。", "<code>CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS</code>を追加。無人リトライモード（<code>CLAUDE_CODE_RETRY_WATCHDOG</code>）が、リセット前に解除された利用上限を検知できるようにした。"]},
-            {"title": "変更", "items": ["<code>/usage</code>を改善。各警告を発生元付きの1行の修正方法にし、<code>f</code>で修正を適用できるようにした。VS Codeと<code>/doctor</code>にも同じ修正を表示。", "MCP同意ダイアログを改善。プロンプト向けのEnterがAcceptとして扱われにくくした。", "modの<code>Image</code>を改善。iTerm2 3.5以降でaltテキストだけでなくfullscreen renderingで画像を描画。", "Remote Controlのspawn modeメッセージを改善。<code>w</code>でフォルダへの保存を通知し、保存済みmodeを使う後続の<code>claude remote-control</code>起動ではその出所を表示。", "<code>allowedMcpServers</code>を変更。<code>env</code>内だけで<code>${VAR}</code>を使う<code>managed-mcp.json</code>のstdio serverをフィルタしないようにした。", "Claude Desktopがpathでmountするpluginは、組織のmanaged settingsで<code>allowManagedPermissionRulesOnly</code>を設定した場合に<code>allowed-tools</code>を保持しないよう変更。", "<code>/artifacts</code>の削除確認を変更。1またはEnterで保持、2で削除、Escで取消とし、<code>y</code>と<code>n</code>は受け付けない。", "modのdocked paneを変更。より広いterminalから保持した幅を含め、terminal幅の45%以内に収める。", "[VS Code] SessionStartまたはSetup hookの実行中に、screen reader通知付きの「Running start-up hooks」spinner statusを追加。", "[VS Code] session開始が間に合わずhookも実行中でない場合のメッセージを変更。sign-inやnetworkより先にoutput logと原因一覧を示す。"]},
-            {"title": "修正", "items": ["Vertex、Bedrockなどでendpointまたはgatewayがtool searchを拒否した場合、またはgatewayでToolSearchが禁止・<code>--tools</code>から省略された場合に全requestが失敗する2.1.304回帰を修正。ToolSearchなしで再試行する。", "<code>/effort</code>と<code>/autocompact</code>設定が、model名と<code>modelOverrides</code>値の大文字小文字または<code>[1m]</code> tagだけが異なる場合に適用されない問題を修正。", "bare repositoryの新規worktreeがdefault branchではなくlocal HEADから開始する場合と、変更のないsubagent worktreeがcleanupされない場合を修正。", "disk full時のBash commandが生の<code>ENOSPC</code> file pathで失敗する問題を修正。disk fullで何も実行されなかったことを伝えるerrorにした。", "Cloud sessionまたはSDKの<code>setMcpServers</code>で渡したMCP serverが、session後半で同名の自身のsettings serverに置き換えられる問題を修正。", "subagentがfallback modelへ切替後、その作業に対してClaudeが誤ったmodel名を表示する問題を修正。", "Cloud sessionsとteammatesが、compactionで古いmessageをsummaryに入れられなかったことをClaudeに伝えない問題を修正。", "scheduled Cowork cloud sessionで、URL approvalを誰も承認できないWebFetchを使うsubagentごとに5分待つケースを追加修正。", "Workflow resumeが完了済みの<code>pipeline()</code>と<code>parallel()</code> agentをjournalから返さず再実行する問題を修正。", "Remote Controlで<code>/resume</code>によるconversation切替後、空の「(session)」entryが<code>/resume</code>に残る問題を修正。", "狭いterminalで<code>/usage</code>のrowが切り詰められる問題を修正。", "startup warningがlogo上に生textで表示される問題を修正。debug logへ送り、何も制限しないpermission ruleはbanner下のwarning rowで表示する。", "screen reader modeを修正。検索boxがVoiceOverに電話録音機と読まれる記号ではなく「Search:」と発話し、Ctrl+Rの検索matchや「ultrathink」などのhighlighted prompt text内に不要な空白が入らないようにした。", "Self-hosted runnerで、stdoutのみをrunnerまたはorchestratorと共有するstart scriptが<code>TERM</code>設定時に<code>Resource temporarily unavailable</code>で失敗する2.1.300回帰を修正。", "Self-hosted runnerで、git credential helperまたはaskpass programが<code>GIT_CONFIG</code>経由でsettingsを読む場合に、2.1.296以降repository accessが失敗する問題を修正。", "Self-hosted runnerで、backgroundで開始したrunnerがoutputを開いたままにするとorchestratorがspawn-runner hookをtimeoutと報告する問題を修正。", "[VS Code] <code>spinnerVerbs</code>設定がbuilt-in verbを短い語に置き換えた場合に、spinnerが「Compacting...」を切り詰める問題を修正。", "[Cloud sessions] Cloud environments admin pageが既存environmentの保存を「installs packages」errorで誤って拒否する問題を修正。", "[Cloud sessions] self-hosted environment削除を改善。dialogとerror messageで削除を妨げる条件と影響を説明する。", "[Claude Tag] Claudeが未参加のpublic Slack channelをadminのAdd place検索に追加し、adminがそこから設定できるようにした。", "[Claude Tag] repositoryが別のGitHub accountへ移動した後に再追加できないaccess bundleの問題を修正。", "[Claude Tag] Slack DM threadで別routineがconversationを再開した後、先に設定したroutineがpostしなくなる問題を修正。両方ともthreadへ投稿を継続する。", "[Claude Tag] Slack threadで設定したroutineがconversation終了後にpostせず成功と報告する問題を修正。該当runをskipし作成者へ通知する。", "[Claude Tag] 大規模組織でchannel listのloading中にplugin・skill・bundle編集ができないadmin pageの問題を修正。", "[Code Review] PR review中に複数pushが着地した場合、最新commitをreviewしないことがある問題を修正。", "[Code Review] 以前のblocking findingが開いたままでもLGTMで始まるre-reviewを修正。"]}
-          ]
-        }
-      ]
-    }
-  ],
-  "exclusions": [
-    "Xのアカウント単位の投稿・関連返信を検証する専用接続がこの実行環境に提供されていないため、公式・エンジニア投稿は未確認。",
-    "EngineeringとResearchの最新掲載記事は対象24時間外のため除外。",
-    "公式ブログ2件は公開時刻が非表示のため、10月21日という掲載日を根拠に収録。",
-    "Claude Code v2.1.304以前は今回の対象期間開始前に公開されたため除外。"
-  ],
-  "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Christopher Stubbs joins Anthropic's Long-Term Benefit Trust", "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"},
-    {"title": "Claude Security now scans continuously and tracks fixes", "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"},
-    {"title": "Claude Code v2.1.306 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306"},
-    {"title": "Claude Code v2.1.305 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305"}
-  ]
+  "exclusions":["Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。","EngineeringとResearchの最新掲載記事は対象24時間外のため除外。","10月21日付の公式記事4件は公開時刻非表示のため、掲載日を根拠に収録し厳密な窓への含有は未確認。","Claude Code v2.1.306以前は対象期間開始前のため除外。"],
+  "sources":[{"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},{"title":"Anthropic Research","url":"https://www.anthropic.com/research"},{"title":"Anthropic News","url":"https://www.anthropic.com/news"},{"title":"Claude Resources","url":"https://claude.com/resources/articles"},{"title":"Introducing Claude Duet","url":"https://claude.com/resources/articles/claude-duet"},{"title":"HCLTech joins the Claude Partner Network","url":"https://claude.com/resources/articles/hcltech-joins-claude-partner-network"},{"title":"Claude Security now scans continuously and tracks fixes","url":"https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes"},{"title":"Christopher Stubbs joins Anthropic's Long-Term Benefit Trust","url":"https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"},{"title":"Claude Code v2.1.308 release","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.308"},{"title":"Claude Code v2.1.307 release","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.307"}]
 }
