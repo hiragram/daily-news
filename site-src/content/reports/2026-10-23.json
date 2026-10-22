@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-23",
+  "windowLabel": "2026-10-21 18:03:34 UTC - 2026-10-22 18:03:34 UTC（JST: 2026年10月22日 03:03:34 - 10月23日 03:03:34）",
+  "archiveTitle": "Agent Skills donation and Code releases",
+  "archiveSummary": "Agent Skillsの財団寄贈と、Claude Code v2.1.307・v2.1.308の全リリースノートを収録。",
+  "latestSummary": "Agent SkillsのAgentic AI Foundationへの寄贈、agent設計記事、Claude Codeの2リリース計44項目を確認。X投稿は未確認。",
+  "summaryBullets": [
+    "<strong>Agent Skills</strong>: Anthropicがオープン標準をAgentic AI Foundationへ寄贈。70超のagent platformが統合済み。",
+    "<strong>Claude Platform</strong>: subagentをmain agent loopへ統合する判断と移行方法を解説。",
+    "<strong>Claude Code v2.1.308</strong>: バグ修正と信頼性を改善。",
+    "<strong>Claude Code v2.1.307</strong>: 3件を追加し40件を変更・修正。全44項目を和訳。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-10-22T00:00:00Z",
+      "displayTime": "2026年10月22日（公開時刻は非表示）",
+      "title": "Agent SkillsをAgentic AI Foundationへ寄贈",
+      "summary": "Anthropicが専門知識とワークフローをagentへ与えるオープン標準Agent SkillsをAgentic AI Foundationへ寄贈。公開後、ChatGPT、Cursor、GitHub Copilot、VS Codeを含む70超のagent platformが統合した。",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "urlLabel": "記事を開く",
+      "primary": true
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-10-22T00:00:00Z",
+      "displayTime": "2026年10月22日（公開時刻は非表示）",
+      "title": "subagentをmain agent loopへ統合するタイミング",
+      "summary": "Claude Platformでagentを構築する際、progressive disclosureでcontextとtoolを必要時に読み込むことで、subagentを減らしつつ品質・コスト・遅延を改善する判断と移行手順を解説。",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "urlLabel": "記事を開く"
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "Engineering・Researchの窓内新規記事は0件",
+      "body": "公式一覧を確認。Engineeringの最新記事は10月13日、Researchの最新記事は10月20日付であり、対象24時間内の新規記事は確認できなかった。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "投稿と関連返信を取得するX接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "Anthropic NewsとClaude Resourcesで10月22日付の記事を各1件確認。公開時刻が非表示のため、厳密な24時間窓への含有は日付ベースで記録した。",
+      "details": [
+        "Agent Skills: オープン標準をAgentic AI Foundationへ寄贈。",
+        "Claude Platform: subagentをmain loopへ統合する判断、評価、段階的移行を解説。"
+      ],
+      "url": "https://claude.com/resources/articles",
+      "urlLabel": "Claude Resourcesを開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.308・v2.1.307",
+      "body": "GitHub CLIで本文を完全取得。v2.1.308の1項目とv2.1.307の43項目、計44項目を分類・和訳。",
+      "releases": [
+        {
+          "version": "v2.1.308",
+          "publishedAt": "2026年10月22日 13:34:55 JST（2026-10-22T04:34:55Z）",
+          "summary": "バグ修正と信頼性を改善。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+          "urlLabel": "GitHubリリースを開く",
+          "sections": [
+            {"title": "新機能", "items": ["該当なし（公式リリースノートに新機能項目はない）。"]},
+            {"title": "変更", "items": ["該当なし（公式リリースノートに変更項目はない）。"]},
+            {"title": "修正", "items": ["バグ修正と信頼性を改善。"]}
+          ]
+        },
+        {
+          "version": "v2.1.307",
+          "publishedAt": "2026年10月22日 07:17:02 JST（2026-10-21T22:17:02Z）",
+          "summary": "API version切替、safety event、Code Review停止コマンドを追加し、MCP、Cloud sessions、runner、VS Codeを改善・修正。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+          "urlLabel": "GitHubリリースを開く",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>/claude-api api-version</code>を追加し、API version <code>2026-10-21</code>へ移行可能にした。",
+                "permission・auto mode・安全確認・hook・sandboxがtool callを停止・確認・差戻した際のOpenTelemetry <code>claude_code.safety_event</code>を追加。",
+                "[Code Review] <code>@claude review stop</code>（<code>off</code>、<code>pause</code>も可）を追加し、always購読をreview開始なしで終了可能にした。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "WebSearch予算切れの通知に、browserやcomputer useで検索しない旨を追加。",
+                "<code>axScreenReader</code>とsettings内<code>CLAUDE_AX_SCREEN_READER</code>をuser・managed・<code>--settings</code>由来に限定。",
+                "Self-hosted runnerのcheckout hookを標準30分で停止。長時間は<code>--checkout-hook-timeout-min</code>または<code>0</code>で設定。",
+                "Anthropic管理Gitのcertificate fileをtrusted certificateで絞り込み、除外数を<code>[runner:warn]</code>で表示。",
+                "[VS Code] extension restart後に残るClaude processにも「他で開いている」通知を適用。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "<code>CLAUDE_CODE_DISABLE_1M_CONTEXT</code>と<code>opus[1m]</code>等のaliasでmodel-not-foundになる問題を修正。",
+                "custom gateway・Foundryで無効な<code>prompt-caching-scope</code> headerを送る問題を修正。",
+                "locked keychain時の<code>claude -p</code> MCP認証表示を改善し、unlock後に再sign-inなしで接続。",
+                "接続中のsleepでMCP serverがtimeoutのままになる問題を修正。",
+                "接続切断時のHTTP MCP tool call二重送信を修正し、安全なtoolのみ再試行。",
+                "background task中にSDK MCP serverの最新toolなしでturn開始する問題を修正。",
+                "大きなtool resultで起きるAutocompact thrashing errorの一部を修正。",
+                "cloud session再開後に<code>/autocompact</code>がdefaultへ戻る問題を修正。",
+                "<code>/clear</code>したconversationがrunner再開後に戻る問題を修正。",
+                "apps gatewayで<code>CLAUDE_STREAM_FIRST_BYTE_TIMEOUT_MS</code>が無視される問題を修正。",
+                "OTEL header設定時にgateway配下Desktop telemetryが拒否される問題を修正。",
+                "<code>/permissions</code>で拒否commandと承認が正しく反映されない問題を修正。",
+                "<code>/help</code>とcommand menuがskillの長いmodel向け説明を表示する問題を修正。",
+                "subagent transcriptのplaceholder token usageと空stop reasonを修正。",
+                "SDK <code>setModel()</code>の確認待ちを最大15秒にしmodel switch拒否を修正。",
+                "connected app停止commandをuser停止と誤報する問題を修正。",
+                "Cowork WebFetchの4xx・robots拒否を通常resultとして扱う。",
+                "GitHub MCP write toolがDesktop Code tabで作成せず閉じる問題を修正。",
+                "Artifact readのreused connection reset失敗を修正。",
+                "git proxy runnerが残存<code>.claude/settings.local.json</code>をcommitする問題を修正。",
+                "checkout hook中のarchive等でprocess・runner slotが残る問題を修正。",
+                "parse不能tool callをerror前に最大2回再試行する。",
+                "同時fork subagentが互いの作業を開始しやすい問題を改善。",
+                "browser sign-in成功pageをprofile読込前に表示。",
+                "cloud・runner web searchの理由付き403をAuthentication errorとする問題を修正。",
+                "MCP server接続失敗時のcloud最初のreply時間を改善。",
+                "巨大image・PDF transcriptのRemote Control接続時間を改善。",
+                "[VS Code] voice dictation自動停止時に理由と入力保持を表示。",
+                "[VS Code] 長いShow more promptがpanelを覆う問題を修正。",
+                "[VS Code] LaTexを含むlist/table pasteが新規list/tableになる問題を修正。",
+                "[VS Code] TLS proxy配下dictationでsettingsの証明書を読まない問題を修正。",
+                "[VS Code] voice dictationのtrusted certificateをCLI同様に絞り込み。",
+                "[VS Code] extension requestのcertificate処理と<code>NODE_EXTRA_CA_CERTS</code>信頼を改善。",
+                "[Cloud sessions] repository pickerが検索中にNo repositories matchと出す問題を修正。",
+                "[Cloud sessions] Waiting for a runner表示の切詰めを修正し、経過時間・失敗attemptを表示。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
+    "EngineeringとResearchの最新掲載記事は対象24時間外のため除外。",
+    "10月21日付の公式記事は公開時刻非表示で、対象窓の開始前かを確定できないため新規収録しなかった。",
+    "Claude Code v2.1.306以前は対象期間開始前のため除外。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Donating Agent Skills to the Agentic AI Foundation", "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"},
+    {"title": "Building agents: When to fold subagents into your main agent loop", "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"},
+    {"title": "Claude Code v2.1.308 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308"},
+    {"title": "Claude Code v2.1.307 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307"}
+  ]
+}
