@@ -1,64 +1,221 @@
 {
   "date": "2026-10-27",
-  "windowLabel": "2026-10-25 17:57:41 UTC - 2026-10-26 17:57:41 UTC（JST: 2026年10月26日 02:57:41 - 10月27日 02:57:41）",
-  "archiveTitle": "Anthropic announces proposed IPO filing",
-  "archiveSummary": "Anthropic NewsがS-1提出を告知。Claude Codeの対象24時間内の新規リリースはなかった。",
-  "latestSummary": "対象24時間では、Anthropic Newsが米国SECへのS-1登録届出書提出とNasdaq上場予定を告知した。Engineering、Research、Claude Resourcesに窓内新規記事はなく、Claude Codeも新規リリースなし。X投稿は専用接続がないため未確認。",
+  "windowLabel": "2026-10-26 00:03:34 UTC - 2026-10-27 00:03:34 UTC（JST: 2026年10月26日 09:03:34 - 10月27日 09:03:34）",
+  "archiveTitle": "Claude Code v2.1.311 and Nonprofits plugin",
+  "archiveSummary": "Claude Code v2.1.311の92項目と、Claude for Nonprofitsプラグインを確認。",
+  "latestSummary": "Claude Code v2.1.311はself-hosted runner機能、表示改善、広範な修正を公開。Claudeは非営利団体向けプラグインを提供開始し、AnthropicはIPO向けS-1提出を発表した。",
   "summaryBullets": [
-    "<strong>Anthropic News 1件</strong>: SECへS-1登録届出書を提出し、Nasdaq Global Select Marketへの上場予定を公表。",
-    "<strong>Claude Code</strong>: 最新のv2.1.310は対象窓の開始前に公開済みで、新規リリースは0件。",
+    "<strong>Claude Code v2.1.311</strong>: 92項目を追加・変更・修正に分類して全件和訳。",
+    "<strong>Claude for Nonprofits</strong>: 組織コンテキスト・方針・資金調達を支援するプラグインを公開。",
+    "<strong>Anthropic News</strong>: SECへのS-1提出とNasdaq上場予定を発表。",
     "<strong>X投稿</strong>: 専用接続がないため、公式・エンジニア投稿は未確認。"
   ],
   "officialNews": [
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-10-26T00:00:00Z",
+      "displayTime": "2026年10月26日（掲載日、公開時刻非掲載）",
+      "title": "Claude for Nonprofitsプラグインを公開",
+      "summary": "約30の非営利団体と共同開発したプラグインを、検証済みのTeam・Enterprise非営利団体へ追加料金なしで提供。組織情報の整理、AI利用方針の確認、資金調達業務を支援するスキルとコネクタを含む。",
+      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+      "urlLabel": "公式記事を読む",
+      "primary": true
+    },
     {
       "label": "Anthropic News",
       "datetime": "2026-10-26T00:00:00Z",
       "displayTime": "2026年10月26日（掲載日、公開時刻非掲載）",
       "title": "AnthropicがIPOに向けSECへS-1を提出",
-      "summary": "Anthropic PBCは、Class A普通株式の新規株式公開に関するS-1登録届出書を米国証券取引委員会へ提出した。Nasdaq Global Select Marketでティッカー<strong>ANT</strong>としての上場を予定するが、株式数と価格帯は未定で、届出書はまだ有効化されていない。",
+      "summary": "Anthropic PBCはClass A普通株式の新規株式公開に関するS-1登録届出書をSECへ提出。Nasdaq Global Select Marketでティッカー<strong>ANT</strong>としての上場を予定するが、株式数と価格帯は未定で、届出書は未発効。",
       "url": "https://www.anthropic.com/news/s1-sec",
-      "urlLabel": "公式発表を読む",
-      "primary": true
+      "urlLabel": "公式発表を読む"
     }
   ],
   "officialZeroStates": [
-    {"label": "Engineeringの窓内新規記事は0件", "body": "公式一覧の最新記事は10月13日付で、対象24時間内の新規記事は確認できなかった。"},
-    {"label": "Researchの窓内新規記事は0件", "body": "公式一覧の最新記事は10月23日付で、対象24時間内の新規記事は確認できなかった。"},
-    {"label": "Claude Resourcesの窓内新規記事は0件", "body": "公式一覧の最新掲載は10月23日付で、対象24時間内の新規記事は確認できなかった。"},
-    {"label": "Xの投稿は未確認", "body": "X接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"}
+    {
+      "label": "Engineeringの窓内新規記事は0件",
+      "body": "公式一覧の最新記事は10月13日付で、対象24時間内の新規記事は確認できなかった。"
+    },
+    {
+      "label": "Researchの窓内新規記事は0件",
+      "body": "公式一覧の最新記事は10月23日付で、対象24時間内の新規記事は確認できなかった。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"
+    }
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic NewsでS-1提出の告知を確認。Engineering、Research、Claude Resourcesの対象24時間内の新規掲載はなかった。",
+      "headline": "2件",
+      "body": "Claude Resourcesで非営利団体向けプラグイン、Anthropic NewsでS-1提出を確認。EngineeringとResearchの窓内新規掲載はなかった。",
       "details": [
-        "<strong>Anthropic News</strong>: Anthropic files S-1 with the SEC for proposed initial public offering（2026年10月26日）",
-        "<strong>Engineering / Research / Claude Resources</strong>: 窓内entry 0件"
+        "<strong>Claude Resources</strong>: Claude for Nonprofitsプラグインを公開（2026年10月26日、掲載日）。",
+        "<strong>Anthropic News</strong>: IPO向けS-1をSECへ提出（2026年10月26日、掲載日）。",
+        "<strong>Engineering / Research</strong>: 窓内entry 0件。"
       ],
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "urlLabel": "公式発表を開く"
+      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+      "urlLabel": "Claude Resourcesを開く"
     },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリースを完全照合。最新のv2.1.310は2026年10月24日 08:39 JSTに公開され、今回の対象窓開始前のため収録対象外。",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHubリリースを開く"
+      "headline": "v2.1.311",
+      "body": "GitHub CLIで公式本文を完全取得し、92項目を全件分類・和訳。",
+      "releases": [
+        {
+          "version": "v2.1.311",
+          "publishedAt": "2026年10月27日 06:51:23 JST（2026-10-26T21:51:23Z）",
+          "summary": "self-hosted runner、説明表示、VS Code/Claude Tagの追加と、起動・MCP・subagent・Cloud/Remote Controlなどの修正・改善。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+          "urlLabel": "GitHubリリースを開く",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "<code>self-hosted-runner</code>に<code>--hold-idle-file</code>と<code>--max-hold-min</code>を追加し、hostが残存processを報告中もidle sessionを保持可能にした。",
+                "説明を求めたときに表示するExplanatory出力スタイルのヒントを追加。",
+                "[VS Code] Claude返信のcode blockへlight/dark/high-contrast darkのsyntax coloringを追加。",
+                "[VS Code] 遅いUserPromptSubmit hook向けspinnerとscreen reader告知を追加。",
+                "[Claude Tag] analyticsにSkills viewを追加し、Slack channelごとの実行頻度・未使用skillを表示。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "Pro/Maxは直近1時間以内に確認済みならnetwork requestを2件省いて起動を高速化。",
+                "<code>/teleport</code>と<code>claude --teleport</code>で、compaction済みcloud sessionの要約messageがlocal copyにないことを警告。",
+                "background session終了messageを改善し、restartを約束せず再開方法を案内。",
+                "複数viewのartifactはlinkの<code>#name</code>で各viewをroute。",
+                "timeoutしたshell commandは途中出力とbackground継続を表示。",
+                "summaryなしのmodel replyではcompaction前に通常もう一度summaryを要求。",
+                "Artifact toolは説明・視覚/interactive作業をpage、継続編集文章をdocumentとして選択。",
+                "optionと値だけを渡すClaude起動を高速化。",
+                "Connection droppedでproxy/gateway、なければVPN/firewall確認を案内。",
+                "screen reader modeで<code>/permissions</code>のrule削除を即座に告知。",
+                "拒否されたsign-in codeで期限切れ/使用済みと再sign-inを案内。",
+                "Slack connector送信前にchannel topicの投稿規則を確認。",
+                "screen readerの質問一覧を記号なしの回答状態表示に変更。",
+                "interactive terminalの<code>ultrathink</code>は対応model/APIでxhigh effortを使用。",
+                "<code>ultrathink</code> rainbowはeffortを上げられる時だけ表示。",
+                "agent viewのCtrl+Dは空入力で2回押すと終了。",
+                "JSON/stream JSON内のDEL/C1/Unicode format文字を<code>\\uXXXX</code>へescape。",
+                "効果のないmodel名/IDの<code>[1m]</code> suffixとlabelを削除。",
+                "permission rule startup warningをrule変更までuserごとに一度だけ表示。",
+                "<code>/code-review</code>はeffort levelを先に指定しmaxは依頼時のみ使用。",
+                "<code>DISABLE_COMPACT</code>はcompactionをoffにするだけで再on不可。",
+                "Bedrock等は署名済みmodel catalogをload（環境変数でoff可）。",
+                "feature flag offのskills同期sessionは最大10分前のskills listを再利用。",
+                "fullscreen scrollbarはmouse release時に動作。",
+                "<code>claude purge</code>が削除するのはこのcomputer上のdataだけと明示。",
+                "[VS Code] telemetry off時はmetrics/error reportなしで開始。",
+                "[VS Code] Web sessionはWeb tab初回表示時にload。",
+                "[Cloud sessions] 報告事項のないClaude Tag routineは捨てmessageなしで終了。",
+                "[Claude Tag] 見えるprivate Slack channelは#でなくlockを表示。",
+                "[Code Review] 分析不可時は追加自動reviewなしとcheck runへ明示。",
+                "[Code Review] transient faultで開始失敗したreviewを一度自動retry。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "長大なlist itemを持つ<code>CLAUDE.md</code>で起動時やfile読込・編集後にfreezeする問題。",
+                "MCP resource read未応答またはskill download中にinterruptがtimeoutまで効かない問題。",
+                "200K token超でstandard-context sessionが停止する問題（compactして継続）。",
+                "数千行変更時にWrite/Editがstallし0行変更と報告する問題。",
+                "接続完了後のMCP server toolをsubagentが使えない問題。",
+                "automatic compaction直後に編集済み<code>MEMORY.md</code>/<code>CLAUDE.md</code>を古い内容として見る問題。",
+                "<code>claude -p</code>/SDKがtranscriptを順序違いで保存・取り消しmessageを残す問題。",
+                "<code>SubagentStop</code> hookが完了時1回でなく定期実行される問題。",
+                "@ file pickerが<code>.ignore</code>/<code>.rgignore</code>のnegation ruleを無視する問題。",
+                "background subagent作業中にisolated worktreeが削除される問題。",
+                "shell待機中のauto mode agentがwakeごとにmain turnを作る問題。",
+                "Bash tool descriptionがworking directoryを常に保持すると誤記する問題。",
+                "environment blockが実行されないshell名を示す問題。",
+                "proxyがstartup requestをblockしたRemote Controlが約2分Connectingのままになる問題。",
+                "Claudeがcloud/Remote Controlへ送ったmessageがmobile appで自分のmessageに見える問題。",
+                "disk fullまたは21件目以降添付除外の理由をClaudeが受け取れない問題。",
+                "Cowork cloudのWebFetch/WebSearchがstalled responseでhangする問題。",
+                "turn間crashしたbackground sessionがattached/pinned/scheduled時にrestartされない問題。",
+                "background service errorが無効な<code>claude daemon restart</code>を案内する問題。",
+                "<code>claude respawn</code>がsession不存在の報告前にserviceを開始する問題。",
+                "<code>claude mcp add</code>/<code>remove</code>/<code>/mcp</code>がrepository下でlocal-scope serverを保持する<code>~/.claude.json</code>のproject entryでなくcurrent folderを命名する問題。",
+                "<code>claude mcp list</code>/<code>get</code>がfailed-connection行でerror codeを二重表示する問題。",
+                "plan modeで<code>/effort</code>がprompt cache missを警告しない問題。",
+                "<code>/ide</code>がinstall未完了/失敗時にVS Code extensionをinstalled表示する問題。",
+                "Write previewがterminal幅超過行でrow/hidden line数を誤る問題。",
+                "agent chat tabの↑が未配送messageをrecallし二重送信する問題。",
+                "Cowork cloudが設定名<code>agent</code>によりrestart後connector/toolを失う問題。",
+                "agent teamsがresume後に空task listを表示し<code>/branch</code>が元listへ書く問題。",
+                "image pathを含むtext貼付がimage添付してpathを落とす問題。",
+                "feedback draft card shortcutがprompt入力時に競合する問題。",
+                "quotes/brackets内の単独backslashがresponseから消える問題。",
+                "<code>DISABLE_COMPACT</code>でもagent teammateがcompactする問題。",
+                "<code>DISABLE_COMPACT</code>でもrewind menuがsummarizeを提示する問題。",
+                "完了済み<code>/code-review</code>等がcloud/background restart後に再実行される問題。",
+                "Vertex/Foundry/AWSで長いhidden thinkingがidle切断される問題。",
+                "<code>/ide</code>がJetBrains plugin未installでもinstalled表示する問題。",
+                "Pro/Max subscription不能時にadminへ誤案内する問題。",
+                "edit後に不要なdiff paneがwide fullscreen terminalで開く問題。",
+                "sign-in不要remote serverをClear authentication後failed表示する問題。",
+                "credentialを送らないremote serverをauthenticated表示する問題。",
+                "空<code>.mcp.json</code>付き<code>--plugin-dir</code>を1 pluginとしてloadする問題。",
+                "<code>/usage</code>がlarge prompt-cache missを表示しない問題。",
+                "background sessionのstatus line linkがplain textのままの問題。",
+                "<code>/rewind</code>確認文が削除をforkと表示する問題。",
+                "<code>/rewind</code>がmanual/Bash editはrestoreの影響を受けないと誤警告する問題。",
+                "screen reader plan approvalがEscapeでdismiss済みfeedbackを送る問題。",
+                "retry禁止API requestもretryしてturnを長時間止める問題。",
+                "Linuxで特定<code>--plugin-dir</code>とread block設定時にsandboxed Bashが<code>bwrap</code> errorで失敗する問題。",
+                "Self-hosted runnerがrate limitでread-only repository追加時に開始失敗する問題。",
+                "[VS Code] custom skill/slash commandがopen file/selected linesを渡さない問題。",
+                "[VS Code] login shellのPATH取得中にextension hostがfreezeする問題。",
+                "[VS Code] tool result imageのclick/preview closeがtextもeditorで開く問題。",
+                "[VS Code] Send後もvoice dictationが録音を続ける問題。",
+                "[Cloud sessions] owner再参加後もhosted environment routineがlockされる問題。",
+                "[Cloud sessions] routine API token操作失敗でerror toastが出ない問題。",
+                "[Cloud sessions] cloud environment dialogがduplicate nameを受理する問題。"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "exclusions": [
     "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
-    "Claude Code v2.1.310は対象窓の開始前に公開されており、全26項目のリリースノートは今回の0件レポートに再掲しない。",
-    "公式サイト記事は公開時刻非表示のため、掲載日が対象窓外のものは収録していない。"
+    "公式サイト記事は公開時刻非表示のため、10月26日掲載の2件は掲載日を根拠に対象窓へ収録。",
+    "EngineeringとResearchの一覧で対象24時間内の新規掲載は確認できなかった。"
   ],
   "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Anthropic files S-1 with the SEC for proposed initial public offering", "url": "https://www.anthropic.com/news/s1-sec"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Expanding Claude for Nonprofits",
+      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+    },
+    {
+      "title": "Claude Code v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311"
+    }
   ]
 }
