@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-29",
+  "windowLabel": "2026-10-27 17:55:51 UTC - 2026-10-28 17:55:51 UTC（JST: 2026年10月28日 02:55:51 - 10月29日 02:55:51）",
+  "archiveTitle": "Claude Code v2.1.312 and two Claude updates",
+  "archiveSummary": "Claude Code v2.1.312の全39項目と、Claude Resourcesの新規2件を収録。",
+  "latestSummary": "Claude Code v2.1.312はOIDC識別子、送信操作、hook・cloud sessions・VS Code・Claude Tag・Code Reviewを更新。Claude ResourcesではIDC Quanta連携と法務向けArtifactsを公開した。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.312</strong>: 新機能2件、変更15件、修正22件を全件和訳。",
+    "<strong>Claude Resources</strong>: IDC QuantaをClaudeへ統合し、法務業務向けの再利用可能なArtifactsを公開。",
+    "<strong>公式ブログ</strong>: Engineering・Research・Anthropic Newsの窓内新規掲載は0件。",
+    "<strong>X投稿</strong>: 専用接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [
+    {"label": "Claude Resources", "datetime": "2026-10-28T00:00:00Z", "displayTime": "2026年10月28日（掲載日、公開時刻非掲載）", "title": "IDC QuantaをClaudeへ統合し、全社でClaudeを導入", "summary": "IDCは市場データ・予測・リサーチをClaude内で利用できるIDC Quanta connectorを提供し、社内でもClaudeを展開。顧客はIDCの根拠付きデータで市場分析やベンダー選定を行える。", "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company", "urlLabel": "公式記事を読む", "primary": true},
+    {"label": "Claude Resources", "datetime": "2026-10-28T00:00:00Z", "displayTime": "2026年10月28日（掲載日、公開時刻非掲載）", "title": "法務業務向けArtifactsを導入", "summary": "Claude for Legalに、契約レビュー、規制変更の追跡、法務依頼受付などに使える再利用可能なArtifactsを追加。チーム固有のデータやconnectorに合わせて調整・共有できる。", "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work", "urlLabel": "公式記事を読む"}
+  ],
+  "officialZeroStates": [
+    {"label": "Engineering・Research・Anthropic Newsの窓内新規記事は0件", "body": "各公式一覧の最新掲載は対象24時間より前で、窓内の新規記事は確認できなかった。"},
+    {"label": "Xの投稿は未確認", "body": "X接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"}
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "2件",
+      "body": "Claude ResourcesでIDC QuantaのClaude統合と、法務業務向けArtifactsを確認。公開時刻非掲載のため、10月28日の掲載日を根拠に収録。Engineering・Research・Anthropic Newsは窓内0件。",
+      "details": ["<strong>IDC Quanta</strong>: Claude内でIDCの市場データ・調査結果を利用可能に。", "<strong>Claude for Legal</strong>: 契約・規制・案件管理などのArtifactsを追加。"],
+      "url": "https://claude.com/resources/articles",
+      "urlLabel": "Claude Resourcesを開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.312",
+      "body": "GitHub CLIで公式本文を完全取得し、39項目を新機能・変更・修正に分類して全件和訳。",
+      "releases": [
+        {
+          "version": "v2.1.312",
+          "publishedAt": "2026年10月28日 05:24:20 JST（2026-10-27T20:24:20Z）",
+          "summary": "OIDC識別子とqueued messageの即時送信を追加。設定・大容量file・skills・terminal/VS Code/Cloud sessions/Claude Tag/Code Reviewを更新・修正。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+          "urlLabel": "GitHubリリースを開く",
+          "sections": [
+            {"title": "新機能", "items": [
+              "Claude apps gatewayに<code>oidc.user_id_claim</code>を追加。Microsoft Entra IDの<code>oid</code>など、<code>sub</code>以外のid_token claimで利用者を識別できるようにした。",
+              "fullscreenのqueue済みmessageで「to send now」hintをclickすると、対応keyと同様に即時送信できるようにした。"
+            ]},
+            {"title": "変更", "items": [
+              "promptのeffort indicatorを改善。task途中の変更は次messageまで待つ可能性を示し、適用後はnoteを消す。",
+              "cloud sessionのWebFetchで名前解決できないhostは、許可network domain外の可能性と許可すべきhost名を示すようにした。",
+              "Bedrock、Vertex、Foundry、Mantleでは、custom deployment名やinference profile ARNなど認識しないmodel名に短いsystem promptを使うよう変更（<code>CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0</code>で従来promptを維持）。",
+              "flagged message後のautomatic model switchを、認識しないcustom model名にも適用（<code>CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1</code>で無効化可能）。",
+              "usage limit messageの5時間windowを「session limit」でなく「5-hour limit」と表記。",
+              "CLIから開始したcloud sessionのsession名とbranch名をserverから取得するよう変更。",
+              "prompt/agent hookはsubagentを含めsessionあたり同時24件まで、event timeout超過分は追加12件までに制限。1秒未満の<code>timeout</code>は1秒として扱う。",
+              "subagentの<code>autoCompactWindow</code>が<code>CLAUDE_CODE_AUTO_COMPACT_WINDOW</code>で設定したwindowを下げられるよう変更（上げることはない）。",
+              "公式Anthropic marketplace pluginで固定URLのremote MCP serverは、OpenTelemetry <code>mcp_server.name</code>に<code>custom</code>でなく実名を報告。",
+              "<code>claude_code.safety_event</code> OpenTelemetry eventの送信を停止。",
+              "[VS Code] usage limit resetを時計時刻（例: Resets at 3:10 PM）と「5-hour limit」で表示。",
+              "[Cloud sessions] cloud routine作成・編集時のmodel pickerにeffort levelを追加。",
+              "[Cloud sessions] cloud environment設定のsetup script欄に色付け、行番号、Copy button付きBash editorを追加。",
+              "[Cloud sessions] repository追加stepを開くとraw JSONでなく、実行内容の短いtableを表示。",
+              "[Claude Tag] Slackのretry noticeに使用model名またはrate limit到達を表示し、generic API errorを避けるよう改善。"
+            ]},
+            {"title": "修正", "items": [
+              "VS Code extensionでsign-in後、そのsession中にmanaged settingsとorganization policyを取得しなくなる問題。",
+              "大容量の<code>CLAUDE.md</code>、rules file、またはsubdirectoryの@include fileを冒頭だけ見て上書きする問題。Writeは全文readまたはin-place editを求めるようにした。",
+              "git repository内でBash <code>cd</code>をさらに深いdirectoryへ実行した後、directory別または<code>paths:</code>指定skillが見つからない問題。",
+              "terminalでsession再開後の最初のreplyが、次回再開時に欠落することがある問題。",
+              "無効な名前のcommandが全commandのloadを停止し、<code>claude -p</code>が無出力になる問題。",
+              "古いsession fileのcleanupと重なった際、PDF pageでReadが<code>pdftoppm failed: Could not write image</code>となる問題。",
+              "task中に新しいeffortを選んだ際、spinner・OpenTelemetry <code>effort</code>値・transcriptが未適用levelを示す問題。適用中のlevelを表示する。",
+              "<code>/model</code>と<code>/effort</code>のcache warningが再readを次messageまで待つと誤表示する問題。Claude作業中の変更では早く反映できる。",
+              "最後のmessageが文中で待機項目に触れただけのsessionを、user待ちと表示する問題。",
+              "agent viewでCtrl+Cでinputを消して直後に終了すると、次回launchで入力textが復元される問題。",
+              "空の<code>!</code> inputからCtrl+Dで終了した後、agent viewがshell modeで再openする問題。",
+              "vim modeで残行数を超える<code>gj</code>/<code>gk</code> count付き<code>d</code>/<code>c</code>/<code>y</code>がdelete/copyする問題。Vim同様cursor移動だけにした。",
+              "<code>/verify</code>がClaude向け長いdescriptionを<code>/help</code>と<code>/</code> command menuに表示する問題。短い説明を表示。",
+              "[VS Code] organization settingsをloadできない、またはstartupで拒否された時にbare exit codeでsessionが終わる問題。理由とRetry/Sign in againを表示。",
+              "[Cloud sessions] failed send後に未変更messageを再送すると二重実行することがある問題。",
+              "[Cloud sessions] cloud environment作成失敗のerrorがopen dialog外のtoastにしか出ない問題。dialog内に表示。",
+              "[Cloud sessions] Routines pageのmenuからEditを選ぶと、edit dialogを開かずroutine pageへ移動する問題。",
+              "[Remote Control] unarchive済みRemote Control sessionがcomputer再接続までworking表示になる問題。idle表示にした。",
+              "[Claude Tag] 古いprivate Slack channelがpublic化してID変更後、channelのon/off switchとagent settingsがworkspace defaultへ戻る問題。",
+              "[Claude Tag] network accessをNoneにしたenvironmentのchannelでClaude in Slackがreplyしない問題。",
+              "[Claude Tag] 同一channelの別threadへ回答中にfileを誤ったthreadへ投稿することがある問題。",
+              "[Code Review] GitHubのpush eventが遅延した時にoutdated commitまたはcommitなしをreviewする問題。PRのcurrent commitをreviewする。"
+            ]}
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
+    "公式サイト記事は公開時刻非表示のため、10月28日の掲載日を根拠に対象窓へ収録。",
+    "Engineering・Research・Anthropic Newsの最新掲載は対象24時間外。",
+    "Claude Code v2.1.311以前は対象期間開始前。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "IDC brings Quanta into Claude and adopts Claude across the company", "url": "https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company"},
+    {"title": "Introducing artifacts for legal work", "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work"},
+    {"title": "Claude Code v2.1.312 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"}
+  ]
+}
