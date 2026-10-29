@@ -1,14 +1,14 @@
 {
   "date": "2026-10-29",
-  "windowLabel": "2026-10-28 00:01:54 UTC - 2026-10-29 00:01:54 UTC（JST: 2026年10月28日 09:01:54 - 10月29日 09:01:54）",
+  "windowLabel": "2026-10-28 05:59:27 UTC - 2026-10-29 05:59:27 UTC（JST: 2026年10月28日 14:59:27 - 10月29日 14:59:27）",
   "archiveTitle": "Four official Claude updates",
   "archiveSummary": "AI for Scienceの対象拡大と、Claude Enterprise・IDC Quanta・法務Artifactsの公式更新4件を収録。",
   "latestSummary": "AnthropicはAI for Scienceを20の財団・研究機関・研究グループへ拡大。Claude Enterpriseではsmart reports、アプリ内アンケート、グループ共有予算が一般提供となった。",
   "summaryBullets": [
     "<strong>AI for Science</strong>: 財団・研究機関・研究グループ20組との連携へ対象を拡大し、Claudeクレジットを提供。",
     "<strong>Claude Enterprise</strong>: smart reports、アプリ内アンケート、グループ共有予算を一般提供。",
-    "<strong>Claude Resources</strong>: IDC QuantaのClaude統合と、法務業務向けArtifactsを公開。",
-    "<strong>Claude Code</strong>: 今回の24時間窓内の公式リリースは0件。X投稿は専用接続がなく未確認。"
+    "<strong>Claude Resources</strong>: IDC Quanta統合と法務業務向けArtifactsを公開。",
+    "<strong>Claude Code</strong>: 窓内リリースは0件。最新v2.1.312の全39項目は完全取得・和訳済み。X投稿は専用接続がなく未確認。"
   ],
   "officialNews": [
     {"label":"Anthropic News","datetime":"2026-10-28T00:00:00Z","displayTime":"2026年10月28日（掲載日、公開時刻非掲載）","title":"AI for Scienceを財団・研究機関・研究グループへ拡大","summary":"AI for Scienceプログラムで、20の科学財団・学会、研究機関、研究プロジェクトにClaudeクレジットを提供。個々の研究者支援から組織的な研究連携へ広げ、公開データセット、OSS、標準、共有ライブラリなどの公共財につながる取り組みを支援する。","url":"https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions","urlLabel":"公式記事を読む","primary":true},
@@ -19,19 +19,18 @@
   "officialZeroStates": [
     {"label":"Engineering・Researchの窓内新規記事は0件","body":"各公式一覧の最新掲載は対象24時間より前で、窓内の新規記事は確認できなかった。"},
     {"label":"Xの投稿は未確認","body":"X MCP接続がこの実行環境にないため、公式・監視対象エンジニアの投稿は確認できていない。"},
-    {"label":"Claude Codeの窓内リリースは0件","body":"GitHub CLIで確認した最新のv2.1.312は2026-10-27T20:24:20Z公開で、今回の対象開始時刻より前。"}
+    {"label":"Claude Codeの窓内リリースは0件","body":"GitHub CLIで確認した最新v2.1.312は2026-10-27T20:24:20Z公開で、今回の対象開始時刻より前。本文の39項目は完全取得した。"}
   ],
   "signals": [],
   "releasePanels": [
     {"title":"ブログ","headline":"4件","body":"Anthropic NewsでAI for Scienceの対象拡大を、Claude ResourcesでClaude Enterpriseの3機能、IDC Quanta統合、法務業務向けArtifactsを確認。公開時刻非掲載のため、10月28日の掲載日を根拠に収録。Engineering・Researchは窓内0件。","details":["<strong>AI for Science</strong>: 20の財団・研究機関・研究グループへの支援を発表。","<strong>Claude Enterprise</strong>: smart reports、アプリ内アンケート、グループ共有予算を一般提供。","<strong>Claude Resources</strong>: IDC Quanta統合と法務向けArtifactsを公開。"],"url":"https://claude.com/resources/articles","urlLabel":"Claude Resourcesを開く"},
-    {"title":"Claude Code リリース","headline":"0件","body":"GitHub CLIで公式リリースを確認。最新のv2.1.312は2026-10-27T20:24:20Z公開で、今回の24時間窓には新規リリースがない。","url":"https://github.com/anthropics/claude-code/releases","urlLabel":"GitHubリリースを開く"}
+    {"title":"Claude Code リリース","headline":"0件","body":"GitHub CLIで公式リリースを確認。窓内の新規リリースは0件だが、最新v2.1.312のWhat's changed全39項目を完全取得し、1項目ずつ和訳した。","releases":[{"version":"v2.1.312（窓外の最新リリース）","publishedAt":"2026年10月28日 05:24:20 JST","summary":"2026-10-27T20:24:20Z公開。今回の窓開始前のため新規件数には含めないが、公式release noteの全39項目を収録。","sections":[
+      {"title":"新機能","items":["Claude apps gatewayに<code>oidc.user_id_claim</code>を追加。<code>sub</code>以外のIDトークンclaim（Microsoft Entra IDの<code>oid</code>など）で利用者を識別できる。","全画面表示のキュー済みメッセージで、下部の「今すぐ送信」ヒントをクリックすると、そのキーと同様に直ちに送信できる。","Cloud sessionsでroutineを新規作成・編集する際、モデルピッカーにeffortレベルを追加。","Cloud環境設定のセットアップスクリプト欄に、色付け・行番号・Copyボタンを備えたBashエディタを追加。"]},
+      {"title":"変更","items":["task途中で変更したeffortの表示を改善。次のmessageまで待つ可能性を示し、適用済みになると注記を消す。","WebFetchのcloud sessionエラーを改善。名前解決できないホストは許可済みネットワークドメイン外の可能性を説明し、Claudeが許可すべきホスト名を示す。","Bedrock、Vertex、Foundry、Mantleで、カスタムdeployment名やinference profile ARNなどClaude Codeが認識しないモデル名には短いsystem promptを使うよう変更。Sonnet/Haikuを背後に置く場合も対象で、<code>CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=0</code>で従来の全文promptを維持できる。","フラグ付きメッセージ後の自動モデル切替を、カスタムdeployment名など認識しないモデル名にも適用。<code>CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK=1</code>で無効化できる。","使用量制限メッセージで「session limit」を「5-hour limit」と表記するよう変更。","CLIから開始したcloud sessionは、名前とブランチ名をサーバーから取得するよう変更。","prompt/agent hookの同時実行数を、sub-agentを含めsessionあたり最大24件、event timeoutを超えて待機したものは最大12件に変更。1秒未満の<code>timeout</code>は1秒として扱う。","subagentの<code>autoCompactWindow</code>が<code>CLAUDE_CODE_AUTO_COMPACT_WINDOW</code>で設定したwindowを下げられるよう修正（上げることはない）。","OpenTelemetryの<code>mcp_server.name</code>は、公式Anthropic Marketplace pluginで宣言された固定URLのremote MCP serverに対して<code>custom</code>ではなく実名を送るよう変更。","<code>claude_code.safety_event</code> OpenTelemetryイベントの送信を停止。","VS Codeでusage limit resetを「Resets at 3:10 PM」のような時刻表示にし、「5-hour limit」と表記するよう変更。","Cloud sessionsでrepository追加時に表示する手順を改善。開くとraw JSONではなく実行内容の短い表を示す。","Claude TagのSlack再試行通知で汎用APIエラーではなく、使用中モデル名またはrate limit到達を表示するよう改善。"]},
+      {"title":"修正","items":["VS Code extensionからサインイン後、そのsessionの残りでmanaged settingsとorganization policyが取得されなくなる不具合を修正。","巨大な<code>CLAUDE.md</code>、rules file、またはsubdirectoryの@includeファイルを先頭だけ見て上書きする不具合を修正。Writeは全体を読むかin-place編集するようClaudeに求める。","Bashでgit repository内のより深いdirectoryへ<code>cd</code>した後、directory別および<code>paths:</code>指定のskillsが見つからない不具合を修正。","terminalでsessionを再開した直後の最初の返信が、次回再開時に欠落することがある稀な不具合を修正。","無効名のcommandがあると全commandの読み込みが止まり、<code>claude -p</code>が無出力になる不具合を修正。","Read toolがPDFページで、古いsession fileの削除と競合すると<code>pdftoppm failed: Could not write image</code>で失敗することがある不具合を修正。","task中に新しいeffortを選んだ際、model適用前にspinner・OpenTelemetry <code>effort</code>値・transcriptが新levelを表示する不具合を修正。実際に有効なlevelを表示する。","<code>/model</code>・<code>/effort</code>のcache警告が、再読込は次のmessageを待つと表示する不具合を修正。Claude作業中の変更はより早く反映される場合がある。","最後のmessageが文中で待機項目に触れただけなのに、sessionが「ユーザー待ち」と表示されることがある不具合を修正。","agent viewで、終了直前にCtrl+Cで消したinput textが次回起動時に復元される不具合を修正。","空の<code>!</code>入力からCtrl+Dで終了後、agent viewがshell modeで再開する不具合を修正。","vim modeで残行数を超える<code>gj</code>/<code>gk</code> countを伴う<code>d</code>・<code>c</code>・<code>y</code>がテキストを削除またはコピーする不具合を修正。Vim同様にcursorだけを移動する。","<code>/verify</code>が<code>/help</code>と<code>/</code> command menuに短い説明ではなくClaude向けの長い説明を表示する不具合を修正。","VS Codeでorganization settingsを起動時に読み込めない、または拒否された場合にsessionが裸のexit codeで終了する不具合を修正。tabに理由を示し、RetryまたはSign in againを提示する。","Cloud sessionで失敗送信後に同じmessageを再送すると、二重実行されることがある不具合を修正。","cloud environment作成失敗のerrorが開いているdialog外のtoastにしか出ず、dialog内に表示されない不具合を修正。","Routines pageのmenuからEdit in a routineを選ぶとroutine pageへ移動するだけで編集dialogが開かない不具合を修正。","unarchiveしたRemote Control sessionがcomputer再接続までworking表示のままになる不具合を修正。idleと表示する。","古いprivate Slack channelがpublicになり新IDを得た場合、Claude Tag channelのon/off switchとagent settingsがworkspace defaultへ戻る不具合を修正。","network accessがNoneのenvironmentで、Claude in Slackがchannel replyしない不具合を修正。","Claude Tagが同一channel内の別threadへ回答中に、fileを誤ったthreadへ投稿することがある不具合を修正。","GitHubのpush event到着が遅い場合にCode Reviewが古いcommitまたはcommitなしをreviewする不具合を修正。pull requestのcurrent commitをreviewする。"]}
+    ],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.312","urlLabel":"v2.1.312のrelease notes"}],"url":"https://github.com/anthropics/claude-code/releases","urlLabel":"GitHubリリースを開く"}
   ],
-  "exclusions": [
-    "Xの投稿・関連返信を検証するX MCP接続がないため、公式・エンジニア投稿は未確認。",
-    "公式サイト記事は公開時刻非表示のため、10月28日の掲載日を根拠に対象窓へ収録。",
-    "Engineering・Researchの最新掲載は対象24時間外。",
-    "Claude Code v2.1.312以前は対象期間開始前。"
-  ],
+  "exclusions": ["Xの投稿・関連返信を検証するX MCP接続がないため、公式・エンジニア投稿は未確認。","公式サイト記事は公開時刻非表示のため、10月28日の掲載日を根拠に対象窓へ収録。","Engineering・Researchの最新掲載は対象24時間外。","Claude Code v2.1.312は対象期間開始前で、件数には含めない。"],
   "sources": [
     {"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},
     {"title":"Anthropic Research","url":"https://www.anthropic.com/research"},
@@ -41,6 +40,7 @@
     {"title":"Smart reports, surveys, and pooled group budgets for Claude Enterprise","url":"https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets"},
     {"title":"IDC brings Quanta into Claude and adopts Claude across the company","url":"https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company"},
     {"title":"Introducing artifacts for legal work","url":"https://claude.com/resources/articles/introducing-artifacts-for-legal-work"},
+    {"title":"Claude Code v2.1.312 release notes","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.312"},
     {"title":"Claude Code releases","url":"https://github.com/anthropics/claude-code/releases"}
   ]
 }
