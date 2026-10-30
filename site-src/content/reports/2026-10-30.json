@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "windowLabel": "2026-10-29 05:57:29 UTC - 2026-10-30 05:57:29 UTC（JST: 2026年10月29日 14:57:29 - 10月30日 14:57:29）",
+  "windowLabel": "2026-10-29 12:03:12 UTC - 2026-10-30 12:03:12 UTC（JST: 2026年10月29日 21:03:12 - 10月30日 21:03:12）",
   "archiveTitle": "Claude Code v2.1.314 release",
   "archiveSummary": "Claude Code v2.1.314の公式リリースノートを全件和訳。",
   "latestSummary": "Claude Code v2.1.314は書込み範囲の保護、gatewayの制御・追跡、Desktop/VS Codeのidle compactionを追加し、認証、MCP、cloud、各UIを広く修正した。",
@@ -44,7 +44,11 @@
           "全文を読めないcallはRecently blockedから承認できないよう変更。",
           "Cowork cloud auto modeではhookのMCP allowを決定扱いせずclassifier/permission promptへ委ねる。",
           "Monitor commandにも<code>Bash(...)</code>同様のhook条件一致を適用。",
-          "flagged requestは利用可能modelが古いOpusだけ・無しでも即refusalで終えず別modelをretryする。"
+          "<code>claude-api</code> skillがManaged Agents workflow runのagentを変更する前に、そのrunのworkflowを読むよう変更。",
+          "flagged requestは利用可能modelが古いOpusだけ・無しでも即refusalで終えず別modelをretryする。",
+          "idle compactionをtelemetry無効のsubscriberにも適用し、1時間のprompt cacheが有効になるとBedrock、Vertex、Foundry、LLM gatewayでも実行するよう変更。",
+          "<code>FORCE_HYPERLINK=false</code>（<code>no</code>、<code>off</code>も同様）が、リンクを有効化ではなく無効化するよう変更。",
+          "macOSでClaudeが実行する大半のcommandの<code>git grep</code>をC localeで実行し、無効なUTF-8 fileにおけるmacOS regex libraryの報告済みmemory leakを回避。"
         ]},
         {"title": "修正", "items": [
           "組織がeffort上限を設定した際の<code>Invalid effort level</code>連続失敗。低いeffortでretryし使用levelを表示する。",
