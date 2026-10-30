@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "windowLabel": "2026-10-28 17:56:04 UTC - 2026-10-29 17:56:04 UTC（JST: 2026年10月29日 02:56:04 - 10月30日 02:56:04）",
+  "windowLabel": "2026-10-29 00:05:22 UTC - 2026-10-30 00:05:22 UTC（JST: 2026年10月29日 09:05:22 - 10月30日 09:05:22）",
   "archiveTitle": "No new official Claude updates",
   "archiveSummary": "対象24時間に公式サイトの新規記事・Claude Codeリリースは確認されなかった。",
   "latestSummary": "対象24時間では、Anthropic Engineering・Research・News、Claude Resourcesに新規掲載はなく、Claude Codeにも新規リリースはなかった。",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Claude Codeの窓内リリースは0件",
-      "body": "GitHub CLIで公式リリースを完全確認。最新v2.1.312は2026-10-27T20:24:20Z公開で、今回の対象開始時刻より前だった。"
+      "body": "GitHub CLIで公式リリース一覧を完全確認。最新v2.1.312は2026-10-27T20:24:20Z公開で、今回の対象開始時刻より前だった。"
     }
   ],
   "signals": [],
