@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-31",
+  "windowLabel": "2026-10-29 17:57:36 UTC - 2026-10-30 17:57:36 UTC（JST: 2026年10月30日 02:57:36 - 10月31日 02:57:36）",
+  "archiveTitle": "No new Claude updates",
+  "archiveSummary": "公式サイトとClaude Codeに対象24時間内の新規掲載・リリースはなかった。",
+  "latestSummary": "対象24時間に公式サイトの新規記事とClaude Codeの新規リリースは確認されなかった。Xの投稿は専用接続がないため未確認。",
+  "summaryBullets": [
+    "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesに対象24時間内の新規掲載は0件。",
+    "<strong>Claude Code</strong>: 最新のv2.1.314は2026年10月30日10:06:26 JST公開で、今回の窓開始前のため新規リリースは0件。",
+    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイトの窓内新規記事は0件",
+      "body": "Anthropic Engineering、Research、News、およびClaude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "Anthropic Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、対象24時間内の新規記事は0件。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで公式リリース一覧を確認。最新のv2.1.314は2026年10月30日10:06:26 JST公開で対象期間開始前のため、窓内の新規リリースは0件。"
+    }
+  ],
+  "exclusions": [
+    "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
+    "Claude Code v2.1.314以前は対象期間開始前。",
+    "公式サイトの最新掲載は対象期間外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
