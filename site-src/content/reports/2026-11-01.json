@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "windowLabel": "2026-10-30 17:57:11 UTC - 2026-10-31 17:57:11 UTC（JST: 2026年10月31日 02:57:11 - 11月1日 02:57:11）",
+  "windowLabel": "2026-10-30 23:56:30 UTC - 2026-10-31 23:56:30 UTC（JST: 2026年10月31日 08:56:30 - 11月1日 08:56:30）",
   "archiveTitle": "Claude Code v2.1.316 release",
   "archiveSummary": "Claude Code v2.1.316の公式リリースノートを全件和訳。",
   "latestSummary": "Claude Code v2.1.316はgatewayの予算・policy・Bedrock制御、subagent effort、cloud/VS Codeを拡張し、Bash、認証、auto mode、各UIを修正した。",
