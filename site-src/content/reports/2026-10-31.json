@@ -1,63 +1,117 @@
 {
   "date": "2026-10-31",
-  "windowLabel": "2026-10-29 17:57:36 UTC - 2026-10-30 17:57:36 UTC（JST: 2026年10月30日 02:57:36 - 10月31日 02:57:36）",
-  "archiveTitle": "No new Claude updates",
-  "archiveSummary": "公式サイトとClaude Codeに対象24時間内の新規掲載・リリースはなかった。",
-  "latestSummary": "対象24時間に公式サイトの新規記事とClaude Codeの新規リリースは確認されなかった。Xの投稿は専用接続がないため未確認。",
-  "summaryBullets": [
-    "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesに対象24時間内の新規掲載は0件。",
-    "<strong>Claude Code</strong>: 最新のv2.1.314は2026年10月30日10:06:26 JST公開で、今回の窓開始前のため新規リリースは0件。",
-    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
-  ],
+  "windowLabel": "2026-10-30 00:02:10 UTC - 2026-10-31 00:02:10 UTC（JST: 2026年10月30日 09:02:10 - 10月31日 09:02:10）",
+  "archiveTitle": "Claude Code v2.1.314 release",
+  "archiveSummary": "Claude Code v2.1.314の公式リリースノートを全件和訳。",
+  "latestSummary": "Claude Code v2.1.314は書込み範囲の保護、gatewayの制御・追跡、Desktop/VS Codeのidle compactionを追加し、認証、MCP、cloud、各UIを広く修正した。",
+  "summaryBullets": ["<strong>Claude Code v2.1.314</strong>: 新機能4件、変更22件、修正多数を公式本文から全件和訳。", "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesの対象24時間内の新規掲載は0件。", "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"],
   "officialNews": [],
   "officialZeroStates": [
-    {
-      "label": "公式サイトの窓内新規記事は0件",
-      "body": "Anthropic Engineering、Research、News、およびClaude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
-    }
+    {"label": "公式サイトの窓内新規記事は0件", "body": "Anthropic Engineering、Research、News、およびClaude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"},
+    {"label": "Xの投稿は未確認", "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"}
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "0件",
-      "body": "Anthropic Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、対象24時間内の新規記事は0件。"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧を確認。最新のv2.1.314は2026年10月30日10:06:26 JST公開で対象期間開始前のため、窓内の新規リリースは0件。"
-    }
+    {"title": "ブログ", "headline": "0件", "body": "Anthropic Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、対象24時間内の新規記事は0件。"},
+    {"title": "Claude Code リリース", "headline": "v2.1.314", "body": "GitHub CLIで公式本文を完全取得し、全項目を新機能・変更・修正に分類して和訳。", "releases": [{
+      "version": "v2.1.314", "publishedAt": "2026年10月30日 10:06:26 JST（2026-10-30T01:06:26Z）", "summary": "書込み範囲の保護、gatewayのグループ制御・Bedrock guardrail追跡、Desktop/VS Codeのidle compactionを追加。認証、クラウド、MCP、Remote Control、CLI/IDE/UIを改善・修正。", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314", "urlLabel": "GitHubリリースを開く",
+      "sections": [
+        {"title": "新機能", "items": [
+          "<code>permissions.blockWritesOutsideWorkingDirectories</code>を追加。すべてのpermission modeでWrite・Edit・NotebookEditがworking directory外のpathを拒否する。",
+          "Claude apps gateway upstreamに任意の<code>groups</code>リストを追加。指定IdP groupの開発者だけをそのupstreamへ送信し、failover時にも適用する。",
+          "Claude apps gatewayのBedrock upstreamに<code>guardrail_trace</code>を追加。一致本文を残さず、Amazon Bedrock guardrail filterの発火元をlogに記録する。",
+          "VS CodeとClaude DesktopのCode tabにidle compactionを追加。prompt cache期限切れ後、idleな200K token超の会話を要約し次messageで使用する。"
+        ]},
+        {"title": "変更", "items": [
+          "長時間headless/SDK turnのsubagent結果を親sessionがturn終了まで保持しないようにしてmemory使用量を改善。",
+          "Ctrl+Rが折り畳まれた<code>[Pasted text]</code>内のtextにも一致するようprompt historyを改善。",
+          "<code>/design-sync</code>のupload確認に対象folder、project、upload/delete fileを表示。",
+          "<code>/permissions</code> review tabをRecently blockedに改称し、Escの動作をfooterに表示。",
+          "auto modeでblockされたcallのmessageにcommand名、retry、再判定、<code>/permissions</code>確認を表示。",
+          "長い理由のpermission promptを短くし、承認対象commandがterminal外へ押し出されにくくした。",
+          "claude.ai login拒否をretry中のcloud errorに<code>claude auth login</code>案内を追加。",
+          "MDM/remote settings差異時の保存済みclaude.ai、Team、Enterprise login処理を改善。",
+          "agent viewの<code>/config</code>でagent viewをdefault起動しない方法を説明。",
+          "skill/prompt型command開始sessionのauto titleを改善。",
+          "破損transcriptでの<code>--resume</code>の速度とmemory使用量を改善。",
+          "MCP toolが1万件以上のsessionで<code>/context</code>を高速化。",
+          "self-hosted runnerで未push branchを含むremoteにないbranchのerror説明を改善。",
+          "<code>/claude-api</code> skillのDatadog headerとmacOS install手順を更新。",
+          "bundled dataviz skillのaxis labelとdonut/pie回答方針を更新。",
+          "組織管理settingsのlocal copy編集前にfile toolが確認するよう変更。",
+          "<code>/ultrareview</code>をgit実行前にworkspace trust確認するよう変更。",
+          "Bash toolで継承した<code>which</code> alias/functionをclearするよう変更。",
+          "全文を読めないcallはRecently blockedから承認できないよう変更。",
+          "Cowork cloud auto modeではhookのMCP allowを決定扱いせずclassifier/permission promptへ委ねる。",
+          "Monitor commandにも<code>Bash(...)</code>同様のhook条件一致を適用。",
+          "<code>claude-api</code> skillがManaged Agents workflow runのagentを変更する前に、そのrunのworkflowを読むよう変更。",
+          "flagged requestは利用可能modelが古いOpusだけ・無しでも即refusalで終えず別modelをretryする。",
+          "idle compactionをtelemetry無効のsubscriberにも適用し、1時間のprompt cacheが有効になるとBedrock、Vertex、Foundry、LLM gatewayでも実行するよう変更。",
+          "<code>FORCE_HYPERLINK=false</code>（<code>no</code>、<code>off</code>も同様）が、リンクを有効化ではなく無効化するよう変更。",
+          "macOSでClaudeが実行する大半のcommandの<code>git grep</code>をC localeで実行し、無効なUTF-8 fileにおけるmacOS regex libraryの報告済みmemory leakを回避。"
+        ]},
+        {"title": "修正", "items": [
+          "組織がeffort上限を設定した際の<code>Invalid effort level</code>連続失敗。低いeffortでretryし使用levelを表示する。",
+          "startup失敗時に<code>claude -p</code>が無出力でcode 0終了する問題。error表示とcode 1終了へ修正。",
+          "多数画像のBedrock sessionで<code>400 Input is too long.</code>になる問題。古い画像を除去してcompactする。",
+          "default deploymentのないMicrosoft Foundry resourceで旧family modelへfallbackしない問題。",
+          "tool search blockを受けないgatewayでrequestが繰返し拒否される問題。tool searchなしで一度再送する。",
+          "cross-signされた更新root certificateでTLSが<code>UNABLE_TO_GET_ISSUER_CERT</code>となる問題。",
+          "sign-in不要MCP serverが保存済みsign-in失効後にauthentication要求を表示する問題。",
+          "keychain lock等でMCP sign-inを削除できないのに<code>claude mcp logout</code>が成功表示する問題。",
+          "共有profile loginでcredential lockがbusyな際にsign-in renewalが余分に走る問題。",
+          "CIのuntrusted folderでultrareview/remote-controlがtrust質問を出す問題。即時拒否する。",
+          "managed settingsのadmin TLS trustがClaude Desktopへ適用されない問題。",
+          "壊れた個人pluginでmanaged設定machineのmodel switchが拒否される問題。",
+          "managed model pin時にBedrock/Vertex upgrade offerが毎回戻る問題。",
+          "remote-onlyの<code>forceRemoteSettingsRefresh</code>がexpiry後に効かずpolicyなし起動できる問題。",
+          "usage limitで自動継続がpromptなしで3回超続く問題。",
+          "Ultracodeをoffにしたbackground/cloud sessionが次回開始で再onになる問題。",
+          "parse不能tool call後に壊れたreplyとretry promptが会話に残る問題。",
+          "巨大PreCompact hook outputでcompactionが失敗・反復する問題。outputを1万文字で切る。",
+          "background diff refreshがgit index lockを短時間取得する問題。",
+          "stream中markdown tableのlayout跳ねと長tableのraw pipe表示。",
+          "slash commandだけのsessionで<code>/resume</code> titleがCLAUDE.md本文になる問題。",
+          "subagent transcriptからの<code>/btw</code>にmain conversationが答える問題。",
+          "SSH越しLinuxでimage pasteが無反応になる問題。file copy/path pasteを案内する。",
+          "service遅延時のremote-control worker registrationをretryする。",
+          "8秒超Remote Control model switchがstill pending errorになる問題。",
+          "<code>sandbox.excludedCommands</code>の説明を、callの全command一致が必要と修正。",
+          "未実行のblocked shell/MCP callが実行済みに見える問題。",
+          "<code>--resume</code>/<code>--continue</code>で入ったworktreeにsandbox protectionがない問題。",
+          "Monitor toolのshell commandでBash一致hookが走らない問題。",
+          "除外したsettings fileがauto mode rule等を供給する問題。",
+          "verdictなしのsafety checkをauto modeがblocked表示する問題。",
+          "応答しないGoogle token endpointでVertex upstreamが数分hangする問題。",
+          "deprecated Desktop keyのgateway warningが終了日後も誤表示する問題。",
+          "App Store/Google Play課金で<code>/upgrade</code>が新loginを始める問題。",
+          "認識しないmodel名から<code>--resume</code>が別modelへ移す問題。",
+          "beta header拒否時のgateway/cloud requestをheaderなしでretryする。",
+          "dot付きmodel IDを古いmodel扱いしcontext等を誤る問題。",
+          "Remote Controlのstray Compacted row、policy-off時のtip/idle notice、不要な再開cloud model callを修正。",
+          "Cowork WebFetchがPDF textの10万文字以降を黙って捨てる問題。",
+          "Stop後にcommandが実行済みかもしれない情報をClaudeへ伝えない問題。",
+          "quote内code block先頭blank line、Ctrl+Oの余分blank line、vim word操作・selection操作を修正。",
+          "agent panelのx/Enter誤対象、question dialog/footerのpaste喪失、隠れfooter item選択を修正。",
+          "command panelのEscがsubagentをinterruptする問題、fullscreen model/header・rewind表示を修正。",
+          "削除sessionのresume list再出現、stream-json hostのtag prompt未ack、初回失敗sessionのuntitled状態を修正。",
+          "skills/plugins trash監視・無制限増加、<code>/rename</code>名消失、誤ったdaemon binary error、不要push notification tipを修正。",
+          "CRLF fileのBash edit diffがwhole fileを変更扱いする問題と、self-hosted runnerのidle session移動を修正。",
+          "[VS Code] MCP clear authentication、queued hook中spinner/Stop、保存不能session group、find widget、非Latin音声shortcut、scheduled task削除、Chrome prompt設定を修正。",
+          "[Cloud sessions] completed task表示、recent self-hosted environment、uncommitted change誤表示、短window dialog、permission mode pickerを修正。",
+          "[Cloud sessions] scheduled taskのplugin load、GitHub Enterprise test、transcript表示、setup script error後の開始を修正。",
+          "[Remote Control] open時にpermission modeが誤表示する問題を修正。",
+          "[Claude Tag] API docs link、<code>@Claude !restart</code> retry、重複confirmation、runner待ち進捗、Slack Connect応答、Retry時のaccess変更、repository menu重複を修正。"
+        ]}
+      ]
+    }]}
   ],
-  "exclusions": [
-    "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
-    "Claude Code v2.1.314以前は対象期間開始前。",
-    "公式サイトの最新掲載は対象期間外。"
-  ],
+  "exclusions": ["Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。", "公式サイトの最新掲載は対象24時間外。", "Claude Code v2.1.312以前は対象期間開始前。"],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code v2.1.314 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"}
   ]
 }
