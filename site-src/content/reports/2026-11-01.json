@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-01",
+  "windowLabel": "2026-10-30 17:57:11 UTC - 2026-10-31 17:57:11 UTC（JST: 2026年10月31日 02:57:11 - 11月1日 02:57:11）",
+  "archiveTitle": "Claude Code v2.1.316 release",
+  "archiveSummary": "Claude Code v2.1.316の公式リリースノートを全件和訳。",
+  "latestSummary": "Claude Code v2.1.316はgatewayの予算・policy・Bedrock制御、subagent effort、cloud/VS Codeを拡張し、Bash、認証、auto mode、各UIを修正した。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.316</strong>: 新機能10件、変更11件、修正34件を公式本文から全件和訳。",
+    "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesの対象24時間内の新規掲載は0件。",
+    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {"label": "公式サイトの窓内新規記事は0件", "body": "Anthropic Engineering、Research、News、およびClaude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"},
+    {"label": "Xの投稿は未確認", "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"}
+  ],
+  "signals": [],
+  "releasePanels": [
+    {"title": "ブログ", "headline": "0件", "body": "Anthropic Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、対象24時間内の新規記事は0件。"},
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.316",
+      "body": "GitHub CLIで公式本文を完全取得し、全項目を新機能・変更・修正に分類して和訳。",
+      "releases": [{
+        "version": "v2.1.316",
+        "publishedAt": "2026年10月31日 10:01:35 JST（2026-10-31T01:01:35Z）",
+        "summary": "gatewayのグループ予算・layered policy・Bedrock guardrail、subagent effortを追加。Bash、認証、auto mode、cloud/VS Code/Claude Tagを広く修正・改善。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+        "urlLabel": "GitHubリリースを開く",
+        "sections": [
+          {"title": "新機能", "items": [
+            "<code>CLAUDE_CODE_DISABLE_ULTRATHINK</code>を追加し、<code>ultrathink</code> keywordを無効化できるようにした。",
+            "Claude apps gatewayにpooled group budgetsを追加。個人上限に加え、group membersで共有する月次予算をspend limits admin APIの<code>pooled_budget</code>で設定できる。",
+            "<code>CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP</code>を追加し、private CAが必要とする相互loop cross-certificateを保持できるようにした。",
+            "<code>CLAUDE_CODE_SUBAGENT_EFFORT</code>を追加。指定がないsubagentのeffortをsessionから継承せず設定できる。",
+            "Claude apps gatewayに<code>managed.policy_mode: layered</code>を追加。developerに一致するすべてのpolicyを下位のpolicyへ順にmergeして適用する。",
+            "Claude apps gateway Bedrock upstreamに<code>guardrail.input_tagging</code>を追加。Amazon Bedrock guardrailのprompt attack filterが必要とするinput tagでpromptを包み、<code>all_messages_and_system</code>ではsystem promptもtag付けする。",
+            "[VS Code] chat panelからterminal不要でClaude apps gatewayへsign-inできるようにした。",
+            "[Cloud sessions] MCP serverが要求するformをcancelせず、入力または辞退できるform cardを追加。",
+            "[Cloud sessions] 再表示したcloud/Remote Control sessionのmessage同期中に<code>Catching up…</code>を表示。",
+            "[Code Review] analytics pageにseverity別findings cardを追加。期間合計、severity積み上げ日別chart、各severityのcountを表示する。"
+          ]},
+          {"title": "変更", "items": [
+            "2026年10月30日付でOpus 4.8のfast modeをdeprecatedにした。11月30日に削除され、以後fast mode requestはstandard Opus 4.8へfallbackせずerrorとなるため、速度向上を維持するにはOpus 5.5へ移行する。",
+            "<code>/code-review</code>をClaude DesktopのCode tabまたはwebから開始したとき、cloud/Remote Control sessionではplain-text listでなくfindings cardを表示するよう改善。",
+            "大規模repositoryの<code>/diff</code>を改善。refreshごとのfull-repository git commandを通常1回減らし、gitが遅いときはrefresh間隔を空ける。",
+            "<code>/ultrareview</code>、cloud session、cloud agentがGitHub remoteを見つけない場合のmessageを改善。<code>https://github.com/new</code>でrepository作成を案内し、<code>/ultrareview</code>は<code>gh</code>が受け付けないcommandを提案しない。",
+            "SSL certificate errorに、中間certificate欠落など考えられる原因と各修正方法を示すよう改善。",
+            "<code>autoMode.allow</code>が<code>\"$defaults\"</code>を含まない場合でも、scheduled-task promptのbuilt-in ruleを削除しないよう変更。",
+            "Team/Enterprise loginのserver-managed settingsを変更。Anthropic APIから取得したsettingsは承認promptなしで適用し、検証できない保存済みcopyは拒否する。",
+            "[VS Code] <code>ultrathink</code>をterminal同様に<code>xhigh</code> effortで実行し、chat boxでrainbow表示するよう変更。",
+            "[Cloud sessions] network secretsを変更し、Enterprise member自身がcloud environmentで追加・削除できるようにした。",
+            "[Cloud sessions] Changes paneを改善。除外内容の注記をdiff上のrowでなくbranch name横のbadgeに移動。",
+            "[Claude Tag] Slack channelのRespond automatically switchを、channel Configure pageとadmin settingsで<code>How Claude participates</code>の選択肢に変更。"
+          ]},
+          {"title": "修正", "items": [
+            "macOS/Linuxでcredential拒否やcloud session archiveなどによりClaude Code自身が終了した際、shell commandが残って実行され続ける問題。",
+            "Git Bash以外で、値にline breakを含むbash aliasと、dashで始まる名前のfunctionがBash toolのshellで壊れる・失われる問題。",
+            "<code>SHELLOPTS</code>がexportされていると、Bash toolから開始したbash scriptが最初のcommand後に停止する問題。",
+            "type cast、<code>param</code>、<code>using</code>、attributeで始まるPowerShell commandで、hookがexit code 2をblockしない問題。",
+            "compressed responseが途中で切れる・破損する一部network requestがhangする問題。",
+            "Vertex AI/Amazon Bedrockで最新modelがaccountまたはregionに未提供のとき、<code>sonnet</code>・<code>opus</code>・<code>haiku</code>がsession途中でerrorになり、旧modelへ切替わらない問題。",
+            "Claude apps gatewayがrequest中のすべてのmodelを<code>availableModels</code>、<code>deniedModels</code>、<code>models</code>に対して検査しない問題。block済みmodelは該当fieldを示す400を返す。",
+            "managed settingsがClaude apps gatewayを必須にする環境で<code>claude auth login</code>が拒否される問題。terminalではgateway sign-inを表示する。",
+            "<code>--restricted</code> sessionが、Read allow rule対象のworking directory外fileをuploadする問題。",
+            "invisible characterを含むpromptで送信に2回Enterが必要になる問題。plain promptは初回Enterでcleanして送信し、commandは引き続きreviewを待つ。",
+            "親subagentのmodelを継承したsubagentがbackground job/messageによる再開時にmain modelへ移る問題。",
+            "<code>\"$defaults\"</code>なしのmanaged <code>autoMode.allow</code>が、host appの<code>--settings</code>、<code>/permissions</code>の最初のrule、<code>/auto-mode-setup</code>でbuilt-in exceptionを取り戻す問題。",
+            "serverがsafety verdictを返さずauto modeがturnを停止したとき、cloud session/cloud scheduled taskがfailedにならない問題。",
+            "background agent実行中にauto modeがturnを停止した理由を<code>claude -p</code> text outputが表示しない問題。",
+            "experimental betaをoffにしたproxy/LLM gateway配下のClaude Desktop等host application開始sessionで<code>CLAUDE_CODE_AUTO_MODE_SERVER=1</code>が無視される問題。",
+            "credential名environment variableが<code>1</code>等switch値のとき、plugin MCPの<code>headersHelper</code> scriptへ渡る<code>CLAUDE_PLUGIN_ROOT</code>とserver URLが壊れる問題。",
+            "SDKの<code>register_repo_root</code> control requestが、<code>CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1</code>時にworking directory外directoryのCLAUDE.mdをloadしない問題。",
+            "Artifact toolが<code>self</code> levelのartifact database access ruleを<code>?</code>と表示し、削除するrepublishを拒否する際にruleを引用しない問題。",
+            "<code>/model &lt;id&gt;</code>でmodelがこのversionに未認識でも、auto-compactが200K context windowを仮定することをwarningしない問題。",
+            "hold space to speak hintが1 sessionで3回の表示回数を使い切り、push-to-talk未割当時にempty keyを表示する問題。",
+            "timeoutでsearch processをkillしてもexitしない場合、WindowsでGrep/Globが返らない問題。",
+            "conversationの一部保存中に<code>/clear</code>または<code>/resume</code>を実行した際、再開時にplanが復元されない稀な問題。",
+            "narrow terminalのfirst-run setupでsecurity notesとterminal-setup explanationのwordが欠ける問題。",
+            "Enterprise survey cardが短いpause後の1または0を受け取る問題。typed answerはEnterを必要とする。",
+            "Self-hosted runnerで、Claude作業中に送ったmessageがStop後、session processの置換後に回答される問題。",
+            "Self-hosted runnerでsessionが別machineへ移動したとき、MCP serverのon/off switchが失われる問題。",
+            "WindowsのGit Bashでrc fileがerrexit/pipefailを設定しwinpty aliasのみ・またはaliasなしのとき、Bash toolがalias/functionを失う問題。",
+            "[VS Code] model settingが<code>opus[1m]</code>等<code>[1m]</code>tagを含むと、Effort slider、Ultracode switch、model nameが表示されない問題。",
+            "[VS Code] settings fileにerrorがある間、保存済み<code>/btw</code> side-question historyが早く削除される問題。",
+            "[VS Code] <code>Yes, and manually approve edits</code>でplan承認したconversationがreload/restart後にAuto modeで戻る問題。",
+            "[Cloud sessions] Files paneのfile searchで、Claudeのdirectory変更後にfolderが<code>../..</code> pathとして表示される問題。project rootからのpathを表示する。",
+            "[Claude Tag] 別channelまたはDMにもshareしたcanvasを、そのcanvasを作成したSlack channelからClaudeがedit/appendできなくなる問題。",
+            "[Claude Tag] 両organizationがClaudeをinstallしたSlack Connect threadで、untagged replyが相手organizationのappへ配信されると未回答になる問題。",
+            "[Claude Tag] cloud scheduled taskのSlack live status checklistが半完了のままになる問題。runがそのrunで投稿したtop-level messageを編集できる。"
+          ]}
+        ]
+      }]
+    }
+  ],
+  "exclusions": [
+    "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
+    "公式サイトの最新掲載は対象24時間外。",
+    "Claude Code v2.1.314以前は対象期間開始前。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code v2.1.316 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"}
+  ]
+}
