@@ -1,83 +1,149 @@
 {
   "date": "2026-11-03",
-  "windowLabel": "2026-11-02 00:04:02 UTC - 2026-11-03 00:04:02 UTC（JST: 2026年11月2日 09:04:02 - 11月3日 09:04:02）",
-  "archiveTitle": "Message threads public beta",
-  "archiveSummary": "Claude Platformでmessage threadsのパブリックベータが公開。",
-  "latestSummary": "Claude Platformのmessage threadsがパブリックベータに。長時間実行エージェントのレイテンシー削減を狙う。",
+  "windowLabel": "2026-11-02 06:03:29 UTC - 2026-11-03 06:03:29 UTC（JST: 2026年11月2日 15:03:29 - 11月3日 15:03:29）",
+  "archiveTitle": "Claude Code v2.1.317 と FlashProve",
+  "archiveSummary": "Claude Code v2.1.317と検証可能な推論prototype FlashProveを公開。",
+  "latestSummary": "Claude Code v2.1.317は安全確認・gateway機能を追加し多数の安定性を修正。AnthropicはzkSNARKによる検証可能な推論prototype FlashProveを公開。",
   "summaryBullets": [
-    "<strong>Claude Platform</strong>: message threadsをパブリックベータで公開。毎ターンの会話履歴再送を省き、長時間実行エージェントのTTFTを短縮する。",
-    "<strong>効果</strong>: Claude Codeでは大半の利用者で既定有効。50万〜100万トークンのリクエストでTTFT中央値が約35%低下したとしている。",
-    "<strong>Claude Code</strong>: 窓内の新規リリースは0件。最新のv2.1.316は窓開始前。",
+    "<strong>Claude Code v2.1.317</strong>: 11月3日10:25 JST公開。cloud scheduled task、ネットワーク送信、Agent SDK hook、gateway分析を拡張。",
+    "<strong>FlashProve</strong>: 指定model weightの応答であることをweight非開示で検証するzkSNARKベースのオープンソース試作を公開。",
+    "<strong>公開成果</strong>: 技術報告、protocol、prover、C++/Lean verifier、Lean proof、監査用visualizerをApache 2.0で公開。",
     "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
   ],
-  "officialNews": [
-    {
-      "label": "Claude Resources / Claude Platform",
-      "datetime": "2026-11-02T00:00:00Z",
-      "displayTime": "11月2日（公開時刻の表示なし）",
-      "title": "長時間実行エージェントを高速化するmessage threads",
-      "summary": "Messages APIのmessage threadsをパブリックベータで公開。初回に会話全体を送信し、以降は新規メッセージと前回応答IDだけを送ることで、長いセッションの初回トークンまでの時間を短縮する。スレッドは暗号化してメモリ保持され、最終リクエストから5分で失効する。Claude Codeでは大半の利用者に既定で有効で、50万〜100万トークンのリクエストではTTFT中央値が約35%低下したとしている。",
-      "url": "https://claude.com/resources/articles/message-threads",
-      "urlLabel": "記事を開く",
-      "primary": true
-    }
-  ],
+  "officialNews": [{
+    "label": "Anthropic Research / Frontier Red Team",
+    "datetime": "2026-11-02T00:00:00Z",
+    "displayTime": "11月2日（公開時刻の表示なし）",
+    "title": "大規模言語モデルの検証可能な推論における進展",
+    "summary": "指定したmodel weightが応答を生成したことをweightを明かさず検証するオープンソースprototype「FlashProve」を公開。4-bit量子化したLlama 4 Maverick（400B MoE）で、単一H100 GPUあたり約110 token/秒、1,024-token requestあたり約19 MBのproofを報告する。",
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "urlLabel": "研究記事を開く",
+    "primary": true
+  }],
   "officialZeroStates": [
-    {
-      "label": "Engineering・Research・Newsは窓内新規記事0件",
-      "body": "Anthropic Engineering、Research、Newsの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
-    }
+    {"label": "Engineering・News・Claude Resourcesは窓内新規記事0件", "body": "Anthropic Engineering、News、Claude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"},
+    {"label": "Xの投稿は未確認", "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"}
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "1件: message threadsを公開",
-      "body": "Claude Resourcesで11月2日付の新規記事を確認。Messages APIのmessage threadsはパブリックベータで、会話全体を毎ターン再送せず差分のみを送る。長時間実行エージェントのTTFT短縮を目的とし、Claude Codeでは大半の利用者に既定で有効。公開時刻は記事上に表示されないため、掲載日を根拠に対象窓へ収録した。",
-      "url": "https://claude.com/resources/articles/message-threads",
-      "urlLabel": "Claude Resourcesの記事を開く"
-    },
+    {"title": "ブログ", "headline": "1件: FlashProveを公開", "body": "Anthropic Researchが11月2日付でFlashProveを公開。指定modelの応答であることを検証しつつweightを秘匿するzkSNARKベースの検証可能な推論prototypeである。公開時刻は記事上に表示されないため、掲載日を根拠に収録した。", "url": "https://www.anthropic.com/research/provable-inference", "urlLabel": "Anthropic Researchの記事を開く"},
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリース本文を完全取得して確認。対象24時間内に公開されたClaude Codeリリースはない。最新のv2.1.316は2026年10月31日 10:01:35 JSTに公開され、窓開始前。",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
-      "urlLabel": "最新GitHubリリースを開く"
+      "headline": "v2.1.317",
+      "body": "GitHub CLIで公式リリース本文を完全取得し、全項目を新機能・変更・修正に分類して和訳。",
+      "releases": [{
+        "version": "v2.1.317",
+        "publishedAt": "2026年11月3日 10:25:46 JST（2026-11-03T01:25:46Z）",
+        "summary": "cloud scheduled taskとネットワーク送信の安全確認、Agent SDK hook、gateway分析を追加。Desktop・cloud・MCP・proxy・VS Codeを含む多数の不具合を修正。",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+        "urlLabel": "GitHubリリースを開く",
+        "sections": [
+          {"title": "新機能", "items": [
+            "新しいcloud scheduled taskに要求していないconnectorが付与された場合、<code>/schedule</code>で警告し削除方法を案内する。",
+            "webまたはshell tool callがaccount email addressをnetworkへ送信する前に確認するcheckを追加。",
+            "Agent SDK hook callbackに<code>onFailure: \"block\"</code>を追加し、callback失敗時はactionをblockする。",
+            "Claude Desktop Code tabでremote managed settingsの未読込時と読込完了時にnoticeを表示する。",
+            "auto modeのcheckがsubagent tool callに回答を得られない場合にnoticeを表示する。",
+            "OTel metrics・events・spansに<code>anthropic.plan</code>、<code>anthropic.seat_type</code>、<code>anthropic.provider</code>、<code>anthropic.custom_base_url</code>を追加。",
+            "Claude apps gateway admin APIにcost report <code>GET /v1/organizations/analytics/cost</code>を追加。過去の支出を合計・developer別・日別・IdP group別に取得できる。",
+            "gatewayで<code>admin:</code>設定developerのIdP groupを日次記録し、<code>admin.identity_retention_days</code>の期間保持する。cost reportはこのgroupで集計できる。",
+            "<code>CLAUDE_CODE_DISABLE_NESTED_SESSION_ID</code>を追加。self-hosted runnerで<code>1</code>にするとsession内の<code>claude -p</code>がそのsessionのIDとtranscriptを使う。",
+            "[Cloud sessions] MCP serverが開くlinkを、開くか辞退するか選べるlink cardとして表示する。"
+          ]},
+          {"title": "変更", "items": [
+            "Microsoft FoundryでAzure credentialを読み込めないerrorを改善。credentialの確認・更新を案内し<code>cloud_credential_error</code>として報告する。",
+            "<code>/design-sync</code>でdesign systemがClaudeへ移動済みの場合、uploadで失敗する前に表示して停止する。",
+            "終了時の<code>Resume this session with</code> hintに、<code>--resume</code>の前に起動時のflagも再掲する。",
+            "self-hosted runnerは501/529以外の5xx後、失敗connectionを再利用せず新しいconnectionを開く。",
+            "self-hosted runner sessionも501/529以外の5xx後、新しいconnectionを開く。",
+            "self-hosted runner sessionはheartbeat無応答後、idle connectionを順番に試さず新しいconnectionを開く。",
+            "SendMessageは実行中background agentへのmessageを早く届けるため、実行中commandを止めずbackgroundへ移す。",
+            "main conversationと異なるmodelのsubagent・teammateはsession effortでなく当該modelの保存済みeffortまたはdefaultを使用する。",
+            "plugin monitor実行中でも終了時の<code>Background work is running</code> promptを省略する。",
+            "built-in <code>plugin-authoring</code> skillは、作成したmodが動作した後に一度だけ共有支援を提案する。",
+            "Read toolの<code>file unchanged since your last Read</code> stubを廃止し、未変更fileも再読込時にcontentを返す。",
+            "[Cloud sessions] 組織environment dialogをpersonal dialogの短いlayoutへ変更し、未保存入力があれば閉じる前に確認する。",
+            "[Claude Tag] Slackへpasteしたartifact linkを、Claudeで開くOpen button付きの簡潔なcardで表示する。"
+          ]},
+          {"title": "修正", "items": [
+            "project/local MCP serverが一部Claude Desktop sessionで最初のturn後に切断する問題。",
+            "LLM gatewayをbase URLにしたauto modeがserver-side safety checkの403/422で毎turn失敗する問題。",
+            "遅いtoken refreshの保存前に<code>claude auth status</code>が終了して次回sign-outされる問題。",
+            "appが事前開始してprojectで開くsessionでprojectの<code>effortLevel</code>が無視される問題。",
+            "多数sessionのprojectで古いlinked sessionに<code>claude --from-pr</code>が<code>No conversations found</code>と表示する問題。",
+            "claude.ai/mobile appで同時に二つのpermission promptが出た際、二つ目にfile pathまたはcommandが出ない問題。",
+            "Remote Control/SDK hostでmod tool callに<code>don't ask again</code>が表示される問題。",
+            "new messageまたはStopがtitle生成中に届くとcloud/SDK session titleが失われる問題。",
+            "Claudeがrequest fieldを省略した場合、self-paced <code>/loop</code> wakeupがscheduleされない問題。",
+            "cloud sessionのauto modeがArtifact toolのupload・database書込み・outputs folder保存でapproval待ちになる問題。",
+            "claude.aiから同期したskillがdiskに書けないと10分ごとに失われるか再downloadされる問題。",
+            "<code>/schedule</code>がcloud scheduled task作成・更新後にnext run timeとlinkを結果に残さない問題。",
+            "screen reader modeで実行中subagentのelapsed time/token countを変化ごとに読み上げる問題。",
+            "region/network block（HTTP 403）がsign-in failureとして表示される問題。",
+            "同じserverの同期pluginがあるとcloud sessionで稼働中claude.ai connectorを認可必要・失敗と誤表示する問題。",
+            "full disk/quotaでtranscriptまたは<code>~/.claude.json</code>の書込みを失った<code>claude -p</code>がexit 0になる問題。",
+            "起動直後のsettings file編集が次のsettings変更まで反映されない問題。",
+            "<code>--setting-sources</code>使用runなどでold transcriptがcleanupされない問題。",
+            "削除済みagent team inboxがteammateの遅延messageで再作成される問題。",
+            "再作成したagent teammateが先行shutdown approvalによりteamから削除される問題。",
+            "scheduled taskをoff後に保存済みtaskをlist/deleteできなくなる問題。",
+            "名前を指定せず<code>/team-onboarding</code> guideを削除すると最終更新guideを削除する問題。",
+            "serverが削除を拒否しても<code>/team-onboarding</code> guideを削除したと表示する問題。",
+            "gatewayがBedrockの<code>Input is too long.</code>を隠し、compactせず毎turn失敗する問題。",
+            "plan approval待ちにrestartしたself-hosted runner sessionがrecent turn/conversationを失う問題。",
+            "非常に大きい<code>CLAUDE.md</code>が変化したsessionでautomatic compaction後に<code>Prompt is too long</code>となる問題。",
+            "多くのcommandを登録するpluginがあるheadless sessionでmemory usageが高くstartupが遅い問題。",
+            "空の<code>AWS_BEARER_TOKEN_BEDROCK</code>をstdio MCP serverへ渡す問題。unsetしてmachine自身のAWS credentialを使えるようにする。",
+            "root certificate更新後、一部TLS-inspecting proxy配下でAPI requestがlocal issuer certificate errorとなる問題。",
+            "compaction requestを短縮するvery long conversationで以前のsummaryを失う問題。",
+            "PDF metadataによりRead/@mentionがpage数を少なく数える問題。",
+            "<code>DISABLE_PROMPT_CACHING_OPUS</code>/<code>SONNET</code>が<code>[1m]</code>等のmodel表記で効かない問題。",
+            "artifactが200件以上あると<code>/artifacts</code>とshared listにshared artifactが出ない問題。",
+            "time limitに達したpartial Grep/Glob resultをcompleteと扱う問題。",
+            "別export中に開始したproxy経由<code>https://</code> endpointへのOpenTelemetry exportが送信されない問題。",
+            "proxyが<code>http://</code> OpenTelemetry exportを403でblockしたときconnection attemptが大量発生する問題。",
+            "応答しないproxy配下のOpenTelemetry exportが無期限hangする問題。10秒、または設定により最大30秒でtimeoutする。",
+            "再開sessionが既知のfile changeをClaudeへ再通知する問題。",
+            "以前のcall失敗でoffにしたbuilt-in toolを再開sessionが使わないことがある問題。",
+            "<code>/remote-control</code>が無効時に無効の説明でなく<code>Unknown command</code>と返す問題。",
+            "tmux/iTerm2 paneのagent teammateがleadのmanual modeでもauto modeで開始する問題。",
+            "background sessionのupgrade/retire時に直前のpermission mode変更を失う問題。",
+            "typed textをclearするCtrl+Cがbackground agentをすべて停止する問題。",
+            "report送信中に<code>/feedback</code>が<code>Enter to confirm</code>を表示する問題。",
+            "停止shell commandのchild processへSIGTERMが二重送信されcleanupをskipする問題。",
+            "cloud/self-hosted runner session内の<code>claude -p</code>がsession ID/transcriptを共有し、誤ったconversationをresumeする問題。",
+            "cloud/self-hosted runner session内の<code>claude -p</code>が独自titleを生成して親sessionへ送る問題。",
+            "Windowsでnative path lookup失敗volume上のtool callがすべて拒否される問題。",
+            "Windowsでtemporary pathがproject path長により伸び、clone済みrepositoryが260-character path limitに達する問題。",
+            "Gatewayでgroup pooled budget枯渇時に<code>/usage</code>がdeveloper自身のspend limitも100%と表示する問題。",
+            "Self-hosted runnerで新runnerへ移動時、古いinterrupted tool callをClaudeが見られない問題。",
+            "Self-hosted runnerで別machineへ移動時、offのMCP serverが再びonになる問題。",
+            "Remote Controlのdefault fork nameが不自然になる問題。長いnameでも<code>(fork)</code>を維持し連番を付ける。",
+            "[VSCode] fork conversationでparallel tool callの一方とcompactionの最後のmessageが失われる問題。",
+            "[VSCode] Claude startup遅延でmessageが失われる問題。error前に再startする。",
+            "[VSCode] region/network block時にsign-in screenが開く問題。",
+            "[VSCode] Account panelのplan nameで2語目が小文字になる問題。",
+            "[VSCode] Claude tab内file linkが別editor groupでなくchat上に開く問題。",
+            "[VSCode] <code>chat.fontSize</code>を上げてもClaude panelのchip/menu/banner/dialogが小さい問題。",
+            "[VSCode] telemetry off時に<code>ultrathink</code>がeffortを上げずrainbowも出ない問題。",
+            "[Cloud sessions] 既存hostのnetwork secret追加がsilent replacementになる問題。",
+            "[Cloud sessions] 新scheduled taskがorganization default environmentを無視する問題。",
+            "[Remote Control] restart後1分以内にidle sessionへ送った次messageが応答されない問題。"
+          ]}
+        ]
+      }]
     }
   ],
   "exclusions": [
     "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
-    "Engineering、Research、Newsの最新掲載は対象24時間外。",
-    "Claude Code v2.1.316は対象期間開始前。"
+    "Engineering、News、Claude Resourcesの最新掲載は対象24時間外。"
   ],
   "sources": [
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Make long-running agents faster with message threads",
-      "url": "https://claude.com/resources/articles/message-threads"
-    },
-    {
-      "title": "Claude Code v2.1.316 release",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
-    }
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Progress on provable inference for large language models", "url": "https://www.anthropic.com/research/provable-inference"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code v2.1.317 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"}
   ]
 }
