@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "windowLabel": "2026-11-02 06:03:29 UTC - 2026-11-03 06:03:29 UTC（JST: 2026年11月2日 15:03:29 - 11月3日 15:03:29）",
+  "windowLabel": "2026-11-02 12:03:41 UTC - 2026-11-03 12:03:41 UTC（JST: 2026年11月2日 21:03:41 - 11月3日 21:03:41）",
   "archiveTitle": "Claude Code v2.1.317 と FlashProve",
   "archiveSummary": "Claude Code v2.1.317と検証可能な推論prototype FlashProveを公開。",
   "latestSummary": "Claude Code v2.1.317は安全確認・gateway機能を追加し多数の安定性を修正。AnthropicはzkSNARKによる検証可能な推論prototype FlashProveを公開。",
