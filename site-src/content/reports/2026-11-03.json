@@ -1,19 +1,31 @@
 {
   "date": "2026-11-03",
-  "windowLabel": "2026-11-01 17:59:00 UTC - 2026-11-02 17:59:00 UTC（JST: 2026年11月2日 02:59:00 - 11月3日 02:59:00）",
-  "archiveTitle": "No new Claude releases",
-  "archiveSummary": "公式サイトとClaude Codeの対象24時間内の新規公開は0件。",
-  "latestSummary": "対象24時間内に公式記事・Claude Codeリリースはなく、Xの監視対象投稿は専用MCP未接続のため未確認。",
+  "windowLabel": "2026-11-02 00:04:02 UTC - 2026-11-03 00:04:02 UTC（JST: 2026年11月2日 09:04:02 - 11月3日 09:04:02）",
+  "archiveTitle": "Message threads public beta",
+  "archiveSummary": "Claude Platformでmessage threadsのパブリックベータが公開。",
+  "latestSummary": "Claude Platformのmessage threadsがパブリックベータに。長時間実行エージェントのレイテンシー削減を狙う。",
   "summaryBullets": [
-    "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesの対象24時間内の新規掲載は0件。",
+    "<strong>Claude Platform</strong>: message threadsをパブリックベータで公開。毎ターンの会話履歴再送を省き、長時間実行エージェントのTTFTを短縮する。",
+    "<strong>効果</strong>: Claude Codeでは大半の利用者で既定有効。50万〜100万トークンのリクエストでTTFT中央値が約35%低下したとしている。",
     "<strong>Claude Code</strong>: 窓内の新規リリースは0件。最新のv2.1.316は窓開始前。",
     "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Claude Resources / Claude Platform",
+      "datetime": "2026-11-02T00:00:00Z",
+      "displayTime": "11月2日（公開時刻の表示なし）",
+      "title": "長時間実行エージェントを高速化するmessage threads",
+      "summary": "Messages APIのmessage threadsをパブリックベータで公開。初回に会話全体を送信し、以降は新規メッセージと前回応答IDだけを送ることで、長いセッションの初回トークンまでの時間を短縮する。スレッドは暗号化してメモリ保持され、最終リクエストから5分で失効する。Claude Codeでは大半の利用者に既定で有効で、50万〜100万トークンのリクエストではTTFT中央値が約35%低下したとしている。",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "urlLabel": "記事を開く",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
-      "label": "公式サイトの窓内新規記事は0件",
-      "body": "Anthropic Engineering、Research、News、およびClaude Resourcesの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"
+      "label": "Engineering・Research・Newsは窓内新規記事0件",
+      "body": "Anthropic Engineering、Research、Newsの公式一覧を確認。対象24時間内に公開・掲載された新規記事は確認できなかった。"
     },
     {
       "label": "Xの投稿は未確認",
@@ -24,8 +36,10 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "Anthropic Engineering、Research、News、Claude Resourcesの公式一覧を確認したが、対象24時間内の新規記事は0件。"
+      "headline": "1件: message threadsを公開",
+      "body": "Claude Resourcesで11月2日付の新規記事を確認。Messages APIのmessage threadsはパブリックベータで、会話全体を毎ターン再送せず差分のみを送る。長時間実行エージェントのTTFT短縮を目的とし、Claude Codeでは大半の利用者に既定で有効。公開時刻は記事上に表示されないため、掲載日を根拠に対象窓へ収録した。",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "urlLabel": "Claude Resourcesの記事を開く"
     },
     {
       "title": "Claude Code リリース",
@@ -37,7 +51,7 @@
   ],
   "exclusions": [
     "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。",
-    "公式サイトの最新掲載は対象24時間外。",
+    "Engineering、Research、Newsの最新掲載は対象24時間外。",
     "Claude Code v2.1.316は対象期間開始前。"
   ],
   "sources": [
@@ -56,6 +70,10 @@
     {
       "title": "Claude Resources",
       "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Make long-running agents faster with message threads",
+      "url": "https://claude.com/resources/articles/message-threads"
     },
     {
       "title": "Claude Code v2.1.316 release",
