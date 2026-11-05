@@ -1,19 +1,19 @@
 {
   "date": "2026-11-06",
-  "windowLabel": "2026-11-04 16:02:17 UTC - 2026-11-05 16:02:17 UTC（JST: 2026年11月5日 01:02:17 - 11月6日 01:02:17）",
+  "windowLabel": "2026-11-04 22:01:37 UTC - 2026-11-05 22:01:37 UTC（JST: 2026年11月5日 07:01:37 - 11月6日 07:01:37）",
   "archiveTitle": "No confirmed Claude updates",
   "archiveSummary": "直近24時間に公開時刻まで確認できるClaude関連の公式更新は見つからなかった。",
-  "latestSummary": "Claude Codeの新規リリースはなく、公式ブログの11月5日付記事は公開時刻を確認できないため厳密な対象窓から除外。X監視は接続未設定のため未確認。",
+  "latestSummary": "Claude Codeの新規リリースはなく、公式サイトの11月5日付記事3件は公開時刻を確認できないため厳密な対象窓から除外。X監視は接続未設定のため未確認。",
   "summaryBullets": [
     "<strong>Claude Code</strong>: GitHub CLIで確認した直近リリースはv2.1.318（2026-11-04 00:01:03 UTC）で、今回の24時間窓の開始前。",
-    "<strong>公式ブログ</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。Researchの11月5日付記事は公開時刻がなく、窓内掲載を時刻まで確認できないため収録していない。",
+    "<strong>公式サイト</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。Research 1件とClaude Resources 2件の11月5日付記事は公開時刻がなく、窓内掲載を時刻まで確認できないため収録していない。",
     "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
   ],
   "officialNews": [],
   "officialZeroStates": [
     {
       "label": "公式サイトは窓内確認済み記事0件",
-      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Researchの11月5日付記事「AI for scientific discovery: How researchers use Claude」は公開時刻がなく、今回の厳密な24時間窓に含まれるとは断定できないため収録していない。"
+      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Researchの「AI for scientific discovery: How researchers use Claude」と、Claude Resourcesの「Introducing Personal Finance in Claude」「More visibility and control over Claude Enterprise for security teams」は11月5日付だが公開時刻がなく、今回の厳密な24時間窓に含まれるとは断定できないため収録していない。"
     },
     {
       "label": "Claude Codeリリースは窓内0件",
@@ -38,7 +38,7 @@
     }
   ],
   "exclusions": [
-    "公開時刻が表示されない11月5日付のResearch記事は、厳密なUTC 24時間窓への包含を証明できないため除外。",
+    "公開時刻が表示されない11月5日付のResearch 1件・Claude Resources 2件は、厳密なUTC 24時間窓への包含を証明できないため除外。",
     "Xの投稿・関連返信を検証する専用接続がないため、公式・エンジニア投稿は未確認。"
   ],
   "sources": [
