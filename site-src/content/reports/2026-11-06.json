@@ -1,12 +1,12 @@
 {
   "date": "2026-11-06",
-  "windowLabel": "2026-11-04 22:01:37 UTC - 2026-11-05 22:01:37 UTC（JST: 2026年11月5日 07:01:37 - 11月6日 07:01:37）",
+  "windowLabel": "2026-11-05 03:57:40 UTC - 2026-11-06 03:57:40 UTC（JST: 2026年11月5日 12:57:40 - 11月6日 12:57:40）",
   "archiveTitle": "No confirmed Claude updates",
   "archiveSummary": "直近24時間に公開時刻まで確認できるClaude関連の公式更新は見つからなかった。",
-  "latestSummary": "Claude Codeの新規リリースはなく、公式サイトの11月5日付記事3件は公開時刻を確認できないため厳密な対象窓から除外。X監視は接続未設定のため未確認。",
+  "latestSummary": "Claude Codeの新規リリースはなく、11月5日付の公式記事3件は公開時刻を確認できないため厳密な対象窓から除外。X監視は接続未設定のため未確認。",
   "summaryBullets": [
     "<strong>Claude Code</strong>: GitHub CLIで確認した直近リリースはv2.1.318（2026-11-04 00:01:03 UTC）で、今回の24時間窓の開始前。",
-    "<strong>公式サイト</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。Research 1件とClaude Resources 2件の11月5日付記事は公開時刻がなく、窓内掲載を時刻まで確認できないため収録していない。",
+    "<strong>公式サイト</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。Research 1件とClaude Resources 2件の11月5日付記事は公開時刻がないため、時刻まで検証できる窓内記事としては収録していない。",
     "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
   ],
   "officialNews": [],
