@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-08",
+  "windowLabel": "2026-11-06 16:00:04 UTC - 2026-11-07 16:00:04 UTC（JST: 2026年11月7日 01:00:04 - 11月8日 01:00:04）",
+  "archiveTitle": "Claude Code v2.1.319",
+  "archiveSummary": "Claude Code v2.1.319が公開され、MCPタスク、auto mode、Claude apps gateway、エージェント体験を拡張・修正した。",
+  "latestSummary": "Claude Code v2.1.319を完全収録。公式サイトの11月6日付記事2件は公開時刻を確認できず、厳密な24時間窓からは除外した。X投稿は専用MCP未接続のため未確認。",
+  "summaryBullets": [
+    "<strong>Claude Code v2.1.319</strong>: 2026年11月7日 02:04:01 JSTに公開。MCPタスクのバックグラウンド実行、<code>permissions.denyInsteadOfPrompting</code>、Claude apps gatewayの運用設定などを追加。",
+    "<strong>修正</strong>: MCP、diff、認証、権限、設定保存、エージェント表示、Claude in Chrome、セルフホストランナーなどを幅広く修正。",
+    "<strong>公式サイト</strong>: Engineering/Researchの11月6日付記事2件は公開時刻が表示されず、厳密な24時間窓への包含を確認できないため収録しない。",
+    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイトの窓内確定記事0件",
+      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付だが、各記事・一覧とも公開時刻を示さないため、2026-11-06T16:00:04Z以降の公開とは断定せず除外した。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件（公開時刻を確認できるもの）",
+      "body": "公式4一覧を確認。11月6日付のEngineering/Research記事2件は公開時刻が不明なため、厳密な対象24時間内の確定記事としては収録していない。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.319",
+      "body": "2026年11月6日 17:04:01 UTC公開。公式リリースノートの全項目を分類・和訳して収録。",
+      "releases": [
+        {
+          "version": "v2.1.319",
+          "publishedAt": "2026-11-07 02:04:01 JST",
+          "summary": "MCPタスク、auto mode、Claude apps gateway、エージェント体験を拡張し、MCP・権限・認証・UI・ランナー・拡張機能の多数の不具合を修正。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+          "urlLabel": "GitHub release",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "MCPサーバーがツール呼び出しをタスクとして実行した際、ターミナルで直ちにバックグラウンドへ移し、完了時にClaudeへ結果を通知するMCPタスク対応を追加。",
+                "MCPタスクを即時バックグラウンド化せず、ツール呼び出し内で待機させる<code>CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND</code>を追加。",
+                "権限プロンプト待ちになるツール呼び出しを拒否し、ターミナル・サブエージェント・チームメイトでターンを継続する<code>permissions.denyInsteadOfPrompting</code>設定を追加。",
+                "<code>/claude-api latency-optimize</code>を追加。Claude APIコードで待ち時間が発生する箇所を見つけ、評価に対して高速な設定を試せる。",
+                "テレメトリーを止めずにfeature flag取得だけを停止し、各フラグを内蔵既定値にする<code>CLAUDE_CODE_DISABLE_FEATURE_FLAGS</code>を追加。",
+                "支出上限のないClaude apps gateway経由の開発者向けに、<code>/usage</code>へ今日・今週・今月の利用額を追加。",
+                "Claude apps gatewayに、プール予算の優先順位を決める<code>admin.pooled_conflict_rule</code>と<code>admin.pooled_priority_order</code>、ブラウザー検証・サインイン画面向けの<code>login_notice</code>、JSONログ用<code>CLAUDE_GATEWAY_LOG_FORMAT=json</code>を追加。",
+                "カスタムモデルID競合、<code>desktopHome</code>のないポリシー、claude.aiログイン終了後の<code>ant auth login</code>継続利用と課金先組織について、Claude apps gateway/Claude Codeの起動警告を追加。",
+                "<code>/tasks</code>に完了済みサブエージェントを再開・再メッセージできる「Earlier in this session」行を追加。",
+                "クラウドセッションの<code>/loop</code>確認に、timerがcontainer終了で止まる注記と永続loopの提案を追加。",
+                "feature flag取得なしでもターミナルのMCPタスクを利用可能にした。<code>CLAUDE_CODE_DISABLE_MCP_TASKS=1</code>で無効化できる。",
+                "Gatewayに、AWS GovCloud混在・base URL変数・未転送Bedrock guardrailの起動警告を追加。",
+                "Claude TagのEnterprise Models管理ページに、モデル既定値管理先へリンクするClaude Tag行を追加。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "テレメトリーまたはfeature flagをオフにしたauto mode（LLM gateway配下を含む）でサーバーが確認できない呼び出しは、内蔵分類器へフォールバックせず質問または拒否する。従来の分類器を使い続けるには<code>CLAUDE_CODE_AUTO_MODE_SERVER=0</code>を設定する（Bedrock、Vertex、Foundryは不変）。",
+                "LLM gateway配下では<code>CLAUDE_CODE_AUTO_MODE_SERVER=1</code>により、<code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS</code>設定中もサーバー側確認を有効化する。",
+                "プロジェクト設定ファイルまたはプラグインが、プロジェクト外でオフにしたauto modeサーバー確認を再有効化できないようにした。",
+                "MonitorのWebSocket監視は各Bashコマンドで権限ルールに従い、denyは拒否、askはMonitor・bypass/auto modeでもプロンプトを省略しない。",
+                "<code>CLAUDE_CODE_PROXY_RESOLVES_HOSTS</code>はホスト管理ネットワークで設定ファイルから設定できず、process environmentで設定する。",
+                "より広いdenyがある場合の厳密なBash/PowerShell ask ruleは、質問ではなく拒否する。",
+                "Bashツールは参照・表示用途外のフラグ付き<code>which</code>実行前に権限を尋ねる。",
+                "<code>--add-dir</code>のplugin marketplaceはそのディレクトリ自身の信頼ダイアログ承認後に一度だけ登録する。",
+                "Bash sandbox有効時、開始フォルダーまたは<code>/cd</code>先でない下位<code>.claude/skills</code>は読み込まない。",
+                "self-paced <code>/loop</code>は再スケジュールせずターン完了時に終了する。従来動作は<code>CLAUDE_CODE_LOOP_KEEPALIVE=1</code>で維持できる。",
+                "PostToolUse hookは、新規メッセージによる中断後に完了したツール呼び出しにも最大10秒実行する。",
+                "保護機構がサブエージェントを止めた後は、Claude自身が作業を継続せず、より狭いpromptで再試行するかユーザーへ伝える。",
+                "worker移動時にdeny/ask ruleを保持できなければ、cloud sessionのsession-scoped allow ruleを捨て再確認する。",
+                "<code>ALL_PROXY</code>だけが設定された場合、TLS検査proxy背後の証明書自動修復を実行しない。<code>HTTPS_PROXY</code>にHTTP proxy URLを設定する。",
+                "artifact databaseの共有され得る行の保存では隠しmarker fileを使い、markerがない既存ファイルを変更せず報告する。",
+                "<code>/claude-api managed-agents-onboard</code>テンプレートをClaude Consoleに合わせ、Performance tunerを削除、2項目を改名し、未使用web search/fetchを5件でオフにした。",
+                "Claude in Chrome組み込みツールからshortcutを列挙・起動する<code>shortcuts_list</code>と<code>shortcuts_execute</code>を削除。",
+                "Self-hosted runnerのcheckoutはセッション内リポジトリごとに固有フォルダーを使い、重複時は<code>-2</code>、<code>-3</code>を付ける。終了時debug logの自動アップロードも廃止した。",
+                "GitHub組織のCode Reviewリンク解除時にAll repositories設定もオフにし、再リンク後も明示的にオンにするまでオフのままにする。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "旧handshakeのMCPサーバーが新しいサーバー専用extension宣言で接続失敗または空結果になる問題、claude.ai connector上の長時間MCP tool callが<code>--resume</code>後に結果を返さない問題を修正。",
+                "<code>HEAD</code>というファイル/フォルダーがあるとclaude.ai・mobileのsession diffや<code>/diff</code>が読めない問題、64ターン以上で編集したsessionの<code>/diff</code>が空になる問題を修正。",
+                "先頭に空白・tab・改行を付けたslash commandが通常textとして送られる問題、失敗requestの401 refreshが他sessionも401にする問題、<code>/context</code>が全ターンで完全visual gridを送る問題を修正。",
+                "安全確認なしでauto modeの操作が拒否された際に<code>claude -p</code>が終了コード0になる問題を修正。text/JSONとも終了コード1になる。",
+                "ネットワークfilesystem上のLinux projectで起動時に全fileを列挙する問題、model変更とauto mode要求を連続送信した際の誤拒否、server review未到達時の<code>/status</code>誤表示を修正。",
+                "組織がfeedbackを拒否後もfeedback/survey/<code>/feedback</code>が表示され続ける問題、third-party gatewayで送れないfeedbackをClaudeが起草する問題を修正。",
+                "巨大なpermission rule/<code>autoMode</code>設定で理由なくauto modeが拒否する問題、quoted wordを含むcommandをBash deny/ask ruleが見逃す問題を修正。",
+                "subagent hand-back reportの内部marker表示、MCP server欠落時の<code>claude -p --resume</code>によるdeferred tool call喪失、SDK情報messageのtext欠落を修正。",
+                "disk full時のAgent SDK error、別permission mode再開時の<code>CLAUDE_CODE_RESUME_INTERRUPTED_TURN</code>再実行、直後のsettings edit無視、legacy configによる設定隠蔽を修正。",
+                "disk full時に<code>~/.claude.json</code>・settings・編集fileが空/途中になる問題、読めない上書きfileでWriteがrefusal終了する問題、即時終了background Bashのoutput喪失と変更file diff取り逃がしを修正。",
+                "誤model名のsuggestion、permission prompt中のNotebookEdit誤cell、<code>/login</code>成功後の停止、screen readerのOther回答中Ctrl+G、proxy環境のMonitor WebSocket watchを修正。",
+                "<code>claude plugin eval</code>の不適切な<code>max: 0</code>提案、plugin auto-update/updateで追加dependencyを導入しない問題、tmux上GhosttyのCmd+click、mod hot reloadの削除file取り逃がしを修正。",
+                "<code>/rewind</code>のbranch前checkpoint復元、<code>/claude-api</code> skill説明、<code>timeout DURATION</code>で包んだread-only commandの不要prompt、共有chat linkを空pageと説明するWebFetchを修正。",
+                "artifact databaseのdatabaseなし宛先への再送、<code>out_dir</code>へのread拒否、tracing時のclient certificate、未claim Agent SDK prewarmを数えるOpenTelemetry metricを修正。",
+                "<code>/clear</code>がbackground agent/teammate/workflowを止める問題、gateway期限切れterminalの<code>invalid_token</code> request、agents viewのpermission reply/draft/input/previewの各問題を修正。",
+                "Claude in Chromeのdisconnect後の重複操作、Remote Controlのlimit解除表示、iOSのfile card欠落、self-hosted runnerのmodel access更新失敗、cloud sessionの<code>/permissions</code>説明とworker移動時rule保持を修正。",
+                "cloud sessionでmod hot reloadが止まる問題、<code>/clear</code>後のbackground task表示、hidden command表示、symlink経由の<code>/rewind</code>、<code>sed</code>のpermission bypassを修正。",
+                "gateway URLがmanaged settingsのみの場合のauto mode server設定無視、environment prefixによるBash permission bypass、Claude Desktopでconnector名を使ったrule/hook/disallowedTools無視、worktree sandbox escapeを修正。",
+                "<code>--trust-workspace false</code>時にrepository settings/skills hookを止め、LLM gatewayを使うidle background sessionが更新後gatewayを離れる問題、折返しURLが一部しか開かない問題を修正。",
+                "非必須通信無効時のTLS検査proxy certificate error、<code>claude remote-control</code>の無言status 0・改行なしpiped yes、<code>/rename</code>の永続失敗未警告、plugin root置換を修正。",
+                "plugin updateのdependency、background agent report喪失、Windows config save、Claude in Chromeの短時間disconnectと60,000文字までのJavaScript tool result、<code>claude purge</code>の削除retryを改善・修正。",
+                "working directory外pathの大文字小文字表示、secondary text contrast、artifact database error、gateway upstream/spend-limit error、<code>/model</code> picker、terminal <code>/context</code>、cloud <code>/usage</code>を改善。",
+                "VSCodeのmarketplace削除確認、50,000文字超prompt、survey送信、削除turn/file復活、reload後の未承認plan、gateway未ログイン表示、link表示、長いslash pathのfreeze、dictation、math fenceによる遅延、diagnosticsを修正・改善。",
+                "Cloud sessionsのscheduled taskでmemory connectorを落とす問題、waiting messageのSend nowがbackground agentを終了する問題、self-hosted stalled-setup warningを修正・改善。",
+                "Claude Tagでchannel list不完全時にsetupがlaunchを阻害する問題と、auto mode allow rule保存が他admin変更を上書きする問題を修正。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付だが、公開時刻が表示されず厳密なUTC 24時間窓への包含を証明できないため除外。",
+    "X MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "sources": [
+    {"title": "Claude Code v2.1.319 release", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"},
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"}
+  ]
+}
+
