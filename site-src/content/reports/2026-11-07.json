@@ -1,9 +1,9 @@
 {
   "date": "2026-11-07",
-  "windowLabel": "2026-11-05 22:03:42 UTC - 2026-11-06 22:03:42 UTC（JST: 2026年11月6日 07:03:42 - 11月7日 07:03:42）",
+  "windowLabel": "2026-11-06 04:04:19 UTC - 2026-11-07 04:04:19 UTC（JST: 2026年11月6日 13:04:19 - 11月7日 13:04:19）",
   "archiveTitle": "Claude Code v2.1.319",
   "archiveSummary": "Claude Code v2.1.319が公開され、MCPタスク、auto mode、Claude apps gateway、エージェント体験を拡張・修正した。",
-  "latestSummary": "Claude Code v2.1.319を完全収録。公式サイトの11月6日付記事2件は公開時刻を確認できず、厳密な24時間窓からは除外した。",
+  "latestSummary": "Claude Code v2.1.319を完全収録。公式サイトの11月6日付記事2件は公開時刻を確認できず、厳密な24時間窓からは除外した。X投稿は専用MCP未接続のため未確認。",
   "summaryBullets": [
     "<strong>Claude Code v2.1.319</strong>: 2026年11月7日 02:04:01 JSTに公開。MCPタスクのバックグラウンド実行、<code>permissions.denyInsteadOfPrompting</code>、Claude apps gatewayの運用設定などを追加。",
     "<strong>修正</strong>: MCP、diff、認証、権限、設定保存、エージェント表示、Claude in Chrome、セルフホストランナーなどを幅広く修正。",
@@ -14,7 +14,7 @@
   "officialZeroStates": [
     {
       "label": "公式サイトの窓内確定記事0件",
-      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付だが、各記事・一覧とも公開時刻を示さないため、2026-11-05T22:03:42Z以降の公開とは断定せず除外した。"
+      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付だが、各記事・一覧とも公開時刻を示さないため、2026-11-06T04:04:19Z以降の公開とは断定せず除外した。"
     },
     {
       "label": "Xの投稿は未確認",
