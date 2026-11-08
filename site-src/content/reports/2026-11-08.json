@@ -1,9 +1,9 @@
 {
   "date": "2026-11-08",
-  "windowLabel": "2026-11-07 04:05:53 UTC - 2026-11-08 04:05:53 UTC（JST: 2026年11月7日 13:05:53 - 11月8日 13:05:53）",
+  "windowLabel": "2026-11-07 10:06:05 UTC - 2026-11-08 10:06:05 UTC（JST: 2026年11月7日 19:06:05 - 11月8日 19:06:05）",
   "archiveTitle": "直近24時間のClaudeニュース",
   "archiveSummary": "公開時刻を確認できる公式記事とClaude Codeリリースは、この24時間にはなかった。",
-  "latestSummary": "公式4一覧とClaude CodeのGitHubリリースを確認したが、対象UTC 24時間に時刻が確定する新着は0件。Claude Codeの最新v2.1.319の公式release note本文は全146項目まで取得したが、公開時刻が窓外のため収録しない。X投稿は専用MCP未接続のため未確認。",
+  "latestSummary": "公式4一覧とClaude CodeのGitHubリリースを再確認したが、対象UTC 24時間に時刻が確定する新着は0件。Claude Codeの最新v2.1.319の公式release note本文は全146項目まで取得したが、公開時刻が窓外のため収録しない。X投稿は専用MCP未接続のため未確認。",
   "summaryBullets": [
     "<strong>公式サイト</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。対象UTC 24時間に公開時刻を確認できる新着は0件。",
     "<strong>Claude Code</strong>: 最新のv2.1.319は2026年11月6日 17:04:01 UTC公開で、今回の対象窓より前のため収録しない。公式release note本文は全146項目まで取得済み。",
@@ -17,7 +17,7 @@
     },
     {
       "label": "Claude Codeの窓内リリース0件",
-      "body": "GitHub公式リリース一覧を確認。最新のv2.1.319は2026-11-06T17:04:01Z公開で、対象窓の開始（2026-11-07T04:05:53Z）より前だった。公式release note本文も全146項目まで取得して照合した。"
+      "body": "GitHub公式リリース一覧を確認。最新のv2.1.319は2026-11-06T17:04:01Z公開で、対象窓の開始（2026-11-07T10:06:05Z）より前だった。公式release note本文も全146項目まで取得して照合した。"
     },
     {
       "label": "Xの投稿は未確認",
