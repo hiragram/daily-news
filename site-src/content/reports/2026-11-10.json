@@ -1,71 +1,73 @@
 {
   "date": "2026-11-10",
-  "windowLabel": "2026-11-08 16:00:51 UTC - 2026-11-09 16:00:51 UTC（JST: 2026年11月9日 01:00:51 - 11月10日 01:00:51）",
-  "archiveTitle": "直近24時間のClaudeニュース",
-  "archiveSummary": "公開時刻を確認できる公式記事とClaude Codeリリースは、この24時間にはなかった。",
-  "latestSummary": "公式4一覧とClaude CodeのGitHubリリースを再確認したが、対象UTC 24時間に時刻が確定する新着は0件。Claude Codeの最新v2.1.319の公式release note本文は全146項目まで取得・照合したが、公開時刻が窓外のため収録しない。X投稿は専用MCP未接続のため未確認。",
+  "windowLabel": "2026-11-08 21:59:43 UTC - 2026-11-09 21:59:43 UTC（JST: 2026年11月9日 06:59:43 - 11月10日 06:59:43）",
+  "archiveTitle": "Fable 5.2とClaude Code 2.1.321",
+  "archiveSummary": "Claude Fable／Mythos 5.2、電子機器設計研究、Claude Code v2.1.321を公開。",
+  "latestSummary": "AnthropicがClaude Fable 5.2／Mythos 5.2を発表。Claude Code v2.1.321はFable 5.2を既定にし、Remote Control設定と多数の修正・改善を公開した。X投稿は専用MCP未接続のため未確認。",
   "summaryBullets": [
-    "<strong>公式サイト</strong>: Anthropic Engineering、Research、News、Claude Resourcesを確認。対象UTC 24時間に公開時刻を確認できる新着は0件。",
-    "<strong>Claude Code</strong>: 最新のv2.1.319は2026年11月6日 17:04:01 UTC公開で、今回の対象窓より前のため収録しない。公式release note本文は全146項目まで取得・照合済み。",
+    "<strong>モデル</strong>: Claude Fable 5.2／Mythos 5.2を発表。Fable 5.2はClaude Codeの既定モデルになった。",
+    "<strong>研究</strong>: Fable 5.2が設計した電子機器3種を、Diode Computersが実動プロトタイプ化した。",
+    "<strong>Claude Code v2.1.321</strong>: <code>--settings &lt;file&gt;</code>、権限・MCP・Remote Control・ネットワークパスの修正と挙動改善を収録。",
     "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
   ],
-  "officialNews": [],
-  "officialZeroStates": [
+  "officialNews": [
     {
-      "label": "公式サイトの窓内確定記事0件",
-      "body": "Anthropic Engineering、Research、News、Claude Resourcesを確認。Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付、Claude Resourcesの最新記事は11月6日付で、対象窓より前だった。News一覧の直近掲載記事も10月28日付以前だった。"
+      "label": "Anthropic News",
+      "datetime": "2026-11-09T00:00:00Z",
+      "displayTime": "2026年11月9日（掲載日）",
+      "title": "Claude Fable 5.2／Mythos 5.2を発表",
+      "summary": "コーディング、推論、視覚の性能を高めたFable 5.2／Mythos 5.2を公開。Fableは安全策付きで広く提供し、MythosはCyber／Life Sciences Verification Program経由で提供する。",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "urlLabel": "発表を読む",
+      "primary": true
     },
     {
-      "label": "Claude Codeの窓内リリース0件",
-      "body": "GitHub公式リリース一覧を確認。最新のv2.1.319は2026-11-06T17:04:01Z公開で、対象窓の開始（2026-11-08T16:00:51Z）より前だった。公式release note本文も全146項目まで取得して照合した。"
-    },
-    {
-      "label": "Xの投稿は未確認",
-      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+      "label": "Anthropic Research",
+      "datetime": "2026-11-09T00:00:00Z",
+      "displayTime": "2026年11月9日（掲載日）",
+      "title": "Claudeによる実世界の電子機器設計を検証",
+      "summary": "Fable 5.2にスピーカーフォン、音声アシスタントハブ、携帯型バーチャルペットを設計させ、Diode Computersが動作する試作機を製作した。",
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "urlLabel": "研究を読む"
     }
+  ],
+  "officialZeroStates": [
+    { "label": "公式X投稿は未確認", "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsの対象窓内投稿は確認できていない。" },
+    { "label": "エンジニアX投稿は未確認", "body": "X MCP接続がこの実行環境にないため、監視対象のAnthropic関連エンジニア・研究者アカウントの対象窓内投稿は確認できていない。" },
+    { "label": "公式ブログの新規掲載は2件", "body": "Engineeringは窓内新着0件。ResearchとNewsに11月9日付の掲載を確認し、Claude Resourcesの最新掲載は11月6日付だった。" }
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "0件",
-      "body": "公式4一覧を確認。対象UTC 24時間内に公開日を持つ新規掲載は確認できなかった。"
-    },
+    { "title": "ブログ", "headline": "2件", "body": "Anthropic公式一覧で11月9日付のモデル発表と電子機器設計研究を確認。" },
     {
       "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "対象窓内に公開されたリリースはない。最新のv2.1.319は2026年11月6日 17:04:01 UTC公開で窓外。公式release note本文は全146項目まで取得して確認した。"
+      "headline": "v2.1.321",
+      "body": "GitHub公式リリース本文を確認。全項目は以下のカテゴリに整理した。",
+      "releases": [
+        {
+          "version": "v2.1.321",
+          "publishedAt": "2026年11月10日 04:22:30 JST（2026-11-09T19:22:30Z）",
+          "summary": "Fable 5.2を既定モデルにし、Remote Control設定を追加。権限、MCP、ネットワークパス、エージェント、Desktop、Gatewayにわたる修正・変更を収録。",
+          "sections": [
+            { "title": "新機能", "items": ["Claude Fable 5.2（`claude-fable-5-2`）を追加し、1Mコンテキスト、入力／出力$8／$40/Mtok、キャッシュ読取$0.20/MtokでFableの既定モデルにした。", "`claude remote-control`に`--settings <file>`を追加。開始する全セッションへ設定ファイルを適用し、変更後はRemote Control再起動まで新規セッションを開始しない。", "[VS Code] 認証トークンとAPIキーが両方設定されている場合、入力欄上へ警告を表示する。"] },
+            { "title": "変更", "items": ["`/model` picker、fast mode表示、Claude install、TLS証明書読込み、Windows起動、Remote Control、背景agent報告を改善。", "Gatewayの利用上限、サインインエラー、ポリシー、Bedrock／Vertex／Foundry upstreamを改善・変更。", "mods、Fable 5.1からFableへの移行、plugin marketplace、managed policy、Claude in Chrome、Cowork hooks、`cp`／`mv`検査の挙動を変更。", "Artifact、dataviz skill、プラン表記、Telemetry、AskUserQuestion、背景コマンド通知、Cyber Verification Program文言を更新。"] },
+            { "title": "修正", "items": ["MCP OAuthのリダイレクト時の秘密情報送信、Bashサンドボックス／権限／作業フォルダ判定、`cp`／`mv`の拒否・保護ファイル適用を修正。", "NotebookEdit・Editのネットワークパス操作、`/config`の既定権限表示、plugin更新、コンテキスト使用量、`/compact`重複、skills／commands／agents再読込を修正。", "Remote Control、Claude Desktop、SDK、VS Code、Cloud session、background subagent、screen reader、agent view、hook、MCP接続の多数の不具合を修正。", "TLS・プロキシ・NFS・メモリ不足・大きなhook出力・長いコネクタ名・ファイル送信・WebFetch・Artifact・ワークフロー状態のエラー処理を修正。", "WindowsのFileChanged hook、PATH・Git探索、macOSのMDM／Desktop検出、Linuxの`claude -p`、zshのBash出力、Claude in Chrome／computer useプロセスの問題を修正。"] }
+          ],
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+          "urlLabel": "GitHubリリースノート"
+        }
+      ]
     }
   ],
-  "exclusions": [
-    "Engineeringの「The components of agent memory」とResearchの「Teaching AI to build scientific models」は11月6日付、Claude Resourcesの最新記事は11月6日付であり、対象窓より前のため除外。",
-    "Claude Code v2.1.319は2026-11-06T17:04:01Z公開で対象窓より前のため除外（公式release note本文は全146項目を取得して確認）。",
-    "X MCP接続がないため、公式・エンジニア投稿は未確認。"
-  ],
+  "exclusions": ["Anthropic Engineeringの最新記事とClaude Resourcesの最新記事は11月6日付で対象窓より前のため除外。", "X MCP接続がないため、公式・エンジニア投稿は未確認。"],
   "sources": [
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    },
-    {
-      "title": "Claude Code v2.1.319 release notes",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
-    },
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    }
+    { "title": "Claude Code v2.1.321 release notes", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321" },
+    { "title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases" },
+    { "title": "Claude Fable 5.2 and Mythos 5.2", "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2" },
+    { "title": "Testing Claude on real-world electronics design", "url": "https://www.anthropic.com/research/claude-electronics-design" },
+    { "title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering" },
+    { "title": "Anthropic Research", "url": "https://www.anthropic.com/research" },
+    { "title": "Anthropic News", "url": "https://www.anthropic.com/news" },
+    { "title": "Claude Resources", "url": "https://claude.com/resources/articles" }
   ]
 }
