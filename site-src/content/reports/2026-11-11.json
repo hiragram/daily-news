@@ -1,84 +1,90 @@
 {
   "date": "2026-11-11",
-  "windowLabel": "2026-11-09 15:57:24 UTC - 2026-11-10 15:57:24 UTC（JST: 2026年11月10日 00:57:24 - 11月11日 00:57:24）",
-  "archiveTitle": "Anthropic launches IPO roadshow",
-  "archiveSummary": "AnthropicがIPOに向けたロードショー開始を発表。Claude Codeの新規リリースはなし。",
-  "latestSummary": "AnthropicはIPOに向けたロードショー開始を発表した。Claude Codeの最新v2.1.322以降、新しい公式リリースは確認されていない。X投稿は専用MCP未接続のため未確認。",
+  "windowLabel": "2026-11-09 21:59:21 UTC - 2026-11-10 21:59:21 UTC（JST: 2026年11月10日 06:59:21 - 11月11日 06:59:21）",
+  "archiveTitle": "Claude adds Sheets, Whiteboards, and Data",
+  "archiveSummary": "ClaudeにSheets、Whiteboards、Data、アプリ内作業の新機能が加わり、AnthropicはIPOロードショー開始を発表。",
+  "latestSummary": "ClaudeはSheets、Whiteboards、Dataとインタラクティブコネクタを拡張した。AnthropicはIPOロードショーを開始。各記事の公開時刻は非掲載で、11月10日の掲載日に基づく収録。",
   "summaryBullets": [
-    "<strong>Anthropic News</strong>: IPOに向けたロードショー開始を発表。Nasdaq Global Select Marketでの<code>ANT</code>上場を申請している。公開時刻は非掲載のため、11月10日の掲載日に基づき収録。",
-    "<strong>Claude Code</strong>: GitHub CLIで確認した最新リリースはv2.1.322（2026-11-10 02:29:43 UTC）のままで、今回新たなリリースはない。",
-    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+    "<strong>Claude apps</strong>: Sheets・Whiteboardsをベータ公開し、Dashboardsを<strong>Claude Data</strong>として一般提供。インタラクティブコネクタでは対応アプリをClaude内で開き、Claudeと同時に操作できる。",
+    "<strong>Claude Resources</strong>: Curativeの契約交渉エージェント事例を公開。週2,000件超の医療提供者契約を処理している。",
+    "<strong>Anthropic News</strong>: IPOに向けたロードショー開始を発表。Nasdaq Global Select Marketでの<code>ANT</code>上場を申請している。",
+    "<strong>Claude Code</strong>: GitHub CLIで確認した最新はv2.1.322（2026-11-10 02:29:43 UTC）で、今回の窓内に新規リリースはない。"
   ],
   "officialNews": [
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-11-10T00:00:00Z",
+      "displayTime": "2026年11月10日（公開時刻非掲載）",
+      "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+      "summary": "Claude WhiteboardsとClaude Sheetsをベータ公開し、Claude DashboardsをClaude Dataへ改称して一般提供した。3機能は有料プランで利用でき、Dataでは認定クエリ、ライブ共有、変更履歴などを提供する。",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "urlLabel": "Claude Resourcesで読む",
+      "primary": true
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-11-10T00:00:00Z",
+      "displayTime": "2026年11月10日（公開時刻非掲載）",
+      "title": "Your apps can now open in Claude, and Claude can work in them",
+      "summary": "対応するインタラクティブコネクタを会話の横または全画面で開き、Claudeがページ・行・ファイルを直接編集できるようにした。WebとClaudeデスクトップアプリで順次提供し、開発者向け機能はパブリックプレビュー。",
+      "url": "https://claude.com/resources/articles/interactive-connectors-full-tool",
+      "urlLabel": "Claude Resourcesで読む"
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-11-10T00:00:00Z",
+      "displayTime": "2026年11月10日（公開時刻非掲載）",
+      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+      "summary": "Sheets、Whiteboards、Dataとインタラクティブコネクタの拡張を、チーム向けの共同作業・エンタープライズ管理の観点から解説した。Claude Meetingsは近日公開予定としている。",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "urlLabel": "Claude Resourcesで読む"
+    },
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-11-10T00:00:00Z",
+      "displayTime": "2026年11月10日（公開時刻非掲載）",
+      "title": "How Curative is building a national provider network with agents on Claude",
+      "summary": "CurativeはClaude上の階層型エージェントで医療提供者との契約を週2,000〜2,400件処理し、2025年比で契約速度を約50倍にした事例を公開した。",
+      "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+      "urlLabel": "Claude Resourcesで読む"
+    },
     {
       "label": "Anthropic News",
       "datetime": "2026-11-10T00:00:00Z",
       "displayTime": "2026年11月10日（公開時刻非掲載）",
       "title": "Anthropic launches roadshow for proposed initial public offering",
-      "summary": "AnthropicはClass A普通株式のIPOに向けたロードショー開始を発表した。提示価格帯は1株70〜78米ドルで、Nasdaq Global Select Marketへの<code>ANT</code>上場を申請している。公開時刻はページに示されないため、visible publication dateに基づき収録。",
+      "summary": "AnthropicはClass A普通株式のIPOに向けたロードショー開始を発表した。提示価格帯は1株70〜78米ドルで、Nasdaq Global Select Marketへの<code>ANT</code>上場を申請している。",
       "url": "https://www.anthropic.com/news/roadshow-launch",
-      "urlLabel": "Anthropic Newsで読む",
-      "primary": true
+      "urlLabel": "Anthropic Newsで読む"
     }
   ],
   "officialZeroStates": [
-    {
-      "label": "公式X投稿は未確認",
-      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsの対象窓内投稿は確認できていない。"
-    },
-    {
-      "label": "エンジニアX投稿は未確認",
-      "body": "X MCP接続がこの実行環境にないため、監視対象のAnthropic関連エンジニア・研究者アカウントの対象窓内投稿は確認できていない。"
-    },
-    {
-      "label": "Engineering・Research・Claude Resourcesの窓内新着は0件",
-      "body": "公式一覧を確認した。Engineeringの最新は11月6日、ResearchとClaude Resourcesの最新は11月9日付で、今回の窓内に公開時刻まで確認できる新着はなかった。"
-    }
+    {"label": "公式X投稿は未確認", "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsの対象窓内投稿は確認できていない。"},
+    {"label": "エンジニアX投稿は未確認", "body": "X MCP接続がこの実行環境にないため、監視対象のAnthropic関連エンジニア・研究者アカウントの対象窓内投稿は確認できていない。"},
+    {"label": "Engineering・Researchの窓内新着は0件", "body": "公式一覧を確認した。Engineeringの最新は11月6日、Researchの最新は11月9日付で、今回の窓内に公開時刻まで確認できる新着はなかった。"}
   ],
   "signals": [],
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "1件: IPOロードショー開始",
-      "body": "Anthropic Newsに11月10日付のロードショー開始発表が掲載された。記事に公開時刻はないため、visible publication dateに基づき収録した。Engineering、Research、Claude Resourcesの新着は0件。",
-      "url": "https://www.anthropic.com/news/roadshow-launch",
-      "urlLabel": "Anthropic Newsで読む"
+      "headline": "5件: Claude apps拡張とIPOロードショー",
+      "body": "Claude ResourcesでSheets、Whiteboards、Data、インタラクティブコネクタの拡張とCurative事例が4件、Anthropic NewsでIPOロードショー開始が1件掲載された。いずれも公開時刻が非掲載のため、11月10日のvisible publication dateに基づき収録した。",
+      "details": ["Claude Whiteboards・Claude Sheetsをベータ公開、Claude Dataを一般提供。", "対応アプリをClaude内で開き、Claudeと並行して作業するコネクタ機能を拡張。", "Curativeの週2,000件超の契約交渉エージェント事例を公開。", "AnthropicがIPOロードショー開始を発表。"],
+      "url": "https://claude.com/resources/articles",
+      "urlLabel": "Claude Resourcesで読む"
     },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧を確認した。最新のv2.1.322は2026-11-10T02:29:43Z公開で、今回の窓内に新たなリリースはなかった。"
-    }
+    {"title": "Claude Code リリース", "headline": "0件", "body": "GitHub CLIで公式リリース一覧を確認した。最新のv2.1.322は2026-11-10T02:29:43Z公開で、今回の窓内に新たなリリースはなかった。"}
   ],
-  "exclusions": [
-    "11月10日付のロードショー記事は公開時刻が非掲載のため、visible publication dateに基づく収録であり、厳密な時刻境界は検証できない。",
-    "Claude Code v2.1.322は今回の開始時刻より前の2026-11-10T02:29:43Z公開のため除外。",
-    "X MCP接続がないため、公式・エンジニア投稿は未確認。"
-  ],
+  "exclusions": ["Claude ResourcesとAnthropic Newsの11月10日付記事は公開時刻が非掲載のため、visible publication dateに基づく収録であり、厳密な時刻境界は検証できない。", "Claude Code v2.1.322は今回の開始時刻より前の2026-11-10T02:29:43Z公開のため除外。", "X MCP接続がないため、公式・エンジニア投稿は未確認。"],
   "sources": [
-    {
-      "title": "Anthropic launches roadshow for proposed initial public offering",
-      "url": "https://www.anthropic.com/news/roadshow-launch"
-    },
-    {
-      "title": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering"
-    },
-    {
-      "title": "Anthropic Research",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "title": "Anthropic News",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "title": "Claude Resources",
-      "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Claude Code releases",
-      "url": "https://github.com/anthropics/claude-code/releases"
-    }
+    {"title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data", "url": "https://claude.com/resources/articles/sheets-whiteboards-data"},
+    {"title": "Your apps can now open in Claude, and Claude can work in them", "url": "https://claude.com/resources/articles/interactive-connectors-full-tool"},
+    {"title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors", "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"},
+    {"title": "How Curative is building a national provider network with agents on Claude", "url": "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude"},
+    {"title": "Anthropic launches roadshow for proposed initial public offering", "url": "https://www.anthropic.com/news/roadshow-launch"},
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"}
   ]
 }
