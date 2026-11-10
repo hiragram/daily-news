@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-11",
+  "windowLabel": "2026-11-09 15:57:24 UTC - 2026-11-10 15:57:24 UTC（JST: 2026年11月10日 00:57:24 - 11月11日 00:57:24）",
+  "archiveTitle": "Anthropic launches IPO roadshow",
+  "archiveSummary": "AnthropicがIPOに向けたロードショー開始を発表。Claude Codeの新規リリースはなし。",
+  "latestSummary": "AnthropicはIPOに向けたロードショー開始を発表した。Claude Codeの最新v2.1.322以降、新しい公式リリースは確認されていない。X投稿は専用MCP未接続のため未確認。",
+  "summaryBullets": [
+    "<strong>Anthropic News</strong>: IPOに向けたロードショー開始を発表。Nasdaq Global Select Marketでの<code>ANT</code>上場を申請している。公開時刻は非掲載のため、11月10日の掲載日に基づき収録。",
+    "<strong>Claude Code</strong>: GitHub CLIで確認した最新リリースはv2.1.322（2026-11-10 02:29:43 UTC）のままで、今回新たなリリースはない。",
+    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [
+    {
+      "label": "Anthropic News",
+      "datetime": "2026-11-10T00:00:00Z",
+      "displayTime": "2026年11月10日（公開時刻非掲載）",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "summary": "AnthropicはClass A普通株式のIPOに向けたロードショー開始を発表した。提示価格帯は1株70〜78米ドルで、Nasdaq Global Select Marketへの<code>ANT</code>上場を申請している。公開時刻はページに示されないため、visible publication dateに基づき収録。",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "urlLabel": "Anthropic Newsで読む",
+      "primary": true
+    }
+  ],
+  "officialZeroStates": [
+    {
+      "label": "公式X投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsの対象窓内投稿は確認できていない。"
+    },
+    {
+      "label": "エンジニアX投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、監視対象のAnthropic関連エンジニア・研究者アカウントの対象窓内投稿は確認できていない。"
+    },
+    {
+      "label": "Engineering・Research・Claude Resourcesの窓内新着は0件",
+      "body": "公式一覧を確認した。Engineeringの最新は11月6日、ResearchとClaude Resourcesの最新は11月9日付で、今回の窓内に公開時刻まで確認できる新着はなかった。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "1件: IPOロードショー開始",
+      "body": "Anthropic Newsに11月10日付のロードショー開始発表が掲載された。記事に公開時刻はないため、visible publication dateに基づき収録した。Engineering、Research、Claude Resourcesの新着は0件。",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "urlLabel": "Anthropic Newsで読む"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで公式リリース一覧を確認した。最新のv2.1.322は2026-11-10T02:29:43Z公開で、今回の窓内に新たなリリースはなかった。"
+    }
+  ],
+  "exclusions": [
+    "11月10日付のロードショー記事は公開時刻が非掲載のため、visible publication dateに基づく収録であり、厳密な時刻境界は検証できない。",
+    "Claude Code v2.1.322は今回の開始時刻より前の2026-11-10T02:29:43Z公開のため除外。",
+    "X MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code releases",
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}
