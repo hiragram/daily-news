@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-13",
+  "windowLabel": "2026-11-12 15:59:54 UTC - 2026-11-13 15:59:54 UTC（JST: 2026年11月13日 00:59:54 - 11月14日 00:59:54）",
+  "archiveTitle": "直近24時間のClaudeニュース",
+  "archiveSummary": "公開時刻を確認できる公式記事とClaude Codeリリースは、この24時間にはなかった。",
+  "latestSummary": "Anthropic News、Engineering、Research、Claude ResourcesとClaude Codeの公式リリースを確認したが、対象UTC 24時間に公開時刻が確定する新着は0件。Claude Codeの最新v2.1.322は全リリースノート（1項目）を取得して照合したが、公開時刻が窓外だった。X投稿は専用MCP未接続のため未確認。",
+  "summaryBullets": [
+    "<strong>公式サイト</strong>: Anthropic News、Engineering、Research、Claude Resourcesを確認。対象UTC 24時間に公開時刻を確認できる新着は0件。",
+    "<strong>Claude Code</strong>: 最新のv2.1.322は2026年11月10日 02:29:43 UTC公開で、今回の対象窓より前のため収録しない。公式release note本文は全1項目まで取得して確認した。",
+    "<strong>X</strong>: 専用MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイトの窓内確定記事0件",
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesを確認。Newsの最新掲載は11月10日、Engineeringは11月6日、Researchは11月9日、Claude Resourcesの最新日付表示は11月12日だった。公開時刻を示さない日付表示だけでは今回の厳密なUTC境界への包含を証明できないため、窓内の確定記事には収録していない。"
+    },
+    {
+      "label": "Claude Codeの窓内リリース0件",
+      "body": "GitHub公式リリース一覧と最新v2.1.322の完全なrelease note本文を確認。v2.1.322は2026-11-10T02:29:43Z公開で、対象窓の開始（2026-11-12T15:59:54Z）より前だった。ノート全1項目は新機能「Vertexのglobal・us・euリージョンでfast modeを追加し、Vertexが拒否した場合はstandard speedへフォールバック」に分類・和訳して照合した。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件（公開時刻を確認できるもの）",
+      "body": "公式4一覧を確認。各一覧の最新表示は対象窓より前、または公開時刻が表示されない日付のみの掲載であり、厳密な対象24時間内の確定記事として収録していない。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "対象窓内に公開されたリリースはない。最新のv2.1.322は2026年11月10日 02:29:43 UTC公開で窓外。公式release note本文は全1項目を取得し、新機能として和訳して確認した。"
+    }
+  ],
+  "exclusions": [
+    "Anthropic News、Engineering、Researchの最新掲載は対象窓より前。Claude Resourcesの最新日付表示は11月12日だが、公開時刻が表示されず厳密なUTC 24時間窓への包含を証明できないため除外。",
+    "Claude Code v2.1.322は2026-11-10T02:29:43Z公開で対象窓より前のため除外。完全な公式release noteは全1項目を取得し、新機能として和訳・分類して確認した。",
+    "X MCP接続がないため、公式・エンジニア投稿は未確認。"
+  ],
+  "sources": [
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.322 release notes", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources"}
+  ]
+}
