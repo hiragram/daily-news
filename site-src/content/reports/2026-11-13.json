@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "windowLabel": "2026-11-12 15:59:54 UTC - 2026-11-13 15:59:54 UTC（JST: 2026年11月13日 00:59:54 - 11月14日 00:59:54）",
+  "windowLabel": "2026-11-11 22:04:07 UTC - 2026-11-12 22:04:07 UTC（JST: 2026年11月12日 07:04:07 - 11月13日 07:04:07）",
   "archiveTitle": "直近24時間のClaudeニュース",
   "archiveSummary": "公開時刻を確認できる公式記事とClaude Codeリリースは、この24時間にはなかった。",
   "latestSummary": "Anthropic News、Engineering、Research、Claude ResourcesとClaude Codeの公式リリースを確認したが、対象UTC 24時間に公開時刻が確定する新着は0件。Claude Codeの最新v2.1.322は全リリースノート（1項目）を取得して照合したが、公開時刻が窓外だった。X投稿は専用MCP未接続のため未確認。",
@@ -13,11 +13,11 @@
   "officialZeroStates": [
     {
       "label": "公式サイトの窓内確定記事0件",
-      "body": "Anthropic News、Engineering、Research、Claude Resourcesを確認。Newsの最新掲載は11月10日、Engineeringは11月6日、Researchは11月9日、Claude Resourcesの最新日付表示は11月12日だった。公開時刻を示さない日付表示だけでは今回の厳密なUTC境界への包含を証明できないため、窓内の確定記事には収録していない。"
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesを確認。Newsの最新掲載は11月10日、Engineeringは11月6日、Researchは11月9日、Claude Resourcesの最新日付表示は11月12日だった。公開時刻を示さない日付表示だけでは今回の厳密なUTC境界（2026-11-11T22:04:07Z - 2026-11-12T22:04:07Z）への包含を証明できないため、窓内の確定記事には収録していない。"
     },
     {
       "label": "Claude Codeの窓内リリース0件",
-      "body": "GitHub公式リリース一覧と最新v2.1.322の完全なrelease note本文を確認。v2.1.322は2026-11-10T02:29:43Z公開で、対象窓の開始（2026-11-12T15:59:54Z）より前だった。ノート全1項目は新機能「Vertexのglobal・us・euリージョンでfast modeを追加し、Vertexが拒否した場合はstandard speedへフォールバック」に分類・和訳して照合した。"
+      "body": "GitHub公式リリース一覧と最新v2.1.322の完全なrelease note本文を確認。v2.1.322は2026-11-10T02:29:43Z公開で、対象窓の開始（2026-11-11T22:04:07Z）より前だった。ノート全1項目は新機能「Vertexのglobal・us・euリージョンでfast modeを追加し、Vertexが拒否した場合はstandard speedへフォールバック」に分類・和訳して照合した。"
     },
     {
       "label": "Xの投稿は未確認",
