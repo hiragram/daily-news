@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "windowLabel": "2026-11-12 03:59:39 UTC - 2026-11-13 03:59:39 UTC（JST: 2026年11月12日 12:59:39 - 11月13日 12:59:39）",
+  "windowLabel": "2026-11-12 09:57:14 UTC - 2026-11-13 09:57:14 UTC（JST: 2026年11月12日 18:57:14 - 11月13日 18:57:14）",
   "archiveTitle": "Claude Code v2.1.323 release",
   "archiveSummary": "Claude Code v2.1.323を公開。294項目のリリースノートを全件和訳・分類。",
   "latestSummary": "Claude Code v2.1.323が公開され、Code Mode、plugin検証、権限・sandbox・認証・各clientを含む294項目を更新。X投稿は専用MCP未接続のため未確認。",
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "公式サイトの窓内確定記事0件",
-      "body": "Anthropic News、Engineering、Research、Claude Resourcesを確認。Newsの最新掲載は11月10日、Engineeringは11月6日、Researchは11月9日、Claude Resourcesは11月12日だった。Claude Resourcesの掲載は日付のみで公開時刻が示されないため、厳密なUTC境界（2026-11-12T03:59:39Z - 2026-11-13T03:59:39Z）への包含を証明できず、窓内確定記事には収録していない。"
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesを確認。Newsの一覧上部には11月13日表示があるが、紐付く最新記事の公開日は11月9日。Engineeringは11月6日、Researchは11月9日、Claude Resourcesは11月12日だった。Claude Resourcesの掲載は日付のみで公開時刻が示されないため、厳密なUTC境界（2026-11-12T09:57:14Z - 2026-11-13T09:57:14Z）への包含を証明できず、窓内確定記事には収録していない。"
     },
     {
       "label": "Xの投稿は未確認",
