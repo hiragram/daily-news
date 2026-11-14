@@ -1,0 +1,246 @@
+{
+  "date": "2026-11-15",
+  "windowLabel": "2026-11-13 16:04:17 UTC - 2026-11-14 16:04:17 UTC（直近24時間）",
+  "archiveTitle": "Claude Code releases and agent guides",
+  "archiveSummary": "Claude Code v2.1.325の全139項目と公式記事3件を収録。",
+  "latestSummary": "Claude Code v2.1.325の全139項目と公式記事3件を収録。 Xは未確認。",
+  "summaryBullets": [
+    "Claude Code v2.1.325の全139項目を和訳。新機能6件・変更45件・修正88件。",
+    "公式記事3件は11月13日の公開日表示に基づき収録。公開時刻は未確認。",
+    "v2.1.323は公開時刻が24時間の対象範囲外となったため除外。",
+    "X投稿は専用MCPが利用できず未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式ブログの確認範囲",
+      "body": "Engineeringで11月13日付の安全性評価記事、Claude Resourcesで同日付の記事2件を再確認。日付ベースでブログ欄へ収録。公開時刻は未確認。ResearchとNewsでは対象期間内の新規記事を確認できなかった。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "3件（日付ベース）",
+      "body": "11月13日の公開日表示に基づき収録。時刻非公表のため厳密な24時間境界への包含は未確定。",
+      "details": [
+        "Building strong safety evaluations：安全性評価の設計・実行・報告に関する指針を公開。 https://www.anthropic.com/research/building-strong-safety-evaluations",
+        "Building always-on agents：常時稼働agentの基本構成と設計を解説。 https://claude.com/resources/articles/building-always-on-agents",
+        "The Claude Tag guide for startups：startupによるClaude Tagの開発・運用活用を紹介。 https://claude.com/resources/articles/claude-tag-guide-for-startups"
+      ]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "v2.1.325",
+      "body": "公式本文の全139項目を取得し、新機能・変更・修正に分類・和訳。",
+      "releases": [
+        {
+          "version": "v2.1.325",
+          "publishedAt": "2026-11-13T20:40:01Z",
+          "summary": "権限・sandbox・認証・MCPを中心に139項目を更新。",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
+          "urlLabel": "GitHubリリースを開く",
+          "sections": [
+            {
+              "title": "新機能",
+              "items": [
+                "VS Code等の統合端末でJupyterを読み書きした後、セル再実行のヒントをスピナーに追加。",
+                "組織ポリシーの拒否エラーに、/rewindでメッセージを変更するか/clearする案内を追加。",
+                "sandbox内のgit checkout、stash、autostash pullが.claude等の保護ファイルを更新できない場合のClaude向け注意を追加。",
+                "VS Codeに端末同様のprompt候補を追加。Tabで採用し、promptSuggestionEnabled:falseで無効化。",
+                "VS CodeにAPIキーを作らないConsoleログインを追加。",
+                "VS CodeのSSH/WSL/containerでMCP認証redirect URLを貼るfieldを追加。"
+              ]
+            },
+            {
+              "title": "変更",
+              "items": [
+                "出力token上限で切れたsubagentへ短い完全回答を再要求し、末尾だけ返す挙動を改善。",
+                "Consoleのキー不要認証等で有効tokenを資格情報lock待ちなしで読み、起動を改善。",
+                "アカウントemailをclientの身元として使うことを、script、書込、web取得、MCPでも拒否。",
+                "private marketplaceのHTTPS認証失敗にgit端末prompt・askpass無効を明記し、新しいgitでも表示。",
+                "marketplace追加、plugin推奨・install警告に、pluginがファイル・shellにアクセスしてコード実行できる旨を明記。",
+                "--desktop認証エラーに原因のAPIキー、provider、設定を表示。",
+                "macOS/Windowsの/voice音声未検出時にマイク選択場所を案内。",
+                "MCP taskが回答待ちであるとClaudeへ知らせ、/tasksへ案内可能に。",
+                "remote-controlの自動停止を終了code 4、登録不能を69に変更し再起動可能に。単一sessionは0。",
+                "background sessionが認証情報を利用できない際、設定へキーを追加する案内を削除。",
+                "同梱dataviz skillの、静止画や年齢帯等の順序を持つ部分対全体の助言を改善。",
+                "sandbox Bashも既定で通常の権限確認に変更。sandbox.autoAllowBashIfSandboxed:trueで無確認実行を維持。",
+                "管理設定でsandboxを有効化する場合、無確認実行の維持には最優先の管理元へautoAllowBashIfSandboxed:trueを設定。",
+                "project外・未信頼repoの読み取り専用gitも確認。無確認にするにはadditionalDirectoriesでなく--add-dirで指定。",
+                "予定タスクと/loopはallowed-toolsやhook付きskillの実行前に確認。permissions.allowのSkill(name)で自動実行可能。",
+                "Desktop/IDE/SDKの常時許可は、そのrule保存で再実行が許可される場合だけ提示。予定タスクが入力待ちになる場合あり。",
+                "追加directoryでも起動folder同様、.claudeの設定・skill・agent・command・hookへのsandbox書込を拒否。",
+                "隔離worktreeのsession/agentでgit bisect run、git maintenance register/start、scalar設定を拒否し代替を案内。",
+                "plugin MCP bundleをplugin内cacheでなくplugins directoryへ展開。読取専用folder対応、URL取得分は一度再download。",
+                "管理設定が宣言・有効化しprependPlugins/appendPluginsへ列挙するremote marketplace pluginを組織所有扱いに。pluginDigestsは非推奨・無視。",
+                "plugin内の危険なpath/linkを読込時にskipしvalidateで報告。",
+                "--plugin-dir内の.claude/skillsは上位folder起動から読込しない。plugin folderで起動が必要。",
+                "EnterWorktreeがproject内symlinkを通るhook出力pathを拒否。hookは実pathを出力。",
+                "tmux/iTerm2 teammateやagent画面の左矢印で作るsessionを、shellの最終cd先でなくsession folderで起動。",
+                "background/予定タスクが8ターン連続した後は入力や端末復帰までprompt候補の更新頻度を下げ使用量を節約。",
+                "background MCP質問のEscを後で回答へ変更。serverへ送らず/tasksに保持。",
+                "CLAUDE_CODE_MAX_CONTEXT_TOKENSをclaude-で始まる未知のgateway model IDにも適用。",
+                "/loginがprivacy設定変更前に許可を要求。",
+                "/cost、$.session.usage()、--max-budget-usd、費用・token指標にmodの$.model.complete/classify呼出しを計上。",
+                "sandbox自身のnetwork bridge等へ認証tokenやAPIキーを環境変数で渡さないよう変更。",
+                "ripgrep、local git、sandbox helperへmTLS秘密鍵のpassphraseを渡さないよう変更。",
+                "Remote Control接続にshare linkがあるか確認不能なら/resumeと/teleportは先に切断。再接続は/remote-control。",
+                "web、cloud予定タスク、Cowork cloudはsandbox.failIfUnavailableでも起動。hosted containerにはcommand sandboxなし。",
+                "cloud/self-hosted接続越しの設定・権限規則・hook・状態の要求を縮小または拒否。session内の適用内容は不変。",
+                "account cacheのない-pは初回要求前にdataを待機。初回起動が数秒遅くなる場合あり。",
+                "保持したいfileを消去可能な一時scratchpad外に置くようClaudeの指示を変更。",
+                "marketplace refにbranch/tag上の完全commit IDを許可。旧clientはそのpinをcloneできず読込停止。",
+                "ALL_PROXYだけがある場合のmarketplace/plugin downloadをCONNECT tunnelに変更。CONNECT拒否proxyでは失敗。",
+                "containerへmountしたworktree/submoduleの-p/SDKはfolder信頼後のみsettings.local.jsonのallow規則を適用。",
+                "self-hosted runnerはsession folderやrepo pathがsymlinkなら拒否。ただしcheckout hookのcheckoutは除外。",
+                "cloud/Remote Controlの支出・共有予算上限エラーから管理者への引上げ依頼を削除。",
+                "VS Codeの未信頼folder案内に拡張機能停止理由と有効化方法を明記。",
+                "VS CodeのOS実行拒否エラーにIT部門がprogramを許可できる旨を案内。",
+                "VS Code認証cardでlocalhost接続エラー時の対処を案内。",
+                "VS Codeのinstall linkのmarketplace確認buttonを「marketplaceを信頼して続行」に変更。"
+              ]
+            },
+            {
+              "title": "修正",
+              "items": [
+                "zstd圧縮応答のデコードに関するセキュリティ問題を修正。",
+                "bareリポジトリのworktree、--separate-git-dir、Android repoで/security-reviewとスキル内gitが失敗する問題を修正。",
+                "opusplanやhaiku設定時に独自モデルのsubagentがplan用モデルへ変わる問題を修正。",
+                "別モデルのsubagentがメインモデル基準でファイル読み取りとMCP結果の量を決める問題を修正。",
+                "外部gatewayやFoundryで圧縮せず毎ターンcontext長エラーになる問題を修正。",
+                "異常終了後の再開で直近ターンが欠落する問題を修正。",
+                "作業ディレクトリ削除後に起動ディレクトリでshellを実行する問題を修正。理由を表示して失敗し、再実行可能に。",
+                "plansDirectoryへ保存できない承認済み計画を既定フォルダへ退避し、場所と理由を警告。",
+                "保存済みsonnet[1m]設定が新規インストールでAPIに拒否されるIDへ変わる問題を修正。",
+                "予定タスクの後続返信でfocus表示がユーザーへの返信を隠す問題を修正。",
+                "非fullscreen時にbackground subagent表示からプロンプトが消える問題を修正。",
+                "選択肢や権限確認の折り返し上書きと、狭い端末の初回画面の行欠落を修正。",
+                "画面外の権限警告やMCP認証通知が既読になる問題を修正。",
+                "agent名やフォルダ名の制御文字・改行がwelcomeヘッダーを崩す問題を修正。",
+                "ユーザー専用コマンドのエラーを控えめな説明に変更し、手入力時のみ実行できると案内。",
+                "/statsの稼働日数が1日多い問題を修正。",
+                "/insightsで対象セッションなしでも完了表示する問題と、HTML中の2値のescape漏れを修正。",
+                "管理設定や--settings、プロジェクト設定が音声モードを固定していても/voiceが変更済みと伝える問題を修正。固定元を表示。",
+                "Windows/LinuxのIDE歓迎画面にCmd+Escが出る問題を修正。",
+                "組織がcloud sessionを拒否していてもSlackヒントが出る問題を修正。",
+                "端末なしでclaude purgeが無言停止する問題と、stdinをpipeした際の選択画面・-iのキー入力を修正。",
+                "claude plugin eval --output-dir ''が現在フォルダへ書く問題を修正しエラーに。",
+                "端末へのclaude -p出力から文字装飾以外の制御シーケンスを除去。pipeとファイルは従来どおり。",
+                "設定フォルダに.oauth_refresh.lock.owner.tmp.*が蓄積する問題を修正。",
+                "APIキー不要のConsoleログインで未照会なのに/fastが組織による無効化と表示する問題を修正。",
+                "通信不能等で確認できない/modelが組織制限と断定する問題を修正。",
+                "/loginのConsole認証でブラウザ操作直後にEscを押すと既存ログインを置換する問題を修正。",
+                "認証失敗や取消でもブラウザに成功ページが出る問題を修正。",
+                "auth status等がConsole profileのlockを残し、次のsessionが約1分停止する問題を修正。",
+                "claude.ai認証のbackground sessionがサービス起動shellのAPIキー等を使い課金する問題を修正。",
+                "backgroundで別ログインへ移るケースをさらに拒否し、利用可能な方法を表示。",
+                "background移行拒否後、終了画面の2回目のEnterでbackground作業が停止する問題を修正。",
+                "allowedProvidersが禁止するBedrockへtoken計数時に会話を送る問題を修正。",
+                "HOME未設定時にAWS credential_processとGoogle Cloud既定認証が失敗する問題を修正。",
+                "subagent計画承認後に以前の権限モードへ戻る問題を修正。",
+                "Agent SDK applyFlagSettings()の不正値1つで過去設定が全消去される問題を修正し、呼出しをエラー拒否。",
+                "完了PRが人のレビュー・mergeだけを待つ際にsessionが入力待ちになる問題を修正。",
+                "未知のteammateModeを黙って無視せず、-p、起動警告、doctorに未適用として表示。",
+                "新しいhomeの初回--worktreeでPLUGIN_SEED_DIRのpluginのWorktreeCreate hookを飛ばす問題を修正。",
+                "Dispatch等briefモードが同じターンで返信を二重送信する問題を修正。",
+                "pluginのURL違いにより稼働中のAtlassian/Asana/Sentry connectorをcloudで失敗と判定する問題を修正。",
+                "フォルダ移動や事前起動後のDesktop/SDKでローカルMCPの分類・列挙とWebSocket接続が壊れる問題を修正。",
+                "再読込で削除された接続中のplugin MCPが/mcpに残る問題を修正。",
+                "一時的なtoken更新拒否後にMCPが認証待ちのままでmcp_tool hookが飛ぶ問題を修正。",
+                "headlessでtool中に接続が置換されるとMCP elicitationが無断取消される問題を修正。",
+                "SDK hostから、再接続済みMCP toolへNot connectedが返る問題を修正。",
+                "Escや再質問でMCP taskが停止する問題を修正。入力必要とfooter表示し/tasksのEnterで再表示。",
+                "同じserverの別呼出し切断後、再接続してもbackground MCP taskの更新が止まる問題を修正。",
+                "background MCP質問が入力中の下書きを覆う問題を修正。送信・消去を待ち、spinnerとtimerは継続。",
+                "git 2.34等でsparsePathsや疎なplugin・marketplace cloneからrootファイルが抜ける問題を修正。",
+                "複数repoのself-hosted runnerでsession途中追加のrepoを使えない問題を修正。",
+                "自分のartifactやdataの読み取りに許可を求める問題を修正。",
+                "cloudの一部sessionでArtifactのdeny/ask規則とhookが適用されない問題を修正。",
+                "Code ModeがEnterWorktreeを無視する、~パスをproject内へ書く、認証期限切れMCPを接続済み表示する問題を修正。",
+                "Code Modeで許可・計画承認のYesと共に入力した言葉が届かない問題を修正。",
+                "Code Mode途中終了sessionの再開時に勝手に作業する問題を修正。次の入力を待機。",
+                "tool実行中の入力で欠けていたOpenTelemetry user_promptを追加。delivery.modeはmid_turn、prompt.idは実行中ターン。",
+                "VS Codeの入力統合や画像付き入力でuser_promptから以前のメッセージ本文が抜ける問題を修正。",
+                "slash commandのallowed-tools権限がそのターン中・後に起きたbackground agentへ漏れる問題を修正。",
+                "/feedbackと/bugの他session uploadを、同じ認証accountか組織が記録したものだけに制限。",
+                "cd後に相対deny/ask規則がprojectを保護しなくなる問題を修正。追加directoryにも適用。",
+                "mcp__plugin_*_で始まるdeny/ask規則の大文字小文字違いによるMCP見逃しを修正。",
+                "self-hosted/remote-controlで再起動後に届く権限承認へdeny規則が適用されない問題を修正。",
+                "特定subfolderで起動するとcommit済みsettings.local.jsonをユーザー自身の設定として扱う問題を修正。",
+                "一部Bashコマンドでdeny/ask規則が適用されない問題を修正。",
+                "複合Bashコマンドが確認なしで実行される権限確認の抜けを修正。",
+                "Bash allow規則が指定名とは異なるprogramを実行できる問題を修正。",
+                "cloudでplugin読込中にconnector承認が自動回答される問題を修正。",
+                "allow規則や過去upload承認によりsubagentが組織外公開artifactを無確認で変更・uploadする問題を修正。",
+                "Artifactで今後確認しないを選んだ場合に組織外公開の確認が飛ばされる問題を修正。",
+                "auto modeの公開artifact承認を最初の変更だけに限定し、後続変更も判定。",
+                "実行済みsessionでstrictPluginOnlyCustomizationのagent/skill lockが効かない問題を修正。",
+                "sandboxからnative updaterのdownloadフォルダへ書ける問題を修正。",
+                "Bash sandboxによるworktree設定・hookの保護不足を修正。",
+                "Bash sandboxによるlinked worktree共有gitフォルダの保護不足を修正。",
+                "特殊なgit状態の/teleport stash選択を修正。停止して対処を案内。",
+                "Windowsでアクセス不可フォルダ配下のPATH項目による約1秒の起動停止を修正。",
+                "Windows /resumeでdrive文字の大小やslash差によりsessionを隠す・拒否する問題を修正。",
+                "Windowsのsession内/resumeでdrive文字の大小差により保存済みtrustが失われる問題を修正。",
+                "LinuxでdenyRead内のallowRead配下等にある作業フォルダでbwrapのファイル作成エラーになる問題を修正。",
+                "対応版Desktopの外部deploymentがtoken更新終了までStoppingに留まる問題を修正。",
+                "VS Codeで別model再起動やRemote Control経由変更後も旧modelにチェックが残る問題を修正。",
+                "VS Codeのeffort選択が組織上限やmaxEffortLevelを超える問題を修正。",
+                "VS CodeがallowedProvidersで拒否されるログインを提示する問題を修正。",
+                "VS CodeのMCP安全確認promptに確認理由が出ない問題を修正。",
+                "VS Codeの組織設定読込失敗でcommand再実行と案内する問題を修正。Retry linkに合わせ再試行と表示。",
+                "web新規cloud sessionでtool検索後のMCP説明が4096文字で切れる問題を修正。他session同様16384文字に。",
+                "Claude Tagで組織管理外workspaceの投稿者の認証期限切れ時、Slackのartifact linkにcardが出ない問題を修正。簡易cardを表示。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exclusions": [
+    "X MCP未接続のため公式・エンジニア投稿は未確認。",
+    "11月12日付で時刻不明の記事は境界への包含が不明なため除外。",
+    "v2.1.323（2026-11-12T22:12:13Z公開）は対象期間外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Building strong safety evaluations",
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
+    },
+    {
+      "title": "Building always-on agents",
+      "url": "https://claude.com/resources/articles/building-always-on-agents"
+    },
+    {
+      "title": "The Claude Tag guide for startups",
+      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups"
+    },
+    {
+      "title": "Claude Code v2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+    }
+  ]
+}
