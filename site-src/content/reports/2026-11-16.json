@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-16",
+  "windowLabel": "2026-11-14 16:02:35 UTC - 2026-11-15 16:02:35 UTC（直近24時間）",
+  "archiveTitle": "No confirmed new updates",
+  "archiveSummary": "対象期間内の公式記事・Claude Codeリリースは0件。",
+  "latestSummary": "対象期間内の公式記事・Claude Codeリリースは0件。 Xは未確認。",
+  "summaryBullets": [
+    "公式4一覧を確認。11月13日以前の記事は対象期間外。",
+    "最新のClaude Code v2.1.325は2026-11-13 20:40:01 UTC公開で対象期間外。期間内リリースは0件。",
+    "X投稿は専用MCPが利用できず未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式ブログの確認範囲",
+      "body": "Engineering、Research、News、Claude Blog（Claude Resourcesへ転送）の公式一覧で、対象期間内の新規記事は確認できなかった。"
+    },
+    {
+      "label": "Xの投稿は未確認",
+      "body": "X MCP接続がこの実行環境にないため、@AnthropicAI、@ClaudeAI、@ClaudeDevsおよび監視対象エンジニアの投稿は確認できていない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式4一覧を確認。最新候補の11月13日付記事は対象期間外。"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで最新リリース一覧を確認。最新v2.1.325（2026-11-13T20:40:01Z公開）は対象期間外。"
+    }
+  ],
+  "exclusions": [
+    "X MCP未接続のため公式・エンジニア投稿は未確認。",
+    "11月13日以前の公式記事は対象期間外。",
+    "v2.1.325（2026-11-13T20:40:01Z公開）以前のリリースは対象期間外。"
+  ],
+  "sources": [
+    {
+      "title": "Anthropic News",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "title": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering"
+    },
+    {
+      "title": "Anthropic Research",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "title": "Claude Resources",
+      "url": "https://claude.com/resources/articles"
+    },
+    {
+      "title": "Claude Code v2.1.325",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+    }
+  ]
+}
