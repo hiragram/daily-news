@@ -1,11 +1,11 @@
 {
   "date": "2026-11-15",
-  "windowLabel": "2026-11-13 22:02:15 UTC - 2026-11-14 22:02:15 UTC（直近24時間）",
-  "archiveTitle": "Official agent guides",
-  "archiveSummary": "公開日ベースの公式記事3件。対象期間内のClaude Codeリリースは0件。",
-  "latestSummary": "公開日ベースの公式記事3件。対象期間内のClaude Codeリリースは0件。 Xは未確認。",
+  "windowLabel": "2026-11-14 03:58:25 UTC - 2026-11-15 03:58:25 UTC（直近24時間）",
+  "archiveTitle": "No confirmed new updates",
+  "archiveSummary": "対象期間内の公式記事・Claude Codeリリースは0件。",
+  "latestSummary": "対象期間内の公式記事・Claude Codeリリースは0件。 Xは未確認。",
   "summaryBullets": [
-    "公式記事3件は11月13日の公開日表示に基づき収録。公開時刻不明のため24時間境界への包含は未確定。",
+    "公式4一覧を確認。11月13日以前の記事は対象期間外。",
     "最新のClaude Code v2.1.325は2026-11-13 20:40:01 UTC公開で対象期間外。期間内リリースは0件。",
     "X投稿は専用MCPが利用できず未確認。"
   ],
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "公式ブログの確認範囲",
-      "body": "Engineeringで11月13日付の安全性評価記事、Claude Resourcesで同日付の記事2件を再確認。日付ベースでブログ欄へ収録。公開時刻は未確認。ResearchとNewsでは対象期間内の新規記事を確認できなかった。"
+      "body": "Engineering、Research、News、Claude Blog（Claude Resourcesへ転送）の公式一覧で、対象期間内の新規記事は確認できなかった。"
     },
     {
       "label": "Xの投稿は未確認",
@@ -24,13 +24,8 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "3件（日付ベース）",
-      "body": "11月13日の公開日表示に基づき収録。時刻非公表のため厳密な24時間境界への包含は未確定。",
-      "details": [
-        "Building strong safety evaluations：安全性評価の設計・実行・報告に関する指針を公開。 https://www.anthropic.com/research/building-strong-safety-evaluations",
-        "Building always-on agents：常時稼働agentの基本構成と設計を解説。 https://claude.com/resources/articles/building-always-on-agents",
-        "The Claude Tag guide for startups：startupによるClaude Tagの開発・運用活用を紹介。 https://claude.com/resources/articles/claude-tag-guide-for-startups"
-      ]
+      "headline": "0件",
+      "body": "公式4一覧を確認。最新候補の11月13日付記事は対象期間外。"
     },
     {
       "title": "Claude Code リリース",
@@ -40,7 +35,7 @@
   ],
   "exclusions": [
     "X MCP未接続のため公式・エンジニア投稿は未確認。",
-    "11月12日以前の公式記事は対象期間外。",
+    "11月13日以前の公式記事は対象期間外。",
     "v2.1.325（2026-11-13T20:40:01Z公開）以前のリリースは対象期間外。"
   ],
   "sources": [
@@ -59,18 +54,6 @@
     {
       "title": "Claude Resources",
       "url": "https://claude.com/resources/articles"
-    },
-    {
-      "title": "Building strong safety evaluations",
-      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations"
-    },
-    {
-      "title": "Building always-on agents",
-      "url": "https://claude.com/resources/articles/building-always-on-agents"
-    },
-    {
-      "title": "The Claude Tag guide for startups",
-      "url": "https://claude.com/resources/articles/claude-tag-guide-for-startups"
     },
     {
       "title": "Claude Code v2.1.325",
