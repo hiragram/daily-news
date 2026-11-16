@@ -1,11 +1,11 @@
 {
   "date": "2026-11-17",
   "windowLabel": "2026-11-15 16:02:43 UTC - 2026-11-16 16:02:43 UTC（直近24時間）",
-  "archiveTitle": "No confirmed new updates",
-  "archiveSummary": "対象期間内の公式記事・Claude Codeリリースは0件。",
-  "latestSummary": "対象期間内の公式記事・Claude Codeリリースは0件。 Xは未確認。",
+  "archiveTitle": "Vulnerability disclosure timelines updated",
+  "archiveSummary": "脆弱性の協調開示期限短縮を発表。Claude Code新規リリースは0件。",
+  "latestSummary": "脆弱性の協調開示期限短縮を発表。Claude Code新規リリースは0件。 Xは未確認。",
   "summaryBullets": [
-    "公式4一覧を確認。11月13日以前の記事は対象期間外。",
+    "Anthropicが脆弱性の協調開示期限を更新。2027年1月1日以降の報告から重大・高深刻度は30日、その他は45日に短縮する。公開日は11月16日で時刻不明のため日付基準で掲載。",
     "最新のClaude Code v2.1.325は2026-11-13 20:40:01 UTC公開で対象期間外。期間内リリースは0件。",
     "X投稿は専用MCPが利用できず未確認。"
   ],
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "公式ブログの確認範囲",
-      "body": "Engineering、Research、News、Claude Blog（Claude Resourcesへ転送）の公式一覧で、対象期間内の新規記事は確認できなかった。"
+      "body": "Engineering、News、Claude Blogでは期間内の新規記事を確認できなかった。Researchでは11月16日付の記事1件を確認。"
     },
     {
       "label": "Xの投稿は未確認",
@@ -24,8 +24,10 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "公式4一覧を確認。最新候補の11月13日付記事は対象期間外。"
+      "headline": "1件",
+      "body": "脆弱性の協調開示期限を90日から重大・高深刻度30日、その他45日に短縮。2027年1月1日以降の報告に適用。初回応答がない場合の外部調整者への連絡は15日後、パッチ公開後の技術詳細公開は30日後に変更。公開日は2026年11月16日、時刻不明のため厳密な24時間内かは未確定。",
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "urlLabel": "公式記事"
     },
     {
       "title": "Claude Code リリース",
@@ -58,6 +60,10 @@
     {
       "title": "Claude Code v2.1.325",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+    },
+    {
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
     }
   ]
 }
