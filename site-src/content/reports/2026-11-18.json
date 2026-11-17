@@ -1,19 +1,30 @@
 {
   "date": "2026-11-18",
-  "windowLabel": "2026-11-16 16:02:29 UTC - 2026-11-17 16:02:29 UTC（直近24時間）",
-  "archiveTitle": "Claude Code v2.1.326 and disclosure timelines",
-  "archiveSummary": "Claude Code v2.1.326の全367項目を和訳。脆弱性開示期限の更新も掲載。",
-  "latestSummary": "Claude Code v2.1.326の全367項目を和訳。脆弱性開示期限の更新も掲載。 Xは未確認。",
+  "windowLabel": "2026-11-16 22:05:28 UTC - 2026-11-17 22:05:28 UTC（直近24時間）",
+  "archiveTitle": "Claude Code v2.1.326 and linked billing",
+  "archiveSummary": "Claude Code v2.1.326の全367項目を和訳。Claude Platformのlinked billing betaも掲載。",
+  "latestSummary": "Claude Code v2.1.326の全367項目を和訳。Claude Platformでlinked billing betaを開始。Xは未確認。",
   "summaryBullets": [
-    "Anthropicが脆弱性の協調開示期限を更新。2027年1月1日以降の報告から重大・高深刻度は30日、その他は45日に短縮する。公開日は11月16日で時刻不明のため日付基準で掲載。",
+    "Claude Platformでlinked billing betaを開始。顧客はAPIキーを第三者へ渡さず、自組織の請求と支出上限で利用できる。",
     "Claude Code v2.1.326（2026-11-16 22:11:05 UTC公開）の全367項目を新機能・変更・修正に分類して和訳。",
     "X投稿は専用MCPが利用できず未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {
+      "label": "Claude Resources",
+      "datetime": "2026-11-17T00:00:00Z",
+      "displayTime": "2026年11月17日（公開時刻は非表示）",
+      "title": "Claude Platformでlinked billingをベータ提供",
+      "summary": "第三者プラットフォームの利用者がAPIキーを共有せず、自組織のClaude Platform請求・支出上限でAPI利用料を支払えるlinked billingをベータ開始。",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+      "urlLabel": "公式記事",
+      "primary": true
+    }
+  ],
   "officialZeroStates": [
     {
       "label": "公式ブログの確認範囲",
-      "body": "Engineering、News、Claude Blogでは期間内の新規記事を確認できなかった。Researchでは11月16日付の記事1件を確認。"
+      "body": "Engineering、News、Researchでは期間内に確定できる新規記事を確認できなかった。Claude Resourcesでは11月17日付の記事1件を確認した。"
     },
     {
       "label": "Xの投稿は未確認",
@@ -25,8 +36,8 @@
     {
       "title": "ブログ",
       "headline": "1件",
-      "body": "脆弱性の協調開示期限を90日から重大・高深刻度30日、その他45日に短縮。2027年1月1日以降の報告に適用。初回応答がない場合の外部調整者への連絡は15日後、パッチ公開後の技術詳細公開は30日後に変更。公開日は2026年11月16日、時刻不明のため厳密な24時間内かは未確定。",
-      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "body": "Claude Platformでlinked billingをベータ開始。利用者は第三者へAPIキーを渡さず、既存のAnthropic請求、プラットフォーム単位の支出上限、利用状況の可視化を維持できる。公開時刻は非表示のため、11月17日の掲載日を根拠に収録。",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
       "urlLabel": "公式記事"
     },
     {
@@ -430,7 +441,7 @@
   ],
   "exclusions": [
     "X MCP未接続のため公式・エンジニア投稿は未確認。",
-    "11月13日以前の公式記事は対象期間外。",
+    "11月16日付の脆弱性開示期限の記事は公開時刻が非表示で、今回の厳密な開始時刻（22:05:28 UTC）以後と確定できないため除外。",
     "v2.1.325（2026-11-13T20:40:01Z公開）以前のリリースは対象期間外。"
   ],
   "sources": [
@@ -455,8 +466,8 @@
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326"
     },
     {
-      "title": "Updating our coordinated vulnerability disclosure policy timelines",
-      "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+      "title": "Linked billing on the Claude Platform",
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform"
     }
   ]
 }
