@@ -1,106 +1,18 @@
 {
-  "date": "2026-11-21",
-  "windowLabel": "2026-11-19 22:05:16 UTC - 2026-11-20 22:05:16 UTC（JST: 2026年11月20日 07:05:16 - 11月21日 07:05:16）",
-  "archiveTitle": "Claude Code v2.1.329 and IPO closing",
-  "archiveSummary": "AnthropicのIPO完了発表と、Claude Code v2.1.329の公式リリースノートを掲載。",
-  "latestSummary": "AnthropicがIPOと同時私募の完了を発表。Claude Code v2.1.329ではhook・タスク・MCP診断を追加し、多数の信頼性問題を修正。公式・エンジニアXは未確認。",
-  "summaryBullets": [
-    "<strong>Anthropic</strong>: IPOの完了と同時私募の完了を11月20日付で発表。",
-    "<strong>Claude Code v2.1.329</strong>: 2026-11-19 22:14:41 UTC公開。hook、<code>/tasks</code>、MCP診断を拡張。",
-    "<strong>リリースノート</strong>: 新機能・変更・修正の全カテゴリを公式ノートに基づき和訳して掲載。",
-    "<strong>X</strong>: 専用MCP未接続のため未確認。"
-  ],
-  "officialNews": [
-    {
-      "label": "Anthropic News",
-      "datetime": "2026-11-20T00:00:00Z",
-      "displayTime": "2026年11月20日（公開時刻非表示）",
-      "title": "Anthropic、IPOおよび同時私募の完了を発表",
-      "summary": "Anthropicは11億2,700万株のIPOと同時私募を完了したと発表。IPOと私募を合わせた総調達額は、諸費用控除前で約1,195億ドル。Class A株は11月19日からNasdaqでANTとして取引開始。",
-      "url": "https://www.anthropic.com/news/ipo-close",
-      "urlLabel": "公式発表を開く",
-      "primary": true
-    }
-  ],
-  "officialZeroStates": [
-    {"label": "Engineering・Research・Claude Resourcesの新規記事は0件", "body": "公式一覧を確認。期間内と日付を確定できる新規記事は見つからなかった。"},
-    {"label": "公式・エンジニアXは未確認", "body": "<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がないため、公開検索を代替せず投稿・返信はitem化していない。"}
-  ],
-  "signals": [],
-  "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "1件",
-      "body": "Anthropic Newsで11月20日付のIPO完了発表を確認。Engineering、Research、Claude Resourcesで期間内の新規記事は0件。",
-      "details": ["AnthropicがIPOおよび同時私募の完了を発表。公開時刻は公式ページに表示されないため、表示日付に基づき収録。"],
-      "url": "https://www.anthropic.com/news/ipo-close",
-      "urlLabel": "公式発表を開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "v2.1.329",
-      "body": "期間内1件。GitHub CLIで取得した公式リリースノートを分類して和訳。",
-      "releases": [
-        {
-          "version": "v2.1.329",
-          "publishedAt": "2026-11-19T22:14:41Z",
-          "summary": "hookの出所・読込失敗警告、予定タスクと会話情報の/tasks表示、MCP接続拒否理由の表示を追加。設定保存、認証、MCP、Code Mode、self-hosted runner、VS Codeを広範に修正・改善。",
-          "sections": [
-            {"title": "新機能", "items": [
-              "フォルダのhookがどこで宣言されているかを示すtrust dialogの警告を追加",
-              "managed settingsのhook読込失敗をClaude Desktopなど非対話hostの会話内で警告",
-              "予定タスク、<code>/loop</code> wake-up、goal、会話forkを<code>/tasks</code>に表示し、xで確認後に停止可能に変更",
-              "接続を拒否したremote HTTP MCP serverのJSON-RPC error messageを<code>/mcp</code>のserver pageに表示",
-              "自動更新されないmanaged marketplaceと理由を<code>/status</code>に表示",
-              "OpenTelemetry event/metric有効時もCode Modeを有効化し、codeのtool call eventを送信（tracing時は無効）",
-              "[VSCode] trust prompt却下後、reloadなしで戻せるReview trust行を追加"
-            ]},
-            {"title": "変更", "items": [
-              "長時間session・多量tool resultを持つDesktop/SDK sessionのmemory使用量を改善",
-              "Windowsのstart-upと初回検索、cloud sessionのplugin再試行、Code Modeの多数tool call後freezeを改善",
-              "新signed-in sessionでは旧版で保存した予定タスクの大半を再scheduleする仕様へ変更",
-              "<code>/code-review</code>をdefault branchとの差分でbranch全体をreviewするよう変更し、PR diff失敗時はreviewを停止",
-              "Exit and stop tasksでこのsessionの予定taskを終了するよう変更",
-              "gatewayの空のallow_cidrsを起動ごとの目立つnoticeに変更",
-              "self-hosted runnerの別host clone保存先、特殊文字repositoryの再clone、<code>--repository-folder</code>の扱いを変更",
-              "Code Modeでhook errorの扱い、巨大range read、telemetry off時の開始、独自log/preview/sleep scriptを改善",
-              "<code>/tasks</code>のbackground countを全種別の合算へ変更",
-              "<code>max_tokens</code> error時の2.1.326自動retryを削除",
-              "[VSCode] Down keyのwrapを停止し、hidden/control character表示を改善"
-            ]},
-            {"title": "修正", "items": [
-              "network stall/file lock時に<code>~/.claude.json</code>がdefaultへresetされる問題を修正",
-              "macOS Keychain書込不能時の繰返しsign-out、<code>/terminal-setup</code>によるVS Code設定破損、IDE diffの末尾newline/BOM欠落を修正",
-              "<code>/teleport</code>が開いている会話を置換する問題、usage credit・spend limit表示、終了しないstatus scriptのfreezeを修正",
-              "managed settings承認後のfreeze、model default上書き、MCP再認証・slow reconnect・binary添付file判定を修正",
-              "PR番号指定<code>/code-review</code>の誤branch review、存在しないCLAUDE.mdでの停止を修正",
-              "self-hosted runnerのbranch削除、Git LFS、SSH alias、remote MCP再接続、起動中の応答停止表示を修正",
-              "Code ModeのEsc後編集消失、runaway memory、停止agent、前会話memory保持、MCP待機・tool探索・変数保持・巨大file保持を修正",
-              "Remote Controlのrestart effort、diff重複、cloud sessionのtool/result・background task通知を修正",
-              "auto modeのsymlink削除approval、sandbox socket表示、GitHub App sign-in Esc、plugin/MCP/skills検出、auto compact設定を修正",
-              "team onboarding、短いwindowのpanel、passes、pipe時help、macOS Terminal Option key、screen update・scrollback・prompt suggestionを修正",
-              "[VSCode] token refresh sign-out、IMEによる誤操作、permission理由、plan comment、usage表示、screen reader、diff tab、tool output、folder drop、editor group、tilde range、dictation/NUL表示を修正"
-            ]}
-          ],
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
-          "urlLabel": "GitHub Releases"
-        }
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "GitHub Releasesを開く"
-    }
-  ],
-  "exclusions": [
-    "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
-    "NewsroomのIPO完了記事は公開時刻非表示のため、公式ページに表示された11月20日という日付に基づき収録。",
-    "対象期間外の公式ブログ記事とClaude Codeリリースは除外。"
-  ],
-  "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Anthropic IPO closing", "url": "https://www.anthropic.com/news/ipo-close"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "Claude Code v2.1.329", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"}
-  ]
+  "date":"2026-11-21",
+  "windowLabel":"2026-11-20 03:57:00 UTC - 2026-11-21 03:57:00 UTC（JST: 2026年11月20日 12:57:00 - 11月21日 12:57:00）",
+  "archiveTitle":"Claude Code v2.1.330 and Anthropic IPO closing",
+  "archiveSummary":"AnthropicのIPO完了発表と、Claude Code v2.1.330の公式リリースノート全項目を掲載。",
+  "latestSummary":"対象24時間ではAnthropicがIPO・同時私募の完了を発表し、Claude Code v2.1.330が公開された。公式ノートの全bulletを新機能・変更・修正に分けて和訳した。公式・エンジニアXは専用MCP未接続のため未確認。",
+  "summaryBullets":["<strong>Anthropic News</strong>: IPOと同時私募の完了を11月20日付で発表。","<strong>Claude Code v2.1.330</strong>: 2026-11-20 22:32:56 UTC公開。Enterprise sign-in、easel、self-hosted runner計測を追加。","<strong>リリースノート</strong>: 公式本文の全bulletを<strong>新機能 / 変更 / 修正</strong>として和訳。","<strong>X</strong>: 専用MCP未接続のため未確認。"],
+  "officialNews":[{"label":"Anthropic News","datetime":"2026-11-20T00:00:00Z","displayTime":"2026年11月20日（公開時刻非表示）","title":"Anthropic、IPOおよび同時私募の完了を発表","summary":"AnthropicはClass A株11億2,700万株のIPO（引受人の追加購入オプション全行使を含む）と同時私募の完了を発表した。","url":"https://www.anthropic.com/news/ipo-close","urlLabel":"公式発表を開く","primary":true}],
+  "officialZeroStates":[{"label":"Engineering・Research・Claude Resourcesの窓内新規記事は0件","body":"公式一覧を確認し、期間内と日付を確定できる新規記事は見つからなかった。"},{"label":"公式・エンジニアXは未確認","body":"<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がないため、公開検索を代替せず投稿・返信はitem化していない。"}],
+  "signals":[],
+  "releasePanels":[{"title":"ブログ","headline":"1件","body":"Anthropic Newsで11月20日付のIPO完了発表を確認。Engineering、Research、Claude Resourcesで期間内の新規記事は0件。","details":["IPO完了記事は公式ページで公開時刻が表示されないため、表示日付に基づき収録。"],"url":"https://www.anthropic.com/news/ipo-close","urlLabel":"公式発表を開く"},{"title":"Claude Code リリース","headline":"v2.1.330","body":"期間内1件。GitHub APIで取得した公式リリースノートの全bulletを分類して和訳。","releases":[{"version":"v2.1.330","publishedAt":"2026年11月21日 07:32:56 JST（2026-11-20T22:32:56Z）","summary":"Enterprise組織sign-in、easel chart、self-hosted runnerの起動・計測、plugin診断を追加。会話、MCP、Code Mode、runner、VS Codeを広範に修正・改善。","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.330","urlLabel":"GitHubリリースを開く","sections":[
+  {"title":"新機能","items":["<code>claude auth login</code>後にEnterprise Admin Console管理組織へsign-inし、組織設定とcloud provider/gatewayを適用。","macOS/LinuxのPro/Maxおよび提供地域のTeam/Enterpriseに、依頼時やMCP metrics下でchartを描く組込みmod <code>easel</code>を追加。自動chartは<code>/config</code>でoffにできる。","短縮sign-in linkのerror時やscript読取時に完全linkを出す<code>CLAUDE_CODE_FULL_SIGN_IN_LINK=1</code>を追加。","self-hosted runnerに<code>--start-dir</code>/<code>SELF_HOSTED_RUNNER_START_DIR</code>を追加し、設定/hook読込は維持したままrepository内folderから開始可能にした。","session対象外repositoryのplugin marketplaceを取得できないcloud/self-hosted runner sessionでnoticeを追加。","Anthropic管理gitがplugin自身のrepositoryを拒否する際、plugin名と対処を示すrunner noticeを追加。","<code>claude plugin install --json</code>へstderr出力の<code>commandPrinted</code>とerror/kill/timeout終了の<code>commandFailed</code>を追加。","orchestrator起動runnerのwork order発行からregistration受理までを測る<code>claude_code_self_hosted_runner_order_to_registered_seconds</code>を追加。","session用runnerのwork orderから最初のsession引渡しまでを測る<code>claude_code_self_hosted_runner_order_to_first_session_seconds</code>を追加。","[VS Code] 最終reply後に会話をforkする<code>/fork</code>、agent mapを開く<code>/workflows</code>を追加。","[VS Code] Escape停止を切替える<code>claudeCode.escapeStopsClaude</code>、prompt固定を切替える<code>claudeCode.pinPrompt</code>、context indicator閾値の<code>claudeCode.contextUsageThreshold</code>を追加。","[VS Code] prompt引数を持つOpen in Side Bar commandと、session groupのMove up/Move downを追加。"]},
+  {"title":"変更","items":["長時間/大量tool resultのDesktop・SDK sessionのmemory使用量、Windows startup/初回search、cloud plugin retry、Code Mode多数tool call後freezeを改善。","新しいsigned-in sessionで旧版保存のscheduled task大半を再scheduleし、Exit and stop tasksで当該sessionのtaskを終了するよう変更。","<code>/code-review</code>をdefault branchとの差分でbranch全体をreviewし、PR diff取得失敗時は停止するよう変更。","gateway空の<code>allow_cidrs</code>を明確な起動noticeへ変更。self-hosted runnerのclone保存先・特殊文字repositoryのre-clone・<code>--repository-folder</code>の扱いを更新。","Code Modeのhook error、巨大range read、telemetry off時開始、独自log/preview/sleep scriptを改善。<code>/tasks</code>のbackground countは全task種別合計へ変更。","短縮sign-in link、WindowsのGrep/Glob速度、file diff、<code>/config</code> search、空screenだけ開いたsessionを除く<code>/resume</code>を改善。","<code>/mcp</code>/<code>/plugin</code>のReconnect後も理由を表示したserver pageを保持。macOSの長過ぎるsandbox deny list error、fullscreen plugin error、<code>/ultrareview</code>のTeam/Enterprise残額表示を改善。","Bedrock/Google Cloud Agent Platform runnerが別default modelで始まる場合と、Windowsで検証不能drive上folderを開く場合のdiagnosticを改善。","Code Modeのimage/PDF案内、Esc後のInterrupted表示、大量subagent tool call後freezeを改善。","recurring taskと<code>/loop</code>の継続上限を7日から30日へ変更（既存taskは7日）。危険な<code>rm</code>のapprovalを拡大。","<code>deniedMcpServers</code>のname指定は同URLの他connectorを隠さず指定connectorだけを隠すよう変更。<code>claude --teleport</code>は一部setupでgit commandを表示のみとした。","未認識sonnet/haiku名にshort system promptを適用。model設定skillのsubagent/fork/compact/recapはsession modelに残し、subagent fallbackとBedrock regionを子へ継承。","runnerの<code>spawn-runner</code> hookを既定4並列にし、不要Bash diffを省略、checkout hook status 108で即停止、prompt hookのmodel aliasを許可。","<code>/design-sync</code>はproject内Storybookだけをfallbackに使用。Claude apps gatewayのsubagent summaryを短いnoteから作りtokenを削減。"]},
+  {"title":"修正","items":["長会話compact直後の数分freeze、WebFetchのfreeze/空結果、使用中worktreeをExitWorktreeが削除する問題を修正。","同時保存でuser settings・plugin list・task dependency/metadataが失われる問題、disk fullで不完全な<code>~/.claude.json</code> backupが良いbackupを置換する問題を修正。","不正timestampで<code>--continue</code>/<code>--resume</code>が空session/失敗になる問題、Linux/WSL sleep後の死んだconnection待ちを修正。","MCP tool schema過多のJSON schema invalid/巨大session file、@mention resource未添付、subagent MCP server早期shutdown、connector同URL別名dropを修正。","Chrome短時間切断後のnot connected、Bedrockでpinned Opus無視、fullscreen plan到着時の入力消失を修正。","Code Modeのchart tool失敗、MCP turn終了要求無視、mod後のthinking/cache喪失、Esc/compact後file未復元、context system tool過少計上を修正。","停止background agentが止まり続けない/待ち続ける問題、Remote Controlのstop note誤表示・mobile UI誤表示、SessionStart環境変数喪失を修正。","full diskで<code>claude -p</code>が無言exit 0、model変更後の旧system prompt、commit attributionへの誤reply、EscでLSPを止められない問題を修正。","LSP起動中のcall/diagnostic失敗、<code>/mcp</code>のplugin server誤分類、easel block warning反復、<code>/stats</code>のUTC日集計、repository移動後のultrareviewを修正。","改行patternのGrep、BOM付きnotebook、HTML comment付きCLAUDE.md/memoryのlink reference、Monitorの旧会話保持、長会話+PDFのPrompt is too longを修正。","同名agent選択の探索順依存、logなし<code>claude daemon logs</code>非終了、markdownのemoji近傍文字欠落、hook commandのEdit拒否、見開きPDF range表示を修正。","Mermaid artifactのline/class欠落、24-row fullscreenのProject instructions picker、plan mode子agentの誤model、WebFetch effort無視、Google Cloud fastMode無視を修正。","一時server error後のforceLoginOrgUUID拒否、connectorへの<code>mcp remove</code>案内不足、claude.ai connectorのnot connected誤表示、on-hold accountのgeneric failureを修正。","background移行時のMCP task stopped誤表示、runnerがsessionを無視、prompt引継ぎ時tool call消失、push済みwork喪失、startup hangをworking表示する問題を修正。","Linux runnerの<code>pkill -f</code>自己終了、scheduled task owner通知不能、slow spawn hookによるclaim停止、403をbad secretとlogする問題を修正。","runner warn modeが最初のfindingで停止、full disk runnerがsessionを取る、git credentialなし時の誤retry案内、未poll runnerのage=0、skipped taskの誤resume案内を修正。","<code>plugin validate</code>のVS Code hook誤warn、design-sync upload直後のfile削除、<code>max_tokens</code>自動retry削除を修正/撤回。","[VS Code] 接続terminalごとのfocus、code block copyの実行newline、rewind/削除の確認回避、question card/Enter長押しの誤送信を修正。","[VS Code] macOSのCmd編集shortcut/Ctrl caret、提案diffのAccept/Reject、遅いtabによるkeyboard奪取、特殊pathのchange/problem見落としを修正。","[VS Code] selection行数・file link終端、reload後の旧prompt再実行、fork後のloop二重実行、clear状態表示、dialog外dragでの入力喪失を修正。","[VS Code] advisorのUnsupported content type、sidebar session status欠落、plan Add Comment消失、narrow UI表示、on-hold sign-in表示を修正。"]}
+]}],"url":"https://github.com/anthropics/claude-code/releases","urlLabel":"GitHub Releasesを開く"}],
+  "exclusions":["X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。","IPO完了記事は公開時刻非表示のため、公式ページに表示された11月20日の日付に基づき収録。","対象期間外の公式ブログ記事とClaude Codeリリースは除外。"],
+  "sources":[{"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},{"title":"Anthropic Research","url":"https://www.anthropic.com/research"},{"title":"Anthropic News","url":"https://www.anthropic.com/news"},{"title":"Anthropic IPO closing","url":"https://www.anthropic.com/news/ipo-close"},{"title":"Claude Resources","url":"https://claude.com/resources/articles"},{"title":"Claude Code v2.1.330","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.330"}]
 }
