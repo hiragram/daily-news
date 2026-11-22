@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "windowLabel": "2026-11-20 21:57:44 UTC - 2026-11-21 21:57:44 UTC（JST: 2026年11月21日 06:57:44 - 11月22日 06:57:44）",
+  "windowLabel": "2026-11-21 03:58:57 UTC - 2026-11-22 03:58:57 UTC（JST: 2026年11月21日 12:58:57 - 11月22日 12:58:57）",
   "archiveTitle": "No new Claude updates in window",
   "archiveSummary": "対象24時間に確認できた公式ブログ記事とClaude Codeリリースは0件。",
   "latestSummary": "対象24時間に公式サイト4系統とClaude Codeの新規公開は確認されなかった。公式・エンジニアXは専用MCP未接続のため未確認。",
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "公式サイト4系統の窓内新規記事は0件",
-      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認した。Newsの最新記事は11月20日付だが公開時刻がないため、今回の開始時刻（2026-11-20 21:57:44 UTC）後の記事としては収録していない。"
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認した。Newsの最新記事は11月20日付であり、今回の開始時刻（2026-11-21 03:58:57 UTC）より前のため収録していない。"
     },
     {
       "label": "公式・エンジニアXは未確認",
@@ -26,7 +26,7 @@
       "title": "ブログ",
       "headline": "0件",
       "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認し、厳密な対象24時間に公開時刻を確定できる新規記事はなかった。",
-      "details": ["Newsの最新記事は11月20日付のみで公開時刻がないため、開始時刻後か確定できず除外。"]
+      "details": ["Newsの最新記事は11月20日付で、開始時刻より前のため除外。"]
     },
     {
       "title": "Claude Code リリース",
@@ -38,7 +38,7 @@
   ],
   "exclusions": [
     "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
-    "Newsの11月20日付IPO完了記事は公開時刻非表示のため、今回の厳密な開始時刻以後か確定できず除外。",
+    "Newsの11月20日付IPO完了記事は今回の開始日より前のため除外。",
     "Claude Code v2.1.330以前は対象期間開始前のため除外。"
   ],
   "sources": [
