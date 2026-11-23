@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-24",
+  "windowLabel": "2026-11-22 15:58:53 UTC - 2026-11-23 15:58:53 UTC（JST: 2026年11月23日 00:58:53 - 11月24日 00:58:53）",
+  "archiveTitle": "No new Claude updates in window",
+  "archiveSummary": "対象24時間に確認できた公式サイト記事とClaude Codeリリースは0件。",
+  "latestSummary": "対象24時間に公式サイト4系統とClaude Codeの新規公開は確認されなかった。公式・エンジニアXは専用MCP未接続のため未確認。",
+  "summaryBullets": [
+    "<strong>公式サイト</strong>: Anthropic News、Engineering、Research、Claude Resourcesに、厳密な対象24時間の新規記事は0件。",
+    "<strong>Claude Code</strong>: GitHub CLIで確認した最新v2.1.330は2026-11-20 22:32:56 UTC公開で、今回の開始時刻より前のため除外。",
+    "<strong>X</strong>: 専用MCP未接続のため、公式・エンジニア投稿は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイト4系統の窓内新規記事は0件",
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認した。Newsの最新記事は11月20日付、Engineeringは11月13日付、ResearchとClaude Resourcesは11月17日付で、いずれも今回の開始時刻（2026-11-22 15:58:53 UTC）より前のため収録していない。"
+    },
+    {
+      "label": "公式・エンジニアXは未確認",
+      "body": "<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がないため、公開検索を代替せず投稿・返信はitem化していない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認し、厳密な対象24時間に公開時刻を確定できる新規記事はなかった。",
+      "details": ["各一覧で確認できた最新記事は今回の開始時刻より前の公開。"]
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで確認した最新リリースv2.1.330は2026-11-20T22:32:56Z公開であり、今回の開始時刻より前のため対象外。",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "GitHub Releasesを開く"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
+    "各公式サイト一覧の最新記事は今回の開始時刻より前のため除外。",
+    "Claude Code v2.1.330以前は対象期間開始前のため除外。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code Releases", "url": "https://github.com/anthropics/claude-code/releases"}
+  ]
+}
