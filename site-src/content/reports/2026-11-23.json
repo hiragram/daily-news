@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "windowLabel": "2026-11-22 03:59:12 UTC - 2026-11-23 03:59:12 UTC（JST: 2026年11月22日 12:59:12 - 11月23日 12:59:12）",
+  "windowLabel": "2026-11-22 10:00:07 UTC - 2026-11-23 10:00:07 UTC（JST: 2026年11月22日 19:00:07 - 11月23日 19:00:07）",
   "archiveTitle": "No new Claude updates in window",
   "archiveSummary": "対象24時間に確認できた公式サイト記事とClaude Codeリリースは0件。",
   "latestSummary": "対象24時間に公式サイト4系統とClaude Codeの新規公開は確認されなかった。公式・エンジニアXは専用MCP未接続のため未確認。",
@@ -13,7 +13,7 @@
   "officialZeroStates": [
     {
       "label": "公式サイト4系統の窓内新規記事は0件",
-      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認した。Newsの最新記事は11月20日付、Engineeringは11月13日付、ResearchとClaude Resourcesは11月17日付で、いずれも今回の開始時刻（2026-11-22 03:59:12 UTC）より前のため収録していない。"
+      "body": "Anthropic News、Engineering、Research、Claude Resourcesの公式一覧を確認した。Newsの最新記事は11月20日付、Engineeringは11月13日付、ResearchとClaude Resourcesは11月17日付で、いずれも今回の開始時刻（2026-11-22 10:00:07 UTC）より前のため収録していない。"
     },
     {
       "label": "公式・エンジニアXは未確認",
