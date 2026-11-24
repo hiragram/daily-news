@@ -1,19 +1,22 @@
 {
   "date": "2026-11-25",
-  "windowLabel": "2026-11-23 15:58:31 UTC - 2026-11-24 15:58:31 UTC（JST: 2026年11月24日 00:58:31 - 11月25日 00:58:31）",
-  "archiveTitle": "No new Claude releases",
-  "archiveSummary": "対象24時間に時刻を確定できる公式ブログ記事とClaude Codeリリースは確認されなかった。",
-  "latestSummary": "公式サイト4一覧とClaude Code公式リリースを確認。対象24時間の新規項目は0件で、Xは専用MCP未接続のため未確認。",
+  "windowLabel": "2026-11-23 22:00:38 UTC - 2026-11-24 22:00:38 UTC（JST: 2026年11月24日 07:00:38 - 11月25日 07:00:38）",
+  "archiveTitle": "Claude adds installed apps and MCP capabilities",
+  "archiveSummary": "Claude Resourcesの11月24日付記事2件を収録。Claude Codeの期間内リリースは0件。",
+  "latestSummary": "ClaudeはArtifactsをMac／Windowsアプリとして導入できるbetaと、MCPのSkills・Tasks・Elicitation拡張を公開。Xは専用MCP未接続のため未確認。",
   "summaryBullets": [
-    "<strong>公式ブログ</strong>: Engineering、Research、News、Claude Resourcesの公式一覧に、対象24時間内と時刻を確定できる新規記事は0件。",
+    "<strong>Claude Resources</strong>: ArtifactsをMac／Windowsアプリとして導入するbetaと、MCPのSkills・Tasks・Elicitation拡張を11月24日付で公開。",
     "<strong>Claude Code</strong>: GitHub CLIで公式リリースを確認し、最新のv2.1.331は2026年11月23日 21:34:41 UTC公開のため対象期間外。",
     "<strong>X</strong>: 専用MCP未接続のため、公式アカウントと監視対象エンジニアの投稿・返信は未確認。"
   ],
-  "officialNews": [],
+  "officialNews": [
+    {"label": "Claude Resources", "datetime": "2026-11-24T00:00:00Z", "displayTime": "2026年11月24日（公開時刻は非表示）", "title": "ArtifactsをMacとWindowsアプリとして導入可能に", "summary": "Artifactsを独立ウィンドウとアイコンを持つデスクトップアプリとして使う「Install as app」を、Claude for Mac／Windowsでbeta提供。アプリ権限は都度承認し、更新後は再承認を求める。", "url": "https://claude.com/resources/articles/install-as-app", "urlLabel": "記事を開く", "primary": true},
+    {"label": "Claude Resources", "datetime": "2026-11-24T00:00:00Z", "displayTime": "2026年11月24日（公開時刻は非表示）", "title": "MCPサーバーがSkills配布・Tasks実行などに対応", "summary": "Skills over MCPをpublic beta化し、長時間処理向けTasksとユーザー確認向けElicitationを一般提供。File Uploadsも順次提供予定。", "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more", "urlLabel": "記事を開く"}
+  ],
   "officialZeroStates": [
     {
-      "label": "公式ブログの窓内新規記事は0件",
-      "body": "Engineering、Research、News、Claude Resourcesの公式一覧を確認。ResearchとClaude Resourcesの最新記事はいずれも11月23日付、Newsは11月20日付、Engineeringは11月13日付で、対象24時間に公開されたことを確認できる記事はなかった。"
+      "label": "Engineering・Research・Newsの窓内新規記事は0件",
+      "body": "公式一覧を確認。Engineeringの最新掲載記事は11月13日付、Researchは11月23日付、Newsは11月20日付で対象期間外。Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録した。"
     },
     {
       "label": "公式・エンジニアXは未確認",
@@ -24,8 +27,9 @@
   "releasePanels": [
     {
       "title": "ブログ",
-      "headline": "0件",
-      "body": "Engineering、Research、News、Claude Resourcesの公式一覧を確認。対象24時間に公開されたことを時刻まで確定できる新規記事はなかった。",
+      "headline": "2件",
+      "body": "Claude Resourcesの11月24日付記事2件。公開時刻は非表示のため掲載日ベースで収録。",
+      "details": ["ArtifactsのMac／Windowsアプリ化beta", "MCPのSkills、Tasks、Elicitation、File Uploads拡張"],
       "url": "https://claude.com/resources/articles",
       "urlLabel": "Claude Resourcesを開く"
     },
@@ -39,7 +43,7 @@
   ],
   "exclusions": [
     "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
-    "ResearchとClaude Resourcesの11月23日付記事は公開時刻が表示されず、対象開始時刻以後か確定できないため収録していない。",
+    "Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録。Researchの最新記事は11月23日付で対象開始時刻より前として除外。",
     "Claude Code v2.1.331は対象開始前に公開されたため除外。"
   ],
   "sources": [
@@ -47,6 +51,8 @@
     {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
     {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
     {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "ArtifactsをMacとWindowsアプリとして導入可能に", "url": "https://claude.com/resources/articles/install-as-app"},
+    {"title": "MCPサーバーがSkills配布・Tasks実行などに対応", "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"},
     {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
     {"title": "Claude Code v2.1.331", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"}
   ]
