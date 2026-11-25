@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-26",
+  "windowLabel": "2026-11-24 16:00:00 UTC - 2026-11-25 16:00:00 UTC（JST: 2026年11月25日 01:00:00 - 11月26日 01:00:00）",
+  "archiveTitle": "No new Claude Code release",
+  "archiveSummary": "対象24時間に公式サイト記事とClaude Codeの新規リリースはなかった。",
+  "latestSummary": "対象24時間にAnthropic／Claude公式サイトの新規記事およびClaude Codeの新規リリースは確認されなかった。X投稿は専用MCP未接続のため未確認。",
+  "summaryBullets": [
+    "<strong>公式サイト</strong>: Engineering、Research、News、Claude Resourcesの対象24時間内の新規記事は0件。",
+    "<strong>Claude Code</strong>: 対象窓内の新規公式releaseは0件。最新の<strong>v2.1.332</strong>は2026-11-25 01:32:14 UTC公開で窓開始前。",
+    "<strong>X</strong>: 専用MCP未接続のため、公式アカウントと監視対象エンジニアの投稿・関連返信は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイト4系統の窓内新規記事は0件",
+      "body": "公式一覧を確認。Engineeringの最新掲載記事は11月13日付、Researchは11月23日付、Newsは11月20日付、Claude Resourcesは11月24日付で、いずれも今回の窓開始より前だった。"
+    },
+    {
+      "label": "Claude Codeの窓内新規releaseは0件",
+      "body": "GitHub CLIで確認した最新公式releaseは<strong>v2.1.332</strong>（2026-11-25 01:32:14 UTC）で、今回の窓開始時刻より前。release bodyは完全取得済みで、窓内releaseがないためこの日付のpanelには再掲しない。"
+    },
+    {
+      "label": "公式・エンジニアXは未確認",
+      "body": "<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がこの実行環境にないため、公開検索を代替せず投稿・返信はitem化していない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "Engineering、Research、News、Claude Resourcesの公式一覧に、対象24時間内の新規記事はなかった。",
+      "url": "https://claude.com/resources/articles",
+      "urlLabel": "Claude Resourcesを開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで確認。対象窓内の新規releaseはなく、最新のv2.1.332は2026-11-25 01:32:14 UTC公開で窓外。",
+      "details": [
+        "v2.1.332の公式release bodyは完全取得済み。窓内releaseがないため、新機能／変更／修正の全項目訳は前日号に保持。"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
+    "Claude Code v2.1.332は対象期間開始前のため、release noteの全項目訳をこの日付の窓内reportへ再掲しない。",
+    "公式サイト一覧で確認できる最新記事はいずれも対象窓より前。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.332", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"}
+  ]
+}
