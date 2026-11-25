@@ -1,59 +1,32 @@
 {
   "date": "2026-11-25",
-  "windowLabel": "2026-11-23 22:00:38 UTC - 2026-11-24 22:00:38 UTC（JST: 2026年11月24日 07:00:38 - 11月25日 07:00:38）",
-  "archiveTitle": "Claude adds installed apps and MCP capabilities",
-  "archiveSummary": "Claude Resourcesの11月24日付記事2件を収録。Claude Codeの期間内リリースは0件。",
-  "latestSummary": "ClaudeはArtifactsをMac／Windowsアプリとして導入できるbetaと、MCPのSkills・Tasks・Elicitation拡張を公開。Xは専用MCP未接続のため未確認。",
+  "windowLabel": "2026-11-24 04:03:52 UTC - 2026-11-25 04:03:52 UTC（JST: 2026年11月24日 13:03:52 - 11月25日 13:03:52）",
+  "archiveTitle": "Claude Code v2.1.332 ships",
+  "archiveSummary": "Claude Code v2.1.332と、Claude Resourcesの11月24日付記事2件を収録。",
+  "latestSummary": "Claude Code v2.1.332はMCP Skills betaと安定性を広範に更新。Claude ResourcesではArtifactsのデスクトップアプリ化とMCP拡張を公開。",
   "summaryBullets": [
-    "<strong>Claude Resources</strong>: ArtifactsをMac／Windowsアプリとして導入するbetaと、MCPのSkills・Tasks・Elicitation拡張を11月24日付で公開。",
-    "<strong>Claude Code</strong>: GitHub CLIで公式リリースを確認し、最新のv2.1.331は2026年11月23日 21:34:41 UTC公開のため対象期間外。",
+    "<strong>Claude Code v2.1.332</strong>: MCP server由来Skills、PreSkillShellCommand、held messageのAlways deliverを追加し、安定性とprovider互換性を更新。",
+    "<strong>Claude Resources</strong>: ArtifactsのMac／Windowsアプリ化betaと、MCPのSkills・Tasks・Elicitation拡張を11月24日付で公開。",
     "<strong>X</strong>: 専用MCP未接続のため、公式アカウントと監視対象エンジニアの投稿・返信は未確認。"
   ],
   "officialNews": [
-    {"label": "Claude Resources", "datetime": "2026-11-24T00:00:00Z", "displayTime": "2026年11月24日（公開時刻は非表示）", "title": "ArtifactsをMacとWindowsアプリとして導入可能に", "summary": "Artifactsを独立ウィンドウとアイコンを持つデスクトップアプリとして使う「Install as app」を、Claude for Mac／Windowsでbeta提供。アプリ権限は都度承認し、更新後は再承認を求める。", "url": "https://claude.com/resources/articles/install-as-app", "urlLabel": "記事を開く", "primary": true},
-    {"label": "Claude Resources", "datetime": "2026-11-24T00:00:00Z", "displayTime": "2026年11月24日（公開時刻は非表示）", "title": "MCPサーバーがSkills配布・Tasks実行などに対応", "summary": "Skills over MCPをpublic beta化し、長時間処理向けTasksとユーザー確認向けElicitationを一般提供。File Uploadsも順次提供予定。", "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more", "urlLabel": "記事を開く"}
+    {"label":"Claude Resources","datetime":"2026-11-24T00:00:00Z","displayTime":"2026年11月24日（公開時刻は非表示）","title":"ArtifactsをMacとWindowsアプリとして導入可能に","summary":"Artifactsを独立ウィンドウとアイコンを持つデスクトップアプリとして使う「Install as app」を、Claude for Mac／Windowsでbeta提供。アプリ権限は都度承認し、更新後は再承認を求める。","url":"https://claude.com/resources/articles/install-as-app","urlLabel":"記事を開く","primary":true},
+    {"label":"Claude Resources","datetime":"2026-11-24T00:00:00Z","displayTime":"2026年11月24日（公開時刻は非表示）","title":"MCPサーバーがSkills配布・Tasks実行などに対応","summary":"Skills over MCPをpublic beta化し、長時間処理向けTasksとユーザー確認向けElicitationを一般提供。File Uploadsも順次提供予定。","url":"https://claude.com/resources/articles/skills-over-mcp-tasks-and-more","urlLabel":"記事を開く"}
   ],
   "officialZeroStates": [
-    {
-      "label": "Engineering・Research・Newsの窓内新規記事は0件",
-      "body": "公式一覧を確認。Engineeringの最新掲載記事は11月13日付、Researchは11月23日付、Newsは11月20日付で対象期間外。Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録した。"
-    },
-    {
-      "label": "公式・エンジニアXは未確認",
-      "body": "<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がこの実行環境にないため、公開検索を代替せず投稿・返信はitem化していない。"
-    }
+    {"label":"Engineering・Research・Newsの窓内新規記事は0件","body":"公式一覧を確認。Engineeringの最新掲載記事は11月13日付、Researchは11月23日付、Newsは11月20日付で対象期間外。Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録した。"},
+    {"label":"公式・エンジニアXは未確認","body":"<strong>$Claude Official X Watch</strong> と <strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がこの実行環境にないため、公開検索を代替せず投稿・返信はitem化していない。"}
   ],
   "signals": [],
   "releasePanels": [
-    {
-      "title": "ブログ",
-      "headline": "2件",
-      "body": "Claude Resourcesの11月24日付記事2件。公開時刻は非表示のため掲載日ベースで収録。",
-      "details": ["ArtifactsのMac／Windowsアプリ化beta", "MCPのSkills、Tasks、Elicitation、File Uploads拡張"],
-      "url": "https://claude.com/resources/articles",
-      "urlLabel": "Claude Resourcesを開く"
-    },
-    {
-      "title": "Claude Code リリース",
-      "headline": "0件",
-      "body": "GitHub CLIで公式リリース一覧と最新v2.1.331の完全な本文を確認。v2.1.331は2026年11月23日 21:34:41 UTC公開で対象開始前のため、期間内リリースは0件。",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "urlLabel": "Claude Codeリリースを開く"
-    }
+    {"title":"ブログ","headline":"2件","body":"Claude Resourcesの11月24日付記事2件。公開時刻は非表示のため掲載日ベースで収録。","details":["ArtifactsのMac／Windowsアプリ化beta","MCPのSkills、Tasks、Elicitation、File Uploads拡張"],"url":"https://claude.com/resources/articles","urlLabel":"Claude Resourcesを開く"},
+    {"title":"Claude Code リリース","headline":"v2.1.332","body":"GitHub CLIで公式metadataとrelease bodyを完全取得。新機能8項目、変更、修正を公式の全bullet単位で和訳・分類した。","releases":[{"version":"v2.1.332","publishedAt":"2026-11-25 10:32 JST","summary":"MCP Skills beta、message配信・OpenTelemetry・Desktop/VS Code通知、クラウドprovider互換性と安定性を更新。","sections":[
+      {"title":"新機能","items":["MCP server由来のSkillsをbeta追加。<code>/</code>メニューでは<code>server:skill</code>表示、既存Skillsは従来名のまま。","読み込み時にskillまたはinline shell commandを拒否できる<code>PreSkillShellCommand</code> hook eventを追加。","他sessionから保留されたmessageのpromptに「Always deliver」を追加。","別modelでflagされたmessageがsessionにある間、<code>/model</code>で選ぶまでfooter lineを常時表示。","response logging有効時、SendUserMessage/Cowork message toolのClaude textにOpenTelemetry <code>assistant_response</code> eventを追加。","VS CodeとDesktop Code tabで、保存不能部分を<code>/compact</code>で保存する方法のwarningを追加。","VS CodeとDesktop Code tabで、resume sessionの過去message未loadを通知。","Cyber Verification Programのaccess tierをmodel名横のstartup headerへ追加。"]},
+      {"title":"変更","items":["Windowsのplugin marketplace追加時、virus scanner等によるdownload file短時間ロックを待機・再試行。","Screen Recording permission prompt後にClaude Codeをrestartしてchatをresume可能にし、computer useの初期context消費を削減。","proxy/gatewayのcompressed response破損時、raw ZlibErrorでなく平易なerrorを表示。","<code>/context</code>を短縮、<code>/usage</code>のmemory/速度、long conversation resume、MCP起動、<code>claude -p</code>/SDK開始時のmemory使用量を改善。","<code>/permissions</code>で無効なruleを拒否し理由を表示。Code Modeでworktree破棄確認、artifact読取り・更新、MCP tool description表示を改善。","Linux clipboard案内、413 proxy recovery、Windows Glob並列walkを改善。","Bedrock Mantle/Agent Platform/Foundryのmodel alias、auto mode、default/step-down、region設定を更新。","macOSのcomputer-useをreserved skill名にし、Desktop Code tabのOpenTelemetry service.name、model/settings扱いを更新。","OAuth token prefix、self-hosted runner setup、plan mode approval、voice dictation、feedback、schedule用語を更新。"]},
+      {"title":"修正","items":["<code>claude auth login</code>が保存失敗時に成功表示する問題を修正し、lock fileやdisk fullを示してexit 1にする。","named pipe、long string、large diff、hook output、local MCP stdout、damaged transcriptなどでRead、compaction、terminal、rewind、<code>/stats</code>がhang/freezeする問題を修正。","auto-compaction失敗後のPrompt is too long、summary output-limit、context overflowを修正。","SSE MCP再接続、task handle長、Remote Control status、MCP session ID、built-in server accounting、MCP tool callの各問題を修正。","permission拒否後のtool結果、CLAUDE.md/rules二重送信、usage-limit誤報、@mention text drop、plugin cache/temp folder、dictation長文消失を修正。","Bedrock、Google Cloud Agent Platform、Foundry、Microsoft Foundryでのfallback model、alias、profile、resume、gateway、subagent、availableModelsの各互換性問題を修正。","NotebookEdit、task delete/update、Ctrl+R history、Grep、keybinding、Bash diff、web search、workflow resume、self-hosted runner clone/configure-gitの各不具合を修正。","Code Modeの大きなtool input、queued message、background command、slash command、Agent SDK resume、artifact/design loading、computer-use Escの各不具合を修正。","[VS Code] Rewind、model picker、plugin管理、voice、accessibility、session表示、link、queue、scroll、fork、Remote Control、performanceの各UI不具合を修正。"]}],"url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.332","urlLabel":"v2.1.332 release notes"}],"url":"https://github.com/anthropics/claude-code/releases","urlLabel":"Claude Code releases"}
   ],
-  "exclusions": [
-    "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
-    "Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録。Researchの最新記事は11月23日付で対象開始時刻より前として除外。",
-    "Claude Code v2.1.331は対象開始前に公開されたため除外。"
-  ],
-  "sources": [
-    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
-    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
-    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
-    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
-    {"title": "ArtifactsをMacとWindowsアプリとして導入可能に", "url": "https://claude.com/resources/articles/install-as-app"},
-    {"title": "MCPサーバーがSkills配布・Tasks実行などに対応", "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"},
-    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
-    {"title": "Claude Code v2.1.331", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"}
+  "exclusions":["X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。","Claude Resourcesの11月24日付記事2件は公開時刻が非表示のため、掲載日ベースで収録。","Claude Code releaseはGitHub CLIで取得した公式metadataとrelease bodyを唯一のsource of truthとした。"],
+  "sources":[
+    {"title":"Anthropic Engineering","url":"https://www.anthropic.com/engineering"},{"title":"Anthropic Research","url":"https://www.anthropic.com/research"},{"title":"Anthropic News","url":"https://www.anthropic.com/news"},{"title":"Claude Resources","url":"https://claude.com/resources/articles"},{"title":"ArtifactsをMacとWindowsアプリとして導入可能に","url":"https://claude.com/resources/articles/install-as-app"},{"title":"MCPサーバーがSkills配布・Tasks実行などに対応","url":"https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"},{"title":"Claude Code releases","url":"https://github.com/anthropics/claude-code/releases"},{"title":"Claude Code v2.1.332","url":"https://github.com/anthropics/claude-code/releases/tag/v2.1.332"}
   ]
 }
