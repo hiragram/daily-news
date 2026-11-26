@@ -1,6 +1,6 @@
 {
   "date": "2026-11-26",
-  "windowLabel": "2026-11-25 04:03:57 UTC - 2026-11-26 04:03:57 UTC（JST: 2026年11月25日 13:03:57 - 11月26日 13:03:57）",
+  "windowLabel": "2026-11-25 09:56:45 UTC - 2026-11-26 09:56:45 UTC（JST: 2026年11月25日 18:56:45 - 11月26日 18:56:45）",
   "archiveTitle": "Messages API migration to Rust",
   "archiveSummary": "AnthropicがMessages APIをPythonからRustへ移行した検証手法と運用結果を公開。",
   "latestSummary": "Anthropic EngineeringはMessages APIのRust移行を公開。Claude Codeの対象時間内リリースはなく、Xは専用MCP未接続のため未確認。",
