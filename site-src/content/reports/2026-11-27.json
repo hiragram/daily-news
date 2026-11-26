@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-27",
+  "windowLabel": "2026-11-25 16:04:37 UTC - 2026-11-26 16:04:37 UTC（JST: 2026年11月26日 01:04:37 - 11月27日 01:04:37）",
+  "archiveTitle": "Claude Codeの新規releaseなし",
+  "archiveSummary": "直近24時間に時刻まで確認できる新規公式記事・Claude Code releaseはなし。Xは専用MCP未接続のため未確認。",
+  "latestSummary": "対象窓内の新規Claude Code releaseは<strong>0件</strong>。最新の<strong>v2.1.332</strong>は窓開始前に公開されており、公式本文の<strong>150</strong>箇条書きは完全取得して照合した。",
+  "summaryBullets": [
+    "<strong>Claude Code</strong>: 対象窓内の新規公式releaseは0件。最新の<strong>v2.1.332</strong>は2026-11-25 01:32:14 UTC公開で窓開始前。公式release bodyは150項目すべて取得・照合した。",
+    "<strong>Anthropic公式サイト</strong>: Engineering、Research、News、Claude Resourcesを確認。時刻まで公開された窓内の新規記事は確認できなかった。11月25日付のMessages API Rust移行記事は公開時刻が表示されず、前号に収録済みのため今回の厳密窓には重複掲載しない。",
+    "<strong>X</strong>: 専用MCP未接続のため、公式アカウントおよび監視対象エンジニアの投稿・関連返信は未確認。"
+  ],
+  "officialNews": [],
+  "officialZeroStates": [
+    {
+      "label": "公式サイトの窓内新規記事は0件",
+      "body": "Anthropic Engineering・Research・NewsとClaude Resourcesを確認。Newsの最新掲載は11月20日付、Claude Resourcesは11月24日付だった。Engineering/Researchの「Migrating our Messages API to Rust」は11月25日付だが公開時刻が非表示で、前号に一度だけ収録済みのため、今回の時刻境界をまたぐ重複掲載は避けた。"
+    },
+    {
+      "label": "Claude Codeの窓内新規releaseは0件",
+      "body": "GitHub CLIでrelease一覧と最新公式release bodyを確認。最新<strong>v2.1.332</strong>の公開時刻は2026-11-25 01:32:14 UTCで窓開始前。bodyの150箇条書きを完全取得して、新機能／変更・改善／修正に分類し照合したが、窓外のためこの日付のpanelには再掲しない。"
+    },
+    {
+      "label": "公式・エンジニアXは未確認",
+      "body": "<strong>$Claude Official X Watch</strong>と<strong>$Anthropic Engineer X Watch</strong>が必要とするX MCP接続がこの実行環境にないため、公開検索で代替せず、投稿・返信をitem化していない。"
+    }
+  ],
+  "signals": [],
+  "releasePanels": [
+    {
+      "title": "ブログ",
+      "headline": "0件",
+      "body": "公式一覧を確認したが、公開時刻まで確認できる対象24時間内の新規記事はなかった。時刻が非表示の11月25日付Engineering記事は、前号にのみ掲載している。",
+      "details": [
+        "Engineering・Research・News・Claude Resourcesを確認",
+        "日付だけの掲載を厳密なUTC時刻の新規記事とは断定しない"
+      ],
+      "url": "https://www.anthropic.com/engineering",
+      "urlLabel": "Anthropic Engineeringを開く"
+    },
+    {
+      "title": "Claude Code リリース",
+      "headline": "0件",
+      "body": "GitHub CLIで公式metadataと最新release bodyを完全取得。対象窓内の新規releaseはなく、最新<strong>v2.1.332</strong>は2026-11-25 01:32:14 UTC公開で窓外。本文の150箇条書きは完全取得・照合済みである。",
+      "details": [
+        "窓内releaseがないため、この日付の新機能／変更／修正の全項目訳は対象外",
+        "窓外のv2.1.332本文は完全取得済みで、公開時刻を機械比較して対象外と判定"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "urlLabel": "Claude Code releases"
+    }
+  ],
+  "exclusions": [
+    "X MCPが利用できないため、公式Xと監視対象エンジニアの投稿・関連返信は未確認として除外。",
+    "日付のみで公開時刻が表示されない公式記事は、厳密なUTC窓に属すると断定せず、すでに掲載した同一記事を重複収録しない。",
+    "Claude Code releaseはGitHub CLIで取得した公式metadataと完全なrelease bodyを唯一のsource of truthとした。v2.1.332の150箇条書きは完全取得・照合済みだが、公開時刻が対象窓外のため件数・和訳panelには含めない。"
+  ],
+  "sources": [
+    {"title": "Anthropic Engineering", "url": "https://www.anthropic.com/engineering"},
+    {"title": "Anthropic Research", "url": "https://www.anthropic.com/research"},
+    {"title": "Anthropic News", "url": "https://www.anthropic.com/news"},
+    {"title": "Claude Resources", "url": "https://claude.com/resources/articles"},
+    {"title": "Claude Code releases", "url": "https://github.com/anthropics/claude-code/releases"},
+    {"title": "Claude Code v2.1.332", "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"}
+  ]
+}
